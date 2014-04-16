@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IncidentDefs>
+
+
+
+  <IncidentDef>
+    <defName>RaidEnemy</defName>
+    <workerClass>IncidentWorker_RaidEnemy</workerClass>
+    <chance>8</chance>
+    <global>true</global>
+    <favorability>Bad</favorability>
+    <threatLevel>BigThreat</threatLevel>
+    <pointsScaleable>true</pointsScaleable>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>RaidFriendly</defName>
+    <workerClass>IncidentWorker_RaidFriendly</workerClass>
+    <chance>3</chance>
+    <global>true</global>
+    <favorability>Good</favorability>
+    <pointsScaleable>true</pointsScaleable>
+  </IncidentDef>
+
+
+  <IncidentDef>
+    <defName>TravelerGroup</defName>
+    <workerClass>IncidentWorker_TravelerGroup</workerClass>
+    <chance>8</chance>
+    <global>true</global>
+    <favorability>Good</favorability>
+    <pointsScaleable>true</pointsScaleable>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>VisitorGroup</defName>
+    <workerClass>IncidentWorker_VisitorGroup</workerClass>
+    <chance>8</chance>
+    <global>true</global>
+    <favorability>Good</favorability>
+    <pointsScaleable>true</pointsScaleable>
+  </IncidentDef>
+
+
+
+
+  <IncidentDef>
+		<defName>Eclipse</defName>
+		<WorkerClass>IncidentWorker_Eclipse</WorkerClass>
+		<chance>5</chance>
+		<global>true</global>
+		<minRefireInterval>100000</minRefireInterval>
+		<favorability>Bad</favorability>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>TraderArrivalGeneral</defName>
+		<workerClass>IncidentWorker_TraderArrivalGeneral</workerClass>
+		<global>true</global>
+		<favorability>Good</favorability>
+		<chance>13</chance>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>TraderArrivalSlaver</defName>
+		<workerClass>IncidentWorker_TraderArrivalSlaver</workerClass>
+		<global>true</global>
+		<favorability>Good</favorability>
+		<populationEffect>Increase</populationEffect>
+		<chance>4.5</chance>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>WandererJoin</defName>
+		<workerClass>IncidentWorker_WandererJoin</workerClass>
+		<chance>0.5</chance>
+		<global>true</global>
+		<favorability>VeryGood</favorability>
+		<populationEffect>Increase</populationEffect>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>SolarFlare</defName>
+		<workerClass>IncidentWorker_SolarFlare</workerClass>
+		<chance>2.5</chance>
+		<global>true</global>
+		<minRefireInterval>100000</minRefireInterval>
+		<favorability>Bad</favorability>
+	</IncidentDef>
+
+
+	<IncidentDef>
+		<defName>ShortCircuit</defName>
+		<workerClass>IncidentWorker_ShortCircuit</workerClass>
+		<chance>1.5</chance>
+		<global>true</global>
+		<minRefireInterval>100000</minRefireInterval>
+		<favorability>Bad</favorability>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>ResourcePodCrash</defName>
+		<workerClass>IncidentWorker_ResourcePodCrash</workerClass>
+		<chance>6.0</chance>
+		<global>true</global>
+		<favorability>Good</favorability>
+	</IncidentDef>
+
+
+	<IncidentDef>
+		<defName>RefugeePodCrash</defName>
+		<workerClass>IncidentWorker_RefugeePodCrash</workerClass>
+		<chance>1.5</chance>
+		<global>true</global>
+		<favorability>Good</favorability>
+		<populationEffect>Increase</populationEffect>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>MiracleHeal</defName>
+		<workerClass>IncidentWorker_MiracleHeal</workerClass>
+		<chance>1</chance>
+		<global>true</global>
+		<favorability>Good</favorability>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>CropBlight</defName>
+		<workerClass>IncidentWorker_CropBlight</workerClass>
+		<chance>2.5</chance>
+		<global>true</global>
+		<favorability>Bad</favorability>
+		<minRefireInterval>80000</minRefireInterval>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>AnimalInsanity</defName>
+		<workerClass>IncidentWorker_AnimalInsanity</workerClass>
+		<chance>2.0</chance>
+		<global>true</global>
+		<minRefireInterval>400000</minRefireInterval>
+		<favorability>VeryBad</favorability>
+		<threatLevel>BigThreat</threatLevel>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+
+
+	<IncidentDef>
+		<defName>AnimalInsanitySingle</defName>
+		<workerClass>IncidentWorker_AnimalInsanitySingle</workerClass>
+		<chance>9</chance>
+		<global>true</global>
+		<favorability>Bad</favorability>
+		<threatLevel>SmallThreat</threatLevel>
+	</IncidentDef>
+
+
+</IncidentDefs>

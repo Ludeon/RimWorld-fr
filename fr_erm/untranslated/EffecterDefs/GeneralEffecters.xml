@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EffecterDefs>
+
+	<EffecterDef>
+		<defName>EatVegetarian</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<startScale>
+					<min>0.5</min>
+					<max>0.7</max>
+				</startScale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.35</positionLerpFactor>
+				<TexName>FoodBitVegetarian</TexName>
+				<Altitude>Projectile</Altitude>
+				<startVelocity>
+					<min>0</min>
+					<max>0.005</max>
+				</startVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+	<EffecterDef>
+		<defName>EatMeat</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<startScale>
+					<min>0.25</min>
+					<max>0.4</max>
+				</startScale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.35</positionLerpFactor>
+				<TexName>FoodBitMeat</TexName>
+				<Altitude>Projectile</Altitude>
+				<startVelocity>
+					<min>0</min>
+					<max>0.005</max>
+				</startVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+	<EffecterDef>
+		<defName>Butcher</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<startScale>
+					<min>0.3</min>
+					<max>0.7</max>
+				</startScale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.6</positionLerpFactor>
+				<positionRadius>0.6</positionRadius>
+				<TexName>FoodBitMeat</TexName>
+				<Altitude>Projectile</Altitude>
+				<startVelocity>
+					<min>0</min>
+					<max>0.005</max>
+				</startVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+	<EffecterDef>
+		<defName>CutStone</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<startScale>
+					<min>0.3</min>
+					<max>0.7</max>
+				</startScale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.6</positionLerpFactor>
+				<positionRadius>0.6</positionRadius>
+				<TexName>StoneBit</TexName>
+				<Altitude>Projectile</Altitude>
+				<startVelocity>
+					<min>0</min>
+					<max>0.005</max>
+				</startVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+	<EffecterDef>
+		<defName>Cook</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+				<startScale>
+					<min>0.3</min>
+					<max>0.7</max>
+				</startScale>
+				<ticksBetweenMotes>20</ticksBetweenMotes>
+				<positionLerpFactor>0.6</positionLerpFactor>
+				<positionRadius>0.6</positionRadius>
+				<TexName>CookBit</TexName>
+				<Altitude>Projectile</Altitude>
+				<startVelocity>
+					<min>0</min>
+					<max>0.005</max>
+				</startVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+
+
+	<EffecterDef>
+		<defName>Research</defName>
+		<children>
+		<li>
+			<subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+			<soundDef>InteractResearch</soundDef>
+			<intermittentSoundInterval>750</intermittentSoundInterval>
+		</li>
+		<li>
+			<subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+			<burstCount>
+				<min>2</min>
+				<max>4</max>
+			</burstCount>
+			<positionRadius>0.5</positionRadius>
+			<startScale>
+				<min>1</min>
+				<max>1</max>
+			</startScale>
+			<ticksBetweenMotes>500</ticksBetweenMotes>
+			<positionLerpFactor>1</positionLerpFactor>
+			<TexName>AirPuff</TexName>
+			<Altitude>Projectile</Altitude>
+			<startVelocity>
+				<min>0.02</min>
+				<max>0.025</max>
+			</startVelocity>
+		</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+
+	<EffecterDef>
+		<defName>ConstructMetal</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+				<soundDef>InteractConstruct</soundDef>
+				<intermittentSoundInterval>50</intermittentSoundInterval>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>DustPuff</TexName>
+				<ChancePerTick>0.035</ChancePerTick>
+				<Altitude>Projectile</Altitude>
+				<startScale>
+					<min>0.9</min>
+					<max>1.3</max>
+				</startScale>
+				<rotationRate>
+					<min>-1</min>
+					<max>1</max>
+				</rotationRate>
+				<velocity>
+					<min>0.01</min>
+					<max>0.03</max>
+				</velocity>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>SparkFlash</TexName>
+				<spawnLocType>BetweenTouchingSquares</spawnLocType>
+				<positionLerpFactor>0.49</positionLerpFactor>
+				<ChancePerTick>0.2</ChancePerTick>
+				<Altitude>OverheadMote</Altitude>
+				<startScale>
+					<min>2.5</min>
+					<max>3.5</max>
+				</startScale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>SparkThrown</TexName>
+				<spawnLocType>BetweenTouchingSquares</spawnLocType>
+				<positionLerpFactor>0.49</positionLerpFactor>
+				<ChancePerTick>0.2</ChancePerTick>
+				<StartScale>
+					<min>0.24</min>
+					<max>0.34</max>
+				</StartScale>
+				<airTicks>
+					<min>5</min>
+					<max>10</max>
+				</airTicks>
+				<rotationRate>
+					<min>-4</min>
+					<max>4</max>
+				</rotationRate>
+				<velocity>
+					<min>0.12</min>
+					<max>0.4</max>
+				</velocity>
+				<moveDirection>
+					<min>135</min>
+					<max>225</max>
+				</moveDirection>
+				<positionRadius>0.02</positionRadius>
+				<Altitude>Projectile</Altitude>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+	<EffecterDef>
+		<defName>ConstructDig</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+				<soundDef>InteractDig</soundDef>
+				<intermittentSoundInterval>100</intermittentSoundInterval>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>DustPuff</TexName>
+				<ChancePerTick>0.035</ChancePerTick>
+				<Altitude>Projectile</Altitude>
+				<startScale>
+					<min>0.9</min>
+					<max>1.2</max>
+				</startScale>
+				<rotationRate>
+					<min>-1</min>
+					<max>1</max>
+				</rotationRate>
+				<velocity>
+					<min>0.01</min>
+					<max>0.03</max>
+				</velocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+	<EffecterDef>
+		<defName>Repair</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+				<soundDef>WeldLoop</soundDef>
+				<ticksBeforeSustainerStart>35</ticksBeforeSustainerStart>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>SparkFlash</TexName>
+				<spawnLocType>BetweenTouchingSquares</spawnLocType>
+				<positionLerpFactor>0.49</positionLerpFactor>
+				<ChancePerTick>0.2</ChancePerTick>
+				<Altitude>OverheadMote</Altitude>
+				<startScale>
+					<min>2.5</min>
+					<max>3.5</max>
+				</startScale>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<TexName>SparkThrown</TexName>
+				<spawnLocType>BetweenTouchingSquares</spawnLocType>
+				<positionLerpFactor>0.49</positionLerpFactor>
+				<ChancePerTick>0.2</ChancePerTick>
+				<StartScale>
+					<min>0.24</min>
+					<max>0.34</max>
+				</StartScale>
+				<airTicks>
+					<min>5</min>
+					<max>10</max>
+				</airTicks>
+				<rotationRate>
+					<min>-4</min>
+					<max>4</max>
+				</rotationRate>
+				<velocity>
+					<min>0.12</min>
+					<max>0.4</max>
+				</velocity>
+				<moveDirection>
+					<min>135</min>
+					<max>225</max>
+				</moveDirection>
+				<positionRadius>0.02</positionRadius>
+				<Altitude>Projectile</Altitude>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+
+	<EffecterDef>
+		<defName>Mine</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+				<soundDef>PickHit</soundDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<TexName>SparkFlash</TexName>
+				<spawnLocType>BetweenTouchingSquares</spawnLocType>
+				<positionLerpFactor>0.6</positionLerpFactor>
+				<ChancePerTick>0.2</ChancePerTick>
+				<Altitude>OverheadMote</Altitude>
+				<startScale>
+					<min>2.5</min>
+					<max>4.5</max>
+				</startScale>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+
+
+
+
+
+	<!-- Interact symbols -->
+
+	<EffecterDef>
+		<defName>Sow</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+				<TexName>Sow</TexName>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>Harvest</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+				<TexName>Harvest</TexName>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>Clean</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+				<TexName>Clean</TexName>
+			</li>
+		</children>
+	</EffecterDef>
+
+</EffecterDefs>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MapGenerators>
+
+	<!-- It's basically just a series of steps, each of which does something different.
+			Some of them refer to each opther. Specifically, some great abstract "FloatGrids", which are not part of the map,
+			but which are used by later generation steps. -->
+
+	<MapGeneratorDef>
+		<defName>AridA</defName>
+		<genners>
+			<li Class="Genner_FloatGridFadedCircle">
+				<gridName>Sanctity</gridName>
+				<radiusInner>12</radiusInner>
+				<radiusOuter>35</radiusOuter>
+			</li>
+      <li Class="Genner_RandomSelector">
+        <options>
+          <li>
+            <weight>10</weight>
+            <genner Class="Genner_FloatGridPerlin">
+              <gridName>TerrainIntensity</gridName>
+              <perlinConfig>
+                <ampLow>0.4</ampLow>
+                <ampMid>0.3</ampMid>
+                <ampHigh>0.3</ampHigh>
+              </perlinConfig>
+            </genner>
+          </li>
+					<li>
+						<weight>4</weight>
+						<genner Class="Genner_FloatGridPerlin">
+							<gridName>TerrainIntensity</gridName>
+							<perlinConfig>
+								<ampLow>0.415</ampLow>
+								<ampMid>0.315</ampMid>
+								<ampHigh>0.315</ampHigh>
+							</perlinConfig>
+						</genner>
+					</li>
+					<li>
+            <weight>2</weight>
+            <genner Class="Genner_FloatGridPerlin">
+              <gridName>TerrainIntensity</gridName>
+              <perlinConfig>
+                <ampLow>0.44</ampLow>
+                <ampMid>0.34</ampMid>
+                <ampHigh>0.34</ampHigh>
+              </perlinConfig>
+            </genner>
+          </li>
+        </options>
+      </li>
+      <li Class="Genner_FloatGridGrossFade">
+        <gridName>TerrainIntensity</gridName>
+        <skipChance>0.2</skipChance>
+        <possibleFadeSpans>
+          <li>0.43</li>
+          <li>0.43</li>
+          <li>0.43</li>
+          <li>0.1</li>
+        </possibleFadeSpans>
+      </li>
+      <li Class="Genner_ThingsFromGrid">
+				<gridName>TerrainIntensity</gridName>
+				<thresholds>
+					<li>
+						<thingDef>Rock</thingDef>
+						<maxGridVal>0.45</maxGridVal>
+					</li>
+				</thresholds>
+			</li>
+			<li Class="Genner_RoofsFromGrid">
+				<gridName>TerrainIntensity</gridName>
+				<thresholds>
+					<li>
+						<roofDef>RoofRockThick</roofDef>
+            <maxGridVal>0.40</maxGridVal>
+					</li>
+					<li>
+						<roofDef>RoofRockThin</roofDef>
+            <maxGridVal>0.43</maxGridVal>
+          </li>
+				</thresholds>
+			</li>
+			<li Class="Genner_RockDebris"/>
+			<li Class="Genner_TerrainFromGrid">
+				<gridName>TerrainIntensity</gridName>
+				<thresholds>
+					<li>
+						<terrainDef>RoughStone</terrainDef>
+            <maxGridVal>0.46</maxGridVal>
+          </li>
+					<li>
+						<terrainDef>Gravel</terrainDef>
+						<maxGridVal>0.47</maxGridVal>
+					</li>
+					<li>
+						<terrainDef>Soil</terrainDef>
+            <maxGridVal>0.51</maxGridVal>
+          </li>
+          <li>
+            <terrainDef>Sand</terrainDef>
+            <maxGridVal>100</maxGridVal>
+					</li>
+				</thresholds>
+			</li>
+			<li Class="Genner_TerrainPatches">
+				<terrainDef>SoilRich</terrainDef>
+				<patchSizeRange>
+					<min>7</min>
+					<max>11</max>
+				</patchSizeRange>
+				<patchesPer10kSquaresRange>
+					<min>0.7</min>
+					<max>2</max>
+				</patchesPer10kSquaresRange>
+			</li>
+
+			<!-- Place minerals inside the rocks -->
+			<li Class="Genner_ScatterMinerals">
+				<thingDefs>
+					<li>Mineral</li>
+				</thingDefs>
+				<chunkSize>29</chunkSize>
+				<minSpacing>5</minSpacing>
+				<countPer10kSquaresRange>
+					<min>10</min>
+					<max>10</max>
+				</countPer10kSquaresRange>
+				<forcedPlaceOffsets>
+					<li>(-5,0,-11)</li>
+				</forcedPlaceOffsets>
+			</li>
+
+			<!-- Steam geysers -->
+			<li Class="Genner_ScatterThings">
+				<thingDefs>
+					<li>SteamGeyser</li>
+				</thingDefs>
+				<minSpacing>35</minSpacing>
+        <buildableAreaOnly>true</buildableAreaOnly>
+				<countPer10kSquaresRange>
+					<min>0.7</min>
+					<max>1.0</max>
+				</countPer10kSquaresRange>
+				<clearSpaceSize>30</clearSpaceSize>
+				<minDistToPlayerStart>15</minDistToPlayerStart>
+			</li>
+
+			<!-- Some simple stone ruins -->
+			<li Class="Genner_ScatteredRuinsSimple">
+				<countPer10kSquaresRange>
+					<min>1.0</min>
+					<max>4.0</max>
+				</countPer10kSquaresRange>
+				<shedSizeRange>
+					<min>3</min>
+					<max>10</max>
+				</shedSizeRange> 
+				<wallLengthRange>
+					<min>4</min>
+					<max>14</max>
+				</wallLengthRange>
+			</li>
+
+
+			<!-- Scatter some resources across the map -->
+			<li Class="Genner_ScatterThingGroups">
+				<thingDefs>
+					<li>RawPotatoes</li>
+					<li>RawBerries</li>
+					<li>Metal</li>
+					<li>Metal</li>
+					<li>Silver</li>
+				</thingDefs>
+				<minSpacing>15</minSpacing>
+				<countPer10kSquaresRange>
+					<min>1.7</min>
+					<max>1.7</max>
+				</countPer10kSquaresRange>
+				<spotMustBeStandable>true</spotMustBeStandable>
+				<groupSizeRange>
+					<min>3</min>
+					<max>6</max>
+				</groupSizeRange>
+				<stackCountRange>
+					<min>40</min>
+					<max>60</max>
+				</stackCountRange>
+			</li>
+
+
+			<!-- Several scatter groups to give players starting supplies-->
+			<li Class="Genner_ScatterThingGroups">
+				<thingDefs>
+					<li>RawPotatoes</li>
+				</thingDefs>
+				<spotMustBeStandable>true</spotMustBeStandable>
+				<groupSizeRange>
+					<min>6</min>
+					<max>6</max>
+				</groupSizeRange>
+				<stackCountRange>
+					<min>40</min>
+					<max>60</max>
+				</stackCountRange>
+				<forcedPlaceOffsets>
+					<li>(5,0,11)</li>
+				</forcedPlaceOffsets>
+			</li>
+			<li Class="Genner_ScatterThingGroups">
+				<thingDefs>
+					<li>Metal</li>
+				</thingDefs>
+				<spotMustBeStandable>true</spotMustBeStandable>
+				<groupSizeRange>
+					<min>6</min>
+					<max>6</max>
+				</groupSizeRange>
+				<stackCountRange>
+					<min>40</min>
+					<max>60</max>
+				</stackCountRange>
+				<forcedPlaceOffsets>
+					<li>(-2,0,5)</li>
+					<li>(-2,0,1)</li>
+				</forcedPlaceOffsets>
+			</li>
+			<li Class="Genner_ScatterThingGroups">
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+				<spotMustBeStandable>true</spotMustBeStandable>
+				<groupSizeRange>
+					<min>6</min>
+					<max>6</max>
+				</groupSizeRange>
+				<stackCountRange>
+					<min>40</min>
+					<max>60</max>
+				</stackCountRange>
+				<forcedPlaceOffsets>
+					<li>(-2,0,5)</li>
+					<li>(-2,0,1)</li>
+				</forcedPlaceOffsets>
+			</li>
+			<li Class="Genner_ScatterThingGroups">
+				<thingDefs>
+					<li>Silver</li>
+				</thingDefs>
+				<spotMustBeStandable>true</spotMustBeStandable>
+				<groupSizeRange>
+					<min>3</min>
+					<max>3</max>
+				</groupSizeRange>
+				<stackCountRange>
+					<min>40</min>
+					<max>60</max>
+				</stackCountRange>
+				<forcedPlaceOffsets>
+					<li>(-7,0,7)</li>
+					<li>(9,0,6)</li>
+				</forcedPlaceOffsets>
+			</li>
+
+			<!-- Hardcoded, the colonists themselves and their zones -->
+			<li Class="Genner_Colonists"/>
+
+			<!-- Some specific starting items -->
+			<li Class="Genner_StartingItems">
+				<startingItems>
+					<li>
+						<thingDef>Gun_Pistol</thingDef>
+						<offset>(0,0,-5)</offset>
+					</li>
+					<li>
+						<thingDef>Gun_Lee-Enfield</thingDef>
+						<offset>(2,0,-3)</offset>
+					</li>
+					<li>
+						<thingDef>Gun_Pistol</thingDef>
+						<offset>(4,0,-3)</offset>
+					</li>			
+				</startingItems>	
+			</li>
+			<li Class="Genner_StartingItems">
+				<startingItems>
+					<li>
+						<thingDef>SleepingSpot</thingDef>
+						<offset>(2,0,-6)</offset>
+					</li>
+					<li>
+						<thingDef>SleepingSpot</thingDef>
+						<offset>(5,0,-5)</offset>
+						<rot>2</rot>
+					</li>
+					<li>
+						<thingDef>SleepingSpot</thingDef>
+						<offset>(3,0,-8)</offset>
+						<rot>1</rot>
+					</li>
+				</startingItems>
+			</li>
+
+			<!-- Fill the ecosystem -->
+			<li Class="Genner_Plants"/>
+			<li Class="Genner_Animals"/>
+
+		</genners>
+
+	</MapGeneratorDef>
+
+</MapGenerators>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+	<NameMakerDef>
+		<defName>NamerPersonTribal</defName>
+		<patterns>
+			<li>TRIBALWORDA</li>
+			<li>TRIBALWORDA</li>
+			<li>TRIBALWORDA</li>
+			<li>TRIBALWORDA</li>
+			<li>TRIBALWORDA TRIBALWORDB</li>
+			<li>TRIBALWORDA TRIBALWORDB</li>
+			<li>TRIBALWORDA ANIMAL</li>
+			<li>ANIMAL TRIBALWORDA</li>
+			<li>COLOR ANIMAL</li>
+		</patterns>
+		<patternFillers>
+			<li>
+				<keyString>TRIBALWORDA</keyString>
+				<fillInFiles>
+					<li>NameBanks/TribalWords</li>
+				</fillInFiles>
+			</li>
+			<li>
+				<keyString>TRIBALWORDB</keyString>
+				<fillInFiles>
+					<li>NameBanks/TribalWords</li>
+				</fillInFiles>
+			</li>
+			<li>
+				<keyString>ANIMAL</keyString>
+				<fillInFiles>
+					<li>NameBanks/Nouns_Animals</li>
+				</fillInFiles>
+			</li>
+			<li>
+				<keyString>COLOR</keyString>
+				<fillInFiles>
+					<li>NameBanks/Colors</li>
+				</fillInFiles>
+			</li>
+		</patternFillers>
+	</NameMakerDef>
+
+</NameMakerDefs>
