@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha486 -->
+<LanguageData>
+
+  <!-- Various -->
+  <WorkLeft>Travail restant</WorkLeft>
+  <Contents>Contenus</Contents>
+  <ContainedResources>Ressources contenues</ContainedResources>
+  <ForPrisonerUse>Assigné aux prisonniers</ForPrisonerUse>
+  <ForColonistUse>Assignéaux colons</ForColonistUse>
+  <Owner>Propriétaire</Owner>
+  <Nobody>Personne</Nobody>
+  <Unowned>Disponible</Unowned>
+  <DeadTime>Mort {0}</DeadTime>
+  <WalkSpeed>vitesse de marche {0}</WalkSpeed>
+  <DyingLower>mourrant</DyingLower>
+  <PawnEffectiveness>Efficacité</PawnEffectiveness>
+  <FilthOnFeet>Pieds sales :</FilthOnFeet>
+  <NotEnoughStoredLower>pas assez de ressources en stock</NotEnoughStoredLower>
+  <NothingLower>rien</NothingLower>
+
+  <!-- Turrets -->
+  <GunInstalled>Installé</GunInstalled>
+  <MinimumRange>Portée minimum</MinimumRange>
+  <CanFireIn>Prêt à tirer dans</CanFireIn> 
+   
+  
+	<!-- Job reports -->
+	<ReportHaulingTo>Transporte {0} jusqu'à {1}.</ReportHaulingTo>
+	<ReportHauling>Transporte {0}.</ReportHauling>
+  
+ 	<!-- Shooting report -->
+  <WeaponMissRadius>Rayon d'échec de l'arme</WeaponMissRadius>
+	<ShootReportSkill>Compétence</ShootReportSkill>
+	<ShootReportWeapon>Arme</ShootReportWeapon>
+	<Darkness>Obscurité</Darkness>
+	<TargetProne>Cible à terre</TargetProne>
+	<TargetSize>Taille de la cible</TargetSize>
+	<Weather>Climat</Weather>
+	<ShootingCover>Couvert</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0} bloque {1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>aucun couvert</NoCoverLower>
+ 	
+	
+	<!-- Status levels -->
+  <Mood>Humeur</Mood>
+  <MoodTip>L'humeur est maintenue en satisfaisant des besoins physiologiques et psychologiques.\n\nSi l'humeur d'une personne tombe trop bas, celle-ci peut subir un burn-out.</MoodTip>
+  <Food>Nourriture</Food>
+  <FoodTip>La nourriture désigne l'état de satisfaction d'un colon en fonction de la qualité des plats ingérés.\n\nCet indicateur est remis à zéro lorsque le colon mange. Aprés un certain temps, le niveau diminue jusqu'à ce que le colon se nourrisse à nouveau. Au niveau zéro, la personne souffre de famine et commence à subir des dégâts constants.</FoodTip>
+  <Rest>Repos</Rest>
+  <RestTip>Le repos désigne la qualité et le comfort du sommeil d'un colon.\n\nLe repos augmente jusqu'au maximum lorsqu'un personne dort dans un lit, puis diminue progressivement lorsque la personne est debout.</RestTip>
+  <Environment>Environnement</Environment>
+  <EnvironmentTip>L'environnement reflette la beauté et le ressenti du lieu dans lequel se trouve un colon.\n\nL'environnement est élevé lorsque l'endroit est spatieux et bien décoré. Il est pauvre lorsque les environs sont repoussants.</EnvironmentTip>
+  <Openness>Ouverture</Openness> 
+
+	
+	<!-- Thoughts -->
+  <ThoughtExpiresIn>Expire dans : {0}</ThoughtExpiresIn>
+  <ThoughtStartsExpiringIn>Commencera à expirer dans : {0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>Finit d'expirer dans : {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>Seuil de crise de nerfs</MentalBreakThreshold>
+  
+  <!--Effectiveness-->
+  <EffectivenessFull>Totale</EffectivenessFull>
+  <EffectivenessReduced>Réduite</EffectivenessReduced>
+  <EffectivenessImpaired>Affaiblie</EffectivenessImpaired>
+  <EffectivenessIncapacitated>Inapte</EffectivenessIncapacitated>
+  
+  <!-- Pawn info readout -->
+  <Health>Santé</Health>
+  <PawnMainDescWithFactionGendered>{0} {1} de {2}</PawnMainDescWithFactionGendered>
+  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
+  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+  <Faction>Faction</Faction>
+  <Equipped>Equipé</Equipped>
+  <EquippedNothing>Rien</EquippedNothing>
+  <Incapacitated>Invalide</Incapacitated>
+  <InRestraints>Menotté (ralenti)</InRestraints>
+  <Carrying>Transporte</Carrying>
+  <SanityDazedWander>Mentalement brisé : Perdu et errant</SanityDazedWander>
+  <SanityGiveUpExit>Mentalement brisé : Abandonne et quitte la colonie</SanityGiveUpExit>
+  <SanityPanicFlee>Mentalement brisé : Fuit paniqué</SanityPanicFlee>
+  <SanityPsychotic>Mentalement brisé : Folie meurtrière</SanityPsychotic>
+  
+  
+  <!-- Inspector -->
+  <SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
+  <DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>
+  
+  <!-- ITab titles -->
+  <TabBills>Commandes</TabBills>
+  <TabGrowing>Culture</TabGrowing>
+  <TabCharacter>Personnage</TabCharacter>
+  <TabNeeds>Besoinss</TabNeeds>
+  <TabPrisoner>Prisonnier</TabPrisoner>
+  <TabGear>Tenue</TabGear>
+  <TabThoughts>Humeur</TabThoughts>
+  <TabStorage>Stockage</TabStorage>
+
+	<!-- ITabs -->
+	<AddBill>Ajouter une commande</AddBill>
+	<RecipeRequiresSkills>La formule {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
+	<BillConfig>Configurer</BillConfig>
+	<SuspendedCaps>EN PAUSE</SuspendedCaps>
+	<PlantVerb>Planter</PlantVerb>
+	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
+	<PrisonerGetsFood>Prend à manger</PrisonerGetsFood>
+	<ShouldTryToRecruit>Essaie de recruter</ShouldTryToRecruit>
+	<PrisonerNoInteraction>Aucune intéraction</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
+	<PrisonerMildBeating>Bousculade</PrisonerMildBeating>
+	<PrisonerViciousBeating>Torture</PrisonerViciousBeating>
+	<PrisonerExecution>Exécution</PrisonerExecution>
+	<Equipment>Equipement</Equipment>
+	<Apparel>Vêtements</Apparel>
+	<Inventory>Inventaire</Inventory>
+	<ThingInfo>Information</ThingInfo>
+	<DropThing>Lacher</DropThing>
+	<TotalModifiers>Modificateurs totaux</TotalModifiers>
+	<DamageAbsorption>Absorption de dégâts</DamageAbsorption>
+	<MoveSpeed>Vitesse de mouvement</MoveSpeed>
+	
+	<!-- like 'Blood of John' -->
+	<OfLower>de</OfLower>
+
+	<!-- Power readout -->
+	<PowerNotConnected>N'est pas connecté à une source d'alimentation.</PowerNotConnected>
+	<PowerConnectedRate>Puissance de l'alimentation : {0}W</PowerConnectedRate>
+	<PowerConnectedStored>Puissance disponible en réserve : {0}Wd</PowerConnectedStored>
+  <PowerNeeded>Énergie requise</PowerNeeded>
+  <PowerOutput>Énergie produite</PowerOutput>
+  <PowerBatteryStored>Stocké</PowerBatteryStored>
+  <PowerBatteryEfficiency>Efficacité</PowerBatteryEfficiency>
+  
+	<!--Rotting-->
+	<RotStateFresh>Frais</RotStateFresh>
+	<RotStateRotting>En train de pourrir</RotStateRotting>
+	<RotStateDessicated>Desséché</RotStateDessicated>
+	
+  <!-- Shooting tooltip -->
+  <ShotBy>Touché par {0}</ShotBy>
+  <CannotHit>Ne peut pas toucher la cible.</CannotHit>
+  
+    <!-- Storage priority labels -->
+  <StoragePriorityUnstored>Refusé</StoragePriorityUnstored>
+  <StoragePriorityLow>Basse</StoragePriorityLow>
+  <StoragePriorityNormal>Normale</StoragePriorityNormal>
+  <StoragePriorityPreferred>Haute</StoragePriorityPreferred>
+  <StoragePriorityImportant>Importante</StoragePriorityImportant>
+  <StoragePriorityCritical>Critique</StoragePriorityCritical>
+
+  <!-- Meal -->
+  <TimeToSpoil>Périme dans {0}</TimeToSpoil>
+  <Ingredients>Ingrédients</Ingredients>
+
+  <!-- Plants -->
+  <PercentGrowth>{0}% de croissance</PercentGrowth>
+  <Growing>En train de pousser</Growing>
+  <NotGrowingNow>Ne pousse pas actuellement (Nécessite d'être {0}).</NotGrowingNow>
+  <FullyGrownIn>Pleinement mur dans {0} de croissance.</FullyGrownIn>
+  <ReadyToHarvest>Prêt à récolter.</ReadyToHarvest>
+  <Mature>Mûr.</Mature>
+  
+  <!-- Zones -->
+  <Zone>Zone</Zone>
+  <GrowingZone>Zone agricole</GrowingZone>
+  <Stockpile>Zone de stockage</Stockpile>
+  <DumpingStockpile>Décharge</DumpingStockpile>
+  <Priority>Priorité</Priority>
+
+  <!-- General use time stuff -->
+  <DaysLower>jours</DaysLower>
+  <SecondsLower>secondes</SecondsLower>
+    
+  <!-- Mouseover indicator -->
+  <Undiscovered>Non-découvert</Undiscovered>
+  
+  <!-- Buttons -->
+  <ZoneVisibilityToggleButton>Active la visibilité de la zone.</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>Active l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
+  
+  
+  <!-- Fire -->
+  <Fire>Feu</Fire>
+  <FireOn>Feu sur {0}</FireOn>
+  <Burning>Brûle</Burning>
+  <FireSizeLower>importance de l'incendie {0}</FireSizeLower>
+   
+
+  <!-- Map conditions (eclipse, solar flare, etc )-->
+  <MapConditionsTip>Conditions particulières affectant actuellement la zone.</MapConditionsTip>
+
+  
+  
+  <!-- Building placement restricters -->
+  <MustPlaceUnroofed>Ne peut être placé sous un toit.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>Doit être placé avec la tête attachée à la rampe d'assemblage du vaisseau.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Doit être placé prés d'un équipement requérant un entonoir.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>Doit être directement placé sur un geyser.</MustPlaceOnSteamGeyser>
+  
+  <!-- Longsleep pod -->
+  <PodContains>Contient</PodContains>
+
+  <!-- Ship launch report -->
+  <ShipReportCannotLaunch>Lancement impossible.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>Paré au lancement.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Composants critiques manquants</ShipReportMissingPart>
+  <ShipReportNoFullPods>Pas de capsule d'hypersommeil utilisée</ShipReportNoFullPods>
+
+  
+  
+  <!-- Game over -->
+  <GameOverEveryoneDead>Tout le monde est mort ou parti. Cette histoire touche à sa fin.\n\nPeut-être quelqu'un trouvera t-il un intérêt à ces ruines et s'en servira à son tour.</GameOverEveryoneDead>
+  <GameOverShipLaunched>Vous avez lancé le vaisseau ! Ces colons se sont échappés :\n\n{0}\nCes colons sont restés sur place :\n\n{1}\nVotre IA va désormais guider le vaisseau en lieu sûr. Elle pourrait vous déposer sur une planètre plus hospitalière de ce système. Ou bien pourrait-elle entamer un voyage séculaire vers une autre étoile ? Elle pourrait aussi décider de cacher le vaisseau sous la glace d'un astéroïde durant quelques millénaires, attendant une époque plus clémente.\n\nVous le saurez lorsque vous vous réveillerez.</GameOverShipLaunched>
+  <GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
+  <GameOverMainMenu>Menu principal</GameOverMainMenu>
+  
+  
+</LanguageData>
