@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha486 -->
+<!-- Compatible vAlpha566 -->
 <LanguageData>
 
 	<CommandForbiddenDesc>Interdit - les colons n'auront aucune interaction avec ceci.</CommandForbiddenDesc>
 	<CommandNotForbiddenDesc>Autorisé - les colons peuvent interagir avec ceci.</CommandNotForbiddenDesc>
 
+  <!-- Power -->
   <CommandTogglePowerDesc>Active l'alimentation électrique.</CommandTogglePowerDesc>
   <CommandTogglePowerLabel>Activer l'alimentation</CommandTogglePowerLabel>
+
+  <CommandTryReconnectLabel>Reconnecter</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Tenter de reconnecter au circuit électrique le plus proche de moi. C'est utile si je suis connecté à un circuit non alimenté et qu'il y a un autre circuit alimenté à proximité.</CommandTryReconnectDesc>
+
 
   <CommandGatherSpotToggleLabel>Lieu de rassemblement</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Actif - Les colons se rassembleront aux alentours de cet objet.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Inactif - Les colons ne se rassembleront pas autour de cet objet.</CommandGatherSpotToggleDescInactive>
   
   
- 
+  <!-- Drafting --> 
   <CommandDraftLabel>Enrôler</CommandDraftLabel>
   <CommandUndraftLabel>Démobiliser</CommandUndraftLabel>
   <CommandToggleDraftDesc>Active l'enrôlement militaire.\n\nLes personnes enrôlées exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
@@ -23,12 +28,21 @@
   <CommandCancelConstructionLabel>Annuler</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Annuler cette construction.</CommandCancelConstructionDesc>
 
-  
+  <CommandGetOutOfBedLabel>Sortir du lit</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Fait sortir la personne du lit désigné.</CommandGetOutOfBedDesc>
+
+  <CommandBedSetOwnerLabel>Définir le propriétaire</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Assigne ce lit à un colon spécifique.</CommandBedSetOwnerDesc>
+  <BedAssign>Assigner</BedAssign>
   <CommandBedSetForPrisonersLabel>Assigner aux prisonniers</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc> Rend les lits de cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Rend les lits de cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Cannot set outdoor beds to be for prisoners.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetForColonistsLabel>Assigner aux colons</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc> Rend les lits de cette salle utilisables par les colons.</CommandBedSetForColonistsDesc>
+  <CommandBedSetForColonistsDesc>Rend les lits de cette salle utilisables par les colons.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Définir comme médical</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Rend ce lit utilisable pour les besoins médicaux.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Définir comme non médical</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Retire le mode médical du lit.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOffPrisonerBedWarning>
   <AreYouSure>Êtes-vous sûr de vouloir faire ça ?</AreYouSure>
@@ -70,5 +84,10 @@
   <CommandPodEject>Ejecter l'occupant</CommandPodEject>
   <CommandPodEjectDesc>Réveille les colons en hypersommeil et les éjecte.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Capsule vide.</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <CommandToggleDoorLock>Verrouiller</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent être ouvertes par personne.</CommandToggleDoorLockDesc>
+
 
 </LanguageData>

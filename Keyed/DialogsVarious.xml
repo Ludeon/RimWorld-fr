@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha479 -->
+<!-- Compatible vAlpha566 -->
 <LanguageData>
 
 
@@ -48,6 +48,7 @@
   <InProgress>En cours</InProgress>
   <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de TABLE DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez déjà désigner un projet de recherche dés maintenant.</ResearchMenuWithoutBench>
 
+  
   <!-- Advanced game start options -->
   <MapSizePerformanceWarning>Avertissement : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
@@ -56,6 +57,8 @@
   <MapSizeMedium>Moyenne</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
   <MapSizeExtreme>Ludeonesque</MapSizeExtreme>
+  
+  
   
   <!-- Bill config -->
   <Suspended>En pause</Suspended>
@@ -69,10 +72,15 @@
   <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible parce que les résultat de la transformation sont multiples et imprévisibles.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingrédients autorisés</PermittedIngredients>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
+  <BillRequires>Requiert {0} {1}</BillRequires>
+  <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <DoXTimes>Faire X fois</DoXTimes>
   <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
   <DoForever>En boucle</DoForever>
   <BillRepeatTargetCountShort>Jusqu'à {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Poser sur le sol</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Transporter à la meilleure zone de stock</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Transporter à la zone de stock la plus proche</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
   <Type>Type</Type>
@@ -106,15 +114,44 @@
   <MinFoodQuality>Qualité Min. de la nourriture</MinFoodQuality>
   <Diet>Régime</Diet>
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
+  <baseMarketValue>Prix de base</baseMarketValue>
+  <Covers>Protection</Covers>
+  <NaturalArmorCovers>Armure naturelle</NaturalArmorCovers>
+  <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>Glisser pour commercer</DragToTrade>
+  <BuyPriceDesc>Prix que vous payez pour ceci.</BuyPriceDesc>
+  <SellPriceDesc>Argent reçu pour la vente de ce produit.</SellPriceDesc>
+  <PriceTypeDesc>Pour cet objet, le prix est de {0}.</PriceTypeDesc>
+  <ColonyCount>Quantité d'exemplaires de cet objet que la colonie peut échanger.\n\nVous pouvez facilement vendre des objets s'ils se trouvent à l'extèrieur et prés d'une antenne-relais de commerce orbital.</ColonyCount>
+  <TraderCount>Quantité d'exemplaires de cet objet que le marchand peut vendre.</TraderCount>
+  <AcceptButton>Accepter</AcceptButton>
+  <ResetButton>RAZ</ResetButton>
+  <CancelButton>Annuler</CancelButton>
   <YourTradeableSilver>Argent échangeable : {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Pour envoyer des objets ou de l'argent aux marchands orbitaux, vous devez construire une BALISE DE COMMERCE ORBITAL à l'extérieur et placer vos objets à échanger dans une zone sans toit, dans sa zone d'effet.</YourTradeableSilverTip>
-
+    <YourTradeableSilverTip>Pour envoyer des objets ou de l'argent aux marchands orbitaux, vous devez construire une BALISE DE COMMERCE ORBITAL à l'extérieur et placer vos objets à échanger dans une zone sans toit, dans sa zone d'effet.</YourTradeableSilverTip>
+  <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
+  <ColonyHasNoMore>Plus rien à vendre.</ColonyHasNoMore>
+  <TraderWillNotTrade>Le marchand ne veut pas vendre cet objet.</TraderWillNotTrade>
+  
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
 
-  <!--Other-->
+  <!-- Stats report -->
+  <StatsReport_BaseValue>Valeur de base</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Traits appropriés</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Tenue appropriée</StatsReport_RelevantGear>
+  <StatsReport_Material>Matériaux</StatsReport_Material>
+  <StatsReport_CharacterQuality>Qualité des personnes</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Facteurs de compétences</StatsReport_Skills>
+  <StatsReport_OtherStats>Autres facteurs de stats</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Facteurs de santé</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} d'importance</HealthFactorPercentImpact>
+  <StatsReport_FinalValue>Valeur finale</StatsReport_FinalValue>
+  
+  
+  <!--Research-->
   <ResearchFinished>Recherche terminée : {0}</ResearchFinished>
   <ResearchScreen>Ecran de recherche</ResearchScreen>
   
@@ -123,6 +160,7 @@
   <HistoryUploadMessagePlayerName>Même si l'historique est uploadé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Oui</HistoryUploadYes>
   <HistoryUploadNo>Non</HistoryUploadNo>
-  <HistoryUploadNever>Jamais</HistoryUploadNever>
+  <HistoryUploadYesOnce>Envoyer cette fois seulement</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard</HistoryUploadNoOnce>
   
 </LanguageData>

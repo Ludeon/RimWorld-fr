@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha486 -->
+<!-- Compatible vAlpha566 -->
 <LanguageData>
 
   <!--=========== Main menu ==========-->
+  <CreateWorld>Créer un monde</CreateWorld>
   <NewColony>Nouvelle colonie</NewColony>
   <BackToGame>Retour au jeu</BackToGame>
   <Save>Sauvegarder</Save>
@@ -18,22 +19,87 @@
   <OfficialWiki>Wiki officiel</OfficialWiki>
   <TynansTwitter>Twitter de Tynan</TynansTwitter>
   <TynansDesignBook>Livre sur le design de Tynan</TynansDesignBook>
-  <HelpTranslate>Help translate RimWorld</HelpTranslate>
+  <HelpTranslate>Aidez-nous à traduire RimWorld</HelpTranslate>
 
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Visualiser un monde</ReviewWorld>
+  <WorldGenerate>Gérérer</WorldGenerate>
+  <WorldSaveAndFinish>Sauver et terminer.</WorldSaveAndFinish>
+  <Reset>Remettre à zéro.</Reset>
+  <WorldSize>Taille</WorldSize>
+  <WorldSeed>Germe</WorldSeed>
+  <RandomizeSeed>Germe aléatoire</RandomizeSeed>
+
+
+  <!--=========== Select world ===================-->
+  <SelectWorld>Sélectionner le monde</SelectWorld>
+  <WorldChooseButton>Sélectionner</WorldChooseButton>
+  <NoWorldsFilesFound>Aucun fichier de monde trouvé. Veuillez créer un monde.</NoWorldsFilesFound>
+  
   <!--=========== Version info ==========-->
   <BuildNowAvailable>La version {0} est désormais disponible. Vous devriez probablement la télécharger.</BuildNowAvailable>
 	<BuildUpToDate>La version est à jour.</BuildUpToDate>
 	<ErrorGettingVersionInfo>Erreur en tentant de récupérer les informations de version : {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Chargement des informations sur la version...</LoadingVersionInfo>
-	
+
+  <!--=========== World generator =========-->
+  <GenerateWorld>Génère un monde</GenerateWorld>
+  
   <!--=========== Mods screen ==========-->	
   <GetMods>Obtenir des mods</GetMods>
   <ConfirmDisableCoreMod>Êtes-vous sûr de vouloir désactiver le module principal ? Le jeu ne fonctionnera pas du tout à moins que vous ayez un autre mod remplaçant toutes les fonctionnalité du noyau.\n\nRappel : Les mods peuvent rédéfinir des fonctionnalités du Core mod en utilisant les mêmes defName.</ConfirmDisableCoreMod>
   <Author>Auteur</Author>
 
+
   <!--=========== Storyteller chooser ==========-->
   <ChooseAIStoryteller>Choisir l'IA du narrateur</ChooseAIStoryteller>
   <HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, les largages de ressources ou les attaques d'animaux. Leurs choix affecteront votre colonie.</HowStorytellersWork>
+	<MustChooseChallengeScale>Veuillez choisir un niveau de difficulté.</MustChooseChallengeScale>
+  <ChallengeScale>Niveau de difficulté</ChallengeScale>
+  <ChallengeScaleTip>Quand le narrateur vous expose à un danger, ce dernier est {0} aussi important qu'en mode Défi.</ChallengeScaleTip>
+  <ChallengeScale_BuilderMode>Mode Constructeur</ChallengeScale_BuilderMode>
+  <ChallengeScale_Casual>Occasionnel</ChallengeScale_Casual>
+  <ChallengeScale_Rough>Dur</ChallengeScale_Rough>
+  <ChallengeScale_Challenge>Défi</ChallengeScale_Challenge>
+  <ChallengeScale_SeriousChallegne>Défi sérieux</ChallengeScale_SeriousChallegne>
+  <ChallengeScale_ExtremeChallenge>Défi extrême</ChallengeScale_ExtremeChallenge>
+
+
+
+
+
+
+
+
+
+
+
+  <!--=========== Landing site select =========-->
+  <SelectLandingSite>Sélectionnez un site d'attérissage</SelectLandingSite>
+  <SelectSite>Sélection du site</SelectSite>
+  <MustSelectLandingSite>Veuillez sélectionner un site d'attérissage.</MustSelectLandingSite>
+  <CannotLandBiome>Vous ne pouvez attérir sur ce biome : {0}</CannotLandBiome>
+  <WorldRenderMode>Mode</WorldRenderMode>
+  <WorldRenderModeFull>Tout</WorldRenderModeFull>
+  <WorldRenderModeTemperature>Température</WorldRenderModeTemperature>
+  <WorldRenderModeElevation>Elévation</WorldRenderModeElevation>
+  <WorldRenderModeFertility>Fertilité</WorldRenderModeFertility>
+  <WorldRenderModeRainfall>Précipitations</WorldRenderModeRainfall>
+  <WorldRenderModeBiomes>Biomes</WorldRenderModeBiomes>
+  <BiomeNotImplemented>biome non implémenté</BiomeNotImplemented>
+  <BaseAlreadyThere>{0} possède déjà une base ici.</BaseAlreadyThere>
+  <Biome>Biome</Biome>
+  <Terrain>Terrain</Terrain>
+  <Elevation>Elévation</Elevation>
+  <Fertility>Fertilité</Fertility>
+  <AvgTemp>Temp moy</AvgTemp>
+  <Rainfall>Précipitations</Rainfall>
+  <HasCoast0>Méridionnal au nord</HasCoast0>
+  <HasCoast1>Méridionnal à l'est</HasCoast1>
+  <HasCoast2>Méridionnal au sud</HasCoast2>
+  <HasCoast3>Méridionnal à l'ouest</HasCoast3>
+  <FactionBase>Base de faction</FactionBase>
+
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Création des personnages</CreateCharacters>
@@ -46,13 +112,14 @@
   <IncapableOf>Incapable de :</IncapableOf>
   <Traits>Eléments marquants :</Traits>
   <TraitsDoNothing>Les éléments marquants sont des bouts d'histoire qui n'ont pas d'incidence sur le jeu pour le moment; la plupart n'ont aucun impact. Ceci devrait changer dans le futur.</TraitsDoNothing>
+  <PermanentMoodEffect>Effets d'humeur permanents</PermanentMoodEffect>
   <Skills>Compétences :</Skills>
   <NoneLower>aucune</NoneLower>
   <Adulthood>Âge adulte </Adulthood>
   <Childhood>Enfance </Childhood>
   <Male>Homme</Male>
   <Female>Femme</Female>
-
+  <Pain>Douleur</Pain>
   
   <!--=========== Misc ==========-->
   <Start>Démarrer</Start>
@@ -67,5 +134,6 @@
   <EveryoneNeedsValidName>Chaque personnage doit avoir un nom valide.</EveryoneNeedsValidName>
 
   <GeneratingWorld>Création du monde...</GeneratingWorld>
-
+  <GeneratingMap>Création de la carte...</GeneratingMap>
+  
 </LanguageData>

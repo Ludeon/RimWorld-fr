@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha479 -->
+<!-- Compatible vAlpha566 -->
 <LanguageData>
 
+
+  
 	<CallOnRadio>Appeler {0}</CallOnRadio>
-	<CannotUseSolarFlare>Impossible d'utiliser (éruption solaire)</CannotUseSolarFlare>
-	<CannotUseNoPower>Impossible d'utiliser (Pas d'énergie)</CannotUseNoPower>
-	<CannotUseNoPath>Impossible d'utiliser (Pas de chemin d'accès)</CannotUseNoPath>
-	
+	<CannotUseSolarFlare>Action impossible (Eruption solaire)</CannotUseSolarFlare>
+	<CannotUseNoPower>Action impossible (Pas d'énergie)</CannotUseNoPower>
+	<CannotUseNoPath>Action impossible (Pas de chemin d'accès)</CannotUseNoPath>
+  <CannotUseReserved>Action impossible (Réservé)</CannotUseReserved>
+  <CannotUseFull>Action impossible (Plein)</CannotUseFull>
+  
   <FireAt>Tirer sur {0}</FireAt>
 
   <OutOfRange>Hors de portée</OutOfRange>
@@ -21,10 +25,12 @@
 
 	<ForbiddenLower>interdit</ForbiddenLower>
 	<SociallyImproperLower>socialement inadapté</SociallyImproperLower>
+  <PrisonerRoomLower>chambre de prisonnier</PrisonerRoomLower>
 	<BurningLower>brûle</BurningLower>
 	<NoEmptyPlaceLower>aucun espace libre configuré pour stocker ceci</NoEmptyPlaceLower>
 	<AlreadyFilledLower>déjà suffisament rempli</AlreadyFilledLower>
 	<MissingMaterials>besoin de matériaux</MissingMaterials>
+	
 	
   <CannotGoNoPath>Impossible de se rendre à la position (Pas de chemin d'accès)</CannotGoNoPath>
   <GoHere>Venir ici</GoHere>
@@ -44,15 +50,32 @@
   <ReservedBy>Réservé par {0}.</ReservedBy>
   <IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
 
+  <NoManipulationSkill>incapable</NoManipulationSkill>
+  <CannotWieldGuns>ne peut pas manier d'arme</CannotWieldGuns>
 
   <Equip>Equiper {0}</Equip>
   <CannotEquip>Ne peut pas équiper {0}</CannotEquip>
+  
+  <Wear>Porte {0}</Wear>
+  <CannotWear>Ne peut pas porter {0}</CannotWear>
+  
+  <Strip>Déshabiller {0}</Strip>
+  <CannotStrip>Ne peut pas déshabiller {0}</CannotStrip>
 
   <Deposit>Déposer {0} dans {1}</Deposit>
   <CannotDeposit>Ne peut pas déposer {0} dans {1}</CannotDeposit>
 
   <Drop>Lacher {0}</Drop>
+  
+  <UseMedicalBed>Se reposer jusqu'à guérison complète</UseMedicalBed>
+  <NotInjured>Aucune blessure</NotInjured>
+  <SomeoneElseSleeping>Occupé</SomeoneElseSleeping>
 
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepPod>Entrer dans la capsule de cryptosommeil</EnterCryptosleepPod>
+  
+  
+ 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Ne peut pas {0} {1}</CannotGenericWork>
 

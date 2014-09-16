@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha486 -->
+<!-- Compatible vAlpha566 -->
 <LanguageData>
 
   <!-- Various -->
@@ -8,16 +8,24 @@
   <ContainedResources>Ressources contenues</ContainedResources>
   <ForPrisonerUse>Assigné aux prisonniers</ForPrisonerUse>
   <ForColonistUse>Assignéaux colons</ForColonistUse>
+  <MedicalBed>Médical</MedicalBed>
   <Owner>Propriétaire</Owner>
   <Nobody>Personne</Nobody>
   <Unowned>Disponible</Unowned>
   <DeadTime>Mort {0}</DeadTime>
   <WalkSpeed>vitesse de marche {0}</WalkSpeed>
   <DyingLower>mourrant</DyingLower>
-  <PawnEffectiveness>Efficacité</PawnEffectiveness>
-  <FilthOnFeet>Pieds sales :</FilthOnFeet>
+  <FilthOnFeet>Pieds sales :</FilthOnFeet> 
   <NotEnoughStoredLower>pas assez de ressources en stock</NotEnoughStoredLower>
   <NothingLower>rien</NothingLower>
+  <Adapted>Adapté</Adapted>
+  <Headshot>Headshot</Headshot>
+  <FreshMissingBodyPart>frais</FreshMissingBodyPart>
+  <UntreatedLower>non-traité</UntreatedLower>
+  <RecoveringDiseaseLower>récupère</RecoveringDiseaseLower>
+  <InjuryRequiresTreatment>requiers un traitement pour guérir</InjuryRequiresTreatment>
+  <NextTreatmentAfter>prochain traitement dans {0} jours</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
 
   <!-- Turrets -->
   <GunInstalled>Installé</GunInstalled>
@@ -25,9 +33,11 @@
   <CanFireIn>Prêt à tirer dans</CanFireIn> 
    
   
-	<!-- Job reports -->
+  <!-- Job reports -->
 	<ReportHaulingTo>Transporte {0} jusqu'à {1}.</ReportHaulingTo>
 	<ReportHauling>Transporte {0}.</ReportHauling>
+  <ReportSleeping>Dort.</ReportSleeping>
+  <ReportResting>Se repose.</ReportResting>
   
  	<!-- Shooting report -->
   <WeaponMissRadius>Rayon d'échec de l'arme</WeaponMissRadius>
@@ -54,17 +64,12 @@
   <Openness>Ouverture</Openness> 
 
 	
-	<!-- Thoughts -->
+  <!-- Thoughts -->
   <ThoughtExpiresIn>Expire dans : {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Commencera à expirer dans : {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Finit d'expirer dans : {0}</ThoughtFinishesExpiringIn>
   <MentalBreakThreshold>Seuil de crise de nerfs</MentalBreakThreshold>
-  
-  <!--Effectiveness-->
-  <EffectivenessFull>Totale</EffectivenessFull>
-  <EffectivenessReduced>Réduite</EffectivenessReduced>
-  <EffectivenessImpaired>Affaiblie</EffectivenessImpaired>
-  <EffectivenessIncapacitated>Inapte</EffectivenessIncapacitated>
+
   
   <!-- Pawn info readout -->
   <Health>Santé</Health>
@@ -83,22 +88,42 @@
   <SanityPanicFlee>Mentalement brisé : Fuit paniqué</SanityPanicFlee>
   <SanityPsychotic>Mentalement brisé : Folie meurtrière</SanityPsychotic>
   
-  
-  <!-- Inspector -->
+  <!-- Body and activities condition -->
+  <None>Aucune</None>
+  <VeryPoor>Très pauvre</VeryPoor>
+  <Poor>Pauvre</Poor>
+  <Weakened>Fragilisé</Weakened>
+  <GoodCondition>OK</GoodCondition>
+  <Enhanced>Amélioré</Enhanced>
+  <SeriouslyImpaired>Sérieusement affaibli</SeriouslyImpaired>
+  <Impaired>Affaibli</Impaired>
+  <SlightlyImpaired>Légèrement affaibli</SlightlyImpaired>
+  <NoPain>Aucune</NoPain>
+  <LittlePain>Faible</LittlePain>
+  <MediumPain>Moyenne</MediumPain>
+  <SeverePain>Sévère</SeverePain>
+  <ExtremePain>Extrême</ExtremePain>
+
+  <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
   <DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>
+  
   
   <!-- ITab titles -->
   <TabBills>Commandes</TabBills>
   <TabGrowing>Culture</TabGrowing>
   <TabCharacter>Perso</TabCharacter>
-  <TabNeeds>Besoins</TabNeeds>
   <TabPrisoner>Captif</TabPrisoner>
   <TabGear>Tenue</TabGear>
   <TabThoughts>Humeur</TabThoughts>
   <TabStorage>Stockage</TabStorage>
-
-	<!-- ITabs -->
+  <TabHealth>Santé</TabHealth>
+  <TabRace>Race</TabRace>
+  <TabBasics>Bases</TabBasics>
+  <TabStats>Stats</TabStats>
+ 
+ 
+  <!-- ITabs -->
 	<AddBill>Ajouter une commande</AddBill>
 	<RecipeRequiresSkills>La formule {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
 	<BillConfig>Configurer</BillConfig>
@@ -106,6 +131,8 @@
 	<PlantVerb>Planter</PlantVerb>
 	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
 	<PrisonerGetsFood>Prend à manger</PrisonerGetsFood>
+	<DoctorsCare>Surveillance médicale</DoctorsCare>
+	<PrisonerGetsMedicine>Est soigné</PrisonerGetsMedicine>
 	<ShouldTryToRecruit>Essaie de recruter</ShouldTryToRecruit>
 	<PrisonerNoInteraction>Aucune intéraction</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
@@ -119,7 +146,33 @@
 	<DropThing>Lacher</DropThing>
 	<TotalModifiers>Modificateurs totaux</TotalModifiers>
 	<DamageAbsorption>Absorption de dégâts</DamageAbsorption>
+	<DamageDeflection>Déflection de dégâts</DamageDeflection>
 	<MoveSpeed>Vitesse de mouvement</MoveSpeed>
+	<Efficiency>Efficacité</Efficiency>
+	<MissingBodyPart>Manquant</MissingBodyPart>
+	<DestroyedBodyPart>Détruit</DestroyedBodyPart>
+	<ShatteredBodyPart>Estropié</ShatteredBodyPart>
+  <RemovedBodyPart>Amputé</RemovedBodyPart>
+	<Healthy>Sain</Healthy>
+	<InPain>Endoloris</InPain>
+	<PainLevel>Douleur</PainLevel>
+	<Dead>Mort</Dead>
+	<Unconscious>Inconscient</Unconscious>
+	<PainShock>Choqué</PainShock>
+	<Injured>Blessé</Injured>
+	<NoInjuries>(pas de blessure)</NoInjuries>
+	<WholeBody>Tout le corps</WholeBody>
+	<RenameColonist>Renommer le colon</RenameColonist>
+	<DataProcessing>Traitement des données</DataProcessing>
+	<Communication>Communication</Communication>
+	<AffectsLower>affecte</AffectsLower>
+	<BleedingRate>Niveau d'hémorragie</BleedingRate>
+	<HealthOverview>Vue d'ensemble</HealthOverview>
+	<MedicalOperationsShort>Opérations ({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>Opérations chirurgicales</MedicalOperations>
+	<Amputate>Amputer</Amputate>
+	<Harvest>Récolter</Harvest>
 	
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
@@ -133,6 +186,7 @@
   <PowerBatteryStored>Stocké</PowerBatteryStored>
   <PowerBatteryEfficiency>Efficacité</PowerBatteryEfficiency>
   
+  
 	<!--Rotting-->
 	<RotStateFresh>Frais</RotStateFresh>
 	<RotStateRotting>En train de pourrir</RotStateRotting>
@@ -142,7 +196,7 @@
   <ShotBy>Touché par {0}</ShotBy>
   <CannotHit>Ne peut pas toucher la cible.</CannotHit>
   
-    <!-- Storage priority labels -->
+  <!-- Storage priority labels -->
   <StoragePriorityUnstored>Refusé</StoragePriorityUnstored>
   <StoragePriorityLow>Basse</StoragePriorityLow>
   <StoragePriorityNormal>Normale</StoragePriorityNormal>
@@ -158,9 +212,11 @@
   <PercentGrowth>{0}% de croissance</PercentGrowth>
   <Growing>En train de pousser</Growing>
   <NotGrowingNow>Ne pousse pas actuellement (Nécessite d'être {0}).</NotGrowingNow>
-  <FullyGrownIn>Pleinement mur dans {0} de croissance.</FullyGrownIn>
+  <NotGrowingNowNight>Ne pousse pas actuellement (nuit).</NotGrowingNowNight>
+  <FullyGrownIn>Pleinement mûr dans {0} de croissance.</FullyGrownIn>
   <ReadyToHarvest>Prêt à récolter.</ReadyToHarvest>
   <Mature>Mûr.</Mature>
+  <SeedLabel>Graine de {0}</SeedLabel>
   
   <!-- Zones -->
   <Zone>Zone</Zone>
@@ -179,7 +235,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Active la visibilité de la zone.</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>Active l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
-  
+  <CategorizedResourceReadoutToggleButton>Active le mode "catégorisé" lors de l'affichage des ressources.</CategorizedResourceReadoutToggleButton>
   
   <!-- Fire -->
   <Fire>Feu</Fire>
@@ -191,13 +247,16 @@
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Conditions particulières affectant actuellement la zone.</MapConditionsTip>
 
-  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>Vous n'avez pas de matériaux utilisables pour construire ceci.</NoStuffsToBuildWith>  
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Ne peut être placé sous un toit.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Doit être placé avec la tête attachée à la rampe d'assemblage du vaisseau.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Doit être placé prés d'un équipement requérant un entonoir.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Doit être directement placé sur un geyser.</MustPlaceOnSteamGeyser>
+  
+  
   
   <!-- Longsleep pod -->
   <PodContains>Contient</PodContains>
@@ -208,8 +267,11 @@
   <ShipReportMissingPart>Composants critiques manquants</ShipReportMissingPart>
   <ShipReportNoFullPods>Pas de capsule d'hypersommeil utilisée</ShipReportNoFullPods>
 
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>Utiliser un neurotraineur pour apprendre {0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0} a utilisé le neurotraineur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
   
-  
+   
   <!-- Game over -->
   <GameOverEveryoneDead>Tout le monde est mort ou parti. Cette histoire touche à sa fin.\n\nPeut-être quelqu'un trouvera t-il un intérêt à ces ruines et s'en servira à son tour.</GameOverEveryoneDead>
   <GameOverShipLaunched>Vous avez lancé le vaisseau ! Ces colons se sont échappés :\n\n{0}\nCes colons sont restés sur place :\n\n{1}\nVotre IA va désormais guider le vaisseau en lieu sûr. Elle pourrait vous déposer sur une planètre plus hospitalière de ce système. Ou bien pourrait-elle entamer un voyage séculaire vers une autre étoile ? Elle pourrait aussi décider de cacher le vaisseau sous la glace d'un astéroïde durant quelques millénaires, attendant une époque plus clémente.\n\nVous le saurez lorsque vous vous réveillerez.</GameOverShipLaunched>
