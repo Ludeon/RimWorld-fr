@@ -1,55 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha486 -->
+<!-- Compatible vAlpha584 -->
 <LanguageData>
 
-	<DoctorFeed.verb>soigner</DoctorFeed.verb>
-	<DoctorFeed.gerund>soigne</DoctorFeed.gerund>
-	
-	<GrowerSow.verb>planter</GrowerSow.verb>
-	<GrowerSow.gerund>plante</GrowerSow.gerund>
-	
+	<DoctorFeed.verb>nourrir</DoctorFeed.verb>
+	<DoctorFeed.gerund>nourrit</DoctorFeed.gerund>
+		
+	<DoctorEmergencyHeal.verb>soigner</DoctorEmergencyHeal.verb>
+    <DoctorEmergencyHeal.gerund>soigne</DoctorEmergencyHeal.gerund>
+		
+	<DoctorHeal.verb>soigner</DoctorHeal.verb>
+    <DoctorHeal.gerund>soigne</DoctorHeal.gerund>
+		
+	<GrowerSow.verb>semer</GrowerSow.verb>
+	<GrowerSow.gerund>sème</GrowerSow.gerund>
+		
 	<GrowerHarvest.verb>cueillir</GrowerHarvest.verb>
 	<GrowerHarvest.gerund>cueille</GrowerHarvest.gerund>
-	
+		
 	<Mine.verb>miner</Mine.verb>
 	<Mine.gerund>mine</Mine.gerund>
-	
+		
 	<Research.verb>rechercher</Research.verb>
 	<Research.gerund>recherche</Research.gerund>
-	
+		
 	<HaulGeneral.verb>transporter</HaulGeneral.verb>
 	<HaulGeneral.gerund>transporte</HaulGeneral.gerund>
-	
+		
+	<HaulCorpses.verb>transporter</HaulCorpses.verb>
+	<HaulCorpses.gerund>transporte</HaulCorpses.gerund>
+		
 	<PlantsCut.verb>tailler</PlantsCut.verb>
 	<PlantsCut.gerund>taille</PlantsCut.gerund>
-	
+		
 	<CleanFilth.verb>nettoyer</CleanFilth.verb>
 	<CleanFilth.gerund>nettoie</CleanFilth.gerund>
-	
+		
 	<Repair.verb>réparer</Repair.verb>
 	<Repair.gerund>répare</Repair.gerund>
-	
-	<FightFires.verb>combattre le feu</FightFires.verb>
-	<FightFires.gerund>éteint</FightFires.gerund>
-	
+		
+	<FightFires.verb>éteindre le feu</FightFires.verb>
+	<FightFires.gerund>éteint le feu</FightFires.gerund>
+		
 	<Warden.verb>garder</Warden.verb>	
 	<Warden.gerund>s'occupe de</Warden.gerund>
-
+		
 	<Deconstruct.verb>démanteler</Deconstruct.verb>	
 	<Deconstruct.gerund>démantèle</Deconstruct.gerund>
-	
+		
 	<ConstructFinishFrames.verb>terminer</ConstructFinishFrames.verb>
 	<ConstructFinishFrames.gerund>termine</ConstructFinishFrames.gerund>
-	
+		
 	<ConstructDeliverResourcesToFrames.verb>apporter</ConstructDeliverResourcesToFrames.verb>	
 	<ConstructDeliverResourcesToFrames.gerund>apporte</ConstructDeliverResourcesToFrames.gerund>
-	
+		
 	<ConstructDeliverResourcesToBlueprints.verb>apporter</ConstructDeliverResourcesToBlueprints.verb>	
 	<ConstructDeliverResourcesToBlueprints.gerund>apporte</ConstructDeliverResourcesToBlueprints.gerund>
-	
+		
 	<HunterHunt.verb>chasser</HunterHunt.verb>	
 	<HunterHunt.gerund>chasse</HunterHunt.gerund>
-
+		
+	<BecomePatient.verb>patienter</BecomePatient.verb>
+    <BecomePatient.gerund>patiente</BecomePatient.gerund>
 
 
 
@@ -57,33 +68,48 @@
 	
 	<DoBillsButcherFlesh.verb>dépecer</DoBillsButcherFlesh.verb>
 	<DoBillsButcherFlesh.gerund>dépèce</DoBillsButcherFlesh.gerund>
-	
+		
 	<DoBillsCook.verb>cuisiner</DoBillsCook.verb>
 	<DoBillsCook.gerund>cuisine</DoBillsCook.gerund>
-	
+		
 	<CookFillHopper.verb>remplir</CookFillHopper.verb>
 	<CookFillHopper.gerund>rempli</CookFillHopper.gerund>
-	
+		
 
 
   <!-- ============= Crafting ============= -->
 
 	<DoBillsCremate.verb>incinérer</DoBillsCremate.verb>
 	<DoBillsCremate.gerund>incinère</DoBillsCremate.gerund>
+		
 	<!--
 	<DoBillsMakeWoodPlanks_Electric.verb>tailler des planches</DoBillsMakeWoodPlanks_Electric.verb>
 	<DoBillsMakeWoodPlanks_Electric.gerund>taille des planches</DoBillsMakeWoodPlanks_Electric.gerund>
-	
+		
 	<DoBillsMakeWoodPlanks_Hand.verb>tailler des planches</DoBillsMakeWoodPlanks_Hand.verb>
 	<DoBillsMakeWoodPlanks_Hand.gerund>taille des planches</DoBillsMakeWoodPlanks_Hand.gerund>
 	-->
+		
 	<DoBillsStonecut.verb>tailler des pierres</DoBillsStonecut.verb>
 	<DoBillsStonecut.gerund>taille des pierres</DoBillsStonecut.gerund>
-
+		
 	<DoBillsSlagRefining.verb>recycler du métal</DoBillsSlagRefining.verb>
 	<DoBillsSlagRefining.gerund>recycle du métal</DoBillsSlagRefining.gerund>
-
+		
 	<DoBillsButcherMechanoid.verb>démonter un méchanoïde</DoBillsButcherMechanoid.verb>
 	<DoBillsButcherMechanoid.gerund>démonte un méchanoïde</DoBillsButcherMechanoid.gerund>
+		
 	
+	<!-- ============= Medical operations ============= -->
+  
+
+    <TakeToBedToOperate.verb>ammener à la table d'opérations</TakeToBedToOperate.verb>
+    <TakeToBedToOperate.gerund>ammène à la table d'opérations</TakeToBedToOperate.gerund>
+		
+    <DoBillsMedicalHumanOperation.verb>opérer</DoBillsMedicalHumanOperation.verb>
+    <DoBillsMedicalHumanOperation.gerund>opère</DoBillsMedicalHumanOperation.gerund>
+		
+    <DoBillsMedicalMechanoidOperation.verb>modifier</DoBillsMedicalMechanoidOperation.verb>
+    <DoBillsMedicalMechanoidOperation.gerund>modifie</DoBillsMedicalMechanoidOperation.gerund>
+		
 </LanguageData>
