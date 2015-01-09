@@ -54,6 +54,7 @@
   <CannotWieldGuns>ne peut pas manier d'arme</CannotWieldGuns>
 
   <Equip>Equiper {0}</Equip>
+  <EquipWarningBrawler>(le bagarreur sera mécontent)</EquipWarningBrawler>
   <CannotEquip>Ne peut pas équiper {0}</CannotEquip>
   
   <Wear>Porte {0}</Wear>
@@ -64,6 +65,8 @@
 
   <Deposit>Déposer {0} dans {1}</Deposit>
   <CannotDeposit>Ne peut pas déposer {0} dans {1}</CannotDeposit>
+
+  <SelfDestructHere>Auto-détruire ici</SelfDestructHere>
 
   <Drop>Lacher {0}</Drop>
   
@@ -78,6 +81,9 @@
  
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Ne peut pas {0} {1}</CannotGenericWork>
+
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Ne peut pas prioriser (Problème de santé : {0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Déjà en train de {0} {1}</CannotGenericAlreadyAm>

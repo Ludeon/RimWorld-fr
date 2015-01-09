@@ -28,6 +28,9 @@
   <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Ce nom de zone n'est pas valide.</ZoneNameIsInvalid>
 
+  <!-- Pawn naming -->
+  <PawnGainsName>Le surnom du colon est maintenant {0}.</PawnGainsName>
+
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Versions différents: La partie a été sauvegardée avec une version {0}, la version actuelle du jeu est : {1}.\n\n Charger cette sauvegarde peut provoquer des bugs d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Sauvegarde incompatible</SaveGameIncompatibleWarningTitle>
@@ -50,6 +53,7 @@
 
   
   <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Attention: Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté à un défi extrème, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Avertissement : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
   <MapSizeDesc>{0}x{0} ({1} cases)</MapSizeDesc>
@@ -57,6 +61,8 @@
   <MapSizeMedium>Moyenne</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
   <MapSizeExtreme>Ludeonesque</MapSizeExtreme>
+  <MapStartMonth>Mois de départ:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
   
   
   
@@ -71,8 +77,10 @@
   <Infinite>Infini</Infinite>
   <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible parce que les résultat de la transformation sont multiples et imprévisibles.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingrédients autorisés</PermittedIngredients>
+  <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
   <BillRequires>Requiert {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Le comptage peut varier pour des objets au volume non standard, comme l'or par exemple)</BillRequiresMayVary>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <DoXTimes>Faire X fois</DoXTimes>
   <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
@@ -115,6 +123,7 @@
   <Diet>Régime</Diet>
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
   <baseMarketValue>Prix de base</baseMarketValue>
+  <MarketValue>Prix de base</MarketValue>
   <Covers>Protection</Covers>
   <NaturalArmorCovers>Armure naturelle</NaturalArmorCovers>
   <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>

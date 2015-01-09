@@ -22,10 +22,22 @@
   <Headshot>Headshot</Headshot>
   <FreshMissingBodyPart>frais</FreshMissingBodyPart>
   <UntreatedLower>non-traité</UntreatedLower>
+  <DevelopedImmunityLower>immunité développée</DevelopedImmunityLower>
   <RecoveringDiseaseLower>récupère</RecoveringDiseaseLower>
   <InjuryRequiresTreatment>requiers un traitement pour guérir</InjuryRequiresTreatment>
   <NextTreatmentAfter>prochain traitement dans {0} jours</NextTreatmentAfter>
   <MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>Progression du développement de l'immunité</ImmunityDevelopmentProgress>
+  <Race>Race</Race>
+  <Description>Description</Description>
+  <UnknownLower>inconnu</UnknownLower>
+
+  <!-- Snow -->
+  <SnowNone>Pas de neigne</SnowNone>
+  <SnowDusting>Neige (traces)</SnowDusting>
+  <SnowThin>Neige (fine)</SnowThin>
+  <SnowMedium>Neige (moyenne)</SnowMedium>
+  <SnowThick>Neige (épaisse)</SnowThick>
 
   <!-- Turrets -->
   <GunInstalled>Installé</GunInstalled>
@@ -50,6 +62,11 @@
 	<ShootingCover>Couvert</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} bloque {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>aucun couvert</NoCoverLower>
+
+  <!-- Generated recipes /*To check in game*/-->
+  <RecipeMake>Faire {0}</RecipeMake>
+  <RecipeMakeJobString>En train de faire {0}.</RecipeMakeJobString>
+
  	
 	
 	<!-- Status levels -->
@@ -180,17 +197,32 @@
 	<!-- Power readout -->
 	<PowerNotConnected>N'est pas connecté à une source d'alimentation.</PowerNotConnected>
 	<PowerConnectedRate>Puissance de l'alimentation : {0}W</PowerConnectedRate>
+  <PowerConnectedRateStored>Bilan de consommation / puissance en réserve: {0} W / {1} Wd</PowerConnectedRateStored>
 	<PowerConnectedStored>Puissance disponible en réserve : {0}Wd</PowerConnectedStored>
   <PowerNeeded>Énergie requise</PowerNeeded>
   <PowerOutput>Énergie produite</PowerOutput>
   <PowerBatteryStored>Stocké</PowerBatteryStored>
   <PowerBatteryEfficiency>Efficacité</PowerBatteryEfficiency>
+
+  <!-- Temperature control -->
+  <TargetTemperature>Température cible</TargetTemperature>
+  <PowerConsumptionMode>Consommation actuelle</PowerConsumptionMode>
+  <PowerConsumptionHigh>Haute</PowerConsumptionHigh>
+  <PowerConsumptionLow>Basse</PowerConsumptionLow>
+
+  <!-- Temperature readout -->
+  <Indoors>Intérieur</Indoors>
+  <Outdoors>Extérieur</Outdoors>
   
   
 	<!--Rotting-->
 	<RotStateFresh>Frais</RotStateFresh>
 	<RotStateRotting>En train de pourrir</RotStateRotting>
 	<RotStateDessicated>Desséché</RotStateDessicated>
+  <CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Non réfrigére (pourrira dans {0})</NotRefrigerated>
+  <OverADecade>plus d'un siècle</OverADecade>
 	
   <!-- Shooting tooltip -->
   <ShotBy>Touché par {0}</ShotBy>
@@ -213,10 +245,16 @@
   <Growing>En train de pousser</Growing>
   <NotGrowingNow>Ne pousse pas actuellement (Nécessite d'être {0}).</NotGrowingNow>
   <NotGrowingNowNight>Ne pousse pas actuellement (nuit).</NotGrowingNowNight>
+  <OutOfIdealTemperatureRange>Hors de la zone idéale de température (pousse à {0}% de la vitesse normale)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Hors de la zone idéale de température (ne pousse pas)</OutOfIdealTemperatureRangeNotGrowing>
   <FullyGrownIn>Pleinement mûr dans {0} de croissance.</FullyGrownIn>
   <ReadyToHarvest>Prêt à récolter.</ReadyToHarvest>
   <Mature>Mûr.</Mature>
   <SeedLabel>Graine de {0}</SeedLabel>
+  <OutdoorGrowingPeriod>Période de culture : {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>Jamais</NoGrowingPeriod>
+  <GrowYearRound>À l'année</GrowYearRound>
+  <CannotGrowTooCold>Ne peut pas pousser - trop froid.</CannotGrowTooCold>
   
   <!-- Zones -->
   <Zone>Zone</Zone>
@@ -224,6 +262,7 @@
   <Stockpile>Zone de stockage</Stockpile>
   <DumpingStockpile>Décharge</DumpingStockpile>
   <Priority>Priorité</Priority>
+  <ClearAll>Clear all</ClearAll>
 
   <!-- General use time stuff -->
   <DaysLower>jours</DaysLower>
@@ -255,8 +294,11 @@
   <MustPlaceHeadOnShipBeam>Doit être placé avec la tête attachée à la rampe d'assemblage du vaisseau.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Doit être placé prés d'un équipement requérant un entonoir.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Doit être directement placé sur un geyser.</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>Les côtés chaud et froid du réfrigérent doivent être dégagés.</MustPlaceCoolerWithFreeSpaces>
   
-  
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>Bloquée par</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>Bloquée par un plafond</WindTurbine_WindPathIsBlockedByRoof>
   
   <!-- Longsleep pod -->
   <PodContains>Contient</PodContains>
@@ -271,6 +313,22 @@
   <UseNeurotrainer>Utiliser un neurotraineur pour apprendre {0}</UseNeurotrainer>
   <NeurotrainerUsed>{0} a utilisé le neurotraineur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
   
+  <!-- Minification -->
+  <Installed>Installé</Installed>
+  <NotInstalled>Pas installé</NotInstalled>
+
+  <!-- Art -->
+  <Title>Titre</Title>
+  <Untitled>Sans titre</Untitled>
+
+  <!-- Unfinished thing -- To check -->
+  <UnfinishedItem>{0} non terminé</UnfinishedItem>
+  <UnfinishedItemWithStuff>{0} {1} non terminé</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>Qualité</Quality>
+  <QualityDescription>La qualité d'un objet exprime le degré de réussite de cet objet.</QualityDescription>
+  <QualityIs>Qualité : {0}</QualityIs>
    
   <!-- Game over -->
   <GameOverEveryoneDead>Tout le monde est mort ou parti. Cette histoire touche à sa fin.\n\nPeut-être quelqu'un trouvera t-il un intérêt à ces ruines et s'en servira à son tour.</GameOverEveryoneDead>
