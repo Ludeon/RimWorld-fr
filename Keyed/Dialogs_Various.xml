@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha566 -->
+<LanguageData>
+
+
+
+  <Confirm>Confirmer</Confirm>
+  <GoBack>Retour</GoBack>
+  <OK>OK</OK>
+  
+  <!-- Save/load -->
+  <SaveGameButton>Sauvegarder</SaveGameButton>
+  <OverwriteButton>Ecraser la sauvegarde</OverwriteButton>
+  <LoadGameButton>Charger</LoadGameButton>
+  <ConfirmDelete>Voulez-vous vraiment supprimer {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Supprimer cette sauvegarde.</DeleteThisSavegame>
+  <SavedAs>Enregistré sous {0}.</SavedAs>
+  <NeedAName>Veuillez entrer un nom.</NeedAName>
+  <LoadingLongEvent>Chargement...</LoadingLongEvent>
+  
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>Tout le monde sait que vous ne souhaitez pas vous éterniser sur ce caillou. Cependant {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
+  <ColonyGainsName>La colonie s'appelle désormais {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Ce nom de colonie n'est pas valide.</ColonyNameIsInvalid>
+
+  <!-- Zone naming -->
+  <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Ce nom de zone n'est pas valide.</ZoneNameIsInvalid>
+
+  <!-- Pawn naming -->
+  <PawnGainsName>Le surnom du colon est maintenant {0}.</PawnGainsName>
+
+  <!-- Save game incompatible warning -->
+  <SaveGameIncompatibleWarningText>Versions différents: La partie a été sauvegardée avec une version {0}, la version actuelle du jeu est : {1}.\n\n Charger cette sauvegarde peut provoquer des bugs d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>Sauvegarde incompatible</SaveGameIncompatibleWarningTitle>
+
+  <!-- Res change dialog -->
+  <ConfirmResolutionChange>Change>Vous avez modifié la résolution d'écran. Est-ce que la nouvelle résolution vous convient ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Conserver</ResolutionKeep>
+  <ResolutionRevert>Annuler</ResolutionRevert>
+  
+  <!-- Overview -->
+  <OverviewOf>Aperçu de {0}</OverviewOf>
+  
+  <!-- Research -->
+  <Research>Rechercher</Research>
+  <Researched>Découvert</Researched>
+  <Unresearched>Non recherché</Unresearched>
+  <Finished>Terminé</Finished>
+  <InProgress>En cours</InProgress>
+  <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de TABLE DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez déjà désigner un projet de recherche dés maintenant.</ResearchMenuWithoutBench>
+
+  
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Attention: Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté à un défi extrème, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Avertissement : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes.</MapSizePerformanceWarning>
+  <MapSize>Taille de la carte</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} cases)</MapSizeDesc>
+  <MapSizeSmall>Petite</MapSizeSmall>
+  <MapSizeMedium>Moyenne</MapSizeMedium>
+  <MapSizeLarge>Grande</MapSizeLarge>
+  <MapSizeExtreme>Ludeonesque</MapSizeExtreme>
+  <MapStartMonth>Mois de départ:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
+  
+  
+  
+  <!-- Bill config -->
+  <Suspended>En pause</Suspended>
+  <NotSuspended>Pas de pause</NotSuspended>
+  <SuspendedAllCaps>EN PAUSE</SuspendedAllCaps>
+  <RepeatCount>Répéter : {0}</RepeatCount>
+  <Forever>En boucle</Forever>
+  <IngredientSearchRadius>Rayon de recherche des ingrédients</IngredientSearchRadius>
+  <TargetCount>Faire jusqu'à en avoir: {0} en stock</TargetCount>
+  <Infinite>Infini</Infinite>
+  <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible parce que les résultat de la transformation sont multiples et imprévisibles.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Ingrédients autorisés</PermittedIngredients>
+  <WorkAmount>Quantité de travail</WorkAmount>
+  <MinimumSkills>Compétence minimale :</MinimumSkills>
+  <BillRequires>Requiert {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Le comptage peut varier pour des objets au volume non standard, comme l'or par exemple)</BillRequiresMayVary>
+  <UsableIngredients>ingrédients utilisables</UsableIngredients>
+  <DoXTimes>Faire X fois</DoXTimes>
+  <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
+  <DoForever>En boucle</DoForever>
+  <BillRepeatTargetCountShort>Jusqu'à {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Poser sur le sol</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Transporter à la meilleure zone de stock</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Transporter à la zone de stock la plus proche</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Def Card -->
+  <!-- not .8 original Dialog_Various.xml. Moved?
+  <Type>Type</Type>
+  <GunType>Arme</GunType>
+  <PlantType>Plante</PlantType>
+  <FoodType>Nourriture</FoodType>
+  <HumanType>Humain</HumanType>
+  <AnimalType>Animal</AnimalType>
+  <MechanoidType>Mechanoïde</MechanoidType>
+  <NaturalArmorCovers>Armure naturelle</NaturalArmorCovers>
+  <baseMarketValue>Prix de base</baseMarketValue> -->
+
+  <Damage>Dégât</Damage>
+  <Accuracy>Précision</Accuracy>
+  <BurstShotCount>Nombre de tirs par rafale</BurstShotCount>
+  <WarmupTime>Réchauffement</WarmupTime>
+  <CooldownTime>Délai de refroidissement</CooldownTime>
+  <BurstShotFireRate>Cadence de tir</BurstShotFireRate>
+  <Range>portée</Range>
+  <GrowsWild>Mauvaise herbe</GrowsWild>
+  <Harvestable>Récoltable</Harvestable>
+  <LimitedLifespan>Durée de vie limitée</LimitedLifespan>
+  <GrowingTime>Temps de croissance</GrowingTime>
+  <Days>jours</Days>
+  <FertilityRequirement>Fertilité requise</FertilityRequirement>
+  <LightRequirement>Lumière requise</LightRequirement>
+  <Attributes>Attributs</Attributes>
+  <LifeSpan>Durée de vie</LifeSpan>
+  <Nutrition>Nutrition</Nutrition>
+  <FoodQuality>Qualité de la nourriture</FoodQuality>
+  <WalkSpeedProperty>Vitesse de marche</WalkSpeedProperty>
+  <MeleeDamage>Dégâts de mêlée</MeleeDamage>
+  <MeatAmount>Quantité de viande</MeatAmount>
+  <MinFoodQuality>Qualité Min. de la nourriture</MinFoodQuality>
+  <Diet>Régime</Diet>
+  <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
+  <MarketValue>Prix de base</MarketValue>
+  <Covers>Protection</Covers>
+  <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>
+  
+  <!-- Trade -->
+  <DragToTrade>Glisser pour commercer</DragToTrade>
+  <BuyPriceDesc>Prix que vous payez pour ceci.</BuyPriceDesc>
+  <SellPriceDesc>Argent reçu pour la vente de ce produit.</SellPriceDesc>
+  <PriceTypeDesc>Pour cet objet, le prix est de {0}.</PriceTypeDesc>
+  <ColonyCount>Quantité d'exemplaires de cet objet que la colonie peut échanger.\n\nVous pouvez facilement vendre des objets s'ils se trouvent à l'extèrieur et prés d'une antenne-relais de commerce orbital.</ColonyCount>
+  <TraderCount>Quantité d'exemplaires de cet objet que le marchand peut vendre.</TraderCount>
+  <AcceptButton>Accepter</AcceptButton>
+  <ResetButton>RAZ</ResetButton>
+  <CancelButton>Annuler</CancelButton>
+  <YourTradeableSilver>Argent échangeable : {0}</YourTradeableSilver>
+    <YourTradeableSilverTip>Pour envoyer des objets ou de l'argent aux marchands orbitaux, vous devez construire une BALISE DE COMMERCE ORBITAL à l'extérieur et placer vos objets à échanger dans une zone sans toit, dans sa zone d'effet.</YourTradeableSilverTip>
+  <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
+  <ColonyHasNoMore>Plus rien à vendre.</ColonyHasNoMore>
+  <TraderWillNotTrade>Le marchand ne veut pas vendre cet objet.</TraderWillNotTrade>
+  
+  <!-- Comms -->
+  <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
+
+  <!-- Stats report -->
+  <!-- Moved. Where?
+  <StatsReport_BaseValue>Valeur de base</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Traits appropriés</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Tenue appropriée</StatsReport_RelevantGear>
+  <StatsReport_Material>Matériaux</StatsReport_Material>
+  <StatsReport_CharacterQuality>Qualité des personnes</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Facteurs de compétences</StatsReport_Skills>
+  <StatsReport_OtherStats>Autres facteurs de stats</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Facteurs de santé</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} d'importance</HealthFactorPercentImpact>
+  <StatsReport_FinalValue>Valeur finale</StatsReport_FinalValue>
+  -->
+  
+  <!--Research-->
+  <ResearchFinished>Recherche terminée : {0}</ResearchFinished>
+  <ResearchScreen>Ecran de recherche</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Souhaitez-vous uploader les enregistrement de l'historique de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera uploadé tous les {0} jours.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Même si l'historique est uploadé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Oui</HistoryUploadYes>
+  <HistoryUploadNo>Non</HistoryUploadNo>
+  <HistoryUploadYesOnce>Envoyer cette fois seulement</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard</HistoryUploadNoOnce>
+  
+</LanguageData>
