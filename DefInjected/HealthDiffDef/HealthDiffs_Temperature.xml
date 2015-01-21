@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     
-	<!-- TODO: ask Tynan how to add severityStages -->
+    <Heatstroke.label>insolation</Heatstroke.label>
+    <Hypothermia.label>hypothermie</Hypothermia.label>
 
-    <Heatstroke.label>heatstroke</Heatstroke.label>
-    
-    <Hypothermia.label>hypothermia</Hypothermia.label>
-
+	<rep>
+		<path>Heatstroke.disease.severityStages[0].label</path>
+		<trans>début (cachée)</trans>
+	</rep>
+	<rep>
+		<path>Heatstroke.disease.severityStages[1].label</path>
+		<trans>début</trans>
+	</rep>
+	<rep>
+		<path>Heatstroke.disease.severityStages[2].label</path>
+		<trans>mineure</trans>
+	</rep>
+	<rep>
+		<path>Heatstroke.disease.severityStages[3].label</path>
+		<trans>sérieuse</trans>
+	</rep>
+	<rep>
+		<path>Heatstroke.disease.severityStages[4].label</path>
+		<trans>extrême</trans>
+	</rep>
+	<rep>
+		<path>Heatstroke.disease.severityStages[5].label</path>
+		<trans>mortelle</trans>
+	</rep>
+	
+	<rep>
+		<path>Hypothermia.disease.severityStages[0].label</path>
+		<trans>frissonant (caché)</trans>
+	</rep>
+	<rep>
+		<path>Hypothermia.disease.severityStages[1].label</path>
+		<trans>frissonant</trans>
+	</rep>
+	<rep>
+		<path>Hypothermia.disease.severityStages[2].label</path>
+		<trans>mineure</trans>
+	</rep>
+	<rep>
+		<path>Hypothermia.disease.severityStages[3].label</path>
+		<trans>sérieuse</trans>
+	</rep>
+	<rep>
+		<path>Hypothermia.disease.severityStages[4].label</path>
+		<trans>extrême</trans>
+	</rep>
+	<rep>
+		<path>Hypothermia.disease.severityStages[5].label</path>
+		<trans>Mortelle</trans>
+	</rep>
+	
     
 </LanguageData>
