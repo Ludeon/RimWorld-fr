@@ -1,16 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha4f -->
+<!-- Compatible vAlpha8 -->
 <LanguageData>
 
+	<!--
 	<Rock.label>Roche</Rock.label>
 	<Rock.description>Sépare et entoure les pièces. Minez pour retirer.</Rock.description>
+	-->
 
+	<!--============================ Simple mineables ===============================-->
+	
 	<CollapsedRocks.label>Effondrement de pierres</CollapsedRocks.label>
-	<CollapsedRocks.description>Des pierres entassées et rassemblées, capable de maintenir le plafond.</CollapsedRocks.description>
+	<CollapsedRocks.description>Des pierres entassées et rassemblées, capables de maintenir le plafond.</CollapsedRocks.description>
 
-	<Mineral.label>Mineraux</Mineral.label>
-	<Mineral.description>Minez pour obtenir du métal.</Mineral.description>
-
+	 <!--============================ Resource rocks ===============================-->
+	
+	<MineableSteel.label>métal compacté</MineableSteel.label>
+	<MineableSteel.description>Les restes en ruine d'une ancienne structure. Riche en métal.</MineableSteel.description>
+	
+	<MineableSilver.label>minerai d'argent</MineableSilver.label>
+	<MineableSilver.description>Roche contenant de l'argent.</MineableSilver.description>
+	
+	<MineableGold.label>minerai d'or</MineableGold.label>
+	<MineableGold.description>Roche contenant de l'or.</MineableGold.description>
+	
+	<MineablePlasteel.label>plastacier compacté</MineablePlasteel.label>
+	<MineablePlasteel.description>D'anciens débris riches en plastacier.</MineablePlasteel.description>
+	
 	<SteamGeyser.label>Geyser</SteamGeyser.label>
 	<SteamGeyser.description>Source naturelle de vapeur</SteamGeyser.description>
 
