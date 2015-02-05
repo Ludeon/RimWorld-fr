@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha584 -->
+<!-- Compatible vAlpha8 -->
 <LanguageData>
 
 	<DoctorFeed.verb>nourrir</DoctorFeed.verb>
 	<DoctorFeed.gerund>nourrit</DoctorFeed.gerund>
 		
-	<DoctorEmergencyHeal.verb>soigner</DoctorEmergencyHeal.verb>
-    <DoctorEmergencyHeal.gerund>soigne</DoctorEmergencyHeal.gerund>
+	<DoctorEmergencyHeal.verb>soigner (urgence)</DoctorEmergencyHeal.verb>
+    <DoctorEmergencyHeal.gerund>soigne (urgence)</DoctorEmergencyHeal.gerund>
 		
 	<DoctorHeal.verb>soigner</DoctorHeal.verb>
     <DoctorHeal.gerund>soigne</DoctorHeal.gerund>
@@ -32,6 +32,10 @@
 	<PlantsCut.verb>tailler</PlantsCut.verb>
 	<PlantsCut.gerund>taille</PlantsCut.gerund>
 		
+	
+	<CleanClearSnow.verb>Déblayer</CleanClearSnow.verb>
+	<CleanClearSnow.gerund>Déblaie la neige</CleanClearSnow.gerund>
+	
 	<CleanFilth.verb>nettoyer</CleanFilth.verb>
 	<CleanFilth.gerund>nettoie</CleanFilth.gerund>
 		
@@ -41,8 +45,8 @@
 	<FightFires.verb>éteindre le feu</FightFires.verb>
 	<FightFires.gerund>éteint le feu</FightFires.gerund>
 		
-	<Warden.verb>garder</Warden.verb>	
-	<Warden.gerund>s'occupe de</Warden.gerund>
+	<Warden.verb>surveiller</Warden.verb>	
+	<Warden.gerund>surveille</Warden.gerund>
 		
 	<Deconstruct.verb>démanteler</Deconstruct.verb>	
 	<Deconstruct.gerund>démantèle</Deconstruct.gerund>
@@ -56,11 +60,14 @@
 	<ConstructDeliverResourcesToBlueprints.verb>apporter</ConstructDeliverResourcesToBlueprints.verb>	
 	<ConstructDeliverResourcesToBlueprints.gerund>apporte</ConstructDeliverResourcesToBlueprints.gerund>
 		
+	<ConstructSmoothFloors.verb>Aplanir</ConstructSmoothFloors.verb>
+	<ConstructSmoothFloors.gerund>aplanit</ConstructSmoothFloors.gerund>
+	
 	<HunterHunt.verb>chasser</HunterHunt.verb>	
 	<HunterHunt.gerund>chasse</HunterHunt.gerund>
 		
-	<BecomePatient.verb>patienter</BecomePatient.verb>
-    <BecomePatient.gerund>patiente</BecomePatient.gerund>
+	<BecomePatient.verb>se faire soigner</BecomePatient.verb>
+    <BecomePatient.gerund>se fait soigner</BecomePatient.gerund>
 
 
 
@@ -73,7 +80,7 @@
 	<DoBillsCook.gerund>cuisine</DoBillsCook.gerund>
 		
 	<CookFillHopper.verb>remplir</CookFillHopper.verb>
-	<CookFillHopper.gerund>rempli</CookFillHopper.gerund>
+	<CookFillHopper.gerund>remplit</CookFillHopper.gerund>
 		
 
 
@@ -81,14 +88,6 @@
 
 	<DoBillsCremate.verb>incinérer</DoBillsCremate.verb>
 	<DoBillsCremate.gerund>incinère</DoBillsCremate.gerund>
-		
-	<!--
-	<DoBillsMakeWoodPlanks_Electric.verb>tailler des planches</DoBillsMakeWoodPlanks_Electric.verb>
-	<DoBillsMakeWoodPlanks_Electric.gerund>taille des planches</DoBillsMakeWoodPlanks_Electric.gerund>
-		
-	<DoBillsMakeWoodPlanks_Hand.verb>tailler des planches</DoBillsMakeWoodPlanks_Hand.verb>
-	<DoBillsMakeWoodPlanks_Hand.gerund>taille des planches</DoBillsMakeWoodPlanks_Hand.gerund>
-	-->
 		
 	<DoBillsStonecut.verb>tailler des pierres</DoBillsStonecut.verb>
 	<DoBillsStonecut.gerund>taille des pierres</DoBillsStonecut.gerund>
@@ -98,13 +97,31 @@
 		
 	<DoBillsButcherMechanoid.verb>démonter un méchanoïde</DoBillsButcherMechanoid.verb>
 	<DoBillsButcherMechanoid.gerund>démonte un méchanoïde</DoBillsButcherMechanoid.gerund>
-		
+	
+	<FinishUnfinishedSculptures.verb>sculpter</FinishUnfinishedSculptures.verb>
+	<FinishUnfinishedSculptures.gerund>sculpte</FinishUnfinishedSculptures.gerund>
+	<DoBillsSculpt.verb>sculpter</DoBillsSculpt.verb>
+	<DoBillsSculpt.gerund>sculpte</DoBillsSculpt.gerund>
+	
+  <!-- ============= Crafting - weapons ============= -->
+  
+	<FinishUnfinishedWeapons.verb>forger</FinishUnfinishedWeapons.verb>
+	<FinishUnfinishedWeapons.gerund>forge</FinishUnfinishedWeapons.gerund>
+	<DoBillsMakeWeapons.verb>forger</DoBillsMakeWeapons.verb>
+	<DoBillsMakeWeapons.gerund>forge</DoBillsMakeWeapons.gerund>
+  
+  <!-- ============= Crafting - apparel ============= -->
+	
+	<FinishUnfinishedApparel.verb>coudre</FinishUnfinishedApparel.verb>
+	<FinishUnfinishedApparel.gerund>coud</FinishUnfinishedApparel.gerund>
+	<DoBillsMakeApparel.verb>coudre</DoBillsMakeApparel.verb>
+	<DoBillsMakeApparel.gerund>coud</DoBillsMakeApparel.gerund>
 	
 	<!-- ============= Medical operations ============= -->
   
 
-    <TakeToBedToOperate.verb>ammener à la table d'opérations</TakeToBedToOperate.verb>
-    <TakeToBedToOperate.gerund>ammène à la table d'opérations</TakeToBedToOperate.gerund>
+    <TakeToBedToOperate.verb>amener au bloc opératoire</TakeToBedToOperate.verb>
+    <TakeToBedToOperate.gerund>amène au bloc opératoire</TakeToBedToOperate.gerund>
 		
     <DoBillsMedicalHumanOperation.verb>opérer</DoBillsMedicalHumanOperation.verb>
     <DoBillsMedicalHumanOperation.gerund>opère</DoBillsMedicalHumanOperation.gerund>

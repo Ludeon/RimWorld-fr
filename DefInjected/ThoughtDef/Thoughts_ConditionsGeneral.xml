@@ -1,62 +1,228 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha584 -->
+<!-- Compatible vAlpha8 -->
 <LanguageData>
+  <rep>
+    <path>Hungry.stages[0].label</path>
+    <trans>Faim</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[0].description</path>
+    <trans>Je n'ai pas mangé depuis un moment..</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].label</path>
+    <trans>Grosse faim</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].description</path>
+    <trans>La douleur me tord l'estomac. J'ai besoin de nourriture, ou je serai bientôt affamé.</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].label</path>
+    <trans>Affamé</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].description</path>
+    <trans>Je veux juste un truc, n'importe quoi, à manger. Je sens que mon corps me lâche, et ça fait mal...</trans>
+  </rep>
+		
+	
+  <rep>
+    <path>Tired.stages[0].label</path>
+    <trans>Fatigué(e)</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[0].description</path>
+    <trans>Je n'ai pas dormi depuis un moment.</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].label</path>
+    <trans>Très fatigué(e)</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].description</path>
+    <trans>Je suis si fatigué(e). Je veux juste m'allonger et me reposer là quelques minutes...</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].label</path>
+    <trans>Exténué(e)</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].description</path>
+    <trans>Je suis exténué(e), je ne tiens presque plus debout. Mes paupières sont faites de plomb. Laissez moi dormir...</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentUgly.stages[0].label</path>
+    <trans>Environnement déplaisant</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[0].description</path>
+    <trans>Cet endroit n'est pas plaisant à regarder.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].label</path>
+    <trans>Environnement très déplaisant</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].description</path>
+    <trans>Cet endroit n'est pas vraiment pas plaisant. Je ne veux pas être ici.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].label</path>
+    <trans>Environnement hideux</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].description</path>
+    <trans>Cet endroit est insupportable. Sortez moi d'ici...</trans>
+  </rep>
 
-    <Hungry.label>Faim</Hungry.label>
-    <Hungry.description>Je n'ai pas mangé depuis un moment.</Hungry.description>
-		
-    <UrgentlyHungry.label>Grosse faim</UrgentlyHungry.label>
-    <UrgentlyHungry.description>La douleur me tord l'estomac. J'ai besoin de nourriture, ou je serai bientôt affamé.</UrgentlyHungry.description>
-		
-    <Starving.label>Affamé(e)</Starving.label>
-    <Starving.description>Je veux juste un truc, n'importe quoi, à manger. Je sens que mon corps me lâche, et ça fait mal...</Starving.description>
-		
-    <Tired.label>Fatigué(e)</Tired.label>
-    <Tired.description>Je n'ai pas dormi depuis un moment.</Tired.description>
-		
-    <VeryTired.label>Très fatigué(e)</VeryTired.label>
-    <VeryTired.description>Je suis si fatigué(e). Je veux juste m'allonger et me reposer là quelques minutes...</VeryTired.description>
-		
-    <Exhausted.label>Exténué(e)</Exhausted.label>
-    <Exhausted.description>Je suis exténué(e), je ne tiens presque plus debout. Mes paupières sont faites de plomb. Laissez moi dormir...</Exhausted.description>
-		
-    <EnvironmentUgly.label>Environnement déplaisant</EnvironmentUgly.label>
-    <EnvironmentUgly.description>Cet endroit n'est pas plaisant à regarder.</EnvironmentUgly.description>
-		
-    <EnvironmentVeryUgly.label>Environnement très déplaisant</EnvironmentVeryUgly.label>
-    <EnvironmentVeryUgly.description>Cet endroit n'est pas vraiment pas plaisant. Je ne veux pas être ici.</EnvironmentVeryUgly.description>
-		
-    <EnvironmentHideous.label>Environnement hideux</EnvironmentHideous.label>
-    <EnvironmentHideous.description>Cet endroit est insupportable. Sortez moi d'ici...</EnvironmentHideous.description>
-		
-    <EnvironmentPretty.label>Environnement plaisant</EnvironmentPretty.label>
-    <EnvironmentPretty.description>Cet endroit est agréable.</EnvironmentPretty.description>
-		
-    <EnvironmentVeryPretty.label>Environnement très plaisant</EnvironmentVeryPretty.label>
-    <EnvironmentVeryPretty.description>J'aime cet endroit. C'est très beau.</EnvironmentVeryPretty.description>
-		
-    <EnvironmentBeautiful.label>Environnement magnifique</EnvironmentBeautiful.label>
-    <EnvironmentBeautiful.description>Cet endroit est magnifique. Il me met de bonne humeur et me fait aimer la vie.</EnvironmentBeautiful.description>
-		
-    <EnvironmentCramped.label>Environnement étroit</EnvironmentCramped.label>
-    <EnvironmentCramped.description>Cet endroit est très étroit. J'ai l'impression de ne pas avoir la place d'y respirer.</EnvironmentCramped.description>
-		
-    <EnvironmentVeryCramped.label>Environnement très étroit</EnvironmentVeryCramped.label>
-    <EnvironmentVeryCramped.description>Je pourrais devenir claustrophobe ici. Je n'ai pas la place de bouger. J'ai l'impression d'être un rat dans une cage trop serrée.</EnvironmentVeryCramped.description>
-		
-    <EnvironmentSpaciousInterior.label>Intérieur spacieux</EnvironmentSpaciousInterior.label>
-    <EnvironmentSpaciousInterior.description>Voilà un espace intérieur très confortablement ouvert.</EnvironmentSpaciousInterior.description>
-		
-    <EnvironmentDark.label>Dans le noir</EnvironmentDark.label>
-    <EnvironmentDark.description>Je suis plongé dans l'obscurité depuis un moment. Je n'aime pas ça.</EnvironmentDark.description>
-		
-    <CabinFeverMild.label>sédentarisation (légère)</CabinFeverMild.label>
-    <CabinFeverMild.description>Je suis resté coincé ici depuis des jours. Il faut que je sorte.</CabinFeverMild.description>
-		
-    <CabinFeverSerious.label>sédentarisation (sérieuse)</CabinFeverSerious.label>
-    <CabinFeverSerious.description>J'ai été piégé comme un rat depuis trop longtemps. Il faut absolument que je sorte avant de devenir dingue !</CabinFeverSerious.description>
-		
-    <Sick.label>Malade</Sick.label>
-    <Sick.description>Je ne me sens pas bien. Je suis malade.</Sick.description>
-		
+
+  <rep>
+    <path>EnvironmentPretty.stages[0].label</path>
+    <trans>Environnement plaisant</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[0].description</path>
+    <trans>Cet endroit est agréable.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].label</path>
+    <trans>Environnement très plaisant</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].description</path>
+    <trans>J'aime cet endroit. C'est très beau.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].label</path>
+    <trans>Environnement magnifique</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].description</path>
+    <trans>Cet endroit est magnifique. Il me met de bonne humeur et me fait aimer la vie.</trans>
+  </rep>
+  
+  
+  <rep>
+    <path>EnvironmentCramped.stages[0].label</path>
+    <trans>Environnement étroit</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[0].description</path>
+    <trans>On est à l'étroit ici. J'ai l'impression de ne pas avoir la place de respirer.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].label</path>
+    <trans>Environnement très étroit</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].description</path>
+    <trans>Je pourrais devenir claustrophobe ici. Je n'ai pas la place de bouger. J'ai l'impression d'être un rat dans une cage trop serrée.</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].label</path>
+    <trans>Intérieur spacieux</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].description</path>
+    <trans>Voilà un espace intérieur confortablement ouvert.</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentDark.stages[0].label</path>
+    <trans>Dans le noir</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentDark.stages[0].description</path>
+    <trans>Je suis plongé dans l'obscurité depuis un moment. Je n'aime pas ça.</trans>
+  </rep>
+  
+ 
+  <rep>
+    <path>CabinFever.stages[0].label</path>
+    <trans>Claustrophobie (légère)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[0].description</path>
+    <trans>Je suis resté coincé ici depuis des jours. Il faut que je sorte.</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].label</path>
+    <trans>Claustrophobie (sévère)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].description</path>
+    <trans>J'ai été piégé comme un rat depuis trop longtemps. Il faut absolument que je sorte avant de devenir dingue !</trans>
+  </rep>
+
+  <rep>
+    <path>Sick.stages[0].label</path>
+    <trans>Malade</trans>
+  </rep>
+  <rep>
+    <path>Sick.stages[0].description</path>
+    <trans>Je ne me sens pas bien. Je suis malade.</trans>
+  </rep>
+	
+  <rep>
+    <path>EnvironmentCold.stages[0].label</path>
+    <trans>Froid</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[0].description</path>
+    <trans>J'ai froid.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].label</path>
+    <trans>Très froid</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].description</path>
+    <trans>J'ai si froid...*tremble* peux...pas...réchauffer...</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].label</path>
+    <trans>En train de geler sur place</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].description</path>
+    <trans>Mes dents claquent si fort que je peux à peine parler. Je ne sens plus mes doigts. Je dois absolument me réchauffer.</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentHot.stages[0].label</path>
+    <trans>Chaud</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[0].description</path>
+    <trans>Cette chaleur me fait beaucoup transpirer.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].label</path>
+    <trans>Très chaud</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].description</path>
+    <trans>J'ai vraiment très chaud.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].label</path>
+    <trans>Chaleur extrême</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].description</path>
+    <trans>On se croirait dans un four ici! Je ne sais pas combien de temps je vais tenir.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].label</path>
+    <trans>En train de cuire</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].description</path>
+    <trans>J'ai l'impression d'être en feu! Je crois que je vais mourir.</trans>
+  </rep>
+	
+	
 </LanguageData>
