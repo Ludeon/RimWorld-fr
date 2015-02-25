@@ -1,63 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha722 -->
 <LanguageData>
-
-	<!-- Moved, likely to defInjected
-	<TotalModifiers>Modificateurs totaux</TotalModifiers>
-	<DamageAbsorption>Absorption de dégâts</DamageAbsorption>
-	<DamageDeflection>Déflection de dégâts</DamageDeflection>
-	<PrisonerMildBeating>Bousculade</PrisonerMildBeating>
-	<PrisonerViciousBeating>Torture</PrisonerViciousBeating>
-	-->
-
-
-	<!-- Prisoner tab -->
-	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
-	<PrisonerGetsFood>Prend à manger</PrisonerGetsFood>
-	<DoctorsCare>Surveillance médicale</DoctorsCare>
-	<PrisonerGetsMedicine>Est soigné</PrisonerGetsMedicine>
-	<ShouldTryToRecruit>Essaie de recruter</ShouldTryToRecruit>
-	<PrisonerNoInteraction>Aucune intéraction</PrisonerNoInteraction>
-	<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
-	<PrisonerExecution>Exécution</PrisonerExecution>
-	<PrisonerRelease>Libérer le prisonnier</PrisonerRelease>
-	
-	<!--Medical - Body and activities condition -->
-	<None>Aucune</None>
-	<VeryPoor>Très pauvre</VeryPoor>
-	<Poor>Pauvre</Poor>
-	<Weakened>Fragilisé</Weakened>
-	<GoodCondition>OK</GoodCondition>
-	<Enhanced>Amélioré</Enhanced>
-	<SeriouslyImpaired>Sérieusement affaibli</SeriouslyImpaired>
-	<Impaired>Affaibli</Impaired>
-	<SlightlyImpaired>Légèrement affaibli</SlightlyImpaired>
-	<NoPain>Aucune</NoPain>
-	<LittlePain>Faible</LittlePain>
-	<MediumPain>Moyenne</MediumPain>
-	<SeverePain>Sévère</SeverePain>
-	<ExtremePain>Extrême</ExtremePain>
 
 	<!-- ITab titles -->
 	<TabBills>Commandes</TabBills>
 	<TabGrowing>Culture</TabGrowing>
-	<TabCharacter>Perso</TabCharacter>
-	<TabPrisoner>Captif</TabPrisoner>
-	<TabGear>Tenue</TabGear>
+	<TabCharacter>Colons</TabCharacter>
+	<TabPrisoner>Prisoniers</TabPrisoner>
+	<TabGuest>Invités</TabGuest>
+	<TabGear>Equipement</TabGear>
 	<TabThoughts>Humeur</TabThoughts>
 	<TabStorage>Stockage</TabStorage>
 	<TabHealth>Santé</TabHealth>
 	<TabRace>Race</TabRace>
 	<TabBasics>Bases</TabBasics>
 	<TabStats>Stats</TabStats>
-
-
-	<!-- ITabs -->
+	<TabArt>Art</TabArt>
+	
+	
+	<!-- Bills tab  -->
 	<AddBill>Ajouter une commande</AddBill>
-	<RecipeRequiresSkills>La formule {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
+	<RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
 	<BillConfig>Configurer</BillConfig>
 	<SuspendedCaps>EN PAUSE</SuspendedCaps>
+	<BoundWorkerIs>Travailleur: {0}</BoundWorkerIs>
 	<PlantVerb>Planter</PlantVerb>
-	<MoveSpeed>Vitesse de mouvement</MoveSpeed>
+	
+	
+	<!-- Guest/prisoner tab -->
+	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
+	<GetsFood>Reçoit de la nourriture</GetsFood>
+	<DoctorsCare>Surveillance médicale</DoctorsCare>
+	<PrisonerGetsMedicine>Reçoit des soins</PrisonerGetsMedicine>
+	<ShouldTryToRecruit>Tentative de recrutement</ShouldTryToRecruit>
+	<PrisonerNoInteraction>Aucune intéraction</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
+	<PrisonerRelease>Libérer le prisonnier</PrisonerRelease>
+	<PrisonerExecution>Exécution</PrisonerExecution>
+	
+	
+	<!-- Medical - general -->
+	<MoveSpeed>Vitesse de déplacement</MoveSpeed>
 	<Efficiency>Efficacité</Efficiency>
 	<MissingBodyPart>Manquant</MissingBodyPart>
 	<DestroyedBodyPart>Détruit</DestroyedBodyPart>
@@ -82,5 +65,30 @@
 	<MedicalOperations>Opérations chirurgicales</MedicalOperations>
 	<Amputate>Amputer</Amputate>
 	<Harvest>Récolter</Harvest>
+	
+	
+	
+	<!--Medical - Body and activities condition -->
+	<None>Aucune</None>
+	<VeryPoor>Très pauvre</VeryPoor>
+	<Poor>Pauvre</Poor>
+	<Weakened>Fragilisé</Weakened>
+	<GoodCondition>OK</GoodCondition>
+	<Enhanced>Amélioré</Enhanced>
+	<SeriouslyImpaired>Sérieusement affaibli</SeriouslyImpaired>
+	<Impaired>Affaibli</Impaired>
+	<SlightlyImpaired>Légèrement affaibli</SlightlyImpaired>
+	<NoPain>Aucune</NoPain>
+	<LittlePain>Faible</LittlePain>
+	<MediumPain>Moyenne</MediumPain>
+	<SeverePain>Sévère</SeverePain>
+	<ExtremePain>Extrême</ExtremePain>
+
+
+
+
+
+	
+	
 
 </LanguageData>
