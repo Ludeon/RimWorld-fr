@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha566 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha722 -->
 <LanguageData>
 
   <Autosaving>Sauvegarde automatique</Autosaving>
   
-  <GameStartDialog>Vous vous réveillez tous les trois dans vos sarcophages d'hypersommeil, alertés par bruit des sirènes et du métal s'arrachant. Vous avez à peine le temps de vous faufiler dans les capsules de sauvetage avant que le vaisseau ne se déchire en deux.\n\nQuelque temps plus tard, vous atterrissez sur une planète de la bordure extérieure.\n\n Alors que des morceaux du vaisseau  s'écrasent autour de vous, vous commencez à faire des plans pour survivre.</GameStartDialog>
+  <GameStartDialog>Vous vous réveillez tous les trois dans vos sarcophages de sommeil cryogénique, alertés par bruit des sirènes et du métal s'arrachant. Vous avez à peine le temps de vous faufiler dans les capsules de sauvetage avant que le vaisseau ne se déchire en deux.\n\nQuelque temps plus tard, vous atterrissez sur une planète de la bordure extérieure.\n\n Alors que des morceaux du vaisseau  s'écrasent autour de vous, vous commencez à faire des plans pour survivre.</GameStartDialog>
 
   <Colony>Colonie</Colony>
   
-  <ChangeLanguageFromMainMenu>Vous ne pouvez changer de langage que depuis le menu principal.</ChangeLanguageFromMainMenu>
+  <ChangeLanguageFromMainMenu>Vous ne pouvez changer de langue que depuis le menu principal.</ChangeLanguageFromMainMenu>
 
   <AndLower>et</AndLower>
   <DisabledLower>désactivé</DisabledLower>
@@ -20,6 +20,10 @@
   <DevelopmentBuildLower>Version de développement</DevelopmentBuildLower>
   <CompiledOn>Compilée le {0}</CompiledOn>
 
+  
+  
+  <!-- Content generation-->
+  
   <MeatLabel>{0} viande</MeatLabel>
   <MeatDesc>Viande crue de {0}.</MeatDesc>
 
@@ -30,20 +34,20 @@
   <CorpseDesc>Cadavre d'un {0}.</CorpseDesc>
   <DeadLabel>{0} (mort)</DeadLabel>
 
-  
-  <BlueprintLabelExtra> (schéma)</BlueprintLabelExtra>
-  <FrameLabelExtra> (châssis)</FrameLabelExtra>
-  
-  <RoughStoneTerrainLabel>Brute {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainLabel>{0} Brute</RoughStoneTerrainLabel>
   <RoughStoneTerrainDesc>Sol en {0} brute.</RoughStoneTerrainDesc>
   <RoughHewnStoneTerrainLabel>{0} brute taillée.</RoughHewnStoneTerrainLabel>
   <RoughHewnStoneTerrainDesc>Sol en {0} brute coupée grossièrement.</RoughHewnStoneTerrainDesc>
   <SmoothStoneTerrainLabel>{0} polie</SmoothStoneTerrainLabel>
   <SmoothStoneTerrainDesc>Sol en {0} polie.</SmoothStoneTerrainDesc>
   
+  <BlueprintLabelExtra> (schéma)</BlueprintLabelExtra>
+  <FrameLabelExtra> (châssis)</FrameLabelExtra>
+  
+  
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
-  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+  <ThingMadeOfStuffLabel>{1} en {0}</ThingMadeOfStuffLabel>
 
   <VariousLabel>(divers)</VariousLabel>
  
