@@ -1,13 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha566 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha722 -->
 <LanguageData>
-
-  <EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
-  <OpenCryptosleepCasket>Ouvrir le caisson d'hypersommeil</OpenCryptosleepCasket>
-  <NoCryptosleepCasket>Pas de caisson d'hypersommeil disponible.</NoCryptosleepCasket>
-  <CarryToCryptosleepCasket>Amener {0} jusqu'au caisson d'hypersommeil</CarryToCryptosleepCasket>
-  <CannotCarryToCryptosleepCasket>Impossible d'aller jusqu'au caisson d'hypersommeil</CannotCarryToCryptosleepCasket>
-
+  
+  
   <CallOnRadio>Appeler {0}</CallOnRadio>
   <CannotUseSolarFlare>Action impossible (Eruption solaire)</CannotUseSolarFlare>
   <CannotUseNoPower>Action impossible (Pas d'énergie)</CannotUseNoPower>
@@ -17,24 +12,26 @@
   
   <FireAt>Tirer sur {0}</FireAt>
 
-  <OutOfRange>Hors de portée</OutOfRange>
+  <OutOfRange>hors de portée</OutOfRange>
   <CannotHitTarget>Ne peut pas atteindre la cible</CannotHitTarget>
   <CannotFight>{0} ne peut pas combattre</CannotFight>
   
   <OrderManThing>Manipule {0}</OrderManThing>
 
   <MeleeAttack>Attaque {0} corps-à-corps</MeleeAttack>
-  <MeleeAttackToDeath>Frappe {0} jusqu'à ce que mort s'en suive</MeleeAttackToDeath>
+  <MeleeAttackToDeath>Attaque {0} corps-à-corps jusqu'à ce que mort s'en suive</MeleeAttackToDeath>
   <NoPath>Pas de chemin d'accès</NoPath>
 
   <ForbiddenLower>interdit</ForbiddenLower>
   <SociallyImproperLower>socialement inadapté</SociallyImproperLower>
-  <PrisonerRoomLower>chambre de prisonnier</PrisonerRoomLower>
+  <PrisonerRoomLower>cellule de prisonniers</PrisonerRoomLower>
   <BurningLower>brûle</BurningLower>
   <NoEmptyPlaceLower>aucun espace libre configuré pour stocker ceci</NoEmptyPlaceLower>
   <AlreadyFilledLower>déjà suffisament rempli</AlreadyFilledLower>
   <MissingMaterials>besoin de matériaux</MissingMaterials>
 	
+  <ConsumeThing>Consommer {0}</ConsumeThing>
+  
 	
   <CannotGoNoPath>Impossible de se rendre à la position (Pas de chemin d'accès)</CannotGoNoPath>
   <GoHere>Venir ici</GoHere>
@@ -48,8 +45,12 @@
   <Rescue>Secourir {0}</Rescue>
   <CannotRescue>Secours impossible</CannotRescue>
 
+  <CarryToCryptosleepCasket>Amener {0} jusqu'au caisson d'hypersommeil</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Impossible d'aller jusqu'au caisson d'hypersommeil</CannotCarryToCryptosleepCasket>
+  
+  <NoCryptosleepCasket>Pas de caisson d'hypersommeil disponible.</NoCryptosleepCasket>
   <NoPrisonerBed>Aucun lit réservé aux prisonniers n'est disponible.</NoPrisonerBed>
-  <NoNonPrisonerBed>Aucun lit réservé aux colons n'est disponible.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Aucun lit non réservé aux prisoniers n'est disponible.</NoNonPrisonerBed>
   <Reserved>Réservé par quelqu'un d'autre.</Reserved>
   <ReservedBy>Réservé par {0}.</ReservedBy>
   <IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
@@ -77,6 +78,10 @@
   <NotInjured>Aucune blessure</NotInjured>
   <SomeoneElseSleeping>Occupé</SomeoneElseSleeping>
   
+  <!-- Specific thing interactions -->
+  <EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
+  <OpenCryptosleepCasket>Ouvrir le caisson d'hypersommeil</OpenCryptosleepCasket>
+  
   
  
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
@@ -85,7 +90,6 @@
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Ne peut pas prioriser (Problème de santé : {0})</CannotMissingHealthActivities>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Déjà en train de {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Ne peut pas prioriser ({0} n'est pas {1})</CannotPrioritizeIsNotA>
@@ -94,6 +98,7 @@
 
   <CannotPrioritizeForbidden>Ne peut pas prioriser ({0} est interdit)</CannotPrioritizeForbidden>
 
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
   
