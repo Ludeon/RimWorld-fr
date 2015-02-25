@@ -1,15 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha566 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha722 -->
 <LanguageData>
-	<!-- not in .8 anymore, likely moved to defInjected
-	<PowerConnectedStored>Puissance disponible en réserve : {0}Wd</PowerConnectedStored>
-	<PowerConnectedRate>Puissance de l'alimentation : {0}W</PowerConnectedRate>
-	
-	<TimeToSpoil>Périme dans {0}</TimeToSpoil>
-	<RecoveringDiseaseLower>récupère</RecoveringDiseaseLower>
-	<PodContains>Contient</PodContains>
-	<ShootReportSkill>Compétence</ShootReportSkill>
-	-->
 	
 	<!-- Various -->
 	<WorkLeft>Travail restant</WorkLeft>
@@ -38,13 +29,21 @@
 	<ImmunityDevelopmentProgress>Progression du développement de l'immunité</ImmunityDevelopmentProgress>
 	<Race>Race</Race>
 	<Description>Description</Description>
-	<UnknownLower>inconnu</UnknownLower>
 	<Equipment>Equipement</Equipment>
 	<Apparel>Vêtements</Apparel>
 	<Inventory>Inventaire</Inventory>
 	<ThingInfo>Information</ThingInfo>
 	<DropThing>Lacher</DropThing>
 	<RenameColonist>Renommer le colon</RenameColonist>
+	<UnknownLower>inconnu</UnknownLower>
+	<On>On</On>
+    <Off>Off</Off>
+    <PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
+	
+    <!-- Control -->
+    <CannotOrderNonControlled>Impossible de commander des unités non contrôlées.</CannotOrderNonControlled>
+    <IsIncapableOfViolence>{0} est incapable de violence.</IsIncapableOfViolence>
+    <IsNotDrafted>{0} n'est pas enrolé.</IsNotDrafted>
 	
 	<!-- Snow -->
 	<SnowNone>Pas de neigne</SnowNone>
@@ -53,11 +52,15 @@
 	<SnowMedium>Neige (moyenne)</SnowMedium>
 	<SnowThick>Neige (épaisse)</SnowThick>
 
+	
 	<!-- Turrets -->
 	<GunInstalled>Installé</GunInstalled>
 	<MinimumRange>Portée minimum</MinimumRange>
 	<CanFireIn>Prêt à tirer dans</CanFireIn> 
-	
+	<ShellLoaded>Obus chargé</ShellLoaded>
+    <ShellNotLoaded>Non chargé</ShellNotLoaded>
+  
+  
 	<!-- Job reports -->
 	<ReportHaulingTo>Transporte {0} jusqu'à {1}.</ReportHaulingTo>
 	<ReportHauling>Transporte {0}.</ReportHauling>
@@ -82,20 +85,23 @@
 
 	<!-- Status levels -->
 	<Mood>Humeur</Mood>
-	<MoodTip>L'humeur est maintenue en satisfaisant des besoins physiologiques et psychologiques.\n\nSi l'humeur d'une personne tombe trop bas, celle-ci peut subir un burn-out.</MoodTip>
+	<MoodTip>L'humeur est maintenue en satisfaisant des besoins physiologiques et psychologiques.\n\nSi l'humeur d'une personne tombe trop bas, celle-ci peut subir une crise de nerfs.</MoodTip>
 	<Food>Nourriture</Food>
-	<FoodTip>La nourriture désigne l'état de satisfaction d'un colon en fonction de la qualité des plats ingérés.\n\nCet indicateur est remis à zéro lorsque le colon mange. Aprés un certain temps, le niveau diminue jusqu'à ce que le colon se nourrisse à nouveau. Au niveau zéro, la personne souffre de famine et commence à subir des dégâts constants.</FoodTip>
+	<FoodTip>La nourriture désigne l'état de satisfaction d'un colon en fonction de la qualité des plats ingérés.\n\nAu niveau zéro, la personne souffre de famine et commence à subir des dégâts constants.</FoodTip>
 	<Rest>Repos</Rest>
 	<RestTip>Le repos désigne la qualité et le comfort du sommeil d'un colon.\n\nLe repos augmente jusqu'au maximum lorsqu'un personne dort dans un lit, puis diminue progressivement lorsque la personne est debout.</RestTip>
 	<Environment>Environnement</Environment>
 	<EnvironmentTip>L'environnement reflette la beauté et le ressenti du lieu dans lequel se trouve un colon.\n\nL'environnement est élevé lorsque l'endroit est spatieux et bien décoré. Il est pauvre lorsque les environs sont repoussants.</EnvironmentTip>
 	<Openness>Ouverture</Openness> 
 	
+	
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>Expire dans : {0}</ThoughtExpiresIn>
 	<ThoughtStartsExpiringIn>Commencera à expirer dans : {0}</ThoughtStartsExpiringIn>
 	<ThoughtFinishesExpiringIn>Finit d'expirer dans : {0}</ThoughtFinishesExpiringIn>
 	<MentalBreakThreshold>Seuil de crise de nerfs</MentalBreakThreshold>
+	<MentalBreakThresholdHard>Seuil de crise de nerfs grave</MentalBreakThresholdHard>
+    <MentalBreakThresholdSoft>Seuil de crise de nerfs mineure</MentalBreakThresholdSoft>
 	
 	<!-- Pawn info readout -->
 	<Health>Santé</Health>
@@ -109,14 +115,9 @@
 	<Incapacitated>Invalide</Incapacitated>
 	<InRestraints>Menotté (ralenti)</InRestraints>
 	<Carrying>Transporte</Carrying>
-	<SanityDazedWander>Mentalement brisé : Perdu et errant</SanityDazedWander>
-	<SanityGiveUpExit>Mentalement brisé : Abandonne et quitte la colonie</SanityGiveUpExit>
-	<SanityPanicFlee>Mentalement brisé : Fuit paniqué</SanityPanicFlee>
-	<SanityPsychotic>Mentalement brisé : Folie meurtrière</SanityPsychotic>
-
-
+	
 	<!-- Inspector general stuff -->
-	<SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
+	<SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nRaccourci : {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
 	<DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>	
 	
 	
@@ -139,16 +140,13 @@
 
 	<!-- Temperature readout -->
 	<Indoors>Intérieur</Indoors>
+	<IndoorsUnroofed>A ciel ouvert</IndoorsUnroofed>
 	<Outdoors>Extérieur</Outdoors>
-		
+	
 	<!--Rotting-->
 	<RotStateFresh>Frais</RotStateFresh>
 	<RotStateRotting>En train de pourrir</RotStateRotting>
 	<RotStateDessicated>Desséché</RotStateDessicated>
-	<CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
-	<CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated>
-	<NotRefrigerated>Non réfrigéré (pourrira dans {0})</NotRefrigerated>
-	<OverADecade>plus d'un siècle</OverADecade>
 	
 	<!-- Shooting tooltip -->
 	<ShotBy>Touché par {0}</ShotBy>
@@ -162,6 +160,13 @@
 	<StoragePriorityImportant>Importante</StoragePriorityImportant>
 	<StoragePriorityCritical>Critique</StoragePriorityCritical>
 
+	
+	<!--Rotting-->
+	<CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
+	<CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated>
+	<NotRefrigerated>Non réfrigéré (pourrira dans {0})</NotRefrigerated>
+	<OverADecade>plus d'un siècle</OverADecade>
+	
 	<!-- Meal -->
 	<Ingredients>Ingrédients</Ingredients>
 
@@ -169,18 +174,18 @@
 	<PercentGrowth>{0}% de croissance</PercentGrowth>
 	<Growing>En train de pousser</Growing>
 	<NotGrowingNow>Ne pousse pas actuellement (Nécessite d'être {0}).</NotGrowingNow>
-	<NotGrowingNowResting>Ne pas actuellement (récupère).</NotGrowingNowResting>
-	<NotGrowingNowNight>Ne pousse pas actuellement (nuit).</NotGrowingNowNight>
+	<NotGrowingNowResting>Ne pousse pas actuellement (récupère).</NotGrowingNowResting>
+	<FullyGrownIn>Pleinement mûr dans {0} de croissance.</FullyGrownIn>
 	<OutOfIdealTemperatureRange>Hors de la zone idéale de température (pousse à {0}% de la vitesse normale)</OutOfIdealTemperatureRange>
 	<OutOfIdealTemperatureRangeNotGrowing>Hors de la zone idéale de température (ne pousse pas)</OutOfIdealTemperatureRangeNotGrowing>
-	<FullyGrownIn>Pleinement mûr dans {0} de croissance.</FullyGrownIn>
 	<ReadyToHarvest>Prêt à récolter.</ReadyToHarvest>
 	<Mature>Mûr.</Mature>
 	<SeedLabel>Graine de {0}</SeedLabel>
 	<OutdoorGrowingPeriod>Période de culture : {0}</OutdoorGrowingPeriod>
 	<NoGrowingPeriod>Jamais</NoGrowingPeriod>
 	<GrowYearRound>À l'année</GrowYearRound>
-	<CannotGrowTooCold>Ne peut pas pousser - trop froid.</CannotGrowTooCold>
+	<GrowSeasonHereNow>La saison de de culture commence maintenant.</GrowSeasonHereNow>
+    <CannotGrowTooCold>Ne peut pas pousser - trop froid.</CannotGrowTooCold>
 	
 	<!-- Zones -->
 	<Zone>Zone</Zone>
@@ -188,7 +193,7 @@
 	<Stockpile>Zone de stockage</Stockpile>
 	<DumpingStockpile>Décharge</DumpingStockpile>
 	<Priority>Priorité</Priority>
-	<ClearAll>Clear all</ClearAll>
+	<ClearAll>Effacer tout</ClearAll>
 
 	<!-- Mouseover indicator -->
 	<Undiscovered>Inexploré</Undiscovered>
@@ -196,6 +201,7 @@
 	<!-- Buttons -->
 	<ZoneVisibilityToggleButton>Active la visibilité de la zone.</ZoneVisibilityToggleButton>
 	<AutoHomeRegionToggleButton>Active l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
+	<ShowBeautyToggleButton>Active l'affichage de la 'beauté' de la zone.\n\nAffiche la 'beauté' du paysage telle quelle serai ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
 	<CategorizedResourceReadoutToggleButton>Active le mode "catégorisé" lors de l'affichage des ressources.</CategorizedResourceReadoutToggleButton>
 	
 	<!-- Fire -->
@@ -226,7 +232,6 @@
 	<CasketUnknownContents>Inconnu</CasketUnknownContents>
 	<CasketWarning>Attention!\n\nNAME est votre dernier colon actif! si vous HIM laissez entrer dans ce caisson, vous pourriez ne plus pouvoir jouer. Êtes-vous sûr de vouloir continuer?</CasketWarning>
 
-
 	<!-- Ship launch report -->
 	<ShipReportCannotLaunch>Lancement impossible.</ShipReportCannotLaunch>
 	<ShipReportCanLaunch>Paré au lancement.</ShipReportCanLaunch>
@@ -253,12 +258,22 @@
 	<Quality>Qualité</Quality>
 	<QualityDescription>La qualité d'un objet exprime le degré de réussite de cet objet.</QualityDescription>
 	<QualityIs>Qualité : {0}</QualityIs>
-	 
+	
+	<!-- Mood descriptions -->
+    <Mood_Broken>brisé</Mood_Broken>
+    <Mood_AboutToBreak>sur le point de craquer</Mood_AboutToBreak>
+    <Mood_OnEdge>sur les nerfs</Mood_OnEdge>
+    <Mood_Stressed>stressé</Mood_Stressed>
+    <Mood_Neutral>neutre</Mood_Neutral>
+	<Mood_Content>content</Mood_Content>
+    <Mood_Happy>Heureux</Mood_Happy>
+  
 	<!-- Game over -->
 	<GameOverEveryoneDead>Tout le monde est mort ou parti. Cette histoire touche à sa fin.\n\nPeut-être quelqu'un trouvera t-il un intérêt à ces ruines et s'en servira à son tour.</GameOverEveryoneDead>
 	<GameOverShipLaunched>Vous avez lancé le vaisseau ! Ces colons se sont échappés :\n\n{0}\nCes colons sont restés sur place :\n\n{1}\nVotre IA va désormais guider le vaisseau en lieu sûr. Elle pourrait vous déposer sur une planètre plus hospitalière de ce système. Ou bien pourrait-elle entamer un voyage séculaire vers une autre étoile ? Elle pourrait aussi décider de cacher le vaisseau sous la glace d'un astéroïde durant quelques millénaires, attendant une époque plus clémente.\n\nVous le saurez lorsque vous vous réveillerez.</GameOverShipLaunched>
 	<GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
 	<GameOverMainMenu>Menu principal</GameOverMainMenu>
+	
 	
 	
 </LanguageData>
