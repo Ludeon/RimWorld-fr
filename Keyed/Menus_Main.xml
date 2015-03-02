@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha566 -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha722 -->
 <LanguageData>
 
   <!--=========== Main menu ==========-->
@@ -7,7 +7,7 @@
   <NewColony>Nouvelle colonie</NewColony>
   <BackToGame>Retour au jeu</BackToGame>
   <Save>Sauvegarder</Save>
-  <Load>Charger</Load>
+  <Load>Charger une colonie</Load>
   <Options>Options</Options>
   <Mods>Mods</Mods>
   <Credits>Crédits</Credits>
@@ -25,19 +25,19 @@
   <ReviewWorld>Visualiser un monde</ReviewWorld>
   <WorldGenerate>Générer</WorldGenerate>
   <WorldSaveAndFinish>Sauver et terminer.</WorldSaveAndFinish>
-  <Reset>Remettre à zéro.</Reset>
+  <Reset>Réinitialiser</Reset>
   <WorldSize>Taille</WorldSize>
   <WorldSeed>Germe</WorldSeed>
   <RandomizeSeed>Germe aléatoire</RandomizeSeed>
 
 
   <!--=========== Select world ===================-->
-  <SelectWorld>Sélectionner le monde</SelectWorld>
+  <SelectWorld>Sélectionner un monde</SelectWorld>
   <WorldChooseButton>Sélectionner</WorldChooseButton>
   <NoWorldsFilesFound>Aucun fichier de monde trouvé. Veuillez créer un monde.</NoWorldsFilesFound>
   
   <!--=========== Version info ==========-->
-  <BuildNowAvailable>La version {0} est désormais disponible. Vous devriez probablement la télécharger.</BuildNowAvailable>
+  <BuildNowAvailable>La version {0} est désormais disponible. Vérifiez ludeon.com pour plus d'informations.</BuildNowAvailable>
 	<BuildUpToDate>La version est à jour.</BuildUpToDate>
 	<ErrorGettingVersionInfo>Erreur en tentant de récupérer les informations de version : {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Chargement des informations sur la version...</LoadingVersionInfo>
@@ -53,8 +53,8 @@
 
 
   <!--=========== Storyteller chooser ==========-->
-  <ChooseAIStoryteller>Choisir l'IA du narrateur</ChooseAIStoryteller>
-  <HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, les largages de ressources ou les attaques d'animaux. Leurs choix affecteront votre colonie.</HowStorytellersWork>
+  <ChooseAIStoryteller>Choisir l'IA du conteur</ChooseAIStoryteller>
+  <HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, les largages de ressources ou les attaques d'animaux. Ses choix affecteront votre colonie.</HowStorytellersWork>
 	<MustChooseChallengeScale>Veuillez choisir un niveau de difficulté.</MustChooseChallengeScale>
   <ChallengeScale>Niveau de difficulté</ChallengeScale>
   <ChallengeScaleTip>Quand le narrateur vous expose à un danger, ce dernier est {0} aussi important qu'en mode Défi.</ChallengeScaleTip>
@@ -108,7 +108,7 @@
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Création des personnages</CreateCharacters>
   <FirstNameDesc>Prénom du personnage.\n\nCeci n'est affiché que dans certains menus.</FirstNameDesc>
-  <ShortIdentifierDesc>Le nom de code du personnage, son pseudo.\n\nCeci est toujours affiché. Cela peut être le prénom, le nom de famille ou un pseudonyme totalement différent.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>Le pseudonyme du personnage.\n\nCeci est toujours affiché. Cela peut être le prénom, le nom de famille ou un pseudonyme totalement différent.</ShortIdentifierDesc>
   <LastNameDesc>Nom propre du personnage.\n\nCeci n'est affiché que dans certains menus.</LastNameDesc>
   <Randomize>Aléatoire</Randomize>
   <AgeIndicator>âgé de {0} ans</AgeIndicator>
@@ -124,6 +124,7 @@
   <Male>Homme</Male>
   <Female>Femme</Female>
   <Pain>Douleur</Pain>
+  
   
   <!--=========== Misc ==========-->
   <Start>Démarrer</Start>
