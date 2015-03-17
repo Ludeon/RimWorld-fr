@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- alpha9e -->
 <LanguageData>
 	
 	
 
 	<!-- Diseases -->
 	<WoundInfection.label>Infection</WoundInfection.label>
-	<Flu.label>Grippe</Flu.label>
-	<Plague.label>Peste</Plague.label>
-	<Malaria.label>Malaria</Malaria.label>
-	<SleepingSickness.label>Maladie du sommeil</SleepingSickness.label>
-	
-	
 	<rep>
 		<path>WoundInfection.disease.severityStages[0].label</path>
 		<trans>mineure</trans>
@@ -32,7 +27,8 @@
 		<trans>extrême</trans>
 	</rep>
 
-	
+
+        <Flu.label>Grippe</Flu.label>
 	<rep>
 		<path>Flu.disease.severityStages[0].label</path>
 		<trans>mineure</trans>
@@ -54,6 +50,7 @@
 		<trans>extrême</trans>
 	</rep>
 	
+        <Plague.label>Peste</Plague.label>
 	<rep>
 		<path>Plague.disease.severityStages[0].label</path>
 		<trans>mineure</trans>
@@ -79,6 +76,8 @@
 		<trans>extrême</trans>
 	</rep>
 	
+
+        <Malaria.label>Malaria</Malaria.label>
 	<rep>
 		<path>Malaria.disease.severityStages[0].label</path>
 		<trans>mineure</trans>
@@ -100,6 +99,8 @@
 		<trans>extrême</trans>
 	</rep>
 	
+
+        <SleepingSickness.label>Maladie du sommeil</SleepingSickness.label>
 	<rep>
 		<path>SleepingSickness.disease.severityStages[0].label</path>
 		<trans>mineure</trans>
