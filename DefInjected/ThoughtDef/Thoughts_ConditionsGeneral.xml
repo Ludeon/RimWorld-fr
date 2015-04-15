@@ -1,13 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha8 -->
+<!-- Compatible vAlpha9 -->
 <LanguageData>
+
+	<rep>
+		<path>LowExpectations.stages[0].label</path>
+		<trans>Faible espoir</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[0].description</path>
+		<trans>Cet endroit est assez pauvre. Je ne peux pas espérer beaucoup de confort quand il n'y en a aucun à avoir.</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[1].label</path>
+		<trans>Très faible espoir</trans>
+	</rep>
+	<rep>
+		<path>LowExpectations.stages[1].description</path>
+		<trans>Cet endroit est frappé par la pauvreté. Je ferais mieux de m'endurcir pour survivre.</trans>
+	</rep>
+
+	<rep>
+		<path>HighExpectations.stages[0].label</path>
+		<trans>Bon espoir</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[0].description</path>
+		<trans>Cet endroit est agréable. Je dois être bien traité ici.</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[1].label</path>
+		<trans>Excellent espoir</trans>
+	</rep>
+	<rep>
+		<path>HighExpectations.stages[1].description</path>
+		<trans>Cet endroit est carrément riche. Je ne vois aucune raison pour laquelle je devrais me refuser quelque chose ici.</trans>
+	</rep>
+
+
   <rep>
     <path>Hungry.stages[0].label</path>
-    <trans>Faim</trans>
+    <trans>Petite faim</trans>
   </rep>
   <rep>
     <path>Hungry.stages[0].description</path>
-    <trans>Je n'ai pas mangé depuis un moment..</trans>
+    <trans>Je n'ai pas mangé depuis un moment.</trans>
   </rep>
   <rep>
     <path>Hungry.stages[1].label</path>
@@ -129,7 +165,7 @@
     <path>EnvironmentSpaciousInterior.stages[0].description</path>
     <trans>Voilà un espace intérieur confortablement ouvert.</trans>
   </rep>
-  
+    
   <rep>
     <path>EnvironmentDark.stages[0].label</path>
     <trans>Dans le noir</trans>
@@ -157,6 +193,25 @@
     <trans>J'ai été piégé comme un rat depuis trop longtemps. Il faut absolument que je sorte avant de devenir dingue !</trans>
   </rep>
 
+  
+  <rep>
+	<path>ApparelDamaged.stages[0].label</path>
+	<trans>vêtements effilochés</trans>
+  </rep>
+  <rep>
+	<path>ApparelDamaged.stages[0].description</path>
+	<trans>Mes vêtements sont très moche. Pourrais-je trouver quelque chose de décent à porter ?</trans>
+  </rep>
+  <rep>
+	<path>ApparelDamaged.stages[1].label</path>
+	<trans></trans>
+  </rep>
+  <rep>
+	<path>ApparelDamaged.stages[1].description</path>
+	<trans>Je porte un vétemment en lambeau. Pourrais-je trouver quelque chose de décent à porter ?</trans>
+  </rep>
+	
+  
   <rep>
     <path>Sick.stages[0].label</path>
     <trans>Malade</trans>
@@ -165,6 +220,7 @@
     <path>Sick.stages[0].description</path>
     <trans>Je ne me sens pas bien. Je suis malade.</trans>
   </rep>
+	
 	
   <rep>
     <path>EnvironmentCold.stages[0].label</path>
@@ -197,7 +253,7 @@
   </rep>
   <rep>
     <path>EnvironmentHot.stages[0].description</path>
-    <trans>Cette chaleur me fait beaucoup transpirer.</trans>
+    <trans>Cette chaleur me fait transpirer.</trans>
   </rep>
   <rep>
     <path>EnvironmentHot.stages[1].label</path>
@@ -205,7 +261,7 @@
   </rep>
   <rep>
     <path>EnvironmentHot.stages[1].description</path>
-    <trans>J'ai vraiment très chaud.</trans>
+    <trans>J'ai vraiment trop chaud.</trans>
   </rep>
   <rep>
     <path>EnvironmentHot.stages[2].label</path>
