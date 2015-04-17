@@ -23,9 +23,9 @@
 	<UntreatedLower>non-traité</UntreatedLower>
 	<DevelopedImmunityLower>immunité développée</DevelopedImmunityLower>
 	<InjuryRequiresTreatment>requiers un traitement pour guérir</InjuryRequiresTreatment>
-	<NextTreatmentAfter>prochain traitement dans {0} jours</NextTreatmentAfter>
+	<NextTreatmentIn>prochain traitement dans {0}</NextTreatmentIn>
 	<MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
-	<ImmunityDevelopmentProgress>Progression du développement de l'immunité</ImmunityDevelopmentProgress>
+	<Immunity>Progression du développement de l'immunité</Immunity>
 	<Race>Race</Race>
 	<Description>Description</Description>
 	<Equipment>Équipement</Equipment>
@@ -38,6 +38,9 @@
 	<On>On</On>
     <Off>Off</Off>
     <PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
+	<AreaLower>zone</AreaLower>
+	<JoyTolerances>Tolérance au plaisir</JoyTolerances>
+	<BrokenLetterLabel>Cassé</BrokenLetterLabel>
 	
     <!-- Control -->
     <CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
@@ -50,7 +53,6 @@
 	<SnowThin>Neige (fine)</SnowThin>
 	<SnowMedium>Neige (moyenne)</SnowMedium>
 	<SnowThick>Neige (épaisse)</SnowThick>
-
 	
 	<!-- Turrets -->
 	<GunInstalled>Installé</GunInstalled>
@@ -58,8 +60,7 @@
 	<CanFireIn>Prêt à tirer dans</CanFireIn> 
 	<ShellLoaded>Obus chargé</ShellLoaded>
     <ShellNotLoaded>Non chargé</ShellNotLoaded>
-  
-  
+	
 	<!-- Job reports -->
 	<ReportHaulingTo>Transporte {0} jusqu'à {1}.</ReportHaulingTo>
 	<ReportHauling>Transporte {0}.</ReportHauling>
@@ -81,29 +82,16 @@
 	<!-- Generated recipes /*To check in game*/-->
 	<RecipeMake>Faire {0}</RecipeMake>
 	<RecipeMakeJobString>En train de faire {0}.</RecipeMakeJobString>
-
-	<!-- Status levels -->
-	<Mood>Humeur</Mood>
-	<MoodTip>L'humeur est maintenue en satisfaisant des besoins physiologiques et psychologiques.\n\nSi l'humeur d'une personne tombe trop bas, celle-ci peut faire une crise de nerfs.</MoodTip>
-	<Food>Nourriture</Food>
-	<FoodTip>La nourriture désigne l'état de satisfaction d'un colon en fonction de la qualité des plats ingérés.\n\nAu niveau zéro, la personne souffre de famine et commence à subir des dégâts constants.</FoodTip>
-	<Rest>Repos</Rest>
-	<RestTip>Le repos désigne la qualité et le confort du sommeil d'un colon.\n\nLe repos augmente jusqu'au maximum lorsqu'un personne dort dans un lit, puis diminue progressivement lorsque la personne est debout.</RestTip>
-	<Environment>Environnement</Environment>
-	<EnvironmentTip>L'environnement reflète la beauté et le ressenti du lieu dans lequel se trouve un colon.\n\nL'environnement est élevé lorsque l'endroit est spacieux et bien décoré. Il est pauvre lorsque les environs sont repoussants.</EnvironmentTip>
-	<Openness>Ouverture</Openness> 
-	
 	
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>Expire dans : {0}</ThoughtExpiresIn>
 	<ThoughtStartsExpiringIn>Commencera à expirer dans : {0}</ThoughtStartsExpiringIn>
 	<ThoughtFinishesExpiringIn>Finit d'expirer dans : {0}</ThoughtFinishesExpiringIn>
-	<MentalBreakThreshold>Seuil de crise de nerfs</MentalBreakThreshold>
 	<MentalBreakThresholdHard>Seuil de crise de nerfs grave</MentalBreakThresholdHard>
     <MentalBreakThresholdSoft>Seuil de crise de nerfs mineure</MentalBreakThresholdSoft>
 	
 	<!-- Pawn info readout -->
-	<Health>Santé</Health>
+	<hitPoints>Santé</hitPoints>
 	<PawnMainDescWithFactionGendered>{0} {1} de {2}</PawnMainDescWithFactionGendered>
 	<PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
 	<PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
@@ -118,7 +106,6 @@
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nRaccourci : {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
 	<DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>	
-	
 	
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
@@ -158,7 +145,6 @@
 	<StoragePriorityPreferred>Haute</StoragePriorityPreferred>
 	<StoragePriorityImportant>Importante</StoragePriorityImportant>
 	<StoragePriorityCritical>Critique</StoragePriorityCritical>
-
 	
 	<!--Rotting-->
 	<CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
@@ -170,11 +156,11 @@
 	<Ingredients>Ingrédients</Ingredients>
 
 	<!-- Plants -->
-	<PercentGrowth>{0}% de croissance</PercentGrowth>
-	<Growing>En train de pousser</Growing>
-	<NotGrowingNow>Ne pousse pas actuellement (Nécessite d'être {0}).</NotGrowingNow>
-	<NotGrowingNowResting>Ne pousse pas actuellement (récupère).</NotGrowingNowResting>
+	<PercentGrowth>{0} mûr</PercentGrowth>
+	<GrowthRate>Croissance</GrowthRate>
 	<FullyGrownIn>Parfaitement mûr dans {0}.</FullyGrownIn>
+	<PlantNeedsLightLevel>A besoin de lumière.</PlantNeedsLightLevel>
+	<PlantResting>Repos</PlantResting>
 	<OutOfIdealTemperatureRange>Hors de la zone idéale de température (pousse à {0}% de la vitesse normale)</OutOfIdealTemperatureRange>
 	<OutOfIdealTemperatureRangeNotGrowing>Hors de la zone idéale de température (ne pousse pas)</OutOfIdealTemperatureRangeNotGrowing>
 	<ReadyToHarvest>Prêt à récolter.</ReadyToHarvest>
@@ -193,14 +179,19 @@
 	<DumpingStockpile>Décharge</DumpingStockpile>
 	<Priority>Priorité</Priority>
 	<ClearAll>Tout effacer</ClearAll>
-
+	
+	<!-- ThingFilter -->
+	<HitPoints>{0} points de dégât</HitPoints>
+	<AnyQuality>toutes qualité</AnyQuality>
+	<OnlyQuality>{0} uniquement</OnlyQuality>
+	
 	<!-- Mouseover indicator -->
 	<Undiscovered>Inexploré</Undiscovered>
 	
 	<!-- Buttons -->
 	<ZoneVisibilityToggleButton>Active la visibilité de la zone.</ZoneVisibilityToggleButton>
-	<AutoHomeRegionToggleButton>Active l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
 	<ShowBeautyToggleButton>Active l'affichage de la 'beauté' de la zone.\n\nAffiche la 'beauté' du paysage telle quelle serai ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
+	<AutoHomeRegionToggleButton>Active l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
 	<CategorizedResourceReadoutToggleButton>Active le mode "catégorisé" lors de l'affichage des ressources.</CategorizedResourceReadoutToggleButton>
 	
 	<!-- Fire -->
@@ -221,6 +212,8 @@
 	<MustPlaceNextToHopperAccepter>Doit être placé prés d'un équipement requérant un entonnoir.</MustPlaceNextToHopperAccepter>
 	<MustPlaceOnSteamGeyser>Doit être directement placé sur un geyser.</MustPlaceOnSteamGeyser>
 	<MustPlaceCoolerWithFreeSpaces>Les côtés chaud et froid du réfrigérant doivent être dégagés.</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>Les deux parties doivent être exposés à l'air pour qu'elle passe à travers.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Tous les cotés doivent être accessible.</MustPlaceAdjacentStandable>
 	
 	<!-- Wind Turbine -->
 	<WindTurbine_WindPathIsBlockedBy>Bloquée par</WindTurbine_WindPathIsBlockedBy>
@@ -273,6 +266,14 @@
 	<GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
 	<GameOverMainMenu>Menu principal</GameOverMainMenu>
 	
-	
+	<!-- Generic lifespan -->
+	<LifespanExpiry>Expire dans:</LifespanExpiry>
+
+	<!-- JobDriver reports -->
+	<WatchingSunrise>Observe le lever du soleil</WatchingSunrise>
+	<CloudWatching>Observe les nuages</CloudWatching>
+	<WatchingSunset>Observe le coucher du soleil</WatchingSunset>
+	<Stargazing>Observe les étoiles</Stargazing>
+	<WatchingEclipse>Observe l'éclipse</WatchingEclipse>
 	
 </LanguageData>

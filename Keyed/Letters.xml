@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha722 -->
+<!-- Compatible vAlpha10 -->
 <LanguageData>
 
-  <JumpToLocation>Se rendre sur les lieux</JumpToLocation>
+	<JumpToLocation>Se rendre sur les lieux</JumpToLocation>
 
-  <FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive !\n\nVos cultures seront difficiles avec le froid de l'hiver. Assurez vous de stocker quelques mois de réserves de nourriture, tant que vous le pouvez encore.\n\nVous pouvez construire une salle de réfrigération pour empêcher la nourriture de pourrir.\n\nEt essayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
+	<LetterLabelFirstSummerWarning>L'été</LetterLabelFirstSummerWarning>
+	<FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive !\n\nVos cultures seront difficiles avec le froid de l'hiver. Assurez vous de stocker quelques mois de réserves de nourriture, tant que vous le pouvez encore.\n\nVous pouvez construire une salle de réfrigération pour empêcher la nourriture de pourrir.\n\nEt essayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
 
-  <RelationsBrokenDown>Les relations avec {0} se sont refroidies. Ils vous sont désormais hostiles.</RelationsBrokenDown>
-  <RelationsWarmed>Les relations avec {0} se sont réchauffées. Ils ne vous sont plus hostiles.</RelationsWarmed>
+	<RelationsBrokenDown>Les relations avec {0} se sont refroidies. Ils vous sont désormais hostiles.</RelationsBrokenDown>
+	<RelationsWarmed>Les relations avec {0} se sont réchauffées. Ils ne vous sont plus hostiles.</RelationsWarmed>
 
-  <RelationsBrokenCapture>A cause de la capture de {0}, {1} est maintenant votre ennemi.</RelationsBrokenCapture>
+	<RelationsBrokenCapture>A cause de la capture de {0}, {1} est maintenant votre ennemi.</RelationsBrokenCapture>
 
-  <ColonyGoodwill>Opinion de la colonie</ColonyGoodwill>
-  <Neutral>Neutre</Neutral>
+	<ColonyGoodwill>Opinion de la colonie</ColonyGoodwill>
+	<Neutral>Neutre</Neutral>
 
-  <ShortCircuitRain>La pluie a provoquée un court-circuit dans un {0} et un incendie s'est déclaré.</ShortCircuitRain>
-  <AreaRevealed>Une nouvelle zone vient d'être révélée.</AreaRevealed>
-  <AreaRevealedWithMechanoids>Une nouvelle zone vient d'être révélée. Elle peut abriter d'ancien, et hostile mechanoids.</AreaRevealedWithMechanoids>
+	<ShortCircuitRain>La pluie a provoquée un court-circuit dans un {0} et un incendie s'est déclaré.</ShortCircuitRain>
 
-  <RoofCollapsed>Un plafond s'est effondré parce qu'il était trop éloigné de ses supports.</RoofCollapsed>
-  <TheseThingsCrushed>Ces choses ont été détruites :</TheseThingsCrushed>
-  <NothingCrushed>Rien n'a été détruit.</NothingCrushed>
+	<LetterLabelAreaRevealed>Zone découverte</LetterLabelAreaRevealed>
+	<AreaRevealed>Une nouvelle zone vient d'être révélée.</AreaRevealed>
+	<AreaRevealedWithMechanoids>Une nouvelle zone vient d'être révélée. Elle peut abriter d'ancien, et hostile mechanoids.</AreaRevealedWithMechanoids>
+
+	<RoofCollapsed>Un plafond s'est effondré parce qu'il était trop éloigné de ses supports.</RoofCollapsed>
+	<TheseThingsCrushed>Ces choses ont été détruites :</TheseThingsCrushed>
+	<NothingCrushed>Rien n'a été détruit.</NothingCrushed>
+	<LetterLabelRoofCollapsed>Effondrement du toit</LetterLabelRoofCollapsed>
+
+	<RecruitSuccess>{0} a réussi(e) à recruter {1} ({2} chances de succès).</RecruitSuccess>
+	<RecruitFail>{0} n'a pas réussi(e) à recruter {1} ({2} chances de succès).</RecruitFail>
+
+	<LetterLabelBirthday>Anniversaire</LetterLabelBirthday>
+	<BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nveuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
+	<BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} viens d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes due à l'age ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
+
+	<LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
+	<NewDisease>{0} est tombé malade ({1}). Assurez-vous que {0} bénéficie d'un traitement adéquat et passe autant de temps que possible au repos dans un lit.</NewDisease>
+	<NewPartDisease>{0} a été infecté par {1}. Assurez-vous que {0} bénéficie d'un traitement adéquat et passe autant de temps que possible au repos dans un lit.</NewPartDisease>
+
+	<LetterLabelAncientShrineWarning>Ancien danger</LetterLabelAncientShrineWarning>
+	<AncientShrineWarning>Dés que {0} arrive près de l'ancienne structure, un sentiment d'appréhension l'envahit. HECAP ne sais par pourquoi, mais HE sens que cette structure poussiéreuse peut contenir un grand danger.</AncientShrineWarning>
+
+	<StruckMineable>Nous avons heurté {0}!</StruckMineable>
+
+	<!-- Generalized letter labels -->
+	<LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
+	<LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
+	<LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+	<LetterLabelMentalBreakdown>Traumatisé</LetterLabelMentalBreakdown>
   
-  <RecruitSuccess>{0} a réussi(e) à recruter {1} ({2} chances de succès).</RecruitSuccess>
-  <RecruitFail>{0} n'a pas réussi(e) à recruter {1} ({2} chances de succès).</RecruitFail>
-   
-  <BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nveuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} viens d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes due à l'age ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
   
-  <NewDisease>{0} est tombé malade ({1}). Assurez-vous que {0} bénéficie d'un traitement adéquat et passe autant de temps que possible au repos dans un lit.</NewDisease>
-  <NewPartDisease>{0} a été infecté par {1}. Assurez-vous que {0} bénéficie d'un traitement adéquat et passe autant de temps que possible au repos dans un lit.</NewPartDisease>
-   
-  <AncientShrineWarning>Comme {0} arrive près de l'ancienne structure, un sentiment d'appréhension l'envahit. HECAP ne sais par pourquoi, mais HE sens que cette structure poussiéreuse peut contenir un grand danger.</AncientShrineWarning>
-
-  <StruckMineable>Nous avons heurté {0}!</StruckMineable>
-   
 </LanguageData>

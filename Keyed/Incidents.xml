@@ -1,86 +1,101 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <AnimalInsanitySingle>Un {0} local est devenu fou. Il attaquera à vue n'importe qui.</AnimalInsanitySingle>
-  <AnimalInsanityMultiple>Une sorte de vague psychotique s'est abattue sur les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenu fous.</AnimalInsanityMultiple>
+	<LetterLabelAnimalInsanitySingle>Animal fou</LetterLabelAnimalInsanitySingle>
+	<AnimalInsanitySingle>Un {0} local est devenu fou. Il attaquera à vue n'importe qui.</AnimalInsanitySingle>
+	<LetterLabelAnimalInsanityMultiple>Animaux fou</LetterLabelAnimalInsanityMultiple>
+	<AnimalInsanityMultiple>Une sorte de vague psychotique s'est abattue sur les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenu fous.</AnimalInsanityMultiple>
 
-  <CropBlight>Un mal étrange a détruit vos plantations.</CropBlight>
+	<LetterLabelCropBlight>Fléau</LetterLabelCropBlight>
+	<CropBlight>Un mystérieux fléau a détruit vos cultures .</CropBlight>
+	
+	<LetterLabelEclipseIncident>Eclipse</LetterLabelEclipseIncident>
+	<EclipseIncident>L'une des lunes de cette planète orbite actuellement face au soleil. Une éclipse a commencée.</EclipseIncident>
+	
+	<LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
+	<MiracleHeal>{0} a guéri miraculeusement !</MiracleHeal>
+	
+	<!-- Enemy raids -->
+	<LetterLabelEnemyRaid>Raid</LetterLabelEnemyRaid>
+	<LetterLabelSiege>Siège</LetterLabelSiege>
+	<EnemyRaidWalkIn>Un groupe de pillards de {0} sont arrivés à proximité.</EnemyRaidWalkIn>
+	<EnemyRaidEdgeDrop>Un groupe de pillards de {0} effectuent un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
+	<EnemyRaidCenterDrop>Un groupe de pillards de {0} effectuent un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
+	<EnemyRaidStageThenAttack>Ils se prépareront durant un certain temps avant d'attaquer.\n\nPréparez vos défenses ou lancez une attaque préventive.</EnemyRaidStageThenAttack>
+	<EnemyRaidImmediateAttack>Ils attaquent immédiatement !</EnemyRaidImmediateAttack>
+	<EnemyRaidBesiege>Il semblerait qu'ils assiègent la colonie.</EnemyRaidBesiege>
 
-  <EclipseIncident>L'une des lunes de cette planète orbite actuellement face au soleil. Une éclipse a commencée.</EclipseIncident>
 
-  <MiracleHeal>{0} a guéri miraculeusement !</MiracleHeal>
+	<!-- Friendly raids -->
+	<LetterLabelFriendlyRaid>Amicaux</LetterLabelFriendlyRaid>
+	<FriendlyRaidWalkIn>Un groupe de combattants amicaux de {0} sont arrivés à proximité.</FriendlyRaidWalkIn>
+	<FriendlyRaidEdgeDrop>Un groupe de combattants amicaux de {0} effectuent un débarquement orbital à proximité.</FriendlyRaidEdgeDrop>
+	<FriendlyRaidCenterDrop>Un groupe de combattants amicaux de {0} effectuent un débarquement orbital en plein milieu de la colonie !</FriendlyRaidCenterDrop>
+	<FriendlyRaidStageThenAttack>Ils se prépareront durant un certain temps avant de venir vous aider.</FriendlyRaidStageThenAttack>
+	<FriendlyRaidImmediateAttack>Ils viennent à votre secours immédiatement !</FriendlyRaidImmediateAttack>
+	<FriendlyRaidBesiege>Il semblerait qu'ils emploient une stratégie de siège pour vous aider.</FriendlyRaidBesiege>
+	
+	<LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
+	<RefugeePodCrash>Vous avez détecté une capsule de sauvetage qui s'est violemment écrasée dans les environs.\n\nSi l'impact a laissé des survivants, ils doivent être gravement blessés.</RefugeePodCrash>
+	
+	<LetterLabelCargoPodCrash>Capsule de cargo</LetterLabelCargoPodCrash>
+	<CargoPodCrash>Vous avez détecté un groupe de containers qui s'est écrasé dans les environs.\n\nVous pourrez peut-être trouver des choses utiles dans les décombres.</CargoPodCrash>
 
-  
-  <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Un groupe de pillards de {0} sont arrivés à proximité.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Un groupe de pillards de {0} effectuent un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Un groupe de pillards de {0} effectuent un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
-  <EnemyRaidStageThenAttack>Ils se prépareront durant un certain temps avant d'attaquer.\n\nPréparez vos défenses ou lancez une attaque préventive.</EnemyRaidStageThenAttack>
-  <EnemyRaidImmediateAttack>Ils attaquent immédiatement !.</EnemyRaidImmediateAttack>
-  <EnemyRaidBesiege>Il semblerait qu'ils assiègent la colonie.</EnemyRaidBesiege>
+	<AnElectricalConduit>Un conduit électrique</AnElectricalConduit>
+	<ShortCircuit>Un défaut dans {0} a provoqué un court-circuit.\n\nLes {1} Wd d'électricité présents dans les batteries ont été libérés dans une puissante déflagration.</ShortCircuit>
+	<ShortCircuitWasLarge>Cette énorme quantité d'énergie a provoquée une explosion de taille considérable.</ShortCircuitWasLarge>
+	<ShortCircuitWasHuge>L'explosion est vraiment énorme ! Wow.</ShortCircuitWasHuge>
+
+	<LetterLabelSolarFlare>Éruption solaire</LetterLabelSolarFlare>
+	<LetterSolarFlare>Une éruption solaire a commencée.\n\nLes radiations vont neutraliser tous les systèmes électriques.\n\nL'éruption devrait s'arrêter d'ici un jour.</LetterSolarFlare>
+	
+	<LetterLabelHeatWave>Vague de chaleur</LetterLabelHeatWave>
+	<LetterHeatWave>Une vague de chaleur inhabituelle commence à se manifester. Attention aux coups de chaleur.</LetterHeatWave>
+	<HeatWaveOver>La vague de chaleur est passée.</HeatWaveOver>
+	
+	<LetterLabelColdSnap>Vague de froid</LetterLabelColdSnap>
+	<LetterColdSnap>Une vague de froid vient juste de s'installer. Attention aux risques d'hypothermie et à la mort des cultures.</LetterColdSnap>
+	<ColdSnapOver>La vague de froid est passée.</ColdSnapOver>
+
+	<TraderArrival>Un vaisseau commercial passe à proximité.\n\nIl se présente sous le nom de {0}. C'est un {1}.</TraderArrival>
+
+	<SingleTravelerPassing>Un {0} de {1} passe dans les environs. Son nom est {2}.</SingleTravelerPassing>
+	<GroupTravelersPassing>Un groupe de voyageurs de {0} passe dans les environs.</GroupTravelersPassing>
+	
+	<LetterLabelSingleVisitorArrives>Visiteur</LetterLabelSingleVisitorArrives>
+	<SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.</SingleVisitorArrives>
+	<LetterLabelGroupVisitorsArrive>Visiteurs</LetterLabelGroupVisitorsArrive>
+	<GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.</GroupVisitorsArrive>
+	<VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
+	
+	<LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
+	<WandererJoin>NAME, un(e) {0} a rejoint votre colonie. Le métier de HECAP est {1}.</WandererJoin>
 
 
-  <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Un groupe de combattants amicaux de {0} sont arrivés à proximité.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un groupe de combattants amicaux de {0} effectuent un débarquement orbital à proximité.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Un groupe de combattants amicaux de {0} effectuent un débarquement orbital en plein milieu de la colonie !</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>Ils se prépareront durant un certain temps avant de venir vous aider.</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>Ils viennent à votre secours immédiatement !</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>Il semblerait qu'ils emploient une stratégie de siège pour vous aider.</FriendlyRaidBesiege>
+	<!-- Crashed ship part-->
+	<LetterLabelSpaceshipPartCrash>Vaisseau démoniaque</LetterLabelSpaceshipPartCrash>
+	<SpaceshipPartCrash>Un gros débris provenant d'un ancien vaisseau s'est écrasé à proximité.\n\nVos colons le sentent au fond de leurs pensées, les exhortant à commettre des actes inqualifiables. Il doit y avoir à l'intérieur une IA dotée d'une personnalité capable de projeter des ondes psychiques et cette IA n'est pas amicale.\n\nDétruisez la aussi vite que possible !</SpaceshipPartCrash>
+	<MessageAnimalInsanityPulse>L'ancienne structure a émis une onde psychique qui a provoquée un élan de folie meurtrière parmi les animaux alentours.</MessageAnimalInsanityPulse>
+	<LetterShipPartDroveColonistInsane>L'épave de l'ancien vaisseau a émis une pulsation psychique focalisée qui a fait perdre la raison à votre colon {0}.</LetterShipPartDroveColonistInsane>
+	<AwokeDaysAgo>S'est éveillé il y a {0} jours</AwokeDaysAgo>
+	<PsychicDroneLevel>Niveau du drone Psychique : {0}</PsychicDroneLevel>
+	<PsychicDroneLevelLow>Faible</PsychicDroneLevelLow>
+	<PsychicDroneLevelMedium>Moyen</PsychicDroneLevelMedium>
+	<PsychicDroneLevelHigh>Haut</PsychicDroneLevelHigh>
+	<PsychicDroneLevelExtreme>Extrême</PsychicDroneLevelExtreme>
+	<LetterLabelPsychicDroneLevelIncreased>Drone s'intensifie</LetterLabelPsychicDroneLevelIncreased>
+	<LetterPsychicDroneLevelIncreased>L'épave du drone émet désormais des ondes psychiques plus puissantes. Chaque humanoïde dans les environs se sentira bien plus dérangé, terrifié et paranoïaque.</LetterPsychicDroneLevelIncreased>
 
-  <RefugeePodCrash>Vous avez détecté une capsule de sauvetage qui s'est violemment écrasée dans les environs.\n\nSi l'impact a laissé des survivants, ils doivent être gravement blessés.</RefugeePodCrash>
+	<!-- Agent revealed -->
+	<LetterLabelAgentRevealed>Agents</LetterLabelAgentRevealed>
+	<LetterAgentRevealed>{0} ont été démasqués comme agents de votre ennemi {1}.\n\nIls essaient à présent de s'échapper.</LetterAgentRevealed>
 
-  <CargoPodCrash>Vous avez détecté un groupe de containers qui s'est écrasé dans les environs.\n\nVous pourrez peut-être trouver des choses utiles dans les décombres.</CargoPodCrash>
+	<!-- Distant psychic drone -->
+	<LetterLabelPsychicDrone>Drone psychique</LetterLabelPsychicDrone>
+	<LetterIncidentPsychicDrone>Un très violent mal de tête affecte tous vos colons {0} !\n\nUn drone psychique lointain s'agite. Il projète une puissante onde psychique à travers toute la région, sur une fréquence que semble n'affecter que les colons de sexe {0}. Durant plusieurs jours, leur état d'esprit va se dégrader.</LetterIncidentPsychicDrone>
 
-  <AnElectricalConduit>Un conduit électrique</AnElectricalConduit>
-  <AWallsPowerConduit>Un conduit électrique mural</AWallsPowerConduit>
-  <ShortCircuit>Un défaut dans {0} a provoqué un court-circuit.\n\nLes {1} Wd d'électricité présents dans les batteries ont été libérés dans une puissante déflagration.</ShortCircuit>
-  <ShortCircuitWasLarge>Cette énorme quantité d'énergie a provoquée une explosion de taille considérable.</ShortCircuitWasLarge>
-  <ShortCircuitWasHuge>L'explosion est vraiment énorme ! Wow.</ShortCircuitWasHuge>
-
-  <LetterSolarFlare>Une éruption solaire a commencée.\n\nLes radiations vont neutraliser tous les systèmes électriques.\n\nL'éruption devrait s'arrêter d'ici un jour.</LetterSolarFlare>
-
-  <LetterHeatWave>Une vague de chaleur inhabituelle commence à se manifester. Attention aux coups de chaleur.</LetterHeatWave>
-  <HeatWaveOver>La vague de chaleur est passée.</HeatWaveOver>
-  <LetterColdSnap>Une vague de froid vient juste de s'installer. Attention aux risques d'hypothermie et à la mort des cultures.</LetterColdSnap>
-  <ColdSnapOver>La vague de froid est passée.</ColdSnapOver>
-
-  <TraderArrival>Un vaisseau commercial passe à proximité.\n\nIl se présente sous le nom de {0}. C'est un {1}.</TraderArrival>
-
-  <SingleTravelerPassing>Un {0} de {1} passe dans les environs. Son nom est {2}.</SingleTravelerPassing>
-  <GroupTravelersPassing>Un groupe de voyageurs de {0} passe dans les environs.</GroupTravelersPassing>
-
-  <SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.</SingleVisitorArrives>
-  <GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.</GroupVisitorsArrive>
-  <VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
-
-  <WandererJoin>NAME, un(e) {0} a rejoint votre colonie. Le métier de HECAP est {1}.</WandererJoin>
-  
-  
-  <!-- Crashed ship part-->
-  <SpaceshipPartCrash>Un gros débris provenant d'un ancien vaisseau s'est écrasé à proximité.\n\nVos colons le sentent au fond de leurs pensées, les exhortant à commettre des actes inqualifiables. Il doit y avoir à l'intérieur une IA dotée d'une personnalité capable de projeter des ondes psychiques et cette IA n'est pas amicale.\n\nDétruisez la aussi vite que possible !</SpaceshipPartCrash>
-  <MessageAnimalInsanityPulse>L'ancienne structure a émis une onde psychique qui a provoquée un élan de folie meurtrière parmi les animaux alentours.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>L'épave de l'ancien vaisseau a émis une pulsation psychique focalisée qui a fait perdre la raison à votre colon {0}.</LetterShipPartDroveColonistInsane>
-  <AwokeDaysAgo>S'est éveillé il y a {0} jours</AwokeDaysAgo>
-  <PsychicDroneLevel>Niveau du drone Psychique : {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>Faible</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Moyen</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Haut</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Extrême</PsychicDroneLevelExtreme>
-  <LetterPsychicDroneLevelIncreased>L'épave de l'ancien vaisseau émet désormais des ondes psychiques plus puissantes. Chaque humanoïde dans les environs se sentira bien plus dérangé, terrifié et paranoïaque.</LetterPsychicDroneLevelIncreased>
-  
-  <!-- Agent revealed -->
-  <LetterAgentRevealed>{0} ont été démasqués comme agents de votre ennemi {1}.\n\nIls essaient à présent de s'échapper.</LetterAgentRevealed>
-  
-  <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>Un très violent mal de tête affecte tous vos colons {0} !\n\nUn drone psychique lointain s'agite. Il projète une puissante onde psychique à travers toute la région, sur une fréquence que semble n'affecter que les colons de sexe {0}.Durant plusieurs jours, leur état d'esprit va empirer.</LetterIncidentPsychicDrone>
-   
-  <!-- Beavers -->
-  <BeaversArrived>Un groupe d'alphacastors affamés vient juste d'arriver.\n\nEssayez de les éliminer avant qu'ils n'aient dévoré jusqu'au dernier arbre de la région.</BeaversArrived>
-
-  
-  
-  
-  
-  
+	<!-- Beavers -->
+	<LetterLabelBeaversArrived>Alphacastors!</LetterLabelBeaversArrived>
+	<BeaversArrived>Un groupe de Alphacastors affamés vient juste d'arriver.\n\nEssayez de les éliminer avant qu'ils n'aient dévoré jusqu'au dernier arbre de la région.</BeaversArrived>
+	
 </LanguageData>
