@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha722 -->
+<!-- Compatible vAlpha10 -->
 <LanguageData>
 
- 
   <MessageSiegersAssaulting>Les {0} de {1} assiégeant la colonie lancent l'assaut !</MessageSiegersAssaulting>
 
   <MessageRaidersBeginningAssault>{0} de {1} lancent l'assaut.</MessageRaidersBeginningAssault>
@@ -10,12 +9,14 @@
   <MessageRaidersKidnapping>{0} de {1} ont décidé de kidnapper des colons et de partir.</MessageRaidersKidnapping>
 
   <MessageRaidersLeaving>{0} de {1} s'en vont.</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>{0} de {1} ont abandonnés et s'en vont.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersGivenUpLeaving>{0} de {1} ont abandonnés et s'en vont.</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>{0} de {1} sont satisfaits des dégâts infligés et s'en vont.</MessageRaidersSatisfiedLeaving>
   
   <MessageFightersFleeing>{0} de {1} s'enfuient.</MessageFightersFleeing>
   <MessageFriendlyFightersLeaving>Les {0} alliés de {1} s'en vont.</MessageFriendlyFightersLeaving>
 
+  <MessageVisitorsTakingWounded>{0} de {1} prennent un invité blessé.</MessageVisitorsTakingWounded>
+  
   <MessageWornApparelDeterioratedAway>l'équipement {0} porté par {1} est réduit à néant.</MessageWornApparelDeterioratedAway>
   
   <MessageSeasonBegun>{0} vient de commencer.</MessageSeasonBegun>
@@ -32,17 +33,18 @@
 
   <MessageOutOfNearbyShellsFor>{0} n'a trouvé aucun obus à proximité pour {1}.</MessageOutOfNearbyShellsFor>
 
+  <MessageAnimalsGoPsychoHunted>Attention: {0}s vont habituellement attaquer s'ils sont chassé.</MessageAnimalsGoPsychoHunted>
+
+  <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>  
   <MessageRecruitSuccess>{0} a réussi(e) à recruter {1} ({2} chances de succès).</MessageRecruitSuccess>
   <MessageRecruitFail>{0} n'a pas réussi(e) à recruter {1} ({2} chances de succès).</MessageRecruitFail>
-  <MessageRecruitFailBecauseLoyalty>{0} n'a pas réussi(e) à recruter {1} (Loyauté du prisonnier insuffisante).</MessageRecruitFailBecauseLoyalty>
+  <MessageRecruitFailBecauseMood>{0} n'a pas réussi à recruter {1} (prisonnier de trop mauvaise humeur).</MessageRecruitFailBecauseMood>
 	
   <MessagePoorlyTreated>{0} a reçu(e) un traitement de mauvaise qualité de la part de {1} ({2} chance).</MessagePoorlyTreated>
   <MessageWellTreated>{0} a reçu(e) un traitement de bonne qualité de la part de {1} ({2} chance).</MessageWellTreated>
 	  
-  <MessageTraderCannotAfford>Le marchand ne peut pas se permettre cet échange.</MessageTraderCannotAfford>
   <MessageColonyCannotAfford>La colonie ne peut pas se permettre cet échange.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Vous ne disposez pas d'assez d'argent à échanger.</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>Le marchand ne dispose pas d'assez d'argent.</MessageTraderNotEnoughSilver>
 
   <MessageCriticalAlert>Alerte critique : {0}</MessageCriticalAlert>
 
@@ -55,14 +57,17 @@
   <MessageMustDesignateClaimable>Vous devez désigner des structures artificielles abandonnées.</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>Vous devez désigner un sol de pierre brute.</MessageMustDesignateSmoothableFloor>
   
-  <MessageNoMedicalBeds>Il n'y a pas de lits médicaux disponibles.</MessageNoMedicalBeds>
+  <MessageRefusedArrest>{0} a refusé d'être arrêté!</MessageRefusedArrest>
   
+  <MessageNoMedicalBeds>Il n'y a pas de lits médicaux disponibles.</MessageNoMedicalBeds>
+    
   <PawnDiedBecauseOf>{0} est décédé(e) à cause de {1}.</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0} n'est plus incapable de marcher.</MessageNoLongerDowned>
   
+  <MessageInvoluntarySleep>{0} s'est effondré en raison d'un épuisement extrême.</MessageInvoluntarySleep>
+  
   <MessageMedicalOperationFailureCatastrophic>{0} a échoué de façon catastrophique en opérant {1}.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0} a échoué de de peu en opérant {1}.</MessageMedicalOperationFailureMinor>
   
-   
 </LanguageData>
