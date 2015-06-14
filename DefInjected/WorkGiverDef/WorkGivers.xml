@@ -1,100 +1,151 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha8 -->
+<!-- Compatible vAlpha11 -->
 <LanguageData>
 	
-	<GrowerSow.verb>semer</GrowerSow.verb>
-	<GrowerSow.gerund>sème</GrowerSow.gerund>
-	
-	<GrowerHarvest.verb>cueillir</GrowerHarvest.verb>
-	<GrowerHarvest.gerund>cueille</GrowerHarvest.gerund>
-		
+	 <!-- ============= Misc ============= -->
+	 
 	<Mine.verb>miner</Mine.verb>
 	<Mine.gerund>mine</Mine.gerund>
 		
 	<Research.verb>rechercher</Research.verb>
 	<Research.gerund>recherche</Research.gerund>
-		
-	<HaulGeneral.verb>transporter</HaulGeneral.verb>
-	<HaulGeneral.gerund>transporte</HaulGeneral.gerund>
-		
-	<HaulCorpses.verb>transporter</HaulCorpses.verb>
-	<HaulCorpses.gerund>transporte</HaulCorpses.gerund>
-		
+	
 	<PlantsCut.verb>tailler</PlantsCut.verb>
 	<PlantsCut.gerund>taille</PlantsCut.gerund>
-		
-	<CleanClearSnow.verb>Déblayer</CleanClearSnow.verb>
-	<CleanClearSnow.gerund>Déblaie la neige</CleanClearSnow.gerund>
-	
-	<CleanFilth.verb>nettoyer</CleanFilth.verb>
-	<CleanFilth.gerund>nettoie</CleanFilth.gerund>
-		
-	<Repair.verb>réparer</Repair.verb>
-	<Repair.gerund>répare</Repair.gerund>
 		
 	<FightFires.verb>éteindre le feu</FightFires.verb>
 	<FightFires.gerund>éteint le feu</FightFires.gerund>
 		
 	<Warden.verb>surveiller</Warden.verb>	
 	<Warden.gerund>surveille</Warden.gerund>
-		
-	<Deconstruct.verb>démanteler</Deconstruct.verb>	
-	<Deconstruct.gerund>démantèle</Deconstruct.gerund>
-		
-	<ConstructFinishFrames.verb>terminer</ConstructFinishFrames.verb>
-	<ConstructFinishFrames.gerund>termine</ConstructFinishFrames.gerund>
-		
-	<ConstructDeliverResourcesToFrames.verb>apporter</ConstructDeliverResourcesToFrames.verb>	
-	<ConstructDeliverResourcesToFrames.gerund>apporte</ConstructDeliverResourcesToFrames.gerund>
-		
-	<ConstructDeliverResourcesToBlueprints.verb>apporter</ConstructDeliverResourcesToBlueprints.verb>	
-	<ConstructDeliverResourcesToBlueprints.gerund>apporte</ConstructDeliverResourcesToBlueprints.gerund>
-		
-	<ConstructSmoothFloors.verb>Aplanir</ConstructSmoothFloors.verb>
-	<ConstructSmoothFloors.gerund>aplanit</ConstructSmoothFloors.gerund>
 	
 	<HunterHunt.verb>chasser</HunterHunt.verb>	
 	<HunterHunt.gerund>chasse</HunterHunt.gerund>
 
 	<PatientGoToBed.verb>se faire soigner</PatientGoToBed.verb>
 	<PatientGoToBed.gerund>se fait soigner</PatientGoToBed.gerund>
+	<!-- ============= Cleaning ============= -->
+	
+	<CleanClearSnow.verb>Déblayer</CleanClearSnow.verb>
+	<CleanClearSnow.gerund>Déblaie la neige</CleanClearSnow.gerund>
+	
+	<CleanFilth.verb>nettoyer</CleanFilth.verb>
+	<CleanFilth.gerund>nettoie</CleanFilth.gerund>
+	
+	<!-- =========== Flick ============-->
 
+	<Flick.verb>allumer l'interrupteur</Flick.verb>	
+	<Flick.gerund>allume l'interrupteur</Flick.gerund>
+	
+	<!-- ============= Hauling ============= -->
+	
+	<RearmTraps.verb>Réarmer</RearmTraps.verb>	
+	<RearmTraps.gerund>Réarme</RearmTraps.gerund>
+	
+	<Strip.verb>déshabiller</Strip.verb>	
+	<Strip.gerund>déshabille</Strip.gerund>
+	
+	<DoBillsCremate.verb>incinérer</DoBillsCremate.verb>
+	<DoBillsCremate.gerund>incinère</DoBillsCremate.gerund>
+	
+	<HaulCorpses.verb>transporter</HaulCorpses.verb>
+	<HaulCorpses.gerund>transporte</HaulCorpses.gerund>
+	
+	<HaulGeneral.verb>transporter</HaulGeneral.verb>
+	<HaulGeneral.gerund>transporte</HaulGeneral.gerund>
+	
+	<!-- ============= Growing ============= -->
+	
+	<GrowerHarvest.verb>cueillir</GrowerHarvest.verb>
+	<GrowerHarvest.gerund>cueille</GrowerHarvest.gerund>
+	
+	<GrowerSow.verb>semer</GrowerSow.verb>
+	<GrowerSow.gerund>sème</GrowerSow.gerund>
+
+	
+	<!-- ============= Repair ============= -->
+	
+	<Repair.verb>réparer</Repair.verb>
+	<Repair.gerund>répare</Repair.gerund>
+
+	<DoBillsMedicalMechanoidOperation.verb>modifier</DoBillsMedicalMechanoidOperation.verb>
+    <DoBillsMedicalMechanoidOperation.gerund>modifie</DoBillsMedicalMechanoidOperation.gerund>
+	
+	<!-- ============= Doctor ============= -->
+	
+	<DoctorTreatEmergency.verb>soigner (urgence)</DoctorTreatEmergency.verb>
+    <DoctorTreatEmergency.gerund>soigne (urgence)</DoctorTreatEmergency.gerund>
+	
+	<DoctorRescue.verb>secourir</DoctorRescue.verb>
+    <DoctorRescue.gerund>secours</DoctorRescue.gerund>
+	
+	<DoctorTreat.verb>soigner</DoctorTreat.verb>
+    <DoctorTreat.gerund>soigne</DoctorTreat.gerund>
+	
+	<DoctorFeed.verb>nourrir</DoctorFeed.verb>
+	<DoctorFeed.gerund>nourrit</DoctorFeed.gerund>
+	
+    <DoBillsMedicalHumanOperation.verb>opérer</DoBillsMedicalHumanOperation.verb>
+    <DoBillsMedicalHumanOperation.gerund>opère</DoBillsMedicalHumanOperation.gerund>
+	
+	<DoBillsMedicalAnimalOperation.verb>opérer</DoBillsMedicalAnimalOperation.verb>
+	<DoBillsMedicalAnimalOperation.gerund>opère</DoBillsMedicalAnimalOperation.gerund>
+	
+    <TakeToBedToOperate.verb>amener au bloc opératoire</TakeToBedToOperate.verb>
+    <TakeToBedToOperate.gerund>amène au bloc opératoire</TakeToBedToOperate.gerund>
+	
+	<!-- ============= Construction ============= -->
+	
+	<Deconstruct.verb>démanteler</Deconstruct.verb>	
+	<Deconstruct.gerund>démantèle</Deconstruct.gerund>
+	
+	<ConstructFinishFrames.verb>terminer</ConstructFinishFrames.verb>
+	<ConstructFinishFrames.gerund>termine</ConstructFinishFrames.gerund>
+	
+	<ConstructDeliverResourcesToFrames.verb>apporter</ConstructDeliverResourcesToFrames.verb>	
+	<ConstructDeliverResourcesToFrames.gerund>apporte</ConstructDeliverResourcesToFrames.gerund>
+	
+	<ConstructDeliverResourcesToBlueprints.verb>apporter</ConstructDeliverResourcesToBlueprints.verb>	
+	<ConstructDeliverResourcesToBlueprints.gerund>apporte</ConstructDeliverResourcesToBlueprints.gerund>
+	
+	<ConstructRemoveFloors.verb>Enlever le sol</ConstructRemoveFloors.verb>
+	<ConstructRemoveFloors.gerund>Enleve le sol</ConstructRemoveFloors.gerund>
+	
+	<ConstructSmoothFloors.verb>Aplanir</ConstructSmoothFloors.verb>
+	<ConstructSmoothFloors.gerund>aplanit</ConstructSmoothFloors.gerund>
+	
 	<!-- ============= Cooking ============= -->
+	
+	<DoBillsCook.verb>cuisiner</DoBillsCook.verb>
+	<DoBillsCook.gerund>cuisine</DoBillsCook.gerund>
+	
+	<DoBillsCookCampfire.verb>cuisiner</DoBillsCookCampfire.verb>
+	<DoBillsCookCampfire.gerund>cuisine</DoBillsCookCampfire.gerund>
+	
+	<DoBillsBrew.verb>Brasser</DoBillsBrew.verb>
+	<DoBillsBrew.gerund>Brasse</DoBillsBrew.gerund>
 	
 	<DoBillsButcherFlesh.verb>dépecer</DoBillsButcherFlesh.verb>
 	<DoBillsButcherFlesh.gerund>dépèce</DoBillsButcherFlesh.gerund>
-		
-	<DoBillsCook.verb>cuisiner</DoBillsCook.verb>
-	<DoBillsCook.gerund>cuisine</DoBillsCook.gerund>
-		
+	
 	<CookFillHopper.verb>remplir</CookFillHopper.verb>
 	<CookFillHopper.gerund>remplit</CookFillHopper.gerund>
-		
 
+  <!-- ==================================== Crafting ====================================== -->
 
-  <!-- ============= Crafting ============= -->
-
-	<DoBillsCremate.verb>incinérer</DoBillsCremate.verb>
-	<DoBillsCremate.gerund>incinère</DoBillsCremate.gerund>
-		
-	<DoBillsStonecut.verb>tailler des pierres</DoBillsStonecut.verb>
-	<DoBillsStonecut.gerund>taille des pierres</DoBillsStonecut.gerund>
-		
-	<DoBillsSlagRefining.verb>recycler du métal</DoBillsSlagRefining.verb>
-	<DoBillsSlagRefining.gerund>recycle du métal</DoBillsSlagRefining.gerund>
-		
-	<DoBillsButcherMechanoid.verb>démonter un méchanoïde</DoBillsButcherMechanoid.verb>
-	<DoBillsButcherMechanoid.gerund>démonte un méchanoïde</DoBillsButcherMechanoid.gerund>
+  <!-- ============= Crafting - art - sculpture ============= -->
 	
 	<FinishUnfinishedSculptures.verb>sculpter</FinishUnfinishedSculptures.verb>
 	<FinishUnfinishedSculptures.gerund>sculpte</FinishUnfinishedSculptures.gerund>
+	
 	<DoBillsSculpt.verb>sculpter</DoBillsSculpt.verb>
 	<DoBillsSculpt.gerund>sculpte</DoBillsSculpt.gerund>
 	
-  <!-- ============= Crafting - weapons ============= -->
+  <!-- ============= Crafting - Smithing ============= -->
   
 	<FinishUnfinishedWeapons.verb>forger</FinishUnfinishedWeapons.verb>
 	<FinishUnfinishedWeapons.gerund>forge</FinishUnfinishedWeapons.gerund>
+	
 	<DoBillsMakeWeapons.verb>forger</DoBillsMakeWeapons.verb>
 	<DoBillsMakeWeapons.gerund>forge</DoBillsMakeWeapons.gerund>
   
@@ -102,30 +153,20 @@
 	
 	<FinishUnfinishedApparel.verb>coudre</FinishUnfinishedApparel.verb>
 	<FinishUnfinishedApparel.gerund>coud</FinishUnfinishedApparel.gerund>
+	
 	<DoBillsMakeApparel.verb>coudre</DoBillsMakeApparel.verb>
 	<DoBillsMakeApparel.gerund>coud</DoBillsMakeApparel.gerund>
 	
-	<!-- ============= Medical operations ============= -->
+	<!-- ============= Crafting - misc ============= -->
 	
-  	<DoctorTreatEmergency.verb>soigner (urgence)</DoctorTreatEmergency.verb>
-    <DoctorTreatEmergency.gerund>soigne (urgence)</DoctorTreatEmergency.gerund>
-		
-	<DoctorTreat.verb>soigner</DoctorTreat.verb>
-    <DoctorTreat.gerund>soigne</DoctorTreat.gerund>
-		
-	<DoctorFeed.verb>nourrir</DoctorFeed.verb>
-	<DoctorFeed.gerund>nourrit</DoctorFeed.gerund>
-		
-    <DoBillsMedicalHumanOperation.verb>opérer</DoBillsMedicalHumanOperation.verb>
-    <DoBillsMedicalHumanOperation.gerund>opère</DoBillsMedicalHumanOperation.gerund>
-		
-    <DoBillsMedicalMechanoidOperation.verb>modifier</DoBillsMedicalMechanoidOperation.verb>
-    <DoBillsMedicalMechanoidOperation.gerund>modifie</DoBillsMedicalMechanoidOperation.gerund>
-		
-	<DoBillsMedicalAnimalOperation.verb>opérer</DoBillsMedicalAnimalOperation.verb>
-	<DoBillsMedicalAnimalOperation.gerund>opère</DoBillsMedicalAnimalOperation.gerund>
-			
-    <TakeToBedToOperate.verb>amener au bloc opératoire</TakeToBedToOperate.verb>
-    <TakeToBedToOperate.gerund>amène au bloc opératoire</TakeToBedToOperate.gerund>
+	<DoBillsStonecut.verb>tailler des pierres</DoBillsStonecut.verb>
+	<DoBillsStonecut.gerund>taille des pierres</DoBillsStonecut.gerund>
 	
+	<DoBillsSmelter.verb>raffiner</DoBillsSmelter.verb>
+	<DoBillsSmelter.gerund>raffine</DoBillsSmelter.gerund>
+		
+	<DoBillsMachiningTable.verb>travailler</DoBillsMachiningTable.verb>
+	<DoBillsMachiningTable.gerund>travaille</DoBillsMachiningTable.gerund>
+	
+
 </LanguageData>
