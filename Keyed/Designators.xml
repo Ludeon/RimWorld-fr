@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha722 -->
+<!-- Compatible vAlpha11 -->
 <LanguageData>
   
   <DesignatorCancel>Annuler</DesignatorCancel>
@@ -11,6 +11,9 @@
   <DesignatorDeconstruct>Détruire</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Détruit un bâtiment et récupère une partie des ressources.</DesignatorDeconstructDesc>
 
+  <DesignatorUninstall>Désinstaller</DesignatorUninstall>
+  <DesignatorUninstallDesc>Désinstaller ceci pour le bouger, le vendre ou l'installer autre part</DesignatorUninstallDesc>
+  
   <DesignatorHarvest>Récolter les plantes</DesignatorHarvest>
   <DesignatorHarvestDesc>Marque des plantes afin qu'elles soient récoltées. La nourriture ou les produits seront récoltés dans la mesure du possible, mais la plante ne sera pas détruite.</DesignatorHarvestDesc>
 
@@ -36,23 +39,23 @@
   <DesignatorPlanRemove>Retirer les plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Retire la zone de plan ciblée.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionAdd>Ajouter une Zone de Base</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Les colons feront le ménage et éteindront les incendies dans la Zone de Base.</DesignatorHomeRegionAddDesc>
+  <DesignatorAreaHomeExpand>Ajouter une Zone de Base</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Les colons feront le ménage et éteindront les incendies dans la Zone de Base.</DesignatorAreaHomeExpandDesc>
 
-  <DesignatorHomeRegionRemove>Retirer la Zone de Base</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Retire la Zone de Base ciblée. Les colons ne feront plus le ménage et n'éteindront plus les incendies ici.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorAreaHomeClear>Retirer la Zone de Base</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Retire la Zone de Base ciblée. Les colons ne feront plus le ménage et n'éteindront plus les incendies ici.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorRegionNoRoofAdd>Créer une Zone à Ciel Ouvert</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Génère une zone dans laquelle les plafonds n'apparaitront pas. Les colons vont aussi y retirer les plafonds existants.</DesignatorRegionNoRoofAddDesc>
+  <DesignatorAreaNoRoofExpand>Créer une Zone à Ciel Ouvert</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Génère une zone dans laquelle les plafonds n'apparaitront pas. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
 
-  <DesignatorRegionNoRoofRemove>Retirer une Zone à Ciel Ouvert</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Fait disparaitre une Zone à Ciel Ouvert. Des plafonds apparaitront ici et les plafonds existants ne seront pas retirés.</DesignatorRegionNoRoofRemoveDesc>
+  <DesignatorAreaNoRoofClear>Retirer une Zone à Ciel Ouvert</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Fait disparaitre une Zone à Ciel Ouvert. Des plafonds apparaitront ici et les plafonds existants ne seront pas retirés.</DesignatorAreaNoRoofClearDesc>
 
-  <DesignatorRegionSnowClearAdd>Ajoute une Zone de déneigement</DesignatorRegionSnowClearAdd>
-  <DesignatorRegionSnowClearAddDesc>Crée une zone à l'intérieur de laquelle les colons essaieront de nettoyer la neige.</DesignatorRegionSnowClearAddDesc>
+  <DesignatorAreaSnowClearExpand>Ajoute une Zone de déneigement</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Crée une zone à l'intérieur de laquelle les colons essaieront de nettoyer la neige.</DesignatorAreaSnowClearExpandDesc>
 
-  <DesignatorRegionSnowClearRemove>Supprime une Zone de déneigement</DesignatorRegionSnowClearRemove>
-  <DesignatorRegionSnowClearRemoveDesc>Les colons n'essaieront plus de nettoyer la neige dans la zone supprimée.</DesignatorRegionSnowClearRemoveDesc>
+  <DesignatorAreaSnowClearClear>Supprime une Zone de déneigement</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Les colons n'essaieront plus de nettoyer la neige dans la zone supprimée.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorGrowingZoneDesc>Crée une zone dans laquelle les colons vont cultiver certains types de plantes.</DesignatorGrowingZoneDesc>
 
@@ -66,6 +69,20 @@
   <DesignatorClaim>Revendiquer</DesignatorClaim>
   <DesignatorClaimDesc>Revendiquez des structures neutres pour votre colonie. Vous pouvez aussi bien revendiquer des ruines que des structures de siège laissées par les ennemis. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
   
+   <DesignatorRemoveFloor>Enlever le sol</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Enlever le sol pour révéler le terrain en dessous.</DesignatorRemoveFloorDesc>
+
+  <DesignatorStrip>Déshabiller</DesignatorStrip>
+  <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
+
+  <DesignatorRearmTrap>Réarmer les pièges</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Réarmer un piège à ressort de sorte qu'il peut se redéclenché à nouveau.</DesignatorRearmTrapDesc>
+
+  <DesignatorExpandAreaAllowed>Agrandir la région autorisé</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Agrandir la région autorisée.\n\nLes régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepterons pas les travaux ou de répondre à leurs besoin en dehors de ces régions.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Supprimer une région autorisée</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Supprimer une région autorisée.\n\nLes régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepterons pas les travaux ou de répondre à leurs besoin en dehors de ces régions.</DesignatorClearAreaAllowedDesc>
+  <ManageAreaAlloweds>Gérer les régions autorisées...</ManageAreaAlloweds>
   
   <!-- Failure messages -->
   <UnchosenStuff>Matériaux non sélectionné</UnchosenStuff>
@@ -82,7 +99,7 @@
   <IdenticalBlueprintExists>Quelque chose d'identique se trouve déjà ici.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Le terrain ne peut pas supporter ceci.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
-
+  <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
   
   
   <!-- placement of zones -->
@@ -92,6 +109,5 @@
   
   <!-- desc helpers -->
   <TransmitsPower>Transmet l'électricité</TransmitsPower>
-
 
 </LanguageData>
