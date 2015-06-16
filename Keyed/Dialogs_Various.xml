@@ -2,6 +2,7 @@
 <LanguageData>
 
 
+
   <Confirm>Confirmer</Confirm>
   <GoBack>Retour</GoBack>
   <OK>OK</OK>
@@ -15,16 +16,20 @@
   <SavedAs>Enregistré sous {0}.</SavedAs>
   <NeedAName>Veuillez entrer un nom.</NeedAName>
   <LoadingLongEvent>Chargement...</LoadingLongEvent>
-  
+  <SaveIsFromDifferentGameVersion>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version taotalement différente.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Les données sauvegarder ont été enregistré avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Les données sauvegarder sont dans un format inconnu et ne vont certainement pas se charger correctement.</SaveIsUnknownFormat>
   
   <!-- Colony naming-->
   <NameColonyMessage>Tout le monde sait que vous ne souhaitez pas vous éterniser sur ce caillou. Cependant {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
   <ColonyGainsName>La colonie s'appelle désormais {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Ce nom de colonie n'est pas valide.</ColonyNameIsInvalid>
-
-  <!-- Zone naming -->
+  
+  <!-- Renaming -->
+  <NameIsInvalid>S'il vous plaît entrer un nom valide.</NameIsInvalid>
+  <NameIsInUse>Ce nom est déjà utilisé.</NameIsInUse>
   <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Ce nom de zone n'est pas valide.</ZoneNameIsInvalid>
 
   <!-- Pawn naming -->
   <PawnGainsName>Le surnom du colon est maintenant {0}.</PawnGainsName>
@@ -33,7 +38,8 @@
   <VersionMismatch>Incompatibilité de version</VersionMismatch>
   <SaveGameIncompatibleWarningText>Attention: Cette carte a été sauvegardée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Attention: Cette carte a été générée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro</WorldFileVersionMismatch>
-
+  <ModsMismatchWarningTitle>Mods incompatible</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>La carte a été sauvegardé avec certain mods actifs que ceux actuellement en cour. Ceci peut causé des problèmes suivant ce que les mods font.\n\nLa carte a été sauvegardée avec (dans cet ordre):\n\n{0}\n\nActuellement il y a:\n\n{1}</ModsMismatchWarningText>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
@@ -98,6 +104,7 @@
   <Accuracy>Précision</Accuracy>
   <BurstShotCount>Nombre de tirs par rafale</BurstShotCount>
   <WarmupTime>Délai de Réchauffement</WarmupTime>
+  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
   <CooldownTime>Délai de refroidissement</CooldownTime>
   <BurstShotFireRate>Cadence de tir</BurstShotFireRate>
   <Range>portée</Range>

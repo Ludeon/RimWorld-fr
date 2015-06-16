@@ -63,6 +63,14 @@
   <CommandDeleteZoneDesc>Supprimer cette zone.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Supprimer</CommandDeleteZoneLabel>
    
+  <CommandCopyZoneSettingsLabel>Copier des paramètres</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Copier les paramètres de cette zone pour les coller sur une autre zone.</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>Coller des paramètres</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Écrase les paramètres de cette zone par ceux précédemment copier.</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>Autoriser le semis</CommandAllowSow>
+  <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récolté</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Désigner une cible forcée</CommandSetForceAttackTarget>
@@ -89,7 +97,10 @@
   <!-- Door -->
   <CommandToggleDoorLock>Verrouiller</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent être ouvertes par personne.</CommandToggleDoorLockDesc>
-
+  <CommandToggleDoorHoldOpen>Maintenir ouvert</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>Si activé, Les colons ne fermeront pas la porte. Si la porte est automatique, elle sera ouverte.</CommandToggleDoorHoldOpenDesc>
+  
+  
   <!-- Temperature control -->
   <CommandResetTemp>Réinitialiser</CommandResetTemp>
   <CommandResetTempDesc>Réinitialise la température à la température de la pièce.</CommandResetTempDesc>
@@ -103,5 +114,13 @@
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Créé une zone de stockage autours de ce bâtiment correspondant exactement à la forme du rayon de la balise de commerce orbital.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Créer une zone de stockage</CommandMakeBeaconStockpileLabel>
+  
+  <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>Créer une zone agricole autour de la lampe qui correspond avec la zone d'éclairage de celle-ci.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Créer une zone agricole</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
+  <CommandAutoRearmDesc>Si activé, le piège sera réarmé automatiquement après son activation.</CommandAutoRearmDesc>
   
 </LanguageData>

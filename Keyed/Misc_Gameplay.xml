@@ -33,14 +33,18 @@
 	<Inventory>Inventaire</Inventory>
 	<ThingInfo>Information</ThingInfo>
 	<DropThing>Lâcher</DropThing>
+	<Rename>Renommer</Rename>
 	<RenameColonist>Renommer le colon</RenameColonist>
 	<UnknownLower>inconnu</UnknownLower>
 	<On>On</On>
     <Off>Off</Off>
     <PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
-	<AreaLower>zone</AreaLower>
 	<JoyTolerances>Tolérance au plaisir</JoyTolerances>
 	<BrokenLetterLabel>Cassé</BrokenLetterLabel>
+	<AreaDefaultLabel>Area {0}</AreaDefaultLabel>
+    <NoAreaAllowed>non-restreint</NoAreaAllowed>
+    <NewArea>Nouvelle zone</NewArea>
+    <InvertArea>Inverser</InvertArea>
 	
     <!-- Control -->
     <CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
@@ -66,6 +70,14 @@
 	<ReportHauling>Transporte {0}.</ReportHauling>
 	<ReportSleeping>Dort.</ReportSleeping>
 	<ReportResting>Se repose.</ReportResting>
+	<WatchingSunrise>Observe le lever du soleil</WatchingSunrise>
+	<CloudWatching>Observe les nuages</CloudWatching>
+	<WatchingSunset>Observe le coucher du soleil</WatchingSunset>
+	<Stargazing>Observe les étoiles</Stargazing>
+	<WatchingEclipse>Observe l'éclipse</WatchingEclipse>
+	<DeliveringFood>Distribue de la nourriture à {0}.</DeliveringFood>
+	<UsingVerb>Utilise {0} sur {1}.</UsingVerb>
+	<AreaLower>zone</AreaLower>
 	
 	<!-- Shooting report -->
 	<WeaponMissRadius>Rayon d'échec de l'arme</WeaponMissRadius>
@@ -179,6 +191,7 @@
 	<DumpingStockpile>Décharge</DumpingStockpile>
 	<Priority>Priorité</Priority>
 	<ClearAll>Tout effacer</ClearAll>
+    <AllowAll>Tout autoriser</AllowAll>	
 	
 	<!-- ThingFilter -->
 	<HitPoints>{0} points de dégât</HitPoints>
@@ -268,12 +281,10 @@
 	
 	<!-- Generic lifespan -->
 	<LifespanExpiry>Expire dans:</LifespanExpiry>
-
-	<!-- JobDriver reports -->
-	<WatchingSunrise>Observe le lever du soleil</WatchingSunrise>
-	<CloudWatching>Observe les nuages</CloudWatching>
-	<WatchingSunset>Observe le coucher du soleil</WatchingSunset>
-	<Stargazing>Observe les étoiles</Stargazing>
-	<WatchingEclipse>Observe l'éclipse</WatchingEclipse>
 	
+	<!-- Traps -->
+	<TrapArmed>Armé</TrapArmed>
+	<TrapNotArmed>Non armé</TrapNotArmed>
+	<TrapRearmingCost>Coût du réarmement: {0}</TrapRearmingCost>
+  
 </LanguageData>
