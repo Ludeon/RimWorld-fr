@@ -9,17 +9,17 @@
   
   <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
-  <OverwriteButton>Écraser la sauvegarde</OverwriteButton>
+  <OverwriteButton>Écraser</OverwriteButton><!--Petit bouton-->
   <LoadGameButton>Charger</LoadGameButton>
-  <ConfirmDelete>Voulez-vous vraiment supprimer {0}?</ConfirmDelete>
+  <ConfirmDelete>Voulez-vous vraiment supprimer {0} ?</ConfirmDelete>
   <DeleteThisSavegame>Supprimer cette sauvegarde.</DeleteThisSavegame>
   <SavedAs>Enregistré sous {0}.</SavedAs>
-  <NeedAName>Veuillez entrer un nom.</NeedAName>
+  <NeedAName>Veuillez saisir un nom.</NeedAName>
   <LoadingLongEvent>Chargement...</LoadingLongEvent>
-  <SaveIsFromDifferentGameVersion>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version taotalement différente.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version totalement différente.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>Les données sauvegarder ont été enregistré avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Les données sauvegarder sont dans un format inconnu et ne vont certainement pas se charger correctement.</SaveIsUnknownFormat>
+  <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Les données sauvegarder sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
   
   <!-- Colony naming-->
   <NameColonyMessage>Tout le monde sait que vous ne souhaitez pas vous éterniser sur ce caillou. Cependant {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
@@ -27,7 +27,7 @@
   <ColonyNameIsInvalid>Ce nom de colonie n'est pas valide.</ColonyNameIsInvalid>
   
   <!-- Renaming -->
-  <NameIsInvalid>S'il vous plaît entrer un nom valide.</NameIsInvalid>
+  <NameIsInvalid>Veuillez saisir un nom valide.</NameIsInvalid>
   <NameIsInUse>Ce nom est déjà utilisé.</NameIsInUse>
   <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
 
@@ -36,13 +36,13 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Incompatibilité de version</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Attention: Cette carte a été sauvegardée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Attention: Cette carte a été générée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro</WorldFileVersionMismatch>
-  <ModsMismatchWarningTitle>Mods incompatible</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>La carte a été sauvegardé avec certain mods actifs que ceux actuellement en cour. Ceci peut causé des problèmes suivant ce que les mods font.\n\nLa carte a été sauvegardée avec (dans cet ordre):\n\n{0}\n\nActuellement il y a:\n\n{1}</ModsMismatchWarningText>
+  <SaveGameIncompatibleWarningText>Attention : Cette carte a été sauvegardée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Attention : Cette carte a été générée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro.</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>Mods incompatibles</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>La carte a été sauvegardée avec certains mods qui ne sont pas actifs actuellement. Ceci peut causer des problèmes selons les mods.\n\nLa carte a été sauvegardée avec les mods suivants (dans cet ordre) :\n\n{0}\n\nLes mods actuellement actifs sont les suivants :\n\n{1}</ModsMismatchWarningText>
   
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient-elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Conserver</ResolutionKeep>
   <ResolutionRevert>Annuler</ResolutionRevert>
   
@@ -55,19 +55,19 @@
   <Unresearched>Non recherché</Unresearched>
   <Finished>Terminé</Finished>
   <InProgress>En cours</InProgress>
-  <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dés maintenant.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de Banc de recherche, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
 
   
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Attention: Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Avertissement : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes.la taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté(e) à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Attention : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes. La taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
-  <MapSizeDesc>{0}x{0} ({1} cases)</MapSizeDesc>
+  <MapSizeDesc>{0}×{0} ({1} cases)</MapSizeDesc>
   <MapSizeSmall>Petite</MapSizeSmall>
   <MapSizeMedium>Moyenne</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
   <MapSizeExtreme>Ludeonesque</MapSizeExtreme>
-  <MapStartMonth>Mois de départ:</MapStartMonth>
+  <MapStartMonth>Mois de départ :</MapStartMonth>
   <MapStartMonthDefault>Auto</MapStartMonthDefault>
   
     
@@ -79,7 +79,7 @@
   <Forever>En boucle</Forever>
   <Details>Détails</Details>
   <IngredientSearchRadius>Rayon de recherche des ingrédients</IngredientSearchRadius>
-  <CurrentlyHave>Actuellement Possédé</CurrentlyHave>
+  <CurrentlyHave>Actuellement possédé</CurrentlyHave>
   <CountingProducts>Compte</CountingProducts>
   <Infinite>Infini</Infinite>
   <MinimumSkillLevel>Niveau {0} minimum</MinimumSkillLevel>
@@ -88,8 +88,8 @@
   <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
   <BillRequires>Requiert {0} {1}</BillRequires>
-  <BillRequiresMayVary>(Nota: les ingrédients de type 'petit volume', comme l'or, en requièrent 20 fois plus)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Ceci est un ingrédients de type 'petit volume'. Cela signifie que chaque 'unité' ne compte que pour 1/20 d'un ingrédient de type 'volume normal'. Donc, pour atteindre la même quantité requise, vous aurez besoin de 20 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
+  <BillRequiresMayVary>(Note : les ingrédients de type « petit volume », comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Ceci est un ingrédient de type « petit volume ». Cela signifie que chaque unité ne compte que pour 1/20 d'un ingrédient de type « volume normal ». Pour atteindre la même quantité, vous aurez donc besoin de 20 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <DoXTimes>Faire X fois</DoXTimes>
   <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
@@ -100,11 +100,11 @@
   <BillStoreMode_NearestStockpileAnyPriority>Déposer dans la zone de stockage la plus proche</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Info card -->
-  <Damage>Dégât</Damage>
+  <Damage>Dégâts</Damage>
   <Accuracy>Précision</Accuracy>
   <BurstShotCount>Nombre de tirs par rafale</BurstShotCount>
-  <WarmupTime>Délai de Réchauffement</WarmupTime>
-  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
+  <WarmupTime>Délai d'échauffement</WarmupTime>
+  <MeleeWarmupTime>Délai d'échauffement en mêlée</MeleeWarmupTime>
   <CooldownTime>Délai de refroidissement</CooldownTime>
   <BurstShotFireRate>Cadence de tir</BurstShotFireRate>
   <Range>portée</Range>
@@ -112,10 +112,10 @@
   <Harvestable>Récoltable</Harvestable>
   <LimitedLifespan>Durée de vie limitée</LimitedLifespan>
   <GrowingTime>Temps de croissance</GrowingTime>
-  <GrowingTimeDesc>Les plantes ne poussent que pendant certaines parties de la journée, Et seulement quand elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour attendre a taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ deux fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
+  <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre a taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <Days>jours</Days>
-  <FertilityRequirement>Fertilité requise</FertilityRequirement>
-  <LightRequirement>Lumière requise</LightRequirement>
+  <FertilityRequirement>Fertilité nécessaire</FertilityRequirement>
+  <LightRequirement>Lumière nécessaire</LightRequirement>
   <Attributes>Attributs</Attributes>
   <LifeSpan>Durée de vie</LifeSpan>
   <Nutrition>Nutrition</Nutrition>
@@ -123,7 +123,7 @@
   <FoodQuality>Qualité de la nourriture</FoodQuality>
   <WalkSpeedProperty>Vitesse de marche</WalkSpeedProperty>
   <ButcherYield>Production boucher</ButcherYield>
-  <MinFoodQuality>Qualité Min. de la nourriture</MinFoodQuality>
+  <MinFoodQuality>Qualité min. de la nourriture</MinFoodQuality>
   <Diet>Régime</Diet>
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
   <MarketValue>Prix de base</MarketValue>
@@ -132,21 +132,21 @@
   
   <!-- Trade -->
   <DragToTrade>Glisser pour commercer</DragToTrade>
-  <BuyPriceDesc>Prix que vous payez pour ceci.</BuyPriceDesc>
+  <BuyPriceDesc>Quantité nécessaire d'argent à dépenser pour l'achat de ce produit.</BuyPriceDesc>
   <SellPriceDesc>Argent reçu pour la vente de ce produit.</SellPriceDesc>
-  <PriceTypeDesc>Pour cet objet, le prix est de {0}.</PriceTypeDesc>
-  <ColonyCount>Quantité d'exemplaires de cet objet que la colonie peut échanger.\n\nVous ne pouvez vendre des objets que s'ils se trouvent à l'extérieur et près d'une balise de commerce orbital.</ColonyCount>
-  <TraderCount>Quantité d'exemplaires de cet objet que le marchand peut vendre.</TraderCount>
+  <PriceTypeDesc>Pour ce produit, le prix est de {0}.</PriceTypeDesc>
+  <ColonyCount>Quantité d'exemplaires de ce produit que la colonie peut échanger.\n\nVous ne pouvez vendre des produits que s'ils se trouvent à l'extérieur et près d'une balise de commerce orbital.</ColonyCount>
+  <TraderCount>Quantité d'exemplaires de ce produit que le marchand peut vendre.</TraderCount>
   <AcceptButton>Accepter</AcceptButton>
   <ResetButton>Réinitialiser</ResetButton>
   <CancelButton>Annuler</CancelButton>
   <YourTradeableSilver>Argent échangeable : {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Vous ne pouvez commercer qu'avec de l'argent qui n'est pas sous un toit, et est près d'une balise de commerce orbital.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Vous ne pouvez commercer qu'avec de l'argent qui n'est pas sous un toit et qui est près d'une balise de commerce orbital.</YourTradeableSilverTip>
   <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
-  <ColonyHasNoMore>Plus rien à vendre.</ColonyHasNoMore>
+  <ColonyHasNoMore>La colonie n'a plus rien à vendre.</ColonyHasNoMore>
   <TraderWillNotTrade>Le marchand ne veut pas vendre cet objet.</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement a cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleur santé.</NegotiatorTalkingImpaired>
-  <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuez quand même?</ConfirmTraderShortFunds>
+  <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
   
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
@@ -156,19 +156,19 @@
   <ResearchScreen>Écran de recherche</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Souhaitez-vous téléverser les informations de gameplay de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera téléversé tous les {0} jours (et dans d'autres rares cas comme les fin de partie). les préférences de confidentialité peuvent être modifiés ultérieurement dans le menu des options </HistoryUploadMessage>
+  <HistoryUploadMessage>Souhaitez-vous téléverser les informations de gameplay de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera téléversé tous les {0} jours (et dans d'autres rares cas comme les fins de partie). Les préférences de confidentialité peuvent être modifiées ultérieurement dans le menu des options.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Même si l'historique est téléversé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Autoriser l'envoi des informations</HistoryUploadYes>
   <HistoryUploadNo>Ne pas autoriser l'envoi des informations</HistoryUploadNo>
   <HistoryUploadYesOnce>Envoyer cette fois seulement</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard</HistoryUploadNoOnce>
+  <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard.</HistoryUploadNoOnce>
   	
   <!-- Outfit management -->
   <Outfit>Panoplie</Outfit>
-  <SelectOutfit>Choisir panoplie...</SelectOutfit>
+  <SelectOutfit>Choisir la panoplie...</SelectOutfit>
   <NewOutfit>Nouvelle panoplie</NewOutfit>
-  <DeleteOutfit>Supprimer panoplie...</DeleteOutfit>
+  <DeleteOutfit>Supprimer la panoplie...</DeleteOutfit>
   <OutfitInUse>Panoplie utilisée par {0}.</OutfitInUse>
-  <NoOutfitSelected>Aucune panoplie choisie</NoOutfitSelected>
+  <NoOutfitSelected>Aucune panoplie choisie.</NoOutfitSelected>
   
 </LanguageData>
