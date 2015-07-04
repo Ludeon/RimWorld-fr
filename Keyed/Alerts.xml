@@ -7,18 +7,17 @@
   <NeedSawmillDesc>Vous avez besoin d'un atelier de sciage pour tailler les buches en planches de bois plus polyvalentes.\n\nConstruisez un ATELIER DE SCIAGE ou une ATELIER DE SCIAGE ELECTRIQUE.</NeedSawmillDesc>
 
   <PoorMood>Mauvaise humeur</PoorMood>
-  <PoorMoodDesc>Ces colons sont de mauvaise humeur et peuvent avoir une légère crise de nerf à tout moment:\n\n{0}\nAccédez à l'onglet Humeurs de ces colons pour voir ce qui les dérange.</PoorMoodDesc>
-  
-  <TerribleMood>humeur massacrante</TerribleMood>
-  <TerribleMoodDesc>Ces colons sont extrêmement stressés et peuvent avoir une difficile - et potentiellement violente - crise de nerf à tout moment:\n\n{0}\nAccédez à l'onglet Humeurs de ces colons pour voir ce qui les dérange</TerribleMoodDesc>
-  <LowMoodDescEnding>Regarder les Humeurs de ce colons pour savoir ce qui le dérange.</LowMoodDescEnding>
+  <PoorMoodDesc>Ces colons sont de mauvaise humeur et peuvent avoir une légère crise de nerf à tout moment:\n\n{0}</PoorMoodDesc>
+  <TerribleMood>Humeur massacrante</TerribleMood>
+  <TerribleMoodDesc>Ces colons sont extrêmement stressés et peuvent avoir une sévère - et potentiellement violente - crise de nerf à tout moment:\n\n{0}</TerribleMoodDesc>
+  <LowMoodDescEnding>Vérifier l'onglet Besoins de ces colons pour voir ce qui les dérange.</LowMoodDescEnding>
   
   <ColonistNeedsRescue>Un colon a besoin d'aide</ColonistNeedsRescue>
   <ColonistsNeedRescue>Des colons ont besoin d'aide</ColonistsNeedRescue>
-  <ColonistsNeedRescueDesc>  Ces colons sont à terre et incapables d'agir par eux-même:\n\n{0}\nEnvoyez un autre colon les secourir et ramenez les dans leur lit.\n\n(Pour secourir, sélectionnez un autre colon, puis faites un clic droit sur la victime et sélectionnez l'option "Secourir".)</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDesc>Ces colons sont impotents, à terre:\n\n{0}\nEnvoyez un autre colon les secourir et les ramenez dans leurs lits.\n\n(Pour secourir quelqu'un, sélectionnez un autre colon, puis faites un clic droit sur la victime et sélectionnez l'option "Secourir".)</ColonistsNeedRescueDesc>
 
   <BuildARoom>Construire une salle</BuildARoom> 
-  <BuildARoomDesc>Vous n'avez pas de salle.\n\nConstruisez une salle fermée en utilisant des murs et portes.\n\nUtilisez le menu ARCHITECTE en bas de l'écran pour indiquer l'emplacement où vous souhaitez construire, vos colons feront le travail quand ils pourront.</BuildARoomDesc>
+  <BuildARoomDesc>Une salle est composée de murs fermés avec une porte.\n\nUtilisez le menu ARCHITECTE en bas à gauche de l'écran pour désigner où vous voulez construire des choses. Une fois que vous avez planifié une construction, vos colons se mettront au travail quand ils le pourront.</BuildARoomDesc>
 
   <NeedDefenses>Défenses nécessaires</NeedDefenses> 
   <NeedDefensesDesc>Cela fait maintenant quelques temps que vous vous êtes installé ici et des personnes mal intentionnées pourraient bien vous avoir remarqué. Des raids de sauvages ou de pirates pourraient prochainement avoir lieu.\n\nVous devriez préparer vos défenses.\n\nConstruisez quelques tourelles.</NeedDefensesDesc>
@@ -58,8 +57,8 @@
   <NeedMealSource>Repas nécessaires</NeedMealSource>  
   <NeedMealSourceDesc>Vous n'avez aucun moyen de produire des rations comestibles à partir de nourriture crue.\n\nConstruisez un distributeur de pâte nutritive ou une table de cuisson.\n\n(Ne placez pas ces objets dans une cellule de prison, sinon les colons ne peuvent pas s'en servir.)</NeedMealSourceDesc>
 
-  <NeedHomeArea>Besoin d'une Zone de Foyer</NeedHomeArea>
-  <NeedHomeAreaDesc>Vous avez besoin d'une ZONE DE FOYER où vos colons vont nettoyer, éteindre les feux et réparer les objets.\n\nDéfinissez une ZONE DE FOYER en utilisant l'outil dans la section ZONES du menu ARCHITECTE.</NeedHomeAreaDesc>
+  <NeedHomeRegion>Besoin d'une Zone de Foyer</NeedHomeRegion>
+  <NeedHomeRegionDesc>Vous avez besoin d'une ZONE DE FOYER où vos colons vont nettoyer, éteindre les feux et réparer les objets.\n\nDéfinissez une ZONE DE FOYER en utilisant l'outil dans la section ZONES du menu ARCHITECTE.</NeedHomeRegionDesc>
 
   <NeedBatteries>Batteries nécessaires</NeedBatteries>  
   <NeedBatteriesDesc>Vous n'avez construit que des panneaux solaires mais aucune batterie. Cela signifie que vous allez perdre de l'énergie à chaque fois que le soleil se couche.\n\nConstruisez une batterie ou deux pour pouvoir passer la nuit.</NeedBatteriesDesc>
@@ -78,37 +77,37 @@
 
   <NeedDump>Décharge nécessaire</NeedDump> 
   <NeedDumpDesc>Vous avez marqué des {0} pour être déplacés, mais vos colons n'ont aucun lieu adapté pour les entreposer.\n\nChoisissez une zone de stockage et modifiez ses réglages pour accepter des {0}.</NeedDumpDesc>
-<!-- Removed
-  <NeedGrave>Tombe nécessaire</NeedGrave>
-  <NeedGraveDesc>Il y a un corps sans vie à même le sol et vos colons ne savent pas quoi en faire.\n\nConstruisez une tombe ou une décharge et assurez vous qu'elles acceptent les corps.</NeedGraveDesc>
-  -->
+
+
+
+
+
+
   <ColonistsIdle>{0} colons vacants</ColonistsIdle>  
   <ColonistsIdleDesc>Ces colons se promènent sans tâche:\n\n{0}\nVous devriez probablement pouvoir leur trouver de quoi les occuper.</ColonistsIdleDesc>
- <!-- Removed
-  <MedicalBedLacksHeadspace>Lit médical inaccessible</MedicalBedLacksHeadspace>
-  <MedicalBedLacksHeadspaceDesc>Un lit médical est mal positionné,  les docteurs ne peuvent pas traiter les patients. Pour être utilisable, il doit y avoir une place pour que les médecins puissent se tenir à côté de la tête du lit.</MedicalBedLacksHeadspaceDesc>
-   -->
-  <!-- Removed
-  <HaltedConstructions>{0} constructions manquent de matériaux</HaltedConstructions>
-  <HaltedConstructionsDesc>Ces constructions manquent de matériaux : \n\n {0} \nVous devrait probablement rendre des matériaux disponibles pour les colons.</HaltedConstructionsDesc>
-  -->
+ 
+
+
+
+
+ 
   <ColonistNeedsTreatment>Un colon a besoin de soins</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>Ces colons ont besoin de soins médicaux. Sans cela, ils pourraient succomber à leurs blessures ou être handicapés à vie.\n\n{0}\nSoignez les en les envoyant se reposer sur un lit médical.\n\n(D'abord, assignez un lit médical en le sélectionnant et en activant l'option "lit médical". Ensuite sélectionnez le colon blessé et faites un clic droit sur le lit médical pour transformer ce colon en patient.)</ColonistNeedsTreatmentDesc>
 
   <AlertHypothermia>Hypothermie</AlertHypothermia>
-  <AlertHypothermiaDesc>Ces colons souffrent d'hypothermie.\n\n{0}\nAssurez vous que leurs vêtements soient appropriés pour la saison et que les espaces intérieurs soient convenablement chauffés.</AlertHypothermiaDesc>
+  <AlertHypothermiaDesc>Ces colons souffrent d'hypothermie.\n\n{0}\nAssurez-vous que leurs vêtements soient appropriés pour la saison et que les espaces intérieurs soient convenablement chauffés.</AlertHypothermiaDesc>
 
   <ColonistsAwaitingMedicalOperation>{0} colons sont en attente d'opération chirurgicale</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>Ces colons attendent une opération chirurgicale :\n\n{0}\nAssurez-vous de posséder le matériel adéquat et qu'un médecin est disponible.</ColonistsAwaitingMedicalOperationDesc>
 
-  <FireInHomeArea>Au Feu!</FireInHomeArea>
-  <FireInHomeAreaDesc>Il a un incendie dans votre colonie.</FireInHomeAreaDesc>
+  <FireInHomeRegion>Au Feu!</FireInHomeRegion>
+  <FireInHomeRegionDesc>Il y a un incendie dans votre colonie.</FireInHomeRegionDesc>
 
   <PawnsWithLifeThreateningDisease>Maladie grave</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>Ces colons sont en danger de mort à cause d'une maladie grave :\n\n{0}\nAssurez-vous qu'ils disposent d'autant d'attention que possible de la part des médecins.</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>Ces colons sont en danger de mort à cause d'une maladie grave ::\n\n{0}\nSi possible, envisagez l'amputation pour remplacer les membres infectés et leur sauver la vie.</PawnsWithLifeThreateningDiseaseAmputationDesc>
-  
-  <BilliardsNeedsSpace>Billards manque de place</BilliardsNeedsSpace>
-  <BilliardsNeedsSpaceDesc>Une de vos tables de billard est adjacente à un obstacle qui empêche les colons de l'utiliser. \n\nLa table de billard a besoin d'espace libre autour de tous ses côtés pour être utilisable.</BilliardsNeedsSpaceDesc>
+
+  <BilliardsNeedsSpace>Besoin d'espace pour le(s) billard(s)</BilliardsNeedsSpace>
+  <BilliardsNeedsSpaceDesc>L'une de vos tables de billard est obstruée par quelque chose qui empêche vos colons de l'utiliser.\n\nUne table de billard a besoin d'espace libre tout autour d'elle pour être utilisable.
 
 </LanguageData>
