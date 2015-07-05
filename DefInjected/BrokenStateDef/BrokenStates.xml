@@ -1,33 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--vAlpha10-->
+<?xml version="1.0" encoding="utf-8" ?>
+<!--vAlpha10e-->
 <LanguageData>
 	
-	<!-- Major breaks-->
+  <!-- Major breaks-->
   
-	<Berserk.label>Psychotique</Berserk.label>
-	<Berserk.beginLetterLabel>démence</Berserk.beginLetterLabel>
-	<Berserk.beginLetter>{0} vient d'avoir une crise de démence.</Berserk.beginLetter>
-	<Berserk.recoveryMessage>La crise de folie de {0} est terminée.</Berserk.recoveryMessage>
+	<Berserk.label>Fou furieux</Berserk.label>
+	<Berserk.beginLetter>{0} entre dans une crise de démence.</Berserk.beginLetter>
+	<Berserk.recoveryMessage>La crise de démence de {0} est terminée.</Berserk.recoveryMessage>
 	<Berserk.inspectLine>Mentalement brisé : Crise de démence</Berserk.inspectLine>
 	
-	<!-- Minor breaks-->
+  <!-- Minor breaks-->
 	
 	<DazedWander.label>Mentalement absent</DazedWander.label>
 	<DazedWander.beginLetter>{0} vient de craquer et erre sans but.</DazedWander.beginLetter>
 	<DazedWander.recoveryMessage>{0} s'est remis de son petit "passage à vide".</DazedWander.recoveryMessage>
 	<DazedWander.inspectLine>Mentalement brisé : Hébété et errant sans but</DazedWander.inspectLine>
   
-	<BingingAlcohol.label>Ingestion d'alcool</BingingAlcohol.label>
-	<BingingAlcohol.beginLetter>{0} consomme de l'alcool.</BingingAlcohol.beginLetter>
-	<BingingAlcohol.recoveryMessage>{0} a cessé de boire de l'alcool.</BingingAlcohol.recoveryMessage>
-	<BingingAlcohol.inspectLine>Mentalement brisé : Éponge à bière</BingingAlcohol.inspectLine>
+	<BingingAlcohol.label>Abus d'alcool</BingingAlcohol.label>
+	<BingingAlcohol.beginLetter>{0} boit comme un trou.</BingingAlcohol.beginLetter>
+	<BingingAlcohol.recoveryMessage>{0} est de nouveau sobre.</BingingAlcohol.recoveryMessage>
+	<BingingAlcohol.inspectLine>Mentalement brisé : Ivre</BingingAlcohol.inspectLine>
 	
-	<!-- Special breaks-->
+  <!-- Special breaks-->
   
 	<PanicFlee.label>Fuite en panique</PanicFlee.label>
 	<PanicFlee.beginLetter>{0} fuit paniqué.</PanicFlee.beginLetter>
 	<PanicFlee.recoveryMessage>{0} ne fuit plus sous le coup de la panique.</PanicFlee.recoveryMessage>
-	<PanicFlee.inspectLine>Mentalement brisé : fuit paniqué</PanicFlee.inspectLine>
+	<PanicFlee.inspectLine>Mentalement brisé : Fuit paniqué</PanicFlee.inspectLine>
+	
+	<Manhunter.label>Chasse à l'homme</Manhunter.label>
+	<Manhunter.beginLetter>{0} se lance dans une chasse à l'homme.</Manhunter.beginLetter>
+	<Manhunter.recoveryMessage>{0} ne traque plus ses congénères.</Manhunter.recoveryMessage>
+	<Manhunter.inspectLine>Mentalement brisé : Chasse ses congénères</Manhunter.inspectLine>
+	
+	<!-- Unused? -->
 	
 	<GiveUpExit.label>Abandonne et s'en va</GiveUpExit.label>
 	<GiveUpExit.beginLetter>{0} a baissé les bras et quitte la colonie.</GiveUpExit.beginLetter>
@@ -36,3 +42,5 @@
 	
 		
 </LanguageData>
+
+
