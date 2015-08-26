@@ -1,11 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- alpha10 -->
 <LanguageData>
-
-	<!-- Diseases -->
-    <Anesthetic.label>anesthésique</Anesthetic.label>
-	<Concussion.label>commotion cérébrale</Concussion.label>
-    <CryptosleepSickness.label>mal du caisson</CryptosleepSickness.label>
-    <FoodPoisoning.label>intoxication alimentaire</FoodPoisoning.label>
-
+	
+	<Malnutrition.label>malnutrition</Malnutrition.label>
+	<rep>
+		<path>Malnutrition.stages[0].label</path>
+		<trans>insignifiante</trans>
+	</rep>
+	<rep>
+		<path>Malnutrition.stages[1].label</path>
+		<trans>mineur</trans>
+	</rep>
+	<rep>
+		<path>Malnutrition.stages[2].label</path>
+		<trans>moyenne</trans>
+	</rep>
+	<rep>
+		<path>Malnutrition.stages[3].label</path>
+		<trans>sévère</trans>
+	</rep>
+	<rep>
+		<path>Malnutrition.stages[4].label</path>
+		<trans>extrême</trans>
+	</rep>
+	
 </LanguageData>
