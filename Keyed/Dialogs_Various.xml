@@ -7,6 +7,10 @@
   <GoBack>Retour</GoBack>
   <OK>OK</OK>
   
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Le jeu a redémarré suite à un problème de mods corrompus ou incompatibles.</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Il semble que certains des mods actifs aient causé des erreurs.\n\nIls peuvent être incompatibles les uns les autres, destinés à une version différente de RimWorld, ou bien corrompus.\n\nTous les mods ont été désactivés et peuvent de nouveau être activés dans le menu de gestion des mods.</RecoveredFromErrorsText>
+
   <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
   <OverwriteButton>Écraser</OverwriteButton><!--Petit bouton-->
@@ -20,6 +24,7 @@
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Les données sauvegarder sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Il y a eu un problème lors de la sauvegarde du fichier {0}:\n\n{1}</ProblemSavingFile>
   
   <!-- Colony naming-->
   <NameColonyMessage>Tout le monde sait que vous ne souhaitez pas vous éterniser sur ce caillou. Cependant {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
@@ -88,6 +93,7 @@
   <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
   <BillRequires>Requiert {0} {1}</BillRequires>
+  <BillRequiresNutrition>Requiert {0} de nutrition</BillRequiresNutrition>
   <BillRequiresMayVary>(Note : les ingrédients de type « petit volume », comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
   <ThisIsSmallVolume>Ceci est un ingrédient de type « petit volume ». Cela signifie que chaque unité ne compte que pour 1/20 d'un ingrédient de type « volume normal ». Pour atteindre la même quantité, vous aurez donc besoin de 20 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
@@ -129,6 +135,9 @@
   <MarketValue>Prix de base</MarketValue>
   <Covers>Protection</Covers>
   <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>
+  <MoodChange>Changement d'humeur</MoodChange>
+  <Wildness>Caractère sauvage</Wildness>
+  <WildnessExplanation>Les créatures les plus sauvages sont naturellement plus difficiles à apprivoiser, dresser et manipuler.</WildnessExplanation>
   
   <!-- Trade -->
   <DragToTrade>Glisser pour commercer</DragToTrade>
@@ -147,6 +156,7 @@
   <TraderWillNotTrade>Le marchand ne veut pas vendre cet objet.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
+  <SortBy>Trier par</SortBy>
   
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
