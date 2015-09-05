@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--vAlpha10 -->
 <LanguageData>
 
 	<rep>
@@ -206,7 +205,7 @@
 		<path>SleptOnGround.stages[0].description</path>
 		<trans>J'ai dû dormir par terre, comme un animal.</trans>
 	</rep>
-	  
+	
 	<rep>
 		<path>SleptInCold.stages[0].label</path>
 		<trans>A dormi dans le froid</trans>
@@ -215,7 +214,7 @@
 		<path>SleptInCold.stages[0].description</path>
 		<trans>j'ai dû dormir dans un endroit froid. Il nous faut vraiment un radiateur.</trans>
 	</rep>
-	  
+	
 	<rep>
 		<path>SleptInHeat.stages[0].label</path>
 		<trans>A dormi dans la chaleur</trans>
@@ -224,7 +223,7 @@
 		<path>SleptInHeat.stages[0].description</path>
 		<trans>J'ai dormi dans une chaleur insupportable. De l'air conditionné, c'est trop demander?</trans>
 	</rep>
-	  
+	
 	<rep>
 		<path>KnowPrisonerSold.stages[0].label</path>
 		<trans>A vendu un prisonnier comme esclave</trans>
@@ -234,17 +233,22 @@
 		<trans>Notre colonie a vendu un prisonnier comme esclave. C'est un peu inquiétant.</trans>
 	</rep>
 	
-	<rep>
-		<path>KnowGuestExecuted.stages[0].label</path>
-		<trans>Quelqu'un a été exécuté</trans>
-	</rep> 
-	 
-	<rep>
-		<path>KnowGuestExecuted.stages[0].description</path>
-		<trans>Un prisonnier ou un invité a été tué de sang-froid. Cette colonie empire chaque jour.</trans>
-	</rep> 
+	<KnowGuestExecuted.stages.0.label>quelqu'un a mis à mort</KnowGuestExecuted.stages.0.label>
+	<KnowGuestExecuted.stages.0.description>Un prisonnier ou un invité a été mis à mort.</KnowGuestExecuted.stages.0.description>
+	<KnowGuestExecuted.stages.1.label>Quelqu'un a été exécuté</KnowGuestExecuted.stages.1.label>
+	<KnowGuestExecuted.stages.1.description>Un prisonnier ou un invité a été tué de sang-froid. Cette colonie empire chaque jour.</KnowGuestExecuted.stages.1.description>
+	<KnowGuestExecuted.stages.2.label>Quelqu'un est mort pendant le prélevement d'organe</KnowGuestExecuted.stages.2.label>
+	<KnowGuestExecuted.stages.2.description>Un prisonnier ou invité est morts parce que la colonie a prélevé une partie de son corps. C'est horrible.</KnowGuestExecuted.stages.2.description>
+  
+  
+	<KnowColonistExecuted.stages.0.label>colon mis à mort</KnowColonistExecuted.stages.0.label>
+	<KnowColonistExecuted.stages.0.description>Un colon a été mis à mort.</KnowColonistExecuted.stages.0.description>
+	<KnowColonistExecuted.stages.1.label>colon a été exécuté</KnowColonistExecuted.stages.1.label>
+	<KnowColonistExecuted.stages.1.description>Un prisonnier ou un invité a été tué de sang-froid. Cette colonie empire chaque jour.</KnowColonistExecuted.stages.1.description>
+	<KnowColonistExecuted.stages.2.label>colon est mort pendant le prélevement d'organe</KnowColonistExecuted.stages.2.label>
+	<KnowColonistExecuted.stages.2.description>Un colon est mort car on lui a prélevé un organe. C'est horrible.</KnowColonistExecuted.stages.2.description>
+  
 	
-	  
 	<rep>
 		<path>KnowGuestOrganHarvested.stages[0].label</path>
 		<trans>Un organe a été prélevé sur quelqu'un</trans>
@@ -253,7 +257,10 @@
 		<path>KnowGuestOrganHarvested.stages[0].description</path>
 		<trans>La colonie a pris les organes d'un prisonnier ou d'un invité. C'est horrible de faire ça à quelqu'un sans lui laisser le choix.</trans>
 	</rep>
-	  
+	
+	<KnowColonistOrganHarvested.stages.0.label>organe du colon récolté</KnowColonistOrganHarvested.stages.0.label>
+	<KnowColonistOrganHarvested.stages.0.description>Quelqu'un a pris une partie du corps d'un colon. C'est horrible, de briser quelqu'un pour les parties de son corps quand ils n'ont pas le choix.</KnowColonistOrganHarvested.stages.0.description>
+  
 	<rep>
 		<path>MyOrganHarvested.stages[0].label</path>
 		<trans>Organe prélevé</trans>
@@ -316,5 +323,11 @@
 		<path>Catharsis.stages[0].description</path>
 		<trans>Ce qui vient d'arriver...ça ne me ressemble pas. Je sais que je peux faire mieux que ça.</trans>
 	</rep>
+
+	<Nuzzled.stages.0.label>caressé</Nuzzled.stages.0.label>
+	<Nuzzled.stages.0.description>Un animal mignon me caresse.</Nuzzled.stages.0.description>
+  
+	<SomeoneBuriedInSarcophagus.stages.0.label>enterré dans un sarcophage</SomeoneBuriedInSarcophagus.stages.0.label>
+	<SomeoneBuriedInSarcophagus.stages.0.description>Cette colonie a enterré quelqu'un dans un sarcophage ornementé. Que son âme repose en paix.</SomeoneBuriedInSarcophagus.stages.0.description>
 
 </LanguageData>
