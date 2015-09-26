@@ -34,7 +34,11 @@
 
   <CommandBedSetOwnerLabel>Définir le propriétaire</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Assigne ce lit à un colon spécifique.</CommandBedSetOwnerDesc>
-  <BedAssign>Assigner</BedAssign>
+  <CommandGraveAssignColonistLabel>Définir le propriétaire</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>Assigne cette tombe à un colon spécifique.</CommandGraveAssignColonistDesc>
+  <CommandGraveSetToUnassignedLabel>Définir sur non affectée</CommandGraveSetToUnassignedLabel>
+  <CommandGraveSetToUnassignedDesc>Définir cette tombe comme étant non affectée.</CommandGraveSetToUnassignedDesc>
+  <BuildingAssign>Assigner</BuildingAssign>
   <CommandBedSetForPrisonersLabel>Assigner aux prisonniers</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Rend les lits de cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Impossible d'assigner les lits en extérieur aux prisonniers.</CommandBedSetForPrisonersFailOutdoors>
@@ -47,21 +51,19 @@
   <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOffPrisonerBedWarning> 
   <AreYouSure>Êtes-vous sûr de vouloir faire ça ?</AreYouSure>
-
-  
-  
+   
   <CommandDetonateDesc>Démarrer le décompte du détonateur.</CommandDetonateDesc>
   <CommandDetonateLabel>Faire exploser</CommandDetonateLabel>
-
-  <CommandRenameZoneDesc>Renommer cette zone.</CommandRenameZoneDesc>
+  
   <CommandRenameZoneLabel>Renommer</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Renommer cette zone.</CommandRenameZoneDesc>
 
-  <CommandHideZoneDesc>Masquer/Afficher cette zone.</CommandHideZoneDesc>
   <CommandHideZoneLabel>Masquer</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Afficher</CommandUnhideZoneLabel>
-
-  <CommandDeleteZoneDesc>Supprimer cette zone.</CommandDeleteZoneDesc>
+  <CommandHideZoneDesc>Masquer/Afficher cette zone.</CommandHideZoneDesc>
+  
   <CommandDeleteZoneLabel>Supprimer</CommandDeleteZoneLabel>
+  <CommandDeleteZoneDesc>Supprimer cette zone.</CommandDeleteZoneDesc>
    
   <CommandCopyZoneSettingsLabel>Copier des paramètres</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>Copier les paramètres de cette zone pour les coller sur une autre zone.</CommandCopyZoneSettingsDesc>
@@ -123,4 +125,9 @@
   <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
   <CommandAutoRearmDesc>Si activé, le piège sera réarmé automatiquement après son activation.</CommandAutoRearmDesc>
   
+  <!-- Animal control -->
+  <CommandReleaseAnimalsLabel>Libérer l'animal</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>Quand c'est activé, les animaux dressés sont envoyés pour attaquer des cibles lointaines. Alors que si c'est désactivé, ils gardent et restent près de leur maître.</CommandReleaseAnimalsDesc>
+  
+
 </LanguageData>

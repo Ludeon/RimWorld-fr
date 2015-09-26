@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha10 -->
 <LanguageData>
 
 	<!-- ITab titles -->
 	<TabBills>Tâches</TabBills>
 	<TabGrowing>Culture</TabGrowing>
 	<TabCharacter>Aptitudes</TabCharacter>
+	<TabTraining>Entraînement</TabTraining>
 	<TabPrisoner>Prisonniers</TabPrisoner>
 	<TabGuest>Invités</TabGuest>
 	<TabGear>Matériel</TabGear>
@@ -17,6 +17,7 @@
 	<TabStats>Stats</TabStats>
 	<TabArt>Art</TabArt>
 	
+	
 	<!-- Bills tab  -->
 	<AddBill>Ajouter une tâche</AddBill>
 	<RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
@@ -24,6 +25,7 @@
 	<SuspendedCaps>EN PAUSE</SuspendedCaps>
 	<BoundWorkerIs>Travailleur: {0}</BoundWorkerIs>
 	<PlantVerb>Planter</PlantVerb>
+	
 	
 	<!-- Guest/prisoner tab -->
 	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
@@ -36,6 +38,7 @@
 	<PrisonerAttemptRecruit>Tenter recrutement</PrisonerAttemptRecruit>
 	<PrisonerRelease>Libérer le prisonnier</PrisonerRelease>
 	<PrisonerExecution>Exécution</PrisonerExecution>
+	
 	
 	<!-- Medical - general -->
 	<MoveSpeed>Vitesse de déplacement</MoveSpeed>
@@ -64,6 +67,8 @@
 	<Amputate>Amputer</Amputate>
 	<Harvest>Récolter</Harvest>
 	
+	
+	
 	<!--Medical - Body and activities condition -->
 	<None>Aucune</None>
 	<VeryPoor>Critique</VeryPoor>
@@ -79,5 +84,15 @@
 	<MediumPain>Moyenne</MediumPain>
 	<SeverePain>Sévère</SeverePain>
 	<ExtremePain>Extrême</ExtremePain>
+	
+	
+	<!-- Training tab-->
+	<TrainableIntelligence>Intelligence d'entraînement</TrainableIntelligence>
+	<CannotTrainNotSmartEnough>Nécessite intelligence d'entraînement {0}.</CannotTrainNotSmartEnough>
+	<CannotTrainTooSmall>{0} est trop faible pour entraîner ceci.</CannotTrainTooSmall>
+
+	<TrainingNeedsPrerequisite>Prérequis nécessaire: {0}</TrainingNeedsPrerequisite>
+	
+	
 	
 </LanguageData>

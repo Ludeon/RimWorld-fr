@@ -51,8 +51,6 @@
 	<ManhunterPackArrived>Une meute de Manhunter {0}s arrive dans la région. Ils vont parcourir la région a la recherche de viande humaine.\n\nIls ne passent pas les portes, Donc si vous restez derrière vos murs vous serrez en sécurité. Ils n'attaquent pas les tourelles inactives, Donc mettez vos tourelles hors tension si vous voulez les sauvez\n\nIls quitteront la région dans quelques jours.</ManhunterPackArrived>
 	
 	<!-- Crashed ship part-->
-	<LetterLabelSpaceshipPartCrash>Vaisseau démoniaque</LetterLabelSpaceshipPartCrash>
-	<SpaceshipPartCrash>Un gros débris provenant d'un ancien vaisseau s'est écrasé à proximité.\n\nVos colons le sentent au fond de leurs pensées, les exhortant à commettre des actes inqualifiables. Il doit y avoir à l'intérieur une IA dotée d'une personnalité capable de projeter des ondes psychiques et cette IA n'est pas amicale.\n\nDétruisez la aussi vite que possible !</SpaceshipPartCrash>
 	<MessageAnimalInsanityPulse>L'ancienne structure a émis une onde psychique qui a provoquée un élan de folie meurtrière parmi les animaux alentours.</MessageAnimalInsanityPulse>
 	<LetterShipPartDroveColonistInsane>L'épave de l'ancien vaisseau a émis une pulsation psychique focalisée qui a fait perdre la raison à votre colon {0}.</LetterShipPartDroveColonistInsane>
 	<AwokeDaysAgo>S'est éveillé il y a {0} jours</AwokeDaysAgo>
@@ -80,9 +78,23 @@
 	<BeaversArrived>Un groupe de Alphacastors affamés vient juste d'arriver.\n\nEssayez de les éliminer avant qu'ils n'aient dévoré jusqu'au dernier arbre de la région.</BeaversArrived>
 	
 	<!-- Refugee chased -->
-  <RefugeeChasedInitial>Un colon de {1} du nom de {0} vous appel. HECAP est pourchassé par des {2} de {3}!\n\nHECAP vous supplie de l'aider et vous offre de rejoindre votre colonie. HE a {4} ans.\n\nSoyez averti - si vous accepté, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
-  <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>{0} hurle de panique dans le micro avant de couper la transmission.</RefugeeChasedRejected>
+	<RefugeeChasedInitial>Un colon de {1} du nom de {0} vous appel. HECAP est pourchassé par des {2} de {3}!\n\nHECAP vous supplie de l'aider et vous offre de rejoindre votre colonie. HE a {4} ans.\n\nSoyez averti - si vous accepté, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
+	<RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
+	<RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
+	<RefugeeChasedRejected>{0} hurle de panique dans le micro avant de couper la transmission.</RefugeeChasedRejected>
+	
+	<!-- Self-tame -->
+	<LetterLabelAnimalSelfTame>{0} auto-apprivoisé</LetterLabelAnimalSelfTame>
+	<LetterAnimalSelfTame>{0} est devenu apprivoisé.</LetterAnimalSelfTame>
+	<LetterAnimalSelfTameAndNameNumerical>{0} est devenu apprivoisé. Il est maintenant désigné {1}.</LetterAnimalSelfTameAndNameNumerical>
+	<LetterAnimalSelfTameAndName>{0} est devenu apprivoisé. Les colons ont décidé de le nommer {1}.</LetterAnimalSelfTameAndName>
+
+	<!-- Farm animals wander in -->
+	<LetterLabelFarmAnimalsWanderIn>{0} nous a rejoint</LetterLabelFarmAnimalsWanderIn>
+	<LetterFarmAnimalsWanderIn>Un groupe de {0}, abandonnés ou perdus, ont erré dans la région.\n\nIls semblent habitués au contact humain et se joignent à la colonie.</LetterFarmAnimalsWanderIn>
+  
+	<!-- Thrumbo passes -->
+	<LetterLabelThrumboPasses>thrumbos rares</LetterLabelThrumboPasses>
+	<LetterThrumboPasses>Un petit troupeau de thrumbos erre dans la région.\n\nPacifique par nature, ces créatures rares sont extrêmement dangereuses lorsqu'ils sont confrontés. Certains commerçants sont prêts à payer beaucoup d'argent pour leur cuir et corne.\n\nLes thrumbos vont quitter la région dans quelques jours.</LetterThrumboPasses>
   
 </LanguageData>
