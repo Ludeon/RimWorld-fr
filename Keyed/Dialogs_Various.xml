@@ -7,10 +7,10 @@
   <GoBack>Retour</GoBack>
   <OK>OK</OK>
   
-  <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Le jeu a redémarré suite à un problème de mods corrompus ou incompatibles.</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Il semble que certains des mods actifs aient causé des erreurs.\n\nIls peuvent être incompatibles les uns les autres, destinés à une version différente de RimWorld, ou bien corrompus.\n\nTous les mods ont été désactivés et peuvent de nouveau être activés dans le menu de gestion des mods.</RecoveredFromErrorsText>
-
+   <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Erreur de mods incompatibles ou corrompus</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Il semblerait qu'un des mods actif cause des problèmes.\n\nIls sont incompatibles entre eux, développés pour une version différente de RimWorld, ou corrompus.\n\nTous les mods ont été désactivés et peuvent être de nouveau activés depuis la fenêtre des mods.</RecoveredFromErrorsText>
+  
   <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
   <OverwriteButton>Écraser</OverwriteButton><!--Petit bouton-->
@@ -23,11 +23,11 @@
   <SaveIsFromDifferentGameVersion>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version totalement différente.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Les données sauvegarder sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Il y a eu un problème lors de la sauvegarde du fichier {0}:\n\n{1}</ProblemSavingFile>
+  <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
   
   <!-- Colony naming-->
-  <NameColonyMessage>Tout le monde sait que vous ne souhaitez pas vous éterniser sur ce caillou. Cependant {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
+  <NameColonyMessage>On dirait que vous allez rester ici un bon moment. {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
   <ColonyGainsName>La colonie s'appelle désormais {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Ce nom de colonie n'est pas valide.</ColonyNameIsInvalid>
   
@@ -41,8 +41,8 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Incompatibilité de version</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Attention : Cette carte a été sauvegardée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Attention : Cette carte a été générée avec une version {0} du jeu, la version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro.</WorldFileVersionMismatch>
+  <SaveGameIncompatibleWarningText>Cette carte a été sauvegardée avec une version {0} du jeu.\nLa version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Cette carte a été générée avec une version {0} du jeu.\nLa version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro.</WorldFileVersionMismatch>
   <ModsMismatchWarningTitle>Mods incompatibles</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>La carte a été sauvegardée avec certains mods qui ne sont pas actifs actuellement. Ceci peut causer des problèmes selon les mods.\n\nLa carte a été sauvegardée avec les mods suivants (dans cet ordre) :\n\n{0}\n\nLes mods actuellement actifs sont les suivants :\n\n{1}</ModsMismatchWarningText>
   
@@ -50,17 +50,14 @@
   <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient-elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Conserver</ResolutionKeep>
   <ResolutionRevert>Annuler</ResolutionRevert>
-  
-  <!-- Overview -->
-  <OverviewOf>Aperçu de {0}</OverviewOf>
-  
+ 
   <!-- Research -->
   <Research>Recherche</Research>
   <Researched>Découvert</Researched>
   <Unresearched>Non recherché</Unresearched>
   <Finished>Terminé</Finished>
   <InProgress>En cours</InProgress>
-  <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de Banc de recherche, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
 
   
   <!-- Advanced game start options -->
@@ -77,8 +74,8 @@
   
     
   <!-- Bill config -->
-  <Suspended>En pause</Suspended>
-  <NotSuspended>Pas de pause</NotSuspended>
+  <Suspended>Suspendre</Suspended>
+  <NotSuspended>Reprendre</NotSuspended>
   <SuspendedAllCaps>EN PAUSE</SuspendedAllCaps>
   <RepeatCount>Répéter : {0}</RepeatCount>
   <Forever>En boucle</Forever>
@@ -89,13 +86,13 @@
   <Infinite>Infini</Infinite>
   <MinimumSkillLevel>Niveau {0} minimum</MinimumSkillLevel>
     
-  <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible parce que ses résultats sont multiples ou imprévisibles.)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible car ses résultats sont multiples ou imprévisibles.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
   <BillRequires>Requiert {0} {1}</BillRequires>
-  <BillRequiresNutrition>Requiert {0} de nutrition</BillRequiresNutrition>
-  <BillRequiresMayVary>(Note : les ingrédients de type « petit volume », comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Ceci est un ingrédient de type « petit volume ». Cela signifie que chaque unité ne compte que pour 1/20 d'un ingrédient de type « volume normal ». Pour atteindre la même quantité, vous aurez donc besoin de 20 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
+  <BillRequiresNutrition>Requiert {0} nourriture</BillRequiresNutrition>
+  <BillRequiresMayVary>(Note : les ingrédients de petit volume, comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Ceci est un ingrédient de  petit volume. Cela signifie que chaque unité ne compte que pour 1/20 d'un ingrédient de volume norma. Pour atteindre la même quantité, vous aurez donc besoin de 20 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <DoXTimes>Faire X fois</DoXTimes>
   <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
@@ -113,22 +110,21 @@
   <MeleeWarmupTime>Délai d'échauffement en mêlée</MeleeWarmupTime>
   <CooldownTime>Délai de refroidissement</CooldownTime>
   <BurstShotFireRate>Cadence de tir</BurstShotFireRate>
-  <Range>portée</Range>
+  <Range>Portée</Range>
   <GrowsWild>Mauvaise herbe</GrowsWild>
   <Harvestable>Récoltable</Harvestable>
   <LimitedLifespan>Durée de vie limitée</LimitedLifespan>
   <GrowingTime>Temps de croissance</GrowingTime>
   <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre a taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <Days>jours</Days>
-  <FertilityRequirement>Fertilité nécessaire</FertilityRequirement>
-  <LightRequirement>Lumière nécessaire</LightRequirement>
+  <FertilityRequirement>Nécessite un sol fertile</FertilityRequirement>
+  <LightRequirement>Nécessite de la lumière</LightRequirement>
   <Attributes>Attributs</Attributes>
   <LifeSpan>Durée de vie</LifeSpan>
   <Nutrition>Nutrition</Nutrition>
   <Joy>Plaisir</Joy>
   <FoodQuality>Qualité de la nourriture</FoodQuality>
   <WalkSpeedProperty>Vitesse de marche</WalkSpeedProperty>
-  <ButcherYield>Production boucher</ButcherYield>
   <MinFoodQuality>Qualité min. de la nourriture</MinFoodQuality>
   <Diet>Régime</Diet>
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
@@ -136,13 +132,13 @@
   <Covers>Protection</Covers>
   <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>
   <MoodChange>Changement d'humeur</MoodChange>
-  <Wildness>Caractère sauvage</Wildness>
-  <WildnessExplanation>Les créatures les plus sauvages sont naturellement plus difficiles à apprivoiser, dresser et manipuler.</WildnessExplanation>
+  <Wildness>Sauvage</Wildness>
+  <WildnessExplanation>Plus la créature est sauvage, plus il sera difficile de l'apprivoiser / entrainner / domestiquer.</WildnessExplanation>
   
   <!-- Trade -->
-  <DragToTrade>Glisser pour commercer</DragToTrade>
-  <BuyPriceDesc>Quantité nécessaire d'argent à dépenser pour l'achat de ce produit.</BuyPriceDesc>
-  <SellPriceDesc>Argent reçu pour la vente de ce produit.</SellPriceDesc>
+  <DragToTrade>Glisser pour\ncommercer</DragToTrade>
+  <BuyPriceDesc>Prix d'achat pour ce produit.</BuyPriceDesc>
+  <SellPriceDesc>Prix de vente pour ce produit.</SellPriceDesc>
   <PriceTypeDesc>Pour ce produit, le prix est de {0}.</PriceTypeDesc>
   <ColonyCount>Quantité d'exemplaires de ce produit que la colonie peut échanger.\n\nVous ne pouvez vendre des produits que s'ils se trouvent à l'extérieur et près d'une balise de commerce orbital.</ColonyCount>
   <TraderCount>Quantité d'exemplaires de ce produit que le marchand peut vendre.</TraderCount>
@@ -157,7 +153,7 @@
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
   <SortBy>Trier par</SortBy>
-  
+	
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
   
@@ -166,19 +162,19 @@
   <ResearchScreen>Écran de recherche</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Souhaitez-vous téléverser les informations de gameplay de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera téléversé tous les {0} jours (et dans d'autres rares cas comme les fins de partie). Les préférences de confidentialité peuvent être modifiées ultérieurement dans le menu des options.</HistoryUploadMessage>
-  <HistoryUploadMessagePlayerName>Même si l'historique est téléversé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
+  <HistoryUploadMessage>Souhaitez-vous envoyer les informations de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera téléversé tous les {0} jours (et dans d'autres rares cas comme les fins de partie). Les préférences de confidentialité peuvent être modifiées ultérieurement dans les options.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Même si l'historique est envoyé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Autoriser l'envoi des informations</HistoryUploadYes>
   <HistoryUploadNo>Ne pas autoriser l'envoi des informations</HistoryUploadNo>
   <HistoryUploadYesOnce>Envoyer cette fois seulement</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard.</HistoryUploadNoOnce>
   	
   <!-- Outfit management -->
-  <Outfit>Panoplie</Outfit>
-  <SelectOutfit>Choisir la panoplie...</SelectOutfit>
-  <NewOutfit>Nouvelle panoplie</NewOutfit>
-  <DeleteOutfit>Supprimer la panoplie...</DeleteOutfit>
-  <OutfitInUse>Panoplie utilisée par {0}.</OutfitInUse>
-  <NoOutfitSelected>Aucune panoplie choisie.</NoOutfitSelected>
+  <Outfit>Tenues</Outfit>
+  <SelectOutfit>Choisir la tenue...</SelectOutfit>
+  <NewOutfit>Nouvelle tenue</NewOutfit>
+  <DeleteOutfit>Supprimer la tenue...</DeleteOutfit>
+  <OutfitInUse>Tenue utilisée par {0}.</OutfitInUse>
+  <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
   
 </LanguageData>

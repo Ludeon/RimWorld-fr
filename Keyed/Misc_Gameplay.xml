@@ -5,12 +5,13 @@
 	<WorkLeft>Travail restant</WorkLeft>
 	<Contents>Contenus</Contents>
 	<ContainedResources>Ressources contenues</ContainedResources>
-	<ForPrisonerUse>Assigné aux prisonniers</ForPrisonerUse>
-	<ForColonistUse>Assigné aux colons</ForColonistUse>
+	<ForPrisonerUse>Affecter aux prisonniers</ForPrisonerUse>
+	<ForColonistUse>Affecter aux colons</ForColonistUse>
 	<MedicalBed>Médical</MedicalBed>
 	<Owner>Propriétaire</Owner>
+    <AssignedColonist>Affecter à un colon</AssignedColonist>
 	<Nobody>Personne</Nobody>
-	<Unowned>Disponible</Unowned>
+	<Unowned>Inconnu</Unowned>
 	<DeadTime>Mort {0}</DeadTime>
 	<WalkSpeed>vitesse de déplacement {0}</WalkSpeed>
 	<DyingLower>mourant</DyingLower>
@@ -39,17 +40,37 @@
 	<Off>Off</Off>
 	<PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
 	<JoyTolerances>Tolérance au plaisir</JoyTolerances>
-	<BrokenLetterLabel>Cassé</BrokenLetterLabel>
+	<BrokenLetterLabel>Crise</BrokenLetterLabel>
+  <MilkFullness>Lait rempli</MilkFullness>
+  <WoolGrowth>Croissance de la laine</WoolGrowth>
+  <EggProgress>Croissance des oeufs</EggProgress>
+  <Fertilized>Fertile</Fertilized>
+  <SkillTooLow>a besoin de {0} niveau {2} (niveau {1} trop faible)</SkillTooLow>
+  
+
 	
 	<!--TextMotes-->
 	<Headshot>Tir dans la tête</Headshot>
-	<TextMoteTreatedPoorly>Mauvais traitement\n{0} chance</TextMoteTreatedPoorly>
-	<TextMoteTreatedWell>Bon traitement\n{0} chance</TextMoteTreatedWell>
-	
-	<!-- Areas -->
-	<AreaDefaultLabel>Area {0}</AreaDefaultLabel>
-	<NoAreaAllowed>non-restreint</NoAreaAllowed>
+	<TreatQuality>traitement de qualité {0}</TreatQuality>
+    <PoorResult>faible résultat</PoorResult>
+    <GoodResult>bon résultat</GoodResult>
+	<TextMote_TreatSuccess>Traité avec succès !\n{0} chance</TextMote_TreatSuccess>
+	<TextMote_TreatFailed>Traitement raté\n{0} chance</TextMote_TreatFailed>
+	<HarvestFailed>Collecte\néchouée</HarvestFailed>
+	<TextMote_TameFail>Domptage échoué\n{0} chance</TextMote_TameFail>
+	<TextMote_TameSuccess>Apprivoisé !\n{0} chance</TextMote_TameSuccess>
+	<TextMote_TrainFail>Domptage échoué: {0}\n{1} chance</TextMote_TrainFail>
+	<TextMote_TrainSuccess>Apprivoisé: {0}\n{1} chance</TextMote_TrainSuccess>
+  	
+	  <!-- Areas -->
+	<Home>Base</Home>
+	<NoRoof>Pas de toit</NoRoof>
+	<SnowClear>Enlever la neige</SnowClear>
+	<AreaDefaultLabel>Zone {0}</AreaDefaultLabel>
+	<AreaAnimalDefaultLabel>Zone animale {0}</AreaAnimalDefaultLabel>
+	<NoAreaAllowed>non-restreind</NoAreaAllowed>
 	<NewArea>Nouvelle zone</NewArea>
+	<NewAreaAnimal>Nouvelle zone animale</NewAreaAnimal>
 	<InvertArea>Inverser</InvertArea>
 	
 	<!-- Control -->
@@ -109,11 +130,9 @@
 	<MentalBreakThresholdSoft>Seuil de crise de nerfs mineure</MentalBreakThresholdSoft>
 	
 	<!-- Pawn info readout -->
-	<hitPoints>Santé</hitPoints>
-	<PawnMainDescWithFactionGendered>{1} {0} de {2}</PawnMainDescWithFactionGendered>
 	<PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
-	<PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
-	<PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+	<PawnMainDescWithFactionedWrap>{0} de {1}</PawnMainDescWithFactionedWrap>
+    <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
 	<Faction>Faction</Faction>
 	<Equipped>Équipé</Equipped>
 	<EquippedNothing>Rien</EquippedNothing>
@@ -210,8 +229,10 @@
 	<!-- Buttons -->
 	<ZoneVisibilityToggleButton>Activer/Désactiver la visibilité de la zone.</ZoneVisibilityToggleButton>
 	<ShowBeautyToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
+	<ShowRoomStatsToggleButton>Activer/Désactiver l'affichage des stat de la pièce.\n\nAffiche les caractéristiques de la pièce visée par le curseur.</ShowRoomStatsToggleButton>
 	<AutoHomeRegionToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeRegionToggleButton>
 	<CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
+    <ShowAnimalNamesToggleButton>Active/Désactive l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
 	
 	<!-- Fire -->
 	<Fire>Feu</Fire>
@@ -253,6 +274,9 @@
 	<UseNeurotrainer>Utiliser un neuro-entraîneur pour apprendre {0}</UseNeurotrainer>
 	<NeurotrainerUsed>{0} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
 	
+	  <!-- Artifact -->
+	<UseArtifact>Activer</UseArtifact>
+  
 	<!-- Minification -->
 	<Installed>Installé</Installed>
 	<NotInstalled>Non installé</NotInstalled>
@@ -292,5 +316,8 @@
 	<TrapArmed>Armé</TrapArmed>
 	<TrapNotArmed>Non armé</TrapNotArmed>
 	<TrapRearmingCost>Coût du réarmement : {0}</TrapRearmingCost>
+	
+	<!-- Facilities -->
+	<InactiveFacility>inactif</InactiveFacility>
   
 </LanguageData>

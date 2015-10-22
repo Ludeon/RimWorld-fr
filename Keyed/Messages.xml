@@ -34,11 +34,14 @@
   <MessageOutOfNearbyShellsFor>{0} n'a trouvé aucun obus à proximité pour {1}.</MessageOutOfNearbyShellsFor>
 
   <MessageAnimalsGoPsychoHunted>Attention : les {0}s vont habituellement attaquer s'ils sont chassés.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>Attention: {0}s vont habituellement attaquer lors d'un échec pendant l'apprivoisement ({1} chance).</MessageAnimalManhuntsOnTameFailed>
 
   <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>  
   <MessageRecruitSuccess>{0} a réussi à recruter {1} ({2} de chance).</MessageRecruitSuccess>
   <MessageRecruitFail>{0} n'a pas réussi à recruter {1} ({2} de chance).</MessageRecruitFail>
   <MessageRecruitFailBecauseMood>{0} n'a pas réussi à recruter {1} (Le prisonnier est de trop mauvaise humeur.).</MessageRecruitFailBecauseMood>
+  <MessageTameSuccess>{0} a réussi à apprivoiser {1} ({2} chance).</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0} a réussi à apprivoiser {1} ({2} chance) et l'a nommé {3}.</MessageTameAndNameSuccess>
 	
   <MessageColonyCannotAfford>La colonie ne peut pas se permettre cet échange.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Vous ne disposez pas d'assez d'argent à échanger.</MessageColonyNotEnoughSilver>
@@ -56,6 +59,8 @@
   <MessageNothingCanRemoveThickRoofs>Le toit ne peut être retiré car trop épais.</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>Ceci est déjà dans la zone de stockage et sera déplacé vers la zone de stockage haute priorité si nécessaire.</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>Vous devez désigner un corps ou une personne blessée et qui possède quelque chose à déshabiller.</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>Vous devez désigner un animal apprivoisé qui appartient à la colonie.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>Vous devez désigner une tombe pleine ou des conteneurs.</MessageMustDesignateOpenable>
   
   <MessageRefusedArrest>{0} a refusé d'être arrêté(e) !</MessageRefusedArrest>
   
@@ -74,4 +79,15 @@
 
   <MessagePawnExitMapRelationsGain>{0} est parti(e) en bonne santé, les relations avec {1} ont été augmentées de {2}.</MessagePawnExitMapRelationsGain>
   
+  
+  
+    <MessageMiscarriedStarvation>{0} a fait une fausse couche due à la famine.</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0} a fait une fausse couche due à sa santé faible.</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
+
+  <MessageNuzzledPawnGaveNameTo>{0} a nommé {1} {2} après s'être blotti contre.</MessageNuzzledPawnGaveNameTo>
+
+  <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {0} (requiert niveau {1} en {2}, votre meilleur dresseur {3} est niveau {4}).</MessageNoHandlerSkilledEnough>
+  
+
 </LanguageData>

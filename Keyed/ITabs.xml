@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Compatible vAlpha10 -->
 <LanguageData>
 
 	<!-- ITab titles -->
 	<TabBills>Tâches</TabBills>
 	<TabGrowing>Culture</TabGrowing>
 	<TabCharacter>Aptitudes</TabCharacter>
-	<TabTraining>Entraînement</TabTraining>
-	<TabPrisoner>Prisonniers</TabPrisoner>
+	<TabTraining>Entraîner</TabTraining>
+    <TabPrisoner>Prisonniers</TabPrisoner>
 	<TabGuest>Invités</TabGuest>
 	<TabGear>Matériel</TabGear>
-	<TabNeeds>Humeur</TabNeeds>
+    <TabNeeds>Besoins</TabNeeds>
 	<TabStorage>Stockage</TabStorage>
 	<TabHealth>Santé</TabHealth>
 	<TabRace>Race</TabRace>
@@ -17,28 +18,25 @@
 	<TabStats>Stats</TabStats>
 	<TabArt>Art</TabArt>
 	
-	
 	<!-- Bills tab  -->
 	<AddBill>Ajouter une tâche</AddBill>
-	<RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun colon ne dispose de cette compétence, personne ne prendra en charge cette commande.</RecipeRequiresSkills>
-	<MinimumSkill>Configurer</MinimumSkill>
-	<SuspendedCaps>EN PAUSE</SuspendedCaps>
+	<RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun de vos colon ne dispose de cette compétence, donc personne ne prendra en charge cette commande.</RecipeRequiresSkills>
+	<MinimumSkill>Compétence min.</MinimumSkill>
+	<SuspendedCaps>SUSPENDUE</SuspendedCaps>
 	<BoundWorkerIs>Travailleur: {0}</BoundWorkerIs>
 	<PlantVerb>Planter</PlantVerb>
-	
 	
 	<!-- Guest/prisoner tab -->
 	<RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
 	<GetsFood>Reçoit de la nourriture</GetsFood>
 	<DoctorsCare>Surveillance médicale</DoctorsCare>
 	<GetsMedicine>Reçoit des soins</GetsMedicine>
-	<ShouldTryToRecruit>Tentative de recrutement</ShouldTryToRecruit>
+	<ShouldTryToRecruit>Tenter le recrutement</ShouldTryToRecruit>
 	<PrisonerNoInteraction>Aucune interaction</PrisonerNoInteraction>
 	<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
-	<PrisonerAttemptRecruit>Tenter recrutement</PrisonerAttemptRecruit>
-	<PrisonerRelease>Libérer le prisonnier</PrisonerRelease>
-	<PrisonerExecution>Exécution</PrisonerExecution>
-	
+	<PrisonerAttemptRecruit>Parler et recruter</PrisonerAttemptRecruit>
+	<PrisonerRelease>Libérer</PrisonerRelease>
+	<PrisonerExecution>Exécuter</PrisonerExecution>
 	
 	<!-- Medical - general -->
 	<MoveSpeed>Vitesse de déplacement</MoveSpeed>
@@ -48,7 +46,7 @@
 	<ShatteredBodyPart>Estropié</ShatteredBodyPart>
 	<RemovedBodyPart>Amputé</RemovedBodyPart>
 	<Healthy>Sain</Healthy>
-	<InPain>Endoloris</InPain>
+	<InPain>Endolori</InPain>
 	<PainLevel>Douleur</PainLevel>
 	<Dead>Mort</Dead>
 	<Unconscious>Inconscient</Unconscious>
@@ -67,12 +65,10 @@
 	<Amputate>Amputer</Amputate>
 	<Harvest>Récolter</Harvest>
 	
-	
-	
 	<!--Medical - Body and activities condition -->
 	<None>Aucune</None>
 	<VeryPoor>Critique</VeryPoor>
-	<Poor>Pauvre</Poor>
+	<Poor>Faible</Poor>
 	<Weakened>Fragilisé</Weakened>
 	<GoodCondition>OK</GoodCondition>
 	<Enhanced>Amélioré</Enhanced>
@@ -85,14 +81,12 @@
 	<SeverePain>Sévère</SeverePain>
 	<ExtremePain>Extrême</ExtremePain>
 	
-	
 	<!-- Training tab-->
-	<TrainableIntelligence>Intelligence d'entraînement</TrainableIntelligence>
-	<CannotTrainNotSmartEnough>Nécessite intelligence d'entraînement {0}.</CannotTrainNotSmartEnough>
-	<CannotTrainTooSmall>{0} est trop faible pour entraîner ceci.</CannotTrainTooSmall>
+	<TrainableIntelligence>Intelligence</TrainableIntelligence>
+	<CannotTrainNotSmartEnough>Requiert intelligence {0}.</CannotTrainNotSmartEnough>
+	<CannotTrainTooSmall>{0} est trop petit pour apprendre ceci.</CannotTrainTooSmall>
 
-	<TrainingNeedsPrerequisite>Prérequis nécessaire: {0}</TrainingNeedsPrerequisite>
-	
-	
+	<TrainingNeedsPrerequisite>Prérequis demandé : {0}</TrainingNeedsPrerequisite>
+
 	
 </LanguageData>

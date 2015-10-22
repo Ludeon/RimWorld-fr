@@ -9,13 +9,13 @@
   <DesignatorCutPlantsDesc>Marque des plantes afin qu'elles soient coupées. Les plantes coupées sont récoltées avant d'être détruites.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>Détruire</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Détruit un bâtiment et récupère une partie des ressources.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Détruit une construction et récupère une partie des ressources.</DesignatorDeconstructDesc>
 
   <DesignatorUninstall>Désinstaller</DesignatorUninstall>
-  <DesignatorUninstallDesc>Désinstaller ceci pour le bouger, le vendre ou l'installer autre part</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>Désinstaller ceci pour le bouger, le vendre ou l'installer autre part.</DesignatorUninstallDesc>
   
-  <DesignatorHarvest>Récolter les plantes</DesignatorHarvest>
-  <DesignatorHarvestDesc>Marque des plantes afin qu'elles soient récoltées. La nourriture ou les produits seront récoltés dans la mesure du possible, mais la plante ne sera pas détruite.</DesignatorHarvestDesc>
+  <DesignatorHarvest>Récolter</DesignatorHarvest>
+  <DesignatorHarvestDesc>Marque des plantes afin qu'elles soient récoltées.</DesignatorHarvestDesc>
 
   <DesignatorHarvestWood>Couper du bois</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Marque des arbres à abattre pour récolter du bois.</DesignatorHarvestWoodDesc>
@@ -37,26 +37,29 @@
   <DesignatorPlanDesc>Désigne une zone de plan. Cela ne sert à rien hormis à vous aider à planifier vos constructions futures.</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>Retirer les plans</DesignatorPlanRemove>
-  <DesignatorPlanRemoveDesc>Retire la zone de plan ciblée.</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemoveDesc>Retire des zones planifiées.</DesignatorPlanRemoveDesc>
 
   <DesignatorAreaHomeExpand>Ajouter une Zone de Base</DesignatorAreaHomeExpand>
-  <DesignatorAreaHomeExpandDesc>Les colons feront le ménage et éteindront les incendies dans la Zone de Base.</DesignatorAreaHomeExpandDesc>
-
-  <DesignatorAreaHomeClear>Retirer la Zone de Base</DesignatorAreaHomeClear>
-  <DesignatorAreaHomeClearDesc>Retire la Zone de Base ciblée. Les colons ne feront plus le ménage et n'éteindront plus les incendies ici.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeExpandDesc>Les colons répareront, feront le ménage et éteindront les incendies dans la Zone de Base.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Retirer une Zone de Base</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Retire la Zone de Base ciblée. Les colons ne répareront plus, ne feront plus le ménage et n'éteindront plus les incendies ici.</DesignatorAreaHomeClearDesc>
 
   <DesignatorAreaNoRoofExpand>Créer une Zone à Ciel Ouvert</DesignatorAreaNoRoofExpand>
-  <DesignatorAreaNoRoofExpandDesc>\nGénère une zone dans laquelle les plafonds n'apparaitront pas. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
-
+  <DesignatorAreaNoRoofExpandDesc>Génère une zone dans laquelle les plafonds n'apparaitront pas. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
   <DesignatorAreaNoRoofClear>Retirer une Zone à Ciel Ouvert</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>\nFait disparaitre une Zone à Ciel Ouvert. Des plafonds apparaitront ici et les plafonds existants ne seront pas retirés.</DesignatorAreaNoRoofClearDesc>
+  <DesignatorAreaNoRoofClearDesc>Retire une Zone à Ciel Ouvert. Des plafonds apparaitront ici et les plafonds existants ne seront pas retirés.</DesignatorAreaNoRoofClearDesc>
 
   <DesignatorAreaSnowClearExpand>Ajoute une Zone de déneigement</DesignatorAreaSnowClearExpand>
-  <DesignatorAreaSnowClearExpandDesc>\nCrée une zone à l'intérieur de laquelle les colons essaieront de nettoyer la neige.</DesignatorAreaSnowClearExpandDesc>
-
+  <DesignatorAreaSnowClearExpandDesc>Crée une zone où les colons déblayeront la neige.</DesignatorAreaSnowClearExpandDesc>
   <DesignatorAreaSnowClearClear>Supprime une Zone de déneigement</DesignatorAreaSnowClearClear>
-  <DesignatorAreaSnowClearClearDesc>\nLes colons n'essaieront plus de nettoyer la neige dans la zone supprimée.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>Les colons ne déblayeront plus cette zone.</DesignatorAreaSnowClearClearDesc>
 
+  <DesignatorExpandAreaAllowed>Agrandir la région autorisée</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Les régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepteront pas les travaux ou de répondre à leurs besoins en dehors de ces régions.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Supprimer une région autorisée</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Les régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepteront pas les travaux ou de répondre à leurs besoins en dehors de ces régions.</DesignatorClearAreaAllowedDesc>
+  <ManageAreas>Gérer les régions...</ManageAreas>
+  
   <DesignatorGrowingZoneDesc>Crée une zone dans laquelle les colons vont cultiver certains types de plantes.</DesignatorGrowingZoneDesc>
 
   <DesignatorZoneCreateStorageResourcesDesc>Crée une zone de stockage dans laquelle les colons déposeront des objets et matériaux.\nCet outil permet aussi d'agrandir une zone de stockage existante.</DesignatorZoneCreateStorageResourcesDesc>
@@ -76,36 +79,31 @@
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
 
   <DesignatorRearmTrap>Réarmer les pièges</DesignatorRearmTrap>
-  <DesignatorRearmTrapDesc>Réarmer un piège à ressort de sorte qu'il peut se redéclenché à nouveau.</DesignatorRearmTrapDesc>
-
-  <DesignatorExpandAreaAllowed>Agrandir la région autorisée</DesignatorExpandAreaAllowed>
-  <DesignatorExpandAreaAllowedDesc>Les régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepteront pas les travaux ou de répondre à leurs besoins en dehors de ces régions.</DesignatorExpandAreaAllowedDesc>
-  <DesignatorClearAreaAllowed>Supprimer une région autorisée</DesignatorClearAreaAllowed>
-  <DesignatorClearAreaAllowedDesc>\nLes régions autorisées sont des régions que vous pouvez assigner à des colons. Les colons n'accepteront pas les travaux ou de répondre à leurs besoins en dehors de ces régions.</DesignatorClearAreaAllowedDesc>
-  <ManageAreas>Gérer les régions...</ManageAreas>
+  <DesignatorRearmTrapDesc>Réarmer un piège à ressort pour qu'il puisse se redéclencher à nouveau.</DesignatorRearmTrapDesc>
 
   <DesignatorOpen>Ouvrir</DesignatorOpen>
-  <DesignatorOpenDesc>Ouvre une tombe ou un conteneur.</DesignatorOpenDesc>
+  <DesignatorOpenDesc>Ouvre une tombe pleine ou des conteneurs	.</DesignatorOpenDesc>
   
   <DesignatorSlaughter>Abattre</DesignatorSlaughter>
-  <DesignatorSlaughterDesc>Abbat un animal apprivoisé.</DesignatorSlaughterDesc>
+  <DesignatorSlaughterDesc>Abat un animal apprivoisé.</DesignatorSlaughterDesc>
 
-  <DesignatorTame>Apprivoiser</DesignatorTame>
-  <DesignatorTameDesc>Apprivoise un animal sauvage.</DesignatorTameDesc>
+  <DesignatorTame>Dompter</DesignatorTame>
+  <DesignatorTameDesc>Dompte un animal sauvage.</DesignatorTameDesc>
+  
   
   <!-- Failure messages -->
   <UnchosenStuff>Matériaux non sélectionné</UnchosenStuff>
-  <TooCloseToMapEdge>Trop prés du bord de la carte.</TooCloseToMapEdge>
+  <TooCloseToMapEdge>Trop près du bord de la carte.</TooCloseToMapEdge>
   <OutOfBounds>Hors limites.</OutOfBounds>
   <CannotPlaceInUndiscovered>Impossible de positionner dans une zone inexplorée.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>La zone d'interaction est inaccessible.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>La zone d'interaction bloquée par {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>La zone d'interaction est hors limites.</InteractionSpotOutOfBounds>
-  <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} voudrait bloquer {1}'carrés d'interaction.</WouldBlockInteractionSpot>
+  <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{0} bloquera {1} carrés d'interaction.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
   <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
   <IdenticalThingExists>Quelque chose d'identique se trouve déjà ici.</IdenticalThingExists>
-  <IdenticalBlueprintExists>Quelque chose d'identique se trouve déjà ici.</IdenticalBlueprintExists>
+  <IdenticalBlueprintExists>Une construction identique se trouve déjà ici.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Le terrain ne peut pas supporter ceci.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>

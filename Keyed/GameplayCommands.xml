@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CommandForbiddenDesc>Interdit - les colons ne peuvent pas interagir avec ceci.</CommandForbiddenDesc>
-	<CommandNotForbiddenDesc>Autorisé - les colons peuvent interagir avec ceci.</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>Interdit - les colons n'interagiront pas avec ceci.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>Autorisé - les colons n'interagiront pas avec ceci.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>Activer l'alimentation électrique.</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Active l'alimentation électrique</CommandTogglePowerDesc>
   
-  <CommandDesignateTogglePowerLabel>Désigner l'interrupteur électrique</CommandDesignateTogglePowerLabel>
-  <CommandDesignateTogglePowerDesc>Désigne cet objet pour modifier son alimentation électrique. Un colon viendra bientôt pour actionner l'interrupteur.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerLabel>Activer / Désactiver</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Active / Désactive l'alimentation électrique. Un colon viendra bientôt pour actionner l'interrupteur.</CommandDesignateTogglePowerDesc>
     
   <CommandTryReconnectLabel>Reconnecter</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Tenter de reconnecter au circuit électrique le plus proche. Utile si l'objet est connecté à un circuit non alimenté et qu'il y a un autre circuit alimenté à proximité.</CommandTryReconnectDesc>
@@ -33,35 +33,37 @@
   <CommandGetOutOfBedDesc>Fait sortir la personne du lit désigné.</CommandGetOutOfBedDesc>
 
   <CommandBedSetOwnerLabel>Définir le propriétaire</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>Assigne ce lit à un colon spécifique.</CommandBedSetOwnerDesc>
-  <CommandGraveAssignColonistLabel>Définir le propriétaire</CommandGraveAssignColonistLabel>
-  <CommandGraveAssignColonistDesc>Assigne cette tombe à un colon spécifique.</CommandGraveAssignColonistDesc>
-  <CommandGraveSetToUnassignedLabel>Définir sur non affectée</CommandGraveSetToUnassignedLabel>
-  <CommandGraveSetToUnassignedDesc>Définir cette tombe comme étant non affectée.</CommandGraveSetToUnassignedDesc>
-  <BuildingAssign>Assigner</BuildingAssign>
-  <CommandBedSetForPrisonersLabel>Assigner aux prisonniers</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>Rend les lits de cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Impossible d'assigner les lits en extérieur aux prisonniers.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Assigner aux colons</CommandBedSetForColonistsLabel>
+  <CommandBedSetOwnerDesc>Affecter ce lit à un colon spécifique.</CommandBedSetOwnerDesc>
+  <CommandGraveAssignColonistLabel>Affecter à un colon</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>Affecter la tombe à un colon.</CommandGraveAssignColonistDesc>
+  <CommandGraveSetToUnassignedLabel>Libérer</CommandGraveSetToUnassignedLabel>
+  <CommandGraveSetToUnassignedDesc>Autoriser la tombe à n'importe qui.</CommandGraveSetToUnassignedDesc>
+  <BedAssign>Affecter</BedAssign>
+  <CommandBedSetForPrisonersLabel>Affecter aux prisonniers</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Affecter cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Impossible d'affecter les lits en extérieur aux prisonniers.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Affecter aux colons</CommandBedSetForColonistsLabel>
   <CommandBedSetForColonistsDesc>Rend les lits de cette salle utilisables par les colons.</CommandBedSetForColonistsDesc>
   <CommandBedSetAsMedicalLabel>Définir comme médical</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>Rend ce lit utilisable pour les besoins médicaux.</CommandBedSetAsMedicalDesc>
   <CommandBedSetAsNonMedicalLabel>Définir comme non médical</CommandBedSetAsNonMedicalLabel>
   <CommandBedSetAsNonMedicalDesc>Retire le mode médical du lit.</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits:</TurningOffPrisonerBedWarning> 
+  <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOffPrisonerBedWarning> 
   <AreYouSure>Êtes-vous sûr de vouloir faire ça ?</AreYouSure>
-   
-  <CommandDetonateDesc>Démarrer le décompte du détonateur.</CommandDetonateDesc>
-  <CommandDetonateLabel>Faire exploser</CommandDetonateLabel>
+
   
+  
+  <CommandDetonateLabel>Détonateur</CommandDetonateLabel>
+  <CommandDetonateDesc>Démarrer le décompte du détonateur.</CommandDetonateDesc>
+
   <CommandRenameZoneLabel>Renommer</CommandRenameZoneLabel>
   <CommandRenameZoneDesc>Renommer cette zone.</CommandRenameZoneDesc>
 
   <CommandHideZoneLabel>Masquer</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Afficher</CommandUnhideZoneLabel>
   <CommandHideZoneDesc>Masquer/Afficher cette zone.</CommandHideZoneDesc>
-  
+
   <CommandDeleteZoneLabel>Supprimer</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>Supprimer cette zone.</CommandDeleteZoneDesc>
    
@@ -71,8 +73,8 @@
   <CommandPasteZoneSettingsLabel>Coller des paramètres</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>Écrase les paramètres de cette zone par ceux précédemment copier.</CommandPasteZoneSettingsDesc>
 
-  <CommandAllowSow>Autoriser le semis</CommandAllowSow>
-  <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récolté</CommandAllowSowDesc>
+  <CommandAllowSow>Autoriser l'ensemencement</CommandAllowSow>
+  <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Désigner une cible forcée</CommandSetForceAttackTarget>
@@ -116,18 +118,19 @@
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Créé une zone de stockage autours de ce bâtiment correspondant exactement à la forme du rayon de la balise de commerce orbital.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Créer une zone de stockage</CommandMakeBeaconStockpileLabel>
-  
+
   <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Créer une zone agricole autour de la lampe qui correspond avec la zone d'éclairage de celle-ci.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Créer une zone agricole</CommandSunLampMakeGrowingZoneLabel>
 
+  
   <!-- Trap -->
   <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
   <CommandAutoRearmDesc>Si activé, le piège sera réarmé automatiquement après son activation.</CommandAutoRearmDesc>
   
-  <!-- Animal control -->
-  <CommandReleaseAnimalsLabel>Libérer l'animal</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Quand c'est activé, les animaux dressés sont envoyés pour attaquer des cibles lointaines. Alors que si c'est désactivé, ils gardent et restent près de leur maître.</CommandReleaseAnimalsDesc>
+   <!-- Animal control -->
+  <CommandReleaseAnimalsLabel>Lâcher les animaux</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>Lorsqu'activé, les animaux sont envoyés attaquer des cibles distantes. Sinon, ils restent proche et surveillent leur maître.</CommandReleaseAnimalsDesc>
   
-
+  
 </LanguageData>
