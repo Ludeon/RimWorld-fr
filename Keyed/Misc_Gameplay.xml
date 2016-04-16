@@ -9,6 +9,7 @@
 	<ForColonistUse>Affecter aux colons</ForColonistUse>
 	<MedicalBed>Médical</MedicalBed>
 	<Owner>Propriétaire</Owner>
+	<Owners>Propriétaires</Owners>
     <AssignedColonist>Affecter à un colon</AssignedColonist>
 	<Nobody>Personne</Nobody>
 	<Unowned>Inconnu</Unowned>
@@ -40,12 +41,20 @@
 	<Off>Off</Off>
 	<PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
 	<JoyTolerances>Tolérance au plaisir</JoyTolerances>
+	<MentalStateLetterLabel>État mental</MentalStateLetterLabel>
 	<BrokenLetterLabel>Crise</BrokenLetterLabel>
-  <MilkFullness>Lait rempli</MilkFullness>
-  <WoolGrowth>Croissance de la laine</WoolGrowth>
-  <EggProgress>Croissance des oeufs</EggProgress>
-  <Fertilized>Fertile</Fertilized>
-  <SkillTooLow>a besoin de {0} niveau {2} (niveau {1} trop faible)</SkillTooLow>
+	<MilkFullness>Lait rempli</MilkFullness>
+	<WoolGrowth>Croissance de la laine</WoolGrowth>
+	<EggProgress>Croissance des oeufs</EggProgress>
+	<Fertilized>Fertile</Fertilized>
+	<ProgressStoppedUntilFertilized>Progression stoppée en attendant la fertilisation</ProgressStoppedUntilFertilized>
+	<SkillTooLow>a besoin de {0} niveau {2} (niveau {1} trop faible)</SkillTooLow>
+	<EggDamagedEmbryo>embryon endommagé</EggDamagedEmbryo>
+	<CorpsePercentMissing>Parties du corps manquantes</CorpsePercentMissing>
+	<HiveReproducesIn>Se reproduit dans</HiveReproducesIn>
+	<BrokenDown>Hors d'usage</BrokenDown>
+	<BondBrackets>(lien)</BondBrackets>
+	<Fuel>Combustible</Fuel>
   
 
 	
@@ -61,6 +70,7 @@
 	<TextMote_TameSuccess>Apprivoisé !\n{0} chance</TextMote_TameSuccess>
 	<TextMote_TrainFail>Domptage échoué: {0}\n{1} chance</TextMote_TrainFail>
 	<TextMote_TrainSuccess>Apprivoisé: {0}\n{1} chance</TextMote_TrainSuccess>
+	<TextMote_FixBrokenDownBuildingFail>Réparation\néchouée</TextMote_FixBrokenDownBuildingFail>
   	
 	  <!-- Areas -->
 	<Home>Base</Home>
@@ -76,6 +86,7 @@
 	<!-- Control -->
 	<CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
 	<IsIncapableOfViolence>{0} est incapable de violence.</IsIncapableOfViolence>
+	<IsIncapableOfViolenceShort>incapable de violence</IsIncapableOfViolenceShort>
 	<IsNotDrafted>{0} n'est pas enrôlé.</IsNotDrafted>
 	
 	<!-- Snow -->
@@ -105,6 +116,7 @@
 	<DeliveringFood>Distribue de la nourriture à {0}.</DeliveringFood>
 	<UsingVerb>Utilise {0} sur {1}.</UsingVerb>
 	<AreaLower>zone</AreaLower>
+	<ReportCowering>Est accroupi.</ReportCowering>
 	
 	<!-- Shooting report -->
 	<WeaponMissRadius>Rayon d'échec de l'arme</WeaponMissRadius>
@@ -142,7 +154,11 @@
 	
 	<!-- Inspector general stuff -->
 	<SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nRaccourci : {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
-	<DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>	
+	<DefInfoTip>Voir les informations concernant cet objet.</DefInfoTip>
+
+	<!-- Hostility response -->
+	<HostilityReponseTip>Modifier la manière dont le colon va réagir à des ennemis proches s'il n'est pas enrôlé.</HostilityReponseTip>
+	<HostilityResponseCurrentMode>Comportement actuel</HostilityResponseCurrentMode>	
 	
 	<!-- like 'Blood of John' -->
 	<OfLower>de</OfLower>
@@ -163,7 +179,7 @@
 
 	<!-- Temperature readout -->
 	<Indoors>Intérieur</Indoors>
-	<IndoorsUnroofed>A ciel ouvert</IndoorsUnroofed>
+	<IndoorsUnroofed>À ciel ouvert</IndoorsUnroofed>
 	<Outdoors>Extérieur</Outdoors>
 	
 	<!--Rotting-->
@@ -188,6 +204,7 @@
 	<CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated>
 	<NotRefrigerated>Non réfrigéré (pourrira dans {0})</NotRefrigerated>
 	<OverADecade>plus d'un siècle</OverADecade>
+	<LessThanADay>moins d'un jour</LessThanADay>
 	
 	<!-- Meal -->
 	<Ingredients>Ingrédients</Ingredients>
@@ -230,7 +247,7 @@
 	<ZoneVisibilityToggleButton>Activer/Désactiver la visibilité de la zone.</ZoneVisibilityToggleButton>
 	<ShowBeautyToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
 	<ShowRoomStatsToggleButton>Activer/Désactiver l'affichage des stat de la pièce.\n\nAffiche les caractéristiques de la pièce visée par le curseur.</ShowRoomStatsToggleButton>
-	<AutoHomeRegionAreaButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
+	<AutoHomeAreaToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
 	<CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
     <ShowAnimalNamesToggleButton>Active/Désactive l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
 	
@@ -277,6 +294,9 @@
 	  <!-- Artifact -->
 	<UseArtifact>Activer</UseArtifact>
   
+	<!-- Firefoam popper -->
+	<TriggerFirefoamPopper>Activer l'extincteur à mousse</TriggerFirefoamPopper>
+
 	<!-- Minification -->
 	<Installed>Installé</Installed>
 	<NotInstalled>Non installé</NotInstalled>
@@ -295,6 +315,7 @@
 	<QualityIs>Qualité : {0}</QualityIs>
 	
 	<!-- Mood descriptions -->
+	<Mood_MentalState>état mental</Mood_MentalState>
 	<Mood_Broken>en train de craquer</Mood_Broken>
 	<Mood_AboutToBreak>sur le point de craquer</Mood_AboutToBreak>
 	<Mood_OnEdge>sur les nerfs</Mood_OnEdge>
@@ -319,5 +340,10 @@
 	
 	<!-- Facilities -->
 	<InactiveFacility>inactif</InactiveFacility>
+
+	<!-- Hediffs growth modes -->
+	<DiseaseGrowthModeChanged_Growing>La {1} de {0} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
+	<DiseaseGrowthModeChanged_Stable>La {1} de {0} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
+	<DiseaseGrowthModeChanged_Remission>La {1} de {0} est mainteant en rémission.</DiseaseGrowthModeChanged_Remission>
   
 </LanguageData>
