@@ -42,7 +42,7 @@
 
 	<StruckMineable>Nous avons heurté {0}!</StruckMineable>
 
-	<LetterLabelAnimalManhunterFromDamage>Vengeance de {0}</LetterLabelAnimalManhunterFromDamage>
+	<LetterLabelAnimalManhunterRevenge>Vengeance de {0}</LetterLabelAnimalManhunterRevenge>
 	<AnimalManhunterFromDamage>Un {0} attaque après avoir été blessé!</AnimalManhunterFromDamage>
     <AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
     <AnimalManhunterOthers>Les {0}s aux alentours sont devenus enragés!</AnimalManhunterOthers>
@@ -52,13 +52,55 @@
 
 	<LetterHealthComplications>{0} a développé {1} suite aux complications de {2}.</LetterHealthComplications>
 	<LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
+
+	<LetterHediffFromRandomHediffGiver>{0} a développé un problème de santé : {1}.</LetterHediffFromRandomHediffGiver>
+	<LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+
+	<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
+	<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et se voit remplacé par {2}.</LetterLeadersDeath>
+  
   
 	<!-- Generalized letter labels -->
 	<LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
 	<LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
 	<LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
 	<LetterLabelMentalBreakdown>Traumatisé</LetterLabelMentalBreakdown>
-  
-  
-  
+
+	<!-- Family -->
+	<LetterLabelNoticedFamilyMembers>Famille</LetterLabelNoticedFamilyMembers>
+	<LetterFamilyMembersRaidEnemy>Il y a des membres des familles de certains de vos colons et / ou prisonniers dans le groupe de {0} qui arrive.\n\nGardez à l'esprit que même si une relation existe entre eux, il s'attaqueront quand même à cause des mauvaises relations entre factions.\n\nLes arrivants concernés sont :</LetterFamilyMembersRaidEnemy>
+	<LetterFamilyMembersRaidFriendly>Il y a des membres des familles de certains de vos colons et / ou prisonniers dans le groupe amical {0} : </LetterFamilyMembersRaidFriendly>
+	<LetterFamilyMembersNeutralGroup>Il y a des membres des familles de certains de vos colons et / ou prisonniers dans le groupe qui arrive :</LetterFamilyMembersNeutralGroup>
+	<LetterFamilyMembersTraderShipSlaves>Le commerçant orbital vend des membres des familles de vos colons et / ou prisonniers :</LetterFamilyMembersTraderShipSlaves>
+
+	<FamilyLetterAppendedSuffix>(famille)</FamilyLetterAppendedSuffix>
+	<FamilyLetterAppendedTextColonist>NAME est un membre de la famille d'un de vos colons. HECAP est le / la {1} de {0}.</FamilyLetterAppendedTextColonist>
+	<FamilyLetterAppendedTextPrisoner>NAME est un membre de la famille d'un de vos prisonniers. HECAP est le / la {1} de {0}.</FamilyLetterAppendedTextPrisoner>
+
+	<!-- Attempt romance / propose interaction -->
+	<LetterLabelAffair>Liaison</LetterLabelAffair>
+	<LetterAffair>{0}, marié à {1}, vient commence à avoir une liaison avec {2}.</LetterAffair>
+	<LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
+	<LetterNewLovers>{0} et {1} se sont unis et sont maintenant amoureux.</LetterNewLovers>
+	<LetterNoLongerLovers>La relation entre {0} et {1} n'est plus d'actualité.</LetterNoLongerLovers>
+	<LetterLabelAcceptedProposal>Un mariage est en route !</LetterLabelAcceptedProposal>
+	<LetterLabelRejectedProposal>Proposition rejetée</LetterLabelRejectedProposal>
+	<LetterAcceptedProposal>{1} a accepté la proposition de mariage de {0}.\n\nÀ un moment dans les jours ou les saisons qui viennent, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
+	<LetterRejectedProposal>{1} a refusé la proposition de mariage de {0}. {0} va être triste après ça.</LetterRejectedProposal>
+
+	<!-- Bonded animals -->
+	<LetterLabelBondedAnimalDied>Mort d'un animal attaché</LetterLabelBondedAnimalDied>
+	<LetterBondedAnimalDied>{0}, attaché à {1}, est mort. Cela va affecter l'humeur de {1}.</LetterBondedAnimalDied>
+	<LetterNamedBondedAnimalDied>{0} nommé {1}, attaché à {2}, est mort. Cela va affecter l'humeur de {2}.</LetterNamedBondedAnimalDied>
+	<LetterBondedAnimalDiedMulti>{0} est mort. Cela va affecter l'humeur des colons suivants :\n\n{1}</LetterBondedAnimalDiedMulti>
+	<LetterNamedBondedAnimalDiedMulti>{0} nommé {1} est mort. Cela va affecter l'humeur des colons suivants :\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+
+	<!-- Prison break -->
+	<LetterLabelPrisonBreak>Évasion</LetterLabelPrisonBreak>
+	<LetterPrisonBreak>Les prisonniers se sont organisés et s'évadent ! Ils ont réussi on ne sait trop comment à passer outre le verrouillage des portes et sont maintenant en train de lutter pour leur liberté. Ils pourront essayer de trouver des armes, d'attaquer vos colons ou juste de fuir. Les prisonniers suivants sont impliqués :\n\n{0}\n\nDes prisonniers ont d'autant plus de chances d'essayer de s'évader qu'ils sont malheureux, nombreux et en bonne santé.</LetterPrisonBreak>
+
+	<!-- Party -->
+	<LetterLabelNewParty>Fête</LetterLabelNewParty>
+	<LetterNewParty>{0} organise une fête ! Toutes les personnes qui y assisteront vont gagner en joie et en énergie sociale, et une poussée de bonne humeur persistera quelques temps après la fête.</LetterNewParty>
+
 </LanguageData>

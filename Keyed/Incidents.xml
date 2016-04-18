@@ -39,9 +39,11 @@
 	<GroupTravelersPassing>Un groupe de voyageurs de {0} passe dans les environs.</GroupTravelersPassing>
 	
 	<LetterLabelSingleVisitorArrives>Visiteur</LetterLabelSingleVisitorArrives>
-	<SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.</SingleVisitorArrives>
+	<SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.{3}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nHECAP semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
 	<LetterLabelGroupVisitorsArrive>Visiteurs</LetterLabelGroupVisitorsArrive>
-	<GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.</GroupVisitorsArrive>
+	<GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.{1}</GroupVisitorsArrive>
+	<GroupVisitorsArriveTraderInfo>\n\nIl semblerait qu'ils aient quelques objets à échanger.</GroupVisitorsArriveTraderInfo>
 	<VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
 	
 	<LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
@@ -96,5 +98,13 @@
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>Thrumbos</LetterLabelThrumboPasses>
   <LetterThrumboPasses>Un petit groupe de thrumbos errent dans la zone.\n\nDe nature paisible, ces créatures sont extrêmement dangereuses lors d'une bataille. Certains commerçants donneront cher pour son précieux cuir et sa corne.\n\nLe groupe de thrumbos quittera la zone dans quelques jours.</LetterThrumboPasses>
+
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>Commerçants de {0}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Une caravane commerciale de {0} arrive.\n\nIls vont rester autour de votre colonie pendant quelques jours avant de repartir. Vous pouvez les attaquer, mais alors leur faction sera énervée contre vous !</LetterTraderCaravanArrival>
+
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas jusqu'à ce qu'un colon effectuant le travail Réparation ne s'en occupe.</LetterBuildingBrokenDown>
   
 </LanguageData>
