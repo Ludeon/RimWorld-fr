@@ -15,6 +15,9 @@
 
 	<OutOfRange>hors de portée</OutOfRange>
 	<CannotHitTarget>ne peut pas atteindre la cible</CannotHitTarget>
+	<IsIncapableOfViolenceLower>{0} est incapable de commettre des actes violents</IsIncapableOfViolenceLower>
+	<IsNotDraftedLower>{0} n'est pas enrôlé</IsNotDraftedLower>
+	<CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
 	<CannotFight>{0} ne peut pas combattre</CannotFight>
 
 	<OrderManThing>Manipule {0}</OrderManThing>
@@ -35,6 +38,8 @@
 	<AnimalInteractedTooRecently>interraction trop récente</AnimalInteractedTooRecently>
 	<NoUsableFood>aucune nourirture utilisable</NoUsableFood>
 	<AnimalsSkillTooLow>compétence animale trop faible</AnimalsSkillTooLow>
+	<NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
+	<NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
   
 	<ConsumeThing>Consommer {0}</ConsumeThing>
 	<Teetotaler>s'abstenir</Teetotaler>
@@ -59,6 +64,7 @@
 	<NoCryptosleepCasket>Pas de caisson d'hypersommeil disponible.</NoCryptosleepCasket>
 	<NoPrisonerBed>Aucun lit réservé aux prisonniers n'est disponible.</NoPrisonerBed>
 	<NoNonPrisonerBed>Aucun lit réservé aux colons n'est disponible.</NoNonPrisonerBed>
+	<NoAnimalBed>Aucun lit libre pour animaux n'est accessible.</NoAnimalBed>
 	<Reserved>Réservé par quelqu'un d'autre.</Reserved>
 	<ReservedBy>Réservé par {0}.</ReservedBy>
 	<IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
@@ -72,6 +78,7 @@
 
 	<ForceWear>Forcer à Porter {0}</ForceWear>
 	<CannotWear>Ne peut pas porter {0}</CannotWear>
+	<CannotWearBecauseOfMissingBodyParts>parties du corps manquantes</CannotWearBecauseOfMissingBodyParts>
 
 	<Strip>Déshabiller {0}</Strip>
 	<CannotStrip>Ne peut pas déshabiller {0}</CannotStrip>
@@ -86,6 +93,9 @@
 	<UseMedicalBed>Se reposer jusqu'à guérison complète</UseMedicalBed>
 	<NotInjured>Aucune blessure</NotInjured>
 	<SomeoneElseSleeping>Occupé</SomeoneElseSleeping>
+
+	<TradeWith>Commercer avec {0}</TradeWith>
+	<CannotTrade>Impossible de commercer</CannotTrade>
 
 	<!-- Specific thing interactions -->
 	<EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>

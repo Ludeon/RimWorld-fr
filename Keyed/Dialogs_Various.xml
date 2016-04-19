@@ -10,6 +10,28 @@
    <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Erreur de mods incompatibles ou corrompus</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Il semblerait qu'un des mods actif cause des problèmes.\n\nIls sont incompatibles entre eux, développés pour une version différente de RimWorld, ou corrompus.\n\nTous les mods ont été désactivés et peuvent être de nouveau activés depuis la fenêtre des mods.</RecoveredFromErrorsText>
+
+  
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Erreur au chargement des graphismes</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Une erreur est survenue lors du chargement des éléments graphiques du jeu. Consultez le log d'erreur pour plus d'informations.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Le jeu est lancé avec des mods non officiels ; il peuvent ou non être à l'origine de ces problèmes.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Erreur à la génération d'une carte</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Une erreur est survenue lors de la génération d'une nouvelle carte. Consultez le log d'erreur pour plus d'informations.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Erreur au chargement d'une carte</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le log d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
+  
+  <!-- Long events -->
+  <InitializingInterface>Initialisation de l'interface</InitializingInterface>
+  <UnloadingUnusedAssets>Libération des éléments non utilisés</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Chargement de tous les mods actifs</LoadingAllActiveMods>
+  <LoadingDefs>Chargement des 'defs'</LoadingDefs>
+  <LoadingAssets>Chargement des graphismes</LoadingAssets>
+  <Initializing>Initialisation</Initializing>
+  <LoadingWorld>Chargement du monde</LoadingWorld>
+  <LoadingMap>Chargement de la carte</LoadingMap>
+  <InitializingMap>Initialisation de la cartes</InitializingMap>
+  <SpawningAllThings>Apparition de toutes les choses</SpawningAllThings>
   
   <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
@@ -19,7 +41,9 @@
   <DeleteThisSavegame>Supprimer cette sauvegarde.</DeleteThisSavegame>
   <SavedAs>Enregistré sous {0}.</SavedAs>
   <NeedAName>Veuillez saisir un nom.</NeedAName>
-  <LoadingLongEvent>Chargement...</LoadingLongEvent>
+  <LoadingLongEvent>Chargement</LoadingLongEvent>
+  <SavingLongEvent>Sauvegarde</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Mort permanente)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version totalement différente.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
@@ -57,7 +81,11 @@
   <Unresearched>Non recherché</Unresearched>
   <Finished>Terminé</Finished>
   <InProgress>En cours</InProgress>
+  <Locked>Bloqué</Locked>
   <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Prérequis de recherche </ResearchPrerequisites>
+  <RequiredResearchBench>Banc de recherche nécessaire </RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s) </RequiredResearchBenchFacilities>
 
   
   <!-- Advanced game start options -->
@@ -71,6 +99,10 @@
   <MapSizeExtreme>Ludeonesque</MapSizeExtreme>
   <MapStartMonth>Mois de départ :</MapStartMonth>
   <MapStartMonthDefault>Auto</MapStartMonthDefault>
+  <MapStartSeason>Saison de départ :</MapStartSeason>
+  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <PermadeathMode>Mode mort permanente</PermadeathMode>
+  <PermadeathModeInfo>En mode mort permanente, un seul emplacement de sauvegarde est utilisable, et vous ne pourrez sauvegarder qu'en quittant la partie. Vous ne pourrez pas recharger le jeu pour réparer une erreur, et quand la colonie meurt, c'est fini.\n\nC'est de cette manière que RimWorld est supposé être joué, où chaque évènement dramatique, qu'il soit tragique ou bienheureux, sera vécu avec toutes ses conséquences !</PermadeathModeInfo>
   
     
   <!-- Bill config -->
@@ -134,6 +166,10 @@
   <MoodChange>Changement d'humeur</MoodChange>
   <Wildness>Sauvage</Wildness>
   <WildnessExplanation>Plus la créature est sauvage, plus il sera difficile de l'apprivoiser / entrainner / domestiquer.</WildnessExplanation>
+  <AnimalFilthRate>Salissure</AnimalFilthRate>
+  <AnimalFilthRateExplanation>En marchant sur les sols de la colonie, les animaux produisent de la saleté. Cet indicateur représente la saleté moyenne produite par cette animal en marchant sur {0} cases.\n\nLes gros animaux ou ceux qui s'éloignent de l'idée d'animaux de compagnie salissent plus que les petits.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Temps</TimeRecordsCategory>
+  <MiscRecordsCategory>Divers</MiscRecordsCategory>
   
   <!-- Trade -->
   <DragToTrade>Glisser pour\ncommercer</DragToTrade>
