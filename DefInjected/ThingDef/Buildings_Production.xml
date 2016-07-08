@@ -2,6 +2,9 @@
 <!-- Compatible vAlpha8 -->
 <LanguageData>
 
+    <CraftingSpot.label>lieu d'assemblage</CraftingSpot.label>
+    <CraftingSpot.description>Un endroit pour assembler et fabriquer des choses simples, comme des arcs ou des couteaux.</CraftingSpot.description>
+
 	<NutrientPasteDispenser.label>Distributeur de pâte nutritive</NutrientPasteDispenser.label>
 	<NutrientPasteDispenser.description>Synthétise de la pâte nutritive à partir d'éléments organiques.</NutrientPasteDispenser.description>
 
@@ -10,22 +13,20 @@
 	
   <!-- ========================= Work tables ==========================-->
 
-    <!--
-  	<TableSawmillHand.label>Table de sciage à main</TableSawmillHand.label>
-	<TableSawmillHand.description>Une petite table de sciage permettant de transformer du bois en planches à la force des bras.</TableSawmillHand.description>
-	
-	<TableSawmillElectric.label>Table de sciage électrique</TableSawmillElectric.label>
-	<TableSawmillElectric.description>Une petite table de sciage électrique permettant de transformer du bois en planches.</TableSawmillElectric.description>
-	-->
- 
 	<TableButcher.label>Établi de boucher</TableButcher.label>
 	<TableButcher.description>Une lourde table pour dépecer des créatures en pièces de viandes crues.</TableButcher.description>
 
-	<TableTailor.label>Établi de tissage</TableTailor.label>
-	<TableTailor.description>Un établi conçu pour produire du tissu et des vêtements.</TableTailor.description>
-		
-	<TableSmithing.label>Établi de forgeron</TableSmithing.label>
-	<TableSmithing.description>Un plan de travail conçu pour produire des armes et des outils.</TableSmithing.description>
+    <ElectricTailoringBench.label>établi de tissage électrique</ElectricTailoringBench.label>
+    <ElectricTailoringBench.description>Un établi avec une machine à tisser pour une conception rapide de vêtements. Peut fonctionner sans électricité, à 40% de sa vitesse normale.</ElectricTailoringBench.description>
+    
+    <HandTailoringBench.label>établi de tissage manuel</HandTailoringBench.label>
+    <HandTailoringBench.description>Un établi pour concevoir des vêtements à la main. Permet d'atteindre 40% de la vitesse d'un établi de tissage électrique.</HandTailoringBench.description>
+    
+    <ElectricSmithy.label>établi de forgeron électrique</ElectricSmithy.label>
+    <ElectricSmithy.description>Un établi qui fonctionne à l'électricité pour forger et assembler des armes et des outils sans mécanismes.</ElectricSmithy.description>
+    
+    <FueledSmithy.label>établi de forgeron à combustible</FueledSmithy.label>
+    <FueledSmithy.description>Un établi qui fonctionne par la combustion de bois pour forger et assembler des armes et des outils sans mécanismes.</FueledSmithy.description>
 	
 	<TableSculpting.label>Établi de sculptage</TableSculpting.label>
 	<TableSculpting.description>Un plan de travail conçu pour fabriquer des sculptures.</TableSculpting.description>
@@ -33,8 +34,12 @@
 	<TableMachining.label>Établi d'assemblage</TableMachining.label>
 	<TableMachining.description>Une table munie d'outils servant à assembler et à désassembler des composants mécaniques.</TableMachining.description>
 
-	<CookStove.label>Cuisinière</CookStove.label>
-	<CookStove.description>Une cuisinière simple pour préparer des repas.</CookStove.description>
+
+    <ElectricStove.label>cuisinière électrique</ElectricStove.label>
+    <ElectricStove.description>Une cuisinière qui fonctionne à l'électricité, avec un plan de travail pour cuisiner des repas.</ElectricStove.description>
+    
+    <FueledStove.label>cuisinière à bois</FueledStove.label>
+    <FueledStove.description>Une cuisinière qui fonctionne au bois, avec un plan de travail pour cuisiner des repas.</FueledStove.description>
 
 	<TableStonecutter.label>Établi de tailleur de pierre</TableStonecutter.label>
 	<TableStonecutter.description>Un établi équipé pour tailler de lourdes pièces en blocs utilisables.</TableStonecutter.description>
@@ -45,25 +50,21 @@
 	<ElectricSmelter.label>Fondeur électrique</ElectricSmelter.label>
 	<ElectricSmelter.description>Extrait le métal réutilisable des débris et objets métalliques. Consomme beaucoup d'énergie.</ElectricSmelter.description>
 	
-	<!--
-	<SlagRefinery.label>Raffinerie de scories</SlagRefinery.label>
-	<SlagRefinery.description>Extrait du métal recyclable des débris contenant des scories. Consumme beaucoup d'énergie.</SlagRefinery.description>
-	-->
-	
-	<Crematorium.label>Crématorium</Crematorium.label>
-	<Crematorium.description>Pour la crémation des corps.</Crematorium.description>
- 
-	<ResearchBench.label>Banc de recherche</ResearchBench.label>
-	<ResearchBench.description>Les chercheurs travaillent ici pour découvrir de nouvelles choses.</ResearchBench.description>
+    <ComponentAssemblyBench.label>établi d'assemblage de composants</ComponentAssemblyBench.label>
+    <ComponentAssemblyBench.description>A workbench equipped with advanced tools for producing components from simpler materials.</ComponentAssemblyBench.description>
+    
+    <SimpleResearchBench.label>atelier basique de recherche</SimpleResearchBench.label>
+    <SimpleResearchBench.description>Un atelier simple avec de quoi écrire et du matériel scientifique basique. Les chercheurs travaillent ici pour découvrir de nouvelles choses.</SimpleResearchBench.description>
+    
+    <HiTechResearchBench.label>atelier hi-tech de recherche</HiTechResearchBench.label>
+    <HiTechResearchBench.description>Un atelier moderne avec de l'équipement informatique et de quoi faire des mesures très précises. Le travail de recherche est accéléré par la présence d'équipement de haute technologie. A besoin d'être alimenté.</HiTechResearchBench.description>
+    
+    <ElectricCrematorium.label>four crématoire électrique</ElectricCrematorium.label>
+    <ElectricCrematorium.description>Pour la crémation des corps ; fonctionne à l'électricité.</ElectricCrematorium.description>
 
   <!-- ========== Hydroponics ==============-->
 
 	<HydroponicsBasin.label>Bassin hydroponique</HydroponicsBasin.label>
 	<HydroponicsBasin.description>Pour faire pousser de la nourriture. Les bassins hydroponiques permettent de faire pousser des plantes rapidement, mais ils doivent être alimentés en permanence en énergie ou les plantes mourront.</HydroponicsBasin.description>
-	
-	<!--
-	<SunLamp.label>Lampe solaire</SunLamp.label>
-	<SunLamp.description>Éclaire une zone avec une lumière proche de celle du soleil, permettant aux végétaux exposés de pousser, même de nuit.</SunLamp.description>
-	-->
 
 </LanguageData>
