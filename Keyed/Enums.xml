@@ -11,7 +11,16 @@
 	<Unspecified>Indécis</Unspecified>
 	<Always>Autoriser</Always>
 	<Never>Ne pas autoriser</Never>
-
+	
+	  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>Sur place</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Capsule de largage</PlayerPawnsArriveMethod_DropPods>
+  
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>tous les personnages</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>personnages de départ</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>personnages non joueurs</PawnGenerationContext_NonPlayer>
+  
 	<!-- Price types -->
 	<PriceTypeVeryCheap>très bon marché</PriceTypeVeryCheap>
 	<PriceTypeCheap>bon marché</PriceTypeCheap>
@@ -30,7 +39,8 @@
 	<FoodTypeFlags_Meal>repas</FoodTypeFlags_Meal>
 	<FoodTypeFlags_Processed>nourriture transformée</FoodTypeFlags_Processed>
 	<FoodTypeFlags_NutritionalDrug>alcool</FoodTypeFlags_NutritionalDrug>
-	<FoodTypeFlags_AnimalKibble>croquettes</FoodTypeFlags_AnimalKibble>
+	<FoodTypeFlags_Kibble>croquettes</FoodTypeFlags_Kibble>
+    <FoodTypeFlags_Liquor>liqueur</FoodTypeFlags_Liquor>
 
 	<!-- Quality category -->
 	<QualityCategory_Awful>horrible</QualityCategory_Awful>
@@ -104,5 +114,18 @@
 	<HediffGrowthMode_Growing>en développement</HediffGrowthMode_Growing>
 	<HediffGrowthMode_Stable>stable</HediffGrowthMode_Stable>
 	<HediffGrowthMode_Remission>en rémission</HediffGrowthMode_Remission>
-
+	
+	<!-- Animal name display mode -->
+  <ShowAnimalNames>Montrer noms des animaux</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Apprivoisé (nommé seulement)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Apprivoisé (tous)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- TechLevel -->
+  <TechLevel_Animal>animal</TechLevel_Animal>
+  <TechLevel_Neolithic>néolithique</TechLevel_Neolithic>
+  <TechLevel_Medieval>médiéval</TechLevel_Medieval>
+  <TechLevel_Industrial>industriel</TechLevel_Industrial>
+  <TechLevel_Spacer>spacial</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>transcendant</TechLevel_Transcendent>
 </LanguageData>

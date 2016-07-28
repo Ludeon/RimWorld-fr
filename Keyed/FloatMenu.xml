@@ -26,6 +26,8 @@
 	<NoPath>Pas de chemin d'accès</NoPath>
 
 	<ForbiddenLower>interdit</ForbiddenLower>
+    <ForbiddenOutsideAllowedAreaLower>en dehors de la zone autorisée</ForbiddenOutsideAllowedAreaLower>
+
 	<SociallyImproperLower>socialement inadapté</SociallyImproperLower>
 	<PrisonerRoomLower>cellule de détention</PrisonerRoomLower>
 	<BurningLower>brûle</BurningLower>
@@ -35,11 +37,12 @@
 	<MissingSkill>aptitudes trop faibles</MissingSkill>
 	<NoEmptyGraveLower>aucune tombe vide configurée pour stocker ceci</NoEmptyGraveLower>
 	<AnimalInteractedTooRecently>interraction trop récente</AnimalInteractedTooRecently>
-	<NoUsableFood>aucune nourirture utilisable</NoUsableFood>
+	<NoUsableFood>aucune nourriture utilisable</NoUsableFood>
 	<AnimalsSkillTooLow>compétence animale trop faible</AnimalsSkillTooLow>
 	<NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
 	<NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
-  
+    <NoFood>pas de nourriture</NoFood>
+
 	<ConsumeThing>Consommer {0}</ConsumeThing>
 	<Teetotaler>s'abstenir</Teetotaler>
 
@@ -119,5 +122,9 @@
 
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
+
+	<CannotPrioritizeForbiddenOutsideAllowedArea>Ne peut pas prioriser ({0} est en dehors de la zone autorisée)</CannotPrioritizeForbiddenOutsideAllowedArea>
+
+	<MinSkill>talent minage</MinSkill>
 
 </LanguageData>
