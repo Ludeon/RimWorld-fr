@@ -54,7 +54,14 @@
 	<BrokenDown>Hors d'usage</BrokenDown>
 	<BondBrackets>(lien)</BondBrackets>
 	<Fuel>Combustible</Fuel>
-  
+	<Enemies>ennemis</Enemies>
+    <FertShort>fert.</FertShort>
+    <TimePassed>temps passé</TimePassed>
+
+    <CurrentRadius>rayon actuel</CurrentRadius>
+  <Permanent>permanent</Permanent>
+  <RadiusExpandsIn>rayon s'étend sur</RadiusExpandsIn>
+
 
 	
 	<!--TextMotes-->
@@ -70,9 +77,12 @@
 	<TextMote_TrainFail>Domptage échoué: {0}\n{1} chance</TextMote_TrainFail>
 	<TextMote_TrainSuccess>Apprivoisé: {0}\n{1} chance</TextMote_TrainSuccess>
 	<TextMote_FixBrokenDownBuildingFail>Réparation\néchouée</TextMote_FixBrokenDownBuildingFail>
-  	
+  	<TextMote_ConstructionFail>Construction\néchouée</TextMote_ConstructionFail>
+    <TextMote_RecruitFail>Recrutement raté!\n{0} chance</TextMote_RecruitFail>
+
 	  <!-- Areas -->
 	<Home>Base</Home>
+	<BuildRoof>Construire toit</BuildRoof>
 	<NoRoof>Pas de toit</NoRoof>
 	<SnowClear>Enlever la neige</SnowClear>
 	<AreaDefaultLabel>Zone {0}</AreaDefaultLabel>
@@ -116,7 +126,10 @@
 	<UsingVerb>Utilise {0} sur {1}.</UsingVerb>
 	<AreaLower>zone</AreaLower>
 	<ReportCowering>Est accroupi.</ReportCowering>
-	
+	<ReportExtinguishingFire>Eteint le feu.</ReportExtinguishingFire>
+    <ReportExtinguishingFireOn>Eteint le feu sur {0}.</ReportExtinguishingFireOn>
+	<ReportStanding>debout.</ReportStanding>
+
 	<!-- Shooting report -->
 	<WeaponMissRadius>Rayon d'échec de l'arme</WeaponMissRadius>
 	<ShootReportShooterAbility>Compétence de tir</ShootReportShooterAbility>
@@ -128,6 +141,7 @@
 	<ShootingCover>Couvert</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} bloque {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>aucun couvert</NoCoverLower>
+    <Execution>Exécution</Execution>
 
 	<!-- Generated recipes /*To check in game*/-->
 	<RecipeMake>Fabriquer {0}</RecipeMake>
@@ -139,7 +153,10 @@
 	<ThoughtFinishesExpiringIn>Finit d'expirer dans : {0}</ThoughtFinishesExpiringIn>
 	<MentalBreakThresholdHard>Seuil de crise de nerfs grave</MentalBreakThresholdHard>
 	<MentalBreakThresholdSoft>Seuil de crise de nerfs mineure</MentalBreakThresholdSoft>
-	
+    <MentalBreakThresholdExtreme>Seuil de crise de nerfs extrême</MentalBreakThresholdExtreme>
+    <MentalBreakThresholdMajor>Seuil de crise de nerfs majeure</MentalBreakThresholdMajor>
+    <MentalBreakThresholdMinor>Seuil de crise de nerfs mineure</MentalBreakThresholdMinor>
+
 	<!-- Pawn info readout -->
 	<PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
 	<PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
@@ -249,7 +266,8 @@
 	<AutoHomeAreaToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
 	<CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
     <ShowAnimalNamesToggleButton>Active/Désactive l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
-	
+	<ShowColonistBarToggleButton>Affiche la bar de colon.\n\nAffiche les icônes et le statut de chaque colons, le long du haut de l'écran.</ShowColonistBarToggleButton>
+
 	<!-- Fire -->
 	<Fire>Feu</Fire>
 	<FireOn>Feu sur {0}</FireOn>
@@ -258,6 +276,8 @@
 	 
 	<!-- Map conditions (eclipse, solar flare, etc )-->
 	<MapConditionsTip>Conditions particulières affectant actuellement la zone.</MapConditionsTip>
+  <ImpactDate>date de l'impact</ImpactDate>
+  <TimeLeft>temps restant</TimeLeft>
 
 	<!-- Building placement -->
 	<NoStuffsToBuildWith>Vous n'avez pas de matériaux utilisables pour construire ceci.</NoStuffsToBuildWith>	
@@ -327,6 +347,7 @@
 	<GameOverShipLaunched>Vous avez lancé le vaisseau ! Ces colons se sont échappés :\n\n{0}\nCes colons sont restés sur place :\n\n{1}\nVotre IA va désormais guider le vaisseau en lieu sûr. Elle pourrait vous déposer sur une planète plus hospitalière de ce système. Ou bien pourrait-elle entamer un voyage séculaire vers une autre étoile ? Elle pourrait aussi décider de cacher le vaisseau sous la glace d'un astéroïde durant quelques millénaires, attendant une époque plus clémente.\n\nVous le saurez lorsque vous vous réveillerez.</GameOverShipLaunched>
 	<GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
 	<GameOverMainMenu>Menu principal</GameOverMainMenu>
+	<GameOverPlanetkillerImpact>À la quasi-vitesse de la lumière, l'arme du destructeur de planète s'écrase dans le sol, avec la force d'un billion de bombes à hydrogène. Comme un ballon d'eau tiré au fusil, ce monde se liquéfia et aspergea le cosmos de son magma en fusion.\n\nUne partie de {0} devint une ceinture d'astéroïde. Le reste n'est plus qu'un enfer de magma radioactif, où les tremblements de planètes ondulent constamment sur de nombreux kilomètres. \n\nVous n'avez pas survécu.</GameOverPlanetkillerImpact>
 	
 	<!-- Generic lifespan -->
 	<LifespanExpiry>Expire dans :</LifespanExpiry>
@@ -343,5 +364,34 @@
 	<DiseaseGrowthModeChanged_Growing>La {1} de {0} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
 	<DiseaseGrowthModeChanged_Stable>La {1} de {0} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
 	<DiseaseGrowthModeChanged_Remission>La {1} de {0} est mainteant en rémission.</DiseaseGrowthModeChanged_Remission>
+   
+
+   <!-- Colonist bar -->
+  <ActivityIconMedicalRest>Repos médical</ActivityIconMedicalRest>
+  <ActivityIconSleeping>En sommeil</ActivityIconSleeping>
+  <ActivityIconFleeing>Fuit</ActivityIconFleeing>
+  <ActivityIconAttacking>Combat</ActivityIconAttacking>
+  <ActivityIconIdle>Inoccupé</ActivityIconIdle>
+  <ActivityIconBurning>Brûle</ActivityIconBurning>
   
+ <!-- Maintainable -->
+  <DueForMaintenance>En raison de la maintenance.</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>Se détériore en raison de l'absence de maintenance.</DeterioratingDueToLackOfMaintenance>
+  
+  <!-- Lord job reports -->
+  <LordReportAttendingMarriageCeremony>Assiste à la cérémonie de mariage</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Assiste à la fête</LordReportAttendingParty>
+  
+  
+  <!-- Marriage spot -->
+  <MarriageSpotUsable>Utilisable.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Inutilisable: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>bloqué</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>trop dangereux pour {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>interdit pour {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>reservé</MarriageSpotReserved>
+  <MarriageSpotUnreachable>inaccessible pour {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>dans une cellule de prison</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>température incomfortable</NotEnjoyableOutsideTemperature>
+
 </LanguageData>

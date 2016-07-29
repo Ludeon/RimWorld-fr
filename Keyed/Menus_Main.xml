@@ -7,7 +7,8 @@
 	<NewColony>Nouvelle colonie</NewColony>
 	<BackToGame>Retour au jeu</BackToGame>
 	<Save>Sauvegarder</Save>
-	<Load>Charger une colonie</Load>
+	<ReviewScenario>Revoir scénario</ReviewScenario>
+	<LoadGame>Charger une colonie</LoadGame>
 	<Options>Options</Options>
 	<Mods>Mods</Mods>
 	<Credits>Crédits</Credits>
@@ -23,7 +24,14 @@
 	<TynansDesignBook>Livre sur le design de Tynan</TynansDesignBook>
 	<HelpTranslate>Aidez-nous à traduire RimWorld</HelpTranslate>
 	<BuySoundtrack>Acheter la bande originale du jeu</BuySoundtrack>
-
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Choisir scénario</ChooseScenario>
+  <ScenariosCustom>Personnalisé</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  <ScenarioEditor>Editeur de scénario</ScenarioEditor>
+  <Delete>Supprimer</Delete>
+  
 	<!--=========== Create/review world ================-->
 	<ReviewWorld>Visualiser un monde</ReviewWorld>
 	<WorldGenerate>Générer</WorldGenerate>
@@ -64,7 +72,11 @@
 	<YouAgreeToSteamWorkshopLegal>En soumettant ce mod, vous acceptez les termes de services du  Steam Workshop. Cliquez ici pour plus d'info.</YouAgreeToSteamWorkshopLegal>
 	<WorkshopUploadSucceeded>Envoi réussi {0}.</WorkshopUploadSucceeded>
 	<DownloadingMod>Téléchargement {0}</DownloadingMod>
-
+    <Downloading>Téléchargement</Downloading>
+    <Source>Source</Source>
+    <ModTargetVersion>Pour la version: {0}</ModTargetVersion>
+    <ModNotMadeForThisVersion>Ce mod n'a pas été fait pour cette version de RimWorld, il ne fonctionnera peut-être pas correctement.</ModNotMadeForThisVersion>
+ 
 	<!--=========== Storyteller chooser ==========-->
 	<ChooseAIStoryteller>Choisir l'IA du conteur</ChooseAIStoryteller>
 	<HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, le dépôt de ressources ou les attaques d'animaux. Ses choix affecteront votre colonie.</HowStorytellersWork>
@@ -92,6 +104,8 @@
 	<Elevation>Altitude</Elevation>
 	<Fertility>Fertilité</Fertility>
 	<AvgTemp>Temp. moy</AvgTemp>
+	<AvgWinterTemp>Temp. moy (hiver): {0}</AvgWinterTemp>
+    <AvgSummerTemp>Temp. moy (été): {0}</AvgSummerTemp>
 	<AvgJanTemp>Temp. moy (janv) : {0}°</AvgJanTemp>
 	<AvgJulTemp>Temp. moy (juil) : {0}°</AvgJulTemp>
 	<Rainfall>Précipitations</Rainfall>
@@ -140,4 +154,19 @@
 	<GeneratingWorld>Création du monde...</GeneratingWorld>
 	<GeneratingMap>Création de la carte...</GeneratingMap>
   
+  <!--============ Scenario editor ===============-->
+  <Seed>germe</Seed>
+  <Load>Charger</Load>
+  <EditMode>mode édition</EditMode>
+  <Summary>Résumé</Summary>
+  <AddPart>Ajouter partie</AddPart>
+  <TextFieldsMustBeFilled>Tous les champs de texte doivent être remplis.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Etes vous sûr de vouloir envoyer celà au Steam Workshop ?\n\nVous devez agréer aux conditions de service Steam Workshop. Lisez toutes les conditions ici :\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Evidemment, vous devriez envoyer du contenu créer par vous-même.\n\nAvez vous créer ce contenu tout seul?</ConfirmContentAuthor>
+  <Incompatible>Incompatible</Incompatible>
+  <TooMany>Beaucoup trop (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Peut être mis à jour sur le Workshop, puisque vous en êtes l'auteur.</CanBeUpdatedOnWorkshop>
+  
+  
+    <MessageModNeedsWellFormattedTargetVersion>Mod needs a well-formatted target version in About.xml. Like this: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
 </LanguageData>

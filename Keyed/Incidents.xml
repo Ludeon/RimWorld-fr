@@ -16,12 +16,14 @@
 	<EnemyRaidWalkIn>Un groupe de {0} de {1} est arrivé à proximité.</EnemyRaidWalkIn>
 	<EnemyRaidEdgeDrop>Un groupe de {0} de {1} effectue un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
 	<EnemyRaidCenterDrop>Un groupe de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
+    <EnemyRaidLeaderPresent>Quelqu'un de {0} - {1}, est le chef de la faction.</EnemyRaidLeaderPresent>
 
 	<!-- Friendly raids -->
 	<FriendlyRaidWalkIn>Un groupe amical de {0} de {1} est arrivé à proximité.</FriendlyRaidWalkIn>
 	<FriendlyRaidEdgeDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital à proximité.</FriendlyRaidEdgeDrop>
 	<FriendlyRaidCenterDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</FriendlyRaidCenterDrop>
-		
+	<FriendlyRaidLeaderPresent>Quelqu'un de {0} - {1}, est le chef de la faction.</FriendlyRaidLeaderPresent>
+	
 	<LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
 	<RefugeePodCrash>Vous avez détecté une capsule de sauvetage qui s'est violemment écrasée dans les environs.\n\nSi l'impact a laissé des survivants, ils doivent être gravement blessés.</RefugeePodCrash>
 	
@@ -39,6 +41,8 @@
 	<GroupTravelersPassing>Un groupe de voyageurs de {0} passe dans les environs.</GroupTravelersPassing>
 	
 	<LetterLabelSingleVisitorArrives>Visiteur</LetterLabelSingleVisitorArrives>
+	 <SingleVisitorArrivesLeaderInfo>\n\nHECAP est le chef de la faction.</SingleVisitorArrivesLeaderInfo>
+
 	<SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.{3}</SingleVisitorArrives>
   <SingleVisitorArrivesTraderInfo>\n\nHECAP semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
 	<LetterLabelGroupVisitorsArrive>Visiteurs</LetterLabelGroupVisitorsArrive>
@@ -106,5 +110,13 @@
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
   <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'aucun colon effectuant le travail Réparation ne s'en sera occupé.</LetterBuildingBrokenDown>
+  
+  
+  <GroupVisitorsArriveLeaderInfo>\n\nUn des visiteurs - {0}, est le chef de la faction.</GroupVisitorsArriveLeaderInfo>
+
+	  <!-- Ransom demand -->
+  <RansomDemand>{1} vous contacte par radio. Ils tiennent en otage le colon {0} en échange d'une rançon.\n\nIls sont prêt à l'échanger contre {2} argent.</RansomDemand>
+  <RansomDemand_Accept>Accepter</RansomDemand_Accept>
+  <RansomDemand_Reject>Rejeter</RansomDemand_Reject>
   
 </LanguageData>

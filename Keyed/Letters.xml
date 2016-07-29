@@ -59,7 +59,8 @@
 	<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
 	<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et se voit remplacé par {2}.</LetterLeadersDeath>
   
-  
+    <MentalBreakLetterLabel>Traumatisé</MentalBreakLetterLabel>
+    <MentalBreakReason>Raison: {0}.</MentalBreakReason>
 	<!-- Generalized letter labels -->
 	<LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
 	<LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
@@ -81,7 +82,8 @@
 	<LetterLabelAffair>Liaison</LetterLabelAffair>
 	<LetterAffair>{0}, marié à {1}, vient commence à avoir une liaison avec {2}.</LetterAffair>
 	<LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
-	<LetterNewLovers>{0} et {1} se sont unis et sont maintenant amoureux.</LetterNewLovers>
+	<LetterLabelBreakup>Rupture</LetterLabelBreakup>
+    <LetterNewLovers>{0} et {1} se sont unis et sont maintenant amoureux.</LetterNewLovers>
 	<LetterNoLongerLovers>La relation entre {0} et {1} n'est plus d'actualité.</LetterNoLongerLovers>
 	<LetterLabelAcceptedProposal>Un mariage est en route !</LetterLabelAcceptedProposal>
 	<LetterLabelRejectedProposal>Proposition rejetée</LetterLabelRejectedProposal>
@@ -103,4 +105,15 @@
 	<LetterLabelNewParty>Fête</LetterLabelNewParty>
 	<LetterNewParty>{0} organise une fête ! Toutes les personnes qui y assisteront vont gagner en joie et en énergie sociale, et une poussée de bonne humeur persistera quelques temps après la fête.</LetterNewParty>
 
+	 <!-- Related pawns -->
+  <LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>Des personnages de la faction ennemi {0} ont des relations avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement étant donné les mauvaises relations avec la faction.\n\nCes personnages sont:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>Des personnages de la faction ami {0} ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>Des personnages du groupe venant d'arriver ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnages qui ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsTradeShip>
+  
+  <RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME a une relation avec un colon. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME a une relation avec un de vos prisonniers. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+  
 </LanguageData>
