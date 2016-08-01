@@ -49,7 +49,8 @@
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devrait fonctionner sans problème.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
   <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
-  
+  <LoadAnyway>Charger quand même</LoadAnyway>
+
   <!-- Colony naming-->
   <NameColonyMessage>On dirait que vous allez rester ici un bon moment. {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
   <ColonyGainsName>La colonie s'appelle désormais {0}.</ColonyGainsName>
@@ -69,7 +70,8 @@
   <WorldFileVersionMismatch>Cette carte a été générée avec une version {0} du jeu.\nLa version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro.</WorldFileVersionMismatch>
   <ModsMismatchWarningTitle>Mods incompatibles</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>La carte a été sauvegardée avec certains mods qui ne sont pas actifs actuellement. Ceci peut causer des problèmes selon les mods.\n\nLa carte a été sauvegardée avec les mods suivants (dans cet ordre) :\n\n{0}\n\nLes mods actuellement actifs sont les suivants :\n\n{1}</ModsMismatchWarningText>
-  
+  <FileIncompatibleWarning>Ce fichier a été sauvegarder avec la version {0} du jeu\nNous tournons actuellement sur la version {1}\n\nCharger ce fichier pourrait causer des bugs et des crashs.</FileIncompatibleWarning>
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient-elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Conserver</ResolutionKeep>
@@ -115,7 +117,8 @@
   <CountingProducts>Compte</CountingProducts>
   <Infinite>Infini</Infinite>
   <MinimumSkillLevel>Niveau {0} minimum</MinimumSkillLevel>
-    
+  <AllowedSkillRange>Autorisé niveau {0}:</AllowedSkillRange>
+  
   <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible car ses résultats sont multiples ou imprévisibles.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
@@ -169,7 +172,13 @@
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Divers</MiscRecordsCategory>
   
+  <MedicineXpGainFactor>Facteur de gain d'expérience</MedicineXpGainFactor>
+  <MinGrowingSkillToSow>Niveau de fermier minimum pour semer</MinGrowingSkillToSow>
+ <SoilFertilitySensitivityGrowthRate>Sensibilité du sol fertilisé (taux de croissance)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Sensibilité du sol fertilisé (chance pour la plante)</SoilFertilitySensitivityPlantChance>
+ 
   <!-- Trade -->
+  <PositiveBuysNegativeSells>Chiffre positif pour acheter.\nChiffre négatif pour vendre.</PositiveBuysNegativeSells>
   <DragToTrade>Glisser pour\ncommercer</DragToTrade>
   <BuyPriceDesc>Prix d'achat pour ce produit.</BuyPriceDesc>
   <SellPriceDesc>Prix de vente pour ce produit.</SellPriceDesc>
@@ -210,5 +219,10 @@
   <DeleteOutfit>Supprimer la tenue...</DeleteOutfit>
   <OutfitInUse>Tenue utilisée par {0}.</OutfitInUse>
   <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
-  
+   <!-- Growing -->
+  <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
+
+   <!-- Missing Steam -->
+  <SteamClientMissing>N'a pas pu initialiser Steam API. Causes possibles:\n\n-Steam n'est pas démarré.\n-Jeu lancé par le biais d'un compte Steam extérieur sans steam_appid.txt en place.\n-Jeu lancé avec d'autres priorités que le client Steam (ex : "en tant qu'administrateur")\n\nCette version Steam du jeu nécessite Steam et va maintenant s'arrêter.</SteamClientMissing>
+ 
 </LanguageData>
