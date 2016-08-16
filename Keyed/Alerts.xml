@@ -23,10 +23,10 @@
   <NeedDefensesDesc>Cela fait maintenant quelque temps que vous vous êtes installés ici et des personnes mal intentionnées pourraient bien vous avoir remarqué. Des raids pourraient prochainement avoir lieu.\n\nVous devriez préparer vos défenses.\n\nConstruisez quelques tourelles.</NeedDefensesDesc>
   
   <NeedDoctor>Médecin nécessaire</NeedDoctor>
-  <NeedDoctorDesc>Ces colons ont besoin de soins médicaux, mais aucun colon sain n'a été assigné à la tâche de Médecin.\n\n{0}\nAssignez la tâche de Médecin à un colon en bonne santé. Si elles ne sont pas soignées, les blessures pourraient ne jamais être guéries correctement et devenir permanentes.</NeedDoctorDesc>
+  <NeedDoctorDesc>Ces colons ont besoin de soins médicaux, mais vous n'avez pas de Médecin.\n\n{0}\nAssignez la tâche de Médecin à un colon en bonne santé. Si elles ne sont pas soignées, les blessures pourraient ne jamais être guéries correctement et devenir permanentes.</NeedDoctorDesc>
 
   <NeedMiner>Mineur nécessaire</NeedMiner>  
-  <NeedMinerDesc>Vous avez désigné des blocs rocheux à miner, mais aucun colon n'a été affecté à la tâche de Mineur.\n\nAssignez la tâche Mineur à un colon.</NeedMinerDesc>
+  <NeedMinerDesc>Vous avez désigné des blocs de roche à miner, mais aucun colon n'a été affecté à la tâche de Mineur.\n\nAssignez la tâche Mineur à un colon.</NeedMinerDesc>
 
   <NeedWarden>Gardien nécessaire</NeedWarden>  
   <NeedWardenDesc>Vous avez un prisonnier, mais aucun colon n'a reçu la tâche de Geôlier.\n\nAssignez la tâche de Geôlier à un colon.</NeedWardenDesc>
@@ -39,7 +39,7 @@
   <NoMedicineDesc>Vous n'avez plus de médicaments en stock.\n\nAchetez-en aux commerçants.</NoMedicineDesc>
   
   <NeedColonistBeds>Des colons ont besoin de lits</NeedColonistBeds> 
-  <NeedColonistBedsDesc>Vous avez plus de colons que vous n'avez de lits dans votre colonie. Certains ne vont pas avoir d'endroit où dormir.\n\nConstruisez d'autre lits ou transformez des lits de prisonnier en lit de colon.\n\nSi vous ne disposez pas des ressources nécessaires, des emplacements de couchage sont gratuits et sont placés instantanément.</NeedColonistBedsDesc>
+  <NeedColonistBedsDesc>Vous avez plus de colons que vous n'avez de lits dans votre colonie. Certains ne vont pas avoir d'endroit où dormir.\n\nConstruisez d'autre lits ou transformez des lits de prisonnier en lit de colon.\n\nSi vous ne disposez pas des ressources nécessaires, des emplacements de couchage gratuits seront placés instantanément.</NeedColonistBedsDesc>
   
   <HunterLacksWeapon>Un chasseur n'a pas d'arme</HunterLacksWeapon>
   <HunterLacksWeaponDesc>Un colon est assigné à la chasse mais il n'a pas d'arme. Il ne chassera pas tant qu'il ne portera pas d'arme. Pour limiter les blessures, nous vous recommandons de lui fournir une arme à distance.</HunterLacksWeaponDesc>
@@ -51,7 +51,7 @@
   <StarvationAnimalsDesc>Ces animaux de la colonie sont affamés :\n\n{0}\nNourrissez les.</StarvationAnimalsDesc>
     
   <Exhaustion>Épuisement</Exhaustion>  
-  <ExhaustionDesc>Ces colons sont épuisés et ont besoin de repos :\n\n{0}\nLaissez les se reposer. Ils ont besoin d'un lit assigné aux colons. Faites attention à ce que les couchages ne soient pas juste planifiés et que ces colons ne soient pas enrôlés.</ExhaustionDesc>
+  <ExhaustionDesc>Ces colons sont épuisés et ont besoin de repos :\n\n{0}\nLaissez les se reposer. Ils ont besoin d'un lit personnel. Faites attention à ce que les couchages ne soient pas juste planifiés et que ces colons ne soient pas enrôlés.</ExhaustionDesc>
     
   <NeedFoodHopper>Réservoir de nourriture nécessaire</NeedFoodHopper>  
   <NeedFoodHopperDesc>Vous disposez d'un distributeur de pâte nutritive sans réservoir.\n\nPour fonctionner, les distributeurs de pâte nutritive ont besoin de récupérer la nourriture crue d'un réservoir adjacent.\n\nConstruisez un réservoir adjacent au distributeur.</NeedFoodHopperDesc>
@@ -92,7 +92,7 @@
   -->
     
   <ColonistsIdle>{0} colons inactifs</ColonistsIdle>  
-  <ColonistsIdleDesc>Ces colons se promènent sans tâche :\n\n{0}\nVous devriez probablement pouvoir leur trouver de quoi les occuper.</ColonistsIdleDesc>
+  <ColonistsIdleDesc>Ces colons n'ont pas de tâche :\n\n{0}\nVous devriez probablement pouvoir leur trouver de quoi les occuper.</ColonistsIdleDesc>
 
  <!-- Removed
   <HaltedConstructions>{0} constructions manquent de matériaux</HaltedConstructions>
@@ -121,6 +121,6 @@
 
 
   <HunterHasShieldAndRangedWeapon>Un chasseur a un bouclier et une arme à distance</HunterHasShieldAndRangedWeapon>
-  <HunterHasShieldAndRangedWeaponDesc>Un de vos chasseurs utilise une arme à distance et porte un bouclier personnel qui empêche de tirer à distance.\n\nIls ne seront pas en mesure de chasser à moins que le bouclier ne soit enlevé.</HunterHasShieldAndRangedWeaponDesc>
+  <HunterHasShieldAndRangedWeaponDesc>Un de vos chasseurs utilise une arme à distance et porte un bouclier personnel qui empêche de tirer à distance.\n\nIl ne sera pas en mesure de chasser tant que le bouclier ne lui sera pas enlevé.</HunterHasShieldAndRangedWeaponDesc>
 
 </LanguageData>
