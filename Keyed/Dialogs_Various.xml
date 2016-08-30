@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Confirmer</Confirm>
   <GoBack>Retour</GoBack>
   <OK>OK</OK>
   
-   <!-- Recovered from errors caused by mods -->
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.\n\nCelà peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Vu que c'est une copie DRM-free, vous pouvez installer le jeu deux fois dans deux dossiers différents afin d'être capable de jouer à la fois à l'ancienne et à la nouvelle version.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter celà.</GameUpdatedToNewVersionSteam>    
+
+  <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Erreur de mods incompatibles ou corrompus</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Il semblerait qu'un des mods actif cause des problèmes.\n\nIls sont incompatibles entre eux, développés pour une version différente de RimWorld, ou corrompus.\n\nTous les mods ont été désactivés et peuvent être de nouveau activés depuis la fenêtre des mods.</RecoveredFromErrorsText>
-
   
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Erreur au chargement des graphismes</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Une erreur est survenue lors du chargement des éléments graphiques du jeu. Consultez le log d'erreur pour plus d'informations.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets>Une erreur est survenue lors du chargement des éléments graphiques du jeu. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingAssets>
   <ErrorWhileLoadingAssets_ModsInfo>Le jeu est lancé avec des mods non officiels ; il peuvent ou non être à l'origine de ces problèmes.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Erreur à la génération d'une carte</ErrorWhileGeneratingMapTitle>
-  <ErrorWhileGeneratingMap>Une erreur est survenue lors de la génération d'une nouvelle carte. Consultez le log d'erreur pour plus d'informations.</ErrorWhileGeneratingMap>
+  <ErrorWhileGeneratingMap>Une erreur est survenue lors de la génération d'une nouvelle carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Erreur au chargement d'une carte</ErrorWhileLoadingMapTitle>
-  <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le log d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</ModWithAssemblyWasUnloaded>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles:\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
@@ -87,9 +95,8 @@
   <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Prérequis de recherche </ResearchPrerequisites>
   <RequiredResearchBench>Banc de recherche nécessaire </RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s) </RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s)</RequiredResearchBenchFacilities>
 
-  
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté(e) à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Attention : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes. La taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
@@ -104,7 +111,6 @@
   <PermadeathMode>Mode mort permanente</PermadeathMode>
   <PermadeathModeInfo>En mode mort permanente, un seul emplacement de sauvegarde est utilisable, et vous ne pourrez sauvegarder qu'en quittant la partie. Vous ne pourrez pas recharger le jeu pour réparer une erreur, et quand la colonie meurt, c'est fini.\n\nC'est de cette manière que RimWorld est supposé être joué, où chaque évènement dramatique, qu'il soit tragique ou bienheureux, sera vécu avec toutes ses conséquences !</PermadeathModeInfo>
   
-    
   <!-- Bill config -->
   <Suspended>Suspendre</Suspended>
   <NotSuspended>Reprendre</NotSuspended>
@@ -149,7 +155,10 @@
   <GrowingTime>Temps de croissance</GrowingTime>
   <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre a taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <Days>jours</Days>
+  <MinGrowingSkillToSow>Niveau de fermier minimum pour semer</MinGrowingSkillToSow>
   <FertilityRequirement>Nécessite un sol fertile</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Sensibilité du sol fertilisé (taux de croissance)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Sensibilité du sol fertilisé (chance pour la plante)</SoilFertilitySensitivityPlantChance>
   <LightRequirement>Nécessite de la lumière</LightRequirement>
   <Attributes>Attributs</Attributes>
   <LifeSpan>Durée de vie</LifeSpan>
@@ -162,19 +171,18 @@
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
   <MarketValue>Prix de base</MarketValue>
   <Covers>Protection</Covers>
-  <BodyPartEfficiency>Efficacité des parties du corps</BodyPartEfficiency>
+  <CoverEffectiveness>Efficacité de la protection</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Avec quelle efficacité ceci peut être utilisé comme protection durant une fusillade. Les pourcentages élevés arrêteront plus de tirs.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Facteur de gain d'expérience</MedicineXpGainFactor>
+  <BodyPartEfficiency>Efficacité de la partie du corps</BodyPartEfficiency>
   <MoodChange>Changement d'humeur</MoodChange>
-  <Wildness>Sauvage</Wildness>
+  <Wildness>Sauvagerie</Wildness>
   <WildnessExplanation>Plus la créature est sauvage, plus il sera difficile de l'apprivoiser / entrainner / domestiquer.</WildnessExplanation>
-  <AnimalFilthRate>Salissure</AnimalFilthRate>
+  <AnimalFilthRate>Saleté de l'animal</AnimalFilthRate>
   <AnimalFilthRateExplanation>En marchant sur les sols de la colonie, les animaux produisent de la saleté. Cet indicateur représente la saleté moyenne produite par cette animal en marchant sur {0} cases.\n\nLes gros animaux ou ceux qui s'éloignent de l'idée d'animaux de compagnie salissent plus que les petits.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Divers</MiscRecordsCategory>
-  
-  <MedicineXpGainFactor>Facteur de gain d'expérience</MedicineXpGainFactor>
-  <MinGrowingSkillToSow>Niveau de fermier minimum pour semer</MinGrowingSkillToSow>
- <SoilFertilitySensitivityGrowthRate>Sensibilité du sol fertilisé (taux de croissance)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Sensibilité du sol fertilisé (chance pour la plante)</SoilFertilitySensitivityPlantChance>
+  <Addictiveness>Addictivité</Addictiveness>
  
   <!-- Trade -->
   <PositiveBuysNegativeSells>Chiffre positif pour acheter.\nChiffre négatif pour vendre.</PositiveBuysNegativeSells>
@@ -186,6 +194,7 @@
   <AcceptButton>Accepter</AcceptButton>
   <ResetButton>Réinitialiser</ResetButton>
   <CancelButton>Annuler</CancelButton>
+  <CloseButton>Fermer</CloseButton>
   <YourTradeableSilver>Argent échangeable : {0}</YourTradeableSilver>
   <YourTradeableSilverTip>Vous ne pouvez commercer qu'avec de l'argent qui n'est pas sous un toit et qui est près d'une balise de commerce orbital.</YourTradeableSilverTip>
   <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
@@ -217,10 +226,41 @@
   <DeleteOutfit>Supprimer la tenue...</DeleteOutfit>
   <OutfitInUse>Tenue utilisée par {0}.</OutfitInUse>
   <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
-   <!-- Growing -->
-  <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
+  
+  <!-- Drug policy management -->
+  <DrugPolicy>Règle sur la drogue</DrugPolicy>
+  <SelectDrugPolicy>Choisir la règle...</SelectDrugPolicy>
+  <NewDrugPolicy>Nouvelle règle</NewDrugPolicy>
+  <DeleteDrugPolicy>Supprimer la règle...</DeleteDrugPolicy>
+  <DrugPolicyInUse>La règle sur la drogue est utilisée par {0}.</DrugPolicyInUse>
+  <SocialDrugs>Drogues sociales</SocialDrugs>
+  <NoDrugs>Pas de drogue</NoDrugs>
+  <OneDrinkPerDay>Une boisson par jour</OneDrinkPerDay>
+  <Unrestricted>Sans restriction</Unrestricted>
+  <NoDrugPolicySelected>Pas de règle sur la drogue sélectionnée</NoDrugPolicySelected>
+  <AddDrug>Ajouter une drogue...</AddDrug>
+  <DrugColumnLabel>Drogue</DrugColumnLabel>
+  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frequence</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Seulement si l'humeur est en dessous de</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Seulement si la joie est en dessous de</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Prendre dans l'inventaire</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(pas de drogue)</NoDrugsBrackets>
+  <EveryDay>Tous les jours</EveryDay>
+  <TimesPerDay>{0} fois par jour</TimesPerDay>
+  <EveryDays>Tout les {0} jours</EveryDays>
+  <NoDrugUseRequirement>N'importe</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Supprimer cette drogue.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>Le nom d'une drogue.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>Comment la drogue est autorisée à être utilisée.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>A quelle fréquence les colons devraient essayer de prendre cette drogue.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Les colons prendront cette drogue seulement si leur humeur est en dessous de ce seuil.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Les colons prendront cette drogue seulement si leur joie est en dessous de ce seuil.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>Quand la drogue est ramassée pour sa consommation, une quantité supplémentaire est prise afin d'éviter de se rendre à la réserve à chaque fois.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Planifié\n\nUtiliser cette drogue selon un calendrier défini, quand des conditions spécifiques sont rencontrées.</DrugUsageTipScheduled>
 
-   <!-- Missing Steam -->
-  <SteamClientMissing>N'a pas pu initialiser Steam API. Causes possibles:\n\n-Steam n'est pas démarré.\n-Jeu lancé par le biais d'un compte Steam extérieur sans steam_appid.txt en place.\n-Jeu lancé avec d'autres priorités que le client Steam (ex : "en tant qu'administrateur")\n\nCette version Steam du jeu nécessite Steam et va maintenant s'arrêter.</SteamClientMissing>
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
  
 </LanguageData>
