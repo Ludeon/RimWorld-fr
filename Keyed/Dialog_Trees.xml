@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <FactionGreetingHostile>Le représentant de {0} hurle quelques noms d'oiseau à l'écran avant de couper la communication.</FactionGreetingHostile>
-  <FactionGreetingWary>Le représentant de {0} salue {1} avec méfiance et lui demande la raison de sa communication.</FactionGreetingWary>
-  <FactionGreetingWarm>Le représentant de {0} salue chaleureusement {1} et lui demande des nouvelles de la colonie.</FactionGreetingWarm>
+    <FactionGreetingHostile>Le représentant de {0} hurle quelques noms d'oiseau à l'écran avant de couper la communication.</FactionGreetingHostile>
+    <FactionGreetingWary>Le représentant de {0} salue {1} avec méfiance et lui demande la raison de sa communication.</FactionGreetingWary>
+    <FactionGreetingWarm>Le représentant de {0} salue chaleureusement {1} et lui demande des nouvelles de la colonie.</FactionGreetingWarm>
 
-  <Disconnect>Déconnexion</Disconnect>
+    <Disconnect>Déconnexion</Disconnect>
 
-  <OfferGift>Offrir un cadeau</OfferGift>
-  <NeedSilverLaunchable>Vous avez besoin de {0} unités d'argent à envoyer.</NeedSilverLaunchable>
-  <NotEnoughSilver>Pas assez d'argent.</NotEnoughSilver>
-  <SilverForGoodwill>{0} d'argent en gage de {1} points d'opinion</SilverForGoodwill>
-  <SilverGiftSent>Le représentant de {0} vous remercie.\n\n(L'opinion de votre interlocuteur s'est améliorée de {1}).</SilverGiftSent>
+    <!-- gift offer -->
+    <OfferGift>Offrir un cadeau</OfferGift>
+    <NeedSilverLaunchable>Vous avez besoin de {0} unités d'argent à envoyer.</NeedSilverLaunchable>
+    <NotEnoughSilver>Pas assez d'argent.</NotEnoughSilver>
+    <SilverForGoodwill>{0} d'argent en gage de {1} points d'opinion</SilverForGoodwill>
+    <SilverGiftSent>Le représentant de {0} vous remercie.\n\n(L'opinion de votre interlocuteur s'est améliorée de {1}).</SilverGiftSent>
+    
+    <!-- trade caravan request -->
+    <RequestTrader>Demander une caravane commerciale (coût: {0} argent)</RequestTrader>
+    <ChooseTraderKind>{0} demande quel type de caravane commerciale vous souhaitez.</ChooseTraderKind>
+    <TraderSent>{0} accepte de de vous envoyer une caravane commerciale. Elle arrivera dans quelques jours.</TraderSent>
 
-
-  <RequestMilitaryAid>Demander une aide militaire immédiate ({0} relation)</RequestMilitaryAid>
-  <MilitaryAidConfirmMutualEnemy>{0} ne vous aidera pas à affronter l'autre faction qui ne sont pas leurs ennemis. Cela inclut certains de vos agresseurs actuels, {1}. Voulez-vous malgré tout les appeler à l'aide ?</MilitaryAidConfirmMutualEnemy>
-  <CallConfirm>Oui, demandez leur de l'aide malgré tout.</CallConfirm>
-  <CallCancel>Non, laissez tomber.</CallCancel>
-  <MilitaryAidSent>Le représentant de {0} accepte d'envoyer des combattants à vos côtés.</MilitaryAidSent>
-  
+    <!-- military aid request -->
+    <RequestMilitaryAid>Demander une aide militaire immédiate ({0} relation)</RequestMilitaryAid>
+    <MilitaryAidConfirmMutualEnemy>{0} ne vous aidera pas à affronter l'autre faction qui ne sont pas leurs ennemis. Cela inclut certains de vos agresseurs actuels, {1}. Voulez-vous malgré tout les appeler à l'aide ?</MilitaryAidConfirmMutualEnemy>
+    <CallConfirm>Oui, demandez leur de l'aide malgré tout.</CallConfirm>
+    <CallCancel>Non, laissez tomber.</CallCancel>
+    <MilitaryAidSent>Le représentant de {0} accepte d'envoyer des combattants à vos côtés.</MilitaryAidSent>
   
 </LanguageData>
