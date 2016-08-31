@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha11 -->
 <LanguageData>
 
 	<!-- glow -->
@@ -10,16 +9,7 @@
 	<!-- history upload pref -->
 	<Unspecified>Indécis</Unspecified>
 	<Always>Autoriser</Always>
-	<Never>Ne pas autoriser</Never>
-	
-	  <!-- Player pawns arrive method -->
-  <PlayerPawnsArriveMethod_Standing>Sur place</PlayerPawnsArriveMethod_Standing>
-  <PlayerPawnsArriveMethod_DropPods>Capsule de largage</PlayerPawnsArriveMethod_DropPods>
-  
-  <!-- Pawn generation context -->
-  <PawnGenerationContext_All>tous les personnages</PawnGenerationContext_All>
-  <PawnGenerationContext_PlayerStarter>personnages de départ</PawnGenerationContext_PlayerStarter>
-  <PawnGenerationContext_NonPlayer>personnages non joueurs</PawnGenerationContext_NonPlayer>
+	<Never>Ne pas autoriser</Never>  
   
 	<!-- Price types -->
 	<PriceTypeVeryCheap>très bon marché</PriceTypeVeryCheap>
@@ -27,6 +17,14 @@
 	<PriceTypeNormal>normal</PriceTypeNormal>
 	<PriceTypeExpensive>cher</PriceTypeExpensive>
 	<PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
+    
+    <!-- Storage priority labels -->
+    <StoragePriorityUnstored>Refusé</StoragePriorityUnstored>
+    <StoragePriorityLow>Basse</StoragePriorityLow>
+    <StoragePriorityNormal>Normale</StoragePriorityNormal>
+    <StoragePriorityPreferred>Haute</StoragePriorityPreferred>
+    <StoragePriorityImportant>Importante</StoragePriorityImportant>
+    <StoragePriorityCritical>Critique</StoragePriorityCritical>
 
 	<!-- Food type flags -->
 	<FoodTypeFlags_VegetableOrFruit>légumes</FoodTypeFlags_VegetableOrFruit>
@@ -51,7 +49,6 @@
 	<QualityCategory_Excellent>excellent</QualityCategory_Excellent>
 	<QualityCategory_Masterwork>chef-d'œuvre</QualityCategory_Masterwork>
 	<QualityCategory_Legendary>légendaire</QualityCategory_Legendary>
-
 	<QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
 	<QualityCategoryShort_Shoddy>bâcl</QualityCategoryShort_Shoddy>
 	<QualityCategoryShort_Poor>mdcr</QualityCategoryShort_Poor>
@@ -61,7 +58,6 @@
 	<QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
 	<QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
 	<QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
-
 
 	<!-- Hunger -->
 	<HungerLevel_Starving>Affamé</HungerLevel_Starving>
@@ -91,6 +87,10 @@
 	<EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Envoi du fichier d'aperçu</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
 	<EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Soumettre les changements</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 	
+    <!-- Mod sources -->
+    <ContentSource_LocalFolder>dossier local</ContentSource_LocalFolder>
+    <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+    
 	<!-- Trainable intelligence -->
 	<TrainableIntelligence_None>Aucune</TrainableIntelligence_None>
 	<TrainableIntelligence_Simple>Simple</TrainableIntelligence_Simple>
@@ -114,27 +114,36 @@
 	<HediffGrowthMode_Stable>stable</HediffGrowthMode_Stable>
 	<HediffGrowthMode_Remission>en rémission</HediffGrowthMode_Remission>
 	
+	<!-- TechLevel -->
+  	<TechLevel_Animal>animal</TechLevel_Animal>
+  	<TechLevel_Neolithic>néolithique</TechLevel_Neolithic>
+  	<TechLevel_Medieval>médiéval</TechLevel_Medieval>
+  	<TechLevel_Industrial>industriel</TechLevel_Industrial>
+  	<TechLevel_Spacer>spacial</TechLevel_Spacer>
+  	<TechLevel_Ultra>ultra</TechLevel_Ultra>
+  	<TechLevel_Transcendent>transcendant</TechLevel_Transcendent>
+  
+	<!-- Player pawns arrive method -->
+	<PlayerPawnsArriveMethod_Standing>Sur place</PlayerPawnsArriveMethod_Standing>
+	<PlayerPawnsArriveMethod_DropPods>Capsule de largage</PlayerPawnsArriveMethod_DropPods>
+  
+	<!-- Pawn generation context -->
+	<PawnGenerationContext_All>tous les personnages</PawnGenerationContext_All>
+	<PawnGenerationContext_PlayerStarter>personnages de départ</PawnGenerationContext_PlayerStarter>
+	<PawnGenerationContext_NonPlayer>personnages non joueurs</PawnGenerationContext_NonPlayer>
+  
 	<!-- Animal name display mode -->
-  <ShowAnimalNames>Montrer noms des animaux</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>Apprivoisé (nommé seulement)</AnimalNameDisplayMode_TameNamed>
-  <AnimalNameDisplayMode_TameAll>Apprivoisé (tous)</AnimalNameDisplayMode_TameAll>
+	<ShowAnimalNames>Afficher nom des animaux</ShowAnimalNames>
+	<AnimalNameDisplayMode_TameNamed>Nommés seulement</AnimalNameDisplayMode_TameNamed>
+	<AnimalNameDisplayMode_TameAll>Apprivoisés (tous)</AnimalNameDisplayMode_TameAll>
+
+   	<!-- Temperature -->
+  	<Celsius>Celsius</Celsius>
+  	<Fahrenheit>Fahrenheit</Fahrenheit>
+  	<Kelvin>Kelvin</Kelvin>
   
-  <!-- TechLevel -->
-  <TechLevel_Animal>animal</TechLevel_Animal>
-  <TechLevel_Neolithic>néolithique</TechLevel_Neolithic>
-  <TechLevel_Medieval>médiéval</TechLevel_Medieval>
-  <TechLevel_Industrial>industriel</TechLevel_Industrial>
-  <TechLevel_Spacer>spacial</TechLevel_Spacer>
-  <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>transcendant</TechLevel_Transcendent>
-  
-    <!-- Temperature -->
-  <Celsius>Celsius</Celsius>
-  <Fahrenheit>Fahrenheit</Fahrenheit>
-  <Kelvin>Kelvin</Kelvin>
-  
-  <!-- Mod sources -->
-  <ContentSource_LocalFolder>dossier local</ContentSource_LocalFolder>
-  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+	<!-- Spoil reason -->
+  	<SpoilReason_Freezing>Avarié par le gel.</SpoilReason_Freezing>
+	<SpoilReason_HighTemperature>Avarié par une température trop élevée.</SpoilReason_HighTemperature>
   
 </LanguageData>
