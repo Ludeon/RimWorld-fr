@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Compatible vAlpha10 -->
 <LanguageData>
 
-	<JumpToLocation>Se rendre sur les lieux</JumpToLocation>
+    <JumpToLocation>Se rendre sur les lieux</JumpToLocation>
 
 	<LetterLabelFirstSummerWarning>Été</LetterLabelFirstSummerWarning>
 	<FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive !\n\nVos cultures seront difficiles avec le froid de l'hiver. Assurez-vous de stocker quelques mois de réserves de nourriture, tant que vous le pouvez encore.\n\nVous pouvez construire une salle de réfrigération pour empêcher la nourriture de pourrir.\n\nEt essayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
@@ -44,8 +43,8 @@
 
 	<LetterLabelAnimalManhunterRevenge>Vengeance de {0}</LetterLabelAnimalManhunterRevenge>
 	<AnimalManhunterFromDamage>Un {0} attaque après avoir été blessé!</AnimalManhunterFromDamage>
-    <AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
-    <AnimalManhunterOthers>Les {0}s aux alentours sont devenus enragés!</AnimalManhunterOthers>
+	<AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
+	<AnimalManhunterOthers>Les {0}s aux alentours sont devenus enragés!</AnimalManhunterOthers>
   
 	<LetterFriendlyTrapSprungLabel>{0} pris au piège</LetterFriendlyTrapSprungLabel>
 	<LetterFriendlyTrapSprung>{0} a été pris dans un piège et a subis des dommages.</LetterFriendlyTrapSprung>
@@ -59,26 +58,37 @@
 	<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
 	<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et se voit remplacé par {2}.</LetterLeadersDeath>
   
-    <MentalBreakLetterLabel>Traumatisé</MentalBreakLetterLabel>
-    <MentalBreakReason>Raison: {0}.</MentalBreakReason>
-	<!-- Generalized letter labels -->
-	<LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
-	<LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
-	<LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
-	<LetterLabelMentalBreakdown>Traumatisé</LetterLabelMentalBreakdown>
-
-
+	<MentalBreakLetterLabel>Traumatisé</MentalBreakLetterLabel>
+	<MentalBreakReason>Raison: {0}.</MentalBreakReason>
+    
+	<!-- Related pawns -->
+	<LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
+	<LetterRelatedPawnsRaidEnemy>Des personnages de la faction ennemi {0} ont des relations avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement étant donné les mauvaises relations avec la faction.\n\nCes personnages sont:</LetterRelatedPawnsRaidEnemy>
+	<LetterRelatedPawnsRaidFriendly>Des personnages de la faction ami {0} ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsRaidFriendly>
+	<LetterRelatedPawnsNeutralGroup>Des personnages du groupe venant d'arriver ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsNeutralGroup>
+	<LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnages qui ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsTradeShip>
+    
+	<RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
+	<RelationshipAppendedLetterTextColonist>NAME a une relation avec un colon. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextColonist>
+	<RelationshipAppendedLetterTextPrisoner>NAME a une relation avec un de vos prisonniers. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+    
 	<!-- Attempt romance / propose interaction -->
 	<LetterLabelAffair>Liaison</LetterLabelAffair>
 	<LetterAffair>{0}, marié à {1}, vient commence à avoir une liaison avec {2}.</LetterAffair>
 	<LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
 	<LetterLabelBreakup>Rupture</LetterLabelBreakup>
-    <LetterNewLovers>{0} et {1} se sont unis et sont maintenant amoureux.</LetterNewLovers>
+	<LetterNewLovers>{0} et {1} se sont unis et sont maintenant amoureux.</LetterNewLovers>
 	<LetterNoLongerLovers>La relation amoureuse entre {0} et {1} est terminée.</LetterNoLongerLovers>
 	<LetterLabelAcceptedProposal>Un mariage est prévu !</LetterLabelAcceptedProposal>
 	<LetterLabelRejectedProposal>Proposition rejetée</LetterLabelRejectedProposal>
 	<LetterAcceptedProposal>{1} a accepté la proposition de mariage de {0}.\n\nÀ un moment dans les jours ou les saisons qui viennent, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
 	<LetterRejectedProposal>{1} a refusé la proposition de mariage de {0}. {0} va être triste après ça.</LetterRejectedProposal>
+    
+	<!-- Generalized letter labels -->
+	<LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
+	<LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
+	<LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+	<LetterLabelMentalBreakdown>Traumatisé</LetterLabelMentalBreakdown>
 
 	<!-- Bonded animals -->
 	<LetterLabelBondedAnimalDied>Mort d'un animal attaché</LetterLabelBondedAnimalDied>
@@ -95,15 +105,12 @@
 	<LetterLabelNewParty>Fête</LetterLabelNewParty>
 	<LetterNewParty>{0} organise une fête ! Toutes les personnes qui y assisteront vont gagner en joie et en énergie sociale, et une poussée de bonne humeur persistera quelques temps après la fête.</LetterNewParty>
 
-	 <!-- Related pawns -->
-  <LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>Des personnages de la faction ennemi {0} ont des relations avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement étant donné les mauvaises relations avec la faction.\n\nCes personnages sont:</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>Des personnages de la faction ami {0} ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>Des personnages du groupe venant d'arriver ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnages qui ont des relations avec vos colons ou vos prisonniers:</LetterRelatedPawnsTradeShip>
+	<!-- Newly addicted -->
+	<LetterLabelNewlyAddicted>{0} addiction</LetterLabelNewlyAddicted>
+	<LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\nHECAP a désormais besoin de {1}, visible dans HIS onglet Besoins. HECAP consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si HE ne peut pas se procurer de {1}, HE sera en manque.</LetterNewlyAddicted>
   
-  <RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME a une relation avec un colon. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME a une relation avec un de vos prisonniers. HECAP est le {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+	<!-- Drug binge -->
+	<LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
+	<LetterDrugBinge>{0} est en consommation excessive de {1}.</LetterDrugBinge>
   
 </LanguageData>
