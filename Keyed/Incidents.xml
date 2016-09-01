@@ -4,7 +4,7 @@
 	<LetterLabelAnimalInsanitySingle>Animal fou</LetterLabelAnimalInsanitySingle>
 	<AnimalInsanitySingle>Un {0} local est devenu fou. Il attaquera à vue n'importe qui.</AnimalInsanitySingle>
 	<LetterLabelAnimalInsanityMultiple>Animaux fous !</LetterLabelAnimalInsanityMultiple>
-	<AnimalInsanityMultiple>Une sorte de vague psychique s'est abattue sur les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenus fous.</AnimalInsanityMultiple>
+	<AnimalInsanityMultiple>Une sorte de vague psychique a balayé les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenus fous.</AnimalInsanityMultiple>
 
 	<LetterLabelCropBlight>Fléau</LetterLabelCropBlight>
 	<CropBlight>Un mystérieux fléau a détruit vos cultures.</CropBlight>
@@ -16,7 +16,7 @@
 	<EnemyRaidWalkIn>Un groupe de {0} de {1} est arrivé à proximité.</EnemyRaidWalkIn>
 	<EnemyRaidEdgeDrop>Un groupe de {0} de {1} effectue un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
 	<EnemyRaidCenterDrop>Un groupe de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
-    <EnemyRaidLeaderPresent>Quelqu'un de {0} - {1}, est le chef de la faction.</EnemyRaidLeaderPresent>
+	<EnemyRaidLeaderPresent>Quelqu'un de {0} - {1}, est le chef de la faction.</EnemyRaidLeaderPresent>
 
 	<!-- Friendly raids -->
 	<FriendlyRaidWalkIn>Un groupe amical de {0} de {1} est arrivé à proximité.</FriendlyRaidWalkIn>
@@ -44,7 +44,7 @@
 	 <SingleVisitorArrivesLeaderInfo>\n\nHECAP est le chef de la faction.</SingleVisitorArrivesLeaderInfo>
 
 	<SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.{3}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
+	<SingleVisitorArrivesTraderInfo>\n\nHECAP semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
 	<LetterLabelGroupVisitorsArrive>Visiteurs</LetterLabelGroupVisitorsArrive>
 	<GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.{1}</GroupVisitorsArrive>
 	<GroupVisitorsArriveTraderInfo>\n\nIl semblerait qu'ils aient quelques objets à échanger.</GroupVisitorsArriveTraderInfo>
@@ -84,39 +84,39 @@
 	<BeaversArrived>Un groupe d'Alphacastors affamés vient juste d'arriver.\n\nEssayez de les éliminer avant qu'ils n'aient dévoré jusqu'au dernier arbre de la région.</BeaversArrived>
 	
 	<!-- Refugee chased -->
-  <RefugeeChasedInitial>Un colon de {1} du nom de {0} vous appelle. HECAP est pourchassé(e) par des {2} de {3} !\n\nHECAP vous supplie de l'aider et de rejoindre votre colonie. HECAP a {4} ans.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
-  <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
-  <RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>{0} a hurlé de panique dans le petit micro avant que vous ne coupiez la transmission.</RefugeeChasedRejected>
+ 	<RefugeeChasedInitial>Un {1} nommé {0} vous appelle. HECAP est pourchassé(e) par des {2} de {3} !\n\nHECAP vous supplie de l'aider et de rejoindre votre colonie. HECAP a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
+	<RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
+	<RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
+	<RefugeeChasedRejected>{0} a hurlé de panique dans le petit micro avant que vous ne coupiez la transmission.</RefugeeChasedRejected>
   
-    <!-- Self-tame -->
-  <LetterLabelAnimalSelfTame>{0} s'est laissé apprivoiser</LetterLabelAnimalSelfTame>
-  <LetterAnimalSelfTame>{0} a été apprivoisé.</LetterAnimalSelfTame>
-  <LetterAnimalSelfTameAndNameNumerical>{0} a été apprivoisé. Il s'apelle maintenant {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <LetterAnimalSelfTameAndName>{0} a été apprivoisé. Les colons ont décidé de l'appeler {1}.</LetterAnimalSelfTameAndName>
+	<!-- Self-tame -->
+	<LetterLabelAnimalSelfTame>{0} s'est laissé apprivoiser</LetterLabelAnimalSelfTame>
+	<LetterAnimalSelfTame>{0} est devenu apprivoisé.</LetterAnimalSelfTame>
+	<LetterAnimalSelfTameAndNameNumerical>{0} est devenu apprivoisé. Il s'apelle désormais {1}.</LetterAnimalSelfTameAndNameNumerical>
+	<LetterAnimalSelfTameAndName>{0} est devenu apprivoisé. Les colons ont décidé de l'appeler {1}.</LetterAnimalSelfTameAndName>
 
-  <!-- Farm animals wander in -->
-  <LetterLabelFarmAnimalsWanderIn>{0}s se joignent à vous</LetterLabelFarmAnimalsWanderIn>
-  <LetterFarmAnimalsWanderIn>Un groupe de {0}s, abandonné ou perdu, errent dans la zone.n\nIls semblent accoutumés au contact humain et rejoignent votre colonie.</LetterFarmAnimalsWanderIn>
+	<!-- Farm animals wander in -->
+	<LetterLabelFarmAnimalsWanderIn>{0}s se joignent à vous</LetterLabelFarmAnimalsWanderIn>
+	<LetterFarmAnimalsWanderIn>Un groupe de {0}s, abandonné ou perdu, errent dans la zone.n\nIls semblent accoutumés au contact humain et rejoignent la colonie.</LetterFarmAnimalsWanderIn>
   
-  <!-- Thrumbo passes -->
-  <LetterLabelThrumboPasses>Thrumbos</LetterLabelThrumboPasses>
-  <LetterThrumboPasses>Un petit groupe de thrumbos errent dans la zone.\n\nDe nature paisible, ces créatures sont extrêmement dangereuses lors d'une bataille. Certains commerçants donneront cher pour son précieux cuir et sa corne.\n\nLe groupe de thrumbos quittera la zone dans quelques jours.</LetterThrumboPasses>
+	<!-- Thrumbo passes -->
+	<LetterLabelThrumboPasses>Thrumbos</LetterLabelThrumboPasses>
+	<LetterThrumboPasses>Un petit groupe de thrumbos errent dans la zone.\n\nDe nature paisible, ces créatures sont extrêmement dangereuses lorsqu'elles sont combattues. Certains commerçants donneront cher pour son précieux cuir et sa corne.\n\nLe groupe de thrumbos quittera la zone dans quelques jours.</LetterThrumboPasses>
 
-  <!-- Trader caravan -->
-  <LetterLabelTraderCaravanArrival>Commerçants de {0}</LetterLabelTraderCaravanArrival>
-  <LetterTraderCaravanArrival>Une caravane commerciale de {0} arrive.\n\nLes commerçants vont rester autour de votre colonie pendant quelques jours avant de repartir. Vous pouvez les attaquer, mais alors leur faction sera énervée contre vous !</LetterTraderCaravanArrival>
+	<!-- Trader caravan -->
+	<LetterLabelTraderCaravanArrival>Commerçants de {0}</LetterLabelTraderCaravanArrival>
+	<LetterTraderCaravanArrival>Une caravane marchande de {0} arrive.\n\nLes commerçants vont rester autour de votre colonie pendant quelques jours avant de repartir. Vous pouvez les attaquer, mais celà mettra en colère leur faction !</LetterTraderCaravanArrival>
 
-  <!-- Building breaks down -->
-  <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'aucun colon effectuant le travail Réparation ne s'en sera occupé.</LetterBuildingBrokenDown>
+	<!-- Building breaks down -->
+	<LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
+	<LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail Réparation ne s'en sera pas occupé.</LetterBuildingBrokenDown>
   
   
-  <GroupVisitorsArriveLeaderInfo>\n\nUn des visiteurs - {0}, est le chef de la faction.</GroupVisitorsArriveLeaderInfo>
+	<GroupVisitorsArriveLeaderInfo>\n\nUn des visiteurs - {0}, est le chef de la faction.</GroupVisitorsArriveLeaderInfo>
 
 	  <!-- Ransom demand -->
-  <RansomDemand>{1} vous contacte par radio. Ils tiennent en otage le colon {0} en échange d'une rançon.\n\nIls sont prêt à l'échanger contre {2} argent.</RansomDemand>
-  <RansomDemand_Accept>Accepter</RansomDemand_Accept>
-  <RansomDemand_Reject>Rejeter</RansomDemand_Reject>
+	<RansomDemand>{1} vous contacte par radio. Ils tiennent en otage le colon {0} en échange d'une rançon.\n\nIls sont prêt à l'échanger contre {2} argent.</RansomDemand>
+	<RansomDemand_Accept>Accepter</RansomDemand_Accept>
+	<RansomDemand_Reject>Rejeter</RansomDemand_Reject>
   
 </LanguageData>
