@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
 	<CallOnRadio>Appeler {0}</CallOnRadio>
 	<CannotUseReason>Ne peut utiliser ({0})</CannotUseReason>
-	<CannotUseSolarFlare>Action impossible (Éruption solaire)</CannotUseSolarFlare>
-	<CannotUseNoPower>Action impossible (Pas d'énergie)</CannotUseNoPower>
-	<CannotUseNoPath>Action impossible (Pas de chemin d'accès)</CannotUseNoPath>
-	<CannotUseReserved>Action impossible (Réservé)</CannotUseReserved>
-	<CannotUseFull>Action impossible (Plein)</CannotUseFull>
+	<CannotUseSolarFlare>Action impossible (éruption solaire)</CannotUseSolarFlare>
+	<CannotUseNoPower>Action impossible (pas d'énergie)</CannotUseNoPower>
+	<CannotUseNoPath>Action impossible (pas de chemin d'accès)</CannotUseNoPath>
+	<CannotUseReserved>Action impossible (réservé)</CannotUseReserved>
+	<CannotUseFull>Action impossible (rlein)</CannotUseFull>
 
 	<FireAt>Tirer sur {0}</FireAt>
 
@@ -26,8 +24,7 @@
 	<NoPath>Pas de chemin d'accès</NoPath>
 
 	<ForbiddenLower>interdit</ForbiddenLower>
-    <ForbiddenOutsideAllowedAreaLower>en dehors de la zone autorisée</ForbiddenOutsideAllowedAreaLower>
-
+	<ForbiddenOutsideAllowedAreaLower>en dehors de la zone autorisée</ForbiddenOutsideAllowedAreaLower>
 	<SociallyImproperLower>socialement inadapté</SociallyImproperLower>
 	<PrisonerRoomLower>cellule de détention</PrisonerRoomLower>
 	<BurningLower>brûle</BurningLower>
@@ -36,19 +33,18 @@
 	<MissingMaterials>besoin de matériaux</MissingMaterials>
 	<MissingSkill>aptitudes trop faibles</MissingSkill>
 	<NoEmptyGraveLower>aucune tombe vide configurée pour stocker ceci</NoEmptyGraveLower>
-	<AnimalInteractedTooRecently>interraction trop récente</AnimalInteractedTooRecently>
+	<AnimalInteractedTooRecently>interraction avec l'animal trop récente</AnimalInteractedTooRecently>
 	<NoUsableFood>aucune nourriture utilisable</NoUsableFood>
+	<NoFood>pas de nourriture</NoFood>
 	<AnimalsSkillTooLow>compétence animale trop faible</AnimalsSkillTooLow>
 	<NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
 	<NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
-    <NoFood>pas de nourriture</NoFood>
+	<NoWort>nécessite du moût</NoWort>
 
 	<ConsumeThing>Consommer {0}</ConsumeThing>
-	<Teetotaler>s'abstenir</Teetotaler>
-
-
+	
 	<CannotGoNoPath>Impossible de se rendre ici (aucun chemin)</CannotGoNoPath>
-	<GoHere>Venir ici</GoHere>
+	<GoHere>Aller ici</GoHere>
 
 	<Arrest>Arrêter {0}</Arrest>
 	<TryToArrest>Essayer d'arrêter {0}</TryToArrest>
@@ -61,12 +57,12 @@
 	<CannotRescue>Secours impossible</CannotRescue>
 
 	<CarryToCryptosleepCasket>Amener {0} jusqu'au caisson d'hypersommeil</CarryToCryptosleepCasket>
-	<CannotCarryToCryptosleepCasket>Impossible d'aller jusqu'au caisson d'hypersommeil</CannotCarryToCryptosleepCasket>
+	<CannotCarryToCryptosleepCasket>Ne peut pas amener au caisson d'hypersommeil</CannotCarryToCryptosleepCasket>
 
 	<NoCryptosleepCasket>Pas de caisson d'hypersommeil disponible.</NoCryptosleepCasket>
 	<NoPrisonerBed>Aucun lit réservé aux prisonniers n'est disponible.</NoPrisonerBed>
 	<NoNonPrisonerBed>Aucun lit réservé aux colons n'est disponible.</NoNonPrisonerBed>
-	<NoAnimalBed>Aucun lit libre pour animaux n'est accessible.</NoAnimalBed>
+	<NoAnimalBed>Aucune couche pour animaux n'est accessible.</NoAnimalBed>
 	<Reserved>Réservé par quelqu'un d'autre.</Reserved>
 	<ReservedBy>Réservé par {0}.</ReservedBy>
 	<IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
@@ -74,11 +70,13 @@
 	<Incapable>incapable</Incapable>
 	<IncapableOfCapacity>incapable de {0}</IncapableOfCapacity>
 
+	<MinSkill>aptitude minimum</MinSkill>
+    
 	<Equip>Équiper {0}</Equip>
 	<EquipWarningBrawler>(le bagarreur sera mécontent)</EquipWarningBrawler>
 	<CannotEquip>Ne peut pas équiper {0}</CannotEquip>
 
-	<ForceWear>Forcer à Porter {0}</ForceWear>
+	<ForceWear>Forcer à porter {0}</ForceWear>
 	<CannotWear>Ne peut pas porter {0}</CannotWear>
 	<CannotWearBecauseOfMissingBodyParts>parties du corps manquantes</CannotWearBecauseOfMissingBodyParts>
 
@@ -103,28 +101,24 @@
 	<EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
 	<OpenCryptosleepCasket>Ouvrir le caisson d'hypersommeil</OpenCryptosleepCasket>
 
-
-
 	<!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
 	<CannotGenericWork>Ne peut pas {0} {1}</CannotGenericWork>
 
 	<!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-	<CannotMissingHealthActivities>Ne peut pas prioriser (incapable {0})</CannotMissingHealthActivities>
+	<CannotMissingHealthActivities>Ne peut pas prioriser (incapable de {0})</CannotMissingHealthActivities>
 
 	<CannotGenericAlreadyAm>Déjà en train de {0} {1}</CannotGenericAlreadyAm>
-
-	<CannotPrioritizeIsNotA>Ne peut pas prioriser ({0} n'est pas {1})</CannotPrioritizeIsNotA>
-
+    
+	<CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkTypeDisabled>
+    
+	<CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser (n'est pas affecté à {0})</CannotPrioritizeNotAssignedToWorkType>
+    
 	<CannotPrioritizeResearch>Ne peut pas prioriser (La recherche est une tâche de longue durée)</CannotPrioritizeResearch>
-
+    
 	<CannotPrioritizeForbidden>Ne peut pas prioriser ({0} est interdit)</CannotPrioritizeForbidden>
-
+	<CannotPrioritizeForbiddenOutsideAllowedArea>Ne peut pas prioriser ({0} est en dehors de la zone autorisée)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
-
-	<CannotPrioritizeForbiddenOutsideAllowedArea>Ne peut pas prioriser ({0} est en dehors de la zone autorisée)</CannotPrioritizeForbiddenOutsideAllowedArea>
-
-	<MinSkill>niveau mini</MinSkill>
 
 </LanguageData>
