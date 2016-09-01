@@ -3,11 +3,10 @@
 
 	<!--=========== Main menu ==========-->
 	<LearnToPlay>Apprendre à jouer</LearnToPlay>
-	<CreateWorld>Créer un monde</CreateWorld>
 	<NewColony>Nouvelle colonie</NewColony>
 	<BackToGame>Retour au jeu</BackToGame>
 	<Save>Sauvegarder</Save>
-	<ReviewScenario>Revoir scénario</ReviewScenario>
+	<ReviewScenario>Relire le scénario</ReviewScenario>
 	<LoadGame>Charger une colonie</LoadGame>
 	<Options>Options</Options>
 	<Mods>Mods</Mods>
@@ -24,71 +23,86 @@
 	<TynansDesignBook>Livre sur le design de Tynan</TynansDesignBook>
 	<HelpTranslate>Aidez-nous à traduire RimWorld</HelpTranslate>
 	<BuySoundtrack>Acheter la bande originale du jeu</BuySoundtrack>
-  
-  <!--=========== Select scenario =============-->
-  <ChooseScenario>Choisir scénario</ChooseScenario>
-  <ScenariosCustom>Personnalisé</ScenariosCustom>
-  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
-  <ScenarioEditor>Editeur de scénario</ScenarioEditor>
-  <Delete>Supprimer</Delete>
-  
+	<CreateWorld>Créer un monde</CreateWorld>
+    
 	<!--=========== Create/review world ================-->
-	<ReviewWorld>Visualiser un monde</ReviewWorld>
+	<ReviewWorld>Visualiser le monde</ReviewWorld>
 	<WorldGenerate>Générer</WorldGenerate>
 	<WorldSaveAndFinish>Sauvegarder et terminer.</WorldSaveAndFinish>
 	<Reset>Réinitialiser</Reset>
 	<WorldSize>Taille</WorldSize>
-	<WorldSeed>Germe</WorldSeed>
-	<RandomizeSeed>Germe aléatoire</RandomizeSeed>
-	
-	<!--=========== Select world ===================-->
+	<WorldSeed>Graine</WorldSeed>
+	<RandomizeSeed>Graine aléatoire</RandomizeSeed>
+  
+  	<!--=========== Select world ===================-->
 	<SelectWorld>Sélectionner un monde</SelectWorld>
 	<WorldChooseButton>Sélectionner</WorldChooseButton>
 	<NoWorldsFilesFound>Aucun fichier de monde trouvé. Veuillez créer un monde.</NoWorldsFilesFound>
-
+    
 	<!--=========== Version info ==========-->
 	<BuildNowAvailable>La version {0} est désormais disponible. Visitez ludeon.com pour plus d'informations.</BuildNowAvailable>
 	<BuildUpToDate>La version est à jour.</BuildUpToDate>
 	<ErrorGettingVersionInfo>Erreur en tentant de récupérer les informations de version : {0}</ErrorGettingVersionInfo>
 	<LoadingVersionInfo>Chargement des informations sur la version...</LoadingVersionInfo>
-
+    
 	<!--=========== World generator =========-->
-	<GenerateWorld>Génère un monde</GenerateWorld>
-
-	<!--=========== Mods screen ==========-->	
-	<OpenSteamWorkshop>Ouvrir Steam Workshop</OpenSteamWorkshop>
-	<GetModsFromForum>Avoir des mods par le forum</GetModsFromForum>
-	<OpenModsDataFolder>Ouvrir le dossier des mods</OpenModsDataFolder>
-	<ConfirmDisableCoreMod>Êtes-vous sûr(e) de vouloir désactiver le module principal ? Le jeu ne fonctionnera pas du tout à moins que vous ayez un autre mod remplaçant toutes les fonctionnalités du noyau.\n\nRappel : Les mods peuvent redéfinir des fonctionnalités du Core mod en utilisant les mêmes defName.</ConfirmDisableCoreMod>
-	<ConfirmDeleteMod>Êtes-vous sûr(e) de vouloir supprimer le mod {0}?</ConfirmDeleteMod>
+  	<GenerateWorld>Génèrer un monde</GenerateWorld>
+    
+	<!--=========== Mods config ==========-->	
+  	<OpenSteamWorkshop>Ouvrir Steam Workshop</OpenSteamWorkshop>
+  	<GetModsFromForum>Obtenir des mods depuis le forum</GetModsFromForum>
+  	<OpenModsDataFolder>Ouvrir le dossier des mods</OpenModsDataFolder>
+	<ConfirmDisableCoreMod>Êtes-vous sûr de vouloir désactiver le module principal ? Le jeu ne fonctionnera pas du tout à moins que vous ayez un autre mod remplaçant toutes les fonctionnalités du noyau.\n\nRappel : Les mods peuvent redéfinir des fonctionnalités du noyau en utilisant les mêmes defName.</ConfirmDisableCoreMod>
+	<ConfirmDeleteMod>Êtes-vous sûr de vouloir supprimer le mod {0}?</ConfirmDeleteMod>
 	<Unsubscribe>Désinscrire</Unsubscribe>
-	<ConfirmUnsubscribe>Êtes-vous sûr(e) de vouloir vous désinscrire de {0}?</ConfirmUnsubscribe>
+	<ConfirmUnsubscribe>Êtes-vous sûr de vouloir vous désinscrire de {0}?</ConfirmUnsubscribe>
 	<Author>Auteurs</Author>
 	<WorkshopPage>Page du Workshop</WorkshopPage>
 	<UploadToSteamWorkshop>Envoyer vers le Steam Workshop</UploadToSteamWorkshop>
 	<UpdateOnSteamWorkshop>Mettre à jour le Steam Workshop</UpdateOnSteamWorkshop>
 	<UploadAlreadyInProgress>Envoi en déjà en cours.</UploadAlreadyInProgress>
 	<WorkshopSubmissionFailed>Erreur lors de la soumission au Workshop.\n\nRaison: {0}</WorkshopSubmissionFailed>
-	<WorkshopUploadSucceeded>Envoi réussi {0}.</WorkshopUploadSucceeded>
-    <Downloading>Téléchargement</Downloading>
-    <Source>Source</Source>
-    <ModTargetVersion>Pour la version: {0}</ModTargetVersion>
-    <ModNotMadeForThisVersion>Ce mod n'a pas été fait pour cette version de RimWorld, il ne fonctionnera peut-être pas correctement.</ModNotMadeForThisVersion>
- 
-	<!--=========== Storyteller chooser ==========-->
+	<WorkshopUploadSucceeded>Envoi de {0} réussi.</WorkshopUploadSucceeded>
+	<Downloading>Téléchargement</Downloading>
+	<Source>Source</Source>
+	<ModTargetVersion>Pour la version : {0}</ModTargetVersion>
+	<ModNotMadeForThisVersion>Ce mod n'a pas été fait pour cette version de RimWorld, il ne fonctionnera peut-être pas correctement.</ModNotMadeForThisVersion>
+	<MessageModNeedsWellFormattedTargetVersion>Le mod nécessite une version cible correctement formatée dans About.xml. Comme ceci : &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+	<DragToReorder>Glisser pour réorganiser</DragToReorder>
+    
+	<!--=========== Select scenario =============-->
+  	<ChooseScenario>Choisir scénario</ChooseScenario>
+  	<ScenariosCustom>Personnalisé</ScenariosCustom>
+  	<ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  	<ScenarioEditor>Editeur de scénario</ScenarioEditor>
+  	<Delete>Supprimer</Delete>
+  
+	 <!--============ Scenario editor ===============-->
+	<Seed>Graine</Seed>
+	<Load>Charger</Load>
+  	<EditMode>mode édition</EditMode>
+  	<Summary>Résumé</Summary>
+  	<AddPart>Ajouter partie</AddPart>
+  	<TextFieldsMustBeFilled>Tous les champs de texte doivent être remplis.</TextFieldsMustBeFilled>
+  	<ConfirmSteamWorkshopUpload>Etes vous sûr de vouloir envoyer celà au Steam Workshop ?\n\nVous devez agréer aux conditions de service Steam Workshop. Lisez toutes les conditions ici :\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  	<ConfirmContentAuthor>Evidemment, vous devriez envoyer du contenu créer par vous-même.\n\nAvez-vous créer ce contenu vous-même ?</ConfirmContentAuthor>
+  	<Incompatible>Incompatible</Incompatible>
+	<TooMany>Beaucoup trop (max {0}): </TooMany>
+	<CanBeUpdatedOnWorkshop>Peut être mis à jour sur le Workshop, dès lors que vous en êtes l'auteur.</CanBeUpdatedOnWorkshop>
+	
+	<!--=========== Select storyteller ==========-->
 	<ChooseAIStoryteller>Choisir l'IA du conteur</ChooseAIStoryteller>
-	<HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, le dépôt de ressources ou les attaques d'animaux. Ses choix affecteront votre colonie.</HowStorytellersWork>
+	<HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, le largage de ressources ou les attaques d'animaux. Ses choix affecteront l'histoire votre colonie.</HowStorytellersWork>
 	<MustChooseDifficulty>Veuillez choisir un niveau de difficulté.</MustChooseDifficulty>
 	<Difficulty>Difficulté</Difficulty>
-
-	
+    
 	<!--=========== Landing site select =========-->
 	<SelectLandingSite>Sélectionnez un site d'atterrissage</SelectLandingSite>
-	<SelectRandomSite>Selectionner un site aléatoire</SelectRandomSite>
+	<SelectRandomSite>Selection d'un site aléatoire</SelectRandomSite>
 	<SelectSite>Sélectionner le site</SelectSite>
 	<MustSelectLandingSite>Veuillez sélectionner un site d'atterrissage.</MustSelectLandingSite>
 	<CannotLandBiome>Vous ne pouvez atterrir sur ce biome : {0}</CannotLandBiome>
-	<WorldRenderMode>Mode</WorldRenderMode>
+	<WorldRenderMode>Affichage</WorldRenderMode>
 	<WorldRenderModeFull>Tout afficher</WorldRenderModeFull>
 	<WorldRenderModeTemperature>Température</WorldRenderModeTemperature>
 	<WorldRenderModeElevation>Altitude</WorldRenderModeElevation>
@@ -96,14 +110,14 @@
 	<WorldRenderModeRainfall>Précipitations</WorldRenderModeRainfall>
 	<WorldRenderModeBiomes>Biomes</WorldRenderModeBiomes>
 	<BiomeNotImplemented>biome non implémenté</BiomeNotImplemented>
-	<BaseAlreadyThere>{0} possède déjà une base ici.</BaseAlreadyThere>
+	<BaseAlreadyThere>{0} a déjà une base ici.</BaseAlreadyThere>
 	<Biome>Biome</Biome>
 	<Terrain>Terrain</Terrain>
 	<Elevation>Altitude</Elevation>
 	<Fertility>Fertilité</Fertility>
 	<AvgTemp>Temp. moy</AvgTemp>
-	<AvgWinterTemp>Temp. moy (hiver): {0}</AvgWinterTemp>
-    <AvgSummerTemp>Temp. moy (été): {0}</AvgSummerTemp>
+	<AvgWinterTemp>Temp. moy (hiver) : {0}</AvgWinterTemp>
+	<AvgSummerTemp>Temp. moy (été) : {0}</AvgSummerTemp>
 	<Rainfall>Précipitations</Rainfall>
 	<HasCoast0>Accès à la mer au nord</HasCoast0>
 	<HasCoast1>Accès à la mer à l'est</HasCoast1>
@@ -111,21 +125,20 @@
 	<HasCoast3>Accès à la mer à l'ouest</HasCoast3>
 	<FactionBase>Base de le faction</FactionBase>
 	<StoneTypesHere>Type de pierre</StoneTypesHere>
-
-
+    
 	<!--=========== Character chooser ==========-->
 	<CreateCharacters>Création des personnages</CreateCharacters>
 	<FirstNameDesc>Prénom du personnage.\n\nCeci n'est affiché que dans certains menus.</FirstNameDesc>
-	<ShortIdentifierDesc>Le pseudonyme du personnage.\n\nCeci est toujours affiché. Il peut s'agir du prénom, du nom de famille ou d'un pseudonyme totalement différent.</ShortIdentifierDesc>
+	<ShortIdentifierDesc>Le diminutif du personnage.\n\nCeci est toujours affiché. Il peut s'agir du prénom, du nom de famille ou d'un pseudonyme totalement différent.</ShortIdentifierDesc>
 	<LastNameDesc>Nom de famille du personnage.\n\nCeci n'est affiché que dans certains menus.</LastNameDesc>
-	<Randomize>Aléatoire</Randomize>
+	<Randomize>Randomiser</Randomize>
 	<AgeIndicator>âgé de {0} ans</AgeIndicator>
 	<Backstory>Histoire :</Backstory>
 	<IncapableOf>Incapable de :</IncapableOf>
 	<Traits>Éléments marquants :</Traits>
 	<PermanentMoodEffect>Effets d'humeur permanents</PermanentMoodEffect>
 	<Skills>Compétences :</Skills>
-	<NoneLower>aucune</NoneLower>
+	<NoneLower>aucun</NoneLower>
 	<Adulthood>Âge adulte</Adulthood>
 	<Childhood>Enfance</Childhood>
 	<Male>mâle</Male>
@@ -133,8 +146,7 @@
 	<Pain>Douleur</Pain>
 	<Health>Santé</Health>
 	<Relations>Relations</Relations>
-
-
+    
 	<!--=========== Misc ==========-->
 	<Start>Démarrer</Start>
 	<Advanced>Avancé</Advanced>
@@ -147,22 +159,7 @@
 
 	<EveryoneNeedsValidName>Chaque personnage doit avoir un nom valide.</EveryoneNeedsValidName>
 
-	<GeneratingWorld>Création du monde...</GeneratingWorld>
-	<GeneratingMap>Création de la carte...</GeneratingMap>
-  
-  <!--============ Scenario editor ===============-->
-  <Seed>germe</Seed>
-  <Load>Charger</Load>
-  <EditMode>mode édition</EditMode>
-  <Summary>Résumé</Summary>
-  <AddPart>Ajouter partie</AddPart>
-  <TextFieldsMustBeFilled>Tous les champs de texte doivent être remplis.</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>Etes vous sûr de vouloir envoyer celà au Steam Workshop ?\n\nVous devez agréer aux conditions de service Steam Workshop. Lisez toutes les conditions ici :\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-  <ConfirmContentAuthor>Evidemment, vous devriez envoyer du contenu créer par vous-même.\n\nAvez vous créer ce contenu tout seul?</ConfirmContentAuthor>
-  <Incompatible>Incompatible</Incompatible>
-  <TooMany>Beaucoup trop (max {0}): </TooMany>
-  <CanBeUpdatedOnWorkshop>Peut être mis à jour sur le Workshop, puisque vous en êtes l'auteur.</CanBeUpdatedOnWorkshop>
-  
-  
-    <MessageModNeedsWellFormattedTargetVersion>Mod needs a well-formatted target version in About.xml. Like this: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+	<GeneratingWorld>Génération du monde...</GeneratingWorld>
+	<GeneratingMap>CGénération de la carte...</GeneratingMap>
+
 </LanguageData>
