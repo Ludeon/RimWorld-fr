@@ -6,7 +6,7 @@
 
   <!-- Power -->
   <CommandTogglePowerLabel>Activer l'alimentation électrique.</CommandTogglePowerLabel>
-  <CommandTogglePowerDesc>Active l'alimentation électrique</CommandTogglePowerDesc>
+  <CommandTogglePowerDesc>Active l'alimentation en énergie électrique</CommandTogglePowerDesc>
   
   <CommandDesignateTogglePowerLabel>Activer / Désactiver</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Active / Désactive l'alimentation électrique. Un colon viendra bientôt pour actionner l'interrupteur.</CommandDesignateTogglePowerDesc>
@@ -20,9 +20,9 @@
   
   
   <!-- Drafting --> 
-  <CommandDraftLabel>Enrôler</CommandDraftLabel>
+  <CommandDraftLabel>Mobiliser</CommandDraftLabel>
   <CommandUndraftLabel>Démobiliser</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Active l'enrôlement militaire.\n\nLes personnes enrôlées exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Active la mobilisation militaire.\n\nLes personnes mobilisée exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
   <IsIncapped>{0} est inapte au service.</IsIncapped>
 
   
@@ -39,13 +39,13 @@
   <BuildingAssign>Affecter</BuildingAssign>
   <BuildingUnassign>Retirer</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Affecter aux prisonniers</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>Affecter cette salle utilisables par les prisonniers.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Rend cette salle utilisable par les prisonniers.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Impossible d'affecter les lits en extérieur aux prisonniers.</CommandBedSetForPrisonersFailOutdoors>
   <CommandBedSetAsMedicalLabel>Définir comme médical</CommandBedSetAsMedicalLabel>
   <CommandBedSetAsMedicalDesc>Rend ce lit utilisable pour les besoins médicaux.</CommandBedSetAsMedicalDesc>
   <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOffPrisonerBedWarning> 
-  <AreYouSure>Êtes-vous sûr de vouloir faire ça ?</AreYouSure>
+  <AreYouSure>Êtes-vous sûr(e) de vouloir continuer ?</AreYouSure>
 
   
   
@@ -66,10 +66,10 @@
   <CommandCopyZoneSettingsDesc>Copier les paramètres de cette zone pour les coller sur une autre zone.</CommandCopyZoneSettingsDesc>
 
   <CommandPasteZoneSettingsLabel>Coller des paramètres</CommandPasteZoneSettingsLabel>
-  <CommandPasteZoneSettingsDesc>Écrase les paramètres de cette zone par ceux précédemment copier.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Écrase les paramètres de cette zone par ceux précédemment copiés.</CommandPasteZoneSettingsDesc>
 
   <CommandAllowSow>Autoriser l'ensemencement</CommandAllowSow>
-  <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée</CommandAllowSowDesc>
+  <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée.</CommandAllowSowDesc>
   
   <CommandClearPrioritizedWork>Effacer zone de travail prioritaire</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Efface n'importe quelle zone de travail prioritaire que vous avez assigné. Le personnage reprendra ses activités habituelles.</CommandClearPrioritizedWorkDesc>
@@ -100,7 +100,7 @@
   <CommandToggleDoorForbid>Verrouiller</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent être ouvertes par personne.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Maintenir ouvert</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Si activé, Les colons ne fermeront pas la porte après être passé.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Si activé, les colons ne fermeront pas la porte après leur passage.</CommandToggleDoorHoldOpenDesc>
   
   
   <!-- Temperature control -->
@@ -116,7 +116,7 @@
   <CommandReinstallDesc>Indique que cet objet doit être déplacé pour être installé quelque part ailleurs.</CommandReinstallDesc>
 
   <!-- Trade beacon -->
-  <CommandMakeBeaconStockpileDesc>Créé une zone de stockage autours de ce bâtiment correspondant exactement à la forme du rayon de la balise de commerce orbital.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>Créé une zone de stockage autour de ce bâtiment correspondant exactement à la forme du rayon de la balise de commerce orbital.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Créer une zone de stockage</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
@@ -130,7 +130,7 @@
   
    <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Lâcher les animaux</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Lorsqu'activé, les animaux sont envoyés attaquer des cibles distantes. Sinon, ils restent proche et surveillent leur maître.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Lorsqu'activé, les animaux sont envoyés pour attaquer des cibles distantes. Sinon, ils restent proches et surveillent leur maître.</CommandReleaseAnimalsDesc>
 
   <!-- Squad attack -->
   <CommandSquadAttack>Attaquer</CommandSquadAttack>
@@ -141,8 +141,8 @@
   <CommandHoldFireDesc>Met fin à l'attaque en cours.</CommandHoldFireDesc>
   
   <!-- Select plant to grow -->
-  <CommandSelectPlantToGrowMulti>Selectionner une plante à faire pousser</CommandSelectPlantToGrowMulti>
-  <CommandSelectPlantToGrow>Plante: {0}</CommandSelectPlantToGrow>
-  <CommandSelectPlantToGrowDesc>Determine quelle plante devrait être semée ici.</CommandSelectPlantToGrowDesc>
+  <CommandSelectPlantToGrowMulti>Sélectionner une plante à faire pousser</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrow>Plante : {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>Détermine quelle plante devrait être semée ici.</CommandSelectPlantToGrowDesc>
   
 </LanguageData>
