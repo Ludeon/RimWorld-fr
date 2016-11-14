@@ -9,7 +9,7 @@
     
 	<PatientEmergency.labelShort>Patient</PatientEmergency.labelShort>
 	<PatientEmergency.pawnLabel>Patient</PatientEmergency.pawnLabel>
-	<PatientEmergency.description>Aller vers un lit médical pour être y soigné en cas de problème de santé mettant la vie en jeu.</PatientEmergency.description>
+	<PatientEmergency.description>Aller vers un lit médical pour y être soigné en cas de problème de santé mettant la vie en jeu.</PatientEmergency.description>
  	<PatientEmergency.gerundLabel>Se fait soigner</PatientEmergency.gerundLabel>
  	<PatientEmergency.verb>Devenir un patient</PatientEmergency.verb>
     
@@ -28,19 +28,20 @@
 	<Flicker.labelShort>Contrôle</Flicker.labelShort>
 	<Flicker.pawnLabel>Contrôle</Flicker.pawnLabel>
 	<Flicker.gerundLabel>Contrôle</Flicker.gerundLabel>
-	<Flicker.description>Gèrer les interrupteurs. Par exemple, quand vous choisissez de basculer l'alimentation sur une tourelle, un contrôleur doit appuyer sur l'interrupteur manuellement.</Flicker.description>
+	<Flicker.description>Gérer les interrupteurs. Par exemple, quand vous choisissez de basculer l'alimentation sur une tourelle, un contrôleur doit appuyer sur l'interrupteur manuellement.</Flicker.description>
 	<Flicker.verb>Contrôler</Flicker.verb>
 	
 	<Warden.labelShort>Geôlier</Warden.labelShort>
 	<Warden.pawnLabel>Geôlier</Warden.pawnLabel>
 	<Warden.gerundLabel>Surveillance</Warden.gerundLabel>
-	<Warden.description>Gèrer, nourrir, discuster avec, recruter les prisonniers.</Warden.description>
+	<Warden.description>Gérer, nourrir, discuster avec, recruter les prisonniers.</Warden.description>
+	<Warden.verb>Garder</Warden.verb>
 	
 	<Handling.labelShort>Dressage</Handling.labelShort>
 	<Handling.pawnLabel>Dressage</Handling.pawnLabel>
 	<Handling.gerundLabel>Dressage</Handling.gerundLabel>
-	<Handling.verb>Dresser</Handling.verb>
 	<Handling.description>Apprivoiser les animaux, les entrainer, les nourrir, les abattre et récolter les produits animaliers tels que les oeufs et le lait.</Handling.description>
+	<Handling.verb>Dresser</Handling.verb>
 	
 	<Cooking.labelShort>Cuisine</Cooking.labelShort>
 	<Cooking.pawnLabel>Cuisine</Cooking.pawnLabel>
@@ -57,16 +58,16 @@
 	<Construction.labelShort>Construction</Construction.labelShort>
 	<Construction.pawnLabel>Construction</Construction.pawnLabel>
 	<Construction.gerundLabel>Construction</Construction.gerundLabel>
-	<Construction.description>Construire les éléments que vous avez spécifiés.</Construction.description>
+	<Construction.description>Construire les éléments spécifiés.</Construction.description>
 	<Construction.verb>Construire</Construction.verb>
 	
-    <Repair.labelShort>Maintenance</Repair.labelShort>
+    	<Repair.labelShort>Maintenance</Repair.labelShort>
 	<Repair.pawnLabel>Maintenance</Repair.pawnLabel>
 	<Repair.gerundLabel>Maintenance</Repair.gerundLabel>
 	<Repair.description>Réparer les constructions endomagées ou cassées.</Repair.description>
 	<Repair.verb>Réparer</Repair.verb>
     
-    <Growing.labelShort>Ferme</Growing.labelShort>
+    	<Growing.labelShort>Ferme</Growing.labelShort>
 	<Growing.pawnLabel>Ferme</Growing.pawnLabel>
 	<Growing.gerundLabel>Agriculture</Growing.gerundLabel>
 	<Growing.description>Planter et récolter les champs.</Growing.description>
@@ -87,20 +88,20 @@
 	<Smithing.labelShort>Forge</Smithing.labelShort>
 	<Smithing.pawnLabel>Forge</Smithing.pawnLabel>
 	<Smithing.gerundLabel>Forge</Smithing.gerundLabel>
-	<Smithing.verb>Forgeron</Smithing.verb>
 	<Smithing.description>Créer des armes et des outils à partir de matériaux bruts.</Smithing.description>
+	<Smithing.verb>Forger</Smithing.verb>
 	
 	<Tailoring.labelShort>Couture</Tailoring.labelShort>
 	<Tailoring.pawnLabel>Couture</Tailoring.pawnLabel>
-	<Tailoring.gerundLabel>Couture</Tailoring.gerundLabel>
-	<Tailoring.verb>Confectionner</Tailoring.verb>
-	<Tailoring.description>Confectionnent des vêtements à partir de matériaux bruts.</Tailoring.description>
+	<Tailoring.gerundLabel>Couturier</Tailoring.gerundLabel>
+	<Tailoring.description>Confectionner des vêtements à partir de matériaux bruts.</Tailoring.description>
+	<Tailoring.verb>Coudre</Tailoring.verb>
 	
 	<Art.labelShort>Art</Art.labelShort>
 	<Art.pawnLabel>Art</Art.pawnLabel>
- 	<Art.gerundLabel>Art</Art.gerundLabel>
- 	<Art.description>Confectionner de belles œuvres d'art à partir de matériaux bruts.</Art.description>
-  	<Art.verb>Sculpte</Art.verb>
+ 	<Art.gerundLabel>Artiste</Art.gerundLabel>
+ 	<Art.description>Confectionner des oeuvres d'art à partir de matériaux bruts.</Art.description>
+  	<Art.verb>Sculpter</Art.verb>
 	
 	<Crafting.labelShort>Artisanat</Crafting.labelShort>
 	<Crafting.pawnLabel>Artisanat</Crafting.pawnLabel>
@@ -110,19 +111,19 @@
 
   	<Hauling.labelShort>Transport</Hauling.labelShort>
 	<Hauling.pawnLabel>Transport</Hauling.pawnLabel>
-	<Hauling.gerundLabel>Transport</Hauling.gerundLabel>
+	<Hauling.gerundLabel>Transporteur</Hauling.gerundLabel>
 	<Hauling.description>Porter les choses là où elles doivent être.</Hauling.description>
 	<Hauling.verb>Transporter</Hauling.verb>
 	
 	<Cleaning.labelShort>Nettoyage</Cleaning.labelShort>
 	<Cleaning.pawnLabel>Nettoyage</Cleaning.pawnLabel>
-	<Cleaning.gerundLabel>Nettoyage</Cleaning.gerundLabel>
-	<Cleaning.description>Déneiger et nettoyer les sols dans la base.</Cleaning.description>
+	<Cleaning.gerundLabel>Nettoyeur</Cleaning.gerundLabel>
+	<Cleaning.description>Nettoyer les sols dans la base.</Cleaning.description>
 	<Cleaning.verb>Nettoyer</Cleaning.verb>
 
   	<Research.labelShort>Recherche</Research.labelShort>
 	<Research.pawnLabel>Recherche</Research.pawnLabel>
-	<Research.gerundLabel>Recherche</Research.gerundLabel>
+	<Research.gerundLabel>Chercheur</Research.gerundLabel>
 	<Research.description>Travailler sur les projets de recherche.</Research.description>
 	<Research.verb>Rechercher</Research.verb>
 	
