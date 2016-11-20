@@ -5,13 +5,13 @@
   <DesignatorCancelDesc>Annule l'ordre (Construire, miner, transporter, récolter, etc.).</DesignatorCancelDesc>
 
   <DesignatorCutPlants>Couper les plantes</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>Marque des plantes a couper et détruire. Les plantes seront retirées et toute nourriture ou ressource contenue sera récoltée.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Marque les plantes à couper et à détruire. Les plantes seront retirées et toute nourriture ou ressource contenue sera récoltée.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>Démolir</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Démolir la cible et récupèrer une partie des ressources.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Démolit la cible et récupèrer une partie des ressources.</DesignatorDeconstructDesc>
 
   <DesignatorUninstall>Désinstaller</DesignatorUninstall>
-  <DesignatorUninstallDesc>Désinstaller la cible pour la déplacer, la vendre ou l'installer ailleurs.</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>Désinstalle la cible pour la déplacer, la vendre ou l'installer ailleurs.</DesignatorUninstallDesc>
   
   <DesignatorHarvest>Récolter</DesignatorHarvest>
   <DesignatorHarvestDesc>Marque des plantes à récolter.</DesignatorHarvestDesc>
@@ -20,11 +20,11 @@
   <DesignatorHarvestWoodDesc>Marque des arbres à abattre pour leur bois.</DesignatorHarvestWoodDesc>
   
   <DesignatorHaulThings>Transporter</DesignatorHaulThings>
-  <DesignatorHaulThingsDesc>Marque des rochers et d'autres objets qui doivent être transportés vers les décharges. Inutile pour la nourriture ou les cadavres, qui sont habituellement transportées automatiquement par les créatures.</DesignatorHaulThingsDesc> 
+  <DesignatorHaulThingsDesc>Marque des rochers et d'autres objets qui doivent être transportés vers les décharges. Inutile pour la nourriture ou les cadavres, qui sont habituellement transportés automatiquement par les créatures.</DesignatorHaulThingsDesc> 
   <MustHaulHaulables>Peut seulement désigner les choses transportables mais qui ne sont pas transportées habituellement (comme les rochers).</MustHaulHaulables>
 
   <DesignatorHunt>Chasser</DesignatorHunt>
-  <DesignatorHuntDesc>Marque les animaux a chasser par vos chasseurs.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>Marque les animaux à chasser par vos chasseurs.</DesignatorHuntDesc>
 
   <DesignatorMine>Miner</DesignatorMine>
   <DesignatorMineDesc>Désigne les zones de roche à miner.</DesignatorMineDesc>
@@ -46,7 +46,7 @@
   <DesignatorAreaBuildRoofExpand>Étendre zone de couverture</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Les colons construiront des toits dans cette zone.</DesignatorAreaBuildRoofExpandDesc>
   <DesignatorAreaBuildRoofClear>Retirer zone de couverture</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Supprime la zone où les colons ont construits des toits. Les toits déjà existant ne seront pas retirés, mais les colons n'en reconstruiront plus.</DesignatorAreaBuildRoofClearDesc>
+  <DesignatorAreaBuildRoofClearDesc>Supprime la zone où les colons ont construits des toits. Les toits déjà existants ne seront pas retirés, mais les colons n'en reconstruiront plus.</DesignatorAreaBuildRoofClearDesc>
     
   <DesignatorAreaNoRoofExpand>Étendre zone à ciel ouvert</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Génère une zone dans laquelle les plafonds ne seront pas construits. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
@@ -59,9 +59,9 @@
   <DesignatorAreaSnowClearClearDesc>Supprime une zone de déneigement. Les colons ne déblayeront plus la neige de cette zone.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorExpandAreaAllowed>Étendre zone autorisée</DesignatorExpandAreaAllowed>
-  <DesignatorExpandAreaAllowedDesc>Étend une zone autorisée.\n\nLes zones autorisée sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront, ou vivrons exclusivement dans cette zone.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>Étend une zone autorisée.\n\nLes zones autorisée sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront et vivront exclusivement dans cette zone.</DesignatorExpandAreaAllowedDesc>
   <DesignatorClearAreaAllowed>Supprimer une zone autorisée</DesignatorClearAreaAllowed>
-  <DesignatorClearAreaAllowedDesc>Enlève des cases d'une zone autorisée.\n\nLes zones autorisée sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront, ou vivrons exclusivement dans cette zone.</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>Enlève des cases d'une zone autorisée.\n\nLes zones autorisée sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront et vivront exclusivement dans cette zone.</DesignatorClearAreaAllowedDesc>
   <ManageAreas>Gérer les zones...</ManageAreas>
 
   <DesignatorGrowingZoneDesc>Créer une zone dans laquelle les colons vont tenter de cultiver un certain type de plantes.</DesignatorGrowingZoneDesc>
@@ -96,14 +96,14 @@
   
   
   <!-- Failure messages -->
-  <UnchosenStuff>Matériaux non sélectionné</UnchosenStuff>
+  <UnchosenStuff>Matériau non sélectionné</UnchosenStuff>
   <TooCloseToMapEdge>Trop près du bord de la carte.</TooCloseToMapEdge>
   <OutOfBounds>Hors limites.</OutOfBounds>
   <CannotPlaceInUndiscovered>Impossible de positionner dans une zone inexplorée.</CannotPlaceInUndiscovered>
   <InteractionSpotBlocked>La zone d'interaction bloquée par {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>La zone d'interaction est hors limites.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} bloquera la zone d'interactionde {1}.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
   <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
   <IdenticalThingExists>Une chose identique se trouve déjà ici.</IdenticalThingExists>
