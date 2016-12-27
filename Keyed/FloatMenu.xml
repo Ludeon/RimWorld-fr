@@ -8,7 +8,8 @@
 	<CannotUseNoPath>Action impossible (pas de chemin d'accès)</CannotUseNoPath>
 	<CannotUseReserved>Action impossible (réservé)</CannotUseReserved>
 	<CannotUseFull>Action impossible (manque de combustible)</CannotUseFull>
-
+	<LeaderUnavailable>leader {0} is unavailable</LeaderUnavailable>
+	
 	<FireAt>Tirer sur {0}</FireAt>
 
 	<OutOfRange>hors de portée</OutOfRange>
@@ -25,6 +26,7 @@
 
 	<ForbiddenLower>interdit</ForbiddenLower>
 	<ForbiddenOutsideAllowedAreaLower>en dehors de la zone autorisée</ForbiddenOutsideAllowedAreaLower>
+	<NotInHomeArea>not in home area</NotInHomeArea>
 	<SociallyImproperLower>socialement inadapté</SociallyImproperLower>
 	<PrisonerRoomLower>cellule de détention</PrisonerRoomLower>
 	<BurningLower>brûle</BurningLower>
@@ -33,7 +35,7 @@
 	<MissingMaterials>besoin de matériaux</MissingMaterials>
 	<MissingSkill>aptitudes trop faibles</MissingSkill>
 	<NoEmptyGraveLower>aucune tombe vide configurée pour stocker ceci</NoEmptyGraveLower>
-	<AnimalInteractedTooRecently>interraction avec l'animal trop récente</AnimalInteractedTooRecently>
+	<AnimalInteractedTooRecently>interaction avec l'animal trop récente</AnimalInteractedTooRecently>
 	<NoUsableFood>aucune nourriture utilisable</NoUsableFood>
 	<NoFood>pas de nourriture</NoFood>
 	<AnimalsSkillTooLow>compétence animale trop faible</AnimalsSkillTooLow>
@@ -66,6 +68,7 @@
 	<Reserved>Réservé par quelqu'un d'autre.</Reserved>
 	<ReservedBy>Réservé par {0}.</ReservedBy>
 	<IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
+	<TooHeavy>Too heavy</TooHeavy>
 
 	<Incapable>incapable</Incapable>
 	<IncapableOfCapacity>incapable de {0}</IncapableOfCapacity>
@@ -79,7 +82,24 @@
 	<ForceWear>Forcer à porter {0}</ForceWear>
 	<CannotWear>Ne peut pas porter {0}</CannotWear>
 	<CannotWearBecauseOfMissingBodyParts>parties du corps manquantes</CannotWearBecauseOfMissingBodyParts>
+	
+	<CannotPickUp>Cannot pick up {0}</CannotPickUp>
+	<CannotPickUpAll>Cannot pick up {0} (all)</CannotPickUpAll>
+	<PickUp>Pick up {0}</PickUp>
+	<PickUpAll>Pick up {0} (all)</PickUpAll>
+	<PickUpSome>Pick up {0}...</PickUpSome>
+	<PickUpCount>Pick up {0} x{{0}}</PickUpCount>
 
+	<CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
+	<CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
+	<GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
+	<GiveToPackAnimalAll>Give {0} (all) to pack animal</GiveToPackAnimalAll>
+	<GiveToPackAnimalSome>Give {0} to pack animal...</GiveToPackAnimalSome>
+	<GiveToPackAnimalCount>Take {0} x{{0}}</GiveToPackAnimalCount>
+  
+	<CannotCarryToExit>Cannot carry {0} and leave the area</CannotCarryToExit>
+	<CarryToExit>Carry {0} and leave the area</CarryToExit>
+	
 	<Strip>Déshabiller {0}</Strip>
 	<CannotStrip>Ne peut pas déshabiller {0}</CannotStrip>
 
@@ -96,6 +116,10 @@
 
 	<TradeWith>Commercer avec {0}</TradeWith>
 	<CannotTrade>Impossible de commercer</CannotTrade>
+	
+	<EnterMap>Enter {0}</EnterMap>
+  	<VisitFactionBase>Visit {0}</VisitFactionBase>
+ 	<AttackFactionBase>Attack {0}</AttackFactionBase>
 
 	<!-- Specific thing interactions -->
 	<EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
@@ -120,5 +144,8 @@
 
 	<!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
 	<PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
+	
+	<DropAtEdge>Drop at edge</DropAtEdge>
+	<DropInCenter>Drop in center</DropInCenter>
 
 </LanguageData>
