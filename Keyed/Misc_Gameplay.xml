@@ -10,7 +10,7 @@
 	<MedicalBed>Médical</MedicalBed>
 	<Owner>Propriétaire</Owner>
 	<Owners>Propriétaires</Owners>
-    <AssignedColonist>Affecter à un colon</AssignedColonist>
+        <AssignedColonist>Affecter à un colon</AssignedColonist>
 	<Nobody>Personne</Nobody>
 	<Unowned>Inconnu</Unowned>
 	<DeadTime>Mort {0}</DeadTime>
@@ -21,9 +21,11 @@
 	<NothingLower>rien</NothingLower>
 	<Adapted>Adapté</Adapted>
 	<FreshMissingBodyPart>frais</FreshMissingBodyPart>
+        
 	<UntreatedLower>non-traité</UntreatedLower>
 	<DevelopedImmunityLower>immunité développée</DevelopedImmunityLower>
-	<InjuryRequiresTreatment>requiers un traitement pour guérir</InjuryRequiresTreatment>
+        <NeedsTendingNow>requiers un traitement maintenant</NeedsTendingNow>
+        <InjuryRequiresTreatment>requiers un traitement pour guérir</InjuryRequiresTreatment>
 	<NextTreatmentIn>prochain traitement dans {0}</NextTreatmentIn>
 	<MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
 	<Immunity>Progression du développement de l'immunité</Immunity>
@@ -47,24 +49,66 @@
 	<Fertilized>Fertile</Fertilized>
 	<ProgressStoppedUntilFertilized>Progression stoppée en attendant la fertilisation</ProgressStoppedUntilFertilized>
 	<SkillTooLow>a besoin de {0} niveau {2} (niveau {1} trop faible)</SkillTooLow>
+        <Freezing>Congelé</Freezing>
+        <Overheating>Surchauffé</Overheating>
+        <RuinedByTemperature>Gâté à cause de la température.</RuinedByTemperature>
 	<EggDamagedEmbryo>embryon endommagé</EggDamagedEmbryo>
 	<CorpsePercentMissing>Parties du corps manquantes</CorpsePercentMissing>
 	<HiveReproducesIn>Se reproduit dans</HiveReproducesIn>
 	<BrokenDown>Hors d'usage</BrokenDown>
 	<BondBrackets>(lien)</BondBrackets>
 	<Fuel>Combustible</Fuel>
+  <FuelLevelGizmoLabel>Fuel</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>Régler le niveau de carburant à {0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Régler le niveau de carburant à {0}\nDistance max: {1} carreaux</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>Target fuel level: {0}</ConfiguredTargetFuelLevel>
 	<Enemies>ennemis</Enemies>
     <FertShort>fert.</FertShort>
     <TimePassed>temps passé</TimePassed>
     <CurrentRadius>rayon actuel</CurrentRadius>
     <RadiusExpandsIn>rayon s'étend sur</RadiusExpandsIn>
     <Permanent>permanent</Permanent>
+        <CaravanResting>Repos.</CaravanResting>
+        <CaravanEstimatedTimeToDestination>Durée de trajet estimée: {0}</CaravanEstimatedTimeToDestination>
+        <CaravanImmobilizedByMass>Immobilisée: trop chargée.</CaravanImmobilizedByMass>
+        <CaravanOutOfFood>Pénurie de nourriture.</CaravanOutOfFood>
+        <CaravanDaysOfFood>Jours de nourriture: {0}</CaravanDaysOfFood>
+        <CaravanMemberMentalBreak>Arrêtée car: {0} a une crise de nerfs.</CaravanMemberMentalBreak>
+        <AllCaravanMembersDowned>Arrêtée car: tout le monde est abattu.</AllCaravanMembersDowned>
+        <CaravanTraveling>En mouvement.</CaravanTraveling>
+        <CaravanWaiting>En attente.</CaravanWaiting>
+        <CaravanHoursPerTile>h/carreau</CaravanHoursPerTile>
+        <CaravanBaseMovementTime>Durée de trajet de base</CaravanBaseMovementTime>
+        <CurrentTileMovementTime>Durée de trajet courant</CurrentTileMovementTime>
     <Temperature>Temperature</Temperature>
     <BadTemperature>mauvaise temperature</BadTemperature>
     <IdealFermentingTemperature>Temperature idéale de fermentation</IdealFermentingTemperature>
     <DrugEffectMultiplier>Facteur d'effet de {0}</DrugEffectMultiplier>
+        <CaravanVisiting>Visite {0}.</CaravanVisiting>
+        <CaravanEntering>Entre dans {0}.</CaravanEntering>
+        <CaravanAttacking>Attaque {0}.</CaravanAttacking>
+        <WasWornByCorpse>A été porté(e) par un mort.</WasWornByCorpse>
+        <WornByCorpseChar>D</WornByCorpseChar>
+        <DeterioratingDueToBeingUnroofed>Détérioration (à ciel ouvert).</DeterioratingDueToBeingUnroofed>
+  <Map>Carte</Map>
+  <ForceExitAndRemoveMapCountdown>{0} heures avant le départ</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Vos colons vont automatiquement reformer une caravane et quitter cet endroit après {0} heures.</ForceExitAndRemoveMapCountdownTip>
+        <Room>Salle</Room>
+        <BeautyHere>Beauté ici</BeautyHere>
+        <NoPower>Pas d'énergie</NoPower>
+        <WorkSpeedPenalty>Pénalité de la vitesse de travail</WorkSpeedPenalty>
+  <DisabledCommand>DESACTIVE</DisabledCommand>
+  <ReadyForLaunch>Prêt pour le lancement.</ReadyForLaunch>
+  <NotReadyForLaunch>Pas prêt pour le lancement.</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>pas connecté au port de ravitaillement en carburant</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>pas de carburant</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>chargement en cours</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>Au-delà de la portée maximale</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>Pas assez de carburant</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>{0} sur {1}</FactionBaseTrader>
 
     <!-- Fermentation barrel -->
+
     <ContainsWort>Contient {0} / {1} moût.</ContainsWort>
     <ContainsBeer>Contient {0} / {1} bière.</ContainsBeer>
     <Fermented>Fermenté</Fermented>
@@ -156,6 +200,8 @@
 	<!-- Generated recipes -->
 	<RecipeMake>Fabriquer {0}</RecipeMake>
 	<RecipeMakeJobString>En train de fabriquer {0}.</RecipeMakeJobString><!--ou confectionner ?-->
+        <RecipeAdminister>administrer {0}</RecipeAdminister>
+        <RecipeAdministerJobString>En train d'administrer {0}.</RecipeAdministerJobString>
 	
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>Expire dans : {0}</ThoughtExpiresIn>
@@ -172,6 +218,9 @@
 	<Faction>Faction</Faction>
 	<Equipped>Équipé</Equipped>
 	<EquippedNothing>Rien</EquippedNothing>
+        <Dead>Mort</Dead>
+        <Unconscious>Inconscient</Unconscious>
+        <PainShock>Choqué à cause de la douleur</PainShock>
 	<Incapacitated>Invalide</Incapacitated>
 	<InRestraints>Menotté (ralenti)</InRestraints>
 	<Carrying>Transporte</Carrying>
@@ -240,6 +289,7 @@
 	<NoGrowingPeriod>Jamais</NoGrowingPeriod>
 	<GrowYearRound>À l'année</GrowYearRound>
 	<GrowSeasonHereNow>La saison de culture commence maintenant.</GrowSeasonHereNow>
+        <CannotGrowBadSeasonTemperature>Ne peut pas pousser (température de saison défavorable).</CannotGrowBadSeasonTemperature>
 	<CannotGrowTooCold>Ne peut pas pousser car il fait trop froid.</CannotGrowTooCold>
 	
 	<!-- Zones -->
@@ -260,15 +310,20 @@
 	<Undiscovered>Inexploré</Undiscovered>
 	
 	<!-- Buttons -->
-    <ShowLearningHelperWhenEmptyToggleButton>Masque l'assistant d'apprentissage quand il est vide.\n\nL'assistant est toujours visible s'il y a un concept à apprendre d'activé. Cette fonction le fait disparaître quand aucun concept n'est actif.</ShowLearningHelperWhenEmptyToggleButton>
+        <ShowLearningHelperWhenEmptyToggleButton>Masque l'assistant d'apprentissage quand il est vide.\n\nL'assistant est toujours visible s'il y a un concept à apprendre d'activé. Cette fonction le fait disparaître quand aucun concept n'est actif.</ShowLearningHelperWhenEmptyToggleButton>
 	<ZoneVisibilityToggleButton>Activer/Désactiver la visibilité de la zone.</ZoneVisibilityToggleButton>
-	<ShowBeautyToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
+        <ShowEnvironmentToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowEnvironmentToggleButton>
+        <ShowColonistBarToggleButton>Activer/Désactiver la barre des colons.\n\nAffiche les icônes et le status de tous les colons en haut de l'écran.</ShowColonistBarToggleButton>
+        <AutoHomeAreaToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
+        <CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
+        <ShowAnimalNamesToggleButton>Activer/Désactiver l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
+        <ShowRoofOverlayToggleButton>Activer/Désactiver l'affichage des toits.</ShowRoofOverlayToggleButton>
+        <LockNorthUpToggleButton>Bloquer la rotation de la caméra pour que le pôle nord soit en haut.</LockNorthUpToggleButton>
+        <UsePlanetDayNightSystemToggleButton>Activer/Désactiver l'éclairage jour/nuit.</UsePlanetDayNightSystemToggleButton>
+        <ExpandingIconsToggleButton>Activer/Désactiver l'affichage des icônes étendues à la place des icônes régulières pour les objets distants.</ExpandingIconsToggleButton>
+
+        <ShowBeautyToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
 	<ShowRoomStatsToggleButton>Activer/Désactiver l'affichage des stat de la pièce.\n\nAffiche les caractéristiques de la pièce visée par le curseur.</ShowRoomStatsToggleButton>
-	<ShowColonistBarToggleButton>Activer/Désactiver la barre des colons.\n\nAffiche les icônes et le status de tous les colons en haut de l'écran.</ShowColonistBarToggleButton>
-    <AutoHomeAreaToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
-	<CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
-    <ShowAnimalNamesToggleButton>Active/Désactive l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
-    <ShowRoofOverlayToggleButton>Active/Désactive l'affichage des toits.</ShowRoofOverlayToggleButton>
 
 	<!-- Fire -->
 	<Fire>Incendie</Fire>
@@ -285,6 +340,7 @@
 	<NoStuffsToBuildWith>Vous n'avez pas de matériaux utilisables pour construire ceci.</NoStuffsToBuildWith>	
 	
 	<!-- Building placement restricters -->
+        <WillGetWorkSpeedPenalty>La vitesse de travail de {0} sera pénalisée.</WillGetWorkSpeedPenalty>
 	<MustPlaceUnroofed>Ne peut être placé sous un toit.</MustPlaceUnroofed>
 	<MustPlaceHeadOnShipBeam>Doit être placé avec la tête attachée à la rampe d'assemblage du vaisseau.</MustPlaceHeadOnShipBeam>
 	<MustPlaceNextToHopperAccepter>Doit être placé prés d'un équipement requérant un entonnoir.</MustPlaceNextToHopperAccepter>
@@ -292,6 +348,7 @@
 	<MustPlaceCoolerWithFreeSpaces>Les côtés chaud et froid du réfrigérant doivent être dégagés.</MustPlaceCoolerWithFreeSpaces>
 	<MustPlaceVentWithFreeSpaces>Les deux parties doivent être exposés à l'air pour qu'elle passe à travers.</MustPlaceVentWithFreeSpaces>
 	<MustPlaceAdjacentStandable>Tous les cotés doivent être accessible.</MustPlaceAdjacentStandable>
+        <MustPlaceNearFuelingPort>Doit être placé à côté du port d'alimentation d'un pod launcher.</MustPlaceNearFuelingPort>
 	
 	<!-- Wind Turbine -->
 	<WindTurbine_WindPathIsBlockedBy>Bloquée par</WindTurbine_WindPathIsBlockedBy>
@@ -357,7 +414,7 @@
 	<!-- Hediffs growth modes -->
 	<DiseaseGrowthModeChanged_Growing>La {1} de {0} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
 	<DiseaseGrowthModeChanged_Stable>La {1} de {0} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
-	<DiseaseGrowthModeChanged_Remission>La {1} de {0} est mainteant en rémission.</DiseaseGrowthModeChanged_Remission>
+	<DiseaseGrowthModeChanged_Remission>La {1} de {0} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
     
     <!-- Marriage spot -->
     <MarriageSpotUsable>Utilisable.</MarriageSpotUsable>
@@ -391,5 +448,8 @@
     <MarkLearned>Marquer comme appris</MarkLearned>
     <AlreadyLearned>Déjà appris</AlreadyLearned>
     <Filter>Filtre</Filter>    
+
+        <!-- Compass -->
+        <CompassTip>Montre la direction du nord. Cliquer pour tourner la caméra et que le pôle nord soit en haut.</CompassTip>
 
 </LanguageData>
