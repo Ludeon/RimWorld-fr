@@ -27,6 +27,11 @@
   <CommandToggleDraftDesc>Active la mobilisation militaire.\n\nLes personnes mobilisée exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
   <IsIncapped>{0} est inapte au service.</IsIncapped>
 
+  <CommandAllowFiringLabel>Autoriser le tir</CommandAllowFiringLabel>
+  <CommandAllowFiringDesc>Autoriser le tir.\n\nSi désactivé, ce personnage ne tire pas automatiquement sur des cibles à distance. N'affecte pas le combat en mêlée.</CommandAllowFiringDesc>  
+  
+  <CommandClearPrioritizedWork>Effacer zone de travail prioritaire</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Efface n'importe quelle zone de travail prioritaire que vous avez assigné. Le personnage reprendra ses activités habituelles.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Annuler</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Annuler cette construction.</CommandCancelConstructionDesc>
@@ -48,8 +53,6 @@
   <TurningOnPrisonerBedWarning>Activer le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOnPrisonerBedWarning>
   <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce(Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOffPrisonerBedWarning> 
   <AreYouSure>Êtes-vous sûr(e) de vouloir continuer ?</AreYouSure>
-
-  
   
   <CommandDetonateLabel>Détonateur</CommandDetonateLabel>
   <CommandDetonateDesc>Démarrer le décompte du détonateur.</CommandDetonateDesc>
@@ -72,9 +75,6 @@
 
   <CommandAllowSow>Autoriser l'ensemencement</CommandAllowSow>
   <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée.</CommandAllowSowDesc>
-  
-  <CommandClearPrioritizedWork>Effacer zone de travail prioritaire</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>Efface n'importe quelle zone de travail prioritaire que vous avez assigné. Le personnage reprendra ses activités habituelles.</CommandClearPrioritizedWorkDesc>
 
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Désigner une cible forcée</CommandSetForceAttackTarget>
