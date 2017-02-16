@@ -57,7 +57,10 @@
 
 	<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
 	<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et se voit remplacé par {2}.</LetterLeadersDeath>
-  
+        
+        <LetterLeaderChangedLabel>Nouveau {1}: {0}</LetterLeaderChangedLabel>
+        <LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
+        
    	<MentalBreakLetterLabel>Crise de démence</MentalBreakLetterLabel>
 	<MentalBreakReason>Le déclencheur a été : {0}.</MentalBreakReason>
     
@@ -67,6 +70,8 @@
 	<LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {0} ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
 	<LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
 	<LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradeShip>
+        <LetterRelatedPawnsTradingWithFactionBase>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithFactionBase>
+        <LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
     
 	<RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
 	<RelationshipAppendedLetterTextColonist>NAME a un lien avec un colon. HECAP est le/la  {1} de {0}.</RelationshipAppendedLetterTextColonist>
@@ -106,11 +111,37 @@
 	<LetterNewParty>{0} organise une fête ! Toutes les personnes qui y vont gagneront en joie, en sociabilisation et une hausse durable de bonne humeur.</LetterNewParty>
 
 	<!-- Newly addicted -->
-	<LetterLabelNewlyAddicted>{0} addiction</LetterLabelNewlyAddicted>
+	<LetterLabelNewlyAddicted>addiction de {0}</LetterLabelNewlyAddicted>
 	<LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\nHECAP a désormais besoin de {1}, visible dans HIS onglet Besoins. HECAP consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si HE ne peut pas se procurer de {1}, HE sera en manque.</LetterNewlyAddicted>
   
 	<!-- Drug binge -->
 	<LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
 	<LetterDrugBinge>{0} est en consommation excessive de {1}.</LetterDrugBinge>
-  
+        
+        <!-- Formed caravan -->
+        <LetterLabelFormedCaravan>Caravane prête</LetterLabelFormedCaravan>
+        <LetterFormedCaravan>Votre caravane s'est formée et attend les ordres sur la carte du monde.</LetterFormedCaravan>
+        
+        <!-- Caravan destroyed -->
+        <LetterLabelAllCaravanColonistsDied>Caravane détruite</LetterLabelAllCaravanColonistsDied>
+        <LetterAllCaravanColonistsDied>Tous les membres de votre caravane sont morts.</LetterAllCaravanColonistsDied>
+        
+        <!-- Caravan entered ambush map -->
+        <LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap>
+        <LetterCaravanEnteredAmbushMap>{0} est arrivé sur le lieu de l'embuscade.</LetterCaravanEnteredAmbushMap>
+        
+        <!-- Caravan entered enemy base -->
+        <LetterLabelCaravanEnteredEnemyBase>L'attaque a commencé</LetterLabelCaravanEnteredEnemyBase>
+        <LetterCaravanEnteredEnemyBase>{0} est arrivé à {1} et est prête à commencer l'attaque.</LetterCaravanEnteredEnemyBase>
+        <LetterCaravanEnteredEnemyBaseBecameHostile>{0} est arrivé à {1} et est prête à commencer l'attaque.\n\nA cause de votre comportement agréssif, {2} vous est maintenant hostile.</LetterCaravanEnteredEnemyBaseBecameHostile>
+        
+        <!-- Faction base defeated -->
+        <LetterLabelFactionBaseDefeated>Avant-poste ennemi détruit</LetterLabelFactionBaseDefeated>
+        <LetterFactionBaseDefeated>L'avant-poste ennemi {0} a été détruit.\n\nVous avez {1} heures pour ramasser des objets avant que vos colons ne réforment la caravane.</LetterFactionBaseDefeated>
+        <LetterFactionBaseDefeated_FactionDestroyed>C'était la dernière base de {0}, ce qui signifie que cette faction n'existe plus.</LetterFactionBaseDefeated_FactionDestroyed>
+        
+        <!-- Pawns lost due to map countdown -->
+        <LetterLabelPawnsLostDueToMapCountdown>Abandonné</LetterLabelPawnsLostDueToMapCountdown>
+        <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans le désert:\n\n{0}</LetterPawnsLostDueToMapCountdown>  
+        
 </LanguageData>
