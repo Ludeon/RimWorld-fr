@@ -59,12 +59,21 @@
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
   <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Charger quand même</LoadAnyway>
-
-  <!-- Colony naming-->
-  <NameColonyMessage>On dirait que vous allez rester ici un bon moment. {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NameColonyMessage>
-  <ColonyGainsName>La colonie s'appelle désormais {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Ce nom de colonie n'est pas valide.</ColonyNameIsInvalid>
   
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} suggère que vous donniez un nom à votre faction.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Votre faction s'appelle désormais {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Ce nom de faction n'est pas valide.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>On dirait que vous allez rester ici un bon moment. {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>La colonie s'appelle désormais {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Ce nom de colonie n'est pas valide.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>De plus, on dirait que vous allez rester ici un bon moment. {0} suggère aussi que vous donniez un nom à cette colonie.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Votre faction s'appelle désormais {0}, et cette colonie s'appelle {1}.</PlayerFactionAndBaseGainsName>
+
   <!-- Renaming -->
   <NameIsInvalid>Veuillez saisir un nom valide.</NameIsInvalid>
   <NameIsInUse>Ce nom est déjà utilisé.</NameIsInUse>
@@ -158,8 +167,7 @@
   <Days>jours</Days>
   <MinGrowingSkillToSow>Niveau de fermier minimum pour semer</MinGrowingSkillToSow>
   <FertilityRequirement>Nécessite un sol fertile</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>Sensibilité du sol fertilisé (taux de croissance)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Sensibilité du sol fertilisé (chance pour la plante)</SoilFertilitySensitivityPlantChance>
+  <FertilitySensitivity>Sensibilité à la fertilité du sol</FertilitySensitivity>
   <LightRequirement>Nécessite de la lumière</LightRequirement>
   <Attributes>Attributs</Attributes>
   <LifeSpan>Durée de vie</LifeSpan>
@@ -169,6 +177,7 @@
   <WalkSpeedProperty>Vitesse de marche</WalkSpeedProperty>
   <MinFoodQuality>Qualité min. de la nourriture</MinFoodQuality>
   <Diet>Régime</Diet>
+  <BodySize>Taille du corps</BodySize>
   <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
   <MarketValue>Prix de base</MarketValue>
   <Covers>Protection</Covers>
@@ -184,6 +193,8 @@
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Divers</MiscRecordsCategory>
   <Addictiveness>Addictivité</Addictiveness>
+  <PackAnimal>Bête de somme</PackAnimal>
+  <PackAnimalExplanation>Indique si cet animal peut être utilisé pour transporter des objets dans une caravane sur de longues distances.</PackAnimalExplanation>
  
   <!-- Trade -->
   <PositiveBuysNegativeSells>Chiffre positif pour acheter.\nChiffre négatif pour vendre.</PositiveBuysNegativeSells>
@@ -204,6 +215,17 @@
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
   <SortBy>Trier par</SortBy>
+  <TraderTypePrice>type de marchand</TraderTypePrice>
+  <Selling>vente</Selling>
+  <Buying>achat</Buying>
+  <ItemSellPriceFactor>multiplicateur de prix de vente d'articles</ItemSellPriceFactor>
+  <DifficultyLevel>niveau de difficulté</DifficultyLevel>
+  <PostCurve>courbe de post-traitement globale</PostCurve>
+  <YourNegotiatorBonus>Votre bonus de négociateur</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Bonus de commerce avec une base de faction</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Prix final</FinalPrice>
+  <TradeMassUsageTooltip>La charge actuelle et la capacité.</TradeMassUsageTooltip>
 	
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
