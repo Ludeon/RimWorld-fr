@@ -189,5 +189,42 @@
   <CommandTradeDesc>Commercer avec cette faction.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>Il n'y a aucun négociateur conscient, en état de négocier.</CommandTradeFailNoNegotiator>
   
+  <!-- Take off -->
+  <CommandTakeOff>Decoller</CommandTakeOff>
+  <CommandTakeOffDesc>Monter à bord du vaisseau et quitter la planète.</CommandTakeOffDesc>
+  <CommandTakeOffConfirmation>Etes-vous sûr de vouloir lancer le vaisseau ? \n\nTous les colons dans cette zone quitteront la planète. Les autres colons resteront sur place.</CommandTakeOffConfirmation>
+  
+  <!-- Set target fuel level -->
+  <CommandSetTargetFuelLevel>Régler le niveau de carburant</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevelDesc>Régler le niveau de carburant. Les colons tenteront de remplir le réservoir de carburant jusqu'à ce niveau.</CommandSetTargetFuelLevelDesc>
+  
+  <!-- Cancel load -->
+  <CommandCancelLoad>Annuler chargement</CommandCancelLoad>
+  <CommandCancelLoadDesc>Annuler le chargement avec des personnes ou des objets et éjecter tout ce qui a déjà été chargé.</CommandCancelLoadDesc>
+  
+  <!-- Launch group -->
+  <CommandLaunchGroup>Lancer groupe</CommandLaunchGroup>
+  <CommandLaunchGroupDesc>Commencer le processus de ciblage pour lancer un groupe de capsules de transport. L'étape suivante consiste à choisir une cible. Les capsules voleront et atterriront ensemble.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Certaines capsules de transport de ce groupe de chargement ne sont pas reliées à un port de carburant.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNoFuel>Certains lanceurs de capsule dans ce groupe n'ont pas de carburant.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailUnderRoof>Certains lanceurs de capsule sont sous un toit.</CommandLaunchGroupFailUnderRoof>
+  
+  <!-- Load transporter -->
+  <CommandLoadTransporter>Charger groupe de lancement {0}</CommandLoadTransporter>
+  <CommandLoadTransporterDesc>Définir le ou les transporteurs sélectionnés en tant que groupe de lancement. Ouvre la boîte de dialogue de chargement pour que vous puissiez décider qui et quoi charger à l'intérieur.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>Le capsule de transport n'est pas relié à un port de carburant.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNoFuel>Le lanceur de capsule n'a pas de carburant.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Select previous transporter -->
+  <CommandSelectPreviousTransporter>Sélectionner le précédent dans groupe de lancement</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporterDesc>Sélectionnez la capsule de transport précédente dans ce groupe de lancement.</CommandSelectPreviousTransporterDesc>
+  
+  <!-- Select all transporters -->
+  <CommandSelectAllTransporters>Sélectionner groupe de lancement</CommandSelectAllTransporters>
+  <CommandSelectAllTransportersDesc>Sélectionnez toutes les capsules de transport de ce groupe de lancement.</CommandSelectAllTransportersDesc>
+  
+  <!-- Select next transporter -->
+  <CommandSelectNextTransporter>Sélectionner le suivant dans groupe de lancement</CommandSelectNextTransporter>
+  <CommandSelectNextTransporterDesc>Sélectionnez la capsule de transport suivante dans ce groupe de lancement.</CommandSelectNextTransporterDesc>
 
 </LanguageData>
