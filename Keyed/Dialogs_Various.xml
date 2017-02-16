@@ -41,6 +41,7 @@
   <InitializingGame>Initialisation du jeu</InitializingGame>
   <InitializingMap>Initialisation de la carte</InitializingMap>
   <SpawningAllThings>Apparition de toutes les choses</SpawningAllThings>
+  <SpawningColonists>Apparition des personnages</SpawningColonists>
   
   <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
@@ -227,6 +228,59 @@
   <FinalPrice>Prix final</FinalPrice>
   <TradeMassUsageTooltip>La charge actuelle et la capacité.</TradeMassUsageTooltip>
 	
+  <!-- Form caravan -->
+  <FormCaravan>Former une caravane</FormCaravan>
+  <FormCaravanColonyThingCountTip>Quantité d'articles disponibles pour la caravane.</FormCaravanColonyThingCountTip>
+  <PawnsTab>Personnes et animaux</PawnsTab>
+  <ItemsTab>Articles</ItemsTab>
+  <CaravanConfigTab>Config</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Impossible de trouver un point de sortie valide.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Avertissement: certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Aucun des colons désignés ne peut  accéder aux {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>La caravane est incapable de transporter autant de charge.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>La charge actuelle et la capacité de transport.\n\nLa charge actuelle inclut le poids total des articles dans la caravane ainsi que tous les équipements des colons. \n\nVous ne pourrez pas envoyer la caravane si la charge actuelle dépasse la capacité.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>{0} jours de nourriture</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Direction de sortie </ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
+  <MarketValueTip>Valeur marchande</MarketValueTip>
+  <MassCapacity>Capacité de transport</MassCapacity>
+  <Mass>Poids</Mass>  <!--Poids est-il plus indiqué que masse, même si incorrecte ?-->
+  <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
+  <InventoryMass>Poids total de l'inventaire</InventoryMass>
+  <CaravanFormationProcessStarted>Vos colons vont maintenant prendre les objets désignés et quitteront la zone dès que possible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Reformer la caravane</ReformCaravan>
+  <ColonistsSection>Colons</ColonistsSection>
+  <PrisonersSection>Prisonniers</PrisonersSection>
+  <AnimalsSection>Animaux</AnimalsSection>
+  
+  <!-- Split caravan -->
+  <SplitCaravan>Diviser la caravane</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>Vous devez garder au moins un colon valide dans la caravane actuelle.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Actuelle</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Nouvelle</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>Quantité d'articles disponibles pour la nouvelle caravane.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>La charge actuelle et la capacité.</SplitCaravanMassUsageTooltip>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>Charger {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>Les personnes et objets désignés sont trop lourds pour les capsules de transport.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>Vous ne pouvez pas envoyer des capsules de transport vides.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} ne peut pas atteindre les capsules de transport.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>Il n'y a pas de chemin entre les capsules de transport et  {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>Il n'y a pas de chemin entre les capsules de transport et {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>La charge actuelle et la capacité.\n\nVous ne pourrez pas envoyer les capsules de transport si la charge actuelle dépasse la capacité.</TransportersMassUsageTooltip>
+
   <!-- Comms -->
   <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
   
@@ -280,12 +334,26 @@
   <MoodThresholdColumnDesc>Les colons consommereront cette drogue seulement si leur humeur est en dessous de ce seuil.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Les colons consommereront cette drogue seulement si leur joie est en dessous de ce seuil.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Quand la drogue est ramassée pour sa consommation, une quantité supplémentaire est prise afin d'éviter de se rendre à la réserve à chaque fois.</TakeToInventoryColumnDesc>
-  <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>Pour les addictions\n\nUtilisez cette drogue pour répondre aux besoins de dépendance déjà établis.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Planifié\n\nUtiliser cette drogue selon un calendrier défini, quand des conditions spécifiques sont rencontrées.</DrugUsageTipScheduled>
 
   <!-- Growing -->
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
+  
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Voulez-vous réellement abandonner {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, les personnes suivantes auront les pensées  suivantes: </ConfirmAbandonPawnDialog_IndividualThoughts>
+   
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. {0} est manquant. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
  
