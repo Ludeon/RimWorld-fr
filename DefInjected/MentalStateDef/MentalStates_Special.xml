@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    <WanderConfused.label>Mentalement désorienté</WanderConfused.label>
-    <WanderConfused.beginLetterLabel>désorienté</WanderConfused.beginLetterLabel>
-    <WanderConfused.beginLetter>{0} vient de craquer et erre sans but, complètement désorienté.</WanderConfused.beginLetter>
-    <WanderConfused.recoveryMessage>{0} n'est plus désorienté.</WanderConfused.recoveryMessage>
-    
-    <PanicFlee.label>Fuite en panique</PanicFlee.label>
-    <PanicFlee.beginLetterLabel>fuite</PanicFlee.beginLetterLabel>
-    <PanicFlee.beginLetter>{0} fuit paniqué.</PanicFlee.beginLetter>
-    <PanicFlee.recoveryMessage>{0} ne fuit plus sous le coup de la panique.</PanicFlee.recoveryMessage>
-    
-    <Manhunter.label>Chasse à l'homme</Manhunter.label>
-    <Manhunter.beginLetterLabel>manhunter</Manhunter.beginLetterLabel>
-    <Manhunter.beginLetter>{0} est devenu un chasseur d'homme!</Manhunter.beginLetter>
-    <Manhunter.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</Manhunter.recoveryMessage>
-    
-    
-    <SocialFighting.label>bagarre</SocialFighting.label>
-    <SocialFighting.recoveryMessage>{0} et {1} ne se bagarre plus.</SocialFighting.recoveryMessage>
-   
+
+  
+
+  <WanderConfused.label>Mentalement désorienté</WanderConfused.label>
+  <WanderConfused.beginLetterLabel>désorienté</WanderConfused.beginLetterLabel>
+  <WanderConfused.beginLetter>{0} vient de craquer et erre sans but, complètement désorienté.</WanderConfused.beginLetter>
+  <WanderConfused.recoveryMessage>{0} n'est plus désorienté.</WanderConfused.recoveryMessage>
+  <WanderConfused.baseInspectLine>Mental state: Confused and wandering</WanderConfused.baseInspectLine>
+
+  <PanicFlee.label>Fuite en panique</PanicFlee.label>
+  <PanicFlee.beginLetterLabel>fuite</PanicFlee.beginLetterLabel>
+  <PanicFlee.beginLetter>{0} fuit paniqué.</PanicFlee.beginLetter>
+  <PanicFlee.recoveryMessage>{0} ne fuit plus sous le coup de la panique.</PanicFlee.recoveryMessage>
+  <PanicFlee.baseInspectLine>Mental state: Fleeing in panic</PanicFlee.baseInspectLine>
+
+  <Manhunter.label>Chasse à l'homme</Manhunter.label>
+  <Manhunter.beginLetterLabel>manhunter</Manhunter.beginLetterLabel>
+  <Manhunter.beginLetter>{0} est devenu un chasseur d'homme!</Manhunter.beginLetter>
+  <Manhunter.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</Manhunter.recoveryMessage>
+  <Manhunter.baseInspectLine>Maddened: Manhunter</Manhunter.baseInspectLine>
+
+  <ManhunterPermanent.label>manhunter</ManhunterPermanent.label>
+  <ManhunterPermanent.beginLetterLabel>manhunter</ManhunterPermanent.beginLetterLabel>
+  <ManhunterPermanent.beginLetter>{0} has become a manhunter!</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.recoveryMessage>{0}'s manhunting bloodlust has come to an end.</ManhunterPermanent.recoveryMessage>
+  <ManhunterPermanent.baseInspectLine>Maddened: Manhunter</ManhunterPermanent.baseInspectLine>
+
+  <SocialFighting.label>bagarre</SocialFighting.label>
+  <SocialFighting.baseInspectLine>Mental state: Social fighting</SocialFighting.baseInspectLine>
+
+
 </LanguageData>

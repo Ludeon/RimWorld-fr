@@ -1,43 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<MoveSpeed.label>vitesse de déplacement</MoveSpeed.label>
-	<MoveSpeed.description>Vitesse de déplacement au sol, en case par seconde.</MoveSpeed.description>
-	
-	<MentalBreakThreshold.label>seuil de crise de nerfs</MentalBreakThreshold.label>
-	<MentalBreakThreshold.description>Plus l'humeur d'une personne se trouve en dessous de ce niveau, plus le risque d'une crise de nerfs est imminente.</MentalBreakThreshold.description>
 
-	<PsychicSensitivity.label>sensibilité psychique</PsychicSensitivity.label>
-	<PsychicSensitivity.description>Multiplicateur d'impact des phénomènes psychiques qui affectent cette personne.</PsychicSensitivity.description>
+  <MoveSpeed.label>vitesse de déplacement</MoveSpeed.label>
+  <MoveSpeed.description>Vitesse de déplacement au sol, en case par seconde.</MoveSpeed.description>
+  <MoveSpeed.formatString>{0} c/s</MoveSpeed.formatString>
 
-	<GlobalLearningFactor.label>facteur d'apprentissage global</GlobalLearningFactor.label>
-	<GlobalLearningFactor.description>Efficacité globale de l'apprentissage pour chaque compétence.</GlobalLearningFactor.description>
-    
-	<ToxicSensitivity.label>sensibilité à la toxicité</ToxicSensitivity.label>
-    <ToxicSensitivity.description>Multiplicateur d'impact des accumulations toxiques de ce personnage.</ToxicSensitivity.description>
-	
-	<EatingSpeed.label>Vitesse d'ingestion</EatingSpeed.label>
-	<EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
-	
-	<ComfyTemperatureMin.label>Température minimale de confort</ComfyTemperatureMin.label>
-	<ComfyTemperatureMin.description>En dessous de cette température, la personne sera mécontente. Si la température descend trop, la personne souffrira d'engelure, d'hypothermie, et finira par mourir.</ComfyTemperatureMin.description>
-	
-	<ComfyTemperatureMax.label>Température maximale de confort</ComfyTemperatureMax.label>
-	<ComfyTemperatureMax.description>Au-dessus de cette température, la personne sera mécontente. Si la température augmente trop, la personne souffrira d'hyperthermie, et finira par mourir.</ComfyTemperatureMax.description>
-	
-	<ImmunityGainSpeed.label>Vitesse d'acquisition d'une immunité</ImmunityGainSpeed.label>
-	<ImmunityGainSpeed.description>Vitesse à laquelle ce personnage s'immunise contre une maladie. Si celle-ci est trop lente, il mourra de cette maladie.</ImmunityGainSpeed.description>
-	
-	<CarryingCapacity.label>capacité de transport</CarryingCapacity.label>
-	<CarryingCapacity.description>La quantité de choses que cette créature peut transporter dans sa main, la bouche, ou autre.</CarryingCapacity.description>
-	
-	<MeatAmount.label>quantité de viande</MeatAmount.label>
-	<MeatAmount.description>La quantité de viande que vous pourrez obtenir en dépeçant cette créature. </MeatAmount.description>
-	
-	<LeatherAmount.label>quantité de cuir</LeatherAmount.label>
-	<LeatherAmount.description>La quantité de cuir que vous pourrez obtenir en dépeçant cette créature.</LeatherAmount.description>
-	
-	<MinimumHandlingSkill.label>La capacité de formation animale minimum</MinimumHandlingSkill.label>
-	<MinimumHandlingSkill.description>Cette créature ne peut être apprivoisée, entraînée ou commandée par une personne ayant des compétences en gestion des animaux inférieures à ce seuil.</MinimumHandlingSkill.description>
-	
+  <MentalBreakThreshold.label>seuil de crise de nerfs</MentalBreakThreshold.label>
+  <MentalBreakThreshold.description>Plus l'humeur d'une personne se trouve en dessous de ce niveau, plus le risque d'une crise de nerfs est imminente.</MentalBreakThreshold.description>
+
+  <PsychicSensitivity.label>sensibilité psychique</PsychicSensitivity.label>
+  <PsychicSensitivity.description>Multiplicateur d'impact des phénomènes psychiques qui affectent cette personne.</PsychicSensitivity.description>
+
+  <ToxicSensitivity.label>sensibilité à la toxicité</ToxicSensitivity.label>
+  <ToxicSensitivity.description>Multiplicateur d'impact des accumulations toxiques de ce personnage.</ToxicSensitivity.description>
+
+  <GlobalLearningFactor.label>facteur d'apprentissage global</GlobalLearningFactor.label>
+  <GlobalLearningFactor.description>Efficacité globale de l'apprentissage pour chaque compétence.</GlobalLearningFactor.description>
+
+  <EatingSpeed.label>Vitesse d'ingestion</EatingSpeed.label>
+  <EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
+
+  <ComfyTemperatureMin.label>Température minimale de confort</ComfyTemperatureMin.label>
+  <ComfyTemperatureMin.description>En dessous de cette température, la personne sera mécontente. Si la température descend trop, la personne souffrira d'engelure, d'hypothermie, et finira par mourir.</ComfyTemperatureMin.description>
+
+  <ComfyTemperatureMax.label>Température maximale de confort</ComfyTemperatureMax.label>
+  <ComfyTemperatureMax.description>Au-dessus de cette température, la personne sera mécontente. Si la température augmente trop, la personne souffrira d'hyperthermie, et finira par mourir.</ComfyTemperatureMax.description>
+
+  <ImmunityGainSpeed.label>Vitesse d'acquisition d'une immunité</ImmunityGainSpeed.label>
+  <ImmunityGainSpeed.description>Vitesse à laquelle ce personnage s'immunise contre une maladie. Si celle-ci est trop lente, il mourra de cette maladie.</ImmunityGainSpeed.description>
+
+  <CarryingCapacity.label>capacité de transport</CarryingCapacity.label>
+  <CarryingCapacity.description>La quantité de choses que cette créature peut transporter dans sa main, la bouche, ou autre.</CarryingCapacity.description>
+
+  <MeatAmount.label>quantité de viande</MeatAmount.label>
+  <MeatAmount.description>La quantité de viande que vous pourrez obtenir en dépeçant cette créature. </MeatAmount.description>
+
+  <LeatherAmount.label>quantité de cuir</LeatherAmount.label>
+  <LeatherAmount.description>La quantité de cuir que vous pourrez obtenir en dépeçant cette créature.</LeatherAmount.description>
+
+  <MinimumHandlingSkill.label>La capacité de formation animale minimum</MinimumHandlingSkill.label>
+  <MinimumHandlingSkill.description>Cette créature ne peut être apprivoisée, entraînée ou commandée par une personne ayant des compétences en gestion des animaux inférieures à ce seuil.</MinimumHandlingSkill.description>
+
+
 </LanguageData>
