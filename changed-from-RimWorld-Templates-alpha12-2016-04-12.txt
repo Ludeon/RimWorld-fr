@@ -1,0 +1,522 @@
+List of tags that have changed text in them. Comparing changes from "D:\Games\RimWorld\RimWorld-Templates-alpha12" to "C:\Users\Ukuku\Documents\GitHub\RimWorld-Templates".
+
+DefInjected\DamageDef\Damages_LocalInjury.xml
+    TAG ToxicBite.deathMessage TEXT: 
+        {0} has been poisoned to death. CHANGED TO {0} has been bitten to death.
+
+DefInjected\TaleDef\Tales_DoublePawn.xml
+    TAG Captured.rulePack.rulesStrings.0 TEXT: 
+        image->[capturer_nameFull] capturing [prisoner_nameFull] [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->the capturing of [prisoner_nameShortDef]
+    TAG Captured.rulePack.rulesStrings.1 TEXT: 
+        image->[capturer_nameFull] tying [prisoner_nameFull]'s hands [circumstance_group]. [desc_sentence_group] CHANGED TO image->[capturer_nameFull] capturing [prisoner_nameFull] [circumstance_group]
+    TAG Captured.rulePack.rulesStrings.10 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is looking into [prisoner_nameShortDefinite]'s eyes with a sense of dominance. CHANGED TO circumstance_phrase->while smiling with dominance
+    TAG Captured.rulePack.rulesStrings.11 TEXT: 
+        desc_sentence->[prisoner_nameShortDefinite] is injured and seems to be in pain. CHANGED TO desc_sentence->[capturer_nameShortDef] is looking into [prisoner_nameShortDef]'s eyes with a sense of dominance.
+    TAG Captured.rulePack.rulesStrings.12 TEXT: 
+        desc_sentence->[prisoner_nameShortDefinite] looks resigned to [prisoner_possessive] fate. CHANGED TO desc_sentence->[prisoner_nameShortDef] is injured and seems to be in pain.
+    TAG Captured.rulePack.rulesStrings.13 TEXT: 
+        desc_sentence->[prisoner_nameShortDefinite] is snarling with the fury of defeat. CHANGED TO desc_sentence->[prisoner_nameShortDef] looks resigned to [prisoner_possessive] fate.
+    TAG Captured.rulePack.rulesStrings.14 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is slapping [prisoner_nameShortDefinite] to subdue [prisoner_objective]. CHANGED TO desc_sentence->[prisoner_nameShortDef] is snarling with the fury of defeat.
+    TAG Captured.rulePack.rulesStrings.15 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is twisting [prisoner_nameShortDefinite]'s ear. CHANGED TO desc_sentence->[capturer_nameShortDef] is slapping [prisoner_nameShortDef] to subdue [prisoner_objective].
+    TAG Captured.rulePack.rulesStrings.16 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is holding [prisoner_nameShortDefinite] in a joint lock. CHANGED TO desc_sentence->[capturer_nameShortDef] is twisting [prisoner_nameShortDef]'s ear.
+    TAG Captured.rulePack.rulesStrings.17 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is spitting into [prisoner_nameShortDefinite]'s face. CHANGED TO desc_sentence->[capturer_nameShortDef] is holding [prisoner_nameShortDef] in a joint lock.
+    TAG Captured.rulePack.rulesStrings.18 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is laughing as tears well up in [prisoner_nameShortDefinite]'s eyes. CHANGED TO desc_sentence->[capturer_nameShortDef] is spitting into [prisoner_nameShortDef]'s face.
+    TAG Captured.rulePack.rulesStrings.19 TEXT: 
+        desc_sentence->[capturer_nameShortDefinite] is kicking [prisoner_nameShortDefinite] for no obvious reason. CHANGED TO desc_sentence->[capturer_nameShortDef] is laughing as tears well up in [prisoner_nameShortDef]'s eyes.
+    TAG Captured.rulePack.rulesStrings.2 TEXT: 
+        image->[capturer_nameFull] smacking [prisoner_nameFull] while capturing [prisoner_objective] [circumstance_group]. [desc_sentence_group] CHANGED TO image->[capturer_nameFull] tying [prisoner_nameFull]'s hands [circumstance_group]
+    TAG Captured.rulePack.rulesStrings.3 TEXT: 
+        circumstance_phrase->as [prisoner_pronoun] writhes on the ground CHANGED TO image->[capturer_nameFull] smacking [prisoner_nameFull] while capturing [prisoner_objective] [circumstance_group]
+    TAG Captured.rulePack.rulesStrings.4 TEXT: 
+        circumstance_phrase->as [prisoner_pronoun] twists in pain CHANGED TO circumstance_phrase->as [prisoner_pronoun] writhes on the ground
+    TAG Captured.rulePack.rulesStrings.5 TEXT: 
+        circumstance_phrase->with professional efficiency CHANGED TO circumstance_phrase->as [prisoner_pronoun] twists in pain
+    TAG Captured.rulePack.rulesStrings.6 TEXT: 
+        circumstance_phrase->roughly and amateurishly CHANGED TO circumstance_phrase->with professional efficiency
+    TAG Captured.rulePack.rulesStrings.7 TEXT: 
+        circumstance_phrase->with obviously excessive force CHANGED TO circumstance_phrase->roughly and amateurishly
+    TAG Captured.rulePack.rulesStrings.8 TEXT: 
+        circumstance_phrase->with obvious pleasure CHANGED TO circumstance_phrase->with obviously excessive force
+    TAG Captured.rulePack.rulesStrings.9 TEXT: 
+        circumstance_phrase->while smiling with dominance CHANGED TO circumstance_phrase->with obvious pleasure
+    TAG DidSurgery.rulePack.rulesStrings.0 TEXT: 
+        image->[surgeon_nameFull] putting [patient_nameFull] to sleep with anesthetic [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[patient_nameShortDef]'s surgery
+    TAG DidSurgery.rulePack.rulesStrings.1 TEXT: 
+        image->[surgeon_nameFull] elbow-deep in [patient_nameFull] during surgery [circumstance_group]. [desc_sentence_group] CHANGED TO image->[surgeon_nameFull] putting [patient_nameFull] to sleep with anesthetic [circumstance_group]
+    TAG DidSurgery.rulePack.rulesStrings.2 TEXT: 
+        image->[surgeon_nameFull] slicing into [patient_nameFull] during surgery [circumstance_group]. [desc_sentence_group] CHANGED TO image->[surgeon_nameFull] elbow-deep in [patient_nameFull] during surgery [circumstance_group]
+    TAG DidSurgery.rulePack.rulesStrings.3 TEXT: 
+        desc_sentence->[surgeon_nameShortDefinite] is sweating profusely. CHANGED TO image->[surgeon_nameFull] slicing into [patient_nameFull] during surgery [circumstance_group]
+    TAG DidSurgery.rulePack.rulesStrings.4 TEXT: 
+        desc_sentence->[surgeon_nameShortDefinite] looks incredibly focused on the task. CHANGED TO circumstance_phrase->as [patient_pronoun] trembles with fear
+    TAG DidSurgery.rulePack.rulesStrings.5 TEXT: 
+        desc_sentence->[surgeon_nameShortDefinite] has blood smeared on [surgeon_possessive] face. CHANGED TO circumstance_phrase->as blood pools at [surgeon_nameShortDef]'s feet
+    TAG DidSurgery.rulePack.rulesStrings.6 TEXT: 
+        desc_sentence->[patient_nameShortDefinite] is shaking and writhing. CHANGED TO circumstance_phrase->while surrounded by scary-looking surgical tools
+    TAG Hunted.rulePack.rulesStrings.0 TEXT: 
+        image->[prey_nameFull] being hunted by [hunter_nameFull] [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[hunter_nameShortDef]'s successful hunt
+    TAG Hunted.rulePack.rulesStrings.1 TEXT: 
+        image->[hunter_nameFull] stalking [prey_nameFull] from afar [circumstance_group]. [desc_sentence_group] CHANGED TO image->[prey_nameFull] being hunted by [hunter_nameFull] [circumstance_group]
+    TAG Hunted.rulePack.rulesStrings.2 TEXT: 
+        image->[hunter_nameFull] hunting [prey_nameFull] [circumstance_group]. [desc_sentence_group] CHANGED TO image->[hunter_nameFull] stalking [prey_nameFull] from afar [circumstance_group]
+    TAG Hunted.rulePack.rulesStrings.3 TEXT: 
+        desc_sentence->[prey_nameShortDefinite] seems totally oblivious. CHANGED TO image->[hunter_nameFull] hunting [prey_nameFull] [circumstance_group]
+    TAG Hunted.rulePack.rulesStrings.4 TEXT: 
+        desc_sentence->[hunter_nameShortDefinite] is gripping [hunter_possessive] weapon tightly. CHANGED TO circumstance_phrase->as [prey_nameShortDef] relaxes
+    TAG Hunted.rulePack.rulesStrings.5 TEXT: 
+        desc_sentence->[prey_nameShortDefinite] is looking around as though [prey_pronoun] senses that something is wrong. CHANGED TO circumstance_phrase->as [prey_nameShortDef] travels
+    TAG Recruited.rulePack.rulesStrings.0 TEXT: 
+        image->[recruiter_nameFull] recruiting [joiner_nameFull] [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->the recruitment of [joiner_nameShortDef]
+    TAG Recruited.rulePack.rulesStrings.1 TEXT: 
+        image->[recruiter_nameFull] welcoming [joiner_nameFull] as [joiner_pronoun] becomes a colonist [circumstance_group]. [desc_sentence_group] CHANGED TO image->[recruiter_nameFull] recruiting [joiner_nameFull] [circumstance_group]
+    TAG Recruited.rulePack.rulesStrings.2 TEXT: 
+        image->[recruiter_nameFull] speaking convincingly to [joiner_nameFull] [circumstance_group]. [desc_sentence_group] CHANGED TO image->[recruiter_nameFull] welcoming [joiner_nameFull] as [joiner_pronoun] becomes a colonist [circumstance_group]
+    TAG Recruited.rulePack.rulesStrings.3 TEXT: 
+        desc_sentence->[joiner_nameShortDefinite] is nodding in understanding. CHANGED TO image->[recruiter_nameFull] speaking convincingly to [joiner_nameFull] [circumstance_group]
+    TAG Recruited.rulePack.rulesStrings.4 TEXT: 
+        desc_sentence->[joiner_nameShortDefinite] is smiling and making eye contact. CHANGED TO circumstance_phrase->with obvious goodwill
+    TAG Recruited.rulePack.rulesStrings.5 TEXT: 
+        desc_sentence->[joiner_nameShortDefinite] looks relieved. CHANGED TO circumstance_phrase->with a hearty handshake
+    TAG Recruited.rulePack.rulesStrings.6 TEXT: 
+        desc_sentence->[joiner_nameShortDefinite] looks hopeful. CHANGED TO circumstance_phrase->with smiles all around
+
+DefInjected\TaleDef\Tales_SinglePawn.xml
+    TAG Drunk.rulePack.rulesStrings.0 TEXT: 
+        image->[pawn_nameFull] staggering around drunk [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[pawn_nameShortDef]'s extreme drunkenness
+    TAG Drunk.rulePack.rulesStrings.1 TEXT: 
+        image->[pawn_nameFull] tilting [pawn_possessive] head back and guzzling liquor [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] staggering around drunk [circumstance_group]
+    TAG Drunk.rulePack.rulesStrings.10 TEXT: 
+        circumstance_phrase->while looking pathetic CHANGED TO circumstance_phrase->while sobbing
+    TAG Drunk.rulePack.rulesStrings.11 TEXT: 
+        circumstance_phrase->while glaring angrily at people around [pawn_objective] CHANGED TO circumstance_phrase->while looking pathetic
+    TAG Drunk.rulePack.rulesStrings.12 TEXT: 
+        circumstance_phrase->while leering at someone nearby CHANGED TO circumstance_phrase->while glaring angrily at people around [pawn_objective]
+    TAG Drunk.rulePack.rulesStrings.13 TEXT: 
+        circumstance_phrase->while attempting to disrobe CHANGED TO circumstance_phrase->while leering at someone nearby
+    TAG Drunk.rulePack.rulesStrings.14 TEXT: 
+        circumstance_phrase->with a finger in [pawn_possessive] mouth CHANGED TO circumstance_phrase->while attempting to disrobe
+    TAG Drunk.rulePack.rulesStrings.15 TEXT: 
+        circumstance_phrase->while holding back vomit CHANGED TO circumstance_phrase->with a finger in [pawn_possessive] mouth
+    TAG Drunk.rulePack.rulesStrings.16 TEXT: 
+        circumstance_phrase->without a care in the world CHANGED TO circumstance_phrase->while holding back vomit
+    TAG Drunk.rulePack.rulesStrings.17 TEXT: 
+        circumstance_phrase->with a lustful glint in [pawn_possessive] eye CHANGED TO circumstance_phrase->without a care in the world
+    TAG Drunk.rulePack.rulesStrings.18 TEXT: 
+        circumstance_phrase->while reviewing the ghosts of [pawn_possessive] past CHANGED TO circumstance_phrase->with a lustful glint in [pawn_possessive] eye
+    TAG Drunk.rulePack.rulesStrings.19 TEXT: 
+        desc_sentence->[pawn_pronoun] seems totally unaware of what is around [pawn_objective]. CHANGED TO circumstance_phrase->while reviewing the ghosts of [pawn_possessive] past
+    TAG Drunk.rulePack.rulesStrings.2 TEXT: 
+        image->[pawn_nameFull] greedily collecting bottles of liquor [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] tilting [pawn_possessive] head back and guzzling liquor [circumstance_group]
+    TAG Drunk.rulePack.rulesStrings.20 TEXT: 
+        desc_sentence->[pawn_possessive] face itself seems to be swelling. CHANGED TO desc_sentence->[pawn_pronoun] seems totally unaware of what is around [pawn_objective].
+    TAG Drunk.rulePack.rulesStrings.21 TEXT: 
+        desc_sentence->[pawn_pronoun] is nearly unconscious, [pawn_possessive] tongue lolling out, drool dripping. CHANGED TO desc_sentence->[pawn_possessive] face itself seems to be swelling.
+    TAG Drunk.rulePack.rulesStrings.22 TEXT: 
+        desc_sentence->[pawn_pronoun] looks happy and sad at the same time. CHANGED TO desc_sentence->[pawn_pronoun] is nearly unconscious, [pawn_possessive] tongue lolling out, drool dripping.
+    TAG Drunk.rulePack.rulesStrings.23 TEXT: 
+        desc_sentence->[pawn_pronoun] has stains down [pawn_possessive] front. CHANGED TO desc_sentence->[pawn_pronoun] looks happy and sad at the same time.
+    TAG Drunk.rulePack.rulesStrings.24 TEXT: 
+        desc_sentence->There is a trail of discarded beverage containers behind [pawn_objective]. CHANGED TO desc_sentence->[pawn_pronoun] has stains down [pawn_possessive] front.
+    TAG Drunk.rulePack.rulesStrings.25 TEXT: 
+        desc_sentence->There is a white substance on [pawn_possessive] pants. CHANGED TO desc_sentence->There is a trail of discarded beverage containers behind [pawn_objective].
+    TAG Drunk.rulePack.rulesStrings.26 TEXT: 
+        desc_sentence->[pawn_pronoun] seems to have lost a shoe. CHANGED TO desc_sentence->There is a white substance on [pawn_possessive] pants.
+    TAG Drunk.rulePack.rulesStrings.27 TEXT: 
+        desc_sentence->[pawn_possessive] hair is totally mussed up. CHANGED TO desc_sentence->[pawn_pronoun] seems to have lost a shoe.
+    TAG Drunk.rulePack.rulesStrings.3 TEXT: 
+        image->[pawn_nameFull] drinking heavily [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] greedily collecting bottles of liquor [circumstance_group]
+    TAG Drunk.rulePack.rulesStrings.4 TEXT: 
+        circumstance_phrase->oblivious to [pawn_possessive] surroundings CHANGED TO image->[pawn_nameFull] drinking heavily [circumstance_group]
+    TAG Drunk.rulePack.rulesStrings.5 TEXT: 
+        circumstance_phrase->in a brooding stupor CHANGED TO circumstance_phrase->oblivious to [pawn_possessive] surroundings
+    TAG Drunk.rulePack.rulesStrings.6 TEXT: 
+        circumstance_phrase->while questioning [pawn_possessive] own existence CHANGED TO circumstance_phrase->in a brooding stupor
+    TAG Drunk.rulePack.rulesStrings.7 TEXT: 
+        circumstance_phrase->with tears in [pawn_possessive] eyes CHANGED TO circumstance_phrase->while questioning [pawn_possessive] own existence
+    TAG Drunk.rulePack.rulesStrings.8 TEXT: 
+        circumstance_phrase->while chuckling madly CHANGED TO circumstance_phrase->with tears in [pawn_possessive] eyes
+    TAG Drunk.rulePack.rulesStrings.9 TEXT: 
+        circumstance_phrase->while sobbing CHANGED TO circumstance_phrase->while chuckling madly
+    TAG LandedInPod.rulePack.rulesStrings.0 TEXT: 
+        image->[pawn_nameFull] landing in a drop pod [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[pawn_nameShortDef]'s landing in a drop pod
+    TAG LandedInPod.rulePack.rulesStrings.1 TEXT: 
+        image->[pawn_nameFull] touching down in a drop pod [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] landing in a drop pod [circumstance_group]
+    TAG LandedInPod.rulePack.rulesStrings.10 TEXT: 
+        desc_sentence->[pawn_pronoun] has [pawn_possessive] eyes closed and looks afraid. CHANGED TO desc_sentence->[pawn_pronoun] is concentrating intently on the controls.
+    TAG LandedInPod.rulePack.rulesStrings.11 TEXT: 
+        desc_sentence->[pawn_pronoun] is unconscious, [pawn_possessive] tongue lolling out, drool dripping. CHANGED TO desc_sentence->[pawn_pronoun] has [pawn_possessive] eyes closed and looks afraid.
+    TAG LandedInPod.rulePack.rulesStrings.12 TEXT: 
+        desc_sentence->[pawn_pronoun] is smiling with grim joy. CHANGED TO desc_sentence->[pawn_pronoun] is unconscious, [pawn_possessive] tongue lolling out, drool dripping.
+    TAG LandedInPod.rulePack.rulesStrings.13 TEXT: 
+        desc_sentence->[pawn_pronoun] seems to have no idea what [pawn_pronoun] is doing. CHANGED TO desc_sentence->[pawn_pronoun] is smiling with grim joy.
+    TAG LandedInPod.rulePack.rulesStrings.14 TEXT: 
+        desc_sentence->[pawn_pronoun] is strapped in with [pawn_possessive] eyes closed, totally helpless. CHANGED TO desc_sentence->[pawn_pronoun] seems to have no idea what [pawn_pronoun] is doing.
+    TAG LandedInPod.rulePack.rulesStrings.15 TEXT: 
+        desc_sentence->There is a flame trail licking off the back of the pod. CHANGED TO desc_sentence->[pawn_pronoun] is strapped in with [pawn_possessive] eyes closed, totally helpless.
+    TAG LandedInPod.rulePack.rulesStrings.16 TEXT: 
+        desc_sentence->A nearby [animal] is looking up, startled. CHANGED TO desc_sentence->There is a flame trail licking off the back of the pod.
+    TAG LandedInPod.rulePack.rulesStrings.17 TEXT: 
+        desc_sentence->A [animal] is fleeing the impact in fear. CHANGED TO desc_sentence->A nearby [animal] is looking up, startled.
+    TAG LandedInPod.rulePack.rulesStrings.18 TEXT: 
+        desc_sentence->There is a [terrainfeature] in the background. CHANGED TO desc_sentence->A [animal] is fleeing the impact in fear.
+    TAG LandedInPod.rulePack.rulesStrings.19 TEXT: 
+        desc_sentence->A [outlander] watches silently from afar. CHANGED TO desc_sentence->There is a [terrainfeature] in the background.
+    TAG LandedInPod.rulePack.rulesStrings.2 TEXT: 
+        image->[pawn_nameFull] striking earth in a drop pod [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] touching down in a drop pod [circumstance_group]
+    TAG LandedInPod.rulePack.rulesStrings.3 TEXT: 
+        image->[pawn_nameFull] riding in a drop pod [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] striking earth in a drop pod [circumstance_group]
+    TAG LandedInPod.rulePack.rulesStrings.4 TEXT: 
+        circumstance_phrase->in front of a [terrainfeature] CHANGED TO image->[pawn_nameFull] riding in a drop pod [circumstance_group]
+    TAG LandedInPod.rulePack.rulesStrings.5 TEXT: 
+        circumstance_phrase->with incredible force CHANGED TO circumstance_phrase->in front of a [terrainfeature]
+    TAG LandedInPod.rulePack.rulesStrings.6 TEXT: 
+        circumstance_phrase->in a plume of dust and rocks CHANGED TO circumstance_phrase->with incredible force
+    TAG LandedInPod.rulePack.rulesStrings.7 TEXT: 
+        circumstance_phrase->with retro-rockets firing dramatically CHANGED TO circumstance_phrase->in a plume of dust and rocks
+    TAG LandedInPod.rulePack.rulesStrings.8 TEXT: 
+        circumstance_phrase->in a precision landing CHANGED TO circumstance_phrase->with retro-rockets firing dramatically
+    TAG LandedInPod.rulePack.rulesStrings.9 TEXT: 
+        desc_sentence->[pawn_pronoun] is concentrating intently on the controls. CHANGED TO circumstance_phrase->in a precision landing
+    TAG Vomited.rulePack.rulesStrings.0 TEXT: 
+        image->[pawn_nameFull] spewing vomit onto the ground [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[pawn_nameShortDef]'s vomiting
+    TAG Vomited.rulePack.rulesStrings.1 TEXT: 
+        image->[pawn_nameFull] looking disgusted while covered with dried vomit [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] spewing vomit onto the ground [circumstance_group]
+    TAG Vomited.rulePack.rulesStrings.10 TEXT: 
+        desc_sentence->[pawn_pronoun] is convulsing violently. CHANGED TO desc_sentence->[pawn_pronoun] is nearly unconscious, [pawn_possessive] tongue lolling out, drool dripping.
+    TAG Vomited.rulePack.rulesStrings.11 TEXT: 
+        desc_sentence->[pawn_pronoun] looks ashamed. CHANGED TO desc_sentence->[pawn_pronoun] is convulsing violently.
+    TAG Vomited.rulePack.rulesStrings.12 TEXT: 
+        desc_sentence->[pawn_pronoun] seems to be trying to laugh, despite the circumstances. CHANGED TO desc_sentence->[pawn_pronoun] looks ashamed.
+    TAG Vomited.rulePack.rulesStrings.13 TEXT: 
+        desc_sentence->[pawn_pronoun] looks almost deflated, as though totally emptied by the intense vomiting. CHANGED TO desc_sentence->[pawn_pronoun] seems to be trying to laugh, despite the circumstances.
+    TAG Vomited.rulePack.rulesStrings.14 TEXT: 
+        desc_sentence->[pawn_pronoun] is surrounded by an artistically rendered halo of filth. CHANGED TO desc_sentence->[pawn_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.
+    TAG Vomited.rulePack.rulesStrings.15 TEXT: 
+        desc_sentence->A [animal] is eating from the trail of vomit in the background. CHANGED TO desc_sentence->[pawn_pronoun] is surrounded by an artistically rendered halo of filth.
+    TAG Vomited.rulePack.rulesStrings.2 TEXT: 
+        image->[pawn_nameFull] doubled over and retching onto the floor [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] looking disgusted while covered with dried vomit [circumstance_group]
+    TAG Vomited.rulePack.rulesStrings.3 TEXT: 
+        image->[pawn_nameFull] on [pawn_possessive] knees, vomiting on the floor [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] doubled over and retching onto the floor [circumstance_group]
+    TAG Vomited.rulePack.rulesStrings.4 TEXT: 
+        circumstance_phrase->while looking pained CHANGED TO image->[pawn_nameFull] on [pawn_possessive] knees, vomiting on the floor [circumstance_group]
+    TAG Vomited.rulePack.rulesStrings.5 TEXT: 
+        circumstance_phrase->with great shame CHANGED TO circumstance_phrase->while looking pained
+    TAG Vomited.rulePack.rulesStrings.6 TEXT: 
+        circumstance_phrase->as others look on CHANGED TO circumstance_phrase->with great shame
+    TAG Vomited.rulePack.rulesStrings.7 TEXT: 
+        desc_sentence->[pawn_pronoun] seems totally unaware of what is around [pawn_objective]. CHANGED TO circumstance_phrase->as others look on
+    TAG Vomited.rulePack.rulesStrings.8 TEXT: 
+        desc_sentence->[pawn_possessive] face itself seems to be swelling. CHANGED TO desc_sentence->[pawn_pronoun] seems totally unaware of what is around [pawn_objective].
+    TAG Vomited.rulePack.rulesStrings.9 TEXT: 
+        desc_sentence->[pawn_pronoun] is nearly unconscious, [pawn_possessive] tongue lolling out, drool dripping. CHANGED TO desc_sentence->[pawn_possessive] face itself seems to be swelling.
+    TAG WasOnFire.rulePack.rulesStrings.0 TEXT: 
+        image->[pawn_nameFull] frantically beating out a fire attached to [pawn_possessive] body [circumstance_group]. [desc_sentence_group] CHANGED TO tale_noun->[pawn_nameShortDef] catching fire
+    TAG WasOnFire.rulePack.rulesStrings.1 TEXT: 
+        image->[pawn_nameFull] enveloped by flame [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] frantically beating out a fire attached to [pawn_possessive] body [circumstance_group]
+    TAG WasOnFire.rulePack.rulesStrings.2 TEXT: 
+        image->[pawn_nameFull] kneeling, hands over head, trying to extinguish flames on [pawn_possessive] body [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] enveloped by flame [circumstance_group]
+    TAG WasOnFire.rulePack.rulesStrings.3 TEXT: 
+        image->[pawn_nameFull] rolling on the floor while burning [circumstance_group]. [desc_sentence_group] CHANGED TO image->[pawn_nameFull] kneeling, hands over head, trying to extinguish flames on [pawn_possessive] body [circumstance_group]
+    TAG WasOnFire.rulePack.rulesStrings.4 TEXT: 
+        circumstance_phrase->while attempting to disrobe CHANGED TO image->[pawn_nameFull] rolling on the floor while burning [circumstance_group]
+
+DefInjected\ThingDef\Buildings_Furniture.xml
+    TAG RoyalBed.description TEXT: 
+        A luxurious bed fit for the highborn. CHANGED TO A luxurious gold-inlaid bed fit for the highborn. Very comfy and beautiful. Fits two.
+
+DefInjected\ThingDef\Buildings_Misc.xml
+    TAG CommsConsole.description TEXT: 
+        Communicate with nearby ships here for negotiation and trade. CHANGED TO Allows radio contact with remote traders as well as other factions for trade and diplomacy.
+    TAG Grave.description TEXT: 
+        Place the dead in graves to give them a decent final resting place. CHANGED TO Place the dead in graves to give them a decent final resting place. Colonists will visit full graves to gain meditative joy.
+    TAG MultiAnalyzer.description TEXT: 
+        Increases research speed. Needs to be placed near research bench. One research bench can be linked to only one multi-analyzer. CHANGED TO Increases research speed. Needs to be placed near hi-tech research bench. One research bench can be linked to only one multi-analyzer.
+
+DefInjected\ThingDef\Buildings_Production.xml
+    TAG HydroponicsBasin.description TEXT: 
+        For growing food. Hydroponics basins grow a few plants quickly. The basin requires power to work, and plants will die if power is cut. CHANGED TO Grows plants quickly in an artificial nutrient bath. Requires power to work; plants will die if power is cut.
+    TAG TableMachining.description TEXT: 
+        A table and tools for assembling and disassembling machine components like mechanoids bodies and ammunition. CHANGED TO A work station for assembling and disassembling machinery such as guns or mechanoid corpses.
+
+DefInjected\ThingDef\Buildings_Security.xml
+    TAG TurretGun.description TEXT: 
+        A weak improvised turret that automatically fires at nearby enemies. Explodes when damaged. CHANGED TO An improvised turret that automatically fires at nearby enemies. Explodes when damaged. Its hacked-together AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.
+
+DefInjected\ThingDef\Buildings_Temperature.xml
+    TAG Campfire.description TEXT: 
+        Cooks meals and produces heat. Burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. CHANGED TO Cooks meals and produces heat. Burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable.
+
+DefInjected\ThingDef\Items_Resource_Manufactured.xml
+    TAG HerbalMedicine.description TEXT: 
+        A pack of herbal concoctions typically extracted from the xerigium plant. Less potent than industrial pharmaceuticals. CHANGED TO A pack of herbal concoctions typically extracted from the healroot plant. Less potent than industrial pharmaceuticals, but much better than nothing.
+
+DefInjected\ThingDef\Items_Resource_Stuff.xml
+    TAG AlpacaWool.stuffProps.stuffAdjective TEXT: 
+        alpaca woolen CHANGED TO alpaca wool
+    TAG MuffaloWool.stuffProps.stuffAdjective TEXT: 
+        muffalo woolen CHANGED TO muffalo wool
+
+DefInjected\ThingDef\Races_Animal_Arid.xml
+    TAG Dromedary_Leather.stuffProps.stuffAdjective TEXT: 
+        dromedary leathery CHANGED TO dromedary leather
+    TAG Elephant_Leather.label TEXT: 
+        elephant leather CHANGED TO elephant skin
+    TAG Elephant_Leather.stuffProps.stuffAdjective TEXT: 
+        elephant leathery CHANGED TO elephant skin
+    TAG Iguana_Leather.label TEXT: 
+        iguana leather CHANGED TO iguana skin
+    TAG Iguana_Leather.stuffProps.stuffAdjective TEXT: 
+        iguana leathery CHANGED TO iguana skin
+    TAG Muffalo_Leather.stuffProps.stuffAdjective TEXT: 
+        muffalo leathery CHANGED TO muffalo leather
+    TAG Rhinoceros_Leather.label TEXT: 
+        rhinoceros leather CHANGED TO rhinohide
+    TAG Rhinoceros_Leather.stuffProps.stuffAdjective TEXT: 
+        rhinoceros leathery CHANGED TO rhinohide
+
+DefInjected\ThingDef\Races_Animal_Farm.xml
+    TAG Alpaca_Leather.label TEXT: 
+        alpaca leather CHANGED TO alpacahide
+    TAG Alpaca_Leather.stuffProps.stuffAdjective TEXT: 
+        alpaca leathery CHANGED TO alpacahide
+    TAG Cow_Leather.label TEXT: 
+        cow leather CHANGED TO cowskin
+    TAG Cow_Leather.stuffProps.stuffAdjective TEXT: 
+        cow leathery CHANGED TO cowskin
+    TAG Cow_Meat.label TEXT: 
+        cow meat CHANGED TO beef
+    TAG Pig_Leather.label TEXT: 
+        pig leather CHANGED TO pigskin
+    TAG Pig_Leather.stuffProps.stuffAdjective TEXT: 
+        pig leathery CHANGED TO pigskin
+    TAG Pig_Meat.label TEXT: 
+        pig meat CHANGED TO pork
+
+DefInjected\ThingDef\Races_Animal_Insect.xml
+    TAG Megascarab_Meat.label TEXT: 
+        megascarab meat CHANGED TO scarab meat
+
+DefInjected\ThingDef\Races_Animal_Pet.xml
+    TAG Husky_Leather.label TEXT: 
+        husky leather CHANGED TO husky fur
+    TAG Husky_Leather.stuffProps.stuffAdjective TEXT: 
+        husky leathery CHANGED TO husky fur
+    TAG LabradorRetriever_Leather.label TEXT: 
+        labrador retriever leather CHANGED TO labrador fur
+    TAG LabradorRetriever_Leather.stuffProps.stuffAdjective TEXT: 
+        labrador retriever leathery CHANGED TO labrador fur
+    TAG Warg.description TEXT: 
+        Heavily-muscled wolf-like creatures. Scientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. CHANGED TO Heavily-muscled wolf-like creatures. Scientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. They will only eat meat or corpses.
+    TAG Warg_Leather.label TEXT: 
+        warg leather CHANGED TO warg fur
+    TAG Warg_Leather.stuffProps.stuffAdjective TEXT: 
+        warg leathery CHANGED TO warg fur
+    TAG YorkshireTerrier_Leather.label TEXT: 
+        yorkshire terrier leather CHANGED TO yorkieskin
+    TAG YorkshireTerrier_Leather.stuffProps.stuffAdjective TEXT: 
+        yorkshire terrier leathery CHANGED TO yorkieskin
+
+DefInjected\ThingDef\Races_Animal_Temperate.xml
+    TAG Alphabeaver_Leather.label TEXT: 
+        alphabeaver leather CHANGED TO beaverskin
+    TAG Alphabeaver_Leather.stuffProps.stuffAdjective TEXT: 
+        alphabeaver leathery CHANGED TO beaverskin
+    TAG Boomrat_Leather.stuffProps.stuffAdjective TEXT: 
+        boomrat leathery CHANGED TO boomrat leather
+    TAG Deer_Leather.label TEXT: 
+        deer leather CHANGED TO deerhide
+    TAG Deer_Leather.stuffProps.stuffAdjective TEXT: 
+        deer leathery CHANGED TO deerhide
+    TAG Deer_Meat.label TEXT: 
+        deer meat CHANGED TO venison
+    TAG Elk_Leather.label TEXT: 
+        elk leather CHANGED TO elkhide
+    TAG Elk_Leather.stuffProps.stuffAdjective TEXT: 
+        elk leathery CHANGED TO elkhide
+    TAG Elk_Meat.label TEXT: 
+        elk meat CHANGED TO venison
+    TAG Squirrel_Leather.label TEXT: 
+        squirrel leather CHANGED TO squirrelskin
+    TAG Squirrel_Leather.stuffProps.stuffAdjective TEXT: 
+        squirrel leathery CHANGED TO squirrelskin
+    TAG Thrumbo_Leather.label TEXT: 
+        thrumbo leather CHANGED TO thrumbofur
+    TAG Thrumbo_Leather.stuffProps.stuffAdjective TEXT: 
+        thrumbo leathery CHANGED TO thrumbofur
+    TAG Tortoise_Leather.stuffProps.stuffAdjective TEXT: 
+        tortoise leathery CHANGED TO tortoise leather
+    TAG WildBoar_Leather.label TEXT: 
+        wild boar leather CHANGED TO boarskin
+    TAG WildBoar_Leather.stuffProps.stuffAdjective TEXT: 
+        boar leathery CHANGED TO boarskin
+    TAG WildBoar_Meat.label TEXT: 
+        wild boar meat CHANGED TO boarmeat
+
+DefInjected\ThingDef\Races_Animal_Tropical.xml
+    TAG Boomalope_Leather.stuffProps.stuffAdjective TEXT: 
+        boomalope leathery CHANGED TO boomalope leather
+    TAG Capybara_Leather.label TEXT: 
+        capybara leather CHANGED TO capybaraskin
+    TAG Capybara_Leather.stuffProps.stuffAdjective TEXT: 
+        capybara leathery CHANGED TO capybaraskin
+    TAG Chinchilla_Leather.label TEXT: 
+        chinchilla leather CHANGED TO chinchilla fur
+    TAG Chinchilla_Leather.stuffProps.stuffAdjective TEXT: 
+        chinchilla leathery CHANGED TO chinchilla fur
+    TAG Cobra_Leather.label TEXT: 
+        cobra leather CHANGED TO cobraskin
+    TAG Cobra_Leather.stuffProps.stuffAdjective TEXT: 
+        cobra leathery CHANGED TO cobraskin
+    TAG Cobra_Meat.label TEXT: 
+        cobra meat CHANGED TO cobraflesh
+    TAG Monkey_Leather.label TEXT: 
+        monkey leather CHANGED TO monkeyhide
+    TAG Monkey_Leather.stuffProps.stuffAdjective TEXT: 
+        monkey leathery CHANGED TO monkeyhide
+
+DefInjected\ThingDef\Races_Humanlike.xml
+    TAG Human_Leather.stuffProps.stuffAdjective TEXT: 
+        human leathery CHANGED TO human leather
+
+DefInjected\ThoughtDef\Thoughts_ConditionsGeneral.xml
+    TAG LowExpectations.stages.3.description TEXT: 
+        This place is barely enough to shelter one from the elements. I'd better steel myself to survive. CHANGED TO I'm out here with little to no shelter. I'd better steel myself to survive.
+
+DefInjected\ThoughtDef\Thoughts_Memories.xml
+    TAG AteWithoutTable.stages.0.label TEXT: 
+        ate off the ground CHANGED TO ate without table
+    TAG ButcheredHumanlikeCorpse.stages.0.description TEXT: 
+        I just butchered someone up like an animal. CHANGED TO I butchered someone up like an animal.
+    TAG ButcheredHumanlikeCorpse.stages.0.label TEXT: 
+        butchered humanlike CHANGED TO I butchered humanlike
+
+DefInjected\ThoughtDef\Thoughts_Needs.xml
+    TAG JoyLevel.stages.4.label TEXT: 
+        tons 'o' joy CHANGED TO tons o' joy
+
+DefInjected\TraitDef\Traits_Singular.xml
+    TAG Bloodlust.degreeDatas.0.description TEXT: 
+        NAME gets a rush from hurting people, and never minds the sight of blood or death. CHANGED TO NAME gets a rush from hurting people, and never minds the sight of blood or death. HECAP is twice as likely to start a social fight.
+
+DefInjected\WorkGiverDef\WorkGivers.xml
+    TAG PatientGoToBed.gerund TEXT: 
+        receiving treatment in CHANGED TO getting bed rest in
+    TAG PatientGoToBed.verb TEXT: 
+        receive treatment in CHANGED TO get bed rest in
+
+DefInjected\WorkTypeDef\WorkTypes.xml
+    TAG Art.description TEXT: 
+        Artists create beautiful works of art. CHANGED TO Create beautiful works of art from raw materials.
+    TAG Cleaning.description TEXT: 
+        Cleaners clear snow and clean in the home area. CHANGED TO Clear snow and clean the floor in the home area.
+    TAG Construction.description TEXT: 
+        Constructors build things that you've designated. CHANGED TO Build things that you've designated.
+    TAG Cooking.description TEXT: 
+        Cooks prepare meals and butcher meat. CHANGED TO Prepare meals and butcher meat.
+    TAG Crafting.description TEXT: 
+        Crafters do general low-skilled labor at work stations. This includes stonecutting, smelting, and more. CHANGED TO Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more.
+    TAG Doctor.description TEXT: 
+        Doctors bring food and treat those lying incapacitated in bed. They will care for both colonists and prisoners. CHANGED TO Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners.
+    TAG Firefighter.description TEXT: 
+        Firefighters extinguish fires in the colony. CHANGED TO Extinguish fires in the colony.
+    TAG Flicker.description TEXT: 
+        Flickers flick switches. For example, when you designate toggling power on a turret, a flicker must manually flick it to toggle the power. CHANGED TO Flick switches. For example, when you designate toggling power on a turret, a flicker must manually flick it to toggle the power.
+    TAG Growing.description TEXT: 
+        Growers plant seeds and harvest grown crops. CHANGED TO Plant seeds and harvest grown crops.
+    TAG Handling.description TEXT: 
+        Animal handlers tame, care for, harvest resources from and slaughter animals. CHANGED TO Tame, train, harvest resources from and slaughter animals.
+    TAG Hauling.description TEXT: 
+        Haulers carry things to where they need to be. CHANGED TO Carry things to where they need to be.
+    TAG Hunting.description TEXT: 
+        Hunters kill animals which are designated to be hunted. CHANGED TO Kill animals which are designated to be hunted.
+    TAG Mining.description TEXT: 
+        Miners dig out squares that you have designated for mining. If these are mineral squares, they will yield usable minerals. CHANGED TO Dig out areas which are have designated for mining.
+    TAG PlantCutting.description TEXT: 
+        Plant cutters remove and harvest the wild plants you've designated. CHANGED TO Cut or harvest plants as designated.
+    TAG Repair.description TEXT: 
+        Repairers fix broken-down buildings and equipment. CHANGED TO Fix damaged or broken-down buildings.
+    TAG Research.description TEXT: 
+        Researchers do research work. CHANGED TO Perform research work.
+    TAG Smithing.description TEXT: 
+        Smiths create weapons and tools from rough materials. CHANGED TO Create weapons and tools from raw materials, either as a blacksmith or by machining.
+    TAG Tailoring.description TEXT: 
+        Tailors create apparel from rough materials. CHANGED TO Create apparel from raw materials.
+    TAG Warden.description TEXT: 
+        Wardens manage, feed, chat with, and recruit prisoners. CHANGED TO Manage, feed, chat with, and recruit prisoners.
+
+Keyed\Alerts.xml
+    TAG NeedMealSourceDesc TEXT: 
+        You have no way of preparing proper meals from raw food.\n\nBuild a nutrient paste dispenser or a cook stove.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) CHANGED TO You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.)
+    TAG StarvationDesc TEXT: 
+        These colonists are starving:\n\n{0}\nGet them some food. You'll need a food source like a nutrient paste dispenser and some food to feed it. Also, make sure they're not drafted. CHANGED TO These colonists are starving:\n\n{0}\nGet them some food.
+
+Keyed\Dates.xml
+    TAG DateReadoutTip TEXT: 
+        Days passed since your arrival: {0}\nThere are {1} days in each month.\nCurrent season: {2} CHANGED TO Days passed since your arrival: {0}\nThere are {1} days in each season.\nCurrent season: {2}
+    TAG FullDate TEXT: 
+        {0} {1}, {2} CHANGED TO {0} of {1}, {2}
+
+Keyed\Dialogs_Various.xml
+    TAG LoadingLongEvent TEXT: 
+        Loading... CHANGED TO Loading
+    TAG MapTemperatureDangerWarning TEXT: 
+        Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or month. CHANGED TO Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season.
+    TAG ResearchMenuWithoutBench TEXT: 
+        Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at and choose research projects now. CHANGED TO Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now.
+
+Keyed\GameplayCommands.xml
+    TAG CommandInstallDesc TEXT: 
+        This item is currently packaged up for storage and transport. Use this command to install this item in a final location so it can be viewed or used. CHANGED TO This item is currently packaged up for storage and transport. Use this command to install this item in a final location.
+
+Keyed\Incidents.xml
+    TAG GroupVisitorsArrive TEXT: 
+        A group from {0} are visiting the colony. CHANGED TO A group from {0} are visiting the colony.{1}
+    TAG SingleVisitorArrives TEXT: 
+        A {0} from {1} is visiting the colony.\n\nHECAP is named {2}. CHANGED TO A {0} from {1} is visiting the colony.\n\nHECAP is named {2}.{3}
+
+Keyed\Letters.xml
+    TAG FirstSummerWarning TEXT: 
+        Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store several months' worth of food now, while you still can.\n\nYou can build a walk-in refrigeration room to prevent food from spoiling.\n\nAnd try to buy, steal, or make some parkas, or you'll freeze when you step outside. CHANGED TO Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store several days' worth of food now, while you still can.\n\nYou can build a walk-in refrigeration room to prevent food from spoiling.\n\nAnd try to buy, steal, or make some parkas, or you'll freeze when you step outside.
+    TAG LetterHealthComplications TEXT: 
+        {0} has developed {1} as a complication of {2}. CHANGED TO {0} has developed a health condition: {1}\n\nThis was as a complication from: {2}.
+    TAG NewDisease TEXT: 
+        {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {0} gets proper treatment and spends as much time in bed as possible. CHANGED TO {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible.
+    TAG NewPartDisease TEXT: 
+        {0} has developed an infection in HIS {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {0} gets proper treatment and spends as much time in bed as possible. CHANGED TO {0} has gotten sick from {3}. The infection is in HIS {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible.
+
+Keyed\Menus_Main.xml
+    TAG GeneratingMap TEXT: 
+        Generating map... CHANGED TO Generating map
+    TAG GeneratingWorld TEXT: 
+        Generating world... CHANGED TO Generating world
+
+Keyed\Messages.xml
+    TAG MessageNeedBeaconToTradeWithShip TEXT: 
+        You need an orbital trade beacon to trade with a ship. CHANGED TO You need an orbital trade beacon to trade with a ship.\n\nThe beacon needs to be powered.
+
+Keyed\Misc_Gameplay.xml
+    TAG DeadTime TEXT: 
+        Dead {0} CHANGED TO Dead for {0}
+
+Keyed\Time.xml
+    TAG AgeBiological TEXT: 
+        Biological age: {0} years, {1} months, {2} days CHANGED TO Biological age: {0} years, {1} seasons, {2} days
+    TAG AgeChronological TEXT: 
+        Chronological age: {0} years, {1} months, {2} days CHANGED TO Chronological age: {0} years, {1} seasons, {2} days
+    TAG Born TEXT: 
+        Born: {0} {1} {2} CHANGED TO Born: {0}
+    TAG SeasonFall TEXT: 
+        Fall CHANGED TO fall
+    TAG SeasonSpring TEXT: 
+        Spring CHANGED TO spring
+    TAG SeasonSummer TEXT: 
+        Summer CHANGED TO summer
+    TAG SeasonWinter TEXT: 
+        Winter CHANGED TO winter
+
