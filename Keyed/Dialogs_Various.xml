@@ -4,17 +4,17 @@
   <Confirm>Confirmer</Confirm>
   <GoBack>Retour</GoBack>
   <OK>OK</OK>
+
   
-  <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.\n\nCela peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionNonSteam>Cette copie ne contient pas de DRM, vous pouvez installer le jeu deux fois dans deux dossiers différents pour jouer à la fois à l'ancienne et à la nouvelle version.</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter cela.</GameUpdatedToNewVersionSteam>    
+  <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter cela.</GameUpdatedToNewVersionSteam>
 
-  <!-- Recovered from errors caused by mods -->
+  
   <RecoveredFromErrorsDialogTitle>Erreur de mods incompatibles ou corrompus</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Il semblerait que l'un des mods actifs cause des problèmes.\n\nIls sont incompatibles entre eux, développés pour une version différente de RimWorld, ou corrompus.\n\nTous les mods ont été désactivés et peuvent être de nouveau activés depuis la fenêtre des mods.</RecoveredFromErrorsText>
+
   
-  <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Erreur au chargement des graphismes</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>Une erreur est survenue lors du chargement des éléments graphiques du jeu. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingAssets>
   <ErrorWhileLoadingAssets_ModsInfo>Le jeu est lancé avec des mods non officiels ; il peuvent ou non être à l'origine de ces problèmes.</ErrorWhileLoadingAssets_ModsInfo>
@@ -22,14 +22,14 @@
   <ErrorWhileGeneratingMap>Une erreur est survenue lors de la génération d'une nouvelle carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Erreur au chargement d'une carte</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
+
   
-  <!-- Unloaded mod with an assembly -->
   <ModWithAssemblyWasUnloaded>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</ModWithAssemblyWasUnloaded>
+
   
-  <!-- Missing Steam -->
   <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles:\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
+
   
-  <!-- Long events -->
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
   <UnloadingUnusedAssets>Libération des éléments non utilisés</UnloadingUnusedAssets>
   <LoadingAllActiveMods>Chargement de tous les mods actifs</LoadingAllActiveMods>
@@ -39,14 +39,13 @@
   <LoadingWorld>Chargement du monde</LoadingWorld>
   <LoadingMap>Chargement de la carte</LoadingMap>
   <InitializingGame>Initialisation du jeu</InitializingGame>
-  <InitializingMap>Initialisation de la carte</InitializingMap>
   <SpawningAllThings>Apparition de toutes les choses</SpawningAllThings>
   <SpawningColonists>Apparition des personnages</SpawningColonists>
+
   
-  <!-- Save/load -->
   <SaveGameButton>Sauvegarder</SaveGameButton>
-  <OverwriteButton>Écraser</OverwriteButton><!--Petit bouton-->
   <LoadGameButton>Charger</LoadGameButton>
+  <OverwriteButton>Écraser</OverwriteButton>
   <ConfirmDelete>Voulez-vous vraiment supprimer {0} ?</ConfirmDelete>
   <DeleteThisSavegame>Supprimer cette sauvegarde.</DeleteThisSavegame>
   <SavedAs>Enregistré sous {0}.</SavedAs>
@@ -60,43 +59,43 @@
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
   <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Charger quand même</LoadAnyway>
+
   
-  <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0} suggère que vous donniez un nom à votre faction.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionMessage>
   <PlayerFactionGainsName>Votre faction s'appelle désormais {0}.</PlayerFactionGainsName>
   <PlayerFactionNameIsInvalid>Ce nom de faction n'est pas valide.</PlayerFactionNameIsInvalid>
 
-  <!-- Player faction base naming -->
+  
   <NamePlayerFactionBaseMessage>On dirait que vous allez rester ici un bon moment. {0} suggère que vous donniez malgré tout un nom à la colonie.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionBaseMessage>
   <PlayerFactionBaseGainsName>La colonie s'appelle désormais {0}.</PlayerFactionBaseGainsName>
   <PlayerFactionBaseNameIsInvalid>Ce nom de colonie n'est pas valide.</PlayerFactionBaseNameIsInvalid>
+
   
-  <!-- Player faction and faction base naming -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>De plus, on dirait que vous allez rester ici un bon moment. {0} suggère aussi que vous donniez un nom à cette colonie.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <PlayerFactionAndBaseGainsName>Votre faction s'appelle désormais {0}, et cette colonie s'appelle {1}.</PlayerFactionAndBaseGainsName>
 
-  <!-- Renaming -->
+  
   <NameIsInvalid>Veuillez saisir un nom valide.</NameIsInvalid>
   <NameIsInUse>Ce nom est déjà utilisé.</NameIsInUse>
   <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
 
-  <!-- Pawn naming -->
+  
   <PawnGainsName>Le surnom du colon est maintenant {0}.</PawnGainsName>
 
-  <!-- Save game incompatible warning -->
+  
   <VersionMismatch>Incompatibilité de version</VersionMismatch>
   <SaveGameIncompatibleWarningText>Cette carte a été sauvegardée avec une version {0} du jeu.\nLa version actuelle du jeu est la {1}.\n\n Charger cette sauvegarde peut provoquer des bogues d'incompatibilité et des crashs.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Cette carte a été générée avec une version {0} du jeu.\nLa version actuelle du jeu est la {1}.\n\nCharger ce monde peut provoquer des bogues d'incompatibilité et des crashs. Il est recommandé de générer un nouveau monde de zéro.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Ce fichier a été sauvegarder avec la version {0} du jeu\nNous tournons actuellement sur la version {1}\n\nCharger ce fichier pourrait causer des bugs et des crashs.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mods incompatibles</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>La carte a été sauvegardée avec certains mods qui ne sont pas actifs actuellement. Ceci peut causer des problèmes selon les mods.\n\nLa carte a été sauvegardée avec les mods suivants (dans cet ordre) :\n\n{0}\n\nLes mods actuellement actifs sont les suivants :\n\n{1}</ModsMismatchWarningText>
-  <FileIncompatibleWarning>Ce fichier a été sauvegarder avec la version {0} du jeu\nNous tournons actuellement sur la version {1}\n\nCharger ce fichier pourrait causer des bugs et des crashs.</FileIncompatibleWarning>
 
-  <!-- Resolution change dialog -->
+  
   <ConfirmResolutionChange>Vous avez modifié la résolution d'écran. La nouvelle résolution vous convient-elle ?\n\nRetour à la précédente résolution dans {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Conserver</ResolutionKeep>
   <ResolutionRevert>Annuler</ResolutionRevert>
- 
-  <!-- Research -->
+
+  
   <Research>Recherche</Research>
   <Researched>Découvert</Researched>
   <Unresearched>Non recherché</Unresearched>
@@ -108,7 +107,7 @@
   <RequiredResearchBench>Banc de recherche nécessaire </RequiredResearchBench>
   <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s)</RequiredResearchBenchFacilities>
 
-  <!-- Advanced game start options -->
+  
   <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté(e) à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Attention : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes. La taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
@@ -121,8 +120,8 @@
   <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
   <PermadeathMode>Mode mort permanente</PermadeathMode>
   <PermadeathModeInfo>En mode mort permanente, un seul emplacement de sauvegarde est utilisable, et vous ne pourrez sauvegarder qu'en quittant la partie. Vous ne pourrez pas recharger le jeu pour réparer une erreur, et quand la colonie meurt, c'est fini.\n\nC'est de cette manière que RimWorld est supposé être joué, où chaque évènement dramatique, qu'il soit tragique ou bienheureux, sera vécu avec toutes ses conséquences !</PermadeathModeInfo>
+
   
-  <!-- Bill config -->
   <Suspended>Suspendre</Suspended>
   <NotSuspended>Reprendre</NotSuspended>
   <SuspendedAllCaps>EN PAUSE</SuspendedAllCaps>
@@ -134,7 +133,7 @@
   <CountingProducts>Compte</CountingProducts>
   <Infinite>Infini</Infinite>
   <AllowedSkillRange>Autorisé niveau {0}:</AllowedSkillRange>
-  
+
   <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible car ses résultats sont multiples ou imprévisibles.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantité de travail</WorkAmount>
   <MinimumSkills>Compétence minimale :</MinimumSkills>
@@ -150,8 +149,8 @@
   <BillStoreMode_DropOnFloor>Déposer sur le sol</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Déposer dans la meilleure zone de stockage</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Déposer dans la zone de stockage la plus proche</BillStoreMode_NearestStockpileAnyPriority>
+
   
-  <!-- Info card -->
   <Damage>Dégâts</Damage>
   <Accuracy>Précision</Accuracy>
   <BurstShotCount>Nombre de tirs par rafale</BurstShotCount>
@@ -179,7 +178,7 @@
   <MinFoodQuality>Qualité min. de la nourriture</MinFoodQuality>
   <Diet>Régime</Diet>
   <BodySize>Taille du corps</BodySize>
-  <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty> 
+  <RecruitDifficulty>Difficulté de recrutement</RecruitDifficulty>
   <MarketValue>Prix de base</MarketValue>
   <Covers>Protection</Covers>
   <CoverEffectiveness>Efficacité de la protection</CoverEffectiveness>
@@ -196,8 +195,8 @@
   <Addictiveness>Addictivité</Addictiveness>
   <PackAnimal>Bête de somme</PackAnimal>
   <PackAnimalExplanation>Indique si cet animal peut être utilisé pour transporter des objets dans une caravane sur de longues distances.</PackAnimalExplanation>
- 
-  <!-- Trade -->
+
+  
   <PositiveBuysNegativeSells>Chiffre positif pour acheter.\nChiffre négatif pour vendre.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Prix d'achat pour ce produit.</BuyPriceDesc>
   <SellPriceDesc>Prix de vente pour ce produit.</SellPriceDesc>
@@ -227,8 +226,8 @@
   <minimum>minimum</minimum>
   <FinalPrice>Prix final</FinalPrice>
   <TradeMassUsageTooltip>La charge actuelle et la capacité.</TradeMassUsageTooltip>
-	
-  <!-- Form caravan -->
+
+  
   <FormCaravan>Former une caravane</FormCaravan>
   <FormCaravanColonyThingCountTip>Quantité d'articles disponibles pour la caravane.</FormCaravanColonyThingCountTip>
   <PawnsTab>Personnes et animaux</PawnsTab>
@@ -255,7 +254,7 @@
   <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
   <MarketValueTip>Valeur marchande</MarketValueTip>
   <MassCapacity>Capacité de transport</MassCapacity>
-  <Mass>Poids</Mass>  <!--Poids est-il plus indiqué que masse, même si incorrecte ?-->
+  <Mass>Poids</Mass>
   <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
   <InventoryMass>Poids total de l'inventaire</InventoryMass>
   <CaravanFormationProcessStarted>Vos colons vont maintenant prendre les objets désignés et quitteront la zone dès que possible.</CaravanFormationProcessStarted>
@@ -263,16 +262,16 @@
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Prisonniers</PrisonersSection>
   <AnimalsSection>Animaux</AnimalsSection>
+
   
-  <!-- Split caravan -->
   <SplitCaravan>Diviser la caravane</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Vous devez garder au moins un colon valide dans la caravane actuelle.</SourceCaravanMustHaveAtLeastOneColonist>
   <CaravanSplitSourceLabel>Actuelle</CaravanSplitSourceLabel>
   <CaravanSplitDestLabel>Nouvelle</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>Quantité d'articles disponibles pour la nouvelle caravane.</SplitCaravanThingCountTip>
   <SplitCaravanMassUsageTooltip>La charge actuelle et la capacité.</SplitCaravanMassUsageTooltip>
+
   
-  <!-- Load transporters -->
   <LoadTransporters>Charger {0}</LoadTransporters>
   <TooBigTransportersMassUsage>Les personnes et objets désignés sont trop lourds pour les capsules de transport.</TooBigTransportersMassUsage>
   <CantSendEmptyTransportPods>Vous ne pouvez pas envoyer des capsules de transport vides.</CantSendEmptyTransportPods>
@@ -281,30 +280,30 @@
   <TransporterItemIsUnreachableMulti>Il n'y a pas de chemin entre les capsules de transport et {0}x {1}.</TransporterItemIsUnreachableMulti>
   <TransportersMassUsageTooltip>La charge actuelle et la capacité.\n\nVous ne pourrez pas envoyer les capsules de transport si la charge actuelle dépasse la capacité.</TransportersMassUsageTooltip>
 
-  <!-- Comms -->
-  <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
   
-  <!--Research-->
+  <SocialSkillIs>Compétence sociale : {0}</SocialSkillIs>
+
+  
   <ResearchFinished>Recherche terminée : {0}</ResearchFinished>
   <ResearchScreen>Écran de recherche</ResearchScreen>
+
   
-  <!--HistoryUpload-->
   <HistoryUploadMessage>Souhaitez-vous envoyer les informations de vos parties sur le serveur Rimworld afin d'aider les développeurs à équilibrer le jeu ? Si vous acceptez, l'historique sera téléversé tous les {0} jours (et dans d'autres rares cas comme les fins de partie). Les préférences de confidentialité peuvent être modifiées ultérieurement dans les options.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Même si l'historique est envoyé anonymement, vous pouvez y attacher votre nom.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Autoriser l'envoi des informations</HistoryUploadYes>
   <HistoryUploadNo>Ne pas autoriser l'envoi des informations</HistoryUploadNo>
   <HistoryUploadYesOnce>Envoyer cette fois seulement</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard.</HistoryUploadNoOnce>
-  	
-  <!-- Outfit management -->
+
+  
   <Outfit>Tenues</Outfit>
   <SelectOutfit>Choisir la tenue...</SelectOutfit>
   <NewOutfit>Nouvelle tenue</NewOutfit>
   <DeleteOutfit>Supprimer la tenue...</DeleteOutfit>
   <OutfitInUse>Tenue utilisée par {0}.</OutfitInUse>
   <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
+
   
-  <!-- Drug policy management -->
   <DrugPolicy>Règle sur la drogue</DrugPolicy>
   <SelectDrugPolicy>Choisir la règle...</SelectDrugPolicy>
   <NewDrugPolicy>Nouvelle règle</NewDrugPolicy>
@@ -338,23 +337,23 @@
   <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Planifié\n\nUtiliser cette drogue selon un calendrier défini, quand des conditions spécifiques sont rencontrées.</DrugUsageTipScheduled>
 
-  <!-- Growing -->
+  
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
-  <!-- Abandon home -->
+  
   <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+
   
-  <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
+
   
-  <!-- Abandon pawn -->
   <ConfirmAbandonPawnDialog>Voulez-vous réellement abandonner {0}?</ConfirmAbandonPawnDialog>
   <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
   <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
   <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
   <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, les personnes suivantes auront les pensées  suivantes: </ConfirmAbandonPawnDialog_IndividualThoughts>
-   
-  <!-- Send transport pods which are not completely loaded -->
+
+  
   <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. {0} est manquant. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
- 
+
 </LanguageData>

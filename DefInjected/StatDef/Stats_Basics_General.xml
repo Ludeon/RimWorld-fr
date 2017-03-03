@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-   	<MaxHitPoints.label>point de santé maximale</MaxHitPoints.label>
-	<MaxHitPoints.description>Le maximum de point de vie d'un objet. Cela représente combien de dommages il peut subir avant d'être détruit.</MaxHitPoints.description>
-	
-    <MarketValue.label>valeur marchande</MarketValue.label>
-    <MarketValue.description>La valeur marchande d'un objet. Le prix sera modifié par les relations et les compétences en négociation.</MarketValue.description>
+  <MaxHitPoints.label>point de santé maximale</MaxHitPoints.label>
+  <MaxHitPoints.description>Le maximum de point de vie d'un objet. Cela représente combien de dommages il peut subir avant d'être détruit.</MaxHitPoints.description>
 
-	<SellPriceFactor.label>Modificateur du prix de vente</SellPriceFactor.label>
-	<SellPriceFactor.description>Multiplicateur du prix auquel vous pouvez vendre.</SellPriceFactor.description>
+  <Mass.label>poids</Mass.label>
+  <Mass.description>Le poids d'un objet</Mass.description>
+  <Mass.formatString>{0} kg</Mass.formatString>
 
-	<Flammability.label>Inflammabilité</Flammability.label>
-	<Flammability.description>Vitesse à laquelle un objet prend feu, et force de l'incendie.</Flammability.description>
-	
-	<WorkToMake.label>Travail restant</WorkToMake.label>
-	<WorkToMake.description>Quantité de travail nécessaire pour réaliser l'objet, une fois les matières premières rassemblées.</WorkToMake.description>
-	
-	<DeteriorationRate.label>Taux de dégradation</DeteriorationRate.label>
-	<DeteriorationRate.description>Vitesse à laquelle un objet laissé en extérieur se dégrade, spécialement sous la pluie.</DeteriorationRate.description>
-	
-	<Beauty.label>Esthétique</Beauty.label>
-	<Beauty.description>Plaisir ressenti à être à proximité d'un objet et/ou à le regarder.</Beauty.description>
+  <MarketValue.label>valeur marchande</MarketValue.label>
+  <MarketValue.description>La valeur marchande d'un objet. Le prix sera modifié par les relations et les compétences en négociation.</MarketValue.description>
+  <MarketValue.formatString>${0}</MarketValue.formatString>
 
-	<Cleanliness.label>Propreté</Cleanliness.label>
-	<Cleanliness.description>Niveau de propreté de l'objet.</Cleanliness.description>
+  <SellPriceFactor.label>Modificateur du prix de vente</SellPriceFactor.label>
+  <SellPriceFactor.description>Multiplicateur du prix auquel vous pouvez vendre.</SellPriceFactor.description>
 
-	<Comfort.label>Confort</Comfort.label>
-	<Comfort.description>Combien il est confortable de s'asseoir ou de s'allonger sur un objet.</Comfort.description>
-	
+  <Flammability.label>Inflammabilité</Flammability.label>
+  <Flammability.description>Vitesse à laquelle un objet prend feu, et force de l'incendie.</Flammability.description>
+
+  <WorkToMake.label>Travail requis</WorkToMake.label>
+  <WorkToMake.description>Quantité de travail nécessaire pour réaliser l'objet, une fois les matières premières rassemblées.</WorkToMake.description>
+
+  <WorkToBuild.label>travail requis pour construire avec</WorkToBuild.label>
+  <WorkToBuild.description>Quantité de travail nécessaire pour construire une structure avec l'objet, une fois les matières premières rassemblées.</WorkToBuild.description>
+
+  <DeteriorationRate.label>Taux de dégradation</DeteriorationRate.label>
+  <DeteriorationRate.description>Vitesse à laquelle un objet laissé en extérieur se dégrade, spécialement sous la pluie.</DeteriorationRate.description>
+  <DeteriorationRate.formatString>{0} / jour</DeteriorationRate.formatString>
+
+  <Beauty.label>Esthétique</Beauty.label>
+  <Beauty.description>Plaisir ressenti à être à proximité d'un objet et/ou à le regarder.</Beauty.description>
+
+  <Cleanliness.label>Propreté</Cleanliness.label>
+  <Cleanliness.description>Niveau de propreté de l'objet.</Cleanliness.description>
+
+  <Comfort.label>Confort</Comfort.label>
+  <Comfort.description>Combien il est confortable de s'asseoir ou de s'allonger sur un objet.</Comfort.description>
+
+
 </LanguageData>

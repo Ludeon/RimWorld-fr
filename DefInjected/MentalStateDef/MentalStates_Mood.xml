@@ -1,46 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    
-    
-    <Berserk.label>fou furieux</Berserk.label>
-    <Berserk.beginLetterLabel>fou furieux</Berserk.beginLetterLabel>
-    <Berserk.beginLetter>{0} devient fou furieux !</Berserk.beginLetter>
-    <Berserk.recoveryMessage>La folie furieuse de {0} est terminée.</Berserk.recoveryMessage>
-    
-    
-    <FireStartingSpree.label>pyromane</FireStartingSpree.label>
-    <FireStartingSpree.beginLetterLabel>pyromane</FireStartingSpree.beginLetterLabel>
-    <FireStartingSpree.beginLetter>{0} a des impulsions pyromane.</FireStartingSpree.beginLetter>
-    <FireStartingSpree.recoveryMessage>{0} n'est plus atteint d'impulsions pyromane.</FireStartingSpree.recoveryMessage>
-    
-    
-    <GiveUpExit.label>abandonne tout et s'en va</GiveUpExit.label>
-    <GiveUpExit.beginLetterLabel>a abandonné</GiveUpExit.beginLetterLabel>
-    <GiveUpExit.beginLetter>{0} s'en va de la colonie.</GiveUpExit.beginLetter>
-    <GiveUpExit.recoveryMessage>{0} a changé d'avis et a décidé de revenir dans la colonie.</GiveUpExit.recoveryMessage>
 
-    
-    <WanderPsychotic.label>Psychotique</WanderPsychotic.label>
-    <WanderPsychotic.beginLetterLabel>Psychotique</WanderPsychotic.beginLetterLabel>
-    <WanderPsychotic.beginLetter>{0} erre partout dans un état psychotique.</WanderPsychotic.beginLetter>
-    <WanderPsychotic.recoveryMessage>{0} n'est plus dans un état psychotique.</WanderPsychotic.recoveryMessage>
-    
-    
-    <BingingFood.label>Boulimique</BingingFood.label>
-    <BingingFood.beginLetterLabel>se goinfre</BingingFood.beginLetterLabel>
-    <BingingFood.beginLetter>{0} se goinfre de nourriture.</BingingFood.beginLetter>
-    <BingingFood.recoveryMessage>{0} a arrêté de se goinfrer.</BingingFood.recoveryMessage>
-    
-    
-    <WanderSad.label>Mélancolique</WanderSad.label>
-    <WanderSad.beginLetterLabel>erre tristement</WanderSad.beginLetterLabel>
-    <WanderSad.beginLetter>{0} erre partout, frappé de mélancolie.</WanderSad.beginLetter>
-    <WanderSad.recoveryMessage>{0} n'erre plus dans un état mélancolique.</WanderSad.recoveryMessage>
-    
-    
-    <WanderOwnRoom.label>se cache</WanderOwnRoom.label>
-    <WanderOwnRoom.beginLetterLabel>se cache dans sa chambre</WanderOwnRoom.beginLetterLabel>
-    <WanderOwnRoom.beginLetter>{0} se cache dans sa chambre.</WanderOwnRoom.beginLetter>
-    <WanderOwnRoom.recoveryMessage>{0} ne se cache plus dans sa chambre.</WanderOwnRoom.recoveryMessage>
-    
+  
+
+  <Berserk.label>fou furieux</Berserk.label>
+  <Berserk.beginLetterLabel>fou furieux</Berserk.beginLetterLabel>
+  <Berserk.beginLetter>{0} devient fou furieux !</Berserk.beginLetter>
+  <Berserk.recoveryMessage>La folie furieuse de {0} est terminée.</Berserk.recoveryMessage>
+  <Berserk.baseInspectLine>État mental: fou furieux</Berserk.baseInspectLine>
+
+  <FireStartingSpree.label>pyromane</FireStartingSpree.label>
+  <FireStartingSpree.beginLetterLabel>pyromane</FireStartingSpree.beginLetterLabel>
+  <FireStartingSpree.beginLetter>{0} a des impulsions pyromane.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.recoveryMessage>{0} n'est plus atteint d'impulsions pyromane.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.baseInspectLine>État mental: impulsions pyromane</FireStartingSpree.baseInspectLine>
+
+  <GiveUpExit.label>abandonne tout et s'en va</GiveUpExit.label>
+  <GiveUpExit.beginLetterLabel>a abandonné</GiveUpExit.beginLetterLabel>
+  <GiveUpExit.beginLetter>{0} s'en va de la colonie.</GiveUpExit.beginLetter>
+  <GiveUpExit.recoveryMessage>{0} a changé d'avis et a décidé de revenir dans la colonie.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.baseInspectLine>État mental: abandonne tout et s'en va</GiveUpExit.baseInspectLine>
+
+  <BingingDrugExtreme.label>consomme abusivement de drogue</BingingDrugExtreme.label>
+  <BingingDrugExtreme.baseInspectLine>État mental: abuse de {0}</BingingDrugExtreme.baseInspectLine>
+
+
+  
+
+  <BingingDrugMajor.label>consomme abusivement de drogue</BingingDrugMajor.label>
+  <BingingDrugMajor.baseInspectLine>État mental: abuse de {0}</BingingDrugMajor.baseInspectLine>
+
+  <WanderPsychotic.label>Psychotique</WanderPsychotic.label>
+  <WanderPsychotic.recoveryMessage>{0} n'est plus dans un état psychotique.</WanderPsychotic.recoveryMessage>
+  <WanderPsychotic.beginLetterLabel>Psychotique</WanderPsychotic.beginLetterLabel>
+  <WanderPsychotic.beginLetter>{0} erre partout dans un état psychotique.</WanderPsychotic.beginLetter>
+  <WanderPsychotic.baseInspectLine>État mental: psychotique</WanderPsychotic.baseInspectLine>
+
+
+  
+
+  <BingingFood.label>Boulimique</BingingFood.label>
+  <BingingFood.beginLetterLabel>se goinfre</BingingFood.beginLetterLabel>
+  <BingingFood.beginLetter>{0} se goinfre de nourriture.</BingingFood.beginLetter>
+  <BingingFood.recoveryMessage>{0} a arrêté de se goinfrer.</BingingFood.recoveryMessage>
+  <BingingFood.baseInspectLine>État mental: se goinfre</BingingFood.baseInspectLine>
+
+  <WanderSad.label>Mélancolique</WanderSad.label>
+  <WanderSad.recoveryMessage>{0} n'erre plus dans un état mélancolique.</WanderSad.recoveryMessage>
+  <WanderSad.beginLetterLabel>erre tristement</WanderSad.beginLetterLabel>
+  <WanderSad.beginLetter>{0} erre partout, frappé de mélancolie.</WanderSad.beginLetter>
+  <WanderSad.baseInspectLine>État mental: mélancolique</WanderSad.baseInspectLine>
+
+  <WanderOwnRoom.label>se cache</WanderOwnRoom.label>
+  <WanderOwnRoom.recoveryMessage>{0} ne se cache plus dans sa chambre.</WanderOwnRoom.recoveryMessage>
+  <WanderOwnRoom.beginLetterLabel>se cache dans sa chambre</WanderOwnRoom.beginLetterLabel>
+  <WanderOwnRoom.beginLetter>{0} se cache dans sa chambre.</WanderOwnRoom.beginLetter>
+  <WanderOwnRoom.baseInspectLine>État mental: se cache dans sa chambre</WanderOwnRoom.baseInspectLine>
+
+
 </LanguageData>
