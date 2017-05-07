@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <MeleeDPS.label>DPS au corps à corps</MeleeDPS.label>
-  <MeleeDPS.description>Moyenne des dommages par seconde dans les combats de mêlée.</MeleeDPS.description>
+  <MeleeDPS.label>DPS au corps-à-corps</MeleeDPS.label>
+  <MeleeDPS.description>Moyenne des Dommages Par Seconde dans les combats de mêlée. Cela ne prend pas en compte les défenses de la cible, comme ses esquives ou son armure.</MeleeDPS.description>
+  
+  <MeleeHitChance.label>probabilité de toucher en mêlée</MeleeHitChance.label>
+  <MeleeHitChance.description>Les chances de'atteindre une cible en combat de mêlée. La cible peut esquiver même lorsqu'on l'atteint.</MeleeHitChance.description>
+  
+   <MeleeDodgeChance.label>probabilité d'esquiver en mêlée</MeleeDodgeChance.label>
+  <MeleeDodgeChance.description>Probabilité d'esquiver une attaque de mêlée qui aurait atteint sa cible. Les personnes ne peuvent pas esquiver lorsqu'ils mettent en joue ou sont en train de tirer.</MeleeDodgeChance.description>
 
   <ShootingAccuracy.label>précision des tirs</ShootingAccuracy.label>
-  <ShootingAccuracy.description>Les chances de base de ne pas rater la cible par case de distance.</ShootingAccuracy.description>
+  <ShootingAccuracy.description>La probabilité de base de ne pas rater la cible par case de distance.</ShootingAccuracy.description>
 
   <AimingDelayFactor.label>temps de tir</AimingDelayFactor.label>
   <AimingDelayFactor.description>Le temps nécessaire au tir après avoir visé.</AimingDelayFactor.description>
 
-  <MeleeHitChance.label>chances de toucher en mêlée</MeleeHitChance.label>
-  <MeleeHitChance.description>Les chances de toucher une cible en combat de mêlée.</MeleeHitChance.description>
+ 
 
 
 </LanguageData>
