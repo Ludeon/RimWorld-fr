@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <WorkSpeedGlobal.label>vitesse globale de travail</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>Coefficient influent sur la vitesse de réalisation des tâches.</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.label>vitesse générale de travail</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.description>Coefficient influent sur la vitesse de réalisation de n'importe quelle tâche.</WorkSpeedGlobal.description>
 
   <MiningSpeed.label>vitesse de minage</MiningSpeed.label>
-  <MiningSpeed.description>Coefficient influent sur la vitesse des travaux de minage.</MiningSpeed.description>
+  <MiningSpeed.description>Coefficient influant sur la vitesse des travaux de minage et de forage.</MiningSpeed.description>
 
   <SmoothingSpeed.label>Vitesse d'aplanissage</SmoothingSpeed.label>
-  <SmoothingSpeed.description>Coefficient influent sur la vitesse à laquelle une personne aplanit le sol.</SmoothingSpeed.description>
+  <SmoothingSpeed.description>Coefficient influant sur la vitesse à laquelle une personne aplanit le sol.</SmoothingSpeed.description>
 
   <ResearchSpeed.label>vitesse de recherche</ResearchSpeed.label>
-  <ResearchSpeed.description>Coefficient influent sur la vitesse des travaux de recherche.</ResearchSpeed.description>
+  <ResearchSpeed.description>Cette personne recherche à cette vitesse.</ResearchSpeed.description>
 
   <ConstructionSpeed.label>vitesse de construction</ConstructionSpeed.label>
   <ConstructionSpeed.description>Vitesse à laquelle ce colon construit et répare les objets et structures.</ConstructionSpeed.description>
+  
+  <AnimalGatherSpeed.label>vitesse de travail avec les animaux</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.description>Vitesse à laquelle cette personne trait et tond les animaux.</AnimalGatherSpeed.description>
+  
+   <AnimalGatherYield.label>rendement du travail avec les animaux</AnimalGatherYield.label>
+  <AnimalGatherYield.description>La quantité de ressources que ces personnes obtiennent lorsqu'elles tondent et traient des animaux. Un pourcentage élevé diminue le risque de gâchis.</AnimalGatherYield.description>
 
   <PlantWorkSpeed.label>vitesse de travail agricole</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>Vitesse à laquelle ce colon plante et récolte.</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>Vitesse à laquelle ce colon sème et récolte.</PlantWorkSpeed.description>
 
   <HarvestFailChance.label>Risque d'échec de récolte</HarvestFailChance.label>
-  <HarvestFailChance.description>Risque que ce colon puisse accidentellement détruire la récolte au lieu de la cueillir.</HarvestFailChance.description>
+  <HarvestFailChance.description>Le rendement d'une personne lorsqu'elle récolte. Un faible rendement augmente la probabilité que la personne ddétruise accidentellement la récolte.</HarvestFailChance.description>
 
-  <ConstructFailChance.label>Risque d'échec de construction</ConstructFailChance.label>
-  <ConstructFailChance.description>Risque que ce colon rate une construction, perde du temps et gâche des ressources.</ConstructFailChance.description>
+  <ConstructFailChance.label>probabilité de réussir une construction</ConstructFailChance.label>
+  <ConstructFailChance.description>La probabilité d'une personne de réussir une construction. Un échec gaspille du temps et des ressources.</ConstructFailChance.description>
 
-  <FixBrokenDownBuildingFailChance.label>Risque d'échec de réparation</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>Risque que ce colon rate la réparation d'un objet ou d'un bâtiment.</FixBrokenDownBuildingFailChance.description>
+  <FixBrokenDownBuildingFailChance.label>probabilité de réussir une réparation</FixBrokenDownBuildingFailChance.label>
+  <FixBrokenDownBuildingFailChance.description>La probabilité d'une personne de réussir à remplacer un composant cassé d'une construction. Un échec gaspille du temps et des ressources. Cette probabilité ne s'applique pas aux autres types de réparation. </FixBrokenDownBuildingFailChance.description>
 
 
 </LanguageData>
