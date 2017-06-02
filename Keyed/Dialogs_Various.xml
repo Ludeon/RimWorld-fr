@@ -7,6 +7,8 @@
 
   
   <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.\n\nCela peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Cela peut faire arrêter de fonctionner les sauvegardes et les mods des anciennes versions.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Les sauvegardes des anciennes versions devrait fonctionner mais quelques mods peuvent arrêter de fonctionner.</GameUpdatedToNewVersionSavesCompatible>																																															
   <GameUpdatedToNewVersionNonSteam>Cette copie ne contient pas de DRM, vous pouvez installer le jeu deux fois dans deux dossiers différents pour jouer à la fois à l'ancienne et à la nouvelle version.</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter cela.</GameUpdatedToNewVersionSteam>
 
@@ -24,7 +26,9 @@
   <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
 
   
-  <ModWithAssemblyWasUnloaded>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</ModWithAssemblyWasUnloaded>
+  <ModsChanged>La liste de mods a changer. Le jeu va redémarer automatiquement.</ModsChanged>
+  <FailedToRestart>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</FailedToRestart>
+  <Restarting>Redémarrage en cours</Restarting>										
 
   
   <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles:\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
@@ -150,6 +154,10 @@
   <BillStoreMode_BestStockpile>Déposer dans la meilleure zone de stockage</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Déposer dans la zone de stockage la plus proche</BillStoreMode_NearestStockpileAnyPriority>
 
+  <PauseWhenSatisfied>Arrêt quand satisfait</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Continuer jusqu'à</UnpauseWhenYouHave>
+  <Paused>En arrêt</Paused>
+  <Unpause>Continuer</Unpause>					  
   
   <Damage>Dégâts</Damage>
   <Accuracy>Précision</Accuracy>
@@ -211,6 +219,7 @@
   <YourTradeableSilverTip>Vous ne pouvez commercer qu'avec de l'argent qui n'est pas sous un toit et qui est près d'une balise de commerce orbital.</YourTradeableSilverTip>
   <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
   <ColonyHasNoMore>La colonie n'a plus rien à vendre.</ColonyHasNoMore>
+  <Negotiator>Marchand</Negotiator>								   
   <TraderWillNotTrade>Le marchand n'est pas intéressé par cet objet.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
@@ -235,6 +244,7 @@
   <CaravanConfigTab>Config</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>Impossible de trouver un point de sortie valide.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Verifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>																																											  
   <CaravanCouldNotFindReachableExitSpot>Avertissement: certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
@@ -243,16 +253,21 @@
   <CaravanMassUsageTooltip>La charge actuelle et la capacité de transport.\n\nLa charge actuelle inclut le poids total des articles dans la caravane ainsi que tous les équipements des colons. \n\nVous ne pourrez pas envoyer la caravane si la charge actuelle dépasse la capacité.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>{0} jours de nourriture</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>{0} jours de nourriture, elle pourrira dans {1} jours</DaysWorthOfFoodInfoRot>																										
   <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>																																																																											 
   <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>A large part of the assigned food will rot soon.\n\nAre you sure you want to form this caravan?</CaravanFoodWillRotSoonWarningDialog>																																											
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direction de sortie </ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
   <MarketValueTip>Valeur marchande</MarketValueTip>
+  <DaysUntilRotTip>Le nombre de jours avant que cet objet commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>																																				
   <MassCapacity>Capacité de transport</MassCapacity>
   <Mass>Poids</Mass>
   <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
@@ -262,6 +277,7 @@
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Prisonniers</PrisonersSection>
   <AnimalsSection>Animaux</AnimalsSection>
+  <EstimatedTimeToDestinationButton>Temps estimé pour arriver a destination</EstimatedTimeToDestinationButton>																											   
 
   
   <SplitCaravan>Diviser la caravane</SplitCaravan>
@@ -337,11 +353,21 @@
   <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Planifié\n\nUtiliser cette drogue selon un calendrier défini, quand des conditions spécifiques sont rencontrées.</DrugUsageTipScheduled>
 
+
+  <MedGroupDefaults>Défaut</MedGroupDefaults>
+  <MedGroupColonist>Colons</MedGroupColonist>
+  <MedGroupImprisonedColonist>Colons emprisonné</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Animaux neutre</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Factions neutre</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Factions hostile </MedGroupHostileFaction>
   
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
   
   <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>L'abandon de {0} entraînera les membres de la caravane a avoir les pensées suivantes:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   
   <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
@@ -351,7 +377,7 @@
   <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
   <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
   <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, les personnes suivantes auront les pensées suivantes: </ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane a avoir les pensées suivantes: </ConfirmAbandonPawnDialog_IndividualThoughts>
 
   
   <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. {0} est manquant. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>

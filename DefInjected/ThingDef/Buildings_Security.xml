@@ -5,28 +5,32 @@
   <Sandbags.description>Une couverture pour les fusillades.</Sandbags.description>
   <Sandbags_Blueprint.label>sacs de sable (plan)</Sandbags_Blueprint.label>
   <Sandbags_Frame.label>un sac de sable</Sandbags_Frame.label>
+  <Sandbags_Frame.description>Une couverture pour les fusillades.</Sandbags_Frame.description>
 
 
-  
+  <!-- Improvised turret -->
 
   <TurretGun.label>tourelle improvisée</TurretGun.label>
   <TurretGun.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami.</TurretGun.description>
   <TurretGun_Blueprint.label>tourelle improvisée (plan)</TurretGun_Blueprint.label>
   <TurretGun_Blueprint_Install.label>tourelle improvisée (nouvel emplacement)</TurretGun_Blueprint_Install.label>
   <TurretGun_Frame.label>une tourelle improvisée</TurretGun_Frame.label>
+  <TurretGun_Frame.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami</TurretGun_Frame.description>
 
   <Bullet_TurretImprovised.label>Balle de tourelle improvisée</Bullet_TurretImprovised.label>
+  
   <Gun_TurretImprovised.label>Pistolet de tourelle improvisée</Gun_TurretImprovised.label>
   <Gun_TurretImprovised.description>Bricolage d'une arme sur une tourelle.</Gun_TurretImprovised.description>
 
 
-  
+  <!-- Mortar bomb turret -->
 
   <Turret_MortarBomb.label>Mortier</Turret_MortarBomb.label>
   <Turret_MortarBomb.description>Un mortier tirant des obus explosifs. Nécessite un artilleur. Explose si endommagé.</Turret_MortarBomb.description>
   <Turret_MortarBomb_Blueprint.label>mortier (plan)</Turret_MortarBomb_Blueprint.label>
   <Turret_MortarBomb_Blueprint_Install.label>mortier (nouvel emplacement)</Turret_MortarBomb_Blueprint_Install.label>
   <Turret_MortarBomb_Frame.label>un mortier</Turret_MortarBomb_Frame.label>
+  <Turret_MortarBomb_Frame.description>Un mortier tirant des obus explosifs. Nécessite un artilleur. Explose si endommagé.</Turret_MortarBomb_Frame.description>
 
   <Artillery_MortarBomb.label>mortier explosif</Artillery_MortarBomb.label>
   <Artillery_MortarBomb.description>Les mortiers tirent des obus par-dessus les murs. Très peu précis mais à long rayon d'action.</Artillery_MortarBomb.description>
@@ -34,13 +38,14 @@
   <Bullet_MortarBomb.label>Obus de mortier explosif</Bullet_MortarBomb.label>
 
 
-  
+  <!-- Mortar incendiary turret -->
 
   <Turret_MortarIncendiary.label>Mortier incendiaire</Turret_MortarIncendiary.label>
   <Turret_MortarIncendiary.description>Un mortier tirant des obus incendiaires. Nécessite un artilleur. Explose si endommagé.</Turret_MortarIncendiary.description>
   <Turret_MortarIncendiary_Blueprint.label>mortier incendiaire (plan)</Turret_MortarIncendiary_Blueprint.label>
   <Turret_MortarIncendiary_Blueprint_Install.label>mortier incendiaire (nouvel emplacement)</Turret_MortarIncendiary_Blueprint_Install.label>
   <Turret_MortarIncendiary_Frame.label>un mortier incendiaire</Turret_MortarIncendiary_Frame.label>
+  <Turret_MortarIncendiary_Frame.description>Un mortier tirant des obus incendiaires. Nécessite un artilleur. Explose si endommagé.</Turret_MortarIncendiary_Frame.description>
 
   <Artillery_MortarIncendiary.label>Mortier incendiaire</Artillery_MortarIncendiary.label>
   <Artillery_MortarIncendiary.description>Les mortiers incendiaires tirent des obus par-dessus les murs. Très peu précis mais à long rayon d'action, ils provoquent des incendies à l'impact. Requiert un artilleur.</Artillery_MortarIncendiary.description>
@@ -48,13 +53,14 @@
   <Bullet_MortarIncendiary.label>Obus de mortier incendiaire</Bullet_MortarIncendiary.label>
 
 
-  
+  <!-- Mortar EMP -->
 
   <Turret_MortarEMP.label>Mortier à EMP</Turret_MortarEMP.label>
   <Turret_MortarEMP.description>Un mortier tirant des obus à EMP. Nécessite un artilleur. Explose si endommagé.</Turret_MortarEMP.description>
   <Turret_MortarEMP_Blueprint.label>mortier à EMP (plan)</Turret_MortarEMP_Blueprint.label>
   <Turret_MortarEMP_Blueprint_Install.label>mortier à (nouvel emplacement)</Turret_MortarEMP_Blueprint_Install.label>
   <Turret_MortarEMP_Frame.label>un mortier à EMP</Turret_MortarEMP_Frame.label>
+  <Turret_MortarEMP_Frame.description>Un mortier tirant des obus à EMP. Nécessite un artilleur. Explose si endommagé.</Turret_MortarEMP_Frame.description>
 
   <Artillery_MortarEMP.label>Mortier à EMP</Artillery_MortarEMP.label>
   <Artillery_MortarEMP.description>Les mortiers EMP tirent des obus par-dessus les murs. Très peu précis mais long rayon d'action.</Artillery_MortarEMP.description>
@@ -62,23 +68,25 @@
   <Bullet_MortarEMP.label>obus de mortier à EMP</Bullet_MortarEMP.label>
 
 
-  
+  <!-- Traps -->
 
   <TrapDeadfall.label>Piège mécanique</TrapDeadfall.label>
   <TrapDeadfall.description>Un pointe lestée suspendue et maintenue par un déclencheur délicat. Quand ce déclencheur est activé, la pointe est libérée et tombe sur la tête ou le torse de la victime.</TrapDeadfall.description>
    <TrapDeadfall_Blueprint.label>piège mécanique (plan)</TrapDeadfall_Blueprint.label>
   <TrapDeadfall_Frame.label>un piège mécanique</TrapDeadfall_Frame.label>
+  <TrapDeadfall_Frame.description>Un pointe lestée suspendue et maintenue par un déclencheur délicat. Quand ce déclencheur est activé, la pointe est libérée et tombe sur la tête ou le torse de la victime.</TrapDeadfall_Frame.description>
 
   <TrapIEDBomb.label>Piège explosif improvisé</TrapIEDBomb.label>
   <TrapIEDBomb.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIEDBomb.description>
   <TrapIEDBomb_Blueprint.label>piège explosif improvisé (plan)</TrapIEDBomb_Blueprint.label>
   <TrapIEDBomb_Frame.label>un piège explosif improvisé</TrapIEDBomb_Frame.label>
+  <TrapIEDBomb_Frame.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIEDBomb_Frame.description>
 
   <TrapIEDIncendiary.label>Piège incendiaire improvisé</TrapIEDIncendiary.label>
   <TrapIEDIncendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur à dispersion chimique. Quand quelqu'un active le déclencheur chimique, du combustible enflammé est projeté. Comme il n'y a pas besoin de créer une explosion très importante pour enflammer l'ensemble, le déclencheur chimique est plus simple et plus fiable que certains autres types de déclencheurs.</TrapIEDIncendiary.description>
- 
   <TrapIEDIncendiary_Blueprint.label>piège incendiaire improvisé (plan)</TrapIEDIncendiary_Blueprint.label>
   <TrapIEDIncendiary_Frame.label>un piège incendiaire improvisé</TrapIEDIncendiary_Frame.label>
+  <TrapIEDIncendiary_Frame.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur à dispersion chimique. Quand quelqu'un active le déclencheur chimique, du combustible enflammé est projeté. Comme il n'y a pas besoin de créer une explosion très importante pour enflammer l'ensemble, le déclencheur chimique est plus simple et plus fiable que certains autres types de déclencheurs.</TrapIEDIncendiary_Frame.description>
 
 
 </LanguageData>

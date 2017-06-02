@@ -2,6 +2,8 @@
 <LanguageData>
 
   <JumpToLocation>Se rendre sur les lieux</JumpToLocation>
+  <PostponeLetter>Reporter</PostponeLetter>
+  <RejectLetter>Rejeter</RejectLetter>				  
 
   <LetterLabelFirstSummerWarning>Été</LetterLabelFirstSummerWarning>
   <FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive.\n\nVos cultures ne pousseront pas avec le froid hivernal. Assurez-vous de mettre en réserve plusieur jours de nourriture maintenant, tant que vous le pouvez encore.\n\nVous pouvez construire une chambre froide pour empêcher la nourriture de pourrir.\n\nEssayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
@@ -62,22 +64,22 @@
   <LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
 
   <MentalBreakLetterLabel>Crise de démence</MentalBreakLetterLabel>
-  <MentalBreakReason>Le déclencheur a été : {0}.</MentalBreakReason>
+  <FinalStraw>Le déclencheur a été : {0}.</FinalStraw>
 
-  
+  <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
   <LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {0} ont des liens avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
   <LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {0} ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradeShip>
-  <LetterRelatedPawnsTradingWithFactionBase>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithSettlement>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME a un lien avec un colon. HECAP est le/la  {1} de {0}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME a un lien avec un de vos prisonniers. HECAP est le/la {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
 
-  
+  <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Liaison</LetterLabelAffair>
   <LetterAffair>{0}, marié(e) à {1}, entame une liaison avec {2}.</LetterAffair>
   <LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
@@ -89,59 +91,68 @@
   <LetterAcceptedProposal>{1} a accepté la demande en mariage de {0}.\n\nÀ un moment dans les jours ou les saisons à venir, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
   <LetterRejectedProposal>{1} a refusé la demande de mariage de {0}. Cela va rendre {0} malheureux.</LetterRejectedProposal>
 
-  
+  <!-- Generalized letter labels -->
   <LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
   <LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
   <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>Effondrement mental</LetterLabelMentalBreakdown>
 
-  
+  <!-- Bonded animals -->
   <LetterLabelBondedAnimalDied>Mort d'un animal lié</LetterLabelBondedAnimalDied>
   <LetterBondedAnimalDied>{0}, lié à {1}, est mort. Cela va affecter l'humeur de {1}.</LetterBondedAnimalDied>
   <LetterNamedBondedAnimalDied>{0} nommé {1}, lié à {2}, est mort. Cela va affecter l'humeur de {2}.</LetterNamedBondedAnimalDied>
   <LetterBondedAnimalDiedMulti>{0} est mort. Cela va affecter l'humeur des colons suivants :\n\n{1}</LetterBondedAnimalDiedMulti>
   <LetterNamedBondedAnimalDiedMulti>{0} nommé {1} est mort. Cela va affecter l'humeur des colons suivants :\n\n{2}</LetterNamedBondedAnimalDiedMulti>
 
-  
+  <!-- Prison break -->
   <LetterLabelPrisonBreak>Évasion</LetterLabelPrisonBreak>
   <LetterPrisonBreak>Les prisonniers ont organisé une évasion ! Ils ont trouvé un moyen de neutraliser le verrou de la porte et sont en train de sortir. Ils peuvent chercher des armes, combattre ou essayer de s'échapper. Les prisonniers suivants sont impliqués :\n\n{0}\n\nLes prisonniers sont davantage susceptibles de tenter de s'évader quand ils sont malheureux, nombreux et en bonne santé.</LetterPrisonBreak>
 
-  
+  <!-- Party -->
   <LetterLabelNewParty>Fête</LetterLabelNewParty>
   <LetterNewParty>{0} organise une fête ! Toutes les personnes qui y vont gagneront en joie, en sociabilisation et une hausse durable de bonne humeur.</LetterNewParty>
 
-  
+  <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>addiction de {0}</LetterLabelNewlyAddicted>
   <LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\nHECAP a désormais besoin de {1}, visible dans HIS onglet Besoins. HECAP consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si HE ne peut pas se procurer de {1}, HE sera en manque.</LetterNewlyAddicted>
 
-  
+  <!-- Drug binge -->
   <LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
   <LetterDrugBinge>{0} est en consommation excessive de {1}.</LetterDrugBinge>
 
-  
+  <!-- Formed caravan -->
   <LetterLabelFormedCaravan>Caravane prête</LetterLabelFormedCaravan>
   <LetterFormedCaravan>Votre caravane s'est formée et attend les ordres sur la carte du monde.</LetterFormedCaravan>
 
-  
+  <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravane détruite</LetterLabelAllCaravanColonistsDied>
   <LetterAllCaravanColonistsDied>Tous les membres de votre caravane sont morts.</LetterAllCaravanColonistsDied>
 
-  
+  <!-- Caravan entered ambush map -->
   <LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap>
   <LetterCaravanEnteredAmbushMap>{0} est arrivé sur le lieu de l'embuscade.</LetterCaravanEnteredAmbushMap>
 
-  
+  <!-- Caravan entered enemy base -->
   <LetterLabelCaravanEnteredEnemyBase>L'attaque a commencé</LetterLabelCaravanEnteredEnemyBase>
   <LetterCaravanEnteredEnemyBase>{0} est arrivé à {1} et est prête à commencer l'attaque.</LetterCaravanEnteredEnemyBase>
   <LetterCaravanEnteredEnemyBaseBecameHostile>{0} est arrivé à {1} et est prête à commencer l'attaque.\n\nA cause de votre comportement agréssif, {2} vous est maintenant hostile.</LetterCaravanEnteredEnemyBaseBecameHostile>
 
-  
+  <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>Avant-poste ennemi détruit</LetterLabelFactionBaseDefeated>
   <LetterFactionBaseDefeated>L'avant-poste ennemi {0} a été détruit.\n\nVous avez {1} heures pour ramasser des objets avant que vos colons ne réforment la caravane.</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>C'était la dernière base de {0}, ce qui signifie que cette faction n'existe plus.</LetterFactionBaseDefeated_FactionDestroyed>
 
-  
+  <!-- Pawns lost due to map countdown -->
   <LetterLabelPawnsLostDueToMapCountdown>Abandonné</LetterLabelPawnsLostDueToMapCountdown>
   <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans le désert:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+  
+  
+  <!-- Quest completed -->
+  <LetterLabelDefeatAllEnemiesQuestCompleted>Quête achevée</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>Vous avez détruit l'avant-poste ennemi!\n\nVous avez été payer par {0} et les relations avec la faction se sont améliorées de {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
+  <!-- Found lump of precious resources -->
+  <LetterLabelFoundPreciousLump>Des minéraux précieux ont été trouvés</LetterLabelFoundPreciousLump>
+  <LetterFoundPreciousLump>Votre scanner minéral à longue portée a trouvé une zone avec des ressources précieuses à proximité.\n\nNous ne savons pas qui, ou quoi... pourrait la surveiller.</LetterFoundPreciousLump>
+  
 </LanguageData>

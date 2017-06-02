@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  
+  <!-- Forbid -->
   <CommandForbid>Interdire</CommandForbid>
   <CommandForbiddenDesc>Interdit - les colons n'interagiront pas avec ceci.</CommandForbiddenDesc>
   <CommandNotForbiddenDesc>Autorisé - les colons interagiront avec ceci.</CommandNotForbiddenDesc>
 
-  
+  <!-- Power -->
   <CommandTogglePowerLabel>Activer l'alimentation électrique.</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Active l'alimentation en énergie électrique</CommandTogglePowerDesc>
 
@@ -21,14 +21,14 @@
   <CommandGatherSpotToggleDescInactive>Inactif - Les colons ne se rassembleront pas autour de cet objet.</CommandGatherSpotToggleDescInactive>
 
 
-  
+  <!-- Drafting -->
   <CommandDraftLabel>Mobiliser</CommandDraftLabel>
   <CommandUndraftLabel>Démobiliser</CommandUndraftLabel>
   <CommandToggleDraftDesc>Active la mobilisation militaire.\n\nLes personnes mobilisée exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
   <IsIncapped>{0} est inapte au service.</IsIncapped>
 
-  <CommandAllowFiringLabel>Autoriser le tir</CommandAllowFiringLabel>
-  <CommandAllowFiringDesc>Autoriser le tir.\n\nSi désactivé, ce personnage ne tire pas automatiquement sur des cibles à distance. N'affecte pas le combat en mêlée.</CommandAllowFiringDesc>
+  <CommandFireAtWillLabel>Autoriser le tir</CommandFireAtWillLabel>
+  <CommandFireAtWillDesc>Autoriser le tir.\n\nSi désactivé, ce personnage ne tire pas automatiquement sur des cibles à distance. N'affecte pas le combat en mêlée.</CommandFireAtWillDesc>
 
   <CommandClearPrioritizedWork>Effacer zone de travail prioritaire</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Efface n'importe quelle zone de travail prioritaire que vous avez assigné. Le personnage reprendra ses activités habituelles.</CommandClearPrioritizedWorkDesc>
@@ -76,7 +76,7 @@
   <CommandAllowSow>Autoriser l'ensemencement</CommandAllowSow>
   <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée.</CommandAllowSowDesc>
 
-  
+  <!-- Artillery -->
   <CommandSetForceAttackTarget>Désigner une cible forcée</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Désigne une cible que la tourelle tentera d'attaquer continuellement, tant qu'elle le pourra.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Arrêter l'attaque forcée</CommandStopForceAttack>
@@ -85,146 +85,163 @@
   <MessageTargetBeyondMaximumRange>Cible hors de portée.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Cible trop proche.</MessageTargetBelowMinimumRange>
 
-  
+  <!-- Ship computer core -->
   <CommandShipLaunch>Lancer le vaisseau</CommandShipLaunch>
   <CommandShipLaunchDesc>Démarre la séquence de lancement avec la configuration actuelle.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Voir le rapport de lancement</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Affiche un rapport sur l'état de lancement du vaisseau.</CommandShipLaunchReportDesc>
 
-  
+  <!-- Pod -->
   <CommandPodEject>Éjecter l'occupant</CommandPodEject>
   <CommandPodEjectDesc>Réveille les occupants en hypersommeil et les éjecte.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Capsule vide.</CommandPodEjectFailEmpty>
 
-  
+  <!-- Door -->
   <CommandToggleDoorForbid>Verrouiller</CommandToggleDoorForbid>
   <CommandToggleDoorForbidDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent être ouvertes par personne.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Maintenir ouvert</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Si activé, les colons ne fermeront pas la porte après leur passage.</CommandToggleDoorHoldOpenDesc>
 
-  
+  <!-- Temperature control -->
   <CommandResetTemp>Réinitialiser</CommandResetTemp>
   <CommandResetTempDesc>Réinitialise la température à la température de la pièce.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Augmenter la température cible.</CommandRaiseTempDesc>
   <CommandLowerTempDesc>Diminuer la température cible.</CommandLowerTempDesc>
 
-  
+  <!-- Install/reinstall -->
   <CommandInstall>Installer</CommandInstall>
   <CommandInstallDesc>Cet objet est actuellement conditionné pour le stockage et le transport. Utilisez cette commande pour l'installer à un endroit où il pourra être vu ou utilisé.</CommandInstallDesc>
   <CommandReinstall>Ré-installer à...</CommandReinstall>
   <CommandReinstallDesc>Indique que cet objet doit être déplacé pour être installé autre part.</CommandReinstallDesc>
 
-  
+  <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Créé une zone de stockage autour de ce bâtiment correspondant exactement à la forme du rayon de la balise de commerce orbital.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Créer une zone de stockage</CommandMakeBeaconStockpileLabel>
 
-  
+  <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Créer une zone agricole autour de la lampe qui correspond avec la zone d'éclairage de celle-ci.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Créer une zone agricole</CommandSunLampMakeGrowingZoneLabel>
 
-  
+  <!-- Trap -->
   <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
   <CommandAutoRearmDesc>Si activé, le piège sera réarmé automatiquement après son activation.</CommandAutoRearmDesc>
 
-  
+  <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Lâcher les animaux</CommandReleaseAnimalsLabel>
   <CommandReleaseAnimalsDesc>Lorsqu'activé, les animaux sont envoyés pour attaquer des cibles distantes. Sinon, ils restent proches et surveillent leur maître.</CommandReleaseAnimalsDesc>
 
-  
+  <!-- Squad attack -->
   <CommandSquadAttack>Attaquer</CommandSquadAttack>
   <CommandSquadAttackDesc>Ordonne aux colons séléctionnés d'aller attaquer la cible désignée.</CommandSquadAttackDesc>
 
-  
+  <!-- Hold fire -->
   <CommandHoldFire>Cesser le feu</CommandHoldFire>
   <CommandHoldFireDesc>Met fin à l'attaque en cours.</CommandHoldFireDesc>
 
-  
+  <!-- Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Sélectionner une plante à faire pousser</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>Plante : {0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>Détermine quelle plante devrait être semée ici.</CommandSelectPlantToGrowDesc>
 
-  
+  <!-- Build copy -->
   <CommandBuildCopy>Construire une copie</CommandBuildCopy>
   <CommandBuildCopyDesc>Construire une copie de cet objet.</CommandBuildCopyDesc>
 
-  
+  <!-- Form caravan -->
   <CommandFormCaravan>Former une caravane</CommandFormCaravan>
   <CommandFormCaravanDesc>Former un groupe de colons capables de se rendre dans de nouvelles zones. Les colons rassembleront toutes les fournitures assignées et les animaux d'accompagnement, quitteront leur zone actuelle et attendront de nouvelles commandes.</CommandFormCaravanDesc>
 
-  
+  <!-- Reform caravan -->
   <CommandReformCaravan>Reformer la caravane</CommandReformCaravan>
   <CommandReformCaravanDesc>Réformez un groupe de colons. Les colons quitteront leur zone actuelle et attendront d'autres ordres.</CommandReformCaravanDesc>
   <CommandReformCaravanFailHostilePawns>Il y a encore des ennemis dans cette zone.</CommandReformCaravanFailHostilePawns>
 
-  
+  <!-- Split caravan -->
   <CommandSplitCaravan>Diviser</CommandSplitCaravan>
   <CommandSplitCaravanDesc>Diviser cette caravane en deux. Les caravanes peuvent ensuite être fusionnées en une seule, tant qu'elles sont proches l'une de l'autre.</CommandSplitCaravanDesc>
 
-  
+  <!-- Merge caravan -->
   <CommandMergeCaravans>Fusionner</CommandMergeCaravans>
   <CommandMergeCaravansDesc>Fusionner les caravanes sélectionnées.</CommandMergeCaravansDesc>
 
-  
+  <!-- Settle -->
   <CommandSettle>Coloniser</CommandSettle>
-  <CommandSettleDesc>Installez-vous dans cette zone. Vos colons entreront dans cette zone et vous pourrez commencer à construire une nouvelle maison.</CommandSettleDesc>
+  <CommandSettleDesc>Installez-vous dans cette zone. Vos colons entreront dans cette zone et vous pourrez commencer à construire une nouvelle colonie.</CommandSettleDesc>
   <CommandSettleFailOtherWorldObjectsHere>Votre caravane doit être le seul objet sur cette tuile pour pouvoir coloniser la zone.</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>Votre faction ne peut avoir qu'une seule base.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Nombre maximum de colonies atteint.</CommandSettleFailReachedMaximumNumberOfBases>
-
+  <CommandSettleFailNoColonists>Il n'y a personne pour réclamer la région.</CommandSettleFailNoColonists>
+  <CommandSettleFailEnemies>Il y'a des ennemis dans cette zone.</CommandSettleFailEnemies>
   
+  <!-- Abandon home -->
   <CommandAbandonHome>Abandonner</CommandAbandonHome>
   <CommandAbandonHomeDesc>Abandonner cette zone. La zone deviendra inaccessible et vous ne pourrez plus revenir ici. Après avoir abandonné votre maison, vous pourrez commander à une de vos caravanes de s'installer dans une nouvelle zone.</CommandAbandonHomeDesc>
   <CommandAbandonHomeFailAllColonistsThere>Tous vos colons sont là.</CommandAbandonHomeFailAllColonistsThere>
 
-  
+  <!-- Cancel forming caravan -->
   <CommandCancelFormingCaravan>Annuler la formation de caravane</CommandCancelFormingCaravan>
   <CommandCancelFormingCaravanDesc>Mettre fin au processus de formation de la caravane.</CommandCancelFormingCaravanDesc>
 
-  
+  <!-- Show map -->
   <CommandShowMap>Zoomer</CommandShowMap>
   <CommandShowMapDesc>Zoomer sur cette zone.</CommandShowMapDesc>
 
-  
+  <!-- Trade -->
   <CommandTrade>Commercer</CommandTrade>
   <CommandTradeDesc>Commercer avec cette faction.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>Il n'y a aucun négociateur conscient, en état de négocier.</CommandTradeFailNoNegotiator>
 
-  
+  <!-- Fulfill request -->
+  <CommandFulfillTradeOffer>Réaliser l'offre commerciale</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOfferDesc>Fulfill the settlement's request for goods and claim your reward.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferFailInsufficient>LA caravanne doit avoir {0} pour accomplir cette offre commercial.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferConfirm>Offer {0} for {1}?</CommandFulfillTradeOfferConfirm>
+
+  <!-- Take off -->
   <CommandTakeOff>Decoller</CommandTakeOff>
   <CommandTakeOffDesc>Monter à bord du vaisseau et quitter la planète.</CommandTakeOffDesc>
   <CommandTakeOffConfirmation>Etes-vous sûr de vouloir lancer le vaisseau ? \n\nTous les colons dans cette zone quitteront la planète. Les autres colons resteront sur place.</CommandTakeOffConfirmation>
 
-  
+  <!-- Set target fuel level -->
   <CommandSetTargetFuelLevel>Régler le niveau de carburant</CommandSetTargetFuelLevel>
   <CommandSetTargetFuelLevelDesc>Régler le niveau de carburant. Les colons tenteront de remplir le réservoir de carburant jusqu'à ce niveau.</CommandSetTargetFuelLevelDesc>
 
-  
+  <!-- Cancel load -->
   <CommandCancelLoad>Annuler le chargement</CommandCancelLoad>
   <CommandCancelLoadDesc>Annuler le chargement avec des personnes ou des objets et éjecter tout ce qui a déjà été chargé.</CommandCancelLoadDesc>
 
-  
+  <!-- Launch group -->
   <CommandLaunchGroup>Lancer le groupe</CommandLaunchGroup>
   <CommandLaunchGroupDesc>Commencer le processus de ciblage pour lancer un groupe de capsules de transport. L'étape suivante consiste à choisir une cible. Les capsules voleront et atterriront ensemble.</CommandLaunchGroupDesc>
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Certaines capsules de transport de ce groupe de chargement ne sont pas alimentées en carburant.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <CommandLaunchGroupFailNoFuel>Certains lanceurs de capsule dans ce groupe n'ont pas de carburant.</CommandLaunchGroupFailNoFuel>
   <CommandLaunchGroupFailUnderRoof>Certains lanceurs de capsule sont sous un toit.</CommandLaunchGroupFailUnderRoof>
 
-  
+  <!-- Load transporter -->
   <CommandLoadTransporter>Charger le groupe de lancement {0}</CommandLoadTransporter>
   <CommandLoadTransporterDesc>Définir le ou les transporteurs sélectionnés en tant que groupe de lancement. Ouvre la boîte de dialogue de chargement pour que vous puissiez décider qui et quoi charger à l'intérieur.</CommandLoadTransporterDesc>
   <CommandLoadTransporterFailNotConnectedToFuelingPort>La capsule de transport n'est pas  alimentée en carburant.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <CommandLoadTransporterFailNoFuel>Le lanceur de capsule n'a pas de carburant.</CommandLoadTransporterFailNoFuel>
 
-  
+  <!-- Select previous transporter -->
   <CommandSelectPreviousTransporter>Sélectionner le précédent dans groupe de lancement</CommandSelectPreviousTransporter>
   <CommandSelectPreviousTransporterDesc>Sélectionnez la capsule de transport précédente dans ce groupe de lancement.</CommandSelectPreviousTransporterDesc>
 
-  
+  <!-- Select all transporters -->
   <CommandSelectAllTransporters>Sélectionner groupe de lancement</CommandSelectAllTransporters>
   <CommandSelectAllTransportersDesc>Sélectionnez toutes les capsules de transport de ce groupe de lancement.</CommandSelectAllTransportersDesc>
 
-  
+  <!-- Select next transporter -->
   <CommandSelectNextTransporter>Sélectionner le suivant dans groupe de lancement</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>Sélectionnez la capsule de transport suivante dans ce groupe de lancement.</CommandSelectNextTransporterDesc>
-
-</LanguageData>
+  
+  
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>Ouvert/fermer</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>Désignez cette ouverture à être ouvert ou fermer. Un colon viendra bientôt pour accomplir la tâche.</CommandDesignateOpenCloseVentDesc>
+  
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>Supprimer</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>Supprimer ce marqueur.</CommandRemoveWaypointDesc>
+  
+</LanguageData> 

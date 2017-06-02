@@ -12,13 +12,13 @@
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
   <MiracleHeal>{0} a guéri miraculeusement !</MiracleHeal>
 
-  
+  <!-- Enemy raids -->
   <EnemyRaidWalkIn>Un groupe de {0} de {1} est arrivé à proximité.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Un groupe de {0} de {1} effectue un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>Un groupe de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
   <EnemyRaidLeaderPresent>Quelqu'un de {0} - {1}, est le chef de la faction.</EnemyRaidLeaderPresent>
 
-  
+  <!-- Friendly raids -->
   <FriendlyRaidWalkIn>Un groupe amical de {0} de {1} est arrivé à proximité.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital à proximité.</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</FriendlyRaidCenterDrop>
@@ -56,7 +56,7 @@
   <LetterLabelManhunterPackArrived>Meute de chasseurs d'hommes</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Une meute de {0}s chasseurs d'hommes arrive dans la région. Ils vont parcourir la région à la recherche de chair humaine.\n\nIls ne franchissent pas les portes, donc vous serez en sécurité si vous restez derrière vos murs. Ils n'attaquent pas les mitrailleuses inactives, donc mettez-les hors tension si vous voulez les sauver.\n\nIls quitteront la région dans quelques jours.</ManhunterPackArrived>
 
-  
+  <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>L'ancienne structure a émis une onde psychique qui a provoqué un élan de folie meurtrière parmi les animaux alentours.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>L'épave de l'ancien vaisseau a émis une pulsation psychique focalisée qui a fait perdre la raison à votre colon {0}.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>S'est éveillé il y a {0} jours</AwokeDaysAgo>
@@ -68,61 +68,86 @@
   <LetterLabelPsychicDroneLevelIncreased>Drone s'intensifie</LetterLabelPsychicDroneLevelIncreased>
   <LetterPsychicDroneLevelIncreased>L'épave du drone émet désormais des ondes psychiques plus puissantes. Chaque humanoïde dans les environs se sentira bien plus dérangé, terrifié et paranoïaque.</LetterPsychicDroneLevelIncreased>
 
-  
+  <!-- Agent revealed -->
   <LetterLabelAgentRevealed>Agents</LetterLabelAgentRevealed>
   <LetterAgentRevealed>{0} ont été démasqués comme agents de votre ennemi {1}.\n\nIls essaient à présent de s'échapper.</LetterAgentRevealed>
 
-  
+  <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Drone psychique</LetterLabelPsychicDrone>
   <LetterIncidentPsychicDrone>Un très violent mal de tête affecte tous vos colons {0} !\n\nUn drone psychique lointain s'agite. Il projette une puissante onde psychique à travers toute la région, sur une fréquence que semble n'affecter que les colons de sexe {0}. Pendant plusieurs jours, leur état d'esprit va se dégrader.</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Vague psychique apaisante</LetterLabelPsychicSoothe>
   <LetterIncidentPsychicSoothe>Tous les colons {0}s sourient de contentement !\n\nUn quelconque dispositif de bonheur s'agite. Il projette une puissante vague psychique dans toute la région, la fréquence ne semble affecter que les {0}s. Pour quelques jours, certaines personnes seront légèrement de meilleure humeur.</LetterIncidentPsychicSoothe>
 
-  
+  <!-- Beavers -->
   <LetterLabelBeaversArrived>Alphacastors !</LetterLabelBeaversArrived>
   <BeaversArrived>Un groupe d'alphacastors affamés vient juste d'arriver.\n\nEssayez de les éliminer avant qu'ils n'aient dévoré jusqu'au dernier arbre de la région.</BeaversArrived>
 
-  
+  <!-- Refugee chased -->
+  <RefugeeChasedTitle>Réfugié pourchassé a {0}</RefugeeChasedTitle>																	  
   <RefugeeChasedInitial>Un {1} nommé {0} vous appelle. HECAP est pourchassé(e) par des {2} de {3} !\n\nHECAP vous supplie de l'aider et de rejoindre votre colonie. HECAP a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} a hurlé de panique dans le petit micro avant que vous ne coupiez la transmission.</RefugeeChasedRejected>
 
-  
+  <!-- Self-tame -->
   <LetterLabelAnimalSelfTame>{0} s'est laissé apprivoiser</LetterLabelAnimalSelfTame>
   <LetterAnimalSelfTame>{0} est devenu apprivoisé.</LetterAnimalSelfTame>
   <LetterAnimalSelfTameAndNameNumerical>{0} est devenu apprivoisé. Il s'apelle désormais {1}.</LetterAnimalSelfTameAndNameNumerical>
   <LetterAnimalSelfTameAndName>{0} est devenu apprivoisé. Les colons ont décidé de l'appeler {1}.</LetterAnimalSelfTameAndName>
 
-  
+  <!-- Farm animals wander in -->
   <LetterLabelFarmAnimalsWanderIn>{0}s se joignent à vous</LetterLabelFarmAnimalsWanderIn>
   <LetterFarmAnimalsWanderIn>Un groupe de {0}s, abandonnés ou perdus, errent dans la zone.n\nIls semblent accoutumés au contact humain et rejoignent la colonie.</LetterFarmAnimalsWanderIn>
 
-  
+  <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>Thrumbos</LetterLabelThrumboPasses>
   <LetterThrumboPasses>Un petit groupe de thrumbos errent dans la zone.\n\nDe nature paisible, ces créatures sont extrêmement dangereuses lorsqu'elles sont combattues. Certains commerçants donneront cher pour son précieux cuir et sa corne.\n\nLe groupe de thrumbos quittera la zone dans quelques jours.</LetterThrumboPasses>
 
-  
+  <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>Commerçants de {0}</LetterLabelTraderCaravanArrival>
   <LetterTraderCaravanArrival>Une caravane marchande de {0} arrive.\n\nLes commerçants vont rester autour de votre colonie pendant quelques jours avant de repartir. Vous pouvez les attaquer, mais cela mettra en colère leur faction !</LetterTraderCaravanArrival>
 
-  
+  <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
   <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail Réparation ne s'en sera pas occupé.</LetterBuildingBrokenDown>
 
-  
+  <!-- Ransom demand -->
+  <RansomDemandTitle>Demande de rançon a {0}</RansomDemandTitle>																 
   <RansomDemand>{1} vous contacte par radio. Ils tiennent en otage le colon {0} en échange d'une rançon.\n\nIls sont prêt à l'échanger contre {2} argent.</RansomDemand>
   <RansomDemand_Accept>Accepter</RansomDemand_Accept>
   <RansomDemand_Reject>Rejeter</RansomDemand_Reject>
 
-  
+  <!-- Journey -->
   <JourneyOffer>Une IA amicale de votre passé, nommée Charlon Whitestone, vous a envoyé un message !\n\nElle vous révèle qu'elle a un vaisseau spatial caché sur cette planète, et vous envoie les coordonnées de sa position. \n\nSi vous arrivez au vaisseau, Charlon vous emmènera dans l'espace, hors de ce monde déjanté.</JourneyOffer>
 
-  
+  <!-- Caravan meeting -->
+  <CaravanMeetingTitle>Rencontre de caravane par {0}</CaravanMeetingTitle>																		  
   <CaravanMeeting>Votre caravane et une caravane venant de {0} se rencontrent pacifiquement. Cette autre caravane est composée de:\n\n{1}</CaravanMeeting>
   <CaravanMeeting_Trade>Commercer</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Attaquer</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continuer</CaravanMeeting_MoveOn>
+  
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>Demande de caravane</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>Une colonie à proximité, {0}, vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter:\n\n  {1}\n\nEn retour, ils offrent:\n\n  {2}\n\nCette demande expire après: {3}\n\nSi vous souhaitez faire l'échange, Envoyer une caravane avec les fournitures demandées. Vous pouvez consulter cette offre en sélectionnant {0} sur la carte du monde.</LetterCaravanRequest>
+  <CaravanRequestInfo>Demande: {0}, Récompense: {1} (manquent {2})</CaravanRequestInfo>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>Embuscade par {0}</CaravanDemandTitle>
+  <CaravanDemand>Votre caravane a été pris en embuscade par un groupe de {1} {3} appartenant a la faction - {0} - Ils vont attaquer à moins que vous ne leur donniez:\n\n{2}</CaravanDemand>
+  <CaravanDemand_Give>Donnez et passer</CaravanDemand_Give>
+  <CaravanDemand_Fight>Refuser et se battre</CaravanDemand_Fight>
+
+  <!-- Temporary item stash -->
+  <ItemStashQuestTitle>Offre de récupération</ItemStashQuestTitle>
+  <ItemStashQuest_Accept>Acceptez</ItemStashQuest_Accept>
+  <ItemStashQuest_Reject>Rejeter</ItemStashQuest_Reject>
+  <ItemStashQuestFeeDemand>{0} est prêt à nous dire l'emplacement de la planque en échange de {1} argent.</ItemStashQuestFeeDemand>
+  <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait surveiller le cache.</ItemStashSitePart_Unknown>
+  <ItemStashSitePart_Nothing>{0} dit que la planque n'est pas surveillée.</ItemStashSitePart_Nothing>
+  <ItemStashSitePart_Outpost>{0} dit qu'il y a un avant-poste ennemi à proximité.</ItemStashSitePart_Outpost>
+  <ItemStashSitePart_Turrets>{0} dit que la planque est entouré par des tourelles ennemies.</ItemStashSitePart_Turrets>
+  <ItemStashSitePart_Manhunters>{0} dit qu'il y a une meute d'animaux chasseurs d'hommes qui erre à proximité de la planque.</ItemStashSitePart_Manhunters>
 
 </LanguageData>

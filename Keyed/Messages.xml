@@ -17,6 +17,7 @@
 
   <MessageVisitorsTakingWounded>Les {0} de {1} prennent un invité blessé.</MessageVisitorsTakingWounded>
   <MessageVisitorsTrappedLeaving>lLes {0} de {1} se sont fait piéger et creusent pour s'échapper.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>{0} de {1} quittent la carte en raison de la température dangereuse.</MessageVisitorsDangerousTemperature>																																				  
 
   <MessageWornApparelDeterioratedAway>L'équipement {0} porté par {1} est réduit à néant.</MessageWornApparelDeterioratedAway>
 
@@ -153,7 +154,7 @@
 
   <MessageCaravanArrivedAtDestination>{0} est arrivé à destination.</MessageCaravanArrivedAtDestination>
 
-  <MessageCaravanIsVisitingFaction>{0} est arrivé à {1}.</MessageCaravanIsVisitingFaction>
+  <MessageCaravanIsVisitingSettlement>{0} est arrivé à {1}.</MessageCaravanIsVisitingSettlement>
 
   <MessageCaravanEnteredWorldObject>{0} est arrivé à {1}.</MessageCaravanEnteredWorldObject>
 
@@ -161,7 +162,7 @@
 
   <MessageSettledInExistingMap>Vous avez réussi à vous installer dans une nouvelle région.</MessageSettledInExistingMap>
 
-  <MessageAmbushVictory>Victoire ! Dans {0} heures, la caravane sera automatiquement réformée. Vous pouvez reformer la caravane maintenant à partir de la carte du monde.</MessageAmbushVictory>
+  <MessageAmbushVictory>Victoire ! Dans {0}, la caravane sera automatiquement réformée. Vous pouvez la reformer maintenant à partir de la carte du monde.</MessageAmbushVictory>
 
   <MessageAutomaticallyReformedCaravan>Vos colons ont réformé la caravane.</MessageAutomaticallyReformedCaravan>
 
@@ -170,6 +171,8 @@
   <MessageRescueeJoined>Depuis que vous l'avez sauvé, {0} a rejoint votre groupe !</MessageRescueeJoined>
 
   <MessageAttackedCaravanIsNowHostile>Parce que vous avez attaqué une caravane de {0}, cette faction vous est devenu hostile.</MessageAttackedCaravanIsNowHostile>
+  <MessageFactionPawnCrushed>{0} personnes perdues dû à un effondrement du toit. Relation avec la faction: {1}</MessageFactionPawnCrushed>
+  <MessageFactionPawnLost>{0} a perdu {1}. Relation avec la faction: {2}</MessageFactionPawnLost>							 
 
   <MessageTransporterUnreachable>Certaines capsules de transport sont inaccessibles.</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>Tous les lanceurs connecté aux capsules de transport sélectionnés doivent être adjacents.</MessageTransportersNotAdjacent>
@@ -181,6 +184,7 @@
 
   <MessageTransportPodsArrived>Vos capsules de transport sont arrivées.</MessageTransportPodsArrived>
   <MessageTransportPodsArrivedAndLost>Vos capsules de transport sont arrivées, mais comme il n'y avait pas de colons à l'intérieur, leurs contenus sont perdus.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndAddedToCaravan>Vos capsules de transport sont arrivés. Leurs contenus a été ajouté à votre caravane.</MessageTransportPodsArrivedAndAddedToCaravan>																																													 
   <MessageTransportPodsArrived_BecameHostile>{0} vous est devenu hostile.</MessageTransportPodsArrived_BecameHostile>
 
   <MessageFailedToLoadTransportersBecauseColonistLost>Le processus de chargement a été annulé parce qu'une des colons a été perdu.</MessageFailedToLoadTransportersBecauseColonistLost>
@@ -205,4 +209,21 @@
 
   <MessageScreenResTooSmallForUIScale>Avec cette résolution et l'échelle d'interface utilisateur, l'interface de jeu ne s'adapterait pas à l'écran. Veuillez réduire l'échelle de l'interface utilisateur ou augmenter la résolution.</MessageScreenResTooSmallForUIScale>
 
-</LanguageData>
+  <MessageYouHaveToReformCaravanNow>Vous devez réformer la caravane maintenant. Tout le monde laissé derrière sera abandonné.</MessageYouHaveToReformCaravanNow>
+  	
+  <MessageDefendersAttacking>{0} de {1} attaquent vos {2}.</MessageDefendersAttacking>
+  
+  <MessageSelfTendUnsatisfied>Pour se soigner soi même, {0} doit être affecté au travail du docteur.</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{0} est incapable de faire le métier docteur, et ne peut donc pas se soigner lui même.</MessageCannotSelfTendEver>
+	
+  <MessageCantAddWaypointBecauseImpassable>Cette case est infranchissable.</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>Il n'est pas possible d'atteindre cette tuile a partir du dernier marqueur.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>Vous ne pouvez pas ajouter plus de {0} marqueurs.</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>Vous ne pouvez pas supprimer ce marqueurs.</MessageCantRemoveWaypointBecauseFirst>
+  
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Aucun de vos gardiens n'est capable de violence. L'exécution ne sera pas effectuée.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+  
+  <MessageSiteCountdownBecauseNoMoreEnemies>Vous avez vaincu tous les ennemis. Dans {0}, la caravane sera automatiquement réformée.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoEnemiesInitially>Dans {0}, la caravane sera automatiquement réformée. Vous pouvez réformer la caravane maintenant a partir de l'écran Monde.</MessageSiteCountdownBecauseNoEnemiesInitially>
+
+</LanguageData>  

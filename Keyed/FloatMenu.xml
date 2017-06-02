@@ -9,12 +9,14 @@
   <CannotUseReserved>Action impossible (réservé)</CannotUseReserved>
   <CannotUseFull>Action impossible (manque de combustible)</CannotUseFull>
   <LeaderUnavailable>Le chef {0} n'est pas disponible</LeaderUnavailable>
+  <LeaderUnavailableNoLeader>Le chef n'est pas disponible</LeaderUnavailableNoLeader>																					 
 
   <FireAt>Tirer sur {0}</FireAt>
 
   <OutOfRange>hors de portée</OutOfRange>
   <CannotHitTarget>ne peut pas atteindre la cible</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0} est incapable de commettre des actes violents</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>Est incapable de commettre des actes violents</IncapableOfViolenceLower>																									
   <IsNotDraftedLower>{0} n'est pas enrôlé</IsNotDraftedLower>
   <CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
 
@@ -42,6 +44,10 @@
   <NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
   <NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
   <NoWort>nécessite du moût</NoWort>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>la nourriture disponible est dans un stockage de plus haute priorité</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>pas de nourriture adapté</NoFoodToFillHopper>
+  <SelfTendDisabled>auto-soin désactiver</SelfTendDisabled>
+  <ReservedForPrisoners>réservé aux prisonniers</ReservedForPrisoners>														
 
   <ConsumeThing>Consommer {0}</ConsumeThing>
 
@@ -115,8 +121,10 @@
   <CannotTrade>Impossible de commercer</CannotTrade>
 
   <EnterMap>Entrer {0}</EnterMap>
-  <VisitFactionBase>Visiter {0}</VisitFactionBase>
-  <AttackFactionBase>Attaquer {0}</AttackFactionBase>
+  <VisitSettlement>Visiter {0}</VisitSettlement>
+  <VisitSite>Visiter {0}</VisitSite>
+  <AttackSite>Attaquer {0}</AttackSite>
+  <AttackSettlement>Attaquer {0}</AttackSettlement>									   
 
   
   <EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
@@ -132,6 +140,7 @@
 
   <CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkTypeDisabled>
 
+  <CannotPrioritizeWorkGiverDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkGiverDisabled>
   <CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser (n'est pas affecté à {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>Ne peut pas prioriser (La recherche est une tâche de longue durée)</CannotPrioritizeResearch>
@@ -145,4 +154,10 @@
   <DropAtEdge>Déposer au bord</DropAtEdge>
   <DropInCenter>Déposer au centre</DropInCenter>
 
+  <VomitingLower>vomissement</VomitingLower>
+  <NotInterruptibleLower>impossible a interrompre</NotInterruptibleLower>
+  
+  <AddWaypoint>Ajouter un nouveau marqueur ici</AddWaypoint>
+  <RemoveWaypoint>Supprimer le marqueur</RemoveWaypoint>
+  
 </LanguageData>
