@@ -19,19 +19,19 @@
   
   <ErrorWhileLoadingAssetsTitle>Erreur au chargement des graphismes</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>Une erreur est survenue lors du chargement des éléments graphiques du jeu. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Le jeu est lancé avec des mods non officiels ; il peuvent ou non être à l'origine de ces problèmes.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>Le jeu est lancé avec des mods non officiels ; ils peuvent ou non être à l'origine de ces problèmes.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Erreur à la génération d'une carte</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>Une erreur est survenue lors de la génération d'une nouvelle carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Erreur au chargement d'une carte</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
 
   
-  <ModsChanged>La liste de mods a changer. Le jeu va redémarer automatiquement.</ModsChanged>
+  <ModsChanged>La liste de mods a changé. Le jeu va redémarer automatiquement.</ModsChanged>
   <FailedToRestart>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</FailedToRestart>
   <Restarting>Redémarrage en cours</Restarting>										
 
   
-  <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles:\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
+  <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles :\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
 
   
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
@@ -136,7 +136,7 @@
   <CurrentlyHave>Actuellement possédé</CurrentlyHave>
   <CountingProducts>Compte</CountingProducts>
   <Infinite>Infini</Infinite>
-  <AllowedSkillRange>Autorisé niveau {0}:</AllowedSkillRange>
+  <AllowedSkillRange>Autorisé niveau {0} :</AllowedSkillRange>
 
   <RecipeCannotHaveTargetCount>(Cette recette ne peut pas avoir de quantité cible car ses résultats sont multiples ou imprévisibles.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantité de travail</WorkAmount>
@@ -144,7 +144,7 @@
   <BillRequires>Requiert {0} {1}</BillRequires>
   <BillRequiresNutrition>Requiert {0} nourriture</BillRequiresNutrition>
   <BillRequiresMayVary>(Note : les ingrédients de petit volume, comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Ceci est un ingrédient de  petit volume. Cela signifie que chaque unité ne compte que pour 1/10 d'un ingrédient de volume norma. Pour atteindre la même quantité, vous aurez donc besoin de 10 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Ceci est un ingrédient de  petit volume. Cela signifie que chaque unité ne compte que pour 1/10 d'un ingrédient de volume normal. Pour atteindre la même quantité, vous aurez donc besoin de 10 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <DoXTimes>Faire X fois</DoXTimes>
   <DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>
@@ -171,7 +171,7 @@
   <Harvestable>Récoltable</Harvestable>
   <LimitedLifespan>Durée de vie limitée</LimitedLifespan>
   <GrowingTime>Temps de croissance</GrowingTime>
-  <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre a taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
+  <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre la taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <Days>jours</Days>
   <MinGrowingSkillToSow>Niveau de fermier minimum pour semer</MinGrowingSkillToSow>
   <FertilityRequirement>Nécessite un sol fertile</FertilityRequirement>
@@ -245,7 +245,7 @@
   <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>Impossible de trouver un point de sortie valide.</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Verifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>																																											  
-  <CaravanCouldNotFindReachableExitSpot>Avertissement: certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Aucun des colons désignés ne peut  accéder aux {0}x {1}.</CaravanItemIsUnreachableMulti>
@@ -277,7 +277,7 @@
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Prisonniers</PrisonersSection>
   <AnimalsSection>Animaux</AnimalsSection>
-  <EstimatedTimeToDestinationButton>Temps estimé pour arriver a destination</EstimatedTimeToDestinationButton>																											   
+  <EstimatedTimeToDestinationButton>Temps estimé pour arriver à destination</EstimatedTimeToDestinationButton>																											   
 
   
   <SplitCaravan>Diviser la caravane</SplitCaravan>
@@ -345,9 +345,9 @@
   <DeleteDrugTooltip>Supprimer cette drogue.</DeleteDrugTooltip>
   <DrugNameColumnDesc>Le nom d'une drogue.</DrugNameColumnDesc>
   <DrugUsageColumnDesc>Comment la drogue est autorisée à être consommer.</DrugUsageColumnDesc>
-  <FrequencyColumnDesc>A quelle fréquence les colons devraient tenter de consommer cette drogue.</FrequencyColumnDesc>
-  <MoodThresholdColumnDesc>Les colons consommereront cette drogue seulement si leur humeur est en dessous de ce seuil.</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>Les colons consommereront cette drogue seulement si leur joie est en dessous de ce seuil.</JoyThresholdColumnDesc>
+  <FrequencyColumnDesc>À quelle fréquence les colons devraient tenter de consommer cette drogue.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Les colons consommeront cette drogue seulement si leur humeur est en dessous de ce seuil.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Les colons consommeront cette drogue seulement si leur joie est en dessous de ce seuil.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Quand la drogue est ramassée pour sa consommation, une quantité supplémentaire est prise afin d'éviter de se rendre à la réserve à chaque fois.</TakeToInventoryColumnDesc>
   <DrugUsageTipForAddiction>Pour les addictions\n\nUtilisez cette drogue pour répondre aux besoins de dépendance déjà établis.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForAddiction>
   <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForJoy>
@@ -366,8 +366,8 @@
 
   
   <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
-  <ConfirmAbandonHomeNegativeThoughts>L'abandon de {0} entraînera les membres de la caravane a avoir les pensées suivantes:</ConfirmAbandonHomeNegativeThoughts>
-  <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  <ConfirmAbandonHomeNegativeThoughts>L'abandon de {0} entraînera les membres de la caravane à avoir les pensées suivantes :</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous :</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   
   <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
@@ -375,9 +375,9 @@
   
   <ConfirmAbandonPawnDialog>Voulez-vous réellement abandonner {0}?</ConfirmAbandonPawnDialog>
   <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM :</ConfirmAbandonPawnDialog_EquipmentAndApparel>
   <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane a avoir les pensées suivantes: </ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmAbandonPawnDialog_IndividualThoughts>
 
   
   <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. {0} est manquant. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
