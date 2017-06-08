@@ -8,7 +8,7 @@
   
   <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.\n\nCela peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionSavesIncompatible>Cela peut faire arrêter de fonctionner les sauvegardes et les mods des anciennes versions.</GameUpdatedToNewVersionSavesIncompatible>
-  <GameUpdatedToNewVersionSavesCompatible>Les sauvegardes des anciennes versions devrait fonctionner mais quelques mods peuvent arrêter de fonctionner.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Les sauvegardes des anciennes versions devraient fonctionner mais quelques mods pourraient ne plus fonctionner.</GameUpdatedToNewVersionSavesCompatible>																																															
   <GameUpdatedToNewVersionNonSteam>Cette copie ne contient pas de DRM, vous pouvez installer le jeu deux fois dans deux dossiers différents pour jouer à la fois à l'ancienne et à la nouvelle version.</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter cela.</GameUpdatedToNewVersionSteam>
 
@@ -31,7 +31,7 @@
   <Restarting>Redémarrage en cours</Restarting>
 
   
-  <SteamClientMissing>Ne peut pas initialiser l'API Steam. Causes possibles :\n\n-Steam n'est pas démarré.\n-A été lancé en dehors de Steam sans steam_appid.txt en place.\n-A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
+  <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
 
   
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
@@ -43,7 +43,7 @@
   <LoadingWorld>Chargement du monde</LoadingWorld>
   <LoadingMap>Chargement de la carte</LoadingMap>
   <InitializingGame>Initialisation du jeu</InitializingGame>
-  <SpawningAllThings>Apparition de tout les objets</SpawningAllThings>
+  <SpawningAllThings>Apparition de tous les objets</SpawningAllThings>
   <SpawningColonists>Apparition des personnages</SpawningColonists>
 
   
@@ -336,7 +336,7 @@
   <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
   <FrequencyColumnLabel>Frequence</FrequencyColumnLabel>
   <MoodThresholdColumnLabel>Seulement si l'humeur est en dessous de</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>Seulement si la joie est en dessous de</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Seulement si le plaisir est en dessous de</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>Prendre dans l'inventaire</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>(pas de drogue)</NoDrugsBrackets>
   <EveryDay>Tous les jours</EveryDay>
@@ -348,7 +348,7 @@
   <DrugUsageColumnDesc>Comment la drogue est autorisée à être consommer.</DrugUsageColumnDesc>
   <FrequencyColumnDesc>À quelle fréquence les colons devraient tenter de consommer cette drogue.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>Les colons consommeront cette drogue seulement si leur humeur est en dessous de ce seuil.</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>Les colons consommeront cette drogue seulement si leur joie est en dessous de ce seuil.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Les colons consommeront cette drogue seulement si leur plaisir est en dessous de ce seuil.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>Quand la drogue est ramassée pour sa consommation, une quantité supplémentaire est prise afin d'éviter de se rendre à la réserve à chaque fois.</TakeToInventoryColumnDesc>
   <DrugUsageTipForAddiction>Pour les addictions\n\nUtilisez cette drogue pour répondre aux besoins de dépendance déjà établis.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForAddiction>
   <DrugUsageTipForJoy>Récréatif\n\nUtiliser cette drogue à des fins festives et sociales, et pour satisfaire son addiction, au choix.\n\nMême désactivé, certains personnages ayant des traits spécifiques ou des crises de nerfs peuvent dans tous les cas consommer de la drogue.</DrugUsageTipForJoy>
@@ -357,14 +357,14 @@
 
   <MedGroupDefaults>Défaut</MedGroupDefaults>
   <MedGroupColonist>Colons</MedGroupColonist>
-  <MedGroupImprisonedColonist>Colons emprisonné</MedGroupImprisonedColonist>
+  <MedGroupImprisonedColonist>Colons emprisonnés</MedGroupImprisonedColonist>
   <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
-  <MedGroupNeutralAnimal>Animaux neutre</MedGroupNeutralAnimal>
-  <MedGroupNeutralFaction>Factions neutre</MedGroupNeutralFaction>
-  <MedGroupHostileFaction>Factions hostile </MedGroupHostileFaction>
 
+  <MedGroupNeutralAnimal>Animaux neutres</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Factions neutres</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Factions hostiles</MedGroupHostileFaction>
   
-  <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucuns de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucun de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
   
   <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
@@ -372,16 +372,16 @@
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous :</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   
-  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   
-  <ConfirmAbandonPawnDialog>Voulez-vous réellement abandonner {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog>Souhaitez-vous vraiment abandonner {0} ?</ConfirmAbandonPawnDialog>
   <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivant avec  HIM :</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivants avec HIM :</ConfirmAbandonPawnDialog_EquipmentAndApparel>
   <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
   <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmAbandonPawnDialog_IndividualThoughts>
 
   
-  <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. {0} est manquant. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {0}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>
