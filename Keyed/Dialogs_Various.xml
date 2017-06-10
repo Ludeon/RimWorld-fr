@@ -28,7 +28,7 @@
   
   <ModsChanged>La liste de mods a changé. Le jeu va redémarer automatiquement.</ModsChanged>
   <FailedToRestart>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</FailedToRestart>
-  <Restarting>Redémarrage en cours</Restarting>										
+  <Restarting>Redémarrage en cours</Restarting>
 
   
   <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
@@ -157,8 +157,9 @@
   <PauseWhenSatisfied>Arrêt quand satisfait</PauseWhenSatisfied>
   <UnpauseWhenYouHave>Continuer jusqu'à</UnpauseWhenYouHave>
   <Paused>En arrêt</Paused>
-  <Unpause>Continuer</Unpause>					  
-  
+  <Unpause>Continuer</Unpause>
+
+
   <Damage>Dégâts</Damage>
   <Accuracy>Précision</Accuracy>
   <BurstShotCount>Nombre de tirs par rafale</BurstShotCount>
@@ -192,7 +193,7 @@
   <CoverEffectiveness>Efficacité de la protection</CoverEffectiveness>
   <CoverEffectivenessExplanation>Avec quelle efficacité ceci peut être utilisé comme protection durant une fusillade. Les pourcentages élevés arrêteront plus de tirs.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Facteur de gain d'expérience</MedicineXpGainFactor>
-  <BodyPartEfficiency>Efficacité de la partie du corps</BodyPartEfficiency>
+<!--   <BodyPartEfficiency>Efficacité de la partie du corps</BodyPartEfficiency> -->
   <MoodChange>Changement d'humeur</MoodChange>
   <Wildness>Sauvagerie</Wildness>
   <WildnessExplanation>Plus la créature est sauvage, plus il sera difficile de l'apprivoiser / entraîner / domestiquer.</WildnessExplanation>
@@ -219,8 +220,8 @@
   <YourTradeableSilverTip>Vous ne pouvez commercer qu'avec de l'argent qui n'est pas sous un toit et qui est près d'une balise de commerce orbital.</YourTradeableSilverTip>
   <TraderHasNoMore>Le marchand n'en a plus.</TraderHasNoMore>
   <ColonyHasNoMore>La colonie n'a plus rien à vendre.</ColonyHasNoMore>
-  <Negotiator>Marchand</Negotiator>								   
   <TraderWillNotTrade>Le marchand n'est pas intéressé par cet objet.</TraderWillNotTrade>
+  <Negotiator>Marchand</Negotiator>
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
   <SortBy>Trier par</SortBy>
@@ -244,7 +245,7 @@
   <CaravanConfigTab>Config</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>Impossible de trouver un point de sortie valide.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Verifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>																																											  
+  <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Verifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
@@ -253,21 +254,21 @@
   <CaravanMassUsageTooltip>La charge actuelle et la capacité de transport.\n\nLa charge actuelle inclut le poids total des articles dans la caravane ainsi que tous les équipements des colons. \n\nVous ne pourrez pas envoyer la caravane si la charge actuelle dépasse la capacité.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>{0} jours de nourriture</DaysWorthOfFoodInfo>
-  <DaysWorthOfFoodInfoRot>{0} jours de nourriture, elle pourrira dans {1} jours</DaysWorthOfFoodInfoRot>																										
+  <DaysWorthOfFoodInfoRot>{0} jours de nourriture, elle pourrira dans {1} jours</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>																																																																											 
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
-  <CaravanFoodWillRotSoonWarningDialog>A large part of the assigned food will rot soon.\n\nAre you sure you want to form this caravan?</CaravanFoodWillRotSoonWarningDialog>																																											
+  <CaravanFoodWillRotSoonWarningDialog>A large part of the assigned food will rot soon.\n\nAre you sure you want to form this caravan?</CaravanFoodWillRotSoonWarningDialog>
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direction de sortie </ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
   <MarketValueTip>Valeur marchande</MarketValueTip>
-  <DaysUntilRotTip>Le nombre de jours avant que cet objet commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>																																				
+  <DaysUntilRotTip>Le nombre de jours avant que cet objet commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>
   <MassCapacity>Capacité de transport</MassCapacity>
   <Mass>Poids</Mass>
   <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
@@ -277,9 +278,9 @@
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Prisonniers</PrisonersSection>
   <AnimalsSection>Animaux</AnimalsSection>
-  <EstimatedTimeToDestinationButton>Temps estimé pour arriver à destination</EstimatedTimeToDestinationButton>																											   
+  <EstimatedTimeToDestinationButton>Temps estimé pour arriver à destination</EstimatedTimeToDestinationButton>
 
-  
+
   <SplitCaravan>Diviser la caravane</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Vous devez garder au moins un colon valide dans la caravane actuelle.</SourceCaravanMustHaveAtLeastOneColonist>
   <CaravanSplitSourceLabel>Actuelle</CaravanSplitSourceLabel>
@@ -358,10 +359,10 @@
   <MedGroupColonist>Colons</MedGroupColonist>
   <MedGroupImprisonedColonist>Colons emprisonnés</MedGroupImprisonedColonist>
   <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
+
   <MedGroupNeutralAnimal>Animaux neutres</MedGroupNeutralAnimal>
   <MedGroupNeutralFaction>Factions neutres</MedGroupNeutralFaction>
   <MedGroupHostileFaction>Factions hostiles</MedGroupHostileFaction>
-  
   
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucun de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
