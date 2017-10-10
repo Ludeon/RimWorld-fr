@@ -26,7 +26,7 @@
   <ErrorWhileLoadingMap>Une erreur est survenue lors du chargement d'une carte. Consultez le rapport d'erreur pour plus d'informations.</ErrorWhileLoadingMap>
 
   
-  <ModsChanged>La liste de mods a changé. Le jeu va redémarer automatiquement.</ModsChanged>
+  <ModsChanged>La liste de mods a changé. Le jeu va redémarrer automatiquement.</ModsChanged>
   <FailedToRestart>Le jeu ne peut pas décharger entièrement le code modifié par les mods désactivés, aussi le code de ces mods pourrait être toujours actif.\n\n.Il est recommandé que vous quittiez et relanciez le jeu maintenant pour charger tous les mods proprement.</FailedToRestart>
   <Restarting>Redémarrage en cours</Restarting>
 
@@ -201,7 +201,7 @@
   <AnimalFilthRateExplanation>En marchant sur les sols de la colonie, les animaux produisent de la saleté. Cet indicateur représente la saleté moyenne produite par cette animal en marchant sur {0} cases.\n\nLes gros animaux ou ceux qui s'éloignent de l'idée d'animaux de compagnie salissent plus que les petits.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Divers</MiscRecordsCategory>
-  <Addictiveness>Addictivité</Addictiveness>
+  <Addictiveness>Addiction</Addictiveness>
   <PackAnimal>Bête de somme</PackAnimal>
   <PackAnimalExplanation>Indique si cet animal peut être utilisé pour transporter des objets dans une caravane sur de longues distances.</PackAnimalExplanation>
 
@@ -242,10 +242,10 @@
   <FormCaravanColonyThingCountTip>Quantité d'articles disponibles pour la caravane.</FormCaravanColonyThingCountTip>
   <PawnsTab>Personnes et animaux</PawnsTab>
   <ItemsTab>Articles</ItemsTab>
-  <CaravanConfigTab>Connfiguration</CaravanConfigTab>
+  <CaravanConfigTab>Configuration</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>Impossible de trouver un point de sortie valide.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Verifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindExitSpot>Le point de sortie choisi ({0}) est invalide.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Vérifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
@@ -259,8 +259,8 @@
   <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
   <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nEtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
+  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
   <CaravanFoodWillRotSoonWarningDialog>Une grande part de la nourriture désignée pourrira bientôt.\n\nÊtes-vous sûr(e) de vouloir former cette caravane ?</CaravanFoodWillRotSoonWarningDialog>
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
@@ -334,7 +334,7 @@
   <AddDrug>Ajouter une drogue...</AddDrug>
   <DrugColumnLabel>Drogue</DrugColumnLabel>
   <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
-  <FrequencyColumnLabel>Frequence</FrequencyColumnLabel>
+  <FrequencyColumnLabel>Fréquence</FrequencyColumnLabel>
   <MoodThresholdColumnLabel>Seulement si l'humeur est en dessous de</MoodThresholdColumnLabel>
   <JoyThresholdColumnLabel>Seulement si le plaisir est en dessous de</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>Prendre dans l'inventaire</TakeToInventoryColumnLabel>
@@ -367,12 +367,12 @@
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucun de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
   
-  <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Etes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Êtes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <ConfirmAbandonHomeNegativeThoughts>L'abandon de {0} entraînera les membres de la caravane à avoir les pensées suivantes :</ConfirmAbandonHomeNegativeThoughts>
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous :</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   
-  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nEtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nÊtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   
   <ConfirmAbandonPawnDialog>Souhaitez-vous vraiment abandonner {0} ?</ConfirmAbandonPawnDialog>
