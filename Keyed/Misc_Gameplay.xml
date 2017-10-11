@@ -66,7 +66,7 @@
   <RadiusExpandsIn>rayon s'étend sur</RadiusExpandsIn>
   <Permanent>permanent</Permanent>
   <CaravanResting>Repos.</CaravanResting>
-  <CaravanEstimatedTimeToDestination>Durée de trajet estimée : {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Durée estimée du trajet jusqu'à destination : {0} jours</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>Immobilisée : trop chargée.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Pénurie de nourriture.</CaravanOutOfFood>
   <CaravanDaysOfFood>Jours de nourriture : {0}</CaravanDaysOfFood>
@@ -77,8 +77,8 @@
   <CaravanTraveling>En mouvement.</CaravanTraveling>
   <CaravanWaiting>En attente.</CaravanWaiting>
   <CaravanHoursPerTile>h/case</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>Durée de trajet de base</CaravanBaseMovementTime>
-  <CurrentTileMovementTime>Durée de trajet actuelle</CurrentTileMovementTime>
+  <CaravanBaseMovementTime>Vitesse de déplacement de base</CaravanBaseMovementTime>
+  <CurrentTileMovementTime>Durée du trajet en cours</CurrentTileMovementTime>
   <Temperature>Température</Temperature>
   <BadTemperature>mauvaise température</BadTemperature>
   <IdealFermentingTemperature>Température idéale de fermentation</IdealFermentingTemperature>
@@ -96,7 +96,7 @@
   <BeautyHere>Beauté ici</BeautyHere>
   <NoPower>Pas d'énergie</NoPower>
   <WorkSpeedPenalty>Pénalité de la vitesse de travail</WorkSpeedPenalty>
-  <DisabledCommand>DESACTIVE</DisabledCommand>
+  <DisabledCommand>DÉSACTIVÉ</DisabledCommand>
   <ReadyForLaunch>Prêt pour le lancement.</ReadyForLaunch>
   <NotReadyForLaunch>Pas prêt pour le lancement.</NotReadyForLaunch>
   <NotAllInGroupConnectedToFuelingPort>pas alimenté en carburant</NotAllInGroupConnectedToFuelingPort>
@@ -108,16 +108,16 @@
   <RoomSurgerySuccessChanceFactor>Chance de succès de la salle de chirurgie</RoomSurgerySuccessChanceFactor>
   <RoomInfectionChanceFactor>Chance d'infection de la chambre</RoomInfectionChanceFactor>
   <VentClosed>Fermé</VentClosed>
-  <WornBy>gagner par {0}</WornBy>
-  <EquippedBy>équipé par{0}</EquippedBy>
+  <WornBy>porté par {0}</WornBy>
+  <EquippedBy>équipé par {0}</EquippedBy>
   <QuestTargetDestroyInspectString>{0} veut que cela soit détruit.\n    Récompense : {1}.</QuestTargetDestroyInspectString>
-  <WorldObjectTimeout>Temps restants : {0}</WorldObjectTimeout>
+  <WorldObjectTimeout>Temps restant : {0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>Efficacité : {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contenus : {0}.</ItemStashContents>
   <SomeItemStashContents>Quelques contenus : {0}.</SomeItemStashContents>
   <ClickToSortByThisColumn>cliquer pour ordonner par la colonne.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + clic : Augmente la priorité\nShift + clic droit : Diminue la priorité</WorkPriorityShiftClickTip>
-  <WorkPriorityShiftClickEnableDisableTip>Shift + click : Activer tout\nShift + clic droit : Désactiver tous</WorkPriorityShiftClickEnableDisableTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + clic : Activer tout\nShift + clic droit : Désactiver tout</WorkPriorityShiftClickEnableDisableTip>
   <AllowedAreaShiftClickTip>Shift + clic : Régler tout à Base\nShift + clic droit : Régler tout à non restreint</AllowedAreaShiftClickTip>
   <CheckboxShiftClickTip>Shift + clic : Cocher tout\nShift + clic droit : Décocher tout</CheckboxShiftClickTip>
   <KnownSiteThreat>Menace : {0}.</KnownSiteThreat>
@@ -322,7 +322,7 @@
   <AllowAll>Tout autoriser</AllowAll>
 
   
-  <HitPoints>{0} points de dégâts</HitPoints>
+  <HitPoints>{0} points de vie</HitPoints>
   <AnyQuality>toutes qualités</AnyQuality>
   <OnlyQuality>{0} uniquement</OnlyQuality>
 
@@ -440,7 +440,7 @@
   <MarriageSpotNotStandable>bloqué</MarriageSpotNotStandable>
   <MarriageSpotDangerous>trop dangereux pour {0}</MarriageSpotDangerous>
   <MarriageSpotForbidden>interdit pour {0}</MarriageSpotForbidden>
-  <MarriageSpotReserved>reservé</MarriageSpotReserved>
+  <MarriageSpotReserved>réservé</MarriageSpotReserved>
   <MarriageSpotUnreachable>inaccessible pour {0}</MarriageSpotUnreachable>
   <MarriageSpotInPrisonCell>dans une cellule de prison</MarriageSpotInPrisonCell>
   <NotEnjoyableOutsideTemperature>température inconfortable</NotEnjoyableOutsideTemperature>
@@ -459,7 +459,7 @@
 
   
   <ProgressToNextLump>Avancement du prochain bloc</ProgressToNextLump>
-  <ResourceBelow>Resource en dessous</ResourceBelow>
+  <ResourceBelow>Ressource en dessous</ResourceBelow>
 
   
   <LearningHelper>Assistant d'apprentissage</LearningHelper>
