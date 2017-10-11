@@ -74,7 +74,7 @@
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Drone psychique</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>Un très violent mal de tête affecte tous vos colons {0} !\n\nUn drone psychique lointain s'agite. Il projette une puissante onde psychique à travers toute la région, sur une fréquence que semble n'affecter que les colons de sexe {0}. Pendant plusieurs jours, leur état d'esprit va se dégrader.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Un très violent mal de tête affecte tous vos colons {0} !\n\nUn drone psychique lointain s'agite. Il projette une puissante onde psychique à travers toute la région, sur une fréquence qui semble n'affecter que les colons de sexe {0}. Pendant plusieurs jours, leur état d'esprit va se dégrader.</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Vague psychique apaisante</LetterLabelPsychicSoothe>
   <LetterIncidentPsychicSoothe>Tous les colons {0}s sourient de contentement !\n\nUn quelconque dispositif de bonheur s'agite. Il projette une puissante vague psychique dans toute la région, la fréquence ne semble affecter que les {0}s. Pour quelques jours, certaines personnes seront légèrement de meilleure humeur.</LetterIncidentPsychicSoothe>
@@ -110,7 +110,7 @@
 
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail "Réparation" ne s'en sera pas occupé.</LetterBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail "Construction" ne s'en sera pas occupé.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
   <RansomDemandTitle>Demande de rançon à {0}</RansomDemandTitle>
@@ -126,28 +126,28 @@
   <CaravanMeeting>Votre caravane et une caravane venant de {0} se rencontrent pacifiquement. Cette autre caravane est composée de :\n\n{1}</CaravanMeeting>
   <CaravanMeeting_Trade>Commercer</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Attaquer</CaravanMeeting_Attack>
-  <CaravanMeeting_MoveOn>Continuer</CaravanMeeting_MoveOn>
+  <CaravanMeeting_MoveOn>Continuer son trajet</CaravanMeeting_MoveOn>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Demande de caravane</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>Une colonie à proximité, {0}, vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter :\n\n  {1}\n\nEn retour, ils offrent :\n\n  {2}\n\nCette demande expire après : {3}\n\nSi vous souhaitez faire l'échange, Envoyer une caravane avec les fournitures demandées. Vous pouvez consulter cette offre en sélectionnant {0} sur la carte du monde.</LetterCaravanRequest>
+  <LetterCaravanRequest>Une colonie à proximité, {0}, vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter :\n\n  {1}\n\nEn retour, ils offrent :\n\n  {2}\n\nCette demande expire après : {3}\n\nSi vous souhaitez faire l'échange, envoyez une caravane avec les fournitures demandées. Vous pouvez consulter cette offre en sélectionnant {0} sur la carte du monde.</LetterCaravanRequest>
   <CaravanRequestInfo>Demande : {0}, Récompense : {1} (manquent {2})</CaravanRequestInfo>
 
   <!-- Caravan demand -->
-  <CaravanDemandTitle>Embuscade par {0}</CaravanDemandTitle>
+  <CaravanDemandTitle>Embuscade de caravane par {0}</CaravanDemandTitle>
   <CaravanDemand>Votre caravane a été prise en embuscade par un groupe de {1} {3} appartenant à la faction - {0} - Ils vont attaquer à moins que vous ne leur donniez :\n\n{2}</CaravanDemand>
-  <CaravanDemand_Give>Donnez et passer</CaravanDemand_Give>
+  <CaravanDemand_Give>Donner et continuer son trajet</CaravanDemand_Give>
   <CaravanDemand_Fight>Refuser et se battre</CaravanDemand_Fight>
 
   <!-- Temporary item stash -->
-  <ItemStashQuestTitle>Offre de récupération</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Acceptez</ItemStashQuest_Accept>
+  <ItemStashQuestTitle>Informations à propos d'une planque</ItemStashQuestTitle>
+  <ItemStashQuest_Accept>Accepter</ItemStashQuest_Accept>
   <ItemStashQuest_Reject>Rejeter</ItemStashQuest_Reject>
   <ItemStashQuestFeeDemand>{0} est prêt à nous dire l'emplacement de la planque en échange de {1} argent.</ItemStashQuestFeeDemand>
-  <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait surveiller le cache.</ItemStashSitePart_Unknown>
+  <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait protéger la planque.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dit que la planque n'est pas surveillée.</ItemStashSitePart_Nothing>
   <ItemStashSitePart_Outpost>{0} dit qu'il y a un avant-poste ennemi à proximité.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} dit que la planque est entouré par des tourelles ennemies.</ItemStashSitePart_Turrets>
+  <ItemStashSitePart_Turrets>{0} dit que la planque est entourée par des tourelles ennemies.</ItemStashSitePart_Turrets>
   <ItemStashSitePart_Manhunters>{0} dit qu'il y a une meute d'animaux chasseurs d'hommes qui erre à proximité de la planque.</ItemStashSitePart_Manhunters>
 
 </LanguageData>
