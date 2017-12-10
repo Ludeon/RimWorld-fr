@@ -30,7 +30,7 @@
   <RecruitSuccess>{0} a réussi à recruter {1} ({2} chances de succès).</RecruitSuccess>
   <RecruitFail>{0} n'a pas réussi à recruter {1} ({2} chances de succès).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME is {0}'s {1}. If NAME dies, {0} will suffer from long-lasting grief. However, if you manage to rescue NAME, {0} will be very happy for a long time.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>NAME est {0} de {1}. Si NAME meurt, {0} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver NAME, {0} sera très heureux pour longtemps.</RelatedPawnInvolvedInQuest>
 
   <LetterLabelBirthday>Anniversaire</LetterLabelBirthday>
   <BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui ! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nVeuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
@@ -40,9 +40,9 @@
   <NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
   <NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
 
-  <PawnWasFormerlyColonist>{0} was formerly part of your faction.</PawnWasFormerlyColonist>
-  <PawnHasTheseRelationshipsWithColonists>{0} has these relationships with your colonists:</PawnHasTheseRelationshipsWithColonists>
-  <PrisonerRescueTimeout>The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again.</PrisonerRescueTimeout>
+  <PawnWasFormerlyColonist>{0} faisait autrefois partie de votre groupe.</PawnWasFormerlyColonist>
+  <PawnHasTheseRelationshipsWithColonists>{0} a ces relations avec vos colons:</PawnHasTheseRelationshipsWithColonists>
+  <PrisonerRescueTimeout>Le camp disparaîtra après {0} jours. Si vous ratez cette opportunité, vous ne pourrez plus jamais entendre parler de {1}.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Danger antique</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>Alors que {0} s'approche de l'ancien mur, un pressentiment l'envahit. HECAP ne saurait pas l'expliquer, mais HE sent que cette structure poussiéreuse pourrait contenir un grand danger.</AncientShrineWarning>
@@ -161,30 +161,30 @@
   <LetterFoundPreciousLump>Votre scanner minéral à longue portée a trouvé un affleurement de ressources précieuses à proximité.\n\nNous ne savons pas qui, ou quoi... pourrait le surveiller.</LetterFoundPreciousLump>
 
   <!-- Sleeping mechanoids -->
-  <LetterLabelSleepingMechanoids>Sleeping mechanoids</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>There are a few sleeping hostile mechanoids in this area.\n\nThe mechanoids may or may not wake up when you approach them, so beware.</LetterSleepingMechanoids>
+  <LetterLabelSleepingMechanoids>Mécanoides dormant</LetterLabelSleepingMechanoids>
+  <LetterSleepingMechanoids>Il y a quelques mécanoïdes hostiles endormis dans cette zone. \n\nLes mécanoïdes peuvent ou non se réveiller quand vous les approchez, alors soyez prudent.</LetterSleepingMechanoids>
 
   <!-- Ambush -->
-  <LetterLabelAmbushInExistingMap>Ambush</LetterLabelAmbushInExistingMap>
-  <LetterAmbushInExistingMap>Your {0} have been ambushed!</LetterAmbushInExistingMap>
+  <LetterLabelAmbushInExistingMap>Embuscade</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Votre {0} est tombé dans une embuscade!</LetterAmbushInExistingMap>
 
   <!-- Peace talks -->
-  <LetterLabelPeaceTalks_Disaster>Peace talks disaster</LetterLabelPeaceTalks_Disaster>
-  <LetterPeaceTalks_Disaster>The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}.</LetterPeaceTalks_Disaster>
-  <LetterLabelPeaceTalks_Backfire>Peace talks backfire</LetterLabelPeaceTalks_Backfire>
-  <LetterPeaceTalks_Backfire>The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}.</LetterPeaceTalks_Backfire>
-  <LetterLabelPeaceTalks_TalksFlounder>Peace talks flounder</LetterLabelPeaceTalks_TalksFlounder>
-  <LetterPeaceTalks_TalksFlounder>The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged.</LetterPeaceTalks_TalksFlounder>
-  <LetterLabelPeaceTalks_Success>Peace talks success</LetterLabelPeaceTalks_Success>
-  <LetterPeaceTalks_Success>The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}.</LetterPeaceTalks_Success>
-  <LetterLabelPeaceTalks_Triumph>Peace talks triumph</LetterLabelPeaceTalks_Triumph>
-  <LetterPeaceTalks_Triumph>The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift: {2}.</LetterPeaceTalks_Triumph>
-  <PeaceTalksSocialXPGain>{0}, your negotiator, has gained {1} social experience.</PeaceTalksSocialXPGain>
+  <LetterLabelPeaceTalks_Disaster>Catastrophe lors des pourparlers de paix</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Les négociations ont été un désastre. Les délégués ont à peine dépassé leurs premières salutations avant que la discussion ne se décompose en insultes et récriminations. \n\nAprès que votre caravane soit partie plus tôt, {0} de {1} l' a rattrapée et attaquée. Après que votre caravane soit partie prématurément, {0} de {1} l' a rattrapée et attaquée! \n\nRelations avec {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>Les discussions de paix se soldent par un contrecoup</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Les pourparlers ont échoué. Malgré quelques plaisanteries, les délégués n'ont fait aucun progrès sur les questions de fond, et de nombreuses déclarations ont été interprétées comme des insultes. \n\nRelations avec {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>Les négociations de paix piétinent</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Les pourparlers ont traîné. Les délégués sont parvenus à communiquer clairement et avec respect, mais n'ont pas pu progresser sur de véritables questions. \n\nLes relations avec {0} restent inchangées.</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>Réussite du dialogue de paix</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Les pourparlers ont été un succès. Les délégués sont parvenus à une nouvelle entente mutuelle sur plusieurs questions importantes. \n\nLes relations avec {0} se sont améliorées de {1}.</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>Les pourparlers de paix remportent un grand succès</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Les pourparlers ont été un grand triomphe! Les délégués se sont rapidement entendus sur le plan personnel et ont pu se voir mutuellement sur les questions les plus difficiles de la journée. \n\nLes relations avec {0} se sont améliorées de {1}. \n\nAu moment où votre caravane est partie, {0} vous a offert un cadeau: {2}.</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>{0}, votre négociateur, a acquis {1} d'expérience sociale.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <LetterRunWildMentalBreak>{0} has decided to leave your faction and live with the animals.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} a décidé de quitter votre faction et de vivre avec les animaux.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <LetterCatatonicMentalBreak>{0} has a catatonic breakdown which will last several days.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} a une dépression catatonique qui durera plusieurs jours.</LetterCatatonicMentalBreak>
 
 </LanguageData>
