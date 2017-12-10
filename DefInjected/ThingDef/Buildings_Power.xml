@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <PowerConduit.label>Câble électrique</PowerConduit.label>
@@ -13,11 +13,17 @@
   <PowerSwitch_Frame.label>un interrupteur</PowerSwitch_Frame.label>
   <PowerSwitch_Frame.description>Coupe ou rétablit le courant.</PowerSwitch_Frame.description>
 
-  <FueledGenerator.label>générateur à combustible</FueledGenerator.label>
-  <FueledGenerator.description>Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main.</FueledGenerator.description>
-  <FueledGenerator_Blueprint.label>générateur à combustible (plan)</FueledGenerator_Blueprint.label>
-  <FueledGenerator_Frame.label>un générateur à combustible</FueledGenerator_Frame.label>
-  <FueledGenerator_Frame.description>Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main.</FueledGenerator_Frame.description>
+  <WoodFiredGenerator.label>wood-fired generator</WoodFiredGenerator.label>
+  <WoodFiredGenerator.description>Produces power by consuming wood fuel. Must be fueled by hand.</WoodFiredGenerator.description>
+  <WoodFiredGenerator_Blueprint.label>wood-fired generator (blueprint)</WoodFiredGenerator_Blueprint.label>
+  <WoodFiredGenerator_Frame.label>wood-fired generator (building)</WoodFiredGenerator_Frame.label>
+  <WoodFiredGenerator_Frame.description>Produces power by consuming wood fuel. Must be fueled by hand.</WoodFiredGenerator_Frame.description>
+
+  <ChemfuelPoweredGenerator.label>chemfuel powered generator</ChemfuelPoweredGenerator.label>
+  <ChemfuelPoweredGenerator.description>Produces power by consuming chemfuel. Must be fueled by hand.</ChemfuelPoweredGenerator.description>
+  <ChemfuelPoweredGenerator_Blueprint.label>chemfuel powered generator (blueprint)</ChemfuelPoweredGenerator_Blueprint.label>
+  <ChemfuelPoweredGenerator_Frame.label>chemfuel powered generator (building)</ChemfuelPoweredGenerator_Frame.label>
+  <ChemfuelPoweredGenerator_Frame.description>Produces power by consuming chemfuel. Must be fueled by hand.</ChemfuelPoweredGenerator_Frame.description>
 
   <Battery.label>Batterie</Battery.label>
   <Battery.description>Stocke l'électricité quand un surplus est produit et le distribue quand ce n'est pas le cas. Attention, les batteries pleines risquent d'exploser si elles sont exposées au feu ou à la pluie.</Battery.description>
@@ -38,5 +44,11 @@
   <GeothermalGenerator_Frame.label>un générateur géothermique</GeothermalGenerator_Frame.label>
   <GeothermalGenerator_Frame.description>Produit de l'électricité grâce aux puissants jets qui s'échappent des geysers. Doit être placé sur un geyser.</GeothermalGenerator_Frame.description>
 
+
+  <!--<FueledGenerator.label>générateur à combustible</FueledGenerator.label>-->
+  <!--<FueledGenerator.description>Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main.</FueledGenerator.description>-->
+  <!--<FueledGenerator_Blueprint.label>générateur à combustible (plan)</FueledGenerator_Blueprint.label>-->
+  <!--<FueledGenerator_Frame.label>un générateur à combustible</FueledGenerator_Frame.label>-->
+  <!--<FueledGenerator_Frame.description>Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main.</FueledGenerator_Frame.description>-->
 
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <StatsReport_BaseValue>Valeur de base</StatsReport_BaseValue>
@@ -10,9 +10,11 @@
   <StatsReport_CharacterQuality>Qualité du personnage</StatsReport_CharacterQuality>
   <StatsReport_Skills>Facteurs de compétence</StatsReport_Skills>
   <StatsReport_OtherStats>Autres Facteurs</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Facteur de santé</StatsReport_HealthFactors>
+  <StatsReport_Health>Health</StatsReport_Health>
   <HealthFactorPercentImpact>{0} importance</HealthFactorPercentImpact>
+  <HealthOffsetScale>{0} impact</HealthOffsetScale>
   <HealthFactorMaxImpact>{0} max</HealthFactorMaxImpact>
+  <HealthFactorAllowedDefect>if below {0}</HealthFactorAllowedDefect>
   <StatsReport_PostProcessed>Courbe de post-traitement</StatsReport_PostProcessed>
   <StatsReport_FinalValue>Valeur Finale</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>Valeur de base du marché calculé à partir des matériaux de construction et de la quantité de travail.</StatsReport_MarketValueFromStuffsAndWork>
@@ -20,6 +22,7 @@
   <StatsReport_AgeMultiplier>Multiplicateur d'âge {0}</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>Multiplicateur de santé {0}</StatsReport_HealthMultiplier>
   <StatsReport_MoodMultiplier>Multiplicateur d'humeur {0}</StatsReport_MoodMultiplier>
+  <StatsReport_LightMultiplier>Multiplier for light {0}</StatsReport_LightMultiplier>
   <StatsReport_DifficultyMultiplier>Multiplicateur de difficulté {0}</StatsReport_DifficultyMultiplier>
   <StatsReport_InBed>Au lit</StatsReport_InBed>
   <StatsReport_Facilities>Équipement</StatsReport_Facilities>
@@ -36,5 +39,10 @@
   <AverageOfAllAttacks>Moyenne d'attaque</AverageOfAllAttacks>
   <StatsReport_ScenarioFactor>Scénario</StatsReport_ScenarioFactor>
   <StatsReport_IngredientsMass>Ingrédients</StatsReport_IngredientsMass>
+  <StatsReport_PermanentlyDisabled>Permanently disabled.</StatsReport_PermanentlyDisabled>
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <StatsReport_AddedBodyPartsMass>Added body parts</StatsReport_AddedBodyPartsMass>
+
+  <!--<StatsReport_HealthFactors>Facteur de santé</StatsReport_HealthFactors>-->
 
 </LanguageData>

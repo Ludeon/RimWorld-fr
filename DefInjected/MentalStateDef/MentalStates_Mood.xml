@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  
+  <!-- Mental breaks: extreme -->
 
   <Berserk.label>fou/folle furieux(se)</Berserk.label>
   <Berserk.beginLetter>{0} devient fou/folle furieux(se) !</Berserk.beginLetter>
@@ -24,8 +24,26 @@
   <BingingDrugExtreme.label>consommation excessive de drogue</BingingDrugExtreme.label>
   <BingingDrugExtreme.baseInspectLine>État mental : se gave de {0}</BingingDrugExtreme.baseInspectLine>
 
+  <Jailbreaker.label>inducing prisoner to escape</Jailbreaker.label>
+  <Jailbreaker.beginLetter>{0} has a mental breakdown and is going to induce prisoners to escape.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetterLabel>jailbreaker</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.recoveryMessage>{0} is no longer inducing prisoners to escape.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.baseInspectLine>Mental state: Jailbreaker</Jailbreaker.baseInspectLine>
 
-  
+  <Slaughterer.label>slaughterer</Slaughterer.label>
+  <Slaughterer.beginLetter>{0} has a mental breakdown and is going to vent HIS anger on your animals.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>slaughterer</Slaughterer.beginLetterLabel>
+  <Slaughterer.recoveryMessage>{0} is no longer slaughtering random animals.</Slaughterer.recoveryMessage>
+  <Slaughterer.baseInspectLine>Mental state: Slaughterer</Slaughterer.baseInspectLine>
+
+  <MurderousRage.label>murderous rage</MurderousRage.label>
+  <MurderousRage.beginLetter>{0} is in a murderous rage. HECAP is going to kill {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetterLabel>murderous rage</MurderousRage.beginLetterLabel>
+  <MurderousRage.recoveryMessage>{0} is no longer in a murderous rage.</MurderousRage.recoveryMessage>
+  <MurderousRage.baseInspectLine>Mental state: Murderous rage</MurderousRage.baseInspectLine>
+
+
+  <!-- Mental breaks: major -->
 
   <BingingDrugMajor.label>consommation importante de drogue</BingingDrugMajor.label>
   <BingingDrugMajor.baseInspectLine>État mental : abuse de {0}</BingingDrugMajor.baseInspectLine>
@@ -36,8 +54,38 @@
   <WanderPsychotic.recoveryMessage>{0} n'est plus dans un état psychotique.</WanderPsychotic.recoveryMessage>
   <WanderPsychotic.baseInspectLine>État mental : psychotique</WanderPsychotic.baseInspectLine>
 
+  <Tantrum.label>tantrum</Tantrum.label>
+  <Tantrum.beginLetter>{0} is having a tantrum.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>tantrum</Tantrum.beginLetterLabel>
+  <Tantrum.recoveryMessage>{0} is no longer having a tantrum.</Tantrum.recoveryMessage>
+  <Tantrum.baseInspectLine>Mental state: Tantrum</Tantrum.baseInspectLine>
 
-  
+  <TargetedTantrum.label>tantrum</TargetedTantrum.label>
+  <TargetedTantrum.beginLetter>{0} is having a tantrum. HECAP is going to destroy {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>tantrum</TargetedTantrum.beginLetterLabel>
+  <TargetedTantrum.recoveryMessage>{0} is no longer having a tantrum.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.baseInspectLine>Mental state: Tantrum</TargetedTantrum.baseInspectLine>
+
+  <BedroomTantrum.label>tantrum</BedroomTantrum.label>
+  <BedroomTantrum.beginLetter>{0} is having a tantrum. HECAP is going to smash furniture in HIS room.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetterLabel>tantrum</BedroomTantrum.beginLetterLabel>
+  <BedroomTantrum.recoveryMessage>{0} is no longer having a tantrum.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.baseInspectLine>Mental state: Tantrum</BedroomTantrum.baseInspectLine>
+
+  <SadisticRage.label>sadistic rage</SadisticRage.label>
+  <SadisticRage.beginLetter>{0} is in a sadistic rage. HECAP is going to vent HIS anger on the prisoners.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>sadistic rage</SadisticRage.beginLetterLabel>
+  <SadisticRage.recoveryMessage>{0} is no longer in a sadistic rage.</SadisticRage.recoveryMessage>
+  <SadisticRage.baseInspectLine>Mental state: Sadistic rage</SadisticRage.baseInspectLine>
+
+  <CorpseObsession.label>corpse obsession</CorpseObsession.label>
+  <CorpseObsession.beginLetter>{0} is having a corpse obsession. HECAP is going to dig up a corpse.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetterLabel>corpse obsession</CorpseObsession.beginLetterLabel>
+  <CorpseObsession.recoveryMessage>{0} is no longer having a corpse obsession.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.baseInspectLine>Mental state: Corpse obsession</CorpseObsession.baseInspectLine>
+
+
+  <!-- Mental breaks: minor -->
 
   <BingingFood.label>Boulimique</BingingFood.label>
   <BingingFood.beginLetter>{0} se goinfre de nourriture.</BingingFood.beginLetter>
@@ -56,6 +104,18 @@
   <WanderOwnRoom.beginLetterLabel>se cache dans sa chambre</WanderOwnRoom.beginLetterLabel>
   <WanderOwnRoom.recoveryMessage>{0} ne se cache plus dans sa chambre.</WanderOwnRoom.recoveryMessage>
   <WanderOwnRoom.baseInspectLine>État mental : se cache dans sa chambre</WanderOwnRoom.baseInspectLine>
+
+  <InsultingSpree.label>insulting spree</InsultingSpree.label>
+  <InsultingSpree.beginLetter>{0} is on an insulting spree.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>insulting spree</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.recoveryMessage>{0} is no longer on an insulting spree.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.baseInspectLine>Mental state: Insulting spree</InsultingSpree.baseInspectLine>
+
+  <TargetedInsultingSpree.label>insulting spree</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.beginLetter>{0} is on an insulting spree against {1}.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>insulting spree</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.baseInspectLine>Mental state: Insulting spree against {0}</TargetedInsultingSpree.baseInspectLine>
 
 
 </LanguageData>

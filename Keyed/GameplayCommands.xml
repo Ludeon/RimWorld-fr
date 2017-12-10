@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Forbid -->
@@ -82,14 +82,20 @@
   <CommandStopForceAttack>Arrêter l'attaque forcée</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Met fin à l'attaque forcée et permet à la tourelle d'attaquer librement des cibles hostiles.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Aucune attaque forcée en cours.</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>Extract shell</CommandExtractShell>
+  <CommandExtractShellDesc>Unloads the current shell so it can be replaced with different ammunition.</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>No shell is loaded.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>Cible hors de portée.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Cible trop proche.</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>Warning: The mortar won't fire because it's set to "Hold fire".</MessageTurretWontFireBecauseHoldFire>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>Lancer le vaisseau</CommandShipLaunch>
   <CommandShipLaunchDesc>Démarre la séquence de lancement avec la configuration actuelle.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Voir le rapport de lancement</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Affiche un rapport sur l'état de lancement du vaisseau.</CommandShipLaunchReportDesc>
+  <CommandShipStartup>Start ship</CommandShipStartup>
+  <CommandShipStartupDesc>Wake up hibernating ship components.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>Éjecter l'occupant</CommandPodEject>
@@ -134,6 +140,10 @@
   <CommandSquadAttack>Attaquer</CommandSquadAttack>
   <CommandSquadAttackDesc>Ordonne aux colons sélectionnés d'aller attaquer la cible désignée.</CommandSquadAttackDesc>
 
+  <!-- Melee attack -->
+  <CommandMeleeAttack>Melee attack</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Order selected colonists to attack designated target using only fists and melee weapons.</CommandMeleeAttackDesc>
+
   <!-- Hold fire -->
   <CommandHoldFire>Cesser le feu</CommandHoldFire>
   <CommandHoldFireDesc>Met fin à l'attaque en cours.</CommandHoldFireDesc>
@@ -163,11 +173,11 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>Fusionner</CommandMergeCaravans>
   <CommandMergeCaravansDesc>Fusionner les caravanes sélectionnées.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>Select all caravans which should be merged. The caravans must be close to each other.</CommandMergeCaravansFailCaravansNotSelected>
 
   <!-- Settle -->
   <CommandSettle>Coloniser</CommandSettle>
   <CommandSettleDesc>Installez-vous dans cette zone. Vos colons entreront dans cette zone et vous pourrez commencer à construire une nouvelle colonie.</CommandSettleDesc>
-<!--   <CommandSettleFailOtherWorldObjectsHere>Votre caravane doit être le seul objet sur cette tuile pour pouvoir coloniser la zone.</CommandSettleFailOtherWorldObjectsHere> -->
   <CommandSettleFailAlreadyHaveBase>Votre faction ne peut avoir qu'une seule base.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Nombre maximum de colonies atteint.</CommandSettleFailReachedMaximumNumberOfBases>
   <CommandSettleFailNoColonists>Il n'y a personne pour réclamer la région.</CommandSettleFailNoColonists>
@@ -235,7 +245,6 @@
   <CommandSelectNextTransporter>Sélectionner le suivant dans groupe de lancement</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>Sélectionnez la capsule de transport suivante dans ce groupe de lancement.</CommandSelectNextTransporterDesc>
 
-  
   <!-- Vent -->
   <CommandDesignateOpenCloseVentLabel>Ouvert/fermer</CommandDesignateOpenCloseVentLabel>
   <CommandDesignateOpenCloseVentDesc>Désignez cette ouverture à être ouvert ou fermer. Un colon viendra bientôt pour accomplir la tâche.</CommandDesignateOpenCloseVentDesc>
@@ -243,5 +252,7 @@
   <!-- Remove waypoint -->
   <CommandRemoveWaypointLabel>Supprimer</CommandRemoveWaypointLabel>
   <CommandRemoveWaypointDesc>Supprimer ce marqueur.</CommandRemoveWaypointDesc>
+
+  <!--   <CommandSettleFailOtherWorldObjectsHere>Votre caravane doit être le seul objet sur cette tuile pour pouvoir coloniser la zone.</CommandSettleFailOtherWorldObjectsHere> -->
 
 </LanguageData>

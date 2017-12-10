@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <LetterLabelAnimalInsanitySingle>Animal fou</LetterLabelAnimalInsanitySingle>
@@ -7,7 +7,7 @@
   <AnimalInsanityMultiple>Une sorte de vague psychique a balayé les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenus fous.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Fléau</LetterLabelCropBlight>
-  <CropBlight>Un mystérieux fléau a détruit vos cultures.</CropBlight>
+  <LetterCropBlight>A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
   <MiracleHeal>{0} a guéri miraculeusement !</MiracleHeal>
@@ -32,6 +32,8 @@
 
   <AnElectricalConduit>Un conduit électrique</AnElectricalConduit>
   <ShortCircuit>Un défaut dans {0} a provoqué un court-circuit.\n\nLes {1} Wd d'électricité présents dans les batteries ont été libérés dans une puissante déflagration.</ShortCircuit>
+  <ShortCircuitStartedFire>A fault in {0} has caused a short circuit which started a fire.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion.</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>Cette énorme quantité d'énergie a provoqué une explosion de taille considérable.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>L'explosion est vraiment énorme ! Wow.</ShortCircuitWasHuge>
 
@@ -118,8 +120,12 @@
   <RansomDemand_Accept>Accepter</RansomDemand_Accept>
   <RansomDemand_Reject>Rejeter</RansomDemand_Reject>
 
-  <!-- Journey -->
+  <!-- Journey-related -->
   <JourneyOffer>Une IA amicale de votre passé, nommée Charlon Whitestone, vous a envoyé un message !\n\nElle vous révèle qu'elle a un vaisseau spatial caché sur cette planète, et vous envoie les coordonnées de sa position. \n\nSi vous arrivez au vaisseau, Charlon vous emmènera dans l'espace, hors de ce monde déjanté.</JourneyOffer>
+  <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
+  <EscapeShipFound>You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</EscapeShipFound>
+  <EscapeShipLostLabel>Ship destroyed</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Rencontre d'une caravane par {0}</CaravanMeetingTitle>
@@ -127,6 +133,7 @@
   <CaravanMeeting_Trade>Commercer</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Attaquer</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continuer son trajet</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>no caravan members capable of trading</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Demande de caravane</LetterLabelCaravanRequest>
@@ -146,8 +153,13 @@
   <ItemStashQuestFeeDemand>{0} est prêt à nous dire l'emplacement de la planque en échange de {1} argent.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait protéger la planque.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dit que la planque n'est pas surveillée.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} dit qu'il y a un avant-poste ennemi à proximité.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} dit que la planque est entourée par des tourelles ennemies.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} dit qu'il y a une meute d'animaux chasseurs d'hommes qui erre à proximité de la planque.</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0} says that {1}.</ItemStashSitePart_Part>
+
+
+  <!--<CropBlight>Un mystérieux fléau a détruit vos cultures.</CropBlight>-->
+  <!-- Journey -->
+  <!--<ItemStashSitePart_Outpost>{0} dit qu'il y a un avant-poste ennemi à proximité.</ItemStashSitePart_Outpost>-->
+  <!--<ItemStashSitePart_Turrets>{0} dit que la planque est entourée par des tourelles ennemies.</ItemStashSitePart_Turrets>-->
+  <!--<ItemStashSitePart_Manhunters>{0} dit qu'il y a une meute d'animaux chasseurs d'hommes qui erre à proximité de la planque.</ItemStashSitePart_Manhunters>-->
 
 </LanguageData>
