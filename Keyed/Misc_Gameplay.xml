@@ -53,8 +53,8 @@
   <RuinedByTemperature>Gâté à cause de la température.</RuinedByTemperature>
   <CorpsePercentMissing>Parties du corps manquantes</CorpsePercentMissing>
   <HiveReproducesIn>Se reproduit dans</HiveReproducesIn>
-  <DormantHiveNotReproducing>Dormant: Not reproducing.</DormantHiveNotReproducing>
-  <NextSpawnedItemIn>Next {0} in</NextSpawnedItemIn>
+  <DormantHiveNotReproducing>Inactif: Ne se reproduit pas.</DormantHiveNotReproducing>
+  <NextSpawnedItemIn>Prochain {0} dans</NextSpawnedItemIn>
   <BrokenDown>Hors d'usage</BrokenDown>
   <BondBrackets>(lien)</BondBrackets>
   <Fuel>Combustible</Fuel>
@@ -81,7 +81,7 @@
   <CaravanHoursPerTile>h/case</CaravanHoursPerTile>
   <CaravanBaseMovementTime>Vitesse de déplacement de base</CaravanBaseMovementTime>
   <CurrentTileMovementTime>Durée du trajet en cours</CurrentTileMovementTime>
-  <StealthFactor>Stealthiness</StealthFactor>
+  <StealthFactor>Furtivité</StealthFactor>
   <Temperature>Température</Temperature>
   <BadTemperature>mauvaise température</BadTemperature>
   <IdealFermentingTemperature>Température idéale de fermentation</IdealFermentingTemperature>
@@ -126,12 +126,12 @@
   <KnownSiteThreat>Menace : {0}.</KnownSiteThreat>
   <KnownSiteThreats>Menaces : {0}.</KnownSiteThreats>
   <KnownSiteThreatsNone>Menaces : aucune.</KnownSiteThreatsNone>
-  <SkillRequirements>Skill Requirements</SkillRequirements>
-  <Products>Products</Products>
-  <DeepDrillExhausted>Deep drill resources exhausted.</DeepDrillExhausted>
-  <Relationship>{0} of {1}</Relationship>
-  <Prisoner>Prisoner</Prisoner>
-  <Refugee>Refugee</Refugee>
+  <SkillRequirements>Compétences requises</SkillRequirements>
+  <Products>Produits</Products>
+  <DeepDrillExhausted>Ressources du forage profond épuisées.</DeepDrillExhausted>
+  <Relationship>{0} de {1}</Relationship>
+  <Prisoner>Prisonnier</Prisoner>
+  <Refugee>Réfugié</Refugee>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contient {0} / {1} moût.</ContainsWort>
@@ -192,7 +192,7 @@
   <!-- Job reports -->
   <ReportHaulingTo>Transporte {0} jusqu'à {1}.</ReportHaulingTo>
   <ReportHauling>Transporte {0}.</ReportHauling>
-  <ReportHaulingUnknown>hauling.</ReportHaulingUnknown>
+  <ReportHaulingUnknown>Transporte.</ReportHaulingUnknown>
   <ReportSleeping>Dort.</ReportSleeping>
   <ReportResting>Se repose.</ReportResting>
   <WatchingSunrise>Admire le lever du soleil</WatchingSunrise>
@@ -200,14 +200,14 @@
   <WatchingSunset>Admire le coucher du soleil</WatchingSunset>
   <Stargazing>Admire les étoiles</Stargazing>
   <WatchingEclipse>Observe l'éclipse</WatchingEclipse>
-  <WatchingAurora>watching the aurora.</WatchingAurora>
+  <WatchingAurora>Observe l'aurore boréale.</WatchingAurora>
   <UsingVerb>Utilise {0} sur {1}.</UsingVerb>
   <AreaLower>zone</AreaLower>
   <ReportCowering>Est accroupi.</ReportCowering>
   <ReportStanding>debout.</ReportStanding>
   <ReportExtinguishingFire>Éteint le feu.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>Éteint le feu sur {0}.</ReportExtinguishingFireOn>
-  <ReportDiggingUpCorpse>digging up corpse.</ReportDiggingUpCorpse>
+  <ReportDiggingUpCorpse>déterre un cadavre.</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Assiste à la cérémonie de mariage</LordReportAttendingMarriageCeremony>
@@ -258,7 +258,7 @@
   <InRestraints>Menotté (ralenti)</InRestraints>
   <Carrying>Transporte</Carrying>
   <AffectedBy>Affecté par :</AffectedBy>
-  <Queued>Queued</Queued>
+  <Queued>En attente</Queued>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nRaccourci : {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
@@ -278,7 +278,7 @@
   <PowerOutput>Énergie produite</PowerOutput>
   <PowerBatteryStored>Stocké</PowerBatteryStored>
   <PowerBatteryEfficiency>Efficacité</PowerBatteryEfficiency>
-  <SelfDischarging>Self-discharging</SelfDischarging>
+  <SelfDischarging>Auto-décharge</SelfDischarging>
 
   <!-- Temperature control -->
   <TargetTemperature>Température cible</TargetTemperature>
@@ -325,8 +325,8 @@
   <GrowYearRound>À l'année</GrowYearRound>
   <GrowSeasonHereNow>La saison de culture commence maintenant.</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>Ne peut pas pousser (température de saison défavorable).</CannotGrowBadSeasonTemperature>
-  <Blighted>Blighted</Blighted>
-  <DyingBecauseExposedToLight>Dying because exposed to light</DyingBecauseExposedToLight>
+  <Blighted>Contaminé</Blighted>
+  <DyingBecauseExposedToLight>Mourant car exposé à la lumière</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <Zone>Zone</Zone>
@@ -356,8 +356,8 @@
   <ShowRoofOverlayToggleButton>Activer/Désactiver l'affichage des toits.</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>Bloquer la rotation de la caméra pour que le Nord soit en haut.</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>Activer/Désactiver l'éclairage jour/nuit.</UsePlanetDayNightSystemToggleButton>
-  <ShowExpandingIconsToggleButton>Toggle displaying expanding icons instead of the regular icons for distant objects.</ShowExpandingIconsToggleButton>
-  <ShowWorldFeaturesToggleButton>Toggle visibility of names of landforms.</ShowWorldFeaturesToggleButton>
+  <ShowExpandingIconsToggleButton>Basculez l'affichage des icônes extensibles au lieu des icônes régulières pour les objets distants.</ShowExpandingIconsToggleButton>
+  <ShowWorldFeaturesToggleButton>Afficher les noms de lieux.</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <Fire>Incendie</Fire>
@@ -395,14 +395,14 @@
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Lancement impossible.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Paré au lancement.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Composants critiques manquants</ShipReportMissingPart>
-  <ShipReportMissingPartRequires>requires</ShipReportMissingPartRequires>
+  <ShipReportMissingPart>Dispositif critiques manquants</ShipReportMissingPart>
+  <ShipReportMissingPartRequires>nécessite</ShipReportMissingPartRequires>
   <ShipReportNoFullPods>Pas de capsule d'hypersommeil utilisée</ShipReportNoFullPods>
-  <ShipReportHibernating>Hibernating component</ShipReportHibernating>
-  <ShipReportNotReady>Component not yet ready</ShipReportNotReady>
-  <HibernateWarning>Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and treasure hunters. Make sure your defenses are prepared first.</HibernateWarning>
-  <HibernateCompleteLabel>Reactor ready</HibernateCompleteLabel>
-  <HibernateComplete>Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</HibernateComplete>
+  <ShipReportHibernating>Dispositif d'hypersommeil</ShipReportHibernating>
+  <ShipReportNotReady>Dispositif non prêt</ShipReportNotReady>
+  <HibernateWarning>Charlon Whitestone est prêt à commencer la séquence de récupération du réacteur en phase d'hibernation.\n\nIl vous avertit que le processus prendra environ 15 jours et que la signature d'énergie sera détectable de loin. Ce type de signature énergétique est révélateur d'un vaisseau interstellaire et attirera des bandes d'assaillants désespérés et de chasseurs de trésors. Assurez-vous que vos défenses sont bien préparées.</HibernateWarning>
+  <HibernateCompleteLabel>réacteur en service</HibernateCompleteLabel>
+  <HibernateComplete>Charlon Whitestone a terminé la séquence de récupération du réacteur. Le réacteur est maintenant prêt à partir.</HibernateComplete>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
@@ -513,9 +513,7 @@
   <OutfitNudist>Nudiste</OutfitNudist>
 
   <!-- Hibernatable -->
-  <HibernatableHibernating>Hibernating</HibernatableHibernating>
-  <HibernatableStartingUp>Starting up</HibernatableStartingUp>
-
-  <!--<ExpandingIconsToggleButton>Activer/Désactiver l'affichage des icônes étendues à la place des icônes régulières pour les objets distants.</ExpandingIconsToggleButton>-->
+  <HibernatableHibernating>En hibernation</HibernatableHibernating>
+  <HibernatableStartingUp>Démarrage</HibernatableStartingUp>
 
 </LanguageData>
