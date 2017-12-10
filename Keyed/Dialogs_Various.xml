@@ -63,8 +63,8 @@
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
   <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
   <LoadAnyway>Charger quand même</LoadAnyway>
-  <ChangeLoadedMods>Load mod list from save</ChangeLoadedMods>
-  <MissingMods>Some mods are unavailable, and need to be installed</MissingMods>
+  <ChangeLoadedMods>Charger liste des mods depuis la sauvegarde</ChangeLoadedMods>
+  <MissingMods>Certains mods ne sont pas disponibles, et doivent être installés</MissingMods>
 
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0} suggère que vous donniez un nom à votre faction.\n\nQuel nom allez-vous lui donner ?</NamePlayerFactionMessage>
@@ -199,13 +199,13 @@
   <Addictiveness>Addiction</Addictiveness>
   <PackAnimal>Bête de somme</PackAnimal>
   <PackAnimalExplanation>Indique si cet animal peut être utilisé pour transporter des objets dans une caravane sur de longues distances.</PackAnimalExplanation>
-  <Skill>Skill</Skill>
-  <SurgerySuccessChanceFactor>Success rate multiplier</SurgerySuccessChanceFactor>
-  <SurgeryRequireBed>Requires bed</SurgeryRequireBed>
-  <WorkSpeedStat>Work speed governed by</WorkSpeedStat>
-  <EfficiencyStat>Output quantity governed by</EfficiencyStat>
-  <ConstructionSkillRequired>Construction skill required</ConstructionSkillRequired>
-  <ConstructionSkillRequiredExplanation>Requires this level of Construction in order to build.</ConstructionSkillRequiredExplanation>
+  <Skill>Compétence</Skill>
+  <SurgerySuccessChanceFactor>Multiplicateur de taux de réussite</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Nécessite un lit</SurgeryRequireBed>
+  <WorkSpeedStat>La vitesse de travail est régie par</WorkSpeedStat>
+  <EfficiencyStat>Quantité de production régie par</EfficiencyStat>
+  <ConstructionSkillRequired>Compétence Construction requise</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Nécessite ce niveau de Construction pour pouvoir construire.</ConstructionSkillRequiredExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Chiffre positif pour acheter.\nChiffre négatif pour vendre.</PositiveBuysNegativeSells>
@@ -225,8 +225,8 @@
   <TraderWillNotTrade>Le marchand n'est pas intéressé par cet objet.</TraderWillNotTrade>
   <Negotiator>Marchand</Negotiator>
   <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
-  <NegotiatorHearingImpaired>Your negotiator {0} cannot hear properly because of poor health.</NegotiatorHearingImpaired>
-  <NegotiatorCapacityImpaired>This will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorCapacityImpaired>
+  <NegotiatorHearingImpaired>Votre négociateur {0} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>Cela affectera les prix des transactions. \n\nPensez à utiliser un négociateur en meilleure santé.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
   <SortBy>Trier par</SortBy>
   <TraderTypePrice>type de marchand</TraderTypePrice>
@@ -266,8 +266,8 @@
   <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
   <CaravanFoodWillRotSoonWarningDialog>Une grande part de la nourriture désignée pourrira bientôt.\n\nÊtes-vous sûr(e) de vouloir former cette caravane ?</CaravanFoodWillRotSoonWarningDialog>
-  <CaravanIncapableOfSocial>You have no caravan members capable of diplomacy or trading.</CaravanIncapableOfSocial>
-  <CaravanAreYouSure>Are you sure you want to form this caravan?</CaravanAreYouSure>
+  <CaravanIncapableOfSocial>Aucun membre de la caravane n'est capable de diplomatie ou de commerce.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Vous êtes sûr de vouloir former une caravane?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direction de sortie </ExitDirection>
@@ -382,26 +382,13 @@
   <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nÊtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmBanishPawnDialog>Do you really want to banish {0}?</ConfirmBanishPawnDialog>
-  <ConfirmBanishPawnDialog_LeftToDie>{0} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
-  <ConfirmBanishPawnDialog_Items>{0} will take the following items with HIM:</ConfirmBanishPawnDialog_Items>
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {0} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog>Voulez-vous vraiment bannir {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} mourra très probablement.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} prendra les éléments suivants avec HIM:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Tous les colons auront la réflexion suivante:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Bannir {0} provoquera, chez les personnes suivantes, la réflexion suivante :</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {0}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
-
-  <!--<DoXTimes>Faire X fois</DoXTimes>-->
-  <!--<DoUntilYouHaveX>Faire jusqu'à en avoir X</DoUntilYouHaveX>-->
-  <!--<DoForever>Faire en boucle</DoForever>-->
-  <!--<BillStoreMode_DropOnFloor>Déposer sur le sol</BillStoreMode_DropOnFloor>-->
-  <!--<BillStoreMode_BestStockpile>Déposer dans la meilleure zone de stockage</BillStoreMode_BestStockpile>-->
-  <!--<BillStoreMode_NearestStockpileAnyPriority>Déposer dans la zone de stockage la plus proche</BillStoreMode_NearestStockpileAnyPriority>-->
-  <!--   <BodyPartEfficiency>Efficacité de la partie du corps</BodyPartEfficiency> -->
-  <!--<ConfirmAbandonPawnDialog>Souhaitez-vous vraiment abandonner {0} ?</ConfirmAbandonPawnDialog>-->
-  <!--<ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>-->
-  <!--<ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivants avec HIM :</ConfirmAbandonPawnDialog_EquipmentAndApparel>-->
-  <!--<ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>-->
-  <!--<ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmAbandonPawnDialog_IndividualThoughts>-->
 
 </LanguageData>
