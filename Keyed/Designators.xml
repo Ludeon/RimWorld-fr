@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <DesignatorCancel>Annuler</DesignatorCancel>
@@ -45,13 +45,12 @@
 
   <DesignatorAreaBuildRoofExpand>Étendre la zone de couverture</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Les colons construiront des toits dans cette zone.</DesignatorAreaBuildRoofExpandDesc>
-  <DesignatorAreaBuildRoofClear>Retirer la zone de couverture</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Supprime une zone où les colons ont construits des toits. Les toits déjà existants ne seront pas retirés, mais les colons n'en reconstruiront plus.</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>Étendre la zone à ciel ouvert</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Crée une zone dans laquelle les plafonds ne seront pas construits. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>Retirer la zone à ciel ouvert</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>Supprime une zone à ciel ouvert, ainsi les colons n'y retireront plus les toits.</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaIgnoreRoofExpand>Ignorer la zone de plafond</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>Les colons vont ignorer les plafonds de cette zone.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>Étendre la zone de déneigement</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>Crée une zone où les colons déblayeront la neige.</DesignatorAreaSnowClearExpandDesc>
@@ -95,7 +94,7 @@
   <DesignatorTameDesc>Apprivoise un animal sauvage.</DesignatorTameDesc>
 
 
-  
+  <!-- Failure messages -->
   <UnchosenStuff>Matériau non sélectionné</UnchosenStuff>
   <TooCloseToMapEdge>Trop près du bord de la carte.</TooCloseToMapEdge>
   <OutOfBounds>Hors limites.</OutOfBounds>
@@ -114,13 +113,13 @@
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
 
 
-  
+  <!-- Mouse attachments -->
   <ExpandOrCreateZone>Étendre {0} ou\nCréer une nouvelle {1}</ExpandOrCreateZone>
   <CreateNewZone>Créer une nouvelle {0}</CreateNewZone>
 
 
-  
+  <!-- Desc helpers -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
-
+  <ConstructionNeeded>Construction requis</ConstructionNeeded>
 
 </LanguageData>

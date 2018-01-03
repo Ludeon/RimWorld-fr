@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Autosaving>Sauvegarde automatique</Autosaving>
@@ -14,7 +14,7 @@
   <CompiledOn>Compilée le {0}</CompiledOn>
   <LoggedIntoSteamAs>Connecté à Steam en tant que {0}</LoggedIntoSteamAs>
 
-  
+  <!-- General-use words -->
   <Yes>Oui</Yes>
   <No>Non</No>
   <min>min</min>
@@ -28,8 +28,9 @@
   <intervalDays>intervalle (jours)</intervalDays>
   <repeat>répéter</repeat>
   <default>défaut</default>
+  <distance>distance</distance>
 
-  
+  <!-- Content generation-->
 
   <MeatLabel>Viande de {0}</MeatLabel>
   <MeatDesc>Viande crue découpée. Peut être cuisinée ou mangée en l'état.</MeatDesc>
@@ -52,8 +53,8 @@
   <FrameLabelExtra> (construction)</FrameLabelExtra>
 
 
-  
-  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} en {0}</ThingMadeOfStuffLabel>
 
   <SomeonesRoom>{1} de {0}</SomeonesRoom>
@@ -61,10 +62,10 @@
 
   <VariousLabel>(divers)</VariousLabel>
 
-  
+  <!-- History events -->
   <ColonistDied>Un colon est décédé.</ColonistDied>
 
-  
+  <!-- Rotation -->
   <North>Nord</North>
   <South>Sud</South>
   <West>Ouest</West>

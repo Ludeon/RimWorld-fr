@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <LetterLabelAnimalInsanitySingle>Animal fou</LetterLabelAnimalInsanitySingle>
@@ -6,8 +6,8 @@
   <LetterLabelAnimalInsanityMultiple>Animaux fous !</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Une sorte de vague psychique a balayé les environs. Vos colons vont bien, mais...\n\nIl semblerait que beaucoup de {0}s dans la région soient devenus fous.</AnimalInsanityMultiple>
 
-  <LetterLabelCropBlight>Fléau</LetterLabelCropBlight>
-  <CropBlight>Un mystérieux fléau a détruit vos cultures.</CropBlight>
+  <LetterLabelCropBlight>Mildiou</LetterLabelCropBlight>
+  <LetterCropBlight>Un colon a remarqué le mildiou sur vos récoltes! Vous devriez couper ou brûler les plantes mortes avant que la maladie ne se propage.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
   <MiracleHeal>{0} a guéri miraculeusement !</MiracleHeal>
@@ -32,6 +32,8 @@
 
   <AnElectricalConduit>Un conduit électrique</AnElectricalConduit>
   <ShortCircuit>Un défaut dans {0} a provoqué un court-circuit.\n\nLes {1} Wd d'électricité présents dans les batteries ont été libérés dans une puissante déflagration.</ShortCircuit>
+  <ShortCircuitStartedFire>Un défaut dans {0} a provoqué un court-circuit qui a déclenché un incendie.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>{0} Wd d'énergie a été déchargé par une explosion électrique.</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>Cette énorme quantité d'énergie a provoqué une explosion de taille considérable.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>L'explosion est vraiment énorme ! Wow.</ShortCircuitWasHuge>
 
@@ -118,8 +120,12 @@
   <RansomDemand_Accept>Accepter</RansomDemand_Accept>
   <RansomDemand_Reject>Rejeter</RansomDemand_Reject>
 
-  <!-- Journey -->
+  <!-- Journey-related -->
   <JourneyOffer>Une IA amicale de votre passé, nommée Charlon Whitestone, vous a envoyé un message !\n\nElle vous révèle qu'elle a un vaisseau spatial caché sur cette planète, et vous envoie les coordonnées de sa position. \n\nSi vous arrivez au vaisseau, Charlon vous emmènera dans l'espace, hors de ce monde déjanté.</JourneyOffer>
+  <EscapeShipFoundLabel>Vaisseau repéré</EscapeShipFoundLabel>
+  <EscapeShipFound>Vous avez atteint les coordonnées envoyées par Charlon Whitestone et découvert le vaisseau spatial caché. \n\nLe réacteur est toujours en mode d'hibernation profonde, donc il ne peut pas voler. Vous pouvez le démarrer en travaillant avec le noyau de l'ordinateur. \n\nCharlon Whitestone vous avertit que le processus de démarrage prendra environ 15 jours, et la signature énergétique sera détectable de loin. Ce type de signature énergétique indique la capacité de vol interstellaire, et attirera des bandes d'assaillants désespérés et de chasseurs de trésors. Assurez-vous que vos défenses sont préparées au préalable.</EscapeShipFound>
+  <EscapeShipLostLabel>Vaisseau détruit</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone vous envoie un message. \n\nIl voit que vous avez perdu le contrôle du vaisseau. Pour l'empêcher de tomber entre de mauvaises mains, il a dû déclencher le mécanisme d'autodestruction du vaisseau. Le vaisseau est maintenant au centre d'un cratère. \n\nVous devrez trouver un autre moyen de quitter cette planète.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Rencontre d'une caravane par {0}</CaravanMeetingTitle>
@@ -127,6 +133,7 @@
   <CaravanMeeting_Trade>Commercer</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Attaquer</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continuer son trajet</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>pas de membres de caravanes capables de négocier</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Demande de caravane</LetterLabelCaravanRequest>
@@ -146,8 +153,6 @@
   <ItemStashQuestFeeDemand>{0} est prêt à nous dire l'emplacement de la planque en échange de {1} argent.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait protéger la planque.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} dit que la planque n'est pas surveillée.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} dit qu'il y a un avant-poste ennemi à proximité.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} dit que la planque est entourée par des tourelles ennemies.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} dit qu'il y a une meute d'animaux chasseurs d'hommes qui erre à proximité de la planque.</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0} dit que {1}.</ItemStashSitePart_Part>
 
 </LanguageData>
