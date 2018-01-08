@@ -145,38 +145,38 @@
   <Combat_Hit.rulePack.rulesStrings.1>logentry(p=0.1)->[initiator_definite] [damaged_past] [recipient_definite] dans le/la [recipient_part0_label] [flavortextadverb].</Combat_Hit.rulePack.rulesStrings.1>
   <Combat_Hit.rulePack.rulesStrings.2>logentry(p=0.1)->[initiator_definite] [damaged_past] [recipient_definite] dans le/la [recipient_part0_label] [flavortextsituation].</Combat_Hit.rulePack.rulesStrings.2>
   <Combat_Hit.rulePack.rulesStrings.3>logentry(p=0.1)->[initiator_definite] [damaged_past] [recipient_definite] dans le/la [recipient_part0_label], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
-  <Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_definite], wielding son/sa [weapon_label] [expertly], [flavortextadverb] [damaged_past] [recipient_definite] in the [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
-  <Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_definite] [destroyed_past] [recipient_definite]'s [destroyed_targets].</Combat_Hit.rulePack.rulesStrings.5>
-  <Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_definite] [destroyed_past] [recipient_definite]'s [destroyed_targets] [destroyed_suffix].</Combat_Hit.rulePack.rulesStrings.6>
-  <Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_definite] [destroyed_past] [recipient_definite]'s [destroyed_targets] [expertly].</Combat_Hit.rulePack.rulesStrings.7>
-  <Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_definite] [destroyed_past] [recipient_definite]'s [destroyed_targets] with [implement].</Combat_Hit.rulePack.rulesStrings.8>
+  <Combat_Hit.rulePack.rulesStrings.4>logentry(p=0.4)->[initiator_definite], maniant son/sa [weapon_label] [expertly], [flavortextadverb] [damaged_past] [recipient_definite] dans le/la [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
+  <Combat_Hit.rulePack.rulesStrings.5>logentry(p=0.3)->[initiator_definite] [destroyed_past] les [destroyed_targets] de [recipient_definite].</Combat_Hit.rulePack.rulesStrings.5>
+  <Combat_Hit.rulePack.rulesStrings.6>logentry(p=0.3)->[initiator_definite] [destroyed_past] les [destroyed_targets] de [recipient_definite] [destroyed_suffix].</Combat_Hit.rulePack.rulesStrings.6>
+  <Combat_Hit.rulePack.rulesStrings.7>logentry(p=0.3)->[initiator_definite] [destroyed_past] les [destroyed_targets] de [recipient_definite] [expertly].</Combat_Hit.rulePack.rulesStrings.7>
+  <Combat_Hit.rulePack.rulesStrings.8>logentry(p=0.3)->[initiator_definite] [destroyed_past] les [destroyed_targets] de [recipient_definite] avec [implement].</Combat_Hit.rulePack.rulesStrings.8>
   <Combat_Hit.rulePack.rulesStrings.9>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [recipient_possessive] [destroyed_targets]</Combat_Hit.rulePack.rulesStrings.9>
   <Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
-  <Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_present] [recipient_possessive] [destroyed_targets] and [damaged_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
-  <Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite] hit [recipient_definite] with a [damaged_inf] from [implement]</Combat_Hit.rulePack.rulesStrings.12>
-  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite] used [implement] to [damaged_inf] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
-  <Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite] [damaged_past] [recipient_definite] with [implement]</Combat_Hit.rulePack.rulesStrings.14>
+  <Combat_Hit.rulePack.rulesStrings.11>result(p=1)->[destroyed_present] [recipient_possessive] [destroyed_targets] et [damaged_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.11>
+  <Combat_Hit.rulePack.rulesStrings.12>action(p=0.3)->[initiator_definite] a frappé [recipient_definite] avec un/une [damaged_inf] de [implement]</Combat_Hit.rulePack.rulesStrings.12>
+  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[initiator_definite] a utilisé [implement] pour [damaged_inf] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.13>
+  <Combat_Hit.rulePack.rulesStrings.14>action->[initiator_definite] [damaged_past] [recipient_definite] avec [implement]</Combat_Hit.rulePack.rulesStrings.14>
   <Combat_Hit.rulePack.rulesStrings.15>action(p=0.6)->[initiator_definite] [damaged_past] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.15>
 
-  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_definite] [tried] to [damaged_inf] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
-  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_definite] [tried] to [damaged_inf] [recipient_definite] with [implement]</Combat_FailIncludes.rulePack.rulesStrings.1>
-  <Combat_FailIncludes.rulePack.rulesStrings.2>action->[initiator_definite] [tried] to use [implement] to [damaged_inf] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.2>
-  <Combat_FailIncludes.rulePack.rulesStrings.3>action->[initiator_definite] swung son/sa [weapon_label] at [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.3>
-  <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_definite] [genericattackverb] [towardsat] [recipient_definite] with [implement]</Combat_FailIncludes.rulePack.rulesStrings.4>
+  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[initiator_definite] [tried] de [damaged_inf] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
+  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[initiator_definite] [tried] de [damaged_inf] [recipient_definite] avec [implement]</Combat_FailIncludes.rulePack.rulesStrings.1>
+  <Combat_FailIncludes.rulePack.rulesStrings.2>action->[initiator_definite] [tried] d'utiliser [implement] pour [damaged_inf] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.2>
+  <Combat_FailIncludes.rulePack.rulesStrings.3>action->[initiator_definite] balancé son/sa [weapon_label] sur [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.3>
+  <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_definite] [genericattackverb] [towardsat] [recipient_definite] avec [implement]</Combat_FailIncludes.rulePack.rulesStrings.4>
   <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[initiator_definite] [genericattackverb] [towardsat] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.5>
-  <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[initiator_definite] [genericattackverb] with [implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
+  <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[initiator_definite] [genericattackverb] avec [implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
   <Combat_FailIncludes.rulePack.rulesStrings.7>towardsat->towards</Combat_FailIncludes.rulePack.rulesStrings.7>
-  <Combat_FailIncludes.rulePack.rulesStrings.8>towardsat->at</Combat_FailIncludes.rulePack.rulesStrings.8>
-  <Combat_FailIncludes.rulePack.rulesStrings.9>genericattackverb->swung</Combat_FailIncludes.rulePack.rulesStrings.9>
-  <Combat_FailIncludes.rulePack.rulesStrings.10>genericattackverb->flailed</Combat_FailIncludes.rulePack.rulesStrings.10>
-  <Combat_FailIncludes.rulePack.rulesStrings.11>genericattackverb->thrashed</Combat_FailIncludes.rulePack.rulesStrings.11>
-  <Combat_FailIncludes.rulePack.rulesStrings.12>tried->tried</Combat_FailIncludes.rulePack.rulesStrings.12>
-  <Combat_FailIncludes.rulePack.rulesStrings.13>tried->attempted</Combat_FailIncludes.rulePack.rulesStrings.13>
+  <Combat_FailIncludes.rulePack.rulesStrings.8>towardsat->sur</Combat_FailIncludes.rulePack.rulesStrings.8>
+  <Combat_FailIncludes.rulePack.rulesStrings.9>genericattackverb->roué de coups</Combat_FailIncludes.rulePack.rulesStrings.9>
+  <Combat_FailIncludes.rulePack.rulesStrings.10>genericattackverb->bastonné</Combat_FailIncludes.rulePack.rulesStrings.10>
+  <Combat_FailIncludes.rulePack.rulesStrings.11>genericattackverb->battu</Combat_FailIncludes.rulePack.rulesStrings.11>
+  <Combat_FailIncludes.rulePack.rulesStrings.12>tried->a essayé</Combat_FailIncludes.rulePack.rulesStrings.12>
+  <Combat_FailIncludes.rulePack.rulesStrings.13>tried->a tenté/Combat_FailIncludes.rulePack.rulesStrings.13>
 
-  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite] avoided [initiator_definite]'s [weapon_label] [damaged_inf].</Combat_Miss.rulePack.rulesStrings.0>
-  <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_definite] missed [recipient_definite] with a [damaged_inf] from [implement].</Combat_Miss.rulePack.rulesStrings.1>
-  <Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->[initiator_definite] [failtype] while trying to [damaged_inf] [recipient_definite] with [implement].</Combat_Miss.rulePack.rulesStrings.2>
-  <Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->[initiator_definite] [failtype] while trying to [damaged_inf] [recipient_definite].</Combat_Miss.rulePack.rulesStrings.3>
+  <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite] a évité le/la [weapon_label] [damaged_inf] de [initiator_definite] .</Combat_Miss.rulePack.rulesStrings.0>
+  <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_definite] a raté [recipient_definite] avec un [damaged_inf] de [implement].</Combat_Miss.rulePack.rulesStrings.1>
+  <Combat_Miss.rulePack.rulesStrings.2>logentry(p=0.2)->[initiator_definite] [failtype] en essayant de [damaged_inf] [recipient_definite] avec [implement].</Combat_Miss.rulePack.rulesStrings.2>
+  <Combat_Miss.rulePack.rulesStrings.3>logentry(p=0.2)->[initiator_definite] [failtype] en essayant de [damaged_inf] [recipient_definite].</Combat_Miss.rulePack.rulesStrings.3>
   <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_definite] [failtype].</Combat_Miss.rulePack.rulesStrings.4>
   <Combat_Miss.rulePack.rulesStrings.5>failtype->stumbled</Combat_Miss.rulePack.rulesStrings.5>
   <Combat_Miss.rulePack.rulesStrings.6>failtype->tripped</Combat_Miss.rulePack.rulesStrings.6>
@@ -189,8 +189,8 @@
   <Combat_Miss.rulePack.rulesStrings.13>result->but stumbled at the last second</Combat_Miss.rulePack.rulesStrings.13>
   <Combat_Miss.rulePack.rulesStrings.14>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</Combat_Miss.rulePack.rulesStrings.14>
 
-  <Combat_Dodge.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite] dodged [initiator_definite]'s [damaged_inf] from [implement].</Combat_Dodge.rulePack.rulesStrings.0>
-  <Combat_Dodge.rulePack.rulesStrings.1>logentry(p=0.2)->[recipient_definite] dodged [initiator_definite]'s [damaged_inf].</Combat_Dodge.rulePack.rulesStrings.1>
+  <Combat_Dodge.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_definite] a esquivé [initiator_definite]'s [damaged_inf] from [implement].</Combat_Dodge.rulePack.rulesStrings.0>
+  <Combat_Dodge.rulePack.rulesStrings.1>logentry(p=0.2)->[recipient_definite] a esquivé [initiator_definite]'s [damaged_inf].</Combat_Dodge.rulePack.rulesStrings.1>
   <Combat_Dodge.rulePack.rulesStrings.2>result->but [recipient_definite] leapt out of the way</Combat_Dodge.rulePack.rulesStrings.2>
   <Combat_Dodge.rulePack.rulesStrings.3>result->but was deceived by [recipient_definite]'s feint</Combat_Dodge.rulePack.rulesStrings.3>
   <Combat_Dodge.rulePack.rulesStrings.4>result->but the attack was cleverly avoided</Combat_Dodge.rulePack.rulesStrings.4>
