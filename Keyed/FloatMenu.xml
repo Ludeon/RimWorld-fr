@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CallOnRadio>Appeler {0}</CallOnRadio>
@@ -19,6 +19,7 @@
   <IncapableOfViolenceLower>Est incapable de commettre des actes violents</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} n'est pas enrôlé</IsNotDraftedLower>
   <CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
+  <CannotAttackSelf>ne peut pas s'attaquer soi-même</CannotAttackSelf>
 
   <OrderManThing>Manipule {0}</OrderManThing>
 
@@ -29,8 +30,6 @@
   <ForbiddenLower>interdit</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>en dehors de la zone autorisée</ForbiddenOutsideAllowedAreaLower>
   <NotInHomeArea>en dehors de la zone de base</NotInHomeArea>
-<!--  <SociallyImproperLower>socialement inadapté</SociallyImproperLower>
-  <PrisonerRoomLower>cellule de détention</PrisonerRoomLower>-->
   <BurningLower>brûle</BurningLower>
   <NoEmptyPlaceLower>aucun espace libre configuré pour stocker ceci</NoEmptyPlaceLower>
   <AlreadyFilledLower>déjà suffisamment rempli</AlreadyFilledLower>
@@ -41,6 +40,7 @@
   <NoUsableFood>aucune nourriture utilisable</NoUsableFood>
   <NoFood>pas de nourriture</NoFood>
   <AnimalsSkillTooLow>compétence animale trop faible</AnimalsSkillTooLow>
+  <ConstructionSkillTooLow>compétence construction trop faible</ConstructionSkillTooLow>
   <NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
   <NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
   <NoWort>nécessite du moût</NoWort>
@@ -48,6 +48,10 @@
   <NoFoodToFillHopper>pas de nourriture adapté</NoFoodToFillHopper>
   <SelfTendDisabled>auto-soin désactiver</SelfTendDisabled>
   <ReservedForPrisoners>réservé aux prisonniers</ReservedForPrisoners>
+  <CannotReach>impossible d'atteindre</CannotReach>
+  <NotSurgeryReady>pas encore prêt pour une chirurgie</NotSurgeryReady>
+  <CantSowCavePlantBecauseOfLight>trop lumineux</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseUnroofed>non couvert</CantSowCavePlantBecauseUnroofed>
 
   <ConsumeThing>Consommer {0}</ConsumeThing>
 
@@ -122,18 +126,20 @@
 
   <EnterMap>Entrer {0}</EnterMap>
   <VisitSettlement>Visiter {0}</VisitSettlement>
+  <VisitPeaceTalks>Visit {0}</VisitPeaceTalks>
   <VisitSite>Visiter {0}</VisitSite>
+  <VisitEscapeShip>Visit {0}</VisitEscapeShip>
   <AttackSite>Attaquer {0}</AttackSite>
   <AttackSettlement>Attaquer {0}</AttackSettlement>
 
-  
+  <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Ouvrir le caisson d'hypersommeil</OpenCryptosleepCasket>
 
-  
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Ne peut pas {0} {1}</CannotGenericWork>
 
-  
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Ne peut pas prioriser (incapable de {0})</CannotMissingHealthActivities>
 
   <CannotGenericAlreadyAm>Déjà en train de {0} {1}</CannotGenericAlreadyAm>
@@ -149,7 +155,7 @@
   <CannotPrioritizeForbidden>Ne peut pas prioriser ({0} est interdit)</CannotPrioritizeForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea>Ne peut pas prioriser ({0} est en dehors de la zone autorisée)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
-  
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
 
   <DropAtEdge>Déposer au bord</DropAtEdge>

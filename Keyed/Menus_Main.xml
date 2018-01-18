@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  
+  <!--=========== Main menu ==========-->
   <Tutorial>Tutoriel</Tutorial>
   <NewColony>Nouvelle colonie</NewColony>
   <BackToGame>Retour au jeu</BackToGame>
@@ -20,12 +20,12 @@
   <Forums>Forums</Forums>
   <OfficialWiki>Wiki officiel</OfficialWiki>
   <TynansTwitter>Twitter de Tynan</TynansTwitter>
-  <TynansDesignBook>Livre sur le design de Tynan</TynansDesignBook>
+  <TynansDesignBook>Livre sur le design de jeux videos par Tynan</TynansDesignBook>
   <HelpTranslate>Aidez-nous à traduire RimWorld</HelpTranslate>
   <BuySoundtrack>Acheter la bande originale du jeu</BuySoundtrack>
   <CreateWorld>Créer un monde</CreateWorld>
 
-  
+  <!--=========== Create/review world ================-->
   <ReviewWorld>Visualiser le monde</ReviewWorld>
   <WorldGenerate>Générer</WorldGenerate>
   <WorldSaveAndFinish>Sauvegarder et terminer.</WorldSaveAndFinish>
@@ -44,21 +44,21 @@
   <PlanetCoverageTip>La planète a toujours le même diamètre, mais comme elle est beaucoup plus grande que nécessaire pour le jeu, nous ne générons pas la surface entière car cela peut prendre beaucoup de temps. C'est le pourcentage de surface que vous voulez générer.</PlanetCoverageTip>
   <WorldFactionsTab>Factions</WorldFactionsTab>
 
-  
+  <!--=========== Select world ===================-->
   <SelectWorld>Sélectionner un monde</SelectWorld>
   <WorldChooseButton>Sélectionner</WorldChooseButton>
   <NoWorldsFilesFound>Aucun fichier de monde trouvé. Veuillez créer un monde.</NoWorldsFilesFound>
 
-  
+  <!--=========== Version info ==========-->
   <BuildNowAvailable>La version {0} est désormais disponible. Visitez ludeon.com pour plus d'informations.</BuildNowAvailable>
   <BuildUpToDate>La version est à jour.</BuildUpToDate>
   <ErrorGettingVersionInfo>Erreur en tentant de récupérer les informations de version : {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>Chargement des informations sur la version...</LoadingVersionInfo>
 
-  
+  <!--=========== World generator =========-->
   <GenerateWorld>Générer un monde</GenerateWorld>
 
-  
+  <!--=========== Mods config ==========-->
   <OpenSteamWorkshop>Ouvrir Steam Workshop</OpenSteamWorkshop>
   <GetModsFromForum>Obtenir des mods depuis le forum</GetModsFromForum>
   <OpenModsDataFolder>Ouvrir le dossier des mods</OpenModsDataFolder>
@@ -80,14 +80,14 @@
   <MessageModNeedsWellFormattedTargetVersion>Le mod nécessite une version cible correctement formatée dans About.xml. Comme ceci : </MessageModNeedsWellFormattedTargetVersion>
   <DragToReorder>Glisser pour réorganiser</DragToReorder>
 
-  
+  <!--=========== Select scenario =============-->
   <ChooseScenario>Choisir scénario</ChooseScenario>
   <ScenariosCustom>Personnalisé</ScenariosCustom>
   <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <ScenarioEditor>Éditeur de scénario</ScenarioEditor>
   <Delete>Supprimer</Delete>
 
-  
+  <!--============ Scenario editor ===============-->
   <Seed>Graine</Seed>
   <Load>Charger</Load>
   <EditMode>mode édition</EditMode>
@@ -100,13 +100,13 @@
   <TooMany>Beaucoup trop (max {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Peut être mis à jour sur le Workshop, dès lors que vous en êtes l'auteur.</CanBeUpdatedOnWorkshop>
 
-  
+  <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Choisir l'IA du conteur</ChooseAIStoryteller>
-  <HowStorytellersWork>Le conteur IA crée des évènements comme les raids de pirates, le largage de ressources ou les attaques d'animaux. Ses choix affecteront l'histoire de votre colonie.</HowStorytellersWork>
+  <HowStorytellersWork>Le conteur IA crée des événements comme les raids de pirates, le largage de ressources ou les attaques d'animaux. Ses choix affecteront l'histoire de votre colonie.</HowStorytellersWork>
   <MustChooseDifficulty>Veuillez choisir un niveau de difficulté.</MustChooseDifficulty>
   <Difficulty>Difficulté</Difficulty>
 
-  
+  <!--=========== Landing site select =========-->
   <SelectLandingSite>Sélectionnez un site d'atterrissage</SelectLandingSite>
   <SelectRandomSite>Sélection d'un site aléatoire</SelectRandomSite>
   <SelectSite>Sélectionner le site</SelectSite>
@@ -128,10 +128,12 @@
   <AvgSummerTemp>Temp. moyenne (été)</AvgSummerTemp>
   <AvgWinterTemp>Temp. moyenne (hiver)</AvgWinterTemp>
   <Rainfall>Précipitations</Rainfall>
+  <SpecialFeatures>Caractéristiques spéciales</SpecialFeatures>
   <HasCoast0>Accès à la mer au nord</HasCoast0>
   <HasCoast1>Accès à la mer à l'est</HasCoast1>
   <HasCoast2>Accès à la mer au sud</HasCoast2>
   <HasCoast3>Accès à la mer à l'ouest</HasCoast3>
+  <HasCaves>caves</HasCaves>
   <FactionBase>Base de le faction</FactionBase>
   <StoneTypesHere>Type de pierre</StoneTypesHere>
   <TimeZone>Fuseau horaire</TimeZone>
@@ -139,9 +141,11 @@
   <MovementTimeSummer>Durée de mouvement en été</MovementTimeSummer>
   <MovementTimeWinter>Durée de mouvement en hiver</MovementTimeWinter>
   <AnimalsCanGrazeNow>Les animaux peuvent pâturer maintenant</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Fréquence moyenne des maladies</AverageDiseaseFrequency>
+  <PerYear>par an</PerYear>
 
 
-  
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Création des personnages</CreateCharacters>
   <FirstNameDesc>Prénom du personnage.\n\nIl n'est affiché que dans certains menus.</FirstNameDesc>
   <ShortIdentifierDesc>Le diminutif du personnage.\n\nIl sera toujours affiché. Il peut s'agir du prénom, du nom de famille ou d'un pseudonyme totalement différent.</ShortIdentifierDesc>
@@ -161,8 +165,11 @@
   <Pain>Douleur</Pain>
   <Health>Santé</Health>
   <Relations>Relations</Relations>
+  <TeamSkills>Compétences d'équipe</TeamSkills>
+  <StartingPawnsSelected>Sélectionné</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Laissé en arrière</StartingPawnsLeftBehind>
 
-  
+  <!--=========== Misc ==========-->
   <Start>Démarrer</Start>
   <Advanced>Avancé</Advanced>
   <Next>Suivant</Next>
@@ -173,7 +180,7 @@
   <Quit>Quitter</Quit>
   <Ignore>Ignorer</Ignore>
 
-  
+  <!--============ Progress bar==============-->
   <GeneratingWorld>Génération du monde</GeneratingWorld>
   <GeneratingPlanet>Génération de la planète</GeneratingPlanet>
   <GeneratingMap>Génération de la carte</GeneratingMap>

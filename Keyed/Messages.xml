@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MessageSiegersAssaulting>Les {0} de {1} qui assiègent la colonie lancent l'assaut !</MessageSiegersAssaulting>
@@ -78,6 +78,7 @@
   <MessageMedicalOperationFailureMinor>{0} a échoué de peu en opérant {1}.</MessageMedicalOperationFailureMinor>
   <MessageMedicalOperationFailureCatastrophic>{0} a échoué de façon catastrophique en opérant {1}.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureRidiculous>{0} a échoué d'une manière ridicule en opérant sur {1}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0} a commis une erreur fatale alors qu'il opérait sur {1} à cause des exigences particulières de: {2}.</MessageMedicalOperationFailureFatal>
 
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
 
@@ -133,6 +134,8 @@
 
   <MessageNoLongerBingingOnDrug>{0} a cessé sa consommation excessive de {1}.</MessageNoLongerBingingOnDrug>
 
+  <MessageNoLongerOnTargetedInsultingSpree>{0} n'est plus en pleine folie insultante envers {1}.</MessageNoLongerOnTargetedInsultingSpree>
+
   <MessageRottedAwayInStorage>{0} a pourri dans le stockage.</MessageRottedAwayInStorage>
 
   <MessageFoodPoisoning>{0} est victime d'une intoxication alimentaire issue de : {1}.</MessageFoodPoisoning>
@@ -146,7 +149,11 @@
   <MessageMaxPlanetCoveragePerformanceWarning>Attention : générer une planète entière peut prendre beaucoup de temps.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <MessagePlantDiedOfCold>{0} est mort à cause du froid.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} est mort de pourrissement parce qu'il n' a pas été récolté.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>{0} est mort en raison d'une exposition à la lumière.</MessagePlantDiedOfRot_ExposedToLight>
   <MessagePlantDiedOfRot>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0} est mort à cause d'un empoisonnement.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{0} est mort à cause du mildiou.</MessagePlantDiedOfBlight>
 
   <MessagePawnBeingBurned>{0} est brûlé par de l'air surchauffé !</MessagePawnBeingBurned>
 
@@ -196,7 +203,7 @@
 
   <MessageReformedCaravan>La caravane a été reformée.</MessageReformedCaravan>
 
-  <MessageCantAbandonLastColonist>Vous ne pouvez pas abandonner le dernier colon.</MessageCantAbandonLastColonist>
+  <MessageCantBanishLastColonist>Vous ne pouvez pas bannir le dernier colon.</MessageCantBanishLastColonist>
 
   <MessageCantEquipIncapableOfViolence>Ne peut pas équiper: {0} est incapable de violence.</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>Ne peut pas équiper: incapable de manipulation.</MessageCantEquipIncapableOfManipulation>
@@ -225,5 +232,33 @@
 
   <MessageSiteCountdownBecauseNoMoreEnemies>Vous avez vaincu tous les ennemis. Dans {0}, la caravane sera automatiquement reformée.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>Dans {0}, la caravane sera automatiquement reformée. Vous pouvez reformer la caravane maintenant à partir de l'écran Monde.</MessageSiteCountdownBecauseNoEnemiesInitially>
+
+  <MessageCantBanishDownedPawn>Ne peut pas bannir {0} à cause de son incapacité à marcher.</MessageCantBanishDownedPawn>
+
+  <MessageSleepingPawnsWokenUp>{0} se sont réveillés.</MessageSleepingPawnsWokenUp>
+
+  <MessageCompSpawnerSpawnedItem>Objet produit: {0}.</MessageCompSpawnerSpawnedItem>
+
+  <MessageHediffCuredByItem>Problème de santé guéri: {0}.</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>Organe restauré: {0}.</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Technologie offerte: {0}.</MessageResearchProjectFinishedByItem>
+
+  <MessagePawnResurrected>{0} a été ramené à la vie!</MessagePawnResurrected>
+
+  <MessageFailedToRescueRelative>Vous n'avez pas réussi à sauver {0}. Cela rendra {1} triste.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>Vous avez sauvé {0}. Ceci rendra {1} heureux.</MessageRescuedRelative>
+
+  <MessagePrisonerRescued>Vous avez sauvé NAME qui a tenu à se joindre à votre colonie.</MessagePrisonerRescued>
+
+  <MessageTornadoLeftMap>La tornade a quitté la région.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>La tornade s'est dissipée.</MessageTornadoDissipated>
+
+  <MessagePeaceTalksNoDiplomat>Aucun diplomate conscient et/ou qualifié.</MessagePeaceTalksNoDiplomat>
+
+  <MessageWarningCavePlantsExposedToLight>ATTENTION: {0} ne peut pas survivre si exposé à la lumière.</MessageWarningCavePlantsExposedToLight>
+
+  <MessageTargetedTantrumChangedTarget>{0} ne réussissant pas à atteindre {1}, décida de recentrer sa fureur sur {2}.</MessageTargetedTantrumChangedTarget>
+
+  <MessageTargetedInsultingSpreeChangedTarget>{0} ne parvenant pas à atteindre {1}, à décidé de rediriger sa colère vers {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
 </LanguageData>
