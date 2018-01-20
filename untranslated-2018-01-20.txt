@@ -80,9 +80,6 @@ DefInjected/RulePackDef/RulePacks_DamageEvent.xml
     <DamageEvent_Tornado.rulePack.rulesStrings.7>enveloped->engulfed</DamageEvent_Tornado.rulePack.rulesStrings.7>
     <DamageEvent_Tornado.rulePack.rulesStrings.8>enveloped->surrounded</DamageEvent_Tornado.rulePack.rulesStrings.8>
 
-DefInjected/RulePackDef/RulePacks_Global.xml
-    <GlobalUtility.rulePack.rulesStrings.7>quantity_adjphrase->six</GlobalUtility.rulePack.rulesStrings.7>
-
 DefInjected/RulePackDef/RulePacks_Maneuvers.xml
     <Bite.rulePack.rulesStrings.0>damaged_inf->bite</Bite.rulePack.rulesStrings.0>
     <Bite.rulePack.rulesStrings.1>damaged_inf->chomp</Bite.rulePack.rulesStrings.1>
@@ -670,9 +667,6 @@ DefInjected/RulePackDef/RulePacks_Transitions.xml
     <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->thanks to</Transition_Include.rulePack.rulesStrings.2>
     <Transition_Include.rulePack.rulesStrings.3>subject_definite->[subject_labelDefinite]</Transition_Include.rulePack.rulesStrings.3>
     <Transition_Include.rulePack.rulesStrings.4>subject_definite->[subject_nameShortDef]</Transition_Include.rulePack.rulesStrings.4>
-
-DefInjected/SiteCoreDef/DownedRefugee.xml
-    <DownedRefugee.description>A stranded, incapacitated person asking for help.</DownedRefugee.description>
 
 DefInjected/SiteCoreDef/PrisonerWillingToJoin.xml
     <PrisonerWillingToJoin.description>A prisoner being held by an enemy faction. Rescue him and he will join your colony.</PrisonerWillingToJoin.description>
@@ -2090,9 +2084,6 @@ DefInjected/WorkTypeDef/WorkTypes.xml
     <Patient.labelShort>Patient</Patient.labelShort>
     <Patient.pawnLabel>Patient</Patient.pawnLabel>
 
-Keyed/Dates.xml
-    <ClockDate>Date</ClockDate>
-
 Keyed/Dialog_StatsReports.xml
     <HealthFactorAllowedDefect>if below {0}</HealthFactorAllowedDefect>
     <HealthFactorMaxImpact>{0} max</HealthFactorMaxImpact>
@@ -2101,37 +2092,6 @@ Keyed/Dialog_StatsReports.xml
     <StatsReport_Health>Health</StatsReport_Health>
     <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
     <StatsReport_LightMultiplier>Multiplier for light {0}</StatsReport_LightMultiplier>
-
-Keyed/Dialogs_Various.xml
-    <AbandonButton>Abandon</AbandonButton>
-    <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
-    <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
-    <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
-    <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-    <OK>OK</OK>
-    <minimum>minimum</minimum>
-
-Keyed/Enums.xml
-    <Celsius>Celsius</Celsius>
-    <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
-    <Direction8Way_East_Short>E</Direction8Way_East_Short>
-    <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
-    <Direction8Way_North_Short>N</Direction8Way_North_Short>
-    <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
-    <Direction8Way_South_Short>S</Direction8Way_South_Short>
-    <Fahrenheit>Fahrenheit</Fahrenheit>
-    <HediffGrowthMode_Stable>stable</HediffGrowthMode_Stable>
-    <Kelvin>Kelvin</Kelvin>
-    <PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
-    <PriceTypeNormal>normal</PriceTypeNormal>
-    <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
-    <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
-    <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
-    <QualityCategoryShort_Superior>supr</QualityCategoryShort_Superior>
-    <QualityCategory_Excellent>excellent</QualityCategory_Excellent>
-    <QualityCategory_Normal>normal</QualityCategory_Normal>
-    <TechLevel_Animal>animal</TechLevel_Animal>
-    <TechLevel_Ultra>ultra</TechLevel_Ultra>
 
 Keyed/FloatMenu.xml
     <Incapable>incapable</Incapable>
@@ -2148,16 +2108,6 @@ Keyed/ITabs.xml
     <TabShells>Shells</TabShells>
     <TabSocial>Social</TabSocial>
     <TabStats>Stats</TabStats>
-
-Keyed/Incidents.xml
-    <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
-
-Keyed/Letters.xml
-    <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
-
-Keyed/MainTabs.xml
-    <Hostile>Hostile</Hostile>
-    <Rival>Rival</Rival>
 
 Keyed/Menu_Options.xml
     <Antialiasing>Anti-aliasing</Antialiasing>
@@ -2178,43 +2128,12 @@ Keyed/Menus_Main.xml
     <Terrain>Terrain</Terrain>
     <WorldFactionsTab>Factions</WorldFactionsTab>
 
-Keyed/Misc.xml
-    <VersionIndicator>Version {0}</VersionIndicator>
-    <chance>chance</chance>
-    <distance>distance</distance>
-    <max>max</max>
-    <min>min</min>
-
-Keyed/Misc_Gameplay.xml
-    <Description>Description</Description>
-    <Faction>Faction</Faction>
-    <FertShort>fert.</FertShort>
-    <FuelLevelGizmoLabel>Fuel</FuelLevelGizmoLabel>
-    <Mood_Content>content</Mood_Content>
-    <Off>Off</Off>
-    <On>On</On>
-    <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
-    <Permanent>permanent</Permanent>
-    <Race>Race</Race>
-    <ThingInfo>Information</ThingInfo>
-    <WornByCorpseChar>D</WornByCorpseChar>
-    <Zone>Zone</Zone>
-
-Keyed/PlayInterface.xml
-    <Menu>Menu</Menu>
-    <Wiki>Wiki</Wiki>
-
 Keyed/ScenParts.xml
     <ScenPart_StartWithPawns_OutOf>chosen from</ScenPart_StartWithPawns_OutOf>
 
 Keyed/Skills.xml
     <Passion>Passion</Passion>
     <SkillMax>MAX</SkillMax>
-
-Keyed/Time.xml
-    <LetterHour>h</LetterHour>
-    <LetterMinute>m</LetterMinute>
-    <LetterSecond>s</LetterSecond>
 
 Keyed/WITabs.xml
     <BanishTip>Banish</BanishTip>
