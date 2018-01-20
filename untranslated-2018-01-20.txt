@@ -10,78 +10,15 @@ DefInjected/RaidStrategyDef/RaidStrategies.xml
     <ImmediateAttackSmart.letterLabelEnemy>Raid</ImmediateAttackSmart.letterLabelEnemy>
     <StageThenAttack.letterLabelEnemy>Raid</StageThenAttack.letterLabelEnemy>
 
-DefInjected/RulePackDef/RulePacks_Art_DescriptionRoot.xml
-    <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.0>art_description_root->[physical_description_root] [context_sentence]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.0>
-    <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.1>circumstance_group->[circumstance_phrase]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.1>
-    <ArtDescriptionRoot_HasTale.rulePack.rulesStrings.2>desc_sentence_group->[desc_sentence] [style_group]</ArtDescriptionRoot_HasTale.rulePack.rulesStrings.2>
-    <ArtDescriptionRoot_Taleless.rulePack.rulesStrings.0>art_description_root->[physical_description_root]</ArtDescriptionRoot_Taleless.rulePack.rulesStrings.0>
-    <ArtDescriptionRoot_Taleless.rulePack.rulesStrings.1>desc_sentence_group->[style_group]</ArtDescriptionRoot_Taleless.rulePack.rulesStrings.1>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.43>depiction->image</ArtDescriptionUtility_Global.rulePack.rulesStrings.43>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.46>depiction->illustration</ArtDescriptionUtility_Global.rulePack.rulesStrings.46>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.56>artstyle_adj->simple</ArtDescriptionUtility_Global.rulePack.rulesStrings.56>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.69>artstyle_adj->baroque</ArtDescriptionUtility_Global.rulePack.rulesStrings.69>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.80>artstyle_adj->pop art</ArtDescriptionUtility_Global.rulePack.rulesStrings.80>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.86>artstyle_adj->rococo</ArtDescriptionUtility_Global.rulePack.rulesStrings.86>
-    <ArtDescriptionUtility_Global.rulePack.rulesStrings.87>artstyle_adj->romanesque</ArtDescriptionUtility_Global.rulePack.rulesStrings.87>
-
-DefInjected/RulePackDef/RulePacks_Art_NameRoots.xml
-    <ArtName_Furniture.rulePack.rulesStrings.1>art_name->[positiveconcept]</ArtName_Furniture.rulePack.rulesStrings.1>
-    <ArtName_SarcophagusPlate.rulePack.rulesStrings.1>art_name->[anyPawn_nameShort]</ArtName_SarcophagusPlate.rulePack.rulesStrings.1>
-    <ArtName_Sculpture.rulePack.rulesStrings.1>art_name->[anyPawn_nameShort] [trans] [color]</ArtName_Sculpture.rulePack.rulesStrings.1>
-    <ArtName_Sculpture.rulePack.rulesStrings.15>art_name->[digit] [trans] [anyPawn_nameShort]</ArtName_Sculpture.rulePack.rulesStrings.15>
-    <ArtName_Sculpture.rulePack.rulesStrings.2>art_name->[artname] [trans] [anyPawn_nameShort]</ArtName_Sculpture.rulePack.rulesStrings.2>
-    <ArtName_Sculpture.rulePack.rulesStrings.3>art_name->[artname] [trans] [concept]</ArtName_Sculpture.rulePack.rulesStrings.3>
-    <ArtName_Sculpture.rulePack.rulesStrings.4>art_name->[artname] [romannumeral]</ArtName_Sculpture.rulePack.rulesStrings.4>
-    <ArtName_Sculpture.rulePack.rulesStrings.5>art_name->[concept] [trans] [anyPawn_nameShort]</ArtName_Sculpture.rulePack.rulesStrings.5>
-    <ArtName_Sculpture.rulePack.rulesStrings.6>art_name->[concept] [trans] [anyPawn_nameShort]</ArtName_Sculpture.rulePack.rulesStrings.6>
-    <ArtName_Sculpture.rulePack.rulesStrings.7>art_name->[concept]</ArtName_Sculpture.rulePack.rulesStrings.7>
-    <ArtName_Weapon.rulePack.rulesStrings.0>art_name->[badassconcept]</ArtName_Weapon.rulePack.rulesStrings.0>
-    <ArtName_Weapon.rulePack.rulesStrings.2>art_name->[badassadjective] [badassanimal]</ArtName_Weapon.rulePack.rulesStrings.2>
-    <ArtName_Weapon.rulePack.rulesStrings.4>art_name->[badassconcept] [badasscolor]</ArtName_Weapon.rulePack.rulesStrings.4>
-
-DefInjected/RulePackDef/RulePacks_Art_PhysicalDescriptionRoots.xml
-    <ArtDescription_Sculpture.rulePack.rulesStrings.3>sculpture->sculpture</ArtDescription_Sculpture.rulePack.rulesStrings.3>
-
 DefInjected/RulePackDef/RulePacks_Combat.xml
     <Combat_ExplosionImpact.rulePack.rulesStrings.13>logentry->[prefix] [injured] [recipient_definite].</Combat_ExplosionImpact.rulePack.rulesStrings.13>
-    <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[initiator_definite] [genericattackverb] [towardsat] [recipient_definite]</Combat_FailIncludes.rulePack.rulesStrings.5>
-    <Combat_Hit.rulePack.rulesStrings.10>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [recipient_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.10>
-    <Combat_Hit.rulePack.rulesStrings.15>action(p=0.6)->[initiator_definite] [damaged_past] [recipient_definite]</Combat_Hit.rulePack.rulesStrings.15>
-    <Combat_Hit.rulePack.rulesStrings.9>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [recipient_possessive] [destroyed_targets]</Combat_Hit.rulePack.rulesStrings.9>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.0>logentry->[action], [result].</Combat_MeleeIncludes.rulePack.rulesStrings.0>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.1>logentry(p=0.2)->[action].</Combat_MeleeIncludes.rulePack.rulesStrings.1>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.23>targetlist(recipient_part_count==1)->[recipient_part0_label]</Combat_MeleeIncludes.rulePack.rulesStrings.23>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.61>wince(recipient_flesh==Normal)->grimace</Combat_MeleeIncludes.rulePack.rulesStrings.61>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.78>mortarshell->projectile</Combat_MeleeIncludes.rulePack.rulesStrings.78>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.86>initiator_definite->[initiator_labelDefinite]</Combat_MeleeIncludes.rulePack.rulesStrings.86>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.87>initiator_definite->[initiator_nameShortDef]</Combat_MeleeIncludes.rulePack.rulesStrings.87>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.88>recipient_definite->[recipient_labelDefinite]</Combat_MeleeIncludes.rulePack.rulesStrings.88>
-    <Combat_MeleeIncludes.rulePack.rulesStrings.89>recipient_definite->[recipient_nameShortDef]</Combat_MeleeIncludes.rulePack.rulesStrings.89>
-    <Combat_Miss.rulePack.rulesStrings.4>logentry(p=0.2)->[initiator_definite] [failtype].</Combat_Miss.rulePack.rulesStrings.4>
-    <Combat_RangedDamage.rulePack.rulesStrings.39>destroyed_suffix->fragments</Combat_RangedDamage.rulePack.rulesStrings.39>
+
+    <!--Les 's anglais-->
     <Combat_RangedDamage.rulePack.rulesStrings.8>logentry(recipient_partDestroyed_count==0)->[initiator_definite]'s [weapon_projectile_label] [damaged_past] [recipient_definite]'s [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.8>
     <Combat_RangedDamage.rulePack.rulesStrings.9>logentry(recipient_partDestroyed_count==0)->[initiator_definite]'s [weapon_projectile_label] [damaged_past] [recipient_definite]'s [damaged_targets] [expertly].</Combat_RangedDamage.rulePack.rulesStrings.9>
-    <Combat_RangedFire.rulePack.rulesStrings.19>aburst-></Combat_RangedFire.rulePack.rulesStrings.19>
-    <Combat_RangedFire.rulePack.rulesStrings.2>logentry->[initiator_definite] [shotat] [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.2>
-    <Combat_RangedFire.rulePack.rulesStrings.21>burst-></Combat_RangedFire.rulePack.rulesStrings.21>
-    <Combat_RangedFire.rulePack.rulesStrings.4>logentry(recipient_missing==True)->[initiator_definite] [shot_a] [weapon_projectile_label].</Combat_RangedFire.rulePack.rulesStrings.4>
-    <Combat_RangedFire.rulePack.rulesStrings.8>shot(p=2)->[shotverb]</Combat_RangedFire.rulePack.rulesStrings.8>
-    <Combat_RangedIncludes.rulePack.rulesStrings.0>initiator_definite->[initiator_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.0>
-    <Combat_RangedIncludes.rulePack.rulesStrings.1>initiator_definite->[initiator_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.1>
-    <Combat_RangedIncludes.rulePack.rulesStrings.2>recipient_definite->[recipient_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.2>
-    <Combat_RangedIncludes.rulePack.rulesStrings.3>recipient_definite->[recipient_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.3>
-    <Combat_RangedIncludes.rulePack.rulesStrings.4>originalTarget_definite->[originalTarget_labelDefinite]</Combat_RangedIncludes.rulePack.rulesStrings.4>
-    <Combat_RangedIncludes.rulePack.rulesStrings.5>originalTarget_definite->[originalTarget_nameShortDef]</Combat_RangedIncludes.rulePack.rulesStrings.5>
-    <Combat_WoundIncludes.rulePack.rulesStrings.0>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</Combat_WoundIncludes.rulePack.rulesStrings.0>
+    
     <Combat_WoundIncludes.rulePack.rulesStrings.36>expert->expert</Combat_WoundIncludes.rulePack.rulesStrings.36>
     <Combat_WoundIncludes.rulePack.rulesStrings.38>expert->adroit</Combat_WoundIncludes.rulePack.rulesStrings.38>
-    <Combat_WoundIncludes.rulePack.rulesStrings.4>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</Combat_WoundIncludes.rulePack.rulesStrings.4>
-
-DefInjected/RulePackDef/RulePacks_Damage.xml
-    <Damage_EMP.rulePack.rulesStrings.3>destroyed_past->damaged_past</Damage_EMP.rulePack.rulesStrings.3>
-    <Damage_Extinguish.rulePack.rulesStrings.4>destroyed_past->damaged_past</Damage_Extinguish.rulePack.rulesStrings.4>
-    <Damage_Smoke.rulePack.rulesStrings.3>destroyed_past->damaged_past</Damage_Smoke.rulePack.rulesStrings.3>
-    <Damage_Stun.rulePack.rulesStrings.4>destroyed_past->damaged_past</Damage_Stun.rulePack.rulesStrings.4>
 
 DefInjected/RulePackDef/RulePacks_DamageEvent.xml
     <DamageEvent_Ceiling.rulePack.rulesStrings.0>damageSource->the [roof] [collapsed] on</DamageEvent_Ceiling.rulePack.rulesStrings.0>
