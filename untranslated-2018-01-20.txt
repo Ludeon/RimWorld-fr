@@ -1784,85 +1784,6 @@ DefInjected/TaleDef/Tales_Job.xml
     <VisitedGrave.rulePack.rulesStrings.8>circumstance_phrase->and consumed in thought</VisitedGrave.rulePack.rulesStrings.8>
     <VisitedGrave.rulePack.rulesStrings.9>circumstance_phrase->while gazing at a faraway [terrainfeature]</VisitedGrave.rulePack.rulesStrings.9>
 
-DefInjected/ThingDef/Buildings_Furniture.xml
-    <Bedroll.description>A simple bed that sits on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll.description>
-    <BedrollDouble.description>A simple double-wide bed that sits on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble.description>
-    <BedrollDouble_Frame.description>A simple double-wide bed that sits on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</BedrollDouble_Frame.description>
-    <Bedroll_Frame.description>A simple bed that sits on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</Bedroll_Frame.description>
-    <Dresser.description>Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed will have no effect.</Dresser.description>
-    <Dresser_Frame.description>Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed will have no effect.</Dresser_Frame.description>
-    <EndTable.description>A small bedside table. Makes the nearby beds a little bit more comfortable. Must be placed directly adjacent to their head. Placing more than one end table near the same bed will have no effect.</EndTable.description>
-    <EndTable_Frame.description>A small bedside table. Makes the nearby beds a little bit more comfortable. Must be placed directly adjacent to their head. Placing more than one end table near the same bed will have no effect.</EndTable_Frame.description>
-    <Table1x2c.description>People eat off tables when chairs are placed facing them.</Table1x2c.description>
-    <Table1x2c_Frame.description>People eat off tables when chairs are placed facing them.</Table1x2c_Frame.description>
-    <Table2x2c.description>People eat off tables when chairs are placed facing them.</Table2x2c.description>
-    <Table2x2c_Frame.description>People eat off tables when chairs are placed facing them.</Table2x2c_Frame.description>
-    <Table2x4c.description>People eat off tables when chairs are placed facing them.</Table2x4c.description>
-    <Table2x4c_Frame.description>People eat off tables when chairs are placed facing them.</Table2x4c_Frame.description>
-    <Table3x3c.description>People eat off tables when chairs are placed facing them.</Table3x3c.description>
-    <Table3x3c_Frame.description>People eat off tables when chairs are placed facing them.</Table3x3c_Frame.description>
-
-DefInjected/ThingDef/Buildings_Security.xml
-    <Artillery_Mortar.description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</Artillery_Mortar.description>
-    <TrapIED_AntigrainWarhead.description>A tiny warhead connected to a homemade trigger. Creates a huge explosion and starts fires around itself when disturbed.</TrapIED_AntigrainWarhead.description>
-    <TrapIED_AntigrainWarhead.label>IED antigrain warhead trap</TrapIED_AntigrainWarhead.label>
-    <TrapIED_AntigrainWarhead_Blueprint.label>IED antigrain warhead trap (blueprint)</TrapIED_AntigrainWarhead_Blueprint.label>
-    <TrapIED_AntigrainWarhead_Frame.description>A tiny warhead connected to a homemade trigger. Creates a huge explosion and starts fires around itself when disturbed.</TrapIED_AntigrainWarhead_Frame.description>
-    <TrapIED_AntigrainWarhead_Frame.label>IED antigrain warhead trap (building)</TrapIED_AntigrainWarhead_Frame.label>
-    <TrapIED_EMP.description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanical creatures for a few seconds. Can be triggered even by those who are unaffacted by EMP explosions.</TrapIED_EMP.description>
-    <TrapIED_EMP.label>IED EMP trap</TrapIED_EMP.label>
-    <TrapIED_EMP_Blueprint.label>IED EMP trap (blueprint)</TrapIED_EMP_Blueprint.label>
-    <TrapIED_EMP_Frame.description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanical creatures for a few seconds. Can be triggered even by those who are unaffacted by EMP explosions.</TrapIED_EMP_Frame.description>
-    <TrapIED_EMP_Frame.label>IED EMP trap (building)</TrapIED_EMP_Frame.label>
-    <TrapIED_Firefoam.description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself.</TrapIED_Firefoam.description>
-    <TrapIED_Firefoam.label>IED firefoam trap</TrapIED_Firefoam.label>
-    <TrapIED_Firefoam_Blueprint.label>IED firefoam trap (blueprint)</TrapIED_Firefoam_Blueprint.label>
-    <TrapIED_Firefoam_Frame.description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself.</TrapIED_Firefoam_Frame.description>
-    <TrapIED_Firefoam_Frame.label>IED firefoam trap (building)</TrapIED_Firefoam_Frame.label>
-    <TrapIED_HighExplosive.description>A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. The improvised trigger has a random delay that might allow a nimble enemy to escape.</TrapIED_HighExplosive.description>
-    <TrapIED_HighExplosive.label>IED trap</TrapIED_HighExplosive.label>
-    <TrapIED_HighExplosive_Blueprint.label>IED trap (blueprint)</TrapIED_HighExplosive_Blueprint.label>
-    <TrapIED_HighExplosive_Frame.description>A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. The improvised trigger has a random delay that might allow a nimble enemy to escape.</TrapIED_HighExplosive_Frame.description>
-    <TrapIED_HighExplosive_Frame.label>IED trap (building)</TrapIED_HighExplosive_Frame.label>
-    <TrapIED_Incendiary.description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable.</TrapIED_Incendiary.description>
-    <TrapIED_Incendiary.label>IED incendiary trap</TrapIED_Incendiary.label>
-    <TrapIED_Incendiary_Blueprint.label>IED incendiary trap (blueprint)</TrapIED_Incendiary_Blueprint.label>
-    <TrapIED_Incendiary_Frame.description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable.</TrapIED_Incendiary_Frame.description>
-    <TrapIED_Incendiary_Frame.label>IED incendiary trap (building)</TrapIED_Incendiary_Frame.label>
-    <Turret_Mortar.description>A mortar that launches all kinds of shells. Must be manned. Explodes when damaged.</Turret_Mortar.description>
-    <Turret_Mortar_Frame.description>A mortar that launches all kinds of shells. Must be manned. Explodes when damaged.</Turret_Mortar_Frame.description>
-
-DefInjected/ThingDef/Buildings_Ship.xml
-    <Ship_SensorCluster.description>A sensor module, searching the void for dangers and opportunities.</Ship_SensorCluster.description>
-    <Ship_SensorCluster_Frame.description>A sensor module, searching the void for dangers and opportunities.</Ship_SensorCluster_Frame.description>
-
-DefInjected/ThingDef/Buildings_Special.xml
-    <InfiniteChemreactor.description>Slowly generates chemfuel by a complex series of chemical reactions, using atoms extracted from the air.</InfiniteChemreactor.description>
-    <PsychicEmanator.description>An ancient device that projects a soothing psychic field around itself. This improves the mood of anyone nearby. Works through walls.</PsychicEmanator.description>
-    <VanometricPowerCell.description>Generates free energy, forever, without using fuel. This technology is developed by archotech AIs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in the quantum foam.</VanometricPowerCell.description>
-
-DefInjected/ThingDef/Items_Exotic.xml
-    <MechSerumHealer.comps.1.useLabel>Use healer mech serum</MechSerumHealer.comps.1.useLabel>
-    <MechSerumHealer.description>A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed.</MechSerumHealer.description>
-    <MechSerumNeurotrainer.comps.1.useLabel>Use neurotrainer mech serum to learn {0}</MechSerumNeurotrainer.comps.1.useLabel>
-    <MechSerumNeurotrainer.description>A one-use super-dose of mechanites tuned to train a specific skill. The dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed.</MechSerumNeurotrainer.description>
-    <MechSerumResurrector.comps.1.useLabel>Use resurrector mech serum</MechSerumResurrector.comps.1.useLabel>
-    <MechSerumResurrector.description>A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse soon after death, mechanites repair broken-down tissues and kickstart the body back to life. They are not always successful - sometimes, the resurrected will come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered sooner.</MechSerumResurrector.description>
-    <TechprofSubpersonaCore.comps.1.useLabel>Use techprof subpersona core</TechprofSubpersonaCore.comps.1.useLabel>
-    <TechprofSubpersonaCore.description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</TechprofSubpersonaCore.description>
-
-DefInjected/ThingDef/Items_Resource_Manufactured.xml
-    <AdvancedComponent.description>High-quality electronic equipment, miniaturized and hardened for the most stressful applications.</AdvancedComponent.description>
-
-DefInjected/ThingDef/Items_Resource_Shell.xml
-    <Bullet_Shell_EMP.label>EMP shell</Bullet_Shell_EMP.label>
-    <Shell_AntigrainWarhead.description>A tiny ultra-tech warhead usually used by spacecraft or glitterworld war machines. Powered by a grain of antimatter, it creates a huge explosion and starts fires around the target. Can be fired from mortars or installed as a trap. Explodes when damaged.</Shell_AntigrainWarhead.description>
-    <Shell_EMP.description>A shell filled with batteries and antennas, for generating an EMP pulse when detonated. Electromagnetic pulses temporarily disable electrical circuits. Can be fired from mortars or installed as a trap. Explodes when damaged.</Shell_EMP.description>
-    <Shell_EMP.label>EMP shell</Shell_EMP.label>
-    <Shell_Firefoam.description>A pressurized shell filled with fire-extinguishing foam. Can be fired from mortars or installed as a trap. Explodes when damaged.</Shell_Firefoam.description>
-    <Shell_HighExplosive.description>A shell filled with high explosives. Can be fired from mortars or installed as a trap. Explodes when damaged.</Shell_HighExplosive.description>
-    <Shell_Incendiary.description>A shell filled with flammable gel and a small explosive charge. Starts fires when detonated. Can be fired from mortars or installed as a trap. Explodes when damaged.</Shell_Incendiary.description>
-
 DefInjected/ThingDef/Plants_Cave.xml
     <Agarilux.description>An enormous purple mushroom. Its size and glowing protrusions make this fungus beautiful to look at. Dies when exposed to light.</Agarilux.description>
     <Bryolux.description>A blue moss typically found in deep, dark caves. It is sticky, with tangled fibers, which slows anyone walking over it. Dies when exposed to light.</Bryolux.description>
@@ -1892,15 +1813,6 @@ DefInjected/ThingDef/Psychite_Pekoe.xml
     <PsychoidPekoe.description>A fragrant tea which can be drank to induce a weak euphoric effect. Very easy to produce, but be wary of addiction.</PsychoidPekoe.description>
     <PsychoidPekoe.ingestible.ingestCommandString>Drink {0}</PsychoidPekoe.ingestible.ingestCommandString>
     <PsychoidPekoe.ingestible.ingestReportString>Drinking {0}.</PsychoidPekoe.ingestible.ingestReportString>
-
-DefInjected/ThingDef/Various_Stone.xml
-    <BlocksGranite.stuffProps.stuffAdjective>granite</BlocksGranite.stuffProps.stuffAdjective>
-    <ChunkGranite.description>A chunk of rock. It's possible to cut usable stone blocks from it.</ChunkGranite.description>
-    <ChunkLimestone.description>A chunk of rock. It's possible to cut usable stone blocks from it.</ChunkLimestone.description>
-    <ChunkMarble.description>A chunk of rock. It's possible to cut usable stone blocks from it.</ChunkMarble.description>
-    <ChunkSandstone.description>A chunk of rock. It's possible to cut usable stone blocks from it.</ChunkSandstone.description>
-    <ChunkSlagSteel.description>A chunk of steel slag. Not very useful in its current form but it's possible to smelt steel from it.</ChunkSlagSteel.description>
-    <ChunkSlate.description>A chunk of rock. It's possible to cut usable stone blocks from it.</ChunkSlate.description>
 
 DefInjected/ThingDef/Weapons_Guns.xml
     <Gun_Autopistol.description>Ancient pattern automatic pistol. Weak and short range, but quick.</Gun_Autopistol.description>
