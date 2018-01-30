@@ -31,7 +31,7 @@
   <Restarting>Redémarrage en cours</Restarting>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
+  <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nVous pouvez jouer quand même, mais aucune statistique Steam ne sera enregistrée et les fonctionnalités Steam ne seront pas disponibles.</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
@@ -61,9 +61,9 @@
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devraient fonctionner sans problème.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>Il y a eu un problème à la sauvegarde du fichier {0} :\n\n{1}\n\nVeuillez lire le journal des erreurs pour plus d'informations.</ProblemSavingFile>
   <LoadAnyway>Charger quand même</LoadAnyway>
-  <ChangeLoadedMods>Charger liste des mods depuis la sauvegarde</ChangeLoadedMods>
+  <ChangeLoadedMods>Charger la liste des mods depuis la sauvegarde</ChangeLoadedMods>
   <MissingMods>Certains mods ne sont pas disponibles, et doivent être installés</MissingMods>
 
   <!-- Player faction naming -->
@@ -111,10 +111,10 @@
   <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Prérequis de recherche </ResearchPrerequisites>
   <RequiredResearchBench>Banc de recherche nécessaire </RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s)</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Équipements du banc de recherche nécessaires</RequiredResearchBenchFacilities>
 
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté(e) à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention de vous confronter à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Attention : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes. La taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
   <MapSizeDesc>{0}×{0} ({1} cases)</MapSizeDesc>
@@ -263,11 +263,11 @@
   <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
   <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
-  <CaravanFoodWillRotSoonWarningDialog>Une grande partie de la nourriture désignée pourrira bientôt.\n\nÊtes-vous sûr(e) de vouloir former cette caravane ?</CaravanFoodWillRotSoonWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>Une grande partie de la nourriture allouée pourrira bientôt.</CaravanFoodWillRotSoonWarningDialog>
   <CaravanIncapableOfSocial>Aucun membre de la caravane n'est capable de diplomatie ou de commerce.</CaravanIncapableOfSocial>
-  <CaravanAreYouSure>Vous êtes sûr de vouloir former une caravane?</CaravanAreYouSure>
+  <CaravanAreYouSure>Êtes-vous sûr(e) de vouloir former cette caravane ?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direction de sortie </ExitDirection>
