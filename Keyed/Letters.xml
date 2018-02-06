@@ -38,7 +38,7 @@
 
   <LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
   <NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
-  <NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
+  <NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {2} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
 
   <PawnWasFormerlyColonist>{0} faisait autrefois partie de votre groupe.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} a ces relations avec vos colons:</PawnHasTheseRelationshipsWithColonists>
@@ -52,7 +52,7 @@
   <LetterLabelAnimalManhunterRevenge>Vengeance de {0}</LetterLabelAnimalManhunterRevenge>
   <AnimalManhunterFromDamage>Un {0} attaque après avoir été blessé !</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
-  <AnimalManhunterOthers>Les {0}s aux alentours sont devenus enragés !</AnimalManhunterOthers>
+  <AnimalManhunterOthers>Les {0} aux alentours sont devenus enragés !</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0} pris au piège</LetterFriendlyTrapSprungLabel>
   <LetterFriendlyTrapSprung>{0} a accidentellement déclenché un piège et a subi des dégâts.</LetterFriendlyTrapSprung>
@@ -64,7 +64,7 @@
   <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
-  <LetterLeadersDeath>Le chef {0} de la faction {1} est mort et se voit remplacé par {2}.</LetterLeadersDeath>
+  <LetterLeadersDeath>Le chef {0} de la faction {1} est mort et est remplacé par {2}.</LetterLeadersDeath>
 
   <LetterLeaderChangedLabel>Nouveau {1} : {0}</LetterLeaderChangedLabel>
   <LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
@@ -82,12 +82,12 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME a un lien avec un colon. HECAP est le/la  {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>NAME a un lien avec un colon. HECAP est le/la {1} de {0}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME a un lien avec un de vos prisonniers. HECAP est le/la {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Liaison</LetterLabelAffair>
-  <LetterAffair>{0}, marié(e) à {1}, entame une liaison avec {2}.</LetterAffair>
+  <LetterAffair>Malgré son mariage avec {1}, {0} entame une liaison avec {2}.</LetterAffair>
   <LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
   <LetterNewLovers>{0} et {1} se sont rapprochés et sont maintenant amoureux.</LetterNewLovers>
   <LetterNoLongerLovers>La relation amoureuse entre {0} et {1} est terminée.</LetterNoLongerLovers>
@@ -120,7 +120,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>addiction de {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\nHECAP a désormais besoin de {1}, visible dans HIS onglet Besoins. HECAP consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si HE ne peut pas se procurer de {1}, HE sera en manque.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\nHECAP a désormais besoin de {1}, visible dans son onglet Besoins. HECAP consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si HE ne peut pas se procurer de {1}, HE sera en manque.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
@@ -150,7 +150,7 @@
 
   <!-- Pawns lost due to map countdown -->
   <LetterLabelPawnsLostDueToMapCountdown>Abandonné</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans le désert :\n\n{0}</LetterPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans la nature :\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
   <!-- Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Quête achevée</LetterLabelDefeatAllEnemiesQuestCompleted>
@@ -166,11 +166,11 @@
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>Embuscade</LetterLabelAmbushInExistingMap>
-  <LetterAmbushInExistingMap>Votre {0} est tombé dans une embuscade!</LetterAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Votre {0} est tombé dans une embuscade !</LetterAmbushInExistingMap>
 
   <!-- Peace talks -->
   <LetterLabelPeaceTalks_Disaster>Catastrophe lors des pourparlers de paix</LetterLabelPeaceTalks_Disaster>
-  <LetterPeaceTalks_Disaster>Les négociations ont été un désastre. Les délégués ont à peine dépassé leurs premières salutations avant que la discussion ne se décompose en insultes et récriminations. \n\nAprès que votre caravane soit partie prématurément, {0} de {1} l' a rattrapée et attaquée! \n\nRelations avec {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Les négociations ont été un désastre. Les délégués ont à peine dépassé leurs premières salutations avant que la discussion ne se décompose en insultes et récriminations. \n\nAprès que votre caravane soit partie prématurément, {0} de {1} l' a rattrapée et attaquée ! \n\nRelations avec {1}: {2}.</LetterPeaceTalks_Disaster>
   <LetterLabelPeaceTalks_Backfire>Les discussions de paix se soldent par un contrecoup</LetterLabelPeaceTalks_Backfire>
   <LetterPeaceTalks_Backfire>Les pourparlers ont échoué. Malgré quelques plaisanteries, les délégués n'ont fait aucun progrès sur les questions de fond, et de nombreuses déclarations ont été interprétées comme des insultes. \n\nRelations avec {0}: {1}.</LetterPeaceTalks_Backfire>
   <LetterLabelPeaceTalks_TalksFlounder>Les négociations de paix piétinent</LetterLabelPeaceTalks_TalksFlounder>
@@ -178,7 +178,7 @@
   <LetterLabelPeaceTalks_Success>Réussite du dialogue de paix</LetterLabelPeaceTalks_Success>
   <LetterPeaceTalks_Success>Les pourparlers ont été un succès. Les délégués sont parvenus à une nouvelle entente mutuelle sur plusieurs questions importantes. \n\nLes relations avec {0} se sont améliorées de {1}.</LetterPeaceTalks_Success>
   <LetterLabelPeaceTalks_Triumph>Les pourparlers de paix remportent un grand succès</LetterLabelPeaceTalks_Triumph>
-  <LetterPeaceTalks_Triumph>Les pourparlers ont été un grand triomphe! Les délégués se sont rapidement entendus sur le plan personnel et ont pu se voir mutuellement sur les questions les plus difficiles de la journée. \n\nLes relations avec {0} se sont améliorées de {1}. \n\nAu moment où votre caravane est partie, {0} vous a offert un cadeau: {2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Les pourparlers ont été un grand triomphe ! Les délégués se sont rapidement entendus sur le plan personnel et ont pu se voir mutuellement sur les questions les plus difficiles de la journée. \n\nLes relations avec {0} se sont améliorées de {1}. \n\nAu moment où votre caravane est partie, {0} vous a offert un cadeau: {2}.</LetterPeaceTalks_Triumph>
   <PeaceTalksSocialXPGain>{0}, votre négociateur, a acquis {1} d'expérience sociale.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->

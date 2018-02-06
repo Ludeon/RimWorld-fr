@@ -6,8 +6,8 @@
   <OK>OK</OK>
 
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.\n\nCela peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionInitial>
-  <GameUpdatedToNewVersionSavesIncompatible>Cela peut faire arrêter de fonctionner les sauvegardes et les mods des anciennes versions.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionInitial>RimWorld a été mis à jour de la version {0} vers la version {1}.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Cela peut causer l'arrêt du fonctionnement des sauvegardes et des mods issus des anciennes versions.</GameUpdatedToNewVersionSavesIncompatible>
   <GameUpdatedToNewVersionSavesCompatible>Les sauvegardes des anciennes versions devraient fonctionner mais quelques mods pourraient ne plus fonctionner.</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>Cette copie ne contient pas de DRM, vous pouvez installer le jeu deux fois dans deux dossiers différents pour jouer à la fois à l'ancienne et à la nouvelle version.</GameUpdatedToNewVersionNonSteam>
   <GameUpdatedToNewVersionSteam>Si vous souhaitez continuer avec l'ancienne version, vous pouvez opter pour la fonctionnalité "Betas" de Steam.\n\n  1. Dans la bibliothèque Steam, faites un clic droit sur RimWorld.\n  2. Cliquez sur "propriétés".\n  3. Cliquez sur l'onglet "Betas".\n  4. Sélectionnez la version que vous désirez dans le menu déroulant.\n\nD'anciennes versions peuvent éventuellement être retirées de la liste - nous souhaitons seulement éviter d'interrompre des parties en cours.\n\nNotez que si les auteurs de mods mettent à jour ceux-ci pour la nouvelle version du jeu, ils s’arrêteront probablement de fonctionner sur une ancienne version. Vous pouvez désactiver les mises-à-jour automatiques pour éviter cela.</GameUpdatedToNewVersionSteam>
@@ -31,7 +31,7 @@
   <Restarting>Redémarrage en cours</Restarting>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nCette version Steam du jeu requiert Steam et va maintenant fermer.</SteamClientMissing>
+  <SteamClientMissing>Impossible d'initialiser l'API Steam. Causes possibles :\n\n- Steam n'est pas démarré.\n- A été lancé en dehors de Steam sans steam_appid.txt en place.\n- A été lancé avec des privilèges différents de ceux du client Steam (par ex. "en tant qu'administrateur").\n\nDans la plupart des cas, redémarrer votre ordinateur réglera le problème.\n\nVous pouvez jouer quand même, mais aucune statistique Steam ne sera enregistrée et les fonctionnalités Steam ne seront pas disponibles.</SteamClientMissing>
 
   <!-- Long events -->
   <InitializingInterface>Initialisation de l'interface</InitializingInterface>
@@ -61,9 +61,9 @@
   <SaveIsFromDifferentGameBuild>Vous êtes sur la version {0} mais la sauvegarde a été faite sur la {1}, qui est une version différente du jeu.\n\nTenter de charger ces données ne fonctionnera probablement pas.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Les données sauvegardées ont été enregistrées avec cette version du jeu et devraient fonctionner sans problème.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Les données sauvegardées sont dans un format inconnu et vont certainement ne pas se charger correctement.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Il y a eu un problème au chargement du fichier {0} :\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>Il y a eu un problème à la sauvegarde du fichier {0} :\n\n{1}\n\nVeuillez lire le journal des erreurs pour plus d'informations.</ProblemSavingFile>
   <LoadAnyway>Charger quand même</LoadAnyway>
-  <ChangeLoadedMods>Charger liste des mods depuis la sauvegarde</ChangeLoadedMods>
+  <ChangeLoadedMods>Charger la liste des mods depuis la sauvegarde</ChangeLoadedMods>
   <MissingMods>Certains mods ne sont pas disponibles, et doivent être installés</MissingMods>
 
   <!-- Player faction naming -->
@@ -111,10 +111,10 @@
   <ResearchMenuWithoutBench>Tant que vous n'avez pas construit de BANC DE RECHERCHE, vos colons sont incapables d'effectuer des travaux de recherche.\n\nToutefois, vous pouvez désigner un projet de recherche dès maintenant.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Prérequis de recherche </ResearchPrerequisites>
   <RequiredResearchBench>Banc de recherche nécessaire </RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Équipement(s) du banc de recherche nécessaire(s)</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Équipements du banc de recherche nécessaires</RequiredResearchBenchFacilities>
 
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention d'être confronté(e) à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention de vous confronter à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Attention : Les performances du jeu pourraient être dégradées sur les cartes les plus grandes. La taille Ludeonesque n'a pas été testée et sera certainement injouable.</MapSizePerformanceWarning>
   <MapSize>Taille de la carte</MapSize>
   <MapSizeDesc>{0}×{0} ({1} cases)</MapSizeDesc>
@@ -145,8 +145,8 @@
   <MinimumSkills>Compétence minimale :</MinimumSkills>
   <BillRequires>Requiert {0} {1}</BillRequires>
   <BillRequiresNutrition>Requiert {0} nourriture</BillRequiresNutrition>
-  <BillRequiresMayVary>(Note : les ingrédients de petit volume, comme l'or, en requièrent 20 fois plus.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Ceci est un ingrédient de  petit volume. Cela signifie que chaque unité ne compte que pour 1/10 d'un ingrédient de volume normal. Pour atteindre la même quantité, vous aurez donc besoin de 10 fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
+  <BillRequiresMayVary>(Note : les ingrédients de petit volume, comme l'or, en requièrent {0} fois plus.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Ceci est un ingrédient de  petit volume. Cela signifie que chaque unité ne compte que pour 1/{0} d'un ingrédient de volume normal. Pour atteindre la même quantité, vous aurez donc besoin de {0} fois plus d'ingrédients que d'habitude.</ThisIsSmallVolume>
   <UsableIngredients>ingrédients utilisables</UsableIngredients>
   <BillRepeatTargetCountShort>Jusqu'à {0}</BillRepeatTargetCountShort>
 
@@ -224,7 +224,7 @@
   <ColonyHasNoMore>La colonie n'a plus rien à vendre.</ColonyHasNoMore>
   <TraderWillNotTrade>Le marchand n'est pas intéressé par cet objet.</TraderWillNotTrade>
   <Negotiator>Marchand</Negotiator>
-  <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.\n\nCela affectera les prix du commerce.\n\nPensez à utiliser un colon négociateur en meilleure santé.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.</NegotiatorTalkingImpaired>
   <NegotiatorHearingImpaired>Votre négociateur {0} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
   <NegotiatorCapacityImpaired>Cela affectera les prix des transactions. \n\nPensez à utiliser un négociateur en meilleure santé.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>Le marchand n'a pas assez d'argent pour payer intégralement cette transaction. Continuer quand même ?</ConfirmTraderShortFunds>
@@ -250,7 +250,7 @@
   <CaravanMustHaveAtLeastOneColonist>Vous devez désigner au moins un colon valide pour la nouvelle caravane.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>Le point de sortie choisi ({0}) est invalide.</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindPackingSpot>Impossible de trouver un point valide pour l'échange. Vérifier si le point de sortie ({0}) est accessible.</CaravanCouldNotFindPackingSpot>
-  <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane ({0}).</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Aucun des colons désignés ne peut  accéder aux {0}x {1}.</CaravanItemIsUnreachableMulti>
@@ -263,18 +263,18 @@
   <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
   <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.\n\nÊtes-vous sûr de vouloir créer cette caravane ?</DaysWorthOfFoodWarningDialog_NoFood>
-  <CaravanFoodWillRotSoonWarningDialog>Une grande part de la nourriture désignée pourrira bientôt.\n\nÊtes-vous sûr(e) de vouloir former cette caravane ?</CaravanFoodWillRotSoonWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>Une grande partie de la nourriture allouée pourrira bientôt.</CaravanFoodWillRotSoonWarningDialog>
   <CaravanIncapableOfSocial>Aucun membre de la caravane n'est capable de diplomatie ou de commerce.</CaravanIncapableOfSocial>
-  <CaravanAreYouSure>Vous êtes sûr de vouloir former une caravane?</CaravanAreYouSure>
+  <CaravanAreYouSure>Êtes-vous sûr(e) de vouloir former cette caravane ?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direction de sortie </ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
   <MarketValueTip>Valeur marchande</MarketValueTip>
-  <DaysUntilRotTip>Le nombre de jours avant que cet objet commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>
+  <DaysUntilRotTip>Le nombre de jours avant que cet objet ne commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>
   <MassCapacity>Capacité de transport</MassCapacity>
   <Mass>Poids</Mass>
   <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
@@ -374,7 +374,7 @@
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucun de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Êtes-vous sûr d'abandonner cette zone?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>Certains de vos colons et animaux sont encore restés sur place. Êtes-vous sûr d'abandonner cette zone ?\n\nLes colons et animaux suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <ConfirmAbandonHomeNegativeThoughts>L'abandon de {0} entraînera les membres de la caravane à avoir les pensées suivantes :</ConfirmAbandonHomeNegativeThoughts>
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Tous :</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
@@ -382,10 +382,10 @@
   <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nÊtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmBanishPawnDialog>Voulez-vous vraiment bannir {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>Voulez-vous vraiment bannir {0} ?</ConfirmBanishPawnDialog>
   <ConfirmBanishPawnDialog_LeftToDie>{0} mourra très probablement.</ConfirmBanishPawnDialog_LeftToDie>
-  <ConfirmBanishPawnDialog_Items>{0} prendra les éléments suivants avec HIM:</ConfirmBanishPawnDialog_Items>
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>Tous les colons auront la réflexion suivante:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_Items>{0} prendra les éléments suivants avec HIM :</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Tous les colons auront la réflexion suivante :</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <ConfirmBanishPawnDialog_IndividualThoughts>Bannir {0} provoquera, chez les personnes suivantes, la réflexion suivante :</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
