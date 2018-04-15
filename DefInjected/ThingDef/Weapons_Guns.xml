@@ -1,43 +1,62 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bullet_Pistol.label>Balle de pistolet</Bullet_Pistol.label>
+  <Bullet_Revolver.label>Balle de revolver</Bullet_Revolver.label>
 
-  <Gun_Pistol.label>Pistolet</Gun_Pistol.label>
-  <Gun_Pistol.description>Ancien modèle de pistolet automatique. Faible et à courte portée, mais rapide.</Gun_Pistol.description>
+  <Gun_Revolver.label>Revolver</Gun_Revolver.label>
+  <Gun_Revolver.description>Ancien modèle de revolver à double action. Assez faible, de portée moyenne et rapide.</Gun_Revolver.description>
+  <Gun_Revolver.tools.0.label>Poignée</Gun_Revolver.tools.0.label>
+  <Gun_Revolver.tools.1.label>Canon</Gun_Revolver.tools.1.label>
+
+  <Bullet_Autopistol.label>Balle de pistolet automatique</Bullet_Autopistol.label>
+
+  <Gun_Autopistol.label>Pistolet automatique</Gun_Autopistol.label>
+  <Gun_Autopistol.description>Ancien modèle de pistolet automatique. Faible et de courte portée, mais rapide.</Gun_Autopistol.description>
+  <Gun_Autopistol.tools.0.label>Poignée</Gun_Autopistol.tools.0.label>
+  <Gun_Autopistol.tools.1.label>Canon</Gun_Autopistol.tools.1.label>
 
 
-  <!-- T-9 incendiary launcher -->
+  <!-- T-9 lanceur de balle incendiaire -->
 
   <Bullet_IncendiaryLauncher.label>Balle incendiaire</Bullet_IncendiaryLauncher.label>
 
-  <Gun_IncendiaryLauncher.label>Lanceur de balle incendiaire</Gun_IncendiaryLauncher.label>
-  <Gun_IncendiaryLauncher.description>Lanceur de balle incendiaire. Démarre des incendies.</Gun_IncendiaryLauncher.description>
+  <Gun_IncendiaryLauncher.label>Lanceur de balles incendiaires</Gun_IncendiaryLauncher.label>
+  <Gun_IncendiaryLauncher.description>Lanceur de balles incendiaires. Démarre des incendies.</Gun_IncendiaryLauncher.description>
+  <Gun_IncendiaryLauncher.tools.0.label>Magasin</Gun_IncendiaryLauncher.tools.0.label>
+  <Gun_IncendiaryLauncher.tools.1.label>Canon</Gun_IncendiaryLauncher.tools.1.label>
 
-  <Bullet_PumpShotgun.label>Cartouche de fusil à pompe</Bullet_PumpShotgun.label>
+  <Bullet_PumpShotgun.label>Balle de fusil à pompe</Bullet_PumpShotgun.label>
 
   <Gun_PumpShotgun.label>Fusil à pompe</Gun_PumpShotgun.label>
   <Gun_PumpShotgun.description>Conception ancienne. Mortel, mais à courte portée.</Gun_PumpShotgun.description>
+  <Gun_PumpShotgun.tools.0.label>Magasin</Gun_PumpShotgun.tools.0.label>
+  <Gun_PumpShotgun.tools.1.label>Canon</Gun_PumpShotgun.tools.1.label>
 
-  <Bullet_ChainShotgun.label>Cartouche de fusil à pompe</Bullet_ChainShotgun.label>
-
-  <Gun_ChainShotgun.label>Fusil à pompe (rafale)</Gun_ChainShotgun.label>
+  <Gun_ChainShotgun.label>Fusil à pompe automatique</Gun_ChainShotgun.label>
   <Gun_ChainShotgun.description>Un fusil à pompe automatique prêt à l'emploi. Courte portée et à très faible précision, mais extraordinairement dangereux.</Gun_ChainShotgun.description>
+  <Gun_ChainShotgun.tools.0.label>Magasin</Gun_ChainShotgun.tools.0.label>
+  <Gun_ChainShotgun.tools.1.label>Canon</Gun_ChainShotgun.tools.1.label>
 
-  <Bullet_BoltActionRifle.label>Cartouche de carabine de survie</Bullet_BoltActionRifle.label>
+  <Bullet_BoltActionRifle.label>Balle de carabine de survie</Bullet_BoltActionRifle.label>
 
   <Gun_BoltActionRifle.label>Carabine de survie</Gun_BoltActionRifle.label>
   <Gun_BoltActionRifle.description>Ancienne carabine à verrou. Bonne gamme, bonne puissance, à faible cadence de tir.</Gun_BoltActionRifle.description>
+  <Gun_BoltActionRifle.tools.0.label>Magasin</Gun_BoltActionRifle.tools.0.label>
+  <Gun_BoltActionRifle.tools.1.label>Canon</Gun_BoltActionRifle.tools.1.label>
 
   <Bullet_MachinePistol.label>Balle de pistolet-mitrailleur</Bullet_MachinePistol.label>
 
   <Gun_MachinePistol.label>Pistolet-mitrailleur</Gun_MachinePistol.label>
   <Gun_MachinePistol.description>Un pistolet-mitrailleur. Courte portée, faible puissance, cadence de tir élevée. Très rapide pour viser et tirer.</Gun_MachinePistol.description>
+  <Gun_MachinePistol.tools.0.label>Poignée</Gun_MachinePistol.tools.0.label>
+  <Gun_MachinePistol.tools.1.label>Canon</Gun_MachinePistol.tools.1.label>
 
   <Bullet_HeavySMG.label>Balle de mitrailleuse lourde</Bullet_HeavySMG.label>
 
   <Gun_HeavySMG.label>Mitrailleuse lourde</Gun_HeavySMG.label>
   <Gun_HeavySMG.description>Compact, gros calibre. Très courte distance, mais bonne prise en main.</Gun_HeavySMG.description>
+  <Gun_HeavySMG.tools.0.label>Poignée</Gun_HeavySMG.tools.0.label>
+  <Gun_HeavySMG.tools.1.label>Canon</Gun_HeavySMG.tools.1.label>
 
 
   <!-- LMG -->
@@ -46,11 +65,15 @@
 
   <Gun_LMG.label>Mitrailleuse légère</Gun_LMG.label>
   <Gun_LMG.description>Une mitrailleuse légère.</Gun_LMG.description>
+  <Gun_LMG.tools.0.label>Magasin</Gun_LMG.tools.0.label>
+  <Gun_LMG.tools.1.label>Canon</Gun_LMG.tools.1.label>
 
   <Bullet_AssaultRifle.label>Balle de fusil d'assaut</Bullet_AssaultRifle.label>
 
   <Gun_AssaultRifle.label>Fusil d'assaut</Gun_AssaultRifle.label>
-  <Gun_AssaultRifle.description>Arme d'origine militaire, généralement pour le champ de combat urbain. Il tire par salve de trois. Bonne gamme, de faible puissance, cadence de tir élevée.</Gun_AssaultRifle.description>
+  <Gun_AssaultRifle.description>Arme d'origine militaire, généralement pour le combat urbain. Il tire par salve de trois. Bonne portée, de faible puissance, cadence de tir élevée.</Gun_AssaultRifle.description>
+  <Gun_AssaultRifle.tools.0.label>Magasin</Gun_AssaultRifle.tools.0.label>
+  <Gun_AssaultRifle.tools.1.label>Canon</Gun_AssaultRifle.tools.1.label>
 
 
   <!-- Charge rifle -->
@@ -59,11 +82,15 @@
 
   <Gun_ChargeRifle.label>Fusil à charge</Gun_ChargeRifle.label>
   <Gun_ChargeRifle.description>Fusil à charge d'énergie/projectile.</Gun_ChargeRifle.description>
+  <Gun_ChargeRifle.tools.0.label>Magasin</Gun_ChargeRifle.tools.0.label>
+  <Gun_ChargeRifle.tools.1.label>Canon</Gun_ChargeRifle.tools.1.label>
 
   <Bullet_SniperRifle.label>Balle de fusil de précision</Bullet_SniperRifle.label>
 
   <Gun_SniperRifle.label>Fusil de précision</Gun_SniperRifle.label>
   <Gun_SniperRifle.description>Ancien modèle militaire de fusil de précision, à verrou. Longue portée, puissant et d'une grande précision.</Gun_SniperRifle.description>
+  <Gun_SniperRifle.tools.0.label>Magasin</Gun_SniperRifle.tools.0.label>
+  <Gun_SniperRifle.tools.1.label>Canon</Gun_SniperRifle.tools.1.label>
 
 
   <!-- Minigun -->
@@ -72,6 +99,7 @@
 
   <Gun_Minigun.label>MiniGun</Gun_Minigun.label>
   <Gun_Minigun.description>Une mitrailleuse multi-canon avec une cadence de tir extrêmement élevée. Conception mécanoïde.</Gun_Minigun.description>
+  <Gun_Minigun.tools.0.label>Canons</Gun_Minigun.tools.0.label>
 
 
   <!-- Non-producible -->
@@ -80,29 +108,39 @@
 
   <Gun_TripleRocket.label>Lance-roquette triple</Gun_TripleRocket.label>
   <Gun_TripleRocket.description>Lance-roquette à usage unique qui tire 3 projectiles successivement.</Gun_TripleRocket.description>
+  <Gun_TripleRocket.tools.0.label>Canon</Gun_TripleRocket.tools.0.label>
 
   <Bullet_DoomsdayRocket.label>Roquette apocalyptique</Bullet_DoomsdayRocket.label>
 
   <Gun_DoomsdayRocket.label>Lance-roquette apocalyptique</Gun_DoomsdayRocket.label>
   <Gun_DoomsdayRocket.description>Lance-roquette à usage unique, pour vengeance rapide.</Gun_DoomsdayRocket.description>
+  <Gun_DoomsdayRocket.tools.0.label>Canon</Gun_DoomsdayRocket.tools.0.label>
 
 
   <!-- Mechanoid weapons -->
 
-  <Bullet_ChargeLance.label>Balle de lance-charge</Bullet_ChargeLance.label>
+  <Bullet_ChargeLance.label>Balle de lance-charges</Bullet_ChargeLance.label>
 
-  <Gun_ChargeLance.label>Lance-charge</Gun_ChargeLance.label>
-  <Gun_ChargeLance.description>Lanceur de charge assisté d'un rail. Tire une seule charge à grande vitesse.</Gun_ChargeLance.description>
+  <Gun_ChargeLance.label>Lance-charges</Gun_ChargeLance.label>
+  <Gun_ChargeLance.description>Lanceur de charges assisté d'un rail. Tire, au coup par coup, une charge à grande vitesse.</Gun_ChargeLance.description>
+  <Gun_ChargeLance.tools.0.label>Canon</Gun_ChargeLance.tools.0.label>
 
   <Bullet_InfernoCannon.label>Obus incendiaire</Bullet_InfernoCannon.label>
 
   <Gun_InfernoCannon.label>Canon incendiaire</Gun_InfernoCannon.label>
   <Gun_InfernoCannon.description>Mini-artillerie à obus incendiaire.</Gun_InfernoCannon.description>
+  <Gun_InfernoCannon.tools.0.label>Canon</Gun_InfernoCannon.tools.0.label>
 
-  <Bullet_ChargeBlasterHeavy.label>Charge de blaster Lourd</Bullet_ChargeBlasterHeavy.label>
+  <Bullet_ChargeBlasterHeavy.label>Charge de blaster lourd</Bullet_ChargeBlasterHeavy.label>
 
-  <Gun_ChargeBlasterHeavy.label>Blaster Lourd</Gun_ChargeBlasterHeavy.label>
-  <Gun_ChargeBlasterHeavy.description>Charge de grenaille pour tir de suppression. Conception mécanoïde.</Gun_ChargeBlasterHeavy.description>
+  <Gun_ChargeBlasterHeavy.label>Blaster lourd</Gun_ChargeBlasterHeavy.label>
+  <Gun_ChargeBlasterHeavy.description>Blaster qui envoie des charges en rafales, idéal pour les tirs de suppression. Conception mécanoïde.</Gun_ChargeBlasterHeavy.description>
+  <Gun_ChargeBlasterHeavy.tools.0.label>Canon</Gun_ChargeBlasterHeavy.tools.0.label>
 
+
+  <!--<Bullet_Pistol.label>Balle de pistolet</Bullet_Pistol.label>-->
+  <!--<Gun_Pistol.label>Pistolet</Gun_Pistol.label>-->
+  <!--<Gun_Pistol.description>Ancien modèle de pistolet automatique. Faible et à courte portée, mais rapide.</Gun_Pistol.description>-->
+  <!--<Bullet_ChainShotgun.label>Cartouche de fusil à pompe</Bullet_ChainShotgun.label>-->
 
 </LanguageData>

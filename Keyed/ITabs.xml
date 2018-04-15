@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  
+  <!-- ITab titles -->
   <TabBills>Tâches</TabBills>
   <TabGrowing>Culture</TabGrowing>
   <TabCharacter>Aptitudes</TabCharacter>
@@ -11,6 +11,7 @@
   <TabGear>Matériel</TabGear>
   <TabNeeds>Besoins</TabNeeds>
   <TabStorage>Stockage</TabStorage>
+  <TabShells>Obus</TabShells>
   <TabHealth>Santé</TabHealth>
   <TabRace>Race</TabRace>
   <TabBasics>Bases</TabBasics>
@@ -18,9 +19,10 @@
   <TabRecords>Enregistrement</TabRecords>
   <TabArt>Art</TabArt>
   <TabSocial>Social</TabSocial>
+  <TabCombat>Combat</TabCombat>
 
 
-  
+  <!-- Bills tab  -->
   <AddBill>Ajouter une tâche</AddBill>
   <RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun de vos colons ne dispose de cette compétence, donc personne ne prendra en charge cette commande.</RecipeRequiresSkills>
   <MinimumSkill>Compétence min.</MinimumSkill>
@@ -29,21 +31,16 @@
   <PlantVerb>Planter</PlantVerb>
 
 
-  
+  <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Difficulté de recrutement</RecruitmentDifficulty>
   <GetsFood>Reçoit de la nourriture</GetsFood>
   <DoctorsCare>Surveillance médicale</DoctorsCare>
   <GetsMedicine>Reçoit des soins</GetsMedicine>
   <ShouldTryToRecruit>Tenter le recrutement</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Aucune interaction</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>Parler et recruter</PrisonerAttemptRecruit>
-  <PrisonerRelease>Libérer</PrisonerRelease>
-  <PrisonerExecution>Exécuter</PrisonerExecution>
   <ConsideredGuilty>Considéré(e) coupable (expire dans {0})</ConsideredGuilty>
 
 
-  
+  <!-- Medical - general -->
   <MoveSpeed>Vitesse de déplacement</MoveSpeed>
   <Efficiency>Efficacité</Efficiency>
   <PartEfficiency>Efficacité partielle</PartEfficiency>
@@ -81,7 +78,7 @@
   <SelfTendTip>{0} se soigneront eux-mêmes automatiquement à {1} de l'efficacité normale.</SelfTendTip>
 
 
-  
+  <!-- Medical - Body and activities condition -->
   <None>Aucune</None>
   <VeryPoor>Critique</VeryPoor>
   <Poor>Faible</Poor>
@@ -98,14 +95,14 @@
   <ExtremePain>Extrême</ExtremePain>
 
 
-  
+  <!-- Training tab-->
   <TrainableIntelligence>Intelligence</TrainableIntelligence>
   <CannotTrainNotSmartEnough>Requiert intelligence {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0} est trop petit pour apprendre ceci.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Prérequis demandé : {0}</TrainingNeedsPrerequisite>
 
-  
+  <!-- Social tab -->
   <NoRelationships>(pas de relations)</NoRelationships>
   <Kidnapped>Kidnappé</Kidnapped>
   <Missing>Disparu(e)</Missing>
@@ -116,7 +113,7 @@
   <IAmDead>Je suis mort</IAmDead>
   <IAmPsychopath>Je suis un psychopathe</IAmPsychopath>
 
-  
+  <!-- Gear tab -->
   <AverageArmor>Armure moyenne</AverageArmor>
   <MassCarried>Charge transportée : {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Plage de températures agréables</ComfyTemperatureRange>
@@ -124,5 +121,11 @@
   <ArmorSharp>Tranchant</ArmorSharp>
   <ArmorHeat>Chaleur</ArmorHeat>
   <ArmorElectric>Électrique</ArmorElectric>
+
+  <!--<PrisonerNoInteraction>Aucune interaction</PrisonerNoInteraction>-->
+  <!--<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>-->
+  <!--<PrisonerAttemptRecruit>Parler et recruter</PrisonerAttemptRecruit>-->
+  <!--<PrisonerRelease>Libérer</PrisonerRelease>-->
+  <!--<PrisonerExecution>Exécuter</PrisonerExecution>-->
 
 </LanguageData>

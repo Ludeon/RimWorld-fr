@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Forbid -->
@@ -73,7 +73,7 @@
   <CommandPasteZoneSettingsLabel>Coller des paramètres</CommandPasteZoneSettingsLabel>
   <CommandPasteZoneSettingsDesc>Écrase les paramètres de cette zone par ceux précédemment copiés.</CommandPasteZoneSettingsDesc>
 
-  <CommandAllowSow>Autoriser l'ensemencement</CommandAllowSow>
+  <CommandAllowSow>Autoriser le semis</CommandAllowSow>
   <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée.</CommandAllowSowDesc>
 
   <!-- Artillery -->
@@ -82,14 +82,20 @@
   <CommandStopForceAttack>Arrêter l'attaque forcée</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Met fin à l'attaque forcée et permet à la tourelle d'attaquer librement des cibles hostiles.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Aucune attaque forcée en cours.</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>Extraire l'obus</CommandExtractShell>
+  <CommandExtractShellDesc>Décharge l'obus courant pour le remplacer par d'autres munitions.</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>Aucun obus n'est chargé.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>Cible hors de portée.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Cible trop proche.</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>Attention: Le mortier ne va pas tirer parce qu'il est réglé sur "Cessez le feu".</MessageTurretWontFireBecauseHoldFire>
 
   <!-- Ship computer core -->
   <CommandShipLaunch>Lancer le vaisseau</CommandShipLaunch>
   <CommandShipLaunchDesc>Démarre la séquence de lancement avec la configuration actuelle.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Voir le rapport de lancement</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Affiche un rapport sur l'état de lancement du vaisseau.</CommandShipLaunchReportDesc>
+  <CommandShipStartup>Démarrer le vaisseau</CommandShipStartup>
+  <CommandShipStartupDesc>Réveillez les composants du vaisseau en mode hibernation.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>Éjecter l'occupant</CommandPodEject>
@@ -98,7 +104,7 @@
 
   <!-- Door -->
   <CommandToggleDoorForbid>Verrouiller</CommandToggleDoorForbid>
-  <CommandToggleDoorForbidDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent être ouvertes par personne.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Verrouille ou déverrouille une porte. Les portes verrouillées ne peuvent pas être ouvertes par les colons. Cela n'affecte pas les ennemis ou les animaux.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Maintenir ouvert</CommandToggleDoorHoldOpen>
   <CommandToggleDoorHoldOpenDesc>Si activé, les colons ne fermeront pas la porte après leur passage.</CommandToggleDoorHoldOpenDesc>
 
@@ -134,6 +140,10 @@
   <CommandSquadAttack>Attaquer</CommandSquadAttack>
   <CommandSquadAttackDesc>Ordonne aux colons sélectionnés d'aller attaquer la cible désignée.</CommandSquadAttackDesc>
 
+  <!-- Melee attack -->
+  <CommandMeleeAttack>Attaque de mêlée</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Ordonnez aux colons sélectionnés d'attaquer la cible désignée en utilisant seulement les poings et les armes de corps à corps.</CommandMeleeAttackDesc>
+
   <!-- Hold fire -->
   <CommandHoldFire>Cesser le feu</CommandHoldFire>
   <CommandHoldFireDesc>Met fin à l'attaque en cours.</CommandHoldFireDesc>
@@ -163,11 +173,11 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>Fusionner</CommandMergeCaravans>
   <CommandMergeCaravansDesc>Fusionner les caravanes sélectionnées.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>Sélectionnez toutes les caravanes qui doivent être fusionnées. Les caravanes doivent être proches les unes des autres.</CommandMergeCaravansFailCaravansNotSelected>
 
   <!-- Settle -->
   <CommandSettle>Coloniser</CommandSettle>
   <CommandSettleDesc>Installez-vous dans cette zone. Vos colons entreront dans cette zone et vous pourrez commencer à construire une nouvelle colonie.</CommandSettleDesc>
-<!--   <CommandSettleFailOtherWorldObjectsHere>Votre caravane doit être le seul objet sur cette tuile pour pouvoir coloniser la zone.</CommandSettleFailOtherWorldObjectsHere> -->
   <CommandSettleFailAlreadyHaveBase>Votre faction ne peut avoir qu'une seule base.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Nombre maximum de colonies atteint.</CommandSettleFailReachedMaximumNumberOfBases>
   <CommandSettleFailNoColonists>Il n'y a personne pour réclamer la région.</CommandSettleFailNoColonists>
@@ -195,7 +205,7 @@
   <CommandFulfillTradeOffer>Réaliser l'offre commerciale</CommandFulfillTradeOffer>
   <CommandFulfillTradeOfferDesc>Fournissez à la colonie ce qu'elle demande et réclamez votre récompense.</CommandFulfillTradeOfferDesc>
   <CommandFulfillTradeOfferFailInsufficient>La caravane doit avoir {0} pour accomplir cette offre commerciale.</CommandFulfillTradeOfferFailInsufficient>
-  <CommandFulfillTradeOfferConfirm>Offrir {0} pour {1}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>Offrir {0} pour {1} ?</CommandFulfillTradeOfferConfirm>
 
   <!-- Take off -->
   <CommandTakeOff>Décoller</CommandTakeOff>
@@ -235,7 +245,6 @@
   <CommandSelectNextTransporter>Sélectionner le suivant dans groupe de lancement</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>Sélectionnez la capsule de transport suivante dans ce groupe de lancement.</CommandSelectNextTransporterDesc>
 
-  
   <!-- Vent -->
   <CommandDesignateOpenCloseVentLabel>Ouvert/fermer</CommandDesignateOpenCloseVentLabel>
   <CommandDesignateOpenCloseVentDesc>Désignez cette ouverture à être ouvert ou fermer. Un colon viendra bientôt pour accomplir la tâche.</CommandDesignateOpenCloseVentDesc>
