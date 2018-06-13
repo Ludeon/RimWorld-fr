@@ -42,8 +42,8 @@
 
   <LetterLabelSingleVisitorArrives>Visiteur</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>Un {0} de {1} vient visiter votre colonie.\n\nSon nom est {2}.{3}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP est le chef de la faction.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] est le chef de la faction.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visiteurs</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un groupe venu de {0} vient visiter votre colonie.{1}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nIl semblerait qu'ils aient quelques objets à échanger.</GroupVisitorsArriveTraderInfo>
@@ -51,7 +51,7 @@
   <VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
-  <WandererJoin>NAME, un(e) {0} a rejoint votre colonie. Son métier est {1}.</WandererJoin>
+  <WandererJoin>[PAWN_nameDef], un(e) {0} a rejoint votre colonie. Son métier est {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Meute de chasseurs d'hommes</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Une meute de {0}s chasseurs d'hommes arrive dans la région. Ils vont parcourir la région à la recherche de chair humaine.\n\nIls ne franchissent pas les portes, donc vous serez en sécurité si vous restez derrière vos murs. Ils n'attaquent pas les mitrailleuses inactives, donc mettez-les hors tension si vous voulez les sauver.\n\nIls quitteront la région dans quelques jours.</ManhunterPackArrived>
@@ -85,7 +85,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Réfugié pourchassé à {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Un {1} nommé {0} vous appelle. HECAP est pourchassé(e) par des {2} de {3} !\n\nHECAP vous supplie de l'aider et de rejoindre votre colonie. HECAP a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un {1} nommé {0} vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorer le message</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} a hurlé de panique dans le petit micro avant que vous ne coupiez la transmission.</RefugeeChasedRejected>
