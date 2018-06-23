@@ -1,33 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  
+  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
-  <SculptingSpeed.label>Vitesse de sculpture</SculptingSpeed.label>
-  <SculptingSpeed.description>Vitesse de fabrication d'une sculpture par cette personne.</SculptingSpeed.description>
+  <SculptingSpeed.label>vitesse de sculpture</SculptingSpeed.label>
+  <SculptingSpeed.description>Vitesse de fabrication d'une sculpture par cette personne. Remarque: La compétence affecte la qualité des sculptures créées, mais pas la vitesse de sculpture.</SculptingSpeed.description>
 
   <TailoringSpeed.label>vitesse de couture</TailoringSpeed.label>
-  <TailoringSpeed.description>Vitesse à laquelle cette personne fabrique des vêtements.</TailoringSpeed.description>
+  <TailoringSpeed.description>Vitesse à laquelle cette personne fabrique des vêtements. Remarque: La compétence affecte la qualité de l'habillement créé, mais pas la vitesse de couture.</TailoringSpeed.description>
 
-  <SmithingSpeed.label>Vitesse de forgeage</SmithingSpeed.label>
-  <SmithingSpeed.description>Vitesse à laquelle une personne forge une arme ou un outil.</SmithingSpeed.description>
+  <SmithingSpeed.label>vitesse de forgeage</SmithingSpeed.label>
+  <SmithingSpeed.description>Vitesse à laquelle cette personne forge une arme ou un outil. Remarque: La compétence affecte la qualité des éléments créés, mais pas la vitesse de forgeage.</SmithingSpeed.description>
 
 
-
+  <!-- Production recipes - speed affected by skill because there is no output quality -->
 
   <DrugProductionSpeed.label>vitesse de production de médicaments</DrugProductionSpeed.label>
   <DrugProductionSpeed.description>Vitesse à laquelle cette personne fabrique des médicaments ou des drogues.</DrugProductionSpeed.description>
 
-  <StonecuttingSpeed.label>vitesse de taille de pierre</StonecuttingSpeed.label>
-  <StonecuttingSpeed.description>Vitesse à laquelle cette personne taille des pierres pour en faire des blocs.</StonecuttingSpeed.description>
-
   <CookSpeed.label>vitesse de cuisine</CookSpeed.label>
   <CookSpeed.description>Vitesse à laquelle cette personne cuisine.</CookSpeed.description>
 
-  <FoodPoisonChance.label>Risque d'intoxication alimentaire</FoodPoisonChance.label>
+  <FoodPoisonChance.label>risque d'intoxication alimentaire</FoodPoisonChance.label>
   <FoodPoisonChance.description>Probabilité que cette personne empoisonne un plat par inadvertance en cuisinant.</FoodPoisonChance.description>
 
-  <BrewingSpeed.label>Vitesse de brassage</BrewingSpeed.label>
+  <BrewingSpeed.label>vitesse de brassage</BrewingSpeed.label>
   <BrewingSpeed.description>Vitesse à laquelle cette personne brasse de la bière.</BrewingSpeed.description>
 
   <ButcheryFleshSpeed.label>vitesse de dépeçage</ButcheryFleshSpeed.label>
@@ -46,10 +43,13 @@
   <ButcheryMechanoidEfficiency.description>Un multiplicateur qui influe sur la quantité de matériaux récupérés à chaque désassemblage de mécanoïde.</ButcheryMechanoidEfficiency.description>
 
 
-
+  <!-- Dumb recipes - not affected by skill because there's no skill component -->
 
   <SmeltingSpeed.label>vitesse de fonte</SmeltingSpeed.label>
   <SmeltingSpeed.description>Vitesse à laquelle cette personne fait fondre des matériaux et objets.</SmeltingSpeed.description>
 
+
+  <!--<StonecuttingSpeed.label>Vitesse de taille de pierre</StonecuttingSpeed.label>-->
+  <!--<StonecuttingSpeed.description>Vitesse à laquelle cette personne taille des pierres pour en faire des blocs.</StonecuttingSpeed.description>-->
 
 </LanguageData>
