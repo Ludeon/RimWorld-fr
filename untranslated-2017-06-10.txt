@@ -15,34 +15,40 @@ DefInjected/ResearchTabDef/ResearchTabs.xml
     <Main.label>Main</Main.label>
 
 DefInjected/RulePackDef/RulePacks_NameMakers_Factions.xml
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.0>name->[positiveconcept]'s [terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.0>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.1>name->[outlander]'s [terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.1>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.14>townend->ville</NamerFactionBaseOutlander.rulePack.rulesStrings.14>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.15>townend->town</NamerFactionBaseOutlander.rulePack.rulesStrings.15>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.16>townend->hurst</NamerFactionBaseOutlander.rulePack.rulesStrings.16>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.17>townend->bourne</NamerFactionBaseOutlander.rulePack.rulesStrings.17>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.18>townend->brad</NamerFactionBaseOutlander.rulePack.rulesStrings.18>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.19>townend->dale</NamerFactionBaseOutlander.rulePack.rulesStrings.19>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.2>name->[outlander]'s [community]</NamerFactionBaseOutlander.rulePack.rulesStrings.2>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.20>townend->hope</NamerFactionBaseOutlander.rulePack.rulesStrings.20>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.21>townend->ing</NamerFactionBaseOutlander.rulePack.rulesStrings.21>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.22>townend->ness</NamerFactionBaseOutlander.rulePack.rulesStrings.22>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.23>townend->mere</NamerFactionBaseOutlander.rulePack.rulesStrings.23>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.24>townend->shaw</NamerFactionBaseOutlander.rulePack.rulesStrings.24>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.25>townend->wick</NamerFactionBaseOutlander.rulePack.rulesStrings.25>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.6>nearname->[subname]-at-the-[terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.6>
-    <NamerFactionBaseOutlander.rulePack.rulesStrings.7>nearname->[subname]-by-the-[terrainfeature]</NamerFactionBaseOutlander.rulePack.rulesStrings.7>
-    <NamerFactionBasePirate.rulePack.rulesStrings.0>name->[badassanimal] [geography]</NamerFactionBasePirate.rulePack.rulesStrings.0>
-    <NamerFactionBasePirate.rulePack.rulesStrings.1>name->[badassconcept] [geography]</NamerFactionBasePirate.rulePack.rulesStrings.1>
-    <NamerFactionBasePirate.rulePack.rulesStrings.2>name->[badassanimal]'s [geography]</NamerFactionBasePirate.rulePack.rulesStrings.2>
-    <NamerFactionBasePirate.rulePack.rulesStrings.3>name->[badassperson]'s [geography]</NamerFactionBasePirate.rulePack.rulesStrings.3>
-    <NamerFactionBaseTribal.rulePack.rulesStrings.2>name->[color] [tribalword]</NamerFactionBaseTribal.rulePack.rulesStrings.2>
-    <NamerFactionBaseTribal.rulePack.rulesStrings.3>name->[color] [terrainfeature]</NamerFactionBaseTribal.rulePack.rulesStrings.3>
-    <NamerFactionBaseTribal.rulePack.rulesStrings.4>name->[tribalword] [terrainfeature]</NamerFactionBaseTribal.rulePack.rulesStrings.4>
-    <NamerFactionOutlander.rulePack.rulesStrings.10>subname->[direction] [wordname]</NamerFactionOutlander.rulePack.rulesStrings.10>
-    <NamerFactionOutlander.rulePack.rulesStrings.4>name->[subname] [politicaladjective] [politicalunion]</NamerFactionOutlander.rulePack.rulesStrings.4>
-    <NamerFactionPirate.rulePack.rulesStrings.16>name->[badassconcept] [groupname]</NamerFactionPirate.rulePack.rulesStrings.16>
-    <NamerFactionSpacer.rulePack.rulesStrings.0>name->Spacer</NamerFactionSpacer.rulePack.rulesStrings.0>
+	<NamerFactionBaseOutlander.rulePack.rulesStrings>
+		<li>name->[positiveconcept]'s [terrainfeature]</li>
+		<li>name->[outlander]'s [terrainfeature]</li>
+		<li>townend->ville</li>
+		<li>townend->town</li>
+		<li>townend->hurst</li>
+		<li>townend->bourne</li>
+		<li>townend->brad</li>
+		<li>townend->dale</li>
+		<li>name->[outlander]'s [community]</li>
+		<li>townend->hope</li>
+		<li>townend->ing</li>
+		<li>townend->ness</li>
+		<li>townend->mere</li>
+		<li>townend->shaw</li>
+		<li>townend->wick</li>
+		<li>nearname->[subname]-at-the-[terrainfeature]</li>
+		<li>nearname->[subname]-by-the-[terrainfeature]</li>
+	</NamerFactionBaseOutlander.rulePack.rulesStrings>
+	<NamerFactionBasePirate.rulePack.rulesStrings>
+		<li>name->[badassanimal] [geography]</li>
+		<li>name->[badassconcept] [geography]</li>
+		<li>name->[badassanimal]'s [geography]</li>
+		<li>name->[badassperson]'s [geography]</li>
+		<li>name->[color] [tribalword]</li>
+		<li>name->[color] [terrainfeature]</li>
+		<li>name->[tribalword] [terrainfeature]</li>
+		<li>subname->[direction] [wordname]</li>
+		<li>name->[subname] [politicaladjective] [politicalunion]</li>
+		<li>name->[badassconcept] [groupname]</li>
+	</NamerFactionBasePirate.rulePack.rulesStrings>
+	<NamerFactionSpacer.rulePack.rulesStrings>
+		<li>name->Spacer</li>
+	</NamerFactionSpacer.rulePack.rulesStrings>
 
 DefInjected/StatDef/Stats_Apparel.xml
     <SmokepopBeltRadius.formatString>{0} c</SmokepopBeltRadius.formatString>
@@ -51,7 +57,7 @@ DefInjected/StorytellerDef/Storytellers.xml
     <Tutor.label>Tutor Hidden</Tutor.label>
 
 DefInjected/TaleDef/Tales_DoublePawn.xml
-    <TrainedAnimal.rulePack.rulesStrings.6>train_syn->coaching</TrainedAnimal.rulePack.rulesStrings.6>
+		<li>train_syn->coaching</li>
 
 DefInjected/ThingDef/Items_Resource_Stuff.xml
     <Jade.label>jade</Jade.label>
