@@ -19,9 +19,10 @@
   <TabRecords>Enregistrement</TabRecords>
   <TabArt>Art</TabArt>
   <TabSocial>Social</TabSocial>
-  <TabCombat>Combat</TabCombat>
+  <TabLog>Log</TabLog>
+  <TabFormingCaravan>Caravan</TabFormingCaravan>
 
-
+  
   <!-- Bills tab  -->
   <AddBill>Ajouter une tâche</AddBill>
   <RecipeRequiresSkills>La recette {0} requiert les compétences ci-dessous. Aucun de vos colons ne dispose de cette compétence, donc personne ne prendra en charge cette commande.</RecipeRequiresSkills>
@@ -29,6 +30,14 @@
   <SuspendedCaps>SUSPENDUE</SuspendedCaps>
   <BoundWorkerIs>Travailleur : {0}</BoundWorkerIs>
   <PlantVerb>Planter</PlantVerb>
+  <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>Move up</ReorderBillUpTip>
+  <ReorderBillDownTip>Move down</ReorderBillDownTip>
+  <DeleteBillTip>Delete</DeleteBillTip>
+  <CopyBillTip>Copy to the clipboard</CopyBillTip>
+  <SuspendBillTip>Suspend</SuspendBillTip>
+  <PasteBillTip>Paste</PasteBillTip>
+  <PasteBillTip_LimitReached>can't add more</PasteBillTip_LimitReached>
 
 
   <!-- Guest/prisoner tab -->
@@ -53,7 +62,7 @@
   <InPain>Endolori</InPain>
   <PainLevel>Douleur</PainLevel>
   <Injured>Blessé</Injured>
-  <NoInjuries>(pas de blessure)</NoInjuries>
+  <NoHealthConditions>no health conditions</NoHealthConditions>
   <WholeBody>Tout le corps</WholeBody>
   <DataProcessing>Traitement des données</DataProcessing>
   <Communication>Communication</Communication>
@@ -66,7 +75,7 @@
   <MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Opérations chirurgicales</MedicalOperations>
   <Amputate>Amputer</Amputate>
-  <Harvest>Récolter</Harvest>
+  <HarvestOrgan>Récolter</HarvestOrgan>
   <RemoveOrgan>Retirer</RemoveOrgan>
   <MemoryLower>mémoire</MemoryLower>
   <SocialInteractionsLower>interactions sociales</SocialInteractionsLower>
@@ -76,7 +85,6 @@
   <PreventsInfection>Prévient l'infection</PreventsInfection>
   <SelfTend>Auto-soin</SelfTend>
   <SelfTendTip>{0} se soigneront eux-mêmes automatiquement à {1} de l'efficacité normale.</SelfTendTip>
-
 
   <!-- Medical - Body and activities condition -->
   <None>Aucune</None>
@@ -94,9 +102,8 @@
   <SeverePain>Sévère</SeverePain>
   <ExtremePain>Extrême</ExtremePain>
 
-
   <!-- Training tab-->
-  <TrainableIntelligence>Intelligence</TrainableIntelligence>
+  <Trainability>Intelligence</Trainability>
   <CannotTrainNotSmartEnough>Requiert intelligence {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0} est trop petit pour apprendre ceci.</CannotTrainTooSmall>
 
@@ -114,18 +121,35 @@
   <IAmPsychopath>Je suis un psychopathe</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>Armure moyenne</AverageArmor>
+  <OverallArmor>Armure moyenne</OverallArmor>
   <MassCarried>Charge transportée : {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Plage de températures agréables</ComfyTemperatureRange>
   <ArmorBlunt>Contondant</ArmorBlunt>
   <ArmorSharp>Tranchant</ArmorSharp>
   <ArmorHeat>Chaleur</ArmorHeat>
-  <ArmorElectric>Électrique</ArmorElectric>
+  
+  <!-- Log tab -->
+  <ShowAll>Show all</ShowAll>
+  <ShowCombat>Show combat</ShowCombat>
+  <ShowSocial>Show social</ShowSocial>
+  <NoRecentEntries>no recent entries</NoRecentEntries>
+  <CopyLogTip>Copy log to the clipboard.</CopyLogTip>
 
-  <!--<PrisonerNoInteraction>Aucune interaction</PrisonerNoInteraction>-->
-  <!--<PrisonerFriendlyChat>Dialogue amical</PrisonerFriendlyChat>-->
-  <!--<PrisonerAttemptRecruit>Parler et recruter</PrisonerAttemptRecruit>-->
-  <!--<PrisonerRelease>Libérer</PrisonerRelease>-->
-  <!--<PrisonerExecution>Exécuter</PrisonerExecution>-->
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Gathering animals</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Gathering animals (waiting)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Gathering items</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Gathering items (waiting)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Gathering slaves</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Gathering slaves (waiting)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>Leaving</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Leaving (waiting)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Waiting</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Members</CaravanMembers>
+  <CaravanAnimals>Animals</CaravanAnimals>
+  <ItemsToLoad>Items to load</ItemsToLoad>
+  <LoadedItems>Loaded items</LoadedItems>
+  <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
+  <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
 
 </LanguageData>

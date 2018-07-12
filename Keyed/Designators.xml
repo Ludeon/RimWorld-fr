@@ -38,6 +38,12 @@
   <DesignatorPlanRemove>Enlever des plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Efface des zones planifiées.</DesignatorPlanRemoveDesc>
 
+  <DesignatorForbid>Interdire</DesignatorForbid>
+  <DesignatorForbidDesc>Marquer les éléments comme interdits. Les colons ne pourront pas interagir avec les objets désignés.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Marquer les éléments comme autoriser. Les colons pourront interagir avec les objets désignés.</DesignatorUnforbidDesc>
+
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Retirer la zone de base</DesignatorAreaHomeClear>
@@ -70,13 +76,19 @@
   <DesignatorZoneCreateStorageDumpingDesc>Créer une décharge dans laquelle vos colons jetteront les déchets.\nCet outil permet aussi d'étendre une décharge existante.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Supprimer des zones</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Supprimer des zones</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Retire des zones, telles que les zones de stockage ou les zones agricoles.</DesignatorZoneDeleteDesc>
 
+  <DesignatorZoneExpand>Agrandir la zone</DesignatorZoneExpand>
+  
   <DesignatorClaim>Revendiquer</DesignatorClaim>
   <DesignatorClaimDesc>Revendique des structures neutres pour la colonie, incluant les ruines anciennes et les camps de sièges abandonnés. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Enlever le sol</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>Enlève le sol pour révéler le terrain en dessous.</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Enlever le pont</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Enlève le pont pour révéler le terrain en dessous.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>Déshabiller</DesignatorStrip>
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
@@ -121,5 +133,8 @@
   <!-- Desc helpers -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
   <ConstructionNeeded>Construction requis</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Aucun de vos {0} n'a cette compétence.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Tous les {0} qui ont cette compétence ne sont pas assigné a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+
 
 </LanguageData>

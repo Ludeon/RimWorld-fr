@@ -61,8 +61,15 @@
   <NeedMealSource>Repas nécessaires</NeedMealSource>
   <NeedMealSourceDesc>Vous n'avez aucun moyen de produire des rations comestibles à partir de nourriture crue.\n\nConstruisez une table de cuisson, un feu de camp ou un distributeur de pâte nutritive.\n\n(Il ne peut pas être dans une cellule de prison, sinon les colons ne pourront pas s'en servir.)</NeedMealSourceDesc>
 
-  <NeedJoySource>Source de joie nécessaire</NeedJoySource>
-  <NeedJoySourceDesc>Vos colons ont besoin de satisfaire leur besoin de joie mais vous n'avez construit aucun loisir.\n\nAidez-les en construisant un piquet de fer à cheval, une table d'échec ou d'autres sources de divertissement.</NeedJoySourceDesc>
+  <NeedJoySource>Besoin de variété de loisirs</NeedJoySource>
+  <NeedJoySourceDesc>Il y a seulement {0} type de loisirs disponible dans {1}, mais a ce niveau ({2}), les colons ont besoin de {3} différents loisirs pour être satisfait. Fournissez plus de variété en construisant d'autre sorte de loisirs.\n\n{4}\n\n{5}\n\nNote: Vous pouvez vérifier le type de loisirs dans sa page de stat, accessible avec le bouton 'i'.</NeedJoySourceDesc>
+  <AvailableRecreationTypes>Types de loisirs disponible</AvailableRecreationTypes>
+  <MissingRecreationTypes>Types de loisirs manquante</MissingRecreationTypes>
+  <CurrentExpectationsAndRecreation>A ce niveau ({0}), chaque tolérance tombe de {1} par jour éveillé. Avoir {2} types de loisirs est recommandé.</CurrentExpectationsAndRecreation>
+  <bored>Ennuyé</bored>
+
+  <Boredom>Ennui</Boredom>
+  <BoredomDesc>Ces personnes ont besoin de loisirs ou sont affectées à des activités récréatives, mais elles s'ennuient de toutes les sources de loisirs disponibles:\n\n{0}\n\nObtenez-leur plus de variété de loisirs.\n\nTypes de loisirs actuellement disponibles pour {1}:\n\n{2}</BoredomDesc>
 
   <NeedBatteries>Batteries nécessaires</NeedBatteries>
   <NeedBatteriesDesc>Vous avez seulement des panneaux solaires et pas de batteries. Cela signifie que vous tomberez à court d'énergie à chaque fois que le soleil se couche.\n\nConstruisez une batterie ou deux pour pouvoir passer la nuit.</NeedBatteriesDesc>
