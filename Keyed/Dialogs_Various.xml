@@ -216,8 +216,8 @@
 <MoodChange>Changement d'humeur</MoodChange>
 <Wildness>Sauvagerie</Wildness>
 <WildnessExplanation>Plus la créature est sauvage, plus il sera difficile de l'apprivoiser / entraîner / domestiquer.</WildnessExplanation>
-<TrainingDecayInterval>Training decay interval</TrainingDecayInterval>
-<TamenessWillNotDecay>Tameness will never decay.</TamenessWillNotDecay>
+<TrainingDecayInterval>Intervalle de décroissance de l'entraînement</TrainingDecayInterval>
+<TamenessWillNotDecay>Les animaux apprivoisés ne pourrissent jamais.</TamenessWillNotDecay>
 <AnimalFilthRate>Saleté de l'animal</AnimalFilthRate>
 <AnimalFilthRateExplanation>En marchant sur les sols de la colonie, les animaux produisent de la saleté. Cet indicateur représente la saleté moyenne produite par cet animal en marchant sur {0} cases.\n\nLes gros animaux ou ceux qui s'éloignent de l'idée d'animaux de compagnie salissent plus que les petits.</AnimalFilthRateExplanation>
 <TimeRecordsCategory>Temps</TimeRecordsCategory>
@@ -232,12 +232,12 @@
 <EfficiencyStat>Quantité de production régie par</EfficiencyStat>
 <ConstructionSkillRequired>Compétence Construction requise</ConstructionSkillRequired>
 <ConstructionSkillRequiredExplanation>Nécessite ce niveau de Construction pour pouvoir construire.</ConstructionSkillRequiredExplanation>
-<NuzzleInterval>Nuzzle interval</NuzzleInterval>
-<NuzzleIntervalExplanation>How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time.</NuzzleIntervalExplanation>
-<HarmedRevengeChance>Revenge chance on harm</HarmedRevengeChance>
-<HarmedRevengeChanceExplanation>The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon.</HarmedRevengeChanceExplanation>
-<TameFailedRevengeChance>Revenge chance on tame fail</TameFailedRevengeChance>
-<TerrainRequirement>Terrain requirement</TerrainRequirement>
+<NuzzleInterval>Intervalle de reniflage</NuzzleInterval>
+<NuzzleIntervalExplanation>Combien de fois un animal reniflera des colons amicaux, en moyenne.\n\nRenifler est un comportement partagé par de nombreuses espèces animales, où l'animal presse son nez ou son museau contre un ami en signe d'affection. La plupart des humains trouvent cela mignon et cela les laissera de bonne humeur pendant un certain temps.</NuzzleIntervalExplanation>
+<HarmedRevengeChance>Vengeance sur la nuissance</HarmedRevengeChance>
+<HarmedRevengeChanceExplanation>La chance que cette créature cherche à se venger d'être attaquée a distance.\n\nCette chance augmente si l'attaquant est plus proche. Si elle est attaquée à très courte distance, la chance est trois fois plus grande.\n\nCette chance est appliquée à chaque fois que des dégâts sont infligés, donc les armes les plus lentes sont moins susceptibles de le déclencher.\n\nPour minimiser les chances de vengeance d'une créature, attaquez-la à l'aide d'une arme à feu lente. </HarmedRevengeChanceExplanation>
+<TameFailedRevengeChance>Chance de revanche avec une tentative d'apprivoisement raté</TameFailedRevengeChance>
+<TerrainRequirement>Terrain exigé</TerrainRequirement>
 <Supports>Supports</Supports>
 
 <!-- Trade -->
@@ -272,11 +272,11 @@
 <TradeWithFactionBaseBonus>Bonus de commerce avec une base de faction</TradeWithFactionBaseBonus>
 <minimum>minimum</minimum>
 <FinalPrice>Prix final</FinalPrice>
-<GiftModeTip>Gift mode - offer gifts to {0}.</GiftModeTip>
-<TradeModeTip>Return to trade mode.</TradeModeTip>
+<GiftModeTip>Mode don - Offrir un cadeau a {0}.</GiftModeTip>
+<TradeModeTip>Retourner au mode commerce.</TradeModeTip>
 
 <!-- Sellable items -->
-<SellableItemsTitle>Things this trader will buy</SellableItemsTitle>
+<SellableItemsTitle>Choses que ce commerçant achètera</SellableItemsTitle>
 <PawnsTabShort>Creatures</PawnsTabShort>
 
 <!-- Form caravan -->
@@ -293,7 +293,7 @@
 <CaravanItemIsUnreachableMulti>Aucun des colons désignés ne peut  accéder aux {0}x {1}.</CaravanItemIsUnreachableMulti>
 <TooBigCaravanMassUsage>La caravane est incapable de transporter autant de charge.</TooBigCaravanMassUsage>
 <CaravanMassUsageTooltip>La charge actuelle et la capacité de transport.\n\nLa charge actuelle inclut le poids total des articles dans la caravane ainsi que tous les équipements des colons. \n\nVous ne pourrez pas envoyer la caravane si la charge actuelle dépasse la capacité.</CaravanMassUsageTooltip>
-<CaravanVisibilityTip>Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan.</CaravanVisibilityTip>
+<CaravanVisibilityTip>La visibilité est la facilité avec laquelle votre caravane est vu.\n\nIl multiplie les chances que votre caravane soit traquée par les ennemis.\n\nLa visibilité n'affecte pas votre capacité à trouver ce que vous voulez.\n\nVisibilité basée sur le total la taille de tout le monde et les animaux de la caravane. </CaravanVisibilityTip>
 <DaysWorthOfFood>Jours de nourriture</DaysWorthOfFood>
 <DaysWorthOfFoodInfoRot>{0} jours de nourriture, elle pourrira dans {1} jours</DaysWorthOfFoodInfoRot>
 <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
@@ -301,21 +301,21 @@
 <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
 <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog>
 <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog_NoFood>
-	<ForagedFoodPerDayTip>The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates.</ForagedFoodPerDayTip>
-<ForagedFoodPerDay>Forage per day</ForagedFoodPerDay>				 
+<ForagedFoodPerDayTip>La quantité moyenne de nourriture par jour que vos colons vont chercher. Cette valeur changera au fur et à mesure que vous traverserez des biomes avec des rendements de recolte différents.</ForagedFoodPerDayTip>
+<ForagedFoodPerDay>Recolte par jour</ForagedFoodPerDay>				 
 <CaravanFoodWillRotSoonWarningDialog>Une grande partie de la nourriture allouée pourrira bientôt.</CaravanFoodWillRotSoonWarningDialog>
 <CaravanIncapableOfSocial>Aucun membre de la caravane n'est capable de diplomatie ou de commerce.</CaravanIncapableOfSocial>
 <CaravanAreYouSure>Êtes-vous sûr(e) de vouloir former cette caravane ?</CaravanAreYouSure>
-<MessageMustChooseRouteFirst>You must choose a route for the caravan first.</MessageMustChooseRouteFirst>
-<MessageNoValidExitTile>Your caravan is unable to leave the area. Make sure that at least one side is reachable.</MessageNoValidExitTile>
+<MessageMustChooseRouteFirst>Vous devez d'abord choisir un itinéraire pour la caravane.</MessageMustChooseRouteFirst>
+<MessageNoValidExitTile>Votre caravane est incapable de quitter la zone. Assurez-vous qu'au moins un côté est accessible.</MessageNoValidExitTile>
 <ItemWeightTip>Poids unitaire de cet article.</ItemWeightTip>
 <MarketValueTip>Valeur marchande</MarketValueTip>
 <DaysUntilRotTip>Le nombre de jours avant que cet objet ne commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>
-<ItemNutritionTip>How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day.</ItemNutritionTip>
-	<AnimalCanGrazeTip>This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges.</AnimalCanGrazeTip>
-<NutritionForagedPerDayTip>Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0}</NutritionForagedPerDayTip>
-<NutritionEatenPerDayTip>Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}.</NutritionEatenPerDayTip>
-<MassCarriedSimple>Mass carried</MassCarriedSimple>
+<ItemNutritionTip>Quelle quantité de nourriture cette nourriture fournit. \n\nPour référence: la personne adulte a besoin de {0} nutrition par jour.</ItemNutritionTip>
+<AnimalCanGrazeTip>Cet animal peut brouter de la nourriture de l'environnement au lieu de manger de la nourriture transportée. Brouter n'est possible que dans certains biomes et certaines plages de température.</AnimalCanGrazeTip>
+<NutritionForagedPerDayTip>Calorie recolté par jour. La quantité réelle recolté est également affectée par l'aptitude au biome.\n\n{0}</NutritionForagedPerDayTip>
+<NutritionEatenPerDayTip>Calorie consommé par jour. Pour reference, les plats simple ont {0} calorie.\n\nPeut manger: {2}\n\nLegend:\n{1}.</NutritionEatenPerDayTip>
+<MassCarriedSimple>Poids transporté</MassCarriedSimple>
 <MassCapacity>Capacité de transport</MassCapacity>		  
 <Mass>Poids</Mass>
 <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
@@ -324,24 +324,24 @@
 <ReformCaravan>Reformer la caravane</ReformCaravan>
 <ColonistsSection>Colons</ColonistsSection>
 <PrisonersSection>Prisonniers</PrisonersSection>
-			<CaptureSection>Capture</CaptureSection>							
+<CaptureSection>Capture</CaptureSection>							
 <AnimalsSection>Animaux</AnimalsSection>
-<ChooseRouteButton>Choose route</ChooseRouteButton>
+<ChooseRouteButton>Choisir une route</ChooseRouteButton>
 <AbandonButton>Abandon</AbandonButton>
-	<CaravanMovementSpeed>Movement speed</CaravanMovementSpeed>
-<TilesPerDay>tiles/day</TilesPerDay>
-<CaravanMovementSpeedTip>Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty.</CaravanMovementSpeedTip>
-<AnimalsWillBeAbleToGraze>Animals will be able to graze</AnimalsWillBeAbleToGraze>
-<AnimalsCanGraze>Animals can graze</AnimalsCanGraze>
-<PossibleToGrazeFor>(for {0} more days)</PossibleToGrazeFor>
-<PossibleToGrazeForever>(forever)</PossibleToGrazeForever>
+<CaravanMovementSpeed>Vitesse de mouvement</CaravanMovementSpeed>
+<TilesPerDay>Case/jour</TilesPerDay>
+<CaravanMovementSpeedTip>La vitesse de déplacement dépend de la vitesse moyenne de toutes les personnes et de tous les animaux, du poids transportée et de la difficulté de mouvement du terrain.</CaravanMovementSpeedTip>
+<AnimalsWillBeAbleToGraze>Les animaux pourront brouté</AnimalsWillBeAbleToGraze>
+<AnimalsCanGraze>Les animaux peuvent brouté</AnimalsCanGraze>
+<PossibleToGrazeFor>(pour {0} jours de plus)</PossibleToGrazeFor>
+<PossibleToGrazeForever>(eternellement)</PossibleToGrazeForever>
 <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
-<CantGrazeBecauseOfTemp>(too cold for {0} more days)</CantGrazeBecauseOfTemp>
+<CantGrazeBecauseOfTemp>(trop froid pour {0} jours de plus)</CantGrazeBecauseOfTemp>
 <TotalNutrition>Total nutrition</TotalNutrition>
-<CaravanNotMoving>Not moving</CaravanNotMoving>
-<ForagedNutritionPerDay>Foraged nutrition per day</ForagedNutritionPerDay>
-<FactionType>Faction type</FactionType>
-<TotalBodySize>Total body size</TotalBodySize>													   
+<CaravanNotMoving>Ne bouge pas</CaravanNotMoving>
+<ForagedNutritionPerDay>Calorie recolté par jours</ForagedNutritionPerDay>
+<FactionType>Type de faction</FactionType>
+<TotalBodySize>Taille totale</TotalBodySize>													   
 
 <!-- Split caravan -->
 <SplitCaravan>Diviser la caravane</SplitCaravan>
@@ -447,6 +447,6 @@
 <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {0}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
 
 <!-- Settle near a faction base -->
-<ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways?</ConfirmSettleNearFactionBase>
+<ConfirmSettleNearFactionBase>Puisque cet emplacement se trouve à {0} case d'une autre base de faction, ils auront l'impression que vous empiéter sur leurs terres et les relations avec ces factions empireront tous les {1} jours.\n\nS'installer ici de toute façon?</ConfirmSettleNearFactionBase>
 
 </LanguageData>
