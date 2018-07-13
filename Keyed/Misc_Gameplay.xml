@@ -7,11 +7,13 @@
   <Contents>Contenus</Contents>
   <ContainedResources>Ressources contenues</ContainedResources>
   <ForPrisonerUse>Affecter aux prisonniers</ForPrisonerUse>
+  <InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
   <ForColonistUse>Affecter aux colons</ForColonistUse>
   <MedicalBed>Médical</MedicalBed>
   <Owner>Propriétaire</Owner>
   <Owners>Propriétaires</Owners>
   <AssignedColonist>Affecter à un colon</AssignedColonist>
+  <DiedOn>Died on the {0}</DiedOn>
   <Nobody>Personne</Nobody>
   <Unowned>Inconnu</Unowned>
   <DeadTime>Mort depuis {0}</DeadTime>
@@ -25,7 +27,10 @@
   <FreshMissingBodyPart>frais</FreshMissingBodyPart>
   <DevelopedImmunityLower>immunité développée</DevelopedImmunityLower>
   <NeedsTendingNow>Requiert un traitement maintenant</NeedsTendingNow>
+  <CanTendNow>Can tend now</CanTendNow>
+  <TreatmentExpiresIn>Tending expires in {0}</TreatmentExpiresIn>
   <NextTendIn>Prochain traitement dans {0}</NextTendIn>
+  <TendQuality>Tend quality</TendQuality>
   <MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
   <Immunity>Progression du développement de l'immunité</Immunity>
   <Race>Race</Race>
@@ -36,6 +41,7 @@
   <ThingInfo>Information</ThingInfo>
   <DropThing>Lâcher</DropThing>
   <Rename>Renommer</Rename>
+  <RenameAnimal>Rename animal</RenameAnimal>
   <RenameColonist>Renommer le colon</RenameColonist>
   <UnknownLower>inconnu</UnknownLower>
   <On>On</On>
@@ -68,20 +74,30 @@
   <RadiusExpandsIn>rayon s'étend sur</RadiusExpandsIn>
   <Permanent>permanent</Permanent>
   <CaravanResting>Repos.</CaravanResting>
+  <UsingBedroll>using 1 bedroll</UsingBedroll>
+  <UsingBedrolls>using {0} bedrolls</UsingBedrolls>
   <CaravanEstimatedTimeToDestination>Durée estimée du trajet jusqu'à destination : {0} jours</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedDaysToDestination>Estimated days to arrive: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>Immobilisée : trop chargée.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Pénurie de nourriture.</CaravanOutOfFood>
   <CaravanDaysOfFood>Jours de nourriture : {0}</CaravanDaysOfFood>
   <CaravanDaysOfFoodRot>Jours de nourriture : {0}, pourrira dans {1} jours</CaravanDaysOfFoodRot>
-  <CaravanMemberMentalBreak>Arrêtée car : {0} a une crise de nerfs.</CaravanMemberMentalBreak>
-  <AllCaravanMembersDowned>Arrêtée car : tout le monde est abattu.</AllCaravanMembersDowned>
+    <AllCaravanMembersDowned>Stopped because: Everyone is downed.</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>Arrêtée car : tout le monde a une crise de nerfs.</AllCaravanMembersMentalBreak>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <CaravanAnimal>1 animal</CaravanAnimal>
+  <CaravanAnimalsCount>{0} animals</CaravanAnimalsCount>
+  <CaravanPrisoner>1 prisoner</CaravanPrisoner>
+  <CaravanPrisonersCount>{0} prisoners</CaravanPrisonersCount>
+  <CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
+  <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
   <CaravanTraveling>En mouvement.</CaravanTraveling>
+  <CaravanPaused>Resting.</CaravanPaused>
   <CaravanWaiting>En attente.</CaravanWaiting>
-  <CaravanHoursPerTile>h/case</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>Vitesse de déplacement de base</CaravanBaseMovementTime>
+  <BeingCarriedDueToIllness>Being carried due to illness</BeingCarriedDueToIllness>
+  <UsingBedrollsDueToIllness>Using bedrolls due to illness</UsingBedrollsDueToIllness>
   <CurrentTileMovementTime>Durée du trajet en cours</CurrentTileMovementTime>
-  <StealthFactor>Furtivité</StealthFactor>
+  <Visibility>Visibilité</Visibility>
   <Temperature>Température</Temperature>
   <BadTemperature>mauvaise température</BadTemperature>
   <IdealFermentingTemperature>Température idéale de fermentation</IdealFermentingTemperature>
@@ -89,9 +105,12 @@
   <CaravanVisiting>Visite {0}.</CaravanVisiting>
   <CaravanEntering>Entre dans {0}.</CaravanEntering>
   <CaravanAttacking>Attaque {0}.</CaravanAttacking>
+  <CaravanOfferingGifts>Offering gifts to {0}.</CaravanOfferingGifts>
   <WasWornByCorpse>A été porté(e) par un mort.</WasWornByCorpse>
   <WornByCorpseChar>D</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>Détérioration (à ciel ouvert).</DeterioratingDueToBeingUnroofed>
+  <DeterioratingUnroofed>ciel ouvert</DeterioratingUnroofed>
+  <DeterioratingOutdoors>extérieur</DeterioratingOutdoors>
+  <DeterioratingBecauseOf>Détérioration a cause de : </DeterioratingBecauseOf>
   <Map>Carte</Map>
   <ForceExitAndRemoveMapCountdown>{0} heures avant le départ</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>Vos colons vont automatiquement reformer une caravane et quitter cet endroit après {0} heures.</ForceExitAndRemoveMapCountdownTip>
@@ -115,9 +134,7 @@
   <EquippedBy>équipé par {0}</EquippedBy>
   <QuestTargetDestroyInspectString>{0} veut que cela soit détruit.\n    Récompense : {1}.</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>Temps restant : {0}</WorldObjectTimeout>
-  <LongRangeMineralScannerEfficiency>Efficacité : {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contenus : {0}.</ItemStashContents>
-  <SomeItemStashContents>Quelques contenus : {0}.</SomeItemStashContents>
   <ClickToSortByThisColumn>Cliquer pour ordonner par la colonne.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + clic : Augmente la priorité\nShift + clic droit : Diminue la priorité</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + clic : Activer tout\nShift + clic droit : Désactiver tout</WorkPriorityShiftClickEnableDisableTip>
@@ -128,10 +145,35 @@
   <KnownSiteThreatsNone>Menaces : aucune.</KnownSiteThreatsNone>
   <SkillRequirements>Compétences requises</SkillRequirements>
   <Products>Produits</Products>
-  <DeepDrillExhausted>Ressources du forage profond épuisées.</DeepDrillExhausted>
   <Relationship>{0} de {1}</Relationship>
   <Prisoner>Prisonnier</Prisoner>
   <Refugee>Réfugié</Refugee>
+  <TileMovementDifficulty>Terrain movement difficulty</TileMovementDifficulty>
+  <Impassable>Impassable</Impassable>
+  <CaravanMovementSpeedFull>Caravan movement speed</CaravanMovementSpeedFull>
+  <DownedLower>downed</DownedLower>
+  <Carried>carried</Carried>
+  <AverageCaravanMemberMoveSpeed>Avg. person move speed</AverageCaravanMemberMoveSpeed>
+  <MultiplierForCarriedMass>Multiplier for carried mass: {0}</MultiplierForCarriedMass>
+  <FinalCaravanPawnsMovementSpeed>Caravan members speed</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanMovementSpeed>Final speed</FinalCaravanMovementSpeed>
+  <Winter>Winter</Winter>
+  <MovementDifficultyOffsetInWinter>{0} in winter</MovementDifficultyOffsetInWinter>
+  <RangeTo>to</RangeTo>
+  <NoDietCategoryLetter>No letter</NoDietCategoryLetter>
+  <ExpiresIn>Expires in</ExpiresIn>
+  <CaravanLeaderCaravanName>{0}'s caravan</CaravanLeaderCaravanName>
+  <Reason>Reason</Reason>
+  <RelationsWith>Relations with {0}</RelationsWith>
+  <capturedBy>captured by {0}</capturedBy>
+  <yourCaravan>your caravan</yourCaravan>
+  <CreatureWildness>{0} wildness</CreatureWildness>
+  <CreatureTrainability>{0} trainability</CreatureTrainability>
+  <ProximitySingleGoodwillChange>{0} with {1}</ProximitySingleGoodwillChange>
+  <EnterCooldown>You can't re-enter for another {0} days.</EnterCooldown>
+  <Caravan>Caravan</Caravan>
+  <HiddenOrNoSitePartDescription>there may be danger there</HiddenOrNoSitePartDescription>
+  <PreciousLumpLabel>lump of {0}</PreciousLumpLabel>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contient {0} / {1} moût.</ContainsWort>
@@ -163,10 +205,8 @@
   <NoRoof>Pas de toit</NoRoof>
   <SnowClear>Enlever la neige</SnowClear>
   <AreaDefaultLabel>Zone {0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>Zone animale {0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>Non restreint</NoAreaAllowed>
   <NewArea>Nouvelle zone</NewArea>
-  <NewAreaAnimal>Nouvelle zone animale</NewAreaAnimal>
   <InvertArea>Inverser</InvertArea>
 
   <!-- Control -->
@@ -186,6 +226,8 @@
   <GunInstalled>Installé</GunInstalled>
   <MinimumRange>Portée minimum</MinimumRange>
   <CanFireIn>Prêt à tirer dans</CanFireIn>
+  <CannotFire>Cannot fire</CannotFire>
+  <Roofed>roofed</Roofed>
   <ShellLoaded>Obus chargé</ShellLoaded>
   <ShellNotLoaded>Non chargé</ShellNotLoaded>
 
@@ -259,6 +301,8 @@
   <Carrying>Transporte</Carrying>
   <AffectedBy>Affecté par :</AffectedBy>
   <Queued>En attente</Queued>
+  <State>State</State>
+  <StunLower>stun</StunLower>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\nRaccourci : {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
@@ -299,6 +343,7 @@
   <!-- Shooting tooltip -->
   <ShotBy>Touché par {0}</ShotBy>
   <CannotHit>Ne peut pas toucher la cible.</CannotHit>
+  <ManhunterPerHit>Manhunter chance per hit</ManhunterPerHit>
 
   <!-- Rotting -->
   <CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
@@ -348,9 +393,11 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>Masque l'assistant d'apprentissage quand il est vide.\n\nL'assistant est toujours visible s'il y a un concept à apprendre d'activé. Cette fonction le fait disparaître quand aucun concept n'est actif.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Activer/Désactiver la visibilité de la zone.</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowEnvironmentToggleButton>
+  <ShowBeautyToggleButton>Activer/Désactiver l'affichage de la « beauté » de la zone.\n\nAffiche ou non la « beauté » du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>Activer/Désactiver la barre des colons.\n\nAffiche les icônes et le status de tous les colons en haut de l'écran.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Activer/Désactiver l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
+  <AutoRebuildButton>Toggle automatic rebuild of destroyed structures.</AutoRebuildButton>
   <CategorizedResourceReadoutToggleButton>Activer/Désactiver les catégories dans l'écran d'affichage des ressources.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Activer/Désactiver l'affichage des noms des animaux domestiqués.</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>Activer/Désactiver l'affichage des toits.</ShowRoofOverlayToggleButton>
@@ -383,10 +430,14 @@
   <MustPlaceVentWithFreeSpaces>Les deux parties doivent être exposées à l'air pour qu'il passe à travers.</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>Tous les côtés doivent être accessibles.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>Doit être placé à côté du port d'alimentation en carburant d'un lanceur.</MustPlaceNearFuelingPort>
-
+  <MustPlaceOnDrillable>Must be placed on drillable resources.</MustPlaceOnDrillable>
+  
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloquée par</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Bloquée par un plafond</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Watermill generator -->
+  <Watermill_WaterUsedTwice>Flow reduced: Turbulence from other watermill</Watermill_WaterUsedTwice>
 
   <!-- Cryptosleep casket -->
   <CasketContains>Contient</CasketContains>
@@ -401,8 +452,10 @@
   <ShipReportHibernating>Dispositif d'hypersommeil</ShipReportHibernating>
   <ShipReportNotReady>Dispositif non prêt</ShipReportNotReady>
   <HibernateWarning>Charlon Whitestone est prêt à commencer la séquence de récupération du réacteur en phase d'hibernation.\n\nIl vous avertit que le processus prendra environ 15 jours et que la signature d'énergie sera détectable de loin. Ce type de signature énergétique est révélateur d'un vaisseau interstellaire et attirera des bandes d'assaillants désespérés et de chasseurs de trésors. Assurez-vous que vos défenses sont bien préparées.</HibernateWarning>
-  <HibernateCompleteLabel>Réacteur en service</HibernateCompleteLabel>
-  <HibernateComplete>Charlon Whitestone a terminé la séquence de récupération du réacteur. Le réacteur est maintenant prêt à partir.</HibernateComplete>
+  <HibernateWarningStandalone>The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</HibernateWarningStandalone>
+  <HibernateWarningPacifist>Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days.</HibernateWarningPacifist>
+  <HibernateWarningStandalonePacifist>The reactor is ready to power up. The process will take about 15 days.</HibernateWarningStandalonePacifist>
+
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
@@ -475,6 +528,7 @@
   <ActivityIconAttacking>Combat</ActivityIconAttacking>
   <ActivityIconIdle>Inoccupé</ActivityIconIdle>
   <ActivityIconBurning>Brûle</ActivityIconBurning>
+  <ActivityIconFormingCaravan>Forming a caravan</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <DueForMaintenance>En raison de la maintenance.</DueForMaintenance>
@@ -483,6 +537,10 @@
   <!-- Deep drill -->
   <ProgressToNextLump>Avancement du prochain bloc</ProgressToNextLump>
   <ResourceBelow>Ressource en dessous</ResourceBelow>
+  <ProgressToNextPortion>Progress to next portion</ProgressToNextPortion>
+  <DeepDrillNoResources>No resources below.</DeepDrillNoResources>
+  <DeepDrillExhausted>Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}.</DeepDrillExhausted>
+  <DeepDrillExhaustedNoFallback>Deep drill resources exhausted.</DeepDrillExhaustedNoFallback>
 
   <!-- Learning helper -->
   <LearningHelper>Assistant d'apprentissage</LearningHelper>
@@ -503,8 +561,10 @@
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Clic droit souris : Ajouter/enlever marqueur.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <RoutePlannerPressEscapeToExit>ESC : Quitter le mode planification.</RoutePlannerPressEscapeToExit>
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC :  Retourner à la fenêtre de formation des caravanes.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-  <EstimatedTimeToThisWaypoint>Temps estimé vers le marqueur : {0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>Temps estimé entre là et le marqueur précédent : {0}</EstimatedTimeToThisWaypointFromPrevious>
+  <EstimatedTimeToWaypoint>Temps estimé vers le marqueur : {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypointFromPrevious>Temps estimé entre là et le marqueur précédent : {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToTile>Est. travel time: {0}</EstimatedTimeToTile>
+  <ForagedFoodAmount>Foraged food amount</ForagedFoodAmount>
 
   <!-- Outfits -->
   <OutfitAnything>Tout</OutfitAnything>
@@ -516,4 +576,8 @@
   <HibernatableHibernating>En hibernation</HibernatableHibernating>
   <HibernatableStartingUp>Démarrage</HibernatableStartingUp>
 
-</LanguageData>
+  <!-- Transport pods -->
+  <ClickToSeeAvailableOrders_WorldObject>{0}: See available orders...</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_Empty>See available orders...</ClickToSeeAvailableOrders_Empty>
+
+</LanguageData>																											 

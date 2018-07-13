@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Beds -->
@@ -8,6 +8,12 @@
   <SleepingSpot_Blueprint.label>lieu de couchage</SleepingSpot_Blueprint.label>
   <SleepingSpot_Frame.label>un lieu de couchage</SleepingSpot_Frame.label>
   <SleepingSpot_Frame.description>Désigne un lieu au sol où une personne peut dormir. Non confortable.</SleepingSpot_Frame.description>
+
+  <DoubleSleepingSpot.label>double sleeping spot</DoubleSleepingSpot.label>
+  <DoubleSleepingSpot.description>Designates a spot on the ground where two people should sleep together. Not comfortable.</DoubleSleepingSpot.description>
+  <DoubleSleepingSpot_Blueprint.label>double sleeping spot (blueprint)</DoubleSleepingSpot_Blueprint.label>
+  <DoubleSleepingSpot_Frame.label>double sleeping spot (building)</DoubleSleepingSpot_Frame.label>
+  <DoubleSleepingSpot_Frame.description>Designates a spot on the ground where two people should sleep together. Not comfortable.</DoubleSleepingSpot_Frame.description>
 
   <Bed.label>lit</Bed.label>
   <Bed.description>Un matelas douillet et des draps sur un cadre de lit, pour se reposer.</Bed.description>
@@ -182,7 +188,7 @@
 
   <SunLamp.label>lampe horticole</SunLamp.label>
   <SunLamp.description>Éclaire suffisamment pour que les plantes puissent pousser, mais consomme énormément d'énergie. S'éteint automatiquement la nuit.</SunLamp.description>
-  <SunLamp.comps.3.offMessage>Éteint pendant la période de repos des plantes</SunLamp.comps.3.offMessage>
+  <SunLamp.comps.CompSchedule.offMessage>Éteint pendant la période de repos des plantes</SunLamp.comps.CompSchedule.offMessage>
   <SunLamp_Blueprint.label>lampe horticole (plan)</SunLamp_Blueprint.label>
   <SunLamp_Blueprint_Install.label>lampe horticole (nouvel emplacement)</SunLamp_Blueprint_Install.label>
   <SunLamp_Frame.label>une lampe horticole</SunLamp_Frame.label>
@@ -208,18 +214,5 @@
   <Dresser_Frame.label>commode</Dresser_Frame.label>
   <Dresser_Frame.description>Donne un petit bonus de confort à tous les lits à proximité. Placer plus d'une commode près du même lit n'aura aucun effet.</Dresser_Frame.description>
 
-
-  <!--<TableShort.label>Table courte</TableShort.label>-->
-  <!--<TableShort.description>Les gens s'en servent pour manger, pour peu qu'il y ait des chaises à côté.</TableShort.description>-->
-  <!--<TableShort_Blueprint.label>Table courte (plan)</TableShort_Blueprint.label>-->
-  <!--<TableShort_Blueprint_Install.label>Table courte (nouvel emplacement)</TableShort_Blueprint_Install.label>-->
-  <!--<TableShort_Frame.label>Une table courte</TableShort_Frame.label>-->
-  <!--<TableShort_Frame.description>Les gens s'en servent pour manger, pour peu qu'il y ait des chaises à côté.</TableShort_Frame.description>-->
-  <!--<TableLong.label>Table longue</TableLong.label>-->
-  <!--<TableLong.description>Les gens s'en servent pour manger, pour peu qu'il y ait des chaises à côté.</TableLong.description>-->
-  <!--<TableLong_Blueprint.label>Table longue (plan)</TableLong_Blueprint.label>-->
-  <!--<TableLong_Blueprint_Install.label>Table longue (nouvel emplacement)</TableLong_Blueprint_Install.label>-->
-  <!--<TableLong_Frame.label>Une table longue</TableLong_Frame.label>-->
-  <!--<TableLong_Frame.description>Les gens s'en servent pour manger, pour peu qu'il y ait des chaises à côté.</TableLong_Frame.description>-->
 
 </LanguageData>

@@ -1,190 +1,231 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <JumpToLocation>Se rendre sur les lieux</JumpToLocation>
-  <PostponeLetter>Reporter</PostponeLetter>
-  <RejectLetter>Rejeter</RejectLetter>
+<JumpToLocation>Se rendre sur les lieux</JumpToLocation>
+<PostponeLetter>Reporter</PostponeLetter>
+<RejectLetter>Rejeter</RejectLetter>
 
-  <LetterLabelFirstSummerWarning>Été</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive.\n\nVos cultures ne pousseront pas avec le froid hivernal. Assurez-vous de mettre en réserve plusieurs jours de nourriture maintenant, tant que vous le pouvez encore.\n\nVous pouvez construire une chambre froide pour empêcher la nourriture de pourrir.\n\nEssayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
+<LetterLabelFirstSummerWarning>Été</LetterLabelFirstSummerWarning>
+<FirstSummerWarning>L'été vient de commencer, mais l'hiver arrive.\n\nVos cultures ne pousseront pas avec le froid hivernal. Assurez-vous de mettre en réserve plusieurs jours de nourriture maintenant, tant que vous le pouvez encore.\n\nVous pouvez construire une chambre froide pour empêcher la nourriture de pourrir.\n\nEssayez aussi d'acheter, de voler, ou de faire quelques parkas, ou vous allez geler si vous vous aventurez trop longtemps dehors.</FirstSummerWarning>
 
-  <RelationsBrokenDown>Les relations avec {0} se sont refroidies. Ils vous sont désormais hostiles.</RelationsBrokenDown>
-  <RelationsWarmed>Les relations avec {0} se sont réchauffées. Ils ne vous sont plus hostiles.</RelationsWarmed>
+<LetterRelationsChange_Hostile>Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again.</LetterRelationsChange_Hostile>
+<LetterRelationsChange_NeutralFromHostile>Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you.</LetterRelationsChange_NeutralFromHostile>
+<LetterRelationsChange_NeutralFromAlly>Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again.</LetterRelationsChange_NeutralFromAlly>
+<LetterRelationsChange_Ally>Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral.</LetterRelationsChange_Ally>
 
-  <RelationsBrokenCapture>À cause de la capture de {0}, {1} est désormais votre ennemi.</RelationsBrokenCapture>
+<goodwill>goodwill</goodwill>
+<Neutral>Neutre</Neutral>
+<Death>Death</Death>
 
-  <ColonyGoodwill>Opinion de la colonie</ColonyGoodwill>
-  <Neutral>Neutre</Neutral>
+<ShortCircuitRain>La pluie a provoqué un court-circuit dans un {0} et un incendie s'est déclaré.</ShortCircuitRain>
 
-  <ShortCircuitRain>La pluie a provoqué un court-circuit dans un {0} et un incendie s'est déclaré.</ShortCircuitRain>
+<LetterLabelAreaRevealed>Zone découverte</LetterLabelAreaRevealed>
+<AreaRevealed>Une nouvelle zone vient d'être révélée.</AreaRevealed>
+<AreaRevealedWithMechanoids>Une nouvelle zone vient d'être révélée. Elle peut abriter d'anciens et hostiles mécanoïdes.</AreaRevealedWithMechanoids>
 
-  <LetterLabelAreaRevealed>Zone découverte</LetterLabelAreaRevealed>
-  <AreaRevealed>Une nouvelle zone vient d'être révélée.</AreaRevealed>
-  <AreaRevealedWithMechanoids>Une nouvelle zone vient d'être révélée. Elle peut abriter d'anciens et hostiles mécanoïdes.</AreaRevealedWithMechanoids>
+<RoofCollapsed>Un plafond s'est effondré parce qu'il était trop loin de supports.</RoofCollapsed>
+<TheseThingsCrushed>Ces choses ont été écrasées :</TheseThingsCrushed>
+<NothingCrushed>Rien n'a été écrasé.</NothingCrushed>
+<LetterLabelRoofCollapsed>Effondrement de toiture</LetterLabelRoofCollapsed>
 
-  <RoofCollapsed>Un plafond s'est effondré parce qu'il était trop loin de supports.</RoofCollapsed>
-  <TheseThingsCrushed>Ces choses ont été écrasées :</TheseThingsCrushed>
-  <NothingCrushed>Rien n'a été écrasé.</NothingCrushed>
-  <LetterLabelRoofCollapsed>Effondrement de toiture</LetterLabelRoofCollapsed>
+<RecruitSuccess>{0} a réussi à recruter {1} ({2} chances de succès).</RecruitSuccess>
+<RecruitFail>{0} n'a pas réussi à recruter {1} ({2} chances de succès).</RecruitFail>
 
-  <RecruitSuccess>{0} a réussi à recruter {1} ({2} chances de succès).</RecruitSuccess>
-  <RecruitFail>{0} n'a pas réussi à recruter {1} ({2} chances de succès).</RecruitFail>
+<RelatedPawnInvolvedInQuest>NAME est {0} de {1}. Si NAME meurt, {0} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver NAME, {0} sera très heureux pour longtemps.</RelatedPawnInvolvedInQuest>
 
-  <RelatedPawnInvolvedInQuest>NAME est {0} de {1}. Si NAME meurt, {0} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver NAME, {0} sera très heureux pour longtemps.</RelatedPawnInvolvedInQuest>
+<LetterLabelBirthday>Anniversaire</LetterLabelBirthday>
+<BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui ! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nVeuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
+<BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} vient d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
 
-  <LetterLabelBirthday>Anniversaire</LetterLabelBirthday>
-  <BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui ! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nVeuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} vient d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
+<LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
+<NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
+<NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {2} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
+<NewDiseaseAnimal>{0} has developed an illness: {1}</NewDiseaseAnimal>
+<NewPartDiseaseAnimal>{0} has developed an illness: {3} in [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
-  <LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
-  <NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
-  <NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {2} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
+<PawnWasFormerlyColonist>{0} faisait autrefois partie de votre groupe.</PawnWasFormerlyColonist>
+<PawnHasTheseRelationshipsWithColonists>{0} a ces relations avec vos colons:</PawnHasTheseRelationshipsWithColonists>
+<PrisonerRescueTimeout>Le camp disparaîtra après {0} jours. Si vous ratez cette opportunité, vous ne pourrez plus jamais entendre parler de {1}.</PrisonerRescueTimeout>
 
-  <PawnWasFormerlyColonist>{0} faisait autrefois partie de votre groupe.</PawnWasFormerlyColonist>
-  <PawnHasTheseRelationshipsWithColonists>{0} a ces relations avec vos colons:</PawnHasTheseRelationshipsWithColonists>
-  <PrisonerRescueTimeout>Le camp disparaîtra après {0} jours. Si vous ratez cette opportunité, vous ne pourrez plus jamais entendre parler de {1}.</PrisonerRescueTimeout>
+<LetterLabelAncientShrineWarning>Danger antique</LetterLabelAncientShrineWarning>
+<AncientShrineWarning>Alors que {0} s'approche de l'ancien mur, un pressentiment l'envahit. [PAWN_pronoun] ne saurait pas l'expliquer, mais [PAWN_pronoun] sent que cette structure poussiéreuse pourrait contenir un grand danger.</AncientShrineWarning>
 
-  <LetterLabelAncientShrineWarning>Danger antique</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Alors que {0} s'approche de l'ancien mur, un pressentiment l'envahit. [PAWN_pronoun] ne saurait pas l'expliquer, mais [PAWN_pronoun] sent que cette structure poussiéreuse pourrait contenir un grand danger.</AncientShrineWarning>
+<StruckMineable>Nous avons heurté {0} !</StruckMineable>
 
-  <StruckMineable>Nous avons heurté {0} !</StruckMineable>
+<LetterLabelAnimalManhunterRevenge>Vengeance de {0}</LetterLabelAnimalManhunterRevenge>
+<AnimalManhunterFromDamage>Un {0} attaque après avoir été blessé !</AnimalManhunterFromDamage>
+<AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
+<AnimalManhunterOthers>Les {0} aux alentours sont devenus enragés !</AnimalManhunterOthers>
 
-  <LetterLabelAnimalManhunterRevenge>Vengeance de {0}</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>Un {0} attaque après avoir été blessé !</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>Un(e) {0} attaque suite à une tentative d'apprivoisement !</AnimalManhunterFromTaming>
-  <AnimalManhunterOthers>Les {0} aux alentours sont devenus enragés !</AnimalManhunterOthers>
+<LetterFriendlyTrapSprungLabel>{0} pris au piège</LetterFriendlyTrapSprungLabel>
+<LetterFriendlyTrapSprung>{0} a accidentellement déclenché un piège et a subi des dégâts.</LetterFriendlyTrapSprung>
 
-  <LetterFriendlyTrapSprungLabel>{0} pris au piège</LetterFriendlyTrapSprungLabel>
-  <LetterFriendlyTrapSprung>{0} a accidentellement déclenché un piège et a subi des dégâts.</LetterFriendlyTrapSprung>
+<LetterHealthComplications>{0} a développé {1} suite aux complications de {2}.</LetterHealthComplications>
+<LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
 
-  <LetterHealthComplications>{0} a développé {1} suite aux complications de {2}.</LetterHealthComplications>
-  <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
+<LetterHediffFromRandomHediffGiver>{0} a développé un problème de santé : {1}.</LetterHediffFromRandomHediffGiver>
+<LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
 
-  <LetterHediffFromRandomHediffGiver>{0} a développé un problème de santé : {1}.</LetterHediffFromRandomHediffGiver>
-  <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
+<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
+<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et est remplacé par {2}.</LetterLeadersDeath>
 
-  <LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
-  <LetterLeadersDeath>Le chef {0} de la faction {1} est mort et est remplacé par {2}.</LetterLeadersDeath>
+<LetterLeaderChangedLabel>Nouveau {1} : {0}</LetterLeaderChangedLabel>
+<LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
 
-  <LetterLeaderChangedLabel>Nouveau {1} : {0}</LetterLeaderChangedLabel>
-  <LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
+<MentalBreakLetterLabel>Crise de démence</MentalBreakLetterLabel>
+<FinalStraw>Le déclencheur a été : {0}.</FinalStraw>
+<LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>
 
-  <MentalBreakLetterLabel>Crise de démence</MentalBreakLetterLabel>
-  <FinalStraw>Le déclencheur a été : {0}.</FinalStraw>
+<ReadMore>Read more</ReadMore>
+<LastEventsInLife>The last events in {0}'s life</LastEventsInLife>
 
-  <!-- Related pawns -->
-  <LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {0} ont des liens avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {0} ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradeShip>
-  <LetterRelatedPawnsTradingWithSettlement>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithSettlement>
-  <LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
+<!-- Related pawns -->
+<LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
+<LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {0} ont des liens avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
+<LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {0} ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
+<LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
+<LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradeShip>
+<LetterRelatedPawnsTradingWithSettlement>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithSettlement>
+<LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
+<LetterRelatedPawnsGroupGeneric>There are people who have relationships with your {0} or prisoners in the group:</LetterRelatedPawnsGroupGeneric>
+<LetterRelatedPawnsInMapWherePlayerLanded>There are people who have relationships with your {0} or prisoners in the area where your {0} have landed.</LetterRelatedPawnsInMapWherePlayerLanded>
+<LetterRelatedPawnsSettlement>There are people who have relationships with your {0} or prisoners in this settlement:</LetterRelatedPawnsSettlement>
+<LetterRelatedPawnsSite>There are people who have relationships with your {0} or prisoners in this area:</LetterRelatedPawnsSite>
 
-  <RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] a un lien avec un colon. [PAWN_pronoun] est le/la  {1} de {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] a un lien avec un de vos prisonniers. [PAWN_pronoun] est le/la {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+<RelationshipAppendedLetterSuffix>(relation)</RelationshipAppendedLetterSuffix>
+<RelationshipAppendedLetterTextColonist>[PAWN_nameDef] a un lien avec un colon. [PAWN_pronoun] est le/la  {1} de {0}.</RelationshipAppendedLetterTextColonist>
+<RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] a un lien avec un de vos prisonniers. [PAWN_pronoun] est le/la {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
 
-  <!-- Attempt romance / propose interaction -->
-  <LetterLabelAffair>Liaison</LetterLabelAffair>
-  <LetterAffair>Malgré son mariage avec {1}, {0} entame une liaison avec {2}.</LetterAffair>
-  <LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
-  <LetterNewLovers>{0} et {1} se sont rapprochés et sont maintenant amoureux.</LetterNewLovers>
-  <LetterNoLongerLovers>La relation amoureuse entre {0} et {1} est terminée.</LetterNoLongerLovers>
-  <LetterLabelBreakup>Rupture</LetterLabelBreakup>
-  <LetterLabelAcceptedProposal>Un mariage est prévu !</LetterLabelAcceptedProposal>
-  <LetterLabelRejectedProposal>Demande en mariage rejetée</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1} a accepté la demande en mariage de {0}.\n\nÀ un moment dans les jours ou les saisons à venir, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1} a refusé la demande de mariage de {0}. Cela va rendre {0} malheureux.</LetterRejectedProposal>
+<!-- Attempt romance / propose interaction -->
+<LetterLabelAffair>Liaison</LetterLabelAffair>
+<LetterAffair>Malgré son mariage avec {1}, {0} entame une liaison avec {2}.</LetterAffair>
+<LetterLabelNewLovers>Nouveaux amoureux</LetterLabelNewLovers>
+<LetterNoLongerLovers>La relation amoureuse entre {0} et {1} est terminée.</LetterNoLongerLovers>
+<LetterLabelBreakup>Rupture</LetterLabelBreakup>
+<LetterLabelAcceptedProposal>Un mariage est prévu !</LetterLabelAcceptedProposal>
+<LetterLabelRejectedProposal>Demande en mariage rejetée</LetterLabelRejectedProposal>
+<LetterAcceptedProposal>À un moment dans les jours ou les saisons à venir, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
+<LetterRejectedProposal>Cela va rendre {0} malheureux.</LetterRejectedProposal>
 
-  <!-- Generalized letter labels -->
-  <LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
-  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
-  <LetterLabelMentalBreakdown>Effondrement mental</LetterLabelMentalBreakdown>
+<!-- Generalized letter labels -->
+<LetterLabelRelationsChange_Hostile>Hostile: {0}</LetterLabelRelationsChange_Hostile>
+<LetterLabelRelationsChange_Ally>Allied: {0}</LetterLabelRelationsChange_Ally>
+<LetterLabelRelationsChange_NeutralFromHostile>Enemy now neutral: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+<LetterLabelRelationsChange_NeutralFromAlly>Ally now neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
+<LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+<LetterLabelMentalBreakdown>Effondrement mental</LetterLabelMentalBreakdown>
 
-  <!-- Bonded animals -->
-  <LetterLabelBondedAnimalDied>Mort d'un animal lié</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0}, lié à {1}, est mort. Cela va affecter l'humeur de {1}.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{0} nommé {1}, lié à {2}, est mort. Cela va affecter l'humeur de {2}.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} est mort. Cela va affecter l'humeur des colons suivants :\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0} nommé {1} est mort. Cela va affecter l'humeur des colons suivants :\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+<!-- Bonded animals -->
+<LetterLabelSuffixBondedAnimalDied>Mort d'un animal lié</LetterLabelSuffixBondedAnimalDied>
+<LetterPartBondedAnimalDied>{0}, lié à {1}, est mort. Cela va affecter l'humeur de {1}.</LetterPartBondedAnimalDied>
+<LetterPartBondedAnimalDiedMulti>It will affect mood of the following people:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
-  <!-- Prison break -->
-  <LetterLabelPrisonBreak>Évasion</LetterLabelPrisonBreak>
-  <LetterPrisonBreak>Les prisonniers ont organisé une évasion ! Ils ont trouvé un moyen de neutraliser le verrou de la porte et sont en train de sortir. Ils peuvent chercher des armes, combattre ou essayer de s'échapper. Les prisonniers suivants sont impliqués :\n\n{0}\n\nLes prisonniers sont davantage susceptibles de tenter de s'évader quand ils sont malheureux, nombreux et en bonne santé.</LetterPrisonBreak>
+<!-- Prison break -->
+<LetterLabelPrisonBreak>Évasion</LetterLabelPrisonBreak>
+<LetterPrisonBreak>Les prisonniers ont organisé une évasion ! Ils ont trouvé un moyen de neutraliser le verrou de la porte et sont en train de sortir. Ils peuvent chercher des armes, combattre ou essayer de s'échapper. Les prisonniers suivants sont impliqués :\n\n{0}\n\nLes prisonniers sont davantage susceptibles de tenter de s'évader quand ils sont malheureux, nombreux et en bonne santé.</LetterPrisonBreak>
 
-  <!-- Party -->
-  <LetterLabelNewParty>Fête</LetterLabelNewParty>
-  <LetterNewParty>{0} organise une fête ! Toutes les personnes qui y vont gagneront en joie, en sociabilisation et une hausse durable de bonne humeur.</LetterNewParty>
+<!-- Party -->
+<LetterLabelNewParty>Fête</LetterLabelNewParty>
+<LetterNewParty>{0} organise une fête ! Toutes les personnes qui y vont gagneront en joie, en sociabilisation et une hausse durable de bonne humeur.</LetterNewParty>
 
-  <!-- Newly addicted -->
-  <LetterLabelNewlyAddicted>addiction de {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\n[PAWN_pronoun] a désormais besoin de {1}, visible dans [PAWN_possessive] onglet Besoins. [PAWN_pronoun] consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si [PAWN_pronoun] ne peut pas se procurer de {1}, [PAWN_pronoun] sera en manque.</LetterNewlyAddicted>
+<!-- Newly addicted -->
+<LetterLabelNewlyAddicted>addiction de {0}</LetterLabelNewlyAddicted>
+<LetterNewlyAddicted>{0} a développé une addiction à {1}.\n\n[PAWN_pronoun] a désormais besoin de {1}, visible dans [PAWN_possessive] onglet Besoins. [PAWN_pronoun] consommera automatiquement de cette substance afin de satisfaire sa dépendance. Si [PAWN_pronoun] ne peut pas se procurer de {1}, [PAWN_pronoun] sera en manque.</LetterNewlyAddicted>
 
-  <!-- Drug binge -->
-  <LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
-  <LetterDrugBinge>{0} est en consommation excessive de {1}.</LetterDrugBinge>
+<!-- Drug binge -->
+<LetterLabelDrugBinge>Excès de {0}</LetterLabelDrugBinge>
+<LetterDrugBinge>{0} est en consommation excessive de {1}.</LetterDrugBinge>
 
-  <!-- Formed caravan -->
-  <LetterLabelFormedCaravan>Caravane prête</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>Votre caravane s'est formée et attend les ordres sur la carte du monde.</LetterFormedCaravan>
+<!-- Caravan destroyed -->
+<LetterLabelAllCaravanColonistsDied>Caravane détruite</LetterLabelAllCaravanColonistsDied>
+<LetterAllCaravanColonistsDied>Tous les membres de votre caravane sont morts.</LetterAllCaravanColonistsDied>
 
-  <!-- Caravan destroyed -->
-  <LetterLabelAllCaravanColonistsDied>Caravane détruite</LetterLabelAllCaravanColonistsDied>
-  <LetterAllCaravanColonistsDied>Tous les membres de votre caravane sont morts.</LetterAllCaravanColonistsDied>
+<!-- Caravan entered ambush map -->
+<LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap>
+<LetterCaravanEnteredAmbushMap>{0} est arrivé sur le lieu de l'embuscade.</LetterCaravanEnteredAmbushMap>
 
-  <!-- Caravan entered ambush map -->
-  <LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap>
-  <LetterCaravanEnteredAmbushMap>{0} est arrivé sur le lieu de l'embuscade.</LetterCaravanEnteredAmbushMap>
+<!-- Caravan entered enemy base -->
+<LetterLabelCaravanEnteredEnemyBase>L'attaque a commencé</LetterLabelCaravanEnteredEnemyBase>
+<LetterCaravanEnteredEnemyBase>{0} est arrivée à {1} et est prête à commencer l'attaque.</LetterCaravanEnteredEnemyBase>
 
-  <!-- Caravan entered enemy base -->
-  <LetterLabelCaravanEnteredEnemyBase>L'attaque a commencé</LetterLabelCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBase>{0} est arrivée à {1} et est prête à commencer l'attaque.</LetterCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} est arrivée à {1} et est prête à commencer l'attaque.\n\nÀ cause de votre comportement agressif, {2} vous est maintenant hostile.</LetterCaravanEnteredEnemyBaseBecameHostile>
+<!-- Transport pods landed in enemy base -->
+<LetterLabelTransportPodsLandedInEnemyBase>Attack begun</LetterLabelTransportPodsLandedInEnemyBase>
+<LetterTransportPodsLandedInEnemyBase>Your transport pods have arrived at {0}.</LetterTransportPodsLandedInEnemyBase>
 
-  <!-- Faction base defeated -->
-  <LetterLabelFactionBaseDefeated>Avant-poste ennemi détruit</LetterLabelFactionBaseDefeated>
-  <LetterFactionBaseDefeated>L'avant-poste ennemi {0} a été détruit.\n\nVous avez {1} heures pour ramasser des objets avant que vos colons ne réforment la caravane.</LetterFactionBaseDefeated>
-  <LetterFactionBaseDefeated_FactionDestroyed>C'était la dernière base de {0}, ce qui signifie que cette faction n'existe plus.</LetterFactionBaseDefeated_FactionDestroyed>
+<!-- Faction base defeated -->
+<LetterLabelFactionBaseDefeated>Avant-poste ennemi détruit</LetterLabelFactionBaseDefeated>
+<LetterFactionBaseDefeated>L'avant-poste ennemi {0} a été détruit.\n\nVous avez {1} heures pour ramasser des objets avant que vos colons ne réforment la caravane.</LetterFactionBaseDefeated>
+<LetterFactionBaseDefeated_FactionDestroyed>C'était la dernière base de {0}, ce qui signifie que cette faction n'existe plus.</LetterFactionBaseDefeated_FactionDestroyed>
 
-  <!-- Pawns lost due to map countdown -->
-  <LetterLabelPawnsLostDueToMapCountdown>Abandonné</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans la nature :\n\n{0}</LetterPawnsLostDueToMapCountdown>
+<!-- Quest completed -->
+<LetterLabelDefeatAllEnemiesQuestCompleted>Quête achevée</LetterLabelDefeatAllEnemiesQuestCompleted>
+<LetterDefeatAllEnemiesQuestCompleted>Vous avez détruit l'avant-poste ennemi !\n\nVous avez été payé par {0} et les relations avec la faction se sont améliorées de {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
-  <!-- Quest completed -->
-  <LetterLabelDefeatAllEnemiesQuestCompleted>Quête achevée</LetterLabelDefeatAllEnemiesQuestCompleted>
-  <LetterDefeatAllEnemiesQuestCompleted>Vous avez détruit l'avant-poste ennemi !\n\nVous avez été payé par {0} et les relations avec la faction se sont améliorées de {1}.</LetterDefeatAllEnemiesQuestCompleted>
+<!-- Found lump of precious resources -->
+<LetterLabelFoundPreciousLump>Des minéraux précieux ont été trouvés</LetterLabelFoundPreciousLump>
+<LetterFoundPreciousLump>Your long-range mineral scanner has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}.</LetterFoundPreciousLump>
 
-  <!-- Found lump of precious resources -->
-  <LetterLabelFoundPreciousLump>Des minéraux précieux ont été trouvés</LetterLabelFoundPreciousLump>
-  <LetterFoundPreciousLump>Votre scanner minéral à longue portée a trouvé un affleurement de ressources précieuses à proximité.\n\nNous ne savons pas qui, ou quoi... pourrait le surveiller.</LetterFoundPreciousLump>
+<!-- Ambush -->
+<LetterLabelAmbushInExistingMap>Embuscade</LetterLabelAmbushInExistingMap>
+<LetterAmbushInExistingMap>Votre {0} est tombé dans une embuscade !</LetterAmbushInExistingMap>
 
-  <!-- Sleeping mechanoids -->
-  <LetterLabelSleepingMechanoids>Mécanoides dormant</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>Il y a quelques mécanoïdes hostiles endormis dans cette zone. \n\nLes mécanoïdes peuvent ou non se réveiller quand vous les approchez, alors soyez prudent.</LetterSleepingMechanoids>
+<!-- Peace talks -->
+<LetterLabelPeaceTalks_Disaster>Catastrophe lors des pourparlers de paix</LetterLabelPeaceTalks_Disaster>
+<LetterPeaceTalks_Disaster>Les négociations ont été un désastre. Les délégués ont à peine dépassé leurs premières salutations avant que la discussion ne se décompose en insultes et récriminations. \n\nAprès que votre caravane soit partie prématurément, {0} de {1} l' a rattrapée et attaquée ! \n\nRelations avec {1}: {2}.</LetterPeaceTalks_Disaster>
+<LetterLabelPeaceTalks_Backfire>Les discussions de paix se soldent par un contrecoup</LetterLabelPeaceTalks_Backfire>
+<LetterPeaceTalks_Backfire>Les pourparlers ont échoué. Malgré quelques plaisanteries, les délégués n'ont fait aucun progrès sur les questions de fond, et de nombreuses déclarations ont été interprétées comme des insultes. \n\nRelations avec {0}: {1}.</LetterPeaceTalks_Backfire>
+<LetterLabelPeaceTalks_TalksFlounder>Les négociations de paix piétinent</LetterLabelPeaceTalks_TalksFlounder>
+<LetterPeaceTalks_TalksFlounder>Les pourparlers ont traîné. Les délégués sont parvenus à communiquer clairement et avec respect, mais n'ont pas pu progresser sur de véritables questions. \n\nLes relations avec {0} restent inchangées.</LetterPeaceTalks_TalksFlounder>
+<LetterLabelPeaceTalks_Success>Réussite du dialogue de paix</LetterLabelPeaceTalks_Success>
+<LetterPeaceTalks_Success>Les pourparlers ont été un succès. Les délégués sont parvenus à une nouvelle entente mutuelle sur plusieurs questions importantes. \n\nLes relations avec {0} se sont améliorées de {1}.</LetterPeaceTalks_Success>
+<LetterLabelPeaceTalks_Triumph>Les pourparlers de paix remportent un grand succès</LetterLabelPeaceTalks_Triumph>
+<LetterPeaceTalks_Triumph>Les pourparlers ont été un grand triomphe ! Les délégués se sont rapidement entendus sur le plan personnel et ont pu se voir mutuellement sur les questions les plus difficiles de la journée. \n\nLes relations avec {0} se sont améliorées de {1}. \n\nAu moment où votre caravane est partie, {0} vous a offert un cadeau: {2}.</LetterPeaceTalks_Triumph>
+<PeaceTalksSocialXPGain>{0}, votre négociateur, a acquis {1} d'expérience sociale.</PeaceTalksSocialXPGain>
 
-  <!-- Ambush -->
-  <LetterLabelAmbushInExistingMap>Embuscade</LetterLabelAmbushInExistingMap>
-  <LetterAmbushInExistingMap>Votre {0} est tombé dans une embuscade !</LetterAmbushInExistingMap>
+<!-- Run wild mental break -->
+<LetterRunWildMentalBreak>{0} a décidé de quitter votre faction et de vivre avec les animaux.</LetterRunWildMentalBreak>
 
-  <!-- Peace talks -->
-  <LetterLabelPeaceTalks_Disaster>Catastrophe lors des pourparlers de paix</LetterLabelPeaceTalks_Disaster>
-  <LetterPeaceTalks_Disaster>Les négociations ont été un désastre. Les délégués ont à peine dépassé leurs premières salutations avant que la discussion ne se décompose en insultes et récriminations. \n\nAprès que votre caravane soit partie prématurément, {0} de {1} l' a rattrapée et attaquée ! \n\nRelations avec {1}: {2}.</LetterPeaceTalks_Disaster>
-  <LetterLabelPeaceTalks_Backfire>Les discussions de paix se soldent par un contrecoup</LetterLabelPeaceTalks_Backfire>
-  <LetterPeaceTalks_Backfire>Les pourparlers ont échoué. Malgré quelques plaisanteries, les délégués n'ont fait aucun progrès sur les questions de fond, et de nombreuses déclarations ont été interprétées comme des insultes. \n\nRelations avec {0}: {1}.</LetterPeaceTalks_Backfire>
-  <LetterLabelPeaceTalks_TalksFlounder>Les négociations de paix piétinent</LetterLabelPeaceTalks_TalksFlounder>
-  <LetterPeaceTalks_TalksFlounder>Les pourparlers ont traîné. Les délégués sont parvenus à communiquer clairement et avec respect, mais n'ont pas pu progresser sur de véritables questions. \n\nLes relations avec {0} restent inchangées.</LetterPeaceTalks_TalksFlounder>
-  <LetterLabelPeaceTalks_Success>Réussite du dialogue de paix</LetterLabelPeaceTalks_Success>
-  <LetterPeaceTalks_Success>Les pourparlers ont été un succès. Les délégués sont parvenus à une nouvelle entente mutuelle sur plusieurs questions importantes. \n\nLes relations avec {0} se sont améliorées de {1}.</LetterPeaceTalks_Success>
-  <LetterLabelPeaceTalks_Triumph>Les pourparlers de paix remportent un grand succès</LetterLabelPeaceTalks_Triumph>
-  <LetterPeaceTalks_Triumph>Les pourparlers ont été un grand triomphe ! Les délégués se sont rapidement entendus sur le plan personnel et ont pu se voir mutuellement sur les questions les plus difficiles de la journée. \n\nLes relations avec {0} se sont améliorées de {1}. \n\nAu moment où votre caravane est partie, {0} vous a offert un cadeau: {2}.</LetterPeaceTalks_Triumph>
-  <PeaceTalksSocialXPGain>{0}, votre négociateur, a acquis {1} d'expérience sociale.</PeaceTalksSocialXPGain>
+<!-- Catatonic mental break -->
+<LetterCatatonicMentalBreak>{0} a une dépression catatonique qui durera plusieurs jours.</LetterCatatonicMentalBreak>
 
-  <!-- Run wild mental break -->
-  <LetterRunWildMentalBreak>{0} a décidé de quitter votre faction et de vivre avec les animaux.</LetterRunWildMentalBreak>
+<LetterLabelAICoreOffer>AI Core Offer</LetterLabelAICoreOffer>
+<LetterAICoreOffer>{0} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested.</LetterAICoreOffer>
 
-  <!-- Catatonic mental break -->
-  <LetterCatatonicMentalBreak>{0} a une dépression catatonique qui durera plusieurs jours.</LetterCatatonicMentalBreak>
+<LetterCraftedLegendaryLabel>Legendary Work</LetterCraftedLegendaryLabel>
+<LetterCraftedLegendaryMessage>{0} has created a {1}.\n\nNews of this valuable artifact will spread across the world.</LetterCraftedLegendaryMessage>
 
-</LanguageData>
+<!-- Pawns lost because map closed -->
+<LetterLabelPawnsLostBecauseMapClosed_Caravan>Caravan lost</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+<LetterPawnsLostBecauseMapClosed_Caravan>Your caravan has been lost. The following people and animals have been lost with it</LetterPawnsLostBecauseMapClosed_Caravan>
+<LetterLabelPawnsLostBecauseMapClosed_Home>Inhabitants abandoned</LetterLabelPawnsLostBecauseMapClosed_Home>
+<LetterPawnsLostBecauseMapClosed_Home>The following people and animals have been abandoned</LetterPawnsLostBecauseMapClosed_Home>
+
+<!-- Hibernate complete -->
+<LetterLabelHibernateComplete>Reactor ready</LetterLabelHibernateComplete>
+<LetterHibernateComplete>Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</LetterHibernateComplete>
+<LetterHibernateCompleteStandalone>The reactor's power up sequence is complete. It is now ready to power a liftoff.</LetterHibernateCompleteStandalone>
+
+<!-- Visitors gave gift -->
+<LetterLabelVisitorsGaveGift>Gift</LetterLabelVisitorsGaveGift>
+<LetterVisitorsGaveGift>Since you're having a hard time, we're helping you out.</LetterVisitorsGaveGift>
+
+<!-- Faction base proximity -->
+<LetterLabelFactionBaseProximity>Faction base proximity</LetterLabelFactionBaseProximity>
+<LetterFactionBaseProximity>Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by:</LetterFactionBaseProximity>
+
+<!-- Caravans battlefield victory -->
+<LetterLabelCaravansBattlefieldVictory>Caravan battle won</LetterLabelCaravansBattlefieldVictory>
+<LetterCaravansBattlefieldVictory>Your caravan has won the battle.\n\nIn {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.</LetterCaravansBattlefieldVictory>
+
+<!-- Rescue quest -->
+<LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
+<LetterRescueQuestFinished>You have rescued [PAWN_nameDef] and [PAWN_pronoun] has joined your group.\n\nYou can take [PAWN_objective] with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option.</LetterRescueQuestFinished>
+
+<!-- Player entered site (generic label) -->
+<LetterLabelPlayerEnteredNewSiteGeneric>Arrived at site</LetterLabelPlayerEnteredNewSiteGeneric>
+
+<!-- Predator hunting colonist -->
+<LetterLabelPredatorHuntingColonist>{0} hunting {1}</LetterLabelPredatorHuntingColonist>
+<LetterPredatorHuntingColonist>{0} is hunting {1} for food!</LetterPredatorHuntingColonist>
+
+</LanguageData>																																																																																		   

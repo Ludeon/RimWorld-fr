@@ -29,14 +29,20 @@
   <DesignatorMine>Miner</DesignatorMine>
   <DesignatorMineDesc>Désigne les zones de roche à miner.</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
-
+ <DesignatorSmoothSurface>Aplanir le sol</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothSurfaceDesc>
+  
   <DesignatorPlan>Planifier</DesignatorPlan>
   <DesignatorPlanDesc>Trace une zone de plan. Sert à planifier votre expansion future, ou à anticiper celle-ci.</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>Enlever des plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Efface des zones planifiées.</DesignatorPlanRemoveDesc>
+
+  <DesignatorForbid>Interdire</DesignatorForbid>
+  <DesignatorForbidDesc>Marquer les éléments comme interdits. Les colons ne pourront pas interagir avec les objets désignés.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Marquer les éléments comme autoriser. Les colons pourront interagir avec les objets désignés.</DesignatorUnforbidDesc>
 
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
@@ -70,13 +76,19 @@
   <DesignatorZoneCreateStorageDumpingDesc>Créer une décharge dans laquelle vos colons jetteront les déchets.\nCet outil permet aussi d'étendre une décharge existante.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Supprimer des zones</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Supprimer des zones</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Retire des zones, telles que les zones de stockage ou les zones agricoles.</DesignatorZoneDeleteDesc>
 
+  <DesignatorZoneExpand>Agrandir la zone</DesignatorZoneExpand>
+  
   <DesignatorClaim>Revendiquer</DesignatorClaim>
   <DesignatorClaimDesc>Revendique des structures neutres pour la colonie, incluant les ruines anciennes et les camps de sièges abandonnés. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Enlever le sol</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>Enlève le sol pour révéler le terrain en dessous.</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Enlever le pont</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Enlève le pont pour révéler le terrain en dessous.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>Déshabiller</DesignatorStrip>
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
@@ -104,14 +116,14 @@
   <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
-  <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</SurfaceBeingSmoothed>
   <IdenticalThingExists>Une chose identique se trouve déjà ici.</IdenticalThingExists>
   <IdenticalBlueprintExists>Une construction identique se trouve déjà ici.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Le terrain ne peut pas supporter ceci.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>L'emplacement est en train de se faire aplatir.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
-
+<MustBeOnMovingWater>The waterwheel must be on moving water.</MustBeOnMovingWater>
 
   <!-- Mouse attachments -->
   <ExpandOrCreateZone>Étendre {0} ou\nCréer une nouvelle {1}</ExpandOrCreateZone>
@@ -121,5 +133,8 @@
   <!-- Desc helpers -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
   <ConstructionNeeded>Construction requis</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Aucun de vos {0} n'a cette compétence.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Tous les {0} qui ont cette compétence ne sont pas assigné a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+
 
 </LanguageData>

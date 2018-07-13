@@ -29,14 +29,20 @@
   <repeat>répéter</repeat>
   <default>défaut</default>
   <distance>distance</distance>
+  <YesUppercase>YES</YesUppercase>
+  <NoUppercase>NO</NoUppercase>
+  <kg>kg</kg>
+  <Day>Day</Day>
+  <day>day</day>
+  <Default>Default</Default>
+  <Average>Average</Average>
 
   <!-- Content generation-->
 
   <MeatLabel>Viande de {0}</MeatLabel>
   <MeatDesc>Viande crue découpée. Peut être cuisinée ou mangée en l'état.</MeatDesc>
-
-  <LeatherLabel>Cuir de {0}</LeatherLabel>
-  <LeatherDesc>Peau tannée, séchée et raclée. Un bon matériau traditionnel pour faire des vêtements et des sacs.</LeatherDesc>
+  <MeatInsectDesc>Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing.</MeatInsectDesc>
+  <MeatHumanDesc>Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea.</MeatHumanDesc>
 
   <CorpseLabel>cadavre de {0}</CorpseLabel>
   <CorpseDesc>Cadavre d'un {0}.</CorpseDesc>
@@ -52,19 +58,21 @@
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
   <FrameLabelExtra> (construction)</FrameLabelExtra>
 
+  <FactionUnaffiliated>Unaffiliated</FactionUnaffiliated>
+
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} en {0}</ThingMadeOfStuffLabel>
 
-  <SomeonesRoom>{1} de {0}</SomeonesRoom>
-  <CouplesRoom>{2} de {0} et {1}</CouplesRoom>
-
+  <SomeonesRoom>{0}'s {1}</SomeonesRoom>
+  <CouplesRoom>{0} and {1}'s {2}</CouplesRoom>
+  
   <VariousLabel>(divers)</VariousLabel>
 
   <!-- History events -->
   <ColonistDied>Un colon est décédé.</ColonistDied>
-
+  
   <!-- Rotation -->
   <North>Nord</North>
   <South>Sud</South>
