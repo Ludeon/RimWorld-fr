@@ -298,7 +298,7 @@
 <DaysWorthOfFoodInfoRot>{0} jours de nourriture, elle pourrira dans {1} jours</DaysWorthOfFoodInfoRot>
 <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
 <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
-<DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+<DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(only the first waypoint is taken into account)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
 <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog>
 <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog_NoFood>
 <ForagedFoodPerDayTip>La quantité moyenne de nourriture par jour que vos colons vont chercher. Cette valeur changera au fur et à mesure que vous traverserez des biomes avec des rendements de recolte différents.</ForagedFoodPerDayTip>
@@ -346,10 +346,7 @@
 <!-- Split caravan -->
 <SplitCaravan>Diviser la caravane</SplitCaravan>
 <SourceCaravanMustHaveAtLeastOneColonist>Vous devez garder au moins un colon valide dans la caravane actuelle.</SourceCaravanMustHaveAtLeastOneColonist>
-<CaravanSplitSourceLabel>Actuelle</CaravanSplitSourceLabel>
-<CaravanSplitDestLabel>Nouvelle</CaravanSplitDestLabel>
 <SplitCaravanThingCountTip>Quantité d'articles disponibles pour la nouvelle caravane.</SplitCaravanThingCountTip>
-<SplitCaravanMassUsageTooltip>La charge actuelle et la capacité.</SplitCaravanMassUsageTooltip>
 
 <!-- Load transporters -->
 <LoadTransporters>Charger {0}</LoadTransporters>
@@ -440,7 +437,7 @@
 <ConfirmBanishPawnDialog>Souhaitez-vous vraiment abandonner {0} ?</ConfirmBanishPawnDialog>
 <ConfirmBanishPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmBanishPawnDialog_LeftToDie>
 <ConfirmBanishPawnDialog_Items>{0} prendra les objets suivants avec [PAWN_objective] :</ConfirmBanishPawnDialog_Items>
-<ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+<ConfirmBanishPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmBanishPawnDialog_AllColonistsThoughts>
 <ConfirmBanishPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmBanishPawnDialog_IndividualThoughts>
 
 <!-- Send transport pods which are not completely loaded -->

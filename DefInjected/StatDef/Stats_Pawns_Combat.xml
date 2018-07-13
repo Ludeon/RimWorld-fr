@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Shooting -->
@@ -6,14 +6,17 @@
   <MeleeDPS.label>DPS au corps-à-corps</MeleeDPS.label>
   <MeleeDPS.description>Moyenne des Dommages Par Seconde dans les combats de mêlée. Cela ne prend pas en compte les défenses de la cible, comme ses esquives ou son armure.</MeleeDPS.description>
 
+  <MeleeArmorPenetration.label>melee armor penetration</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.description>Average armor penetration of all attacks in melee combat. This stat includes currently used weapon.</MeleeArmorPenetration.description>
+
   <MeleeHitChance.label>probabilité de toucher en mêlée</MeleeHitChance.label>
   <MeleeHitChance.description>Les chances d'atteindre une cible en combat de mêlée. La cible peut esquiver même lorsqu'on l'atteint.</MeleeHitChance.description>
 
   <MeleeDodgeChance.label>probabilité d'esquiver en mêlée</MeleeDodgeChance.label>
   <MeleeDodgeChance.description>Probabilité d'esquiver une attaque de mêlée qui aurait atteint sa cible. Les personnes ne peuvent pas esquiver lorsqu'ils mettent en joue ou sont en train de tirer.</MeleeDodgeChance.description>
 
-  <ShootingAccuracy.label>précision des tirs</ShootingAccuracy.label>
-  <ShootingAccuracy.description>La probabilité de base de ne pas rater la cible par case de distance. Les chances de toucher sont également affectées par les conditions de la cible, de la couverture et de l'environnement, et peuvent être visualisées en sélectionnant un tireur et en déplaçant la souris sur une cible.</ShootingAccuracy.description>
+  <ShootingAccuracyPawn.label>shooting accuracy</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyPawn.description>
 
   <AimingDelayFactor.label>temps de tir</AimingDelayFactor.label>
   <AimingDelayFactor.description>Le temps nécessaire au tir après avoir visé.</AimingDelayFactor.description>

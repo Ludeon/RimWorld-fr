@@ -1,31 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Caméra en jeu -->
+  <!-- In-game camera -->
 
-  <MapDollyUp.label>monter</MapDollyUp.label>
-  <MapDollyDown.label>descendre</MapDollyDown.label>
-  <MapDollyLeft.label>gauche</MapDollyLeft.label>
-  <MapDollyRight.label>droite</MapDollyRight.label>
-  <MapZoomIn.label>zoom avant</MapZoomIn.label>
-  <MapZoomOut.label>zoom arrière</MapZoomOut.label>
+  <MapDolly_Up.label>dolly up</MapDolly_Up.label>
+  <MapDolly_Down.label>dolly down</MapDolly_Down.label>
+  <MapDolly_Left.label>dolly left</MapDolly_Left.label>
+  <MapDolly_Right.label>dolly right</MapDolly_Right.label>
+  <MapZoom_In.label>zoom in</MapZoom_In.label>
+  <MapZoom_Out.label>zoom out</MapZoom_Out.label>
 
 
-  <!-- Capture d'écran et vitesse du jeu -->
+  <!-- Map play -->
 
+  <Accept.label>accept</Accept.label>
+  <Cancel.label>cancel</Cancel.label>
   <TakeScreenshot.label>prendre une capture d'écran</TakeScreenshot.label>
   <ToggleScreenshotMode.label>activer le mode capture d'écran</ToggleScreenshotMode.label>
   <SelectNextInCell.label>sélectionner la cellule suivante</SelectNextInCell.label>
   <TogglePause.label>pause / Reprendre</TogglePause.label>
-  <TimeSpeedNormal.label>vitesse de jeu : normale</TimeSpeedNormal.label>
-  <TimeSpeedFast.label>vitesse de jeu : rapide</TimeSpeedFast.label>
-  <TimeSpeedSuperfast.label>vitesse de jeu : très rapide</TimeSpeedSuperfast.label>
-  <TimeSpeedUltrafast.label>vitesse de jeu : ultra rapide (Debug)</TimeSpeedUltrafast.label>
+  <TimeSpeed_Normal.label>game speed: Normal</TimeSpeed_Normal.label>
+  <TimeSpeed_Fast.label>game speed: Fast</TimeSpeed_Fast.label>
+  <TimeSpeed_Superfast.label>game speed: Super fast</TimeSpeed_Superfast.label>
+  <TimeSpeed_Ultrafast.label>game speed: Ultra fast (debug)</TimeSpeed_Ultrafast.label>
   <PreviousColonist.label>colon précédent</PreviousColonist.label>
   <NextColonist.label>colon suivant</NextColonist.label>
+  <ToggleRoomStatsDisplay.label>toggle room stats display</ToggleRoomStatsDisplay.label>
+  <ToggleBeautyDisplay.label>toggle beauty display</ToggleBeautyDisplay.label>
 
 
-  <!-- Divers (ré-utilisé) -->
+  <!-- Misc (re-used) -->
 
   <Misc1.label>Divers 1</Misc1.label>
   <Misc2.label>Divers 2</Misc2.label>
@@ -41,37 +45,37 @@
   <Misc12.label>Divers 12</Misc12.label>
 
 
-  <!-- Sélection spéciale -->
+  <!-- Selection special -->
 
-  <CommandTogglePower.label>alimenter / Éteindre</CommandTogglePower.label>
-  <CommandItemForbid.label>interdire / Autoriser</CommandItemForbid.label>
-  <CommandColonistDraft.label>mobiliser / Démobiliser</CommandColonistDraft.label>
-
-
-  <!-- Architecte : classique -->
-
-  <DesignatorCancel.label>annuler</DesignatorCancel.label>
-  <DesignatorDeconstruct.label>démonter</DesignatorDeconstruct.label>
-  <DesignatorRotateLeft.label>rotation gauche</DesignatorRotateLeft.label>
-  <DesignatorRotateRight.label>rotation droite</DesignatorRotateRight.label>
+  <Command_TogglePower.label>toggle power</Command_TogglePower.label>
+  <Command_ItemForbid.label>toggle forbidden</Command_ItemForbid.label>
+  <Command_ColonistDraft.label>draft</Command_ColonistDraft.label>
 
 
-  <!-- Modificateurs -->
+  <!-- Architect: Common -->
 
-  <ModifierIncrement10x.label>incrémenter 10x</ModifierIncrement10x.label>
-  <ModifierIncrement100x.label>incrémenter 100x</ModifierIncrement100x.label>
+  <Designator_Cancel.label>cancel</Designator_Cancel.label>
+  <Designator_Deconstruct.label>deconstruct</Designator_Deconstruct.label>
+  <Designator_RotateLeft.label>rotate left</Designator_RotateLeft.label>
+  <Designator_RotateRight.label>rotate right</Designator_RotateRight.label>
+
+
+  <!-- Modifiers -->
+
+  <ModifierIncrement_10x.label>increment 10x</ModifierIncrement_10x.label>
+  <ModifierIncrement_100x.label>increment 100x</ModifierIncrement_100x.label>
   <QueueOrder.label>définir une succession de tâches à accomplir</QueueOrder.label>
 
 
-  <!-- Débogage -->
+  <!-- Debug -->
 
-  <TickOnce.label>faire passer un instant</TickOnce.label>
-  <ToggleGodMode.label>mode dieu</ToggleGodMode.label>
-  <ToggleDebugLog.label>activer le journal de débogage</ToggleDebugLog.label>
-  <ToggleDebugActionsMenu.label>activer le menu d'action</ToggleDebugActionsMenu.label>
-  <ToggleDebugLogMenu.label>activer le menu du journal de débogage</ToggleDebugLogMenu.label>
-  <ToggleDebugInspector.label>activer l'inspecteur de bogues</ToggleDebugInspector.label>
-  <ToggleDebugSettingsMenu.label>paramètres du mode de débogage</ToggleDebugSettingsMenu.label>
+  <Dev_TickOnce.label>tick once</Dev_TickOnce.label>
+  <Dev_ToggleGodMode.label>toggle god mode</Dev_ToggleGodMode.label>
+  <Dev_ToggleDebugLog.label>toggle debug log</Dev_ToggleDebugLog.label>
+  <Dev_ToggleDebugActionsMenu.label>toggle debug actions menu</Dev_ToggleDebugActionsMenu.label>
+  <Dev_ToggleDebugLogMenu.label>toggle debug log menu</Dev_ToggleDebugLogMenu.label>
+  <Dev_ToggleDebugInspector.label>toggle debug inspector</Dev_ToggleDebugInspector.label>
+  <Dev_ToggleDebugSettingsMenu.label>toggle debug settings menu</Dev_ToggleDebugSettingsMenu.label>
 
 
 </LanguageData>

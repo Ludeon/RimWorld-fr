@@ -1,25 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <QuestBanditCamp.label>opportunité d'attaquer des bandits</QuestBanditCamp.label>
-  <QuestBanditCamp.letterText>{0}, {1} de {2} vous a contacté.\n\nApparemment, des bandits basés non loin ont attaqués leurs caravanes. Il vous demande de détruire leur base, c'est-à-dire de détruire leurs tourelles et d'éliminer tous les hommes présents sur place. Si vous y arrivez, vos relations vont s'améliorer, et en retour il vous offrira ceci :\n\n{3}</QuestBanditCamp.letterText>
-  <QuestBanditCamp.letterLabel>Opportunité d'attaquer des bandits</QuestBanditCamp.letterLabel>
+  <Quest_TradeRequest.label>trade request</Quest_TradeRequest.label>
 
-  <QuestItemStash.label>planque</QuestItemStash.label>
-  <QuestItemStash.letterText>{0}, {1} de {2}, vous a contacté.\n\nIl a appris que des d'objets de valeur étaient planqués non loin de chez eux. Ces objets sont :\n\n{3}\n\nMais ces objets attirent les convoitises : dans {4} jours, quelqu'un d'autre se sera servi.\n\nLes objets de valeur attirent le danger, alors faîtes attention.\n\n{5}</QuestItemStash.letterText>
-  <QuestItemStash.letterLabel>Planque</QuestItemStash.letterLabel>
+  <Quest_BanditCamp.label>bandit camp quest</Quest_BanditCamp.label>
+  <Quest_BanditCamp.letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently bandits based in a nearby camp have been raiding their caravans. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}\n\nIf we don't destroy the camp in {4} days, they will do it themselves.</Quest_BanditCamp.letterText>
+  <Quest_BanditCamp.letterLabel>Bandit camp quest</Quest_BanditCamp.letterLabel>
 
-  <QuestDownedRefugee.label>appel au secours d'un réfugié blessé</QuestDownedRefugee.label>
-  <QuestDownedRefugee.letterText>{0} vous contacte par radio et vous supplie de l'aider. HECAP est blessé(e) et incapable de bouger. Si aucune aide ne lui parvient, HE mourra dans {1} jours.\n\nL'endroit peut être dangereux donc prenez vos précautions.</QuestDownedRefugee.letterText>
-  <QuestDownedRefugee.letterLabel>Appel au secours d'un réfugié blessé</QuestDownedRefugee.letterLabel>
+  <Quest_ItemStash.label>item stash quest</Quest_ItemStash.label>
+  <Quest_ItemStash.letterText>{0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}.</Quest_ItemStash.letterText>
+  <Quest_ItemStash.letterLabel>Item stash quest</Quest_ItemStash.letterLabel>
 
-  <QuestPrisonerWillingToJoin.label>opportunité de secourir un prisonnier</QuestPrisonerWillingToJoin.label>
-  <QuestPrisonerWillingToJoin.letterText>Un prisonnier retenu par {0} s'est débrouillé pour voler une radio et vous appelle!\n\nNAME est détenu(e) sous bonne garde dans un campement à proximité. HECAP jure que si HE est libéré(e), HE rejoindra votre colonie. C'est un(e) {2} âgé(e) de {1} ans.</QuestPrisonerWillingToJoin.letterText>
-  <QuestPrisonerWillingToJoin.letterLabel>Opportunité de secourir un prisonnier</QuestPrisonerWillingToJoin.letterLabel>
 
-  <QuestPeaceTalks.label>proposition de pourparlers</QuestPeaceTalks.label>
-  <QuestPeaceTalks.letterText>NAME, {0} de {1}, nous a fait parvenir un message. HECAP voudrait discuter avec nous dans une zone neutre située non loin.\n\nCe pourrait être une excellent occasion d'améliorer vos relations avec cette faction, mais attention ; un négociateur peu compétent pourrait causer plus de tort que de bien et même aller jusqu'à les mettre en colère.\n\nLeur offre ne tiendra que durant {2} jours.</QuestPeaceTalks.letterText>
-  <QuestPeaceTalks.letterLabel>Proposition de pourparlers</QuestPeaceTalks.letterLabel>
+  <!-- Used as a utility incident def for the core-requesting faction option -->
+
+  <Quest_ItemStashAICore.label>item stash quest (AI core)</Quest_ItemStashAICore.label>
+  <Quest_ItemStashAICore.letterText>{0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}.</Quest_ItemStashAICore.letterText>
+  <Quest_ItemStashAICore.letterLabel>Item stash quest</Quest_ItemStashAICore.letterLabel>
+
+  <Quest_DownedRefugee.label>incapacitated refugee quest</Quest_DownedRefugee.label>
+  <Quest_DownedRefugee.letterText>[PAWN_nameDef] contacts you and requests help. [PAWN_pronoun] is wounded and unable to move. Without your help, [PAWN_pronoun] will die in {0} days.\n\n[PAWN_nameDef] is a {1}-year-old {2}. [PAWN_pronoun] promises to join you if you rescue [PAWN_objective].\n\n[PAWN_nameDef] says that {3}.</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterLabel>Incapacitated refugee quest</Quest_DownedRefugee.letterLabel>
+
+  <Quest_PrisonerRescue.label>prisoner rescue quest</Quest_PrisonerRescue.label>
+  <Quest_PrisonerRescue.letterText>A prisoner being held by {0} has managed to steal a radio and call you!\n\n[PAWN_nameDef] is being held at a camp nearby under armed guard. Rescue [PAWN_objective], and [PAWN_pronoun] will join your colony. [PAWN_pronoun] is a {1}-year-old {2}. [PAWN_pronoun] says that {3}.</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterLabel>Prisoner rescue quest</Quest_PrisonerRescue.letterLabel>
+
+  <Quest_PeaceTalks.label>peace talks quest</Quest_PeaceTalks.label>
+  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} of {1}, has sent us a message. [PAWN_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.\n\nThe offer will expire after {2} days.</Quest_PeaceTalks.letterText>
+  <Quest_PeaceTalks.letterLabel>Peace talks quest</Quest_PeaceTalks.letterLabel>
+
+
+  <!-- Main quests -->
+
+  <Quest_JourneyOffer.label>escape ship quest</Quest_JourneyOffer.label>
 
 
 </LanguageData>

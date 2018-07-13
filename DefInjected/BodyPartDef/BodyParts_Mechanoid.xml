@@ -1,41 +1,51 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MechanicalThorax.label>thorax</MechanicalThorax.label>
-  <LeftBlade.label>lame Gauche</LeftBlade.label>
-  <RightBlade.label>lame droite</RightBlade.label>
+  <!-- Common to various mechanoids -->
+
   <MechanicalNeck.label>cou</MechanicalNeck.label>
   <MechanicalHead.label>tête</MechanicalHead.label>
-  <LeftSightSensor.label>capteur optique gauche</LeftSightSensor.label>
-  <RightSightSensor.label>capteur optique droit</RightSightSensor.label>
-  <LeftHearingSensor.label>capteur auditif gauche</LeftHearingSensor.label>
-  <RightHearingSensor.label>capteur auditif droit</RightHearingSensor.label>
-  <SmellSensor.label>capteur olfactif</SmellSensor.label>
-  <LeftMechanicalShoulder.label>épaule gauche</LeftMechanicalShoulder.label>
-  <LeftMechanicalArm.label>bras gauche</LeftMechanicalArm.label>
-  <LeftMechanicalHand.label>main gauche</LeftMechanicalHand.label>
-  <LeftHandMechanicalPinky.label>auriculaire gauche</LeftHandMechanicalPinky.label>
-  <LeftHandMechanicalMiddleFinger.label>majeur gauche</LeftHandMechanicalMiddleFinger.label>
-  <LeftHandMechanicalIndexFinger.label>index gauche</LeftHandMechanicalIndexFinger.label>
-  <LeftHandMechanicalThumb.label>pouce gauche</LeftHandMechanicalThumb.label>
-  <RightMechanicalShoulder.label>épaule droite</RightMechanicalShoulder.label>
-  <RightMechanicalArm.label>bras droit</RightMechanicalArm.label>
-  <RightMechanicalHand.label>main droite</RightMechanicalHand.label>
-  <RightHandMechanicalPinky.label>auriculaire droit</RightHandMechanicalPinky.label>
-  <RightHandMechanicalMiddleFinger.label>majeur droit</RightHandMechanicalMiddleFinger.label>
-  <RightHandMechanicalIndexFinger.label>index droit</RightHandMechanicalIndexFinger.label>
-  <RightHandMechanicalThumb.label>pouce droit</RightHandMechanicalThumb.label>
-  <LeftMechanicalLeg.label>jambe gauche</LeftMechanicalLeg.label>
-  <LeftMechanicalFoot.label>pied gauche</LeftMechanicalFoot.label>
-  <RightMechanicalLeg.label>jambe droite</RightMechanicalLeg.label>
-  <RightMechanicalFoot.label>pied droit</RightMechanicalFoot.label>
-  <MechanicalCentipedeBodyFirstRing.label>premier anneau corporel</MechanicalCentipedeBodyFirstRing.label>
-  <MechanicalCentipedeBodySecondRing.label>deuxième anneau corporel</MechanicalCentipedeBodySecondRing.label>
-  <MechanicalCentipedeBodyThirdRing.label>troisième anneau corporel</MechanicalCentipedeBodyThirdRing.label>
-  <MechanicalCentipedeBodyFourthRing.label>quatrième anneau corporel</MechanicalCentipedeBodyFourthRing.label>
-  <MechanicalCentipedeBodyFifthRing.label>cinquième anneau corporel</MechanicalCentipedeBodyFifthRing.label>
-  <MechanicalCentipedeBodySixthRing.label>sixième anneau corporel</MechanicalCentipedeBodySixthRing.label>
   <ArtificialBrain.label>cerveau artificiel</ArtificialBrain.label>
+  <SightSensor.label>sight sensor</SightSensor.label>
+  <HearingSensor.label>hearing sensor</HearingSensor.label>
+  <SmellSensor.label>capteur olfactif</SmellSensor.label>
+  <MechanicalShoulder.label>shoulder</MechanicalShoulder.label>
+  <MechanicalArm.label>arm</MechanicalArm.label>
+  <MechanicalHand.label>hand</MechanicalHand.label>
+  <MechanicalFinger.label>finger</MechanicalFinger.label>
+  <MechanicalLeg.label>leg</MechanicalLeg.label>
+  <MechanicalFoot.label>foot</MechanicalFoot.label>
+
+
+  <!-- Human-like specific (lancer, scyther) -->
+
+  <MechanicalThorax.label>thorax</MechanicalThorax.label>
+
+
+  <!-- Scyther specific -->
+
+  <Blade.label>blade</Blade.label>
+
+
+  <!-- Centipede specific -->
+
+  <MechanicalCentipedeBodyFirstRing.label>premier anneau corporel</MechanicalCentipedeBodyFirstRing.label>
+  <MechanicalCentipedeBodyFirstRing.labelShort>body ring</MechanicalCentipedeBodyFirstRing.labelShort>
+
+  <MechanicalCentipedeBodySecondRing.label>deuxième anneau corporel</MechanicalCentipedeBodySecondRing.label>
+  <MechanicalCentipedeBodySecondRing.labelShort>body ring</MechanicalCentipedeBodySecondRing.labelShort>
+
+  <MechanicalCentipedeBodyThirdRing.label>troisième anneau corporel</MechanicalCentipedeBodyThirdRing.label>
+  <MechanicalCentipedeBodyThirdRing.labelShort>body ring</MechanicalCentipedeBodyThirdRing.labelShort>
+
+  <MechanicalCentipedeBodyFourthRing.label>quatrième anneau corporel</MechanicalCentipedeBodyFourthRing.label>
+  <MechanicalCentipedeBodyFourthRing.labelShort>body ring</MechanicalCentipedeBodyFourthRing.labelShort>
+
+  <MechanicalCentipedeBodyFifthRing.label>cinquième anneau corporel</MechanicalCentipedeBodyFifthRing.label>
+  <MechanicalCentipedeBodyFifthRing.labelShort>body ring</MechanicalCentipedeBodyFifthRing.labelShort>
+
+  <MechanicalCentipedeBodySixthRing.label>sixième anneau corporel</MechanicalCentipedeBodySixthRing.label>
+  <MechanicalCentipedeBodySixthRing.labelShort>body ring</MechanicalCentipedeBodySixthRing.labelShort>
 
 
 </LanguageData>
