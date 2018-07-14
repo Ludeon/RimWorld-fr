@@ -9,9 +9,6 @@
   <Warg.tools.right_claw.label>griffe droite</Warg.tools.right_claw.label>
   <Warg.tools.razorfangs.label>razorfangs</Warg.tools.razorfangs.label>
   <Warg.tools.head.label>tête</Warg.tools.head.label>
-  <Leather_Wolf.label>fourrure de warg</Leather_Wolf.label>
-  <Leather_Wolf.description>fourrure prise sur un warg</Leather_Wolf.description>
-  <Leather_Wolf.stuffProps.stuffAdjective>fourrure de warg</Leather_Wolf.stuffProps.stuffAdjective>
   <Meat_Warg.label>viande de warg</Meat_Warg.label>
   <Meat_Warg.description>viande crue de warg</Meat_Warg.description>
   <Corpse_Warg.label>cadavre de warg</Corpse_Warg.label>
@@ -20,76 +17,62 @@
 
   <!-- Wolves -->
 
-  <Wolf_Timber.label>timber wolf</Wolf_Timber.label>
-  <Wolf_Timber.description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have complex social lives and are fiercely intelligent.</Wolf_Timber.description>
-  <Wolf_Timber.tools.left_claw.label>left claw</Wolf_Timber.tools.left_claw.label>
-  <Wolf_Timber.tools.right_claw.label>right claw</Wolf_Timber.tools.right_claw.label>
-  <Wolf_Timber.tools.head.label>head</Wolf_Timber.tools.head.label>
-  <Wolf_Timber_Leather.label>timber wolf leather</Wolf_Timber_Leather.label>
-  <Wolf_Timber_Leather.description>timber wolf leather</Wolf_Timber_Leather.description>
-  <Wolf_Timber_Leather.stuffProps.stuffAdjective>timber wolf leather</Wolf_Timber_Leather.stuffProps.stuffAdjective>
-  <Meat_Wolf_Timber.label>wolfmeat</Meat_Wolf_Timber.label>
-  <Meat_Wolf_Timber.description>wolfmeat</Meat_Wolf_Timber.description>
-  <Corpse_Wolf_Timber.label>timber wolf corpse</Corpse_Wolf_Timber.label>
-  <Corpse_Wolf_Timber.description>timber wolf corpse</Corpse_Wolf_Timber.description>
+ <WolfTimber.label>loup des bois</WolfTimber.label>
+  <WolfTimber.description>Un prédateur robuste longtemps craint par de nombreuses cultures anciennes de la Terre. Chassant en meute, les loups ont une vie sociale complexe et sont fameusement intelligents.</WolfTimber.description>
+  <WolfTimber.tools.0.label>griffe gauche</WolfTimber.tools.0.label>
+  <WolfTimber.tools.1.label>griffe droite</WolfTimber.tools.1.label>
+  <WolfTimber.tools.3.label>tête</WolfTimber.tools.3.label>
+  <WolfTimber_Meat.label>viande de loup</WolfTimber_Meat.label>
+  <WolfTimber_Meat.description>viande crue de loup</WolfTimber_Meat.description>
+  <WolfTimber_Corpse.label>cadavre de loup des bois</WolfTimber_Corpse.label>
+  <WolfTimber_Corpse.description>le cadavre d'un loup des bois</WolfTimber_Corpse.description>
 
-  <Wolf_Arctic.label>arctic wolf</Wolf_Arctic.label>
-  <Wolf_Arctic.description>An arctic variant of the old Earth wolf. As pack hunters, wolves have a complex social life and are fiercely intelligent.</Wolf_Arctic.description>
-  <Wolf_Arctic.tools.left_claw.label>left claw</Wolf_Arctic.tools.left_claw.label>
-  <Wolf_Arctic.tools.right_claw.label>right claw</Wolf_Arctic.tools.right_claw.label>
-  <Wolf_Arctic.tools.head.label>head</Wolf_Arctic.tools.head.label>
-  <Wolf_Arctic_Leather.label>arctic wolf leather</Wolf_Arctic_Leather.label>
-  <Wolf_Arctic_Leather.description>arctic wolf leather</Wolf_Arctic_Leather.description>
-  <Wolf_Arctic_Leather.stuffProps.stuffAdjective>arctic wolf leather</Wolf_Arctic_Leather.stuffProps.stuffAdjective>
+  <WolfArctic.label>loup arctique</WolfArctic.label>
+  <WolfArctic.description>Une variante arctique du loup de l'ancienne Terre. Chassant en meute, les loups ont une vie sociale complexe et sont fameusement intelligents.</WolfArctic.description>
+  <WolfArctic.tools.0.label>griffe gauche</WolfArctic.tools.0.label>
+  <WolfArctic.tools.1.label>griffe droite</WolfArctic.tools.1.label>
+  <WolfArctic.tools.3.label>tête</WolfArctic.tools.3.label>
   <!-- Use Meat From: Wolf_Timber -->
-  <Corpse_Wolf_Arctic.label>arctic wolf corpse</Corpse_Wolf_Arctic.label>
-  <Corpse_Wolf_Arctic.description>arctic wolf corpse</Corpse_Wolf_Arctic.description>
+  <WolfArctic_Corpse.label>cadavre de loup arctique</WolfArctic_Corpse.label>
+  <WolfArctic_Corpse.description>le cadavre d'un loup arctique.</WolfArctic_Corpse.description>
+
 
 
   <!-- Fox fennec -->
 
-  <Fox_Fennec.label>fennec fox</Fox_Fennec.label>
-  <Fox_Fennec.description>A small fox originally from the northern part of Earth's Africa continent. It hunts small creatures and has very large ears for cooling itself in the heat.</Fox_Fennec.description>
-  <Fox_Fennec.tools.left_claw.label>left claw</Fox_Fennec.tools.left_claw.label>
-  <Fox_Fennec.tools.right_claw.label>right claw</Fox_Fennec.tools.right_claw.label>
-  <Fox_Fennec.tools.head.label>head</Fox_Fennec.tools.head.label>
-  <Fox_Fennec_Leather.label>fennec fox leather</Fox_Fennec_Leather.label>
-  <Fox_Fennec_Leather.description>fennec fox leather</Fox_Fennec_Leather.description>
-  <Fox_Fennec_Leather.stuffProps.stuffAdjective>fennec fox leather</Fox_Fennec_Leather.stuffProps.stuffAdjective>
-  <Meat_Fox_Fennec.label>foxmeat</Meat_Fox_Fennec.label>
-  <Meat_Fox_Fennec.description>foxmeat</Meat_Fox_Fennec.description>
-  <Corpse_Fox_Fennec.label>fennec fox corpse</Corpse_Fox_Fennec.label>
-  <Corpse_Fox_Fennec.description>fennec fox corpse</Corpse_Fox_Fennec.description>
+  <FoxFennec.label>fennec</FoxFennec.label>
+  <FoxFennec.description>Un petit renard originaire de la partie nord du continent Africain de la Terre. Il chasse de petites créatures et a de très grandes oreilles.</FoxFennec.description>
+  <FoxFennec.tools.0.label>griffe gauche</FoxFennec.tools.0.label>
+  <FoxFennec.tools.1.label>griffe droite</FoxFennec.tools.1.label>
+  <FoxFennec.tools.3.label>tête</FoxFennec.tools.3.label>
+  <FoxFennec_Meat.label>viande de renard</FoxFennec_Meat.label>
+  <FoxFennec_Meat.description>viande crue de renard</FoxFennec_Meat.description>
+  <FoxFennec_Corpse.label>cadavre de fennec</FoxFennec_Corpse.label>
+  <FoxFennec_Corpse.description>le cadavre d'un fennec</FoxFennec_Corpse.description>
 
 
   <!-- Fox red -->
 
-  <Fox_Red.label>red fox</Fox_Red.label>
-  <Fox_Red.description>A small solitary canine evolved for hunting small prey in temperate climates. Chicken farmers hate foxes because of their ability to destroy a whole coop in minutes.</Fox_Red.description>
-  <Fox_Red.tools.left_claw.label>left claw</Fox_Red.tools.left_claw.label>
-  <Fox_Red.tools.right_claw.label>right claw</Fox_Red.tools.right_claw.label>
-  <Fox_Red.tools.head.label>head</Fox_Red.tools.head.label>
-  <Fox_Red_Leather.label>red fox leather</Fox_Red_Leather.label>
-  <Fox_Red_Leather.description>red fox leather</Fox_Red_Leather.description>
-  <Fox_Red_Leather.stuffProps.stuffAdjective>red fox leather</Fox_Red_Leather.stuffProps.stuffAdjective>
+  <FoxRed.label>renard roux</FoxRed.label>
+  <FoxRed.description>Un petit canidé solitaire qui a évolué pour chasser de petites proies dans les climats tempérés.</FoxRed.description>
+  <FoxRed.tools.0.label>griffe gauche</FoxRed.tools.0.label>
+  <FoxRed.tools.1.label>griffe droite</FoxRed.tools.1.label>
+  <FoxRed.tools.3.label>tête</FoxRed.tools.3.label>
   <!-- Use Meat From: Fox_Fennec -->
-  <Corpse_Fox_Red.label>red fox corpse</Corpse_Fox_Red.label>
-  <Corpse_Fox_Red.description>red fox corpse</Corpse_Fox_Red.description>
+  <FoxRed_Corpse.label>cadavre de renard roux</FoxRed_Corpse.label>
+  <FoxRed_Corpse.description>le cadavre d'un renard roux</FoxRed_Corpse.description>
 
 
   <!-- Fox arctic -->
 
-  <Fox_Arctic.label>arctic fox</Fox_Arctic.label>
-  <Fox_Arctic.description>A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey.</Fox_Arctic.description>
-  <Fox_Arctic.tools.left_claw.label>left claw</Fox_Arctic.tools.left_claw.label>
-  <Fox_Arctic.tools.right_claw.label>right claw</Fox_Arctic.tools.right_claw.label>
-  <Fox_Arctic.tools.head.label>head</Fox_Arctic.tools.head.label>
-  <Fox_Arctic_Leather.label>arctic fox leather</Fox_Arctic_Leather.label>
-  <Fox_Arctic_Leather.description>arctic fox leather</Fox_Arctic_Leather.description>
-  <Fox_Arctic_Leather.stuffProps.stuffAdjective>arctic fox leather</Fox_Arctic_Leather.stuffProps.stuffAdjective>
+   <FoxArctic.label>renard arctique</FoxArctic.label>
+  <FoxArctic.description>Un petit prédateur adapté pour le grand nord. Il chasse habituellement de petites proies comme les souris et les campagnols, creusant parfois sur plusieurs mètres dans la neige pour dénicher ses proies.</FoxArctic.description>
+  <FoxArctic.tools.0.label>griffe gauche</FoxArctic.tools.0.label>
+  <FoxArctic.tools.1.label>griffe droite</FoxArctic.tools.1.label>
+  <FoxArctic.tools.3.label>tête</FoxArctic.tools.3.label>
   <!-- Use Meat From: Fox_Fennec -->
-  <Corpse_Fox_Arctic.label>arctic fox corpse</Corpse_Fox_Arctic.label>
-  <Corpse_Fox_Arctic.description>arctic fox corpse</Corpse_Fox_Arctic.description>
+  <FoxArctic_Corpse.label>cadavre de renard arctique</FoxArctic_Corpse.label>
+  <FoxArctic_Corpse.description>le cadavre d'un renard arctique</FoxArctic_Corpse.description>
 
 
 </LanguageData>
