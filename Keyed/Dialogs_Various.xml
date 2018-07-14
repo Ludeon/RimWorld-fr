@@ -87,7 +87,7 @@
 <ZoneGainsName>La zone s'appelle désormais {0}.</ZoneGainsName>
 
 <!-- Pawn naming -->
-<PawnGainsName>Le surnom du colon est maintenant {0}.[PAWN_possessive] title is {1}.</PawnGainsName>
+<PawnGainsName>Le surnom du colon est maintenant {0}.Le titre de[PAWN_possessive] est {1}.</PawnGainsName>
 <AnimalGainsName>Le nom de cette animal est maintenant {0}.</AnimalGainsName>
 
 <!-- Save game incompatible warning -->
@@ -166,7 +166,7 @@
 
 <IncludeEquipped>Compte équipé</IncludeEquipped>
 <IncludeTainted>Compte Taché</IncludeTainted>
-<LimitToAllowedStuff>Seulement les ingredients autorisés</LimitToAllowedStuff>
+<LimitToAllowedStuff>Seulement les ingrédients autorisés</LimitToAllowedStuff>
 <IncludeFromAll>Regarder partout</IncludeFromAll>
 <IncludeSpecific>Regarder dans {0}</IncludeSpecific>
 
@@ -181,7 +181,7 @@
 <CooldownTime>Délai de refroidissement</CooldownTime>
 <BurstShotFireRate>Cadence de tir</BurstShotFireRate>
 <Range>Portée</Range>
-<StoppingPower>Puissance d'arret</StoppingPower>
+<StoppingPower>Puissance d'arrêt</StoppingPower>
 <StoppingPowerExplanation>Les coups de cette arme décaleront les cibles, ralentissant leur mouvement pendant plusieurs secondes. Les cibles dont la taille est supérieure à la puissance d'arrêt ne seront pas affectées.</StoppingPowerExplanation>
 <DirectHitChance>Chance de touché direct</DirectHitChance>
 <MissRadius>Rayon d'évitement</MissRadius>
@@ -234,7 +234,7 @@
 <ConstructionSkillRequiredExplanation>Nécessite ce niveau de Construction pour pouvoir construire.</ConstructionSkillRequiredExplanation>
 <NuzzleInterval>Intervalle de reniflage</NuzzleInterval>
 <NuzzleIntervalExplanation>Combien de fois un animal reniflera des colons amicaux, en moyenne.\n\nRenifler est un comportement partagé par de nombreuses espèces animales, où l'animal presse son nez ou son museau contre un ami en signe d'affection. La plupart des humains trouvent cela mignon et cela les laissera de bonne humeur pendant un certain temps.</NuzzleIntervalExplanation>
-<HarmedRevengeChance>Vengeance sur la nuissance</HarmedRevengeChance>
+<HarmedRevengeChance>Vengeance sur la nuisance</HarmedRevengeChance>
 <HarmedRevengeChanceExplanation>La chance que cette créature cherche à se venger d'être attaquée a distance.\n\nCette chance augmente si l'attaquant est plus proche. Si elle est attaquée à très courte distance, la chance est trois fois plus grande.\n\nCette chance est appliquée à chaque fois que des dégâts sont infligés, donc les armes les plus lentes sont moins susceptibles de le déclencher.\n\nPour minimiser les chances de vengeance d'une créature, attaquez-la à l'aide d'une arme à feu lente. </HarmedRevengeChanceExplanation>
 <TameFailedRevengeChance>Chance de revanche avec une tentative d'apprivoisement raté</TameFailedRevengeChance>
 <TerrainRequirement>Terrain exigé</TerrainRequirement>
@@ -277,7 +277,7 @@
 
 <!-- Sellable items -->
 <SellableItemsTitle>Choses que ce commerçant achètera</SellableItemsTitle>
-<PawnsTabShort>Creatures</PawnsTabShort>
+<PawnsTabShort>Créatures</PawnsTabShort>
 
 <!-- Form caravan -->
 <FormCaravan>Former une caravane</FormCaravan>
@@ -298,11 +298,11 @@
 <DaysWorthOfFoodInfoRot>Pourrira dans {0} jours</DaysWorthOfFoodInfoRot>
 <InfiniteDaysWorthOfFoodInfo>Ne manquera jamais de nourriture</InfiniteDaysWorthOfFoodInfo>
 <DaysWorthOfFoodTooltip>Nombre approximatif de jours avant que la caravane ne manque de nourriture.\n\nCela prend en compte les aliments pour les humains et animaux, et considère le pire des scénarios. Cela signifie qu'après ce nombre de jours, au moins une personne ou un animal manquera de nourriture.</DaysWorthOfFoodTooltip>
-<DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(only the first waypoint is taken into account)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+<DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(seul le premier point de cheminement est pris en compte)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
 <DaysWorthOfFoodWarningDialog>Votre caravane n'a que {0} jours de nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog>
 <DaysWorthOfFoodWarningDialog_NoFood>Votre caravane ne transporte aucune nourriture et sera rapidement affamée.</DaysWorthOfFoodWarningDialog_NoFood>
 <ForagedFoodPerDayTip>La quantité moyenne de nourriture par jour que vos colons vont chercher. Cette valeur changera au fur et à mesure que vous traverserez des biomes avec des rendements de recolte différents.</ForagedFoodPerDayTip>
-<ForagedFoodPerDay>Recolte par jour</ForagedFoodPerDay>				 
+<ForagedFoodPerDay>Récolte par jour</ForagedFoodPerDay>				 
 <CaravanFoodWillRotSoonWarningDialog>Une grande partie de la nourriture allouée pourrira bientôt.</CaravanFoodWillRotSoonWarningDialog>
 <CaravanIncapableOfSocial>Aucun membre de la caravane n'est capable de diplomatie ou de commerce.</CaravanIncapableOfSocial>
 <CaravanAreYouSure>Êtes-vous sûr(e) de vouloir former cette caravane ?</CaravanAreYouSure>
@@ -313,8 +313,8 @@
 <DaysUntilRotTip>Le nombre de jours avant que cet objet ne commence à pourrir dépend de la température moyenne dans la zone.</DaysUntilRotTip>
 <ItemNutritionTip>Quelle quantité de nourriture cette nourriture fournit. \n\nPour référence: la personne adulte a besoin de {0} nutrition par jour.</ItemNutritionTip>
 <AnimalCanGrazeTip>Cet animal peut brouter de la nourriture de l'environnement au lieu de manger de la nourriture transportée. Brouter n'est possible que dans certains biomes et certaines plages de température.</AnimalCanGrazeTip>
-<NutritionForagedPerDayTip>Calorie recolté par jour. La quantité réelle recolté est également affectée par l'aptitude au biome.\n\n{0}</NutritionForagedPerDayTip>
-<NutritionEatenPerDayTip>Calorie consommé par jour. Pour reference, les plats simple ont {0} calorie.\n\nPeut manger: {2}\n\nLegend:\n{1}.</NutritionEatenPerDayTip>
+<NutritionForagedPerDayTip>Calorie récolté par jour. La quantité réelle récolté est également affectée par l'aptitude au biome.\n\n{0}</NutritionForagedPerDayTip>
+<NutritionEatenPerDayTip>Calorie consommé par jour. Pour référence, les plats simple ont {0} calorie.\n\nPeut manger: {2}\n\nLegend:\n{1}.</NutritionEatenPerDayTip>
 <MassCarriedSimple>Poids transporté</MassCarriedSimple>
 <MassCapacity>Capacité de transport</MassCapacity>		  
 <Mass>Poids</Mass>
@@ -334,12 +334,12 @@
 <AnimalsWillBeAbleToGraze>Les animaux pourront brouté</AnimalsWillBeAbleToGraze>
 <AnimalsCanGraze>Les animaux peuvent brouté</AnimalsCanGraze>
 <PossibleToGrazeFor>(pour {0} jours de plus)</PossibleToGrazeFor>
-<PossibleToGrazeForever>(eternellement)</PossibleToGrazeForever>
+<PossibleToGrazeForever>(éternellement)</PossibleToGrazeForever>
 <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
 <CantGrazeBecauseOfTemp>(trop froid pour {0} jours de plus)</CantGrazeBecauseOfTemp>
 <TotalNutrition>Total nutrition</TotalNutrition>
 <CaravanNotMoving>Ne bouge pas</CaravanNotMoving>
-<ForagedNutritionPerDay>Calorie recolté par jours</ForagedNutritionPerDay>
+<ForagedNutritionPerDay>Calorie récolté par jours</ForagedNutritionPerDay>
 <FactionType>Type de faction</FactionType>
 <TotalBodySize>Taille totale</TotalBodySize>													   
 

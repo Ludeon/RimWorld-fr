@@ -21,10 +21,10 @@
 <CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
 <CannotAttackSelf>ne peut pas s'attaquer soi-même</CannotAttackSelf>
 
-<OrderManThing>Manipule {0}</OrderManThing>
+<OrderManThing>manipule {0}</OrderManThing>
 
-<MeleeAttack>Attaque {0} au corps-à-corps</MeleeAttack>
-<MeleeAttackToDeath>Attaque {0} au corps-à-corps jusqu'à ce que mort s'ensuive</MeleeAttackToDeath>
+<MeleeAttack>attaque {0} au corps-à-corps</MeleeAttack>
+<MeleeAttackToDeath>attaque {0} au corps-à-corps jusqu'à ce que mort s'ensuive</MeleeAttackToDeath>
 <NoPath>pas de chemin d'accès</NoPath>
 
 <ForbiddenLower>interdit</ForbiddenLower>
@@ -32,20 +32,20 @@
 <NotInHomeArea>en dehors de la zone de base</NotInHomeArea>
 <BurningLower>brûle</BurningLower>
 <NoEmptyPlaceLower>aucun espace libre configuré pour stocker ceci</NoEmptyPlaceLower>
-<NoMergeTarget>no stack available to merge into</NoMergeTarget>
+<NoMergeTarget>aucune pile avec laquelle fusionné </NoMergeTarget>
 <AlreadyFilledLower>déjà suffisamment rempli</AlreadyFilledLower>
 <MissingMaterials>besoin de matériaux</MissingMaterials>
-<UnderRequiredSkill>under required skill {0}</UnderRequiredSkill>
-<UnderAllowedSkill>under allowed skill {0}</UnderAllowedSkill>
-<AboveAllowedSkill>above allowed skill {0}</AboveAllowedSkill>
+<UnderRequiredSkill>en dessous de la compétence requise {0}</UnderRequiredSkill>
+<UnderAllowedSkill>en dessous de la compétence autorisé {0}</UnderAllowedSkill>
+<AboveAllowedSkill>au dessus de la compétence autorisé {0}</AboveAllowedSkill>
 <MissingRequiredSkillLevel>aptitudes trop faibles</MissingRequiredSkillLevel>												   
 <AnimalInteractedTooRecently>interaction avec l'animal trop récente</AnimalInteractedTooRecently>
 <NoUsableFood>aucune nourriture utilisable</NoUsableFood>
 <NoFood>pas de nourriture</NoFood>
 <AnimalsSkillTooLow>compétence animale trop faible - besoin de {0}</AnimalsSkillTooLow>
-<CantInteractAnimalDowned>animal downed</CantInteractAnimalDowned>
-<CantInteractAnimalAsleep>animal sleeping</CantInteractAnimalAsleep>
-<CantInteractAnimalBusy>animal busy</CantInteractAnimalBusy>
+<CantInteractAnimalDowned>animal abattu</CantInteractAnimalDowned>
+<CantInteractAnimalAsleep>animal dort</CantInteractAnimalAsleep>
+<CantInteractAnimalBusy>animal occupé</CantInteractAnimalBusy>
 <ConstructionSkillTooLow>compétence construction trop faible</ConstructionSkillTooLow>
 <NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
 <NoFuelToRefuel>nécessite {0}</NoFuelToRefuel>
@@ -56,10 +56,10 @@
 <ReservedForPrisoners>réservé aux prisonniers</ReservedForPrisoners>
 <CannotReach>impossible d'atteindre</CannotReach>
 <NotSurgeryReady>pas encore prêt pour une chirurgie</NotSurgeryReady>
-<SkillDisabled>skill incapable</SkillDisabled>
+<SkillDisabled>incapable d'utiliser cette compétence</SkillDisabled>
 <CantSowCavePlantBecauseOfLight>trop lumineux</CantSowCavePlantBecauseOfLight>
 <CantSowCavePlantBecauseUnroofed>non couvert</CantSowCavePlantBecauseUnroofed>
-<IncapableOfDeconstruction>incapable of deconstruction</IncapableOfDeconstruction>
+<IncapableOfDeconstruction>incapable de déconstruire</IncapableOfDeconstruction>
 
 <ConsumeThing>Consommer {0}</ConsumeThing>
 
@@ -96,7 +96,7 @@
 <Equip>Équiper {0}</Equip>
 <EquipWarningBrawler>(le bagarreur sera mécontent)</EquipWarningBrawler>
 <CannotEquip>Ne peut pas équiper {0}</CannotEquip>
-<CannotManThing>Cannot man {0}</CannotManThing>
+<CannotManThing>Ne peut pas manipuler {0}</CannotManThing>
 
 <ForceWear>Forcer à porter {0}</ForceWear>
 <CannotWear>Ne peut pas porter {0}</CannotWear>
@@ -116,17 +116,17 @@
 <GiveToPackAnimalSome>Charger {0} sur un animal...</GiveToPackAnimalSome>
 <GiveToPackAnimalCount>Charger {0} x{{0}}</GiveToPackAnimalCount>
 
-<CannotLoadIntoCaravan>Cannot load {0} into caravan</CannotLoadIntoCaravan>
-<CannotLoadIntoCaravanAll>Cannot load {0} (all) into caravan</CannotLoadIntoCaravanAll>
-<LoadIntoCaravan>Load {0} into caravan</LoadIntoCaravan>
-<LoadIntoCaravanAll>Load {0} (all) into caravan</LoadIntoCaravanAll>
-<LoadIntoCaravanSome>Load {0} into caravan...</LoadIntoCaravanSome>
-<LoadIntoCaravanCount>Load {0} x{{0}}</LoadIntoCaravanCount>
-<OverweightLower>overweight</OverweightLower>
+<CannotLoadIntoCaravan>Ne peut pas charger{0} dans la caravane</CannotLoadIntoCaravan>
+<CannotLoadIntoCaravanAll>Ne peut pas charger {0} (tout) dans la caravane</CannotLoadIntoCaravanAll>
+<LoadIntoCaravan>charger {0} dans la caravane</LoadIntoCaravan>
+<LoadIntoCaravanAll>charger {0} (tout) dans la caravane</LoadIntoCaravanAll>
+<LoadIntoCaravanSome>charger {0} dans la caravane...</LoadIntoCaravanSome>
+<LoadIntoCaravanCount>charger {0} x{{0}}</LoadIntoCaravanCount>
+<OverweightLower>surpoids</OverweightLower>
 
 <CannotCarryToExit>Ne peut pas transporter {0} et quitter la zone</CannotCarryToExit>
 <CarryToExit>Transporter {0} et quitter la zone</CarryToExit>
-<CarryToExitAndCapture>Capture {0} and leave the area</CarryToExitAndCapture>
+<CarryToExitAndCapture>Capturer {0} et quitter la zone</CarryToExitAndCapture>
 
 <Strip>Déshabiller {0}</Strip>
 <CannotStrip>Ne peut pas déshabiller {0}</CannotStrip>
@@ -147,9 +147,9 @@
 <VisitPeaceTalks>Visiter {0}</VisitPeaceTalks>
 <VisitEscapeShip>Visiter {0}</VisitEscapeShip>
 <AttackSettlement>Attaquer {0}</AttackSettlement>
-<ApproachSite>Approach {0}</ApproachSite>
-<ApproachingSite>Approaching {0}</ApproachingSite>
-<OfferGifts>Offer gifts</OfferGifts>								
+<ApproachSite>Approche {0}</ApproachSite>
+<ApproachingSite>Approche {0}</ApproachingSite>
+<OfferGifts>Cadeau offert</OfferGifts>								
 
 <!-- Specific thing interactions -->
 <EnterCryptosleepCasket>Entrer dans le caisson d'hypersommeil</EnterCryptosleepCasket>
@@ -157,7 +157,7 @@
 
 <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
 <CannotGenericWork>Ne peut pas {0} {1}</CannotGenericWork>
-<CannotGenericWorkCustom>Cannot {0}</CannotGenericWorkCustom>												 
+<CannotGenericWorkCustom>Ne peut pas {0}</CannotGenericWorkCustom>												 
 
 <CannotMissingHealthActivities>Ne peut pas prioriser (incapable de {0})</CannotMissingHealthActivities>
 
@@ -167,15 +167,15 @@
 <CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkTypeDisabled>
 
 <CannotPrioritizeWorkGiverDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkGiverDisabled>
-<WillNever>will never {0}</WillNever>
+<WillNever>ne fera jamais {0}</WillNever>
 
 <CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser (n'est pas affecté à {0})</CannotPrioritizeNotAssignedToWorkType>
-<NotAssigned>not assigned</NotAssigned>
+<NotAssigned>non assigné</NotAssigned>
 
 <CannotPrioritizeResearch>Ne peut pas prioriser (La recherche est une tâche de longue durée)</CannotPrioritizeResearch>
 
 <CannotPrioritizeForbidden>Ne peut pas prioriser ({0} est interdit)</CannotPrioritizeForbidden>
-<CannotPrioritizeCellForbidden>Cannot prioritize (forbidden)</CannotPrioritizeCellForbidden>
+<CannotPrioritizeCellForbidden>Ne peut pas prioriser (interdit)</CannotPrioritizeCellForbidden>
 <CannotPrioritizeForbiddenOutsideAllowedArea>En dehors de la zone autorisée</CannotPrioritizeForbiddenOutsideAllowedArea>
 
 <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
@@ -183,8 +183,8 @@
 
 <DropAtEdge>Déposer au bord</DropAtEdge>
 <DropInCenter>Déposer au centre</DropInCenter>
-<AttackAndDropAtEdge>Attack {0}: Drop at edge</AttackAndDropAtEdge>
-<AttackAndDropInCenter>Attack {0}: Drop in center</AttackAndDropInCenter>
+<AttackAndDropAtEdge>Attaquer {0}: Larguer au bord</AttackAndDropAtEdge>
+<AttackAndDropInCenter>Attaquer {0}: Larguer au centre</AttackAndDropInCenter>
 
 <VomitingLower>vomissement</VomitingLower>
 <NotInterruptibleLower>impossible à interrompre</NotInterruptibleLower>
@@ -192,22 +192,22 @@
 <AddWaypoint>Ajouter un nouveau marqueur ici</AddWaypoint>
 <RemoveWaypoint>Supprimer le marqueur</RemoveWaypoint>
 
-<RemoveAllDesignations>Cancel all designations</RemoveAllDesignations>
-<DesignateAll>Designate all</DesignateAll>
-<CountToDesignate>{0} affected</CountToDesignate>
-<ForbidAllItems>Forbid all items</ForbidAllItems>
-<UnforbidAllItems>Unforbid all items</UnforbidAllItems>
-<RearmAllTraps>Rearm all traps</RearmAllTraps>
+<RemoveAllDesignations>supprimer toute les désignations</RemoveAllDesignations>
+<DesignateAll>Désigner tout</DesignateAll>
+<CountToDesignate>{0} affecté</CountToDesignate>
+<ForbidAllItems>Interdire tout les objets</ForbidAllItems>
+<UnforbidAllItems>Autoriser tout les objets</UnforbidAllItems>
+<RearmAllTraps>Réarmer les pièges</RearmAllTraps>
 
 <!-- Transport pods -->
-<LandInExistingMap>Zoom in and choose a landing spot in {0}</LandInExistingMap>
-<TransportPodsContentsWillBeLost>The contents will be lost</TransportPodsContentsWillBeLost>
-<FormCaravanHere>Form caravan here</FormCaravanHere>
-<GiveToCaravan>Give to {0}</GiveToCaravan>
-<GiveGiftViaTransportPods>Give as a gift to {0} ({1})</GiveGiftViaTransportPods>
+<LandInExistingMap>Zoomer et choisir a point d'atterrissage dans {0}</LandInExistingMap>
+<TransportPodsContentsWillBeLost>Le contenu sera perdu</TransportPodsContentsWillBeLost>
+<FormCaravanHere>Former une caravane ici</FormCaravanHere>
+<GiveToCaravan>Donner a {0}</GiveToCaravan>
+<GiveGiftViaTransportPods>Donner en cadeau a {0} ({1})</GiveGiftViaTransportPods>
 
 <!-- Rescue quest -->
-<FreePrisoner>Free prisoner</FreePrisoner>
-<OfferHelp>Offer help</OfferHelp>
+<FreePrisoner>Prisonnier gratuit</FreePrisoner>
+<OfferHelp>Offre d'aide</OfferHelp>
 
 </LanguageData>										  
