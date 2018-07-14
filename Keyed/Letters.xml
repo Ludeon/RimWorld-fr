@@ -38,7 +38,7 @@
 <BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} vient d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
 
 <LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
-<NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {0} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
+<NewDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {2} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
 <NewPartDisease>{3} a causé l'infection du {1} de {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {2} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
 <NewDiseaseAnimal>{0} has developed an illness: {1}</NewDiseaseAnimal>
 <NewPartDiseaseAnimal>{0} has developed an illness: {3} in [PAWN_possessive] {1}</NewPartDiseaseAnimal>
@@ -66,8 +66,8 @@
 <LetterHediffFromRandomHediffGiver>{0} a développé un problème de santé : {1}.</LetterHediffFromRandomHediffGiver>
 <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
 
-<LetterLeadersDeathLabel>Mort d'un chef</LetterLeadersDeathLabel>
-<LetterLeadersDeath>Le chef {0} de la faction {1} est mort et est remplacé par {2}.</LetterLeadersDeath>
+<LetterLeadersDeathLabel>{1} est mort. Role: {0}.</LetterLeadersDeathLabel>
+<LetterLeadersDeath>{0}, {3} de la faction {1} est mort.\n\nLe nouveau {3} est {2}.</LetterLeadersDeath>
 
 <LetterLeaderChangedLabel>Nouveau {1} : {0}</LetterLeaderChangedLabel>
 <LetterLeaderChanged>{0} n'est plus {3} de {1}.\n\nLe nouveau {3} est {2}.</LetterLeaderChanged>
@@ -81,12 +81,12 @@
 
 <!-- Related pawns -->
 <LetterLabelNoticedRelatedPawns>Relation</LetterLabelNoticedRelatedPawns>
-<LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {0} ont des liens avec des colons ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
-<LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {0} ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
-<LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
-<LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradeShip>
-<LetterRelatedPawnsTradingWithSettlement>La base de faction vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithSettlement>
-<LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec vos colons ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
+<LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {1} ont des liens avec {0} ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
+<LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {1} ont des liens avec {0} ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
+<LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec {0} ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
+<LetterRelatedPawnsTradeShip>Le marchand orbital vend des personnes qui ont des liens avec {0} ou vos prisonniers :</LetterRelatedPawnsTradeShip>
+<LetterRelatedPawnsTradingWithSettlement>La base de faction vend des personnes qui ont des liens avec {0} ou vos prisonniers :</LetterRelatedPawnsTradingWithSettlement>
+<LetterRelatedPawnsTradingWithOtherCaravan>La caravane vend des personnes qui ont des liens avec {0} ou vos prisonniers :</LetterRelatedPawnsTradingWithOtherCaravan>
 <LetterRelatedPawnsGroupGeneric>There are people who have relationships with your {0} or prisoners in the group:</LetterRelatedPawnsGroupGeneric>
 <LetterRelatedPawnsInMapWherePlayerLanded>There are people who have relationships with your {0} or prisoners in the area where your {0} have landed.</LetterRelatedPawnsInMapWherePlayerLanded>
 <LetterRelatedPawnsSettlement>There are people who have relationships with your {0} or prisoners in this settlement:</LetterRelatedPawnsSettlement>
@@ -138,7 +138,7 @@
 
 <!-- Caravan destroyed -->
 <LetterLabelAllCaravanColonistsDied>Caravane détruite</LetterLabelAllCaravanColonistsDied>
-<LetterAllCaravanColonistsDied>Tous les membres de votre caravane sont morts.</LetterAllCaravanColonistsDied>
+<LetterAllCaravanColonistsDied>Tous les membres de {0} sont morts.</LetterAllCaravanColonistsDied>
 
 <!-- Caravan entered ambush map -->
 <LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap>
@@ -163,7 +163,7 @@
 
 <!-- Found lump of precious resources -->
 <LetterLabelFoundPreciousLump>Des minéraux précieux ont été trouvés</LetterLabelFoundPreciousLump>
-<LetterFoundPreciousLump>Your long-range mineral scanner has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}.</LetterFoundPreciousLump>
+<LetterFoundPreciousLump>En utilisant le scanner de mineral, {3} a trouver un gisement de {0} proche.\n\Malheureusement, il ne restera pas - d'autres personnes l'auront minés dans {1} jours si vous ne le faite pas.\n\n{2}.</LetterFoundPreciousLump>
 
 <!-- Ambush -->
 <LetterLabelAmbushInExistingMap>Embuscade</LetterLabelAmbushInExistingMap>
