@@ -11,7 +11,7 @@
   <!-- Mini-turret -->
 
   <Turret_MiniTurret.label>mini-turret</Turret_MiniTurret.label>
-  <Turret_MiniTurret.description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</Turret_MiniTurret.description>
+  <Turret_MiniTurret.description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</Turret_MiniTurret.description> 
   <Blueprint_Turret_MiniTurret.label>mini-turret (blueprint)</Blueprint_Turret_MiniTurret.label>
   <Blueprint_Install_Turret_MiniTurret.label>mini-turret (blueprint)</Blueprint_Install_Turret_MiniTurret.label>
   <Frame_Turret_MiniTurret.label>mini-turret (building)</Frame_Turret_MiniTurret.label>
@@ -21,7 +21,11 @@
 
   <Gun_MiniTurret.label>mini-turret gun</Gun_MiniTurret.label>
   <Gun_MiniTurret.description>A simple automatic gun made to be mounted on a turret.</Gun_MiniTurret.description>
-
+  
+     <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>Shots until barrel change</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
+  <Gun_MiniTurret.verbs.Verb_Shoot.label>mini-turret gun</Gun_MiniTurret.verbs.Verb_Shoot.label>
 
   <!-- Autocannon turret -->
 
@@ -35,6 +39,12 @@
 
   <Gun_AutocannonTurret.label>autocannon</Gun_AutocannonTurret.label>
   <Gun_AutocannonTurret.description>A self-loading large-bore cannon designed to attach to a turret.</Gun_AutocannonTurret.description>
+
+  
+    <Turret_Autocannon.comps.CompRefuelable.fuelLabel>Shots until barrel change</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
+  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>autocannon</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
 
 
   <!-- Sniper turret -->
@@ -50,6 +60,10 @@
   <Gun_TurretSniper.label>sniper cannon</Gun_TurretSniper.label>
   <Gun_TurretSniper.description>A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets.</Gun_TurretSniper.description>
 
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Shots until rearm</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs rearm</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <Gun_TurretSniper.verbs.Verb_Shoot.label>sniper cannon</Gun_TurretSniper.verbs.Verb_Shoot.label>
 
   <!-- Mortar turret -->
 
@@ -63,7 +77,7 @@
   <Artillery_Mortar.label>mortier</Artillery_Mortar.label>
   <Artillery_Mortar.description>Les mortiers tirent des obus par-dessus les murs. Ils sont très peu précis mais à long rayon d'action.</Artillery_Mortar.description>
 
-
+  <Artillery_Mortar.verbs.Verb_Shoot.label>mortar</Artillery_Mortar.verbs.Verb_Shoot.label>
   <!-- Traps -->
 
   <TrapDeadfall.label>piège mécanique</TrapDeadfall.label>
