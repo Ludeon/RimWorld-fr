@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Tier 2: Stade médiéval -->
-
-  <PsychiteRefining.label>raffinage du psychite</PsychiteRefining.label>
-  <PsychiteRefining.description>Vous apprend à raffiner les feuilles de psychoïde en flake et en yayo, différentes substances psychotropes.</PsychiteRefining.description>
-
-  <WakeUpProduction.label>production de wake-up</WakeUpProduction.label>
-  <WakeUpProduction.description>Vous apprend la formule et les techniques pour synthétiser le wake-up, une drogue améliorant les performances au travail.</WakeUpProduction.description>
-
-  <GoJuiceProduction.label>production de go-juice</GoJuiceProduction.label>
-  <GoJuiceProduction.description>Vous apprend à produire le go-juice : une drogue synthétique améliorant les performances au combat.</GoJuiceProduction.description>
-
-  <PenoxycylineProduction.label>production de penoxycyline</PenoxycylineProduction.label>
-  <PenoxycylineProduction.description>Vous apprend à produire de la penoxycyline, un médicament pouvant prévenir différentes maladies.</PenoxycylineProduction.description>
-
-  <LongBlades.label>longues lames</LongBlades.label>
-  <LongBlades.description>Vous apprend à fabriquer des épées et des lances.</LongBlades.description>
-
-  <Greatbow.label>grands arcs</Greatbow.label>
-  <Greatbow.description>Vous apprend à fabriquer des arcs puissants.</Greatbow.description>
-
-
-  <!-- Tier 2: Électricité découverte -->
+  <Electricity.label>électricité</Electricity.label>
+  <Electricity.description>Vous apprend à générer et utiliser l'électricité pour cuisiner ou d'autres tâches simples.</Electricity.description>
 
   <Batteries.label>batteries</Batteries.label>
   <Batteries.description>Vous permet de fabriquer des batteries pour stocker l'électricité.</Batteries.description>
 
   <BiofuelRefining.label>raffinage</BiofuelRefining.label>
   <BiofuelRefining.description>Vous permet de construire des raffineries pour fabriquer du combustible chimique à partir du bois.</BiofuelRefining.description>
+
+  <Waterproofing.label>Conduit imperméable</Waterproofing.label>
+  <Waterproofing.description>Construire des conduits électriques sous-marins.</Waterproofing.description>
 
   <NutrientPaste.label>pâte nutritive</NutrientPaste.label>
   <NutrientPaste.description>Vous permet de construire des distributeurs de pâte nutritive, une nourriture comestible produite à partir de peu d'aliments crus.</NutrientPaste.description>
@@ -57,20 +40,32 @@
   <ColoredLights.label>lumières colorées</ColoredLights.label>
   <ColoredLights.description>Vous permet de fabriquer des éclairages de couleur à but décoratif.</ColoredLights.description>
 
-  <Machining.label>usinage</Machining.label>
-  <Machining.description>Vous permet de construire des établis d'assemblage pour fabriquer des armes et des machines ou pour démonter les mécanoïdes morts.</Machining.description>
-
   <IEDs.label>engins explosifs improvisés</IEDs.label>
   <IEDs.description>Vous permet de construire des pièges improvisés à partir d'obus explosifs, électromagnétiques, extincteurs et antimatières.</IEDs.description>
 
-  <IEDIncendiary.label>engins incendiaires improvisés</IEDIncendiary.label>
-  <IEDIncendiary.description>Vous permet de fabriquer des pièges incendiaires à partir d'obus d'artillerie.</IEDIncendiary.description>
+  <GeothermalPower.label>énergie géothermique</GeothermalPower.label>
+  <GeothermalPower.description>Vous permet de construire des centrales géothermiques au-dessus des geysers, pour avoir de l'énergie en permanence.</GeothermalPower.description>
 
-  <Mortars.label>mortiers</Mortars.label>
-  <Mortars.description>Vous apprend à construire des mortiers qui peuvent tirer des obus à longue portée par-dessus les murs.</Mortars.description>
+
+  <!-- Machining and its children sub-tier -->
+
+  <Machining.label>usinage</Machining.label>
+  <Machining.description>Vous permet de construire des établis d'assemblage pour fabriquer des armes et des machines ou pour démonter les mécanoïdes morts.</Machining.description>
+
+  <SmokepopBelt.label>ceintures à fumigènes</SmokepopBelt.label>
+  <SmokepopBelt.description>Vous apprend à fabriquer des ceintures à fumigènes, qui érigent automatiquement un écran de fumée défensif.</SmokepopBelt.description>
+
+  <Prosthetics.label>Prothèse</Prosthetics.label>
+  <Prosthetics.description>Faire des prothèses peu coûteuses pour remplacer les membres perdus. Il nécessite un médecin expert pour l'installer.</Prosthetics.description>
 
   <Gunsmithing.label>petite armurerie</Gunsmithing.label>
   <Gunsmithing.description>Vous apprend à construire de simples armes à feu comme des revolvers, des fusils à pompe, des fusils à verrou et des lanceurs incendiaires.</Gunsmithing.description>
+
+  <FlakArmor.label>Vêtements Pare-Balle</FlakArmor.label>
+  <FlakArmor.description>Des vêtements artisanaux avec une armure métallique cousue pour résister aux balles et aux explosions. Cette armure de poids ralentit un peu le mouvement.</FlakArmor.description>
+
+  <Mortars.label>mortiers</Mortars.label>
+  <Mortars.description>Vous apprend à construire des mortiers qui peuvent tirer des obus à longue portée par-dessus les murs.</Mortars.description>
 
   <BlowbackOperation.label>petite artillerie automatique</BlowbackOperation.label>
   <BlowbackOperation.description>Vous apprend à construire des armes à feu semi-automatiques et automatiques simples comme des pistolets automatiques, des pistolets-mitrailleurs et des mitrailleuses lourdes.</BlowbackOperation.description>
@@ -78,26 +73,19 @@
   <GasOperation.label>artillerie automatique perfectionnée</GasOperation.label>
   <GasOperation.description>Vous apprend à fabriquer des armes à feu semi-automatiques et automatiques plus perfectionnées comme les fusils de chasse à barillet et les mitrailleuses légères.</GasOperation.description>
 
-  <PrecisionRifling.label>armes de précision</PrecisionRifling.label>
-  <PrecisionRifling.description>Vous apprend à fabriquer des fusils d'assaut et des fusils de sniper.</PrecisionRifling.description>
-
-  <SmokepopBelt.label>ceintures à fumigènes</SmokepopBelt.label>
-  <SmokepopBelt.description>Vous apprend à fabriquer des ceintures à fumigènes, qui érigent automatiquement un écran de fumée défensif.</SmokepopBelt.description>
-
-  <MicroelectronicsBasics.label>bases de la microélectronique</MicroelectronicsBasics.label>
-  <MicroelectronicsBasics.description>Vous apprend les bases pour travailler l'électronique complexe. Ceci débloque l'établi high-tech de recherche, la console de communication, et d'autres projets de recherche comme la télévision cathodique et le caisson d'hypersommeil.</MicroelectronicsBasics.description>
-
-
-  <!-- Tier 2.5Base de la microélectroniqu -->
-
-  <TubeTelevision.label>télévision cathodique</TubeTelevision.label>
-  <TubeTelevision.description>Vous permet la fabrication de télévisions cathodiques.</TubeTelevision.description>
-
   <GunTurrets.label>mitrailleuses automatique</GunTurrets.label>
   <GunTurrets.description>Vous permet la construction de tourelles armées de mitrailleuses automatiques.</GunTurrets.description>
 
+  <PrecisionRifling.label>armes de précision</PrecisionRifling.label>
+  <PrecisionRifling.description>Vous apprend à fabriquer des fusils d'assaut et des fusils de sniper.</PrecisionRifling.description>
 
-  <!--<IEDBomb.label>Engins explosifs improvisés</IEDBomb.label>-->
-  <!--<IEDBomb.description>Vous permet de fabriquer des pièges explosifs à partir d'obus d'artillerie.</IEDBomb.description>-->
+  <HeavyTurrets.label>Canon automatique</HeavyTurrets.label>
+  <HeavyTurrets.description>Il permet la production de canon automatique à longue portée pour la défense de la colonie.</HeavyTurrets.description>
+
+  <MultibarrelWeapons.label>armes multi-canons</MultibarrelWeapons.label>
+  <MultibarrelWeapons.description>Vous apprend à fabriquer des miniguns.</MultibarrelWeapons.description>
+
+  <SniperTurret.label>Tourelle sniper</SniperTurret.label>
+  <SniperTurret.description>Produit une tourelle à très longue portée.</SniperTurret.description>
 
 </LanguageData>
