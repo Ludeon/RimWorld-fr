@@ -29,6 +29,9 @@
   <DesignatorMine>Miner</DesignatorMine>
   <DesignatorMineDesc>Désigne les zones de roche à miner.</DesignatorMineDesc>
 
+  <DesignatorSmoothSurface>Aplanir surface</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Designe un terrain en pierre brute ou des murs à aplanir.</DesignatorSmoothSurfaceDesc>
+
   <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
   <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
 
@@ -37,6 +40,12 @@
 
   <DesignatorPlanRemove>Enlever des plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Efface des zones planifiées.</DesignatorPlanRemoveDesc>
+
+  <DesignatorForbid>Interdire</DesignatorForbid>
+  <DesignatorForbidDesc>Marquer item comme étant interdit. Colons ne pourront interagir avec l'objet désigné.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Marquer item comme étant autorisé. Colons pourront interagir avec l'objet désigné.</DesignatorUnforbidDesc>
 
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
@@ -70,13 +79,19 @@
   <DesignatorZoneCreateStorageDumpingDesc>Créer une décharge dans laquelle vos colons jetteront les déchets.\nCet outil permet aussi d'étendre une décharge existante.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Supprimer des zones</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Supprimer zone</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Retire des zones, telles que les zones de stockage ou les zones agricoles.</DesignatorZoneDeleteDesc>
+  
+  <DesignatorZoneExpand>Aggrandir zone</DesignatorZoneExpand>
 
   <DesignatorClaim>Revendiquer</DesignatorClaim>
   <DesignatorClaimDesc>Revendique des structures neutres pour la colonie, incluant les ruines anciennes et les camps de sièges abandonnés. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Enlever le sol</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>Enlève le sol pour révéler le terrain en dessous.</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Enlever le pont</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Enlève le pont pour révéler le terrain en dessous.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>Déshabiller</DesignatorStrip>
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
@@ -104,6 +119,7 @@
   <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
+  <SurfaceBeingSmoothed>Cette surface est déjà marquée pour être applanie.</SurfaceBeingSmoothed>
   <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
   <IdenticalThingExists>Une chose identique se trouve déjà ici.</IdenticalThingExists>
   <IdenticalBlueprintExists>Une construction identique se trouve déjà ici.</IdenticalBlueprintExists>
@@ -111,6 +127,7 @@
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>L'emplacement est en train de se faire aplatir.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
+  <MustBeOnMovingWater>La roue à aubes doit être placée sur de l'eau en mouvement.</MustBeOnMovingWater>
 
 
   <!-- Mouse attachments -->
@@ -121,5 +138,7 @@
   <!-- Desc helpers -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
   <ConstructionNeeded>Construction requis</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Aucun des {0} ont cette habileté.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Chacun des {0} qui ont cette habileté ne sont pas assigné à {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 </LanguageData>
