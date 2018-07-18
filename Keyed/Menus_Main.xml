@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!--=========== Main menu ==========-->
@@ -10,6 +10,8 @@
   <LoadGame>Charger une colonie</LoadGame>
   <Options>Options</Options>
   <Mods>Mods</Mods>
+  <SaveTranslationReport>Sauvegarder le rapport de traduction</SaveTranslationReport>
+  <GeneratingTranslationReport>Génération d'un rapport de traduction</GeneratingTranslationReport>
   <Credits>Crédits</Credits>
   <QuitToMainMenu>Quitter vers le menu principal</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Sauvegarder et retourner au menu principal</SaveAndQuitToMainMenu>
@@ -25,11 +27,11 @@
   <BuySoundtrack>Acheter la bande originale du jeu</BuySoundtrack>
   <CreateWorld>Créer un monde</CreateWorld>
 
-  <!--=========== Main menu translations info window ===========-->
-  <TranslationThanks>Toutes les traductions de RimWorld sont faites par des fans. Cette traduction a été créée par les supers fan-bénévoles suivants.</TranslationThanks>
-  <TranslationHowToContribute>Vous pouvez y contribuer vous aussi. Cliquez ci-dessous pour en apprendre davantage (ouvrira internet).</TranslationHowToContribute>
-  <LearnMore>En apprendre plus</LearnMore>
-
+    <!--=========== Main menu translations info window ===========-->
+  <TranslationThanks>Toutes les traductions de RimWorld sont faites par des fans. Cette traduction a été créée par les excellents bénévoles suivants.</TranslationThanks>
+  <TranslationHowToContribute>Vous pouvez contribuer aussi. Cliquez ci-dessous pour en savoir plus (ouvre le navigateur Web).</TranslationHowToContribute>
+  <LearnMore>En savoir plus</LearnMore>
+  
   <!--=========== Create/review world ================-->
   <ReviewWorld>Visualiser le monde</ReviewWorld>
   <WorldGenerate>Générer</WorldGenerate>
@@ -67,6 +69,7 @@
   <OpenSteamWorkshop>Ouvrir Steam Workshop</OpenSteamWorkshop>
   <GetModsFromForum>Obtenir des mods depuis le forum</GetModsFromForum>
   <OpenModsDataFolder>Ouvrir le dossier des mods</OpenModsDataFolder>
+  <ShowModsDataLocation>Afficher l'emplacement du dossier des mods</ShowModsDataLocation>
   <ConfirmDisableCoreMod>Êtes-vous sûr de vouloir désactiver le module principal ? Le jeu ne fonctionnera pas du tout à moins que vous ayez un autre mod remplaçant toutes les fonctionnalités du noyau.\n\nRappel : Les mods peuvent redéfinir des fonctionnalités du noyau en utilisant les mêmes defName.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Êtes-vous sûr de vouloir supprimer le mod {0}?</ConfirmDeleteMod>
   <Unsubscribe>Désinscrire</Unsubscribe>
@@ -130,8 +133,6 @@
   <Elevation>Altitude</Elevation>
   <Fertility>Fertilité</Fertility>
   <AvgTemp>Température moyenne</AvgTemp>
-  <AvgSummerTemp>Temp. moyenne (été)</AvgSummerTemp>
-  <AvgWinterTemp>Temp. moyenne (hiver)</AvgWinterTemp>
   <Rainfall>Précipitations</Rainfall>
   <SpecialFeatures>Caractéristiques spéciales</SpecialFeatures>
   <HasCoast0>accès à la mer au nord</HasCoast0>
@@ -142,9 +143,7 @@
   <FactionBase>Base de le faction</FactionBase>
   <StoneTypesHere>Type de pierre</StoneTypesHere>
   <TimeZone>Fuseau horaire</TimeZone>
-  <MovementTimeNow>Durée de mouvement actuelle</MovementTimeNow>
-  <MovementTimeSummer>Durée de mouvement en été</MovementTimeSummer>
-  <MovementTimeWinter>Durée de mouvement en hiver</MovementTimeWinter>
+  <MovementDifficulty>Movement difficulty</MovementDifficulty>
   <AnimalsCanGrazeNow>Les animaux peuvent pâturer maintenant</AnimalsCanGrazeNow>
   <AverageDiseaseFrequency>Fréquence moyenne des maladies</AverageDiseaseFrequency>
   <PerYear>par an</PerYear>
@@ -165,6 +164,7 @@
   <NoneLower>aucun</NoneLower>
   <Adulthood>Âge adulte</Adulthood>
   <Childhood>Enfance</Childhood>
+   <Current>Actuel</Current>
   <Male>mâle</Male>
   <Female>femelle</Female>
   <Pain>Douleur</Pain>
@@ -182,8 +182,12 @@
   <Gameplay>Gameplay</Gameplay>
   <ConfirmQuit>Quitter ? Vous perdrez toute progression non sauvegardée.</ConfirmQuit>
   <EveryoneNeedsValidName>Chaque personnage doit avoir un nom valide.</EveryoneNeedsValidName>
-  <Quit>Quitter</Quit>
+   <RequiredWorkTypeDisabledForEveryone>Aucune des personnes sélectionnées ne peut effectuer les tâches suivantes.</RequiredWorkTypeDisabledForEveryone>
+   <Quit>Quitter</Quit>
   <Ignore>Ignorer</Ignore>
+  <Forageability>Forageability</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
+	<NoActiveResearchProjectToFinish>no active research project</NoActiveResearchProjectToFinish>
 
   <!--============ Progress bar==============-->
   <GeneratingWorld>Génération du monde</GeneratingWorld>

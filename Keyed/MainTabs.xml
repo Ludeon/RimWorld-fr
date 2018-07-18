@@ -29,13 +29,24 @@
   <!-- Animals tab -->
   <Master>Maître</Master>
   <PregnantIconDesc>Enceinte ({0} / {1})</PregnantIconDesc>
-
+  <BondedTo>Bonded to</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
+	
   <!-- Factions tab -->
   <Hostile>Hostile</Hostile>
+  <Ally>Ally</Ally>
   <DefeatedLower>battue</DefeatedLower>
   <HostileTo>Ennemi de {0}</HostileTo>
-  <CurrentGoodwill>Relation actuelle avec cette faction.</CurrentGoodwill>
-
+  <CurrentGoodwillTip>Relation actuelle avec cette faction.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day.</CurrentGoodwillTip_NaturalGoodwill>
+  
+  
   <!-- Social tab -->
   <Friend>Ami</Friend>
   <Rival>Rival</Rival>
@@ -43,6 +54,7 @@
 
   <!-- History tab - subtabs -->
   <Graph>Graphique</Graph>
+  <Messages>Messages</Messages>
   <Statistics>Statistiques</Statistics>
 
   <!-- History tab - Graphs -->
@@ -51,9 +63,14 @@
   <Last100Days>100 derniers jours</Last100Days>
   <Last300Days>300 derniers jours</Last300Days>
   <AllDays>Tous</AllDays>
-  <Day>Jour</Day>
   <Value>Valeur</Value>
   <External>Externe</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Show letters</ShowLetters>
+  <ShowMessages>Show messages</ShowMessages>
+  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages.</PinArchivableTip>
+  <NoMessages>no messages</NoMessages>
 
   <!-- History tab - Statistics -->
   <Playtime>Temps de jeu</Playtime>
@@ -61,6 +78,7 @@
   <ThisMapColonyWealthTotal>Prospérité de la colonie (sur cette carte)</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>Prospérité de la colonie (objets) (sur cette carte)</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>Prospérité de la colonie (bâtiments) (sur cette carte)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>Colony wealth (animals) (this map)</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>Menaces majeures</NumThreatBigs>
   <NumEnemyRaids>Raids ennemis</NumEnemyRaids>
   <ThisMapDamageTaken>Dégâts subis (sur cette carte)</ThisMapDamageTaken>

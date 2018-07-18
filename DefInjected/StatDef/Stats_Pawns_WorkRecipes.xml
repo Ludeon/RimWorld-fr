@@ -1,5 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- Basic recipes - speed not affected by skill because there's no skill involved -->
+
+  <UnskilledLaborSpeed.label>unskilled labor speed</UnskilledLaborSpeed.label>
+  <UnskilledLaborSpeed.description>The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items.</UnskilledLaborSpeed.description>
+
 
   <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
@@ -15,8 +21,8 @@
 
   <!-- Production recipes - speed affected by skill because there is no output quality -->
 
-  <DrugProductionSpeed.label>vitesse de production de médicaments</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>Vitesse à laquelle cette personne fabrique des médicaments ou des drogues.</DrugProductionSpeed.description>
+  <DrugSynthesisSpeed.label>drug synthesis speed</DrugSynthesisSpeed.label>
+  <DrugSynthesisSpeed.description>How fast this character synthesizes complex chemical drugs.</DrugSynthesisSpeed.description>
 
   <CookSpeed.label>vitesse de cuisine</CookSpeed.label>
   <CookSpeed.description>Vitesse à laquelle cette personne cuisine.</CookSpeed.description>
@@ -24,17 +30,14 @@
   <FoodPoisonChance.label>risque d'intoxication alimentaire</FoodPoisonChance.label>
   <FoodPoisonChance.description>Probabilité que cette personne empoisonne un plat par inadvertance en cuisinant.</FoodPoisonChance.description>
 
-  <BrewingSpeed.label>vitesse de brassage</BrewingSpeed.label>
-  <BrewingSpeed.description>Vitesse à laquelle cette personne brasse de la bière.</BrewingSpeed.description>
+  <DrugCookingSpeed.label>drug cooking speed</DrugCookingSpeed.label>
+  <DrugCookingSpeed.description>The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints.</DrugCookingSpeed.description>
 
   <ButcheryFleshSpeed.label>vitesse de dépeçage</ButcheryFleshSpeed.label>
   <ButcheryFleshSpeed.description>Vitesse à laquelle cette personne dépèce des créatures.</ButcheryFleshSpeed.description>
 
   <ButcheryMechanoidSpeed.label>désassemblage de mécanoïde</ButcheryMechanoidSpeed.label>
   <ButcheryMechanoidSpeed.description>Vitesse à laquelle cette personne désassemble les mécanoïdes.</ButcheryMechanoidSpeed.description>
-
-  <MechanoidOperationSuccessChance.label>probabilité de réussir à désassembler un mécanoïde</MechanoidOperationSuccessChance.label>
-  <MechanoidOperationSuccessChance.description>La probabilité de cette personne de réussir à désassembler un mécanoïde. Un échec peut simplement faire perdre du temps, ou occasionner des dommages catastrophiques au patient.</MechanoidOperationSuccessChance.description>
 
   <ButcheryFleshEfficiency.label>efficacité de boucherie</ButcheryFleshEfficiency.label>
   <ButcheryFleshEfficiency.description>Un multiplicateur qui influe sur la quantité de viande obtenue pour chaque créature dépecée.</ButcheryFleshEfficiency.description>
@@ -48,8 +51,5 @@
   <SmeltingSpeed.label>vitesse de fonte</SmeltingSpeed.label>
   <SmeltingSpeed.description>Vitesse à laquelle cette personne fait fondre des matériaux et objets.</SmeltingSpeed.description>
 
-
-  <!--<StonecuttingSpeed.label>Vitesse de taille de pierre</StonecuttingSpeed.label>-->
-  <!--<StonecuttingSpeed.description>Vitesse à laquelle cette personne taille des pierres pour en faire des blocs.</StonecuttingSpeed.description>-->
 
 </LanguageData>

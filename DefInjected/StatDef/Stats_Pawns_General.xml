@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MoveSpeed.label>vitesse de déplacement</MoveSpeed.label>
@@ -17,6 +17,12 @@
   <GlobalLearningFactor.label>facteur d'apprentissage global</GlobalLearningFactor.label>
   <GlobalLearningFactor.description>Vitesse générale d'apprentissage pour toutes les compétences.</GlobalLearningFactor.description>
 
+  <HungerRateMultiplier.label>hunger rate multiplier</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>A multiplier on how quickly a creature becomes hungry.</HungerRateMultiplier.description>
+
+  <RestRateMultiplier.label>rest rate multiplier</RestRateMultiplier.label>
+  <RestRateMultiplier.description>A multiplier on how quickly a creature rests while sleeping.</RestRateMultiplier.description>
+
   <EatingSpeed.label>vitesse d'ingestion</EatingSpeed.label>
   <EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
 
@@ -33,7 +39,7 @@
   <CarryingCapacity.description>La quantité de choses que cette créature peut transporter avec ses mains, sa bouche, ou autre.</CarryingCapacity.description>
 
   <MeatAmount.label>quantité de viande</MeatAmount.label>
-  <MeatAmount.description>La quantité de viande que vous obtiendrez en dépeçant cette créature. </MeatAmount.description>
+  <MeatAmount.description>La quantité de viande que vous obtiendrez en dépeçant cette créature.</MeatAmount.description>
 
   <LeatherAmount.label>quantité de cuir</LeatherAmount.label>
   <LeatherAmount.description>La quantité de cuir que vous obtiendrez en dépeçant cette créature.</LeatherAmount.description>
@@ -43,6 +49,9 @@
 
   <PainShockThreshold.label>seuil de choc à la douleur</PainShockThreshold.label>
   <PainShockThreshold.description>Le point auquel cette créature sera terrassée par la douleur.</PainShockThreshold.description>
+
+  <ForagedNutritionPerDay.label>foraged food amount</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.description>The amount of nutrition this person will automatically forage per day while traveling by caravan.</ForagedNutritionPerDay.description>
 
 
 </LanguageData>

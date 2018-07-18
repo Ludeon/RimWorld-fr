@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MaxHitPoints.label>point de santé maximale</MaxHitPoints.label>
@@ -21,9 +21,6 @@
   <WorkToMake.label>quantité de travail requise</WorkToMake.label>
   <WorkToMake.description>Quantité de travail nécessaire pour fabriquer l'objet, une fois les matériaux rassemblés.</WorkToMake.description>
 
-  <WorkToBuild.label>quantité de travail requise</WorkToBuild.label>
-  <WorkToBuild.description>Quantité de travail nécessaire pour construire une structure, une fois les matériaux rassemblés.</WorkToBuild.description>
-
   <DeteriorationRate.label>taux de dégradation</DeteriorationRate.label>
   <DeteriorationRate.description>Vitesse à laquelle un objet laissé à l'extérieur se dégrade, particulièrement sous la pluie.</DeteriorationRate.description>
   <DeteriorationRate.formatString>{0} / jour</DeteriorationRate.formatString>
@@ -36,6 +33,15 @@
 
   <Comfort.label>confort</Comfort.label>
   <Comfort.description>Le confort d'un objet, lorsqu'on s'assoit ou s'allonge dessus.</Comfort.description>
+
+  <Nutrition.label>nutrition</Nutrition.label>
+  <Nutrition.description>How nutritious this food is.</Nutrition.description>
+
+  <FoodPoisonChanceFixedHuman.label>food poison chance</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.description>The chance this food will cause food poisoning.</FoodPoisonChanceFixedHuman.description>
+
+  <ShootingAccuracyTurret.label>shooting accuracy</ShootingAccuracyTurret.label>
+  <ShootingAccuracyTurret.description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyTurret.description>
 
 
 </LanguageData>
