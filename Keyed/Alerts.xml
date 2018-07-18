@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <ClickToJumpToProblem>Cliquez pour vous rendre sur les lieux du problème</ClickToJumpToProblem>
@@ -28,7 +28,7 @@
   <NeedWardenDesc>Vous avez un prisonnier, mais aucun colon n'a reçu la tâche de geôlier.\n\nAssignez la tâche de geôlier à un colon.</NeedWardenDesc>
 
   <LowFood>La nourriture se fait rare</LowFood>
-  <LowFoodDesc>Niveau de nourriture dangereusement bas.\n\n    Valeur totale des barres de nourriture stockées: {0}\n    Colons et prisonniers obtenant de la nourriture {1}\n    Jours de nourriture dans le stockage: {2}\n\nCultivez, achetez, trouvez ou chassez pour obtenir de la nourriture.</LowFoodDesc>
+  <LowFoodDesc>Il ne vous reste que {0} rations de nourriture comestible en stock. C'est un niveau dangereusement bas.\n\nCultivez, achetez, trouvez ou chassez pour obtenir de la nourriture.</LowFoodDesc>
 
   <LowMedicine>Les médicaments se font rare</LowMedicine>
   <LowMedicineDesc>Il ne vous reste que {0} médicaments en stock.\n\nAchetez-en plus aux commerçants ou faites pousser des racines de vie.</LowMedicineDesc>
@@ -61,15 +61,8 @@
   <NeedMealSource>Repas nécessaires</NeedMealSource>
   <NeedMealSourceDesc>Vous n'avez aucun moyen de produire des rations comestibles à partir de nourriture crue.\n\nConstruisez une table de cuisson, un feu de camp ou un distributeur de pâte nutritive.\n\n(Il ne peut pas être dans une cellule de prison, sinon les colons ne pourront pas s'en servir.)</NeedMealSourceDesc>
 
-  <NeedJoySource>Besoin de variété de loisirs</NeedJoySource>
-  <NeedJoySourceDesc>Il y a seulement {0} type de loisirs disponible dans {1}, mais a ce niveau ({2}), les colons ont besoin de {3} différents loisirs pour être satisfait. Fournissez plus de variété en construisant d'autre sorte de loisirs.\n\n{4}\n\n{5}\n\nNote: Vous pouvez vérifier le type de loisirs dans sa page de stat, accessible avec le bouton 'i'.</NeedJoySourceDesc>
-  <AvailableRecreationTypes>Types de loisirs disponible</AvailableRecreationTypes>
-  <MissingRecreationTypes>Types de loisirs manquant</MissingRecreationTypes>
-  <CurrentExpectationsAndRecreation>A ce niveau ({0}), chaque tolérance tombe de {1} par jour éveillé. Avoir {2} types de loisirs est recommandé.</CurrentExpectationsAndRecreation>
-  <bored>Ennuyé</bored>
-
-  <Boredom>Ennui</Boredom>
-  <BoredomDesc>Ces personnes ont besoin de loisirs ou sont affectées à des activités récréatives, mais elles s'ennuient de toutes les sources de loisirs disponibles:\n\n{0}\n\nObtenez-leur plus de variété de loisirs.\n\nTypes de loisirs actuellement disponibles pour {1}:\n\n{2}</BoredomDesc>
+  <NeedJoySource>Source de joie nécessaire</NeedJoySource>
+  <NeedJoySourceDesc>Vos colons ont besoin de satisfaire leur besoin de joie mais vous n'avez construit aucun loisir.\n\nAidez-les en construisant un piquet de fer à cheval, une table d'échec ou d'autres sources de divertissement.</NeedJoySourceDesc>
 
   <NeedBatteries>Batteries nécessaires</NeedBatteries>
   <NeedBatteriesDesc>Vous avez seulement des panneaux solaires et pas de batteries. Cela signifie que vous tomberez à court d'énergie à chaque fois que le soleil se couche.\n\nConstruisez une batterie ou deux pour pouvoir passer la nuit.</NeedBatteriesDesc>
@@ -115,5 +108,12 @@
 
   <ImmobileCaravan>Caravane immobilisée</ImmobileCaravan>
   <ImmobileCaravanDesc>L'une de vos caravanes est immobilisée parce qu'elle est trop chargée.\n\nVous pourrez à nouveau la déplacer si vous abandonnez certains objets dans l'onglet OBJETS.</ImmobileCaravanDesc>
+  
+  <AvailableRecreationTypes>Types de loisirs disponibles</AvailableRecreationTypes>
+  <MissingRecreationTypes>Types de loisirs manquants</MissingRecreationTypes>
+  <CurrentExpectationsAndRecreation>Au niveau des attentes actuelles ({0}), chaque tolérance diminue par {1} par jour d'éveil. Il est recommandé d'avoir {2} types de loisirs.</CurrentExpectationsAndRecreation>
+  <bored>ennuyé(e)</bored>
 
+  <Boredom>Ennui</Boredom>
+  <BoredomDesc>Ces personnes manquent de loisirs disponibles ou trouvent ceux-ci trop ennuyants à force de répétition:\n\n{0}\n\nAugmentez la variété de leurs loisirs.\n\nTypes de loisirs présentement disponibles pour {1}:\n\n{2}</BoredomDesc>
 </LanguageData>

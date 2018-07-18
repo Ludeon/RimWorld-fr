@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <DesignatorCancel>Annuler</DesignatorCancel>
@@ -29,9 +29,12 @@
   <DesignatorMine>Miner</DesignatorMine>
   <DesignatorMineDesc>Désigne les zones de roche à miner.</DesignatorMineDesc>
 
- <DesignatorSmoothSurface>Aplanir le sol</DesignatorSmoothSurface>
-  <DesignatorSmoothSurfaceDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothSurfaceDesc>
-  
+  <DesignatorSmoothSurface>Aplanir surface</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Designe un terrain en pierre brute ou des murs à aplanir.</DesignatorSmoothSurfaceDesc>
+
+  <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
+
   <DesignatorPlan>Planifier</DesignatorPlan>
   <DesignatorPlanDesc>Trace une zone de plan. Sert à planifier votre expansion future, ou à anticiper celle-ci.</DesignatorPlanDesc>
 
@@ -39,10 +42,10 @@
   <DesignatorPlanRemoveDesc>Efface des zones planifiées.</DesignatorPlanRemoveDesc>
 
   <DesignatorForbid>Interdire</DesignatorForbid>
-  <DesignatorForbidDesc>Marquer les éléments comme interdits. Les colons ne pourront pas interagir avec les objets désignés.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>Marquer un objet comme étant interdit. Les colons ne pourront plus interagir avec l'objet désigné.</DesignatorForbidDesc>
 
   <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
-  <DesignatorUnforbidDesc>Marquer les éléments comme autoriser. Les colons pourront interagir avec les objets désignés.</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>Marquer un objet comme étant autorisé. Les colons pourront interagir avec l'objet désigné.</DesignatorUnforbidDesc>
 
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
@@ -76,11 +79,11 @@
   <DesignatorZoneCreateStorageDumpingDesc>Créer une décharge dans laquelle vos colons jetteront les déchets.\nCet outil permet aussi d'étendre une décharge existante.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Supprimer des zones</DesignatorZoneDelete>
-  <DesignatorZoneDeleteSingular>Supprimer des zones</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteSingular>Supprimer zone</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Retire des zones, telles que les zones de stockage ou les zones agricoles.</DesignatorZoneDeleteDesc>
-
-  <DesignatorZoneExpand>Agrandir la zone</DesignatorZoneExpand>
   
+  <DesignatorZoneExpand>Agrandir zone</DesignatorZoneExpand>
+
   <DesignatorClaim>Revendiquer</DesignatorClaim>
   <DesignatorClaimDesc>Revendique des structures neutres pour la colonie, incluant les ruines anciennes et les camps de sièges abandonnés. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
 
@@ -116,14 +119,16 @@
   <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
-  <SurfaceBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</SurfaceBeingSmoothed>
+  <SurfaceBeingSmoothed>Cette surface est déjà marquée pour être aplanie.</SurfaceBeingSmoothed>
+  <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
   <IdenticalThingExists>Une chose identique se trouve déjà ici.</IdenticalThingExists>
   <IdenticalBlueprintExists>Une construction identique se trouve déjà ici.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Le terrain ne peut pas supporter ceci.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>L'emplacement est en train de se faire aplatir.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
-<MustBeOnMovingWater>The waterwheel must be on moving water.</MustBeOnMovingWater>
+  <MustBeOnMovingWater>La roue à aubes doit être placée sur de l'eau en mouvement.</MustBeOnMovingWater>
+
 
   <!-- Mouse attachments -->
   <ExpandOrCreateZone>Étendre {0} ou\nCréer une nouvelle {1}</ExpandOrCreateZone>
@@ -133,8 +138,7 @@
   <!-- Desc helpers -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
   <ConstructionNeeded>Construction requis</ConstructionNeeded>
-  <NoColonistWithConstructionSkillTip>Aucun de vos {0} n'a cette compétence.</NoColonistWithConstructionSkillTip>
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Tous les {0} qui ont cette compétence ne sont pas assigné a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
-
+  <NoColonistWithConstructionSkillTip>Aucun des {0} n'a cette habileté.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Aucun des {0} possédant cette habileté n'est assigné à {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 </LanguageData>
