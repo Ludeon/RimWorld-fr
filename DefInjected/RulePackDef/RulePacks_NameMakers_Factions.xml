@@ -1,19 +1,157 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- UNUSED -->
-  <NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
-    <li>name->[colonyname]</li>
-  </NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionPlayerRandomized.rulePack.rulesStrings>
-    <li>name->[colonyname]</li>
-  </NamerFactionPlayerRandomized.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-  <NamerFactionSpacer.rulePack.rulesStrings>
-    <li>name->Spacer</li>
-  </NamerFactionSpacer.rulePack.rulesStrings>
-  
+
+  <!-- Player initial namers - used initially -->
+
+	<NamerFactionPlayerRandomized.rulePack.rulesStrings>
+		<li>name->[colonyname]</li>
+	</NamerFactionPlayerRandomized.rulePack.rulesStrings>
+	<NamerFactionBasePlayerColony.rulePack.rulesStrings>
+		<li>name->Colonie</li>
+	</NamerFactionBasePlayerColony.rulePack.rulesStrings>
+	<NamerFactionBasePlayerTribe.rulePack.rulesStrings>
+		<li>name->Village</li>
+	</NamerFactionBasePlayerTribe.rulePack.rulesStrings>
+
+
+  <!-- Player suggestion namers - used for default name in the 'name faction and/or base' dialogs -->
+
+	<NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
+		<li>name->[colonyname]</li>
+	</NamerFactionPlayerColonyRandomized.rulePack.rulesStrings>
+
+
+  <!-- Pirate -->
+
+	<NamerFactionPirate.rulePack.rulesStrings>
+		<li>name->Les [badassanimal]s</li>
+		<li>name->Les hommes-[badassanimal]s</li>
+		<li>name->Les [badassanimal] de [badassconcept]</li>
+		<li>name->Les [badassperson] de [badassconcept]</li>
+		<li>name->Les [badassperson]</li>
+		<li>name->Les hommes-[weapon]s</li>
+		<li>name->Les [weapon]</li>
+		<li>name->Les [badassanimal]s-[weapon]s</li>
+		<li>name->Les [weapon] [badasscolor]</li>
+		<li>name->Les [badassanimal]s [badasscolor]</li>
+		<li>name->Les [badassperson] [badasscolor]</li>
+		<li>name->Les [groupname] de [badassperson]</li>
+		<li>name->Les [badassadjective] [groupname]</li>
+		<li>name->Les [badassadjective] [badassanimal]s</li>
+		<li>name->Les [badassadjective] [badassperson]</li>
+		<li>name->[groupname] [weapon]</li>
+		<li>name->[badassconcept] [groupname]</li>
+		<li>name->[badassanimal]s de [terrainfeature]</li>
+	</NamerFactionPirate.rulePack.rulesStrings>
+
+	<NamerFactionBasePirate.rulePack.rulesStrings>
+		<li>name->[badassanimal] [geography]</li>
+		<li>name->[badassconcept] [geography]</li>
+		<li>name->[badassanimal]'s [geography]</li>
+		<li>name->[badassperson]'s [geography]</li>
+		<li>geography->[terrainfeature]</li>
+		<li>geography->[community]</li>
+	</NamerFactionBasePirate.rulePack.rulesStrings>
+
+
+  <!-- Outlander -->
+
+	<NamerFactionOutlander.rulePack.rulesStrings>
+		<li>rule->[terrainfeature] de/du [positiveconcept]</li>
+		<li>rule->[terrainfeature] des [outlander]</li>
+		<li>rule->[community] des [outlander]</li>
+		<li>rule->[community] des [terrainfeature]s</li>
+		<li>name->[subname] [politicaladjective] [politicalunion]</li>
+		<li>name->[politicalunion] de [subname]</li>
+		<li>name->[politicaladjective] [politicalunion] de [subname]</li>
+		<li>subname->[wordname]</li>
+		<li>subname->[wordname]</li>
+		<li>subname->[wordname]</li>
+		<li>subname->[direction] [wordname]</li>
+		<li>wordname->[syl][endsyl]</li>
+		<li>wordname->[syl][syl][endsyl]</li>
+		<li>wordname->[syl][syl][syl][endsyl]</li>
+		<li>wordname->[syl][syl][endsyl]</li>
+		<li>wordname->[syl][syl][endsyl]</li>
+		<li>wordname->[syl][syl][syl][endsyl]</li>
+	</NamerFactionOutlander.rulePack.rulesStrings>
+
+	<NamerFactionBaseOutlander.rulePack.rulesStrings>
+		<li>name->[positiveconcept]'s [terrainfeature]</li>
+		<li>name->[outlander]'s [terrainfeature]</li>
+		<li>name->[outlander]'s [community]</li>
+		<li>name->[nearname]</li>
+		<li>name->[wordname]</li>
+		<li>name->[wordname]</li>
+		<li>nearname->[subname]-at-the-[terrainfeature]</li>
+		<li>nearname->[subname]-by-the-[terrainfeature]</li>
+		<li>subname->[wordname]</li>
+		<li>subname->[community]</li>
+		<li>wordname->[syl][syl]</li>
+		<li>wordname->[syl][townend]</li>
+		<li>wordname->[syl][syl][townend]</li>
+		<li>wordname->[terrainfeature][townend]</li>
+		<li>townend->ville</li>
+		<li>townend->town</li>
+		<li>townend->hurst</li>
+		<li>townend->bourne</li>
+		<li>townend->brad</li>
+		<li>townend->dale</li>
+		<li>townend->hope</li>
+		<li>townend->ing</li>
+		<li>townend->ness</li>
+		<li>townend->mere</li>
+		<li>townend->shaw</li>
+		<li>townend->wick</li>
+	</NamerFactionBaseOutlander.rulePack.rulesStrings>
+
+
+  <!-- Tribe -->
+
+	<NamerFactionTribal.rulePack.rulesStrings>
+		<li>name->[tribalword] [tribalword]</li>
+		<li>name->[tribalword] [tribalword]</li>
+		<li>name->[tribalword] [tribalword] [tribalword]</li>
+		<li>name->[tribalword] de [animal]</li>
+		<li>name->[animal] [color] [tribalword]</li>
+		<li>name->Les [tribalword] de [terrainfeature]</li>
+		<li>name->Le peuple des [terrainfeature]s [color]s</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+		<li>tribalword->[syl][syl][syl][syl]</li>
+	</NamerFactionTribal.rulePack.rulesStrings>
+
+	<NamerFactionBaseTribal.rulePack.rulesStrings>
+		<li>name->[tribalword]</li>
+		<li>name->[tribalword]</li>
+		<li>name->[color] [tribalword]</li>
+		<li>name->[color] [terrainfeature]</li>
+		<li>name->[tribalword] [terrainfeature]</li>
+		<li>tribalword->[tribalwordfile]</li>
+		<li>tribalword->[syl][syl]</li>
+		<li>tribalword->[syl][syl][syl]</li>
+	</NamerFactionBaseTribal.rulePack.rulesStrings>
+
+
+  <!-- Special -->
+
+	<NamerFactionSpacer.rulePack.rulesStrings>
+		<li>name->Spacer</li>
+	</NamerFactionSpacer.rulePack.rulesStrings>
+
+
+  <!-- Player -->
+  <!--	<NamerFactionPlayerRandomized.rulePack.rulesStrings>
+		<li>name->[colonyname]</li>
+	</NamerFactionPlayerRandomized.rulePack.rulesStrings>-->
+  <!--		<li>wordname->[syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][endsyl]</li>-->
+  <!--		<li>wordname->[syl][syl][syl][endsyl]</li>-->
+
 </LanguageData>
