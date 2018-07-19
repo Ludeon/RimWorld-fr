@@ -13,7 +13,7 @@
   <!-- EN: For prisoner use -->
   <ForPrisonerUse>Affecter aux prisonniers</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>TODO</InPrisonCell>
+  <InPrisonCell>En cellule: Affecter aux prisonniers</InPrisonCell>
   <!-- EN: For colonist use -->
   <ForColonistUse>Affecter aux colons</ForColonistUse>
   <!-- EN: Medical -->
@@ -55,11 +55,11 @@
   <!-- EN: Can tend now -->
   <CanTendNow>TODO</CanTendNow>
   <!-- EN: Tending expires in {0} -->
-  <TreatmentExpiresIn>TODO</TreatmentExpiresIn>
+  <TreatmentExpiresIn>Le traitement expire dans {0}</TreatmentExpiresIn>
   <!-- EN: Can be tended in {0} -->
   <NextTendIn>Prochain traitement dans {0}</NextTendIn>
   <!-- EN: Tend quality -->
-  <TendQuality>TODO</TendQuality>
+  <TendQuality>Qualité du traitement</TendQuality>
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>pas de {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
@@ -81,7 +81,7 @@
   <!-- EN: Rename -->
   <Rename>Renommer</Rename>
   <!-- EN: Rename animal -->
-  <RenameAnimal>TODO</RenameAnimal>
+  <RenameAnimal>Renommer l'animal</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Renommer le colon</RenameColonist>
   <!-- EN: unknown -->
@@ -147,9 +147,9 @@
   <!-- EN: Resting -->
   <CaravanResting>Repos.</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>TODO</UsingBedroll>
+  <UsingBedroll>utilise 1 sac de couchage</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>TODO</UsingBedrolls>
+  <UsingBedrolls>utilise {0} sacs de couchage</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Durée estimée du trajet jusqu'à destination : {0} jours</CaravanEstimatedTimeToDestination>
   <!-- EN: Estimated days to arrive: {0} -->
@@ -163,37 +163,37 @@
   <!-- EN: Days of food: {0} (rot in {1} days) -->
   <CaravanDaysOfFoodRot>Jours de nourriture : {0}, pourrira dans {1} jours</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Arrêtée car : tout le monde est abattu.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Arrêtée car : tout le monde est à terre.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone has a mental break. -->
   <AllCaravanMembersMentalBreak>Arrêtée car : tout le monde a une crise de nerfs.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>TODO</CaravanColonistsCount>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>TODO</CaravanAnimal>
+  <CaravanAnimal>1 animal</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>TODO</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{0} animaux</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>TODO</CaravanPrisoner>
+  <CaravanPrisoner>1 prisonnier</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>TODO</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0} prisonniers</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>TODO</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0} en crise de nerfs</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>TODO</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} à terre(s)</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>En mouvement.</CaravanTraveling>
   <!-- EN: Resting. -->
-  <CaravanPaused>TODO</CaravanPaused>
+  <CaravanPaused>En repos</CaravanPaused>
   <!-- EN: Waiting. -->
   <CaravanWaiting>En attente.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>TODO</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>Est transporté pour cause de maladie</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>TODO</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>Utilise un sac de couchage pour cause de maladie</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
   <CurrentTileMovementTime>Durée du trajet en cours</CurrentTileMovementTime>
   <!-- EN: Visibility -->
-  <Visibility>TODO</Visibility>
+  <Visibility>Visibilité</Visibility>
   <!-- EN: Temperature -->
   <Temperature>Température</Temperature>
   <!-- EN: bad temperature -->
@@ -209,17 +209,17 @@
   <!-- EN: Attacking {0}. -->
   <CaravanAttacking>Attaque {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>TODO</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Offre des cadeaux à {0}.</CaravanOfferingGifts>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>A été porté(e) par un mort.</WasWornByCorpse>
   <!-- EN: T -->
   <WornByCorpseChar>D</WornByCorpseChar>
   <!-- EN: unroofed -->
-  <DeterioratingUnroofed>TODO</DeterioratingUnroofed>
+  <DeterioratingUnroofed>sans toit</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>TODO</DeterioratingOutdoors>
+  <DeterioratingOutdoors>en extérieur</DeterioratingOutdoors>
   <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>TODO</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>Se détériore car</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Carte</Map>
   <!-- EN: {0} until leaving -->
@@ -295,59 +295,59 @@
   <!-- EN: Refugee -->
   <Refugee>Réfugié</Refugee>
   <!-- EN: Terrain movement difficulty -->
-  <TileMovementDifficulty>TODO</TileMovementDifficulty>
+  <TileMovementDifficulty>Difficulté de mouvement</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>TODO</Impassable>
+  <Impassable>Infranchissable</Impassable>
   <!-- EN: Caravan movement speed -->
-  <CaravanMovementSpeedFull>TODO</CaravanMovementSpeedFull>
+  <CaravanMovementSpeedFull>Vitesse de déplacement de la caravane</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>TODO</DownedLower>
+  <DownedLower>à terre</DownedLower>
   <!-- EN: carried -->
-  <Carried>TODO</Carried>
+  <Carried>transporté</Carried>
   <!-- EN: Avg. person move speed -->
-  <AverageCaravanMemberMoveSpeed>TODO</AverageCaravanMemberMoveSpeed>
+  <AverageCaravanMemberMoveSpeed>Vitesse moyenne de déplacement d'une personne</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>TODO</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>Multiplicateur pour la masse transportée: {0}</MultiplierForCarriedMass>
   <!-- EN: Caravan members speed -->
-  <FinalCaravanPawnsMovementSpeed>TODO</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanPawnsMovementSpeed>Vitesse des membres de la caravane</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
-  <FinalCaravanMovementSpeed>TODO</FinalCaravanMovementSpeed>
+  <FinalCaravanMovementSpeed>Vitesse finale</FinalCaravanMovementSpeed>
   <!-- EN: Winter -->
-  <Winter>TODO</Winter>
+  <Winter>Hiver</Winter>
   <!-- EN: {0} in winter -->
-  <MovementDifficultyOffsetInWinter>TODO</MovementDifficultyOffsetInWinter>
+  <MovementDifficultyOffsetInWinter>{0} en hiver</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
-  <RangeTo>TODO</RangeTo>
+  <RangeTo>vers</RangeTo>
   <!-- EN: No letter -->
-  <NoDietCategoryLetter>TODO</NoDietCategoryLetter>
+  <NoDietCategoryLetter>pas de lettre</NoDietCategoryLetter>
   <!-- EN: Expires in -->
-  <ExpiresIn>TODO</ExpiresIn>
+  <ExpiresIn>Expire dans</ExpiresIn>
   <!-- EN: {0}'s caravan -->
-  <CaravanLeaderCaravanName>TODO</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>La caravane de {0}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
-  <Reason>TODO</Reason>
+  <Reason>Motif</Reason>
   <!-- EN: Relations with {0} -->
-  <RelationsWith>TODO</RelationsWith>
+  <RelationsWith>Les relations avec {0}</RelationsWith>
   <!-- EN: captured by {0} -->
-  <capturedBy>TODO</capturedBy>
+  <capturedBy>capturé par {0}</capturedBy>
   <!-- EN: your caravan -->
-  <yourCaravan>TODO</yourCaravan>
+  <yourCaravan>votre caravane</yourCaravan>
   <!-- EN: {0} wildness -->
   <CreatureWildness>TODO</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>TODO</CreatureTrainability>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>TODO</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{0} avec {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
-  <EnterCooldown>TODO</EnterCooldown>
+  <EnterCooldown>Vous ne pouvez pas entrer à nouveau pour encore {0} jours.</EnterCooldown>
   <!-- EN: Caravan -->
-  <Caravan>TODO</Caravan>
+  <Caravan>Caravane</Caravan>
   <!-- EN: there may be danger there -->
-  <HiddenOrNoSitePartDescription>TODO</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>il se peut que ce soit dangeureux</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>TODO</PreciousLumpLabel>
+  <PreciousLumpLabel>morceau de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>TODO</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>aucun projet de recherche actif</NoActiveResearchProjectToFinish>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -395,9 +395,9 @@
   <!-- EN: {0} tended -->
   <TextMote_Tended>{0} soigné</TextMote_Tended>
   <!-- EN: low mood -->
-  <lowMood>TODO</lowMood>
+  <lowMood>moral faible</lowMood>
   <!-- EN: low opinion -->
-  <lowOpinion>TODO</lowOpinion>
+  <lowOpinion>faible opinion</lowOpinion>
 
   <!-- Areas -->
   <!-- EN: Home -->
@@ -447,9 +447,9 @@
   <!-- EN: Can fire in -->
   <CanFireIn>Prêt à tirer dans</CanFireIn>
   <!-- EN: Cannot fire -->
-  <CannotFire>TODO</CannotFire>
+  <CannotFire>Ne peut pas tirer</CannotFire>
   <!-- EN: roofed -->
-  <Roofed>TODO</Roofed>
+  <Roofed>couvert</Roofed>
   <!-- EN: Shell loaded: {0} -->
   <ShellLoaded>Obus chargé</ShellLoaded>
   <!-- EN: Not loaded -->
@@ -585,9 +585,9 @@
   <!-- EN: Queued -->
   <Queued>En attente</Queued>
   <!-- EN: State -->
-  <State>TODO</State>
+  <State>État</State>
   <!-- EN: stun -->
-  <StunLower>TODO</StunLower>
+  <StunLower>étourdi</StunLower>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
@@ -963,7 +963,7 @@
   <!-- EN: Burning -->
   <ActivityIconBurning>Brûle</ActivityIconBurning>
   <!-- EN: Forming a caravan -->
-  <ActivityIconFormingCaravan>TODO</ActivityIconFormingCaravan>
+  <ActivityIconFormingCaravan>Forme une caravane</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
