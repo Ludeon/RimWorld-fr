@@ -1,75 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- EN: Autosaving -->
   <Autosaving>Sauvegarde automatique</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
   <GameStartDialog>Vous vous réveillez tous les trois dans vos sarcophages d'hypersommeil, alertés par le bruit des sirènes et du métal s'arrachant. Vous avez à peine le temps de vous faufiler dans les capsules de sauvetage avant que le vaisseau ne se déchire en deux.\n\nQuelque temps plus tard, vous atterrissez sur une planète inconnue de la bordure extérieure.\n\nAlors que des morceaux du vaisseau s'écrasent autour de vous, vous commencez à établir des stratégies pour survivre.</GameStartDialog>
+  <!-- EN: Colony -->
   <Colony>Colonie</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
   <ChangeLanguageFromMainMenu>Vous ne pouvez changer de langue que depuis l'écran « Options » du menu principal.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
   <AndLower>et</AndLower>
+  <!-- EN: disabled -->
   <DisabledLower>désactivé</DisabledLower>
 
-
+  <!-- EN: Version {0} -->
   <VersionIndicator>Version {0}</VersionIndicator>
+  <!-- EN: development build -->
   <DevelopmentBuildLower>version de développement</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
   <CompiledOn>Compilée le {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>Connecté à Steam en tant que {0}</LoggedIntoSteamAs>
 
   <!-- General-use words -->
+  <!-- EN: Yes -->
   <Yes>Oui</Yes>
+  <!-- EN: No -->
   <No>Non</No>
+  <!-- EN: min -->
   <min>min</min>
+  <!-- EN: max -->
   <max>max</max>
+  <!-- EN: chance -->
   <chance>chance</chance>
+  <!-- EN: context -->
   <context>situation</context>
+  <!-- EN: multiplier -->
   <multiplier>multiplicateur</multiplier>
+  <!-- EN: damage -->
   <damage>dégâts</damage>
+  <!-- EN: radius -->
   <radius>rayon</radius>
+  <!-- EN: duration (days) -->
   <durationDays>durée (jours)</durationDays>
+  <!-- EN: interval (days) -->
   <intervalDays>intervalle (jours)</intervalDays>
+  <!-- EN: repeat -->
   <repeat>répéter</repeat>
+  <!-- EN: default -->
   <default>défaut</default>
+  <!-- EN: distance -->
   <distance>distance</distance>
+  <!-- EN: YES -->
+  <YesUppercase>TODO</YesUppercase>
+  <!-- EN: NO -->
+  <NoUppercase>TODO</NoUppercase>
+  <!-- EN: kg -->
+  <kg>TODO</kg>
+  <!-- EN: Day -->
+  <Day>Jour</Day>
+  <!-- EN: day -->
+  <day>TODO</day>
+  <!-- EN: Default -->
+  <Default>TODO</Default>
+  <!-- EN: Average -->
+  <Average>TODO</Average>
 
   <!-- Content generation-->
-
+  
+  <!-- EN: {0} meat -->
   <MeatLabel>Viande de {0}</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
   <MeatDesc>Viande crue découpée. Peut être cuisinée ou mangée en l'état.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>TODO</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>TODO</MeatHumanDesc>
 
-  <LeatherLabel>Cuir de {0}</LeatherLabel>
-  <LeatherDesc>Peau tannée, séchée et raclée. Un bon matériau traditionnel pour faire des vêtements et des sacs.</LeatherDesc>
-
+  <!-- EN: {0} corpse -->
   <CorpseLabel>cadavre de {0}</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>Cadavre d'un {0}.</CorpseDesc>
+  <!-- EN: {0} (dead) -->
   <DeadLabel>{0} (mort)</DeadLabel>
 
+  <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>{0} brut(e)</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>Sol en {0} brut(e).</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>{0} brut(e) taillé(e) grossièrement.</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
   <RoughHewnStoneTerrainDesc>Sol en {0} brut(e) taillé(e) grossièrement.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>{0} poli(e)</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
   <SmoothStoneTerrainDesc>Sol en {0} poli(e).</SmoothStoneTerrainDesc>
 
+  <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
   <FrameLabelExtra> (construction)</FrameLabelExtra>
 
+  <!-- EN: Unaffiliated -->
+  <FactionUnaffiliated>TODO</FactionUnaffiliated>
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} en {0}</ThingMadeOfStuffLabel>
 
+  <!-- EN: {0}'s {1} -->
   <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <!-- EN: {0} and {1}'s {2} -->
   <CouplesRoom>{2} de {0} et {1}</CouplesRoom>
-
+  
+  <!-- EN: (various) -->
   <VariousLabel>(divers)</VariousLabel>
 
   <!-- History events -->
+  <!-- EN: Colonist died -->
   <ColonistDied>Un colon est décédé.</ColonistDied>
-
+  
   <!-- Rotation -->
+  <!-- EN: North -->
   <North>Nord</North>
+  <!-- EN: South -->
   <South>Sud</South>
+  <!-- EN: West -->
   <West>Ouest</West>
+  <!-- EN: East -->
   <East>Est</East>
-
+  
+  <!-- UNUSED -->
+  <LeatherLabel>Cuir de {0}</LeatherLabel>
+  <LeatherDesc>Peau tannée, séchée et raclée. Un bon matériau traditionnel pour faire des vêtements et des sacs.</LeatherDesc>
 
 </LanguageData>

@@ -1,36 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- États mentaux spéciaux ne résultant pas d'un traumatisme -->
-
-  <WanderConfused.label>mentalement désorienté(e)</WanderConfused.label>
-  <WanderConfused.beginLetter>{0} vient de craquer et erre sans but, complètement désorienté(e).</WanderConfused.beginLetter>
-  <WanderConfused.beginLetterLabel>désorienté(e)</WanderConfused.beginLetterLabel>
-  <WanderConfused.recoveryMessage>{0} n'est plus désorienté(e).</WanderConfused.recoveryMessage>
-  <WanderConfused.baseInspectLine>État mental : confus(e) et errant(e)</WanderConfused.baseInspectLine>
-
-  <PanicFlee.label>fuite de panique</PanicFlee.label>
-  <PanicFlee.beginLetter>{0} fuit paniqué(e).</PanicFlee.beginLetter>
-  <PanicFlee.beginLetterLabel>fuite</PanicFlee.beginLetterLabel>
-  <PanicFlee.recoveryMessage>{0} ne fuit plus sous le coup de la panique.</PanicFlee.recoveryMessage>
-  <PanicFlee.baseInspectLine>État mental : fuite de panique</PanicFlee.baseInspectLine>
-
+  
+  <!-- EN: manhunter -->
   <Manhunter.label>chasse à l'homme</Manhunter.label>
-  <Manhunter.beginLetter>{0} est devenu un(e) chasseur(se) d'hommes !</Manhunter.beginLetter>
-  <Manhunter.beginLetterLabel>chasseur(se) d'hommes</Manhunter.beginLetterLabel>
-  <Manhunter.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</Manhunter.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <Manhunter.baseInspectLine>Fou/folle : chasseur(se) d'hommes</Manhunter.baseInspectLine>
-
+  <!-- EN: {0} has become a manhunter! -->
+  <Manhunter.beginLetter>{0} est devenu un(e) chasseur(se) d'hommes !</Manhunter.beginLetter>
+  <!-- EN: manhunter -->
+  <Manhunter.beginLetterLabel>chasseur(se) d'hommes</Manhunter.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <Manhunter.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</Manhunter.recoveryMessage>
+  
+  <!-- EN: manhunter -->
   <ManhunterPermanent.label>chasse à l'homme</ManhunterPermanent.label>
-  <ManhunterPermanent.beginLetter>{0} est devenu un(e) chasseur(se) d'hommes !</ManhunterPermanent.beginLetter>
-  <ManhunterPermanent.beginLetterLabel>chasseur(se) d'hommes</ManhunterPermanent.beginLetterLabel>
-  <ManhunterPermanent.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</ManhunterPermanent.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <ManhunterPermanent.baseInspectLine>Fou/folle : chasseur(se) d'hommes</ManhunterPermanent.baseInspectLine>
-
+  <!-- EN: {0} has become a manhunter! -->
+  <ManhunterPermanent.beginLetter>{0} est devenu un(e) chasseur(se) d'hommes !</ManhunterPermanent.beginLetter>
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.beginLetterLabel>chasseur(se) d'hommes</ManhunterPermanent.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterPermanent.recoveryMessage>{0} n'a plus la pulsion de chasser des hommes.</ManhunterPermanent.recoveryMessage>
+  
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>fuite de panique</PanicFlee.label>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>État mental : fuite de panique</PanicFlee.baseInspectLine>
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} fuit paniqué(e).</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>fuite</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} ne fuit plus sous le coup de la panique.</PanicFlee.recoveryMessage>
+  
+  <!-- EN: social fighting -->
   <SocialFighting.label>bagarre</SocialFighting.label>
+  <!-- EN: Mental state: Social fighting -->
   <SocialFighting.baseInspectLine>État mental : bagarre</SocialFighting.baseInspectLine>
-
-
-  <!--   <SocialFighting.recoveryMessage>{0} et {1} ne se bagarrent plus.</SocialFighting.recoveryMessage> -->
-
+  
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>mentalement désorienté(e)</WanderConfused.label>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>État mental : confus(e) et errant(e)</WanderConfused.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} vient de craquer et erre sans but, complètement désorienté(e).</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>désorienté(e)</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} n'est plus désorienté(e).</WanderConfused.recoveryMessage>
+  
 </LanguageData>

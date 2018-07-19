@@ -1,144 +1,236 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+  
+  <!-- EN: Cancel -->
   <DesignatorCancel>Annuler</DesignatorCancel>
+  <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
   <DesignatorCancelDesc>Annule l'ordre (Construire, miner, transporter, récolter, etc.).</DesignatorCancelDesc>
 
+  <!-- EN: Cut plants -->
   <DesignatorCutPlants>Couper les plantes</DesignatorCutPlants>
+  <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
   <DesignatorCutPlantsDesc>Marque les plantes à couper et à détruire. Les plantes seront retirées et toute nourriture ou ressource contenue sera récoltée.</DesignatorCutPlantsDesc>
 
+  <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>Démolir</DesignatorDeconstruct>
+  <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Démolit la cible et récupère une partie des ressources.</DesignatorDeconstructDesc>
 
+  <!-- EN: Uninstall -->
   <DesignatorUninstall>Désinstaller</DesignatorUninstall>
+  <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
   <DesignatorUninstallDesc>Désinstalle la cible pour la déplacer, la vendre ou l'installer ailleurs.</DesignatorUninstallDesc>
 
+  <!-- EN: Harvest -->
   <DesignatorHarvest>Récolter</DesignatorHarvest>
+  <!-- EN: Marks plants to be harvested for their food or other products. -->
   <DesignatorHarvestDesc>Marque des plantes à récolter.</DesignatorHarvestDesc>
 
+  <!-- EN: Chop wood -->
   <DesignatorHarvestWood>Couper du bois</DesignatorHarvestWood>
+  <!-- EN: Marks trees to be chopped down for wood. -->
   <DesignatorHarvestWoodDesc>Marque des arbres à abattre pour leur bois.</DesignatorHarvestWoodDesc>
 
+  <!-- EN: Haul things -->
   <DesignatorHaulThings>Transporter</DesignatorHaulThings>
+  <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
   <DesignatorHaulThingsDesc>Marque des rochers et d'autres objets qui doivent être transportés vers les décharges. Inutile pour la nourriture ou les cadavres, qui sont habituellement transportés automatiquement par les créatures.</DesignatorHaulThingsDesc>
+  <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
   <MustHaulHaulables>Peut seulement désigner les choses transportables mais qui ne sont pas transportées habituellement (comme les rochers).</MustHaulHaulables>
 
+  <!-- EN: Hunt -->
   <DesignatorHunt>Chasser</DesignatorHunt>
+  <!-- EN: Mark animals to be hunted by your hunters. -->
   <DesignatorHuntDesc>Marque les animaux à chasser par vos chasseurs.</DesignatorHuntDesc>
 
+  <!-- EN: Mine -->
   <DesignatorMine>Miner</DesignatorMine>
+  <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Désigne les zones de roche à miner.</DesignatorMineDesc>
 
+  <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Aplanir surface</DesignatorSmoothSurface>
+  <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Designe un terrain en pierre brute ou des murs à aplanir.</DesignatorSmoothSurfaceDesc>
 
-  <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
-
+  <!-- EN: Plan -->
   <DesignatorPlan>Planifier</DesignatorPlan>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
   <DesignatorPlanDesc>Trace une zone de plan. Sert à planifier votre expansion future, ou à anticiper celle-ci.</DesignatorPlanDesc>
 
+  <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Enlever des plans</DesignatorPlanRemove>
+  <!-- EN: Remove planning designations. -->
   <DesignatorPlanRemoveDesc>Efface des zones planifiées.</DesignatorPlanRemoveDesc>
 
+  <!-- EN: Forbid -->
   <DesignatorForbid>Interdire</DesignatorForbid>
+  <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
   <DesignatorForbidDesc>Marquer un objet comme étant interdit. Les colons ne pourront plus interagir avec l'objet désigné.</DesignatorForbidDesc>
 
+  <!-- EN: Unforbid -->
   <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
+  <!-- EN: Mark items as unforbidden. Colonists will be able to interact with the designated items. -->
   <DesignatorUnforbidDesc>Marquer un objet comme étant autorisé. Les colons pourront interagir avec l'objet désigné.</DesignatorUnforbidDesc>
 
+  <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
+  <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
+  <!-- EN: Clear home area -->
   <DesignatorAreaHomeClear>Retirer la zone de base</DesignatorAreaHomeClear>
+  <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
   <DesignatorAreaHomeClearDesc>Supprime une zone de base. Les colons ne nettoieront, n'effectueront plus de réparations et ne lutteront plus contre les incendies ici.</DesignatorAreaHomeClearDesc>
 
+  <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Étendre la zone de couverture</DesignatorAreaBuildRoofExpand>
+  <!-- EN: Colonists will build roofs in this area. -->
   <DesignatorAreaBuildRoofExpandDesc>\nLes colons construiront des toits sur cette zone.</DesignatorAreaBuildRoofExpandDesc>
 
+  <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Étendre la zone à ciel ouvert</DesignatorAreaNoRoofExpand>
+  <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
   <DesignatorAreaNoRoofExpandDesc>Crée une zone dans laquelle les plafonds ne seront pas construits. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
 
+  <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignorer la zone de plafond</DesignatorAreaIgnoreRoofExpand>
+  <!-- EN: Colonists will ignore roofs in this area. -->
   <DesignatorAreaIgnoreRoofExpandDesc>Les colons vont ignorer les plafonds de cette zone.</DesignatorAreaIgnoreRoofExpandDesc>
 
+  <!-- EN: Expand snow clear area -->
   <DesignatorAreaSnowClearExpand>Étendre la zone de déneigement</DesignatorAreaSnowClearExpand>
+  <!-- EN: Create a area which colonists will try to keep clear of snow. -->
   <DesignatorAreaSnowClearExpandDesc>\nCrée une zone où les colons déblayeront la neige.</DesignatorAreaSnowClearExpandDesc>
+  <!-- EN: Clear snow clear Area -->
   <DesignatorAreaSnowClearClear>Retirer la zone de déneigement</DesignatorAreaSnowClearClear>
+  <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
   <DesignatorAreaSnowClearClearDesc>\nSupprime une zone de déneigement. Les colons ne déblayeront plus la neige de cette zone.</DesignatorAreaSnowClearClearDesc>
 
+  <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>Étendre une zone autorisée</DesignatorExpandAreaAllowed>
+  <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
   <DesignatorExpandAreaAllowedDesc>Étend une zone autorisée.\n\nLes zones autorisées sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront et vivront exclusivement dans cette zone.</DesignatorExpandAreaAllowedDesc>
+  <!-- EN: Clear allowed area -->
   <DesignatorClearAreaAllowed>Retirer une zone autorisée</DesignatorClearAreaAllowed>
+  <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
   <DesignatorClearAreaAllowedDesc>Supprime une zone autorisée.\n\nLes zones autorisées sont des zones définies que vous pouvez assigner à des colons ou des animaux. Ceux-ci travailleront et vivront exclusivement dans cette zone.</DesignatorClearAreaAllowedDesc>
+  <!-- EN: Manage areas... -->
   <ManageAreas>Gérer les zones...</ManageAreas>
 
+  <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
   <DesignatorGrowingZoneDesc>Créer une zone dans laquelle les colons vont tenter de cultiver un certain type de plantes.</DesignatorGrowingZoneDesc>
 
+  <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
   <DesignatorZoneCreateStorageResourcesDesc>Créer une zone de stockage dans laquelle les colons déposeront des objets et matériaux.\nCet outil permet aussi d'étendre une zone de stockage existante.</DesignatorZoneCreateStorageResourcesDesc>
 
+  <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
   <DesignatorZoneCreateStorageDumpingDesc>Créer une décharge dans laquelle vos colons jetteront les déchets.\nCet outil permet aussi d'étendre une décharge existante.</DesignatorZoneCreateStorageDumpingDesc>
 
+  <!-- EN: Shrink zones -->
   <DesignatorZoneDelete>Supprimer des zones</DesignatorZoneDelete>
+  <!-- EN: Shrink zone -->
   <DesignatorZoneDeleteSingular>Supprimer zone</DesignatorZoneDeleteSingular>
+  <!-- EN: Remove zones, like stockpile zones or growing zones. -->
   <DesignatorZoneDeleteDesc>Retire des zones, telles que les zones de stockage ou les zones agricoles.</DesignatorZoneDeleteDesc>
-  
-  <DesignatorZoneExpand>Agrandir zone</DesignatorZoneExpand>
 
+  <!-- EN: Expand zone -->
+  <DesignatorZoneExpand>Agrandir zone</DesignatorZoneExpand>
+  
+  <!-- EN: Claim -->
   <DesignatorClaim>Revendiquer</DesignatorClaim>
+  <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
   <DesignatorClaimDesc>Revendique des structures neutres pour la colonie, incluant les ruines anciennes et les camps de sièges abandonnés. Les structures revendiquées peuvent être réparées et entretenues par vos colons.</DesignatorClaimDesc>
 
+  <!-- EN: Remove floor -->
   <DesignatorRemoveFloor>Enlever le sol</DesignatorRemoveFloor>
+  <!-- EN: Remove floors to reveal the terrain underneath. -->
   <DesignatorRemoveFloorDesc>Enlève le sol pour révéler le terrain en dessous.</DesignatorRemoveFloorDesc>
 
+  <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Enlever le pont</DesignatorRemoveBridge>
+  <!-- EN: Remove bridges to reveal the terrain underneath. -->
   <DesignatorRemoveBridgeDesc>Enlève le pont pour révéler le terrain en dessous.</DesignatorRemoveBridgeDesc>
 
+  <!-- EN: Strip -->
   <DesignatorStrip>Déshabiller</DesignatorStrip>
+  <!-- EN: Strip apparel from corpses and the wounded. -->
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
 
+  <!-- EN: Rearm trap -->
   <DesignatorRearmTrap>Réarmer les pièges</DesignatorRearmTrap>
+  <!-- EN: Rearm a sprung trap so it can be triggered again. -->
   <DesignatorRearmTrapDesc>Réarme un piège à ressort pour qu'il puisse se déclencher à nouveau.</DesignatorRearmTrapDesc>
 
+  <!-- EN: Open -->
   <DesignatorOpen>Ouvrir</DesignatorOpen>
+  <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Ouvre des tombes pleines ou des conteneurs.</DesignatorOpenDesc>
-
+  
+  <!-- EN: Slaughter -->
   <DesignatorSlaughter>Abattre</DesignatorSlaughter>
+  <!-- EN: Slaughter a tame animal. -->
   <DesignatorSlaughterDesc>Abat un animal apprivoisé.</DesignatorSlaughterDesc>
 
+  <!-- EN: Tame -->
   <DesignatorTame>Apprivoiser</DesignatorTame>
+  <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Apprivoise un animal sauvage.</DesignatorTameDesc>
 
-
   <!-- Failure messages -->
+  <!-- EN: Unchosen material -->
   <UnchosenStuff>Matériau non sélectionné</UnchosenStuff>
+  <!-- EN: Too close to map edge. -->
   <TooCloseToMapEdge>Trop près du bord de la carte.</TooCloseToMapEdge>
+  <!-- EN: Out of bounds. -->
   <OutOfBounds>Hors limites.</OutOfBounds>
+  <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>Impossible de positionner dans une zone inexplorée.</CannotPlaceInUndiscovered>
+  <!-- EN: Interaction spot is blocked by {0}. -->
   <InteractionSpotBlocked>La zone d'interaction bloquée par {0}.</InteractionSpotBlocked>
+  <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>La zone d'interaction est hors limites.</InteractionSpotOutOfBounds>
+  <!-- EN: Interaction spot will be blocked by {0}. -->
   <InteractionSpotWillBeBlocked>La zone d'interaction sera bloquée par {0}.</InteractionSpotWillBeBlocked>
+  <!-- EN: {0} would block {1}'s interaction spot. -->
   <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
+  <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Ce terrain est déjà {0}.</TerrainIsAlready>
+  <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Cette surface est déjà marquée pour être aplanie.</SurfaceBeingSmoothed>
-  <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
+  <!-- EN: Identical thing already exists here. -->
   <IdenticalThingExists>Une chose identique se trouve déjà ici.</IdenticalThingExists>
+  <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>Une construction identique se trouve déjà ici.</IdenticalBlueprintExists>
+  <!-- EN: The terrain here cannot support this. -->
   <TerrainCannotSupport>Le terrain ne peut pas supporter ceci.</TerrainCannotSupport>
+  <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
+  <!-- EN: Space being smoothed. -->
   <SpaceBeingSmoothed>L'emplacement est en train de se faire aplatir.</SpaceBeingSmoothed>
+  <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
+  <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>La roue à aubes doit être placée sur de l'eau en mouvement.</MustBeOnMovingWater>
-
-
+  
   <!-- Mouse attachments -->
+  <!-- EN: Expand {0} or\nCreate new {1} -->
   <ExpandOrCreateZone>Étendre {0} ou\nCréer une nouvelle {1}</ExpandOrCreateZone>
+  <!-- EN: Create new {0} -->
   <CreateNewZone>Créer une nouvelle {0}</CreateNewZone>
-
-
+  
   <!-- Desc helpers -->
+  <!-- EN: Transmits power -->
   <TransmitsPower>Transmet l'énergie</TransmitsPower>
+  <!-- EN: Construction needed -->
   <ConstructionNeeded>Construction requis</ConstructionNeeded>
+  <!-- EN: None of your {0} have this skill. -->
   <NoColonistWithConstructionSkillTip>Aucun des {0} n'a cette habileté.</NoColonistWithConstructionSkillTip>
+  <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Aucun des {0} possédant cette habileté n'est assigné à {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+
+  <!-- UNUSED -->
+  <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
+  <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>
 
 </LanguageData>

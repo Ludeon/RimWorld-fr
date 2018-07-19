@@ -1,41 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <WorkSpeedGlobal.label>vitesse générale de travail</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>Coefficient influant sur la vitesse de réalisation de n'importe quelle tâche.</WorkSpeedGlobal.description>
-
-  <MiningSpeed.label>vitesse de minage</MiningSpeed.label>
-  <MiningSpeed.description>Coefficient influant sur la vitesse des travaux de minage et de forage.</MiningSpeed.description>
-
-  <MiningYield.label>rendement minier</MiningYield.label>
-  <MiningYield.description>Le pourcentage de rendement qu'un mineur atteindra. Ceci s'applique à l'exploitation minière et au forage en profondeur. Cela n'affecte pas le taux d'extraction des morceaux de roche.</MiningYield.description>
-
-  <SmoothingSpeed.label>vitesse d'aplanissage</SmoothingSpeed.label>
-  <SmoothingSpeed.description>Coefficient influant sur la vitesse à laquelle une personne aplanit le sol.</SmoothingSpeed.description>
-
-  <ResearchSpeed.label>vitesse de recherche</ResearchSpeed.label>
-  <ResearchSpeed.description>Cette personne recherche à cette vitesse.</ResearchSpeed.description>
-
+  
+  <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>vitesse de travail avec les animaux</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
   <AnimalGatherSpeed.description>Vitesse à laquelle cette personne trait et tond les animaux.</AnimalGatherSpeed.description>
-
+  
+  <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>rendement du travail avec les animaux</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product. -->
   <AnimalGatherYield.description>La quantité de ressources que ces personnes obtiennent lorsqu'elles tondent et traient des animaux. Un pourcentage élevé diminue le risque de gâchis.</AnimalGatherYield.description>
-
-  <PlantWorkSpeed.label>vitesse de travail agricole</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>Vitesse à laquelle ce colon sème et récolte.</PlantWorkSpeed.description>
-
-  <PlantHarvestYield.label>risque d'échec de récolte</PlantHarvestYield.label>
-  <PlantHarvestYield.description>Le rendement d'une personne lorsqu'elle récolte. Un faible rendement augmente la probabilité que la personne détruise accidentellement la récolte.</PlantHarvestYield.description>
-
+  
+  <!-- EN: construction speed -->
   <ConstructionSpeed.label>vitesse de construction</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
   <ConstructionSpeed.description>Vitesse à laquelle ce colon construit et répare les objets et structures.</ConstructionSpeed.description>
-
+  
+  <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>probabilité de réussir une construction</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something. Failing means wasting time and resources. -->
   <ConstructSuccessChance.description>La probabilité d'une personne de réussir une construction. Un échec gaspille du temps et des ressources.</ConstructSuccessChance.description>
-
+  
+  <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>probabilité de réussir une réparation</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>La probabilité d'une personne de réussir à remplacer un composant cassé d'une construction. Un échec gaspille du temps et des ressources. Cette probabilité ne s'applique pas aux autres types de réparation. </FixBrokenDownBuildingSuccessChance.description>
-
-
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>vitesse de minage</MiningSpeed.label>
+  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
+  <MiningSpeed.description>Coefficient influant sur la vitesse des travaux de minage et de forage.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>rendement minier</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks. -->
+  <MiningYield.description>Le pourcentage de rendement qu'un mineur atteindra. Ceci s'applique à l'exploitation minière et au forage en profondeur. Cela n'affecte pas le taux d'extraction des morceaux de roche.</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>risque d'échec de récolte</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>Le rendement d'une personne lorsqu'elle récolte. Un faible rendement augmente la probabilité que la personne détruise accidentellement la récolte.</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>vitesse de travail agricole</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>Vitesse à laquelle ce colon sème et récolte.</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>vitesse de recherche</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>Cette personne recherche à cette vitesse.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>vitesse d'aplanissage</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>Coefficient influant sur la vitesse à laquelle une personne aplanit le sol.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>vitesse générale de travail</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>Coefficient influant sur la vitesse de réalisation de n'importe quelle tâche.</WorkSpeedGlobal.description>
+  
 </LanguageData>

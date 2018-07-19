@@ -1,26 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+  
+  <!-- EN: negotiation ability -->
+  <NegotiationAbility.label>talents de diplomate</NegotiationAbility.label>
+  <!-- EN: How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
+  <NegotiationAbility.description>L'efficacité de cette personne en tant que négociateur. Cela a un impact sur les relations de factions quand cette personne donne des cadeaux à une autre faction. Cela affecte également le résultat des négociations de paix avec d'autres factions.</NegotiationAbility.description>
+  
+  <!-- UNUSED -->
   <RecruitPrisonerChance.label>probabilité de recrutement</RecruitPrisonerChance.label>
   <RecruitPrisonerChance.description>Probabilité de cette personne de recruter un prisonnier.</RecruitPrisonerChance.description>
-
-  <TameAnimalChance.label>probabilité d'apprivoiser un animal</TameAnimalChance.label>
-  <TameAnimalChance.description>Probabilité de cette personne d'apprivoiser un animal avec succès.</TameAnimalChance.description>
-
-  <TrainAnimalChance.label>probabilité de dresser des animaux</TrainAnimalChance.label>
-  <TrainAnimalChance.description>Probabilité de cette personne de dresser un animal avec succès. Cela varie en fonction de l'animal, de sa sauvagerie ou de son lien éventuel avec le dresseur.</TrainAnimalChance.description>
-
+  
+  <!-- EN: social impact -->
   <SocialImpact.label>impact des discussions</SocialImpact.label>
+  <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
   <SocialImpact.description>Quand cette personne interagit socialement, ce score représente l'effet de la discussion sur l'autre personne.</SocialImpact.description>
-
-  <DiplomacyPower.label>talents de diplomate</DiplomacyPower.label>
-  <DiplomacyPower.description>L'efficacité de cette personne en tant que négociateur. Cela a un impact sur les relations de factions quand cette personne donne des cadeaux à une autre faction. Cela affecte également le résultat des négociations de paix avec d'autres factions.</DiplomacyPower.description>
-
+  
+  <!-- EN: tame animal chance -->
+  <TameAnimalChance.label>probabilité d'apprivoiser un animal</TameAnimalChance.label>
+  <!-- EN: The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals. -->
+  <TameAnimalChance.description>Probabilité de cette personne d'apprivoiser un animal avec succès.</TameAnimalChance.description>
+  
+  <!-- EN: trade price improvement -->
   <TradePriceImprovement.label>amélioration des prix commerciaux</TradePriceImprovement.label>
+  <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
   <TradePriceImprovement.description>Quand cette personne négocie les prix, ces derniers sont améliorés par ce pourcentage.</TradePriceImprovement.description>
-
-
-  <!--<GiftImpact.label>Impact des cadeaux diplomatiques</GiftImpact.label>-->
-  <!--<GiftImpact.description>Quand cette personne offre un cadeau à une autre faction, ce multiplicateur modifie l'impact sur les changements de relations avec cette faction.</GiftImpact.description>-->
-
+  
+  <!-- EN: train animal chance -->
+  <TrainAnimalChance.label>probabilité de dresser des animaux</TrainAnimalChance.label>
+  <!-- EN: The base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
+  <TrainAnimalChance.description>Probabilité de cette personne de dresser un animal avec succès. Cela varie en fonction de l'animal, de sa sauvagerie ou de son lien éventuel avec le dresseur.</TrainAnimalChance.description>
+  
 </LanguageData>

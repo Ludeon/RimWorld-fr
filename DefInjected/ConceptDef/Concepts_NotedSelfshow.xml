@@ -1,113 +1,174 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Concepts expliqués par un texte informatif sans qu'il n'y ait besoin d'un événement spécifique-->
-
-  <CameraDolly.label>Mouvement de la caméra</CameraDolly.label>
-  <CameraDolly.helpText>Déplacez la caméra avec la souris en maintenant le bouton droit (ou milieu) ou avec les touches   {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}.</CameraDolly.helpText>
-
-  <CameraZoom.label>Zoom de la caméra</CameraZoom.label>
-  <CameraZoom.helpText>Zoomez sur la carte avec la ROULETTE ou les touches {Key:MapZoomIn} et {Key:MapZoomOut}.</CameraZoom.helpText>
-
-  <TimeControls.label>Régler l'écoulement du temps</TimeControls.label>
-  <TimeControls.helpText>Vous pouvez accélérer, ralentir ou arrêter le temps.\n\nEssayez avec les touches {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, et {Key:TimeSpeedSuperfast}, ou en utilisant le menu en bas à droite de l'écran.</TimeControls.helpText>
-
-  <Pause.label>Pause</Pause.label>
-  <Pause.helpText>Appuyez sur {Key:TogglePause} pour mettre en pause ou non le jeu.\n\nVous pouvez donner des ordres quand le jeu est en pause.\n\nSouvenez-vous, en cas de panique, appuyez sur {Key:TogglePause} !</Pause.helpText>
-
-  <Stockpiles.label>Zones de stockage</Stockpiles.label>
-  <Stockpiles.helpText>Vos colons ont besoin d'un endroit où stocker leurs ressources. Désignez une zone de stockage pour qu'ils s'en servent.\n\nLa zone de stockage se trouve dans la section ZONES du menu ARCHITECTE en bas à gauche de l'écran.</Stockpiles.helpText>
-
-  <Forbidding.label>Autoriser/Interdire l'utilisation</Forbidding.label>
-  <Forbidding.helpText>Les colons n'interagiront pas avec les objets marqués comme étant INTERDITS.\n\nCes objets interdits sont indiqués par un petit X rouge. Pour en autoriser l'utilisation à nouveau, sélectionnez un élément interdit et utilisez le bouton INTERDIRE en bas de la page.</Forbidding.helpText>
-
-  <GrowingFood.label>Zones agricoles</GrowingFood.label>
-  <GrowingFood.helpText>Pour cultiver de la nourriture, créez une ZONE AGRICOLE en passant par le menu Architecte.\n\nSeuls les sols fertiles peuvent devenir des zones agricoles.</GrowingFood.helpText>
-
-  <EquippingWeapons.label>Équiper d'une arme</EquippingWeapons.label>
-  <EquippingWeapons.helpText>Pour que votre colon s'équipe d'une arme, sélectionnez-le puis faites un clic-droit sur l'arme.\n\nÀ leur arrivée sur la planète, il y a des armes sur le sol près de votre point de départ.</EquippingWeapons.helpText>
-
+  
+  <!-- EN: Alerts -->
   <Alerts.label>Alertes</Alerts.label>
+  <!-- EN: The alerts at the right edge of the screen tell you about issue that need your attention.\n\nKeep an eye on the alerts. -->
   <Alerts.helpText>Les alertes sur le côté droit de l'écran vous indiquent les problèmes auxquels vous devez prêter attention.\n\nGardez un œil dessus.</Alerts.helpText>
-
-  <Mining.label>Minage</Mining.label>
-  <Mining.helpText>Vous pouvez indiquer un endroit à miner en ouvrant le menu ARCHITECTE et en sélectionnant l'onglet ORDRES.\n\nCertains blocs exploitables donnent de l'acier, de l'or, et d'autres matériaux utiles.</Mining.helpText>
-
-  <WorkTab.label>Définir les tâches</WorkTab.label>
-  <WorkTab.helpText>Vous pouvez définir les tâches de chaque colon dans l'onglet TRAVAIL, en bas à gauche de l'écran.\n\nIls effectueront toujours la tâche la plus urgente en premier.\n\nLes colons n'effectueront jamais une tâche à laquelle ils ne sont pas affectés.\n\nSi, pour une tâche, personne n'est affecté, ou que de trop nombreuses autres tâches sont prioritaires par rapport à celle-ci, elle risque de ne jamais être effectuée.</WorkTab.helpText>
-
-  <ForbiddingDoors.label>Interdire les portes</ForbiddingDoors.label>
-  <ForbiddingDoors.helpText>Vous pouvez INTERDIRE une porte afin que les colons et les animaux apprivoisés ne la franchissent pas.\n\nCependant, cela ne la ferme pas à clé : l'interdiction indique juste à vos colons qu'ils n'ont pas le droit d'utiliser la porte. Mais pour les ennemis, les portes sont toujours fermées à clé même si elles ne sont pas interdites. Enfin, les colons qui deviennent fous peuvent quand même utiliser les portes interdites.</ForbiddingDoors.helpText>
-
-  <CoverAndShooting.label>Couverture et tir</CoverAndShooting.label>
-  <CoverAndShooting.helpText>La chose la plus importante à faire dans un combat à distance est de se couvrir.\n\nLes protections fonctionnent seulement si vos colons les touchent et si elles se trouvent entre vos colons et l'ennemi(s)\n\nVous pouvez également placer vos colons derrière les angles des murs. Ils se pencheront pour tirer.\n\nLa plupart des objets peuvent être utilisés comme couverture, mais certaines choses sont meilleures que d'autres. Se protéger derrière un arbre est mieux que d'être à découvert, mais c'est encore plus efficace de se couvrir derrière un sac de sable.</CoverAndShooting.helpText>
-
-  <FormCaravan.label>Former une caravane</FormCaravan.label>
-  <FormCaravan.helpText>Vous pouvez former une caravane pour envoyer des groupes de personnes voyager à travers la planète !\n\nDans l'onglet MONDE, sélectionnez votre propre base et ensuite cliquez sur "Former une caravane".</FormCaravan.helpText>
-
-  <AnimalTaming.label>Apprivoisement d'un animal</AnimalTaming.label>
-  <AnimalTaming.helpText>Vous pouvez assigner des colons à l'apprivoisement d'un animal sauvage avec le bouton APPRIVOISER.\n\nLes colons appâteront l'animal avec de la nourriture pour essayer de le domestiquer.\n\nAttention : certains animaux peuvent réagir violemment aux tentatives d'apprivoisement échouées.</AnimalTaming.helpText>
-
-  <AnimalTraining.label>Domptage des animaux</AnimalTraining.label>
-  <AnimalTraining.helpText>L'onglet ENTRAÎNER d'un animal apprivoisé vous permet de définir les aptitudes que vous voulez les voir développer.\n\nLes animaux ne peuvent pas être dressés continuellement, ils ont besoin de pause entre les sessions.</AnimalTraining.helpText>
-
-  <InfoCard.label>Onglet d'information</InfoCard.label>
-  <InfoCard.helpText>L'onglet d'information vous montre les statistiques détaillées des personnes, objets ou constructions.\n\nSélectionnez une personne ou un objet et cliquez sur le « i » du panneau d'inspection pour l'ouvrir.</InfoCard.helpText>
-
-  <StorageTab.label>Gestion des espaces de stockage</StorageTab.label>
-  <StorageTab.helpText>Vous pouvez configurer les zones de stockage et les casiers d'équipement en les sélectionnant et en ouvrant l'onglet STOCKAGE, en bas à gauche de l'écran.\n\nDans l'onglet de stockage, naviguez à travers les catégories pour autoriser ou interdire certains types d'objets.\n\nVous pouvez changer la priorité d'une zone de stockage : les colons vont utiliser les zones de stockage à priorité haute en premier, et déplacer les objets stockés dans des zones à faible priorité vers celles à haute priorité.</StorageTab.helpText>
-
-  <HomeArea.label>Zone de base</HomeArea.label>
-  <HomeArea.helpText>La ZONE DE BASE symbolise le périmètre que vos colons doivent activement entretenir. Les colons nettoieront cette zone et éteindront les incendies dans ce périmètre.\n\nVous pouvez définir la ZONE DE BASE dans la catégorie « Zones » du menu Architecte.</HomeArea.helpText>
-
-  <SpoilageAndFreezers.label>Détérioration et congélateurs</SpoilageAndFreezers.label>
-  <SpoilageAndFreezers.helpText>La plupart des produits alimentaires pourrissent après un temps relativement court.\n\nPour éviter cela, vous pouvez construire une chambre froide.\n\nPour cela, construisez une pièce fermée et placez-y un ou deux climatiseurs dans le mur, puis réglez les climatiseurs à une température négative.\n\nLa nourriture congelée ne pourrit jamais.</SpoilageAndFreezers.helpText>
-
-  <Deterioration.label>Détérioration des objets</Deterioration.label>
-  <Deterioration.helpText>Les objets laissés à l'extérieur se dégradent progressivement.\n\nPour éviter cela, entreposez-les sous un toit.</Deterioration.helpText>
-
-  <HostilityResponse.label>Attitude en cas de comportement hostile</HostilityResponse.label>
-  <HostilityResponse.helpText>Vous pouvez déterminer la manière dont répondront automatiquement vos colons s'ils sont confrontés à des menaces telles que des prédateurs.\n\nChoisissez FUIR, ATTAQUER, ou IGNORER dans l'onglet ASSIGNATIONS.</HostilityResponse.helpText>
-
+  
+  <!-- EN: Allowed areas -->
   <AllowedAreas.label>Zones autorisées</AllowedAreas.label>
+  <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
   <AllowedAreas.helpText>Les colons et les animaux de la colonie peuvent être affectés à des zones autorisées. Cela leur interdit de quitter cette zone.\n\nCela peut être utilisé, par exemple, pour garder les colons à l'intérieur.\n\nVous pouvez créer plusieurs zones et les attribuer à différents colons et animaux.\n\nCréez, supprimez et attribuez des zones dans l'onglet RESTRICTIONS.\n\nDéfinissez les zones autorisées sur la carte à l'aide des boutons ÉTENDRE LA ZONE AUTORISÉE et RETIRER UNE ZONE AUTORISÉE dans l'onglet ARCHITECTE.</AllowedAreas.helpText>
-
-  <MedicalOperations.label>Opérations chirurgicales</MedicalOperations.label>
-  <MedicalOperations.helpText>Pour définir une opération chirurgicale, comme un prélèvement d'organe ou la mise place d'une prothèse, cliquez sur l'onglet SANTÉ d'un colon, puis sur OPÉRATIONS.</MedicalOperations.helpText>
-
-  <TimeAssignments.label>Emploi du temps</TimeAssignments.label>
-  <TimeAssignments.helpText>Vous pouvez modifier ou définir un emploi du temps à vos colons via l'onglet RESTRICTIONS.</TimeAssignments.helpText>
-
-  <ManualWorkPriorities.label>Priorités manuelles</ManualWorkPriorities.label>
-  <ManualWorkPriorities.helpText>Dans RimWorld il est capital de définir correctement les tâches qui incombent à vos colons. \n\nDe mauvais réglages peuvent laisser une tâche essentielle inachevée pendant longtemps pendant que les colons perdent du temps sur des tâches sans importance.\n\nPour avoir plus de contrôle sur ce que font les colons vous pouvez utiliser le mode "Priorité manuelle" dans l'onglet TRAVAIL.\n\nAvec ce mode, chaque type de tâche est associée à un numéro. Les colons effectueront en premier les tâches de priorité 1, de gauche à droite, puis les tâches de priorité 2 de gauche à droite, etc...\n\nL'utilisation intelligente de ces paramètres est essentielle pour une grande colonie bien automatisée.</ManualWorkPriorities.helpText>
-
-  <GettingMoreTraders.label>Obtenir plus de commerçants</GettingMoreTraders.label>
-  <GettingMoreTraders.helpText>Plus vous avez de factions alliées, plus les commerçants seront nombreux à vous rendre visite.\n\nSi vous n'avez aucun allié, aucun ne viendra !\n\nVous pouvez également payer des alliés pour qu'ils vous envoient une caravane marchande, en les appelant via la console de communication.</GettingMoreTraders.helpText>
-
-  <InspectRoomStats.label>Examiner les caractéristiques d'une salle</InspectRoomStats.label>
-  <InspectRoomStats.helpText>Vous pouvez inspecter la splendeur, le luxe et la beauté des pièces en utilisant l'icône correspondante en bas à droite.</InspectRoomStats.helpText>
-
-  <Outfits.label>Tenue vestimentaire</Outfits.label>
-  <Outfits.helpText>Les colons essayeront automatiquement de porter les vêtements les plus récents, et de meilleure qualité possible.\n\nVous n'avez pas besoin d'attribuer manuellement chaque vêtement aux colons (bien que vous le pouvez, si vous le souhaitez).\n\nPour définir la tenue vestimentaire de vos colons, ouvrez l'onglet ASSIGNATIONS, cliquer sur «Gérer les tenues vestimentaires» pour concevoir une nouvelle tenue, puis assignez la tenue désirée à chaque colon.</Outfits.helpText>
-
-  <FirePreparation.label>Prévention des incendies</FirePreparation.label>
-  <FirePreparation.helpText>Les incendies peuvent facilement ravager une colonie. Pour les vaincre, vous devez être prêt.
-\nCes quelques recommandations peuvent vous aider à réduire les dommages causés par les incendies :
-\n1. Au lieu de construire un "super-bâtiment", construisez des bâtiments distincts avec des espaces entre eux.
-\n2. Utilisez moins de matériaux inflammables. Le bois est bon marché et facile à obtenir, mais très inflammable.
-\n3. Mettez en place des coupe-feux pour empêcher les feux de forêt de s'approcher de votre base. Une dalle de béton de 3 ou 4 cases de largeur sera généralement suffisante pour stopper la progression du feu.</FirePreparation.helpText>
-
-  <HistoryTab.label>Onglet « HISTORIQUE »</HistoryTab.label>
-  <HistoryTab.helpText>Vous pouvez voir un historique des événements qui ont marqué votre colonie au fil du temps dans l'onglet HISTORIQUE de la fenêtre « Vue générale ».</HistoryTab.helpText>
-
+  
+  <!-- EN: Animal taming -->
+  <AnimalTaming.label>Apprivoisement d'un animal</AnimalTaming.label>
+  <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
+  <AnimalTaming.helpText>Vous pouvez assigner des colons à l'apprivoisement d'un animal sauvage avec le bouton APPRIVOISER.\n\nLes colons appâteront l'animal avec de la nourriture pour essayer de le domestiquer.\n\nAttention : certains animaux peuvent réagir violemment aux tentatives d'apprivoisement échouées.</AnimalTaming.helpText>
+  
+  <!-- EN: Animal training -->
+  <AnimalTraining.label>Domptage des animaux</AnimalTraining.label>
+  <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
+  <AnimalTraining.helpText>L'onglet ENTRAÎNER d'un animal apprivoisé vous permet de définir les aptitudes que vous voulez les voir développer.\n\nLes animaux ne peuvent pas être dressés continuellement, ils ont besoin de pause entre les sessions.</AnimalTraining.helpText>
+  
+  <!-- EN: Camera dolly -->
+  <CameraDolly.label>Mouvement de la caméra</CameraDolly.label>
+  <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
+  <CameraDolly.helpText>Déplacez la caméra avec la souris en maintenant le bouton droit (ou milieu) ou avec les touches   {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}.</CameraDolly.helpText>
+  
+  <!-- EN: Camera zoom -->
+  <CameraZoom.label>Zoom de la caméra</CameraZoom.label>
+  <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
+  <CameraZoom.helpText>Zoomez sur la carte avec la ROULETTE ou les touches {Key:MapZoomIn} et {Key:MapZoomOut}.</CameraZoom.helpText>
+  
+  <!-- EN: Clicking messages -->
   <ClickingMessages.label>Cliquer sur les notifications</ClickingMessages.label>
+  <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
   <ClickingMessages.helpText>Vous pouvez cliquer sur les notifications en haut à gauche de l'écran pour centrer la caméra directement sur les lieux de l'événement.</ClickingMessages.helpText>
-
-  <ShotAccuracyTooltip.label>Informations sur la précision de tir</ShotAccuracyTooltip.label>
-  <ShotAccuracyTooltip.helpText>Vous pouvez connaître les paramètres qui influeront sur la précision d'un tir.\n\nPour ce faire sélectionnez le tireur, puis placez votre souris sur la cible. L'info-bulle vous montrera la probabilité pour que la cible soit atteinte, ainsi que les facteurs qui influencent cette probabilité.</ShotAccuracyTooltip.helpText>
-
+  
+  <!-- EN: Cover and shooting -->
+  <CoverAndShooting.label>Couverture et tir</CoverAndShooting.label>
+  <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
+  <CoverAndShooting.helpText>La chose la plus importante à faire dans un combat à distance est de se couvrir.\n\nLes protections fonctionnent seulement si vos colons les touchent et si elles se trouvent entre vos colons et l'ennemi(s)\n\nVous pouvez également placer vos colons derrière les angles des murs. Ils se pencheront pour tirer.\n\nLa plupart des objets peuvent être utilisés comme couverture, mais certaines choses sont meilleures que d'autres. Se protéger derrière un arbre est mieux que d'être à découvert, mais c'est encore plus efficace de se couvrir derrière un sac de sable.</CoverAndShooting.helpText>
+  
+  <!-- EN: Item deterioration -->
+  <Deterioration.label>Détérioration des objets</Deterioration.label>
+  <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
+  <Deterioration.helpText>Les objets laissés à l'extérieur se dégradent progressivement.\n\nPour éviter cela, entreposez-les sous un toit.</Deterioration.helpText>
+  
+  <!-- EN: Equipping weapons -->
+  <EquippingWeapons.label>Équiper d'une arme</EquippingWeapons.label>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
+  <EquippingWeapons.helpText>Pour que votre colon s'équipe d'une arme, sélectionnez-le puis faites un clic-droit sur l'arme.\n\nÀ leur arrivée sur la planète, il y a des armes sur le sol près de votre point de départ.</EquippingWeapons.helpText>
+  
+  <!-- EN: Fire preparation -->
+  <FirePreparation.label>Prévention des incendies</FirePreparation.label>
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <FirePreparation.helpText>Les incendies peuvent facilement ravager une colonie. Pour les vaincre, vous devez être prêt.\n\nCes quelques recommandations peuvent vous aider à réduire les dommages causés par les incendies :\n\n1. Au lieu de construire un "super-bâtiment", construisez des bâtiments distincts avec des espaces entre eux.\n\n2. Utilisez moins de matériaux inflammables. Le bois est bon marché et facile à obtenir, mais très inflammable.\n\n3. Mettez en place des coupe-feux pour empêcher les feux de forêt de s'approcher de votre base. Une dalle de béton de 3 ou 4 cases de largeur sera généralement suffisante pour stopper la progression du feu.</FirePreparation.helpText>
+  
+  <!-- EN: Forbid and unforbid -->
+  <Forbidding.label>Autoriser/Interdire l'utilisation</Forbidding.label>
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to UNFORBID it. -->
+  <Forbidding.helpText>Les colons n'interagiront pas avec les objets marqués comme étant INTERDITS.\n\nCes objets interdits sont indiqués par un petit X rouge. Pour en autoriser l'utilisation à nouveau, sélectionnez un élément interdit et utilisez le bouton INTERDIRE en bas de la page.</Forbidding.helpText>
+  
+  <!-- EN: Forbidding doors -->
+  <ForbiddingDoors.label>Interdire les portes</ForbiddingDoors.label>
+  <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
+  <ForbiddingDoors.helpText>Vous pouvez INTERDIRE une porte afin que les colons et les animaux apprivoisés ne la franchissent pas.\n\nCependant, cela ne la ferme pas à clé : l'interdiction indique juste à vos colons qu'ils n'ont pas le droit d'utiliser la porte. Mais pour les ennemis, les portes sont toujours fermées à clé même si elles ne sont pas interdites. Enfin, les colons qui deviennent fous peuvent quand même utiliser les portes interdites.</ForbiddingDoors.helpText>
+  
+  <!-- EN: Forming caravans -->
+  <FormCaravan.label>Former une caravane</FormCaravan.label>
+  <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
+  <FormCaravan.helpText>Vous pouvez former une caravane pour envoyer des groupes de personnes voyager à travers la planète !\n\nDans l'onglet MONDE, sélectionnez votre propre base et ensuite cliquez sur "Former une caravane".</FormCaravan.helpText>
+  
+  <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Sécurité du tir allié</FriendlyFireSafety.label>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>Le tir d'un colon ne touchera jamais un allié si les deux personnes sont proches l'une de l'autre.\n\nPar exemple, vous pouvez placer un colon équipé d'une épée directement devant un autre colon équipé d'une arme à feu. Le tireur tirera au-dessus de l'épaule de son allié.\n\nC'est un bon moyen de combiner les combattants à distance et ceux de mêlée.</FriendlyFireSafety.helpText>
-
-
+  
+  <!-- EN: Getting more traders -->
+  <GettingMoreTraders.label>Obtenir plus de commerçants</GettingMoreTraders.label>
+  <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
+  <GettingMoreTraders.helpText>Plus vous avez de factions alliées, plus les commerçants seront nombreux à vous rendre visite.\n\nSi vous n'avez aucun allié, aucun ne viendra !\n\nVous pouvez également payer des alliés pour qu'ils vous envoient une caravane marchande, en les appelant via la console de communication.</GettingMoreTraders.helpText>
+  
+  <!-- EN: Growing zones -->
+  <GrowingFood.label>Zones agricoles</GrowingFood.label>
+  <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
+  <GrowingFood.helpText>Pour cultiver de la nourriture, créez une ZONE AGRICOLE en passant par le menu Architecte.\n\nSeuls les sols fertiles peuvent devenir des zones agricoles.</GrowingFood.helpText>
+  
+  <!-- EN: History tab -->
+  <HistoryTab.label>Onglet « HISTORIQUE »</HistoryTab.label>
+  <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
+  <HistoryTab.helpText>Vous pouvez voir un historique des événements qui ont marqué votre colonie au fil du temps dans l'onglet HISTORIQUE de la fenêtre « Vue générale ».</HistoryTab.helpText>
+  
+  <!-- EN: Home area -->
+  <HomeArea.label>Zone de base</HomeArea.label>
+  <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
+  <HomeArea.helpText>La ZONE DE BASE symbolise le périmètre que vos colons doivent activement entretenir. Les colons nettoieront cette zone et éteindront les incendies dans ce périmètre.\n\nVous pouvez définir la ZONE DE BASE dans la catégorie « Zones » du menu Architecte.</HomeArea.helpText>
+  
+  <!-- EN: Hostility response modes -->
+  <HostilityResponse.label>Attitude en cas de comportement hostile</HostilityResponse.label>
+  <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
+  <HostilityResponse.helpText>Vous pouvez déterminer la manière dont répondront automatiquement vos colons s'ils sont confrontés à des menaces telles que des prédateurs.\n\nChoisissez FUIR, ATTAQUER, ou IGNORER dans l'onglet ASSIGNATIONS.</HostilityResponse.helpText>
+  
+  <!-- EN: Info card -->
+  <InfoCard.label>Onglet d'information</InfoCard.label>
+  <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
+  <InfoCard.helpText>L'onglet d'information vous montre les statistiques détaillées des personnes, objets ou constructions.\n\nSélectionnez une personne ou un objet et cliquez sur le « i » du panneau d'inspection pour l'ouvrir.</InfoCard.helpText>
+  
+  <!-- EN: Room stats inspector -->
+  <InspectRoomStats.label>Examiner les caractéristiques d'une salle</InspectRoomStats.label>
+  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
+  <InspectRoomStats.helpText>Vous pouvez inspecter la splendeur, le luxe et la beauté des pièces en utilisant l'icône correspondante en bas à droite.</InspectRoomStats.helpText>
+  
+  <!-- EN: Manual work priorities -->
+  <ManualWorkPriorities.label>Priorités manuelles</ManualWorkPriorities.label>
+  <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
+  <ManualWorkPriorities.helpText>Dans RimWorld il est capital de définir correctement les tâches qui incombent à vos colons. \n\nDe mauvais réglages peuvent laisser une tâche essentielle inachevée pendant longtemps pendant que les colons perdent du temps sur des tâches sans importance.\n\nPour avoir plus de contrôle sur ce que font les colons vous pouvez utiliser le mode "Priorité manuelle" dans l'onglet TRAVAIL.\n\nAvec ce mode, chaque type de tâche est associée à un numéro. Les colons effectueront en premier les tâches de priorité 1, de gauche à droite, puis les tâches de priorité 2 de gauche à droite, etc...\n\nL'utilisation intelligente de ces paramètres est essentielle pour une grande colonie bien automatisée.</ManualWorkPriorities.helpText>
+  
+  <!-- EN: Medical operations -->
+  <MedicalOperations.label>Opérations chirurgicales</MedicalOperations.label>
+  <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
+  <MedicalOperations.helpText>Pour définir une opération chirurgicale, comme un prélèvement d'organe ou la mise place d'une prothèse, cliquez sur l'onglet SANTÉ d'un colon, puis sur OPÉRATIONS.</MedicalOperations.helpText>
+  
+  <!-- EN: Mining -->
+  <Mining.label>Minage</Mining.label>
+  <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
+  <Mining.helpText>Vous pouvez indiquer un endroit à miner en ouvrant le menu ARCHITECTE et en sélectionnant l'onglet ORDRES.\n\nCertains blocs exploitables donnent de l'acier, de l'or, et d'autres matériaux utiles.</Mining.helpText>
+  
+  <!-- EN: Outfits -->
+  <Outfits.label>Tenue vestimentaire</Outfits.label>
+  <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists. -->
+  <Outfits.helpText>Les colons essayeront automatiquement de porter les vêtements les plus récents, et de meilleure qualité possible.\n\nVous n'avez pas besoin d'attribuer manuellement chaque vêtement aux colons (bien que vous le pouvez, si vous le souhaitez).\n\nPour définir la tenue vestimentaire de vos colons, ouvrez l'onglet ASSIGNATIONS, cliquer sur «Gérer les tenues vestimentaires» pour concevoir une nouvelle tenue, puis assignez la tenue désirée à chaque colon.</Outfits.helpText>
+  
+  <!-- EN: Pausing -->
+  <Pause.label>Pause</Pause.label>
+  <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
+  <Pause.helpText>Appuyez sur {Key:TogglePause} pour mettre en pause ou non le jeu.\n\nVous pouvez donner des ordres quand le jeu est en pause.\n\nSouvenez-vous, en cas de panique, appuyez sur {Key:TogglePause} !</Pause.helpText>
+  
+  <!-- EN: Shot accuracy tooltip -->
+  <ShotAccuracyTooltip.label>Informations sur la précision de tir</ShotAccuracyTooltip.label>
+  <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
+  <ShotAccuracyTooltip.helpText>Vous pouvez connaître les paramètres qui influeront sur la précision d'un tir.\n\nPour ce faire sélectionnez le tireur, puis placez votre souris sur la cible. L'info-bulle vous montrera la probabilité pour que la cible soit atteinte, ainsi que les facteurs qui influencent cette probabilité.</ShotAccuracyTooltip.helpText>
+  
+  <!-- EN: Spoilage and freezers -->
+  <SpoilageAndFreezers.label>Détérioration et congélateurs</SpoilageAndFreezers.label>
+  <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
+  <SpoilageAndFreezers.helpText>La plupart des produits alimentaires pourrissent après un temps relativement court.\n\nPour éviter cela, vous pouvez construire une chambre froide.\n\nPour cela, construisez une pièce fermée et placez-y un ou deux climatiseurs dans le mur, puis réglez les climatiseurs à une température négative.\n\nLa nourriture congelée ne pourrit jamais.</SpoilageAndFreezers.helpText>
+  
+  <!-- EN: Stockpiles -->
+  <Stockpiles.label>Zones de stockage</Stockpiles.label>
+  <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
+  <Stockpiles.helpText>Vos colons ont besoin d'un endroit où stocker leurs ressources. Désignez une zone de stockage pour qu'ils s'en servent.\n\nLa zone de stockage se trouve dans la section ZONES du menu ARCHITECTE en bas à gauche de l'écran.</Stockpiles.helpText>
+  
+  <!-- EN: Storage tab -->
+  <StorageTab.label>Gestion des espaces de stockage</StorageTab.label>
+  <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
+  <StorageTab.helpText>Vous pouvez configurer les zones de stockage et les casiers d'équipement en les sélectionnant et en ouvrant l'onglet STOCKAGE, en bas à gauche de l'écran.\n\nDans l'onglet de stockage, naviguez à travers les catégories pour autoriser ou interdire certains types d'objets.\n\nVous pouvez changer la priorité d'une zone de stockage : les colons vont utiliser les zones de stockage à priorité haute en premier, et déplacer les objets stockés dans des zones à faible priorité vers celles à haute priorité.</StorageTab.helpText>
+  
+  <!-- EN: Time assignments -->
+  <TimeAssignments.label>Emploi du temps</TimeAssignments.label>
+  <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
+  <TimeAssignments.helpText>Vous pouvez modifier ou définir un emploi du temps à vos colons via l'onglet RESTRICTIONS.</TimeAssignments.helpText>
+  
+  <!-- EN: Time controls -->
+  <TimeControls.label>Régler l'écoulement du temps</TimeControls.label>
+  <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.helpText>Vous pouvez accélérer, ralentir ou arrêter le temps.\n\nEssayez avec les touches {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, et {Key:TimeSpeedSuperfast}, ou en utilisant le menu en bas à droite de l'écran.</TimeControls.helpText>
+  
+  <!-- EN: Work settings -->
+  <WorkTab.label>Définir les tâches</WorkTab.label>
+  <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
+  <WorkTab.helpText>Vous pouvez définir les tâches de chaque colon dans l'onglet TRAVAIL, en bas à gauche de l'écran.\n\nIls effectueront toujours la tâche la plus urgente en premier.\n\nLes colons n'effectueront jamais une tâche à laquelle ils ne sont pas affectés.\n\nSi, pour une tâche, personne n'est affecté, ou que de trop nombreuses autres tâches sont prioritaires par rapport à celle-ci, elle risque de ne jamais être effectuée.</WorkTab.helpText>
+  
 </LanguageData>

@@ -1,77 +1,151 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Caméra en jeu -->
-
-  <MapDollyUp.label>monter</MapDollyUp.label>
-  <MapDollyDown.label>descendre</MapDollyDown.label>
-  <MapDollyLeft.label>gauche</MapDollyLeft.label>
-  <MapDollyRight.label>droite</MapDollyRight.label>
-  <MapZoomIn.label>zoom avant</MapZoomIn.label>
-  <MapZoomOut.label>zoom arrière</MapZoomOut.label>
-
-
-  <!-- Capture d'écran et vitesse du jeu -->
-
-  <TakeScreenshot.label>prendre une capture d'écran</TakeScreenshot.label>
-  <ToggleScreenshotMode.label>activer le mode capture d'écran</ToggleScreenshotMode.label>
-  <SelectNextInCell.label>sélectionner la cellule suivante</SelectNextInCell.label>
-  <TogglePause.label>pause / Reprendre</TogglePause.label>
-  <TimeSpeedNormal.label>vitesse de jeu : normale</TimeSpeedNormal.label>
-  <TimeSpeedFast.label>vitesse de jeu : rapide</TimeSpeedFast.label>
-  <TimeSpeedSuperfast.label>vitesse de jeu : très rapide</TimeSpeedSuperfast.label>
-  <TimeSpeedUltrafast.label>vitesse de jeu : ultra rapide (Debug)</TimeSpeedUltrafast.label>
-  <PreviousColonist.label>colon précédent</PreviousColonist.label>
-  <NextColonist.label>colon suivant</NextColonist.label>
-
-
-  <!-- Divers (ré-utilisé) -->
-
+  
+  <!-- EN: accept -->
+  <Accept.label>TODO</Accept.label>
+  
+  <!-- EN: cancel -->
+  <Cancel.label>TODO</Cancel.label>
+  
+  <!-- EN: draft -->
+  <Command_ColonistDraft.label>mobiliser / Démobiliser</Command_ColonistDraft.label>
+  
+  <!-- EN: toggle forbidden -->
+  <Command_ItemForbid.label>interdire / Autoriser</Command_ItemForbid.label>
+  
+  <!-- EN: toggle power -->
+  <Command_TogglePower.label>alimenter / Éteindre</Command_TogglePower.label>
+  
+  <!-- EN: cancel -->
+  <Designator_Cancel.label>annuler</Designator_Cancel.label>
+  
+  <!-- EN: deconstruct -->
+  <Designator_Deconstruct.label>démonter</Designator_Deconstruct.label>
+  
+  <!-- EN: rotate left -->
+  <Designator_RotateLeft.label>rotation gauche</Designator_RotateLeft.label>
+  
+  <!-- EN: rotate right -->
+  <Designator_RotateRight.label>rotation droite</Designator_RotateRight.label>
+  
+  <!-- EN: tick once -->
+  <Dev_TickOnce.label>faire passer un instant</Dev_TickOnce.label>
+  
+  <!-- EN: toggle debug actions menu -->
+  <Dev_ToggleDebugActionsMenu.label>activer le menu d'action</Dev_ToggleDebugActionsMenu.label>
+  
+  <!-- EN: toggle debug inspector -->
+  <Dev_ToggleDebugInspector.label>activer l'inspecteur de bogues</Dev_ToggleDebugInspector.label>
+  
+  <!-- EN: toggle debug log -->
+  <Dev_ToggleDebugLog.label>activer le journal de débogage</Dev_ToggleDebugLog.label>
+  
+  <!-- EN: toggle debug log menu -->
+  <Dev_ToggleDebugLogMenu.label>activer le menu du journal de débogage</Dev_ToggleDebugLogMenu.label>
+  
+  <!-- EN: toggle debug settings menu -->
+  <Dev_ToggleDebugSettingsMenu.label>paramètres du mode de débogage</Dev_ToggleDebugSettingsMenu.label>
+  
+  <!-- EN: toggle god mode -->
+  <Dev_ToggleGodMode.label>mode dieu</Dev_ToggleGodMode.label>
+  
+  <!-- EN: dolly down -->
+  <MapDolly_Down.label>descendre</MapDolly_Down.label>
+  
+  <!-- EN: dolly left -->
+  <MapDolly_Left.label>gauche</MapDolly_Left.label>
+  
+  <!-- EN: dolly right -->
+  <MapDolly_Right.label>droite</MapDolly_Right.label>
+  
+  <!-- EN: dolly up -->
+  <MapDolly_Up.label>monter</MapDolly_Up.label>
+  
+  <!-- EN: zoom in -->
+  <MapZoom_In.label>zoom avant</MapZoom_In.label>
+  
+  <!-- EN: zoom out -->
+  <MapZoom_Out.label>zoom arrière</MapZoom_Out.label>
+  
+  <!-- EN: Misc 1 -->
   <Misc1.label>Divers 1</Misc1.label>
-  <Misc2.label>Divers 2</Misc2.label>
-  <Misc3.label>Divers 3</Misc3.label>
-  <Misc4.label>Divers 4</Misc4.label>
-  <Misc5.label>Divers 5</Misc5.label>
-  <Misc6.label>Divers 6</Misc6.label>
-  <Misc7.label>Divers 7</Misc7.label>
-  <Misc8.label>Divers 8</Misc8.label>
-  <Misc9.label>Divers 9</Misc9.label>
+  
+  <!-- EN: Misc 10 -->
   <Misc10.label>Divers 10</Misc10.label>
+  
+  <!-- EN: Misc 11 -->
   <Misc11.label>Divers 11</Misc11.label>
+  
+  <!-- EN: Misc 12 -->
   <Misc12.label>Divers 12</Misc12.label>
-
-
-  <!-- Sélection spéciale -->
-
-  <CommandTogglePower.label>alimenter / Éteindre</CommandTogglePower.label>
-  <CommandItemForbid.label>interdire / Autoriser</CommandItemForbid.label>
-  <CommandColonistDraft.label>mobiliser / Démobiliser</CommandColonistDraft.label>
-
-
-  <!-- Architecte : classique -->
-
-  <DesignatorCancel.label>annuler</DesignatorCancel.label>
-  <DesignatorDeconstruct.label>démonter</DesignatorDeconstruct.label>
-  <DesignatorRotateLeft.label>rotation gauche</DesignatorRotateLeft.label>
-  <DesignatorRotateRight.label>rotation droite</DesignatorRotateRight.label>
-
-
-  <!-- Modificateurs -->
-
-  <ModifierIncrement10x.label>incrémenter 10x</ModifierIncrement10x.label>
-  <ModifierIncrement100x.label>incrémenter 100x</ModifierIncrement100x.label>
+  
+  <!-- EN: Misc 2 -->
+  <Misc2.label>Divers 2</Misc2.label>
+  
+  <!-- EN: Misc 3 -->
+  <Misc3.label>Divers 3</Misc3.label>
+  
+  <!-- EN: Misc 4 -->
+  <Misc4.label>Divers 4</Misc4.label>
+  
+  <!-- EN: Misc 5 -->
+  <Misc5.label>Divers 5</Misc5.label>
+  
+  <!-- EN: Misc 6 -->
+  <Misc6.label>Divers 6</Misc6.label>
+  
+  <!-- EN: Misc 7 -->
+  <Misc7.label>Divers 7</Misc7.label>
+  
+  <!-- EN: Misc 8 -->
+  <Misc8.label>Divers 8</Misc8.label>
+  
+  <!-- EN: Misc 9 -->
+  <Misc9.label>Divers 9</Misc9.label>
+  
+  <!-- EN: increment 100x -->
+  <ModifierIncrement_100x.label>incrémenter 100x</ModifierIncrement_100x.label>
+  
+  <!-- EN: increment 10x -->
+  <ModifierIncrement_10x.label>incrémenter 10x</ModifierIncrement_10x.label>
+  
+  <!-- EN: next colonist -->
+  <NextColonist.label>colon suivant</NextColonist.label>
+  
+  <!-- EN: previous colonist -->
+  <PreviousColonist.label>colon précédent</PreviousColonist.label>
+  
+  <!-- EN: queue order -->
   <QueueOrder.label>définir une succession de tâches à accomplir</QueueOrder.label>
-
-
-  <!-- Débogage -->
-
-  <TickOnce.label>faire passer un instant</TickOnce.label>
-  <ToggleGodMode.label>mode dieu</ToggleGodMode.label>
-  <ToggleDebugLog.label>activer le journal de débogage</ToggleDebugLog.label>
-  <ToggleDebugActionsMenu.label>activer le menu d'action</ToggleDebugActionsMenu.label>
-  <ToggleDebugLogMenu.label>activer le menu du journal de débogage</ToggleDebugLogMenu.label>
-  <ToggleDebugInspector.label>activer l'inspecteur de bogues</ToggleDebugInspector.label>
-  <ToggleDebugSettingsMenu.label>paramètres du mode de débogage</ToggleDebugSettingsMenu.label>
-
-
+  
+  <!-- EN: select next in cell -->
+  <SelectNextInCell.label>sélectionner la cellule suivante</SelectNextInCell.label>
+  
+  <!-- EN: take screenshot -->
+  <TakeScreenshot.label>prendre une capture d'écran</TakeScreenshot.label>
+  
+  <!-- EN: game speed: Fast -->
+  <TimeSpeed_Fast.label>vitesse de jeu : rapide</TimeSpeed_Fast.label>
+  
+  <!-- EN: game speed: Normal -->
+  <TimeSpeed_Normal.label>vitesse de jeu : normale</TimeSpeed_Normal.label>
+  
+  <!-- EN: game speed: Super fast -->
+  <TimeSpeed_Superfast.label>vitesse de jeu : très rapide</TimeSpeed_Superfast.label>
+  
+  <!-- EN: game speed: Ultra fast (debug) -->
+  <TimeSpeed_Ultrafast.label>vitesse de jeu : ultra rapide (Debug)</TimeSpeed_Ultrafast.label>
+  
+  <!-- EN: toggle beauty display -->
+  <ToggleBeautyDisplay.label>TODO</ToggleBeautyDisplay.label>
+  
+  <!-- EN: pause/resume game -->
+  <TogglePause.label>pause / Reprendre</TogglePause.label>
+  
+  <!-- EN: toggle room stats display -->
+  <ToggleRoomStatsDisplay.label>TODO</ToggleRoomStatsDisplay.label>
+  
+  <!-- EN: toggle screenshot mode -->
+  <ToggleScreenshotMode.label>activer le mode capture d'écran</ToggleScreenshotMode.label>
+  
 </LanguageData>

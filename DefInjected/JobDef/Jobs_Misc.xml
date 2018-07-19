@@ -1,70 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Général -->
-
-  <Goto.reportString>se déplace.</Goto.reportString>
-  <GotoSafeTemperature.reportString>cherche un endroit frais.</GotoSafeTemperature.reportString>
-  <GotoWander.reportString>erre.</GotoWander.reportString>
-  <Wait.reportString>attend.</Wait.reportString>
-  <WaitMaintainPosture.reportString>immobile.</WaitMaintainPosture.reportString>
-  <WaitDowned.reportString>gît au sol.</WaitDowned.reportString>
-  <WaitSafeTemperature.reportString>reste au frais.</WaitSafeTemperature.reportString>
-  <WaitWander.reportString>attend sans rien faire.</WaitWander.reportString>
-  <WaitCombat.reportString>surveille les cibles.</WaitCombat.reportString>
-  <AttackStatic.reportString>tire sur TargetA.</AttackStatic.reportString>
+  
+  <!-- EN: melee attacking TargetA. -->
   <AttackMelee.reportString>attaque TargetA au corps-à-corps.</AttackMelee.reportString>
-  <SocialFight.reportString>se bat avec TargetA.</SocialFight.reportString>
-  <UseVerbOnThing.reportString>Fait quelque chose.</UseVerbOnThing.reportString>
-  <Equip.reportString>s'équipe d'un(e) TargetA.</Equip.reportString>
-  <TakeInventory.reportString>prend TargetA.</TakeInventory.reportString>
-  <GiveToPackAnimal.reportString>prend TargetA.</GiveToPackAnimal.reportString>
-  <Wear.reportString>enfile un(e) TargetA.</Wear.reportString>
-  <RemoveApparel.reportString>retire son/sa TargetA.</RemoveApparel.reportString>
-  <DropEquipment.reportString>se débarrasse de son/sa TargetA.</DropEquipment.reportString>
-  <Strip.reportString>déshabille TargetA.</Strip.reportString>
-  <Open.reportString>ouvre TargetA.</Open.reportString>
-  <RearmTrap.reportString>réarme TargetA.</RearmTrap.reportString>
-  <Refuel.reportString>ravitaille TargetA.</Refuel.reportString>
-  <FillFermentingBarrel.reportString>remplit un baril de fermentation.</FillFermentingBarrel.reportString>
-  <TakeBeerOutOfFermentingBarrel.reportString>met la bière en bouteille.</TakeBeerOutOfFermentingBarrel.reportString>
-  <UnloadInventory.reportString>décharge TargetA.</UnloadInventory.reportString>
-  <UnloadYourInventory.reportString>décharge l'inventaire.</UnloadYourInventory.reportString>
-  <ManTurret.reportString>utilise un mortier.</ManTurret.reportString>
-  <EnterCryptosleepCasket.reportString>entre dans la capsule d'hypersommeil.</EnterCryptosleepCasket.reportString>
-  <UseNeurotrainer.reportString>utilise un neuro-entraîneur.</UseNeurotrainer.reportString>
-  <UseArtifact.reportString>active un artéfact.</UseArtifact.reportString>
-  <UseItem.reportString>utilise TargetA.</UseItem.reportString>
-  <TriggerFirefoamPopper.reportString>déclenche manuellement l'extincteur.</TriggerFirefoamPopper.reportString>
-  <ClearSnow.reportString>déblaie la neige.</ClearSnow.reportString>
-  <Vomit.reportString>en train de vomir.</Vomit.reportString>
-  <Flick.reportString>active un interrupteur.</Flick.reportString>
-  <TradeWithPawn.reportString>commerce avec TargetA.</TradeWithPawn.reportString>
-  <Flee.reportString>en train de fuir.</Flee.reportString>
-  <FleeAndCower.reportString>bat en retraite.</FleeAndCower.reportString>
-  <EnterTransporter.reportString>entre dans TargetA.</EnterTransporter.reportString>
-  <Resurrect.reportString>ressuscite TargetA.</Resurrect.reportString>
-  <Insult.reportString>insulte TargetA.</Insult.reportString>
-  <HaulCorpseToPublicPlace.reportString>porte TargetA.</HaulCorpseToPublicPlace.reportString>
-  <InducePrisonerToEscape.reportString>incite TargetA à s'échapper.</InducePrisonerToEscape.reportString>
-
-
-  <!-- Feu -->
-
-  <Ignite.reportString>met le feu à TargetA.</Ignite.reportString>
+  
+  <!-- EN: attacking TargetA. -->
+  <AttackStatic.reportString>tire sur TargetA.</AttackStatic.reportString>
+  
+  <!-- EN: beating fire out. -->
   <BeatFire.reportString>combat le feu.</BeatFire.reportString>
+  
+  <!-- EN: clearing snow. -->
+  <ClearSnow.reportString>déblaie la neige.</ClearSnow.reportString>
+  
+  <!-- EN: dropping TargetA. -->
+  <DropEquipment.reportString>se débarrasse de son/sa TargetA.</DropEquipment.reportString>
+  
+  <!-- EN: entering cryptosleep casket. -->
+  <EnterCryptosleepCasket.reportString>entre dans la capsule d'hypersommeil.</EnterCryptosleepCasket.reportString>
+  
+  <!-- EN: entering TargetA. -->
+  <EnterTransporter.reportString>entre dans TargetA.</EnterTransporter.reportString>
+  
+  <!-- EN: equipping TargetA. -->
+  <Equip.reportString>s'équipe d'un(e) TargetA.</Equip.reportString>
+  
+  <!-- EN: extinguishing self. -->
   <ExtinguishSelf.reportString>tente d'étouffer les flammes.</ExtinguishSelf.reportString>
-
-
-  <!-- Satisfaction d'un besoin primaire -->
-
+  
+  <!-- EN: filling TargetA. -->
+  <FillFermentingBarrel.reportString>remplit un baril de fermentation.</FillFermentingBarrel.reportString>
+  
+  <!-- EN: fleeing. -->
+  <Flee.reportString>en train de fuir.</Flee.reportString>
+  
+  <!-- EN: fleeing. -->
+  <FleeAndCower.reportString>bat en retraite.</FleeAndCower.reportString>
+  
+  <!-- EN: flicking switch. -->
+  <Flick.reportString>active un interrupteur.</Flick.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <Follow.reportString>TODO</Follow.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <FollowClose.reportString>TODO</FollowClose.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <GiveToPackAnimal.reportString>prend TargetA.</GiveToPackAnimal.reportString>
+  
+  <!-- EN: moving. -->
+  <Goto.reportString>se déplace.</Goto.reportString>
+  
+  <!-- EN: seeking safe temperature. -->
+  <GotoSafeTemperature.reportString>cherche un endroit frais.</GotoSafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <GotoWander.reportString>erre.</GotoWander.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulCorpseToPublicPlace.reportString>porte TargetA.</HaulCorpseToPublicPlace.reportString>
+  
+  <!-- EN: igniting TargetA. -->
+  <Ignite.reportString>met le feu à TargetA.</Ignite.reportString>
+  
+  <!-- EN: inducing TargetA to escape. -->
+  <InducePrisonerToEscape.reportString>incite TargetA à s'échapper.</InducePrisonerToEscape.reportString>
+  
+  <!-- EN: consuming TargetA. -->
   <Ingest.reportString>mange TargetA.</Ingest.reportString>
+  
+  <!-- EN: insulting TargetA. -->
+  <Insult.reportString>insulte TargetA.</Insult.reportString>
+  
+  <!-- EN: lying down. -->
   <LayDown.reportString>se repose.</LayDown.reportString>
-
-
-  <!-- Amour -->
-
+  
+  <!-- EN: lovin'. -->
   <Lovin.reportString>fait l'amour.</Lovin.reportString>
-
-
+  
+  <!-- EN: operating turret. -->
+  <ManTurret.reportString>utilise un mortier.</ManTurret.reportString>
+  
+  <!-- EN: opening TargetA. -->
+  <Open.reportString>ouvre TargetA.</Open.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTrap.reportString>réarme TargetA.</RearmTrap.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurret.reportString>TODO</RearmTurret.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurretAtomic.reportString>TODO</RearmTurretAtomic.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <Refuel.reportString>ravitaille TargetA.</Refuel.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <RefuelAtomic.reportString>TODO</RefuelAtomic.reportString>
+  
+  <!-- EN: removing TargetA. -->
+  <RemoveApparel.reportString>retire son/sa TargetA.</RemoveApparel.reportString>
+  
+  <!-- EN: resurrecting TargetA. -->
+  <Resurrect.reportString>ressuscite TargetA.</Resurrect.reportString>
+  
+  <!-- EN: fighting with TargetA. -->
+  <SocialFight.reportString>se bat avec TargetA.</SocialFight.reportString>
+  
+  <!-- EN: stripping TargetA. -->
+  <Strip.reportString>déshabille TargetA.</Strip.reportString>
+  
+  <!-- EN: taking beer out of TargetA. -->
+  <TakeBeerOutOfFermentingBarrel.reportString>met la bière en bouteille.</TakeBeerOutOfFermentingBarrel.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <TakeInventory.reportString>prend TargetA.</TakeInventory.reportString>
+  
+  <!-- EN: trading with TargetA. -->
+  <TradeWithPawn.reportString>commerce avec TargetA.</TradeWithPawn.reportString>
+  
+  <!-- EN: triggering firefoam popper. -->
+  <TriggerFirefoamPopper.reportString>déclenche manuellement l'extincteur.</TriggerFirefoamPopper.reportString>
+  
+  <!-- EN: unloading TargetA. -->
+  <UnloadInventory.reportString>décharge TargetA.</UnloadInventory.reportString>
+  
+  <!-- EN: unloading inventory. -->
+  <UnloadYourInventory.reportString>décharge l'inventaire.</UnloadYourInventory.reportString>
+  
+  <!-- EN: activating artifact. -->
+  <UseArtifact.reportString>active un artéfact.</UseArtifact.reportString>
+  
+  <!-- EN: using TargetA. -->
+  <UseItem.reportString>utilise TargetA.</UseItem.reportString>
+  
+  <!-- EN: using neurotrainer. -->
+  <UseNeurotrainer.reportString>utilise un neuro-entraîneur.</UseNeurotrainer.reportString>
+  
+  <!-- EN: Doing something. -->
+  <UseVerbOnThing.reportString>Fait quelque chose.</UseVerbOnThing.reportString>
+  
+  <!-- EN: vomiting. -->
+  <Vomit.reportString>en train de vomir.</Vomit.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait.reportString>attend.</Wait.reportString>
+  
+  <!-- EN: watching for targets. -->
+  <Wait_Combat.reportString>surveille les cibles.</Wait_Combat.reportString>
+  
+  <!-- EN: downed. -->
+  <Wait_Downed.reportString>gît au sol.</Wait_Downed.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait_MaintainPosture.reportString>immobile.</Wait_MaintainPosture.reportString>
+  
+  <!-- EN: waiting in safe temperature. -->
+  <Wait_SafeTemperature.reportString>reste au frais.</Wait_SafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <Wait_Wander.reportString>attend sans rien faire.</Wait_Wander.reportString>
+  
+  <!-- EN: wearing TargetA. -->
+  <Wear.reportString>enfile un(e) TargetA.</Wear.reportString>
+  
 </LanguageData>

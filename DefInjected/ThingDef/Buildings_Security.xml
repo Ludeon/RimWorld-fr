@@ -1,119 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Sandbags.label>sacs de sable</Sandbags.label>
-  <Sandbags.description>Une couverture pour les fusillades.</Sandbags.description>
-  <Sandbags_Blueprint.label>sacs de sable (plan)</Sandbags_Blueprint.label>
-  <Sandbags_Frame.label>un sac de sable</Sandbags_Frame.label>
-  <Sandbags_Frame.description>Une couverture pour les fusillades.</Sandbags_Frame.description>
-
-
-  <!-- Improvised turret -->
-
-  <TurretGun.label>tourelle improvisée</TurretGun.label>
-  <TurretGun.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami.</TurretGun.description>
-  <TurretGun_Blueprint.label>tourelle improvisée (plan)</TurretGun_Blueprint.label>
-  <TurretGun_Blueprint_Install.label>tourelle improvisée (nouvel emplacement)</TurretGun_Blueprint_Install.label>
-  <TurretGun_Frame.label>une tourelle improvisée</TurretGun_Frame.label>
-  <TurretGun_Frame.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami</TurretGun_Frame.description>
-
-  <Bullet_TurretImprovised.label>balle de tourelle improvisée</Bullet_TurretImprovised.label>
-
-  <Gun_TurretImprovised.label>pistolet de tourelle improvisée</Gun_TurretImprovised.label>
-  <Gun_TurretImprovised.description>Bricolage d'une arme sur une tourelle.</Gun_TurretImprovised.description>
-
-
-  <!-- Mortar turret -->
-
-  <Turret_Mortar.label>mortier</Turret_Mortar.label>
-  <Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Explose si endommagé.</Turret_Mortar.description>
-  <Turret_Mortar_Blueprint.label>mortier (plan)</Turret_Mortar_Blueprint.label>
-  <Turret_Mortar_Blueprint_Install.label>mortier (nouvel emplacement)</Turret_Mortar_Blueprint_Install.label>
-  <Turret_Mortar_Frame.label>mortier (building)</Turret_Mortar_Frame.label>
-  <Turret_Mortar_Frame.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Explose si endommagé.</Turret_Mortar_Frame.description>
-
+  
+  <!-- EN: mortar -->
   <Artillery_Mortar.label>mortier</Artillery_Mortar.label>
+  <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
   <Artillery_Mortar.description>Les mortiers tirent des obus par-dessus les murs. Ils sont très peu précis mais à long rayon d'action.</Artillery_Mortar.description>
-
-
-  <!-- Traps -->
-
+  <!-- EN: mortar -->
+  <Artillery_Mortar.verbs.Verb_Shoot.label>TODO</Artillery_Mortar.verbs.Verb_Shoot.label>
+  
+  <!-- UNUSED -->
+  <Blueprint_Install_TurretGun.label>tourelle improvisée (nouvel emplacement)</Blueprint_Install_TurretGun.label>
+  
+  <!-- UNUSED -->
+  <Blueprint_TurretGun.label>tourelle improvisée (plan)</Blueprint_TurretGun.label>
+  
+  <!-- EN: autocannon shell -->
+  <Bullet_AutocannonTurret.label>TODO</Bullet_AutocannonTurret.label>
+  
+  <!-- EN: mini-turret bullet -->
+  <Bullet_MiniTurret.label>balle de tourelle improvisée</Bullet_MiniTurret.label>
+  
+  <!-- EN: sniper shell -->
+  <Bullet_TurretSniper.label>TODO</Bullet_TurretSniper.label>
+  
+  <!-- UNUSED -->
+  <Frame_TurretGun.label>une tourelle improvisée</Frame_TurretGun.label>
+  <Frame_TurretGun.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami</Frame_TurretGun.description>
+  
+  <!-- EN: autocannon -->
+  <Gun_AutocannonTurret.label>TODO</Gun_AutocannonTurret.label>
+  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
+  <Gun_AutocannonTurret.description>TODO</Gun_AutocannonTurret.description>
+  <!-- EN: autocannon -->
+  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>TODO</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-turret gun -->
+  <Gun_MiniTurret.label>pistolet de tourelle improvisée</Gun_MiniTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_MiniTurret.description>Bricolage d'une arme sur une tourelle.</Gun_MiniTurret.description>
+  <!-- EN: mini-turret gun -->
+  <Gun_MiniTurret.verbs.Verb_Shoot.label>TODO</Gun_MiniTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: sniper cannon -->
+  <Gun_TurretSniper.label>TODO</Gun_TurretSniper.label>
+  <!-- EN: A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets. -->
+  <Gun_TurretSniper.description>TODO</Gun_TurretSniper.description>
+  <!-- EN: sniper cannon -->
+  <Gun_TurretSniper.verbs.Verb_Shoot.label>TODO</Gun_TurretSniper.verbs.Verb_Shoot.label>
+  
+  <!-- EN: sandbags -->
+  <Sandbags.label>sacs de sable</Sandbags.label>
+  <!-- EN: Bags of locally-sourced dirt or sand held in place by steel rods. Sandbags are ugly, but provide excellent cover from ranged attacks. -->
+  <Sandbags.description>Une couverture pour les fusillades.</Sandbags.description>
+  
+  <!-- EN: deadfall trap -->
   <TrapDeadfall.label>piège mécanique</TrapDeadfall.label>
+  <!-- EN: A suspended spiked weight held up by a delicate trigger. When the victim disturbs the trigger, the weight is released and falls on his head or torso. -->
   <TrapDeadfall.description>Une pointe lestée suspendue et maintenue par un déclencheur délicat. Quand ce déclencheur est activé, la pointe est libérée et tombe sur la tête ou le torse de la victime.</TrapDeadfall.description>
-  <TrapDeadfall_Blueprint.label>piège mécanique (plan)</TrapDeadfall_Blueprint.label>
-  <TrapDeadfall_Frame.label>un piège mécanique</TrapDeadfall_Frame.label>
-  <TrapDeadfall_Frame.description>Une pointe lestée suspendue et maintenue par un déclencheur délicat. Quand ce déclencheur est activé, la pointe est libérée et tombe sur la tête ou le torse de la victime.</TrapDeadfall_Frame.description>
-
-  <TrapIED_HighExplosive.label>piège explosif improvisé</TrapIED_HighExplosive.label>
-  <TrapIED_HighExplosive.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIED_HighExplosive.description>
-  <TrapIED_HighExplosive_Blueprint.label>piège explosif improvisé (plan)</TrapIED_HighExplosive_Blueprint.label>
-  <TrapIED_HighExplosive_Frame.label>piège explosif improvisé</TrapIED_HighExplosive_Frame.label>
-  <TrapIED_HighExplosive_Frame.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIED_HighExplosive_Frame.description>
-
-  <TrapIED_Incendiary.label>piège incendiaire improvisé</TrapIED_Incendiary.label>
-  <TrapIED_Incendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable.</TrapIED_Incendiary.description>
-  <TrapIED_Incendiary_Blueprint.label>piège incendiaire improvisé (plan)</TrapIED_Incendiary_Blueprint.label>
-  <TrapIED_Incendiary_Frame.label>piège incendiaire improvisé</TrapIED_Incendiary_Frame.label>
-  <TrapIED_Incendiary_Frame.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable.</TrapIED_Incendiary_Frame.description>
-
-  <TrapIED_EMP.label>piège EMP improvisé</TrapIED_EMP.label>
-  <TrapIED_EMP.description>Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par l'impulsion électromagnétique.</TrapIED_EMP.description>
-  <TrapIED_EMP_Blueprint.label>piège EMP improvisé (plan)</TrapIED_EMP_Blueprint.label>
-  <TrapIED_EMP_Frame.label>piège EMP improvisé</TrapIED_EMP_Frame.label>
-  <TrapIED_EMP_Frame.description>Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par l'impulsion électromagnétique.</TrapIED_EMP_Frame.description>
-
-  <TrapIED_Firefoam.label>piège anti-incendie improvisé</TrapIED_Firefoam.label>
-  <TrapIED_Firefoam.description>Quand quelqu'un touche le déclencheur, ce piège explose et projette une mousse anti-incendie autour de lui.</TrapIED_Firefoam.description>
-  <TrapIED_Firefoam_Blueprint.label>piège anti-incendie improvisé (plan)</TrapIED_Firefoam_Blueprint.label>
-  <TrapIED_Firefoam_Frame.label>piège anti-incendie improvisé</TrapIED_Firefoam_Frame.label>
-  <TrapIED_Firefoam_Frame.description>Quand quelqu'un touche le déclencheur, ce piège explose et projette une mousse anti-incendie autour de lui.</TrapIED_Firefoam_Frame.description>
-
+  
+  <!-- EN: IED antigrain warhead trap -->
   <TrapIED_AntigrainWarhead.label>piège à antimatière improvisé</TrapIED_AntigrainWarhead.label>
+  <!-- EN: A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Wild animals will avoid these. -->
   <TrapIED_AntigrainWarhead.description>Une minuscule ogive à antimatière connectée à un déclencheur artisanal. Quand il est perturbé, ce piège crée une énorme explosion et des incendies autour de lui.</TrapIED_AntigrainWarhead.description>
-  <TrapIED_AntigrainWarhead_Blueprint.label>piège à antimatière improvisé (plan)</TrapIED_AntigrainWarhead_Blueprint.label>
-  <TrapIED_AntigrainWarhead_Frame.label>piège à antimatière improvisé</TrapIED_AntigrainWarhead_Frame.label>
-  <TrapIED_AntigrainWarhead_Frame.description>Une minuscule ogive à antimatière connectée à un déclencheur artisanal. Quand il est perturbé, ce piège crée une énorme explosion et des incendies autour de lui.</TrapIED_AntigrainWarhead_Frame.description>
-
-
-  <!-- Mortar bomb turret -->
-  <!--<Turret_MortarBomb.label>Mortier</Turret_MortarBomb.label>-->
-  <!--<Turret_MortarBomb.description>Un mortier tirant des obus explosifs. Nécessite un artilleur. Explose si endommagé.</Turret_MortarBomb.description>-->
-  <!--<Turret_MortarBomb_Blueprint.label>Mortier (plan)</Turret_MortarBomb_Blueprint.label>-->
-  <!--<Turret_MortarBomb_Blueprint_Install.label>Mortier (nouvel emplacement)</Turret_MortarBomb_Blueprint_Install.label>-->
-  <!--<Turret_MortarBomb_Frame.label>Un mortier</Turret_MortarBomb_Frame.label>-->
-  <!--<Turret_MortarBomb_Frame.description>Un mortier tirant des obus explosifs. Nécessite un artilleur. Explose si endommagé.</Turret_MortarBomb_Frame.description>-->
-  <!--<Artillery_MortarBomb.label>Mortier explosif</Artillery_MortarBomb.label>-->
-  <!--<Artillery_MortarBomb.description>Les mortiers tirent des obus par-dessus les murs. Très peu précis mais à long rayon d'action.</Artillery_MortarBomb.description>-->
-  <!--<Bullet_MortarBomb.label>Obus de mortier explosif</Bullet_MortarBomb.label>-->
-  <!-- Mortar incendiary turret -->
-  <!--<Turret_MortarIncendiary.label>Mortier incendiaire</Turret_MortarIncendiary.label>-->
-  <!--<Turret_MortarIncendiary.description>Un mortier tirant des obus incendiaires. Nécessite un artilleur. Explose si endommagé.</Turret_MortarIncendiary.description>-->
-  <!--<Turret_MortarIncendiary_Blueprint.label>Mortier incendiaire (plan)</Turret_MortarIncendiary_Blueprint.label>-->
-  <!--<Turret_MortarIncendiary_Blueprint_Install.label>Mortier incendiaire (nouvel emplacement)</Turret_MortarIncendiary_Blueprint_Install.label>-->
-  <!--<Turret_MortarIncendiary_Frame.label>Un mortier incendiaire</Turret_MortarIncendiary_Frame.label>-->
-  <!--<Turret_MortarIncendiary_Frame.description>Un mortier tirant des obus incendiaires. Nécessite un artilleur. Explose si endommagé.</Turret_MortarIncendiary_Frame.description>-->
-  <!--<Artillery_MortarIncendiary.label>Mortier incendiaire</Artillery_MortarIncendiary.label>-->
-  <!--<Artillery_MortarIncendiary.description>Les mortiers incendiaires tirent des obus par-dessus les murs. Très peu précis mais à long rayon d'action, ils provoquent des incendies à l'impact. Requiert un artilleur.</Artillery_MortarIncendiary.description>-->
-  <!--<Bullet_MortarIncendiary.label>Obus de mortier incendiaire</Bullet_MortarIncendiary.label>-->
-  <!-- Mortar EMP -->
-  <!--<Turret_MortarEMP.label>mortier à EMP</Turret_MortarEMP.label>-->
-  <!--<Turret_MortarEMP.description>Un mortier tirant des obus à EMP. Nécessite un artilleur. Explose si endommagé.</Turret_MortarEMP.description>-->
-  <!--<Turret_MortarEMP_Blueprint.label>Mortier à EMP (plan)</Turret_MortarEMP_Blueprint.label>-->
-  <!--<Turret_MortarEMP_Blueprint_Install.label>Mortier à (nouvel emplacement)</Turret_MortarEMP_Blueprint_Install.label>-->
-  <!--<Turret_MortarEMP_Frame.label>Un mortier à EMP</Turret_MortarEMP_Frame.label>-->
-  <!--<Turret_MortarEMP_Frame.description>Un mortier tirant des obus à EMP. Nécessite un artilleur. Explose si endommagé.</Turret_MortarEMP_Frame.description>-->
-  <!--<Artillery_MortarEMP.label>mortier à EMP</Artillery_MortarEMP.label>-->
-  <!--<Artillery_MortarEMP.description>Les mortiers EMP tirent des obus par-dessus les murs. Très peu précis mais long rayon d'action.</Artillery_MortarEMP.description>-->
-  <!--<Bullet_MortarEMP.label>obus de mortier à EMP</Bullet_MortarEMP.label>-->
-  <!--<TrapIEDBomb.label>Piège explosif improvisé</TrapIEDBomb.label>-->
-  <!--<TrapIEDBomb.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIEDBomb.description>-->
-  <!--<TrapIEDBomb_Blueprint.label>Piège explosif improvisé (plan)</TrapIEDBomb_Blueprint.label>-->
-  <!--<TrapIEDBomb_Frame.label>Un piège explosif improvisé</TrapIEDBomb_Frame.label>-->
-  <!--<TrapIEDBomb_Frame.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIEDBomb_Frame.description>-->
-  <!--<TrapIEDIncendiary.label>Piège incendiaire improvisé</TrapIEDIncendiary.label>-->
-  <!--<TrapIEDIncendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur à dispersion chimique. Quand quelqu'un active le déclencheur chimique, du combustible enflammé est projeté. Comme il n'y a pas besoin de créer une explosion très importante pour enflammer l'ensemble, le déclencheur chimique est plus simple et plus fiable que certains autres types de déclencheurs.</TrapIEDIncendiary.description>-->
-  <!--<TrapIEDIncendiary_Blueprint.label>Piège incendiaire improvisé (plan)</TrapIEDIncendiary_Blueprint.label>-->
-  <!--<TrapIEDIncendiary_Frame.label>Un piège incendiaire improvisé</TrapIEDIncendiary_Frame.label>-->
-  <!--<TrapIEDIncendiary_Frame.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur à dispersion chimique. Quand quelqu'un active le déclencheur chimique, du combustible enflammé est projeté. Comme il n'y a pas besoin de créer une explosion très importante pour enflammer l'ensemble, le déclencheur chimique est plus simple et plus fiable que certains autres types de déclencheurs.</TrapIEDIncendiary_Frame.description>-->
-
+  
+  <!-- EN: IED EMP trap -->
+  <TrapIED_EMP.label>piège EMP improvisé</TrapIED_EMP.label>
+  <!-- EN: A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Wild animals will avoid these. -->
+  <TrapIED_EMP.description>Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par l'impulsion électromagnétique.</TrapIED_EMP.description>
+  
+  <!-- EN: IED firefoam trap -->
+  <TrapIED_Firefoam.label>piège anti-incendie improvisé</TrapIED_Firefoam.label>
+  <!-- EN: When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Wild animals will avoid these. -->
+  <TrapIED_Firefoam.description>Quand quelqu'un touche le déclencheur, ce piège explose et projette une mousse anti-incendie autour de lui.</TrapIED_Firefoam.description>
+  
+  <!-- EN: IED trap -->
+  <TrapIED_HighExplosive.label>piège explosif improvisé</TrapIED_HighExplosive.label>
+  <!-- EN: A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. Wild animals will avoid these. -->
+  <TrapIED_HighExplosive.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</TrapIED_HighExplosive.description>
+  
+  <!-- EN: IED incendiary trap -->
+  <TrapIED_Incendiary.label>piège incendiaire improvisé</TrapIED_Incendiary.label>
+  <!-- EN: Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Wild animals will avoid these. -->
+  <TrapIED_Incendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable.</TrapIED_Incendiary.description>
+  
+  <!-- EN: autocannon turret -->
+  <Turret_Autocannon.label>TODO</Turret_Autocannon.label>
+  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but it requires frequent and expensive barrel changes. It cannot fire at close-up targets, and may explode when damaged. -->
+  <Turret_Autocannon.description>TODO</Turret_Autocannon.description>
+  <!-- EN: Barrel durability -->
+  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>TODO</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: mini-turret -->
+  <Turret_MiniTurret.label>tourelle improvisée</Turret_MiniTurret.label>
+  <!-- EN: A portable automatic turret. Requires steel to replace its barrel after heavy use. It is relatively fragile, and may explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <Turret_MiniTurret.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami.</Turret_MiniTurret.description>
+  <!-- EN: Barrel durability -->
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>TODO</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: mortar -->
+  <Turret_Mortar.label>mortier</Turret_Mortar.label>
+  <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
+  <Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Explose si endommagé.</Turret_Mortar.description>
+  
+  <!-- EN: sniper turret -->
+  <Turret_Sniper.label>TODO</Turret_Sniper.label>
+  <!-- EN: A very long-ranged automatic sniper turret. Its high-velocity uranium shells do heavy damage over very long ranges, but it requires frequent and expensive barrel changes. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <Turret_Sniper.description>TODO</Turret_Sniper.description>
+  <!-- EN: Barrel durability -->
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until rearm -->
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>TODO</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs rearm -->
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  
 </LanguageData>
