@@ -1,6 +1,5 @@
 # RimWorld-fr
 French translation for RimWorld.
--============
 -
 -See this page for license info:
 -
