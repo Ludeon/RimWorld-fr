@@ -1,51 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <SolarFlare.label>éruption solaire</SolarFlare.label>
-  <SolarFlare.description>Une éruption solaire frappe la planète. Elle génère des interférences électriques extrêmes, et empêche la plupart des appareils électriques de fonctionner.</SolarFlare.description>
-  <SolarFlare.endMessage>L'éruption solaire touche à sa fin.</SolarFlare.endMessage>
-
-  <Eclipse.label>éclipse</Eclipse.label>
-  <Eclipse.description>Une éclipse commence à obscurcir la surface. Il va bientôt faire nuit, même en plein jour.</Eclipse.description>
-  <Eclipse.endMessage>L'éclipse se termine.</Eclipse.endMessage>
-
-  <PsychicDrone.label>onde psychique</PsychicDrone.label>
-  <PsychicDrone.description>Une IA lointaine et puissante émet des ondes psychiques qui poussent les gens vers la folie.</PsychicDrone.description>
-  <PsychicDrone.endMessage>L'onde psychique s'est arrêtée.</PsychicDrone.endMessage>
-
-  <PsychicSoothe.label>onde psychique apaisante</PsychicSoothe.label>
-  <PsychicSoothe.description>Une IA lointaine et puissante émet des ondes psychiques qui apaisent les gens.</PsychicSoothe.description>
-  <PsychicSoothe.endMessage>L'onde psychique apaisante s'est arrêtée.</PsychicSoothe.endMessage>
-
-  <ToxicFallout.label>pluie toxique</ToxicFallout.label>
-  <ToxicFallout.description>Un nuage de particules toxiques, issu d'une source lointaine, s'installe progressivement sur la région. Quiconque ne s'abrite pas sous un toit sera lentement empoisonné.</ToxicFallout.description>
-  <ToxicFallout.endMessage>Le plus gros de la pluie est passé.</ToxicFallout.endMessage>
-
-  <VolcanicWinter.label>hiver volcanique</VolcanicWinter.label>
-  <VolcanicWinter.description>L'atmosphère est remplie de particules volcaniques, diminuant fortement la quantité de lumière qui atteint la surface. La température va diminuer et les plantes vont pousser plus lentement.</VolcanicWinter.description>
-  <VolcanicWinter.endMessage>La plupart des cendres volcaniques sont retombées.</VolcanicWinter.endMessage>
-
-  <HeatWave.label>vague de chaleur</HeatWave.label>
-  <HeatWave.description>Une vague de chaleur exceptionnelle touche la région.</HeatWave.description>
-  <HeatWave.endMessage>La vague de chaleur est terminée.</HeatWave.endMessage>
-
-  <ColdSnap.label>vague de froid</ColdSnap.label>
-  <ColdSnap.description>Une vague de froid exceptionnelle s'abat sur la région.</ColdSnap.description>
-  <ColdSnap.endMessage>La vague de froid est terminée.</ColdSnap.endMessage>
-
-  <Flashstorm.label>orage</Flashstorm.label>
-  <Flashstorm.description>Un très grand nombre d'éclairs s'abattent sur la région.</Flashstorm.description>
-  <Flashstorm.endMessage>L'orage est terminé.</Flashstorm.endMessage>
-
-  <ClimateCycle.label>dérèglement climatique</ClimateCycle.label>
-  <ClimateCycle.description>Un cycle climatique pluri-annuel à cause d'une orbite elliptique.</ClimateCycle.description>
-
-  <Planetkiller.label>destructeur de planète</Planetkiller.label>
-  <Planetkiller.description>Une arme interstellaire destructrice de planète approche de votre planète. L'impact détruira toute forme de vie.</Planetkiller.description>
-
+  
+  <!-- EN: aurora -->
   <Aurora.label>aurore</Aurora.label>
+  <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
   <Aurora.description>Une brillante lueur illumine le ciel. Les couleurs ondulantes amélioreront le moral de toute personne se trouvant dehors pour les observer.</Aurora.description>
+  <!-- EN: The aurora is ending. -->
   <Aurora.endMessage>L'aurore se finit.</Aurora.endMessage>
-
-
+  
+  <!-- EN: climate cycle -->
+  <ClimateCycle.label>dérèglement climatique</ClimateCycle.label>
+  <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
+  <ClimateCycle.description>Un cycle climatique pluri-annuel à cause d'une orbite elliptique.</ClimateCycle.description>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>vague de froid</ColdSnap.label>
+  <!-- EN: An unusual cold snap is freezing the region. -->
+  <ColdSnap.description>Une vague de froid exceptionnelle s'abat sur la région.</ColdSnap.description>
+  <!-- EN: The cold snap is over. -->
+  <ColdSnap.endMessage>La vague de froid est terminée.</ColdSnap.endMessage>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>éclipse</Eclipse.label>
+  <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
+  <Eclipse.description>Une éclipse commence à obscurcir la surface. Il va bientôt faire nuit, même en plein jour.</Eclipse.description>
+  <!-- EN: The eclipse is ending. -->
+  <Eclipse.endMessage>L'éclipse se termine.</Eclipse.endMessage>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>orage</Flashstorm.label>
+  <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
+  <Flashstorm.description>Un très grand nombre d'éclairs s'abattent sur la région.</Flashstorm.description>
+  <!-- EN: The flashstorm is over. -->
+  <Flashstorm.endMessage>L'orage est terminé.</Flashstorm.endMessage>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>vague de chaleur</HeatWave.label>
+  <!-- EN: An extreme wave of heat is baking the area. -->
+  <HeatWave.description>Une vague de chaleur exceptionnelle touche la région.</HeatWave.description>
+  <!-- EN: The heat wave is over. -->
+  <HeatWave.endMessage>La vague de chaleur est terminée.</HeatWave.endMessage>
+  
+  <!-- EN: planetkiller -->
+  <Planetkiller.label>destructeur de planète</Planetkiller.label>
+  <!-- EN: An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life. -->
+  <Planetkiller.description>Une arme interstellaire destructrice de planète approche de votre planète. L'impact détruira toute forme de vie.</Planetkiller.description>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>onde psychique</PsychicDrone.label>
+  <!-- EN: A distant, powerful AI is emitting waves of psychic force that are driving people towards insanity. -->
+  <PsychicDrone.description>Une IA lointaine et puissante émet des ondes psychiques qui poussent les gens vers la folie.</PsychicDrone.description>
+  <!-- EN: The psychic drone is ending. -->
+  <PsychicDrone.endMessage>L'onde psychique s'est arrêtée.</PsychicDrone.endMessage>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>onde psychique apaisante</PsychicSoothe.label>
+  <!-- EN: A distant, powerful AI is emitting waves of psychic force that are calming people and stabilizing their minds. -->
+  <PsychicSoothe.description>Une IA lointaine et puissante émet des ondes psychiques qui apaisent les gens.</PsychicSoothe.description>
+  <!-- EN: The psychic soothe is ending. -->
+  <PsychicSoothe.endMessage>L'onde psychique apaisante s'est arrêtée.</PsychicSoothe.endMessage>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>éruption solaire</SolarFlare.label>
+  <!-- EN: A solar flare is blasting the planet. The electromagnetic interference prevents most electrical devices from working. -->
+  <SolarFlare.description>Une éruption solaire frappe la planète. Elle génère des interférences électriques extrêmes, et empêche la plupart des appareils électriques de fonctionner.</SolarFlare.description>
+  <!-- EN: The solar flare is ending. -->
+  <SolarFlare.endMessage>L'éruption solaire touche à sa fin.</SolarFlare.endMessage>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>pluie toxique</ToxicFallout.label>
+  <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
+  <ToxicFallout.description>Un nuage de particules toxiques, issu d'une source lointaine, s'installe progressivement sur la région. Quiconque ne s'abrite pas sous un toit sera lentement empoisonné.</ToxicFallout.description>
+  <!-- EN: The worst of the toxic fallout has settled. -->
+  <ToxicFallout.endMessage>Le plus gros de la pluie est passé.</ToxicFallout.endMessage>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>hiver volcanique</VolcanicWinter.label>
+  <!-- EN: A distant volcano has choked the atmosphere with volcanic particles, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
+  <VolcanicWinter.description>L'atmosphère est remplie de particules volcaniques, diminuant fortement la quantité de lumière qui atteint la surface. La température va diminuer et les plantes vont pousser plus lentement.</VolcanicWinter.description>
+  <!-- EN: Most of the volcanic ash has settled. -->
+  <VolcanicWinter.endMessage>La plupart des cendres volcaniques sont retombées.</VolcanicWinter.endMessage>
+  
 </LanguageData>

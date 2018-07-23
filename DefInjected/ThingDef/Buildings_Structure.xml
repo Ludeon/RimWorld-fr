@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Doors -->
-
-  <Door.label>porte</Door.label>
-  <Door.description>Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes.</Door.description>
-  <Blueprint_Door.label>porte (plan)</Blueprint_Door.label>
-  <Frame_Door.label>une porte</Frame_Door.label>
-  <Frame_Door.description>Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes.</Frame_Door.description>
-
+  
+  <!-- EN: autodoor -->
   <Autodoor.label>porte automatique</Autodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
   <Autodoor.description>Sépare les pièces. Permet aux personnes de les traverser sans ralentir.</Autodoor.description>
-  <Blueprint_Autodoor.label>porte automatique (plan)</Blueprint_Autodoor.label>
-  <Frame_Autodoor.label>une porte automatique</Frame_Autodoor.label>
-  <Frame_Autodoor.description>Sépare les pièces. Permet aux personnes de les traverser sans ralentir.</Frame_Autodoor.description>
-
-
-  <!-- Walls -->
-
+  
+  <!-- EN: door -->
+  <Door.label>porte</Door.label>
+  <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+  <Door.description>Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes.</Door.description>
+  
+  <!-- EN: wall -->
   <Wall.label>mur</Wall.label>
+  <!-- EN: An impassable wall. Capable of holding up a roof. -->
   <Wall.description>Un mur plein, capable de soutenir un plafond.</Wall.description>
-  <Blueprint_Wall.label>mur (plan)</Blueprint_Wall.label>
-  <Frame_Wall.label>un mur</Frame_Wall.label>
-  <Frame_Wall.description>Un mur plein, capable de soutenir un plafond.</Frame_Wall.description>
-
-
+  
 </LanguageData>

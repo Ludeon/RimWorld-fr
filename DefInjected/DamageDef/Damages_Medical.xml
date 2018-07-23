@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Surgical cut: Makes it possible to remove inner organs without harming outer body parts -->
-
-  <SurgicalCut.label>erreur chirurgicale</SurgicalCut.label>
-  <SurgicalCut.deathMessage>{0} est décédé(e) pendant l'opération, à cause d'une mauvaise incision.</SurgicalCut.deathMessage>
-
-
-  <!-- Execution cut: Makes it possible to distinguish execution damage from others -->
-
+  
+  <!-- EN: execution cut -->
   <ExecutionCut.label>égorgement</ExecutionCut.label>
+  <!-- EN: {0} has been executed by cutting. -->
   <ExecutionCut.deathMessage>{0} a été égorgé(e).</ExecutionCut.deathMessage>
-
-
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>erreur chirurgicale</SurgicalCut.label>
+  <!-- EN: {0} has died during surgery. -->
+  <SurgicalCut.deathMessage>{0} est décédé(e) pendant l'opération, à cause d'une mauvaise incision.</SurgicalCut.deathMessage>
+  
 </LanguageData>

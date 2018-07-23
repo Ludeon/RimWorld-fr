@@ -1,61 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Concepts taught through the learning readout, when opportunities arise -->
-
-  <ReformCaravan.label>Reformer une caravane</ReformCaravan.label>
-  <ReformCaravan.helpText>Après une rencontre, vous pouvez facilement reformer une caravane en utilisant la commande REFORMER CARAVANE dans la vue du monde.</ReformCaravan.helpText>
-
-  <Rescuing.label>Sauvetage</Rescuing.label>
-  <Rescuing.helpText>Pour secourir une personne blessée, sélectionnez un colon sain et faites un clic droit sur le blessé.\n\nSi vous sauvez un étranger, il ne rejoindra pas nécessairement votre colonie. Il peut simplement s'en aller après sa guérison. Si vous voulez être sûr qu'il se joigne à votre colonie, capturez-le et recrutez-le.</Rescuing.helpText>
-
-  <Capturing.label>Capture</Capturing.label>
-  <Capturing.helpText>Quand un ennemi est abattu au sol mais pas mort, vous pouvez le capturer.\n\nPour le capturer, sélectionnez un colon, cliquez avec le bouton droit de la souris sur l'ennemi neutralisé et sélectionnez CAPTURE.\n\nVous aurez besoin d'un lit supplémentaire affecté aux prisonniers.</Capturing.helpText>
-
-  <ShieldBelts.label>Boucliers d'énergie</ShieldBelts.label>
-  <ShieldBelts.helpText>Les boucliers d'énergie neutralisent les attaques à distance, autant les tirs ennemis que les propres tirs de la personne qui en est équipée. Ils sont en revanche inefficaces en mêlée. \n\nPour combattre les boucliers d'énergie, il faut soit concentrer beaucoup de tirs sur la cible, soit se battre à mains nues.</ShieldBelts.helpText>
-
-  <InteractingWithTraders.label>Interaction avec des commerçants</InteractingWithTraders.label>
-  <InteractingWithTraders.helpText>Vous pouvez parler aux personnages avec un "?" au-dessus de leur tête.\n\nSélectionnez un colon et cliquez droit sur le personnage avec un "?" au-dessus de sa tête.</InteractingWithTraders.helpText>
-
-  <Drafting.label>Mobilisation pour le combat</Drafting.label>
-  <Drafting.helpText>Pour contrôler un colon manuellement pour le combat, sélectionnez-le et appuyez sur le bouton MOBILISER.\n\nUn colon mobilisé ne fera que ce que vous lui commandez de faire, et uniquement des actions liées au combat. Ceux qui ont des armes les utiliseront dès que cela sera possible.\n\nNe mobilisez pas les colons trop longtemps - ils vont avoir faim et devenir mécontents.</Drafting.helpText>
-
-  <BuildOrbitalTradeBeacon.label>Construire une balise de commerce orbital</BuildOrbitalTradeBeacon.label>
-  <BuildOrbitalTradeBeacon.helpText>Pour envoyer de l'argent ou des objets aux commerçants en orbite, vous devez construire une BALISE DE COMMERCE ORBITAL avec une zone de stockage à proximité.</BuildOrbitalTradeBeacon.helpText>
-
+  
+  <!-- EN: Animals don't attack doors -->
   <AnimalsDontAttackDoors.label>Les animaux n'attaquent pas les portes</AnimalsDontAttackDoors.label>
+  <!-- EN: Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you. -->
   <AnimalsDontAttackDoors.helpText>Généralement, les animaux n'attaquent pas les portes ni les tourelles inactives.\n\nVous pouvez leur échapper en restant à l'intérieur ou derrière un mur, mais ils vous attendront.</AnimalsDontAttackDoors.helpText>
-
+  
+  <!-- EN: Bills tab -->
   <BillsTab.label>Onglet « Tâches »</BillsTab.label>
+  <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>Pour faire travailler les colons à un établi, sélectionnez l'établi et ouvrez l'onglet « Tâches ». Ici, vous pouvez sélectionner les repas à cuisiner, les objets à confectionner, quels animaux dépecer...</BillsTab.helpText>
-
-  <OpeningComms.label>Utiliser la console de communication.</OpeningComms.label>
-  <OpeningComms.helpText>Pour communiquer, sélectionnez un colon et cliquez-droit sur la console de communication.</OpeningComms.helpText>
-
-  <DrugAddiction.label>Toxicomanie</DrugAddiction.label>
-  <DrugAddiction.helpText>Vous pouvez examiner les besoins en drogue(s) de vos colons dans leur onglet BESOINS.\n\nDès que la jauge d'un besoin en drogue atteint zéro, leur dépendance se transforme en abstinence, ce qui peut avoir divers effets secondaires négatifs.\n\nCependant, après une période d'abstinence nécessaire, leur dépendance sera partie et leur besoin en drogues disparaîtra.</DrugAddiction.helpText>
-
-  <DrugPolicies.label>Règles sur la drogue</DrugPolicies.label>
-  <DrugPolicies.helpText>Vous pouvez déterminer la prise de drogues et de médicaments des colons selon un calendrier spécifique. Par exemple, vous pouvez leur faire prendre des médicaments contre la malaria régulièrement, ou les autoriser à boire une bière par jour pour se détendre.\n\nOuvrez l'onglet ASSIGNATIONS et appuyez sur le bouton 'Gérer les règles sur la drogue'. Créez une nouvelle règle, que vous pouvez ensuite affecter à vos colons.\n\nCela n'empêche pas les colons d'enfreindre vos règles, car ils suivent aussi leurs propres envies !</DrugPolicies.helpText>
-
-  <TVForSickPeople.label>TV pour les malades</TVForSickPeople.label>
-  <TVForSickPeople.helpText>Pour divertir les personnes malades dans un lit, vous pouvez mettre une TV, qu'ils pourront regarder.</TVForSickPeople.helpText>
-
-  <PrisonerTab.label>Gérer l'onglet « Prisonnier »</PrisonerTab.label>
-  <PrisonerTab.helpText>Regardez dans l'onglet « Prisonnier » d'un captif pour voir comment il sera traité.\n\nVous pouvez définir s'ils seront recrutés, ignorés ou exécutés, s'ils mangent ou non, et quels soins médicaux ils reçoivent.\n\nAu moins un colon doit être affecté comme gardien pour qu'il s'occupe du prisonnier.</PrisonerTab.helpText>
-
-  <SetGrowingZonePlant.label>Définir les cultures</SetGrowingZonePlant.label>
-  <SetGrowingZonePlant.helpText>Vous pouvez choisir quoi faire pousser dans une zone agricole. Oui, même des arbres ! Cliquez sur une zone agricole, puis sur l'onglet « Culture » et enfin sur le nom de la plante.</SetGrowingZonePlant.helpText>
-
-  <DrugBurning.label>Brûler des drogues</DrugBurning.label>
-  <DrugBurning.helpText>Les drogues peuvent être utiles, mais peuvent également entraîner des addictions nocives.\n\nSi vous souhaitez éviter les drogues dans votre colonie, vous pouvez les brûler dans un feu de camp.</DrugBurning.helpText>
-
+  
+  <!-- EN: Build orbital trade beacon -->
+  <BuildOrbitalTradeBeacon.label>Construire une balise de commerce orbital</BuildOrbitalTradeBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <BuildOrbitalTradeBeacon.helpText>Pour envoyer de l'argent ou des objets aux commerçants en orbite, vous devez construire une BALISE DE COMMERCE ORBITAL avec une zone de stockage à proximité.</BuildOrbitalTradeBeacon.helpText>
+  
+  <!-- EN: Capturing -->
+  <Capturing.label>Capture</Capturing.label>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpText>Quand un ennemi est abattu au sol mais pas mort, vous pouvez le capturer.\n\nPour le capturer, sélectionnez un colon, cliquez avec le bouton droit de la souris sur l'ennemi neutralisé et sélectionnez CAPTURE.\n\nVous aurez besoin d'un lit supplémentaire affecté aux prisonniers.</Capturing.helpText>
+  
+  <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>Vitesse d'ouverture des portes</DoorOpenSpeed.label>
+  <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
   <DoorOpenSpeed.helpText>Les portes s'ouvrent à différentes vitesses selon le type de matériau utilisé pour les construire.\n\nAttention : les portes en pierre s'ouvrent très lentement. Elles ralentissent fortement les personnes qui les franchissent.</DoorOpenSpeed.helpText>
-
-  <QueueOrders.label>Order queueing</QueueOrders.label>
-  <QueueOrders.helpText>When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns.</QueueOrders.helpText>
-
-
+  
+  <!-- EN: Drafting for combat -->
+  <Drafting.label>Mobilisation pour le combat</Drafting.label>
+  <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
+  <Drafting.helpText>Pour contrôler un colon manuellement pour le combat, sélectionnez-le et appuyez sur le bouton MOBILISER.\n\nUn colon mobilisé ne fera que ce que vous lui commandez de faire, et uniquement des actions liées au combat. Ceux qui ont des armes les utiliseront dès que cela sera possible.\n\nNe mobilisez pas les colons trop longtemps - ils vont avoir faim et devenir mécontents.</Drafting.helpText>
+  
+  <!-- EN: Drug addiction -->
+  <DrugAddiction.label>Toxicomanie</DrugAddiction.label>
+  <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
+  <DrugAddiction.helpText>Vous pouvez examiner les besoins en drogue(s) de vos colons dans leur onglet BESOINS.\n\nDès que la jauge d'un besoin en drogue atteint zéro, leur dépendance se transforme en abstinence, ce qui peut avoir divers effets secondaires négatifs.\n\nCependant, après une période d'abstinence nécessaire, leur dépendance sera partie et leur besoin en drogues disparaîtra.</DrugAddiction.helpText>
+  
+  <!-- EN: Drug burning -->
+  <DrugBurning.label>Brûler des drogues</DrugBurning.label>
+  <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
+  <DrugBurning.helpText>Les drogues peuvent être utiles, mais peuvent également entraîner des addictions nocives.\n\nSi vous souhaitez éviter les drogues dans votre colonie, vous pouvez les brûler dans un feu de camp.</DrugBurning.helpText>
+  
+  <!-- EN: Drug policies -->
+  <DrugPolicies.label>Règles sur la drogue</DrugPolicies.label>
+  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take anti-malaria drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
+  <DrugPolicies.helpText>Vous pouvez déterminer la prise de drogues et de médicaments des colons selon un calendrier spécifique. Par exemple, vous pouvez leur faire prendre des médicaments contre la malaria régulièrement, ou les autoriser à boire une bière par jour pour se détendre.\n\nOuvrez l'onglet ASSIGNATIONS et appuyez sur le bouton 'Gérer les règles sur la drogue'. Créez une nouvelle règle, que vous pouvez ensuite affecter à vos colons.\n\nCela n'empêche pas les colons d'enfreindre vos règles, car ils suivent aussi leurs propres envies !</DrugPolicies.helpText>
+  
+  <!-- EN: Interacting with traders -->
+  <InteractingWithTraders.label>Interaction avec des commerçants</InteractingWithTraders.label>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpText>Vous pouvez parler aux personnages avec un "?" au-dessus de leur tête.\n\nSélectionnez un colon et cliquez droit sur le personnage avec un "?" au-dessus de sa tête.</InteractingWithTraders.helpText>
+  
+  <!-- EN: Using the comms console -->
+  <OpeningComms.label>Utiliser la console de communication.</OpeningComms.label>
+  <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
+  <OpeningComms.helpText>Pour communiquer, sélectionnez un colon et cliquez-droit sur la console de communication.</OpeningComms.helpText>
+  
+  <!-- EN: Prisoner tab -->
+  <PrisonerTab.label>Gérer l'onglet « Prisonnier »</PrisonerTab.label>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>Regardez dans l'onglet « Prisonnier » d'un captif pour voir comment il sera traité.\n\nVous pouvez définir s'ils seront recrutés, ignorés ou exécutés, s'ils mangent ou non, et quels soins médicaux ils reçoivent.\n\nAu moins un colon doit être affecté comme gardien pour qu'il s'occupe du prisonnier.</PrisonerTab.helpText>
+  
+  <!-- EN: Order queueing -->
+  <QueueOrders.label>TODO</QueueOrders.label>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpText>TODO</QueueOrders.helpText>
+  
+  <!-- EN: Reforming caravans -->
+  <ReformCaravan.label>Reformer une caravane</ReformCaravan.label>
+  <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
+  <ReformCaravan.helpText>Après une rencontre, vous pouvez facilement reformer une caravane en utilisant la commande REFORMER CARAVANE dans la vue du monde.</ReformCaravan.helpText>
+  
+  <!-- EN: Rescuing -->
+  <Rescuing.label>Sauvetage</Rescuing.label>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and the right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpText>Pour secourir une personne blessée, sélectionnez un colon sain et faites un clic droit sur le blessé.\n\nSi vous sauvez un étranger, il ne rejoindra pas nécessairement votre colonie. Il peut simplement s'en aller après sa guérison. Si vous voulez être sûr qu'il se joigne à votre colonie, capturez-le et recrutez-le.</Rescuing.helpText>
+  
+  <!-- EN: Set what plant to grow -->
+  <SetGrowingZonePlant.label>Définir les cultures</SetGrowingZonePlant.label>
+  <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
+  <SetGrowingZonePlant.helpText>Vous pouvez choisir quoi faire pousser dans une zone agricole. Oui, même des arbres ! Cliquez sur une zone agricole, puis sur l'onglet « Culture » et enfin sur le nom de la plante.</SetGrowingZonePlant.helpText>
+  
+  <!-- EN: Shield belts -->
+  <ShieldBelts.label>Boucliers d'énergie</ShieldBelts.label>
+  <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
+  <ShieldBelts.helpText>Les boucliers d'énergie neutralisent les attaques à distance, autant les tirs ennemis que les propres tirs de la personne qui en est équipée. Ils sont en revanche inefficaces en mêlée. \n\nPour combattre les boucliers d'énergie, il faut soit concentrer beaucoup de tirs sur la cible, soit se battre à mains nues.</ShieldBelts.helpText>
+  
+  <!-- EN: TV for sick people -->
+  <TVForSickPeople.label>TV pour les malades</TVForSickPeople.label>
+  <!-- EN: Sick people can watch TV while laying in bed. -->
+  <TVForSickPeople.helpText>Pour divertir les personnes malades dans un lit, vous pouvez mettre une TV, qu'ils pourront regarder.</TVForSickPeople.helpText>
+  
 </LanguageData>

@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <AccuracyTouch.label>Précision (corps-à-corps)</AccuracyTouch.label>
-  <AccuracyTouch.description>Coefficient affectant la précision à bout portant.</AccuracyTouch.description>
-
-  <AccuracyShort.label>Précision (proche)</AccuracyShort.label>
-  <AccuracyShort.description>Coefficient affectant la précision à courte portée.</AccuracyShort.description>
-
-  <AccuracyMedium.label>Précision (moyenne distance)</AccuracyMedium.label>
-  <AccuracyMedium.description>Coefficient affectant la précision à moyenne portée.</AccuracyMedium.description>
-
+  
+  <!-- EN: Accuracy (long) -->
   <AccuracyLong.label>Précision (loin)</AccuracyLong.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 50 cells or more. -->
   <AccuracyLong.description>Coefficient affectant la précision à longue portée.</AccuracyLong.description>
-
+  
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>Précision (moyenne distance)</AccuracyMedium.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 30 cells. -->
+  <AccuracyMedium.description>Coefficient affectant la précision à moyenne portée.</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>Précision (proche)</AccuracyShort.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 15 cells. -->
+  <AccuracyShort.description>Coefficient affectant la précision à courte portée.</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (touch) -->
+  <AccuracyTouch.label>Précision (corps-à-corps)</AccuracyTouch.label>
+  <!-- EN: The weapon's effect on accuracy at a distance of 4 cells or less. -->
+  <AccuracyTouch.description>Coefficient affectant la précision à bout portant.</AccuracyTouch.description>
+  
+  <!-- EN: ranged cooldown -->
   <RangedWeapon_Cooldown.label>cadence de tir (arme à distance)</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
   <RangedWeapon_Cooldown.description>Délai minimum entre deux tirs de l'arme.</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
   <RangedWeapon_Cooldown.formatString>{0} s</RangedWeapon_Cooldown.formatString>
-
-  <RangedWeapon_DamageMultiplier.label>damage multiplier</RangedWeapon_DamageMultiplier.label>
-  <RangedWeapon_DamageMultiplier.description>A damage multiplier applied to projectiles fired from this weapon.</RangedWeapon_DamageMultiplier.description>
-
-
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>TODO</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
+  <RangedWeapon_DamageMultiplier.description>TODO</RangedWeapon_DamageMultiplier.description>
+  
 </LanguageData>

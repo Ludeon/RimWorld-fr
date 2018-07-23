@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Anesthetize -->
-
-  <Anesthetize.label>anesthésier</Anesthetize.label>
-  <Anesthetize.description>Administre un anesthésiant pour rendre une créature inconsciente.</Anesthetize.description>
-  <Anesthetize.jobString>En train d'anesthésier.</Anesthetize.jobString>
-
-
-  <!-- Euthanasia -->
-
-  <Euthanize.label>euthanasier par égorgement</Euthanize.label>
-  <Euthanize.description>Euthanasier une créature en l'égorgeant.</Euthanize.description>
-  <Euthanize.jobString>Euthanasie une créature en l'égorgeant.</Euthanize.jobString>
-
-
-  <!-- removing hediffs (e.g. diseases) -->
-
-  <ExciseCarcinoma.label>exciser un carcinome</ExciseCarcinoma.label>
-  <ExciseCarcinoma.description>Exciser chirurgicalement un carcinome.</ExciseCarcinoma.description>
-  <ExciseCarcinoma.jobString>Excise chirurgicalement un carcinome.</ExciseCarcinoma.jobString>
-  <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} a réussi à exciser le carcinome de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
-
-
-  <!-- removing body parts -->
-
-  <RemoveBodyPart.label>retirer un organe</RemoveBodyPart.label>
-  <RemoveBodyPart.description>Retirer l'organe d'un patient.</RemoveBodyPart.description>
-  <RemoveBodyPart.jobString>Retire un organe.</RemoveBodyPart.jobString>
-
-
-  <!-- special administer -->
-
+  
+  <!-- EN: administer healer mech serum -->
   <AdministerMechSerumHealer.label>administrer un sérum soignant à base de mécanites</AdministerMechSerumHealer.label>
+  <!-- EN: Administer a healer mech serum. -->
   <AdministerMechSerumHealer.description>Administrer un sérum soignant à base de mécanites.</AdministerMechSerumHealer.description>
+  <!-- EN: Administering healer mech serum. -->
   <AdministerMechSerumHealer.jobString>Administre un sérum soignant à base de mécanites.</AdministerMechSerumHealer.jobString>
-
-
+  
+  <!-- EN: anesthetize -->
+  <Anesthetize.label>anesthésier</Anesthetize.label>
+  <!-- EN: Render a creature unconscious by administering general anesthetic. -->
+  <Anesthetize.description>Administre un anesthésiant pour rendre une créature inconsciente.</Anesthetize.description>
+  <!-- EN: Anesthetizing. -->
+  <Anesthetize.jobString>En train d'anesthésier.</Anesthetize.jobString>
+  
+  <!-- EN: euthanize by cut -->
+  <Euthanize.label>euthanasier par égorgement</Euthanize.label>
+  <!-- EN: Euthanize a creature by cutting. -->
+  <Euthanize.description>Euthanasier une créature en l'égorgeant.</Euthanize.description>
+  <!-- EN: Euthanizing by cutting. -->
+  <Euthanize.jobString>Euthanasie une créature en l'égorgeant.</Euthanize.jobString>
+  
+  <!-- EN: excise carcinoma -->
+  <ExciseCarcinoma.label>exciser un carcinome</ExciseCarcinoma.label>
+  <!-- EN: Excise a carcinoma. -->
+  <ExciseCarcinoma.description>Exciser chirurgicalement un carcinome.</ExciseCarcinoma.description>
+  <!-- EN: Excising carcinoma. -->
+  <ExciseCarcinoma.jobString>Excise chirurgicalement un carcinome.</ExciseCarcinoma.jobString>
+  <!-- EN: {0} has successfully excised {1}'s carcinoma. -->
+  <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} a réussi à exciser le carcinome de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove part -->
+  <RemoveBodyPart.label>retirer un organe</RemoveBodyPart.label>
+  <!-- EN: Remove a body part. -->
+  <RemoveBodyPart.description>Retirer l'organe d'un patient.</RemoveBodyPart.description>
+  <!-- EN: Removing body part. -->
+  <RemoveBodyPart.jobString>Retire un organe.</RemoveBodyPart.jobString>
+  
+  <!-- UNUSED -->
+  <RemoveMechanoidBodyPart.label>retirer le membre d'un mécanoïde</RemoveMechanoidBodyPart.label>
+  <RemoveMechanoidBodyPart.description>Retire le membre d'un mécanoïde.</RemoveMechanoidBodyPart.description>
+  <RemoveMechanoidBodyPart.jobString>Retire le membre d'un mécanoïde.</RemoveMechanoidBodyPart.jobString>
+  
+  <!-- UNUSED -->
+  <ShutDownMechanoid.label>désactiver un mécanoïde</ShutDownMechanoid.label>
+  <ShutDownMechanoid.description>Désactiver un mécanoïde.</ShutDownMechanoid.description>
+  <ShutDownMechanoid.jobString>Désactive un mécanoïde.</ShutDownMechanoid.jobString>
+  
 </LanguageData>
