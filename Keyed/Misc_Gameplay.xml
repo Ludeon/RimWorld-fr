@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Various -->
@@ -608,7 +608,7 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>N'est pas relié à une source d'alimentation.</PowerNotConnected>
-  <!-- EN: Connected rate/stored: {0} W / {1} Wd -->
+  <!-- EN: Grid usage/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>Bilan de production / Stock d'énergie : {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Énergie requise</PowerNeeded>
@@ -804,7 +804,9 @@
   <MustPlaceNearFuelingPort>Doit être placé à côté du port d'alimentation en carburant d'un lanceur.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
   <MustPlaceOnDrillable>Doit être placé sur des ressources forables.</MustPlaceOnDrillable>
-  
+  <!-- EN: Cannot be placed next to traps. -->
+  <CannotPlaceAdjacentTrap>TODO</CannotPlaceAdjacentTrap>
+
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
   <WindTurbine_WindPathIsBlockedBy>Bloquée par</WindTurbine_WindPathIsBlockedBy>
@@ -908,14 +910,6 @@
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
   <LifespanExpiry>Expire dans :</LifespanExpiry>
-
-  <!-- Traps -->
-  <!-- EN: Armed -->
-  <TrapArmed>Armé</TrapArmed>
-  <!-- EN: Not armed -->
-  <TrapNotArmed>Non armé</TrapNotArmed>
-  <!-- EN: Rearming cost: {0} -->
-  <TrapRearmingCost>Coût du réarmement : {0}</TrapRearmingCost>
 
   <!-- Facilities -->
   <!-- EN: inactive -->
@@ -1050,6 +1044,9 @@
   <ClickToSeeAvailableOrders_Empty>Voir ordres disponibles...</ClickToSeeAvailableOrders_Empty>
 
   <!-- UNUSED -->
+  <TrapArmed>Armé</TrapArmed>
+  <TrapNotArmed>Non armé</TrapNotArmed>
+  <TrapRearmingCost>Coût du réarmement : {0}</TrapRearmingCost>
   <CaravanMemberMentalBreak>Arrêtée car : {0} a une crise de nerfs.</CaravanMemberMentalBreak>
   <CaravanHoursPerTile>h/case</CaravanHoursPerTile>
   <CaravanBaseMovementTime>Vitesse de déplacement de base</CaravanBaseMovementTime>
