@@ -19,7 +19,7 @@
   <!-- EN: Mods -->
   <Mods>Mods</Mods>
   <!-- EN: Save translation report -->
-  <SaveTranslationReport>Sauvegarder le rapport de traduction</SaveTranslationReport>
+  <SaveTranslationReport>Sauv. rapport de traduction</SaveTranslationReport>
   <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>Génération du rapport de traduction</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
@@ -63,6 +63,10 @@
   <!-- EN: Learn more -->
   <LearnMore>En apprendre plus</LearnMore>
 
+  <!-- Main menu dev build -->
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
+  <DevBuildWarning>Attention: Ceci est une version de développement instable. Cela signifie que nous effectuons des expériences de conception et des développements techniques.\n\nCertaines choses seront temporairement déséquilibrées. Il s’agit d’une méthode de conception de jeu classique dans laquelle nous procédons délibérément à un changement de balance afin de mieux comprendre les limites de l’équilibrage. Nous pouvons alors utiliser ces informations pour décider des points d'équilibrage finaux.\n\nIl y aura également des bogues, y compris de ceux qui plantent le jeu. La compatibilité entre les sauvegardes des jeux n'est pas assurée et peut casser à tout moment.\n\nSi vous êtes d'accord, merci de tester ! Si vous ne voulez pas être soumis à nos expériences, jouez à la dernière version stable.</DevBuildWarning>
+
   <!-- Create/review world -->
   <!-- EN: Review world -->
   <ReviewWorld>Visualiser le monde</ReviewWorld>
@@ -95,7 +99,7 @@
   <!-- EN: Randomize seed -->
   <RandomizeSeed>Graine aléatoire</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>La planète a toujours le même diamètre, mais comme elle est beaucoup plus grande que nécessaire pour le jeu, nous ne générons pas la surface entière car cela peut prendre beaucoup de temps. C'est le pourcentage de surface que vous voulez générer.</PlanetCoverageTip>
+  <PlanetCoverageTip>La planète a toujours le même diamètre, mais comme elle est beaucoup plus grande que nécessaire pour le jeu, nous ne générons pas la surface entière car cela peut prendre beaucoup de temps. Ceci est le pourcentage de surface que vous voulez générer.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Factions</WorldFactionsTab>
 
@@ -167,7 +171,7 @@
   
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
-  <ChooseScenario>Choisir scénario</ChooseScenario>
+  <ChooseScenario>Choisir un scénario</ChooseScenario>
   <!-- EN: Custom -->
   <ScenariosCustom>Personnalisé</ScenariosCustom>
   <!-- EN: Steam Workshop -->
@@ -203,9 +207,9 @@
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Choisir l'IA du conteur</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Choisir l'IA du narrateur</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>Le conteur IA crée des événements comme les raids de pirates, le largage de ressources ou les attaques d'animaux. Ses choix affecteront l'histoire de votre colonie.</HowStorytellersWork>
+  <HowStorytellersWork>Le narrateur IA crée des événements comme les raids de pirates, le largage de ressources ou les attaques d'animaux. Ses choix affecteront l'histoire de votre colonie.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Veuillez choisir un niveau de difficulté.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -216,12 +220,12 @@
   <ReloadAnytimeMode>Mode Recharger à tout moment</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Merci de choisir le mode Engagement ou Recharger à tout moment</MustChoosePermadeath>
-  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, it's designed to encourage recovery after losses. Even losing all but one person is not the end of the game - it's part of the story.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
-  <PermadeathModeInfo>En mode mort permanente, un seul emplacement de sauvegarde est utilisable, et vous ne pourrez sauvegarder qu'en quittant la partie. Vous ne pourrez pas recharger le jeu pour réparer une erreur, et quand la colonie meurt, c'est fini.\n\nC'est de cette manière que RimWorld est supposé être joué, où chaque évènement dramatique, qu'il soit tragique ou bienheureux, sera vécu avec toutes ses conséquences !</PermadeathModeInfo>
-  <!-- EN: You can save and load the game at any time.\n\nThis isn't a bad choice if you're still learning the game, if it fits your personal playstyle or goals, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>En mode Recharger à tout moment, vous pouvez sauvegarder et recharger le jeu à n'importe quel moment.\n\nC'est un bon choix si vous êtes toujours en phase d'apprentissage, si cela correspond à votre style de jeu ou à vos objectifs, si vous utilisez des mods qui pourraient compromettre votre partie, ou si vous comptez vous imposer le mode Engagement.</ReloadAnytimeModeInfo>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>En mode Recharger à tout moment, vous pouvez sauvegarder et recharger le jeu à n'importe quel moment.\n\nC'est un bon choix si vous êtes toujours en phase d'apprentissage, si cela correspond à votre style de jeu ou à vos objectifs, si vous utilisez des mods qui pourraient compromettre votre partie, ou si vous comptez vous entrainer pour le mode Engagement.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
+  <PermadeathModeInfo>En mode Engagement, un seul emplacement de sauvegarde est utilisable, et vous ne pourrez sauvegarder qu'en quittant la partie. Vous ne pourrez pas recharger le jeu pour réparer une erreur. Tant qu'un personnage reste debout, le jeu continue.\n\nRécupérer de ces terribles situations construit une histoire avec des tragédies et des triomphes.\n\nC'est de cette manière que RimWorld est supposé être joué, où chaque évènement dramatique, qu'il soit tragique ou bienheureux, sera vécu avec toutes ses conséquences !</PermadeathModeInfo>
   <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Le conteur IA et la difficulté peuvent être modifiés à tout moment</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Narrateur IA et difficulté modifiables à tout moment</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- Landing site select -->
   <!-- EN: Select landing site -->
@@ -289,9 +293,9 @@
   <!-- EN: per year -->
   <PerYear>par an</PerYear>
   <!-- EN: Forageability -->
-  <Forageability>TODO</Forageability>
+  <Forageability>Possibilité de cueillette</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
-  <ConfirmRequiredWorkTypeDisabledForEveryone>Aucun des personnages sélectionnés n'est capable de remplir les tâches suivantes:\n\n{0}\n\nCela peut rendre le jeu plus compliqué. Êtes-vous sûr de vouloir continuer?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>Aucun des personnages sélectionnés n'est capable de remplir les tâches suivantes:\n\n{0}\n\nCela peut rendre le jeu plus compliqué. Êtes-vous sûr de vouloir continuer ?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->

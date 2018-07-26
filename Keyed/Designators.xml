@@ -4,7 +4,7 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>Annuler</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>Annule l'ordre (Construire, miner, transporter, récolter, etc.).</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Annule l'ordre (construire, miner, transporter, récolter, etc.).</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>Couper les plantes</DesignatorCutPlants>
@@ -90,7 +90,7 @@
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Étendre la zone à ciel ouvert</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Crée une zone dans laquelle les plafonds ne seront pas construits. Les colons vont aussi y retirer les plafonds existants.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Crée une zone dans laquelle les plafonds ne seront pas construits. Les colons vont aussi y retirer les plafonds existants (sauf en dessous des montagnes).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignorer la zone de plafond</DesignatorAreaIgnoreRoofExpand>
@@ -156,11 +156,6 @@
   <!-- EN: Strip apparel from corpses and the wounded. -->
   <DesignatorStripDesc>Déshabille les cadavres et les blessés.</DesignatorStripDesc>
 
-  <!-- EN: Rearm trap -->
-  <DesignatorRearmTrap>Réarmer les pièges</DesignatorRearmTrap>
-  <!-- EN: Rearm a sprung trap so it can be triggered again. -->
-  <DesignatorRearmTrapDesc>Réarme un piège à ressort pour qu'il puisse se déclencher à nouveau.</DesignatorRearmTrapDesc>
-
   <!-- EN: Open -->
   <DesignatorOpen>Ouvrir</DesignatorOpen>
   <!-- EN: Open containers. -->
@@ -186,7 +181,7 @@
   <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>Impossible de positionner dans une zone inexplorée.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {0}. -->
-  <InteractionSpotBlocked>La zone d'interaction bloquée par {0}.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>La zone d'interaction est bloquée par {0}.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>La zone d'interaction est hors limites.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {0}. -->
@@ -206,7 +201,7 @@
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Cet emplacement est déjà occupé.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
-  <SpaceBeingSmoothed>L'emplacement est en train de se faire aplatir.</SpaceBeingSmoothed>
+  <SpaceBeingSmoothed>L'emplacement est en train de se faire aplanir.</SpaceBeingSmoothed>
   <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Doit cibler un plancher amovible.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
@@ -229,6 +224,8 @@
   <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Aucun des {0} possédant cette habileté n'est assigné à {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
   <!-- UNUSED -->
+  <DesignatorRearmTrap>Réarmer les pièges</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Réarme un piège à ressort pour qu'il puisse se déclencher à nouveau.</DesignatorRearmTrapDesc>
   <DesignatorSmoothFloor>Aplanir le sol</DesignatorSmoothFloor>
   <DesignatorSmoothFloorDesc>Désigne un sol de pierre brute à aplanir.</DesignatorSmoothFloorDesc>
   <TerrainBeingSmoothed>Ce terrain est déjà marqué pour être aplani.</TerrainBeingSmoothed>

@@ -73,7 +73,7 @@
   <!-- EN: Assign -->
   <BuildingAssign>Affecter</BuildingAssign>
   <!-- EN: Reassign -->
-  <BuildingReassign>TODO</BuildingReassign>
+  <BuildingReassign>Réaffecter</BuildingReassign>
   <!-- EN: Unassign -->
   <BuildingUnassign>Retirer</BuildingUnassign>
   <!-- EN: For prisoners -->
@@ -170,7 +170,7 @@
   <!-- EN: Eject sleeper -->
   <CommandPodEject>Éjecter l'occupant</CommandPodEject>
   <!-- EN: Wake up the cryptosleeper and eject them. -->
-  <CommandPodEjectDesc>Réveille les occupants en hypersommeil et les éjecte.</CommandPodEjectDesc>
+  <CommandPodEjectDesc>Réveille les occupants en hypersommeil et les éjecte de la capsule.</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>Capsule vide.</CommandPodEjectFailEmpty>
 
@@ -219,7 +219,7 @@
   <!-- Trap -->
   <!-- EN: Auto Rearm -->
   <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
-  <!-- EN: If this is on, this trap will automatically be designated for rearming when it springs. -->
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si activé, le piège sera réarmé automatiquement après son activation.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
@@ -256,7 +256,7 @@
   
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
-  <CommandSelectMineralToScanFor>TODO</CommandSelectMineralToScanFor>
+  <CommandSelectMineralToScanFor>Réglé sur</CommandSelectMineralToScanFor>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -322,15 +322,15 @@
 
   <!-- Remove from caravan -->
   <!-- EN: Remove from caravan -->
-  <CommandRemoveFromCaravan>TODO</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravan>Enlever de la caravane</CommandRemoveFromCaravan>
   <!-- EN: Remove this person or animal from the caravan. -->
-  <CommandRemoveFromCaravanDesc>TODO</CommandRemoveFromCaravanDesc>
+  <CommandRemoveFromCaravanDesc>Enlever cette personne ou animal de la caravane</CommandRemoveFromCaravanDesc>
   
   <!-- Add to caravan -->
   <!-- EN: Add to caravan -->
-  <CommandAddToCaravan>TODO</CommandAddToCaravan>
+  <CommandAddToCaravan>Ajouter à la caravane</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
-  <CommandAddToCaravanDesc>TODO</CommandAddToCaravanDesc>
+  <CommandAddToCaravanDesc>Ajouter cette personne ou animal à la caravane en formation</CommandAddToCaravanDesc>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -348,9 +348,9 @@
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
-  <CommandOfferGifts>TODO</CommandOfferGifts>
+  <CommandOfferGifts>Offrir des cadeaux</CommandOfferGifts>
   <!-- EN: Offer gifts to this faction. -->
-  <CommandOfferGiftsDesc>TODO</CommandOfferGiftsDesc>
+  <CommandOfferGiftsDesc>Offrir des cadeaux à cette faction.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <!-- EN: Fulfill trade offer -->
@@ -358,7 +358,7 @@
   <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>Fournissez à la colonie ce qu'elle demande et réclamez votre récompense.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
-  <CommandFulfillTradeOfferFailInsufficient>La caravane doit avoir {0} pour accomplir cette offre commerciale.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferFailInsufficient>La caravane doit avoir {0} pour satisfaire cette offre commerciale.</CommandFulfillTradeOfferFailInsufficient>
   <!-- EN: Offer {0} for {1}? -->
   <CommandFulfillTradeOfferConfirm>Offrir {0} pour {1} ?</CommandFulfillTradeOfferConfirm>
   
@@ -400,7 +400,7 @@
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>Définir le ou les transporteurs sélectionnés en tant que groupe de lancement. Ouvre la boîte de dialogue de chargement pour que vous puissiez décider qui et quoi charger à l'intérieur.</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
-  <CommandLoadTransporterFailNotConnectedToFuelingPort>La capsule de transport n'est pas  alimentée en carburant.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>La capsule de transport n'est pas alimentée en carburant.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>Le lanceur de capsule n'a pas de carburant.</CommandLoadTransporterFailNoFuel>
   
@@ -424,9 +424,9 @@
   
   <!-- Vent -->
   <!-- EN: Designate open/close -->
-  <CommandDesignateOpenCloseVentLabel>Ouvert/fermer</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentLabel>Ouvrir/fermer</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>Désignez cette ouverture à être ouvert ou fermer. Un colon viendra bientôt pour accomplir la tâche.</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>Désigner cette ouverture de ventilation à être ouverte ou fermée. Un colon viendra bientôt pour accomplir la tâche.</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
@@ -436,21 +436,21 @@
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>TODO</CommandPauseCaravan>
+  <CommandPauseCaravan>Au repos</CommandPauseCaravan>
   <!-- EN: Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls -->
-  <CommandToggleCaravanPauseDesc>TODO</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Arrêter la caravane pour un moment. Les avantages sont les suivants :\n\n - Les gens peuvent interagir socialement\n - La cueillette pour la nourriture est {0} fois plus vite\n - La visibilité est multipliée par {1}\n - Les personnes malades peuvent se reposer dans les sacs de couchage</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
-  <CommandShowSellableItems>TODO</CommandShowSellableItems>
+  <CommandShowSellableItems>Montrer les objets vendables</CommandShowSellableItems>
   <!-- EN: Show everything this trader wants to buy. -->
-  <CommandShowSellableItemsDesc>TODO</CommandShowSellableItemsDesc>
+  <CommandShowSellableItemsDesc>Montrer tous les objets que ce marchand voudrait acheter.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
   <!-- EN: Attack -->
-  <CommandAttackSettlement>TODO</CommandAttackSettlement>
+  <CommandAttackSettlement>Attaquer</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
-  <CommandAttackSettlementDesc>TODO</CommandAttackSettlementDesc>
+  <CommandAttackSettlementDesc>Attaquer cette colonie.</CommandAttackSettlementDesc>
 
   <!-- UNUSED -->
   <CommandExtractShellFailNoShell>Aucun obus n'est chargé.</CommandExtractShellFailNoShell>
