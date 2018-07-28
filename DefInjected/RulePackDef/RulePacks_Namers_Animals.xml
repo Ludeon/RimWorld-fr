@@ -13,21 +13,15 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericFemale.rulePack.rulesStrings>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnamefemale]</li>
-    <li>name->[animalnamefemale]</li>
-    <li>name->[animalnamefemale]</li>
-    <li>name->[personnamefemale]</li>
-    <li>name->[personnamefemale]</li>
-    <li>name->[personnamefemale]</li>
-    <li>name->[exoticname]</li>
-    <li>exoticname->[badassadjective]</li>
-    <li>exoticname->[badassadjective]</li>
-    <li>exoticname->[concept]</li>
-    <li>exoticname->[concept]</li>
-    <li>exoticname->[color]</li>
+    <li>r_name(p=6)->[NameAnimalUnisex]</li>
+    <li>r_name(p=6)->[NameAnimalFemale]</li>
+    <li>r_name(p=6)->[NamePersonFemale]</li>
+    <li>r_name->[exoticname]</li>
+    <li>exoticname(p=2)->[AdjectiveBadass]</li>
+    <li>exoticname(p=2)->[PersonBadass]</li>
+    <li>exoticname->[Enemy]</li>
+    <li>exoticname->[ConceptAny]</li>
+    <li>exoticname->[Color]</li>
   </NamerAnimalGenericFemale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -42,21 +36,18 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericMale.rulePack.rulesStrings>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnameunisex]</li>
-    <li>name->[animalnamemale]</li>
-    <li>name->[animalnamemale]</li>
-    <li>name->[animalnamemale]</li>
-    <li>name->[personnamemale]</li>
-    <li>name->[personnamemale]</li>
-    <li>name->[personnamemale]</li>
-    <li>name->[exoticname]</li>
-    <li>exoticname->[badassadjective]</li>
-    <li>exoticname->[badassadjective]</li>
-    <li>exoticname->[concept]</li>
-    <li>exoticname->[concept]</li>
-    <li>exoticname->[color]</li>
+    <li>r_name(p=6)->[NameAnimalUnisex]</li>
+    <li>r_name(p=6)->[NameAnimalMale]</li>
+    <li>r_name(p=6)->[NamePersonMale]</li>
+    <li>r_name->[exoticname]</li>
+<!-- TODO: ajouter un e ne foncionnera pas ...  -->
+<!-- Voir Strings/Words/Adjectives/Badass.txt -->
+    <li>exoticname(p=2)->[AdjectiveBadass]e</li>
+    <li>exoticname(p=2)->[PersonBadass]</li>
+    <li>exoticname->[Enemy]</li>
+    <li>exoticname->[ConceptAny]</li>
+<!-- TODO: idem -->
+    <li>exoticname->[Color]e</li>
   </NamerAnimalGenericMale.rulePack.rulesStrings>
   
 </LanguageData>

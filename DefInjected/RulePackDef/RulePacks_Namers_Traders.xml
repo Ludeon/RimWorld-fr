@@ -20,12 +20,23 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>name->[businesstype] [businessname]</li>
-    <li>name->[businesstype] [businessname]</li>
-    <li>name->[businesstype][businessname]</li>
-    <li>name->[businesstype] [businessname]</li>
-    <li>name->[businesstype] [animal] [color]</li>
-    <li>name->[businesstype] [letter][letter]</li>
+    <li>r_name(p=4)->[businesstype] [businessname]</li>
+    <li>r_name->[businesstype] de [NamePerson]</li>
+    <li>r_name->[businesstype] de [Animal] [maybe_adjective]</li>
+    <li>r_name->[businesstype] [Letter][Letter]</li>
+    <li>r_name(p=0.5)->[businesstype] de [PersonAlly]</li>
+    <li>r_name(p=0.5)->[businesstype] [AdjectiveFriendly]</li>
+    <li>r_name(p=0.5)->[businesstype] [AdjectiveBadass]</li>
+    <li>r_name(p=0.3)->[businesstype] [PersonFamily]</li>
+    <li>r_name(p=0.3)->[businesstype] [NaturalObject] [maybe_adjective]</li>
+    <li>r_name(p=0.2)->[businesstype] [TreeType] [maybe_adjective]</li>
+    <li>r_name(p=0.2)->[businesstype] [Vegetable] [maybe_adjective]</li>
+<!--     <li>r_name(p=0.2)->[Direction] [businesstype]</li> -->
+    <li>r_name(p=0.2)->[businesstype] [celestial_name] [Direction]</li>
+    <li>maybe_adjective-></li>
+    <li>maybe_adjective->[Color]</li>
+    <li>maybe_adjective->[AdjectiveFriendly]</li>
+    <li>maybe_adjective->[AdjectiveBadass]</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
   
 </LanguageData>

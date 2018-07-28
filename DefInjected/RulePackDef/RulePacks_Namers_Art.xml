@@ -56,16 +56,16 @@
     <li>r_art_name->[maybe_a] [NaturalObject] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [PersonFamily] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [Enemy] [maybe_adjective]</li>
-    <li>r_art_name(p=2)->[Artwork] No.[art_name_numeric]</li>
-    <li>r_art_name->Arte No.[art_name_numeric]</li>
+    <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
+    <li>r_art_name->No. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
-    <li>r_art_name->[Artwork] y [Artwork]</li>
-    <li>r_art_name->[ConceptAny] [art_name_numeric]</li>
+    <li>r_art_name->[Artwork] [art_name_numeric]</li>
+    <li>r_art_name->[ConceptAny] No. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=6)->[Artwork] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[maybe_a] [Color]</li>
+    <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[PersonalCharacteristic] à [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
@@ -81,7 +81,7 @@
     <li>maybe_letter->[Letter]</li>
     <li>maybe_letter->[Letter][Letter]</li>
     <li>maybe_a(p=3)-></li>
-    <li>maybe_a->Una</li>
+    <li>maybe_a->un(e)</li>
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
@@ -103,16 +103,18 @@
     <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
-    <li>art_name->[badassconcept]</li>
-    <li>art_name->Le [badassanimal]</li>
-    <li>art_name->[badassadjective] [badassanimal]</li>
-    <li>art_name->[badassanimal] [badasscolor]</li>
-    <li>art_name->[badassconcept] [badasscolor]</li>
-    <li>art_name->Le [badassconcept] de [anyPawn_nameShort] </li>
-    <li>art_name->[badassconcept] de [anyPawn_nameShort]</li>
-    <li>art_name->[anyPawn_nameShort] [badasscolor] </li>
-    <li>art_name->Le [badassanimal] de [anyPawn_nameShort] </li>
-    <li>art_name->[anyPawn_nameShort] de [badassperson]</li>
+    <li>r_art_name->[ConceptBadass]</li>
+    <li>r_art_name->Le [AnimalBadass]</li>
+    <li>r_art_name->[AnimalBadass] [AdjectiveBadass]</li>
+    <li>r_art_name->[AnimalBadass] [ColorBadass]</li>
+    <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
+    <li>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[AnimalBadass] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[PersonBadass] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[PersonAlly] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[PersonFamily] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceptBadass] à [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [ColorBadass]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>
