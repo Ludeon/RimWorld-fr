@@ -31,22 +31,22 @@
   <MessageVisitorsTrappedLeaving>Les {0} de {1} se sont fait piéger et creusent pour s'échapper.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} de {1} quittent la carte en raison des températures dangereuses.</MessageVisitorsDangerousTemperature>
-  
+
   <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>L'équipement {0} porté par {1} est réduit à néant.</MessageWornApparelDeterioratedAway>
-  
+
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>La saison {0} vient de commencer.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0} est passé hors de portée de communication.</MessageShipHasLeftCommsRange>
-  
+
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Vous avez besoin d'une balise de commerce orbital pour commercer avec ce vaisseau.\n\nLa balise doit être alimentée en énergie.</MessageNeedBeaconToTradeWithShip>
-  
+
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Commande terminée : {0}.</MessageBillComplete>
-  
+
   <!-- EN: {0} is fully healed. -->
   <MessageFullyHealed>{0} est totalement guéri(e).</MessageFullyHealed>
 
@@ -56,7 +56,8 @@
   <!-- EN: {0} found no nearby unreserved shells for {1}. -->
   <MessageOutOfNearbyShellsFor>{0} n'a trouvé aucun obus disponible à proximité pour {1}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} may attack when harmed ({1} chance at rifle range, more if closer). -->
+  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+    <!-- TODO: EN a changé -->
   <MessageAnimalsGoPsychoHunted>Attention : les {0} risquent d'attaquer si vous les blessez.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Attention : les {0} vont souvent attaquer après l'échec d'un apprivoisement ({1} chance).</MessageAnimalManhuntsOnTameFailed>
@@ -508,8 +509,10 @@
   <!-- EN: {0} is hunting {1} for food! -->
   <MessagePredatorHuntingPlayerAnimal>{0} a pris en chasse {1} pour se nourrir !</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. Recruitment attempts will begin. -->
+  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
   <MessagePrisonerResistanceBroken>La résistance du prisonnier {0} a été brisée par {1}. Les tentatives de recrutement vont commencer.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Désactivez tous les mods avant d'utiliser cet outil.</MessageDisableModsBeforeCleaningTranslationFiles>
