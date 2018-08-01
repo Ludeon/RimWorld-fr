@@ -41,7 +41,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observent d'en-dessous.</li>
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'un(e) [TerrainFeature], contemplant le ciel.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent paisiblement.</li>
-    <li>desc_sentence->Il n'y a pas de [Enemy] en vue.</li>
+    <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
@@ -255,24 +255,24 @@
   -->
   <Eclipse.rulePack.rulesStrings>
     <li>tale_noun->une éclipse sur le/la [Community] de [PAWN_nameDef]</li>
-    <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
-    <li>image->a crepuscular sky, [circumstance_phrase]</li>
-    <li>image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal]s milling around uncertainly in darkness, [circumstance_phrase]</li>
-    <li>circumstance_phrase->the air still and quiet</li>
-    <li>circumstance_phrase->twilight blanketing a nearby [TerrainFeature]</li>
-    <li>circumstance_phrase->twilight blanketing [Quantity_adjphrase] nearby [TerrainFeature]s</li>
-    <li>circumstance_phrase->with stars visible</li>
-    <li>desc_sentence->Below, [PAWN_nameDef] plays [Game] with a [AdjectiveFriendly] look.</li>
-    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</li>
-    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
-    <li>desc_sentence->A [Community] of spectators watches the sky peacefully.</li>
-    <li>desc_sentence->There is no [Enemy] in sight.</li>
+    <li>image->un ciel étrangement sombre, [circumstance_phrase]</li>
+    <li>image->un ciel crépusculaire, [circumstance_phrase]</li>
+    <li>image->une lune, cerclée d'un anneau de la pâle lumière du soleil, [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal]s tournent nerveusement en rond dans l'obscurité, [circumstance_phrase]</li>
+    <li>circumstance_phrase->dans le silence immobile de l'air</li>
+    <li>circumstance_phrase->le crépuscule enveloppant un(e) [TerrainFeature] proche</li>
+    <li>circumstance_phrase->le crépuscule enveloppant [Quantity_adjphrase] [TerrainFeature]s proches</li>
+    <li>circumstance_phrase->avec les étoiles bien visibles</li>
+    <li>desc_sentence->En dessous, [PAWN_nameDef] joue au/aux [Game] d'un air [AdjectiveFriendly].</li>
+    <li>desc_sentence->[PAWN_nameDef] contemple le spectacle avec admiration.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplent le spectacle au-dessus d'eux.</li>
+    <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'un(e) [TerrainFeature], contemplant le ciel.</li>
+    <li>desc_sentence->Un(e) [Community] de spectateurs observe paisiblement le ciel.</li>
+    <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>flashstorm</Flashstorm.label>
+  <Flashstorm.label>orage d'éclairs</Flashstorm.label>
   <!-- EN:
     <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
@@ -296,26 +296,26 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->a firestorm that threatened [PAWN_nameDef]'s [Community]</li>
-    <li>tale_noun->[PAWN_nameDef]'s [Community] menaced by hostile weather</li>
-    <li>image->[Quantity_adjphrase] lightning strikes [circumstance_phrase]</li>
-    <li>image->[behavior] wall of flames [circumstance_phrase]</li>
-    <li>image->[behavior] wall of [Color] flames [circumstance_phrase]</li>
-    <li>image->[behavior] cloud of ash and smoke [circumstance_phrase]</li>
-    <li>image->[behavior] wave of flames [circumstance_phrase]</li>
-    <li>behavior->a</li>
-    <li>behavior->an advancing</li>
-    <li>behavior->an approaching</li>
-    <li>circumstance_phrase->advancing towards a [Community]</li>
-    <li>circumstance_phrase->underneath an intimidating cloud</li>
-    <li>circumstance_phrase->nearly enveloping a [TerrainFeature]</li>
-    <li>circumstance_phrase->nearly enveloping [Quantity_adjphrase] [TerrainFeature]s</li>
-    <li>desc_sentence->[PAWN_nameDef] watches with visible fright.</li>
-    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
-    <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-    <li>desc_sentence->All animal life has left the area.</li>
+    <li>tale_noun->un orage s'éclairs menace le/la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->le/la [Community] de [PAWN_nameDef] est menacé(e) par la météo hostile</li>
+    <li>image->[Quantity_adjphrase] éclairs [circumstance_phrase]</li>
+    <li>image->[behavior] mur de flammes [circumstance_phrase]</li>
+    <li>image->[behavior] mur de flammes [Color]s [circumstance_phrase]</li>
+    <li>image->[behavior] nuage de cendres et de fumée [circumstance_phrase]</li>
+    <li>image->[behavior] vague de flammes [circumstance_phrase]</li>
+    <li>behavior->un(e)</li>
+    <li>behavior->un(e) menaçant(e)</li>
+    <li>behavior->un(e) proche</li>
+    <li>circumstance_phrase->s'avance vers un(e) [Community]</li>
+    <li>circumstance_phrase->sous un nuage effrayant</li>
+    <li>circumstance_phrase->recouvrant presque un(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->recouvrant presque [Quantity_adjphrase] [TerrainFeature]s</li>
+    <li>desc_sentence->[PAWN_nameDef] observe avec une peur visible.</li>
+    <li>desc_sentence->[PAWN_nameDef] observe avec une stupeur visible.</li>
+    <li>desc_sentence->[PAWN_nameDef] coordonne des mesures défensives.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se dépêchent de faire des préparations.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->Toute vie animale a quitté la zone.</li>
   </Flashstorm.rulePack.rulesStrings>
   
   <!-- EN: infestation -->
@@ -343,10 +343,10 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s [Community] infested by insects</li>
-    <li>image->a swarm of beetles [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] megaspiders [circumstance_phrase]</li>
-    <li>image->an overwhelming tide of [Color] insects [circumstance_phrase]</li>
+    <li>tale_noun->le/la [Community] de [PAWN_nameDef] infestée par des insectes</li>
+    <li>image->un essaim de scarabées [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] mégaaraignées [circumstance_phrase]</li>
+    <li>image->une vague accablante d'insectes [Color]s [circumstance_phrase]</li>
     <li>image->a dense fog of black specks [circumstance_phrase]</li>
     <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
     <li>circumstance_phrase->completely encircling a [Community]</li>
