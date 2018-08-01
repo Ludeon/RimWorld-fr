@@ -30,10 +30,10 @@
     <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] mangeant de la viande humaine</li>
-    <li>image->[pawn_nameFull] [eat_gerund] de la viande d'un individu humanoïde [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [eat_gerund] de la viande provenant d'un bras humain [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [eat_gerund] de la chair d'un humanoïde [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] mangeant de la viande humaine</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] de la viande d'un individu humanoïde [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] de la viande provenant d'un bras humain [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] de la chair d'un humanoïde [circumstance_group]</li>
     <li>eat_gerund->mangeant</li>
     <li>eat_gerund->ingérant</li>
     <li>eat_gerund->mâchant</li>
@@ -47,13 +47,13 @@
     <li>circumstance_phrase->tandis que d'autres regardent</li>
     <li>circumstance_phrase->avec brio</li>
     <li>circumstance_phrase->frénétiquement, comme si sa vie en dépendait</li>
-    <li>desc_sentence->Le visage de [pawn_nameShortDef] dégouline de sang.</li>
-    <li>desc_sentence->[pawn_nameShortDef] se lèche les doigts.</li>
-    <li>desc_sentence->[pawn_nameShortDef] a du sang et des morceaux de chair partout sur le visage.</li>
-    <li>desc_sentence->[pawn_nameShortDef] est au milieu d'une grande mare de sang.</li>
-    <li>desc_sentence->[pawn_nameShortDef] lorgne sur une personne à proximité aux intérêts sombre.</li>
+    <li>desc_sentence->Le visage de [PAWN_nameDef] dégouline de sang.</li>
+    <li>desc_sentence->[PAWN_nameDef] se lèche les doigts.</li>
+    <li>desc_sentence->[PAWN_nameDef] a du sang et des morceaux de chair partout sur le visage.</li>
+    <li>desc_sentence->[PAWN_nameDef] est au milieu d'une grande mare de sang.</li>
+    <li>desc_sentence->[PAWN_nameDef] lorgne sur une personne à proximité aux intérêts sombre.</li>
     <li>desc_sentence->La viande brille et à l'air vraiment savoureuse.</li>
-    <li>desc_sentence->La viande s'écoule partout sur le corps de [pawn_nameShortDef].</li>
+    <li>desc_sentence->La viande s'écoule partout sur le corps de [PAWN_nameDef].</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
   
   <!-- EN: humanlike corpse butchered -->
@@ -89,11 +89,11 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->le moment où [pawn_nameShortDef] a créé [thing_labelIndefinite]</li>
-    <li>image->[pawn_nameFull] fabriquant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] finissant son travail sur [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] travaillant sur [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] faisant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>tale_noun->le moment où [PAWN_nameDef] a créé [thing_labelIndefinite]</li>
+    <li>image->[PAWN_nameFull] fabriquant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] finissant son travail sur [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] travaillant sur [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] faisant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>circumstance_phrase->avec une concentration totale</li>
     <li>circumstance_phrase->avec un regard de satisfaction sur son visage</li>
     <li>circumstance_phrase->à son atelier de travail</li>
@@ -105,13 +105,13 @@
     <li>desc_sentence->[pawn_pronoun] est rendu(e) comme étant puissant(e), de manière exagérée.</li>
     <li>desc_sentence->La taille de [thing_labelDefinite] est exagérée pour souligner son importance.</li>
     <li>desc_sentence->[thing_labelDefinite] est ajouté(e) d'une lueur artistique. Cela semble angélique.</li>
-    <li>desc_sentence->[pawn_nameShortDef] est fondu(e) dans l'arrière-plan pour souligner le fait que ce soit sa nouvelle création.</li>
-    <li>desc_sentence->[quantity_adjphrase] spectateurs entourent [pawn_objective].</li>
+    <li>desc_sentence->[PAWN_nameDef] est fondu(e) dans l'arrière-plan pour souligner le fait que ce soit sa nouvelle création.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spectateurs entourent [pawn_objective].</li>
     <li>desc_sentence->Une foule acclame en arrière plan.</li>
     <li>quality_sentence->[thing_labelDefinite] semble être de [thing_quality] qualité</li>
     <li>quality_sentence->[thing_labelDefinite] est de [thing_quality] qualité</li>
-    <li>quality_sentence->Le travail de [pawn_nameShortDef] est de [thing_quality] qualité</li>
-    <li>title_sentence->Le titre de [pawn_nameShortDef] pour [thing_labelDefinite] s'intitule : [thing_title]</li>
+    <li>quality_sentence->Le travail de [PAWN_nameDef] est de [thing_quality] qualité</li>
+    <li>title_sentence->Le titre de [PAWN_nameDef] pour [thing_labelDefinite] s'intitule : [thing_title]</li>
     <li>title_sentence->[thing_labelDefinite] est gravé par un titre : [thing_title]</li>
     <li>title_sentence->Le titre de [thing_labelDefinite], [thing_title], pend en arrière plan</li>
   </CraftedArt.rulePack.rulesStrings>
@@ -151,11 +151,11 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <Drunk.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] dans un état d'ivresse extrême</li>
-    <li>image->[pawn_nameFull] titubant, ivre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] se versant de la liqueur, la tête en arrière [circumstance_group]</li>
-    <li>image->[pawn_nameFull] collectant goulûment des bouteilles de liqueur[circumstance_group]</li>
-    <li>image->[pawn_nameFull] buvant beaucoup [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] dans un état d'ivresse extrême</li>
+    <li>image->[PAWN_nameFull] titubant, ivre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se versant de la liqueur, la tête en arrière [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] collectant goulûment des bouteilles de liqueur[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] buvant beaucoup [circumstance_group]</li>
     <li>circumstance_phrase->inconscient(e) de ce qui l'entoure</li>
     <li>circumstance_phrase->dans une stupeur, broyant du noir</li>
     <li>circumstance_phrase->tout en se questionnant sur sa propre existence</li>
@@ -172,7 +172,7 @@
     <li>circumstance_phrase->avec une lueur lubrique dans ses yeux</li>
     <li>circumstance_phrase->tout en ruminant ses fantômes du passé</li>
     <li>desc_sentence->[pawn_pronoun] semble être totalement ignorant(e) de ce qui est autour [pawn_objective].</li>
-    <li>desc_sentence->[pawn_possessive] se faisant gonfler la face.</li>
+    <li>desc_sentence->[PAWN_possessive] se faisant gonfler la face.</li>
     <li>desc_sentence->[pawn_pronoun] est proche de l'inconscience, sa langue pendante, dégoulinante de bave.</li>
     <li>desc_sentence->[pawn_pronoun] semble être à la fois heureux(se) et triste.</li>
     <li>desc_sentence->[pawn_pronoun] a des marques sur le bas du front.</li>
@@ -199,18 +199,18 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] terminant de rechercher '[project_label]'</li>
-    <li>image->[pawn_nameFull] travaillant sur le projet '[project_label]' [circumstance_group]</li>
-    <li>image->[pawn_nameFull] étudiant les secrets de '[project_label]' [circumstance_group]</li>
-    <li>image->[pawn_nameFull] recherchant '[project_label]' [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] terminant de rechercher '[project_label]'</li>
+    <li>image->[PAWN_nameFull] travaillant sur le projet '[project_label]' [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] étudiant les secrets de '[project_label]' [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] recherchant '[project_label]' [circumstance_group]</li>
     <li>circumstance_phrase->avec une grande intensité</li>
     <li>circumstance_phrase->seul(e) sur son banc</li>
     <li>circumstance_phrase->tandis qu'il(elle) tient des papiers dans les mains</li>
     <li>circumstance_phrase->avec un regard joyeux de fascination</li>
-    <li>desc_sentence->[pawn_nameShortDef] est en transpiration.</li>
+    <li>desc_sentence->[PAWN_nameDef] est en transpiration.</li>
     <li>desc_sentence->Le travail semble être exceptionnellement complexe.</li>
-    <li>desc_sentence->[pawn_nameShortDef] est complètement entouré(e) d'outils et d'appareils.</li>
-    <li>desc_sentence->[pawn_nameShortDef] admire sa découverte avec un sens de l'émerveillement.</li>
+    <li>desc_sentence->[PAWN_nameDef] est complètement entouré(e) d'outils et d'appareils.</li>
+    <li>desc_sentence->[PAWN_nameDef] admire sa découverte avec un sens de l'émerveillement.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
   <!-- EN: landed in pod -->
@@ -239,12 +239,12 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] atterrissant en capsule de largage</li>
-    <li>image->[pawn_nameFull] atterrissant en capsule de largage [circumstance_group]</li>
-    <li>image->[pawn_nameFull] arrivant au sol en capsule de largage [circumstance_group]</li>
-    <li>image->[pawn_nameFull] percutant le sol avec sa capsule de largage [circumstance_group]</li>
-    <li>image->[pawn_nameFull] étant à bord d'une capsule de largage [circumstance_group]</li>
-    <li>circumstance_phrase->devant un(e) [terrainfeature]</li>
+    <li>tale_noun->[PAWN_nameDef] atterrissant en capsule de largage</li>
+    <li>image->[PAWN_nameFull] atterrissant en capsule de largage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] arrivant au sol en capsule de largage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] percutant le sol avec sa capsule de largage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] étant à bord d'une capsule de largage [circumstance_group]</li>
+    <li>circumstance_phrase->devant un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->avec une force incroyable</li>
     <li>circumstance_phrase->dans un nuage de poussières et de débris</li>
     <li>circumstance_phrase->avec les rétro-fusées hurlant à plein régime</li>
@@ -256,10 +256,10 @@
     <li>desc_sentence->[pawn_pronoun] semble n'avoir aucune idée de ce qu'[pawn_pronoun] fait.</li>
     <li>desc_sentence->[pawn_pronoun] est harnaché(e) et ferme les yeux, impuissant(e).</li>
     <li>desc_sentence->Les flammes lèchent l'arrière de la capsule.</li>
-    <li>desc_sentence->Un(e) [animal] à proximité l'observe, pétrifié(e)</li>
-    <li>desc_sentence->Un(e) [animal] terrorisé(e) fuit le point d'impact.</li>
-    <li>desc_sentence->Il y a un(e) [terrainfeature] au loin.</li>
-    <li>desc_sentence->Un(e) [outlander] en retrait observe silencieusement.</li>
+    <li>desc_sentence->Un(e) [Animal] à proximité l'observe, pétrifié(e)</li>
+    <li>desc_sentence->Un(e) [Animal] terrorisé(e) fuit le point d'impact.</li>
+    <li>desc_sentence->Il y a un(e) [TerrainFeature] au loin.</li>
+    <li>desc_sentence->Un(e) [PersonJob] en retrait observe silencieusement.</li>
   </LandedInPod.rulePack.rulesStrings>
   
   <!-- EN: berserk rage -->
@@ -290,10 +290,10 @@
     <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] devenant fou(folle) furieux(se)</li>
-    <li>image->[pawn_nameFull] volant dans une folie furieuse [circumstance_group]</li>
-    <li>image->[pawn_nameFull] devenant fou(folle), dans une violente démence [circumstance_group]</li>
-    <li>image->[pawn_nameFull] trébuchant vers l'avant, avec une expression psychotique sur le visage [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] devenant fou(folle) furieux(se)</li>
+    <li>image->[PAWN_nameFull] volant dans une folie furieuse [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] devenant fou(folle), dans une violente démence [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trébuchant vers l'avant, avec une expression psychotique sur le visage [circumstance_group]</li>
     <li>circumstance_phrase->tandis qu'il(elle) essaye de se déshabiller</li>
     <li>circumstance_phrase->apparemment sans raison</li>
     <li>circumstance_phrase->tandis que d'autres se recroquevillent de peur</li>
@@ -301,14 +301,14 @@
     <li>circumstance_phrase->à cause du stress</li>
     <li>circumstance_phrase->comme une dernière étape</li>
     <li>desc_sentence->[pawn_pronoun] se secoue avec une rage incontrôlable.</li>
-    <li>desc_sentence->[pawn_possessive] dents expriment un grognement mortel.</li>
-    <li>desc_sentence->[pawn_possessive] yeux sont engloutis par la folie.</li>
+    <li>desc_sentence->[PAWN_possessive] dents expriment un grognement mortel.</li>
+    <li>desc_sentence->[PAWN_possessive] yeux sont engloutis par la folie.</li>
     <li>desc_sentence->Un crachat sort de sa bouche, dans un hurlement de rage folle.</li>
     <li>desc_sentence->[pawn_pronoun] a perdu une partie de ses vêtements.</li>
     <li>desc_sentence->[pawn_pronoun] est grimaçant de misère.</li>
     <li>desc_sentence->[pawn_pronoun] semble sourire comme un(e) maniaque.</li>
-    <li>desc_sentence->[pawn_pronoun] est représenté(e) avec le visage d'un(e) [animal] grognant(e).</li>
-    <li>desc_sentence->Un(e) [animal] encercle symboliquement sa tête.</li>
+    <li>desc_sentence->[pawn_pronoun] est représenté(e) avec le visage d'un(e) [Animal] grognant(e).</li>
+    <li>desc_sentence->Un(e) [Animal] encercle symboliquement sa tête.</li>
     <li>desc_sentence->[pawn_pronoun] a une lueur meurtrière dans ses yeux.</li>
     <li>desc_sentence->Son corps tout entier semble trembler de haine.</li>
     <li>desc_sentence->Son visage porte les marques d'une sérénité bizarre.</li>
@@ -339,10 +339,10 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] renonçant de désespoir</li>
-    <li>image->[pawn_nameFull] renonçant finalement sous l'effet du stress[circumstance_group]</li>
-    <li>image->[pawn_nameFull] sanglotant de manière incontrôlée [circumstance_group]</li>
-    <li>image->[pawn_nameFull] titubant avec une expression brisée sur le visage[circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] renonçant de désespoir</li>
+    <li>image->[PAWN_nameFull] renonçant finalement sous l'effet du stress[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sanglotant de manière incontrôlée [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] titubant avec une expression brisée sur le visage[circumstance_group]</li>
     <li>circumstance_phrase->tandis qu'il(elle) essaye de se déshabiller</li>
     <li>circumstance_phrase->apparemment sans raison</li>
     <li>circumstance_phrase->tandis que d'autres font preuves de sympathie</li>
@@ -351,7 +351,7 @@
     <li>circumstance_phrase->comme une dernière étape</li>
     <li>desc_sentence->[pawn_pronoun] a des larmes qui coulent le long de son visage.</li>
     <li>desc_sentence->[pawn_pronoun] est riant(e), dans un sentiment de profonde dépression.</li>
-    <li>desc_sentence->[pawn_nameShortDef] regarde vers le haut, comme en attente d'une aide venant du ciel.</li>
+    <li>desc_sentence->[PAWN_nameDef] regarde vers le haut, comme en attente d'une aide venant du ciel.</li>
     <li>desc_sentence->[pawn_pronoun] déchire ses propres vêtements.</li>
     <li>desc_sentence->[pawn_pronoun] semble totalement inconscient(e) de ce qui l'entoure [pawn_objective].</li>
     <li>desc_sentence->[pawn_pronoun] semble à la fois heureux(se) et triste.</li>
@@ -379,20 +379,20 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <StruckMineable.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] frappant [thing_label]</li>
-    <li>image->[pawn_nameFull] frappant [thing_label] [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] frappant [thing_label]</li>
+    <li>image->[PAWN_nameFull] frappant [thing_label] [circumstance_group]</li>
     <li>circumstance_phrase->tandis qu'il mine</li>
     <li>circumstance_phrase->tandis qu'il creuse</li>
     <li>circumstance_phrase->tandis qu'il creuse un tunnel</li>
     <li>circumstance_phrase->avec un regard surpris</li>
     <li>circumstance_phrase->avec une expression de satisfaction</li>
-    <li>desc_sentence->[pawn_nameShortDef] s'essuie le front.</li>
-    <li>desc_sentence->[pawn_nameShortDef] saute de joie.</li>
-    <li>desc_sentence->[pawn_nameShortDef] tape dans la main d'un ami.</li>
-    <li>desc_sentence->[pawn_nameShortDef] crie de bonheur.</li>
-    <li>desc_sentence->[pawn_nameShortDef] rigole de manière incontrôlée.</li>
-    <li>desc_sentence->[pawn_nameShortDef] est suant(e) et sale à force de travail.</li>
-    <li>desc_sentence->[pawn_nameShortDef] est en sueur et couvert de poussières à force de travailler.</li>
+    <li>desc_sentence->[PAWN_nameDef] s'essuie le front.</li>
+    <li>desc_sentence->[PAWN_nameDef] saute de joie.</li>
+    <li>desc_sentence->[PAWN_nameDef] tape dans la main d'un ami.</li>
+    <li>desc_sentence->[PAWN_nameDef] crie de bonheur.</li>
+    <li>desc_sentence->[PAWN_nameDef] rigole de manière incontrôlée.</li>
+    <li>desc_sentence->[PAWN_nameDef] est suant(e) et sale à force de travail.</li>
+    <li>desc_sentence->[PAWN_nameDef] est en sueur et couvert de poussières à force de travailler.</li>
   </StruckMineable.rulePack.rulesStrings>
   
   <!-- EN: vomited -->
@@ -417,11 +417,11 @@
     <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
   -->
   <Vomited.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] vomissant</li>
-    <li>image->[pawn_nameFull] crachant du vomi sur le sol [circumstance_group]</li>
-    <li>image->[pawn_nameFull] regardant dégoûté(e), couvert de vomissures séchées [circumstance_group]</li>
-    <li>image->[pawn_nameFull] plié(e) en deux et nauséeux(se) sur le sol [circumstance_group]</li>
-    <li>image->[pawn_nameFull] sur ses genoux, en train de vomir sur le sol [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] vomissant</li>
+    <li>image->[PAWN_nameFull] crachant du vomi sur le sol [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] regardant dégoûté(e), couvert de vomissures séchées [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] plié(e) en deux et nauséeux(se) sur le sol [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sur ses genoux, en train de vomir sur le sol [circumstance_group]</li>
     <li>circumstance_phrase->semble blessé(e)</li>
     <li>circumstance_phrase->avec une grande honte</li>
     <li>circumstance_phrase->tandis que d'autres regardent</li>
@@ -433,7 +433,7 @@
     <li>desc_sentence->[pawn_pronoun] semble essayer de rire, en dépit des circonstances.</li>
     <li>desc_sentence->[pawn_pronoun] semble être presque dégonflé(e), comme totalement vidé(e) par les vomissements intenses.</li>
     <li>desc_sentence->[pawn_pronoun] est entouré(e) d'un halo d'immondices au rendu artistique.</li>
-    <li>desc_sentence->Un(e) [animal] mange une trace de vomi dans le fond.</li>
+    <li>desc_sentence->Un(e) [Animal] mange une trace de vomi dans le fond.</li>
   </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->
@@ -464,11 +464,11 @@
     <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] marchant nu(e), aux alentours</li>
-    <li>image->[pawn_nameFull] [nude_action] de manière naturelle[circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action] dans un nudisme [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action], nu(e), [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action] sans un seul vêtement [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] marchant nu(e), aux alentours</li>
+    <li>image->[PAWN_nameFull] [nude_action] de manière naturelle[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] dans un nudisme [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action], nu(e), [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] sans un seul vêtement [circumstance_group]</li>
     <li>nude_action->sautillant</li>
     <li>nude_action->batifolant</li>
     <li>nude_action->gambadant</li>
@@ -483,10 +483,10 @@
     <li>circumstance_phrase->tandis que d'autres regardent</li>
     <li>circumstance_phrase->apparemment sans raison</li>
     <li>circumstance_phrase->pendant que des animaux confus regardent</li>
-    <li>desc_sentence->[pawn_nameShortDef] est visiblement excité(e).</li>
-    <li>desc_sentence->[pawn_nameShortDef] est recouvert(e) d'humidité inexplicable.</li>
-    <li>desc_sentence->[pawn_nameShortDef] respire fortement sans raison apparente.</li>
-    <li>desc_sentence->[pawn_nameShortDef] se caresse contre un buisson.</li>
+    <li>desc_sentence->[PAWN_nameDef] est visiblement excité(e).</li>
+    <li>desc_sentence->[PAWN_nameDef] est recouvert(e) d'humidité inexplicable.</li>
+    <li>desc_sentence->[PAWN_nameDef] respire fortement sans raison apparente.</li>
+    <li>desc_sentence->[PAWN_nameDef] se caresse contre un buisson.</li>
   </WalkedNaked.rulePack.rulesStrings>
   
   <!-- EN: on fire -->
@@ -512,11 +512,11 @@
     <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
   -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] prenant feu</li>
-    <li>image->[pawn_nameFull] se débattant frénétiquement contre le feu sur tout son corps [circumstance_group]</li>
-    <li>image->[pawn_nameFull] enveloppé(e) d'une flamme [circumstance_group]</li>
-    <li>image->[pawn_nameFull] s'agenouillant, mains sur la tête, essayant d'éteindre les flammes sur son corps [circumstance_group]</li>
-    <li>image->[pawn_nameFull] roulant sur le sol, tout en brûlant [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] prenant feu</li>
+    <li>image->[PAWN_nameFull] se débattant frénétiquement contre le feu sur tout son corps [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] enveloppé(e) d'une flamme [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'agenouillant, mains sur la tête, essayant d'éteindre les flammes sur son corps [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] roulant sur le sol, tout en brûlant [circumstance_group]</li>
     <li>circumstance_phrase->tandis que d'autres regardent</li>
     <li>circumstance_phrase->tout en étant à moitié nu(e)</li>
     <li>circumstance_phrase->avec une intention focalisée</li>
