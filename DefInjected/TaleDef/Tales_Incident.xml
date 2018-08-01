@@ -715,7 +715,7 @@
   </Tornado.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
-  <TornadoFromItem.label>TODO</TornadoFromItem.label>
+  <TornadoFromItem.label>tornade</TornadoFromItem.label>
   <!-- EN:
     <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
     <li>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</li>
@@ -740,7 +740,31 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   -->
-  <TornadoFromItem.rulePack.rulesStrings>TODO</TornadoFromItem.rulePack.rulesStrings>
+  <TornadoFromItem.rulePack.rulesStrings>
+    <!-- TODO: copié de l'EN, à traduire -->
+    <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
+    <li>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</li>
+    <li>image->[behavior] cone of twisting air [circumstance_phrase]</li>
+    <li>image->[behavior] tornado [circumstance_phrase]</li>
+    <li>image->[behavior] hurricane [circumstance_phrase]</li>
+    <li>image->[behavior] [Color] cloud formation [circumstance_phrase]</li>
+    <li>behavior->an advancing</li>
+    <li>behavior->an approaching</li>
+    <li>behavior->a quickly-moving</li>
+    <li>behavior->a swirling</li>
+    <li>circumstance_phrase->carrying debris with it</li>
+    <li>circumstance_phrase->passing over a [TerrainFeature]</li>
+    <li>circumstance_phrase->obscuring a [TerrainFeature]</li>
+    <li>circumstance_phrase->enveloping a [TerrainFeature]</li>
+    <li>desc_sentence->[COLONIST_nameDef] watches with visible fright.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face.</li>
+    <li>desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[ATTACKER_nameDef] cackles with glee.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
+  </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>toxic fallout</ToxicFallout.label>
