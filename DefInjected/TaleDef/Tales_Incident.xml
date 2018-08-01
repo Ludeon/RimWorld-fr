@@ -36,12 +36,12 @@
     <li>circumstance_phrase->illumine un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->flotte au-dessus de [Community]</li>
     <li>circumstance_phrase->calé entre un(e) [TerrainFeature] et un(e) [TerrainFeature]</li>
-    <li>desc_sentence->En-dessous, [PAWN_nameDef] joue à/aux [Game] d'un air [AdjectiveFriendly].</li>
+    <li>desc_sentence->En-dessous, [PAWN_nameDef] joue au/aux [Game] d'un air [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] regarde avec admiration.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observent d'en-dessous.</li>
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'un(e) [TerrainFeature], contemplant le ciel.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent paisiblement.</li>
-    <li>desc_sentence->Il n'y a pas d'[Enemy] en vue.</li>
+    <li>desc_sentence->Il n'y a pas de [Enemy] en vue.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
@@ -77,8 +77,8 @@
     <li>image->[PAWN_nameFull] court [circumstance_group]</li>
     <li>image->[PAWN_nameFull] combat un adversaire au corps à corps [circumstance_group]</li>
     <li>image->[PAWN_nameFull] se défend [circumstance_group]</li>
-    <li>circumstance_phrase->avec une expression [AdjectiveBadass]</li>
-    <li>circumstance_phrase->avec une expression [AdjectiveBadass]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveBadass]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveBadass]</li>
     <li>circumstance_phrase->tout en brandissant son arme</li>
     <li>circumstance_phrase->suant d'épuisement</li>
     <li>desc_sentence->[Quantity_adjphrase] silhouettes lointaines sortent de derrière un(e) [TerrainFeature].</li>
@@ -86,11 +86,11 @@
     <li>desc_sentence->[PAWN_nameDef] est pratiquement encerclé(e) par les [Enemy]s.</li>
     <li>desc_sentence->[PAWN_nameDef] est confronté(e) par un [Enemy].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
-    <li>desc_sentence->Au loin, un(e) [PersonJob] observe.</li>
+    <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>caravan ambushed by manhunter</CaravanAmbushedByManhunter.label>
+  <CaravanAmbushedByManhunter.label>caravane embusquée par des chasseurs d'hommes</CaravanAmbushedByManhunter.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -111,27 +111,27 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s caravan ambushed</li>
-    <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] moving to attack [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] attacking [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] running [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
-    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
-    <li>circumstance_phrase->while wielding [PAWN_possessive] weapon</li>
-    <li>circumstance_phrase->while sweating with exertion</li>
-    <li>circumstance_phrase->while covered with [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] distant animals approach from behind a [TerrainFeature].</li>
-    <li>desc_sentence->[Gore] covers the ground.</li>
-    <li>desc_sentence->The ground has been trampled into a mess of [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
-    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
+    <li>tale_noun->la caravane de [PAWN_nameDef] est victime d'une embuscade</li>
+    <li>image->[PAWN_nameFull] se cache [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se déplace pour protéger un allié [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se déplace pour attaquer [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] attaque [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] pousse un cri [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] court [circumstance_group]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveBadass]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveBadass]</li>
+    <li>circumstance_phrase->tout en brandissant son arme</li>
+    <li>circumstance_phrase->suant d'épuisement</li>
+    <li>circumstance_phrase->couvert(e) de [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] animaux lointains sortent de derrière un(e) [TerrainFeature].</li>
+    <li>desc_sentence->il y a du/de la/des [Gore] partout.</li>
+    <li>desc_sentence->Les passages de bottes répétés ont fait du sol un amat de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
+    <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>caravan demand</CaravanDemand.label>
+  <CaravanDemand.label>demande envers la caravane</CaravanDemand.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
@@ -157,32 +157,32 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
-    <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
-    <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] thinking [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] glaring [circumstance_group]</li>
-    <li>image->[PAWN_nameFull], threatened by a [PersonJob], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] brandishing a [Weapon] [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
-    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->as others look on</li>
-    <li>circumstance_phrase->while being threatened by [Enemy]s</li>
-    <li>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are nearby, [action].</li>
-    <li>desc_sentence->The sun sets over a [TerrainFeature].</li>
-    <li>desc_sentence->The sun rises over a [TerrainFeature].</li>
-    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
-    <li>action->sharpening their weapons</li>
-    <li>action->watching for danger</li>
-    <li>action->guarding hostages</li>
-    <li>action->waiting for a decision</li>
-    <li>action->taunting [PAWN_nameDef]</li>
+    <li>tale_noun->la caravane de [PAWN_nameDef] a reçu une requête</li>
+    <li>tale_noun->la caravane de [PAWN_nameDef] a reçu des menaces</li>
+    <li>image->[PAWN_nameFull] se cache [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] pousse un cri [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] réfléchit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lance un regard noir [circumstance_group]</li>
+    <li>image->[PAWN_nameFull], menacé(e) par un(e) [PersonJob], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandit son [Weapon] [circumstance_group]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveBadass]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveAngsty]</li>
+    <li>circumstance_phrase->sous le regard attentif des autres </li>
+    <li>circumstance_phrase->, menacé(e) par des [Enemy]s</li>
+    <li>desc_sentence->[PAWN_nameDef] est pratiquement encerclé(e) par les [Enemy]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s restent proches, [action].</li>
+    <li>desc_sentence->Le soleil se couche sur un(e) [TerrainFeature].</li>
+    <li>desc_sentence->Le soleil se lève sur un(e) [TerrainFeature].</li>
+    <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
+    <li>action->affûtant leurs armes</li>
+    <li>action->à l'affût</li>
+    <li>action->surveillant les prisonniers</li>
+    <li>action->attendant une décision</li>
+    <li>action->cherchant à provoquer [PAWN_nameDef]</li>
   </CaravanDemand.rulePack.rulesStrings>
   
   <!-- EN: caravan meeting -->
-  <CaravanMeeting.label>caravan meeting</CaravanMeeting.label>
+  <CaravanMeeting.label>rencontre de la caravane</CaravanMeeting.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
     <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
@@ -209,33 +209,33 @@
     <li>event->talking hesitantly</li>
   -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s caravan met by others</li>
-    <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inspecting a [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] calling out to a [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] walking towards a [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] talking quietly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] playing [Game] with a [PersonJob] [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
-    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
-    <li>circumstance_phrase->while [friendlyverb]</li>
-    <li>circumstance_phrase->as others look on</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s surround the group.</li>
-    <li>desc_sentence->The sun sets over a [TerrainFeature].</li>
-    <li>desc_sentence->The sun rises over a [TerrainFeature].</li>
-    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
-    <li>event->throwing a party</li>
-    <li>event->eating a communal meal</li>
-    <li>event->discussing recent events</li>
-    <li>event->rekindling old friendships</li>
-    <li>event->talking hesitantly</li>
+    <li>tale_noun->la caravane de [PAWN_nameDef] a croisé un groupe sur la route</li>
+    <li>image->[PAWN_nameFull] salut un(e) [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inspecte un(e) [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] interpelle un(e) [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avance vers un(e) [PersonJob] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] parle à voix basse [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] crie d'une voix forte [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] joue au/aux [Game] avec un(e) [PersonJob] [circumstance_group]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveFriendly]</li>
+    <li>circumstance_phrase->d'un air [AdjectiveFriendly]</li>
+    <li>circumstance_phrase->tout en [friendlyverb]</li>
+    <li>circumstance_phrase->alors que les autres regardent</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s [event].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s [event].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se rassemblent autour du groupe.</li>
+    <li>desc_sentence->Le soleil se couche sur un(e) [TerrainFeature].</li>
+    <li>desc_sentence->Le soleil se lève sur un(e) [TerrainFeature].</li>
+    <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
+    <li>event->font la fête</li>
+    <li>event->partagent un repas</li>
+    <li>event->discutent des nouvelles</li>
+    <li>event->redonnent vie à de vieilles amitiés</li>
+    <li>event->échangent quelques mots hésitants</li>
   </CaravanMeeting.rulePack.rulesStrings>
   
   <!-- EN: eclipse -->
-  <Eclipse.label>eclipse</Eclipse.label>
+  <Eclipse.label>éclipse</Eclipse.label>
   <!-- EN:
     <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
     <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
@@ -254,7 +254,7 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->une éclipse sur le/la [Community] de [PAWN_nameDef]</li>
     <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
     <li>image->a crepuscular sky, [circumstance_phrase]</li>
     <li>image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase]</li>
