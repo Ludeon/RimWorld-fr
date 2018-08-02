@@ -33,11 +33,11 @@
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Un(e) [PAWN_title] nommé [PAWN_nameDef] s'est violemment écrasé(e) dans une capsule de sauvetage à proximité. Si [PAWN_pronoun] survit à l'impact, [PAWN_pronoun] doit être gravement blessé.</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>TODO</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] n'appartient à aucune faction. Vous pouvez sauver [PAWN_nameDef] et espérer qu'[PAWN_pronoun] vous rejoigne liberement. Ou, le/la capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>Vous pouvez capturer [PAWN_nameDef] à des fins de recrutement ou d'esclavage. [PAWN_pronoun] est de [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>Vous pouvez capturer [PAWN_nameDef] à des fins de recrutement ou d'esclavage. [PAWN_pronoun] est de la faction ennemie [PAWN_factionName].</RefugeePodCrash_Hostile>
   <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
-  <RefugeePodCrash_NonHostile>Remarque : [PAWN_nameDef] est de [PAWN_factionName]. Sa capture les mettra en colère, tandis que si vous lui portez secours, les relations avec cette faction seront améliorées.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>[PAWN_nameDef] est de [PAWN_factionName]. Si vous lui portez secours, [PAWN_pronoun] pourrait librement vous rejoindre. Si non, [PAWN_pronoun] rentrera chez [PAWN_objective] et cela améliorera les relations entre vos factions.\n\nVous pouvez aussi le/la capturer à des fins de recrutement ou d'esclavage, mais cela mettra en colère sa faction.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Capsule de cargo</LetterLabelCargoPodCrash>
@@ -130,7 +130,7 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Réfugié pourchassé à {0}</RefugeeChasedTitle>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Un [PAWN_title] nommé [PAWN_nameDef] vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un [PAWN_title] nommé [PAWN_nameDef] vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques. [PAWN_pronoun] n'a pas eu le temps de donner plus de détails.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses. Ce groupe est composé de :\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
@@ -214,7 +214,7 @@
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Une colonie à proximité, {0}, vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter :\n\n  {1} (valant {2})\n\nEn retour, ils offrent :\n\n  {3} (valant {4})\n\nCette demande expire après : {5}\n\nSi vous souhaitez faire l'échange, envoyez une caravane avec les fournitures demandées. Le trajet durera {6}. Vous pouvez consulter cette offre en sélectionnant {0} sur la carte du monde.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Demande : {0}, Récompense : {1} (manquent {2})</CaravanRequestInfo>
+  <CaravanRequestInfo>Demande : {0} ({3}), Récompense : {1} ({4}) (manquent {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualité normale ou mieux</NormalQualityOrBetter>
 
