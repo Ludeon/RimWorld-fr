@@ -96,13 +96,13 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>logentry(p=1.5)->[culpritHediff_labelNoun] caused [subject_definite] to [die].</li>
-    <li>logentry(p=1.5)->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_definite] to [die].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died].</li>
-    <li>logentry->[subject_definite] [died] [flavorsuffix].</li>
+    <li>r_logentry(p=1.5)->[culpritHediff_labelNoun] caused [subject_definite] to [die].</li>
+    <li>r_logentry(p=1.5)->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_definite] to [die].</li>
+    <li>r_logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
+    <li>r_logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label] [flavorsuffix].</li>
+    <li>r_logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label] [flavorsuffix].</li>
+    <li>r_logentry->[subject_definite] [died].</li>
+    <li>r_logentry->[subject_definite] [died] [flavorsuffix].</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
   
   <!-- EN:
@@ -137,12 +137,12 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>logentry->[culpritHediff_labelNoun] caused [subject_definite] to [collapsemeta].</li>
-    <li>logentry->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_definite] to [collapsemeta].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label].</li>
-    <li>logentry(p=0.1)->[subject_definite] [collapsedmeta].</li>
+    <li>r_logentry->[culpritHediff_labelNoun] caused [subject_definite] to [collapsemeta].</li>
+    <li>r_logentry->[culpritHediff_labelNoun] in the [culpritHediff_target_label] caused [subject_definite] to [collapsemeta].</li>
+    <li>r_logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</li>
+    <li>r_logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in the [culpritHediff_target_label].</li>
+    <li>r_logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] in [subject_possessive] [culpritHediff_target_label].</li>
+    <li>r_logentry(p=0.1)->[subject_definite] [collapsedmeta].</li>
     <li>collapse->collapse</li>
     <li>collapse->crumple</li>
     <li>collapse->drop</li>
