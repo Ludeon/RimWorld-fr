@@ -32,11 +32,11 @@
   <LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Un(e) [PAWN_title] nommé [PAWN_nameDef] s'est violemment écrasé(e) dans une capsule de sauvetage à proximité. Si [PAWN_pronoun] survit à l'impact, [PAWN_pronoun] doit être gravement blessé.</RefugeePodCrash>
-  <!-- EN: You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_NonHostileOrFactionless>Vous pouvez sauver [PAWN_nameDef] et [PAWN_objective] laisser suivre son propre chemin. Ou, [PAWN_objective] capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_NonHostileOrFactionless>
-  <!-- EN: You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName]. -->
+  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>TODO</RefugeePodCrash_Factionless>
+  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>Vous pouvez capturer [PAWN_nameDef] à des fins de recrutement ou d'esclavage. [PAWN_pronoun] est de [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <!-- EN: Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations. -->
+  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
   <RefugeePodCrash_NonHostile>Remarque : [PAWN_nameDef] est de [PAWN_factionName]. Sa capture les mettra en colère, tandis que si vous lui portez secours, les relations avec cette faction seront améliorées.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
@@ -84,11 +84,6 @@
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
 
-  <!-- EN: Wanderer joins -->
-  <LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
-  <!-- EN: A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
-  <WandererJoin>Un(e) {0} nommé(e) [PAWN_nameDef] a rejoint la colonie. Son métier est {1}.\n\n[PAWN_pronoun] est prêt à contribuer, mais ne partira pas volontairement. Si vous ne voulez pas de [PAWN_nameDef], vous pouvez [PAWN_objective] bannir, [PAWN_objective] vendre en esclavage, ou simplement [PAWN_objective] tuer. Cependant, vos autres colons peuvent trouver cela dérangeant.</WandererJoin>
-
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Meute de chasseurs d'hommes</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
@@ -134,7 +129,7 @@
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Réfugié pourchassé à {0}</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. -->
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
   <RefugeeChasedInitial>Un [PAWN_title] nommé [PAWN_nameDef] vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses.</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
@@ -218,7 +213,7 @@
   <LetterLabelCaravanRequest>Demande de caravane</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Une colonie à proximité, {0}, vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter :\n\n  {1} (valant {2})\n\nEn retour, ils offrent :\n\n  {3} (valant {4})\n\nCette demande expire après : {5}\n\nSi vous souhaitez faire l'échange, envoyez une caravane avec les fournitures demandées. Le trajet durera {6}. Vous pouvez consulter cette offre en sélectionnant {0} sur la carte du monde.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0}, Reward: {1} ({2} left) -->
+  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
   <CaravanRequestInfo>Demande : {0}, Récompense : {1} (manquent {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualité normale ou mieux</NormalQualityOrBetter>
@@ -244,6 +239,9 @@
   <LetterSiteNoLongerHostileMulti>Les sites suivants ne sont plus disponibles car vous n'êtes plus hostile envers {0}</LetterSiteNoLongerHostileMulti>
 
   <!-- UNUSED -->
+  <RefugeePodCrash_NonHostileOrFactionless>Vous pouvez sauver [PAWN_nameDef] et [PAWN_objective] laisser suivre son propre chemin. Ou, [PAWN_objective] capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_NonHostileOrFactionless>
+  <LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
+  <WandererJoin>Un(e) {0} nommé(e) [PAWN_nameDef] a rejoint la colonie. Son métier est {1}.\n\n[PAWN_pronoun] est prêt à contribuer, mais ne partira pas volontairement. Si vous ne voulez pas de [PAWN_nameDef], vous pouvez [PAWN_objective] bannir, [PAWN_objective] vendre en esclavage, ou simplement [PAWN_objective] tuer. Cependant, vos autres colons peuvent trouver cela dérangeant.</WandererJoin>
   <EnemyRaidWalkIn>Un groupe de {0} de {1} est arrivé à proximité.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>Un groupe de {0} de {1} effectue un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>Un groupe de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>

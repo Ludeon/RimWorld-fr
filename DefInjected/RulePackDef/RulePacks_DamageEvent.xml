@@ -21,19 +21,19 @@
     <li>destroyed_present->breaking</li>
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
-    <li>damageSource->Le [roof] [collapsed] sur</li>
+    <li>damage_source->Le [roof] [collapsed] sur</li>
     <li>roof->toit</li>
-    <li>roof->couverture</li>
+    <li>roof->faîtage</li>
     <li>roof->plafond</li>
     <li>collapsed->s'est effondré</li>
     <li>collapsed->est tombé</li>
     <li>collapsed->s'est rompu</li>
     <li>damaged_present->fracassant</li>
-    <li>damaged_present->dénigrant</li>
-    <li>damaged_present->sabotant</li>
-    <li>damaged_present->battant</li>
+    <li>damaged_present->frappant</li>
+    <li>damaged_present->assomant</li>
+    <li>damaged_present->contusionnant</li>
     <li>damaged_present->lacérant</li>
-    <li>destroyed_present->bouleversant</li>
+    <li>destroyed_present->brisant</li>
     <li>destroyed_present->écrasant</li>
     <li>destroyed_present->anéantissant</li>
     <li>destroyed_present->annihilant</li>
@@ -58,8 +58,8 @@
     <li>destroyed_present->cremating</li>
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
-    <li>damageSource->[fire] a brûlé</li>
-    <li>fire(p=3)->feu</li>
+    <li>damage_source->[fire] a brûlé</li>
+    <li>fire(p=3)->du feu</li>
     <li>fire(p=3)->un feu</li>
     <li>fire(p=3)->le feu</li>
     <li>fire->chaleur</li>
@@ -82,10 +82,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_present] [recipient_possessive] [destroyed_targets].</li>
-    <li>logentry->[damageSource] [recipient_nameShortDef], [destroyed_present] [recipient_possessive] [destroyed_targets] et [damaged_present] [recipient_possessive] [damaged_targets].</li>
-    <li>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaged_present] [recipient_possessive] [damaged_targets].</li>
-    <li>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets] et [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
@@ -104,13 +104,13 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damageSource->Le [sky] s'est ouvert sur</li>
-    <li>damageSource->Un faisceau d'un incroyable [power] [damaged_past]</li>
-    <li>damageSource->Une colonne de [light] [damaged_past]</li>
-    <li>sky->ciel</li>
-    <li>sky->nuages</li>
-    <li>sky->cieux</li>
-    <li>power->pouvoir</li>
+    <li>damage_source->[sky] s'est ouvert sur</li>
+    <li>damage_source->Un faisceau d'une incroyable [power] [damaged_past]</li>
+    <li>damage_source->Une colonne de [light] [damaged_past]</li>
+    <li>sky->Le ciel</li>
+    <li>sky->Un coin de nuages</li>
+    <li>sky->Le royaume des cieux</li>
+    <li>power->puissance</li>
     <li>power->énergie</li>
     <li>power->chaleur</li>
     <li>light->lumière</li>
@@ -131,7 +131,7 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damageSource->Une tornade [spiraling] [enveloped]</li>
+    <li>damage_source->Une tornade [spiraling] [enveloped]</li>
     <li>destroyed_present(p=3)->arrachant</li>
     <li>spiraling->en spirale</li>
     <li>spiraling->tourbillonnante</li>

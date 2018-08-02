@@ -20,7 +20,7 @@
   <!-- EN: mini-turret bullet -->
   <Bullet_MiniTurret.label>balle de tourelle improvisée</Bullet_MiniTurret.label>
   
-  <!-- EN: sniper shell -->
+  <!-- EN: uranium slug -->
   <Bullet_TurretSniper.label>obus de précision</Bullet_TurretSniper.label>
   
   <!-- UNUSED -->
@@ -41,22 +41,17 @@
   <!-- EN: mini-turret gun -->
   <Gun_MiniTurret.verbs.Verb_Shoot.label>pistolet de tourelle improvisée</Gun_MiniTurret.verbs.Verb_Shoot.label>
   
-  <!-- EN: sniper cannon -->
+  <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.label>canon de précision</Gun_TurretSniper.label>
   <!-- EN: A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets. -->
   <Gun_TurretSniper.description>Un canon de précision auto-chargeant conçu pour être fixé sur une tourelle. Précis de loin, il ne permet pas de viser les cibles proches.</Gun_TurretSniper.description>
-  <!-- EN: sniper cannon -->
+  <!-- EN: uranium slug cannon -->
   <Gun_TurretSniper.verbs.Verb_Shoot.label>canon de précision</Gun_TurretSniper.verbs.Verb_Shoot.label>
   
   <!-- EN: sandbags -->
   <Sandbags.label>sacs de sable</Sandbags.label>
   <!-- EN: Bags of locally-sourced dirt or sand held in place by steel rods. Sandbags are ugly, but provide excellent cover from ranged attacks. -->
   <Sandbags.description>Sacs de terre ou de sable fixés par des tiges d'acier. Les sacs de sable sont laids, mais offrent une excellente couverture contre les attaques à distance.</Sandbags.description>
-  
-  <!-- EN: deadfall trap -->
-  <TrapDeadfall.label>piège mécanique</TrapDeadfall.label>
-  <!-- EN: A collection of spikes under tension. When the victim disturbs the trigger, the spikes are released and spring forth, striking the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapDeadfall.description>Un piège fait de collection de pointes sous tension. Lorsque la victime le déclenche, les pointes sont libérées et jaillissent, pour la frapper. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes.</TrapDeadfall.description>
   
   <!-- EN: IED antigrain warhead trap -->
   <TrapIED_AntigrainWarhead.label>piège à antimatière improvisé</TrapIED_AntigrainWarhead.label>
@@ -83,9 +78,14 @@
   <!-- EN: Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapIED_Incendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes.</TrapIED_Incendiary.description>
   
+  <!-- EN: spike trap -->
+  <TrapSpike.label>piège à pointes</TrapSpike.label>
+  <!-- EN: A collection of five heavy spikes under tension. When the victim disturbs the trigger, the spikes are released and spring forth, striking the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapSpike.description>Un piège fait d'une collection de pointes sous tension. Lorsque la victime le déclenche, les pointes sont libérées et jaillissent, pour la frapper. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes.</TrapSpike.description>
+  
   <!-- EN: autocannon turret -->
   <Turret_Autocannon.label>tourelle autocanon</Turret_Autocannon.label>
-  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but it requires frequent and expensive barrel changes. It cannot fire at close-up targets, and may explode when damaged. -->
+  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
   <Turret_Autocannon.description>Une tourelle automatique lourde. Ses obus de gros calibre font de lourds dégâts sur une bonne distance, mais nécessitent des changements de canon fréquents et coûteux. Elle ne peut pas tirer sur des cibles rapprochées et peut exploser lorsqu'elle est endommagée.</Turret_Autocannon.description>
   <!-- EN: Barrel durability -->
   <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
@@ -96,7 +96,7 @@
   
   <!-- EN: mini-turret -->
   <Turret_MiniTurret.label>tourelle improvisée</Turret_MiniTurret.label>
-  <!-- EN: A portable automatic turret. Requires steel to replace its barrel after heavy use. It is relatively fragile, and may explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
   <Turret_MiniTurret.description>Une tourelle automatique portable. Nécessite de l'acier pour remplacer son canon après une utilisation intensive. Elle est relativement fragile et peut exploser lorsqu'elle est endommagée. Son cerveau IA limité ne peut pas être directement contrôlé, alors méfiez-vous des tirs fratricides.</Turret_MiniTurret.description>
   <!-- EN: Barrel durability -->
   <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
@@ -110,9 +110,9 @@
   <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
   <Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son inexactitude le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis sur le terrain.</Turret_Mortar.description>
   
-  <!-- EN: sniper turret -->
+  <!-- EN: uranium slug turret -->
   <Turret_Sniper.label>tourelle de précision</Turret_Sniper.label>
-  <!-- EN: A very long-ranged automatic sniper turret. Its high-velocity uranium shells do heavy damage over very long ranges, but it requires frequent and expensive barrel changes. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <!-- EN: A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
   <Turret_Sniper.description>Une tourelle de précision automatique à très longue portée. Ses obus d'uranium à grande vitesse causent de lourds dommages sur de très longues distances, mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée.</Turret_Sniper.description>
   <!-- EN: Barrel durability -->
   <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
