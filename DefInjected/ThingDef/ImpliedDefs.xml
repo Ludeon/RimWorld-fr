@@ -571,7 +571,7 @@
   <!-- EN: télévision cathodique (plan) -->
   <Blueprint_TubeTelevision.label>télévision cathodique (plan)</Blueprint_TubeTelevision.label>
   
-  <!-- EN: autocannon turret (plan) -->
+  <!-- EN: tourelle autocanon (plan) -->
   <Blueprint_Turret_Autocannon.label>tourelle autocanon ( plan)</Blueprint_Turret_Autocannon.label>
   
   <!-- EN: tourelle improvisée (plan) -->
@@ -580,7 +580,7 @@
   <!-- EN: mortier (plan) -->
   <Blueprint_Turret_Mortar.label>mortier (plan)</Blueprint_Turret_Mortar.label>
   
-  <!-- EN: uranium slug turret (plan) -->
+  <!-- EN: tourelle de précision (plan) -->
   <Blueprint_Turret_Sniper.label>tourelle de tireur d'élite (plan)</Blueprint_Turret_Sniper.label>
   
   <!-- EN: ventilation (plan) -->
@@ -1039,7 +1039,7 @@
   
   <!-- EN: porte (construction) -->
   <Frame_Door.label>une porte</Frame_Door.label>
-  <!-- EN: Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes. -->
+  <!-- EN: Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes. Le niveau de ralentissement dépend du matériau de construction de la porte. -->
   <Frame_Door.description>Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes.</Frame_Door.description>
   
   <!-- EN: lit double (construction) -->
@@ -1294,7 +1294,7 @@
   
   <!-- EN: sacs de sable (construction) -->
   <Frame_Sandbags.label>un sac de sable</Frame_Sandbags.label>
-  <!-- EN: Une couverture pour les fusillades. -->
+  <!-- EN: Sacs de terre ou de sable fixés par des tiges d'acier. Les sacs de sable sont laids, mais offrent une excellente couverture contre les attaques à distance. -->
   <Frame_Sandbags.description>Une couverture pour les fusillades.</Frame_Sandbags.description>
   
   <!-- EN: sarcophage (construction) -->
@@ -1324,17 +1324,17 @@
   
   <!-- EN: propulseur de vaisseau (construction) -->
   <Frame_Ship_Engine.label>un propulseur de vaisseau</Frame_Ship_Engine.label>
-  <!-- EN: Un propulseur à antimatière permettant le lancement du vaisseau en orbite, et les voyages interstellaires. -->
+  <!-- EN: Un propulseur à antimatière Johnson-Tanaka permettant le lancement du vaisseau en orbite, et les voyages interstellaires. -->
   <Frame_Ship_Engine.description>Un propulseur à antimatière permettant le lancement du vaisseau en orbite, et les voyages interstellaires.</Frame_Ship_Engine.description>
   
   <!-- EN: réacteur de vaisseau (construction) -->
   <Frame_Ship_Reactor.label>un réacteur de vaisseau</Frame_Ship_Reactor.label>
-  <!-- EN: Alimente un vaisseau en énergie. -->
+  <!-- EN: Alimente un vaisseau en énergie pendant son voyage vers les étoiles. Le décollage nécessite un long processus de mise sous tension susceptible d'attirer les pirates. -->
   <Frame_Ship_Reactor.description>Alimente un vaisseau en énergie.</Frame_Ship_Reactor.description>
   
   <!-- EN: capteur (construction) -->
   <Frame_Ship_SensorCluster.label>capteur</Frame_Ship_SensorCluster.label>
-  <!-- EN: Un module de détection, sondant le vide pour chercher les dangers et les opportunités. -->
+  <!-- EN: Un module de détection multifonction, sondant le vide pour chercher les dangers et les opportunités. -->
   <Frame_Ship_SensorCluster.description>Un module de détection, sondant le vide pour chercher les dangers et les opportunités.</Frame_Ship_SensorCluster.description>
   
   <!-- EN: carrelage en argent (construction) -->
@@ -1478,27 +1478,27 @@
   
   <!-- EN: piège à antimatière improvisé (construction) -->
   <Frame_TrapIED_AntigrainWarhead.label>piège à antimatière improvisé</Frame_TrapIED_AntigrainWarhead.label>
-  <!-- EN: Une minuscule ogive à antimatière connectée à un déclencheur artisanal. Quand il est perturbé, ce piège crée une énorme explosion et des incendies autour de lui. -->
+  <!-- EN: Une ogive à antimatière reliée à un déclencheur artisanal. Lorsqu'elle est déclenchée, l'ogive explose, créant une explosion massive d'antimatière. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes. -->
   <Frame_TrapIED_AntigrainWarhead.description>Une minuscule ogive à antimatière connectée à un déclencheur artisanal. Quand il est perturbé, ce piège crée une énorme explosion et des incendies autour de lui.</Frame_TrapIED_AntigrainWarhead.description>
   
   <!-- EN: piège EMP improvisé (construction) -->
   <Frame_TrapIED_EMP.label>piège EMP improvisé</Frame_TrapIED_EMP.label>
-  <!-- EN: Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par l'impulsion électromagnétique. -->
+  <!-- EN: Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par les impulsions électromagnétiques. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes. -->
   <Frame_TrapIED_EMP.description>Un obus à impulsion électromagnétique connecté à un déclencheur artisanal. L'explosion peut paralyser des créatures mécaniques pendant quelques secondes. Ce piège peut être activé même par ceux qui ne sont pas affectés par l'impulsion électromagnétique.</Frame_TrapIED_EMP.description>
   
   <!-- EN: piège anti-incendie improvisé (construction) -->
   <Frame_TrapIED_Firefoam.label>piège anti-incendie improvisé</Frame_TrapIED_Firefoam.label>
-  <!-- EN: Quand quelqu'un touche le déclencheur, ce piège explose et projette une mousse anti-incendie autour de lui. -->
+  <!-- EN: Quand quelqu'un touche le déclencheur, le piège explose et projette une mousse anti-incendie autour de lui. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes. -->
   <Frame_TrapIED_Firefoam.description>Quand quelqu'un touche le déclencheur, ce piège explose et projette une mousse anti-incendie autour de lui.</Frame_TrapIED_Firefoam.description>
   
   <!-- EN: piège explosif improvisé (construction) -->
   <Frame_TrapIED_HighExplosive.label>piège explosif improvisé</Frame_TrapIED_HighExplosive.label>
-  <!-- EN: Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir. -->
+  <!-- EN: Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes. -->
   <Frame_TrapIED_HighExplosive.description>Un obus d'artillerie connecté à un déclencheur artisanal. Quand quelqu'un active le déclencheur, l'obus explose. Le déclencheur, du fait de sa construction artisanale, a un temps de retard aléatoire qui peut dans certains cas permettre à un ennemi agile de s'enfuir.</Frame_TrapIED_HighExplosive.description>
   
   <!-- EN: piège incendiaire improvisé (construction) -->
   <Frame_TrapIED_Incendiary.label>piège incendiaire improvisé</Frame_TrapIED_Incendiary.label>
-  <!-- EN: Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable. -->
+  <!-- EN: Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable. Comme il est camouflé dans le terrain environnant, il ne peut pas être placé à côté d'autres pièges. Les animaux peuvent le repérer lorsqu'ils sont calmes. -->
   <Frame_TrapIED_Incendiary.description>Des explosifs mélangés avec une pâte incendiaire, le tout relié à un déclencheur chimique. Quand quelqu'un l'active, du combustible enflammé est projeté. Le déclencheur chimique est simple et fiable.</Frame_TrapIED_Incendiary.description>
   
   <!-- EN: télévision cathodique (construction) -->
@@ -1506,24 +1506,24 @@
   <!-- EN: Un écran à tube cathodique pour montrer des images animées avec du son. Même dans les RimWorlds, il y a souvent un ancien émetteur en marche qui diffuse quelque chose au moins partiellement intéressant. -->
   <Frame_TubeTelevision.description>Un écran à tube cathodique pour montrer des images animées avec du son. Même dans les RimWorlds, il y a souvent un ancien émetteur en marche qui diffuse quelque chose au moins partiellement intéressant.</Frame_TubeTelevision.description>
   
-  <!-- EN: autocannon turret (construction) -->
+  <!-- EN: tourelle autocanon (construction) -->
   <Frame_Turret_Autocannon.label>tourelle autocanon</Frame_Turret_Autocannon.label>
-  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
+  <!-- EN: Une tourelle automatique lourde. Ses obus de gros calibre font de lourds dégâts sur une bonne distance, mais nécessitent des changements de canon fréquents et coûteux. Elle ne peut pas tirer sur des cibles rapprochées et peut exploser lorsqu'elle est endommagée. -->
   <Frame_Turret_Autocannon.description>Une tourelle automatique lourde. Ses obus de gros calibre font de lourds dégâts sur des portées importantes, mais nécessitent des changements de canon fréquents et coûteux. Elle ne peut pas tirer sur des cibles rapprochées et peut exploser lorsqu'elle est endommagée.</Frame_Turret_Autocannon.description>
   
   <!-- EN: tourelle improvisée (construction) -->
   <Frame_Turret_MiniTurret.label>tourelle improvisée (construction)</Frame_Turret_MiniTurret.label>
-  <!-- EN: Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel piraté n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami. -->
+  <!-- EN: Une tourelle automatique portable. Nécessite de l'acier pour remplacer son canon après une utilisation intensive. Elle est relativement fragile et peut exploser lorsqu'elle est endommagée. Son cerveau IA limité ne peut pas être directement contrôlé, alors méfiez-vous des tirs fratricides. -->
   <Frame_Turret_MiniTurret.description>Une tourelle improvisée qui tire automatiquement sur les ennemis à portée. Elle explose lorsqu'elle est endommagée. Son cerveau artificiel n'est pas très intelligent, et ne peut pas être contrôlé directement, alors prenez garde au tir ami.</Frame_Turret_MiniTurret.description>
   
   <!-- EN: mortier (construction) -->
   <Frame_Turret_Mortar.label>mortier (construction)</Frame_Turret_Mortar.label>
-  <!-- EN: Un mortier tirant tous les types d'obus. Nécessite un artilleur. Explose si endommagé. -->
+  <!-- EN: Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son inexactitude le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis sur le terrain. -->
   <Frame_Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Explose si endommagé.</Frame_Turret_Mortar.description>
   
-  <!-- EN: uranium slug turret (construction) -->
+  <!-- EN: tourelle de précision (construction) -->
   <Frame_Turret_Sniper.label>tourelle de précision</Frame_Turret_Sniper.label>
-  <!-- EN: A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <!-- EN: Une tourelle de précision automatique à très longue portée. Ses obus d'uranium à grande vitesse causent de lourds dommages sur de très longues distances, mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée. -->
   <Frame_Turret_Sniper.description>Une tourelle automatique de précision à très longue portée. Ses obus à l'uranium tirés à grande vitesse causent de lourds dommages sur de très longues distances, mais nécessitent des changements de cannon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée.</Frame_Turret_Sniper.description>
   
   <!-- EN: ventilation (construction) -->
