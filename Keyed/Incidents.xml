@@ -28,9 +28,9 @@
   <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
   <FriendlyRaidLeaderPresent>Quelqu'un de {0} - {1} est le chef de la faction.</FriendlyRaidLeaderPresent>
 
-  <!-- EN: Escape pod -->
+  <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Un(e) [PAWN_title] nommé [PAWN_nameDef] s'est violemment écrasé(e) dans une capsule de sauvetage à proximité. Si [PAWN_pronoun] survit à l'impact, [PAWN_pronoun] doit être gravement blessé.</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>[PAWN_nameDef] n'appartient à aucune faction. Vous pouvez sauver [PAWN_nameDef] et espérer qu'[PAWN_pronoun] vous rejoigne liberement. Ou, le/la capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_Factionless>
@@ -166,12 +166,6 @@
   <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
   <LetterTraderCaravanArrival>Une caravane marchande de {0} arrive. C'est un {1}.\n\nLes commerçants vont rester autour de votre colonie pendant quelques jours avant de repartir. Vous pouvez les attaquer, mais cela mettra en colère leur faction !</LetterTraderCaravanArrival>
   
-  <!-- Building breaks down -->
-  <!-- EN: Breakdown: {0} -->
-  <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
-  <!-- EN: One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it. -->
-  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail "Construction" ne s'en sera pas occupé.</LetterBuildingBrokenDown>
-  
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demande de rançon à {0}</RansomDemandTitle>
@@ -239,6 +233,8 @@
   <LetterSiteNoLongerHostileMulti>Les sites suivants ne sont plus disponibles car vous n'êtes plus hostile envers {0}</LetterSiteNoLongerHostileMulti>
 
   <!-- UNUSED -->
+  <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail "Construction" ne s'en sera pas occupé.</LetterBuildingBrokenDown>
   <RefugeePodCrash_NonHostileOrFactionless>Vous pouvez sauver [PAWN_nameDef] et [PAWN_objective] laisser suivre son propre chemin. Ou, [PAWN_objective] capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_NonHostileOrFactionless>
   <LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
   <WandererJoin>Un(e) {0} nommé(e) [PAWN_nameDef] a rejoint la colonie. Son métier est {1}.\n\n[PAWN_pronoun] est prêt à contribuer, mais ne partira pas volontairement. Si vous ne voulez pas de [PAWN_nameDef], vous pouvez [PAWN_objective] bannir, [PAWN_objective] vendre en esclavage, ou simplement [PAWN_objective] tuer. Cependant, vos autres colons peuvent trouver cela dérangeant.</WandererJoin>
