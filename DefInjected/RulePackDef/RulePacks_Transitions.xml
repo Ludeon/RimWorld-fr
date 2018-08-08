@@ -21,7 +21,7 @@
     <li>die(subject_flesh!=Mechanoid,p=0.5)->succombe à ses blessures</li>
     <li>die(subject_flesh==Mechanoid,p=0.5)->s'éteint</li>
     <li>die(subject_flesh==Mechanoid,p=0.5)->arrête de fonctionner</li>
-    <li>died(p=2)->est mort</li>
+    <li>died(p=2)->est mort(e)</li>
     <li>died->a péri</li>
     <li>died(subject_flesh!=Mechanoid)->a expiré</li>
     <li>died(subject_flesh==Mechanoid)->s'est éteint</li>
@@ -148,10 +148,10 @@
     <li>collapse(subject_flesh==Mechanoid)->se plante</li>
     <li>collapse(subject_flesh==Mechanoid)->redémarre en boucle</li>
     <li>collapse(subject_flesh==Mechanoid)->se bloque</li>
-    <li>collapsed->s'est écroulé</li>
-    <li>collapsed->s'est effondré</li>
-    <li>collapsed->est tombé</li>
-    <li>collapsed(subject_flesh!=Mechanoid)->s'est évanoui</li>
+    <li>collapsed->s'est écroulé(e)</li>
+    <li>collapsed->s'est effondré(e)</li>
+    <li>collapsed->est tombé(e)</li>
+    <li>collapsed(subject_flesh!=Mechanoid)->s'est évanoui(e)</li>
     <li>collapsed(subject_flesh==Mechanoid)->s'est planté</li>
     <li>collapsed(subject_flesh==Mechanoid)->a redémarré en boucle</li>
     <li>collapsed(subject_flesh==Mechanoid)->s'est bloqué</li>
@@ -173,9 +173,9 @@
     <li>duetoa(p=0.5)->thanks to</li>
   -->
   <Transition_Include.rulePack.rulesStrings>
-    <li>duetoa->à cause de </li>
-    <li>duetoa(p=0.5)->en raison de</li>
-    <li>duetoa(p=0.5)->grâce à</li>
+    <li>duetoa->à cause d'</li>
+    <li>duetoa(p=0.5)->en raison d'</li>
+    <li>duetoa(p=0.5)->suite à</li>
   </Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>
