@@ -10,12 +10,13 @@
     <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A quitté [other_nameShortIndef].</li>
+<!--     TODO: à traduire -->
+    <li>r_logentry->A quitté [OTHER_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <Breakup.logRulesRecipient.rulesStrings>
-    <li>r_logentry->S'est fait(e) quitter par [other_nameShortIndef].</li>
+    <li>r_logentry->S'est fait(e) quitter par [OTHER_nameDef].</li>
   </Breakup.logRulesRecipient.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -26,12 +27,12 @@
     <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A demandé [other_nameShortIndef] en mariage.</li>
+    <li>r_logentry->A demandé [OTHER_nameDef] en mariage.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <MarriageProposal.logRulesRecipient.rulesStrings>
-    <li>r_logentry->A été demandé(e) en mariage par [other_nameShortIndef].</li>
+    <li>r_logentry->A été demandé(e) en mariage par [OTHER_nameDef].</li>
   </MarriageProposal.logRulesRecipient.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -99,12 +100,12 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A dragué [other_nameShortIndef].</li>
+    <li>r_logentry->A dragué [OTHER_nameDef].</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <RomanceAttempt.logRulesRecipient.rulesStrings>
-    <li>r_logentry->S'est fait(e) draguer par [other_nameShortIndef].</li>
+    <li>r_logentry->S'est fait(e) draguer par [OTHER_nameDef].</li>
   </RomanceAttempt.logRulesRecipient.rulesStrings>
   
 </LanguageData>
