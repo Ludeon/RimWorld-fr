@@ -24,12 +24,12 @@
     <li>scraped_past->slid</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] a [damaged_past] [at] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le/la [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] avec [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] a [damaged_past] [at] [RECIPIENT_definite] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] a [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
     <li>at-></li>
     <li>at->au/à la</li>
     <li>deflected_result-> [adverb_deflected]</li>
@@ -133,13 +133,13 @@
     <li>prefix->[WEAPON_projectile_label] de [INITIATOR_definite]</li>
     <li>prefix->[WEAPON_label] de [INITIATOR_definite]</li>
     <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
-    <li>r_logentry->[prefix] [adverb_flavortext] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et [damaged_past] [recipient_possessive] [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [adverb_flavortext] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
+    <li>r_logentry->[prefix] [adverb_flavortext] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et a [damaged_past] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [damaged_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [adverb_flavortext] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e) par [INITIATOR_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e) [adverb_flavortext] par [INITIATOR_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e).</li>
@@ -208,23 +208,23 @@
     <li>action(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [adverb_flavortext].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [flavortext_situation].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label], [flavortext_consequence].</li>
-    <li>r_logentry(p=0.07)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
-    <li>r_logentry(p=0.03)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [adverb_flavortext] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] [expertly].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [adverb_flavortext].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [flavortext_situation].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.07)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [adverb_flavortext] a [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
+    <li>r_logentry(p=0.03)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [adverb_flavortext] a [damaged_past] [adverb_flavortext] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] [expertly].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] ses [destroyed_targets]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] ses [damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present] ses [destroyed_targets] et [damaged_present] ses [damaged_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present] ses [destroyed_targets] et [damaged_present] [damaged_targets]</li>
     <li>action(p=0.3)->[INITIATOR_definite] a frappé pour [damaged_inf] [RECIPIENT_definite] avec [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] avec [implement]</li>
-    <li>action(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] avec [implement]</li>
+    <li>action(p=0.6)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite]</li>
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
@@ -490,35 +490,35 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [to] [destroyed_suffix].</li>
-    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [expertly].</li>
-    <li>r_logentry(p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [to] [destroyed_suffix].</li>
+    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [expertly].</li>
+    <li>r_logentry(p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] est [destroyed_past] par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] est [destroyed_past] par la [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] est [destroyed_past] en [destroyed_suffix] par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->La [WEAPON_projectile_label] de [INITIATOR_definite] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->La [WEAPON_projectile_label] de [INITIATOR_definite] [damaged_past] [damaged_targets] de [RECIPIENT_definite] [expertly].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0,p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past](e) par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past](e) par la [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
+    <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past](e) en [destroyed_suffix] par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_partDestroyed_count==0)->La [WEAPON_projectile_label] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_partDestroyed_count==0)->La [WEAPON_projectile_label] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite] [expertly].</li>
+    <li>r_logentry(recipient_partDestroyed_count==0,p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_partDestroyed_count==0,p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] est [damaged_past] par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] est [damaged_past] par la [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
-    <li>r_logentry(p=3)->La [WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et [damaged_past] ses [damaged_targets].</li>
-    <li>r_logentry(p=6)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] ses [damaged_targets].</li>
+    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past](e) par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past](e) par la [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
+    <li>r_logentry(p=3)->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et a [damaged_past] [damaged_targets].</li>
+    <li>r_logentry(p=6)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec une [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.2)->La [WEAPON_projectile_label] de [INITIATOR_definite] a frappé [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite] avec une [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.4)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec une [WEAPON_projectile_label] destinée à [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
-    <li>destroyed_past->a anéanti</li>
-    <li>destroyed_past->a écrasé</li>
-    <li>destroyed_past->a écrabouillé</li>
-    <li>destroyed_past->a annihilé</li>
-    <li>destroyed_past->a transpercé</li>
-    <li>destroyed_past->a perforé</li>
-    <li>destroyed_past->a esquinté</li>
+    <li>destroyed_past->anéanti</li>
+    <li>destroyed_past->écrasé</li>
+    <li>destroyed_past->écrabouillé</li>
+    <li>destroyed_past->annihilé</li>
+    <li>destroyed_past->transpercé</li>
+    <li>destroyed_past->perforé</li>
+    <li>destroyed_past->esquinté</li>
     <li>destroyed_present->anéantissant</li>
     <li>destroyed_present->écrasant</li>
     <li>destroyed_present->écrabouillant</li>
@@ -532,11 +532,11 @@
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->de sacrés trous</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->viande hachée</li>
-    <li>damaged_past->a blessé</li>
-    <li>damaged_past->a amoché</li>
-    <li>damaged_past->a percé</li>
-    <li>damaged_past->a abîmé</li>
-    <li>damaged_past->a détruit</li>
+    <li>damaged_past->blessé</li>
+    <li>damaged_past->amoché</li>
+    <li>damaged_past->percé</li>
+    <li>damaged_past->abîmé</li>
+    <li>damaged_past->détruit</li>
     <li>damaged_present->blessant</li>
     <li>damaged_present->amochant</li>
     <li>damaged_present->perçant</li>
@@ -577,9 +577,9 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[damaged_target_possessive_opt] was [damaged_past] par la [WEAPON_projectile_label] de [INITIATOR_definite] [deflected_result].</li>
+    <li>r_logentry->La [WEAPON_projectile_label] de [INITIATOR_definite] a [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry->[damaged_target_possessive_opt] a été [damaged_past](e) par la [WEAPON_projectile_label] de [INITIATOR_definite] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] [deflected_result].</li>
     <li>r_logentry(p=0.2)->La [WEAPON_projectile_label] de [INITIATOR_definite] a frappé [damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] [deflected_result].</li>
@@ -787,15 +787,15 @@
     <li>missed(p=4)->a raté</li>
     <li>missed(p=2)->a raté de peu</li>
     <li>missed(p=2)->a raté de beaucoup</li>
-    <li>missed->est parti au loin</li>
+    <li>missed->est partie au loin</li>
     <li>missed->a volé dans les airs</li>
     <li>missed->a volé haut dans les airs</li>
     <li>missed->s'est plantée dans le sol</li>
     <li>missed->a rebondi sur le sol et s'est perdue</li>
     <li>missed->a fait voler des mottes de terre</li>
-    <li>missed(p=0.2)->est passé à quelques millimètres de [ORIGINALTARGET_definite]</li>
-    <li>missed->est passé à quelques centimètres de [ORIGINALTARGET_definite]</li>
-    <li>missed->est passé à un mètre de [ORIGINALTARGET_definite]</li>
+    <li>missed(p=0.2)->est passée à quelques millimètres de [ORIGINALTARGET_definite]</li>
+    <li>missed->est passée à quelques centimètres de [ORIGINALTARGET_definite]</li>
+    <li>missed->est passée à un mètre de [ORIGINALTARGET_definite]</li>
     <li>missed->a été emportée par le vent</li>
     <li>missing->ratant</li>
     <li>missing->ratant de peu</li>
@@ -868,14 +868,14 @@
     <li>expert->artistic</li>
   -->
   <Combat_WoundIncludes.rulePack.rulesStrings>
-    <li>destroyed_targets(recipient_part_destroyed_count==1)->[RECIPIENT_part_destroyed0_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==2)->[RECIPIENT_part_destroyed0_label] et [RECIPIENT_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label] et [RECIPIENT_part_destroyed2_label]</li>
-    <li>destroyed_targets->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], [RECIPIENT_part_destroyed2_label] et [RECIPIENT_part_destroyed3_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==1)->[RECIPIENT_part_damaged0_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==2)->[RECIPIENT_part_damaged0_label] et [RECIPIENT_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label] et [RECIPIENT_part_damaged2_label]</li>
-    <li>damaged_targets->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], [RECIPIENT_part_damaged2_label] et [RECIPIENT_part_damaged3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->son/sa [RECIPIENT_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->ses [RECIPIENT_part_destroyed0_label] et [RECIPIENT_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->ses [RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label] et [RECIPIENT_part_destroyed2_label]</li>
+    <li>destroyed_targets->ses [RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], [RECIPIENT_part_destroyed2_label] et [RECIPIENT_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->son/sa [RECIPIENT_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->ses [RECIPIENT_part_damaged0_label] et [RECIPIENT_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->ses [RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label] et [RECIPIENT_part_damaged2_label]</li>
+    <li>damaged_targets->ses [RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], [RECIPIENT_part_damaged2_label] et [RECIPIENT_part_damaged3_label]</li>
     <li>expertly->expertement</li>
     <li>expertly->ingénieusement</li>
     <li>expertly->adroitement</li>
