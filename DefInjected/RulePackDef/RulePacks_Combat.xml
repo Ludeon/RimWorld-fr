@@ -658,12 +658,14 @@
     <li>shotat(p=0.5)->a essayé de tirer [aburst] sur</li>
     <li>shotat(p=0.3)->a tiré sur</li>
     <li>shotat(p=0.2)->a effectué un tir [adjective_shot] sur</li>
-    <li>shotat->a envoyé [aburst] sur</li>
-    <li>shotat->a envoyé [adverb_shot] [aburst] sur</li>
-    <li>shotat(p=0.5)->a visé et envoyé [aburst] sur</li>
+    <li>shotat->a envoyé [aburst2] sur</li>
+    <li>shotat->a envoyé [adverb_shot] [aburst2] sur</li>
+    <li>shotat(p=0.5)->a visé et envoyé [aburst2] sur</li>
     <li>shotat(p=0.3)->a ouvert le feu sur</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)->une rafale</li>
+    <li>aburst2->un projectile</li>
+    <li>aburst2(BURST==True,p=3)->une rafale</li>
     <li>burst-></li>
     <li>burst(BURST==True,p=3)->en rafale</li>
     <li>verb_shot->a tiré</li>
@@ -679,7 +681,7 @@
     <li>adjective_shot->soigneux</li>
     <li>adjective_shot->rapide</li>
     <li>adjective_shot->délibéré</li>
-    <li>adjective_shot->précise</li>
+    <li>adjective_shot->précis</li>
     <li>adjective_shot(initiator_flesh!=Mechanoid)->prudent</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
@@ -730,7 +732,7 @@
     <li>adjective_threw->soigneux</li>
     <li>adjective_threw->rapide</li>
     <li>adjective_threw->délibéré</li>
-    <li>adjective_threw->précise</li>
+    <li>adjective_threw->précis</li>
     <li>adjective_threw(initiator_flesh!=Mechanoid)->prudent</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
