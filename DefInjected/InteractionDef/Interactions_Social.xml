@@ -21,7 +21,8 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A eu une bonne discussion avec [other_nameShortIndef].</li>
+<!--     TODO: à traduire -->
+    <li>r_logentry->A eu une bonne discussion avec [RECIPIENT_nameDef].</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
@@ -42,7 +43,7 @@
     <li>subject->[TalkTopicHeavy]</li>
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A eu une discussion profonde avec [other_nameShortIndef].</li>
+    <li>r_logentry->A eu une discussion profonde avec [RECIPIENT_nameDef].</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
@@ -67,12 +68,12 @@
     <li>insultcomparison->[Enemy]</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A insulté [other_nameShortIndef].</li>
+    <li>r_logentry->A insulté [RECIPIENT_nameDef].</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <Insult.logRulesRecipient.rulesStrings>
-    <li>r_logentry->S'est fait(e) insulter par [other_nameShortIndef].</li>
+    <li>r_logentry->S'est fait(e) insulter par [RECIPIENT_nameDef].</li>
   </Insult.logRulesRecipient.rulesStrings>
   
   <!-- EN: kind words -->
@@ -94,12 +95,12 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A eu des paroles aimables envers [other_nameShortIndef].</li>
+    <li>r_logentry->A eu des paroles aimables envers [RECIPIENT_nameDef].</li>
   </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <KindWords.logRulesRecipient.rulesStrings>
-    <li>r_logentry->A eu des paroles aimables de la part de [other_nameShortIndef].</li>
+    <li>r_logentry->A eu des paroles aimables de la part de [RECIPIENT_nameDef].</li>
   </KindWords.logRulesRecipient.rulesStrings>
   
   <!-- EN: slight -->
@@ -122,12 +123,12 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A offensé [other_nameShortIndef].</li>
+    <li>r_logentry->A offensé [RECIPIENT_nameDef].</li>
   </Slight.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
   <Slight.logRulesRecipient.rulesStrings>
-    <li>r_logentry->A été offensé(e) par [other_nameShortIndef].</li>
+    <li>r_logentry->A été offensé(e) par [RECIPIENT_nameDef].</li>
   </Slight.logRulesRecipient.rulesStrings>
   
 </LanguageData>
