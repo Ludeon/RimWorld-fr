@@ -26,7 +26,7 @@
   <Combat_Deflect.rulePack.rulesStrings>
     <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite], maniant son/sa [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] dans le/la [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec une [damaged_inf] de [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le/la [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
@@ -83,8 +83,8 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [damaged_inf] de [INITIATOR_definite] de [implement].</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [damaged_inf] de [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [INITIATOR_definite] voulant le/la [damaged_inf] avec [implement].</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [INITIATOR_definite] voulant le/la [damaged_inf].</li>
     <li>result->mais [RECIPIENT_definite] a bondi hors de portée</li>
     <li>result->mais a été trompé(e) par une feinte de [RECIPIENT_definite]</li>
     <li>result->mais l'attaque a été savamment esquivée</li>
@@ -140,9 +140,9 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [adverb_flavortext] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past] par [INITIATOR_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past] [adverb_flavortext] par [INITIATOR_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e) par [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e) [adverb_flavortext] par [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past](e).</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été pris(e) dans une explosion.</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été touché(e) par une explosion.</li>
     <li>blast->l'explosion</li>
@@ -221,7 +221,7 @@
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] ses [destroyed_targets]</li>
     <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] ses [damaged_targets]</li>
     <li>result(p=1)->[destroyed_present] ses [destroyed_targets] et [damaged_present] ses [damaged_targets]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec un/une [damaged_inf] de [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] a frappé pour [damaged_inf] [RECIPIENT_definite] avec [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] avec [implement]</li>
     <li>action(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
@@ -411,8 +411,8 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a évité le/la [WEAPON_label] [damaged_inf] de [INITIATOR_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a raté [RECIPIENT_definite] avec un [damaged_inf] de [implement].</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le/la [damaged_inf] avec son/sa [WEAPON_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a raté de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype].</li>
@@ -790,8 +790,8 @@
     <li>missed->est parti au loin</li>
     <li>missed->a volé dans les airs</li>
     <li>missed->a volé haut dans les airs</li>
-    <li>missed->s'est planté dans le sol</li>
-    <li>missed->a rebondi sur le sol et s'est perdu</li>
+    <li>missed->s'est plantée dans le sol</li>
+    <li>missed->a rebondi sur le sol et s'est perdue</li>
     <li>missed->a fait voler des mottes de terre</li>
     <li>missed(p=0.2)->est passé à quelques millimètres de [ORIGINALTARGET_definite]</li>
     <li>missed->est passé à quelques centimètres de [ORIGINALTARGET_definite]</li>
