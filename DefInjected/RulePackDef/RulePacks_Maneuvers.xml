@@ -71,11 +71,11 @@
     <li>damaged_inf->mordre</li>
     <li>damaged_inf->déchiqueter</li>
     <li>damaged_inf(p=0.5)->pincer</li>
-    <li>damaged_past->a mordu</li>
-    <li>damaged_past->a déchiqueté</li>
-    <li>damaged_past->a pincé</li>
-    <li>damaged_past->a rongé</li>
-    <li>damaged_past(deflected!=True)->a déchiré</li>
+    <li>damaged_past->mordu</li>
+    <li>damaged_past->déchiqueté</li>
+    <li>damaged_past->pincé</li>
+    <li>damaged_past->rongé</li>
+    <li>damaged_past(deflected!=True)->déchiré</li>
     <li>damaged_present->mordant</li>
     <li>damaged_present->déchiquetant</li>
     <li>damaged_present->pincant</li>
@@ -85,10 +85,10 @@
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposant la machinerie en dessous</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant des lacérations horribles sur la peau</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->laissant des lacérations horribles sur le métal</li>
-    <li>destroyed_past->a dévoré</li>
-    <li>destroyed_past->a séparé</li>
-    <li>destroyed_past->a déchiré</li>
-    <li>destroyed_past->a ravagé</li>
+    <li>destroyed_past->dévoré</li>
+    <li>destroyed_past->séparé</li>
+    <li>destroyed_past->déchiré</li>
+    <li>destroyed_past->ravagé</li>
     <li>destroyed_present->dévorant</li>
     <li>destroyed_present->séparant</li>
     <li>destroyed_present->déchirant</li>
@@ -166,11 +166,11 @@
     <li>damaged_inf->pousser</li>
     <li>damaged_inf->bousculer</li>
     <li>damaged_inf->poignarder</li>
-    <li>damaged_past(p=2)->a piqué</li>
-    <li>damaged_past(p=2)->a frappé</li>
-    <li>damaged_past->a poussé</li>
-    <li>damaged_past->a bousculé</li>
-    <li>damaged_past->a poignardé</li>
+    <li>damaged_past(p=2)->piqué</li>
+    <li>damaged_past(p=2)->frappé</li>
+    <li>damaged_past->poussé</li>
+    <li>damaged_past->bousculé</li>
+    <li>damaged_past->poignardé</li>
     <li>damaged_present(p=2)->piquant</li>
     <li>damaged_present(p=2)->frappant</li>
     <li>damaged_present->poussant</li>
@@ -180,11 +180,11 @@
     <li>flavortext_consequence->laissant la zone visiblement déformée</li>
     <li>flavortext_consequence->le/la désiquilibrant</li>
     <li>flavortext_consequence->l'envoyant sur le côté</li>
-    <li>destroyed_past->a anéanti</li>
-    <li>destroyed_past->a écrasé</li>
-    <li>destroyed_past->a écrabouillé</li>
-    <li>destroyed_past->a annihilé</li>
-    <li>destroyed_past->a cassé</li>
+    <li>destroyed_past->anéanti</li>
+    <li>destroyed_past->écrasé</li>
+    <li>destroyed_past->écrabouillé</li>
+    <li>destroyed_past->annihilé</li>
+    <li>destroyed_past->cassé</li>
     <li>destroyed_present->anéantissant</li>
     <li>destroyed_present->écrasant</li>
     <li>destroyed_present->écrabouillant</li>
@@ -256,19 +256,19 @@
     <li>damaged_inf(deflected!=True)->lacérer</li>
     <li>damaged_inf(deflected!=True)->déchirer</li>
     <li>damaged_inf->couper</li>
-    <li>damaged_past(p=4)->a égratigné</li>
-    <li>damaged_past(deflected!=True)->a lacéré</li>
-    <li>damaged_past(deflected!=True)->a déchiré</li>
-    <li>damaged_past->a coupé</li>
+    <li>damaged_past(p=4)->égratigné</li>
+    <li>damaged_past(deflected!=True)->lacéré</li>
+    <li>damaged_past(deflected!=True)->déchiré</li>
+    <li>damaged_past->coupé</li>
     <li>damaged_present->égratignant</li>
     <li>damaged_present(deflected!=True)->lacérant</li>
     <li>damaged_present(deflected!=True)->déchirant</li>
     <li>damaged_present->coupant</li>
-    <li>destroyed_past->a mutilé</li>
-    <li>destroyed_past->a lacéré</li>
-    <li>destroyed_past->a arraché</li>
-    <li>destroyed_past->a broyé</li>
-    <li>destroyed_past->a déchiqueté</li>
+    <li>destroyed_past->mutilé</li>
+    <li>destroyed_past->lacéré</li>
+    <li>destroyed_past->arraché</li>
+    <li>destroyed_past->broyé</li>
+    <li>destroyed_past->déchiqueté</li>
     <li>destroyed_present->mutilant</li>
     <li>destroyed_present->lacérant</li>
     <li>destroyed_present->arrachant</li>
@@ -324,12 +324,12 @@
     <li>damaged_inf->hacher</li>
     <li>damaged_inf->trancher</li>
     <li>damaged_inf(deflected!=True)->balafrer</li>
-    <li>damaged_past(p=4)->a entaillé</li>
-    <li>damaged_past->a coupé</li>
-    <li>damaged_past->a découpé</li>
-    <li>damaged_past->a haché</li>
-    <li>damaged_past->a tranché</li>
-    <li>damaged_past(deflected!=True)->a balafré</li>
+    <li>damaged_past(p=4)->entaillé</li>
+    <li>damaged_past->coupé</li>
+    <li>damaged_past->découpé</li>
+    <li>damaged_past->haché</li>
+    <li>damaged_past->tranché</li>
+    <li>damaged_past(deflected!=True)->balafré</li>
     <li>damaged_present->entaillant</li>
     <li>damaged_present->coupant</li>
     <li>damaged_present->tranchant</li>
@@ -343,11 +343,11 @@
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposant la chair en dessous</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposant la machinerie en dessous</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant une [woundname] sanglante</li>
-    <li>destroyed_past->a fendu</li>
-    <li>destroyed_past->a divisé</li>
-    <li>destroyed_past->a coupé</li>
-    <li>destroyed_past->a séparé</li>
-    <li>destroyed_past->a débité</li>
+    <li>destroyed_past->fendu</li>
+    <li>destroyed_past->divisé</li>
+    <li>destroyed_past->coupé</li>
+    <li>destroyed_past->séparé</li>
+    <li>destroyed_past->débité</li>
     <li>destroyed_present->fendant</li>
     <li>destroyed_present->divisant</li>
     <li>destroyed_present->coupant</li>
@@ -413,21 +413,21 @@
     <li>damaged_inf->assommer</li>
     <li>damaged_inf->démolir</li>
     <li>damaged_inf->frapper</li>
-    <li>damaged_past(p=4)->a écrasé</li>
-    <li>damaged_past->a tabassé</li>
-    <li>damaged_past->a assomé</li>
-    <li>damaged_past->a démoli</li>
-    <li>damaged_past->a frappé</li>
+    <li>damaged_past(p=4)->écrasé</li>
+    <li>damaged_past->tabassé</li>
+    <li>damaged_past->assomé</li>
+    <li>damaged_past->démoli</li>
+    <li>damaged_past->frappé</li>
     <li>damaged_present->écrasant</li>
     <li>damaged_present->tabassant</li>
     <li>damaged_present->assomant</li>
     <li>damaged_present(deflected!=True)->bruising</li>
     <li>damaged_present(deflected!=True)->lacérant</li>
-    <li>destroyed_past->a anéanti</li>
-    <li>destroyed_past->a écrasé</li>
-    <li>destroyed_past->a écrabouillé</li>
-    <li>destroyed_past->a annihilé</li>
-    <li>destroyed_past->a cassé</li>
+    <li>destroyed_past->anéanti</li>
+    <li>destroyed_past->écrasé</li>
+    <li>destroyed_past->écrabouillé</li>
+    <li>destroyed_past->annihilé</li>
+    <li>destroyed_past->cassé</li>
     <li>destroyed_present->anéantissant</li>
     <li>destroyed_present->écrasant</li>
     <li>destroyed_present->écrabouillant</li>
@@ -473,11 +473,11 @@
     <li>damaged_inf(deflected!=True)->transpercer</li>
     <li>damaged_inf(deflected!=True)->perforer</li>
     <li>damaged_inf(deflected!=True)->embrocher</li>
-    <li>damaged_past(p=4)->a piqué</li>
-    <li>damaged_past->a frappé</li>
-    <li>damaged_past(deflected!=True)->a transpercé</li>
-    <li>damaged_past(deflected!=True)->a perforé</li>
-    <li>damaged_past(deflected!=True)->a embroché</li>
+    <li>damaged_past(p=4)->piqué</li>
+    <li>damaged_past->frappé</li>
+    <li>damaged_past(deflected!=True)->transpercé</li>
+    <li>damaged_past(deflected!=True)->perforé</li>
+    <li>damaged_past(deflected!=True)->embroché</li>
     <li>damaged_present(deflected!=True)->transperçant</li>
     <li>damaged_present(deflected!=True)->perforant</li>
     <li>damaged_present(deflected!=True)->perçant</li>
@@ -488,9 +488,9 @@
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant une [woundname] sanglante</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant une déchirure</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant une [woundname] saignante</li>
-    <li>destroyed_past->a empalé</li>
-    <li>destroyed_past->a transpercé</li>
-    <li>destroyed_past->a embroché</li>
+    <li>destroyed_past->empalé</li>
+    <li>destroyed_past->transpercé</li>
+    <li>destroyed_past->embroché</li>
     <li>destroyed_present->empalant</li>
     <li>destroyed_present->transperçant</li>
     <li>destroyed_present->embrochant</li>
