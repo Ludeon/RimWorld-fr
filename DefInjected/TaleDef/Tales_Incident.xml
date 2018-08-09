@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
+
   <!-- EN: aurora -->
   <Aurora.label>aurore boréale</Aurora.label>
   <!-- EN:
@@ -43,7 +43,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent paisiblement.</li>
     <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
   </Aurora.rulePack.rulesStrings>
-  
+
   <!-- EN: caravan ambushed -->
   <CaravanAmbushedByHumanlike.label>caravane prise en embuscade</CaravanAmbushedByHumanlike.label>
   <!-- EN:
@@ -88,7 +88,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
     <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-  
+
   <!-- EN: caravan ambushed by manhunter -->
   <CaravanAmbushedByManhunter.label>caravane embusquée par des chasseurs d'hommes</CaravanAmbushedByManhunter.label>
   <!-- EN:
@@ -129,7 +129,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
     <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
-  
+
   <!-- EN: caravan demand -->
   <CaravanDemand.label>demande envers la caravane</CaravanDemand.label>
   <!-- EN:
@@ -180,7 +180,7 @@
     <li>action->attendant une décision</li>
     <li>action->cherchant à provoquer [PAWN_nameDef]</li>
   </CaravanDemand.rulePack.rulesStrings>
-  
+
   <!-- EN: caravan meeting -->
   <CaravanMeeting.label>rencontre de caravane</CaravanMeeting.label>
   <!-- EN:
@@ -233,7 +233,7 @@
     <li>event->redonnent vie à de vieilles amitiés</li>
     <li>event->échangent quelques mots hésitants</li>
   </CaravanMeeting.rulePack.rulesStrings>
-  
+
   <!-- EN: eclipse -->
   <Eclipse.label>éclipse</Eclipse.label>
   <!-- EN:
@@ -270,7 +270,7 @@
     <li>desc_sentence->Un(e) [Community] de spectateurs observe paisiblement le ciel.</li>
     <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
   </Eclipse.rulePack.rulesStrings>
-  
+
   <!-- EN: flashstorm -->
   <Flashstorm.label>orage d'éclairs</Flashstorm.label>
   <!-- EN:
@@ -317,7 +317,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
     <li>desc_sentence->Toute vie animale a quitté la zone.</li>
   </Flashstorm.rulePack.rulesStrings>
-  
+
   <!-- EN: infestation -->
   <Infestation.label>infestation</Infestation.label>
   <!-- EN:
@@ -357,14 +357,14 @@
     <li>desc_sentence->[PAWN_nameDef] brandit un(e) [Weapon] pour se défendre.</li>
     <li>desc_sentence->[PAWN_nameDef] gît au sol, blessé(e).</li>
     <li>desc_sentence->[PAWN_nameDef] riposte avec son/sa [Weapon].</li>
-    <li>desc_sentence->[PAWN_nameDef] montre une expression [AdjectiveBadass].</li>
-    <li>desc_sentence->[PAWN_nameDef] montre une expression [AdjectiveAngsty].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le sol est couvert de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
     <li>desc_sentence->Toute vie animale a quitté la zone.</li>
   </Infestation.rulePack.rulesStrings>
-  
+
   <!-- EN: journey offer -->
   <JourneyOffer.label>proposition de voyage</JourneyOffer.label>
   <!-- EN:
@@ -425,9 +425,9 @@
     <li>desc_sentence->On aperçoit au loin un(e) [Community].</li>
     <li>desc_sentence->On aperçoit au loin un vaisseau spatial.</li>
   </JourneyOffer.rulePack.rulesStrings>
-  
+
   <!-- EN: manhunter pack -->
-  <ManhunterPack.label>manhunter pack</ManhunterPack.label>
+  <ManhunterPack.label>chasse à l'homme</ManhunterPack.label>
   <!-- EN:
     <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
@@ -456,34 +456,34 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s [Community] attacked by animals</li>
-    <li>image->a herd of [Animal]s [circumstance_phrase]</li>
+    <li>tale_noun->Le/la [Community] de [PAWN_nameDef] est attaquée par des animaux</li>
+    <li>image->une horde de [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>image->a [huge] [Animal] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] shadowy figures [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase]</li>
-    <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
-    <li>circumstance_phrase->completely encircling a [Community]</li>
-    <li>circumstance_phrase->attacking [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase->slaughtering [Quantity_adjphrase] [Animal]s</li>
-    <li>circumstance_phrase->possessed by [hate_emotion]</li>
-    <li>circumstance_phrase->covered in [Gore]</li>
-    <li>hate_emotion->hatred</li>
-    <li>hate_emotion->anger</li>
-    <li>hate_emotion->fury</li>
-    <li>desc_sentence->[PAWN_nameDef] organizes a resistance.</li>
-    <li>desc_sentence->[PAWN_nameDef] wields a [Weapon] defensively.</li>
-    <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
-    <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon].</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
-    <li>desc_sentence->The ground is coated in [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>image->un(e) [huge] [Animal] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] silhouettes ténébreuses [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] prédateurs dans l'ombre [circumstance_phrase]</li>
+    <li>circumstance_phrase->s'avançe sur un [TerrainFeature]</li>
+    <li>circumstance_phrase->encercle completement un(e) [Community]</li>
+    <li>circumstance_phrase->attaque [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase->massacre [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->pris(e) de [hate_emotion]</li>
+    <li>circumstance_phrase->couvert(e) de [Gore]</li>
+    <li>hate_emotion->haine</li>
+    <li>hate_emotion->colère</li>
+    <li>hate_emotion->rage</li>
+    <li>desc_sentence->[PAWN_nameDef] organise la résistance.</li>
+    <li>desc_sentence->[PAWN_nameDef] se défend avec un(e) [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] gît sur le sol, bléssé(e).</li>
+    <li>desc_sentence->[PAWN_nameDef] se venge avec [PAWN_possessive] [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
+    <li>desc_sentence->Le sol est recouvert de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
   </ManhunterPack.rulePack.rulesStrings>
-  
+
   <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>meteorite impact</MeteoriteImpact.label>
+  <MeteoriteImpact.label>impact de météorite</MeteoriteImpact.label>
   <!-- EN:
     <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
@@ -510,31 +510,31 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
-    <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
-    <li>image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance]</li>
-    <li>image->a brightly-glowing spot [airborne_circumstance]</li>
-    <li>image->a [AdjectiveLarge] [Color] fireball [airborne_circumstance]</li>
-    <li>airborne_circumstance->blazing across the sky</li>
-    <li>airborne_circumstance->falling to the ground in a cloud of ash</li>
-    <li>airborne_circumstance->shedding rocks and debris as it flies</li>
-    <li>image->a [AdjectiveLarge] monolith, [ground_circumstance]</li>
-    <li>image->a [AdjectiveLarge] [Color] scorched stone, [ground_circumstance]</li>
-    <li>image->a [Color] pillar of rock, [ground_circumstance]</li>
-    <li>ground_circumstance->surrounded by smoke and ash</li>
-    <li>ground_circumstance->smoking from heat</li>
-    <li>ground_circumstance->surrounded by molten debris</li>
-    <li>ground_circumstance->partially embedded in the ground</li>
-    <li>ground_circumstance->lying in a cracked crater</li>
-    <li>desc_sentence->[PAWN_nameDef] looks on in surprise.</li>
-    <li>desc_sentence->[PAWN_nameDef] looks on with excitement.</li>
-    <li>desc_sentence->[PAWN_nameDef] looks on in shock.</li>
-    <li>desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
-    <li>desc_sentence->The surroundings are muted and dull.</li>
+    <li>tale_noun->une météorite tombe près de le/la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->une météorite s'écrase près de le/la [Community] de [PAWN_nameDef]</li>
+    <li>image->un [AdjectiveLarge] rocher à la trainée de feu [Color] [airborne_circumstance]</li>
+    <li>image->une lumière étincelante [airborne_circumstance]</li>
+    <li>image->une [AdjectiveLarge] boule de feu [Color] [airborne_circumstance]</li>
+    <li>airborne_circumstance->traverse le ciel</li>
+    <li>airborne_circumstance->s'écrase dans un énorme nuage de cendres</li>
+    <li>airborne_circumstance->sème des pierres et des débrits pendant son vol</li>
+    <li>image->un [AdjectiveLarge] monolithe, [ground_circumstance]</li>
+    <li>image->une [AdjectiveLarge] pierre brulée [Color], [ground_circumstance]</li>
+    <li>image->un pilier rocheu [Color], [ground_circumstance]</li>
+    <li>ground_circumstance->entouré(e) de fummée et de cendres</li>
+    <li>ground_circumstance->fumant(e) de chaleur</li>
+    <li>ground_circumstance->entouré(e) de débrits fondus</li>
+    <li>ground_circumstance->partiennelement enfoncé(e) dans le sol</li>
+    <li>ground_circumstance->gît dans un cratère</li>
+    <li>desc_sentence->[PAWN_nameDef] regarde avec surprise.</li>
+    <li>desc_sentence->[PAWN_nameDef] regarde avec excitation.</li>
+    <li>desc_sentence->[PAWN_nameDef] regarde, choqué.</li>
+    <li>desc_sentence->[Quantity_adjphrase] silhouettes approchent d'un [TerrainFeature] à proximité.</li>
+    <li>desc_sentence->[Quantity_adjphrase] silhouettes préparent outils et équipement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s èrent, désorientés.</li>
+    <li>desc_sentence->Un silence assourdissant règne.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
-  
+
   <!-- EN: raid -->
   <Raid.label>raid</Raid.label>
   <!-- EN:
@@ -588,8 +588,8 @@
     <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
     <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->The ground is coated in [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
@@ -598,7 +598,7 @@
     <li>defender_circumstance->raising a fist in defiance</li>
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   </Raid.rulePack.rulesStrings>
-  
+
   <!-- EN: ship part crash -->
   <ShipPartCrash.label>ship part crash</ShipPartCrash.label>
   <!-- EN:
@@ -654,8 +654,8 @@
     <li>desc_sentence->[PAWN_nameDef] lies on the ground, wounded.</li>
     <li>desc_sentence->[PAWN_nameDef] retaliates with [PAWN_possessive] [Weapon] while [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] stands as tall as a building, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
-    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveBadass].</li>
+    <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->The ground is coated in [Gore].</li>
     <li>desc_sentence->The ground is coated in scrap metal.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
@@ -665,7 +665,7 @@
     <li>defender_circumstance->raising a fist in defiance</li>
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   </ShipPartCrash.rulePack.rulesStrings>
-  
+
   <!-- EN: tornado -->
   <Tornado.label>tornado</Tornado.label>
   <!-- EN:
@@ -712,7 +712,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   </Tornado.rulePack.rulesStrings>
-  
+
   <!-- EN: tornado -->
   <TornadoFromItem.label>tornade</TornadoFromItem.label>
   <!-- EN:
@@ -764,7 +764,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
     <li>desc_sentence->All animal life has left the area.</li>
   </TornadoFromItem.rulePack.rulesStrings>
-  
+
   <!-- EN: toxic fallout -->
   <ToxicFallout.label>toxic fallout</ToxicFallout.label>
   <!-- EN:
@@ -807,7 +807,7 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s litter the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   </ToxicFallout.rulePack.rulesStrings>
-  
+
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>volcanic winter</VolcanicWinter.label>
   <!-- EN:
@@ -846,5 +846,5 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s litter the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   </VolcanicWinter.rulePack.rulesStrings>
-  
+
 </LanguageData>
