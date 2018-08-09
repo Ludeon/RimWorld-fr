@@ -38,7 +38,7 @@
     <li>adverb_deflected_opt->[adverb_deflected]</li>
     <li>adverb_deflected->sans faire de dégât</li>
     <li>adverb_deflected->vainement</li>
-    <li>deflected_consequence->mais le/la [TOOL_label] [scraped_past] [adverb_deflected_opt]</li>
+    <li>deflected_consequence->mais [TOOL_label] [scraped_past] [adverb_deflected_opt]</li>
     <li>deflected_consequence->[scraped_present] son armure [adverb_deflected_opt]</li>
     <li>scraped_present->éraflant</li>
     <li>scraped_present->glissant sur</li>
@@ -342,13 +342,13 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(p=0.2)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->le/la [TOOL_label] de son/sa [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->son/sa [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->un/une [TOOL_label] d'un/une [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] d'un/une [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->un/une [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->son/sa [TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->son/sa [TOOL_label] [adjective_bodypart]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->le/la [TOOL_label] de son/sa [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [TOOL_label]</li>
     <li>adjective_bodypart->dur</li>
