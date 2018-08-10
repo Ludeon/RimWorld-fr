@@ -81,7 +81,7 @@
     <li>terrain_word->bosquet</li>
     <li>terrain_word->forêt</li>
     <li>terrain_word->bois</li>
-    <!-- TODO: tangle, thicket -->
+    <!-- TODO: vérifier la traduction de tangle, thicket -->
     <li>terrain_word->broussailles</li>
     <li>terrain_word->fourré</li>
   </NamerBorealForest.rulePack.rulesStrings>
@@ -133,6 +133,7 @@
     <li>terrain_word->bassin</li>
     <li>terrain_word->désertique</li>
     <li>terrain_word->désolé</li>
+    <!-- TODO: "barrens" non tract -->
     <li>terrain_word->barrens</li>
   </NamerDesert.rulePack.rulesStrings>
   
@@ -160,9 +161,9 @@
     <li>terrain_word(p=0.3)->tract</li>
   -->
   <NamerIceSheet.rulePack.rulesStrings>
-    <!-- TODO : non traduit -->
     <li>terrain_word->inlandsis</li>
     <li>terrain_word->étendue</li>
+    <!-- TODO : "reach" non traduit -->
     <li>terrain_word(p=0.5)->reach</li>
     <li>terrain_word(p=0.3)->glacier</li>
     <li>terrain_word(p=0.3)->span</li>
@@ -268,7 +269,9 @@
     <li>ocean_adjective->ondulé</li>
     <!-- pacifique,  -->
     <li>ocean_adjective->paisible</li>
-    <!--  TODO: idéalement du méme genre masc/fem -->
+    <!--  TODO: idéalement du méme genre masc/fem 
+       pour l'accord avec ocean_adjective
+    -->
     <li>terrain_word(p=6)->océan</li>
     <li>terrain_word(p=3)->mer</li>
     <li>terrain_word->étendue</li>
@@ -485,13 +488,16 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <!-- BUG: tout ce qui est Adjective* et Color
+        pose un problème d'accord, 
+        ex. Grand montagnes, grand forêt, grand lac
+    -->
     <li>r_name->[metaprefix] [standardname]</li>
     <li>r_name->[standardname] [metasuffix]</li>
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
     <li>standardname->[terrain_word] [narrative_name]</li>
     <li>metaprefix(p=10)-></li>
     <li>metaprefix->[basic_adjective]</li>
-    <!-- TODO: test de la Direction en suffixe -->
     <li>metasuffix(p=10)-></li>
     <li>metasuffix->[Direction]</li>
     <!-- EN    <li>basic_adjective->great</li>-->
@@ -533,7 +539,9 @@
     <li>story_result->bévue</li>
     <li>story_result->illusion</li>
     <li>story_result->joie</li>
-    <!-- TODO: un mot féminin ? -->
+    <!-- TODO: "bonheur", besoin d'un mot féminin 
+      pour l'accord avec [maybe_basic_adjective] ? 
+    -->
     <li>story_result->bonheur</li>
     <li>story_result->merveille</li>
     <li>story_result->fierté</li>
