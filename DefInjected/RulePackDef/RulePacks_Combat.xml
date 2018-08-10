@@ -277,18 +277,18 @@
     <li>adverb_flavortext->vicieusement</li>
     <li>adverb_flavortext->implacablement</li>
     <li>adverb_flavortext->cruellement</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->dans une explosion de sang</li>
-    <li>flavortext_situation(recipient_flesh==Mechanoid)->dans une explosion de débris</li>
+    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->dans une explosion de sang</li>
+    <li>flavortext_situation(RECIPIENT_flesh==Mechanoid)->dans une explosion de débris</li>
     <li>flavortext_situation->sans aucune émotion</li>
     <li>flavortext_situation(p=0.4)->avec un regard vide</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->avec un air farouche</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->avec un air [AdjectiveBadass]</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->en grimaçant</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->en riant</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->en souriant</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
+    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->avec un air farouche</li>
+    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->avec un air [AdjectiveBadass]</li>
+    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en grimaçant</li>
+    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en riant</li>
+    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en souriant</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_objective] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_objective] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->déstabilisant [RECIPIENT_objective]</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -367,7 +367,7 @@
     <li>adjective_bodypart->résistant</li>
     <li>adjective_bodypart->solide</li>
     <li>adjective_bodypart->coriace</li>
-    <li>adjective_bodypart(initiator_flesh==True)->calleux</li>
+    <li>adjective_bodypart(INITIATOR_flesh==True)->calleux</li>
     <li>adjective_bodypart->ferme</li>
     <li>targetlist(recipient_part_count==1)->son/sa [RECIPIENT_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->ses [RECIPIENT_part0_label] et [RECIPIENT_part1_label]</li>
@@ -379,20 +379,20 @@
     <li>destroyed(p=0.5)->a démoli</li>
     <li>destroyed(p=0.5)->a ruiné</li>
     <li>destroyed(p=0.5)->a annihilé</li>
-    <li>wince(recipient_flesh==Normal)->tressaillir</li>
-    <li>wince(recipient_flesh==Normal)->grimacer</li>
-    <li>wince(recipient_flesh==Normal)->se recroqueviller</li>
-    <li>wince(recipient_flesh==Normal)->grogner</li>
-    <li>wince(recipient_flesh!=Mechanoid)->hurler</li>
-    <li>wince(recipient_flesh!=Mechanoid)->crier</li>
+    <li>wince(RECIPIENT_flesh==Normal)->tressaillir</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimacer</li>
+    <li>wince(RECIPIENT_flesh==Normal)->se recroqueviller</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grogner</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->hurler</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->crier</li>
     <li>wince->reculer</li>
     <li>wince->trébucher</li>
     <li>painstate->dans</li>
     <li>painstate->avec</li>
     <li>painstate->de</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] la douleur</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] l'agonie</li>
-    <li>painevent(recipient_flesh==Normal)->avec souffrance</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] la douleur</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] l'agonie</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->avec souffrance</li>
     <li>painevent->de la blessure</li>
     <li>painevent->de la plaie</li>
     <li>to->à</li>
@@ -431,7 +431,7 @@
     <li>result->mais a raté sa cible</li>
     <li>result->mais a perdu son élan</li>
     <li>result->mais a trébuché à la dernière seconde</li>
-    <li>result(initiator_flesh!=Mechanoid)->mais a hésité à la dernière seconde</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->mais a hésité à la dernière seconde</li>
   </Combat_Miss.rulePack.rulesStrings>
   
   <!-- EN:
@@ -537,7 +537,7 @@
     <li>destroyed_suffix->poussières</li>
     <li>destroyed_suffix->fragments</li>
     <li>destroyed_suffix(p=0.5)->de sacrés trous</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->viande hachée</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->viande hachée</li>
     <li>damaged_past->blessé</li>
     <li>damaged_past->amoché</li>
     <li>damaged_past->percé</li>
@@ -549,8 +549,8 @@
     <li>damaged_present->abîmant</li>
     <li>damaged_present->détruisant</li>
     <li>damaged_suffix->dans une attitude horrible</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->avec du sang partout</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->avec les chairs à nu</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->avec du sang partout</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->avec les chairs à nu</li>
     <li>to->à</li>
     <li>to->dans</li>
     <li>missed->a raté</li>
@@ -653,8 +653,8 @@
     <li>r_logentry->[INITIATOR_definite] [shot] avec son/sa [WEAPON_label] sur [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] sur [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
-    <li>r_logentry(recipient_missing==True)->[INITIATOR_definite] [shot] avec son/sa [WEAPON_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] avec son/sa [WEAPON_label].</li>
     <li>shot_a->[verb_shot] [adverb_shot] une</li>
     <li>shot_a(p=2)->[verb_shot] une</li>
     <li>shot(p=2)->[verb_shot]</li>
@@ -681,14 +681,14 @@
     <li>adverb_shot->rapidement</li>
     <li>adverb_shot->précisément</li>
     <li>adverb_shot->délibérément</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->précautionneusement</li>
+    <li>adverb_shot(INITIATOR_flesh!=Mechanoid)->précautionneusement</li>
     <li>adverb_shot->précisément</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->prudemment</li>
+    <li>adverb_shot(INITIATOR_flesh!=Mechanoid)->prudemment</li>
     <li>adjective_shot->soigneux</li>
     <li>adjective_shot->rapide</li>
     <li>adjective_shot->délibéré</li>
     <li>adjective_shot->précis</li>
-    <li>adjective_shot(initiator_flesh!=Mechanoid)->prudent</li>
+    <li>adjective_shot(INITIATOR_flesh!=Mechanoid)->prudent</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -732,14 +732,14 @@
     <li>adverb_threw->rapidement</li>
     <li>adverb_threw->précisément</li>
     <li>adverb_threw->délibérément</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->précautionneusement</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->précautionneusement</li>
     <li>adverb_threw->précisément</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->prudemment</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->prudemment</li>
     <li>adjective_threw->soigneux</li>
     <li>adjective_threw->rapide</li>
     <li>adjective_threw->délibéré</li>
     <li>adjective_threw->précis</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->prudent</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->prudent</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- UNUSED -->
