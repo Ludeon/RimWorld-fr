@@ -40,8 +40,40 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-<!--     TODO: à traduire -->
-    <li>r_logentry->A essayé d'établir le contact avec [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] à [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a parlé à [RECIPIENT_nameDef] au sujet [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a évoqué [subject] à [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a encouragé [RECIPIENT_nameDef] à [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a offert une chance pour [RECIPIENT_nameDef] de [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a exprimé son intérêt pour le/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a questionné [RECIPIENT_nameDef] sur son/sa [PersonalCharacteristic].</li>
+    <li>toldastoryabout(p=2)->a raconté une histoire</li>
+    <li>toldastoryabout->a raconté une histoire drôle</li>
+    <li>toldastoryabout->a raconté une histoire sincère</li>
+    <li>toldastoryabout->a raconté une vieille histoire</li>
+    <li>toldastoryabout->a raconté une histoire familiale</li>
+    <li>toldastoryabout->a raconté une histoire d'enfance</li>
+    <li>toldastoryabout->a mentionné une anecdote</li>
+    <li>talkabout->parler</li>
+    <li>talkabout->discuter</li>
+    <li>talkabout->commencer une discussion à propos</li>
+    <li>talkabout->demander à propos</li>
+    <li>talkabout->refléchir à propos</li>
+    <li>talkabout->trouver un terrain d'entente autour</li>
+    <li>subject->de la colonie</li>
+    <li>subject->de la communauté</li>
+    <li>subject->de rejoindre la colonie</li>
+    <li>subject->de changer d'équipe</li>
+    <li>subject->de trouver des amis</li>
+    <li>subject->de rencontrer de nouvelles personnes</li>
+    <li>subject->de reconsidérer ses idées</li>
+    <li>subject->de repenser sa loyauté</li>
+    <li>subject->de santé</li>
+    <li>subject->du futur</li>
+    <li>subject->de lâcher prise</li>
+    <li>subject(p=4)->de [ConceptPositive]</li>
+    <li>subject(p=2)->de son/sa [PersonalCharacteristic]</li>
+    <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
@@ -53,11 +85,14 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A essayé de recruter [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a demandé [RECIPIENT_nameDef] de se joindre à la colonie.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a promis [goodthing] à [RECIPIENT_nameDef], et a demandé [RECIPIENT_objective]  de se joindre à la colonie.</li>
+    <li>goodthing(p=15)->beaucoup de [ConceptPositive]</li>
+    <li>goodthing->des [Vegetable]s frais et gratuits</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>lance une évasion</SparkJailbreak.label>
+  <SparkJailbreak.label>incite une évasion</SparkJailbreak.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
@@ -69,7 +104,14 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->Incite [RECIPIENT_nameDef] à s'échapper.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a parlé de la joie [freedom], et offert un moyen pour s'échapper.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a parlé de la beauté de [TerrainFeature], et offert la liberté.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a montré un moyen de s'échapper à [RECIPIENT_nameDef], et promis [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a dit à [RECIPIENT_nameDef] que la sécurité est laxiste, et a encouragé à l'évasion.</li>
+    <li>freedom->de la liberté</li>
+    <li>freedom->de l'opportunité</li>
+    <li>freedom->de rentrer chez-soi</li>
+    <li>freedom->de l'auto-détermination</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
