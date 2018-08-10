@@ -68,6 +68,7 @@
     <li>died->a détoné [flavor]</li>
     <li>died->a éclaté [flavor]</li>
     <li>flavor(p=0.2)->en une [fireball] chimique</li>
+    <!-- BUG: tout ce qui est [Color] et [Adjective*] au féminin ou pluriel -->
     <li>flavor->en une [fireball] [Color]e</li>
     <li>flavor->en une [AdjectiveLarge]e [fireball]</li>
     <li>flavor(p=4)->en une [fireball]</li>
@@ -173,6 +174,7 @@
     <li>duetoa(p=0.5)->thanks to</li>
   -->
   <Transition_Include.rulePack.rulesStrings>
+    <!-- BUG: Akerman a explosé à cause d' des mécanites fibreuses, éparpillant du intestins au loin. -->
     <li>duetoa->à cause d'</li>
     <li>duetoa(p=0.5)->en raison d'</li>
     <li>duetoa(p=0.5)->suite à</li>
