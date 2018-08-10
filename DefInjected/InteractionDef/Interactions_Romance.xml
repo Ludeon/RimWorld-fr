@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: breakup -->
-  <Breakup.label>rompre</Breakup.label>
+  <Breakup.label>rupture</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space.</li>
@@ -11,7 +11,10 @@
   -->
   <Breakup.logRulesInitiator.rulesStrings>
 <!--     TODO: à traduire -->
-    <li>r_logentry->A quitté [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a demandé à [OTHER_nameDef] de faire une pause.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a demandé à [OTHER_nameDef] un peu d'espace.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a dit à [OTHER_nameDef] que ça ne marche pas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a dit à [OTHER_nameDef] qu'il serait mieux de voir d'autres personnes.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
@@ -27,7 +30,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A demandé [OTHER_nameDef] en mariage.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a demandé [OTHER_nameDef] en mariage.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a proposé un engagement à vie à [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a dit à [OTHER_nameDef] qu'[INITIATOR_pronoun] voudrait passer sa vie avec [OTHER_objective].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
@@ -100,7 +105,73 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->A dragué [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] en [wootactic].</li>
+    <li>wooed->a essayé de flirter avec</li>
+    <li>wooed->a flirté avec</li>
+    <li>wooed->a essayé d'attirer</li>
+    <li>wooed->a essayé d'être romantique avec</li>
+    <li>wooed->a essayé de courtiser</li>
+    <li>wooed->a courtisé</li>
+    <li>wooed->a poursuivi</li>
+    <li>wooed->a charmé</li>
+    <li>wooed->a fait la cour à</li>
+    <li>wootactic(p=4)->[complimenting] son/sa [PersonalCharacteristic]</li>
+    <li>wootactic->racontant une histoire [TalkTopicAny]</li>
+    <li>wootactic->racontant une fable à propos [TalkTopicAny]</li>
+    <li>wootactic->plaisantant au sujet [TalkTopicAny]</li>
+    <li>wootactic->faisant une observation à propos [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] son/sa propre [PersonalCharacteristic]</li>
+    <li>wootactic->comparant [OTHER_nameDef] à un/une [romantic_noun] [romantic_adj]</li>
+    <li>wootactic->décrivant [OTHER_nameDef] comme un/une [romantic_noun] [romantic_adj]</li>
+    <li>boasting->se vantant de</li>
+    <li>boasting->mentionnant</li>
+    <li>boasting->suggérant de bonnes choses au sujet de</li>
+    <li>boasting->exagérant</li>
+    <li>boasting->parlant de</li>
+    <li>boasting->attirant l'attention sur</li>
+    <li>complimenting(p=3)->complimentant</li>
+    <li>complimenting->complimentant subtilement</li>
+    <li>complimenting->louant</li>
+    <li>complimenting->le/la félicitant pour</li>
+    <li>complimenting->disant de bonnes choses sur</li>
+    <li>complimenting(p=2)->se moquant gentiment de</li>
+    <li>complimenting->plaisantant sur</li>
+    <li>complimenting->plaisantant à moitié tout en complimentant</li>
+    <li>complimenting->interrogeant impitoyablement</li>
+    <li>complimenting->se moquant joyeusement de</li>
+    <!-- BUG: adjectif -> c'est mort pour les mots féminins -->
+    <li>romantic_adj->beau</li>
+    <li>romantic_adj->resplendissant</li>
+    <li>romantic_adj->brillant</li>
+    <li>romantic_adj->céleste</li>
+    <li>romantic_adj->doré</li>
+    <li>romantic_adj->éclatant</li>
+    <li>romantic_adj->époustouflant</li>
+    <li>romantic_adj->charmant</li>
+    <li>romantic_adj->éblouissant</li>
+    <li>romantic_adj->délicat</li>
+    <li>romantic_adj->excellent</li>
+    <li>romantic_adj->magnifique</li>
+    <li>romantic_adj->adorable</li>
+    <li>romantic_adj->merveilleux</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <!--     <li>romantic_noun->fleur</li> -->
+    <li>romantic_noun->bourgeon de fleur</li>
+    <li>romantic_noun->printemps</li>
+    <!--     <li>romantic_noun->fleuve</li> -->
+    <li>romantic_noun->ruisseau</li>
+    <!--     <li>romantic_noun->étoile</li> -->
+    <li>romantic_noun->astre</li>
+    <!--     <li>romantic_noun->lune</li> -->
+    <li>romantic_noun->rêve</li>
+    <li>romantic_noun->soleil</li>
+    <!--     <li>romantic_noun->maison</li> -->
+    <li>romantic_noun->chateau</li>
+    <!--     <li>romantic_noun->aurore</li> -->
+    <li>romantic_noun->arc-en-ciel</li>
+    <li>romantic_noun->[TreeType]</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
   <!-- UNUSED -->
