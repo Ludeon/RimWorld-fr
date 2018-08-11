@@ -32,9 +32,9 @@
     <li>tale_noun->la capture de [PRISONER_nameDef]</li>
     <li>image->[CAPTURER_nameFull] capturant [PRISONER_nameFull] [circumstance_group]. [desc_sentence_group]</li>
     <li>image->[CAPTURER_nameFull] menottant [PRISONER_nameFull] [circumstance_group]. [desc_sentence_group]</li>
-    <li>image->[CAPTURER_nameFull] frappant [PRISONER_nameFull] pendant la capture de [PRISONER_objective], [circumstance_group]. [desc_sentence_group]</li>
-    <li>circumstance_phrase->alors que [PRISONER_pronoun] se tortille par terre</li>
-    <li>circumstance_phrase->alors que [PRISONER_pronoun] se tord de douleur</li>
+    <li>image->[CAPTURER_nameFull] frappant [PRISONER_nameFull] pendant sa capture, [circumstance_group]. [desc_sentence_group]</li>
+    <li>circumstance_phrase->alors qu'[PRISONER_pronoun] se tortille par terre</li>
+    <li>circumstance_phrase->alors qu'[PRISONER_pronoun] se tord de douleur</li>
     <li>circumstance_phrase->avec une qualité professionnelle</li>
     <li>circumstance_phrase->grossièrement et avec amateurisme</li>
     <li>circumstance_phrase->avec une force visiblement excessive</li>
@@ -75,16 +75,16 @@
   -->
   <DidSurgery.rulePack.rulesStrings>
     <li>tale_noun->les interventions chirurgicales de [PATIENT_nameDef]</li>
-    <li>image->[SURGEON_nameFull] anesthésie [PATIENT_nameFull].</li>
+    <li>image->[SURGEON_nameFull] anesthésiant [PATIENT_nameFull].</li>
     <li>image->[SURGEON_nameFull] ayant les bras jusqu'aux coudes à l'intérieur de [PATIENT_nameFull], pendant l'opération [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] charcutant [PATIENT_nameFull] pendant l'opération [circumstance_group]</li>
-    <li>circumstance_phrase->tandis que [PATIENT_pronoun] tremble de peur</li>
+    <li>circumstance_phrase->tandis qu'[PATIENT_pronoun] tremble de peur</li>
     <li>circumstance_phrase->tandis qu'une mare de sang se répand sur les pieds de [SURGEON_nameDef]</li>
     <li>circumstance_phrase->pendant que d'effrayants instruments chirurgicaux l'entourent.</li>
     <li>circumstance_phrase->avec des outils improvisés, mais efficaces.</li>
     <li>desc_sentence->[SURGEON_nameDef] transpire beaucoup.</li>
     <li>desc_sentence->[SURGEON_nameDef] a l'air incroyablement concentré(e) sur l'opération.</li>
-    <li>desc_sentence->[SURGEON_nameDef] a maculé de sang le visage de [SURGEON_possessive].</li>
+    <li>desc_sentence->[SURGEON_nameDef] a maculé de sang son visage.</li>
     <li>desc_sentence->[PATIENT_nameDef] frémit et est tout(e) tremblant(e).</li>
   </DidSurgery.rulePack.rulesStrings>
   
@@ -125,25 +125,25 @@
     <li>image->[EXECUTIONER_nameFull] mettant [PRISONER_nameFull] à mort [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] se préparant à exécuter [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] entrant dans la cellule de prison, se dirigeant pour exécuter [PRISONER_nameFull] [circumstance_group]</li>
-    <li>circumstance_phrase->tandis que [PRISONER_pronoun] frémit sur le sol</li>
-    <li>circumstance_phrase->tandis que [PRISONER_pronoun] se tord de douleur</li>
-    <li>circumstance_phrase->tandis que [PRISONER_pronoun] pousse des cris de terreur</li>
+    <li>circumstance_phrase->tandis qu'[PRISONER_pronoun] frémit sur le sol</li>
+    <li>circumstance_phrase->tandis qu'[PRISONER_pronoun] se tord de douleur</li>
+    <li>circumstance_phrase->tandis qu'[PRISONER_pronoun] pousse des cris de terreur</li>
     <li>circumstance_phrase->avec une efficacité de professionnel(le)</li>
     <li>circumstance_phrase->approximativement et de façon amatrice</li>
     <li>circumstance_phrase->avec une force manifestement excessive</li>
     <li>circumstance_phrase->avec un plaisir manifeste</li>
-    <li>circumstance_phrase->pendant qu'il(elle) affiche un sourire de dominant</li>
-    <li>circumstance_phrase->avec des larmes dans les yeux de [EXECUTIONER_possessive]</li>
+    <li>circumstance_phrase->pendant qu'[EXECUTIONER_pronoun] affiche un sourire de dominant</li>
+    <li>circumstance_phrase->avec des larmes dans ses yeux</li>
     <li>circumstance_phrase->avec un regard de totale indifférence</li>
-    <li>circumstance_phrase->pendant qu'il(elle) inflige des souffrances inutiles</li>
-    <li>circumstance_phrase->pendant qu'il(elle) pense à autre chose</li>
+    <li>circumstance_phrase->pendant qu'[EXECUTIONER_pronoun] lui inflige des souffrances inutiles</li>
+    <li>circumstance_phrase->pendant qu'[EXECUTIONER_pronoun] pense à autre chose</li>
     <li>circumstance_phrase->pour le plus grand bien</li>
     <li>desc_sentence->[EXECUTIONER_nameDef] est en sueur.</li>
     <li>desc_sentence->[EXECUTIONER_nameDef] bave un peu.</li>
-    <li>desc_sentence->le sang de [EXECUTIONER_nameDef] a éclaboussé sur le visage de [EXECUTIONER_possessive].</li>
+    <li>desc_sentence->le sang de [EXECUTIONER_nameDef] a éclaboussé so visage.</li>
     <li>desc_sentence->[PRISONER_nameDef] frémit et est tout(e) tremblant(e).</li>
     <li>desc_sentence->[PRISONER_nameDef] semble s'être entièrement résigné(e).</li>
-    <li>desc_sentence->[PRISONER_nameDef] a fermé les yeux de [prisoner_possessive], et semble prier une force supérieure.</li>
+    <li>desc_sentence->[PRISONER_nameDef] a fermé ses yeux, et semble prier une force supérieure.</li>
     <li>desc_sentence->[PRISONER_nameDef] a un regard de défiance.</li>
   </ExecutedPrisoner.rulePack.rulesStrings>
   
@@ -166,8 +166,8 @@
   <Hunted.rulePack.rulesStrings>
     <li>tale_noun->la chasse réussie de [HUNTER_nameDef]</li>
     <li>image->[PREY_nameFull] chassé(e) par [HUNTER_nameFull] [circumstance_group]</li>
-    <li>image->[HUNTER_nameFull] traque le [PREY_nameFull] de loin [circumstance_group]</li>
-    <li>image->[HUNTER_nameFull] chasse le [PREY_nameFull] [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] traquant le [PREY_nameFull] de loin [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] chassant le [PREY_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] se relaxe</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] se déplace</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] mange</li>
@@ -202,17 +202,17 @@
   <KidnappedColonist.rulePack.rulesStrings>
     <li>tale_noun->le kidnapping de [VICTIM_nameDef]</li>
     <li>image->[KIDNAPPER_nameFull] portant [VICTIM_nameFull] en dehors de [KIDNAPPER_factionName] [circumstance_group]</li>
-    <li>image->[KIDNAPPER_nameFull] de [KIDNAPPER_factionName] kidnappe [VICTIM_nameFull] [circumstance_group]</li>
+    <li>image->[KIDNAPPER_nameFull] de [KIDNAPPER_factionName] kidnappant [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] kidnappant [VICTIM_nameFull] [circumstance_group]</li>
-    <li>circumstance_phrase->tandis que [VICTIM_pronoun] se tord de douleur</li>
+    <li>circumstance_phrase->tandis qu'[VICTIM_pronoun] se tord de douleur</li>
     <li>circumstance_phrase->avec une efficacité de professionnel(le)</li>
     <li>circumstance_phrase->approximativement et de façon amatrice</li>
     <li>circumstance_phrase->avec une force manifestement excessive</li>
     <li>circumstance_phrase->avec un plaisir affiché</li>
-    <li>circumstance_phrase->pendant qu'il(elle) affiche un sourire de dominant</li>
-    <li>circumstance_phrase->alors qu'il(elle) est couvert de sang et de saleté</li>
+    <li>circumstance_phrase->pendant qu'[KIDNAPPER_pronoun] affiche un sourire de dominant</li>
+    <li>circumstance_phrase->alors qu'[KIDNAPPER_pronoun] est couvert de sang et de saleté</li>
     <li>desc_sentence->[VICTIM_nameDef] semble s'être entièrement résigné(e).</li>
-    <li>desc_sentence->[VICTIM_nameDef] a fermé les yeux de [VICTIM_possessive], et semble prier une force supérieure.</li>
+    <li>desc_sentence->[VICTIM_nameDef] a fermé ses yeux, et semble prier une force supérieure.</li>
     <li>desc_sentence->[VICTIM_nameDef] a un regard de défiance.</li>
     <li>desc_sentence->[VICTIM_nameDef] crie de rage et de terreur.</li>
     <li>desc_sentence->[VICTIM_nameDef] semble être brisé(e) et épuisé(e).</li>
@@ -253,7 +253,7 @@
     <li>tale_noun->[VICTIM_nameDef], assassiné(e) par [KILLER_nameDef]</li>
     <li>tale_noun->le meurtre de [VICTIM_nameDef] par [KILLER_nameDef]</li>
     <li>tale_noun->le meurtre de [VICTIM_nameDef]</li>
-    <li>image->[VICTIM_nameFull] étant tué(e) par [KILLER_nameFull] [circumstance_group]</li>
+    <li>image->[VICTIM_nameFull] tué(e) par [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] tuant [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] mettant fin à la vie de  [VICTIM_nameFull][circumstance_group]</li>
     <li>image->[KILLER_nameFull] assassinant brutalement [VICTIM_nameFull] [circumstance_group]</li>
@@ -270,9 +270,9 @@
     <li>desc_sentence->Un [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->Une mare de sang répandue autour du corps de [VICTIM_nameDef].</li>
     <li>desc_sentence->Les yeux sans vie de [VICTIM_nameDef] ont un rendu réaliste.</li>
-    <li>desc_sentence->[KILLER_nameDef] montre [KILLER_possessive] dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] montre ses dents.</li>
     <li>desc_sentence->[KILLER_nameDef] semble satisfait(e).</li>
-    <li>desc_sentence->[KILLER_nameDef] semble affligé(e) par [KILLER_pronoun] acte.</li>
+    <li>desc_sentence->[KILLER_nameDef] semble affligé(e) par son acte.</li>
     <li>desc_sentence->[KILLER_nameDef] semble satisfait(e) de la situation.</li>
     <li>desc_sentence->[KILLER_nameDef] se montre triomphant(e).</li>
   </KilledBy.rulePack.rulesStrings>
@@ -350,15 +350,15 @@
     <li>image->[TRADER_nameFull] achetant [PRISONER_nameFull] à [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendant [PRISONER_nameFull] à [TRADER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->tandis que les autres colons regardent en désapprouvant</li>
-    <li>circumstance_phrase->pendant que [SELLER_nameDef] compte l'argent de [TRADER_possessive]</li>
+    <li>circumstance_phrase->pendant que [SELLER_nameDef] compte son argent</li>
     <li>circumstance_phrase->pendant que [PRISONER_nameDef] gémit plaintivement</li>
     <li>circumstance_phrase->au dépit de [PRISONER_nameDef]</li>
     <li>desc_sentence->[TRADER_nameDef] sourit diaboliquement.</li>
     <li>desc_sentence->[SELLER_nameDef] rigole comme un(e) maniaque.</li>
     <li>desc_sentence->[SELLER_nameDef] remet à contrecœur [PRISONER_nameDef] au marchand.</li>
-    <li>desc_sentence->[PRISONER_nameDef] dévisage avec défi [prisoner_possessive] nouveau maître.</li>
-    <li>desc_sentence->[TRADER_nameDef] traîne [PRISONER_nameDef] par [prisoner_possessive] chaînes.</li>
-    <li>desc_sentence->[PRISONER_nameDef] dévisage [SELLER_nameDef], préparant [prisoner_possessive] revanche.</li>
+    <li>desc_sentence->[PRISONER_nameDef] dévisage avec défi son nouveau maître.</li>
+    <li>desc_sentence->[TRADER_nameDef] traîne [PRISONER_nameDef] par ses chaînes.</li>
+    <li>desc_sentence->[PRISONER_nameDef] dévisage [SELLER_nameDef], préparant sa revanche.</li>
     <li>desc_sentence->[PRISONER_nameDef] est en train de pleurer.</li>
     <li>desc_sentence->[PRISONER_nameDef] crache au visage de [SELLER_nameDef].</li>
     <li>desc_sentence->[PRISONER_nameDef] s'agrippe au sol de toutes ses forces.</li>
@@ -393,7 +393,7 @@
     <li>image->[TAMER_nameFull] calmant un [ANIMAL_nameFull] sauvage [circumstance_group]</li>
     <li>circumstance_phrase->avec beaucoup d'attention</li>
     <li>circumstance_phrase->avec un sourire</li>
-    <li>circumstance_phrase->pendant qu'il(elle) est fatigué(e), mais ravi(e)</li>
+    <li>circumstance_phrase->pendant qu'[TAMER_pronoun] est fatigué(e), mais ravi(e)</li>
     <li>desc_sentence->[ANIMAL_nameDef] gronde agressivement.</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble être endormi(e) et ivre de bonheur.</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble être en quelque sorte hypnotisé(e).</li>
@@ -431,8 +431,8 @@
     <li>desc_sentence->[BUYER_nameDef] discute avec [SELLER_nameDef].</li>
     <li>desc_sentence->[SELLER_nameDef] et [BUYER_nameDef] s'accordent sur un prix.</li>
     <li>desc_sentence->[BUYER_nameDef] paie l'article.</li>
-    <li>desc_sentence->[SELLER_nameDef] compte [SELLER_possessive] argent.</li>
-    <li>desc_sentence->[BUYER_nameDef] prend [BUYER_possessive] marchandise.</li>
+    <li>desc_sentence->[SELLER_nameDef] compte son argent.</li>
+    <li>desc_sentence->[BUYER_nameDef] prend sa marchandise.</li>
   </TradedWith.rulePack.rulesStrings>
   
   <!-- EN: animal trained -->
@@ -473,7 +473,7 @@
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->l'entraînement de [ANIMAL_nameDef]</li>
-    <li>image->[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] en [TRAINABLE_label] [circumstance_group]</li>
+    <li>image->[TRAINER_nameFull] sur l'[train_syn] de [ANIMAL_nameFull] en [TRAINABLE_label] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] apprenant [TRAINABLE_label] à [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] exerçant [TRAINABLE_label] avec [ANIMAL_nameFull] [circumstance_group]</li>
     <li>train_syn->entraînement</li>
@@ -489,12 +489,12 @@
     <li>desc_sentence->[TRAINER_nameDef] montre du plaisir.</li>
     <li>desc_sentence->[TRAINER_nameDef] est souriant(e).</li>
     <li>desc_sentence->[TRAINER_nameDef] semble être ennuyé(e).</li>
-    <li>desc_sentence->[TRAINER_nameDef] brandit [TRAINER_possessive] poing d'un air menaçant.</li>
-    <li>desc_sentence->[TRAINER_nameDef] plisse [TRAINER_possessive] front, en grande concentration.</li>
+    <li>desc_sentence->[TRAINER_nameDef] brandit son poing d'un air menaçant.</li>
+    <li>desc_sentence->[TRAINER_nameDef] plisse son front, en grande concentration.</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble être perplexe.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] a une arme dans [ANIMAL_possessive] gueule.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] a une arme dans sa gueule.</li>
     <li>desc_sentence->[ANIMAL_nameDef] émet un grognement dans son effort.</li>
-    <li>desc_sentence->[TRAINER_nameDef] secoue [TRAINER_possessive] tête, de frustration.</li>
+    <li>desc_sentence->[TRAINER_nameDef] secoue sa tête, de frustration.</li>
     <li>desc_sentence->[ANIMAL_nameDef] tremble de peur.</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble se transformer en [Vegetable].</li>
     <li>desc_sentence->[ANIMAL_nameDef] est représenté(e) tel un tas d'outils électriques.</li>
