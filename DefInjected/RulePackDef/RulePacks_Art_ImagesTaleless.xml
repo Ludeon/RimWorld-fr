@@ -38,35 +38,41 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->un(e) [outlander] encerclé(e) par des [outlander]</li>
-    <li>image->un(e) [outlander] jouant au [game] avec [quantity_adjphrase] [outlander]</li>
-    <li>image->un(e) [outlander] [subject_desc] armé(e) d'un(e) [weapon]</li>
-    <li>image->un(e) [outlander] solitaire</li>
-    <li>image->un(e) [adjective] [outlander] portant un [apparel]</li>
-    <li>image->un(e) [outlander] mangeant un(e) [vegetable]</li>
-    <li>image->[quantity_adjphrase] [outlander] et [outlander] mangeant des [vegetable] ensemble</li>
-    <li>image->un(e) [apparel] vide [subject_desc]</li>
-    <li>image->un(e) [terrainfeature] [adjective]</li>
-    <li>image->[animal] jouant à [game]</li>
-    <li>image->un(e) [animal] portant un(e) [apparel] [subject_desc]</li>
-    <li>image->un(e) [terrainfeature]</li>
-    <li>image->une représentation abstraite d'un(e) [concept]</li>
-    <li>image->un(e) [community]</li>
-    <li>image->un(e) [weapon]</li>
-    <li>image->[quantity_adjphrase] [weapon]</li>
-    <li>image->[quantity_adjphrase] [vegetable]</li>
-    <li>image->la personne célèbre, '[personname]' [subject_desc]</li>
-    <li>image->un [animal] dans un(e) [apparel] d'un(e) [outlander]</li>
-    <li>subject_desc->volant dans les airs</li>
-    <li>subject_desc->suspendu(e) dans les airs</li>
-    <li>subject_desc->debout sur le sol</li>
-    <li>subject_desc->se déplaçant sur la gauche</li>
-    <li>subject_desc->se déplaçant sur la droite</li>
-    <li>subject_desc->assis(e) à une table</li>
-    <li>subject_desc->vu(e) à travers un miroir</li>
-    <li>subject_desc->dans la silhouette</li>
-    <li>subject_desc->chevauchant un(e) [animal] portant un(e) [apparel]</li>
-    <li>subject_desc->regardant [adjective]</li>
+    <li>image->un(e) [Character] solitaire [desc_pawn]</li>
+    <li>image->un(e) [Character] solitaire [desc_pawn] près d'un(e) [TerrainFeature]</li>
+    <li>image->un(e) [Character] solitaire [desc_pawn] près d'un(e) [Community]</li>
+    <li>image->un(e) [Character] [desc_pawn] entouré(e) de [Character]s</li>
+    <li>image->[Character]s jouant au [Game]</li>
+    <li>image->un(e) [Character] [desc_pawn] jouant au [Game] avec [Quantity_adjphrase] [Character]s</li>
+    <li>image->un(e) [Character] [desc_pawn] armé(e) d'un(e) [Weapon]</li>
+    <li>image->un(e) [Character] [desc_pawn] mangeant un(e) [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob]s et [PersonJob]s mangeant des [Vegetable]s ensemble</li>
+    <li>image->la personne célèbre, [NamePerson] [desc_pawn]</li>
+    <li>image->un(e) [Character] portant un(e) [Apparel] [desc_pawn]</li>
+    <li>image->un(e) [Community]</li>
+    <li>image->un(e) [TerrainFeature]</li>
+    <li>image->un(e) [Weapon]</li>
+    <li>image->un [TreeType]</li>
+    <li>image->un(e) [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]s</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>image->une(e) [Apparel] vide</li>
+    <li>image->un [Shape]</li>
+    <li>image->un [Shape] entouré(e) de [Shape]s</li>
+    <li>image->une représentation abstraite d'un(e) [ConceptAny]</li>
+    <li>image->une forme abstraite [AdjectiveAny](e)</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->volant dans les airs</li>
+    <li>desc_pawn->suspendu(e) dans les airs</li>
+    <!--     <li>desc_pawn->debout sur le sol</li> -->
+    <li>desc_pawn->se déplaçant vers la gauche</li>
+    <li>desc_pawn->se déplaçant vers la droite</li>
+    <li>desc_pawn->assis(e) à une table</li>
+    <li>desc_pawn->vu(e) à travers un miroir</li>
+    <li>desc_pawn->représenté(e) en silhouette</li>
+    <li>desc_pawn->chevauchant un(e) [Animal] portant un(e) [Apparel]</li>
+    <li>desc_pawn->ayant l'air [AdjectiveAny]</li>
+    <li>desc_pawn->couvert(e) de [Gore]</li>
   </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

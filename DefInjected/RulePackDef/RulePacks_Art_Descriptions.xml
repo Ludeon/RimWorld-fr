@@ -201,41 +201,138 @@
     <li>artstyle_adj->heartfelt</li>
   -->
   <ArtDescriptionUtility_Global.rulePack.rulesStrings>
-    <li>style_group->[artextra_clause], dans lequel [style_clause]</li>
-    <li>style_group->[style_clause], tandis que [artextra_clause]</li>
-    <li>style_group->[artextra_clause], bien que [style_clause]</li>
-    <li>style_group->[artextra_clause], pendant que [style_clause]</li>
-    <li>artextra_clause->L'image est entourée de [quantity_adjphrase] de [animal]</li>
-    <li>artextra_clause->Il y a un(e) [community] [side_position]</li>
-    <li>artextra_clause->Il y a un(e) [terrainfeature] [side_position]</li>
-    <li>artextra_clause->Il y a un(e) [animal] [side_position]</li>
-    <li>artextra_clause->Les sujets sont face à un(e) [terrainfeature]</li>
-    <li>artextra_clause->La scène se passe au milieu de la [community]</li>
-    <li>artextra_clause->La scène semble se passer sur les faubourgs de la [community]</li>
-    <li>artextra_clause->La tête souriante d'un(e) [outlander] veille sur tout</li>
-    <li>artextra_clause->La scène se passe à l'intérieur de la [community] construit à côté d'un(e) [terrainfeature]</li>
-    <li>artextra_clause->La partie inférieure de l'image est dominée par un(e) [terrainfeature]</li>
-    <li>artextra_clause->L'ensemble de l'image est représentée par des centaines de petit(e)s [animal] soigneusement disposé(e)s</li>
-    <li>artextra_clause->Un(e) [outlander] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->Un(e) [animal] [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->Un(e) [animal] mort(e) [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->Une représentation personnifiée de '[concept]' [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->Un(e) [animal] [side_position] semble symboliser '[concept]'</li>
-    <li>artextra_clause->[quantity_adjphrase] [outlander]  [idle_verb_progressive] [side_position]</li>
-    <li>artextra_clause->Si vous plissez les yeux, la structure [composition] de l'image révèle la silhouette d'un(e) [animal]</li>
-    <li>style_clause->l'image semble exprimer '[concept]'</li>
-    <li>style_clause->l'œuvre est insufflée par l'idée de '[concept]' et est réalisée dans un style [artstyle_adj]</li>
-    <li>style_clause->l'œuvre suggère l'idée de '[concept]'</li>
+    <li>style_group->[artextra_clause]. [style_clause].</li>
+    <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
+    <li>style_group->[style_clause].</li>
+    <li>style_group->[artextra_clause].</li>
+    <li>style_group-></li>
+    <li>artconjunction(p=6)-></li>
+    <li>artconjunction->et comme contraste intéressant,</li>
+    <li>artconjunction->et pour compléter l'œuvre,</li>
+    <li>artconjunction->en plus de cela,</li>
+    <li>artconjunction->et de manière frappante,</li>
+    <li>artconjunction->et de manière provocante,</li>
+    <li>artconjunction->et inhabituellement pour ce genre de travail,</li>
+    <li>artconjunction->et bien que peu de gens s'y attendent,</li>
+    <li>artconjunction->à part cela,</li>
+    <li>artextra_clause->l'image est entourée de [subimageplural]</li>
+    <li>artextra_clause->[subimageplural] sont au bord de l'image</li>
+    <li>artextra_clause->il y a [subimagesingle] [side_position]</li>
+    <li>artextra_clause->les sujets sont face à [subimageany]</li>
+    <li>artextra_clause->la partie inférieure de l'image est dominée par [subimageany]</li>
+    <li>artextra_clause->la scène se passe au milieu de la [Community]</li>
+    <li>artextra_clause->la scène se passe dans les faubourgs de la [Community]</li>
+    <li>artextra_clause->la scène se passe à l'intérieur de la [Community] près d'un(e) [TerrainFeature]</li>
+    <li>artextra_clause->un(e) [Character] [idles] [side_position]</li>
+    <li>artextra_clause->un(e) [Character] [pawn_adj] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character]s apparaissent [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character]s [pawn_adj_plural] apparaissent [side_position]</li>
+    <li>artextra_clause->un(e) [Animal] [idles] [side_position]</li>
+    <li>artextra_clause->si vous plissez les yeux, la structure [composition] de l'image révèle la silhouette de [subimageany]</li>
+    <li>artextra_clause->la tête [emotional_expression_head] d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
+    <li>artextra_clause->un(e) [PersonJob] [pawn_adj] domine sur l'ensemble en [emotional_expression]</li>
+    <li>artextra_clause->la tête d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
+    <li>artextra_clause->l'ensemble de l'image est représentée par [subimageplural] soigneusement disposé(e)s</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>artextra_clause->une représentation personnifiée de '[ConceptAny]' [idles] [side_position]</li>        
+    <li>subimageany->[subimagesingle]</li>
+    <li>subimageany->[subimageplural]</li>
+    <li>subimagesingle(p=4)->un(e) [Character]</li>
+    <li>subimagesingle->un(e) [TerrainFeature]</li>
+    <li>subimagesingle->un(e) [Community]</li>
+    <li>subimagesingle->un(e) [TreeType]</li>
+    <li>subimagesingle->un(e) [Vegetable]</li>
+    <li>subimagesingle->un(e) [AnimalGroup] de [Animal]s</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <!--  Adj: Pb de féminin (e) et de pluriel (s) -->
+    <li>pawn_adj->[pawn_adj_regular]</li>
+    <li>pawn_adj->[pawn_adj_irregular]</li>
+    <li>pawn_adj->[pawn_adj_variant]</li>
+    <li>pawn_adj->[pawn_adj_invariant]</li>
+    <li>pawn_adj_plural->[pawn_adj_regular]s</li>
+    <li>pawn_adj_plural->[pawn_adj_irregular]</li>
+    <li>pawn_adj_plural->[pawn_adj_variantplural]</li>
+    <li>pawn_adj_plural->[pawn_adj_invariant]</li>
+    <li>pawn_adj_regular->mort</li>
+    <li>pawn_adj_regular->mourant</li>
+    <li>pawn_adj_regular->blessé</li>
+    <li>pawn_adj_regular->endormi</li>
+    <li>pawn_adj_regular->enragé</li>
+    <li>pawn_adj_regular->jeune</li>
+    <li>pawn_adj_regular->sénile</li>
+    <li>pawn_adj_regular->sale</li>
+    <li>pawn_adj_regular->debout</li>
+    <!--  EN:  <li>pawn_adj_plural->old</li> vieux/vielle et pb de pluriel (s) -->
+    <li>pawn_adj_irregular->vieux</li>
+    <li>pawn_adj_irregular->assis</li>
+    <li>pawn_adj_invariant->portant un(e) [Apparel]</li>
+    <li>pawn_adj_invariant->maniant un(e) [Weapon]</li>
+    <li>pawn_adj_invariant->mangeant un(e) [Vegetable]</li>    
+    <li>pawn_adj_variant->couvert de [Gore]</li>
+    <li>pawn_adj_variantplural->couverts de [Gore]</li>
+    <li>emotional_expression_head->souriante</li>
+    <li>emotional_expression_head->refrognée</li>
+    <li>emotional_expression_head->grimaçante</li>
+    <li>emotional_expression_head->riante</li>
+    <li>emotional_expression_head->au regard fixe</li>
+    <li>emotional_expression_head->pleurant</li>
+    <li>emotional_expression_head->criant</li>
+    <li>emotional_expression_head->réjouie</li>
+    <li>emotional_expression->souriant</li>
+    <li>emotional_expression->fronçant les sourcils</li>
+    <li>emotional_expression->grimaçant</li>
+    <li>emotional_expression->riant</li>
+    <li>emotional_expression->regardant fixement</li>
+    <li>emotional_expression->pleurant</li>
+    <li>emotional_expression->criant</li>
+    <li>emotional_expression->se réjouissant</li>
+    <li>idles->trône</li>
+    <!--  EN:   <li>idles->stands</li> -->
+    <li>idles->se tient</li>
+    <li>idles->attend</li>
+    <li>idles->sourit</li>
+    <li>idles->ment</li>
+    <li>idles->pose</li>
+    <li>idles->apparait</li>
+    <li>idles->est montré</li>
+    <li>idles->se dissout</li>
+    <li>idles->flotte</li>
+    <li>side_position->sur un côté</li>
+    <li>side_position->en arrière-plan</li>
+    <li>side_position->au loin</li>
+    <li>side_position->sur la partie inférieure de l'image</li>
+    <li>side_position->sur la partie supérieure de l'image</li>
+    <li>side_position->sur la partie gauche de l'image</li>
+    <li>side_position->sur la partie droite de la scène principale</li>
+    <li>side_position->proche du bord de l'image</li>
+    <li>side_position->proche du sujet principal</li>
+    <li>side_position->loin du sujet principal</li>
+    <li>side_position->sous le thème principal</li>
+    <li>side_position->derrière le point focal</li>
+    <li>style_clause(p=4)->l'œuvre [symbolizes] '[ConceptAny]'</li>
+    <li>style_clause->l'œuvre est insufflée par l'idée de '[ConceptAny]' et est réalisée dans un style [artstyle_adj]</li>
     <li>style_clause->l'œuvre est réalisée dans un style [artstyle_adj]</li>
     <li>style_clause->le style [artstyle_adj] de la partie centrale s'entrechoque avec le style [artstyle_adj] représenté en arrière plan</li>
     <li>style_clause->l'œuvre a une touche de [artstyle_adj] et a une structure [composition]</li>
     <li>style_clause->la globalité de la composition est [composition]</li>
     <li>style_clause->le style est [artstyle_adj] avec des éléments de [artstyle_adj]</li>
-    <li>style_clause->l'image est totalement dépourvue de '[concept]' et de '[concept]'</li>
-    <li>style_clause->l'image exprime d'une quelconque manière le '[concept]' et '[concept]'</li>
+    <li>style_clause->l'image exprime d'une quelconque manière le concept de '[ConceptAny]' et de '[ConceptAny]'</li>
+    <li>style_clause->l'image met en contraste le concept de '[ConceptAny]' et de '[ConceptAny]'</li>
     <li>style_clause->la structure [composition] de l'image rentre presque en conflit avec son style [artstyle_adj]</li>
-    <li>style_clause->l'œuvre est nuancée par des teintes de [color] et de [color]</li>
+    <li>style_clause->l'œuvre est nuancée par des teintes de [Color] et de [Color]</li>
     <li>style_clause->presque toutes les formes de l'image semblent être [composition]</li>
+    <li>symbolizes->symbolise</li>
+    <li>symbolizes->semble symboliser</li>
+    <li>symbolizes->représente</li>
+    <li>symbolizes->semble représenter</li>
+    <li>symbolizes->semble exprimer</li>
+    <li>symbolizes->rappelle au spectateur de</li>
+    <li>symbolizes->transmet les émotions de</li>
+    <li>symbolizes->fait penser à</li>
+    <li>symbolizes->représente ce que pense l'artiste de</li>
+    <li>symbolizes->suggère le concept de</li>
     <li>depicts->décrit</li>
     <li>depicts->montre</li>
     <li>depicts->dépeint</li>
@@ -256,6 +353,9 @@
     <li>composition->équilibrée</li>
     <li>composition->très dynamique</li>
     <li>composition->très statique</li>
+    <li>composition->verticale</li>
+    <li>composition->horizontale</li>
+    <li>composition->concentrée</li>
     <li>artstyle_adj->sans originalité</li>
     <li>artstyle_adj->simple</li>
     <li>artstyle_adj->complexe et réaliste</li>
@@ -294,26 +394,6 @@
     <li>artstyle_adj->érotique</li>
     <li>artstyle_adj->sensuel</li>
     <li>artstyle_adj->sincère</li>
-    <li>idle_verb_progressive->siège</li>
-    <li>idle_verb_progressive->tient</li>
-    <li>idle_verb_progressive->attend</li>
-    <li>idle_verb_progressive->sourit</li>
-    <li>idle_verb_progressive->ment</li>
-    <li>idle_verb_progressive->pose</li>
-    <li>idle_verb_progressive->apparait</li>
-    <li>idle_verb_progressive->est montré</li>
-    <li>idle_verb_progressive->se décolore dans</li>
-    <li>idle_verb_progressive->flotte</li>
-    <li>side_position->d'un côté</li>
-    <li>side_position->proche du bord de l'image</li>
-    <li>side_position->en arrière-plan</li>
-    <li>side_position->sur la distance</li>
-    <li>side_position->sur la partie inférieure de l'image</li>
-    <li>side_position->sur la partie supérieure de l'image</li>
-    <li>side_position->sous le thème principal</li>
-    <li>side_position->derrière le point focal</li>
-    <li>side_position->sur la partie gauche de l'image</li>
-    <li>side_position->sur la partie droite de la scène principale</li>
   </ArtDescriptionUtility_Global.rulePack.rulesStrings>
   
 </LanguageData>
