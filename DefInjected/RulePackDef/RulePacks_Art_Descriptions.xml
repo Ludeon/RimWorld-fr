@@ -10,12 +10,12 @@
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
   <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root] [context_sentence]</li>
+    <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->Cette [depiction] fait référence à [tale_noun], le [date].</li>
-    <li>context_sentence->Cette [depiction] se rapporte à [tale_noun], le [date].</li>
-    <li>context_sentence->Cette [depiction] raconte l'histoire de [tale_noun], le [date].</li>
+    <li>context_sentence->Cette [depiction] fait référence à [tale_noun], le [DATE].</li>
+    <li>context_sentence->Cette [depiction] se rapporte à [tale_noun], le [DATE].</li>
+    <li>context_sentence->Cette [depiction] raconte l'histoire de [tale_noun], le [DATE].</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -23,7 +23,7 @@
     <li>desc_sentence_group->[style_group]</li>
   -->
   <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root]</li>
+    <li>r_art_description->[physical_description_root]</li>
     <li>desc_sentence_group->[style_group]</li>
   </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
   
@@ -212,17 +212,17 @@
     <li>artconjunction->en plus de cela,</li>
     <li>artconjunction->et de manière frappante,</li>
     <li>artconjunction->et de manière provocante,</li>
-    <li>artconjunction->et inhabituellement pour ce genre de travail,</li>
+    <li>artconjunction->et inhabituellement pour ce genre d'œuvre,</li>
     <li>artconjunction->et bien que peu de gens s'y attendent,</li>
     <li>artconjunction->à part cela,</li>
-    <li>artextra_clause->l'image est entourée de [subimageplural]</li>
+    <li>artextra_clause->[subimageplural] entourent l'image</li>
     <li>artextra_clause->[subimageplural] sont au bord de l'image</li>
     <li>artextra_clause->il y a [subimagesingle] [side_position]</li>
     <li>artextra_clause->les sujets sont face à [subimageany]</li>
     <li>artextra_clause->la partie inférieure de l'image est dominée par [subimageany]</li>
-    <li>artextra_clause->la scène se passe au milieu de la [Community]</li>
-    <li>artextra_clause->la scène se passe dans les faubourgs de la [Community]</li>
-    <li>artextra_clause->la scène se passe à l'intérieur de la [Community] près d'un(e) [TerrainFeature]</li>
+    <li>artextra_clause->la scène se passe au milieu d'un(e) [Community]</li>
+    <li>artextra_clause->la scène se passe dans les faubourgs d'un(e) [Community]</li>
+    <li>artextra_clause->la scène se passe à l'intérieur d'un(e) [Community] près d'un(e) [TerrainFeature]</li>
     <li>artextra_clause->un(e) [Character] [idles] [side_position]</li>
     <li>artextra_clause->un(e) [Character] [pawn_adj] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s apparaissent [side_position]</li>
@@ -232,9 +232,9 @@
     <li>artextra_clause->la tête [emotional_expression_head] d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
     <li>artextra_clause->un(e) [PersonJob] [pawn_adj] domine sur l'ensemble en [emotional_expression]</li>
     <li>artextra_clause->la tête d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
-    <li>artextra_clause->l'ensemble de l'image est représentée par [subimageplural] soigneusement disposé(e)s</li>
+    <li>artextra_clause->l'ensemble de l'image est illustrée avec [subimageplural] soigneusement disposé(e)s</li>
     <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
-    <li>artextra_clause->une représentation personnifiée de '[ConceptAny]' [idles] [side_position]</li>        
+    <li>artextra_clause->une représentation personnifiée de [ConceptAny] [idles] [side_position]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
     <li>subimagesingle(p=4)->un(e) [Character]</li>
@@ -293,7 +293,7 @@
     <li>idles->se tient</li>
     <li>idles->attend</li>
     <li>idles->sourit</li>
-    <li>idles->ment</li>
+    <li>idles->s'étend</li>
     <li>idles->pose</li>
     <li>idles->apparait</li>
     <li>idles->est montré</li>
@@ -311,41 +311,43 @@
     <li>side_position->loin du sujet principal</li>
     <li>side_position->sous le thème principal</li>
     <li>side_position->derrière le point focal</li>
-    <li>style_clause(p=4)->l'œuvre [symbolizes] '[ConceptAny]'</li>
-    <li>style_clause->l'œuvre est insufflée par l'idée de '[ConceptAny]' et est réalisée dans un style [artstyle_adj]</li>
+    <li>style_clause(p=4)->l'œuvre [symbolizes] [ConceptAny]</li>
+    <li>style_clause->l'œuvre est insufflée par l'idée de [ConceptAny] et est réalisée dans un style [artstyle_adj]</li>
     <li>style_clause->l'œuvre est réalisée dans un style [artstyle_adj]</li>
     <li>style_clause->le style [artstyle_adj] de la partie centrale s'entrechoque avec le style [artstyle_adj] représenté en arrière plan</li>
-    <li>style_clause->l'œuvre a une touche de [artstyle_adj] et a une structure [composition]</li>
+    <li>style_clause->l'œuvre a une touche de "[artstyle_adj]" et a une structure [composition]</li>
     <li>style_clause->la globalité de la composition est [composition]</li>
-    <li>style_clause->le style est [artstyle_adj] avec des éléments de [artstyle_adj]</li>
-    <li>style_clause->l'image exprime d'une quelconque manière le concept de '[ConceptAny]' et de '[ConceptAny]'</li>
-    <li>style_clause->l'image met en contraste le concept de '[ConceptAny]' et de '[ConceptAny]'</li>
-    <li>style_clause->la structure [composition] de l'image rentre presque en conflit avec son style [artstyle_adj]</li>
+    <li>style_clause->le style est [artstyle_adj] avec des éléments d'un genre [artstyle_adj]</li>
+    <li>style_clause->l'image exprime d'une quelconque manière le concept de [ConceptAny] et de [ConceptAny]</li>
+    <li>style_clause->l'image met en contraste le concept de [ConceptAny] et de [ConceptAny]</li>
+    <li>style_clause->la structure [composition] de l'image entre presque en conflit avec son style [artstyle_adj]</li>
     <li>style_clause->l'œuvre est nuancée par des teintes de [Color] et de [Color]</li>
-    <li>style_clause->presque toutes les formes de l'image semblent être [composition]</li>
-    <li>symbolizes->symbolise</li>
-    <li>symbolizes->semble symboliser</li>
-    <li>symbolizes->représente</li>
-    <li>symbolizes->semble représenter</li>
-    <li>symbolizes->semble exprimer</li>
-    <li>symbolizes->rappelle au spectateur de</li>
-    <li>symbolizes->transmet les émotions de</li>
-    <li>symbolizes->fait penser à</li>
+    <li>style_clause->presque toutes les formes de l'image semblent être [composition]s</li>
+    <li>symbolizes->symbolise le concept de</li>
+    <li>symbolizes->semble symboliser l'idée de</li>
+    <li>symbolizes->représente le concept de</li>
+    <li>symbolizes->semble représenter le concept de</li>
+    <li>symbolizes->semble exprimer l'idée de</li>
+    <li>symbolizes->rappelle au spectateur l'idée de</li>
+    <li>symbolizes->transmet des émotions de</li>
+    <li>symbolizes->fait penser à l'idée de</li>
     <li>symbolizes->représente ce que pense l'artiste de</li>
     <li>symbolizes->suggère le concept de</li>
     <li>depicts->décrit</li>
     <li>depicts->montre</li>
     <li>depicts->dépeint</li>
-    <li>depicts->ressemble</li>
+    <li>depicts->ressemble à</li>
     <li>depicts->illustre</li>
     <li>depicts->représente</li>
     <li>depicts->est en forme de</li>
+    <!-- depiction : choisir seulement des mots féminins -->
     <li>depiction->peinture</li>
     <li>depiction->image</li>
     <li>depiction->figure</li>
     <li>depiction->représentation</li>
     <li>depiction->illustration</li>
     <li>depiction->œuvre</li>
+    <!-- composition : féminin avec s au pluriel -->
     <li>composition->triangulaire</li>
     <li>composition->rectangulaire</li>
     <li>composition->carrée</li>
@@ -364,7 +366,7 @@
     <li>artstyle_adj->moderne</li>
     <li>artstyle_adj->symbolique</li>
     <li>artstyle_adj->amateur mais attrayant</li>
-    <li>artstyle_adj->pleine de détails</li>
+    <li>artstyle_adj->plein de détails</li>
     <li>artstyle_adj->polyédrique</li>
     <li>artstyle_adj->cubiste</li>
     <li>artstyle_adj->impressionniste</li>
@@ -373,7 +375,7 @@
     <li>artstyle_adj->baroque</li>
     <li>artstyle_adj->dadaïste</li>
     <li>artstyle_adj->glitch art</li>
-    <li>artstyle_adj->pixelisée</li>
+    <li>artstyle_adj->pixelisé</li>
     <li>artstyle_adj->fauviste</li>
     <li>artstyle_adj->folklorique</li>
     <li>artstyle_adj->figuratif</li>
