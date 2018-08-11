@@ -289,8 +289,8 @@
     <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en souriant</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_objective] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->déstabilisant [RECIPIENT_objective]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_definite] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->déstabilisant [RECIPIENT_definite]</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -821,7 +821,7 @@
     <li>missing->ayant été emportée par le vent</li>
     <li>avoidance(ORIGINALTARGET_mobile==True)->a esquivé à la dernière seconde</li>
     <li>avoidance(ORIGINALTARGET_mobile==True)->a trébuché en tentant de s'échapper</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->[ORIGINALTARGET_objective] s'est jeté(e) au sol</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True)->s'est jeté(e) au sol</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->s'est caché(e) derrière [COVER_definite]</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->a sauté derrière [COVER_definite]</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
