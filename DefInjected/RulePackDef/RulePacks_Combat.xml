@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -457,7 +457,7 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite].</li>
-    <li>WEAPON_projectile_label(p=0.05)->shot</li>
+    <li>weapon_projectile_label(p=0.05)->shot</li>
     <li>destroyed_past->shattered</li>
     <li>destroyed_past->crushed</li>
     <li>destroyed_past->obliterated</li>
@@ -567,7 +567,7 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] [deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite] [deflected_result].</li>
-    <li>WEAPON_projectile_label(p=0.05)->shot</li>
+    <li>weapon_projectile_label(p=0.05)->shot</li>
     <li>damaged_target_possessive_opt-></li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [RECIPIENT_part_damaged0_label]</li>
     <li>deflected_result-> [adverb_deflected]</li>
@@ -742,16 +742,6 @@
     <li>adjective_threw->précis</li>
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->prudent</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
-  
-  <!-- UNUSED -->
-<!--  <Combat_RangedIncludes.rulePack.rulesStrings>
-    <li>INITIATOR_definite->[initiator_labelDefinite]</li>
-    <li>INITIATOR_definite->[initiator_nameShortDef]</li>
-    <li>RECIPIENT_definite->[recipient_labelDefinite]</li>
-    <li>RECIPIENT_definite->[recipient_nameShortDef]</li>
-    <li>ORIGINALTARGET_definite->[originalTarget_labelDefinite]</li>
-    <li>ORIGINALTARGET_definite->[originalTarget_nameShortDef]</li>
-  </Combat_RangedIncludes.rulePack.rulesStrings>-->
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed].</li>
