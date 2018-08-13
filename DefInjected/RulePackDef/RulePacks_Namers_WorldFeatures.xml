@@ -37,14 +37,14 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <!--   TODO : À vérifier -->
     <li>terrain_word(p=4)->prairie</li>
     <li>terrain_word(p=4)->garrigue</li>
     <li>terrain_word(p=2)->plateau</li>
     <li>terrain_word(p=2)->maquis</li>
     <li>terrain_word->désert</li>
     <li>terrain_word->bush</li>
-    <li>terrain_word->broussailles</li>
+    <li>terrain_word->steppe</li>
+    <li>terrain_word->savane</li>
     <li>terrain_word->landes</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
@@ -57,13 +57,13 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <!--   TODO : un marin bienvenu -->
     <li>standardname(p=0.2)->golfe de [narrative_name]</li>
     <li>terrain_word(p=6)->baie</li>
     <li>terrain_word->anse</li>
     <li>terrain_word->golfe</li>
     <li>terrain_word->mouillage</li>
-    <li>terrain_word->petite baie</li>
+    <li>terrain_word->crique</li>
+<!--     <li>terrain_word->calanque</li> -->
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -81,7 +81,7 @@
     <li>terrain_word->bosquet</li>
     <li>terrain_word->forêt</li>
     <li>terrain_word->bois</li>
-    <!-- TODO: vérifier la traduction de tangle, thicket -->
+    <li>terrain_word->landes</li>
     <li>terrain_word->broussailles</li>
     <li>terrain_word->buissons</li>
   </NamerBorealForest.rulePack.rulesStrings>
@@ -111,7 +111,6 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <!--   TODO : mots pour décrire un désert -->
     <li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
     <li>desert_adjective->plat</li>
     <li>desert_adjective->blanc</li>
@@ -127,13 +126,17 @@
     <li>desert_adjective->transpirant</li>
     <li>desert_adjective->sablonneux</li>
     <li>desert_adjective->rocheux</li>
+    <li>desert_adjective->désolé</li>
+    <li>desert_adjective->désertique</li>
+    <li>desert_adjective->aride</li>
+    <!-- nom géographique -->
     <li>terrain_word(p=6)->désert</li>
     <li>terrain_word->plateau</li>
-    <li>terrain_word->plaines</li>
+    <li>terrain_word->plaine</li>
     <li>terrain_word->bassin</li>
-    <li>terrain_word->désertique</li>
-    <li>terrain_word->désolé</li>
-    <li>terrain_word->arid</li>
+    <li>terrain_word->désert</li>
+    <li>terrain_word->dépression</li>
+    <li>terrain_word->barrens</li>
   </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
@@ -164,7 +167,7 @@
     <li>terrain_word->étendue</li>
     <li>terrain_word(p=0.5)->bief</li>
     <li>terrain_word(p=0.3)->glacier</li>
-    <li>terrain_word(p=0.3)->span</li>
+    <li>terrain_word(p=0.3)->étendue gelée</li>
     <li>terrain_word(p=0.3)->champ de glace</li>
     <li>terrain_word(p=0.3)->barrière de glace</li>
     <li>terrain_word(p=0.3)->gisement</li>
@@ -265,11 +268,8 @@
     <li>ocean_adjective->plat</li>
     <li>ocean_adjective->tranquille</li>
     <li>ocean_adjective->ondulé</li>
-    <!-- pacifique,  -->
     <li>ocean_adjective->paisible</li>
-    <!--  TODO: idéalement du méme genre masc/fem 
-       pour l'accord avec ocean_adjective
-    -->
+    <li>ocean_adjective->pacifique</li>
     <li>terrain_word(p=6)->océan</li>
     <li>terrain_word(p=3)->mer</li>
     <li>terrain_word->étendue</li>
