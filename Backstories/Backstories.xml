@@ -62,7 +62,7 @@
     <titleShort>étudiant</titleShort>
     <titleShortFemale>étudiante</titleShortFemale>
     <!-- EN: [PAWN_nameDef] went to school like a good space cadet would. He was very tall and was known for his good looks.\n\nThough he worried more about his hairstyle than his grades, he still somehow passed the final exams. -->
-    <desc>[PAWN_nameDef] est allé à l'école comme tout bon cadet de l'espace. [PAWN_pronoun] était très grand(e) et était connu pour sa beauté.\n\nMalgé qu'[PAWN_pronoun] se soit plus inquiété de sa coiffure que de ses notes, [PAWN_pronoun] a tout de même réussi à passer les examens finaux.</desc>
+    <desc>[PAWN_nameDef] est allé à l'école comme tout bon cadet de l'espace. [PAWN_pronoun] était très grand(e) et était connu(e) pour sa beauté.\n\nMalgé qu'[PAWN_pronoun] se soit plus inquiété de sa coiffure que de ses notes, [PAWN_pronoun] a tout de même réussi à passer les examens finaux.</desc>
   </AcademyStudent80>
   
   <AccursedChild81>
@@ -1585,8 +1585,10 @@
   <CosmeticSurgeon36>
     <!-- EN: cosmetic surgeon -->
     <title>chirurgien esthétique</title>
+    <titleFemale>chirurgienne esthétique</titleFemale>
     <!-- EN: surgeon -->
     <titleShort>chirurgien</titleShort>
+    <titleShortFemale>chirurgienne</titleShortFemale>
     <!-- EN: [PAWN_nameDef] had a terrible bedside manner due to [PAWN_possessive] abrasiveness. [PAWN_pronoun] often bullied [PAWN_possessive] patients into getting cosmetic surgery. [PAWN_pronoun] made a lot of money this way.\n\nWhile very studious and careful in [PAWN_possessive] work, [PAWN_pronoun] never had to lift a finger doing domestic chores. -->
     <desc>À cause de son manque de tact [PAWN_nameDef] avait de mauvaises relations avec ses patients. [PAWN_pronoun] a souvent incité ses patients à subir une chirurgie esthétique. [PAWN_pronoun] gagnait ainsi beaucoup d'argent.\n\nBien que très professionnel, [PAWN_pronoun] n'a jamais eu à lever le moindre petit doigt pour faire des tâches domestiques.</desc>
   </CosmeticSurgeon36>
@@ -1685,8 +1687,10 @@
   <CriminalSurgeon99>
     <!-- EN: criminal surgeon -->
     <title>chirurgien criminel</title>
+    <titleFemale>chirurgienne criminelle</titleFemale>
     <!-- EN: surgeon -->
     <titleShort>chirurgien</titleShort>
+    <titleShortFemale>chirurgienne</titleShortFemale>
     <!-- EN: Being near many injured fellow criminals, [PAWN_nameDef] took it upon [PAWN_objective]self to work on them.\n\nAlthough many people died, [PAWN_pronoun] did get better at using knives. -->
     <desc>Fréquentant de nombreux criminels, [PAWN_nameDef] a décidé de travailler en tant que chirurgien pour eux.\n\nBien que de nombreuses personnes soient mortes, [PAWN_pronoun] s'est amélioré(e) dans le maniement des couteaux.</desc>
   </CriminalSurgeon99>
@@ -2561,8 +2565,8 @@
   
   <GlitterworldSurgeon15>
     <!-- EN: glitterworld surgeon -->
-    <title>chirurgien d'un monde avancé</title>
-    <titleFemale>chirurgienne d'un monde avancé</titleFemale>
+    <title>chirurgien glitterworld</title>
+    <titleFemale>chirurgienne glitterworld</titleFemale>
     <!-- EN: surgeon -->
     <titleShort>chirurgien</titleShort>
     <titleShortFemale>chirurgienne</titleShortFemale>
@@ -2945,13 +2949,16 @@
   
   <IndustrialOrphan13>
     <!-- EN: industrial orphan -->
-    <title>orphelin d'un monde industriel</title>
-    <titleFemale>orpheline d'un monde industriel</titleFemale>
+    <!-- TODO : "orphelin d'un monde industriel" trop long 
+      Si possible, indiquer la qualification "industrial" ?
+    -->
+    <title>orphelin</title>
+    <titleFemale>orpheline</titleFemale>
     <!-- EN: orphan -->
     <titleShort>orphelin</titleShort>
     <titleShortFemale>orpheline</titleShortFemale>
     <!-- EN: [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_possessive] earliest memories were of drudgery in the mines and workhouses of [PAWN_possessive] industrial world.\n\nBecause of this, [PAWN_pronoun] never received a proper education. -->
-    <desc>[PAWN_nameDef] n'a jamais connu ses parents. Ses plus lointains souvenirs sont les corvées de la mine et les maisons de correction de son monde industriel.\n\nÀ cause de cela, [PAWN_pronoun] n'a jamais reçu d'éducation convenable.</desc>
+    <desc>[PAWN_nameDef] n'a jamais connu ses parents. Ses plus lointains souvenirs sont les corvées de la mine et les maisons de correction de son monde à l'âge industriel.\n\nÀ cause de cela, [PAWN_pronoun] n'a jamais reçu d'éducation convenable.</desc>
   </IndustrialOrphan13>
   
   <IndworldUrchin73>
@@ -3452,12 +3459,12 @@
   
   <MedievalLordling19>
     <!-- EN: medieval lordling -->
-    <title>seigneur médiéval mineur</title>
-    <titleFemale>seigneuresse médiévale mineur</titleFemale>
+    <title>petit seigneur médiéval</title>
+    <titleFemale>petite seigneuresse médiévale</titleFemale>
     <!-- EN: lordling -->
     <titleShort>noble mineur</titleShort>
     <!-- EN: [PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of stone, served by bowing lowerclassmen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation. -->
-    <desc>[PAWN_nameDef] était un noble mineur dans un ancien royaume médiéval. [PAWN_pronoun] a grandi dans un manoir en pierre, servi par des servants de classe inférieure.\n\nUne telle vie n'enseigne pas de compétences techniques et provoque une aversion vis-à-vis du travail manuel, mais [PAWN_nameDef] a appris tôt les voies de la manipulation sociale.</desc>
+    <desc>[PAWN_nameDef] faisait partie de la petite noblesse d'un ancien royaume médiéval. [PAWN_pronoun] a grandi dans un manoir en pierre, servi(e) par des servants de classe inférieure.\n\nUne telle vie n'enseigne pas de compétences techniques et provoque une aversion vis-à-vis du travail manuel, mais [PAWN_nameDef] a appris tôt les voies de la manipulation sociale.</desc>
   </MedievalLordling19>
   
   <MedievalMinstrel95>
@@ -3635,11 +3642,11 @@
   
   <MidworldChef92>
     <!-- EN: midworld chef -->
-    <title>chef d'un monde du milieu</title>
-    <titleFemale>cheffe d'un monde du milieu</titleFemale>
+    <title>chef cuisinier midworld</title>
+    <titleFemale>cheffe cuisinière midworld</titleFemale>
     <!-- EN: chef -->
-    <titleShort>chef</titleShort>
-    <titleShortFemale>cheffe</titleShortFemale>
+    <titleShort>chef cuisinier</titleShort>
+    <titleShortFemale>cheffe cuisinière</titleShortFemale>
     <!-- EN: [PAWN_nameDef] ran a high-class midworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
     <desc>[PAWN_nameDef] a été aux commandes d'un restaurant gastronomique dans un monde intermédiaire. [PAWN_pronoun] était célèbre parmi ses clients pour ses spécialités culinaires créatives et également parmi les commis de cuisine pour son mépris des tâches laborieuses.</desc>
   </MidworldChef92>
@@ -3700,6 +3707,7 @@
   
   <MilitaryCommissar49>
     <!-- EN: military commissar -->
+    <!-- TODO commissaire des armées -->
     <title>commissaire militaire</title>
     <!-- EN: commissar -->
     <titleShort>commissaire</titleShort>
@@ -4892,7 +4900,7 @@
     <titleShort>épicier</titleShort>
     <titleShortFemale>épicière</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s mother was often ill, and it fell to [PAWN_objective] to run the store which was their only source of income. [PAWN_pronoun] learned a little about the exotic artifacts which [PAWN_pronoun] sold, and a lot about the art of the deal. -->
-    <desc>La mère de [PAWN_nameDef] tombait souvent malade, et il lui incombait de s'occuper du magasin familial qui était leur seule source de revenu. [PAWN_pronoun] acquis quelques connaissances sur les artefacts exotiques qu'[PAWN_pronoun] vendait, mais surtout sur l'art de conclure un marché.</desc>
+    <desc>La mère de [PAWN_nameDef] tombait souvent malade, et il lui incombait de s'occuper du magasin familial qui était leur seule source de revenu. [PAWN_pronoun] a acquis quelques connaissances sur les artefacts exotiques qu'[PAWN_pronoun] vendait, mais surtout sur l'art de conclure un marché.</desc>
   </Shopkeeper36>
   
   <SicklyChild72>
