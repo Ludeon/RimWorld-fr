@@ -311,11 +311,11 @@
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Vos capsules de transport sont arrivées. Leurs contenus ont été ajoutés à {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
-  <!-- EN: The loading process has been canceled because one of the colonists has been lost. -->
-  <MessageFailedToLoadTransportersBecauseColonistLost>Le processus de chargement a été annulé parce qu'un des colons a été perdu.</MessageFailedToLoadTransportersBecauseColonistLost>
-  
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Vos colons ont fini le chargement des capsules de transport.</MessageFinishedLoadingTransporters>
+
+  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({0}). -->
+  <MessageCantLoadMoreIntoTransporters>Vos {1} ne peuvent pas finir le chargement des capsules de transport car un objet ou un personnage est indisponible ({0}).</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>La destination sélectionnée n'est pas valide.</MessageTransportPodsDestinationIsInvalid>
@@ -441,6 +441,8 @@
   <GoodwillChangedReason_UsedItem>utilisé {0} sur {1}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>opéré {0}</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: needlessly installed {0} -->
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>inutilement installé {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {0} -->
   <GoodwillChangedReason_CapturedPawn>capturé {0}</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {0} crushed -->
@@ -522,6 +524,7 @@
   <MessageCapturingWillAngerFaction>Capturer [PAWN_nameDef] mettra en colère sa faction [PAWN_factionName].</MessageCapturingWillAngerFaction>
 
   <!-- UNUSED -->
+  <MessageFailedToLoadTransportersBecauseColonistLost>Le processus de chargement a été annulé parce qu'un des colons a été perdu.</MessageFailedToLoadTransportersBecauseColonistLost>
   <MessageBlockedHediff>{0} a bloqué {1} sur : {2}.</MessageBlockedHediff>
   <MessageMustDesignateSmoothableFloor>Vous devez désigner un sol de pierre brute.</MessageMustDesignateSmoothableFloor>
   <MessagePawnExitMapRelationsGain>{0} est parti(e) en bonne santé, les relations avec {1} se sont améliorées de {2}.</MessagePawnExitMapRelationsGain>
