@@ -334,6 +334,10 @@
   <GrowingTime>Temps de croissance</GrowingTime>
   <!-- EN: Harvest yield -->
   <HarvestYield>Rendement de récolte</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>Temps de croissance min</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>Temps de croissance max</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
   <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées. Cette statistique mesure le temps nécessaire à la plante pour atteindre la taille adulte. Le temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long. Les basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <!-- EN: days -->
@@ -582,6 +586,8 @@
   <MassCapacity>Capacité de transport</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Poids</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Poids de la caravane</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Poids des équipements et habits</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -814,6 +820,10 @@
   <ConfirmCleanupTranslationFiles>Etes-vous sûr de vouloir nettoyer tous les fichiers de traduction pour la langue {0} ?\n\nCeci va : \n - Ajouter des espaces réservés pour les traductions manquantes des keyed, des DefInjected et des backstories \n - Ajouter ou mettre à jour les commentaires contenant le texte original non traduit \n - Déplacer toutes les traductions avec et sans clé vers les fichiers XML appropriés \n - Appliquer la mise en forme automatique à tous les fichiers XML \n - Mettre à jour les noms def compatibles \n - Supprimer tous les commentaires XML existants (sauf injections de listes)\n\nLes fichiers non XML ne seront pas supprimés ou modifiés.\n\nRappelez-vous de redémarrer le jeu après avoir modifié les fichiers de langue avant d'exécuter cet outil afin de recharger toutes les données.\n\nAssurez-vous de sauvegarder tous les fichiers de traduction avant d'utiliser cet outil.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Oui, j'ai fait une sauvegarde</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>La caravane sera immobile si vous envoyez les capsules de transport vers une case vide. Continuer quand même ?</TransportersCaravanWillBeImmobile>
 
   <!-- UNUSED -->
   <SurgeryRequireBed>Nécessite un lit</SurgeryRequireBed>
