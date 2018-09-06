@@ -32,7 +32,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} de {1} quittent la carte en raison des températures dangereuses.</MessageVisitorsDangerousTemperature>
 
-  <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
+  <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>L'équipement {0} porté par {1} est réduit à néant.</MessageWornApparelDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
@@ -47,27 +47,27 @@
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Commande terminée : {0}.</MessageBillComplete>
 
-  <!-- EN: {0} is fully healed. -->
+  <!-- EN: {1_label} is fully healed. -->
   <MessageFullyHealed>{0} est totalement guéri(e).</MessageFullyHealed>
 
-  <!-- EN: Prisoner {0} is escaping. -->
+  <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>Le prisonnier {0} s'échappe !</MessagePrisonerIsEscaping>
 
-  <!-- EN: {0} found no nearby unreserved shells for {1}. -->
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{0} n'a trouvé aucun obus disponible à proximité pour {1}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
   <MessageAnimalsGoPsychoHunted>Attention : les {0} ont {1} chance d'attaquer si vous les blessez. Cette chance augmente avec la proximité, et diminue avec une bonne furtivité du chasseur.</MessageAnimalsGoPsychoHunted>
-  <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Attention : les {0} vont souvent attaquer après l'échec d'un apprivoisement ({1} chance).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {0} successfully recruited {1} ({2} chance). -->
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
   <MessageRecruitSuccess>{0} a réussi à recruter {1} ({2} de chance).</MessageRecruitSuccess>
-  <!-- EN: {0} successfully tamed {1} ({2} chance). -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{0} a réussi à apprivoiser {1} ({2} chance).</MessageTameSuccess>
-  <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{0} a réussi à apprivoiser {1} ({2} chance) et l'a nommé {3}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
@@ -111,34 +111,34 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Vous devez désigner des objets interdits.</MessageMustDesignateUnforbiddable>
 
-  <!-- EN: {0} has refused to be arrested! -->
+  <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{0} a refusé d'être arrêté(e) !</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>Il n'y a pas de lits médicaux disponibles.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Il n'y a pas de lits pour animaux disponibles.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {1}'s current medical care mode is "{2}". -->
+  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>L'opération requiert {0} ou mieux, mais le mode de soins médicaux de {1} est "{2}".</MessageTooLowMedCare>
   
-  <!-- EN: {0} has died. Cause: {1}. -->
+  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{0} est décédé(e) à cause de {1}.</PawnDiedBecauseOf>
-  <!-- EN: {0} has died. -->
+  <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{0} est décédé(e)</PawnDied>
 
-  <!-- EN: {0} is no longer incapable of walking. -->
+  <!-- EN: {1_label} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{0} n'est plus incapable de marcher.</MessageNoLongerDowned>
 
-  <!-- EN: {0} has collapsed due to extreme exhaustion. -->
+  <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{0} s'est effondré en raison d'un épuisement extrême.</MessageInvoluntarySleep>
 
-  <!-- EN: {0} has failed in a minor way while operating on {1}. -->
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureMinor>{0} a échoué de peu en opérant {1}.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {0} has failed catastrophically while operating on {1}. -->
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {patient.LabelShort}. -->
   <MessageMedicalOperationFailureCatastrophic>{0} a échoué de façon catastrophique en opérant {1}.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {0} has failed in a ridiculous way while operating on {1}. -->
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureRidiculous>{0} a échoué d'une manière ridicule en opérant sur {1}.</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {0} has committed a fatal error while operating on {1} because of the special challenges of: {2} -->
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{0} a commis une erreur fatale alors qu'il opérait sur {1} à cause des exigences particulières de : {2}.</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
@@ -151,15 +151,15 @@
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
 
-  <!-- EN: {0} has named {1} {2} after being nuzzled. -->
+  <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
   <MessageNuzzledPawnGaveNameTo>{0} a nommé {1} {2} après s'être fait câliné.</MessageNuzzledPawnGaveNameTo>
 
-  <!-- EN: No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}). -->
+  <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {0} (requiert niveau {1} en {2}, votre meilleur dresseur {3} est niveau {4}).</MessageNoHandlerSkilledEnough>
   
-  <!-- EN: {0} has been eaten by {1}. -->
+  <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{0} a été mangé(e) par {1}.</MessageEatenByPredator>
-  <!-- EN: {0} is being attacked by {1}! -->
+  <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{0} se fait attaquer par {1} !</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
@@ -168,38 +168,38 @@
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>La caravane marchande de {0} quitte la colonie.</MessageTraderCaravanLeaving>
   
-  <!-- EN: {0} is dead. -->
+  <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{0} est mort(e).</MessageCantSelectDeadPawn>
-  <!-- EN: {0} is off the map. -->
+  <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{0} est en dehors de la carte.</MessageCantSelectOffMapPawn>
   
-  <!-- EN: {0} started a social fight with {1}. -->
+  <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{0} a commencé une dispute violente avec {1}.</MessageSocialFight>
   
-  <!-- EN: Colonists are gathering to celebrate {0} and {1}’s marriage. -->
+  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
   <MessageNewMarriageCeremony>Les colons se rassemblent pour célébrer le mariage de {0} et de {1}.</MessageNewMarriageCeremony>
-  <!-- EN: {0} and {1} are beginning their marriage ceremony! -->
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{0} et {1} commencent leur cérémonie de mariage !</MessageMarriageCeremonyStarts>
-  <!-- EN: The marriage ceremony for {0} and {1} has been called off. -->
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
   <MessageMarriageCeremonyCalledOff>La cérémonie pour le mariage de {0} et {1} a été annulée.</MessageMarriageCeremonyCalledOff>
-  <!-- EN: {0} and {1} have married. Colonists are now celebrating the occasion. -->
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
   <MessageNewlyMarried>{0} et {1} sont maintenant mariés. Les colons fêtent cela !</MessageNewlyMarried>
-  <!-- EN: The marriage ceremony for {0} and {1} has finished. -->
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>La cérémonie de mariage de {0} et {1} s'est achevée.</MessageMarriageCeremonyAfterPartyFinished>
   
-  <!-- EN: {0} and {1} have formed a bond. -->
+  <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>Un lien s'est établi entre {0} et {1}.</MessageNewBondRelation>
-  <!-- EN: {0} and {1} have formed a bond. {0} has named [PAWN_objective] {2}. -->
+  <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   <MessageNewBondRelationNewName>Un lien s'est établi entre {0} et {1}. {0} l'a nommé {2}.</MessageNewBondRelationNewName>
   
-  <!-- EN: {0} has a mental break because of {1}'s death. -->
+  <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{0} a perdu la tête à cause de la mort de {1}.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {0} named {1} has a mental break because of {2}'s death. -->
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>Un {0} nommé {1} a perdu la tête à cause de la mort de {2}.</MessageNamedBondedAnimalMentalBreak>
-  <!-- EN: {0} animals have a mental break because of {1}'s death. -->
+  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>Les {0} ont perdu la tête à cause de la mort de {1}.</MessageBondedAnimalsMentalBreak>
   
-  <!-- EN: {0} has successfully removed {1}'s {2}. -->
+  <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{0} a retiré le(s) {2} de {1} avec succès.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
@@ -213,25 +213,25 @@
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Certains objets ne peuvent pas être vendus en raison de : </MessageCannotSellItemsReason>
 
-  <!-- EN: {1} failed while constructing {0}. Some resources have been wasted. -->
+  <!-- EN: {WORKER_labelShort} failed while constructing {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{1} a échoué dans la construction de {0}. Des ressources ont été gaspillées.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Capture d'écran sauvegardée sous : {0}</MessageScreenshotSavedAs>
   
-  <!-- EN: {0} and {1} are no longer social fighting. -->
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{0} et {1} ont cessé de se chamailler.</MessageNoLongerSocialFighting>
   
-  <!-- EN: {0} is no longer binging on {1}. -->
+  <!-- EN: {2_labelShort} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>{0} a cessé sa consommation excessive de {1}.</MessageNoLongerBingingOnDrug>
 
-  <!-- EN: {0} is no longer on an insulting spree against {1}. -->
+  <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{0} n'est plus en pleine folie insultante envers {1}.</MessageNoLongerOnTargetedInsultingSpree>
 
-  <!-- EN: {0} has rotted away in storage. -->
+  <!-- EN: {1_label} has rotted away in storage. -->
   <MessageRottedAwayInStorage>{0} a pourri dans le stockage.</MessageRottedAwayInStorage>
   
-  <!-- EN: {0} has gotten food poisoning from: {1}. Cause: {2}. -->
+  <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{0} est victime d'une intoxication alimentaire issue de : {1}. Cause: {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
@@ -259,13 +259,13 @@
   <MessagePlantDiedOfRot>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0} est mort à cause d'un empoisonnement.</MessagePlantDiedOfPoison>
-  <!-- EN: {0} has died because of blight. -->
+  <!-- EN: {1_label} has died because of blight. -->
   <MessagePlantDiedOfBlight>{0} est mort à cause du mildiou.</MessagePlantDiedOfBlight>
 
-  <!-- EN: {0} is being burned by superheated air! -->
+  <!-- EN: {1_labelShort} is being burned by superheated air! -->
   <MessagePawnBeingBurned>{0} est brûlé par de l'air surchauffé !</MessagePawnBeingBurned>
 
-  <!-- EN: {0} has accidentally overdosed while consuming {1}! -->
+  <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{0} a accidentellement eu une surdose de {1} !</MessageAccidentalOverdose>
   
   <!-- EN: {0} has arrived at its destination. -->
@@ -277,7 +277,7 @@
   <!-- EN: {0} has arrived in {1}. -->
   <MessageCaravanEnteredWorldObject>{0} est arrivé à {1}.</MessageCaravanEnteredWorldObject>
   
-  <!-- EN: {0} has left the area and formed a caravan. -->
+  <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{0} a quitté la zone et a formé une caravane.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Vos animaux se déplacent pour la rejoindre.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
@@ -285,10 +285,10 @@
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Vous avez réussi à vous installer dans une nouvelle région.</MessageSettledInExistingMap>
   
-  <!-- EN: {1}'s {2} has healed. Cause: {0} -->
+  <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>Grâce à {0}, le {2} de {1} est guéri.</MessagePermanentWoundHealed>
 
-  <!-- EN: Since you rescued [PAWN_objective], {0} has joined your group! -->
+  <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
   <MessageRescueeJoined>Depuis que vous l'avez sauvé, {0} a rejoint votre groupe !</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
@@ -314,7 +314,7 @@
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Vos colons ont fini le chargement des capsules de transport.</MessageFinishedLoadingTransporters>
 
-  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({0}). -->
+  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Vos {1} ne peuvent pas finir le chargement des capsules de transport car un objet ou un personnage est indisponible ({0}).</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
@@ -328,15 +328,15 @@
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Vous ne pouvez pas bannir le dernier colon.</MessageCantBanishLastColonist>
   
-  <!-- EN: Cannot equip: {0} is incapable of violence. -->
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Ne peut pas équiper : {0} est incapable de violence.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: incapable. -->
   <MessageCantEquipIncapableOfManipulation>Ne peut pas équiper : incapable de manipulation.</MessageCantEquipIncapableOfManipulation>
   
-  <!-- EN: Because they are bonded, slaughtering {0} will make {1} unhappy. -->
+  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {0} rendra {1} malheureux.</MessageSlaughteringBondedAnimal>
   
-  <!-- EN: {0} has run out of food ({1}). -->
+  <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0} est à court de nourriture ({1})</MessageCaravanRanOutOfFood>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
@@ -351,9 +351,9 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{0} de {1} attaquent vos {2}.</MessageDefendersAttacking>
 
-  <!-- EN: To self-tend, {0} must also be assigned to Doctor work. -->
+  <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Pour se soigner soi-même, {0} doit être affecté au travail de docteur.</MessageSelfTendUnsatisfied>
-  <!-- EN: {0} is incapable of doing Doctor work, and so cannot ever self-tend. -->
+  <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{0} est incapable de faire le métier de docteur, et ne peut donc pas se soigner lui-même.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
@@ -373,7 +373,7 @@
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
   <MessageSiteCountdownBecauseNoEnemiesInitially>Dans {0}, la caravane sera automatiquement reformée. Vous pouvez reformer la caravane maintenant à partir de l'écran Monde.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <!-- EN: Cannot banish {0} since [PAWN_pronoun] cannot walk. -->
+  <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Ne peut pas bannir {0} à cause de son incapacité à marcher.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
@@ -392,9 +392,9 @@
   <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0} a été ramené à la vie !</MessagePawnResurrected>
 
-  <!-- EN: You have failed to rescue {0}. This will make {1} sad. -->
+  <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
   <MessageFailedToRescueRelative>Vous n'avez pas réussi à sauver {0}. Cela rendra {1} triste.</MessageFailedToRescueRelative>
-  <!-- EN: You have rescued {0}. This will make {1} happy. -->
+  <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
   <MessageRescuedRelative>Vous avez sauvé {0}. Ceci rendra {1} heureux.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
@@ -408,13 +408,13 @@
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>ATTENTION : {0} ne peut pas survivre si exposé à la lumière.</MessageWarningCavePlantsExposedToLight>
 
-  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedTantrumChangedTarget>{0} ne réussissant pas à atteindre {1}, décida de recentrer sa fureur sur {2}.</MessageTargetedTantrumChangedTarget>
 
-  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedInsultingSpreeChangedTarget>{0} ne parvenant pas à atteindre {1}, a décidé de rediriger sa colère vers {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
-  <!-- EN: {0} has decided to redirect [PAWN_possessive] anger at {1}. -->
+  <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageMurderousRageChangedTarget>{0} a décidé de rediriger son envie de meurtre vers {1}.</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
@@ -425,7 +425,7 @@
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>La caravane se déplacera automatiquement vers le premier marqueur de route.</MessageChoseRoute>
 
-  <!-- EN: {0} has created a {1}. -->
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
   <MessageCraftedMasterwork>{0} a créé un(e) {1}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
@@ -435,19 +435,19 @@
   <MessageGoodwillChanged>Les relations avec {0} ont changées de {1} à {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
   <MessageGoodwillChangedWithReason>Les relations avec {0} ont changées de {1} à {2} ({3}).</MessageGoodwillChangedWithReason>
-  <!-- EN: attacked {0} -->
+  <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>attaqué {0}</GoodwillChangedReason_AttackedPawn>
-  <!-- EN: used {0} on {1} -->
+  <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>utilisé {0} sur {1}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>opéré {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>inutilement installé {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
-  <!-- EN: captured {0} -->
+  <!-- EN: captured {1_labelShort} -->
   <GoodwillChangedReason_CapturedPawn>capturé {0}</GoodwillChangedReason_CapturedPawn>
-  <!-- EN: {0} crushed -->
+  <!-- EN: {1_labelShort} crushed -->
   <GoodwillChangedReason_PawnCrushed>écrabouillé {0}</GoodwillChangedReason_PawnCrushed>
-  <!-- EN: {0} died -->
+  <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>mort de {0}</GoodwillChangedReason_PawnDied>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>commercé</GoodwillChangedReason_Traded>
@@ -455,9 +455,9 @@
   <GoodwillChangedReason_AttackedCaravan>attaqué une caravane</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>tendance naturelle vers {0} au fil du temps</GoodwillChangedReason_NaturallyOverTime>
-  <!-- EN: {0} exited the map healthy -->
+  <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{0} a quitté la zone en bonne santé</GoodwillChangedReason_ExitedMapHealthy>
-  <!-- EN: tended to {0} -->
+  <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>soins apportées à {0}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>reçu un cadeau</GoodwillChangedReason_ReceivedGift>
@@ -490,9 +490,9 @@
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
   <MessageBillValidationStoreZoneInsufficient>Le "{0}" de {1} ne peut plus livrer aucun objet vers le stockage {2}.</MessageBillValidationStoreZoneInsufficient>
 
-  <!-- EN: Because of a lack of taming maintenance, {0} has returned to the wild. -->
+  <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>En raison d'un manque d'apprivoisement, {0} est retourné à la vie sauvage.</MessageAnimalReturnedWild>
-  <!-- EN: Due to a lack of maintenance training, {0} has lost a skill: {1} -->
+  <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>En raison d'un manque d'entrainement, {0} a perdu une compétence : {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
@@ -504,10 +504,10 @@
   <!-- EN: You can't re-enter for another {0} days. -->
   <MessageEnterCooldownBlocksEntering>Vous ne pouvez pas entrer de nouveau pendant {0} jours.</MessageEnterCooldownBlocksEntering>
 
-  <!-- EN: {0} is hunting {1} for food! -->
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
   <MessagePredatorHuntingPlayerAnimal>{0} a pris en chasse {1} pour se nourrir !</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
+  <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>La résistance du prisonnier {0} a été brisée par {1}.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Les tentatives de recrutement vont commencer.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
@@ -520,7 +520,7 @@
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>L'un des fichiers de traduction ({0}) n'a pas pu être chargé. Toutes les erreurs d'analyse XML doivent être résolues en premier.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
-  <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
+  <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>Capturer [PAWN_nameDef] mettra en colère sa faction [PAWN_factionName].</MessageCapturingWillAngerFaction>
 
   <!-- UNUSED -->

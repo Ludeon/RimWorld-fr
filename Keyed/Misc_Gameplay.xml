@@ -256,9 +256,9 @@
   <RoomInfectionChanceFactor>Chance d'infection de la chambre</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Fermé</VentClosed>
-  <!-- EN: worn by {0} -->
+  <!-- EN: worn by {1_labelShort} -->
   <WornBy>porté par {0}</WornBy>
-  <!-- EN: equipped by {0} -->
+  <!-- EN: equipped by {1_labelShort} -->
   <EquippedBy>équipé par {0}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} veut que cela soit détruit.\n    Récompense : {1} ({2})</QuestTargetDestroyInspectString>
@@ -320,7 +320,7 @@
   <NoDietCategoryLetter>pas de lettre</NoDietCategoryLetter>
   <!-- EN: Expires in -->
   <ExpiresIn>Expire dans</ExpiresIn>
-  <!-- EN: {0}'s caravan -->
+  <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>La caravane de {0}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Motif</Reason>
@@ -428,11 +428,11 @@
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
-  <!-- EN: {0} is incapable of violence. -->
+  <!-- EN: {1_labelShort} is incapable of violence. -->
   <IsIncapableOfViolence>{0} est incapable de violence.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>incapable de violence</IsIncapableOfViolenceShort>
-  <!-- EN: {0} is not drafted. -->
+  <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{0} n'est pas enrôlé.</IsNotDrafted>
 
   <!-- Snow -->
@@ -458,15 +458,15 @@
   <CannotFire>Ne peut pas tirer</CannotFire>
   <!-- EN: roofed -->
   <Roofed>couvert</Roofed>
-  <!-- EN: Shell loaded: {0} -->
+  <!-- EN: Shell loaded: {1_label} -->
   <ShellLoaded>Obus chargé : {0}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Non chargé</ShellNotLoaded>
 
   <!-- Job reports -->
-  <!-- EN: hauling {0} to {1}. -->
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>transporte {0} jusqu'à {1}.</ReportHaulingTo>
-  <!-- EN: hauling {0}. -->
+  <!-- EN: hauling {1_label}. -->
   <ReportHauling>transporte {0}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>transporte.</ReportHaulingUnknown>
@@ -496,7 +496,7 @@
   <ReportStanding>debout.</ReportStanding>
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>éteint le feu.</ReportExtinguishingFire>
-  <!-- EN: extinguishing fire on {0}. -->
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
   <ReportExtinguishingFireOn>éteint le feu sur {0}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>déterre un cadavre.</ReportDiggingUpCorpse>
@@ -526,7 +526,7 @@
   <Weather>Climat</Weather>
   <!-- EN: Cover -->
   <ShootingCover>Couvert</ShootingCover>
-  <!-- EN: {0} stops {1} -->
+  <!-- EN: {COVER_label} stops {1} -->
   <CoverThingBlocksPercentOfShots>{0} bloque {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>aucune couverture</NoCoverLower>
@@ -562,11 +562,11 @@
   <MentalBreakThresholdMinor>Seuil de crise de nerfs mineure</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <!-- EN: {0} {1} -->
+  <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
-  <!-- EN: {1} {0} -->
+  <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Faction</Faction>
@@ -666,7 +666,7 @@
   <LessThanADay>moins d'un jour</LessThanADay>
 
   <!-- Shooting tooltip -->
-  <!-- EN: Shot by {0} -->
+  <!-- EN: Shot by {1_labelShort} -->
   <ShotBy>Touché par {0}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>Ne peut pas toucher la cible.</CannotHit>
@@ -772,7 +772,7 @@
   <!-- Fire -->
   <!-- EN: Fire -->
   <Fire>Incendie</Fire>
-  <!-- EN: Fire on {0} -->
+  <!-- EN: Fire on {1_label} -->
   <FireOn>Feu sur {0}</FireOn>
   <!-- EN: Burning -->
   <Burning>Brûle</Burning>
@@ -828,7 +828,7 @@
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Contient</CasketContains>
-  <!-- EN: Warning!\n\n[PAWN_nameDef] is your last free-standing colonist! If you let [PAWN_objective] step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
   <CasketWarning>Attention !\n\n[PAWN_nameDef] est votre dernier colon actif ! Si vous laissez entrer [PAWN_nameDef] dans ce caisson, vous pourriez ne plus pouvoir jouer. Êtes-vous sûr(e) de vouloir continuer ?</CasketWarning>
 
   <!-- Ship launch report -->
@@ -856,7 +856,7 @@
   <HibernateWarningStandalonePacifist>Le réacteur est prêt à augmenter en puissance.\n\nCe processus prendra environ 15 jours.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: {0} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <NeurotrainerUsed>{0} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
@@ -924,11 +924,11 @@
   <InactiveFacility>inactif</InactiveFacility>
 
   <!-- Hediffs growth modes -->
-  <!-- EN: {0}'s {1} is now growing. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
   <DiseaseGrowthModeChanged_Growing>La {1} de {0} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
-  <!-- EN: {0}'s {1} is now stable. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
   <DiseaseGrowthModeChanged_Stable>La {1} de {0} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
-  <!-- EN: {0}'s {1} is now in remission. -->
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
   <DiseaseGrowthModeChanged_Remission>La {1} de {0} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
@@ -938,13 +938,13 @@
   <MarriageSpotNotUsable>Inutilisable : {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>bloqué</MarriageSpotNotStandable>
-  <!-- EN: too dangerous for {0} -->
+  <!-- EN: too dangerous for {1_labelShort} -->
   <MarriageSpotDangerous>trop dangereux pour {0}</MarriageSpotDangerous>
-  <!-- EN: forbidden for {0} -->
+  <!-- EN: forbidden for {1_labelShort} -->
   <MarriageSpotForbidden>interdit pour {0}</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>réservé</MarriageSpotReserved>
-  <!-- EN: unreachable for {0} -->
+  <!-- EN: unreachable for {1_labelShort} -->
   <MarriageSpotUnreachable>inaccessible pour {0}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>dans une cellule de prison</MarriageSpotInPrisonCell>
