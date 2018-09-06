@@ -257,9 +257,9 @@
   <!-- EN: Closed -->
   <VentClosed>Fermé</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
-  <WornBy>porté par {0}</WornBy>
+  <WornBy>porté par {1_labelShort}</WornBy>
   <!-- EN: equipped by {1_labelShort} -->
-  <EquippedBy>équipé par {0}</EquippedBy>
+  <EquippedBy>équipé par {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} veut que cela soit détruit.\n    Récompense : {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
@@ -321,7 +321,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>Expire dans</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>La caravane de {0}</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>La caravane de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Motif</Reason>
   <!-- EN: Relations with {0} -->
@@ -429,11 +429,11 @@
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{0} est incapable de violence.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} est incapable de violence.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>incapable de violence</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{0} n'est pas enrôlé.</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} n'est pas enrôlé.</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -459,15 +459,15 @@
   <!-- EN: roofed -->
   <Roofed>couvert</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
-  <ShellLoaded>Obus chargé : {0}</ShellLoaded>
+  <ShellLoaded>Obus chargé : {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Non chargé</ShellNotLoaded>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>transporte {0} jusqu'à {1}.</ReportHaulingTo>
+  <ReportHaulingTo>transporte {THING_label} jusqu'à {DESTINATION}.</ReportHaulingTo>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>transporte {0}.</ReportHauling>
+  <ReportHauling>transporte {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>transporte.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -497,7 +497,7 @@
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>éteint le feu.</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>éteint le feu sur {0}.</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>éteint le feu sur {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>déterre un cadavre.</ReportDiggingUpCorpse>
 
@@ -527,7 +527,7 @@
   <!-- EN: Cover -->
   <ShootingCover>Couvert</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{0} bloque {1}</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{COVER_label} bloque {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>aucune couverture</NoCoverLower>
   <!-- EN: Execution -->
@@ -667,7 +667,7 @@
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
-  <ShotBy>Touché par {0}</ShotBy>
+  <ShotBy>Touché par {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>Ne peut pas toucher la cible.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
@@ -773,7 +773,7 @@
   <!-- EN: Fire -->
   <Fire>Incendie</Fire>
   <!-- EN: Fire on {1_label} -->
-  <FireOn>Feu sur {0}</FireOn>
+  <FireOn>Feu sur {1_label}</FireOn>
   <!-- EN: Burning -->
   <Burning>Brûle</Burning>
   <!-- EN: fire size {0} -->
@@ -857,7 +857,7 @@
 
   <!-- Neurotrainer -->
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{0} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>{USER_labelShort} a utilisé le neuro-entraîneur {1} pour passer du niveau {2} au niveau {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -925,11 +925,11 @@
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>La {1} de {0} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>La {1} de {PAWN_labelShort} prend de l'ampleur.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>La {1} de {0} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>La {1} de {PAWN_labelShort} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>La {1} de {0} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>La {1} de {Pawn_labelShort} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
@@ -939,13 +939,13 @@
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>bloqué</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>trop dangereux pour {0}</MarriageSpotDangerous>
+  <MarriageSpotDangerous>trop dangereux pour {1_labelShort}</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>interdit pour {0}</MarriageSpotForbidden>
+  <MarriageSpotForbidden>interdit pour {1_labelShort}</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>réservé</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>inaccessible pour {0}</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>inaccessible pour {1_labelShort}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>dans une cellule de prison</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
