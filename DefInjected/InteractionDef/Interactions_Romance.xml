@@ -16,11 +16,6 @@
     <li>r_logentry->[INITIATOR_nameDef] a dit à [OTHER_nameDef] qu'il serait mieux de voir d'autres personnes.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
-  <!-- UNUSED -->
-  <Breakup.logRulesRecipient.rulesStrings>
-    <li>r_logentry->S'est fait(e) quitter par [OTHER_nameDef].</li>
-  </Breakup.logRulesRecipient.rulesStrings>
-  
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>demande en mariage</MarriageProposal.label>
   <!-- EN:
@@ -33,11 +28,6 @@
     <li>r_logentry->[INITIATOR_nameDef] a proposé un engagement à vie à [OTHER_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] a dit à [OTHER_nameDef] qu'[INITIATOR_pronoun] voudrait passer sa vie avec [OTHER_objective].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <MarriageProposal.logRulesRecipient.rulesStrings>
-    <li>r_logentry->A été demandé(e) en mariage par [OTHER_nameDef].</li>
-  </MarriageProposal.logRulesRecipient.rulesStrings>
   
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>tentative de charme</RomanceAttempt.label>
@@ -172,10 +162,5 @@
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
-  
-  <!-- UNUSED -->
-  <RomanceAttempt.logRulesRecipient.rulesStrings>
-    <li>r_logentry->S'est fait(e) draguer par [OTHER_nameDef].</li>
-  </RomanceAttempt.logRulesRecipient.rulesStrings>
   
 </LanguageData>
