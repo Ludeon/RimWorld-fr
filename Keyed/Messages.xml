@@ -64,11 +64,11 @@
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} a réussi à recruter {RECRUITEE_nameFull} ({2} de chance).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} a réussi à recruter {RECRUITEE_nameFull} ({2} de chances).</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {1} ({2} chance).</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {1} ({2} de chances).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {1} ({2} chance) et l'a nommé {RECRUITEE_objective} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {1} ({2} de chances) et l'a nommé {RECRUITEE_objective} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonie ne peut pas se permettre cet échange.</MessageColonyCannotAfford>
@@ -79,9 +79,9 @@
   <MessageCriticalAlert>Alerte critique : {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Vous devez désigner un végétal capable de fournir de la nourriture et suffisamment mûr pour être coupé.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Vous devez désigner une plante capable de fournir de la nourriture et suffisamment mûre pour être coupée.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Vous devez désigner un végétal capable de fournir du bois et suffisamment mûr pour être coupé.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Vous devez désigner un arbre capable de fournir du bois et suffisamment mûr pour être coupé.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Vous devez désigner une plante.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -115,9 +115,9 @@
   <MessageRefusedArrest>{1_labelShort} a refusé d'être arrêté(e) !</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>Il n'y a pas de lits médicaux disponibles.</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>Il n'y a aucun lit médical disponible.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>Il n'y a pas de lits pour animaux disponibles.</MessageNoAnimalBeds>
+  <MessageNoAnimalBeds>Il n'y a aucun lit pour animaux disponible.</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>L'opération requiert {0} ou mieux, mais le mode de soins médicaux de {PAWN_labelShort} est "{2}".</MessageTooLowMedCare>
   
@@ -137,17 +137,17 @@
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {patient.LabelShort}. -->
   <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} a échoué de façon catastrophique en opérant {patient.LabelShort}.</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} a échoué d'une manière ridicule en opérant sur {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} a échoué d'une manière ridicule en opérant {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} a commis une erreur fatale alors qu'il opérait sur {PATIENT_labelShort} à cause des exigences particulières de : {2}.</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} a commis une erreur fatale alors qu'il opérait {PATIENT_labelShort} à cause des exigences particulières de : {2}.</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} a fait une fausse couche due à la famine.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} a fait une fausse couche à cause de la famine.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} a fait une fausse couche due à sa santé faible.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} a fait une fausse couche à cause de sa faible santé.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
 
@@ -190,7 +190,7 @@
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>Un lien s'est établi entre {HUMAN_labelShort} et {ANIMAL_labelShort}.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>Un lien s'est établi entre {HUMAN_labelShort} et {1}. {HUMAN_labelShort} l'a nommé {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>Un lien s'est établi entre {HUMAN_labelShort} et {1}. {HUMAN_labelShort} l'a nommé(e) {ANIMAL_objective} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} a perdu la tête à cause de la mort de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
@@ -217,7 +217,7 @@
   <MessageConstructionFailed>{WORKER_labelShort} a échoué dans la construction de {0}. Des ressources ont été gaspillées.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
-  <MessageScreenshotSavedAs>Capture d'écran sauvegardée sous : {0}</MessageScreenshotSavedAs>
+  <MessageScreenshotSavedAs>Capture d'écran enregistrée sous : {0}</MessageScreenshotSavedAs>
   
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} et {PAWN2_labelShort} ont cessé de se chamailler.</MessageNoLongerSocialFighting>
@@ -232,7 +232,7 @@
   <MessageRottedAwayInStorage>{1_label} a pourri dans le stockage.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort} est victime d'une intoxication alimentaire issue de : {FOOD_labelShort}. Cause: {2}.</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{PAWN_labelShort} est victime d'une intoxication alimentaire issue de : {FOOD_labelShort}. Cause : {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} a été retiré de la caravane.</MessagePawnLostWhileFormingCaravan>
@@ -252,11 +252,11 @@
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0} est mort à cause du froid.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} est mort de pourrissement parce qu'il n' a pas été récolté.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0} est mort en raison d'une exposition à la lumière.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0} a pourri.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0} est mort à cause d'un empoisonnement.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
@@ -432,9 +432,9 @@
   <MessagePlayerTriedToLeaveMapViaExitGrid>Pour quitter cette zone, utilisez le bouton  « Reformer la caravane » dans l'écran Monde.</MessagePlayerTriedToLeaveMapViaExitGrid>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>Les relations avec {0} ont changées de {1} à {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChanged>Les relations avec {0} sont passées de {1} à {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>Les relations avec {0} ont changées de {1} à {2} ({3}).</MessageGoodwillChangedWithReason>
+  <MessageGoodwillChangedWithReason>Les relations avec {0} sont passées de {1} à {2} ({3}).</MessageGoodwillChangedWithReason>
   <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>attaqué {1_labelShort}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
@@ -442,9 +442,9 @@
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>opéré {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>inutilement installé {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>installation inutile de {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
-  <GoodwillChangedReason_CapturedPawn>capturé {1_labelShort}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_CapturedPawn>captur de {1_labelShort}</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {1_labelShort} crushed -->
   <GoodwillChangedReason_PawnCrushed>écrabouillé {1_labelShort}</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
@@ -460,9 +460,9 @@
   <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>soins apportées à {1_labelShort}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>reçu un cadeau</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>cadeau reçu</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>satisfait une commande</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>commande satisfaite</GoodwillChangedReason_FulfilledTradeRequest>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} accepte votre cadeau mais ils ne l'apprécient pas.</MessageGiftGivenButNotAppreciated>
