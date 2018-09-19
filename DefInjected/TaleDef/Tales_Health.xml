@@ -42,23 +42,28 @@
   -->
   <Downed.rulePack.rulesStrings>
     <!--     TODO -->
-    <li>tale_noun->[KILLER_nameDef] a infligé une [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] a infligé une [wound_name_present] [VICTIM_nameDef] avec un(e) [WEAPON_label]</li>
-    <li>tale_noun->la [wound_name_present] de [VICTIM_nameDef] par [KILLER_nameDef]</li>
-    <li>tale_noun->la [wound_name_present] de [VICTIM_nameDef] par [WEAPON_label]</li>
-    <li>tale_noun->la [wound_name_present] de [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] a infligé une [wound_name_substantive] à [VICTIM_nameDef] avec un(e) [WEAPON_label]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par [KILLER_nameDef]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par [WEAPON_label]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] a été [wound_name_past] par [KILLER_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] inflige une [wound_name_present] à [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] inflige brutalement une [wound_name_present] à [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] inflige une [wound_name_substantive] à [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] inflige brutalement une [wound_name_substantive] à [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[VICTIM_nameFull] a été [wound_name_past] [with_weapon_optional]</li>
     <li>wound_name_past->neutralisé(e)</li>
     <li>wound_name_past->estropié(e)</li>
     <li>wound_name_past->assommé(e)</li>
     <li>wound_name_past->invalidé(e)</li>
-    <li>wound_name_present->neutralisation</li>
-    <li>wound_name_present->blessure</li>
+    <li>wound_name_present->neutralisant</li>
+    <li>wound_name_present->blessant</li>
+    <!-- TODO : trouver autre chose ici -->
     <li>wound_name_present->perte de connaissance</li>
-    <li>wound_name_present->mutilation</li>
+    <li>wound_name_present->mutilant</li>
+    <li>wound_name_substantive->neutralisation</li>
+    <li>wound_name_substantive->blessure</li>
+    <li>wound_name_substantive->perte de connaissance</li>
+    <li>wound_name_substantive->mutilation</li>
     <li>with_weapon_optional->avec un(e) [WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->sans remords apparents</li>
