@@ -43,13 +43,13 @@
   <Downed.rulePack.rulesStrings>
     <!--     TODO -->
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] infligeant une [wound_name_substantive] à [VICTIM_nameDef] avec un(e) [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] avec un(e) [WEAPON_label]</li>
     <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par [KILLER_nameDef]</li>
     <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par [WEAPON_label]</li>
     <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] par [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] infligeant brutalement une [wound_name_substantive] à [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalement [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] [with_weapon_optional]</li>
     <li>wound_name_past->neutralisé(e)</li>
     <li>wound_name_past->estropié(e)</li>
@@ -57,8 +57,7 @@
     <li>wound_name_past->invalidé(e)</li>
     <li>wound_name_present->neutralisant</li>
     <li>wound_name_present->blessant</li>
-    <!-- TODO : trouver autre chose ici -->
-    <li>wound_name_present->perte de connaissance</li>
+    <li>wound_name_present->assomant</li>
     <li>wound_name_present->mutilant</li>
     <li>wound_name_substantive->neutralisation</li>
     <li>wound_name_substantive->blessure</li>
@@ -69,9 +68,9 @@
     <li>circumstance_phrase->sans remords apparents</li>
     <li>circumstance_phrase->avec une froide efficacité</li>
     <li>circumstance_phrase->dans une rage passionnée</li>
-    <li>circumstance_phrase->par gestes efficaces et rapides</li>
-    <li>circumstance_phrase->sans émotion ou expression</li>
-    <li>circumstance_phrase->par sombre nécessité</li>
+    <li>circumstance_phrase->par des gestes efficaces et rapides</li>
+    <li>circumstance_phrase->sans aucune émotion ou expression</li>
+    <li>circumstance_phrase->pour une sombre nécessité</li>
     <li>circumstance_phrase->de manière lâche, sans conviction</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s observent.</li>
     <li>desc_sentence->Un(e) [PersonJob] observe en silence [side_position].</li>
@@ -153,7 +152,7 @@
     <li>circumstance_phrase->[CHILD_nameFull], qui pleure, couvert(e) de sang</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui luise d'une douce couleur [Color]</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui essaie déjà de regarder tout autour</li>
-    <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression seraine</li>
+    <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression sereine</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s dorment paisiblement non loin de là.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] observe à distance.</li>
