@@ -271,12 +271,6 @@
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} est arrivé à destination.</MessageCaravanArrivedAtDestination>
   
-  <!-- EN: {0} has arrived in {1}. -->
-  <MessageCaravanIsVisitingSettlement>{0} est arrivé à {1}.</MessageCaravanIsVisitingSettlement>
-  
-  <!-- EN: {0} has arrived in {1}. -->
-  <MessageCaravanEnteredWorldObject>{0} est arrivé à {1}.</MessageCaravanEnteredWorldObject>
-  
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} a quitté la zone et a formé une caravane.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
@@ -429,7 +423,9 @@
   <MessageCraftedMasterwork>{WORKER_labelShort} a créé un(e) {CRAFTED_labelShort}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid>Pour quitter cette zone, utilisez le bouton  « Reformer la caravane » dans l'écran Monde.</MessagePlayerTriedToLeaveMapViaExitGrid>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Pour quitter cette zone, utilisez le bouton  « Reformer la caravane » dans l'écran Monde.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <!-- EN: You can't leave the map now. -->
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Vous ne pouvez pas quitter cette zone maintenant.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>Les relations avec {0} sont passées de {1} à {2}.</MessageGoodwillChanged>
@@ -521,6 +517,14 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>L'un des fichiers de traduction ({0}) n'a pas pu être chargé. Toutes les erreurs d'analyse XML doivent être résolues en premier.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>Capturer [PAWN_nameDef] mettra en colère sa faction [PAWN_factionName].</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>Capturer {PAWN_nameDef} mettra en colère sa faction {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Cannot shoot in melee. -->
+  <MessageCantShootInMelee>Ne peut pas tirer lors des mêlées.</MessageCantShootInMelee>
+
+  <!-- UNUSED -->
+  <!--   <MessageCaravanIsVisitingSettlement>{0} est arrivé à {1}.</MessageCaravanIsVisitingSettlement> -->
+  <!--   <MessageCaravanEnteredWorldObject>{0} est arrivé à {1}.</MessageCaravanEnteredWorldObject> -->
+  <!--   <MessagePlayerTriedToLeaveMapViaExitGrid>Pour quitter cette zone, utilisez le bouton  « Reformer la caravane » dans l'écran Monde.</MessagePlayerTriedToLeaveMapViaExitGrid> -->
 
 </LanguageData>
