@@ -123,10 +123,10 @@
   <CompletedLongConstructionProject.label>achèvement d'un long projet de construction</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] putting together a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
     <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
     <li>circumstance_phrase->while covered in grime</li>
@@ -140,10 +140,10 @@
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] achevant la construction d'[OBJECT_indefinite]</li>
-    <li>image->[PAWN_nameFull] en train d'assembler un appartus compliqué à l'intérieur d'[OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fabriquant [OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] assemblant [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polissant la surface d'[OBJECT_indefinite] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ajoutant des details à la surface d'[OBJECT_indefinite] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscrivant leurs noms sur [OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscrivant son nom sur [OBJECT_indefinite] [circumstance_group]</li>
     <li>circumstance_phrase->avec une lueur dans ses yeux</li>
     <li>circumstance_phrase->tout en essuyant la sueur de son front</li>
     <li>circumstance_phrase->alors qu'[PAWN_pronoun] est couvert(e) de crasse</li>
@@ -159,11 +159,11 @@
   <!-- EN: completed long crafting project -->
   <CompletedLongCraftingProject.label>achèvement d'un long projet d'artisanat</CompletedLongCraftingProject.label>
   <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
     <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
     <li>circumstance_phrase->while covered in grime</li>
@@ -177,10 +177,10 @@
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] achevant la fabrication d'[OBJECT_indefinite]</li>
-    <li>image->[PAWN_nameFull] en train d'assembler un appartus compliqué à l'intérieur d'[OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] travaillant sur [OBJECT_indefinite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] peaufinant la surface d'[OBJECT_indefinite] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] fignolant la surface d'[OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscrivant leurs noms sur [OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fignolant des détails sur [OBJECT_indefinite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscrivant son nom sur [OBJECT_indefinite] [circumstance_group]</li>
     <li>circumstance_phrase->avec une lueur dans ses yeux</li>
     <li>circumstance_phrase->tout en essuyant la sueur de son front</li>
     <li>circumstance_phrase->alors qu'[PAWN_pronoun] est couvert(e) de crasse</li>
@@ -317,9 +317,7 @@
   <!-- EN: increased menagerie -->
   <IncreasedMenagerie.label>augmentation de la ménagerie</IncreasedMenagerie.label>
   <!-- EN:
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
@@ -336,10 +334,11 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <!-- [AnimalGroup] contient des mots qui ne semblent pas corrects pour le contexte de tale_noun -->
-    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour l'élevage</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour augmenter le troupeau</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour augmenter le cheptel</li>
+    <!-- [AnimalGroup] contient des mots qui ne semblent pas corrects pour le contexte de ce tale_noun -->
+    <!--  <li>tale_noun(p=3)->[HUMAN_nameDef] recrutant encore un autre animal pour son élevage</li> -->
+    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour son élevage</li>
+    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour augmenter son troupeau</li>
+    <li>tale_noun->[HUMAN_nameDef] recrutant encore un autre animal pour augmenter son cheptel</li>
     <li>tale_noun->[HUMAN_nameDef] suivi d'un(e) [AnimalGroup]</li>
     <li>tale_noun->l'apprivoisement de [ANIMAL_nameDef] par [HUMAN_nameDef]</li>
     <li>image->[HUMAN_nameFull] apprivoisant [ANIMAL_nameFull] [circumstance_group]</li>
@@ -414,7 +413,7 @@
   -->
   <MinedValuable.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] extrayant une riche veine de [MATERIAL_label]</li>
-    <li>image->[PAWN_nameFull] travaillantsur un mur de [MATERIAL_label] avec des outils de minage, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] travaillant sur un mur de [MATERIAL_label] avec des outils de minage, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tenant un morceau de [MATERIAL_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] s'appuyant contre un mur de [MATERIAL_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] coordonnant une équipe de mineurs pour une riche veine de [MATERIAL_label], [circumstance_group]</li>
