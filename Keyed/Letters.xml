@@ -126,7 +126,13 @@
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Le déclencheur a été : {0}.</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
-  <MentalStateCausedByMood>C'est arrivé à cause de sa mauvaise humeur.</MentalStateCausedByMood>
+  <MentalStateReason_Mood>C'est arrivé à cause de sa mauvaise humeur.</MentalStateReason_Mood>
+  <!-- EN: This happened because of the trait: {0}. -->
+  <MentalStateReason_Trait>C'est arrivé à cause du trait de caractère : {0}.</MentalStateReason_Trait>
+  <!-- EN: This happened because of: {0}. -->
+  <MentalStateReason_Hediff>C'est arrivé à cause de : {0}.</MentalStateReason_Hediff>
+  <!-- EN: This happened because of {0_definite}'s death. -->
+  <MentalStateReason_BondedHumanDeath>C'est arrivé à cause de la mort de {0_definite}.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Le dernier événement a été</LastFactionRelationsEvent>
 
@@ -383,8 +389,6 @@
   <LetterTraitDisease>{1} a rendu malade {PAWN_label}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et qu'{PAWN_pronoun} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</LetterTraitDisease>
 
   <!-- UNUSED -->
-  <!-- <LetterLabelCaravanEnteredAmbushMap>Caravane arrivée à l'embuscade</LetterLabelCaravanEnteredAmbushMap> -->
-  <!-- <LetterCaravanEnteredAmbushMap>{0} est arrivé sur le lieu de l'embuscade.</LetterCaravanEnteredAmbushMap> -->
-  <!-- <LetterLabelPlayerEnteredNewSiteGeneric>Arrivée sur place</LetterLabelPlayerEnteredNewSiteGeneric> -->
+  <!-- <MentalStateCausedByMood>C'est arrivé à cause de sa mauvaise humeur.</MentalStateCausedByMood> -->
 
 </LanguageData>
