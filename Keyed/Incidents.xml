@@ -22,16 +22,16 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Quelqu'un de {0} - {1} est le chef de la faction.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Quelqu'un des {0}, {1} est le chef de la faction.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Quelqu'un de {0} - {1} est le chef de la faction.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Quelqu'un des {0}, {1} est le chef de la faction.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>Un(e) [PAWN_title] nommé [PAWN_nameDef] s'est violemment écrasé(e) dans une capsule de transport à proximité. Si [PAWN_pronoun] survit à l'impact, [PAWN_pronoun] doit être gravement blessé.</RefugeePodCrash>
+  <RefugeePodCrash>Un(e) [PAWN_title] nommé(e) [PAWN_nameDef] s'est violemment écrasé(e) dans une capsule de transport à proximité. Si [PAWN_pronoun] survit à l'impact, [PAWN_pronoun] doit être gravement blessé.</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>[PAWN_nameDef] n'appartient à aucune faction. Vous pouvez sauver [PAWN_nameDef] et espérer qu'[PAWN_pronoun] vous rejoigne liberement. Ou, le/la capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
@@ -80,7 +80,7 @@
   <!-- EN: \n\nThey seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\nIl semblerait qu'ils aient quelques objets à échanger.</GroupVisitorsArriveTraderInfo>
   <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nUn des visiteurs - {0}, est le chef de la faction.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nUn des visiteurs, {0}, est le chef de la faction.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Les visiteurs venus de {0} s'en vont.</VisitorsLeaving>
 
@@ -130,7 +130,7 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Réfugié pourchassé à {0}</RefugeeChasedTitle>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Un [PAWN_title] nommé [PAWN_nameDef] vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques. [PAWN_pronoun] n'a pas eu le temps de donner plus de détails.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses. Ce groupe est composé de :\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Un(e) [PAWN_title] nommé(e) [PAWN_nameDef] vous appelle. [PAWN_pronoun] est pourchassé(e) par des {2} de {3} !\n\n[PAWN_pronoun] vous supplie de l'aider et de rejoindre votre colonie. [PAWN_pronoun] a {4} ans biologiques. [PAWN_pronoun] n'a pas eu le temps de donner plus de détails.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses. Ce groupe est composé de :\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
@@ -144,9 +144,9 @@
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} est devenu apprivoisé.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {1}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} est devenu apprivoisé. Il s'appelle désormais {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} a été apprivoisé(e). Il s'appelle désormais {1}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
-  <LetterAnimalSelfTameAndName>{0} est devenu apprivoisé. Les colons ont décidé de l'appeler {1}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} a été apprivoisé(e). Les colons ont décidé de l'appeler {1}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -231,29 +231,5 @@
   <LetterSiteNoLongerHostile>Le site de {1} n'est plus disponible car vous n'êtes plus hostile envers {0}.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Les sites suivants ne sont plus disponibles car vous n'êtes plus hostile envers {0}</LetterSiteNoLongerHostileMulti>
-
-  <!-- UNUSED -->
-  <LetterLabelBuildingBrokenDown>Panne : {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Une de vos machines ({0}) est en panne. Elle ne fonctionnera pas tant qu'un colon effectuant le travail "Construction" ne s'en sera pas occupé.</LetterBuildingBrokenDown>
-  <RefugeePodCrash_NonHostileOrFactionless>Vous pouvez sauver [PAWN_nameDef] et [PAWN_objective] laisser suivre son propre chemin. Ou, [PAWN_objective] capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_NonHostileOrFactionless>
-  <LetterLabelWandererJoin>Vagabond nous rejoint</LetterLabelWandererJoin>
-  <WandererJoin>Un(e) {0} nommé(e) [PAWN_nameDef] a rejoint la colonie. Son métier est {1}.\n\n[PAWN_pronoun] est prêt à contribuer, mais ne partira pas volontairement. Si vous ne voulez pas de [PAWN_nameDef], vous pouvez [PAWN_objective] bannir, [PAWN_objective] vendre en esclavage, ou simplement [PAWN_objective] tuer. Cependant, vos autres colons peuvent trouver cela dérangeant.</WandererJoin>
-  <EnemyRaidWalkIn>Un groupe de {0} de {1} est arrivé à proximité.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Un groupe de {0} de {1} effectue un débarquement orbital à proximité.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Un groupe de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</EnemyRaidCenterDrop>
-  <FriendlyRaidWalkIn>Un groupe amical de {0} de {1} est arrivé à proximité.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital à proximité.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Un groupe amical de {0} de {1} effectue un débarquement orbital en plein milieu de la colonie !</FriendlyRaidCenterDrop>
-  <PsychicDroneLevelLow>Faible</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Moyen</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Fort</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Extrême</PsychicDroneLevelExtreme>
-  <ItemStashQuestTitle>Informations à propos d'une planque</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Accepter</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Rejeter</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} est prêt à nous dire l'emplacement de la planque en échange de {1} argent.</ItemStashQuestFeeDemand>
-  <ItemStashSitePart_Unknown>Malheureusement, {0} n'a aucune idée de qui - ou quoi - pourrait protéger la planque.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} dit que la planque n'est pas surveillée.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} dit que {1}.</ItemStashSitePart_Part>
 
 </LanguageData>

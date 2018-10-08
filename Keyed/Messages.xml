@@ -79,9 +79,9 @@
   <MessageCriticalAlert>Alerte critique : {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Vous devez désigner un végétal capable de fournir de la nourriture et suffisamment mûr pour être coupé.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Vous devez désigner une plante capable de fournir de la nourriture et suffisamment mûre pour être coupée.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Vous devez désigner un végétal capable de fournir du bois et suffisamment mûr pour être coupé.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Vous devez désigner une plante capable de fournir du bois et suffisamment mûre pour être coupée.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Vous devez désigner une plante.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -115,9 +115,9 @@
   <MessageRefusedArrest>{0} a refusé d'être arrêté(e) !</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>Il n'y a pas de lits médicaux disponibles.</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>Il n'y a aucun lit médical disponible.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>Il n'y a pas de lits pour animaux disponibles.</MessageNoAnimalBeds>
+  <MessageNoAnimalBeds>Il n'y a aucun lit pour animaux disponible.</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {1}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>L'opération requiert {0} ou mieux, mais le mode de soins médicaux de {1} est "{2}".</MessageTooLowMedCare>
   
@@ -145,9 +145,9 @@
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} a fait une fausse couche due à la famine.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} a fait une fausse couche à cause de la famine.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} a fait une fausse couche due à sa santé faible.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} a fait une fausse couche à cause de sa faible santé.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
 
@@ -217,7 +217,7 @@
   <MessageConstructionFailed>{1} a échoué dans la construction de {0}. Des ressources ont été gaspillées.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
-  <MessageScreenshotSavedAs>Capture d'écran sauvegardée sous : {0}</MessageScreenshotSavedAs>
+  <MessageScreenshotSavedAs>Capture d'écran enregistrée sous : {0}</MessageScreenshotSavedAs>
   
   <!-- EN: {0} and {1} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{0} et {1} ont cessé de se chamailler.</MessageNoLongerSocialFighting>
@@ -252,11 +252,11 @@
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0} est mort à cause du froid.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} est mort de pourrissement parce qu'il n' a pas été récolté.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0} est mort en raison d'une exposition à la lumière.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} n'a pas été récolté, et a pourri.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0} a pourri.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0} est mort à cause d'un empoisonnement.</MessagePlantDiedOfPoison>
   <!-- EN: {0} has died because of blight. -->
@@ -409,10 +409,10 @@
   <MessageWarningCavePlantsExposedToLight>ATTENTION : {0} ne peut pas survivre si exposé à la lumière.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
-  <MessageTargetedTantrumChangedTarget>{0} ne réussissant pas à atteindre {1}, décida de recentrer sa fureur sur {2}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>Ne réussissant pas à atteindre {1}, {0} décida de recentrer sa fureur sur {2}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{0} ne parvenant pas à atteindre {1}, a décidé de rediriger sa colère vers {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>Ne parvenant pas à atteindre {1}, {0} a décidé de rediriger sa colère vers {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {0} has decided to redirect [PAWN_possessive] anger at {1}. -->
   <MessageMurderousRageChangedTarget>{0} a décidé de rediriger son envie de meurtre vers {1}.</MessageMurderousRageChangedTarget>
@@ -432,9 +432,9 @@
   <MessagePlayerTriedToLeaveMapViaExitGrid>Pour quitter cette zone, utilisez le bouton  « Reformer la caravane » dans l'écran Monde.</MessagePlayerTriedToLeaveMapViaExitGrid>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>Les relations avec {0} ont changées de {1} à {2}.</MessageGoodwillChanged>
+  <MessageGoodwillChanged>Les relations avec {0} sont passées de {1} à {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>Les relations avec {0} ont changées de {1} à {2} ({3}).</MessageGoodwillChangedWithReason>
+  <MessageGoodwillChangedWithReason>Les relations avec {0} sont passées de {1} à {2} ({3}).</MessageGoodwillChangedWithReason>
   <!-- EN: attacked {0} -->
   <GoodwillChangedReason_AttackedPawn>attaqué {0}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {0} on {1} -->
@@ -442,9 +442,9 @@
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>opéré {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>inutilement installé {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>installation inutile de {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {0} -->
-  <GoodwillChangedReason_CapturedPawn>capturé {0}</GoodwillChangedReason_CapturedPawn>
+  <GoodwillChangedReason_CapturedPawn>capture de {0}</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {0} crushed -->
   <GoodwillChangedReason_PawnCrushed>écrabouillé {0}</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {0} died -->
@@ -460,9 +460,9 @@
   <!-- EN: tended to {0} -->
   <GoodwillChangedReason_Tended>soins apportées à {0}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>reçu un cadeau</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>cadeau reçu</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>satisfait une commande</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>commande satisfaite</GoodwillChangedReason_FulfilledTradeRequest>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} accepte votre cadeau mais ils ne l'apprécient pas.</MessageGiftGivenButNotAppreciated>
@@ -522,21 +522,5 @@
 
   <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
   <MessageCapturingWillAngerFaction>Capturer [PAWN_nameDef] mettra en colère sa faction [PAWN_factionName].</MessageCapturingWillAngerFaction>
-
-  <!-- UNUSED -->
-  <MessageFailedToLoadTransportersBecauseColonistLost>Le processus de chargement a été annulé parce qu'un des colons a été perdu.</MessageFailedToLoadTransportersBecauseColonistLost>
-  <MessageBlockedHediff>{0} a bloqué {1} sur : {2}.</MessageBlockedHediff>
-  <MessageMustDesignateSmoothableFloor>Vous devez désigner un sol de pierre brute.</MessageMustDesignateSmoothableFloor>
-  <MessagePawnExitMapRelationsGain>{0} est parti(e) en bonne santé, les relations avec {1} se sont améliorées de {2}.</MessagePawnExitMapRelationsGain>
-  <MessageFailedToSendCaravanBecausePawnLost>Impossible d'envoyer la caravane parce qu'un des colons, des prisonniers ou des animaux a été perdu.</MessageFailedToSendCaravanBecausePawnLost>
-  <MessageAmbushVictory>Victoire ! Dans {0}, la caravane sera automatiquement reformée. Vous pouvez la reformer maintenant à partir de la carte du monde.</MessageAmbushVictory>
-  <MessageAutomaticallyReformedCaravan>Vos colons ont reformé la caravane.</MessageAutomaticallyReformedCaravan>
-  <MessageOldWoundHealed>Grâce à {0}, le {2} de {1} est guéri.</MessageOldWoundHealed>
-  <MessageAttackedCaravanIsNowHostile>Parce que vous avez attaqué une caravane de {0}, cette faction vous est devenu hostile.</MessageAttackedCaravanIsNowHostile>
-  <MessageFactionPawnCrushed>{0} personnes perdues dû à un effondrement du toit. Relation avec la faction: {1}</MessageFactionPawnCrushed>
-  <MessageFactionPawnLost>{0} a perdu {1}. Relation avec la faction: {2}</MessageFactionPawnLost>
-  <MessageTransportPodsArrived_BecameHostile>{0} vous est devenu hostile.</MessageTransportPodsArrived_BecameHostile>
-  <MessageCaravanRunOutOfFood>{0} est à court de nourriture ({1}).</MessageCaravanRunOutOfFood>
-  <MessagePrisonerRescued>Vous avez sauvé [PAWN_nameDef] qui a tenu à se joindre à votre colonie.</MessagePrisonerRescued>
 
 </LanguageData>

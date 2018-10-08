@@ -61,7 +61,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui ! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nVeuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
   <!-- EN: {0} has reached the biological age of {1}.\n\nUnfortunately, {0} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>C'est l'anniversaire biologique de {0} aujourd'hui ! {0} vient d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0} vient d'avoir {1} ans.\n\nMalheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0} :\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
@@ -79,7 +79,7 @@
   <!-- EN: {0} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{0} a ces relations avec vos colons:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again. -->
-  <PrisonerRescueTimeout>Le camp disparaîtra après {0} jours. Si vous ratez cette opportunité, vous ne pourrez plus jamais entendre parler de {1}.</PrisonerRescueTimeout>
+  <PrisonerRescueTimeout>Le camp disparaîtra après {0} jours. Si vous ratez cette opportunité, vous n'entendrez plus jamais parler de {1}.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Danger antique</LetterLabelAncientShrineWarning>
@@ -381,27 +381,5 @@
   <LetterLabelTraitDisease>Maladie ({0})</LetterLabelTraitDisease>
   <!-- EN: {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that [PAWN_pronoun] gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{1} a rendu malade {0}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et qu'[PAWN_pronoun] bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</LetterTraitDisease>
-
-  <!-- UNUSED -->
-  <MentalBreakLetterLabel>Crise de démence</MentalBreakLetterLabel>
-  <RelationsBrokenDown>Les relations avec {0} se sont refroidies. Ils vous sont désormais hostiles.</RelationsBrokenDown>
-  <RelationsWarmed>Les relations avec {0} se sont réchauffées. Ils ne vous sont plus hostiles.</RelationsWarmed>
-  <RelationsBrokenCapture>À cause de la capture de {0}, {1} est désormais votre ennemi.</RelationsBrokenCapture>
-  <ColonyGoodwill>Opinion de la colonie</ColonyGoodwill>
-  <LetterNewLovers>{0} et {1} se sont rapprochés et sont maintenant amoureux.</LetterNewLovers>
-  <LetterLabelRelationsChangeGood>Bonne volonté</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Mauvaise volonté</LetterLabelRelationsChangeBad>
-  <LetterLabelBondedAnimalDied>Mort d'un animal lié</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0}, lié à {1}, est mort. Cela va affecter l'humeur de {1}.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{0} nommé {1}, lié à {2}, est mort. Cela va affecter l'humeur de {2}.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} est mort. Cela va affecter l'humeur des colons suivants :\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0} nommé {1} est mort. Cela va affecter l'humeur des colons suivants :\n\n{2}</LetterNamedBondedAnimalDiedMulti>
-  <LetterLabelFormedCaravan>Caravane prête</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>Votre caravane s'est formée et attend les ordres sur la carte du monde.</LetterFormedCaravan>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} est arrivée à {1} et est prête à commencer l'attaque.\n\nÀ cause de votre comportement agressif, {2} vous est maintenant hostile.</LetterCaravanEnteredEnemyBaseBecameHostile>
-  <LetterLabelPawnsLostDueToMapCountdown>Abandonné</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Certains de vos animaux ou prisonniers ont été abandonnés dans la nature :\n\n{0}</LetterPawnsLostDueToMapCountdown>
-  <LetterLabelSleepingMechanoids>Mécanoides dormant</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>Il y a quelques mécanoïdes hostiles endormis dans cette zone. \n\nLes mécanoïdes peuvent ou non se réveiller quand vous les approchez, alors soyez prudent.</LetterSleepingMechanoids>
 
 </LanguageData>

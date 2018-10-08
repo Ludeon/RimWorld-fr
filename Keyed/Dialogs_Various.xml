@@ -114,7 +114,7 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>Charger quand même</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>Charger la liste des mods depuis la sauvegarde</ChangeLoadedMods>
+  <ChangeLoadedMods>Charger mods de la carte</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Certains mods ne sont pas disponibles, et doivent être installés</MissingMods>
   
@@ -426,7 +426,7 @@
   <NuzzleIntervalExplanation>Indique combien de fois un animal reniflera des colons amicaux, en moyenne.\n\nRenifler est un comportement partagé par de nombreuses espèces animales, où l'animal presse son nez ou son museau contre un ami en signe d'affection. La plupart des humains trouvent cela mignon et cela les laissera de bonne humeur pendant un certain temps.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Vengeance après une nuisance</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>La chance que cette créature cherche à se venger d'être attaquée à distance.\n\nCette chance augmente si l'attaquant est plus proche. Si elle est attaquée à très courte distance, la chance est trois fois plus grande.\n\nCette chance est appliquée à chaque fois que des dégâts sont infligés, donc les armes les plus lentes sont moins susceptibles de le déclencher.\n\nPour minimiser les chances de vengeance d'une créature, attaquez-la à l'aide d'une arme à feu lente.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Vengeance - apprivoisement ratée</TameFailedRevengeChance>
@@ -824,30 +824,5 @@
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>La caravane sera immobile si vous envoyez les capsules de transport vers une case vide. Continuer quand même ?</TransportersCaravanWillBeImmobile>
-
-  <!-- UNUSED -->
-  <SurgeryRequireBed>Nécessite un lit</SurgeryRequireBed>
-  <PermadeathMode>Mode mort permanente</PermadeathMode>
-  <TradeMassUsageTooltip>La charge actuelle et la capacité.</TradeMassUsageTooltip>
-  <CaravanConfigTab>Configuration</CaravanConfigTab>
-  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>{0} jours de nourriture</DaysWorthOfFoodInfo>
-  <DaysWorthOfFoodTooltip_CanEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il sera possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>En se basant sur la saison, la température et les conditions actuelles, nous supposons qu'il ne sera PAS possible pour les animaux herbivores de manger des plantes locales. Mais cela peut changer à tout moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <NoExitDirectionForCaravanChosen>Vous devez choisir une direction de sortie pour la caravane.</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(Pas de direction de sortie disponible)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>Direction de sortie </ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
-  <EstimatedTimeToDestinationButton>Temps estimé pour arriver à destination</EstimatedTimeToDestinationButton>
-  <CaravanSplitSourceLabel>Actuelle</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>Nouvelle</CaravanSplitDestLabel>
-  <SplitCaravanMassUsageTooltip>La charge actuelle et la capacité.</SplitCaravanMassUsageTooltip>
-  <TransportersMassUsageTooltip>La charge actuelle et la capacité.\n\nVous ne pourrez pas envoyer les capsules de transport si la charge actuelle dépasse la capacité.</TransportersMassUsageTooltip>
-  <ConfirmLeavePrisonersOrAnimalsBehind>Il y a encore des prisonniers ou animaux laissés dans cette zone et c'est la seule caravane qu'ils peuvent joindre en ce moment.\n\nSi vous déplacez votre caravane, ils ne pourront pas quitter la zone jusqu'à ce que vous soyez de retour. Les prisonniers vont commencer à s'échapper, tandis que les animaux vont continuer à vous attendre.\n\nSi vous décidez d'attendre, ils vont essayer de rejoindre votre caravane dès que possible.\n\nÊtes-vous sûr(e) de vouloir déplacer votre caravane ?</ConfirmLeavePrisonersOrAnimalsBehind>
-  <ConfirmAbandonPawnDialog>Souhaitez-vous vraiment abandonner {0} ?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} prendra les objets suivants avec [PAWN_objective] :</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>En abandonnant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmAbandonPawnDialog_IndividualThoughts>
 
 </LanguageData>
