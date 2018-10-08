@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: downed -->
-  <Downed.label>downed</Downed.label>
+  <Downed.label>KO</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -43,44 +43,48 @@
   <Downed.rulePack.rulesStrings>
     <!--     TODO -->
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
-    <li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] by [KILLER_nameDef]</li>
-    <li>tale_noun->the [wound_name_present] of [VICTIM_nameDef] with a [WEAPON_label]</li>
-    <li>tale_noun->the [wound_name_present] of [VICTIM_nameDef]</li>
-    <li>image->[VICTIM_nameFull] being [wound_name_past] by [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] avec un(e) [WEAPON_label]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par [KILLER_nameDef]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef] par un(e) [WEAPON_label]</li>
+    <li>tale_noun->la [wound_name_substantive] de [VICTIM_nameDef]</li>
+    <li>image->[VICTIM_nameFull] [wound_name_past] par [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] brutally [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] being [wound_name_past] [with_weapon_optional]</li>
-    <li>wound_name_past->incapacitated</li>
-    <li>wound_name_past->crippled</li>
-    <li>wound_name_past->knocked unconscious</li>
-    <li>wound_name_past->disabled</li>
-    <li>wound_name_present->incapacitating</li>
-    <li>wound_name_present->harming</li>
-    <li>wound_name_present->knocking unconscious</li>
-    <li>wound_name_present->disabling</li>
-    <li>with_weapon_optional->with a [WEAPON_label] [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalement [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] [wound_name_past] [with_weapon_optional]</li>
+    <li>wound_name_past->neutralisé(e)</li>
+    <li>wound_name_past->estropié(e)</li>
+    <li>wound_name_past->assommé(e)</li>
+    <li>wound_name_past->invalidé(e)</li>
+    <li>wound_name_present->neutralisant</li>
+    <li>wound_name_present->blessant</li>
+    <li>wound_name_present->assomant</li>
+    <li>wound_name_present->mutilant</li>
+    <li>wound_name_substantive->neutralisation</li>
+    <li>wound_name_substantive->blessure</li>
+    <li>wound_name_substantive->perte de connaissance</li>
+    <li>wound_name_substantive->mutilation</li>
+    <li>with_weapon_optional->avec un(e) [WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->seemingly without remorse</li>
-    <li>circumstance_phrase->with cold efficiency</li>
-    <li>circumstance_phrase->with passionate rage</li>
-    <li>circumstance_phrase->with quick, efficient movements</li>
-    <li>circumstance_phrase->without emotion or expression</li>
-    <li>circumstance_phrase->out of bleak necessity</li>
-    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s look on.</li>
-    <li>desc_sentence->A [PersonJob] watches silently [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] looks [AdjectiveAngsty].</li>
-    <li>desc_sentence->[VICTIM_nameDef]'s eyes are closed.</li>
-    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
-    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
-    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
-    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
-    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
+    <li>circumstance_phrase->sans remords apparents</li>
+    <li>circumstance_phrase->avec une froide efficacité</li>
+    <li>circumstance_phrase->dans une rage passionnée</li>
+    <li>circumstance_phrase->par des gestes efficaces et rapides</li>
+    <li>circumstance_phrase->sans aucune émotion ou expression</li>
+    <li>circumstance_phrase->pour une sombre nécessité</li>
+    <li>circumstance_phrase->de manière lâche, sans conviction</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observent.</li>
+    <li>desc_sentence->Un(e) [PersonJob] observe en silence [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] semble [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef] a les yeux fermés.</li>
+    <li>desc_sentence->[KILLER_nameDef] serre les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] semble satisfait(e).</li>
+    <li>desc_sentence->[KILLER_nameDef] semble affligé(e) par ce qu'[KILLER_pronoun] fait.</li>
+    <li>desc_sentence->[KILLER_nameDef] semble content(e) de la situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] affiche un air triomphant.</li>
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
-  <Exhausted.label>exhausted</Exhausted.label>
+  <Exhausted.label>épuisement</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -99,25 +103,25 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
-    <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lying on the ground [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lying in bed [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] collapsed in a chair [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] peacefully sleeping [circumstance_group]</li>
-    <li>circumstance_phrase->with eyes closed</li>
-    <li>circumstance_phrase->with a visible look of exhaustion</li>
-    <li>circumstance_phrase->while covered in sweat</li>
-    <li>circumstance_phrase->and unable to move a muscle</li>
-    <li>desc_sentence->[PAWN_nameDef]'s last project sits nearby, complete.</li>
-    <li>desc_sentence->A marvelous construction surrounds [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s look grateful for [PAWN_nameDef]'s heroic effort.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s lie nearby in a similar state.</li>
-    <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
+    <li>tale_noun->[PAWN_nameDef] s'écroule d'épuisement</li>
+    <li>image->[PAWN_nameFull] s'écroule au sol [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'étend au sol [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se met au lit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'est effondré(e) sur une chaise [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] dort paisiblement [circumstance_group]</li>
+    <li>circumstance_phrase->, les yeux fermés</li>
+    <li>circumstance_phrase->, l'air visiblement épuisé</li>
+    <li>circumstance_phrase->, dégoulinant(e) de sueur</li>
+    <li>circumstance_phrase->, incapable de bouger un muscle</li>
+    <li>desc_sentence->Le dernier projet de [PAWN_nameDef] est laissé de côté, terminé.</li>
+    <li>desc_sentence->Une merveilleuse construction entoure [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s semblent reconnaissant(e)s de l'effort héroique de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se reposent non loin de là, dans un état similaire.</li>
+    <li>desc_sentence->La scène se déroule dans un(e) [Community] fraîchement construit(e).</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
-  <GaveBirth.label>gave birth</GaveBirth.label>
+  <GaveBirth.label>a donné naissance</GaveBirth.label>
   <!-- EN:
     <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
@@ -137,22 +141,22 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
-    <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] holding [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] lying in bed next to [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] collapsed in a chair with [MOTHER_possessive] [baby] [circumstance_group]</li>
-    <li>baby->infant</li>
-    <li>baby->newborn</li>
-    <li>baby->baby</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is bloody and crying</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is glowing softly [Color]</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is already trying to pull [CHILD_objective]self around</li>
-    <li>circumstance_phrase->[CHILD_nameFull], who is looking around with an expression of serenity</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s sleep peacefully nearby.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon the scene.</li>
-    <li>desc_sentence->A [PersonJob]s watches from a distance.</li>
-    <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
+    <li>tale_noun->[MOTHER_nameDef] donne naissance à [CHILD_nameDef]</li>
+    <li>image->[MOTHER_nameFull] donne naissance à [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] tient son [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] reste allongée au lit près de son [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] s'est effondrée sur une chaise avec son [baby] [circumstance_group]</li>
+    <li>baby->nourrisson</li>
+    <li>baby->nouveau-né</li>
+    <li>baby->bébé</li>
+    <li>circumstance_phrase->[CHILD_nameFull], qui pleure, couvert(e) de sang</li>
+    <li>circumstance_phrase->[CHILD_nameFull], qui luise d'une douce couleur [Color]</li>
+    <li>circumstance_phrase->[CHILD_nameFull], qui essaie déjà de regarder tout autour</li>
+    <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression sereine</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s dorment paisiblement non loin de là.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplent la scène.</li>
+    <li>desc_sentence->Un(e) [PersonJob] observe à distance.</li>
+    <li>desc_sentence->La scène se déroule dans un(e) [Community] fraîchement construit(e).</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
@@ -208,7 +212,7 @@
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] crouching next to a fire [circumstance_group]</li>
     <li>image->[PAWN_nameFull] trying to light a fire [circumstance_group]</li>
-    <li>circumstance_phrase->while their face slowly turns blue</li>
+    <li>circumstance_phrase->while [PAWN_possessive] face slowly turns blue</li>
     <li>circumstance_phrase->and shivering uncontrollably</li>
     <li>circumstance_phrase->while covered in frost</li>
     <li>circumstance_phrase->while exhaling clouds of fog</li>
@@ -228,7 +232,7 @@
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] crouching next to a fire [circumstance_group]</li>
     <li>image->[PAWN_nameFull] trying to light a fire [circumstance_group]</li>
-    <li>circumstance_phrase->while their face slowly turns blue</li>
+    <li>circumstance_phrase->while [PAWN_possessive] face slowly turns blue</li>
     <li>circumstance_phrase->and shivering uncontrollably</li>
     <li>circumstance_phrase->while covered in frost</li>
     <li>circumstance_phrase->while exhaling clouds of fog</li>
@@ -292,7 +296,7 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull]'s capacity for [CAPACITY_label] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] their [CAPACITY_label] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->destroying</li>
     <li>cap_removal->eliminating</li>
     <li>cap_removal->ending</li>
@@ -323,7 +327,7 @@
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull]'s capacity for [CAPACITY_label] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] their [CAPACITY_label] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] by [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->destroying</li>
     <li>cap_removal->eliminating</li>
     <li>cap_removal->ending</li>
