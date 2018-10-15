@@ -150,7 +150,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>Le surnom du colon est maintenant {0}. Son titre est {1}.</PawnGainsName>
+  <PawnGainsName>Le surnom du colon est maintenant {0}. Son titre est {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Votre animal se nomme désormais {0}.</AnimalGainsName>
 
@@ -481,9 +481,9 @@
   <!-- EN: Negotiator -->
   <Negotiator>Marchand</Negotiator>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Votre colon négociateur {0} ne peut plus parler correctement à cause de sa mauvaise santé.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Votre colon négociateur {1_labelShort} ne peut plus parler correctement à cause de sa mauvaise santé.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Votre négociateur {0} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Votre négociateur {1_labelShort} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Cela affectera les prix des transactions. \n\nPensez à utiliser un négociateur en meilleure santé.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -539,7 +539,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Avertissement : certains colons ne peuvent pas atteindre le point de sortie de la caravane ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{0} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
+  <CaravanPawnIsUnreachable>{1_labelShort} est inaccessible par aucun des colons désignés.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Aucun des colons désignés ne peut accéder à {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -665,7 +665,7 @@
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Vous ne pouvez pas envoyer des capsules de transport vides.</CantSendEmptyTransportPods>
   <!-- EN: {1_labelShort} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0} ne peut pas atteindre les capsules de transport.</PawnCantReachTransporters>
+  <PawnCantReachTransporters>{1_labelShort} ne peut pas atteindre les capsules de transport.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>Il n'y a pas de chemin entre les capsules de transport et {0}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
@@ -835,19 +835,19 @@
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>Souhaitez-vous vraiment bannir {0} ?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>Souhaitez-vous vraiment bannir {1_label} ?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0} mourra certainement.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} mourra certainement.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{0} prendra les objets suivants avec [PAWN_objective] :</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} prendra les objets suivants avec {1_objective} :</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Tous les colons auront les pensées suivantes :</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>En bannissant {0}, cela entraînera les membres de la caravane à avoir les pensées suivantes : </ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>En bannissant {1_labelShort}, les membres de la caravane auront les pensées suivantes : </ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {0}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {1_labelShort}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->

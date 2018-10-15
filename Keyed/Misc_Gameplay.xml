@@ -563,7 +563,7 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
+  <PawnMainDescGendered>{1} {PAWN_gender}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
@@ -827,7 +827,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contient</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Attention !\n\n[PAWN_nameDef] est votre dernier colon actif ! Si vous laissez entrer [PAWN_nameDef] dans ce caisson, vous pourriez ne plus pouvoir jouer. Êtes-vous sûr(e) de vouloir continuer ?</CasketWarning>
+  <CasketWarning>Attention !\n\n{PAWN_nameDef} est votre dernier colon actif ! Si vous laissez entrer {PAWN_nameDef} dans ce caisson, vous pourriez ne plus pouvoir jouer. Êtes-vous sûr(e) de vouloir continuer ?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -927,7 +927,7 @@
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
   <DiseaseGrowthModeChanged_Stable>La {1} de {PAWN_labelShort} est maintenant stable.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>La {1} de {Pawn_labelShort} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>La {1} de {PAWN_labelShort} est maintenant en rémission.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
