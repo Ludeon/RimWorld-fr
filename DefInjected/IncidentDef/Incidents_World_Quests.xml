@@ -13,7 +13,7 @@
   <!-- EN: Incapacitated refugee quest -->
   <Quest_DownedRefugee.letterLabel>Appel au secours d'un réfugié blessé</Quest_DownedRefugee.letterLabel>
   <!-- EN: {PAWN_nameDef} contacts you and requests help. {PAWN_pronoun} is wounded and unable to move. Without your help, {PAWN_pronoun} will die in {0} days.\n\n{PAWN_nameDef} is a {1}-year-old {2}. {PAWN_pronoun} promises to join you if you rescue {PAWN_objective}.\n\n{PAWN_nameDef} says that {3}. -->
-  <Quest_DownedRefugee.letterText>{PAWN_nameDef} vous contacte par radio et vous supplie de l'aider. {PAWN_pronoun} est blessé(e) et incapable de bouger. Si aucune aide ne lui parvient, {PAWN_pronoun} mourra dans {0} jours.\n\n{PAWN_nameDef} est un(e) {2} âgé(e) de {1} ans. {PAWN_pronoun} promet de vous rejoindre si vous lui portez secours.\n\n{PAWN_nameDef} dit que {3}.</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterText>{PAWN_nameDef} vous contacte par radio et vous supplie de l'aider. {PAWN_pronoun} est bless{PAWN_gender ? é : ée} et incapable de bouger. Si aucune aide ne lui parvient, {PAWN_pronoun} mourra dans {0} jours.\n\n{PAWN_nameDef} est {PAWN_gender ? un : une} {2} âg{PAWN_gender ? é : ée} de {1} ans. {PAWN_pronoun} promet de vous rejoindre si vous lui portez secours.\n\n{PAWN_nameDef} dit que {3}.</Quest_DownedRefugee.letterText>
   
   <!-- EN: item stash quest -->
   <Quest_ItemStash.label>planque</Quest_ItemStash.label>
@@ -44,7 +44,7 @@
   <!-- EN: Prisoner rescue quest -->
   <Quest_PrisonerRescue.letterLabel>Opportunité de secourir un prisonnier</Quest_PrisonerRescue.letterLabel>
   <!-- EN: A prisoner being held by {0} has managed to steal a radio and call you!\n\n{PAWN_nameDef} is being held at a camp nearby under armed guard. Rescue {PAWN_objective}, and {PAWN_pronoun} will join your colony. {PAWN_pronoun} is a {1}-year-old {2}. {PAWN_pronoun} says that {3}. -->
-  <Quest_PrisonerRescue.letterText>Un prisonnier retenu par {0} s'est débrouillé pour voler une radio et vous appelle !\n\n{PAWN_nameDef} est détenu(e) sous bonne garde dans un campement à proximité. Portez-lui secours et {PAWN_pronoun} rejoindra votre colonie. C'est un(e) {2} âgé(e) de {1} ans. {PAWN_pronoun} dit que {3}.</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterText>{PAWN_gender ? Un : Une} prisonni{PAWN_gender ? er : ère} reten{PAWN_gender ? u : ue} par {0} s'est débrouill{PAWN_gender ? é : ée} pour voler une radio et vous appelle !\n\n{PAWN_nameDef} est déten{PAWN_gender ? u : ue} sous bonne garde dans un campement à proximité. Portez-lui secours et {PAWN_pronoun} rejoindra votre colonie. C'est {PAWN_gender ? un : une} {2} âg{PAWN_gender ? é : ée} de {1} ans. {PAWN_pronoun} dit que {3}.</Quest_PrisonerRescue.letterText>
   
   <!-- EN: trade request -->
   <Quest_TradeRequest.label>sollicitation d'une caravane</Quest_TradeRequest.label>

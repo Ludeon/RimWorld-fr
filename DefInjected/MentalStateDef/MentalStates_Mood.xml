@@ -16,7 +16,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>État mental : Fou/folle furieux(se)</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} devient fou/folle furieux(se) !</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} devient fo{0_gender ? u : lle} furieu{0_gender ? x : se} !</Berserk.beginLetter>
   <Berserk.beginLetterLabel>fou/folle furieux(se)</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>La folie furieuse de {0} est terminée.</Berserk.recoveryMessage>
@@ -47,20 +47,20 @@
   <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>État mental : Obsession des cadavres</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} est temporairement obsédé par les cadavres. [PAWN_pronoun] va déterrer un macchabée.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} est temporairement obséd{0_gender ? é : ée} par les cadavres. [PAWN_pronoun] va déterrer un macchabée.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>obsession des cadavres</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
-  <CorpseObsession.recoveryMessage>{0} n'est plus obsédé par les cadavres.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.recoveryMessage>{0} n'est plus obséd{0_gender ? é : ée} par les cadavres.</CorpseObsession.recoveryMessage>
   
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>pyromane</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
   <FireStartingSpree.baseInspectLine>État mental : Frénésie pyromane</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0} est pris(e) d'une frénésie pyromane.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetter>{0} est pri{0_gender ? s : se} d'une frénésie pyromane.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>pyromane</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
-  <FireStartingSpree.recoveryMessage>{0} n'est plus atteint(e) d'impulsions pyromane.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.recoveryMessage>{0} n'est plus attein{0_gender ? t : te} d'impulsions pyromanes.</FireStartingSpree.recoveryMessage>
   
   <!-- EN: giving up and leaving -->
   <GiveUpExit.label>abandonne tout et s'en va</GiveUpExit.label>
@@ -109,10 +109,10 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>État mental : Rage sadique</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} est entré(e) dans une rage sadique. [PAWN_pronoun] compte faire passer sa rage sur les prisonniers.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} est entr{0_gender ? é : ée} dans une rage sadique. [PAWN_pronoun] compte faire passer sa rage sur les prisonniers.</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>rage sadique</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
-  <SadisticRage.recoveryMessage>{0}n'est plus dans une rage sadique.</SadisticRage.recoveryMessage>
+  <SadisticRage.recoveryMessage>{0} n'est plus dans une rage sadique.</SadisticRage.recoveryMessage>
   
   <!-- EN: slaughterer -->
   <Slaughterer.label>égorgeur d'animaux</Slaughterer.label>
@@ -180,7 +180,7 @@
   <!-- EN: Mental state: Sad wandering -->
   <Wander_Sad.baseInspectLine>État mental: Mélancolique</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} erre, frappé(e) de mélancolie.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} erre, frapp{0_gender ? é : ée} de mélancolie.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>erre tristement</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->

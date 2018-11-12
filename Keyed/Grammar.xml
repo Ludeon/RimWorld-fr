@@ -6,9 +6,9 @@
   <!-- EN: the -->
   <DefiniteArticle>le/la</DefiniteArticle>
   <!-- EN: a {0} -->
-  <IndefiniteForm>un(e) {0}</IndefiniteForm>
+  <IndefiniteForm>{0_gender ? un : une : un(e)} {0}</IndefiniteForm>
   <!-- EN: the {0} -->
-  <DefiniteForm>le/la {0}</DefiniteForm>
+  <DefiniteForm>{0_gender ? le : la : le/la} {0}</DefiniteForm>
 
   <!-- EN: its -->
   <Proits>son/ses</Proits>

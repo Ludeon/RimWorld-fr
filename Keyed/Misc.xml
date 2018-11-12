@@ -81,22 +81,22 @@
   <!-- EN: {0} corpse -->
   <CorpseLabel>cadavre de {0}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
-  <CorpseDesc>Cadavre d'un {0}.</CorpseDesc>
+  <CorpseDesc>Cadavre d'{0_gender ? un : une : un(e)} {0}.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
-  <DeadLabel>{1_label} (mort)</DeadLabel>
+  <DeadLabel>{1_label} (mor{1_gender ? t : te : t(e)})</DeadLabel>
 
   <!-- EN: rough {0} -->
-  <RoughStoneTerrainLabel>{0} brut(e)</RoughStoneTerrainLabel>
+  <RoughStoneTerrainLabel>{0} bru{0_gender ? t : te : t(e)}</RoughStoneTerrainLabel>
   <!-- EN: Rough, natural {0} ground. -->
-  <RoughStoneTerrainDesc>Sol en {0} brut(e).</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Sol en {0} bru{0_gender ? t : te : t(e)}.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
-  <RoughHewnStoneTerrainLabel>{0} brut(e) taillé(e) grossièrement.</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainLabel>{0} bru{0_gender ? t : te : t(e)} taill{0_gender ? e : ée : é(e)} grossièrement.</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>Sol en {0} brut(e) taillé(e) grossièrement.</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Sol en {0} bru{0_gender ? t : te : t(e)} taill{0_gender ? e : ée : é(e)} grossièrement.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
-  <SmoothStoneTerrainLabel>{0} poli(e)</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainLabel>{0} pol{0_gender ? i : ie : i(e)}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Sol en {0} poli(e).</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Sol en {0} pol{0_gender ? i : ie : i(e)}.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (plan)</BlueprintLabelExtra>
