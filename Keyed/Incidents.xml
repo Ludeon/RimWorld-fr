@@ -31,7 +31,7 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Capsule de sauvetage</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} nomm{PAWN_gender ? é : ée} {PAWN_nameDef} s'est violemment écras{PAWN_gender ? é : ée} dans une capsule de transport à proximité. {PAWN_gender ? S'il : Si elle} a survecu à l'impact, {PAWN_pronoun} doit être gravement bless{PAWN_gender ? é}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_gender ? un : une : un(e)} {PAWN_title} nomm{PAWN_gender ? é : ée : é(e)} {PAWN_nameDef} s'est violemment écras{PAWN_gender ? é : ée : é(e)} dans une capsule de transport à proximité. {PAWN_gender ? S'il : Si elle} a survecu à l'impact, {PAWN_pronoun} doit être gravement bless{PAWN_gender ? é : ée : é(e)}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} n'appartient à aucune faction. Vous pouvez {PAWN_gender ? le : la : le/la} sauver et espérer qu'{PAWN_pronoun} vous rejoigne liberement, ou {PAWN_gender ? le : la : le/la} capturer à des fins de recrutement ou d'esclavage.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -61,14 +61,14 @@
   <TraderArrival>Un vaisseau commercial passe à proximité.\n\nIl se présente sous le nom de {0}. C'est un {1}.</TraderArrival>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_titleIndef} de {1} passe dans les environs. Son nom est {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>{PAWN_gender ? un : une : un(e)} {PAWN_title} de {1} passe dans les environs. Son nom est {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un groupe de voyageurs de {0} passe dans les environs.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visiteur</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_titleIndef} de {1} vient visiter votre colonie.\n\nSon nom est {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_gender ? un : une : un(e)} {PAWN_title} de {1} vient visiter votre colonie.\n\nSon nom est {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} semble avoir quelques objets à échanger.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
@@ -130,7 +130,7 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Réfugié pourchassé à {0}</RefugeeChasedTitle>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>{PAWN_titleIndef} nomm{PAWN_gender ? é : ée} {PAWN_nameDef} vous appelle. {PAWN_pronoun} est pourchassé{PAWN_gender ? é : ée} par des {2} de {3} !\n\n{PAWN_pronoun} vous supplie de l'aider et de rejoindre votre colonie. {PAWN_pronoun} a {4} ans biologiques. {PAWN_pronoun} n'a pas eu le temps de donner plus de détails.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses. Ce groupe est composé de :\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedInitial>{PAWN_gender ? un : une : un(e)} {PAWN_title} nomm{PAWN_gender ? é : ée : é(e)} {PAWN_nameDef} vous appelle. {PAWN_pronoun} est pourchass{PAWN_gender ? é : ée : é(e)} par des {2} de {3} !\n\n{PAWN_pronoun} vous supplie de l'aider à rejoindre votre colonie. {PAWN_pronoun} a {4} ans biologiques. {PAWN_pronoun} n'a pas eu le temps de donner plus de détails.\n\nAttention : si vous acceptez, vous devrez combattre les {2} à ses trousses. Ce groupe est composé de :\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Secourir</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
