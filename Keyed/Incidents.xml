@@ -37,7 +37,7 @@
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>Vous pouvez capturer {PAWN_nameDef} à des fins de recrutement ou d'esclavage. {PAWN_pronoun} est de la faction ennemie {PAWN_factionName}.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} est de {PAWN_factionName}. Si vous lui portez secours, {PAWN_pronoun} pourrait librement vous rejoindre. Sinon {PAWN_pronoun} rentrera chez {PAWN_objective} et cela améliorera les relations entre vos factions.\n\nVous pouvez aussi {PAWN_objective} capturer à des fins de recrutement ou d'esclavage, mais cela mettra en colère sa faction.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} est de {PAWN_factionName}. Si vous lui portez secours, {PAWN_pronoun} pourrait librement vous rejoindre. Sinon, {PAWN_pronoun} rentrera chez {PAWN_objective} et cela améliorera les relations entre vos factions.\n\nVous pouvez aussi {PAWN_gender ? le : la : le/la} capturer à des fins de recrutement ou d'esclavage, mais cela mettra en colère sa faction.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Capsule de cargo</LetterLabelCargoPodCrash>
@@ -144,9 +144,9 @@
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} est apprivois{0_gender ? é : ée : é(e)}.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} a été apprivois{0_gender ? é : ée : é(e)}. {0_pronoun} s'appelle désormais {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} a été apprivois{ANIMAL_gender ? é : ée : é(e)}. {ANIMAL_pronoun} s'appelle désormais {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} a été apprivois{0_gender ? é : ée : é(e)}. Les colons ont décidé de l'appeler {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} a été apprivois{ANIMAL_gender ? é : ée : é(e)}. Les colons ont décidé de l'appeler {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
