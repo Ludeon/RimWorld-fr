@@ -9,16 +9,16 @@
   <!-- EN: flame -->
   <Flame.label>enflamé(e)</Flame.label>
   <!-- EN: {0} has burned to death. -->
-  <Flame.deathMessage>{0} est mor{0_gender ? t : te : t(e)} brûl{0_gender ? é : ée : é(e)} vi{0_gender ? f : ve : f/ve}.</Flame.deathMessage>
+  <Flame.deathMessage>{0} est mor{PAWN_gender ? t : te : t(e)} brûl{PAWN_gender ? é : ée : é(e)} vi{PAWN_gender ? f : ve : f(ve)}.</Flame.deathMessage>
   
   <!-- EN: frostbite -->
   <Frostbite.label>engelures</Frostbite.label>
   <!-- EN: {0} has succumbed to frostbite. -->
-  <Frostbite.deathMessage>{0} est mor{0_gender ? t : te : t(e)} à cause de ses engelures.</Frostbite.deathMessage>
+  <Frostbite.deathMessage>{0} est mor{PAWN_gender ? t : te : t(e)} à cause de ses engelures.</Frostbite.deathMessage>
   
   <!-- EN: scratch -->
   <TornadoScratch.label>taillades</TornadoScratch.label>
   <!-- EN: {0} has been killed by a tornado. -->
-  <TornadoScratch.deathMessage>{0} a été tu{0_gender ? é : ée : é(e)} par une tornade.</TornadoScratch.deathMessage>
+  <TornadoScratch.deathMessage>{0} a été tu{PAWN_gender ? é : ée : é(e)} par une tornade.</TornadoScratch.deathMessage>
   
 </LanguageData>

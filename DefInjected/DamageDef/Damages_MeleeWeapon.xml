@@ -4,12 +4,12 @@
   <!-- EN: bite -->
   <Bite.label>morsure</Bite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <Bite.deathMessage>{0} a été mord{0_gender ? u : ue : u(e)} à mort.</Bite.deathMessage>
+  <Bite.deathMessage>{0} a été mord{PAWN_gender ? u : ue : u(e)} à mort.</Bite.deathMessage>
   
   <!-- EN: blunt -->
   <Blunt.label>passage à tabac</Blunt.label>
   <!-- EN: {0} has been beaten to death. -->
-  <Blunt.deathMessage>{0} a été batt{0_gender ? u : ue : u(e)} à mort.</Blunt.deathMessage>
+  <Blunt.deathMessage>{0} a été batt{PAWN_gender ? u : ue : u(e)} à mort.</Blunt.deathMessage>
   
   <!-- EN: crush -->
   <Crush.label>écrasement</Crush.label>
@@ -19,26 +19,26 @@
   <!-- EN: cut -->
   <Cut.label>taillade</Cut.label>
   <!-- EN: {0} has been cut to death. -->
-  <Cut.deathMessage>{0} a été taillad{0_gender ? é : ée : é(e)} à mort.</Cut.deathMessage>
+  <Cut.deathMessage>{0} a été taillad{PAWN_gender ? é : ée : é(e)} à mort.</Cut.deathMessage>
   
   <!-- EN: blunt -->
   <Poke.label>tabassé</Poke.label>
   <!-- EN: {0} has been beaten to death. -->
-  <Poke.deathMessage>{0} a été frapp{0_gender ? é : ée : é(e)} à mort.</Poke.deathMessage>
+  <Poke.deathMessage>{0} a été frapp{PAWN_gender ? é : ée : é(e)} à mort.</Poke.deathMessage>
   
   <!-- EN: scratch -->
   <Scratch.label>griffure</Scratch.label>
   <!-- EN: {0} has been torn to death. -->
-  <Scratch.deathMessage>{0} a été griff{0_gender ? é : ée : é(e)} à mort.</Scratch.deathMessage>
+  <Scratch.deathMessage>{0} a été griff{PAWN_gender ? é : ée : é(e)} à mort.</Scratch.deathMessage>
   
   <!-- EN: stab -->
   <Stab.label>coup de couteau</Stab.label>
   <!-- EN: {0} has been stabbed to death. -->
-  <Stab.deathMessage>{0} a été poignard{0_gender ? é : ée : é(e)} à mort.</Stab.deathMessage>
+  <Stab.deathMessage>{0} a été poignard{PAWN_gender ? é : ée : é(e)} à mort.</Stab.deathMessage>
   
   <!-- EN: toxic bite -->
   <ToxicBite.label>morsure venimeuse</ToxicBite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <ToxicBite.deathMessage>{0} a été mord{0_gender ? u : ue : u(e)} à mort.</ToxicBite.deathMessage>
+  <ToxicBite.deathMessage>{0} a été mord{PAWN_gender ? u : ue : u(e)} à mort.</ToxicBite.deathMessage>
   
 </LanguageData>
