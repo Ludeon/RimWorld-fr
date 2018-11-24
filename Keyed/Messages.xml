@@ -48,10 +48,10 @@
   <MessageBillComplete>Commande terminée : {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{1_label} est totalement guér{1_gender ? i : ie}.</MessageFullyHealed>
+  <MessageFullyHealed>{1_label} est totalement guér{1_gender ? i : ie : i(e)}.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>{1_gender ? Le : La} prisonni{1_gender ? er : ère} {1_labelShort} s'échappe !</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>{1_gender ? Le : La : Le/La} prisonni{1_gender ? er : ère : er/ère} {1_labelShort} s'échappe !</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} n'a trouvé aucun obus disponible à proximité pour {GUN_label}.</MessageOutOfNearbyShellsFor>
@@ -68,7 +68,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances) et l'a nomm{RECRUITEE_gender ? é : ée} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances) et l'a nomm{RECRUITEE_gender ? é : ée : é(e)} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonie ne peut pas se permettre cet échange.</MessageColonyCannotAfford>
@@ -113,7 +113,7 @@
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   
-  <MessageRefusedArrest>{1_labelShort} a refusé d'être arrêt{1_gender ? é : ée} !</MessageRefusedArrest>
+  <MessageRefusedArrest>{1_labelShort} a refusé d'être arrêt{1_gender ? é : ée : é(e)} !</MessageRefusedArrest>
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>Il n'y a aucun lit médical disponible.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
@@ -122,9 +122,9 @@
   <MessageTooLowMedCare>L'opération requiert {0} ou mieux, mais le mode de soins médicaux de {PAWN_labelShort} est "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} est décéd{1_gender ? é : ée}. Cause : {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} est décéd{1_gender ? é : ée : é(e)}. Cause : {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_labelShort} est décéd{1_gender ? é : ée}</PawnDied>
+  <PawnDied>{1_labelShort} est décéd{1_gender ? é : ée : é(e)}</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{1_label} n'est plus incapable de marcher.</MessageNoLongerDowned>
@@ -152,15 +152,15 @@
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} a nommé {1} {NAMEE_nameFull} après s'être fait câlin{NAMER_gender ? é : ée}.</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} a nommé {1} {NAMEE_nameFull} après s'être fait câlin{NAMER_gender ? é : ée : é(e)}.</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   
-  <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {ANIMAL_kindBase} (requiert niveau {1} en {2}, votre meilleu{HANDLER_gender ? r : re} dresseu{HANDLER_gender ? r : se} {HANDLER_labelShort} est niveau {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {ANIMAL_kindBase} (requiert niveau {1} en {2}, votre meilleu{HANDLER_gender ? r : re : r(e)} dresseu{HANDLER_gender ? r : se : r/se} {HANDLER_labelShort} est niveau {4}).</MessageNoHandlerSkilledEnough>
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} a été dévor{EATEN_gender ? é : ée} par {PREDATOR}.</MessageEatenByPredator>
+  <MessageEatenByPredator>{EATEN_labelShort} a été dévor{EATEN_gender ? é : ée : é(e)} par {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort} est attaqu{PREY_gender ? é : ée} par {PREDATOR} !</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} est attaqu{PREY_gender ? é : ée : é(e)} par {PREDATOR} !</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Une colonie d'insectes s'est reproduite.</MessageHiveReproduced>
@@ -169,7 +169,7 @@
   <MessageTraderCaravanLeaving>La caravane marchande de {0} quitte la colonie.</MessageTraderCaravanLeaving>
   
   <!-- EN: {1_labelShort} is dead. -->
-  <MessageCantSelectDeadPawn>{1_labelShort} est mor{1_gender ? t : te}.</MessageCantSelectDeadPawn>
+  <MessageCantSelectDeadPawn>{1_labelShort} est mor{1_gender ? t : te : t(e)}.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort} est en dehors de la carte.</MessageCantSelectOffMapPawn>
   
@@ -191,7 +191,7 @@
   <MessageNewBondRelation>Un lien s'est établi entre {HUMAN_labelShort} et {ANIMAL_labelShort}.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   
-  <MessageNewBondRelationNewName>Un lien s'est établi entre {HUMAN_labelShort} et {1}. {HUMAN_labelShort} l'a nomm{ANIMAL_gender ? é : ée} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>Un lien s'est établi entre {HUMAN_labelShort} et {1}. {HUMAN_labelShort} l'a nomm{ANIMAL_gender ? é : ée : é(e)} {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} a perdu la tête à cause de la mort de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
@@ -283,7 +283,7 @@
   <MessagePermanentWoundHealed>Grâce à {0}, {PAWN_labelShort} a guéri de {2}.</MessagePermanentWoundHealed>
 
   <!-- EN: {1_labelShort} has joined your group after being rescued! -->
-  <MessageRescueeJoined>{1_labelShort} a rejoint votre groupe après que vous l'avez sauv{1_gender ? é : ée} !</MessageRescueeJoined>
+  <MessageRescueeJoined>{1_labelShort} a rejoint votre groupe après que vous l'avez sauv{1_gender ? é : ée : é(e)} !</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>Certaines capsules de transport sont inaccessibles.</MessageTransporterUnreachable>
@@ -329,7 +329,7 @@
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   
-  <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {DESIGNATED_labelShort} rendra {BONDED_labelShort} malheureu{BONDED_gender ? x : se}.</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {DESIGNATED_labelShort} rendra {BONDED_labelShort} malheureu{BONDED_gender ? x : se : x/se}.</MessageSlaughteringBondedAnimal>
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0} est à court de nourriture ({PAWN_label})</MessageCaravanRanOutOfFood>
 
@@ -346,7 +346,7 @@
   <MessageDefendersAttacking>{0} de {1} attaquent vos {2}.</MessageDefendersAttacking>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Pour se soigner {1_objective}-même, {1_labelShort} doit être affect{1_gender ? é : ée} au travail de docteur.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Pour se soigner {1_objective}-même, {1_labelShort} doit être affect{1_gender ? é : ée : é(e)} au travail de docteur.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   
   <MessageCannotSelfTendEver>{1_labelShort} est incapable de faire le métier de docteur, et ne peut donc pas se soigner {1_objective}-même.</MessageCannotSelfTendEver>
@@ -384,12 +384,12 @@
   <MessageResearchProjectFinishedByItem>Technologie offerte : {0}.</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
-  <MessagePawnResurrected>{0} a été ramen{0_gender ? é : ée} à la vie !</MessagePawnResurrected>
+  <MessagePawnResurrected>{0} a été ramen{0_gender ? é : ée : é(e)} à la vie !</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
   <MessageFailedToRescueRelative>Vous n'avez pas réussi à sauver {PAWN_labelShort}. Cela rendra {RELATIVE_labelShort} triste.</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>Vous avez sauvé {PAWN_labelShort}. Ceci rendra {RELATIVE_labelShort} heureu{RELATIVE_gender ? x : se}.</MessageRescuedRelative>
+  <MessageRescuedRelative>Vous avez sauvé {PAWN_labelShort}. Ceci rendra {RELATIVE_labelShort} heureu{RELATIVE_gender ? x : se : x/se}.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>La tornade a quitté la région.</MessageTornadoLeftMap>
@@ -434,7 +434,7 @@
   <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>attaqué {1_labelShort}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
-  <GoodwillChangedReason_UsedItem>utilisé {ITEM_labelShort} sur {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_UsedItem>{ITEM_labelShort} utilis{ITEM_gender ? é : ée : é(e)} contre {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>opéré {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
