@@ -32,10 +32,8 @@ set -ex
 cd $(dirname $(readlink -f $0))/../..
 
 # Créer un répertoire de travail et s'assure qu'il soit supprimé à la fin
-# WORKDIR=$(mktemp -d)
-# trap "rm -rf $WORKDIR" EXIT
-WORKDIR=.tmp
-mkdir -p $WORKDIR
+WORKDIR=$(mktemp -d)
+trap "rm -rf $WORKDIR" EXIT
 
 # Force la langue pour les outils qui en tiennent compte
 export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
