@@ -105,7 +105,7 @@
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>Un homme sauvage entre dans la zone</WildManWandersIn.label>
   <!-- EN: {PAWN_kind} wanders in -->
-  <WildManWandersIn.letterLabel>Un {PAWN_kind} entre dans la zone</WildManWandersIn.letterLabel>
+  <WildManWandersIn.letterLabel>{PAWN_gender ? Un : Une : Un(e)} {PAWN_kind} entre dans la zone</WildManWandersIn.letterLabel>
   <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
   <WildManWandersIn.letterText>Une personne vivant aux côtés d'animaux sauvages vient d'entrer dans la zone. {PAWN_pronoun} s'appelle {0}.\n\nVous pouvez essayer de l'apprivoiser ou l'arrêter.</WildManWandersIn.letterText>
   
