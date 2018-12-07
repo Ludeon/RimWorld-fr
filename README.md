@@ -17,9 +17,9 @@ Cette version est sujette à amélioration.
 Elle comporte encore quelques erreurs.
 
 ### INSTALLATION ###
-1- Copiez tout le contenu dans l'archive dans votre répertoire d'installation sous /Mods/Core/Languages/
-2- Démarrez le jeu
-3- Dans les options du jeu, sélectionnez le langage fr_FR
+ 1. Copiez tout le contenu de l'archive dans votre répertoire d'installation sous /Mods/Core/Languages/
+ 2. Démarrez le jeu
+ 3. Dans les options du jeu, sélectionnez le langage "Français"
 
 ### EN CAS D'ERREUR OU DE PROPOSITION ###
 N'hésitez pas à intervenir sur le forum dédié aux traducteurs : http://ludeon.com/forums/index.php?topic=2977.0
