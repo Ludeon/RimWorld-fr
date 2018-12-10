@@ -637,21 +637,28 @@
     <li>tale_noun->un morceau d'un vaisseau ancien se crashant près de le/la [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->un morceau d'un vaisseau ancien atterrissant près de le/la [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->des parties d'un vaisseau endommagé atterrissant près de le/la [Community] de [PAWN_nameDef]</li>
-    <li>image->une essaim de [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->une armée de [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <!-- TODO : "un(e) [huge] [Mechanoid]" seul élément au singulier
+    <li>image->une essaim de [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->une armée de [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase_plural]</li>
+    <!-- NOTE : "un(e) [huge] [Mechanoid]" est le seul élément au singulier qui
       pose problème pour les deux dernières circumstance_phrase.
     -->
-    <li>image->un(e) [huge] [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] silhouettes de [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]s luisants de [Color] [circumstance_phrase]</li>
-    <li>circumstance_phrase->avançant sur un [TerrainFeature]</li>
-    <li>circumstance_phrase->encerclant le/la [Community]</li>
-    <li>circumstance_phrase->attaquant [Quantity_adjphrase] [PersonJob]</li>
-    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal]</li>
-    <li>circumstance_phrase->couverts de [Gore]</li>
-    <li>circumstance_phrase->cabossés et étincelants</li>
+    <li>image->un [huge] [Mechanoid] [circumstance_phrase_singular]</li>
+    <li>image->des [huge]s [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] silhouettes de [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s luisants de [Color] [circumstance_phrase_plural]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_p]</li>
+    <li>circumstance_phrase_s_or_p->avançant sur un(e) [TerrainFeature]</li>
+    <li>circumstance_phrase_s_or_p->encerclant le/la [Community]</li>
+    <li>circumstance_phrase_s_or_p->attaquant [Quantity_adjphrase] [PersonJob]s</li>
+    <li>circumstance_phrase_s_or_p->massacrant [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase_s->couvert de [Gore]</li>
+    <li>circumstance_phrase_s->cabossé et étincelant</li>
+    <li>circumstance_phrase_p->couverts de [Gore]</li>
+    <li>circumstance_phrase_p->cabossés et étincelants</li>
     <li>desc_sentence->[PAWN_nameDef] organise la résistance en [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] se défend avec un(e) [Weapon], [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] gît sur le sol, bléssé(e).</li>
