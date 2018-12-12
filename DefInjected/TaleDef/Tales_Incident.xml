@@ -798,23 +798,27 @@
   -->
   <ToxicFallout.rulePack.rulesStrings>
     <li>tale_noun->une retombée toxique s'abattant sur le/la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->l'atmosphere près de la [Community] de [PAWN_nameDef] devenu toxique</li>
-    <!-- TODO: problème d'accord image->circumstance_phrase
-      cas possible de pluriel pour "image" #4 et #5
-      "circumstance_phrase" au singulier pour #2 et #3
-      combinaison bizarre, par ex :
-        "le sol brillant doucement et disposé dans un motif qui rappelle la mort" ???
-        "l'air devenant épais et recouvert d'une fine poussière lumineuse" ???
-    -->
-    <li>image->un ciel menaçant, [circumstance_group]</li>
-    <li>image->l'air devenant épais et [circumstance_group]</li>
-    <li>image->le sol brillant doucement et [circumstance_group]</li>
-    <li>image->les champs de plantes mortes [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] tombes [circumstance_group]</li>
-    <li>circumstance_phrase->sans aucune vie à l'horizon</li>
-    <li>circumstance_phrase->recouvert d'une fine poussière lumineuse</li>
-    <li>circumstance_phrase->disposé dans un motif qui rappelle la mort</li>
-    <li>circumstance_phrase->attendant que le poison s'arrête</li>
+    <li>tale_noun->l'atmosphere près du/de la [Community] de [PAWN_nameDef] devenu toxique</li>
+    <!-- NOTE: dans RulePacks_Art_Descriptions.xml : circumstance_group->[circumstance_phrase] -->
+    <li>image->un ciel menaçant, [circumstance_phrase_singular]</li>
+    <li>image->l'air devenant épais et [circumstance_phrase_singular]</li>
+    <li>image->le sol brillant doucement et [circumstance_phrase_singular]</li>
+    <li>image->les champs de plantes mortes [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] tombes [circumstance_phrase_plural_fem]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_p]</li>
+    <li>circumstance_phrase_plural_fem->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_plural_fem->[circumstance_phrase_p_fem]</li>
+    <li>circumstance_phrase_s_or_p->sans aucune vie à l'horizon</li>
+    <li>circumstance_phrase_s_or_p->attendant que le poison s'arrête</li>
+    <li>circumstance_phrase_s->embrumé d'une fine poussière lumineuse</li>
+    <li>circumstance_phrase_s->dessiné dans un motif qui rappelle la mort</li>
+    <li>circumstance_phrase_p->recouverts d'une fine poussière lumineuse</li>
+    <li>circumstance_phrase_p->disposés dans un motif qui rappelle la mort</li>
+    <li>circumstance_phrase_p_fem->recouvertes d'une fine poussière lumineuse</li>
+    <li>circumstance_phrase_p_fem->disposées dans un motif qui rappelle la mort</li>
     <li>desc_sentence->[PAWN_nameDef] gît sur le sol, son corps tordu dans une position inhabituelle.</li>
     <li>desc_sentence->[PAWN_nameDef] se cache près d'un(e) [TerrainFeature], regardant d'un air [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] regarde en état de choc.</li>
