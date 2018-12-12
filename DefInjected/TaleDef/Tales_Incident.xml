@@ -850,17 +850,20 @@
   -->
   <VolcanicWinter.rulePack.rulesStrings>
     <li>tale_noun->début d'un hiver volcanique à la [Community] de [PAWN_nameDef]</li>
-    <!-- TODO: problème d'accord image->circumstance_phrase
-      cas possible de pluriel pour "image" #4 et #5
-      "circumstance_phrase" au singulier pour #2 et #3
-    -->
-    <li>image->un ciel noir et froid, [circumstance_group]</li>
-    <li>image->l'air rempli de cendres, [circumstance_group]</li>
-    <li>image->un(e) stérile [TerrainFeature] couvert(e) de givre [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] champs de plantes couvertes de cendres [circumstance_group]</li>
-    <li>circumstance_phrase->sans aucune vie à l'horizon</li>
-    <li>circumstance_phrase->à peine éclairé par de fins rayons de lumière</li>
-    <li>circumstance_phrase->brillamment éclairé par une lumière bleue froide</li>
+    <!-- TODO: "image" #3 peut être féminin -->
+    <li>image->un ciel noir et froid, [circumstance_phrase_singular]</li>
+    <li>image->l'air rempli de cendres, [circumstance_phrase_singular]</li>
+    <li>image->un(e) stérile [TerrainFeature] couvert(e) de givre [circumstance_phrase_singular]</li>
+    <li>image->[Quantity_adjphrase] champs de plantes couvertes de cendres [circumstance_phrase_plural]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_singular->[circumstance_phrase_s]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_s_or_p]</li>
+    <li>circumstance_phrase_plural->[circumstance_phrase_p]</li>
+    <li>circumstance_phrase_s_or_p->sans aucune vie à l'horizon</li>
+    <li>circumstance_phrase_s->à peine éclairé par de fins rayons de lumière</li>
+    <li>circumstance_phrase_s->brillamment éclairé par une lumière bleue froide</li>
+    <li>circumstance_phrase_p->à peine éclairés par de fins rayons de lumière</li>
+    <li>circumstance_phrase_p->brillamment éclairés par une lumière bleue froide</li>
     <li>desc_sentence->[PAWN_nameDef] se blottit près d'un feu.</li>
     <li>desc_sentence->pour garder la chaleur, [PAWN_nameDef] porte [Quantity_adjphrase] [Apparel]s.</li>
     <li>desc_sentence->[PAWN_nameDef] s'assoie à proximité, visiblement épuisé(e).</li>
