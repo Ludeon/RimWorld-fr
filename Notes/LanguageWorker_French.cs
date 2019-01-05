@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 public class LanguageWorker_French : LanguageWorker
 {
 	public override string WithIndefiniteArticle(string str, Gender gender, bool plural = false, bool name = false)
@@ -96,10 +98,30 @@ public class LanguageWorker_French : LanguageWorker
 		return "aàâäæeéèêëiîïoôöœuùüûhAÀÂÄÆEÉÈÊËIÎÏOÔÖŒUÙÜÛH".IndexOf(ch) >= 0;
 	}
 
+	private Regex ElisionE = new Regex(@"\b([cdjlmnst]|qu|quoiqu|lorsqu)e ([aàâäeéèêëiîïoôöuùüûh])", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+	private Regex ElisionLa = new Regex(@"\b(l)a ([aàâäeéèêëiîïoôöuùüûh])", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+	private Regex ElisionSi = new Regex(@"\b(s)i (ils?)\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+	private Regex DeLe = new Regex(@"\b(d)e l(es?)\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+	private Regex ALe = new Regex(@"\bà les?\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
 	private string PostProcessedInt(string str)
 	{
-		return str.Replace(" de le ", " du ")
-			.Replace(" de les ", " des ")
-			.Replace(" de des ", " des ");
+		str = ElisionE.Replace(str, "$1'$2");
+		str = ElisionLa.Replace(str, "$1'$2");
+		str = ElisionSi.Replace(str, "$1'$2");
+		str = DeLe.Replace(str, "$1$2");
+		str = ALe.Replace(str, new MatchEvaluator(ReplaceALe));
+
+		return str;
+	}
+
+	private string ReplaceALe(Match match) {
+		switch (match.ToString()) {
+			case "à le": return "au";
+			case "à les": return "aux";
+			case "\u00c0 le": return "Au";
+			case "\u00c0 les": return "Aux";
+		}
+		return match.ToString();
 	}
 }
