@@ -42,10 +42,43 @@ public class LanguageWorker_French : LanguageWorker
 		if( str.NullOrEmpty() )
 			return str;
 
-		if( str[str.Length - 1] == 's' || str[str.Length - 1] == 'x' )
+		// TODO: should str be lowercased before the tests?
+
+		// words ending with "s", "x" or "z": do not change anything
+		char last = str[str.Length - 1];
+		if( last == 's' || last == 'x' || last == 'z' )
 			return str;
-		else
-			return str + "s";
+
+		// exceptions to the next rules; only test words that could possibly be found in Rimworld
+		switch( str ) {
+			// "bail", "corail", "émail", "gemmail", "soupirail", "travail", "vantail", "vitrail": replace "ail" by "aux"
+			case "travail":
+				return str.Substring(0, str.Length - 3) + "aux";
+			// "bleu", "émeu", "landau", "lieu", "pneu", "sarrau", "bal", "banal", "fatal", "final", "festival": append "s"
+			case "bleu":
+			case "émeu":
+			case "lieu":
+			case "banal":
+			case "fatal":
+			case "final":
+				return str + "s";
+			// "bijou", "caillou", "chou", "genou", "hibou", "joujou", "pou": append "x"
+			case "bijou":
+			case "caillou":
+			case "genou":
+				return str + "x";
+		}
+
+		// words ending with "al": replace "al" by "aux"
+		if( str.EndsWith("al") )
+			return str.Substring(0, str.Length - 2) + "aux";
+
+		// words ending with "au" or "eu": append "x"
+		if( str.EndsWith("au") | str.EndsWith("eu") )
+			return str + "x";
+
+		// general case: append s
+		return str + "s";
 	}
 
 	public override string PostProcessed(string str)
