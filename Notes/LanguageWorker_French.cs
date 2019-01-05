@@ -93,7 +93,7 @@ public class LanguageWorker_French : LanguageWorker
 
 	public bool IsVowel(char ch)
 	{
-		return "iuyeøoɛœəɔaãɛ̃œ̃ɔ̃IUYEØOƐŒƏƆAÃƐ̃Œ̃Ɔ̃".IndexOf(ch) >= 0;
+		return "aàâäæeéèêëiîïoôöœuùüûhAÀÂÄÆEÉÈÊËIÎÏOÔÖŒUÙÜÛH".IndexOf(ch) >= 0;
 	}
 
 	private string PostProcessedInt(string str)
