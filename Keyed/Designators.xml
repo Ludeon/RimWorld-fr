@@ -19,24 +19,24 @@
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Désinstaller</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
-  <DesignatorUninstallDesc>Désinstalle la cible pour l'installer ailleurs ou la vendre.</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>Désinstalle la cible pour l'installer ailleurs ou l'entreposer afin de la vendre.</DesignatorUninstallDesc>
 
   <!-- EN: Harvest -->
   <DesignatorHarvest>Récolter</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
-  <DesignatorHarvestDesc>Marque les plantes à récolter.</DesignatorHarvestDesc>
+  <DesignatorHarvestDesc>Désigne les plantes à récolter.</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
   <DesignatorHarvestWood>Couper du bois</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
-  <DesignatorHarvestWoodDesc>Marque les arbres à abattre pour récolter leur bois.</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>Désigne les arbres à abattre pour récolter leur bois.</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
   <DesignatorHaulThings>Transporter</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>Marque les gravats et d'autres objets devant être transportés vers les décharges. Inutile pour la nourriture et les cadavres qui sont automatiquement désignés comme "à transporter".</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>Désigne les gravats et d'autres objets devant être transportés vers les décharges. Inutile pour la nourriture et les cadavres qui sont automatiquement désignés comme "à transporter".</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>Peut seulement désigner les choses transportables mais qui ne sont pas transportées automatiquqment (comme les gravats).</MustHaulHaulables>
+  <MustHaulHaulables>Peut seulement désigner des éléments transportables mais qui ne sont pas transportées automatiquqment (comme les gravats).</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Chasser</DesignatorHunt>
@@ -66,31 +66,31 @@
   <!-- EN: Forbid -->
   <DesignatorForbid>Interdire</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>Marquer un objet comme étant interdit. Les colons ne pourront plus interagir avec l'objet désigné.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>Désigne un objet comme étant interdit. Les colons ne pourront plus interagir avec l'objet en question.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
   <DesignatorUnforbid>Autoriser</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>Désigne un objet comme étant autorisé. Les colons pourront interagir avec l'objet désigné.</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>Désigne un objet comme étant autorisé. Les colons pourront interagir avec l'objet en question.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Étendre la zone de base</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
   <DesignatorAreaHomeExpandDesc>Les colons répareront les constructions, nettoieront les sols et combattront les incendies dans la zone de base.</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
-  <DesignatorAreaHomeClear>Rapetisser la zone de base</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClear>Réduire la zone de base</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>Réduit la zone de base. Les colons ne nettoieront ni n'effectueront plus de réparations et ne lutteront pas contre les incendies.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>Les colons ne nettoieront plus les sols ni n'effectueront de réparations et ne lutteront pas contre les incendies.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Étendre la zone de couverture</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>\nLes colons couvriront un toit sur cette zone.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>\nLes colons couvriront d'un toit la zone.</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Étendre la zone à ciel ouvert</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Les colons ne couvriront pas cette zone d'un toit. Ils retiront le toit existant si la zone est déjà couverte (sauf en dessous des montagnes).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Les colons ne couvriront pas la zone d'un toit. Ils retiront le toit existant si la zone est déjà couverte (sauf en dessous des montagnes).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignorer la zone de plafond</DesignatorAreaIgnoreRoofExpand>
@@ -104,7 +104,7 @@
   <!-- EN: Clear snow clear Area -->
   <DesignatorAreaSnowClearClear>Retirer la zone de déneigement</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>\nSupprime une zone de déneigement. Les colons ne déblayeront plus la neige de cette zone.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>\nSupprime une zone oú les colons ne déblayeront plus la neige.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>Étendre une zone autorisée</DesignatorExpandAreaAllowed>
