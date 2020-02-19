@@ -907,12 +907,12 @@
   <!-- EN: porte automatique (construction) -->
   <Frame_Autodoor.label>une porte automatique</Frame_Autodoor.label>
   <!-- EN: Sépare les pièces. Permet aux personnes de les traverser sans ralentir. -->
-  <Frame_Autodoor.description>Sépare les pièces. Permet aux personnes de les traverser sans ralentir.</Frame_Autodoor.description>
+  <Frame_Autodoor.description>Sépare les pièces. Permet de les traverser sans ralentir si connectées au réseau électrique.</Frame_Autodoor.description>
   
   <!-- EN: batterie (construction) -->
   <Frame_Battery.label>une batterie</Frame_Battery.label>
-  <!-- EN: Stocke l'électricité quand un surplus est produit et le distribue quand ce n'est pas le cas. Attention, les batteries pleines risquent d'exploser si elles sont exposées au feu ou à la pluie. -->
-  <Frame_Battery.description>Stocke l'électricité quand un surplus est produit et le distribue quand ce n'est pas le cas. Attention, les batteries pleines risquent d'exploser si elles sont exposées au feu ou à la pluie.</Frame_Battery.description>
+  <!-- EN: Stocke l'électricité quand un surplus est produit et le distribue en cas de besoin. Attention, les batteries pleines risquent d'exploser si elles sont exposées au feu ou à la pluie. -->
+  <Frame_Battery.description>Stocke l'électricité lors d'un surplus et le distribue au réseau électrique si nécessaire. Attention, les batteries pleines risquent d'exploser si elles sont exposées au feu ou à la pluie.</Frame_Battery.description>
   
   <!-- EN: lit (construction) -->
   <Frame_Bed.label>un lit</Frame_Bed.label>
@@ -922,15 +922,15 @@
   <!-- EN: sac de couchage (construction) -->
   <Frame_Bedroll.label>sac de couchage</Frame_Bedroll.label>
   <!-- EN: Un simple lit posé sur le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Il est léger et peut être enroulé pour faciliter le transport, mais il n'est pas aussi confortable qu'un lit normal. -->
-  <Frame_Bedroll.description>Un simple lit posé sur le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Il est léger et peut être enroulé pour faciliter le transport, mais il n'est pas aussi confortable qu'un lit normal.</Frame_Bedroll.description>
+  <Frame_Bedroll.description>Un sac de couchage posé à même le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Léger, il peut être enroulé pour faciliter son transport, mais n'est pas aussi confortable qu'un lit normal.</Frame_Bedroll.description>
   
   <!-- EN: sac de couchage double (construction) -->
   <Frame_BedrollDouble.label>sac de couchage double</Frame_BedrollDouble.label>
   <!-- EN: Un simple lit pour deux personnes posé sur le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Il est léger et peut être enroulé pour faciliter le transport, mais il n'est pas aussi confortable qu'un lit normal. -->
-  <Frame_BedrollDouble.description>Un simple lit pour deux personnes posé sur le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Il est léger et peut être enroulé pour faciliter le transport, mais il n'est pas aussi confortable qu'un lit normal.</Frame_BedrollDouble.description>
+  <Frame_BedrollDouble.description>Un sac de couchage pour deux personnes posé à même le sol, généralement en tissu ou en cuir, souvent doublé de fourrure. Léger, il peut être enroulé pour faciliter son transport, mais n'est pas aussi confortable qu'un lit normal.</Frame_BedrollDouble.description>
   
   <!-- EN: table de billard (construction) -->
-  <Frame_BilliardsTable.label>une table de billard </Frame_BilliardsTable.label>
+  <Frame_BilliardsTable.label>une table de billard.\nPour être praticable, la table doit avoir une zone libre tout autour.</Frame_BilliardsTable.label>
   <!-- EN: Une table aux bordures douces pour jouer à divers types de jeux de billard. -->
   <Frame_BilliardsTable.description>Une table aux bordures douces pour jouer à divers types de jeux de billard.</Frame_BilliardsTable.description>
   
@@ -941,8 +941,8 @@
   
   <!-- EN: établi de brassage (construction) -->
   <Frame_Brewery.label>établi de brassage</Frame_Brewery.label>
-  <!-- EN: Une station de travail avec tout le nécessaire pour brasser le moût. Ce moût doit ensuite fermenter dans un baril pour produire de la bière. -->
-  <Frame_Brewery.description>Une station de travail avec tout le nécessaire pour brasser le moût. Ce moût doit ensuite fermenter dans un baril pour produire de la bière.</Frame_Brewery.description>
+  <!-- EN: Une station de travail avec tout le nécessaire pour brasser le moût qui doit ensuite fermenter dans un baril de fermentation pour produire de la bière. -->
+  <Frame_Brewery.description>Une station de travail avec tout le nécessaire pour brasser le moût qui doit ensuite fermenter dans un baril de fermentation pour produire de la bière.</Frame_Brewery.description>
   
   <!-- EN: pont (construction) -->
   <Frame_Bridge.label>pont (construction)</Frame_Bridge.label>
@@ -951,13 +951,13 @@
   
   <!-- EN: lieu de dépeçage (construction) -->
   <Frame_ButcherSpot.label>lieu de dépeçage</Frame_ButcherSpot.label>
-  <!-- EN: Un endroit pour dépecer des créatures. Â cause du manque d'équipement, le dépeçage ici ne donne que 70% de la viande et du cuir de chaque créature. -->
-  <Frame_ButcherSpot.description>Un endroit pour dépecer les animaux. En raison du manque d'équipement, le dépeçage ici ne donne que 70% de la viande et du cuir de chaque créature.</Frame_ButcherSpot.description>
+  <!-- EN: Un endroit pour dépecer des créatures. Dû au manque d'équipement, le dépeçage ici ne donne que 70% de la viande et du cuir de chaque créature. -->
+  <Frame_ButcherSpot.description>Un endroit pour dépecer les animaux. Dû au manque d'équipement, le dépeçage ici ne donne que 70% de la viande et du cuir de chaque créature.</Frame_ButcherSpot.description>
   
   <!-- EN: feu de camp (construction) -->
   <Frame_Campfire.label>un feu de camp</Frame_Campfire.label>
-  <!-- EN: Une source de chaleur temporaire utilisable pour la cuisine, qui brûle pendant quelques jours. Comme toutes les sources de chaleur, il doit être placé en intérieur pour réchauffer un lieu clos. Peut être réalimenté en bois. -->
-  <Frame_Campfire.description>Une source de chaleur temporaire utilisable pour la cuisine, qui brûle pendant quelques jours. Comme toutes les sources de chaleur, il doit être placé en intérieur pour réchauffer un lieu clos. Peut être réalimenté en bois.</Frame_Campfire.description>
+  <!-- EN: Une source de chaleur temporaire utilisable pour la cuisine qui brûle pendant quelques jours. Comme toutes sources de chaleur, elle doit être placée en intérieur pour réchauffer un lieu clos. Se réalimente avec du bois. -->
+  <Frame_Campfire.description>Une source de chaleur temporaire utilisable pour la cuisine, qui brûle pendant quelques jours. Comme toutes les sources de chaleur, il doit être placé en intérieur pour réchauffer un lieu clos. Se réalimente avec du bois.</Frame_Campfire.description>
   
   <!-- EN: zone de chargement de la caravane (construction) -->
   <Frame_CaravanPackingSpot.label>une zone de chargement de la caravane</Frame_CaravanPackingSpot.label>
@@ -1001,8 +1001,8 @@
   
   <!-- EN: console de communication (construction) -->
   <Frame_CommsConsole.label>une console de communication</Frame_CommsConsole.label>
-  <!-- EN: Permet le contact radio avec les commerçants distants ainsi que d'autres factions, pour le commerce et la diplomatie. -->
-  <Frame_CommsConsole.description>Permet le contact radio avec les commerçants distants ainsi que d'autres factions, pour le commerce et la diplomatie.</Frame_CommsConsole.description>
+  <!-- EN: Permet le contact radio avec les commerçants distants et les autres factions, pour le commerce et la diplomatie. -->
+  <Frame_CommsConsole.description>Permet le contact radio avec les commerçants et les autres factions, pour le commerce et la diplomatie.</Frame_CommsConsole.description>
   
   <!-- EN: dalle en béton (construction) -->
   <Frame_Concrete.label>béton (sol)</Frame_Concrete.label>
@@ -1011,8 +1011,8 @@
   
   <!-- EN: climatiseur (construction) -->
   <Frame_Cooler.label>un climatiseur</Frame_Cooler.label>
-  <!-- EN: Un appareil électrique qui souffle de l'air froid et s'insère dans un mur. Sa sortie génère beaucoup de chaleur. Utile pour rafraîchir les pièces les chaudes journées d'été, ou pour créer une chambre froide. -->
-  <Frame_Cooler.description>Un appareil électrique qui souffle de l'air froid et s'insère dans un mur. Sa sortie génère beaucoup de chaleur. Utile pour rafraîchir les pièces les chaudes journées d'été, ou pour créer une chambre froide.</Frame_Cooler.description>
+  <!-- EN: Un appareil électrique qui souffle de l'air froid et s'insère entre deux murs. Sa sortie génère beaucoup de chaleur. Rafraîchit les pièces chaudes durant les journées d'été ou crée une chambre froide. -->
+  <Frame_Cooler.description>Un appareil électrique qui souffle de l'air froid et s'insère dans un mur. Sa sortie génère beaucoup de chaleur. Rafraîchit les pièces chaudes durant les journées d'été ou crée une chambre froide.</Frame_Cooler.description>
   
   <!-- EN: lieu d'assemblage (construction) -->
   <Frame_CraftingSpot.label>lieu d'assemblage</Frame_CraftingSpot.label>
@@ -1036,8 +1036,8 @@
   
   <!-- EN: porte (construction) -->
   <Frame_Door.label>une porte</Frame_Door.label>
-  <!-- EN: Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes. Le niveau de ralentissement dépend du matériau de construction de la porte. -->
-  <Frame_Door.description>Sépare les pièces. Doit être actionnée manuellement, ce qui ralentit les personnes. Le niveau de ralentissement dépend du matériau de construction de la porte.</Frame_Door.description>
+  <!-- EN: Sépare les pièces. Doit être ouverte manuellement, ce qui ralentit son passage. Le niveau de ralentissement dépend du matériau de construction de la porte. -->
+  <Frame_Door.description>Sépare les pièces. Doit être ouverte manuellement, ce qui ralentit son passage. Le niveau de ralentissement dépend du matériau de construction de la porte.</Frame_Door.description>
   
   <!-- EN: lit double (construction) -->
   <Frame_DoubleBed.label>un lit double</Frame_DoubleBed.label>
@@ -1056,8 +1056,8 @@
   
   <!-- EN: laboratoire chimique (construction) -->
   <Frame_DrugLab.label>laboratoire chimique</Frame_DrugLab.label>
-  <!-- EN: Un banc de travail équipé de divers récipients, de réchauffeurs, et d'équipements de mesure pour produire une variété de médicaments. -->
-  <Frame_DrugLab.description>Un banc de travail équipé de divers récipients, de réchauffeurs, et d'équipements de mesure pour produire une variété de médicaments.</Frame_DrugLab.description>
+  <!-- EN: Établi de travail équipé de divers récipients, de réchauffeurs, et d'équipements de mesure pour produire une variété de médicaments ou de drogues. -->
+  <Frame_DrugLab.description>Établi de travail équipé de divers récipients, de réchauffeurs, et d'équipements de mesure pour produire une variété de médicaments.</Frame_DrugLab.description>
   
   <!-- EN: four crématoire électrique (construction) -->
   <Frame_ElectricCrematorium.label>four crématoire électrique</Frame_ElectricCrematorium.label>
@@ -1071,18 +1071,18 @@
   
   <!-- EN: établi de forgeron électrique (construction) -->
   <Frame_ElectricSmithy.label>établi de forgeron électrique</Frame_ElectricSmithy.label>
-  <!-- EN: Un établi qui fonctionne à l'électricité pour forger et assembler des armes et des outils sans mécanismes. -->
-  <Frame_ElectricSmithy.description>Un établi qui fonctionne à l'électricité pour forger et assembler des armes et des outils sans mécanismes.</Frame_ElectricSmithy.description>
+  <!-- EN: Un établi fonctionnant à l'électricité pour forger et assembler des armes et des outils sans mécanismes. -->
+  <Frame_ElectricSmithy.description>Un établi fonctionnant à l'électricité pour forger et assembler des armes et des outils sans mécanismes.</Frame_ElectricSmithy.description>
   
   <!-- EN: cuisinière électrique (construction) -->
   <Frame_ElectricStove.label>cuisinière électrique</Frame_ElectricStove.label>
-  <!-- EN: Une cuisinière qui fonctionne à l'électricité, avec un plan de travail pour cuisiner des repas. -->
-  <Frame_ElectricStove.description>Une cuisinière qui fonctionne à l'électricité, avec un plan de travail pour cuisiner des repas.</Frame_ElectricStove.description>
+  <!-- EN: Une cuisinière qui fonctionne à l'électricité, avec un plan de travail pour préparer les repas. -->
+  <Frame_ElectricStove.description>Une cuisinière qui fonctionne à l'électricité, avec un plan de travail pour préparer les repas.</Frame_ElectricStove.description>
   
   <!-- EN: établi de tissage électrique (construction) -->
   <Frame_ElectricTailoringBench.label>établi de tissage électrique</Frame_ElectricTailoringBench.label>
-  <!-- EN: Un établi avec une machine à tisser pour une conception rapide de vêtements. Peut fonctionner sans électricité, à 50% de sa vitesse normale. -->
-  <Frame_ElectricTailoringBench.description>Un établi avec une machine à tisser pour une conception rapide de vêtements. Peut fonctionner sans électricité, à 50% de sa vitesse normale.</Frame_ElectricTailoringBench.description>
+  <!-- EN: Un établi avec une machine à tisser pour une conception rapide de vêtements. Peut fonctionner sans électricité, mais à 50% de sa vitesse normale. -->
+  <Frame_ElectricTailoringBench.description>Un établi avec une machine à tisser pour une conception rapide de vêtements. Peut fonctionner sans électricité, mais à 50% de sa vitesse normale.</Frame_ElectricTailoringBench.description>
   
   <!-- EN: table de nuit (construction) -->
   <Frame_EndTable.label>table de nuit</Frame_EndTable.label>
@@ -1101,8 +1101,8 @@
   
   <!-- EN: extincteur à mousse (construction) -->
   <Frame_FirefoamPopper.label>extincteur à mousse</Frame_FirefoamPopper.label>
-  <!-- EN: De la mousse anti-incendie est projetée et diffusée dans un cercle autour de cet extincteur, lorsque celui-ci est en contact de flammes ou est activé à la main. -->
-  <Frame_FirefoamPopper.description>De la mousse anti-incendie est projetée et diffusée dans un cercle autour de cet extincteur, lorsque celui-ci est en contact de flammes ou est activé à la main.</Frame_FirefoamPopper.description>
+  <!-- EN: De la mousse anti-incendie projetée et diffusée dans un cercle autour de l'extincteur lorsque celui-ci est en contact avec du feu. Peut être activé à la main. -->
+  <Frame_FirefoamPopper.description>De la mousse anti-incendie projetée et diffusée dans un cercle autour de l'extincteur lorsque celui-ci est en contact avec du feu. Peut être activé à la main.</Frame_FirefoamPopper.description>
   
   <!-- EN: pavés en granit (construction) -->
   <Frame_FlagstoneGranite.label>dalle de granite (sol)</Frame_FlagstoneGranite.label>
@@ -1131,18 +1131,18 @@
   
   <!-- EN: télévision à écran plat (construction) -->
   <Frame_FlatscreenTelevision.label>télévision à écran plat (construction)</Frame_FlatscreenTelevision.label>
-  <!-- EN: Un écran plat de télévision haute technologie, avec une image limpide et des couleurs intenses. Plus divertissant qu'une télé à écran cathodique à l'image granuleuse. -->
+  <!-- EN: Un écran plat de haute technologie, avec une image limpide et des couleurs intenses. Plus divertissant qu'une télé à écran cathodique à l'image granuleuse. -->
   <Frame_FlatscreenTelevision.description>Un écran plat de télévision haute technologie, avec une image limpide et des couleurs intenses. Plus divertissant qu'une télé à écran cathodique à l'image granuleuse.</Frame_FlatscreenTelevision.description>
   
   <!-- EN: établi de forgeron à combustible (construction) -->
   <Frame_FueledSmithy.label>établi de forgeron à combustible</Frame_FueledSmithy.label>
-  <!-- EN: Un établi qui fonctionne par la combustion de bois pour forger et assembler des armes et des outils sans mécanismes. -->
-  <Frame_FueledSmithy.description>Un établi qui fonctionne par la combustion de bois pour forger et assembler des armes et des outils sans mécanismes.</Frame_FueledSmithy.description>
+  <!-- EN: Un établi qui fonctionne par la combustion de bois pour forger et assembler des armes et des outils sans mécanisme. -->
+  <Frame_FueledSmithy.description>Un établi qui fonctionne par la combustion de bois pour forger et assembler des armes et des outils sans mécanisme.</Frame_FueledSmithy.description>
   
   <!-- EN: cuisinière à bois (construction) -->
   <Frame_FueledStove.label>cuisinière à bois</Frame_FueledStove.label>
-  <!-- EN: Une cuisinière qui fonctionne au bois, avec un plan de travail pour cuisiner des repas. -->
-  <Frame_FueledStove.description>Une cuisinière qui fonctionne au bois, avec un plan de travail pour cuisiner des repas.</Frame_FueledStove.description>
+  <!-- EN: Une cuisinière qui fonctionne au bois, avec un plan de travail pour préparer les repas. -->
+  <Frame_FueledStove.description>Une cuisinière qui fonctionne au bois, avec un plan de travail pour préparer les repas.</Frame_FueledStove.description>
   
   <!-- EN: plateau de jeu de Ur (construction) -->
   <Frame_GameOfUrBoard.label>plateau du jeu de Ur (construction)</Frame_GameOfUrBoard.label>
@@ -1161,38 +1161,38 @@
   
   <!-- EN: tombe (construction) -->
   <Frame_Grave.label>une tombe</Frame_Grave.label>
-  <!-- EN: La dernière demeure des morts, pour leur offrir un lieu de repos digne. Les colons visiteront ces tombes pour méditer et obtenir de la joie. -->
-  <Frame_Grave.description>La dernière demeure des morts, pour leur offrir un lieu de repos digne. Les colons visiteront ces tombes pour méditer et obtenir de la joie.</Frame_Grave.description>
+  <!-- EN: La dernière demeure des morts, pour leur offrir un digne lieu de repos. Les colons visiteront ces tombes pour méditer et obtenir de la joie. -->
+  <Frame_Grave.description>La dernière demeure des morts, pour leur offrir un digne lieu de repos. Les colons visiteront ces tombes pour méditer et obtenir de la joie.</Frame_Grave.description>
   
   <!-- EN: scanner géologique (construction) -->
   <Frame_GroundPenetratingScanner.label>un scanner géologique</Frame_GroundPenetratingScanner.label>
-  <!-- EN: Un radar tourné vers le sol, associé à de l'imagerie magnétique, qui vous permet de détecter (mais sans les identifier) les minéraux enfouis profondément dans le sol. Requiert énormément d'électricité. -->
-  <Frame_GroundPenetratingScanner.description>Un radar tourné vers le sol, associé à de l'imagerie magnétique, qui vous permet de détecter (mais sans les identifier) les minéraux enfouis profondément dans le sol. Requiert énormément d'électricité.</Frame_GroundPenetratingScanner.description>
+  <!-- EN: Un radar tourné vers le sol, associé à de l'imagerie magnétique révélant l'emplacement des minéraux enfouis profondément dans le sol (ne les identifie pas). Requiert énormément d'électricité. -->
+  <Frame_GroundPenetratingScanner.description>Un radar tourné vers le sol, associé à de l'imagerie magnétique révélant l'emplacement des minéraux enfouis profondément dans le sol (ne les identifie pas). Requiert énormément d'électricité.</Frame_GroundPenetratingScanner.description>
   
   <!-- EN: établi de tissage manuel (construction) -->
   <Frame_HandTailoringBench.label>établi de tissage manuel</Frame_HandTailoringBench.label>
-  <!-- EN: Un établi pour concevoir des vêtements à la main. Permet d'atteindre 50% de la vitesse d'un établi de tissage électrique. -->
-  <Frame_HandTailoringBench.description>Un établi pour concevoir des vêtements à la main. Permet d'atteindre 50% de la vitesse d'un établi de tissage électrique.</Frame_HandTailoringBench.description>
+  <!-- EN: Un établi pour coudre et broder des vêtements à la main. Permet d'atteindre 50% de la vitesse d'un établi de tissage électrique. -->
+  <Frame_HandTailoringBench.description>Un établi pour coudre et broder des vêtements à la main. Permet d'atteindre 50% de la vitesse d'un établi de tissage électrique.</Frame_HandTailoringBench.description>
   
   <!-- EN: radiateur (construction) -->
   <Frame_Heater.label>un radiateur</Frame_Heater.label>
-  <!-- EN: Un radiateur électrique. Un thermostat peut être réglé pour maintenir automatiquement une température donnée. -->
-  <Frame_Heater.description>Un radiateur électrique. Un thermostat peut être réglé pour maintenir automatiquement une température donnée.</Frame_Heater.description>
+  <!-- EN: Un radiateur électrique muni d'un thermostat pour régler automatiquement une température ciblée. -->
+  <Frame_Heater.description>Un radiateur électrique. Un radiateur électrique muni d'un thermostat pour régler automatiquement une température ciblée.</Frame_Heater.description>
   
   <!-- EN: poste hi-tech de recherche (construction) -->
   <Frame_HiTechResearchBench.label>poste hi-tech de recherche</Frame_HiTechResearchBench.label>
-  <!-- EN: Un poste de recherche moderne avec de l'équipement informatique et de quoi faire des mesures très précises. Le travail de recherche est accéléré par la présence d'équipement de haute technologie. A besoin d'être alimenté. -->
-  <Frame_HiTechResearchBench.description>Un poste moderne avec de l'équipement informatique et de quoi faire des mesures très précises. Le travail de recherche est accéléré par la présence d'équipement de haute technologie. A besoin d'être alimenté.</Frame_HiTechResearchBench.description>
+  <!-- EN: Un poste de recherche moderne comprenant de l'équipement informatique et de quoi faire des mesures très précises. Le travail de recherche est accéléré par la présence d'équipement de haute technologie. A besoin d'être alimenté. -->
+  <Frame_HiTechResearchBench.description>Un poste moderne comprenant de l'équipement informatique et de quoi faire des mesures très précises. Le travail de recherche est accéléré par la présence d'équipement de haute technologie. A besoin d'être alimenté.</Frame_HiTechResearchBench.description>
   
   <!-- EN: jeu du lancer de cailloux (construction) -->
   <Frame_HoopstoneRing.label>un jeu du lancer de cailloux</Frame_HoopstoneRing.label>
-  <!-- EN: Un jeu antique simple joué avec quelques pierres et un grand cercle sur le sol. Les joueurs lancent des pierres à distance et tentent de les faire atterrir à l'intérieur du cercle. C'est relaxant, et forme même la coordination œil-main. -->
-  <Frame_HoopstoneRing.description>Un jeu antique simple joué avec quelques pierres et un grand cercle sur le sol. Les joueurs lancent des pierres à distance et tentent de les faire atterrir à l'intérieur du cercle. C'est relaxant, et forme même la coordination œil-main.</Frame_HoopstoneRing.description>
+  <!-- EN: Un simple jeu antique qui se joue avec quelques pierres et un grand cercle sur le sol. Les joueurs lancent des pierres et tentent de les placer à l'intérieur du cercle. Relaxant, cela forme la coordination œil-main. -->
+  <Frame_HoopstoneRing.description>Un simple jeu antique qui se joue avec quelques pierres et un grand cercle sur le sol. Les joueurs lancent des pierres et tentent de les placer à l'intérieur du cercle. Relaxant, cela forme même la coordination œil-main.</Frame_HoopstoneRing.description>
   
   <!-- EN: réservoir (construction) -->
   <Frame_Hopper.label>réservoir</Frame_Hopper.label>
-  <!-- EN: Conserve la nourriture pour alimenter des machines comme le distributeur de pâte nutritive. -->
-  <Frame_Hopper.description>Conserve la nourriture pour alimenter des machines comme le distributeur de pâte nutritive.</Frame_Hopper.description>
+  <!-- EN: Conserve la nourriture pour alimenter le distributeur de pâte nutritive. -->
+  <Frame_Hopper.description>Conserve la nourriture pour alimenter le distributeur de pâte nutritive.</Frame_Hopper.description>
   
   <!-- EN: piquet de fer à cheval (construction) -->
   <Frame_HorseshoesPin.label>un piquet de fer à cheval</Frame_HorseshoesPin.label>
@@ -1201,8 +1201,8 @@
   
   <!-- EN: lit médicalisé (construction) -->
   <Frame_HospitalBed.label>un lit médicalisé</Frame_HospitalBed.label>
-  <!-- EN: Un lit spécialement conçu pour les personnes blessées. Améliore les chances d'un traitement réussi. -->
-  <Frame_HospitalBed.description>Un lit spécialement conçu pour les personnes blessées. Améliore les chances d'un traitement réussi.</Frame_HospitalBed.description>
+  <!-- EN: Un lit spécialement conçu pour les personnes blessées. Améliore les chances de réussite d'un traitement. -->
+  <Frame_HospitalBed.description>Un lit spécialement conçu pour les personnes blessées. Améliore les chances de réussite d'un traitement.</Frame_HospitalBed.description>
   
   <!-- EN: bassin hydroponique (construction) -->
   <Frame_HydroponicsBasin.label>bassin hydroponique</Frame_HydroponicsBasin.label>
@@ -1231,8 +1231,8 @@
   
   <!-- EN: multi-analyseur (construction) -->
   <Frame_MultiAnalyzer.label>un multi-analyseur</Frame_MultiAnalyzer.label>
-  <!-- EN: Augmente la vitesse de recherche. Doit être placé près d'un poste high-tech recherche. Un poste de recherche ne peut être lié qu'à un seul multi-analyseur. -->
-  <Frame_MultiAnalyzer.description>Augmente la vitesse de recherche. Doit être placé près d'un poste de recherche high-tech. Un poste de recherche ne peut être lié qu'à un seul multi-analyseur.</Frame_MultiAnalyzer.description>
+  <!-- EN: Augmente la vitesse de recherche. Doit être placé près d'un poste high-tech de recherche. Un poste de recherche ne peut être lié qu'à un seul multi-analyseur. -->
+  <Frame_MultiAnalyzer.description>Augmente la vitesse de recherche. Doit être placé près d'un poste high-tech de recherche. Un poste de recherche ne peut être lié qu'à un seul multi-analyseur.</Frame_MultiAnalyzer.description>
   
   <!-- EN: distributeur de pâte nutritive (construction) -->
   <Frame_NutrientPasteDispenser.label>distributeur de pâte nutritive</Frame_NutrientPasteDispenser.label>
@@ -1246,8 +1246,8 @@
   
   <!-- EN: zone de fête (construction) -->
   <Frame_PartySpot.label>une zone de fête</Frame_PartySpot.label>
-  <!-- EN: Désigne un lieu autour duquel des fêtes pourront s'organiser. Les fêtes s'étalent autour de cette zone. -->
-  <Frame_PartySpot.description>Désigne un lieu autour duquel des fêtes pourront s'organiser. Les fêtes s'étalent autour de cette zone.</Frame_PartySpot.description>
+  <!-- EN: Désigne un lieu autour duquel des fêtes pourront s'organiser. Les fêtes se célèbrent autour de cette zone. -->
+  <Frame_PartySpot.description>Désigne un lieu autour duquel des fêtes pourront s'organiser. Les fêtes se célèbrent autour de cette zone.</Frame_PartySpot.description>
   
   <!-- EN: refroidisseur passif (construction) -->
   <Frame_PassiveCooler.label>un refroidisseur passif</Frame_PassiveCooler.label>
@@ -1271,8 +1271,8 @@
   
   <!-- EN: table de poker (construction) -->
   <Frame_PokerTable.label>une table de poker</Frame_PokerTable.label>
-  <!-- EN: Une table conçue pour jouer à des jeux de cartes, principalement au poker. Une excellente façon de tester vos compétences stratégiques et un peu de chance. -->
-  <Frame_PokerTable.description>Une table conçue pour jouer à des jeux de cartes, principalement au poker. Une excellente façon de tester vos compétences stratégiques et un peu de chance.</Frame_PokerTable.description>
+  <!-- EN: Une table conçue pour jouer à des jeux de cartes, principalement au poker. Une excellente façon de tester les compétences stratégiques et la chance. -->
+  <Frame_PokerTable.description>Une table conçue pour jouer à des jeux de cartes, principalement au poker. Une excellente façon de tester les compétences stratégiques et la chance.</Frame_PokerTable.description>
   
   <!-- EN: câble électrique (construction) -->
   <Frame_PowerConduit.label>un câble électrique</Frame_PowerConduit.label>
@@ -1282,12 +1282,12 @@
   <!-- EN: interrupteur (construction) -->
   <Frame_PowerSwitch.label>un interrupteur</Frame_PowerSwitch.label>
   <!-- EN: Coupe ou rétablit le courant. -->
-  <Frame_PowerSwitch.description>Coupe ou rétablit le courant.</Frame_PowerSwitch.description>
+  <Frame_PowerSwitch.description>Coupe ou rétablit le courant. Nécessite l'intervention d'un colon</Frame_PowerSwitch.description>
   
   <!-- EN: lit royal (construction) -->
   <Frame_RoyalBed.label>un lit royal</Frame_RoyalBed.label>
-  <!-- EN: Un lit luxueux, incrusté d'or, pour les personnes de haut rang. Très confortable et beau. Pour deux. -->
-  <Frame_RoyalBed.description>Un lit luxueux, incrusté d'or, pour les personnes de haut rang. Très confortable et beau. Pour deux.</Frame_RoyalBed.description>
+  <!-- EN: Un lit luxueux, incrusté d'or, pour les personnes de haut rang. Beau et très confortable. Pour deux personnes. -->
+  <Frame_RoyalBed.description>Un lit luxueux, incrusté d'or, pour les personnes de haut rang. Beau et très confortable. Pour deux personnes.</Frame_RoyalBed.description>
   
   <!-- EN: sacs de sable (construction) -->
   <Frame_Sandbags.label>un sac de sable</Frame_Sandbags.label>
@@ -1301,8 +1301,8 @@
   
   <!-- EN: étagère (construction) -->
   <Frame_Shelf.label>une étagère</Frame_Shelf.label>
-  <!-- EN: Les objets qui y sont stockés ne se détérioreront pas, même si elle est placée à l'extérieur. -->
-  <Frame_Shelf.description>Les objets qui y sont stockés ne se détérioreront pas, même si elle est placée à l'extérieur.</Frame_Shelf.description>
+  <!-- EN: Les objets qui y sont stockés ne se détérioreront pas, même si l'étagère est placée à l'extérieur. -->
+  <Frame_Shelf.description>Les objets qui y sont stockés ne se détérioreront pas, même si l'étagère est placée à l'extérieur.</Frame_Shelf.description>
   
   <!-- EN: armature de vaisseau (construction) -->
   <Frame_Ship_Beam.label>une armature de vaisseau</Frame_Ship_Beam.label>
@@ -1311,8 +1311,8 @@
   
   <!-- EN: noyau central de l'ordinateur de bord (construction) -->
   <Frame_Ship_ComputerCore.label>un noyau central de l'ordinateur de bord</Frame_Ship_ComputerCore.label>
-  <!-- EN: Un noyau d'ordinateur capable d'accueillir une IA surhumaine, qui peut guider le vaisseau au travers de tous les dangers. -->
-  <Frame_Ship_ComputerCore.description>Un noyau d'ordinateur capable d'accueillir une IA surhumaine, qui peut guider le vaisseau au travers de tous les dangers.</Frame_Ship_ComputerCore.description>
+  <!-- EN: Un noyau d'ordinateur capable d'accueillir une IA surhumaine pouvant guider le vaisseau au travers de tous dangers. -->
+  <Frame_Ship_ComputerCore.description>Un noyau d'ordinateur capable d'accueillir une IA surhumaine pouvant guider le vaisseau au travers de tous dangers.</Frame_Ship_ComputerCore.description>
   
   <!-- EN: capsule d'hypersommeil (construction) -->
   <Frame_Ship_CryptosleepCasket.label>une capsule d'hypersommeil</Frame_Ship_CryptosleepCasket.label>
@@ -1331,7 +1331,7 @@
   
   <!-- EN: capteur (construction) -->
   <Frame_Ship_SensorCluster.label>capteur</Frame_Ship_SensorCluster.label>
-  <!-- EN: Un module de détection multifonction, sondant le vide pour chercher les dangers et les opportunités. -->
+  <!-- EN: Un module de détection multifonctions, sondant le vide pour chercher les dangers et les opportunités. -->
   <Frame_Ship_SensorCluster.description>Un module de détection multifonction, sondant le vide pour chercher les dangers et les opportunités.</Frame_Ship_SensorCluster.description>
   
   <!-- EN: carrelage en argent (construction) -->
@@ -1346,8 +1346,8 @@
   
   <!-- EN: lieu de couchage (construction) -->
   <Frame_SleepingSpot.label>un lieu de couchage</Frame_SleepingSpot.label>
-  <!-- EN: Désigne un lieu au sol où une personne peut dormir. Non confortable. -->
-  <Frame_SleepingSpot.description>Désigne un lieu au sol où une personne peut dormir. Non confortable.</Frame_SleepingSpot.description>
+  <!-- EN: Désigne un lieu au sol où une personne peut dormir. Inconfortable. -->
+  <Frame_SleepingSpot.description>Désigne un lieu au sol où une personne peut dormir. Inconfortable.</Frame_SleepingSpot.description>
   
   <!-- EN: panneau solaire (construction) -->
   <Frame_SolarGenerator.label>un panneau solaire</Frame_SolarGenerator.label>
@@ -1411,23 +1411,23 @@
   
   <!-- EN: établi de boucher (construction) -->
   <Frame_TableButcher.label>établi de boucher</Frame_TableButcher.label>
-  <!-- EN: Une lourde table pour dépecer des créatures en pièces de viandes crues. -->
-  <Frame_TableButcher.description>Une lourde table pour dépecer des créatures en pièces de viandes crues.</Frame_TableButcher.description>
+  <!-- EN: Une lourde table sâle pour dépecer des créatures en pièces de viandes crues. -->
+  <Frame_TableButcher.description>Une lourde table sâle pour dépecer des créatures en pièces de viandes crues.</Frame_TableButcher.description>
   
   <!-- EN: établi d'assemblage (construction) -->
   <Frame_TableMachining.label>établi d'assemblage</Frame_TableMachining.label>
-  <!-- EN: Une table munie d'outils servant à assembler et à désassembler des machines telles que des armes ou des cadavres de mécanoïdes. -->
-  <Frame_TableMachining.description>Une table munie d'outils servant à assembler et à désassembler des machines telles que des armes ou des cadavres de mécanoïdes.</Frame_TableMachining.description>
+  <!-- EN: Une table munie d'outils servant à assembler des armes et à démenteler des cadavres de mécanoïdes. -->
+  <Frame_TableMachining.description>Une table munie d'outils servant à assembler des armes et à démenteler des cadavres de mécanoïdes.</Frame_TableMachining.description>
   
   <!-- EN: établi de sculpture (construction) -->
   <Frame_TableSculpting.label>établi de sculpture</Frame_TableSculpting.label>
-  <!-- EN: Un plan de travail conçu pour fabriquer des sculptures. -->
-  <Frame_TableSculpting.description>Un plan de travail conçu pour fabriquer des sculptures.</Frame_TableSculpting.description>
+  <!-- EN: Un plan de travail conçu pour sculpter. -->
+  <Frame_TableSculpting.description>Un plan de travail conçu pour sculpter.</Frame_TableSculpting.description>
   
   <!-- EN: établi de tailleur de pierre (construction) -->
   <Frame_TableStonecutter.label>établi de tailleur de pierre</Frame_TableStonecutter.label>
-  <!-- EN: Un établi équipé pour tailler de lourdes pierres en blocs utilisables. -->
-  <Frame_TableStonecutter.description>Un établi équipé pour tailler de lourdes pierres en blocs utilisables.</Frame_TableStonecutter.description>
+  <!-- EN: Un établi équipé pour tailler les gravats en blocs de pierre utilisables. -->
+  <Frame_TableStonecutter.description>Un établi équipé pour tailler les gravats en blocs de pierre utilisables.</Frame_TableStonecutter.description>
   
   <!-- EN: carrelage en granit (construction) -->
   <Frame_TileGranite.label>carrelage en granite (sol)</Frame_TileGranite.label>
@@ -1456,8 +1456,8 @@
   
   <!-- EN: caisse à outils (construction) -->
   <Frame_ToolCabinet.label>une caisse à outils</Frame_ToolCabinet.label>
-  <!-- EN: Augmente la vitesse de travail. Doit être placé près de l'établi. Un établi peut être lié simultanément à seulement deux caisses à outils. -->
-  <Frame_ToolCabinet.description>Augmente la vitesse de travail. Doit être placé près de l'établi. Un établi peut être lié simultanément à seulement deux caisses à outils.</Frame_ToolCabinet.description>
+  <!-- EN: Augmente la vitesse de travail. Doit être placée près d'un établi. La caisse à outils peut être liée simultanément à deux établis. -->
+  <Frame_ToolCabinet.description>Augmente la vitesse de travail. Doit être placée près d'un établi. La caisse à outils peut être liée simultanément à deux établis.</Frame_ToolCabinet.description>
   
   <!-- EN: torche (construction) -->
   <Frame_TorchLamp.label>une torche</Frame_TorchLamp.label>
@@ -1496,7 +1496,7 @@
   
   <!-- EN: télévision cathodique (construction) -->
   <Frame_TubeTelevision.label>une télévision cathodique</Frame_TubeTelevision.label>
-  <!-- EN: Un écran à tube cathodique pour montrer des images animées avec du son. Même dans les RimWorlds, il y a souvent un ancien émetteur en marche qui diffuse quelque chose au moins partiellement intéressant. -->
+  <!-- EN: Un écran à tube cathodique pour montrer des images animées avec du son. Même dans les RimWorlds, il y a souvent un ancien émetteur qui diffuse quelque chose d'intéressant. -->
   <Frame_TubeTelevision.description>Un écran à tube cathodique pour montrer des images animées avec du son. Même dans les RimWorlds, il y a souvent un ancien émetteur en marche qui diffuse quelque chose au moins partiellement intéressant.</Frame_TubeTelevision.description>
   
   <!-- EN: tourelle autocanon (construction) -->
@@ -1511,22 +1511,22 @@
   
   <!-- EN: mortier (construction) -->
   <Frame_Turret_Mortar.label>mortier (construction)</Frame_Turret_Mortar.label>
-  <!-- EN: Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son inexactitude le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis sur le terrain. -->
-  <Frame_Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son inexactitude le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis sur le terrain.</Frame_Turret_Mortar.description>
+  <!-- EN: Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son manque de précision le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis en mouvement. -->
+  <Frame_Turret_Mortar.description>Un mortier tirant tous les types d'obus. Nécessite un artilleur. Bien qu'il puisse infliger des dégâts dévastateurs, son manque de précision le rend plus utile pour attaquer de grandes fortifications que des groupes d'ennemis en mouvement.</Frame_Turret_Mortar.description>
   
   <!-- EN: tourelle de précision (construction) -->
   <Frame_Turret_Sniper.label>tourelle de précision</Frame_Turret_Sniper.label>
-  <!-- EN: Une tourelle de précision automatique à très longue portée. Ses obus d'uranium à grande vitesse causent de lourds dommages sur de très longues distances, mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée. -->
-  <Frame_Turret_Sniper.description>Une tourelle de précision automatique à très longue portée. Ses obus d'uranium à grande vitesse causent de lourds dommages sur de très longues distances, mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée.</Frame_Turret_Sniper.description>
+  <!-- EN: Une tourelle de précision automatique à très longue portée. Ses obus d'uranium propulsés à grande vitesse causent de lourds dommages mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée. -->
+  <Frame_Turret_Sniper.description>Une tourelle de précision automatique à très longue portée. Ses obus d'uranium propulsés à grande vitesse causent de lourds dommages mais nécessitent des changements de canon fréquents et coûteux. Elle est plus précise à longue portée et ne peut pas du tout tirer de près. Peut exploser lorsqu'elle est endommagée.</Frame_Turret_Sniper.description>
   
   <!-- EN: ventilation (construction) -->
   <Frame_Vent.label>une ventilation</Frame_Vent.label>
-  <!-- EN: Une simple ventilation pour égaliser la température entre deux chambres sans permettre aux gens de marcher entre elles. -->
-  <Frame_Vent.description>Une simple ventilation pour égaliser la température entre deux chambres sans permettre aux gens de marcher entre elles.</Frame_Vent.description>
+  <!-- EN: Une simple ventilation pour égaliser la température entre deux pièces. Empêche de passer entre elles. -->
+  <Frame_Vent.description>Une simple ventilation pour égaliser la température entre deux pièces. Empêche de passer entre elles.</Frame_Vent.description>
   
   <!-- EN: moniteur de signes vitaux (construction) -->
   <Frame_VitalsMonitor.label>un moniteur de signes vitaux</Frame_VitalsMonitor.label>
-  <!-- EN: Augmente la qualité de traitement des patients, la probabilité de réussite des actes chirurgicaux, et le développement de l'immunité. Doit être placé à côté d'un lit médical, car les lits normaux n'en bénéficieront pas. Un lit médical ne peut être lié qu'à un seul moniteur de signes vitaux. -->
+  <!-- EN: Augmente la qualité de traitement des patients, la probabilité de réussite des actes chirurgicaux et le développement de l'immunité. Doit être placé à côté d'un lit médical, car les lits normaux n'en bénéficieront pas. Un lit médical ne peut être lié qu'à un seul moniteur de signes vitaux. -->
   <Frame_VitalsMonitor.description>Augmente la qualité de traitement des patients, la probabilité de réussite des actes chirurgicaux, et le développement de l'immunité. Doit être placé à côté d'un lit médical, car les lits normaux n'en bénéficieront pas. Un lit médical ne peut être lié qu'à un seul moniteur de signes vitaux.</Frame_VitalsMonitor.description>
   
   <!-- EN: mur (construction) -->
@@ -1541,8 +1541,8 @@
   
   <!-- EN: conduit étanche (construction) -->
   <Frame_WaterproofConduit.label>conduit étanche</Frame_WaterproofConduit.label>
-  <!-- EN: Câbles électriques étanches pour passer l'énergie sous l'eau peu profonde. -->
-  <Frame_WaterproofConduit.description>Câbles électriques isolés pour passer l'énergie sous l'eau peu profonde.</Frame_WaterproofConduit.description>
+  <!-- EN: Câbles électriques étanches pour conduire l'électricité sous l'eau peu profonde. -->
+  <Frame_WaterproofConduit.description>Câbles électriques isolés pour conduire l'électricité sous l'eau peu profonde.</Frame_WaterproofConduit.description>
   
   <!-- EN: éolienne (construction) -->
   <Frame_WindTurbine.label>une éolienne</Frame_WindTurbine.label>
@@ -1551,8 +1551,8 @@
   
   <!-- EN: générateur à bois (construction) -->
   <Frame_WoodFiredGenerator.label>un générateur à bois</Frame_WoodFiredGenerator.label>
-  <!-- EN: Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main. -->
-  <Frame_WoodFiredGenerator.description>Produit de l'électricité grâce à la combustion de bois. Doit être alimenté à la main.</Frame_WoodFiredGenerator.description>
+  <!-- EN: Produit de l'électricité grâce à la combustion du bois. Doit être alimenté à la main. -->
+  <Frame_WoodFiredGenerator.description>Produit de l'électricité grâce à la combustion du bois. Doit être alimenté à la main.</Frame_WoodFiredGenerator.description>
   
   <!-- EN: plancher en bois (construction) -->
   <Frame_WoodPlankFloor.label>parquet (sol)</Frame_WoodPlankFloor.label>
