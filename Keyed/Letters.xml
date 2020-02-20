@@ -80,7 +80,7 @@
   <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{1_labelShort} faisait autrefois partie de votre groupe.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>Vous avez précédemment hébergé {0}.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_labelShort} a des relations avec vos colons :</PawnHasTheseRelationshipsWithColonists>
 
@@ -140,9 +140,9 @@
   <LastFactionRelationsEvent>Le dernier événement a été</LastFactionRelationsEvent>
 
   <!-- EN: View related quest -->
-  <ViewRelatedQuest>TODO</ViewRelatedQuest>
+  <ViewRelatedQuest>Voir la quête liée</ViewRelatedQuest>
   <!-- EN: View quest -->
-  <ViewQuest>TODO</ViewQuest>
+  <ViewQuest>Voir la quête</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Les derniers événements dans la vie de {PAWN_definite}</LastEventsInLife>
 
@@ -189,7 +189,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>La relation amoureuse entre {PAWN1_labelShort} et {PAWN2_labelShort} est terminée.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>TODO</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} changera {PAWN_possessive} nom de famille  en {PAWN_possessive} nom de naissance.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rupture</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -199,7 +199,9 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>À un moment dans les jours ou les saisons à venir, ils organiseront leur cérémonie de mariage à laquelle ils inviteront tous les colons. Envisagez le placement d'une zone de mariage si vous voulez choisir l'endroit où la cérémonie se tiendra.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} changera {PAWN_possessive} nom de famille en {1}.
+
+</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>Cela va rendre {INITIATOR_nameFull} malheureux.</LetterRejectedProposal>
 
@@ -287,9 +289,11 @@
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
-  <LetterLabelDeepScannerFoundLump>TODO</LetterLabelDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>Scanné sous terre</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef} a trouvé un tas de {0} enterrés en utilisant le scanner de sol!
+
+</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -340,14 +344,14 @@
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_labelShort} a créé un(e) {CRAFTED_labelShort}.\n\nLa nouvelle de ce précieux artefact se répandra dans le monde entier.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>TODO</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} a créé un {CRAFTED_labelShort}.\n\n{0}\n\nLa nouvelle de l'existance de ce précieux artefact se répandra à travers le monde.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
-  <LetterCraftedMasterworkLabel>TODO</LetterCraftedMasterworkLabel>
+  <LetterCraftedMasterworkLabel>chef-d'œuvre</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>TODO</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} a créé un {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>TODO</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} a créé un {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -407,80 +411,81 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>TODO</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>Une nouvelle quête est devenue disponible. Elle s'appelle '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>TODO</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>Si vous n'acceptez pas la quête dans {0}, elle expirera.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>TODO</LetterQuestBecameActive>
+  <LetterQuestBecameActive>Une nouvelle quête est devenue active. Elle s'appelle '{0}'.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>TODO</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestAutomaticallyAcceptedTitle>Quête active: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>TODO</LetterQuestActiveNowTime>
+  <LetterQuestActiveNowTime>Elle expirera dans {0}.</LetterQuestActiveNowTime>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>TODO</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>Les pods sont arrivés</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>TODO</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Les modules de transport avec le contenu suivant sont arrivés:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRefugeeJoins>TODO</LetterLabelRefugeeJoins>
-  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  <LetterLabelRefugeeJoins>{PAWN_nameDef} se join</LetterLabelRefugeeJoins>
+  <!-- EN: {PAWN_nameDef} rejoint -->
+  <LetterRefugeeJoins>{PAWN_nameDef} rejoint</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRescueeJoins>TODO</LetterLabelRescueeJoins>
+  <LetterLabelRescueeJoins>{PAWN_nameDef} se join</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>TODO</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} vous remercie de l'avoir sauvé. {PAWN_pronoun} a décidé qu'{PAWN_pronoun} préfèrerait rester que partir, et rejoint votre colonie.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
-  <LetterLabelPawnsArriveAndJoin>TODO</LetterLabelPawnsArriveAndJoin>
+  <LetterLabelPawnsArriveAndJoin>Les gens se joignent</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>TODO</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>Les personnes suivantes sont arrivées et ont rejoint la colonie:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>TODO</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>Les gens arrivent</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>TODO</LetterPawnsArrive>
+  <LetterPawnsArrive>Les personnes suivantes sont arrivées:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>TODO</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0} part</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
-  <LetterPawnLeaving>TODO</LetterPawnLeaving>
+  <LetterPawnLeaving>{0} s'en va.</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>TODO</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0} partent</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
-  <LetterPawnsLeaving>TODO</LetterPawnsLeaving>
+  <LetterPawnsLeaving>{0} s'en vont.</LetterPawnsLeaving>
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} enlevé</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} a été kidnappé par {FACTION_name}!
+\nCependant, {PAWN_pronoun} n'est pas perdu pour toujours. Une opportunité de {PAWN_objective} sauver pourrait se présenter dans les prochains jours ou années.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>TODO</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>exigence technique appliqué: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>TODO</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>Une empreinte technologique a été appliquée au projet de recherche: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
   <!-- EN: You're completed the projects techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>TODO</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>Vous avez terminé les exigences techprint des projets! Vos chercheurs peuvent maintenant commencer à chercher comment réellement utiliser la technologie sur vos bancs de recherche.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>TODO</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Les exigences techniques de ce projet ne sont pas encore satisfaites. Jusqu'à présent, {0} empreintes techniques ont été appliquées. Le projet nécessite {1} au total.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>TODO</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Les exigences techniques de ce projet étaient déjà satisfaites. L'imprimé technologique supplémentaire a fait avancer vos efforts de recherche sur {PROJECT_label}. La moitié des travaux de recherche restants, {0} points, est terminée.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>TODO</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Ce projet a déjà fait l'objet de recherches approfondies, donc la technologie d'impression n'a pas fait avancer vos connaissances du tout.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>TODO</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwardedEn appliquant l'exigence technique, {PAWN_labelShort} a acquis {0} expérience dans la compétence {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
