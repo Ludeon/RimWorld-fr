@@ -20,7 +20,7 @@
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>le chef n'est pas disponible</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
-  <NotAllowed>TODO</NotAllowed>
+  <NotAllowed>Interdit</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Tirer sur {1_label}</FireAt>
@@ -52,7 +52,7 @@
   <!-- EN: no path -->
   <NoPath>pas de chemin d'accès</NoPath>
   <!-- EN: burying -->
-  <Burying>TODO</Burying>
+  <Burying>enfouissement</Burying>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>interdit</ForbiddenLower>
@@ -85,7 +85,7 @@
   <!-- EN: no food -->
   <NoFood>pas de nourriture</NoFood>
   <!-- EN: below requirements of {0} -->
-  <FoodBelowTitleRequirements>TODO</FoodBelowTitleRequirements>
+  <FoodBelowTitleRequirements>ci-dessous les exigences de {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>compétence avec les animaux trop faible - requiert niveau {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
@@ -95,7 +95,7 @@
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>animal occupé</CantInteractAnimalBusy>
   <!-- EN: {0} skill too low -->
-  <SkillTooLowForConstruction>TODO</SkillTooLowForConstruction>
+  <SkillTooLowForConstruction>{0} compétence trop faible</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>nécessite des composants</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -127,15 +127,15 @@
   <!-- EN: angers faction -->
   <AngersFaction>irrite une faction</AngersFaction>
   <!-- EN: no body part -->
-  <InstallImplantNoBodyPart>TODO</InstallImplantNoBodyPart>
+  <InstallImplantNoBodyPart>aucune partie du corps</InstallImplantNoBodyPart>
   <!-- EN: not a colonist -->
-  <InstallImplantNotAllowedForNonColonists>TODO</InstallImplantNotAllowedForNonColonists>
+  <InstallImplantNotAllowedForNonColonists>pas un colon</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
-  <InstallImplantAlreadyInstalled>TODO</InstallImplantAlreadyInstalled>
+  <InstallImplantAlreadyInstalled>déjà installé</InstallImplantAlreadyInstalled>
   <!-- EN: max level -->
-  <InstallImplantAlreadyMaxLevel>TODO</InstallImplantAlreadyMaxLevel>
+  <InstallImplantAlreadyMaxLevel>niveau maximum</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
-  <UpgradeImplant>TODO</UpgradeImplant>
+  <UpgradeImplant>Mettre à niveau {0} au niveau {1}</UpgradeImplant>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consommer {1_labelShort}</ConsumeThing>
@@ -168,7 +168,7 @@
   <CannotCarryToCryptosleepCasket>Ne peut pas amener au caisson d'hypersommeil</CannotCarryToCryptosleepCasket>
 
   <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>TODO</CarryToShuttle>
+  <CarryToShuttle>Emportez {0_label} vers la navette</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Pas de caisson d'hypersommeil disponible.</NoCryptosleepCasket>
@@ -264,13 +264,13 @@
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>Ne peut pas déshabiller {1_label}</CannotStrip>
   <!-- EN: Cannot drop {1_label} -->
-  <CannotDrop>TODO</CannotDrop>
+  <CannotDrop>Impossible de supprimer {1_label}</CannotDrop>
   <!-- EN: temporary faction member -->
-  <QuestRelated>TODO</QuestRelated>
+  <QuestRelated>membre temporaire de la faction</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
-  <QuestRelated_Outfit>TODO</QuestRelated_Outfit>
+  <QuestRelated_Outfit>Impossible de changer de tenue sur les membres temporaires de la faction</QuestRelated_Outfit>
   <!-- EN: would replace locked apparel -->
-  <WouldReplaceLockedApparel>TODO</WouldReplaceLockedApparel>
+  <WouldReplaceLockedApparel>remplacerait les vêtements verrouillés</WouldReplaceLockedApparel>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-détruire ici</SelfDestructHere>
@@ -312,7 +312,7 @@
   <!-- EN: Offer gifts -->
   <OfferGifts>Offrir des cadeaux</OfferGifts>
   <!-- EN: Trade with {0} -->
-  <TradeWithSettlement>TODO</TradeWithSettlement>
+  <TradeWithSettlement>Échanger avec {0}</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -320,7 +320,7 @@
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Ouvrir le caisson d'hypersommeil</OpenCryptosleepCasket>
   <!-- EN: Get in shuttle -->
-  <EnterShuttle>TODO</EnterShuttle>
+  <EnterShuttle>Monter dans la navette</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -335,12 +335,12 @@
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>Déjà en train de {0} {2_labelShort}</CannotGenericAlreadyAm>
   <!-- EN: Already {0} -->
-  <CannotGenericAlreadyAmCustom>TODO</CannotGenericAlreadyAmCustom>
+  <CannotGenericAlreadyAmCustom>Déjà {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: Cannot trade: lacking necessary title -->
-  <CannotTradeMissingTitleAbility>TODO</CannotTradeMissingTitleAbility>
+  <CannotTradeMissingTitleAbility>Ne peut pas échanger: manque le titre nécessaire</CannotTradeMissingTitleAbility>
 
   <!-- EN: Cannot prioritize: will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkGiverDisabled>
@@ -415,7 +415,7 @@
   <OfferHelp>Offrir de l'aide</OfferHelp>
 
   <!-- EN: apply {0} -->
-  <ApplyTechprint>TODO</ApplyTechprint>
+  <ApplyTechprint>appliquer {0}</ApplyTechprint>
   
   <!-- UNUSED -->
   <ConstructionSkillTooLow>compétence en construction trop faible</ConstructionSkillTooLow>
