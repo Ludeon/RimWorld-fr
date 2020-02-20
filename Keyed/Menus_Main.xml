@@ -179,7 +179,7 @@
   <!-- EN: Source -->
   <Source>Source</Source>
   <!-- EN: For game version(s) -->
-  <ModTargetVersion>Pour la version : {0}</ModTargetVersion>
+  <ModTargetVersion>Pour le jeu version(s) : {0}</ModTargetVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -205,9 +205,9 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Ce mod a été fait pour une nouvelle version de RimWorld, il ne fonctionnera peut-être pas correctement.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Le mod nécessite une version cible correctement formatée dans About.xml. Comme ceci : {0}.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Le mod nécessite une liste de versions supportées correctement formatée dans About.xml. Comme ceci : &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt;. Le tag &lt;targetVersion&gt; est obsolète. Vérifiez le fichier journal pour plus d'information.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Le mod a besoin d'un packageId unique et correctement formaté dans About.xml. Il doit répondre aux exigences suivantes:\n\n - Caractères alphanumériques et point uniquement.\n - Pas d'espaces.\n - Au moins un point.\n - Pas de points répétés dans une rangée, ou commençant ou se terminant par un point.\n - 60 caractères ou moins.\n - Ne peut pas contenir le mot "Ludeon".\n\nPar exemple:\n<packageId>AuthorName.ModName</packageId>\n<packageId> AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Le mod a besoin d'un packageId unique et correctement formaté dans About.xml. Il doit répondre aux exigences suivantes:\n\n - Caractères alphanumériques et point uniquement.\n - Pas d'espaces.\n - Au moins un point.\n - Pas de points répétés à la suite, ou une ID commençant ou se terminant par un point.\n - 60 caractères ou moins.\n - Ne peut pas contenir le mot "Ludeon".\n\nPar exemple:\n<packageId>AuthorName.ModName</packageId>\n<packageId> AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Ce mod a des problèmes dans LoadFolders.xml, que vous devez résoudre avant de télécharger:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -373,9 +373,9 @@
   <!-- EN: age {0} -->
   <AgeIndicator>âge : {0} ans</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>{PAWN_race}, age {PAWN_ageFull} ans</PawnSummary>
+  <PawnSummary>{PAWN_race}, âge {PAWN_ageFull} ans</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, age {PAWN_ageFull} ans</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, âge {PAWN_ageFull} ans</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Histoire :</Backstory>
   <!-- EN: Incapable of -->
@@ -460,6 +460,6 @@
   <GeneratingMapForNewEncounter>Génération d'une carte pour une nouvelle rencontre</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info -->
-  <ClickForMoreInfo>Cliquez pour plus d'informations</ClickForMoreInfo>
+  <ClickForMoreInfo>Cliquez pour plus d'information</ClickForMoreInfo>
 
 </LanguageData>

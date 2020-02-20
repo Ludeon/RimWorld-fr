@@ -62,7 +62,7 @@
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} n'a trouvé aucun obus disponible à proximité pour {GUN_label}.</MessageOutOfNearbyShellsFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Attention : les {ANIMAL_kindBasePlural} ont {1} chance d'attaquer si vous les blessez. Cette chance augmente avec la proximité, et diminue avec une bonne furtivité du chasseur.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Attention : les {ANIMAL_kindBasePlural} ont {1} chance d'attaquer si vous les blessez. Cette chance dépend de la proximité et de la furtivité du chasseur.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Attention : les {ANIMAL_kindBasePlural} vont souvent attaquer après l'échec d'un apprivoisement ({1} chance).</MessageAnimalManhuntsOnTameFailed>
   
@@ -138,11 +138,11 @@
   <MessageInvoluntarySleep>{1_labelShort} s'est effondré en raison d'un épuisement extrême.</MessageInvoluntarySleep>
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} a échoué de peu en opérant {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} a échoué de peu en opérant {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} a échoué de façon catastrophique en opérant {PATIENT_labelShort}.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} a échoué de façon catastrophique en opérant {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} a échoué d'une manière ridicule en opérant {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} a échoué d'une manière ridicule en opérant {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} a commis une erreur fatale alors qu'il opérait {PATIENT_labelShort} à cause des exigences particulières de : {2}.</MessageMedicalOperationFailureFatal>
 
@@ -157,9 +157,9 @@
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort} ne pourra pas utiliser l'amplificateur psychique parcequ'{PAWN_pronoun} n'a aucune sensibilité psychique.</MessagePsychicAmplifierNoSensitivity>
+  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort} ne pourra pas utiliser l'amplificateur psychique parce qu'{PAWN_pronoun} n'a aucune sensibilité psychique.</MessagePsychicAmplifierNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} a perdu un {1} niveau d'implant en raison de {2}.</MessageLostImplantLevelFromHediff>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} a perdu {1} niveau d'implant en raison de {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} a subi {1} points de lésions cérébrales en raison de {2}.</MessageReceivedBrainDamageFromHediff>
   <!-- EN: {PAWN_labelShort} has exceeded the safe limit of psychic entropy. -->
@@ -309,7 +309,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Vos colons vont maintenant charger les objets désignés dans les capsules de transport.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Les objets et les personnes affectés seront désormais chargés dans la navette.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Les objets et les personnes désignés seront désormais chargés dans la navette.</MessageTransporterSingleLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Vos capsules de transport sont arrivées.</MessageTransportPodsArrived>
@@ -319,7 +319,7 @@
   <MessageTransportPodsArrivedAndAddedToCaravan>Vos capsules de transport sont arrivées. Leurs contenus ont été ajoutés à {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Vos colons ont fini le chargement des capsules de transport.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingTransporters>Vos colons ont fini le chargement des capsules de transport. Lancez-les quand vous le voudrez.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingTransporterSingle>La navette est chargée avec la cargaison requise et peut être lancée lorsque vous le voudrez.</MessageFinishedLoadingTransporterSingle>
 
@@ -356,9 +356,7 @@
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0} est à court de nourriture ({PAWN_label})</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>Le cadavre de {PAWN_definite} a été récupéré par la caravane. Il est lourd et peut immobiliser la caravane, mais peut être abandonné via l'onglet des objets de la caravane.
-
-</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageCaravanDeathCorpseAddedToInventory>Le cadavre de {PAWN_definite} a été récupéré par la caravane. Il est lourd et peut immobiliser la caravane, mais peut être abandonné via l'onglet des objets de la caravane.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Pour former une caravane, sélectionnez votre propre colonie ou un site où vous avez des gens.</MessageSelectOwnBaseToFormCaravan>
@@ -374,7 +372,7 @@
   <!-- EN: Mechanoids have been assembled and are attacking. -->
   <MessageMechanoidsAssembled>Des mécanoïdes se sont réunis et attaquent.</MessageMechanoidsAssembled>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>La balise de détresse a demandé des renforts par deses pods de largage.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>La balise mécanoïde a demandé des renforts par des capsules de largage.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Pour se soigner {1_objective}-même, {1_labelShort} doit être affect{1_gender ? é : ée : é(e)} au travail de docteur.</MessageSelfTendUnsatisfied>
@@ -404,7 +402,7 @@
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0} se sont réveillés.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Les constructions Mech ont été détruits.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>Les ruches mécanoïdes ont été détruites.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Objet produit : {0}.</MessageCompSpawnerSpawnedItem>
@@ -496,11 +494,11 @@
   <!-- EN: finished a quest -->
   <GoodwillChangedReason_FinishedQuest>terminé une quête</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} utilise {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} a utilisé {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <!-- EN: sold {0_labelShort} -->
-  <GoodwillChangedReason_SoldPawn>vend {0_labelShort}</GoodwillChangedReason_SoldPawn>
+  <GoodwillChangedReason_SoldPawn>vendu {0_labelShort}</GoodwillChangedReason_SoldPawn>
   <!-- EN: euthanized {PAWN_labelShort} -->
-  <GoodwillChangedReason_EuthanizedPawn>euthanasie {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
+  <GoodwillChangedReason_EuthanizedPawn>euthanasié {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} accepte votre cadeau mais ils ne l'apprécient pas.</MessageGiftGivenButNotAppreciated>
@@ -546,7 +544,7 @@
   <MessagePermitCooldownFinished>{0_labelShort} peut désormais utiliser librement "{1}".</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} a pris en chasse {PREY_definite} pour se nourrir !</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} a pris en chasse {PREY_definite} ({PREY_kindBase}) pour se nourrir !</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>La résistance du prisonnier {PRISONER_labelShort} a été brisée par {WARDEN_labelShort}.</MessagePrisonerResistanceBroken>
@@ -554,7 +552,7 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Les tentatives de recrutement vont commencer.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>Un autre mod avec l'ID de package {0} est déjà actif. Désactivez {1} avant d'essayer de l'activer.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>Un autre mod avec l'ID de package {0} est déjà actif. Désactivez {1} avant d'essayer d'activer ce mod.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Désactivez tous les mods avant d'utiliser cet outil.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
@@ -586,20 +584,20 @@
   <MessageThingInstalledPermanently>Avertissement: {0_label} ne peut pas être déplacé une fois installé.</MessageThingInstalledPermanently>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Le monument a été détruit car vous avez bâtit une construction interdite à l'intérieur.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Le monument a été détruit car vous avez bâti une construction interdite à l'intérieur.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>Ne peut le faire: aucun banc de recherche accessible et non réservé n'est disponible.</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>Ne peut le faire: aucun poste de recherche accessible et non réservé n'est disponible.</MessageNoResearchBenchForTechprint>
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>Aucune destination valide trouvée pour {0}</NoValidDestinationFound>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>Avertissement: la recherche ne commencera que lorsque vous aurez construit un banc de recherche.</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>Avertissement: la recherche ne commencera que lorsque vous aurez construit un poste de recherche.</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite} a déclenché un activateur de proximité.</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite} a déclenché un détecteur de proximité.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label} est actuellement caché.</MessageCannotSelectInvisibleStat>
