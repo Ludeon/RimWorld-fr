@@ -64,9 +64,9 @@
   <NeedColonistBedsDesc>Vous avez plus de colons que vous n'avez de lits dans votre colonie. Certains d'entre eux ne vont pas avoir d'endroit où dormir.\n\nConstruisez d'autre lits ou transformez des lits de prisonnier en lit de colon.\n\nSi vous n'avez pas de ressources, les zone de couchage sont gratuites et peuvent être placées instantanément.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>TODO</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>Un colon non enterré</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
-  <AlertColonistLeftUnburiedDesc>TODO</AlertColonistLeftUnburiedDesc>
+  <AlertColonistLeftUnburiedDesc>Un colon n'est pas enterré.\n\nCela peut nuire à l'humeur de vos colons.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Un chasseur n'a pas d'arme à distance</HunterLacksWeapon>
@@ -152,9 +152,9 @@
   <ColonistsIdleDesc>Ces colons n'ont pas de tâches à accomplir :\n\n{0}\nVous devriez probablement pouvoir leur trouver de quoi les occuper.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
-  <CaravanIdle>TODO</CaravanIdle>
+  <CaravanIdle>Caravane au ralenti</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>TODO</CaravanIdleDesc>
+  <CaravanIdleDesc>Ces caravanes vous attendent pour définir leur prochaine destination:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Un colon a besoin de soins</ColonistNeedsTreatment>
@@ -208,41 +208,43 @@
   <ImmobileCaravanDesc>L'une de vos caravanes est immobilisée parce qu'elle est trop chargée.\n\nVous pourrez à nouveau la déplacer si vous abandonnez certains objets dans l'onglet OBJETS.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>TODO</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofed>Bâtiment inutilisable à cause du toit</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>TODO</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>Un ou plusieurs de vos bâtiments ne peuvent être utilisés que s'ils ne sont pas couverts, mais il y a un toit dessus. Le ou les bâtiments ne seront pas utilisables tant que vous n'aurez pas retiré le toit.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
-  <AlertHeatstroke>TODO</AlertHeatstroke>
+  <AlertHeatstroke>Coup de chaleur</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>TODO</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Les personnes suivantes souffrent d'un coup de chaleur:\n\n{0}\nEmmenez-les dans une zone plus froide. Vous pouvez refroidir les pièces avec des refroidisseurs passifs ou des refroidisseurs électriques. Les espaces souterrains profonds sont également naturellement frais, s'ils sont séparés de l'extérieur par une porte.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
-  <QuestPartMoodBelowThreshold>TODO</QuestPartMoodBelowThreshold>
+  <QuestPartMoodBelowThreshold>Invité mécontent</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>TODO</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La quête {0} vous oblige à garder ces personnes de bonne humeur. Cependant, leur humeur est mauvaise. Prenez des mesures pour les faire se sentir mieux:\n\n{1}
+
+</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>TODO</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>Navette partant dans {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>TODO</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>La navette partira dans {1}. La quête {0} vous oblige à charger les personnes ou objets suivants sur la navette avant son départ:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
 
   <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>TODO</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonument>Le monument sera détruit</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>TODO</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonumentDesc>Vous avez bâtit une construction non autorisée à l'intérieur de l'un de vos monuments. Le monument sera considéré comme détruit dans {0}.</DisallowedBuildingInsideMonumentDesc>
 
   <!-- EN: Countdown activator {0} -->
-  <ActivatorCountdown>TODO</ActivatorCountdown>
+  <ActivatorCountdown>Compte à rebours {0}</ActivatorCountdown>
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>TODO</ActivatorCountdownDesc>
+  <ActivatorCountdownDesc>Il y a un compte à rebours qui vient d'être activé, se préparant à réveiller les mécanoïdes à proximité.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>TODO</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>Comptes à rebours</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>TODO</ActivatorCountdownDescMultiple>
+  <ActivatorCountdownDescMultiple>Il y a {0} comptes à rebours qui se préparent à réveiller les mécanoïdes à proximité.</ActivatorCountdownDescMultiple>
 
   <!-- EN: Quest expires in {0} -->
-  <QuestExpiresSoon>TODO</QuestExpiresSoon>
+  <QuestExpiresSoon>La quête expire dans {0}</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
-  <QuestExpiresSoonDesc>TODO</QuestExpiresSoonDesc>
+  <QuestExpiresSoonDesc>La quête '{0}' expirera dans {1}.</QuestExpiresSoonDesc>
 </LanguageData>
