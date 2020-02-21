@@ -4,17 +4,17 @@
   <!-- EN: Call {0} -->
   <CallOnRadio>Appeler {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>Ne peut utiliser ({0})</CannotUseReason>
+  <CannotUseReason>Ne peut utiliser : {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>Action impossible (éruption solaire)</CannotUseSolarFlare>
+  <CannotUseSolarFlare>Action impossible : EMP</CannotUseSolarFlare>
   <!-- EN: Cannot use: No power -->
-  <CannotUseNoPower>Action impossible (pas d'énergie)</CannotUseNoPower>
+  <CannotUseNoPower>Action impossible : pas d'énergie</CannotUseNoPower>
   <!-- EN: Cannot use: No path -->
-  <CannotUseNoPath>Action impossible (pas de chemin d'accès)</CannotUseNoPath>
+  <CannotUseNoPath>Action impossible : pas de chemin d'accès</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>Action impossible (réservé)</CannotUseReserved>
+  <CannotUseReserved>Action impossible : réservé</CannotUseReserved>
   <!-- EN: Cannot use: full -->
-  <CannotUseFull>Action impossible (manque de combustible)</CannotUseFull>
+  <CannotUseFull>Action impossible : manque de combustible</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>le chef {1_labelShort} n'est pas disponible</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
@@ -141,14 +141,14 @@
   <ConsumeThing>Consommer {1_labelShort}</ConsumeThing>
   
   <!-- EN: Cannot go here: no path -->
-  <CannotGoNoPath>Impossible de se rendre ici (aucun chemin)</CannotGoNoPath>
+  <CannotGoNoPath>Impossible de se rendre ici : aucun chemin</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Aller ici</GoHere>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Arrêter {0}</Arrest>
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>Essayer d'arrêter {1_label}</TryToArrest>
+  <TryToArrest>Essayer d'arrêter {1_label} ({2} de chances)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Arrestation impossible</CannotArrest>
 
@@ -235,7 +235,7 @@
   <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>Charger {1_labelShort} sur un animal...</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>Charger {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>Charger {1_labelShort} x{{0}} sur un animal</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>Ne peut pas charger {1_label} dans la caravane</CannotLoadIntoCaravan>
@@ -329,7 +329,7 @@
   <CannotGenericWorkCustom>Ne peut pas {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: incapable of {0} -->
-  <CannotMissingHealthActivities>Ne peut pas prioriser (incapable de {0})</CannotMissingHealthActivities>
+  <CannotMissingHealthActivities>Ne peut pas prioriser : incapable de {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -338,27 +338,27 @@
   <CannotGenericAlreadyAmCustom>Déjà {0}</CannotGenericAlreadyAmCustom>
 
   <!-- EN: Cannot prioritize: will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>Ne peut pas prioriser : ne fera jamais de {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: Cannot trade: lacking necessary title -->
   <CannotTradeMissingTitleAbility>Ne peut pas échanger: manque le titre nécessaire</CannotTradeMissingTitleAbility>
 
   <!-- EN: Cannot prioritize: will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled>Ne peut pas prioriser (ne fera jamais de {0})</CannotPrioritizeWorkGiverDisabled>
+  <CannotPrioritizeWorkGiverDisabled>Ne peut pas prioriser : ne fera jamais de {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>ne fera jamais {0}</WillNever>
 
   <!-- EN: Cannot prioritize: not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser (n'est pas affecté à {0})</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser : n'est pas affecté à {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>non affecté</NotAssigned>
 
   <!-- EN: Cannot prioritize: research is a long-term task -->
-  <CannotPrioritizeResearch>Ne peut pas prioriser (La recherche est une tâche de longue durée)</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Ne peut pas prioriser : la recherche est une tâche de longue durée</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>Ne peut pas prioriser ({1_label} est interdit)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Ne peut pas prioriser : {1_label} est interdit</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: forbidden -->
-  <CannotPrioritizeCellForbidden>Ne peut pas prioriser (interdit)</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>Ne peut pas prioriser : interdit</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>En dehors de la zone autorisée</CannotPrioritizeForbiddenOutsideAllowedArea>
 
