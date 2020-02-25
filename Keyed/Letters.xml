@@ -420,14 +420,14 @@
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
   <LetterLabelQuestDropPodsArrived>Les capsules sont arrivés</LetterLabelQuestDropPodsArrived>
-  <!-- EN: Transport pods with the following contents have arrived :\n\n{0} -->
+  <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
   <LetterQuestDropPodsArrived>Les capsules de transport avec le contenu suivant sont arrivés :\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} se joint</LetterLabelRefugeeJoins>
-  <!-- EN: {PAWN_nameDef} rejoint -->
-  <LetterRefugeeJoins>{PAWN_nameDef} rejoint</LetterRefugeeJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
+  <LetterRefugeeJoins>U{PAWN_gender ? n : ne} {PAWN_title} nomm{PAWN_gender ? é : ée} {PAWN_nameDef} est arriv{PAWN_gender ? é : ée} et rejoint la colonie.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
@@ -464,8 +464,7 @@
   <LetterLabelPawnsKidnapped>{PAWN_nameDef} enlevé</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} a été kidnappé par {FACTION_name} !
-\nCependant, {PAWN_pronoun} n'est pas perdu pour toujours. Une opportunité de {PAWN_objective} sauver pourrait se présenter dans les prochains jours ou années.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} a été kidnappé par {FACTION_name} !\n\nCependant, {PAWN_pronoun} n'est pas perdu pour toujours. Une opportunité de {PAWN_objective} sauver pourrait se présenter dans les prochains jours ou années.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
@@ -502,8 +501,7 @@
   <LetterBladelinkWeaponBondedLabel>Lien Bladelink : {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} a établi un lien avec l'avatar de {WEAPON_labelShort}.
-\nDepuis, {WEAPON_labelShort} refusera d'être manié par quiconque excepté {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} a établi un lien avec l'avatar de {WEAPON_labelShort}.\n\nDepuis, {WEAPON_labelShort} refusera d'être manié par quiconque excepté {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
