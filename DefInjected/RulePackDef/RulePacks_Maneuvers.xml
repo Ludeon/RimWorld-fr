@@ -179,9 +179,9 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->blessure</li>
     <li>woundname(p=0.3)->plaie</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->et exposant la chair en dessous</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->et exposant la machinerie en dessous</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->et laissant une [woundname] sanglante</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposant la chair en dessous</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposant la machinerie en dessous</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une [woundname] sanglante</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] lanières désordonnées</li>
     <li>destroyed_suffix->[to] lambeaux</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] pièces désordonnées</li>
