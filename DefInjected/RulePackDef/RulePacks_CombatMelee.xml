@@ -114,9 +114,9 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] dans le/la [recipient_part0_label], [flavortext_consequence].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] dans le/la [recipient_part0_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [strikeAdv] [RECIPIENT_definite] dans le/la [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] les [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] a [damaged_past] [skillAdv] [RECIPIENT_definite] avec [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->lui [destroyed_present] [destroyed_targets]</li>
