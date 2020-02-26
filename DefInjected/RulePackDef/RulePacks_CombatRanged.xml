@@ -47,7 +47,7 @@
     <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [strikeAdv].</li>
     <li>r_logentry->[prefix] a [destroyed_past] [strikeAdv] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et a [damaged_past] [damaged_targets].</li>
+    <li>r_logentry->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [damaged_targets] de [RECIPIENT_definite] [strikeAdv].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [strikeAdv] [damaged_targets] de [RECIPIENT_definite].</li>
@@ -134,7 +134,7 @@
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past](e) par la [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry(p=3)->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et a [damaged_past] [damaged_targets].</li>
+    <li>r_logentry(p=3)->La [WEAPON_projectile_label] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
     <li>r_logentry(p=6)->La [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec une [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.2)->La [WEAPON_projectile_label] de [INITIATOR_definite] a frappé [RECIPIENT_definite].</li>
