@@ -89,8 +89,8 @@
     <li>strikeAdv->férocement</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_definite] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->déstabilisant [RECIPIENT_definite]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_gender ? le : la : le/la] faisant [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->[RECIPIENT_gender ? le : la : le/la] déstabilisant</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
