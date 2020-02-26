@@ -80,29 +80,13 @@
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-    <li>result(p=0.5)->[damaged_present] [targetlist]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] [adverb_flavortext]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] [flavortext_situation]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] et [flavortext_consequence]</li>
-    <li>adverb_flavortext->douloureusement</li>
-    <li>adverb_flavortext->brutalement</li>
-    <li>adverb_flavortext->horriblement</li>
-    <li>adverb_flavortext->atrocement</li>
-    <li>adverb_flavortext->férocement</li>
-    <li>adverb_flavortext->impitoyablement</li>
-    <li>adverb_flavortext->sauvagement</li>
-    <li>adverb_flavortext->vicieusement</li>
-    <li>adverb_flavortext->implacablement</li>
-    <li>adverb_flavortext->cruellement</li>
-    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->dans une explosion de sang</li>
-    <li>flavortext_situation(RECIPIENT_flesh==Mechanoid)->dans une explosion de débris</li>
-    <li>flavortext_situation->sans aucune émotion</li>
-    <li>flavortext_situation(p=0.4)->avec un regard vide</li>
-    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->avec un air farouche</li>
-    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->avec un air [AdjectiveBadass]</li>
-    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en grimaçant</li>
-    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en riant</li>
-    <li>flavortext_situation(p=0.2,INITIATOR_flesh==Normal)->en souriant</li>
+    <li>result(p=1)->[damaged_present] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [targetlist] et [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->douloureusement</li>
+    <li>strikeAdv->horriblement</li>
+    <li>strikeAdv->sauvagement</li>
+    <li>strikeAdv->férocement</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->faisant [wince] [RECIPIENT_definite] [painevent]</li>
@@ -150,34 +134,20 @@
   -->
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
-    <li>r_logentry(p=0.2)->[action].</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] d'un/une [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->un/une [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->son/sa [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->son/sa [TOOL_label] [adjective_bodypart]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [TOOL_label]</li>
-    <li>adjective_bodypart->dur</li>
-    <li>adjective_bodypart->fort</li>
-    <li>adjective_bodypart->puissant</li>
-    <li>adjective_bodypart->énergique</li>
-    <li>adjective_bodypart->imposant</li>
-    <li>adjective_bodypart->rude</li>
-    <li>adjective_bodypart->robuste</li>
-    <li>adjective_bodypart->résistant</li>
-    <li>adjective_bodypart->solide</li>
-    <li>adjective_bodypart->coriace</li>
-    <li>adjective_bodypart(INITIATOR_flesh==True)->calleux</li>
-    <li>adjective_bodypart->ferme</li>
     <li>targetlist(recipient_part_count==1)->son/sa [recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->ses [recipient_part0_label] et [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->ses [recipient_part0_label], [recipient_part1_label], et [recipient_part2_label]</li>
     <li>targetlist->ses [recipient_part0_label], [recipient_part1_label], [recipient_part2_label], et [recipient_part3_label]</li>
-    <li>damaged_present->blessant</li>
-    <li>damaged_present->lésant</li>
+    <li>damaged_present(deflected!=True)->blessant</li>
+    <li>damaged_present(deflected!=True)->lésant</li>
     <li>destroyed(p=0.5)->a détruit</li>
     <li>destroyed(p=0.5)->a démoli</li>
     <li>destroyed(p=0.5)->a ruiné</li>
@@ -252,9 +222,58 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->maniant</li>
+    <li>wielding(p=3)->utilisant</li>
+    <li>wielding(p=2)->tenant</li>
+    <li>wielding->brandissant</li>
+    <li>wielding->manipulant</li>
+    <li>using(p=4)->utilisant</li>
+    <li>using->dirigeant</li>
+    <li>using->projetant</li>
+    <li>using->employant</li>
+    <li>using->bougeant</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->de manière incompétente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->de manière inepte</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->frénétiquement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->aléatoirement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->à la hâte</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->maladroitement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->péniblement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->avec crainte</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->de façon hésitante</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->bêtement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->avec hésitation</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->à contre-cœur</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->lentement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->avec prudence</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->de manière inexpérimentée</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->en amateur</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->timidement</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->avec enthousiasme</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)->avec compétence</li>
+    <li>skillAdv(INITIATOR_skill&gt;=6,INITIATOR_skill&lt;=10)->avec habileté</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->professionnellement</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->adroitement</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->judicieusement</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->intelligemment</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->avec dextérité</li>
+    <li>skillAdv(INITIATOR_skill&gt;=8)->habilement</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)->avec habileté</li>
+    <li>skillAdv(INITIATOR_skill&gt;=10)->avec aisance</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)->de manière experte</li>
+    <li>skillAdv(INITIATOR_skill&gt;=12)->avec précision</li>
+    <li>skillAdv(INITIATOR_skill&gt;=14)->de façon magistrale</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)->de manière artistique</li>
+    <li>skillAdv(INITIATOR_skill&gt;=16)->avec grâce</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mécaniquement</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotiquement</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directement</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
-  <!-- EN:
+  <!-- EN:  
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
@@ -273,46 +292,6 @@
     <li>damaged_targets(recipient_part_damaged_count==2)->ses [recipient_part_damaged0_label] et [recipient_part_damaged1_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==3)->ses [recipient_part_damaged0_label], [recipient_part_damaged1_label] et [recipient_part_damaged2_label]</li>
     <li>damaged_targets->ses [recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] et [recipient_part_damaged3_label]</li>
-    <li>expertly->expertement</li>
-    <li>expertly->ingénieusement</li>
-    <li>expertly->adroitement</li>
-    <li>expertly->habilement</li>
-    <li>expertly->savamment</li>
-    <li>expertly->astucieusement</li>
-    <li>expertly->professionellement</li>
-    <li>expertly->judicieusement</li>
-    <li>expertly->dextrement</li>
-    <li>expertly->intelligemment</li>
-    <li>expertly->magistralement</li>
-    <li>expertly->artistiquement</li>
-    <li>expertly->avec compétence</li>
-    <li>expertly->avec grande expérience</li>
-    <li>expertly->avec brio</li>
-    <li>expertly->avec soin</li>
-    <li>expertly->avec precision</li>
-    <li>expertly->avec aptitude</li>
-    <li>expertly->avec force</li>
-    <li>expertly->avec dexterité</li>
-    <li>expertly->avec maîtrise</li>
-    <li>expertly->avec art</li>
-    <li>expertly->avec professionalisme</li>
-    <li>expertly->comme un/une virtuose</li>
-    <li>expertly->comme un/une expert(e)</li>
-    <li>expertly->comme un/une maestro</li>
-    <li>expertly->comme un/une artiste</li>
-    <li>expertly->comme un/une pro</li>
-    <li>expert->expert</li>
-    <li>expert->adepte</li>
-    <li>expert->adroit</li>
-    <li>expert->habile</li>
-    <li>expert->savant</li>
-    <li>expert->rusé</li>
-    <li>expert->professionel</li>
-    <li>expert->compétent</li>
-    <li>expert->expérimenté</li>
-    <li>expert->futé</li>
-    <li>expert->maître</li>
-    <li>expert->artiste</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

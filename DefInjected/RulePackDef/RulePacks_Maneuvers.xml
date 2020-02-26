@@ -33,35 +33,36 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
+  <!-- TODO: vérifier si c'est recipient_flesh ou RECIPIENT_flesh   -->
   <Maneuver_Bite.rulePack.rulesStrings>
     <li>damaged_inf->mordre</li>
     <li>damaged_inf->déchiqueter</li>
-    <li>damaged_inf(p=0.5)->pincer</li>
+    <li>damaged_inf(p=0.5)->ronger</li>
     <li>damaged_past->mordu</li>
     <li>damaged_past->déchiqueté</li>
-    <li>damaged_past->pincé</li>
+    <li>damaged_past->ravagé</li>
     <li>damaged_past->rongé</li>
     <li>damaged_past(deflected!=True)->déchiré</li>
     <li>damaged_present->mordant</li>
     <li>damaged_present->déchiquetant</li>
-    <li>damaged_present->pincant</li>
+    <li>damaged_present->ravageant</li>
     <li>damaged_present->rongeant</li>
     <li>damaged_present(deflected!=True)->déchirant</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposant la chair en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposant la machinerie en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant des lacérations horribles sur la peau</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->laissant des lacérations horribles sur le métal</li>
-    <li>destroyed_past->dévoré</li>
-    <li>destroyed_past->séparé</li>
-    <li>destroyed_past->déchiré</li>
+    <li>destroyed_past->arraché</li>
+    <li>destroyed_past->déchiqueté</li>
     <li>destroyed_past->ravagé</li>
-    <li>destroyed_present->dévorant</li>
-    <li>destroyed_present->séparant</li>
-    <li>destroyed_present->déchirant</li>
+    <li>destroyed_present->arrachant</li>
+    <li>destroyed_present->déchiquetant</li>
     <li>destroyed_present->ravageant</li>
-    <li>destroyed_suffix->[to] lambeaux</li>
     <li>destroyed_suffix->[to] pièces</li>
-    <li>destroyed_suffix->[to] lanières</li>
+    <li>destroyed_suffix->[to] morceaux</li>
+    <li>destroyed_suffix->[to] petits morceaux</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] lambeaux</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] lanières</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] lanières désordonnées</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] un amas méconnaissable</li>
   </Maneuver_Bite.rulePack.rulesStrings>
@@ -72,7 +73,7 @@
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] a esquivé.</li>
-    <li>r_logentry->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] l'a bloqué(e).</li>
+    <li>r_logentry->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] l'a bloqué(e)[INITIATOR_gender ? é : ée : é(e)].</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -144,7 +145,7 @@
     <li>damaged_present->poignardant</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une énorme contusion</li>
     <li>flavortext_consequence->laissant la zone visiblement déformée</li>
-    <li>flavortext_consequence->désiquilibrant [RECIPIENT_definite]</li>
+    <li>flavortext_consequence->déséquilibrant [RECIPIENT_definite]</li>
     <li>flavortext_consequence->l'envoyant sur le côté</li>
     <li>destroyed_past->anéanti</li>
     <li>destroyed_past->écrasé</li>
@@ -158,7 +159,7 @@
     <li>destroyed_present->cassant</li>
     <li>destroyed_suffix->[to] pièces</li>
     <li>destroyed_suffix->[to] morceaux</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] poussières</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] petits morceaux</li>
     <li>destroyed_suffix->[to] fragments</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   
@@ -178,8 +179,6 @@
   <Maneuver_Scratch.rulePack.rulesStrings>
     <li>woundname->blessure</li>
     <li>woundname(p=0.3)->plaie</li>
-    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->avec du sang coulant de la [woundname]</li>
-    <li>flavortext_situation->avec du liquide coulant de la [woundname]</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->et exposant la chair en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->et exposant la machinerie en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->et laissant une [woundname] sanglante</li>
@@ -188,7 +187,7 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] pièces désordonnées</li>
     <li>destroyed_suffix->[to] pièces</li>
     <li>destroyed_suffix->[to] fragments</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] un amas de sang</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] un amas sanglant</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
@@ -300,8 +299,6 @@
     <li>damaged_present(deflected!=True)->lacérant</li>
     <li>woundname->coupure</li>
     <li>woundname(p=0.3)->plaie</li>
-    <li>flavortext_situation(RECIPIENT_flesh!=Mechanoid)->avec du sang coulant de la [woundname]</li>
-    <li>flavortext_situation->avec du liquide coulant de la [woundname]</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposant la chair en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposant la machinerie en dessous</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une [woundname] sanglante</li>
@@ -334,11 +331,11 @@
   <Maneuver_Smash.rulePack.rulesStrings>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une énorme contusion</li>
     <li>flavortext_consequence->laissant la zone visiblement déformée</li>
-    <li>flavortext_consequence->désiquilibrant [RECIPIENT_definite]</li>
+    <li>flavortext_consequence->déséquilibrant [RECIPIENT_definite]</li>
     <li>flavortext_consequence->l'envoyant sur le côté</li>
     <li>destroyed_suffix->[to] pièces</li>
     <li>destroyed_suffix->[to] morceaux</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] poussières</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] petits morceaux</li>
     <li>destroyed_suffix->[to] fragments</li>
   </Maneuver_Smash.rulePack.rulesStrings>
   
@@ -366,30 +363,27 @@
     <li>destroyed_present->breaking</li>
   -->
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->écraser</li>
-    <li>damaged_inf->tabasser</li>
-    <li>damaged_inf->assommer</li>
-    <li>damaged_inf->démolir</li>
+    <li>damaged_inf->frapper</li>
+    <li>damaged_inf->casser</li>
     <li>damaged_inf->écrabouiller</li>
-    <li>damaged_past(p=4)->écrasé</li>
-    <li>damaged_past->tabassé</li>
-    <li>damaged_past->assomé</li>
-    <li>damaged_past->démoli</li>
+    <li>damaged_inf->démolir</li>
+    <li>damaged_inf->cogner</li>
     <li>damaged_past->frappé</li>
-    <li>damaged_present->écrasant</li>
-    <li>damaged_present->tabassant</li>
-    <li>damaged_present->assomant</li>
-    <li>damaged_present(deflected!=True)->bruising</li>
-    <li>damaged_present(deflected!=True)->lacérant</li>
-    <li>destroyed_past->anéanti</li>
-    <li>destroyed_past->écrasé</li>
+    <li>damaged_past->cassé</li>
+    <li>damaged_past->écrabouillé</li>
+    <li>damaged_past->démoli</li>
+    <li>damaged_past->cogné</li>
+    <li>damaged_present->cassant</li>
+    <li>damaged_present->brisant</li>
+    <li>damaged_present->broyant</li>
+    <li>damaged_present(deflected!=True)->contusionnant</li>
+    <li>destroyed_past->brisé</li>
+    <li>destroyed_past->broyé</li>
     <li>destroyed_past->écrabouillé</li>
-    <li>destroyed_past->annihilé</li>
     <li>destroyed_past->cassé</li>
-    <li>destroyed_present->anéantissant</li>
-    <li>destroyed_present->écrasant</li>
+    <li>destroyed_present->brisant</li>
+    <li>destroyed_present->broyant</li>
     <li>destroyed_present->écrabouillant</li>
-    <li>destroyed_present->annihilant</li>
     <li>destroyed_present->cassant</li>
   </Maneuver_Smash_Damage.rulePack.rulesStrings>
   

@@ -478,24 +478,8 @@
         pose un problème d'accord, 
         ex. Grand montagnes, grand forêt, grand lac
     -->
-    <li>r_name->[metaprefix] [standardname]</li>
-    <li>r_name->[standardname] [metasuffix]</li>
+    <li>r_name->[terrain_word] [narrative_name]</li>
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
-    <li>standardname->[terrain_word] [narrative_name]</li>
-    <li>metaprefix(p=10)-></li>
-    <li>metaprefix->[basic_adjective]</li>
-    <li>metasuffix(p=10)-></li>
-    <li>metasuffix->[Direction]</li>
-    <!-- EN    <li>basic_adjective->great</li>-->
-    <li>basic_adjective->grand</li>
-    <!--    <li>basic_adjective->greater</li>-->
-    <li>basic_adjective->grand</li>
-    <!-- EN   <li>basic_adjective->lesser</li>-->
-    <li>basic_adjective->petit</li>
-    <!-- EN   <li>basic_adjective->grand</li>-->
-    <li>basic_adjective->grand</li>
-    <li>basic_adjective->nouveau</li>
-    <li>basic_adjective->vieux</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[Color][NaturalObject]</li>
@@ -508,11 +492,9 @@
     <li>narrative_name->[Animal] [Color]</li>
     <li>narrative_name->[Animal] [AdjectiveNatural]</li>
     <li>narrative_name->[BodyPart] de [Animal]</li>
-    <li>storyname(p=50)->[story_result] [maybe_basic_adjective] de [subject]</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
     <li>storyname(p=2)->[BodyPart] de [subject]</li>
     <li>storyname->[Gore] de [subject]</li>
-    <li>maybe_basic_adjective-></li>
-    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
