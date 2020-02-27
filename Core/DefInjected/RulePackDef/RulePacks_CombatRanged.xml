@@ -267,12 +267,12 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] avec son/sa [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] avec son/sa [WEAPON_label] sur [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] avec [WEAPON_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] avec [WEAPON_possessive] [WEAPON_label] sur [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] sur [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] avec son/sa [WEAPON_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] avec [WEAPON_possessive] [WEAPON_label].</li>
     <li>shot_a(p=2)->[verb_shot_a] une</li>
     <li>shot_a->[verb_shot_a] [skillAdv] une</li>
     <li>shot(p=2)->[verb_shot]</li>
