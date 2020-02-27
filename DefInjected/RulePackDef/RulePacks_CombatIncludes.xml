@@ -83,10 +83,13 @@
     <li>result(p=1)->lui [damaged_present] [targetlist]</li>
     <li>result(p=0.2)->lui [damaged_present] [targetlist] et [flavortext_consequence]</li>
     <li>result(p=0.1)->lui [damaged_present] [targetlist] [strikeAdv]</li>
-    <li>strikeAdv->douloureusement</li>
-    <li>strikeAdv->horriblement</li>
+    <li>strikeAdv->brutalement</li>
     <li>strikeAdv->sauvagement</li>
     <li>strikeAdv->férocement</li>
+    <li>strikeAdv->cruellement</li>
+    <li>strikeAdv->implacablement</li>
+    <li>strikeAdv->impitoyablement</li>
+    <li>strikeAdv->vicieusement</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_gender ? le : la : le/la] faisant [wince] [painevent]</li>
