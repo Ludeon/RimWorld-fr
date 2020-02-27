@@ -102,9 +102,15 @@
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] a causé la mort de [SUBJECT_definite].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] a causé la mort de [SUBJECT_definite].</li>
+    <!--
+      NOTE: CULPRITHEDIFF_labelNounPretty is not pretty in Hediffs_Local_Injuries.xml,
+        because there is no possibility of elision (au/à la).
+        "[CULPRITHEDIFF_labelNoun] à [CULPRITHEDIFF_target_definite]" works here, provided
+        the genre of CULPRITHEDIFF_target_definite is correct in the strings.txt.
+    -->
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] à [CULPRITHEDIFF_target_definite] a causé la mort de [SUBJECT_definite].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
-    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] à [CULPRITHEDIFF_target_definite] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
@@ -141,9 +147,9 @@
   -->
   <Transition_Downed.rulePack.rulesStrings>
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] a fait que [SUBJECT_definite] [collapsemeta].</li>
-    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] a fait que [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] à [CULPRITHEDIFF_target_definite] a fait que [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
-    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun] à [CULPRITHEDIFF_target_definite].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
     <li>collapse->s'écroule</li>
     <li>collapse->s'effondre</li>
