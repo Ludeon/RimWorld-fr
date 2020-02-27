@@ -53,9 +53,14 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] a [damaged_past] [strikeAdv] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] a [damaged_past] [strikeAdv] [RECIPIENT_definite].</li>
+    <!-- BUG: RECIPIENT_gender not defined ! need the next three rules. -->
     <li>r_logentry->[RECIPIENT_definite] a été [damaged_past][RECIPIENT_gender ? : e : (e)].</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été pris[RECIPIENT_gender ? s : se : s(e)] dans une explosion.</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été touché[RECIPIENT_gender ? é : ée : é(e)] par une explosion.</li>
+    <!-- FIXME: RECIPIENT_gender not defined ! should be the previous rules -->
+    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past].</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été pris dans une explosion.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été touché par une explosion.</li>
     <li>blast->l'explosion</li>
     <li>blast->la déflagration</li>
     <li>blast->l'onde de choc</li>

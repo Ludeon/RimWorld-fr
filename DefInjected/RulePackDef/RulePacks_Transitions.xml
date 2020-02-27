@@ -153,11 +153,17 @@
     <li>collapse(SUBJECT_flesh==Mechanoid)->se plante</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->se bloque</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->perd son énergie</li>
+    <!-- BUG: SUBJECT_gender not defined ! need the next three rules. -->
     <li>collapsed->s'est écroulé[SUBJECT_gender ?  : e : (e)]</li>
     <li>collapsed->s'est effondré[SUBJECT_gender ?  : e : (e)]</li>
     <li>collapsed->est tombé[SUBJECT_gender ?  : e : (e)]</li>
     <li>collapsed(SUBJECT_flesh!=Mechanoid)->s'est recroquevillé[SUBJECT_gender ?  : e : (e)]</li>
     <li>collapsed(SUBJECT_flesh!=Mechanoid)->s'est évanoui[SUBJECT_gender ?  : e : (e)]</li>
+    <li>collapsed->s'est écroulé</li>
+    <li>collapsed->s'est effondré</li>
+    <li>collapsed->est tombé</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->s'est recroquevillé</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->s'est évanoui</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->s'est planté</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->s'est bloqué</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->a perdu son énergie</li>
