@@ -1208,12 +1208,12 @@
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>un {0_titleIndef} âgé de {0_age} nommé {0_nameDef} arrivera dans une capsule de transport {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>un {0_titleIndef} âgé de {0_age} nommé {0_nameDef} arrivera et vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
-  <!-- EN: a {0_age}-year-old {0_titleIndef} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>un {0_titleIndef} âgé de {0_age} nommé {0_nameDef} vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
+  <Reward_Pawn_DropPod>{0_titleIndef} âg{0_gender ? é : ée : é(e)} de {0_age} nomm{0_gender ? é : ée : é(e)} {0_nameDef} arrivera dans une capsule de transport {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_WalkIn>{0_titleIndef} âg{0_gender ? é : ée : é(e)} de {0_age} nomm{0_gender ? é : ée : é(e)} {0_nameDef} arrivera et vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
+  <Reward_Pawn_Caravan>{0_titleIndef} âg{0_gender ? é : ée : é(e)} de {0_age} nomm{0_gender ? é : ée : é(e)} {0_nameDef} vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
   <Reward_Items>des capsules de transport avec les ressources suivantes arriveront (valeur totale {1}):\n\n{0}</Reward_Items>
