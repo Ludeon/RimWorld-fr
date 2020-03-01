@@ -1077,8 +1077,10 @@
   <Carver1>
     <!-- EN: carver -->
     <title>sculpteur</title>
+    <titleFemale>sculpteuse</titleFemale>
     <!-- EN: carver -->
     <titleShort>sculpteur</titleShort>
+    <titleShortFemale>sculpteuse</titleShortFemale>
     <!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
     <desc>[PAWN_nameDef] a sculpté des œuvres d'art pour sa tribu à partir de bois, de pierre et, parfois, de matériaux plus exotiques. Les œuvres étaient parfois vendues, et parfois conservées pour embellir les colonies et servir de base à des rituels.</desc>
   </Carver1>
@@ -1543,17 +1545,21 @@
   <CommonerHeir5>
     <!-- EN: Commoner heir -->
     <title>héritier opportuniste</title>
+    <titleFemale>héritière opportuniste</titleFemale>
     <!-- EN: Heir -->
     <titleShort>héritier</titleShort>
+    <titleShortFemale>héritière</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a street urchin on a feudal steamworld.\n\n After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne. -->
     <desc>[PAWN_nameDef] était un gamin des rues dans un monde féodalo-industriel. Après qu'[PAWN_pronoun] ait essayé de voler de la nourriture au palais, l'empereur, désespéré de trouver un héritier, l'a fait entrer et l'a préparé à être {PAWN_gender ? le : la} prochai{PAWN_gender ? n : ne} sur le trône.</desc>
   </CommonerHeir5>
   
   <CommonerLord45>
     <!-- EN: Commoner lord -->
-    <title>seigneur opportuniste</title>
+    <title>suzerain opportuniste</title>
+    <titleFemale>suzeraine opportuniste</titleFemale>
     <!-- EN: Lord -->
-    <titleShort>seigneur</titleShort>
+    <titleShort>suzerain</titleShort>
+    <titleShortFemale>suzeraine</titleShortFemale>
     <!-- EN: After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.\n\n        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective]. -->
     <desc>Après des années d'entraînement aux arts martiaux et à la diplomatie, [PAWN_nameDef] a finalement reçu des terres et des sujets de [PAWN_possessive] pour gouverner. En raison de cet héritage inattendu, les autres seigneurs ont désapprouvé. Ils l'ont accusé d'usurpation, et [PAWN_nameDef] n'a eu d'autre choix que de s'exiler.</desc>
   </CommonerLord45>
@@ -1580,9 +1586,11 @@
   
   <ComputerEngineer36>
     <!-- EN: computer engineer -->
-    <title>TODO</title>
+    <title>ingénieur informaticien</title>
+    <titleFemale>ingénieure informatique</titleFemale>
     <!-- EN: engineer -->
-    <titleShort>TODO</titleShort>
+    <titleShort>informaticien</titleShort>
+    <titleShortFemale>informaticienne</titleShortFemale>
     <!-- EN: Leveraging [PAWN_possessive] childhood experience, [PAWN_nameDef] became a computer engineer. [PAWN_pronoun] also learned to craft delicate sculptures and random electronics for fun.\n\n        [PAWN_nameDef] became fond of technology and mostly gave up on talking to people. Using computers as friends has left [PAWN_nameDef] unable to care for others. -->
     <desc>TODO</desc>
   </ComputerEngineer36>
@@ -1628,12 +1636,12 @@
   <ConstructionGrunt84>
     <!-- EN: construction grunt -->
     <title>ouvrier en construction</title>
-    <titleFemale>ouvrière construction</titleFemale>
+    <titleFemale>ouvrière en construction</titleFemale>
     <!-- EN: builder -->
     <titleShort>constructeur</titleShort>
     <titleShortFemale>constructrice</titleShortFemale>
     <!-- EN: Growing up in [PAWN_possessive] father's lab, [PAWN_nameDef] was given the life of an intellectual elite. [PAWN_pronoun] got everything [PAWN_pronoun] desired, and price was never an object.\n\nHowever [PAWN_nameDef] did not partake in the luxury given to him. Instead, [PAWN_pronoun] pursued more physical, and - in [PAWN_possessive] father's eyes - lower-class jobs. -->
-    <desc>Ayant grandi dans le laboratoire de son père, [PAWN_nameDef] a baigné dans un milieu élitiste. [PAWN_pronoun] avait tout ce qu'[PAWN_pronoun] désirait et le prix n'était jamais un problème.\n\nCependant, [PAWN_pronoun] n'a jamais pris part à cette débauche de luxe. Au lieu de cela, [PAWN_pronoun] a préféré des activités plus physiques qui étaient, aux yeux de son père, des emplois pour la classe inférieure.</desc>
+    <desc>Ayant grandi dans l'atelier de son père, [PAWN_nameDef] a baigné dans un milieu élitiste. [PAWN_pronoun] avait tout ce qu'[PAWN_pronoun] désirait et le prix n'était jamais un problème.\n\nCependant, [PAWN_pronoun] n'a jamais pris part à cette débauche de luxe. Au lieu de cela, [PAWN_pronoun] a préféré des activités plus physiques qui étaient, aux yeux de son père, des emplois pour la classe inférieure.</desc>
   </ConstructionGrunt84>
   
   <ConventChild16>
@@ -1644,7 +1652,7 @@
     <titleShort>batard</titleShort>
     <titleShortFemale>batarde</titleShortFemale>
     <!-- EN: The child of an illicit affair, [PAWN_nameDef] was bought up by nuns in a medieval convent. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical. -->
-    <desc>Enfant d'une union adutère, [PAWN_nameDef] a été plac{PAWN_gender ? é : ée} auprès de religieuses dans un couvent médiéval. [PAWN_pronoun] y a appris la valeur d'un dur labeur et de la soumission, mais on lui y enseigna aussi que la technologie est une hérésie.</desc>
+    <desc>Enfant d'une union adultère, [PAWN_nameDef] a été plac{PAWN_gender ? é : ée} auprès de religieuses dans un couvent médiéval. [PAWN_pronoun] y a appris la valeur d'un dur labeur et de la soumission, mais on lui y enseigna aussi que la technologie est une hérésie.</desc>
   </ConventChild16>
   
   <CoreDilettante33>
@@ -1654,7 +1662,7 @@
     <!-- EN: dilettante -->
     <titleShort>dilettante</titleShort>
     <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] formative years on a glitterworld in the core region, where [PAWN_pronoun] and [PAWN_possessive] friends pursued lives of idle pleasure.\n\nAs [PAWN_pronoun] grew up, [PAWN_pronoun] began to find the life of ease unfulfilling. [PAWN_pronoun] decided to look for a more challenging path. -->
-    <desc>[PAWN_nameDef] a passé ses années de formation sur un monde paradisiaque glitterworld dans la région du noyau central, où [PAWN_pronoun] a eu tout comme ses amis une vie pleine d'oisiveté.\n\npuis en grandissant, [PAWN_pronoun] a commencé à trouver cette vie de facilité insatisfaisante. [PAWN_pronoun] a donc décidé de rechercher une voie plus pimentée.</desc>
+    <desc>[PAWN_nameDef] a passé les premières années de sa vie dans un monde paradisiaque dans la région du noyau central, où [PAWN_pronoun] a eu, tout comme ses amis, une vie pleine d'oisiveté. Puis en grandissant, [PAWN_pronoun] a commencé à trouver cette vie de facilité insatisfaisante. [PAWN_pronoun] a donc décidé de rechercher une voie plus pimentée.</desc>
   </CoreDilettante33>
   
   <CoreworldJeweler19>
@@ -1662,8 +1670,8 @@
     <title>joaillier du centre</title>
     <titleFemale>joaillière du centre</titleFemale>
     <!-- EN: jeweler -->
-    <titleShort>bijoutier</titleShort>
-    <titleShortFemale>bijoutière</titleShortFemale>
+    <titleShort>joaillier</titleShort>
+    <titleShortFemale>joaillière</titleShortFemale>
     <!-- EN: After [PAWN_nameDef] had completed all of [PAWN_possessive] surgeries, [PAWN_pronoun] found that [PAWN_pronoun] had a lot of time and energy to dedicate to [PAWN_possessive] passion: trinket crafting. [PAWN_pronoun] spent years perfecting [PAWN_possessive] art as a jeweler, then left [PAWN_possessive] home world to sell [PAWN_possessive] wares across the galaxy. -->
     <desc>Après que [PAWN_nameDef] en ait fini avec toutes ses opérations chirurgicales, [PAWN_pronoun] a découvert qu'[PAWN_pronoun] avait beaucoup de temps et d'énergie à consacrer à sa passion : la fabrication de babioles. [PAWN_pronoun] a passé des années à perfectionner son art en tant qu'orfèvre, puis a quitté son monde natal dans la région du noyau central pour vendre ses produits à travers la galaxie.</desc>
   </CoreworldJeweler19>
@@ -1702,11 +1710,11 @@
   
   <CorporateDrone10>
     <!-- EN: corporate drone -->
-    <title>TODO</title>
+    <title>drône de multinationale</title>
     <!-- EN: drone -->
-    <titleShort>TODO</titleShort>
+    <titleShort>drône</titleShort>
     <!-- EN: [PAWN_nameDef] worked in a very large office complex along with thousands of other suited drones.\n\nThe work itself consisted of endless organizational drudgery and pointless meetings, punctuated by the occasional performance review. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] travaillait dans un très grand complexe de bureaux avec des milliers d'autres drones spécialisés. Son travail à [PAWN_objective] consistait en des corvées administratives sans fin et des réunions inutiles, ponctuées par des évaluations occasionnelles.</desc>
   </CorporateDrone10>
   
   <CorporateFixer36>
@@ -1720,11 +1728,13 @@
   
   <CorporateManager76>
     <!-- EN: corporate manager -->
-    <title>TODO</title>
+    <title>chef d'équipe</title>
+    <titleFemale>cheffe d'équipe</titleFemale>
     <!-- EN: manager -->
-    <titleShort>TODO</titleShort>
+    <titleShort>chef</titleShort>
+    <titleShortFemale>cheffe</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked in a massive open-plan office, ensuring that [PAWN_possessive] assigned team of workers stayed mostly on-task.\n\nThe job was intensely political. In order to advance, [PAWN_nameDef] learned how to arrange things so [PAWN_pronoun] could take credit for work done by almost anyone. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] travaillait dans un immense bureau en espace ouvert, s'assurant que l'équipe qui lui a été confié restait concentrée sur son travail. Afin de monter les échelons plus rapidement, [PAWN_nameDef] a fait en sorte qu'[PAWN_pronoun] puisse s'attribuer le mérite du travail effectué par ses subordonnés.</desc>
   </CorporateManager76>
   
   <CorporateSlave22>
@@ -1734,7 +1744,7 @@
     <titleShort>soldat</titleShort>
     <titleShortFemale>soldate</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in a colony owned by a large glitterworld corporation. All children had virtual reality devices attached by force, and were raised in a brutal digital world.\n\nConstantly forced to fight others for the entertainment of the wealthy, gunplay and tactics became the center of [PAWN_nameDef]'s universe. -->
-    <desc>[PAWN_nameDef] a grandi dans une colonie appartenant à une grande entreprise glitterworld. Tous les enfants avaient des dispositifs de réalité virtuelle attachés de force, et ont été élevés dans un monde numérique brutal.\n\nConstamment forc{PAWN_gender ? é : ée} de combattre les autres pour le divertissement des riches, le jeu et les tactiques sont devenus le centre de l'univers de [PAWN_nameDef].</desc>
+    <desc>[PAWN_nameDef] a grandi dans une colonie appartenant à une multinationale. Tous les enfants avaient des dispositifs de réalité virtuelle attachés de force, et ont été élevés dans un monde numérique brutal.\n\nConstamment forc{PAWN_gender ? é : ée} de combattre les autres pour le divertissement des riches, le jeu et les tactiques sont devenus le centre de l'univers de [PAWN_nameDef].</desc>
   </CorporateSlave22>
   
   <CorpResearcher71>
