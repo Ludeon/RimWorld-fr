@@ -6,7 +6,11 @@
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
-  <TradeRequest.questDescriptionRules.rulesStrings>TODO</TradeRequest.questDescriptionRules.rulesStrings>
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Une colonie à proximité, [settlement_label], vous contacte pour une commande commerciale spéciale. Ils souhaitent acheter :\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo] (valant [requestedThingMarketValue_money])\n\nEn retour, [allRewardsDescriptions]\n\nSi vous souhaitez faire l'échange, envoyez une caravane avec les fournitures demandées. Le trajet durera [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualité normale ou mieux </li>
+    <li>qualityInfo-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
     <li>questName->Trade with [settlement_label]</li>
@@ -21,10 +25,29 @@
     <li>trade->Deal</li>
     <li>trade->Offer</li>
   -->
-  <TradeRequest.questNameRules.rulesStrings>TODO</TradeRequest.questNameRules.rulesStrings>
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Caravane pour [settlement_label]</li>
+    <li>questName->Échange avec [settlement_label]</li>
+    <li>questName->Vendre à [settlement_label]</li>
+    <li>questName->Provisions pour [settlement_label]</li>
+    <li>questName->Un [trade] [special]</li>
+    <li>questName->Une [trade_fem] [special_fem]</li>
+    <!-- NOTE: mots masculins -->
+    <li>special->spécial</li>
+    <li>special->unique</li>
+    <li>special->inhabituel</li>
+    <li>trade->commerce</li>
+    <li>trade->échange</li>
+    <!-- NOTE: mots féminins -->
+    <li>special_fem->spéciale</li>
+    <li>special_fem->unique</li>
+    <li>special_fem->inhabituelle</li>
+    <li>trade_fem->commande</li>
+    <li>trade_fem->offre</li>
+  </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>TODO</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>TODO</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>Qui doit recevoir la faveur [asker_faction_royalFavorLabel] pour avoir satisfait cette commande ?</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
   
 </LanguageData>
