@@ -173,9 +173,9 @@
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>relation</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} a un lien avec un colon. {PAWN_pronoun} est le/la {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} a un lien avec un colon. {PAWN_pronoun} est {PAWN_gender ? le : la : le/la} {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} a un lien avec un de vos prisonniers. {PAWN_pronoun} est le/la {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} a un lien avec un de vos prisonniers. {PAWN_pronoun} est {PAWN_gender ? le : la : le/la} {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
