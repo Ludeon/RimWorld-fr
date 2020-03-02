@@ -8,7 +8,13 @@
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> under armed guard</li>
     <li>underArmedGuard-></li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>TODO</OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription->Un(e) prisonnier/ère retenu(e) par [siteFaction_name] s'est débrouillé(e) pour voler une radio et vous appelle !\n\n[prisoner_nameDef] est détenu(e) sous bonne garde dans un campement à proximité  [map_definite][underArmedGuard]. Portez-lui secours et [prisoner_pronoun] rejoindra votre colonie. C'est [prisoner_titleIndef] de [prisoner_age] ans. [prisoner_pronoun] dit que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi vous ratez cette opportunité, vous n'entendrez plus jamais parler de [prisoner_nameDef].</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> et les gardes sont armés</li>
+    <li>underArmedGuard-></li>
+  </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[prisoner_nameDef]'s Salvation</li>
     <li>questName->[prisoner_nameDef]'s Rescue</li>
@@ -17,6 +23,13 @@
     <li>questName->Saving [prisoner_nameDef]</li>
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
-  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>TODO</OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+    <li>questName->Sauvetage de [prisoner_nameDef]</li>
+    <li>questName->Secours de [prisoner_nameDef]</li>
+    <li>questName->Évasion de [prisoner_nameDef]</li>
+    <li>questName->Libération de [prisoner_nameDef]</li>
+    <li>questName->Secourir [prisoner_nameDef]</li>
+    <li>questName->Libérer [prisoner_nameDef]</li>
+  </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
 </LanguageData>
