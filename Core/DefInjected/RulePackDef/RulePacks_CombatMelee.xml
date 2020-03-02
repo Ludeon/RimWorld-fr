@@ -37,8 +37,8 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [skillAdvMaybe] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant le/la [recipient_part0_label] [deflected_result].</li>
     <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour  [RECIPIENT_gender ? le : la : le/la]  [damaged_inf] avec [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour  le/la  [damaged_inf] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour [RECIPIENT_gender ? le : la : le/la]  [damaged_inf] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le/la [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
