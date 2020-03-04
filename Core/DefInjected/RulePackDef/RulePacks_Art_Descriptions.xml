@@ -241,10 +241,12 @@
     <li>subimagesingle->un(e) [TerrainFeature]</li>
     <li>subimagesingle->un(e) [Community]</li>
     <li>subimagesingle->un(e) [TreeType]</li>
-    <li>subimagesingle->un(e) [Vegetable]</li>
+    <li>subimagesingle->un [Vegetable]</li>
+    <li>subimagesingle->une [Vegetable_Feminine]</li>
     <li>subimagesingle->un(e) [AnimalGroup] de [Animal]s</li>
     <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable_Plural]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable_FemPlural]</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
     <!--  Adj: Pb de féminin (e) et de pluriel (s) -->
     <li>pawn_adj->[pawn_adj_regular]</li>
@@ -269,7 +271,8 @@
     <li>pawn_adj_irregular->assis</li>
     <li>pawn_adj_invariant->portant un(e) [Apparel]</li>
     <li>pawn_adj_invariant->maniant un(e) [Weapon]</li>
-    <li>pawn_adj_invariant->mangeant un(e) [Vegetable]</li>
+    <li>pawn_adj_invariant->mangeant un [Vegetable]</li>
+    <li>pawn_adj_invariant->mangeant une [Vegetable_Feminine]</li>
     <li>pawn_adj_variant->couvert de [Gore]</li>
     <li>pawn_adj_variantplural->couverts de [Gore]</li>
     <li>emotional_expression_head->souriante</li>

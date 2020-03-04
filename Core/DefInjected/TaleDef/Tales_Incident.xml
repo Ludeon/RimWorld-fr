@@ -27,11 +27,11 @@
     <li>tale_noun->une aurore boréale visible au-dessus de le/la [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->l'aurore polaire visible au-dessus de le/la [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->le/la [Community] de [PAWN_nameDef] illuminé(e) par la lumière d'une aurore boréale</li>
-    <li>image->le ciel illuminé de [Color]s et de [Color]s [circumstance_phrase]</li>
-    <li>image->un fabuleux motif de rayons [Color]s [circumstance_phrase]</li>
-    <li>image->un réseau de lueurs [Color]s [circumstance_phrase]</li>
-    <li>image->un bouquet de grands arcs [Color]s aux reflets [Color]s [circumstance_phrase]</li>
-    <li>image->des lueurs dansantes [Color]s [circumstance_group]</li>
+    <li>image->le ciel illuminé de [Color_Plural] et de [Color_Plural] [circumstance_phrase]</li>
+    <li>image->un fabuleux motif de rayons [Color_Plural] [circumstance_phrase]</li>
+    <li>image->un réseau de lueurs [Color_FemPlural] [circumstance_phrase]</li>
+    <li>image->un bouquet de grands arcs [Color_Plural] aux reflets [Color_Plural] [circumstance_phrase]</li>
+    <li>image->des lueurs dansantes [Color_FemPlural] [circumstance_group]</li>
     <li>circumstance_phrase->sur un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->illuminant un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->flottant au-dessus de [Community]</li>
@@ -361,7 +361,7 @@
     <li>tale_noun->le/la [Community] de [PAWN_nameDef] menacé(e) par une météo hostile</li>
     <li>image->[Quantity_adjphrase] éclairs [circumstance_phrase]</li>
     <li>image->[behavior] mur de flammes [circumstance_phrase]</li>
-    <li>image->[behavior] mur de flammes [Color]s [circumstance_phrase]</li>
+    <li>image->[behavior] mur de flammes [Color_FemPlural] [circumstance_phrase]</li>
     <li>image->[behavior] nuage de cendres et de fumée [circumstance_phrase]</li>
     <li>image->[behavior] vague de flammes [circumstance_phrase]</li>
     <li>behavior->un(e)</li>
@@ -407,7 +407,7 @@
     <li>tale_noun->le/la [Community] de [PAWN_nameDef] infestée par des insectes</li>
     <li>image->un essaim de scarabées [circumstance_phrase]</li>
     <li>image->un groupe de [Quantity_adjphrase] mégaaraignées [circumstance_phrase]</li>
-    <li>image->une vague accablante d'insectes [Color]s [circumstance_phrase]</li>
+    <li>image->une vague accablante d'insectes [Color_Plural] [circumstance_phrase]</li>
     <li>image->un épais brouillard de taches noires [circumstance_phrase]</li>
     <li>circumstance_phrase->avançant vers un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->encerclant complètement un(e) [Community]</li>
@@ -519,8 +519,8 @@
     <li>airborne_circumstance->s'écrasant dans un énorme nuage de cendres</li>
     <li>airborne_circumstance->sèmant des pierres et des débris pendant son vol</li>
     <li>image->un [AdjectiveLarge] monolithe, [ground_circumstance]</li>
-    <li>image->une [AdjectiveLarge] pierre brulée [Color]e, [ground_circumstance]</li>
-    <li>image->un pilier rocheu [Color], [ground_circumstance]</li>
+    <li>image->une [AdjectiveLarge] pierre brulée [Color_Feminine], [ground_circumstance]</li>
+    <li>image->un pilier rocheux [Color], [ground_circumstance]</li>
     <li>ground_circumstance->entouré(e) de fumée et de cendres</li>
     <li>ground_circumstance->fumant(e) de chaleur</li>
     <li>ground_circumstance->entouré(e) de débris fondus</li>
