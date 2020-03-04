@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>capacité de transport</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>La quantité de choses que cette créature peut transporter avec ses mains, sa bouche, ou autre.\n\nCeci est distinct de la capacité à transporter des marchandises sur de longues distances.</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>Température maximale de confort</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Au-dessus de cette température, cette créature sera mécontente. Si la température augmente trop, la créature souffrira d'insolation et finira par mourir.</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>Température minimale de confort</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>En dessous de cette température, cette créature sera mécontente. Si la température descend trop, la créature souffrira d'engelures, d'hypothermie et finira par mourir.</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>vitesse d'ingestion</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>quantité de nourriture (cueillette)</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>La quantité de nourriture que cette personne cueillera automatiquement par jour lors d'un voyage en caravane.</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>facteur d'apprentissage global</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>Vitesse générale d'apprentissage pour toutes les compétences.</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>multiplicateur du taux de faim</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>Un multiplicateur sur la rapidité avec laquelle une créature a faim</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>vitesse de réponse immunitaire</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Vitesse à laquelle ce personnage s'immunise contre une maladie. Si cette vitesse est trop faible, il mourra de cette maladie faute d'avoir développé une immunité suffisante.</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>quantité de cuir</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>La quantité de cuir que vous obtiendrez en dépeçant cette créature.</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>quantité de viande</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>La quantité de viande que vous obtiendrez en dépeçant cette créature.</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>seuil de crise de nerfs</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>Quand l'humeur d'un personnage se trouve en dessous de ce niveau, il risque de piquer une crise de nerfs dont la gravité dépendra de l'écart avec ce seuil.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>seuil minimal en dressage</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>Cette créature ne peut être apprivoisée, entraînée ou commandée que par une personne ayant des compétences en gestion des animaux au moins égales à ce seuil.</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>vitesse de déplacement</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>Vitesse de déplacement au sol, en cases par seconde.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0} cases/s</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>seuil de choc à la douleur</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>Le point auquel cette créature sera terrassée par la douleur.</PainShockThreshold.description>
+  
+  <!-- EN: psychic entropy gain -->
+  <PsychicEntropyGain.label>gain d'entropie psychique</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on psychic entropy gained from any source. -->
+  <PsychicEntropyGain.description>Un multiplicateur sur l'entropie psychique provenant de n'importe quelle source.</PsychicEntropyGain.description>
+  
+  <!-- EN: psychic entropy limit -->
+  <PsychicEntropyMax.label>limite d'entropie psychique</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
+  <PsychicEntropyMax.description>La quantité maximale d'entropie psychique q'un individu peut tolérer en toute sécurité.</PsychicEntropyMax.description>
+  
+  <!-- EN: psychic entropy recovery rate -->
+  <PsychicEntropyRecoveryRate.label>taux de récupération d'entropie psychique</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces psychic entropy. -->
+  <PsychicEntropyRecoveryRate.description>Le taux auquel cette personne réduit son entropie psychique.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30s</PsychicEntropyRecoveryRate.formatString>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>sensibilité psychique</PsychicSensitivity.label>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
+  <PsychicSensitivity.description>Multiplicateur de l'impact des phénomènes psychiques qui affectent cette personne. Les personnes les plus sensibles souffrent davantage des effets psychiques négatifs et profitent davantage des effets positifs.</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>multiplicateur de taux de repos</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>Un multiplicateur sur la rapidité avec laquelle une créature se repose en dormant</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>sensibilité à la toxicité</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>Multiplicateur de la sensibilité de ce personnage aux produits toxiques .</ToxicSensitivity.description>
+  
+</LanguageData>
