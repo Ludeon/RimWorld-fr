@@ -45,11 +45,11 @@
     <li>desc_sentence->Un(e) énorme [Enemy] avance, brandissant un(e) [Weapon].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avancent, une lueur [AdjectiveBadass] dans les yeux.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avancent, une lueur [AdjectiveAngsty] dans les yeux.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avancent, leurs yeux [Color_Plural] luisants.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avancent, couvert(e)s de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, leurs yeux [Color_Plural] luisants.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, couvert(e)s de [Gore].</li>
     <li>desc_sentence->Le sol est jonché de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
@@ -90,7 +90,7 @@
     <li>desc_sentence->De la fumée s'élève d'un(e) [Community] au loin.</li>
     <li>desc_sentence->Le sol est jonché de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
@@ -130,7 +130,8 @@
     <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy]s se lancent à sa poursuite</li>
     <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy]s son à sa recherche</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy]s</li>
-    <li>circumstance_phrase->de [Quantity_adjphrase] [Animal]s ennemis</li>
+    <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_Plural] ennemis</li>
+    <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_FemPlural] ennemies</li>
     <li>circumstance_phrase->d'un(e) [huge] [Enemy]</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon]s.</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] sont auréolés de fumée [Color_Feminine].</li>
@@ -178,7 +179,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s reculent devant la scène.</li>
     <li>desc_sentence->On aperçoit au loin un(e) [TerrainFeature].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observent à distance.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent paisiblement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent paisiblement.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
   <!-- EN: caravan remote mining -->
@@ -215,7 +216,7 @@
     <li>circumstance_phrase->un air satisfait sur le visage</li>
     <li>circumstance_phrase->guettant prudemment le danger potentiel</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s l'assistent.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent dans la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent dans la zone.</li>
     <li>desc_sentence->Un abri de fortune est visible en arrière plan.</li>
     <li>desc_sentence->On aperçoit [Quantity_adjphrase] autres veines au loin.</li>
     <li>desc_sentence->On aperçoit un(e) [TerrainFeature] au loin.</li>

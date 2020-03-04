@@ -58,6 +58,8 @@
     <li>Vegetable_FemPlural->Words/Nouns/Vegetables_FemPlural</li>
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
+    <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
+    <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
     <li>Weapon->Words/Nouns/Weapons</li>
@@ -181,6 +183,8 @@
     <li>ConceptAny->[ConceptAngsty]</li>
     <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
     <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
+    <li>Animal_AnyPlural->[Animal_Plural]</li>
+    <li>Animal_AnyPlural->[Animal_FemPlural]</li>
     <li>PersonalCharacteristic(p=0.15)->organes génitaux</li>
     <li>PersonalCharacteristic(p=0.15)->toison pubienne</li>
     <li>PersonalCharacteristic(p=0.15)->pilosité corporelle</li>
@@ -244,11 +248,12 @@
     <li>TalkTopicLight->de jouer au [Game]</li>
     <li>TalkTopicLight->de s'exercer au [Game]</li>
     <li>TalkTopicLight->d'apprendre le [Game]</li>
-    <li>TalkTopicLight->des [Animal]s</li>
-    <li>TalkTopicLight->d'entraîner des [Animal]s</li>
-    <li>TalkTopicLight->d'apprivoiser des [Animal]s</li>
-    <li>TalkTopicLight->de combattre des [Animal]s</li>
-    <li>TalkTopicLight->des [Animal]s fous</li>
+    <li>TalkTopicLight->des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->d'entraîner des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->d'apprivoiser des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->de combattre des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->des [Animal_Plural] fous</li>
+    <li>TalkTopicLight->des [Animal_FemPlural] folles</li>
     <li>TalkTopicLight->des [Weapon]s</li>
     <li>TalkTopicLight->d'utiliser des [Weapon]s</li>
     <li>TalkTopicLight->de s'entraîner aux [Weapon]s</li>

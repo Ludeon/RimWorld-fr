@@ -40,7 +40,7 @@
     <li>desc_sentence->[PAWN_nameDef] regarde avec admiration.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observent d'en-dessous.</li>
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'un(e) [TerrainFeature], contemplant le ciel.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent paisiblement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent paisiblement.</li>
     <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
   </Aurora.rulePack.rulesStrings>
   
@@ -85,7 +85,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont visibles au loin.</li>
     <li>desc_sentence->[PAWN_nameDef] est pratiquement encerclé(e) par les [Enemy]s.</li>
     <li>desc_sentence->[PAWN_nameDef] est confronté(e) par un [Enemy].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] fuient la scène de bataille, effrayés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] fuient la scène de bataille, effrayées.</li>
     <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
@@ -126,7 +127,8 @@
     <li>desc_sentence->[Quantity_adjphrase] animaux lointains sortent de derrière un(e) [TerrainFeature].</li>
     <li>desc_sentence->il y a du/de la/des [Gore] partout.</li>
     <li>desc_sentence->Les passages de bottes répétés ont fait du sol un amas de [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la scène de bataille, effrayé(e)s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] fuient la scène de bataille, effrayés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] fuient la scène de bataille, effrayées.</li>
     <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
@@ -223,7 +225,7 @@
     <li>circumstance_phrase->alors que les autres regardent</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s [event].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se rassemblent autour du groupe.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se rassemblent autour du groupe.</li>
     <li>desc_sentence->Le soleil se couche sur un(e) [TerrainFeature].</li>
     <li>desc_sentence->Le soleil se lève sur un(e) [TerrainFeature].</li>
     <li>desc_sentence->Au loin, un(e) [PersonJob] observe la scène.</li>
@@ -258,7 +260,7 @@
     <li>image->un ciel étrangement sombre, [circumstance_phrase]</li>
     <li>image->un ciel crépusculaire, [circumstance_phrase]</li>
     <li>image->une lune, cerclée d'un anneau de la pâle lumière du soleil, [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal]s tournant nerveusement en rond dans l'obscurité, [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal_AnyPlural] tournant nerveusement en rond dans l'obscurité, [circumstance_phrase]</li>
     <li>circumstance_phrase->dans le silence immobile de l'air</li>
     <li>circumstance_phrase->le crépuscule enveloppant un(e) [TerrainFeature] proche</li>
     <li>circumstance_phrase->le crépuscule enveloppant [Quantity_adjphrase] [TerrainFeature]s proches</li>
@@ -313,7 +315,7 @@
     <li>image->[PAWN_nameDef] se connectant à un message via [transmission_source] alors [circumstance_group]</li>
     <li>delivery_method->un(e) [Animal]</li>
     <li>delivery_method->un(e) [PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
+    <li>delivery_method->[Quantity_adjphrase] [Animal_AnyPlural]</li>
     <li>transmission_source->une fréquence rarement utilisée</li>
     <li>transmission_source->un émetteur antique</li>
     <li>transmission_source->un signal à faible énergie</li>
@@ -324,7 +326,7 @@
     <li>circumstance_phrase->qu'[PAWN_pronoun] jardine</li>
     <li>circumstance_phrase->qu'un(e) [Animal] passe par là</li>
     <li>circumstance_phrase->qu'[PAWN_pronoun] joue au [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s vaquent à leurs occupations dans les environs.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] vaquent à leurs occupations dans les environs.</li>
     <li>desc_sentence->Pendant qu'[PAWN_pronoun] lit, [PAWN_pronoun] commence à [VerbFriendly].</li>
     <li>desc_sentence->Le fantôme d'un(e) [PersonJob] observe depuis les nuages.</li>
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'un(e) [TerrainFeature].</li>
@@ -375,7 +377,7 @@
     <li>desc_sentence->[PAWN_nameDef] observe avec une stupeur visible.</li>
     <li>desc_sentence->[PAWN_nameDef] coordonne des mesures défensives.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se dépêchent de faire des préparations.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>desc_sentence->Toute vie animale a quitté la zone.</li>
   </Flashstorm.rulePack.rulesStrings>
   
@@ -413,7 +415,7 @@
     <li>circumstance_phrase->encerclant complètement un(e) [Community]</li>
     <li>circumstance_phrase->attaquant [Quantity_adjphrase] [PersonJob]s</li>
     <li>circumstance_phrase->jaillissant du sol</li>
-    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal_AnyPlural]</li>
     <li>desc_sentence->[PAWN_nameDef] organise une résistance.</li>
     <li>desc_sentence->[PAWN_nameDef] brandit un(e) [Weapon] pour se défendre.</li>
     <li>desc_sentence->[PAWN_nameDef] gît au sol, blessé(e).</li>
@@ -422,7 +424,7 @@
     <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le sol est couvert de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>desc_sentence->Toute vie animale a quitté la zone.</li>
   </Infestation.rulePack.rulesStrings>
   
@@ -457,15 +459,15 @@
   -->
   <ManhunterPack.rulePack.rulesStrings>
     <li>tale_noun->Le/la [Community] de [PAWN_nameDef] attaquée par des animaux</li>
-    <li>image->une horde de [Animal]s [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
+    <li>image->une horde de [Animal_AnyPlural] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal_AnyPlural] [circumstance_phrase]</li>
     <li>image->un(e) [huge] [Animal] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] silhouettes ténébreuses [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] prédateurs dans l'ombre [circumstance_phrase]</li>
     <li>circumstance_phrase->s'avançant sur un(e) [TerrainFeature]</li>
     <li>circumstance_phrase->encerclant completement un(e) [Community]</li>
     <li>circumstance_phrase->attaquant [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal_AnyPlural]</li>
     <li>circumstance_phrase->pris de [hate_emotion]</li>
     <li>circumstance_phrase->couverts de [Gore]</li>
     <li>hate_emotion->haine</li>
@@ -479,7 +481,7 @@
     <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le sol est recouvert de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
   </ManhunterPack.rulePack.rulesStrings>
   
   <!-- EN: meteorite impact -->
@@ -531,7 +533,8 @@
     <li>desc_sentence->[PAWN_nameDef] regarde, choqué(e).</li>
     <li>desc_sentence->[Quantity_adjphrase] silhouettes approchent d'un(e) [TerrainFeature] à proximité.</li>
     <li>desc_sentence->[Quantity_adjphrase] silhouettes préparent des outils et équipement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent, désorientés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] errent, désorientés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] errent, désorientées.</li>
     <li>desc_sentence->Un silence assourdissant règne.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
   
@@ -592,7 +595,7 @@
     <li>desc_sentence->[PAWN_nameDef] a l'air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le sol est recouvert de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>defender_circumstance->criant triomphalement</li>
     <li>defender_circumstance->brillant de [Color]</li>
     <li>defender_circumstance->les défiant, le poing levé</li>
@@ -654,7 +657,7 @@
     <li>circumstance_phrase_s_or_p->avançant sur un(e) [TerrainFeature]</li>
     <li>circumstance_phrase_s_or_p->encerclant le/la [Community]</li>
     <li>circumstance_phrase_s_or_p->attaquant [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase_s_or_p->massacrant [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase_s_or_p->massacrant [Quantity_adjphrase] [Animal_AnyPlural]</li>
     <li>circumstance_phrase_s->couvert de [Gore]</li>
     <li>circumstance_phrase_s->cabossé et étincelant</li>
     <li>circumstance_phrase_p->couverts de [Gore]</li>
@@ -669,7 +672,7 @@
     <li>desc_sentence->Le sol est recouvert de [Gore].</li>
     <li>desc_sentence->Le sol est recouvert de morceaux de métal.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>defender_circumstance->criant triomphalement</li>
     <li>defender_circumstance->brillant de [Color]</li>
     <li>defender_circumstance->levant le poing en signe de défi</li>
@@ -719,7 +722,7 @@
     <li>desc_sentence->[PAWN_nameDef] regarde avec crainte.</li>
     <li>desc_sentence->[PAWN_nameDef] organise les mesures défensives.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se préparent précipitamment.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>desc_sentence->toute vie animale a quitté la zone.</li>
   </Tornado.rulePack.rulesStrings>
   
@@ -770,7 +773,7 @@
     <li>desc_sentence->[COLONIST_nameDef] organise les mesures défensives.</li>
     <li>desc_sentence->[ATTACKER_nameDef] glousse de joie.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se préparent précipitamment.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
     <li>desc_sentence->toute vie animale a quitté la zone.</li>
   </TornadoFromItem.rulePack.rulesStrings>
   
@@ -823,9 +826,11 @@
     <li>desc_sentence->[PAWN_nameDef] se cache près d'un(e) [TerrainFeature], regardant d'un air [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] regarde en état de choc.</li>
     <li>desc_sentence->[PAWN_nameDef] reste immobile avec le front couvert de sueur.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s morts gisent sur le sol.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mourants gisent sur le sol.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent sans but.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] morts gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] mortes gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] mourants gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] mourantes gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent sans but.</li>
   </ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
@@ -868,10 +873,13 @@
     <li>desc_sentence->pour garder la chaleur, [PAWN_nameDef] porte [Quantity_adjphrase] [Apparel]s.</li>
     <li>desc_sentence->[PAWN_nameDef] s'assoie à proximité, visiblement épuisé(e).</li>
     <li>desc_sentence->[PAWN_nameDef] se cache près d'un(e) [TerrainFeature], regardant d'un air [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s affamés encerclent la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s frissonnants encerclent la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mourants gisent sur le sol.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s errent sans but.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] affamés encerclent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] frissonnants encerclent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] mourants gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] affamées encerclent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] frissonnantes encerclent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] mourantes gisent sur le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent sans but.</li>
   </VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

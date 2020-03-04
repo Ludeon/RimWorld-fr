@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: attended party -->
@@ -35,7 +35,7 @@
     <li>circumstance_phrase->tout en [VerbFriendly]</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s participent à la conversation.</li>
     <li>desc_sentence->L'endroit est décoré en [Color] et [Color].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s jouent à proximité.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
@@ -117,7 +117,7 @@
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] se dresse à côté de [DIGGER_nameDef], avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] se dresse à côté de [DIGGER_nameDef], avec un air [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent près de la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
@@ -223,7 +223,7 @@
     <li>circumstance_phrase->, perdu(e) dans ses pensées</li>
     <li>circumstance_phrase->, regardant un(e) lointain(e) [TerrainFeature]</li>
     <li>circumstance_phrase->et se parlant tranquillement</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent près de la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s s'approchent de l'endroit.</li>
     <li>desc_sentence->[PAWN_nameDef] respire la determination.</li>
     <li>desc_sentence->[PAWN_nameDef] est visiblement blessé(e).</li>
@@ -266,7 +266,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent avec étonnement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
@@ -309,7 +309,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent avec étonnement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
@@ -348,10 +348,10 @@
     <li>circumstance_phrase->avec un sourire</li>
     <li>circumstance_phrase->tout en étant épuisé mais heureux</li>
     <li>circumstance_phrase->avec un(e) [AnimalGroup] en arrière-plan</li>
-    <li>desc_sentence->[HUMAN_nameDef] est entouré(e) d'innombrables [Animal]s.</li>
+    <li>desc_sentence->[HUMAN_nameDef] est entouré(e) d'innombrables [Animal_AnyPlural].</li>
     <li>desc_sentence->[ANIMAL_nameDef] se déplace pour rejoindre un(e) [AnimalGroup] de sa famille.</li>
-    <li>desc_sentence->La scène est remplie de [Animal]s et de [Animal]s.</li>
-    <li>desc_sentence->Une ligne d'innombrables [Animal]s attend d'être apprivoisée par [HUMAN_nameDef].</li>
+    <li>desc_sentence->La scène est remplie de [Animal_AnyPlural] et de [Animal_AnyPlural].</li>
+    <li>desc_sentence->Une ligne d'innombrables [Animal_AnyPlural] attend d'être apprivoisée par [HUMAN_nameDef].</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
@@ -384,8 +384,8 @@
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent vers [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent paisiblement.</li>
+    <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont stupéfaits par la scène.</li>
   </Meditated.rulePack.rulesStrings>
   
@@ -423,7 +423,7 @@
     <li>circumstance_phrase->souriant fièrement</li>
     <li>circumstance_phrase->avec l'expression de sa satisfaction sur son visage</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s assistent à la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s déambulent dans les environs.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] déambulent dans les environs.</li>
     <li>desc_sentence->Il y a un(e) [Community] en arrière-plan.</li>
     <li>desc_sentence->[Quantity_adjphrase] autres veines sont visibles au loin.</li>
     <li>desc_sentence->Un(e) [TerrainFeature] est visible au loin.</li>
@@ -477,7 +477,7 @@
     <li>desc_sentence->Un(e) [Community] est visible au loin.</li>
     <li>desc_sentence->Un(e) [TerrainFeature] est visible au loin.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s jouent également.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s jouent à proximité.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
     <li>desc_sentence->[PAWN_nameDef] brille d'une aura [Color_Feminine].</li>
     <li>desc_sentence->Les caractéristiques de [PAWN_nameDef] sont exagérées.</li>
     <li>desc_sentence->[PAWN_nameDef] s'éleve au-dessus de la scène.</li>
@@ -516,8 +516,8 @@
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent vers [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent paisiblement.</li>
+    <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont stupéfaits par la scène.</li>
   </Prayed.rulePack.rulesStrings>
   
@@ -552,7 +552,7 @@
     <li>circumstance_phrase->tout en se perdant dans ses pensées</li>
     <li>circumstance_phrase->tout en regardant un(e) lointain(e) [TerrainFeature]</li>
     <li>circumstance_phrase->avec une tension visible entre les deux</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent près de la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s s'approchent de l'endroit.</li>
     <li>desc_sentence->[CARRIER_nameDef] respire la determination.</li>
     <li>desc_sentence->Le ciel est gris et nuageux.</li>
@@ -640,7 +640,7 @@
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] se dresse à côté de [VISITOR_nameDef], avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveAngsty].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] se dresse à côté de [VISITOR_nameDef], avec un air [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s se reposent près de la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

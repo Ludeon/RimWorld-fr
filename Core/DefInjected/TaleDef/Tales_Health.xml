@@ -71,7 +71,7 @@
     <li>circumstance_phrase->sans aucune émotion ou expression</li>
     <li>circumstance_phrase->pour une sombre nécessité</li>
     <li>circumstance_phrase->de manière lâche, sans conviction</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observent.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent.</li>
     <li>desc_sentence->Un(e) [PersonJob] observe en silence [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] semble [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] a les yeux fermés.</li>
@@ -152,7 +152,7 @@
     <li>circumstance_phrase->[CHILD_nameFull], qui luise d'une douce couleur [Color_Feminine]</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui essaie déjà de regarder tout autour</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression sereine</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s dorment paisiblement non loin de là.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] dorment paisiblement non loin de là.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] observe à distance.</li>
     <li>desc_sentence->La scène se déroule dans un(e) [Community] fraîchement construit(e).</li>
@@ -192,13 +192,15 @@
     <li>circumstance_phrase->et couvert(e) de sueur</li>
     <li>circumstance_phrase->avec les lèvres sèches craquelées</li>
     <li>circumstance_phrase->en train de vomir</li>
-    <li>desc_sentence->[Quantity_adjphrase] carcasses désséchées de [Animal]s reposent dans les environs.</li>
+    <li>desc_sentence->[Quantity_adjphrase] carcasses désséchées de [Animal_AnyPlural] reposent dans les environs.</li>
     <li>desc_sentence->Les vêtements de [PAWN_nameDef] sont en lambeaux et déchirés.</li>
     <li>desc_sentence->Un soleil éclatant se détache en arrière plan.</li>
     <li>desc_sentence->La scène se déroule dans un désert brûlant.</li>
     <li>desc_sentence->La scène paraît se dérouler en intérieur, près d'un chauffage.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s inanimés entourent la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mourant jonchent le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] inanimés entourent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] inanimées entourent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] mourants jonchent le sol.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] mourantes jonchent le sol.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
@@ -235,13 +237,14 @@
     <li>circumstance_phrase->et grelottant de manière incontrôlable</li>
     <li>circumstance_phrase->tout couvert de givre</li>
     <li>circumstance_phrase->en exhalant des volutes de vapeur</li>
-    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal]s gelés entourent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_Plural] gelés entourent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_FemPlural] gelées entourent l'endroit.</li>
     <li>desc_sentence->Les vêtements de [PAWN_nameDef] sont usés et tombent en lambeaux.</li>
     <li>desc_sentence->Une froide lune bleue se dessine à l'horizon.</li>
     <li>desc_sentence->La scène se déroule dans une forêt de [TreeType]s couverts de neige.</li>
     <li>desc_sentence->La scène semble se dérouler dans un congélateur.</li>
-    <li>desc_sentence->[Quantity_adjphrase] spécimens grelottants de [Animal]s entourent l'endroit.</li>
-    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal]s jonchent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spécimens grelottants de [Animal_AnyPlural] entourent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
@@ -282,11 +285,11 @@
     <li>circumstance_phrase->en vomissant</li>
     <li>circumstance_phrase->visiblement fiévreux</li>
     <li>circumstance_phrase->en se faisant soigner par un médecin</li>
-    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal]s entourent l'endroit à la volée.</li>
+    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_AnyPlural] entourent l'endroit à la volée.</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s [Color](e)s et tordu(e)s entourent la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s sont frappés par la même maladie.</li>
     <li>desc_sentence->La scène se déroule dans une forêt de [TreeType]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal]s jonchent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
@@ -344,7 +347,7 @@
     <li>circumstance_phrase->avec une froide efficacité</li>
     <li>circumstance_phrase->avec des mouvements rapides et efficaces</li>
     <li>circumstance_phrase->sans émotion ni expression</li>
-    <li>desc_sentence->[Quantity_adjphrase] spécimens de [Animal]s contemplant la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spécimens de [Animal_AnyPlural] contemplant la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regardant silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty].</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
@@ -415,7 +418,7 @@
     <li>circumstance_phrase->d'une grande hauteur</li>
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty].</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
@@ -489,7 +492,7 @@
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->avec un grand héroisme</li>
     <li>circumstance_phrase->avec une force incroyable</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty].</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
@@ -574,7 +577,7 @@
     <li>circumstance_phrase->avec des mouvements rapides et efficaces</li>
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s contemplent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty].</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
@@ -624,7 +627,7 @@
     <li>circumstance_phrase->pendant que l'obus réalise un arc de cercle en direction de [VICTIM_nameFull]</li>
     <li>circumstance_phrase->tandis que [VICTIM_nameFull] marche, inconscient(e) du danger</li>
     <li>circumstance_phrase->tandis que [VICTIM_nameFull] court</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s contemplent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert(e) de [Gore].</li>
@@ -675,12 +678,12 @@
     <li>circumstance_phrase->avec des lèvres craquelées</li>
     <li>circumstance_phrase->en vomissant</li>
     <li>circumstance_phrase->visiblement fiévreux(se)</li>
-    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal]s tordus entourent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_AnyPlural] tordus entourent l'endroit.</li>
     <li>desc_sentence->Les vêtements de [PAWN_nameDef] tombent en morceaux.</li>
     <li>desc_sentence->Le ciel est d'un [Color] sombre.</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s [Color](e)s et tordu(e)s entourent la scène.</li>
     <li>desc_sentence->La scène se déroule dans une étrange forêt de [TreeType].</li>
-    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal]s jonchent l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- EN: wounded -->
@@ -766,7 +769,7 @@
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->dans un but dévoyé</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s contemplent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
     <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->Le sang se répand autour du corps de [VICTIM_nameDef].</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert de [Gore].</li>
