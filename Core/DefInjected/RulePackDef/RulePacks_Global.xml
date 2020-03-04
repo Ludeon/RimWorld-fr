@@ -48,8 +48,14 @@
     <li>SylE->WordParts/Syllables_English</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>Color->Words/Nouns/Colors</li>
+    <li>Color_Plural->Words/Nouns/Colors_Plural</li>
+    <li>Color_Feminine->Words/Nouns/Colors_Feminine</li>
+    <li>Color_FemPlural->Words/Nouns/Colors_FemPlural</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>Vegetable_Plural->Words/Nouns/Vegetables_Plural</li>
+    <li>Vegetable_Feminine->Words/Nouns/Vegetables_Feminine</li>
+    <li>Vegetable_FemPlural->Words/Nouns/Vegetables_FemPlural</li>
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
@@ -173,6 +179,8 @@
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
     <li>PersonalCharacteristic(p=0.15)->organes génitaux</li>
     <li>PersonalCharacteristic(p=0.15)->toison pubienne</li>
     <li>PersonalCharacteristic(p=0.15)->pilosité corporelle</li>
@@ -229,9 +237,9 @@
     <li>TalkTopicHeavy(p=0.08)->de la connexion entre [talktopicheavyfile] et [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->de la relation entre [talktopicheavyfile] et [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->de [talktopiclightfile]</li>
-    <li>TalkTopicLight->des [Vegetable]s</li>
-    <li>TalkTopicLight->de manger des [Vegetable]s</li>
-    <li>TalkTopicLight->de cuisiner avec des [Vegetable]s</li>
+    <li>TalkTopicLight->des [Vegetable_AnyPlural]</li>
+    <li>TalkTopicLight->de manger des [Vegetable_AnyPlural]</li>
+    <li>TalkTopicLight->de cuisiner avec des [Vegetable_AnyPlural]</li>
     <li>TalkTopicLight->de [Game]</li>
     <li>TalkTopicLight->de jouer au [Game]</li>
     <li>TalkTopicLight->de s'exercer au [Game]</li>
