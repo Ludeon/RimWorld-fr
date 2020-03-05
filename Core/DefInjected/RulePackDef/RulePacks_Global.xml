@@ -59,25 +59,46 @@
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
     <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
+    <li>Animal_Feminine->Words/Nouns/Animals_Feminine</li>
     <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+    <li>AnimalGroup_Feminine->Words/Nouns/AnimalGroups_Feminine</li>
     <li>Weapon->Words/Nouns/Weapons</li>
+    <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
+    <li>Weapon_Feminine->Words/Nouns/Weapons_Feminine</li>
+    <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>TerrainFeature_Plural->Words/Nouns/TerrainFeatures_Plural</li>
+    <li>TerrainFeature_Feminine->Words/Nouns/TerrainFeatures_Feminine</li>
+    <li>TerrainFeature_FemPlural->Words/Nouns/TerrainFeatures_FemPlural</li>
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>NaturalObject_Plural->Words/Nouns/NaturalObject_Plural</li>
+    <li>NaturalObject_Feminine->Words/Nouns/NaturalObject_Feminine</li>
+    <li>NaturalObject_FemPlural->Words/Nouns/NaturalObject_FemPlural</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
+    <li>TreeType_Plural->Words/Nouns/TreeTypes_Plural</li>
+    <li>TreeType_Feminine->Words/Nouns/TreeTypes_Feminine</li>
+    <li>TreeType_FemPlural->Words/Nouns/TreeTypes_FemPlural</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonFamily_Feminine->Words/Nouns/People_Family_Feminine</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/Enemies</li>
+    <li>Enemy_Plural->Words/Nouns/Enemies_Plural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
+    <li>Apparel_Plural->Words/Nouns/Apparel_Plural</li>
+    <li>Apparel_Feminine->Words/Nouns/Apparel_Feminine</li>
+    <li>Apparel_FemPlural->Words/Nouns/Apparel_FemPlural</li>
     <li>Gore->Words/Nouns/Gore</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
     <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
     <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
     <li>Community->Words/Nouns/Communities</li>
+    <li>Community_Feminine->Words/Nouns/Communities_Feminine</li>
     <li>Bodypart->Words/Nouns/Bodyparts</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
@@ -178,13 +199,42 @@
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
     <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>AnimalAny_indef->un [Animal]</li>
+    <li>AnimalAny_indef->une [Animal_Feminine]</li>
+    <li>AnimalGroupAny_indef->un [AnimalGroup]</li>
+    <li>AnimalGroupAny_indef->une [AnimalGroup_Feminine]</li>
+    <li>ApparelAny_indef->un [Apparel]</li>
+    <li>ApparelAny_indef->une [Apparel_Feminine]</li>
+    <li>CommunityAny_indef->un [Community]</li>
+    <li>CommunityAny_indef->une [Community_Feminine]</li>
+    <li>CommunityAny_def->le [Community]</li>
+    <li>CommunityAny_def->la [Community_Feminine]</li>
+    <li>TerrainFeatureAny_indef->un [TerrainFeature]</li>
+    <li>TerrainFeatureAny_indef->une [TerrainFeature_Feminine]</li>
+    <li>NaturalObjectAny_indef->un [NaturalObject]</li>
+    <li>NaturalObjectAny_indef->une [NaturalObject_Feminine]</li>
+    <li>VegetableAny_indef->un [Vegetable]</li>
+    <li>VegetableAny_indef->une [Vegetable_Feminine]</li>
+    <li>WeaponAny_indef->un [Weapon]</li>
+    <li>WeaponAny_indef->une [Weapon_Feminine]</li>
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
-    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
-    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
+    <li>Apparel_AnyPlural->[Apparel_Plural]</li>
+    <li>Apparel_AnyPlural->[Apparel_FemPlural]</li>
     <li>Animal_AnyPlural->[Animal_Plural]</li>
     <li>Animal_AnyPlural->[Animal_FemPlural]</li>
+    <li>Enemy_AnyPlural->Enemy_Plural</li>
+    <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
+    <li>NaturalObject_AnyPlural->[NaturalObject_FemPlural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_Plural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_FemPlural]</li>
+    <li>TreeType_AnyPlural->[TreeType_Plural]</li>
+    <li>TreeType_AnyPlural->[TreeType_FemPlural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
+    <li>Weapon_AnyPlural->[Weapon_Plural]</li>
+    <li>Weapon_AnyPlural->[Weapon_FemPlural]</li>
     <li>PersonalCharacteristic(p=0.15)->organes génitaux</li>
     <li>PersonalCharacteristic(p=0.15)->toison pubienne</li>
     <li>PersonalCharacteristic(p=0.15)->pilosité corporelle</li>
@@ -254,20 +304,20 @@
     <li>TalkTopicLight->de combattre des [Animal_AnyPlural]</li>
     <li>TalkTopicLight->des [Animal_Plural] fous</li>
     <li>TalkTopicLight->des [Animal_FemPlural] folles</li>
-    <li>TalkTopicLight->des [Weapon]s</li>
-    <li>TalkTopicLight->d'utiliser des [Weapon]s</li>
-    <li>TalkTopicLight->de s'entraîner aux [Weapon]s</li>
-    <li>TalkTopicLight->de [TerrainFeature]s</li>
-    <li>TalkTopicLight->de [NaturalObject]s</li>
-    <li>TalkTopicLight->des [TreeType]s</li>
-    <li>TalkTopicLight->des [PersonJob]s</li>
-    <li>TalkTopicLight->des [PersonJob]s amicaux</li>
-    <li>TalkTopicLight->des [PersonJob]s hostiles</li>
-    <li>TalkTopicLight->des [Enemy]s</li>
-    <li>TalkTopicLight->de combattre des [Enemy]s</li>
-    <li>TalkTopicLight->des [Apparel]s</li>
-    <li>TalkTopicLight->de porter des [Apparel]s</li>
-    <li>TalkTopicLight->de fabriquer des [Apparel]s</li>
+    <li>TalkTopicLight->des [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->d'utiliser des [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->de s'entraîner aux [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->de [TerrainFeature_AnyPlural]</li>
+    <li>TalkTopicLight->de [NaturalObject_AnyPlural]</li>
+    <li>TalkTopicLight->des [TreeType_AnyPlural]</li>
+    <li>TalkTopicLight->des [PersonJob_Plural]</li>
+    <li>TalkTopicLight->des [PersonJob_Plural] amicaux</li>
+    <li>TalkTopicLight->des [PersonJob_Plural] hostiles</li>
+    <li>TalkTopicLight->des [Enemy_AnyPlural]</li>
+    <li>TalkTopicLight->de combattre des [Enemy_AnyPlural]</li>
+    <li>TalkTopicLight->des [Apparel_AnyPlural]</li>
+    <li>TalkTopicLight->de porter des [Apparel_AnyPlural]</li>
+    <li>TalkTopicLight->de fabriquer des [Apparel_AnyPlural]</li>
     <li>talktopicheavyfile(p=0.15)->sexe</li>
     <li>talktopicheavyfile(p=0.15)->séduction</li>
     <li>talktopicheavyfile(p=0.15)->sexualité animale</li>
