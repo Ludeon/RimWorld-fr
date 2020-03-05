@@ -231,14 +231,14 @@
     <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_FemPlural]</li>
     <!-- NOTE : le/la/les PersonalCharacteristic(s) -->
-    <li>PersonalCharacteristicsAny_def->PersonalCharacteristic_Any_def</li>
-    <li>PersonalCharacteristicsAny_def->PersonalCharacteristic_AnyPlural_def</li>
+    <li>PersonalCharacteristicsAny_def->[PersonalCharacteristic_Any_def]</li>
+    <li>PersonalCharacteristicsAny_def->[PersonalCharacteristic_AnyPlural_def]</li>
     <li>PersonalCharacteristic_Any_def->le [PersonalCharacteristic]</li>
     <li>PersonalCharacteristic_Any_def->la [PersonalCharacteristic_Feminine]</li>
     <li>PersonalCharacteristic_AnyPlural_def->les [PersonalCharacteristic_AnyPlural]</li>
     <!-- NOTE : son/sa/ses PersonalCharacteristic(s) -->
-    <li>PersonalCharacteristicsAny_poss->PersonalCharacteristic_Any_poss</li>
-    <li>PersonalCharacteristicsAny_poss->PersonalCharacteristic_AnyPlural_poss</li>
+    <li>PersonalCharacteristicsAny_poss->[PersonalCharacteristic_Any_poss]</li>
+    <li>PersonalCharacteristicsAny_poss->[PersonalCharacteristic_AnyPlural_poss]</li>
     <li>PersonalCharacteristic_Any_poss->son [PersonalCharacteristic]</li>
     <li>PersonalCharacteristic_Any_poss->sa [PersonalCharacteristic_Feminine]</li>
     <li>PersonalCharacteristic_AnyPlural_poss->ses [PersonalCharacteristic_AnyPlural]</li>
