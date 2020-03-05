@@ -107,6 +107,9 @@
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+    <li>PersonalCharacteristic_Plural->Words/Nouns/PersonalCharacteristics_Plural</li>
+    <li>PersonalCharacteristic_Feminine->Words/Nouns/PersonalCharacteristics_Feminine</li>
+    <li>PersonalCharacteristic_FemPlural->Words/Nouns/PersonalCharacteristics_FemPlural</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -227,6 +230,21 @@
     <li>Enemy_AnyPlural->Enemy_Plural</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_FemPlural]</li>
+    <!-- NOTE : le/la/les PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristicsAny_def->PersonalCharacteristic_Any_def</li>
+    <li>PersonalCharacteristicsAny_def->PersonalCharacteristic_AnyPlural_def</li>
+    <li>PersonalCharacteristic_Any_def->le [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristic_Any_def->la [PersonalCharacteristic_Feminine]</li>
+    <li>PersonalCharacteristic_AnyPlural_def->les [PersonalCharacteristic_AnyPlural]</li>
+    <!-- NOTE : son/sa/ses PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristicsAny_poss->PersonalCharacteristic_Any_poss</li>
+    <li>PersonalCharacteristicsAny_poss->PersonalCharacteristic_AnyPlural_poss</li>
+    <li>PersonalCharacteristic_Any_poss->son [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristic_Any_poss->sa [PersonalCharacteristic_Feminine]</li>
+    <li>PersonalCharacteristic_AnyPlural_poss->ses [PersonalCharacteristic_AnyPlural]</li>
+    <!-- NOTE : PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_Plural]</li>
+    <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_FemPlural]</li>
     <li>TerrainFeature_AnyPlural->[TerrainFeature_Plural]</li>
     <li>TerrainFeature_AnyPlural->[TerrainFeature_FemPlural]</li>
     <li>TreeType_AnyPlural->[TreeType_Plural]</li>
@@ -235,13 +253,13 @@
     <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
     <li>Weapon_AnyPlural->[Weapon_Plural]</li>
     <li>Weapon_AnyPlural->[Weapon_FemPlural]</li>
-    <li>PersonalCharacteristic(p=0.15)->organes génitaux</li>
-    <li>PersonalCharacteristic(p=0.15)->toison pubienne</li>
-    <li>PersonalCharacteristic(p=0.15)->pilosité corporelle</li>
-    <li>PersonalCharacteristic(p=0.15)->habitudes aux toilettes</li>
-    <li>PersonalCharacteristic(p=0.15)->prouesse sexuelle</li>
-    <li>PersonalCharacteristic(p=0.15)->preferences sexuelles</li>
-    <li>PersonalCharacteristic(p=0.15)->experience sexuelle</li>
+    <li>PersonalCharacteristic_Plural(p=0.15)->organes génitaux</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->toison pubienne</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->pilosité corporelle</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->prouesse sexuelle</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->experience sexuelle</li>
+    <li>PersonalCharacteristic_FemPlural(p=0.15)->habitudes aux toilettes</li>
+    <li>PersonalCharacteristic_FemPlural(p=0.15)->preferences sexuelles</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:

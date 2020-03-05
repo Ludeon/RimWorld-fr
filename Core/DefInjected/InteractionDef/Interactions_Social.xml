@@ -93,7 +93,7 @@
     <li>insultcomparison->[Enemy]</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] a [insulted] le/la [PersonalCharacteristic] [target0].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] a [insulted] [PersonalCharacteristicsAny_def] [target0].</li>
     <li>r_logentry->[INITIATOR_nameDef] a comparé [target] à [insultcomparison].</li>
     <li>r_logentry->[INITIATOR_nameDef] a appelé [target] [insultcomparison].</li>
     <li>target0(p=4)->de [RECIPIENT_nameDef]</li>
@@ -138,7 +138,7 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] a [complimented] le/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [complimented] [PersonalCharacteristicsAny_def] de [RECIPIENT_nameDef].</li>
     <li>complimented(p=3)->complimenté</li>
     <li>complimented->encensé</li>
     <li>complimented->félicité</li>
@@ -174,7 +174,7 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] a [madefunof] le/la [PersonalCharacteristic] [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [madefunof] [PersonalCharacteristicsAny_def] [target].</li>
     <li>target(p=4)->de [RECIPIENT_nameDef]</li>
     <li>target->du [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>target->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
