@@ -31,24 +31,26 @@
     <li>tale_noun->une défense réussie de la caravane de [PAWN_nameDef]</li>
     <li>tale_noun->[PAWN_nameDef] repousse une embuscade</li>
     <li>image->[PAWN_nameFull] organise la résistance tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se défend avec son/sa [Weapon] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] contre-attaque avec son/sa [Weapon] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se défend avec son [Weapon] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se défend avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] contre-attaque avec son [Weapon] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] contre-attaque avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
     <li>image->[PAWN_nameFull] prend une posture dominante tout en [circumstance_group]</li>
     <li>image->[PAWN_nameFull] affiche une expression [AdjectiveBadass] tout en [circumstance_group]</li>
     <li>image->[PAWN_nameFull] montre une expression [AdjectiveAngsty] tout en [circumstance_group]</li>
     <li>circumstance_phrase->se préparant à affronter la horde qui progresse</li>
     <li>circumstance_phrase->contournant les wagons de transport</li>
     <li>circumstance_phrase->poussant un cri de victoire</li>
-    <li>circumstance_phrase->brandissant ses [Weapon]s</li>
+    <li>circumstance_phrase->brandissant ses [Weapon_AnyPlural]</li>
     <li>circumstance_phrase->étant couvert(e) de [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avancent, brandissant leurs [Weapon]s.</li>
-    <li>desc_sentence->Un(e) énorme [Enemy] avance, brandissant un(e) [Weapon].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avancent, une lueur [AdjectiveBadass] dans les yeux.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avancent, une lueur [AdjectiveAngsty] dans les yeux.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, brandissant leurs [Weapon_AnyPlural].</li>
+    <li>desc_sentence->Un(e) énorme [Enemy] avance, brandissant [WeaponAny_indef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, une lueur [AdjectiveBadass] dans les yeux.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, une lueur [AdjectiveAngsty] dans les yeux.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, leurs yeux [Color_Plural] luisants.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, couvert(e)s de [Gore].</li>
     <li>desc_sentence->Le sol est jonché de [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] fuient la zone.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
@@ -76,20 +78,20 @@
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->la caravane de [PAWN_nameDef] a vaincu un fort ennemi</li>
     <li>image->[PAWN_nameFull] court vers un(e) [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] brandit un(e) [Weapon], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] manie un(e) [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandit [WeaponAny_indef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] manie [WeaponAny_indef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] prend une posture dominante, [circumstance_group]</li>
     <li>circumstance_phrase->une lueur [AdjectiveBadass] dans les yeux</li>
     <li>circumstance_phrase->une lueur [AdjectiveAngsty] dans les yeux</li>
     <li>circumstance_phrase->poussant un cri de victoire</li>
     <li>circumstance_phrase->couvert(e) de [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s battent en retraite.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s fuient la zone.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont visiblement blessés.</li>
-    <li>desc_sentence->Un(e) [Community] brûle au loin.</li>
-    <li>desc_sentence->De la fumée s'élève d'un(e) [Community] au loin.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] battent en retraite.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont visiblement blessés.</li>
+    <li>desc_sentence->[CommunityAny_indef] brûle au loin.</li>
+    <li>desc_sentence->De la fumée s'élève d'[CommunityAny_indef] au loin.</li>
     <li>desc_sentence->Le sol est jonché de [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fuient la zone.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] fuient la zone.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
@@ -124,19 +126,19 @@
     <li>tale_noun->[PAWN_nameDef] poursuivi(e) par des ennemis</li>
     <li>image->[PAWN_nameFull] court frénétiquement [circumstance_group]</li>
     <li>image->[PAWN_nameFull] court très vite [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] replié(e) derrière un(e) [TerrainFeature], se cachant [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] replié(e) derrière [TerrainFeatureAny_indef], se cachant [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tente de battre en retraite [circumstance_group]</li>
     <li>image->[PAWN_nameFull] s'éloigne tranquillement [circumstance_group]</li>
-    <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy]s se lancent à sa poursuite</li>
-    <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy]s son à sa recherche</li>
-    <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy]s</li>
+    <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy_AnyPlural] se lancent à sa poursuite</li>
+    <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy_AnyPlural] son à sa recherche</li>
+    <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy_AnyPlural]</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_Plural] ennemis</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_FemPlural] ennemies</li>
     <li>circumstance_phrase->d'un(e) [huge] [Enemy]</li>
-    <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon]s.</li>
+    <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon_AnyPlural].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] sont auréolés de fumée [Color_Feminine].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] affichent des visages [AdjectiveAngsty].</li>
-    <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon]s.</li>
+    <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon_AnyPlural].</li>
     <li>desc_sentence->[PAWN_nameDef] est en sueur.</li>
     <li>desc_sentence->[PAWN_nameDef] est hors d'haleine.</li>
   </CaravanFled.rulePack.rulesStrings>
@@ -176,9 +178,9 @@
     <li>circumstance_phrase->avec un regard [adjective]</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s observent les préparatifs.</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s aident aux préparatifs.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s reculent devant la scène.</li>
-    <li>desc_sentence->On aperçoit au loin un(e) [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observent à distance.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] reculent devant la scène.</li>
+    <li>desc_sentence->On aperçoit au loin [TerrainFeatureAny_indef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observent à distance.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent paisiblement.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
@@ -219,7 +221,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent dans la zone.</li>
     <li>desc_sentence->Un abri de fortune est visible en arrière plan.</li>
     <li>desc_sentence->On aperçoit [Quantity_adjphrase] autres veines au loin.</li>
-    <li>desc_sentence->On aperçoit un(e) [TerrainFeature] au loin.</li>
+    <li>desc_sentence->On aperçoit [TerrainFeatureAny_indef] au loin.</li>
     <li>desc_sentence->[PAWN_nameDef] est en sueur et sale à cause ses efforts.</li>
   </CaravanRemoteMining.rulePack.rulesStrings>
   

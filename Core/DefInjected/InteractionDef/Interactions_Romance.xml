@@ -110,8 +110,10 @@
     <li>wootactic->plaisantant au sujet [TalkTopicAny]</li>
     <li>wootactic->faisant une observation à propos [TalkTopicAny]</li>
     <li>wootactic(p=2)->[boasting] son/sa propre [PersonalCharacteristic]</li>
-    <li>wootactic->comparant [RECIPIENT_nameDef] à un/une [romantic_noun] [romantic_adj]</li>
-    <li>wootactic->décrivant [RECIPIENT_nameDef] comme un/une [romantic_noun] [romantic_adj]</li>
+    <li>wootactic->comparant [RECIPIENT_nameDef] à un [romantic_noun] [romantic_adj]</li>
+    <li>wootactic->comparant [RECIPIENT_nameDef] à une [romantic_noun_fem] [romantic_adj_fem]</li>
+    <li>wootactic->décrivant [RECIPIENT_nameDef] comme un [romantic_noun] [romantic_adj]</li>
+    <li>wootactic->décrivant [RECIPIENT_nameDef] comme une [romantic_noun_fem] [romantic_adj_fem]</li>
     <li>boasting->se vantant de</li>
     <li>boasting->mentionnant</li>
     <li>boasting->suggérant de bonnes choses au sujet de</li>
@@ -128,7 +130,6 @@
     <li>complimenting->plaisantant à moitié tout en complimentant</li>
     <li>complimenting->interrogeant impitoyablement</li>
     <li>complimenting->se moquant joyeusement de</li>
-    <!-- BUG: adjectif -> c'est mort pour les mots féminins -->
     <li>romantic_adj->beau</li>
     <li>romantic_adj->resplendissant</li>
     <li>romantic_adj->brillant</li>
@@ -144,23 +145,40 @@
     <li>romantic_adj->adorable</li>
     <li>romantic_adj->merveilleux</li>
     <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
-    <!--     <li>romantic_noun->fleur</li> -->
+    <li>romantic_adj_fem->belle</li>
+    <li>romantic_adj_fem->resplendissante</li>
+    <li>romantic_adj_fem->brillante</li>
+    <li>romantic_adj_fem->céleste</li>
+    <li>romantic_adj_fem->dorée</li>
+    <li>romantic_adj_fem->éclatante</li>
+    <li>romantic_adj_fem->époustouflante</li>
+    <li>romantic_adj_fem->charmante</li>
+    <li>romantic_adj_fem->éblouissante</li>
+    <li>romantic_adj_fem->délicate</li>
+    <li>romantic_adj_fem->excellente</li>
+    <li>romantic_adj_fem->magnifique</li>
+    <li>romantic_adj_fem->adorable</li>
+    <li>romantic_adj_fem->merveilleuse</li>
     <li>romantic_noun->bourgeon de fleur</li>
     <li>romantic_noun->printemps</li>
-    <!--     <li>romantic_noun->fleuve</li> -->
     <li>romantic_noun->ruisseau</li>
-    <!--     <li>romantic_noun->étoile</li> -->
     <li>romantic_noun->astre</li>
-    <!--     <li>romantic_noun->lune</li> -->
     <li>romantic_noun->rêve</li>
     <li>romantic_noun->soleil</li>
-    <!--     <li>romantic_noun->maison</li> -->
     <li>romantic_noun->chateau</li>
-    <!--     <li>romantic_noun->aurore</li> -->
     <li>romantic_noun->arc-en-ciel</li>
     <li>romantic_noun->[TreeType]</li>
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
+    <li>romantic_noun_fem->fleur</li>
+    <li>romantic_noun_fem->fleuve</li>
+    <li>romantic_noun_fem->étoile</li>
+    <li>romantic_noun_fem->lune</li>
+    <li>romantic_noun_fem->maison</li>
+    <li>romantic_noun_fem->aurore</li> 
+    <li>romantic_noun_fem->[TreeType_Feminine]</li>
+    <li>romantic_noun_fem(p=2)->[TerrainFeature_Feminine]</li>
+    <li>romantic_noun_fem(p=2)->[NaturalObject_Feminine]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

@@ -114,9 +114,10 @@
     <li>circumstance_phrase->, incapable de bouger un muscle</li>
     <li>desc_sentence->Le dernier projet de [PAWN_nameDef] est laissé de côté, terminé.</li>
     <li>desc_sentence->Une merveilleuse construction entoure [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s semblent reconnaissant(e)s de l'effort héroique de [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s se reposent non loin de là, dans un état similaire.</li>
-    <li>desc_sentence->La scène se déroule dans un(e) [Community] fraîchement construit(e).</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] semblent reconnaissants de l'effort héroique de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] se reposent non loin de là, dans un état similaire.</li>
+    <li>desc_sentence->La scène se déroule dans un [Community] fraîchement construit.</li>
+    <li>desc_sentence->La scène se déroule dans une [Community_Feminine] fraîchement construite.</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
@@ -153,9 +154,10 @@
     <li>circumstance_phrase->[CHILD_nameFull], qui essaie déjà de regarder tout autour</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression sereine</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] dorment paisiblement non loin de là.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] observe à distance.</li>
-    <li>desc_sentence->La scène se déroule dans un(e) [Community] fraîchement construit(e).</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] contemplent la scène.</li>
+    <li>desc_sentence->Un [PersonJob] observe à distance.</li>
+    <li>desc_sentence->La scène se déroule dans un [Community] fraîchement construit.</li>
+    <li>desc_sentence->La scène se déroule dans une [Community_Feminine] fraîchement construite.</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
@@ -184,7 +186,7 @@
     <li>tale_noun->[PAWN_nameDef] attrapant un coup de chaleur</li>
     <li>tale_noun->[PAWN_nameDef] en surchauffe</li>
     <li>image->[PAWN_nameFull] marchant dans le sable [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se blottissant à l'ombre d'un(e) [TerrainFeature] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se blottissant à l'ombre d'[TerrainFeatureAny_indef] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cherchant de l'eau [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cherchant de l'ombre [circumstance_group]</li>
     <li>image->[PAWN_nameFull] rampant sur une terre brûlée par le soleil [circumstance_group]</li>
@@ -229,8 +231,8 @@
     <li>tale_noun->[PAWN_nameDef] attrapant une hypothermie</li>
     <li>tale_noun->[PAWN_nameDef] mourant de froid</li>
     <li>image->[PAWN_nameFull] se traînant à travers la neige [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se blottissant derrière un(e) [TerrainFeature] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] cherchant un(e) [Apparel] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se blottissant derrière [TerrainFeatureAny_indef] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] cherchant [ApparelAny_indef] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] s'accroupissant devant un feu [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tentant d'allumer un feu de camp [circumstance_group]</li>
     <li>circumstance_phrase->tandis que son visage vire lentement au bleu</li>
@@ -241,7 +243,7 @@
     <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_FemPlural] gelées entourent l'endroit.</li>
     <li>desc_sentence->Les vêtements de [PAWN_nameDef] sont usés et tombent en lambeaux.</li>
     <li>desc_sentence->Une froide lune bleue se dessine à l'horizon.</li>
-    <li>desc_sentence->La scène se déroule dans une forêt de [TreeType]s couverts de neige.</li>
+    <li>desc_sentence->La scène se déroule dans une forêt de [TreeType_AnyPlural] couverte de neige.</li>
     <li>desc_sentence->La scène semble se dérouler dans un congélateur.</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens grelottants de [Animal_AnyPlural] entourent l'endroit.</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
@@ -286,9 +288,10 @@
     <li>circumstance_phrase->visiblement fiévreux</li>
     <li>circumstance_phrase->en se faisant soigner par un médecin</li>
     <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_AnyPlural] entourent l'endroit à la volée.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s [Color](e)s et tordu(e)s entourent la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s sont frappés par la même maladie.</li>
-    <li>desc_sentence->La scène se déroule dans une forêt de [TreeType]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Plural] [Color_Plural] et tordus entourent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_FemPlural] [Color_FemPlural] et tordues entourent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] sont frappés par la même maladie.</li>
+    <li>desc_sentence->La scène se déroule dans une forêt de [TreeType_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
@@ -499,7 +502,8 @@
     <li>desc_sentence->[VICTIM_nameDef] est couvert(e) de [Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] et [KILLER_nameDef] sont tous les deux couverts de [Gore].</li>
     <li>desc_sentence->Le cadavre de [VICTIM_nameDef] domine[KILLER_nameDef].</li>
-    <li>desc_sentence->Le corps massif de [VICTIM_nameDef] domine le/la [TerrainFeature].</li>
+    <li>desc_sentence->Le corps massif de [VICTIM_nameDef] domine le [TerrainFeature].</li>
+    <li>desc_sentence->Le corps massif de [VICTIM_nameDef] domine la [TerrainFeature_Feminine].</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] brillent en [Color].</li>
     <li>desc_sentence->[KILLER_nameDef] est couvert de [Gore].</li>
     <li>desc_sentence->[KILLER_nameDef] montre ses dents.</li>
@@ -681,8 +685,9 @@
     <li>desc_sentence->[Quantity_adjphrase] corps de [Animal_AnyPlural] tordus entourent l'endroit.</li>
     <li>desc_sentence->Les vêtements de [PAWN_nameDef] tombent en morceaux.</li>
     <li>desc_sentence->Le ciel est d'un [Color] sombre.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s [Color](e)s et tordu(e)s entourent la scène.</li>
-    <li>desc_sentence->La scène se déroule dans une étrange forêt de [TreeType].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Plural] [Color_Plural] et tordus entourent la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_FemPlural] [Color_FemPlural] et tordues entourent la scène.</li>
+    <li>desc_sentence->La scène se déroule dans une étrange forêt de [TreeType_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
   

@@ -48,14 +48,18 @@
     <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
     <li>r_art_name(p=4)->[maybe_a] [Artwork] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [ConceptAny] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_a] [TerrainFeature] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_am] [TerrainFeature] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_af] [TerrainFeature_Feminine] [maybe_adjective]</li>
     <li>r_art_name->[maybe_am] [Vegetable] [maybe_adjective]</li>
     <li>r_art_name->[maybe_af] [Vegetable_Feminine] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [Game] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_a] [Animal] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_am] [Animal] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_af] [Animal_Feminine] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [Gore] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_a] [NaturalObject] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_a] [PersonFamily] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_am] [NaturalObject] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_af] [NaturalObject_Feminie] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_am] [PersonFamily] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_af] [PersonFamily_Feminine] [maybe_adjective]</li>
     <li>r_art_name->[maybe_a] [Enemy] [maybe_adjective]</li>
     <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
     <li>r_art_name->No. [art_name_numeric]</li>

@@ -66,7 +66,7 @@
     <li>image->[PAWN_nameFull] s'élançant vers le ciel [circumstance_group]</li>
     <li>image->[PAWN_nameFull] accélérant pour atteindre la vitesse d'échappement [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pilotant une fusée [circumstance_group]</li>
-    <li>circumstance_phrase->devant un(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->devant [TerrainFeatureAny_indef]</li>
     <li>circumstance_phrase->avec une force incroyable</li>
     <li>circumstance_phrase->dans un panache de poussières et de roches</li>
     <li>circumstance_phrase->avec les moteurs crachant du feu de façon spectaculaire</li>
@@ -77,9 +77,11 @@
     <li>desc_sentence->[PAWN_pronoun] arbore un sourire sinistre.</li>
     <li>desc_sentence->[PAWN_pronoun] semble maîtriser parfaitement la situation.</li>
     <li>desc_sentence->Les flammes lèchent l'arrière du vaisseau.</li>
-    <li>desc_sentence->Un(e) [Animal] à proximité l'observe, pétrifié(e).</li>
-    <li>desc_sentence->Un(e) [Animal] terrorisé(e) fuit la zone de lancement.</li>
-    <li>desc_sentence->Il y a un(e) [TerrainFeature] au loin.</li>
+    <li>desc_sentence->Un [Animal] à proximité l'observe, pétrifié.</li>
+    <li>desc_sentence->Une [Animal_Feminine] à proximité l'observe, pétrifiée.</li>
+    <li>desc_sentence->Un [Animal] terrorisé fuit la zone de lancement.</li>
+    <li>desc_sentence->Une [Animal_Feminine] terrorisée fuit la zone de lancement.</li>
+    <li>desc_sentence->Il y a [TerrainFeatureAny_indef] au loin.</li>
     <li>desc_sentence->Un(e) [PersonJob] en retrait observe silencieusement.</li>
   </LaunchedShip.rulePack.rulesStrings>
   

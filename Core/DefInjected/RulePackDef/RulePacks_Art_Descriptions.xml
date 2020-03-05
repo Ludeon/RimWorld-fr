@@ -220,34 +220,35 @@
     <li>artextra_clause->il y a [subimagesingle] [side_position]</li>
     <li>artextra_clause->les sujets sont face à [subimageany]</li>
     <li>artextra_clause->la partie inférieure de l'image est dominée par [subimageany]</li>
-    <li>artextra_clause->la scène se passe au milieu d'un(e) [Community]</li>
-    <li>artextra_clause->la scène se passe dans les faubourgs d'un(e) [Community]</li>
-    <li>artextra_clause->la scène se passe à l'intérieur d'un(e) [Community] près d'un(e) [TerrainFeature]</li>
+    <li>artextra_clause->la scène se passe au milieu d'[CommunityAny_indef]</li>
+    <li>artextra_clause->la scène se passe dans les faubourgs d'[CommunityAny_indef]</li>
+    <li>artextra_clause->la scène se passe à l'intérieur d'[CommunityAny_indef] près d'[TerrainFeatureAny_indef]</li>
     <li>artextra_clause->un(e) [Character] [idles] [side_position]</li>
     <li>artextra_clause->un(e) [Character] [pawn_adj] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s apparaissent [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s [pawn_adj_plural] apparaissent [side_position]</li>
-    <li>artextra_clause->un(e) [Animal] [idles] [side_position]</li>
+    <li>artextra_clause->[AnimalAny_indef] [idles] [side_position]</li>
     <li>artextra_clause->si vous plissez les yeux, la structure [composition] de l'image révèle la silhouette de [subimageany]</li>
     <li>artextra_clause->la tête [emotional_expression_head] d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
     <li>artextra_clause->un(e) [PersonJob] [pawn_adj] domine sur l'ensemble en [emotional_expression]</li>
     <li>artextra_clause->la tête d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
-    <li>artextra_clause->l'ensemble de l'image est illustrée avec [subimageplural] soigneusement disposé(e)s</li>
+    <li>artextra_clause->l'ensemble de l'image est illustrée avec [subimageplural] soigneusement disposés</li>
+    <li>artextra_clause->l'ensemble de l'image est illustrée avec [subimageplural_fem] soigneusement disposées</li>
     <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
     <li>artextra_clause->une représentation personnifiée de [ConceptAny] [idles] [side_position]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
+    <li>subimageany->[subimageplural_fem]</li>
     <li>subimagesingle(p=4)->un(e) [Character]</li>
-    <li>subimagesingle->un(e) [TerrainFeature]</li>
-    <li>subimagesingle->un(e) [Community]</li>
-    <li>subimagesingle->un(e) [TreeType]</li>
-    <li>subimagesingle->un [Vegetable]</li>
-    <li>subimagesingle->une [Vegetable_Feminine]</li>
-    <li>subimagesingle->un(e) [AnimalGroup] de [Animal_AnyPlural]</li>
+    <li>subimagesingle->[TerrainFeatureAny_indef]</li>
+    <li>subimagesingle->[CommunityAny_indef]</li>
+    <li>subimagesingle->[TreeTypeAny_indef]</li>
+    <li>subimagesingle->[VegetableAny_indef]</li>
+    <li>subimagesingle->[AnimalGroupAny_indef] de [Animal_AnyPlural]</li>
     <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
     <li>subimageplural->[Quantity_adjphrase] [Vegetable_Plural]</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable_FemPlural]</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>subimageplural_fem->[Quantity_adjphrase] [Vegetable_FemPlural]</li>
     <!--  Adj: Pb de féminin (e) et de pluriel (s) -->
     <li>pawn_adj->[pawn_adj_regular]</li>
     <li>pawn_adj->[pawn_adj_irregular]</li>
@@ -269,10 +270,9 @@
     <!--  EN:  <li>pawn_adj_plural->old</li> vieux/vielle et pb de pluriel (s) -->
     <li>pawn_adj_irregular->vieux</li>
     <li>pawn_adj_irregular->assis</li>
-    <li>pawn_adj_invariant->portant un(e) [Apparel]</li>
-    <li>pawn_adj_invariant->maniant un(e) [Weapon]</li>
-    <li>pawn_adj_invariant->mangeant un [Vegetable]</li>
-    <li>pawn_adj_invariant->mangeant une [Vegetable_Feminine]</li>
+    <li>pawn_adj_invariant->portant [ApparelAny_indef]</li>
+    <li>pawn_adj_invariant->maniant [WeaponAny_indef]</li>
+    <li>pawn_adj_invariant->mangeant [VegetableAny_indef]</li>
     <li>pawn_adj_variant->couvert de [Gore]</li>
     <li>pawn_adj_variantplural->couverts de [Gore]</li>
     <li>emotional_expression_head->souriante</li>

@@ -33,7 +33,7 @@
     <li>circumstance_phrase->avec un sourire [AdjectiveFriendly]</li>
     <li>circumstance_phrase->en riant aux éclats</li>
     <li>circumstance_phrase->tout en [VerbFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s participent à la conversation.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] participent à la conversation.</li>
     <li>desc_sentence->L'endroit est décoré en [Color] et [Color].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
   </AttendedParty.rulePack.rulesStrings>
@@ -69,10 +69,12 @@
     <li>circumstance_phrase->tandis que ses amis construisent un fort</li>
     <li>circumstance_phrase->tandis que ses amis construisent la famille bonhommes de neige</li>
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
-    <li>desc_sentence->Au loin, un(e) [Community] est recouvert(e) par la neige.</li>
+    <li>desc_sentence->Au loin, un [Community] est recouvert par la neige.</li>
+    <li>desc_sentence->Au loin, une [Community_Feminine] est recouverte par la neige.</li>
     <li>desc_sentence->Un champs de [Vegetable_Plural] est à peine visible à travers la neige.</li>
     <li>desc_sentence->Un champs de [Vegetable_FemPlural] est à peine visible à travers la neige.</li>
-    <li>desc_sentence->Un(e) [TerrainFeature] couvert(e) de neige peut être vu au loin.</li>
+    <li>desc_sentence->Un [TerrainFeature] couvert de neige peut être vu au loin.</li>
+    <li>desc_sentence->Une [TerrainFeature_Feminine] couverte de neige peut être vu au loin.</li>
   </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
@@ -109,10 +111,12 @@
     <li>image->[DIGGER_nameFull] plaçant le corps de [CORPSE_nameFull] dans une tombe [circumstance_group]</li>
     <li>circumstance_phrase->avec un air [AdjectiveAngsty]</li>
     <li>circumstance_phrase->, perdu(e) dans ses pensées</li>
-    <li>circumstance_phrase->, regardant un(e) lointain(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant un lointain [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant une lointaine [TerrainFeature_Feminine]</li>
     <li>circumstance_phrase->, parlant tranquillement au mémorial</li>
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
-    <li>desc_sentence->Au loin, un(e) [Community] est recouvert(e) par la neige.</li>
+    <li>desc_sentence->Au loin, un [Community] est recouvert par la neige.</li>
+    <li>desc_sentence->Au loin, une [Community_Feminine] est recouverte par la neige.</li>
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] se dresse à côté de [DIGGER_nameDef], avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveAngsty].</li>
@@ -153,8 +157,8 @@
     <li>desc_sentence->[OBJECT_definite] semble s'élever au-dessus de [PAWN_nameDef].</li>
     <li>desc_sentence->[OBJECT_definite] brille d'un [Color] doux.</li>
     <li>desc_sentence->[OBJECT_definite] est très détaillé(e).</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s s'émerveillent devant [OBJECT_definite].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s admirent, émerveillés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'émerveillent devant [OBJECT_definite].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] admirent, émerveillés.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -190,8 +194,8 @@
     <li>desc_sentence->[OBJECT_definite] brille d'un [Color] doux.</li>
     <li>desc_sentence->[OBJECT_definite] est très complexe et détaillé(e).</li>
     <li>desc_sentence->[PAWN_nameDef] soulève [OBJECT_definite] sans effort apparent.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s s'émerveillent devant l'objet.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s admirent, émerveillés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'émerveillent devant l'objet.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] admirent, émerveillés.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -221,10 +225,11 @@
     <li>image->[PAWN_nameFull] regardant le monde qu'ils sont sur le point de quitter à travers la vitre d'un caisson d'hypersommeil [circumstance_group]</li>
     <li>circumstance_phrase->avec un air [AdjectiveAngsty]</li>
     <li>circumstance_phrase->, perdu(e) dans ses pensées</li>
-    <li>circumstance_phrase->, regardant un(e) lointain(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant un lointain [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant une lointaine [TerrainFeature_Feminine]</li>
     <li>circumstance_phrase->et se parlant tranquillement</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s s'approchent de l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] s'approchent de l'endroit.</li>
     <li>desc_sentence->[PAWN_nameDef] respire la determination.</li>
     <li>desc_sentence->[PAWN_nameDef] est visiblement blessé(e).</li>
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
@@ -254,8 +259,8 @@
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] devenant un maître en [SKILL_label]</li>
     <li>image->[PAWN_nameFull] s'exerçant en [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lisant un livre sur le/la [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] recevant un entraînement pour le/la [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lisant un livre sur [SKILL_definite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] recevant un entraînement pour [SKILL_definite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] travaillant fébrilement [circumstance_group]</li>
     <li>image->[PAWN_nameFull] finissant un projet [circumstance_group]</li>
     <li>circumstance_phrase->alors qu'[PAWN_pronoun] est couvert(e) de sueur</li>
@@ -265,7 +270,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] expériences ratées.</li>
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
@@ -295,8 +300,8 @@
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] devenant un maître en [SKILL_label]</li>
     <li>image->[PAWN_nameFull] s'exerçant en [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lisant un livre sur le/la [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] recevant un entraînement pour le/la [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lisant un livre sur [SKILL_definite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] recevant un entraînement pour [SKILL_definite] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] travaillant fébrilement [circumstance_group]</li>
     <li>image->[PAWN_nameFull] finissant un projet [circumstance_group]</li>
     <li>circumstance_phrase->avec un air [AdjectiveFriendly]</li>
@@ -308,7 +313,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] expériences ratées.</li>
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
@@ -374,7 +379,7 @@
   -->
   <Meditated.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] en méditation</li>
-    <li>image->[PAWN_nameFull] s'asseyant sous un(e) [TreeType], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'asseyant sous [TreeTypeAny_indef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] s'asseyant tranquillement, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] regardant au loin et [circumstance_group]</li>
     <li>image->[PAWN_nameFull] fermant ses yeux et [circumstance_group]</li>
@@ -383,10 +388,10 @@
     <li>circumstance_phrase->avec un sourire [AdjectiveFriendly]</li>
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent vers [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent vers [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont stupéfaits par la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont stupéfaits par la scène.</li>
   </Meditated.rulePack.rulesStrings>
   
   <!-- EN: mined valuable -->
@@ -424,9 +429,9 @@
     <li>circumstance_phrase->avec l'expression de sa satisfaction sur son visage</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s assistent à la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] déambulent dans les environs.</li>
-    <li>desc_sentence->Il y a un(e) [Community] en arrière-plan.</li>
+    <li>desc_sentence->Il y a [CommunityAny_indef] en arrière-plan.</li>
     <li>desc_sentence->[Quantity_adjphrase] autres veines sont visibles au loin.</li>
-    <li>desc_sentence->Un(e) [TerrainFeature] est visible au loin.</li>
+    <li>desc_sentence->[TerrainFeatureAny_indef] est visible au loin.</li>
     <li>desc_sentence->[PAWN_nameDef] est en sueur et sale à cause du travail.</li>
   </MinedValuable.rulePack.rulesStrings>
   
@@ -474,14 +479,14 @@
     <li>circumstance_phrase->avec un regard [AdjectiveAngsty]</li>
     <li>circumstance_phrase->[angstyverb]</li>
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
-    <li>desc_sentence->Un(e) [Community] est visible au loin.</li>
-    <li>desc_sentence->Un(e) [TerrainFeature] est visible au loin.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s jouent également.</li>
+    <li>desc_sentence->[CommunityAny_indef] est visible au loin.</li>
+    <li>desc_sentence->[TerrainFeatureAny_indef] est visible au loin.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] jouent également.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
     <li>desc_sentence->[PAWN_nameDef] brille d'une aura [Color_Feminine].</li>
     <li>desc_sentence->Les caractéristiques de [PAWN_nameDef] sont exagérées.</li>
     <li>desc_sentence->[PAWN_nameDef] s'éleve au-dessus de la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s s'effondrent dans la défaite.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'effondrent dans la défaite.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -515,10 +520,10 @@
     <li>circumstance_phrase->montrant une expression d'espoir</li>
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s regardent vers [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent vers [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s sont stupéfaits par la scène.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont stupéfaits par la scène.</li>
   </Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
@@ -550,10 +555,11 @@
     <li>circumstance_phrase->avec un air [AdjectiveFriendly]</li>
     <li>circumstance_phrase->avec un air [AdjectiveBadass]</li>
     <li>circumstance_phrase->tout en se perdant dans ses pensées</li>
-    <li>circumstance_phrase->tout en regardant un(e) lointain(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->tout en regardant un lointain [TerrainFeature]</li>
+    <li>circumstance_phrase->tout en regardant une lointaine [TerrainFeature_Feminine]</li>
     <li>circumstance_phrase->avec une tension visible entre les deux</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent près de la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s s'approchent de l'endroit.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] s'approchent de l'endroit.</li>
     <li>desc_sentence->[CARRIER_nameDef] respire la determination.</li>
     <li>desc_sentence->Le ciel est gris et nuageux.</li>
     <li>desc_sentence->[SLEEPER_nameDef] est visiblement blessé(e).</li>
@@ -585,7 +591,7 @@
     <li>tale_noun->[TAKER_nameDef] deshabillant [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] dénudant [STRIPPED_nameFull] en public [circumstance_group]</li>
     <li>image->[TAKER_nameFull] enlevant les vêtements de [STRIPPED_nameFull] [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] tenant une poignée de [Apparel]s debout à côté de [STRIPPED_nameFull], qui est totalement nu(e) [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] tenant une poignée de [Apparel_AnyPlural] debout à côté de [STRIPPED_nameFull], qui est totalement nu(e) [circumstance_group]</li>
     <li>image->[TAKER_nameFull] attendant patiemment que [STRIPPED_nameFull] enlève ses vêtements [circumstance_group]</li>
     <li>circumstance_phrase->avec détermination</li>
     <li>circumstance_phrase->sans aucune honte</li>
@@ -632,10 +638,12 @@
     <li>image->[VISITOR_nameFull] regardant l'art sur la tombe de [CORPSE_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->avec un air [AdjectiveAngsty]</li>
     <li>circumstance_phrase->, perdu(e) dans ses pensées</li>
-    <li>circumstance_phrase->, regardant un(e) lointain(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant un lointain [TerrainFeature]</li>
+    <li>circumstance_phrase->, regardant une lointaine [TerrainFeature_Feminine]</li>
     <li>circumstance_phrase->, parlant tranquillement au mémorial</li>
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
-    <li>desc_sentence->Au loin, un(e) [Community] est recouvert(e) par la neige.</li>
+    <li>desc_sentence->Au loin, un [Community] est recouvert par la neige.</li>
+    <li>desc_sentence->Au loin, une [Community_Feminine] est recouverte par la neige.</li>
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Une image spectrale de [CORPSE_nameDef] se dresse à côté de [VISITOR_nameDef], avec un air [AdjectiveFriendly].</li>
     <li>desc_sentence->Le spectre de [CORPSE_nameDef] regarde la scène avec un air [AdjectiveAngsty].</li>
