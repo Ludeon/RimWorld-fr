@@ -54,20 +54,20 @@
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
     <li>threatsInfoMechClustersSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été pris(e) pour cible par un essaim de mécanoïdes en orbite. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, des escouades de mécanoïdes de combat seront larguées régulièrement sur [map_definite].</li>
     <li>threatsInfoMechClustersMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par un essaim de mécanoïdes en orbite. Aussi longtemps qu'ils s'y trouveront, des escouades de mécanoïdes de combat seront larguées régulièrement sur [map_definite].</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été pris(e) pour cible par une ruche  mécanoïde. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, des escouades de mécanoïdes de combat attaqueront régulièrement [map_definite].</li>
-    <li>threatsInfoMechRaidsMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par une ruche de mécanoïde. Aussi longtemps qu'ils s'y trouveront, des escouades de mécanoïdes de combat attaqueront régulièrement [map_definite].</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été pris(e) pour cible par une ruche  mécanoïde. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, cette ruche lancera régulièrement des incursions sur [map_definite].</li>
+    <li>threatsInfoMechRaidsMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par une ruche de mécanoïde. Aussi longtemps qu'ils s'y trouveront, cette ruche lancera régulièrement des incursions sur [map_definite].</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Une organisation de protection des animaux vous demande de predre soin d'[lodgersPawnKind_indefinite] nommé(e) [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nLes militants du sauvetage des animaux ont volé [lodgers0_nameDef] d'une cérémonie sacrificielle de [enemyFaction_name]. Maintenant les [enemyFaction_pawnsPlural] vont venir pour se venger. Si vous acceptez [lodgers0_nameDef], ces [enemyFaction_pawnsPlural] attaqueront aussi longtemps qu'[lodgers0_pronoun] s'y trouvera. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Une organisation de protection des animaux vous demande de predre soin de [lodgersCount] [lodgersLabelPlural] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Une organisation de protection des animaux vous demande de prendre soin de [lodgersCount] [lodgersLabelPlural] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2]\n\n[commonDescEnding]</li>
     <li>victim->un enfant</li>
     <li>victim->une femme</li>
     <li>victim->un homme</li>
     <li>victim->un(e) [PersonJob]</li>
     <li>victim(generateThreats==true,allowedThreats==Raids)->un ami du/de la [enemyFaction_leaderTitle] de [enemyFaction_name]</li>
-    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, ces [lodgersLabelPlural] ont été récemment impliqués dans la mort d'[victim]. Maintenant, les [enemyFaction_pawnsPlural] de [enemyFaction_name] les pourchassent pour une vengeance rituelle. Si vous accepter les [lodgersLabelPlural], les [enemyFaction_pawnsPlural] aussi longtemps qu'ils s'y trouveront. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, ces [lodgersLabelPlural] ont été récemment impliqués dans la mort d'[victim]. Maintenant, les [enemyFaction_pawnsPlural] de [enemyFaction_name] les pourchassent pour une vengeance rituelle. Si vous acceptez les [lodgersLabelPlural], les [enemyFaction_pawnsPlural] attaqueront aussi longtemps qu'ils s'y trouveront. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
