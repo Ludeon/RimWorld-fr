@@ -27,15 +27,32 @@
     <li>adj->Found</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->Ressources [distant_fem]</li>
-    <li>questName->Minerais [distant]</li>
-    <li>distant->distants</li>
-    <li>distant->au loin</li>
-    <li>distant->éloignés</li>
+    <li>questName->Les [subName]</li>
+    <li>questName->[subName]</li>
+    <li>subName->ressources [adj_fem]</li>
+    <li>subName->richesses [adj_fem]</li>
+    <li>subName->réserves [adj_fem]</li>
+    <li>subName->mineraux [adj_masc]</li>
+    <li>subName->minerais [adj_masc]</li>
+    <li>subName->gisements [adj_masc]</li>
+    <li>subName->projets miniers [adj_masc]</li>
+    <li>adj_masc->distants</li>
+    <li>adj_masc->lointains</li>
+    <li>adj_masc->au loin</li>
+    <li>adj_masc->éloignés</li>
+    <li>adj_masc->inconnus</li>
+    <li>adj_masc->détectés</li>
+    <li>adj_masc->découverts</li>
+    <li>adj_masc->trouvés</li>
     <!-- NOTE: pour les mots féminins -->
-    <li>distant_fem->distantes</li>
-    <li>distant_fem->au loin</li>
-    <li>distant_fem->éloignées</li>
+    <li>adj_fem->distantes</li>
+    <li>adj_fem->lointaines</li>
+    <li>adj_fem->au loin</li>
+    <li>adj_fem->éloignées</li>
+    <li>adj_fem->inconnues</li>
+    <li>adj_fem->détectées</li>
+    <li>adj_fem->découvertes</li>
+    <li>adj_fem->trouvées</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quête expirée : [resolvedQuestName]</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
