@@ -5,45 +5,60 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <!-- TODO -->
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nVous devez construire un monument. Ca taille est de [monumentSize] et nécessitera ces ressources (valeur totale [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
   -->
-  <Decree_BuildMonument.questNameRules.rulesStrings>TODO</Decree_BuildMonument.questNameRules.rulesStrings>
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li> questName->décret pour un monument</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Un nouveau marqueur de monument est arrivé</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Depuis que le marqueur de monument a été détruit, un nouveau a été envoyé.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
-  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>TODO</Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVous devez récolter [harvestItemCount] [plantToHarvest_label].\n\nVous devrez peut-être semer et faire pousser des plants de [plantToHarvest_label] en premier lieu.\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[plantToHarvest_label] harvest decree</li>
   -->
-  <Decree_HarvestCrop.questNameRules.rulesStrings>TODO</Decree_HarvestCrop.questNameRules.rulesStrings>
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->décret de récolte pour des plants de [plantToHarvest_label]</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   -->
-  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>TODO</Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVous devez chasser ou abattre [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount (countToHunt == 1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount (countToHunt! = 1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
-  <Decree_HuntAnimal.questNameRules.rulesStrings>TODO</Decree_HuntAnimal.questNameRules.rulesStrings>
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName ->décret de chasse de [animalToHunt_label]</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
-  <Decree_ProduceItem.questDescriptionRules.rulesStrings>TODO</Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li> questDescription ->[decreeIntro]\n\nVous devez produire:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo] </li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
   -->
-  <Decree_ProduceItem.questNameRules.rulesStrings>TODO</Decree_ProduceItem.questNameRules.rulesStrings>
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->décret de production pour [defToProduce_label]</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
   
 </LanguageData>
