@@ -47,7 +47,7 @@
   <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>État mental : obsession des cadavres</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} est temporairement obséd{PAWN_gender ? é : ée : é(e)} par les cadavres. {PAWN_pronoun} va déterrer un macchabée.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} est temporairement obséd{PAWN_gender ? é : ée : é(e)} par les cadavres.\n\n{PAWN_pronoun} va déterrer un macchabée et le montrer à tout le monde.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>obsession des cadavres</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0} n'est plus obséd{PAWN_gender ? é : ée : é(e)} par les cadavres.</CorpseObsession.recoveryMessage>
@@ -60,7 +60,7 @@
   <FireStartingSpree.beginLetter>{0} est pri{PAWN_gender ? s : se : s(e)} d'une frénésie pyromane.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>pyromane</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
-  <FireStartingSpree.recoveryMessage>{0} n'est plus attein{PAWN_gender ? t : te : t(e)} d'impulsions pyromanes.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.recoveryMessage>{0} n'est plus attein{PAWN_gender ? t : te : t(e)} d'impulsions pyromanes.\n\n{PAWN_pronoun} va errer partout et mettre le feu sur ce qu'{PAWN_pronoun} trouve.</FireStartingSpree.recoveryMessage>
   
   <!-- EN: giving up and leaving -->
   <GiveUpExit.label>abandonne tout et s'en va</GiveUpExit.label>
