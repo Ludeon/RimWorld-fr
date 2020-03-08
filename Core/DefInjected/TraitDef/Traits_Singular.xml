@@ -75,7 +75,7 @@
   <Gourmand.degreeDatas.gourmand.label>boulimique</Gourmand.degreeDatas.gourmand.label>
   <!-- EN: {PAWN_nameDef}'s life revolves around food. {PAWN_pronoun} gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry. -->
   <Gourmand.degreeDatas.gourmand.description>{PAWN_nameDef} vit pour manger. {PAWN_pronoun} a vite faim, et sera parfois submerg{PAWN_gender ? é : ée : é(e)} par l'envie de manger de façon vorace, même quand {PAWN_pronoun} n'a pas faim.</Gourmand.degreeDatas.gourmand.description>
-  
+
   <!-- EN: great memory -->
   <GreatMemory.degreeDatas.great_memory.label>bonne mémoire</GreatMemory.degreeDatas.great_memory.label>
   <!-- EN: {PAWN_nameDef} has a fantastic memory for detail. {PAWN_pronoun} will lose unused skills at half the rate of other people. -->
@@ -89,8 +89,8 @@
   <!-- EN: jealous -->
   <Jealous.degreeDatas.jealous.label>jaloux(se)</Jealous.degreeDatas.jealous.label>
   <!-- EN: For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom. -->
-  <Jealous.degreeDatas.jealous.description>Pour {PAWN_nameDef}, il est dégradant d'avoir une chambre moins impressionnante que quelqu'un d'autre. {PAWN_pronoun} obtient une perte d'humeur si un colon dispose d'une chambre plus impressionnante que la sienne.</Jealous.degreeDatas.jealous.description>
-  
+  <Jealous.degreeDatas.jealous.description>Pour {PAWN_nameDef}, il est dégradant d'avoir une chambre moins impressionnante que quelqu'un d'autre. {PAWN_pronoun} est de mauvaise humeur si un colon dispose d'une chambre plus impressionnante que la sienne.</Jealous.degreeDatas.jealous.description>
+
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>aimable</Kind.degreeDatas.kind.label>
   <!-- EN: {PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance. -->
@@ -104,8 +104,8 @@
   <!-- EN: night owl -->
   <NightOwl.degreeDatas.night_owl.label>noctambule</NightOwl.degreeDatas.night_owl.label>
   <!-- EN: {PAWN_nameDef} likes to be up during the night, and sleep during the day.\n\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark. -->
-  <NightOwl.degreeDatas.night_owl.description>{PAWN_nameDef} aime travailler la nuit. {PAWN_pronoun} obtient un bonus d'humeur quand {PAWN_pronoun} est éveill{PAWN_gender ? é : ée : é(e)} la nuit et une perte d'humeur quand {PAWN_pronoun} est éveill{PAWN_gender ? é : ée : é(e)} pendant la journée.</NightOwl.degreeDatas.night_owl.description>
-  
+  <NightOwl.degreeDatas.night_owl.description>{PAWN_nameDef} aime travailler la nuit. {PAWN_pronoun} obtient un bonus d'humeur quand {PAWN_pronoun} est éveill{PAWN_gender ? é : ée : é(e)} la nuit (23h-6h) et une perte d'humeur quand {PAWN_pronoun} est éveill{PAWN_gender ? é : ée : é(e)} pendant la journée (11h-18h).\n\n{PAWN_pronoun} n'est pas pénalis{PAWN_gender ? é : ée : é(e)} par l'obscurité.</NightOwl.degreeDatas.night_owl.description>
+
   <!-- EN: nimble -->
   <Nimble.degreeDatas.nimble.label>agile</Nimble.degreeDatas.nimble.label>
   <!-- EN: {PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace. -->
@@ -119,13 +119,13 @@
   <!-- EN: psychopath -->
   <Psychopath.degreeDatas.psychopath.label>psychopathe</Psychopath.degreeDatas.psychopath.label>
   <!-- EN: {PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing. -->
-  <Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} n'a aucune empathie, la souffrance des autres ne {PAWN_objective} dérange pas. {PAWN_pronoun} demeure indifféren{PAWN_gender ? t : te : t(e)} quand des gens sont démembrés, abandonnés aux vautours, emprisonnés ou vendus en tant qu'esclaves - à moins que ça ne {PAWN_objective} concerne directement. {PAWN_pronoun} ne reçoit également aucun bonus provenant d'interactions sociales.</Psychopath.degreeDatas.psychopath.description>
-  
+  <Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} n'a aucune empathie, la souffrance des autres ne {PAWN_gender ? le : la : le/la} dérange pas. {PAWN_pronoun} demeure indifféren{PAWN_gender ? t : te : t(e)} quand des gens sont démembrés, abandonnés aux vautours, emprisonnés ou vendus en tant qu'esclaves – à moins que ça ne {PAWN_gender ? le : la : le/la} pas concerne directement. {PAWN_pronoun} ne reçoit également aucun bonus provenant d'interactions sociales.</Psychopath.degreeDatas.psychopath.description>
+
   <!-- EN: pyromaniac -->
   <Pyromaniac.degreeDatas.pyromaniac.label>pyromane</Pyromaniac.degreeDatas.pyromaniac.label>
   <!-- EN: {PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires. To relieve stress, {PAWN_pronoun} will occasionally go on random fire starting sprees. This happens more often if {PAWN_possessive} mood is low. -->
-  <Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} adore le feu. {PAWN_pronoun} va occasionnellement allumer des incendies et n'essayera jamais d'en éteindre.</Pyromaniac.degreeDatas.pyromaniac.description>
-  
+  <Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} adore le feu. Pour déstresser, {PAWN_pronoun} va occasionnellement allumer des incendies et n'essayera jamais d'en éteindre. Cela arrive plus souvent quand {PAWN_pronoun} est de mauvaise humeur.</Pyromaniac.degreeDatas.pyromaniac.description>
+
   <!-- EN: quick sleeper -->
   <QuickSleeper.degreeDatas.quick_sleeper.label>petit(e) dormeur(se)</QuickSleeper.degreeDatas.quick_sleeper.label>
   <!-- EN: {PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time. -->
@@ -154,8 +154,8 @@
   <!-- EN: transhumanist -->
   <Transhumanist.degreeDatas.transhumanist.label>transhumaniste</Transhumanist.degreeDatas.transhumanist.label>
   <!-- EN: {PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced by artificial body parts. -->
-  <Transhumanist.degreeDatas.transhumanist.description>{PAWN_nameDef} se sent limit{PAWN_gender ? é : ée : é(e)} par son corps faible. {PAWN_pronoun} rêve souvent d'améliorer ses performances grâce à ses parties du corps superficielles.</Transhumanist.degreeDatas.transhumanist.description>
-  
+  <Transhumanist.degreeDatas.transhumanist.description>{PAWN_nameDef} se sent limit{PAWN_gender ? é : ée : é(e)} par son corps faible. {PAWN_pronoun} rêve souvent d'améliorer ses performances grâce à des parties du corps artificielles.</Transhumanist.degreeDatas.transhumanist.description>
+
   <!-- EN: undergrounder -->
   <Undergrounder.degreeDatas.undergrounder.label>homme/femme taupe</Undergrounder.degreeDatas.undergrounder.label>
   <!-- EN: {PAWN_nameDef} has no need to experience the outdoors or light. {PAWN_pronoun} will never feel cooped up or get cabin fever, no matter how long {PAWN_pronoun} stays inside, and is not bothered by darkness. -->
