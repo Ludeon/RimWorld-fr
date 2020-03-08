@@ -137,7 +137,7 @@
   <MessageNoLongerDowned>{1_label} n'est plus incapable de marcher.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} s'est effondré en raison d'un épuisement extrême.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} s'est effondr{1_gender ? é : ée : é(e)} en raison d'un épuisement extrême.</MessageInvoluntarySleep>
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} a échoué de peu en opérant {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
@@ -171,7 +171,7 @@
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} a nommé {1} {NAMEE_nameFull} après s'être fait câliner.</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {ANIMAL_kindBase} (requiert niveau {1} en {2}, votre meilleu{HANDLER_gender ? r : re : r(e)} dresseu{HANDLER_gender ? r : se : r/se} {HANDLER_labelShort} est niveau {4}).</MessageNoHandlerSkilledEnough>
+  <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {ANIMAL_kindBase} (requiert niveau {1} en {2}, votre meilleu{HANDLER_gender ? r : re : r(e)} dresseu{HANDLER_gender ? r : se : r(se)} {HANDLER_labelShort} est niveau {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} a été dévor{EATEN_gender ? é : ée : é(e)} par {PREDATOR}.</MessageEatenByPredator>
@@ -246,7 +246,7 @@
   <MessageFoodPoisoning>{PAWN_labelShort} est victime d'une intoxication alimentaire issue de : {FOOD_labelShort}. Cause : {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
-  <MessagePawnLostWhileFormingCaravan>{0} a été retiré de la caravane.</MessagePawnLostWhileFormingCaravan>
+  <MessagePawnLostWhileFormingCaravan>{0} a été retir{0_gender ? é : ée : é(e)} de la caravane.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>La formation de la caravane est annulée.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
@@ -274,7 +274,7 @@
   <MessagePlantDiedOfBlight>{1_label} a été tué par le mildiou.</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>{1_labelShort} est brûlé par de l'air surchauffé !</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{1_labelShort} est brûl{1_gender ? é : ée : é(e)} par de l'air surchauffé !</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER} a accidentellement eu une surdose de {DRUG_labelShort} !</MessageAccidentalOverdose>
@@ -353,7 +353,7 @@
   <MessageWouldReplaceLockedApparel>Ne peut pas porter : cela remplacerait les vêtements qu'{1_labelShort} refuse de retirer.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {DESIGNATED_labelShort} rendra {BONDED_labelShort} malheureu{BONDED_gender ? x : se : x/se}.</MessageSlaughteringBondedAnimal>
+  <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {DESIGNATED_labelShort} rendra {BONDED_labelShort} malheureu{BONDED_gender ? x : se : x(se)}.</MessageSlaughteringBondedAnimal>
   
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0} est à court de nourriture ({PAWN_label})</MessageCaravanRanOutOfFood>
@@ -422,7 +422,7 @@
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
   <MessageFailedToRescueRelative>Vous n'avez pas réussi à sauver {PAWN_labelShort}. Cela rendra {RELATIVE_labelShort} triste.</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>Vous avez sauvé {PAWN_labelShort}. Ceci rendra {RELATIVE_labelShort} heureu{RELATIVE_gender ? x : se : x/se}.</MessageRescuedRelative>
+  <MessageRescuedRelative>Vous avez sauvé {PAWN_labelShort}. Ceci rendra {RELATIVE_labelShort} heureu{RELATIVE_gender ? x : se : x(se)}.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>La tornade a quitté la région.</MessageTornadoLeftMap>
