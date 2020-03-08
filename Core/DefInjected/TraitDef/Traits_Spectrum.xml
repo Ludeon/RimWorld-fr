@@ -4,19 +4,19 @@
   <!-- EN: beautiful -->
   <Beauty.degreeDatas.beautiful.label>magnifique</Beauty.degreeDatas.beautiful.label>
   <!-- EN: [PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth. -->
-  <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef] est exceptionnellement jol{PAWN_gender ? i : ie}, avec un visage particulièrement exotique et un regard saisissant. Les gens sont naturellement attirés, avant même qu'un seul mot ne soit prononcé.</Beauty.degreeDatas.beautiful.description>
+  <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef] est exceptionnellement jol{PAWN_gender ? i : ie : i(e)}, avec un visage particulièrement exotique et un regard saisissant. Les gens sont naturellement attirés, avant même qu'un seul mot ne soit prononcé.</Beauty.degreeDatas.beautiful.description>
   <!-- EN: pretty -->
   <Beauty.degreeDatas.pretty.label>beau/belle</Beauty.degreeDatas.pretty.label>
   <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
-  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] est particulièrement b{PAWN_gender ? eau : elle}, ce qui fait que tout le monde l'aime ici.</Beauty.degreeDatas.pretty.description>
+  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] est particulièrement {PAWN_gender ? beau : belle : beau/belle}, ce qui fait que tout le monde l'aime ici.</Beauty.degreeDatas.pretty.description>
   <!-- EN: ugly -->
   <Beauty.degreeDatas.ugly.label>laid(e)</Beauty.degreeDatas.ugly.label>
   <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
-  <Beauty.degreeDatas.ugly.description>[PAWN_nameDef] est bigrement lai{PAWN_gender ? d : de}, ce qui a tendance à rendre ses relations sociales plus difficiles.</Beauty.degreeDatas.ugly.description>
+  <Beauty.degreeDatas.ugly.description>[PAWN_nameDef] est bigrement lai{PAWN_gender ? d : de : d(e)}, ce qui a tendance à rendre ses relations sociales plus difficiles.</Beauty.degreeDatas.ugly.description>
   <!-- EN: staggeringly ugly -->
   <Beauty.degreeDatas.staggeringly_ugly.label>affreux(se)</Beauty.degreeDatas.staggeringly_ugly.label>
   <!-- EN: [PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing. -->
-  <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef] est incroyablement lai{PAWN_gender ? d : de}. Son visage ressemble à un dessin d'enfant croisé avec un fœtus malformé à l'intérieur d'un bocal et une pièce d'art moderne. Lors des discussions, les gens doivent faire un effort de concentration pour [PAWN_objective] regarder.</Beauty.degreeDatas.staggeringly_ugly.description>
+  <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef] est incroyablement lai{PAWN_gender ? d : de : d(e)}. Son visage ressemble à un dessin d'enfant croisé avec un fœtus malformé à l'intérieur d'un bocal et une pièce d'art moderne. Lors des discussions, les gens doivent faire un effort de concentration pour {PAWN_gender ? le : la : le/la} regarder.</Beauty.degreeDatas.staggeringly_ugly.description>
   
   <!-- EN: chemical fascination -->
   <DrugDesire.degreeDatas.chemical_fascination.label>Importante tendance toxicomaniaque</DrugDesire.degreeDatas.chemical_fascination.label>
@@ -60,7 +60,7 @@
   <!-- EN: sanguine -->
   <NaturalMood.degreeDatas.sanguine.label>joyeux(se)</NaturalMood.degreeDatas.sanguine.label>
   <!-- EN: [PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is. -->
-  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef] est toujours excit{PAWN_gender ? é : ée} à propos de ce qu'il lui arrive, et ce quasiment tout le temps, peu importe la situation.</NaturalMood.degreeDatas.sanguine.description>
+  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef] est toujours excit{PAWN_gender ? é : ée : é(e)} à propos de ce qu'il lui arrive, et ce quasiment tout le temps, peu importe la situation.</NaturalMood.degreeDatas.sanguine.description>
   <!-- EN: optimist -->
   <NaturalMood.degreeDatas.optimist.label>optimiste</NaturalMood.degreeDatas.optimist.label>
   <!-- EN: [PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down. -->
@@ -111,11 +111,11 @@
   <!-- EN: psychically dull -->
   <PsychicSensitivity.degreeDatas.psychically_dull.label>résistance psychique</PsychicSensitivity.degreeDatas.psychically_dull.label>
   <!-- EN: [PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena. -->
-  <PsychicSensitivity.degreeDatas.psychically_dull.description>L'esprit de [PAWN_nameDef] est psychiquement désaccordé par rapport aux autres. [PAWN_pronoun] n'est pas trop affect{PAWN_gender ? é : ée} par les phénomènes psychiques.</PsychicSensitivity.degreeDatas.psychically_dull.description>
+  <PsychicSensitivity.degreeDatas.psychically_dull.description>L'esprit de [PAWN_nameDef] est psychiquement désaccordé par rapport aux autres. [PAWN_pronoun] n'est pas trop affect{PAWN_gender ? é : ée : é(e)} par les phénomènes psychiques.</PsychicSensitivity.degreeDatas.psychically_dull.description>
   <!-- EN: psychically deaf -->
   <PsychicSensitivity.degreeDatas.psychically_deaf.label>immunité psychique</PsychicSensitivity.degreeDatas.psychically_deaf.label>
   <!-- EN: [PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena. -->
-  <PsychicSensitivity.degreeDatas.psychically_deaf.description>L'esprit de [PAWN_nameDef] fonctionne sur des fréquences psychiques différentes de celles des autres. [PAWN_pronoun] n'est tout simplement pas affecté(e) par les phénomènes psychiques.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
+  <PsychicSensitivity.degreeDatas.psychically_deaf.description>L'esprit de [PAWN_nameDef] fonctionne sur des fréquences psychiques différentes de celles des autres. [PAWN_pronoun] n'est tout simplement pas affect{PAWN_gender ? é : ée : é(e)} par les phénomènes psychiques.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
   
   <!-- EN: careful shooter -->
   <ShootingAccuracy.degreeDatas.careful_shooter.label>tireur(se) prudent(e)</ShootingAccuracy.degreeDatas.careful_shooter.label>
