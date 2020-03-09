@@ -48,36 +48,76 @@
     <li>SylE->WordParts/Syllables_English</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>Color->Words/Nouns/Colors</li>
+    <li>Color_Plural->Words/Nouns/Colors_Plural</li>
+    <li>Color_Feminine->Words/Nouns/Colors_Feminine</li>
+    <li>Color_FemPlural->Words/Nouns/Colors_FemPlural</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>Vegetable_Plural->Words/Nouns/Vegetables_Plural</li>
+    <li>Vegetable_Feminine->Words/Nouns/Vegetables_Feminine</li>
+    <li>Vegetable_FemPlural->Words/Nouns/Vegetables_FemPlural</li>
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
+    <li>Animal_Plural->Words/Nouns/Animals_Plural</li>
+    <li>Animal_Feminine->Words/Nouns/Animals_Feminine</li>
+    <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+    <li>AnimalGroup_Feminine->Words/Nouns/AnimalGroups_Feminine</li>
     <li>Weapon->Words/Nouns/Weapons</li>
+    <li>Weapon_Plural->Words/Nouns/Weapons_Plural</li>
+    <li>Weapon_Feminine->Words/Nouns/Weapons_Feminine</li>
+    <li>Weapon_FemPlural->Words/Nouns/Weapons_FemPlural</li>
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>TerrainFeature_Plural->Words/Nouns/TerrainFeatures_Plural</li>
+    <li>TerrainFeature_Feminine->Words/Nouns/TerrainFeatures_Feminine</li>
+    <li>TerrainFeature_FemPlural->Words/Nouns/TerrainFeatures_FemPlural</li>
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>NaturalObject_Plural->Words/Nouns/NaturalObject_Plural</li>
+    <li>NaturalObject_Feminine->Words/Nouns/NaturalObject_Feminine</li>
+    <li>NaturalObject_FemPlural->Words/Nouns/NaturalObject_FemPlural</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
+    <li>TreeType_Plural->Words/Nouns/TreeTypes_Plural</li>
+    <li>TreeType_Feminine->Words/Nouns/TreeTypes_Feminine</li>
+    <li>TreeType_FemPlural->Words/Nouns/TreeTypes_FemPlural</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
+    <li>PersonFamily_Feminine->Words/Nouns/People_Family_Feminine</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/Enemies</li>
+    <li>Enemy_Plural->Words/Nouns/Enemies_Plural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
+    <li>Apparel_Plural->Words/Nouns/Apparel_Plural</li>
+    <li>Apparel_Feminine->Words/Nouns/Apparel_Feminine</li>
+    <li>Apparel_FemPlural->Words/Nouns/Apparel_FemPlural</li>
     <li>Gore->Words/Nouns/Gore</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
     <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
     <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
     <li>Community->Words/Nouns/Communities</li>
+    <li>Community_Feminine->Words/Nouns/Communities_Feminine</li>
     <li>Bodypart->Words/Nouns/Bodyparts</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
+    <li>AdjectiveLarge_Feminine->Words/Adjectives/Large_Feminine</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+    <li>AdjectiveBadass_Plural->Words/Adjectives/Badass_Plural</li>
+    <li>AdjectiveBadass_Feminine->Words/Adjectives/Badass_Feminine</li>
+    <li>AdjectiveBadass_FemPlural->Words/Adjectives/Badass_FemPlural</li>
+    <!-- NOTE: un seul cas de AdjectiveAngsty pluriel  -->
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+    <li>AdjectiveAngsty_Feminine->Words/Adjectives/Angsty_Feminine</li>
     <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
+    <li>AdjectiveFriendly_Feminine->Words/Adjectives/Friendly_Feminine</li>
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjectiveNatural_Feminine->Words/Adjectives/Natural_Feminine</li>
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+    <li>PersonalCharacteristic_Plural->Words/Nouns/PersonalCharacteristics_Plural</li>
+    <li>PersonalCharacteristic_Feminine->Words/Nouns/PersonalCharacteristics_Feminine</li>
+    <li>PersonalCharacteristic_FemPlural->Words/Nouns/PersonalCharacteristics_FemPlural</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -170,16 +210,70 @@
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
     <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>AdjectiveAny_Feminine->[AdjectiveBadass_Feminine]</li>
+    <li>AdjectiveAny_Feminine->[AdjectiveAngsty_Feminine]</li>
+    <li>AdjectiveAny_Feminine->[AdjectiveFriendly_Feminine]</li>
+    <li>AdjectiveAny_Feminine->[AdjectiveNatural_Feminine]</li>
+    <li>AnimalAny_indef->un [Animal]</li>
+    <li>AnimalAny_indef->une [Animal_Feminine]</li>
+    <li>AnimalGroupAny_indef->un [AnimalGroup]</li>
+    <li>AnimalGroupAny_indef->une [AnimalGroup_Feminine]</li>
+    <li>ApparelAny_indef->un [Apparel]</li>
+    <li>ApparelAny_indef->une [Apparel_Feminine]</li>
+    <li>CommunityAny_indef->un [Community]</li>
+    <li>CommunityAny_indef->une [Community_Feminine]</li>
+    <li>CommunityAny_def->le [Community]</li>
+    <li>CommunityAny_def->la [Community_Feminine]</li>
+    <li>TerrainFeatureAny_indef->un [TerrainFeature]</li>
+    <li>TerrainFeatureAny_indef->une [TerrainFeature_Feminine]</li>
+    <li>NaturalObjectAny_indef->un [NaturalObject]</li>
+    <li>NaturalObjectAny_indef->une [NaturalObject_Feminine]</li>
+    <li>VegetableAny_indef->un [Vegetable]</li>
+    <li>VegetableAny_indef->une [Vegetable_Feminine]</li>
+    <li>WeaponAny_indef->un [Weapon]</li>
+    <li>WeaponAny_indef->une [Weapon_Feminine]</li>
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
-    <li>PersonalCharacteristic(p=0.15)->organes génitaux</li>
-    <li>PersonalCharacteristic(p=0.15)->toison pubienne</li>
-    <li>PersonalCharacteristic(p=0.15)->pilosité corporelle</li>
-    <li>PersonalCharacteristic(p=0.15)->habitudes aux toilettes</li>
-    <li>PersonalCharacteristic(p=0.15)->prouesse sexuelle</li>
-    <li>PersonalCharacteristic(p=0.15)->preferences sexuelles</li>
-    <li>PersonalCharacteristic(p=0.15)->experience sexuelle</li>
+    <li>Apparel_AnyPlural->[Apparel_Plural]</li>
+    <li>Apparel_AnyPlural->[Apparel_FemPlural]</li>
+    <li>Animal_AnyPlural->[Animal_Plural]</li>
+    <li>Animal_AnyPlural->[Animal_FemPlural]</li>
+    <li>Enemy_AnyPlural->[Enemy_Plural]</li>
+    <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
+    <li>NaturalObject_AnyPlural->[NaturalObject_FemPlural]</li>
+    <!-- NOTE : le/la/les PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristicsAny_def->[PersonalCharacteristic_Any_def]</li>
+    <li>PersonalCharacteristicsAny_def->[PersonalCharacteristic_AnyPlural_def]</li>
+    <li>PersonalCharacteristic_Any_def->le [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristic_Any_def->la [PersonalCharacteristic_Feminine]</li>
+    <li>PersonalCharacteristic_AnyPlural_def->les [PersonalCharacteristic_AnyPlural]</li>
+    <!-- NOTE : son/sa/ses PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristicsAny_poss->[PersonalCharacteristic_Any_poss]</li>
+    <li>PersonalCharacteristicsAny_poss->[PersonalCharacteristic_AnyPlural_poss]</li>
+    <li>PersonalCharacteristic_Any_poss->son [PersonalCharacteristic]</li>
+    <li>PersonalCharacteristic_Any_poss->sa [PersonalCharacteristic_Feminine]</li>
+    <li>PersonalCharacteristic_AnyPlural_poss->ses [PersonalCharacteristic_AnyPlural]</li>
+    <!-- NOTE : PersonalCharacteristic(s) -->
+    <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_Plural]</li>
+    <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_FemPlural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_Plural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_FemPlural]</li>
+    <li>TreeTypeAny_indef->un [TreeType]</li>
+    <li>TreeTypeAny_indef->une [TreeType_Feminine]</li>
+    <li>TreeType_AnyPlural->[TreeType_Plural]</li>
+    <li>TreeType_AnyPlural->[TreeType_FemPlural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
+    <li>Weapon_AnyPlural->[Weapon_Plural]</li>
+    <li>Weapon_AnyPlural->[Weapon_FemPlural]</li>
+    <li>PersonalCharacteristic_Plural(p=0.15)->organes génitaux</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->toison pubienne</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->pilosité corporelle</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->prouesse sexuelle</li>
+    <li>PersonalCharacteristic_Feminine(p=0.15)->experience sexuelle</li>
+    <li>PersonalCharacteristic_FemPlural(p=0.15)->habitudes aux toilettes</li>
+    <li>PersonalCharacteristic_FemPlural(p=0.15)->preferences sexuelles</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -229,32 +323,33 @@
     <li>TalkTopicHeavy(p=0.08)->de la connexion entre [talktopicheavyfile] et [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->de la relation entre [talktopicheavyfile] et [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->de [talktopiclightfile]</li>
-    <li>TalkTopicLight->des [Vegetable]s</li>
-    <li>TalkTopicLight->de manger des [Vegetable]s</li>
-    <li>TalkTopicLight->de cuisiner avec des [Vegetable]s</li>
+    <li>TalkTopicLight->des [Vegetable_AnyPlural]</li>
+    <li>TalkTopicLight->de manger des [Vegetable_AnyPlural]</li>
+    <li>TalkTopicLight->de cuisiner avec des [Vegetable_AnyPlural]</li>
     <li>TalkTopicLight->de [Game]</li>
     <li>TalkTopicLight->de jouer au [Game]</li>
     <li>TalkTopicLight->de s'exercer au [Game]</li>
     <li>TalkTopicLight->d'apprendre le [Game]</li>
-    <li>TalkTopicLight->des [Animal]s</li>
-    <li>TalkTopicLight->d'entraîner des [Animal]s</li>
-    <li>TalkTopicLight->d'apprivoiser des [Animal]s</li>
-    <li>TalkTopicLight->de combattre des [Animal]s</li>
-    <li>TalkTopicLight->des [Animal]s fous</li>
-    <li>TalkTopicLight->des [Weapon]s</li>
-    <li>TalkTopicLight->d'utiliser des [Weapon]s</li>
-    <li>TalkTopicLight->de s'entraîner aux [Weapon]s</li>
-    <li>TalkTopicLight->de [TerrainFeature]s</li>
-    <li>TalkTopicLight->de [NaturalObject]s</li>
-    <li>TalkTopicLight->des [TreeType]s</li>
-    <li>TalkTopicLight->des [PersonJob]s</li>
-    <li>TalkTopicLight->des [PersonJob]s amicaux</li>
-    <li>TalkTopicLight->des [PersonJob]s hostiles</li>
-    <li>TalkTopicLight->des [Enemy]s</li>
-    <li>TalkTopicLight->de combattre des [Enemy]s</li>
-    <li>TalkTopicLight->des [Apparel]s</li>
-    <li>TalkTopicLight->de porter des [Apparel]s</li>
-    <li>TalkTopicLight->de fabriquer des [Apparel]s</li>
+    <li>TalkTopicLight->des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->d'entraîner des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->d'apprivoiser des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->de combattre des [Animal_AnyPlural]</li>
+    <li>TalkTopicLight->des [Animal_Plural] fous</li>
+    <li>TalkTopicLight->des [Animal_FemPlural] folles</li>
+    <li>TalkTopicLight->des [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->d'utiliser des [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->de s'entraîner aux [Weapon_AnyPlural]</li>
+    <li>TalkTopicLight->de [TerrainFeature_AnyPlural]</li>
+    <li>TalkTopicLight->de [NaturalObject_AnyPlural]</li>
+    <li>TalkTopicLight->des [TreeType_AnyPlural]</li>
+    <li>TalkTopicLight->des [PersonJob_Plural]</li>
+    <li>TalkTopicLight->des [PersonJob_Plural] amicaux</li>
+    <li>TalkTopicLight->des [PersonJob_Plural] hostiles</li>
+    <li>TalkTopicLight->des [Enemy_AnyPlural]</li>
+    <li>TalkTopicLight->de combattre des [Enemy_AnyPlural]</li>
+    <li>TalkTopicLight->des [Apparel_AnyPlural]</li>
+    <li>TalkTopicLight->de porter des [Apparel_AnyPlural]</li>
+    <li>TalkTopicLight->de fabriquer des [Apparel_AnyPlural]</li>
     <li>talktopicheavyfile(p=0.15)->sexe</li>
     <li>talktopicheavyfile(p=0.15)->séduction</li>
     <li>talktopicheavyfile(p=0.15)->sexualité animale</li>

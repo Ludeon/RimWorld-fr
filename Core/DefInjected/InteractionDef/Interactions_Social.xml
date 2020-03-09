@@ -93,16 +93,18 @@
     <li>insultcomparison->[Enemy]</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] a [insulted] le/la [PersonalCharacteristic] [target0].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a comparé [target] à un/une [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a appelé [target] un/une [insultcomparison].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] a [insulted] [PersonalCharacteristicsAny_def] [target0].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a comparé [target] à [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a appelé [target] [insultcomparison].</li>
     <li>target0(p=4)->de [RECIPIENT_nameDef]</li>
     <!-- BUG: would be nice to use PawnRelationDef/PawnRelations_FamilyByBlood.xml here
          with the corresponding genre instead of [PersonFamily].
     -->
-    <li>target0->du/de la [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target0->du [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target0->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->le/la [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->le [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
     <li>insulted(p=3)->insulté</li>
     <li>insulted->ouvertement insulté</li>
     <li>insulted->bruyamment insulté</li>
@@ -113,8 +115,8 @@
     <li>insulted->calomnié</li>
     <li>insulted->a lancé des invectives au sujet de</li>
     <li>insulted->ridiculisé</li>
-    <li>insultcomparison(p=2)->[Animal]</li>
-    <li>insultcomparison->[Enemy]</li>
+    <li>insultcomparison(p=2)->[AnimalAny_indef]</li>
+    <li>insultcomparison->un [Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
@@ -136,7 +138,7 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] a [complimented] le/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [complimented] [PersonalCharacteristicsAny_def] de [RECIPIENT_nameDef].</li>
     <li>complimented(p=3)->complimenté</li>
     <li>complimented->encensé</li>
     <li>complimented->félicité</li>
@@ -172,9 +174,10 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] a [madefunof] le/la [PersonalCharacteristic] [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [madefunof] [PersonalCharacteristicsAny_def] [target].</li>
     <li>target(p=4)->de [RECIPIENT_nameDef]</li>
-    <li>target->du/de la [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->du [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
     <li>madefunof->s'est moqué de</li>
     <li>madefunof->manqué de respect envers</li>
     <li>madefunof->subtilement méprisé</li>

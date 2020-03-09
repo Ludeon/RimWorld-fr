@@ -27,7 +27,36 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestConstructionDescriptionCommon.rulePack.rulesStrings>TODO</QuestConstructionDescriptionCommon.rulePack.rulesStrings>
+  <QuestConstructionDescriptionCommon.rulePack.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Un mystérieux message est arrivé. Il semble qu'il soit transmis par une intelligence artificielle qui refuse de donner son nom. Le message vous demande de construire un monument très spécifique.\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vous demande de construire un monument [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFactionDef] [asker_nameFull] de [asker_faction_name] vous commande de construire un monument [buildReason].\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->l'archotech</li>
+    <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
+    <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFactionDef]</li>
+    <li>buildReason->pour commémorer [PersonalCharacteristicsAny_def] de son [PersonFamily]</li>
+    <li>buildReason->pour commémorer [PersonalCharacteristicsAny_def] de sa [PersonFamily_Feminine]</li>
+    <li>buildReason->pour commémorer son propre [PersonalCharacteristic]</li>
+    <li>buildReason->pour commémorer sa propre [PersonalCharacteristic_Feminine]</li>
+    <li>buildReason->pour insulter [PersonalCharacteristicsAny_def] de son rival</li>
+    <li>buildReason->pour réduire le sentiment de [ConceptAngsty] parmi le peuple</li>
+    <!-- BUG: no asker_gender to make this correct -->
+    <li>buildReason->pour exprimer combien [asker_pronoun] est [AdjectiveBadass](e)</li>
+    <li>buildReason->pour commémorer ses [asker_faction_pawnsPlural] tombés sur le champ de bataille</li>
+    <li>buildReason->pour honorer son [PersonFamily]</li>
+    <li>buildReason->pour honorer sa [PersonFamily_Feminine]</li>
+    <li>buildReason->pour honorer le travail des [PersonJob_Plural]</li>
+    <li>buildReason->pour diffuser des images de [glory] dans tout le pays</li>
+    <li>glory->sa gloire</li>
+    <li>glory->son honneur militaire</li>
+    <li>glory->ses victoires</li>
+    <li>glory->son trône</li>
+    <li>glory->son grand vaisseau</li>
+    <li>glory->sa santé</li>
+    <li>glory->sa famille</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon->Vous avez raté la quête '[resolvedQuestName]'.\n\nVos relations avec [asker_faction_name] ont diminué de [goodwillPenalty].</li>
+  </QuestConstructionDescriptionCommon.rulePack.rulesStrings>
   
   <!-- EN:
     <li>questName->[constAdj] [construction]</li>
@@ -58,6 +87,60 @@
     <li>construction->blueprint</li>
     <li>construction->assembly</li>
   -->
-  <QuestConstructionNameCommon.rulePack.rulesStrings>TODO</QuestConstructionNameCommon.rulePack.rulesStrings>
+  <QuestConstructionNameCommon.rulePack.rulesStrings>
+    <li>questName->[constAdj_masc] [construction_masc]</li>
+    <li>questName->[constAdj_fem] [construction_fem]</li>
+    <li>questName->Un [constAdj_masc] [construction_masc]</li>
+    <li>questName->Une [constAdj_fem] [construction_fem]</li>
+    <!-- Les élisions devraient se faire automatiquement -->
+    <li>questName->Le [constAdj_masc] [construction_masc]</li>
+    <li>questName->La [constAdj_fem] [construction_fem]</li>
+    <!-- Adjectif masculin -->
+    <li>constAdj_masc(p=20)->[AdjectiveLarge]</li>
+    <li>constAdj_masc->[constAdj_inv]</li>
+    <li>constAdj_masc->[constAdj_m]</li>
+    <!-- Adjectif feminin -->
+    <li>constAdj_fem(p=20)->[AdjectiveLarge_Feminine]</li>
+    <li>constAdj_fem->[constAdj_inv]</li>
+    <li>constAdj_fem->[constAdj_f]</li>
+    <!-- Adjectif invariant -->
+    <li>constAdj_inv->terrible</li>
+    <li>constAdj_inv->formidable</li>
+    <li>constAdj_inv->prémonitoire</li>
+    <li>constAdj_inv->épouvantable</li>
+    <li>constAdj_inv->horrible</li>
+    <li>constAdj_inv->redoutable</li>
+    <li>constAdj_inv->incroyable</li>
+    <li>constAdj_inv->fantastique</li>
+    <li>constAdj_inv->prophétique</li>
+    <li>constAdj_inv->remarquable</li>
+    <li>constAdj_m->dangereux</li>
+    <li>constAdj_m->extravagant</li>
+    <li>constAdj_m->effrayant</li>
+    <li>constAdj_m->angoissant</li>
+    <li>constAdj_m->terrifiant</li>
+    <li>constAdj_m->hallucinant</li>
+    <li>constAdj_m->merveilleux</li>
+    <li>constAdj_m->poignant</li>
+    <li>constAdj_m->étincelant</li>
+    <li>constAdj_m->resplendissant</li>
+    <li>constAdj_f->dangereuse</li>
+    <li>constAdj_f->extravagante</li>
+    <li>constAdj_f->effrayante</li>
+    <li>constAdj_f->angoissante</li>
+    <li>constAdj_f->terrifiante</li>
+    <li>constAdj_f->hallucinante</li>
+    <li>constAdj_f->merveilleuse</li>
+    <li>constAdj_f->poignante</li>
+    <li>constAdj_f->étincelante</li>
+    <li>constAdj_f->resplendissante</li>
+    <li>construction_masc(p=2)->bâtiment</li>
+    <li>construction_masc->monument</li>
+    <li>construction_masc->plan</li>
+    <li>construction_fem(p=3)->construction</li>
+    <li>construction_fem(p=2)->structure</li>
+    <li>construction_fem->édifice</li>
+    <li>construction_fem->assemblage</li>
+  </QuestConstructionNameCommon.rulePack.rulesStrings>
   
 </LanguageData>

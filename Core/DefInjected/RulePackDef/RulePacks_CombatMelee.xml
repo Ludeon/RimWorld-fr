@@ -159,8 +159,8 @@
   -->
   <Combat_Miss.rulePack.rulesStrings>
     <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant [RECIPIENT_gender ? le : la : le/la] [damaged_inf] avec son/sa [WEAPON_label].</li>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le/la [damaged_inf] avec son/sa [WEAPON_label].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant [RECIPIENT_gender ? le : la : le/la] [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le/la [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a raté de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite].</li>

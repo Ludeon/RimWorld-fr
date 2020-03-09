@@ -266,7 +266,7 @@
     <li>circumstance_phrase->par un sombre besoin</li>
     <li>circumstance_phrase->de manière lâche et sans conviction</li>
     <li>desc_sentence->Le soleil se couche derrière eux, un écho pour symboliser cet événement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s regardent.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent.</li>
     <li>desc_sentence->Un [PersonJob] regarde silencieusement [side_position].</li>
     <li>desc_sentence->Une mare de sang répandue autour du corps de [VICTIM_nameDef].</li>
     <li>desc_sentence->Les yeux sans vie de [VICTIM_nameDef] ont un rendu réaliste.</li>
@@ -421,7 +421,7 @@
     <li>image->[BUYER_nameFull] achetant des produits de [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendant des produits à [BUYER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->avec avidité</li>
-    <li>circumstance_phrase->tandis que [SELLER_nameDef] sourit d'un air satisfait à [BUYER_shortNameDef]</li>
+    <li>circumstance_phrase->tandis que [SELLER_nameDef] sourit d'un air satisfait à [BUYER_nameDef]</li>
     <li>desc_sentence->[BUYER_nameDef] examine les offres de [SELLER_nameDef].</li>
     <li>desc_sentence->[SELLER_nameDef] évalue un article.</li>
     <li>desc_sentence->[SELLER_nameDef] commence le marchandage.</li>
@@ -479,7 +479,7 @@
     <li>train_syn->endoctrinement</li>
     <li>train_syn->éducation</li>
     <li>circumstance_phrase->tandis que d'autres regardent</li>
-    <li>circumstance_phrase->tandis que des [Animal] sauvages regardent avec répugnance</li>
+    <li>circumstance_phrase->tandis que des [Animal_AnyPlural] sauvages regardent avec répugnance</li>
     <li>circumstance_phrase->tandis que [ANIMAL_nameDef] pense aux jours simples quand [ANIMAL_pronoun] était une bête sauvage</li>
     <li>circumstance_phrase->tandis que [TRAINER_nameDef] pense à ce qu'il y a pour le déjeuner</li>
     <li>circumstance_phrase->tandis que d'autre colons font un vrai travail</li>
@@ -494,6 +494,7 @@
     <li>desc_sentence->[TRAINER_nameDef] secoue sa tête, de frustration.</li>
     <li>desc_sentence->[ANIMAL_nameDef] tremble de peur.</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble se transformer en [Vegetable].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] semble se transformer en [Vegetable_Feminine].</li>
     <li>desc_sentence->[ANIMAL_nameDef] est représenté(e) tel un tas d'outils électriques.</li>
     <li>desc_sentence->[ANIMAL_nameDef] est à moitié [Color] et moitié [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] est recouvert(e) d'écailles.</li>

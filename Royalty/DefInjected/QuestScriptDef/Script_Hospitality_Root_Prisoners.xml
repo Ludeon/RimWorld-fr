@@ -5,7 +5,10 @@
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
-  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->prisonnier</li>
+    <li>lodgersLabelPlural->prisonniers</li>
+  </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -38,7 +41,39 @@
     <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
-  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez un prisonnier nommé [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] a récemment craché sur l'enfant chéri de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de [enemyFaction_name]. En quête de revanche, [enemyFaction_leader_nameDef] enverra des [enemyFaction_pawnsPlural] à quiconque [lodgers0_objective] donnerait refuge. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez [lodgersCount] prisonniers à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2]\n\n[commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nLes prisonniers ont commis une série de meurtres contre les [enemyFaction_pawnsPlural] de [enemyFaction_name] et les familles des victimes en quête de revanche enverront des raids. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nLes prisonniers ont récemment [mechViolation]. Ils ont été pris pour cible par une ruche mécanoïde qui lancera des incursions aussi longtemps qu'ils se trouveront avec vous. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], voudrait que vous cachiez un prisonnier spécial pour [asker_objective]. Le prisonnier [lodgers0_nameFull], [lodgers0_titleIndef] de [lodgers0_age] ans, a des informations embarrassantes sur [PersonalCharacteristicsAny_def] de [asker_nameDef] et [asker_nameDef] ne veut pas qu'[lodgers0_pronoun] soit libéré(e). Vous devez seulement garder le prisonnier pendant [shuttleDelayTicks_duration] jusqu'à ce que le scandale soit passé. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, la faction [enemyFaction_name] veut répandre l'histoire honteuse et ils envoient des raids pour libérer [lodgers0_nameDef] de la prison. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], a capturé [lodgersCount] prisonniers d'une faction ennemie. N'ayant pas de place pour les incarcérer, [asker_nameDef] voudrait que vous veilliez sur eux pour [shuttleDelayTicks_duration], jusqu'à ce que sa prison soit prête.[allLodgerInfo][threatsInfo4]\n\n[commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nLes prisonniers ont payé la faction [enemyFaction_name] pour les libérer, ils enverront des [enemyFaction_pawnsPlural] vous attaquer. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nLes ennemis de [asker_nameDef] ont provoqué une ruche mécanoïde pour traquer les prisonniers, celle-ci vous enverra des groupes d'attaque. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name] a été pris(e) au lit avec la mauvaise personne. [asker_pronoun] a emprisonné l'amant(e) inconvenant(e) en signe de dénégation. Maintenant, [asker_pronoun] voudrait que vous gardiez le/la prisonnier/ère [lodgers0_nameFull] enfermé(e) jusqu'à ce que le scandale éclate dans [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <!-- TODO: "court rivals" -->
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, les rivaux de [asker_nameDef] ont payé la faction [enemyFaction_name] pour essayer de libérer l'amant(e) et mettre en lumière l'histoire. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nMalheureusement, les rivaux de [asker_nameDef] ont provoqué des attaques mécanoïdes venant de la faction [enemyFaction_name] pour essayer de libérer l'amant(e) et mettre en lumière l'histoire. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a besoin de votre aide. Les archéologues royaux de [asker_nameDef] ont récemment extrait [lodgersCount] prisonniers d'une ancienne crypte d'hypersommeil secrète et ont l'intention de les interroger. Pour cacher l'existence de ces prisonniers aux rivaux de la cour, [asker_nameDef] voudrait que vous les gardiez pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, des [enemyFaction_pawnsPlural] de [enemyFaction_name] vénéraient la crypte d'où les prisonniers étaient extraits. Pour se venger, ils enverront des raids à quiconque les détient. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nMalheureusement, des [enemyFaction_pawnsPlural] de [enemyFaction_name] gardaient la crypte d'où les prisonniers étaient extraits. Ils enverront des mécanoïdes traquer les dormeurs qu'ils ont perdus. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Guarding for [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
@@ -55,6 +90,21 @@
     <li>adjAny->[AdjectiveAngsty]</li>
     <li>adjAny->[AdjectiveFriendly]</li>
   -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings>TODO</Hospitality_Prisoners.questNameRules.rulesStrings>
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->Gardiennage pour [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->garder [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->le prisonnier [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->le prisonnier [adjAny]</li>
+    <li>questName(lodgersCount==1)->un prisonnier [adjAny]</li>
+    <li>questName(lodgersCount>=2)->gardien de prison à louer</li>
+    <li>questName(lodgersCount>=2)->gardien de prison</li>
+    <li>questName(lodgersCount>=2)->prison sous contrat</li>
+    <li>questName(lodgersCount>=2)->les prisonniers recherchés</li>
+    <li>questName(lodgersCount>=2)->les prisonniers [adjAny]s</li>
+    <li>questName(lodgersCount>=2)->les prisonniers de [asker_nameDef]</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
   
 </LanguageData>

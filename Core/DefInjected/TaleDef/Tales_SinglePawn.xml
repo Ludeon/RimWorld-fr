@@ -244,7 +244,7 @@
     <li>image->[PAWN_nameFull] arrivant au sol en capsule de largage [circumstance_group]</li>
     <li>image->[PAWN_nameFull] percutant le sol avec sa capsule de largage [circumstance_group]</li>
     <li>image->[PAWN_nameFull] étant à bord d'une capsule de largage [circumstance_group]</li>
-    <li>circumstance_phrase->devant un(e) [TerrainFeature]</li>
+    <li>circumstance_phrase->devant [TerrainFeatureAny_indef]</li>
     <li>circumstance_phrase->avec une force incroyable</li>
     <li>circumstance_phrase->dans un nuage de poussières et de débris</li>
     <li>circumstance_phrase->avec les rétro-fusées hurlant à plein régime</li>
@@ -256,9 +256,11 @@
     <li>desc_sentence->[PAWN_pronoun] semble n'avoir aucune idée de ce qu'[PAWN_pronoun] fait.</li>
     <li>desc_sentence->[PAWN_pronoun] est harnaché(e) et ferme les yeux, impuissant(e).</li>
     <li>desc_sentence->Les flammes lèchent l'arrière de la capsule.</li>
-    <li>desc_sentence->Un(e) [Animal] à proximité l'observe, pétrifié(e).</li>
-    <li>desc_sentence->Un(e) [Animal] terrorisé(e) fuit le point d'impact.</li>
-    <li>desc_sentence->Il y a un(e) [TerrainFeature] au loin.</li>
+    <li>desc_sentence->Un [Animal] à proximité l'observe, pétrifié.</li>
+    <li>desc_sentence->Une [Animal_Feminine] à proximité l'observe, pétrifiée.</li>
+    <li>desc_sentence->Un [Animal] terrorisé fuit le point d'impact.</li>
+    <li>desc_sentence->Une [Animal_Feminine] terrorisée fuit le point d'impact.</li>
+    <li>desc_sentence->Il y a [TerrainFeatureAny_indef] au loin.</li>
     <li>desc_sentence->Un(e) [PersonJob] en retrait observe silencieusement.</li>
   </LandedInPod.rulePack.rulesStrings>
   
@@ -307,8 +309,8 @@
     <li>desc_sentence->[PAWN_pronoun] a perdu une partie de ses vêtements.</li>
     <li>desc_sentence->[PAWN_pronoun] est grimaçant de misère.</li>
     <li>desc_sentence->[PAWN_pronoun] semble sourire comme un(e) maniaque.</li>
-    <li>desc_sentence->[PAWN_pronoun] est représenté(e) avec le visage d'un(e) [Animal] grognant(e).</li>
-    <li>desc_sentence->Un(e) [Animal] encercle symboliquement sa tête.</li>
+    <li>desc_sentence->[PAWN_pronoun] est représenté(e) avec le visage d'[AnimalAny_indef] grognant.</li>
+    <li>desc_sentence->[AnimalAny_indef] encercle symboliquement sa tête.</li>
     <li>desc_sentence->[PAWN_pronoun] a une lueur meurtrière dans ses yeux.</li>
     <li>desc_sentence->Son corps tout entier semble trembler de haine.</li>
     <li>desc_sentence->Son visage porte les marques d'une sérénité bizarre.</li>
@@ -433,7 +435,7 @@
     <li>desc_sentence->[PAWN_pronoun] semble essayer de rire, en dépit des circonstances.</li>
     <li>desc_sentence->[PAWN_pronoun] semble être presque dégonflé(e), comme totalement vidé(e) par les vomissements intenses.</li>
     <li>desc_sentence->[PAWN_pronoun] est entouré(e) d'un halo d'immondices au rendu artistique.</li>
-    <li>desc_sentence->Un(e) [Animal] mange une trace de vomi dans le fond.</li>
+    <li>desc_sentence->[AnimalAny_indef] mange une trace de vomi dans le fond.</li>
   </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->

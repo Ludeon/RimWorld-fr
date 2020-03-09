@@ -104,28 +104,28 @@
     <li>r_name->Les [AnimalBadass]s de la [ConceptBadass]</li>
     <li>r_name->Les [PersonBadass]s de la [ConceptBadass]</li>
     <li>r_name->Les [PersonBadass]s</li>
-    <li>r_name->Les [Enemy]s</li>
-    <li>r_name->Les Hommes-[Weapon]s</li>
-    <li>r_name->Les [Weapon]s</li>
-    <li>r_name->Les [AnimalBadass]s-[Weapon]s</li>
-    <li>r_name->Les [Enemy]s [Weapon]</li>
-    <li>r_name->Les [Weapon]s [ColorBadass]s</li>
+    <li>r_name->Les [Enemy_AnyPlural]</li>
+    <li>r_name->Les Hommes-[Weapon_AnyPlural]</li>
+    <li>r_name->Les [Weapon_AnyPlural]</li>
+    <li>r_name->Les [AnimalBadass]s-[Weapon_AnyPlural]</li>
+    <li>r_name->Les [Enemy_AnyPlural] [Weapon]</li>
+    <li>r_name->Les [Weapon_AnyPlural] [ColorBadass]s</li>
     <li>r_name->Les [AnimalBadass]s [ColorBadass]s</li>
     <li>r_name->Les [PersonBadass]s [ColorBadass]s</li>
-    <li>r_name->Les [Enemy]s [ColorBadass]s</li>
+    <li>r_name->Les [Enemy_AnyPlural] [ColorBadass]s</li>
     <!--     <li>r_name->La [groupname] de [PersonBadass]s</li>-->
     <li>r_name->[groupname] de [PersonBadass]s</li>
-    <li>r_name->Les [Enemy]s [Enemy]s</li>
+    <li>r_name->Les [Enemy_AnyPlural] [Enemy_AnyPlural]</li>
     <!--     <li>r_name->La [groupname] [AdjectiveBadass]</li>-->
     <li>r_name->[groupname] [AdjectiveBadass]</li>
     <li>r_name->Les [AnimalBadass]s [AdjectiveBadass]s</li>
-    <li>r_name->Les [Enemy]s [AdjectiveBadass]s</li>
+    <li>r_name->Les [Enemy_AnyPlural] [AdjectiveBadass]s</li>
     <li>r_name->Les [PersonBadass]s [AdjectiveBadass]s</li>
     <li>r_name->Les [PersonAlly]s de [ConceptBadass]</li>
     <li>r_name(p=0.4)->Les Mangeurs de [Gore]</li>
-    <li>r_name->[Enemy]s de [NamePerson]</li>
+    <li>r_name->[Enemy_AnyPlural] de [NamePerson]</li>
     <li>r_name->[AnimalBadass]s de [NamePerson]</li>
-    <li>r_name->[Weapon]s de [NamePerson]</li>
+    <li>r_name->[Weapon_AnyPlural] de [NamePerson]</li>
     <li>r_name->[groupname] [Weapon]</li>
     <li>r_name->[groupname] [ConceptBadass]</li>
     <li>r_name->[Letter][Letter][Digit][Digit]</li>
@@ -143,10 +143,12 @@
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] [tribalworld]</li>
     <li>r_name->[political_union_tribal] [tribalworld]</li>
-    <li>r_name->[political_union_tribal] des [TerrainFeature]s [Color]s</li>
+    <li>r_name->[political_union_tribal] des [TerrainFeature_Plural] [Color_Plural]</li>
+    <li>r_name->[political_union_tribal] des [TerrainFeature_FemPlural] [Color_FemPlural]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->La [WordTribal] des [Animal]s [Color]s</li>
-    <li>r_name->La [WordTribal] des [TerrainFeature]s</li>
+    <li>r_name->La [WordTribal] des [Animal_Plural] [Color_Plural]</li>
+    <li>r_name->La [WordTribal] des [Animal_FemPlural] [Color_FemPlural]</li>
+    <li>r_name->La [WordTribal] des [TerrainFeature_AnyPlural]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -221,6 +223,7 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_near]</li>
     <li>topicalnoun->[Vegetable]</li>
+    <li>topicalnoun->[Vegetable_Feminine]</li>
     <li>topicalnoun->[Game]</li>
     <li>topicalnoun->[BodyPart]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
@@ -232,9 +235,12 @@
     <li>townname_combo(p=2)->[Community] [concept_positive]</li>
     <li>townname_combo(p=3)->[TerrainFeature] de [Character]</li>
     <li>townname_combo(p=3)->[Community] de [Character]</li>
-    <li>townname_near->[nearnameinitial] à la [TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial] de la [TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial] sur la [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] au [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] du [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] sur le [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] à la [TerrainFeature_Feminine]</li>
+    <li>townname_near->[nearnameinitial] de la [TerrainFeature_Feminine]</li>
+    <li>townname_near->[nearnameinitial] sur la [TerrainFeature_Feminine]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
@@ -324,7 +330,7 @@
     <li>townname_combo->[geography] de [Enemy]</li>
     <li>townname_combo->[geography] [Enemy]</li>
     <li>townname_combo->[geography] de [Weapon]</li>
-    <li>townname_combo->[geography] des [Weapon]s</li>
+    <li>townname_combo->[geography] des [Weapon_AnyPlural]</li>
     <li>townname_combo->[geography] [ColorBadass]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
     <li>geography->[Community]</li>
@@ -366,6 +372,7 @@
     <li>r_name(p=2)->[WordTribal]</li>
     <li>r_name->[WordTribal] [Color]</li>
     <li>r_name->[TerrainFeature] [Color]</li>
+    <li>r_name->[TerrainFeature_Feminine] [Color_Feminine]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   

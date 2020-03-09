@@ -4,9 +4,9 @@
   <!-- EN: tantrum -->
   <BedroomTantrum.label>crise de colère dans sa chambre</BedroomTantrum.label>
   <!-- EN: Mental state: Tantrum -->
-  <BedroomTantrum.baseInspectLine>État mental : Crise de colère dans sa chambre</BedroomTantrum.baseInspectLine>
+  <BedroomTantrum.baseInspectLine>État mental : crise de colère dans sa chambre</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} est en pleine crise de colère. [PAWN_pronoun] va faire passer sa rage sur les meubles de sa chambre.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} est en pleine crise de colère. {PAWN_pronoun} va faire passer sa rage sur les meubles de sa chambre.</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>crise de colère dans sa chambre</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} n'est plus en pleine crise de colère.</BedroomTantrum.recoveryMessage>
@@ -16,7 +16,7 @@
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>État mental : folie furieuse</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} est deven{0_gender ? u : ue : u(e)} {0_gender ? fou : folle : fou/folle} furieu{0_gender ? x : se : x/se} ! [PAWN_pronoun] attaque n'importe qui à vue !</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} est deven{PAWN_gender ? u : ue : u(e)} {PAWN_gender ? fou : folle : fou/folle} furieu{PAWN_gender ? x : se : x/se} ! [PAWN_pronoun] attaque n'importe qui à vue !</Berserk.beginLetter>
   <Berserk.beginLetterLabel>folie furieuse</Berserk.beginLetterLabel>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>{0} s'est calm{0_gender ? é : ée : é(e)}.</Berserk.recoveryMessage>
@@ -24,7 +24,7 @@
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>consommation excessive de drogue</Binging_DrugExtreme.label>
   <!-- EN: Mental state: Binging on {0} -->
-  <Binging_DrugExtreme.baseInspectLine>État mental : Se gave de {0}</Binging_DrugExtreme.baseInspectLine>
+  <Binging_DrugExtreme.baseInspectLine>État mental : se gave de {0}</Binging_DrugExtreme.baseInspectLine>
   
   <!-- EN: binging on drug -->
   <Binging_DrugMajor.label>consommation importante de drogue</Binging_DrugMajor.label>
@@ -45,43 +45,43 @@
   <!-- EN: corpse obsession -->
   <CorpseObsession.label>obsession des cadavres</CorpseObsession.label>
   <!-- EN: Mental state: Corpse obsession -->
-  <CorpseObsession.baseInspectLine>État mental : Obsession des cadavres</CorpseObsession.baseInspectLine>
+  <CorpseObsession.baseInspectLine>État mental : obsession des cadavres</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} est temporairement obséd{0_gender ? é : ée : é(e)} par les cadavres. [PAWN_pronoun] va déterrer un macchabée.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} est temporairement obséd{PAWN_gender ? é : ée : é(e)} par les cadavres.\n\n{PAWN_pronoun} va déterrer un macchabée et le montrer à tout le monde.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>obsession des cadavres</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
-  <CorpseObsession.recoveryMessage>{0} n'est plus obséd{0_gender ? é : ée : é(e)} par les cadavres.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.recoveryMessage>{0} n'est plus obséd{PAWN_gender ? é : ée : é(e)} par les cadavres.</CorpseObsession.recoveryMessage>
   
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>pyromane</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
-  <FireStartingSpree.baseInspectLine>État mental : Frénésie pyromane</FireStartingSpree.baseInspectLine>
+  <FireStartingSpree.baseInspectLine>État mental : frénésie pyromane</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0} est pri{0_gender ? s : se : s(e)} d'une frénésie pyromane.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetter>{0} est pri{PAWN_gender ? s : se : s(e)} d'une frénésie pyromane.</FireStartingSpree.beginLetter>
   <FireStartingSpree.beginLetterLabel>pyromane</FireStartingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on a fire starting spree. -->
-  <FireStartingSpree.recoveryMessage>{0} n'est plus attein{0_gender ? t : te : t(e)} d'impulsions pyromanes.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.recoveryMessage>{0} n'est plus attein{PAWN_gender ? t : te : t(e)} d'impulsions pyromanes.\n\n{PAWN_pronoun} va errer partout et mettre le feu sur ce qu'{PAWN_pronoun} trouve.</FireStartingSpree.recoveryMessage>
   
   <!-- EN: giving up and leaving -->
   <GiveUpExit.label>abandonne tout et s'en va</GiveUpExit.label>
   <!-- EN: Mental state: Given up and leaving -->
-  <GiveUpExit.baseInspectLine>État mental : Quitte la colonie</GiveUpExit.baseInspectLine>
+  <GiveUpExit.baseInspectLine>État mental : quitte la colonie</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} quitte la colonie.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} quitte la colonie.\n\n{PAWN_pronoun} a décidé de partir et de poursuivre une vie meilleure ailleurs. Vous pouvez essayer de l'arrêter. Sinon, vous {PAWN_gender ? le : la : le/la} reverrez peut-être un jour.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>a abandonné</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
   <GiveUpExit.recoveryMessage>{0} a changé d'avis et a décidé de revenir dans la colonie.</GiveUpExit.recoveryMessage>
   
   <!-- EN: insulting spree -->
-  <InsultingSpree.label>syndrome de Tourette</InsultingSpree.label>
+  <InsultingSpree.label>syndrome de La Tourette</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
-  <InsultingSpree.baseInspectLine>État mental : Syndrome de Tourette</InsultingSpree.baseInspectLine>
+  <InsultingSpree.baseInspectLine>État mental : syndrome de La Tourette</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0} a développé un syndrome de Tourette. [PAWN_pronoun] insultera quiconque aura la malchance de le croiser.</InsultingSpree.beginLetter>
-  <InsultingSpree.beginLetterLabel>syndrome de Tourette</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.beginLetter>{0} a développé un syndrome de La Tourette. {PAWN_pronoun} insultera quiconque aura la malchance de {PAWN_gender ? le : la : le/la} croiser.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>syndrome de La Tourette</InsultingSpree.beginLetterLabel>
   <!-- EN: {0} is no longer on an insulting spree. -->
-  <InsultingSpree.recoveryMessage>Le syndrome de Tourette de {0} a guéri tout seul.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.recoveryMessage>Le syndrome de La Tourette de {0} a guéri tout seul.</InsultingSpree.recoveryMessage>
   
   <!-- EN: inducing prisoner to escape -->
   <Jailbreaker.label>instigation d'une évasion</Jailbreaker.label>
@@ -97,9 +97,9 @@
   <!-- EN: murderous rage -->
   <MurderousRage.label>rage meurtrière</MurderousRage.label>
   <!-- EN: Mental state: Murderous rage -->
-  <MurderousRage.baseInspectLine>État mental : Rage meurtrière</MurderousRage.baseInspectLine>
+  <MurderousRage.baseInspectLine>État mental : rage meurtrière</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0} est dans une rage meurtrière. [PAWN_pronoun] veut tuer {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetter>{0} est dans une rage meurtrière. {PAWN_pronoun} veut tuer {1}.</MurderousRage.beginLetter>
   <MurderousRage.beginLetterLabel>rage meurtrière</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
   <MurderousRage.recoveryMessage>La rage meurtrière de {0} a cessé.</MurderousRage.recoveryMessage>
@@ -107,9 +107,9 @@
   <!-- EN: sadistic rage -->
   <SadisticRage.label>rage sadique</SadisticRage.label>
   <!-- EN: Mental state: Sadistic rage -->
-  <SadisticRage.baseInspectLine>État mental : Rage sadique</SadisticRage.baseInspectLine>
+  <SadisticRage.baseInspectLine>État mental : rage sadique</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} est entr{0_gender ? é : ée : é(e)} dans une rage sadique. [PAWN_pronoun] compte faire passer sa rage sur les prisonniers.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} est entr{PAWN_gender ? é : ée : é(e)} dans une rage sadique. {PAWN_pronoun} compte faire passer sa rage sur les prisonniers.</SadisticRage.beginLetter>
   <SadisticRage.beginLetterLabel>rage sadique</SadisticRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} n'est plus dans une rage sadique.</SadisticRage.recoveryMessage>
@@ -135,20 +135,20 @@
   <Tantrum.recoveryMessage>{0} n'est plus en pleine crise de colère.</Tantrum.recoveryMessage>
   
   <!-- EN: insulting spree -->
-  <TargetedInsultingSpree.label>syndrome de Tourette ciblé</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.label>syndrome de La Tourette ciblé</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
-  <TargetedInsultingSpree.baseInspectLine>État mental : Syndrome de Tourette ciblé sur {0}</TargetedInsultingSpree.baseInspectLine>
+  <TargetedInsultingSpree.baseInspectLine>État mental : syndrome de La Tourette ciblé sur {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0} a développé un syndrome de Tourette. [PAWN_pronoun] va insulter {1} sans discontinuer.</TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>syndrome de Tourette ciblé</TargetedInsultingSpree.beginLetterLabel>
-  <TargetedInsultingSpree.recoveryMessage>Le syndrome de Tourette de {0} a guéri tout seul</TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.beginLetter>{0} a développé un syndrome de La Tourette. {PAWN_pronoun} va insulter {1} sans discontinuer.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>syndrome de La Tourette ciblé</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage>Le syndrome de La Tourette de {0} a guéri tout seul</TargetedInsultingSpree.recoveryMessage>
   
   <!-- EN: tantrum -->
   <TargetedTantrum.label>crise de colère ciblée</TargetedTantrum.label>
   <!-- EN: Mental state: Tantrum -->
-  <TargetedTantrum.baseInspectLine>État mental : Crise de colère ciblée</TargetedTantrum.baseInspectLine>
+  <TargetedTantrum.baseInspectLine>État mental : crise de colère ciblée</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0} est en pleine crise de colère. [PAWN_pronoun] va faire passer sa rage sur {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetter>{0} est en pleine crise de colère. {PAWN_pronoun} va faire passer sa rage sur {1}.</TargetedTantrum.beginLetter>
   <TargetedTantrum.beginLetterLabel>crise de colère ciblée</TargetedTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0} n'est plus en pleine crise de colère.</TargetedTantrum.recoveryMessage>
@@ -156,7 +156,7 @@
   <!-- EN: sitting alone -->
   <Wander_OwnRoom.label>se cache</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
-  <Wander_OwnRoom.baseInspectLine>État mental : Se cache dans sa chambre</Wander_OwnRoom.baseInspectLine>
+  <Wander_OwnRoom.baseInspectLine>État mental : se cache dans sa chambre</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
   <Wander_OwnRoom.beginLetter>{0} se cache dans sa chambre.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
@@ -167,7 +167,7 @@
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>psychotique</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic.baseInspectLine>État mental : Psychotique</Wander_Psychotic.baseInspectLine>
+  <Wander_Psychotic.baseInspectLine>État mental : psychotique</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
   <Wander_Psychotic.beginLetter>{0} erre dans un état psychotique.</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
@@ -178,7 +178,7 @@
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic_Short.label>errant dans la psychose</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic_Short.baseInspectLine>État mental: errance psychotique</Wander_Psychotic_Short.baseInspectLine>
+  <Wander_Psychotic_Short.baseInspectLine>État mental : errance psychotique</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
   <Wander_Psychotic_Short.beginLetter>{0} erre dans un état psychotique.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
@@ -189,9 +189,9 @@
   <!-- EN: sad wandering -->
   <Wander_Sad.label>mélancolique</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
-  <Wander_Sad.baseInspectLine>État mental: mélancolique</Wander_Sad.baseInspectLine>
+  <Wander_Sad.baseInspectLine>État mental : mélancolique</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} erre, frapp{0_gender ? é : ée : é(e)} de mélancolie.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} erre, frapp{PAWN_gender ? é : ée : é(e)} de mélancolie.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>erre tristement</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->

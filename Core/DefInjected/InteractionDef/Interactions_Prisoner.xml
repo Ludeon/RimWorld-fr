@@ -45,8 +45,8 @@
     <li>r_logentry->[INITIATOR_nameDef] a évoqué [subject] à [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] a encouragé [RECIPIENT_nameDef] à [talkabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] a offert une chance pour [RECIPIENT_nameDef] de [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a exprimé son intérêt pour le/la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] a questionné [RECIPIENT_nameDef] sur son/sa [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a exprimé son intérêt pour [PersonalCharacteristicsAny_def] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a questionné [RECIPIENT_nameDef] sur [PersonalCharacteristicsAny_poss].</li>
     <li>toldastoryabout(p=2)->a raconté une histoire</li>
     <li>toldastoryabout->a raconté une histoire drôle</li>
     <li>toldastoryabout->a raconté une histoire sincère</li>
@@ -72,7 +72,7 @@
     <li>subject->du futur</li>
     <li>subject->de lâcher prise</li>
     <li>subject(p=4)->de [ConceptPositive]</li>
-    <li>subject(p=2)->de son/sa [PersonalCharacteristic]</li>
+    <li>subject(p=2)->de [PersonalCharacteristicsAny_poss]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
@@ -88,7 +88,8 @@
     <li>r_logentry->[INITIATOR_nameDef] a demandé [RECIPIENT_nameDef] de se joindre à la colonie.</li>
     <li>r_logentry->[INITIATOR_nameDef] a promis [goodthing] à [RECIPIENT_nameDef], et lui a demandé de se joindre à la colonie.</li>
     <li>goodthing(p=15)->beaucoup de [ConceptPositive]</li>
-    <li>goodthing->des [Vegetable]s frais et gratuits</li>
+    <li>goodthing->des [Vegetable_Plural] frais et gratuits</li>
+    <li>goodthing->des [Vegetable_FemPlural] fraiches et gratuites</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
@@ -105,7 +106,7 @@
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] a parlé de la joie [freedom], et offert un moyen pour s'échapper.</li>
-    <li>r_logentry->[INITIATOR_nameDef] a parlé de la beauté de [TerrainFeature], et offert la liberté.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a parlé de la beauté des [TerrainFeature_AnyPlural], et offert la liberté.</li>
     <li>r_logentry->[INITIATOR_nameDef] a montré un moyen de s'échapper à [RECIPIENT_nameDef], et promis [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] a dit à [RECIPIENT_nameDef] que la sécurité est laxiste, et a encouragé à l'évasion.</li>
     <li>freedom->de la liberté</li>
