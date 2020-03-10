@@ -76,6 +76,8 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
+    <li>lodgersIsAre(lodgersCount==1)->est</li>
+    <li>lodgersIsAre(lodgersCount>=2)->sont</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
