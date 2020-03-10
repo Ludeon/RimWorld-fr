@@ -11,7 +11,7 @@
     <li>questName->monument decree</li>
   -->
   <Decree_BuildMonument.questNameRules.rulesStrings>
-    <li> questName->décret pour un monument</li>
+    <li>questName->décret pour un monument</li>
   </Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Un nouveau marqueur de monument est arrivé</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
@@ -38,21 +38,21 @@
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
     <li>questDescription->[decreeIntro]\n\nVous devez chasser ou abattre [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
-    <li>animalToHuntWithCount (countToHunt == 1)->[animalToHunt_indefinite]</li>
-    <li>animalToHuntWithCount (countToHunt! = 1)->[countToHunt] [animalToHunt_labelPlural]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
   <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName ->décret de chasse de [animalToHunt_label]</li>
+    <li>questName->décret de chasse de [animalToHunt_label]</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_ProduceItem.questDescriptionRules.rulesStrings>
-    <li> questDescription ->[decreeIntro]\n\nVous devez produire:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo] </li>
+    <li>questDescription->[decreeIntro]\n\nVous devez produire:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   </Decree_ProduceItem.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
