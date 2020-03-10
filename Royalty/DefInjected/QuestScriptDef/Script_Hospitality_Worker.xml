@@ -4,41 +4,41 @@
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
   <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural] arrivé(s)</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect them until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef] est/sont arrivé(s). Protégez-les jusqu'à ce que la navette arrive dans [shuttleDelayTicks_duration]. [HelpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef] [lodgersIsAre] arrivé(s). Protégez-les jusqu'à ce que la navette arrive dans [shuttleDelayTicks_duration]. [HelpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Devrait partir en navette</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
   <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>La navette est arrivée</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
-  <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>La navette est arrivée pour récupérer [lodgersLabelSingOrPluralDef]. Assurez-vous d'avoir ces personnes dans la navette avant son départ dans [shuttleLeaveDelayTicks_duration]:\n\n[hébergeurs]</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>La navette est arrivée pour récupérer [lodgersLabelSingOrPluralDef]. Assurez-vous d'avoir ces personnes dans la navette avant son départ dans [shuttleLeaveDelayTicks_duration] :\n\n[lodgers]</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>L'invité est décédé: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>L'invité est décédé : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, est décédé. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, est décédé. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>Invité capturé: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, a été arrêté. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, a été arrêté. [remainingWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>Prisonnier recruté: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>Vous avez recruté {SUBJECT_definite}, que vous avez été chargé de protéger. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>Vous avez recruté {SUBJECT_definite}, que vous avez été chargé de protéger. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>Chirurgie non autorisée : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>Une intervention chirurgicale non autorisée et non voulue a été effectuée sur [letterSubject]. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>Une intervention chirurgicale non autorisée et non voulue a été effectuée sur [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, a disparu. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, a disparu. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>[letterSubject], que vous avez été chargé de protéger, a rejoint une autre faction. [restantWillNowLeave] [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>[letterSubject], que vous avez été chargé de protéger, a rejoint une autre faction. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Navette détruite</Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>La navette envoyée pour récupérer [lodgersLabelSingOrPluralDef] a été détruite. [lodgersLabelSingOrPluralDef] partira maintenant à pied. [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Échec de la quête : [olvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Échec de la quête : [resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>La navette envoyée pour récupérer [lodgersLabelSingOrPluralDef] est partie. [lodgersLabelSingOrPluralDef] partira maintenant à pied. [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
   
