@@ -46,7 +46,7 @@
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->les [lodgersLabelPlural]</li>
     <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] souffre de blessures et risque de ne pas pouvoir se déplacer.</li>
     <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont blessés et risquent de ne pas pouvoir se déplacer.</li>
     <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] souffre de [lodgersDisease_definite].</li>
@@ -76,6 +76,8 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
+    <li>lodgersIsAre(lodgersCount==1)->est</li>
+    <li>lodgersIsAre(lodgersCount>=2)->sont</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>

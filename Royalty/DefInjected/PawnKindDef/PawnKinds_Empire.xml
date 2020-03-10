@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!--
+    TODO: il faut compléter les <...labelXXX> pour que le systeme de langue
+      fontionne le mieux possible.
+    NOTE: ne pas renseigner labelFemaleXXX si le mot est toujours masculin.
+      Cas inverse pour labelMaleXXX
+  -->
   <!-- EN: imperial trader -->
   <Empire_Common_Trader.label>commerçant impérial</Empire_Common_Trader.label>
   
@@ -9,6 +15,11 @@
   
   <!-- EN: champion -->
   <Empire_Fighter_Champion.label>champion</Empire_Fighter_Champion.label>
+  <Empire_Fighter_Champion.labelFemale>championne</Empire_Fighter_Champion.labelFemale>
+  <Empire_Fighter_Champion.labelFemalePlural>championnes</Empire_Fighter_Champion.labelFemalePlural>
+  <Empire_Fighter_Champion.labelMale>champion</Empire_Fighter_Champion.labelMale>
+  <Empire_Fighter_Champion.labelMalePlural>champions</Empire_Fighter_Champion.labelMalePlural>
+  <Empire_Fighter_Champion.labelPlural>champions</Empire_Fighter_Champion.labelPlural>
   
   <!-- EN: janissary -->
   <Empire_Fighter_Janissary.label>janissaire</Empire_Fighter_Janissary.label>
@@ -33,7 +44,7 @@
   <!-- EN: count -->
   <Empire_Royal_Count.label>comte</Empire_Royal_Count.label>
   <!-- EN: countess -->
-  <Empire_Royal_Count.labelFemale>comptesse</Empire_Royal_Count.labelFemale>
+  <Empire_Royal_Count.labelFemale>comtesse</Empire_Royal_Count.labelFemale>
   
   <!-- EN: duke -->
   <Empire_Royal_Duke.label>duc</Empire_Royal_Duke.label>
