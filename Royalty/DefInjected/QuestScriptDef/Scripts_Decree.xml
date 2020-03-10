@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -38,21 +38,21 @@
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
     <li>questDescription->[decreeIntro]\n\nVous devez chasser ou abattre [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
-    <li>animalToHuntWithCount (countToHunt == 1)->[animalToHunt_indefinite]</li>
-    <li>animalToHuntWithCount (countToHunt! = 1)->[countToHunt] [animalToHunt_labelPlural]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
   <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName ->décret de chasse de [animalToHunt_label]</li>
+    <li>questName->décret de chasse de [animalToHunt_label]</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_ProduceItem.questDescriptionRules.rulesStrings>
-    <li>questDescription ->[decreeIntro]\n\nVous devez produire:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo] </li>
+    <li>questDescription->[decreeIntro]\n\nVous devez produire :\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   </Decree_ProduceItem.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
