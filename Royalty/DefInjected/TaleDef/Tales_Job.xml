@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: attended concert -->
-  <AttendedConcert.label>TODO</AttendedConcert.label>
+  <AttendedConcert.label>assisté à un concert</AttendedConcert.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
     <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
@@ -14,10 +14,20 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s dance along.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
-  <AttendedConcert.rulePack.rulesStrings>TODO</AttendedConcert.rulePack.rulesStrings>
+  <AttendedConcert.rulePack.rulesStrings>
+    <li>tale_noun->[ATTENDER_nameDef] assistant au concert de [ORGANIZER_nameDef]</li>
+    <li>tale_noun->[ATTENDER_nameDef] écoutant la prestation de [ORGANIZER_nameDef]</li>
+    <li>image->[ATTENDER_nameFull] écoutant doucement, [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] appréciant la performance de [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] se balançant au son de la musique [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] absorbé(e) par le son [circumstance_group]</li>
+    <li>circumstance_phrase->tout en applaudissant</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] dansent.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] écoutent attentivement.</li>
+  </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
-  <HeldConcert.label>TODO</HeldConcert.label>
+  <HeldConcert.label>concert organisé</HeldConcert.label>
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
@@ -28,6 +38,15 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s listen nearby.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
-  <HeldConcert.rulePack.rulesStrings>TODO</HeldConcert.rulePack.rulesStrings>
+  <HeldConcert.rulePack.rulesStrings>
+    <li>tale_noun->[ORGANIZER_nameDef] réalisant un concert</li>
+    <li>image->[ORGANIZER_nameFull] jouant sa chanson phare [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] invitant la foule à chanter</li>
+    <li>image->[ORGANIZER_nameFull] jouant une chanson inspirante</li>
+    <li>image->[ORGANIZER_nameFull] réalisant un morceau difficile [circumstance_group]</li>
+    <li>circumstance_phrase->avec une expression intense</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] écoutent à proximité.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] écoutent à proximité.</li>
+  </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>
