@@ -22,7 +22,7 @@
     <li>helpersParagraph(helpersCount==1)->[asker_nameDef] mettra sous vos ordres [helperKind_indefinite] pour vous aider. Vous devrez [helpers0_objective] nourrir et l'héberger, mais [helpers0_pronoun] peut mourir au combat sans conséquence.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] mettra sous vos ordres [helpersCount] [helperKind_labelPlural] pour vous aider. Vous devrez les nourrir et les héberger, mais ils peuvent mourir au combat sans conséquence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
-    <li>helpersArrivalLetterEnd (helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] été envoyé pour vous aider.</li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] été envoyé pour vous aider.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
     <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
     <li>helpersHasHave(helpersCount==1)->a</li>
