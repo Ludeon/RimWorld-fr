@@ -7,7 +7,12 @@
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vous demande de l'aide pour sauver une de ses caravanes. Cette caravane est actuellement poursuivie par [numGroupsOf] [enemyFaction_pawnsPlural] de [enemyFaction_name] à proximité de [map_definite]. [asker_nameDef] voudrait que vous envoyiez des signaux pour attirer les [enemyFaction_pawnsPlural] loin de la caravane… et vers vous.\n\n[pawnKindsParagraph]\n\nComme récompense, [asker_nameDef] vous enverra des capsules de transport contenant (valeur totale [itemsReward_totalMarketValue_money]) :\n\n[itemsReward_items]\n\n[helpersParagraph]Si vous acceptez, les [enemyFaction_pawnsPlural] arriveront dans [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous fait une demande.\n\n[groupsOf] de [enemyFaction_name] ont harcelé ses caravanes dans cette zone. [asker_nameDef] voudrait que vous leur envoyiez un message de défi pour les inciter à attaquer et éliminer la menace vous-même.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]Si vous acceptez, les [enemyFaction_pawnsPlural] arriveront dans [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -21,6 +26,24 @@
     <li>violence->War</li>
     <li>violence->Fighting</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[enemyFaction_pawnsPlural] pour la fortune</li>
+    <li>questName->[violence] pour la fortune</li>
+    <li>questName->[violence] recompensé</li>
+    <li>questName->[violence] rémunéré</li>
+    <li>questName->[violence] lucratif</li>
+    <li>questName->[violence_fem] pour la fortune</li>
+    <li>questName->[violence_fem] recompensée</li>
+    <li>questName->[violence_fem] rémunérée</li>
+    <li>questName->[violence_fem] lucrative</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] contre faveurs</li>
+    <li>questName(reward==royalFavor)->[violence] contre faveurs</li>
+    <li>questName(reward==royalFavor)->[violence_fem] contre faveurs</li>
+    <li>violence->Combat</li>
+    <li>violence_fem->Bataille</li>
+    <li>violence_fem->Guerre</li>
+    <li>violence_fem->Violence</li>
+    <li>violence_fem->Lutte</li>
+  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
