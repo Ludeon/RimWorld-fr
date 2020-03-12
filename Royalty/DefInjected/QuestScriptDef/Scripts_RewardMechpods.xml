@@ -9,11 +9,11 @@
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]As a reward, [allRewardsDescriptions]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nLes capsules contiennent ces dangers:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nLes capsules contiennent ces dangers :\n\n[allThreats]</li>
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], fait une demande. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef] [asker_royalTitleInCurrentFaction] de [asker_faction_name], fait une demande. [commonMainPart]</li>
-    <li>commonMainPart->Un essaim mécanoïde a attaqué ses colonies. [asker_pronoun] veut que vous fassiez diversion afin de les distraire pendant qu'[asker_pronoun] éradique l'essaim. Sivous le faites, un groupe de mécanoïdes atterrira à [map_definite].[dangersDescription]\n\nL'escouade de mécanoïdes sera dans un premier temps inactive. Elle peut soit être activée par un compte a rebours, soit rester inactive jusqu'à ce qu'elle soit dérangée.\n\n[helpersParagraph]En tant que récompense, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], fait une demande. [commonMainPart]</li>
+    <li>commonMainPart->Un essaim mécanoïde a attaqué ses colonies. [asker_pronoun] veut que vous fassiez diversion afin de les distraire pendant qu'[asker_pronoun] éradique l'essaim. Si vous le faites, un groupe de mécanoïdes atterrira à [map_definite].[dangersDescription]\n\nL'escouade de mécanoïdes sera dans un premier temps inactive. Elle peut soit être activée par un compte à rebours, soit rester inactive jusqu'à ce qu'elle soit dérangée.\n\n[helpersParagraph]En tant que récompense, [allRewardsDescriptions]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
@@ -31,19 +31,25 @@
     <li>menace->fear</li>
   -->
   <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-    <li>questName->escouade du [menace]</li>
-    <li>questName->capsules du [menace]</li>
+    <li>questName->l'escouade du [menace]</li>
+    <li>questName->les capsules du [menace]</li>
+    <li>questName->l'escouade de la [menace_fem]</li>
+    <li>questName->les capsules de la [menace_fem]</li>
     <li>questName->[nameBased]</li>
-    <li>nameBased->mechs de [asker_nameDef]</li>
-    <li>nameBased->mécanoïdes de [asker_nameDef]</li>
-    <li>nameBased->escouade mécanoïde de [asker_nameDef]</li>
+    <li>nameBased->les mechs de [asker_nameDef]</li>
+    <li>nameBased->les mécanoïdes de [asker_nameDef]</li>
+    <li>nameBased->l'escouade mécanoïde de [asker_nameDef]</li>
     <li>nameBased->[menace] mécanoïde de [asker_nameDef]</li>
+    <li>nameBased->[menace_fem] mécanoïde de [asker_nameDef]</li>
     <li>menace->désarroi</li>
     <li>menace->trouble</li>
     <li>menace->fléau</li>
     <li>menace->danger</li>
     <li>menace->mal</li>
-    <li>menace->cauchemard</li>
+    <li>menace->cauchemar</li>
+    <li>menace_fem->menace</li>
+    <li>menace_fem->terreur</li>
+    <li>menace_fem->calamité</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
