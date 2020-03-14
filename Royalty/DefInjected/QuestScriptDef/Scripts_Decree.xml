@@ -45,7 +45,8 @@
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
   <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName->décret de chasse de [animalToHunt_label]</li>
+    <li>questName(countToHunt==1)->décret de chasse de [animalToHunt_indefinite]</li>
+    <li>questName(countToHunt!=1)->décret de chasse de [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
