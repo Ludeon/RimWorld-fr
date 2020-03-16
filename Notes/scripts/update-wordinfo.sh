@@ -52,7 +52,7 @@ trap "rm -rf $WORKDIR" EXIT
 export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 
 # Liste des tags provenant du XML
-cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
+cat */DefInjected/{PawnKind,Faction,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
