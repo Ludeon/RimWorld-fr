@@ -81,8 +81,8 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], lui [destroyed_present] [destroyed_targets].</li>
-    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], lui [destroyed_present] [destroyed_targets] et lui [damaged_present] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=1)->[damage_source] [RECIPIENT_nameDef], lui [destroyed_present] [destroyed_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=1)->[damage_source] [RECIPIENT_nameDef], lui [destroyed_present] [destroyed_targets] et lui [damaged_present] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], lui [damaged_present]  [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
