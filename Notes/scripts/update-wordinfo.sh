@@ -22,8 +22,16 @@ extract_tag_content() {
   grep -aE '\.(label|labelMale|labelMalePlural|labelFemale|labelFemalePlural|pawnSingular|pawnsPlural)>' \
   | sed 's/^.*>\([^<]*\)<.*$/\1/' ;
 }
+extract_tag_noun_content() {
+  grep -aE '\.(labelNoun)>[uU]n' | sed 's/^[^>]*>[uU]ne* \([^<]*\)<.*$/\1/' ;
+}
 extract_tag_male_content() { grep -aE '\.(labelMale|labelMalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 extract_tag_female_content() { grep -aE '\.(labelFemale|labelFemalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
+
+# Currently, labelNoun are defined as
+#   <...labelNoun>un xxx</...labelNoun> or <...labelNoun>une yyy</...labelNoun>
+extract_tag_noun_male_content() { grep -aE '\.(labelNoun)>[uU]n ' | sed 's/^[^>]*>[uU]n \([^<]*\)<.*$/\1/' ; }
+extract_tag_noun_female_content() { grep -aE '\.(labelNoun)>[uU]ne ' | sed 's/^[^>]*>[uU]ne \([^<]*\)<.*$/\1/' ; }
 
 # Passe tout en minuscule
 to_lowercase() { PERLIO=:utf8 perl -ne 'print lc $_' ;  }
@@ -44,16 +52,19 @@ trap "rm -rf $WORKDIR" EXIT
 export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 
 # Liste des tags provenant du XML
-cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
+cat */DefInjected/{PawnKind,Faction,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
+cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
 cat */WordInfo/Gender/Male.txt > $WORKDIR/all_males.txt
 cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_male_content >> $WORKDIR/all_males.txt
+cat */DefInjected/HediffDef/*.xml | extract_tag_noun_male_content >> $WORKDIR/all_males.txt
 cat $WORKDIR/all_males.txt | to_lowercase | unique > Core/WordInfo/Gender/Male.txt
 
 # Ajouter labelFemale* dans WordInfo/Gender/Female.txt
 cat */WordInfo/Gender/Female.txt > $WORKDIR/all_females.txt
 cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_female_content >> $WORKDIR/all_females.txt
+cat */DefInjected/HediffDef/*.xml | extract_tag_noun_female_content >> $WORKDIR/all_females.txt
 cat $WORKDIR/all_females.txt | to_lowercase | unique > Core/WordInfo/Gender/Female.txt
 
 # Liste des mots déjà classés

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Various -->
@@ -98,6 +98,12 @@
   <RenameAnimal>Renommer l'animal</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Renommer le colon</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>Renoncer au titre</RenounceTitle>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{0} de {1}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>Cette action fera perdre son titre {TITLE} à {PAWN_nameDef}. Vous ne recevrez pas de compensation pour le renoncement à ce titre.\n\nCela aura les effets suivants :\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: unknown -->
   <UnknownLower>inconnu</UnknownLower>
   <!-- EN: On -->
@@ -283,7 +289,7 @@
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0} veut que cela soit détruit.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>Départ en navette à {0}</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Départ en navette dans {0}</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Départ dans {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
@@ -438,6 +444,8 @@
   <DormantCompBeacon>Mécanoïdes prêts à arriver</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Expiré</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>S'amorce dans</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>S'active dans {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
@@ -1207,7 +1215,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Entropie psychique : {0}/{1}\nTaux de chute : {2}/{3}s({4}s jusqu'à zéro)\n\nL'entropie psychique augmente après avoir effectué un psycast.\nLe dépassement de la limite de sécurité peut conduire à conséquences à long terme sur la santé.\nLorsque l'entropie atteint zéro, elle laisse une gueule de bois psychique.</PawnTooltipPsychicEntropy>
+  <PawnTooltipPsychicEntropy>Entropie psychique : {0}/{1}\nTaux de chute : {2}/{3}s ({4}s jusqu'à zéro)\n\nL'entropie psychique augmente après avoir exercé un pouvoir psychique.\nLe dépassement de la limite de sécurité peut conduire à des conséquences à long terme sur la santé.\nLorsque l'entropie atteint zéro, elle laisse une gueule de bois psychique.</PawnTooltipPsychicEntropy>
   <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
   <PawnTooltipPsychicEntropyPainFocus>La douleur physique focalise l'esprit et efface les pensées parasites; cela a pour effet secondaire de provoquer une récupération plus rapide de l'entropie psychique.</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
