@@ -223,10 +223,13 @@
     <li>artextra_clause->la scène se passe au milieu d'[CommunityAny_indef]</li>
     <li>artextra_clause->la scène se passe dans les faubourgs d'[CommunityAny_indef]</li>
     <li>artextra_clause->la scène se passe à l'intérieur d'[CommunityAny_indef] près d'[TerrainFeatureAny_indef]</li>
-    <li>artextra_clause->un(e) [Character] [idles] [side_position]</li>
-    <li>artextra_clause->un(e) [Character] [pawn_adj] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s apparaissent [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s [pawn_adj_plural] apparaissent [side_position]</li>
+    <li>artextra_clause->un [Character] [idles] [side_position]</li>
+    <li>artextra_clause->un [Character] [pawn_adj] [idles] [side_position]</li>
+    <li>artextra_clause->une [Character_Feminine] [idles] [side_position]</li>
+    <li>artextra_clause->une [Character_Feminine] [pawn_adj_fem] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character_AnyPlural] apparaissent [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character_Plural] [pawn_adj_plural] apparaissent [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character_FemPlural] [pawn_adj_plural_fem] apparaissent [side_position]</li>
     <li>artextra_clause->[AnimalAny_indef] [idles] [side_position]</li>
     <li>artextra_clause->si vous plissez les yeux, la structure [composition] de l'image révèle la silhouette de [subimageany]</li>
     <li>artextra_clause->la tête [emotional_expression_head] d'un(e) [PersonJob] [pawn_adj] veille sur l'ensemble</li>
@@ -239,34 +242,50 @@
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
     <li>subimageany->[subimageplural_fem]</li>
-    <li>subimagesingle(p=4)->un(e) [Character]</li>
+    <li>subimagesingle(p=4)->un [Character]</li>
+    <li>subimagesingle(p=4)->une [Character_Feminine]</li>
     <li>subimagesingle->[TerrainFeatureAny_indef]</li>
     <li>subimagesingle->[CommunityAny_indef]</li>
     <li>subimagesingle->[TreeTypeAny_indef]</li>
     <li>subimagesingle->[VegetableAny_indef]</li>
     <li>subimagesingle->[AnimalGroupAny_indef] de [Animal_AnyPlural]</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character_Plural]</li>
     <li>subimageplural->[Quantity_adjphrase] [Vegetable_Plural]</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>subimageplural_fem(p=3)->[Quantity_adjphrase] [Character_FemPlural]</li>
     <li>subimageplural_fem->[Quantity_adjphrase] [Vegetable_FemPlural]</li>
     <!--  Adj: Pb de féminin (e) et de pluriel (s) -->
     <li>pawn_adj->[pawn_adj_regular]</li>
+    <li>pawn_adj->[pawn_adj_regular_inv]</li>
     <li>pawn_adj->[pawn_adj_irregular]</li>
     <li>pawn_adj->[pawn_adj_variant]</li>
     <li>pawn_adj->[pawn_adj_invariant]</li>
+    <li>pawn_adj_fem->[pawn_adj_regular_fem]</li>
+    <li>pawn_adj_fem->[pawn_adj_regular_inv]</li>
+    <!-- <li>pawn_adj_fem->[pawn_adj_irregular_fem]</li> -->
+    <li>pawn_adj_fem->[pawn_adj_variant_fem]</li>
+    <li>pawn_adj_fem->[pawn_adj_invariant]</li>
     <li>pawn_adj_plural->[pawn_adj_regular]s</li>
+    <li>pawn_adj_plural->[pawn_adj_regular_inv]s</li>
     <li>pawn_adj_plural->[pawn_adj_irregular]</li>
     <li>pawn_adj_plural->[pawn_adj_variantplural]</li>
     <li>pawn_adj_plural->[pawn_adj_invariant]</li>
+    <li>pawn_adj_plural_fem->[pawn_adj_regular_fem]s</li>
+    <li>pawn_adj_plural_fem->[pawn_adj_regular_inv]s</li>
+    <!-- <li>pawn_adj_plural_fem->[pawn_adj_irregular_fem]</li> -->
+    <li>pawn_adj_plural_fem->[pawn_adj_variantplural_fem]</li>
+    <li>pawn_adj_plural_fem->[pawn_adj_invariant]</li>
+    <!-- Tke "e" in (F), "s" in plural -->
     <li>pawn_adj_regular->mort</li>
     <li>pawn_adj_regular->mourant</li>
     <li>pawn_adj_regular->blessé</li>
     <li>pawn_adj_regular->endormi</li>
     <li>pawn_adj_regular->enragé</li>
-    <li>pawn_adj_regular->jeune</li>
-    <li>pawn_adj_regular->sénile</li>
-    <li>pawn_adj_regular->sale</li>
-    <li>pawn_adj_regular->debout</li>
+    <!-- Same as (F), take "s" in plural    -->
+    <li>pawn_adj_regular_inv->jeune</li>
+    <li>pawn_adj_regular_inv->sénile</li>
+    <li>pawn_adj_regular_inv->sale</li>
+    <li>pawn_adj_regular_inv->debout</li>
     <!--  EN:  <li>pawn_adj_plural->old</li> vieux/vielle et pb de pluriel (s) -->
     <li>pawn_adj_irregular->vieux</li>
     <li>pawn_adj_irregular->assis</li>
@@ -275,6 +294,11 @@
     <li>pawn_adj_invariant->mangeant [VegetableAny_indef]</li>
     <li>pawn_adj_variant->couvert de [Gore]</li>
     <li>pawn_adj_variantplural->couverts de [Gore]</li>
+    <li>pawn_adj_regular_fem->[pawn_adj_regular]e</li>
+    <li>pawn_adj_regular_fem->vielle</li>
+    <li>pawn_adj_regular_fem->assise</li>
+    <li>pawn_adj_variant_fem->couverte de [Gore]</li>
+    <li>pawn_adj_variantplural_fem->couvertes de [Gore]</li>
     <li>emotional_expression_head->souriante</li>
     <li>emotional_expression_head->refrognée</li>
     <li>emotional_expression_head->grimaçante</li>
