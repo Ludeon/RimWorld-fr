@@ -63,7 +63,7 @@
     <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name] a été pris(e) au lit avec la mauvaise personne. [asker_pronoun] a emprisonné l'amant(e) inconvenant(e) en signe de dénégation. Maintenant, [asker_pronoun] voudrait que vous gardiez le/la prisonnier/ère [lodgers0_nameFull] enfermé(e) jusqu'à ce que le scandale éclate dans [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
-    <!-- TODO: mieux préciser "court rivals" si besoin -->
+    <!-- NOTE: mieux préciser "court rivals" si besoin -->
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, les rivaux de [asker_nameDef] ont payé la faction [enemyFaction_name] pour essayer de libérer l'amant(e) et mettre en lumière l'histoire. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\nMalheureusement, les rivaux de [asker_nameDef] ont provoqué des attaques mécanoïdes venant de la faction [enemyFaction_name] pour essayer de libérer l'amant(e) et mettre en lumière l'histoire. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman]</li>
