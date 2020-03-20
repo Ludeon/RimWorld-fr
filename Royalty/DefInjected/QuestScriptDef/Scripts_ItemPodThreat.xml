@@ -83,14 +83,16 @@
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label] chasseur d'homme</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
-    <!--
-      BUG: animalKind_indefinite et animalKind_definite non disponibles.
-        Laisser Un(e) [animalKind_label] pour ne pas boguer.
-    -->
+    <!-- BUG: animalKind_indefinite et animalKind_definite non disponibles. -->
+    <li>animalKindLabelCorrect_def(animalCount==1)->le/la [animalKind_label] chasseur d'homme</li>
+    <li>animalKindLabelCorrect_def(animalCount>=2)->les [animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
+    <li>animalWillArrive(animalCount==1)->arrivera</li>
+    <li>animalWillArrive(animalCount>=2)->arriveront</li>
+    <!-- NOTE: laisser Un(e) [animalKind_label] pour ne pas boguer. -->
     <li>manhuntingBeastIndef(animalCount==1)->Un(e) [animalKind_label] chasseur d'homme</li>
     <li>manhuntingBeastIndef(animalCount==1)->[animalKind_indefinite] chasseur d'homme</li>
     <li>manhuntingBeastIndef(animalCount>=2)->une meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
-    <li>endSection->Les capsules de transport contiendront (valeur totale [itemsReward_totalMarketValue_money]) :\n\n[itemsReward_items]\n\n[helpersParagraph]Si vous acceptez, les [animalKindLabelCorrect] arriveront sur [map_definite] dans [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
+    <li>endSection->Les capsules de transport contiendront (valeur totale [itemsReward_totalMarketValue_money]) :\n\n[itemsReward_items]\n\n[helpersParagraph]Si vous acceptez, [animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
     <!-- BUG: même bug -->
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand appelle d'une zone voisine de [map_definite]. Un(e) [animalKind_label] sauvage le pourchasse ! Il voudrait attirer la bête loin de lui… et vers vous.\n\nEn retour, le marchand promet de vous envoyer des capsules de transport. [endSection]</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand appelle d'une zone voisine de [map_definite]. [animalKind_indefinite] sauvage le pourchasse ! Il voudrait attirer la bête loin de lui… et vers vous.\n\nEn retour, le marchand promet de vous envoyer des capsules de transport. [endSection]</li>
@@ -99,7 +101,7 @@
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_definite] pourchassait un marchand voisin, mais a été attiré(e) vers vous par des capsules de transport.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand appelle d'une zone voisine de [map_definite]. Une meute de [animalCount] [animalKind_labelPlural] sauvages le pourchassent ! Il voudrait attirer les bêtes loin de lui… et vers vous.\n\nEn retour, le marchand promet de vous envoyer des capsules de transport. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Les [animalKind_labelPlural] pourchassaient un marchand voisin, mais on été attiré(es) vers vous par des capsules de transport.</li>
-    <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] près de [map_definite] sont harcelées par [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] voudrait attirer le/la [animalKindLabelCorrect] loin de ces caravanes et vers [map_definite] pour pouvoir traiter la menace.\n\nEn remerciement, [asker_nameDef] promet de vous envoyer des capsules de transport. [endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] près de [map_definite] sont harcelées par [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] voudrait attirer [animalKindLabelCorrect_def] loin de ces caravanes et vers [map_definite] pour pouvoir traiter la menace.\n\nEn remerciement, [asker_nameDef] promet de vous envoyer des capsules de transport. [endSection]</li>
     <!-- BUG: même bug -->
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->Le/la [animalKind_label] harcelait les caravanes venant de [asker_faction_name], mais a été attiré(e) vers vous par des capsules de transport.</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_definite] harcelait les caravanes venant de [asker_faction_name], mais a été attiré(e) vers vous par des capsules de transport.</li>
