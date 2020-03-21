@@ -82,6 +82,12 @@
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
     <li>lodgersIsAre(lodgersCount==1)->est</li>
     <li>lodgersIsAre(lodgersCount>=2)->sont</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Male)->arrivé</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Female)->arrivée</li>
+    <li>lodgersArrived(lodgersCount>=2)->arrivés</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Male)->le</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
+    <li>lodgersAccusative(lodgersCount>=2)->les</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
