@@ -469,15 +469,27 @@
     <li>tale_noun->La [Community_Feminine] de [PAWN_nameDef] attaquée par des animaux</li>
     <li>image->une horde de [Animal_AnyPlural] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal_AnyPlural] [circumstance_phrase]</li>
-    <li>image->un(e) [huge] [Animal] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] silhouettes ténébreuses [circumstance_phrase]</li>
+    <li>image->un [AdjectiveLarge] [Animal] [circumstance_phrase_masc_sing]</li>
+    <li>image->une [AdjectiveLarge_Feminine] [Animal_Feminine] [circumstance_phrase_fem_sing]</li>
+    <li>image->[Quantity_adjphrase] silhouettes ténébreuses [circumstance_phrase_fem_plur]</li>
     <li>image->[Quantity_adjphrase] prédateurs dans l'ombre [circumstance_phrase]</li>
-    <li>circumstance_phrase->s'avançant sur [TerrainFeatureAny_indef]</li>
-    <li>circumstance_phrase->encerclant completement [CommunityAny_indef]</li>
-    <li>circumstance_phrase->attaquant [Quantity_adjphrase] [PersonJob_Plural]</li>
-    <li>circumstance_phrase->massacrant [Quantity_adjphrase] [Animal_AnyPlural]</li>
+    <!-- NOTE: circumstance_phrase for masculin plural -->
+    <li>circumstance_phrase->[circumstance_phrase_inv]</li>
     <li>circumstance_phrase->pris de [hate_emotion]</li>
     <li>circumstance_phrase->couverts de [Gore]</li>
+    <li>circumstance_phrase_masc_sing->[circumstance_phrase_inv]</li>
+    <li>circumstance_phrase_masc_sing->pris de [hate_emotion]</li>
+    <li>circumstance_phrase_masc_sing->couvert de [Gore]</li>
+    <li>circumstance_phrase_fem_sing->[circumstance_phrase_inv]</li>
+    <li>circumstance_phrase_fem_sing->prise de [hate_emotion]</li>
+    <li>circumstance_phrase_fem_sing->couverte de [Gore]</li>
+    <li>circumstance_phrase_fem_plur->[circumstance_phrase_inv]</li>
+    <li>circumstance_phrase_fem_plur->prises de [hate_emotion]</li>
+    <li>circumstance_phrase_fem_plur->couvertes de [Gore]</li>
+    <li>circumstance_phrase_inv->s'avançant sur [TerrainFeatureAny_indef]</li>
+    <li>circumstance_phrase_inv->encerclant completement [CommunityAny_indef]</li>
+    <li>circumstance_phrase_inv->attaquant [Quantity_adjphrase] [PersonJob_Plural]</li>
+    <li>circumstance_phrase_inv->massacrant [Quantity_adjphrase] [Animal_AnyPlural]</li>
     <li>hate_emotion->haine</li>
     <li>hate_emotion->colère</li>
     <li>hate_emotion->rage</li>
@@ -654,11 +666,8 @@
     <li>image->une essaim de [Mechanoid]s [circumstance_phrase_plural]</li>
     <li>image->une armée de [Mechanoid]s [circumstance_phrase_plural]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase_plural]</li>
-    <!-- NOTE : "un(e) [huge] [Mechanoid]" est le seul élément au singulier qui
-      pose problème pour les deux dernières circumstance_phrase.
-    -->
-    <li>image->un [huge] [Mechanoid] [circumstance_phrase_singular]</li>
-    <li>image->des [huge]s [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->un [AdjectiveLarge] [Mechanoid] [circumstance_phrase_singular]</li>
+    <li>image->des [AdjectiveLarge]s [Mechanoid]s [circumstance_phrase_plural]</li>
     <li>image->[Quantity_adjphrase] silhouettes de [Mechanoid]s [circumstance_phrase_plural]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s luisants de [Color] [circumstance_phrase_plural]</li>
     <li>circumstance_phrase_singular->[circumstance_phrase_s_or_p]</li>
