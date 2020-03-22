@@ -72,7 +72,8 @@
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] a esquivé.</li>
-    <li>r_logentry->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] l'a bloqué[INITIATOR_gender ?  : e : (e)].</li>
+    <li>r_logentry(INITIATOR_gender==Male)->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] l'a bloqué.</li>
+    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_definite] a essayé de jeter [TOOL_label] dans l'œil de [RECIPIENT_definite], mais [RECIPIENT_definite] l'a bloquée.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:

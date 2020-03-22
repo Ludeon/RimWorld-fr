@@ -53,14 +53,12 @@
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->[prefix] a [damaged_past] [strikeAdv] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] a [damaged_past] [strikeAdv] [RECIPIENT_definite].</li>
-    <!-- BUG: RECIPIENT_gender not defined ! need the next three rules. -->
-    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past][RECIPIENT_gender ? : e : (e)].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été pris[RECIPIENT_gender ? s : se : s(e)] dans une explosion.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été touché[RECIPIENT_gender ? é : ée : é(e)] par une explosion.</li>
-    <!-- FIXME: RECIPIENT_gender not defined ! should be the previous rules -->
-    <li>r_logentry->[RECIPIENT_definite] a été [damaged_past].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été pris dans une explosion.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] a été touché par une explosion.</li>
+    <li>r_logentry(RECIPIENT_gender==Male)->[RECIPIENT_definite] a été [damaged_past].</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==Male)->[RECIPIENT_definite] a été pris dans une explosion.</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==Male)->[RECIPIENT_definite] a été touché par une explosion.</li>
+    <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] a été [damaged_past]e.</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] a été prise dans une explosion.</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] a été touchée par une explosion.</li>
     <li>blast->l'explosion</li>
     <li>blast->la déflagration</li>
     <li>blast->l'onde de choc</li>
@@ -439,7 +437,8 @@
     <li>missing->ayant été emportée par le vent</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->a [moved] [moment]</li>
     <!-- FR : pronominal verb -->
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->s'est [ducked][ORIGINALTARGET_gender ? : e : (e)] derrière [COVER_definite]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3,ORIGINALTARGET_gender==Male)->s'est [ducked] derrière [COVER_definite]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3,ORIGINALTARGET_gender==Female)->s'est [ducked]e derrière [COVER_definite]</li>
     <!-- FR : action verb -->
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->a sauté derrière [COVER_definite]</li>
     <li>moved->bougé</li>
