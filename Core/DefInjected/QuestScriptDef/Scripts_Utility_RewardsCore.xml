@@ -7,16 +7,24 @@
     <li>joinerFactionInfo-></li>
   -->
   <Util_JoinerDropIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_titleIndef] âgé(e) de [joiner_age] ans nommé(e) [joiner_nameDef] arrivera dans un capsule de transport.[joinerFactionInfo][joiner_relationInfo]</li>
+    <li>rewardDescription->[joiner_titleIndef] [joiner_has_age] de [joiner_age] ans [joiner_named] [joiner_nameDef] arrivera dans un capsule de transport.[joinerFactionInfo][joiner_relationInfo]</li>
     <li>joinerFactionInfo(priority=1)-> [joiner_pronoun] est un membre de [joiner_factionName].</li>
     <li>joinerFactionInfo-></li>
+    <li>joiner_named(joiner_gender==Male)->nommé</li>
+    <li>joiner_named(joiner_gender==Female)->nommée</li>
+    <li>joiner_has_age(joiner_gender==Male)->âgé</li>
+    <li>joiner_has_age(joiner_gender==Female)->âgée</li>
   </Util_JoinerDropIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>rewardDescription->a [joiner_age]-year-old [joiner_title] named [joiner_nameDef] will arrive and join you. [joiner_relationInfo]</li>
   -->
   <Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_titleIndef] âgé(e) de [joiner_age] ans nommé(e) [joiner_nameDef] arrivera pour rejoindre votre colonie. [joiner_relationInfo]</li>
+    <li>rewardDescription->[joiner_titleIndef] [joiner_has_age] de [joiner_age] ans [joiner_named] [joiner_nameDef] arrivera pour rejoindre votre colonie. [joiner_relationInfo]</li>
+    <li>joiner_named(joiner_gender==Male)->nommé</li>
+    <li>joiner_named(joiner_gender==Female)->nommée</li>
+    <li>joiner_has_age(joiner_gender==Male)->âgé</li>
+    <li>joiner_has_age(joiner_gender==Female)->âgée</li>
   </Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
