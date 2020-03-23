@@ -36,9 +36,8 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [skillAdvMaybe] [atMaybe] [RECIPIENT_definite] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [skillAdvMaybe] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant le/la [recipient_part0_label] [deflected_result].</li>
-    <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour [RECIPIENT_gender ? le : la : le/la]  [damaged_inf] avec [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le/la [damaged_inf] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1,RECIPIENT_gender==Male)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le [damaged_inf] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1,RECIPIENT_gender==Female)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour la [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
@@ -79,17 +78,15 @@
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant [RECIPIENT_gender ? le : la : le/la] [damaged_inf] avec [implement].</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant [RECIPIENT_gender ? le : la : le/la] [damaged_inf].</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le/la [damaged_inf] avec [implement].</li>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le/la [damaged_inf].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==Male)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le [damaged_inf] avec [implement].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==Male)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le [damaged_inf].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==Female)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant la [damaged_inf] avec [implement].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==Female)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant la [damaged_inf].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->mais [RECIPIENT_definite] a bondi hors de portée</li>
-    <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>result->mais a été tromp[INITIATOR_gender ? é : ée : é(e)] par une feinte de [RECIPIENT_definite]</li>
-    <li>result->mais a été trompé(e) par une feinte de [RECIPIENT_definite]</li>
+    <li>result(INITIATOR_gender==Male)->mais a été trompé par une feinte de [RECIPIENT_definite]</li>
+    <li>result(INITIATOR_gender==Female)->mais a été trompée par une feinte de [RECIPIENT_definite]</li>
     <li>result->mais l'attaque a été savamment esquivée</li>
   </Combat_Dodge.rulePack.rulesStrings>
   
@@ -121,14 +118,14 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] en visant le/la [recipient_part0_label], [flavortext_consequence].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant le/la [recipient_part0_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [strikeAdv] [RECIPIENT_definite] en visant le/la [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_destroyed_count>=1)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4,recipient_part_destroyed_count>=1)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4,recipient_part_destroyed_count>=1)->[INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] a [damaged_past] [skillAdv] [RECIPIENT_definite] avec [implement].</li>
-    <li>result(p=1,recipient_part_damaged_count==0)->lui [destroyed_present] [destroyed_targets]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->lui [damaged_present] [damaged_targets]</li>
-    <li>result(p=1)->lui [destroyed_present] [destroyed_targets] et lui [damaged_present] [damaged_targets]</li>
+    <li>result(p=1,recipient_part_damaged_count==0,recipient_part_destroyed_count>=1)->lui [destroyed_present] [destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->lui [damaged_present] [damaged_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->lui [destroyed_present] [destroyed_targets] et lui [damaged_present] [damaged_targets]</li>
     <li>action(p=1.0)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite] avec [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] a [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite]</li>
@@ -158,9 +155,8 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant [RECIPIENT_gender ? le : la : le/la] [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le/la [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
+    <li>r_logentry(p=0.3,RECIPIENT_gender==Male)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
+    <li>r_logentry(p=0.3,RECIPIENT_gender==Female)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant la [damaged_inf] avec [WEAPON_possessive] [WEAPON_label].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a raté de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite].</li>

@@ -52,11 +52,11 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été pris(e) pour cible par un essaim de mécanoïdes en orbite. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, des escouades de mécanoïdes de combat seront larguées régulièrement sur [map_definite].</li>
+    <li>threatsInfoMechClustersSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, des escouades de mécanoïdes de combat seront larguées régulièrement sur [map_definite].</li>
     <li>threatsInfoMechClustersMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par un essaim de mécanoïdes en orbite. Aussi longtemps qu'ils s'y trouveront, des escouades de mécanoïdes de combat seront larguées régulièrement sur [map_definite].</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été pris(e) pour cible par une ruche  mécanoïde. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, cette ruche lancera régulièrement des incursions sur [map_definite].</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été [lodgers0_targeted] par une ruche  mécanoïde. Aussi longtemps qu'[lodgers0_pronoun] s'y trouvera, cette ruche lancera régulièrement des incursions sur [map_definite].</li>
     <li>threatsInfoMechRaidsMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par une ruche de mécanoïde. Aussi longtemps qu'ils s'y trouveront, cette ruche lancera régulièrement des incursions sur [map_definite].</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Une organisation de protection des animaux vous demande de predre soin d'[lodgersPawnKind_indefinite] nommé(e) [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Une organisation de protection des animaux vous demande de predre soin d'[lodgersPawnKind_indefinite] du nom de [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nLes militants du sauvetage des animaux ont volé [lodgers0_nameDef] d'une cérémonie sacrificielle de [enemyFaction_name]. Maintenant les [enemyFaction_pawnsPlural] vont venir pour se venger. Si vous acceptez [lodgers0_nameDef], ces [enemyFaction_pawnsPlural] attaqueront aussi longtemps qu'[lodgers0_pronoun] s'y trouvera. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
@@ -72,7 +72,9 @@
     <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] cherche un endroit sûr pour s'occuper de son animal, [lodgersLabel] [lodgers0_nameDef], pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nDes [enemyFaction_pawnsPlural] de [enemyFaction_name] essayent de tuer le/la pauvre petit(e) [lodgers0_nameDef] pour atteindre [asker_nameDef]. Si vous acceptez [lodgers0_nameDef], ces [enemyFaction_pawnsPlural] attaqueront aussi longtemps que [lodgers0_pronoun] s'y trouvera. [enemyGroupsParagraph]</li>
+    <li>lodgers0_poorLittle(lodgers0_gender==Male)->le pauvre petit</li>
+    <li>lodgers0_poorLittle(lodgers0_gender==Female)->la pauvre petite</li>
+    <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nDes [enemyFaction_pawnsPlural] de [enemyFaction_name] essayent de tuer [lodgers0_poorLittle] [lodgers0_nameDef] pour atteindre [asker_nameDef]. Si vous acceptez [lodgers0_nameDef], ces [enemyFaction_pawnsPlural] attaqueront aussi longtemps que [lodgers0_pronoun] s'y trouvera. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
@@ -121,22 +123,28 @@
     <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
     <li>questName(lodgersCount==1)->gardiennage de [lodgersLabel]</li>
     <li>questName(lodgersCount==1)->garder [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->pauvre petit(e) [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Male)->pauvre petit [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Female)->pauvre petite [lodgers0_nameDef]</li>
     <li>questName(lodgersCount>=2)->les [lodgersLabelPlural] [animalAdj_plural]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj_plural]</li>
     <li>questName(lodgersCount>=2)->des [lodgersLabelPlural] [animalAdj_plural]</li>
     <li>questName(lodgersCount>=2)->gardiennage de [lodgersLabelPlural]</li>
     <li>questName(lodgersCount==2)->garder des [lodgersLabelPlural]</li>
-    <!-- BUG: impossible to get it right without x_gender -->
     <li>animalAdj->adorable</li>
     <li>animalAdj->aux yeux de biche</li>
-    <li>animalAdj->loyal(e)</li>
-    <li>animalAdj->affecueux/se</li>
     <li>animalAdj->calme</li>
-    <li>animalAdj->gentil/le</li>
-    <li>animalAdj->fier/ère</li>
-    <li>animalAdj(generateThreats==true)->pourchassé(e)</li>
-    <li>animalAdj(generateThreats==true)->effrayé(e)</li>
+    <li>animalAdj(lodgers0_gender==Male)->loyal</li>
+    <li>animalAdj(lodgers0_gender==Male)->affecueux</li>
+    <li>animalAdj(lodgers0_gender==Male)->gentil</li>
+    <li>animalAdj(lodgers0_gender==Male)->fier</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==Male)->pourchassé</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==Male)->effrayé</li>
+    <li>animalAdj(lodgers0_gender==Female)->loyale</li>
+    <li>animalAdj(lodgers0_gender==Female)->affecueuse</li>
+    <li>animalAdj(lodgers0_gender==Female)->gentille</li>
+    <li>animalAdj(lodgers0_gender==Female)->fière</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==Female)->pourchassée</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==Female)->effrayée</li>
     <li>animalAdj_plural->adorables</li>
     <li>animalAdj_plural->aux yeux de biche</li>
     <!-- pour le pluriel -->

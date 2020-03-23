@@ -92,11 +92,10 @@
     <li>strikeAdv->vicieusement</li>
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->laissant une blessure dégoûtante</li>
     <li>flavortext_consequence->laissant une blessure horrible</li>
-    <!-- BUG: RECIPIENT_gender not defined ! -->
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->[RECIPIENT_gender ? le : la : le/la] faisant [wince] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->[RECIPIENT_gender ? le : la : le/la] déstabilisant</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->le/la faisant [wince] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->le/la déstabilisant</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,RECIPIENT_gender==Male)->le faisant [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2,RECIPIENT_gender==Male)->le déstabilisant</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid,RECIPIENT_gender==Female)->la faisant [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2,RECIPIENT_gender==Female)->la déstabilisant</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -151,7 +150,7 @@
     <li>targetlist(recipient_part_count==1)->le/la [recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->les [recipient_part0_label] et [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->les [recipient_part0_label], [recipient_part1_label], et [recipient_part2_label]</li>
-    <li>targetlist->les [recipient_part0_label], [recipient_part1_label], [recipient_part2_label], et [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count>=4)->les [recipient_part0_label], [recipient_part1_label], [recipient_part2_label], et [recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->blessant</li>
     <li>damaged_present(deflected!=True)->lésant</li>
     <li>destroyed(p=0.5)->a détruit</li>
@@ -245,7 +244,7 @@
     <li>skillAdv(INITIATOR_skill&lt;=3)->de manière inepte</li>
     <li>skillAdv(INITIATOR_skill&lt;=3)->frénétiquement</li>
     <li>skillAdv(INITIATOR_skill&lt;=3)->aléatoirement</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->à la hâte</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->à la hâte</li>
     <li>skillAdv(INITIATOR_skill&lt;=4)->maladroitement</li>
     <li>skillAdv(INITIATOR_skill&lt;=4)->péniblement</li>
     <li>skillAdv(INITIATOR_skill&lt;=5)->avec crainte</li>
@@ -290,14 +289,16 @@
     <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
   -->
   <Combat_WoundIncludes.rulePack.rulesStrings>
+    <!-- NOTE: RW 1.1.2575 recipient_part_destroyed0_definite does not exist -->
     <li>destroyed_targets(recipient_part_destroyed_count==1)->le/la [recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->les [recipient_part_destroyed0_label] et [recipient_part_destroyed1_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==3)->les [recipient_part_destroyed0_label], [recipient_part_destroyed1_label] et [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->les [recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] et [recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count>=4)->les [recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] et [recipient_part_destroyed3_label]</li>
+    <!-- NOTE: RW 1.1.2575 recipient_part_damaged0_definite does not exist -->
     <li>damaged_targets(recipient_part_damaged_count==1)->le/la [recipient_part_damaged0_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==2)->les [recipient_part_damaged0_label] et [recipient_part_damaged1_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==3)->les [recipient_part_damaged0_label], [recipient_part_damaged1_label] et [recipient_part_damaged2_label]</li>
-    <li>damaged_targets->les [recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] et [recipient_part_damaged3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count>=4)->les [recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] et [recipient_part_damaged3_label]</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

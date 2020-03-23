@@ -52,7 +52,7 @@
     <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] souffre de [lodgersDisease_definite].</li>
     <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] souffrent de [lodgersDisease_definite].</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] est un(e) combattant(e) expert(e).</li>
+    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] est [lodgers0_expertfighter].</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont des combattants experts.</li>
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1,lodgersCount==1)->Vous devez maintenir son humeur au-dessus de [lodgersMoodThreshold_percent].</li>
@@ -64,9 +64,9 @@
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer les [lodgersLabelPlural]. Si vous arrivez à les amener à cette navette en vie, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->Vous devez garder [lodgers0_nameDef] à [map_definite] et ne pas l'envoyer ailleurs.</li>
     <li>mustKeepOnMapParagraph(lodgersCount>=2)->Vous devez garder les [lodgersLabelPlural] à [map_definite] et ne pas les envoyer ailleurs.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation] et a été pris(e) pour cible par un essaim de mécanoïdes en orbite qui larguera des escouades de mécanoïdes de combat sur [map_definite] aussi longtemps qu'[lodgers0_pronoun] s'y trouvera.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation] et a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite qui larguera des escouades de mécanoïdes de combat sur [map_definite] aussi longtemps qu'[lodgers0_pronoun] s'y trouvera.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Les prisonniers ont récemment [mechViolation], et ont été pris pour cible par un essaim de mécanoïdes en orbite qui larguera des escouades de mécanoïdes de combat sur [map_definite] aussi longtemps qu'ils s'y trouveront.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été pris(e) pour cible par une ruche mécanoïde qui lancera des incursions sur [map_definite] aussi longtemps qu'[lodgers0_pronoun] s'y trouvera.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été [lodgers0_targeted] par une ruche mécanoïde qui lancera des incursions sur [map_definite] aussi longtemps qu'[lodgers0_pronoun] s'y trouvera.</li>
     <li>threatsInfoMechRaidsMultiHuman->Ils ont récemment [mechViolation], et ont été pris pour cible par une ruche mécanoïde qui lancera des incursions sur [map_definite] aussi longtemps qu'ils s'y trouveront.</li>
     <li>mechViolation->fâché une intelligence artificielle d'une manière ou d'une autre</li>
     <li>mechViolation->pénétré dans un ancien terminal de superordinateur</li>
@@ -74,12 +74,22 @@
     <li>mechViolation->essayé de pirater un noeud de contrôle mécanoïde</li>
     <li>mechViolation->essayé de voler sur un ancien site de stockage</li>
     <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgers0_expertfighter(lodgers0_gender==Male)->un combattant expert</li>
+    <li>lodgers0_expertfighter(lodgers0_gender==Female)->une combattante experte</li>
+    <li>lodgers0_targeted(lodgers0_gender==Male)->pris pour cible</li>
+    <li>lodgers0_targeted(lodgers0_gender==Female)->prise pour cible</li>
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
     <li>lodgersIsAre(lodgersCount==1)->est</li>
     <li>lodgersIsAre(lodgersCount>=2)->sont</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Male)->arrivé</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Female)->arrivée</li>
+    <li>lodgersArrived(lodgersCount>=2)->arrivés</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Male)->le</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
+    <li>lodgersAccusative(lodgersCount>=2)->les</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir. </li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->Vous avez raté la quête '[resolvedQuestName]'.\n\nVos relations avec [asker_faction_name] vont diminuer de [goodwillPenalty].</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>

@@ -38,17 +38,25 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->un(e) [Character] solitaire [desc_pawn]</li>
-    <li>image->un(e) [Character] solitaire [desc_pawn] près d'[TerrainFeatureAny_indef]</li>
-    <li>image->un(e) [Character] solitaire [desc_pawn] près d'[CommunityAny_indef]</li>
-    <li>image->un(e) [Character] [desc_pawn] entouré(e) de [Character]s</li>
-    <li>image->un groupe de [Character]s jouant au [Game]</li>
-    <li>image->un(e) [Character] [desc_pawn] jouant au [Game] avec [Quantity_adjphrase] [Character]s</li>
-    <li>image->un(e) [Character] [desc_pawn] armé(e) d'[WeaponAny_indef]</li>
-    <li>image->un(e) [Character] [desc_pawn] mangeant [VegetableAny_indef]</li>
+    <li>image->un [Character] solitaire [desc_pawn]</li>
+    <li>image->un [Character] solitaire [desc_pawn] près d'[TerrainFeatureAny_indef]</li>
+    <li>image->un [Character] solitaire [desc_pawn] près d'[CommunityAny_indef]</li>
+    <li>image->un [Character] [desc_pawn] entouré de [Character_AnyPlural]</li>
+    <li>image->un groupe de [Character_AnyPlural] jouant au [Game]</li>
+    <li>image->un [Character] [desc_pawn] jouant au [Game] avec [Quantity_adjphrase] [Character_AnyPlural]</li>
+    <li>image->un [Character] [desc_pawn] armé d'[WeaponAny_indef]</li>
+    <li>image->un [Character] [desc_pawn] mangeant [VegetableAny_indef]</li>
+    <li>image->une [Character_Feminine] solitaire [desc_pawn_fem]</li>
+    <li>image->une [Character_Feminine] solitaire [desc_pawn_fem] près d'[TerrainFeatureAny_indef]</li>
+    <li>image->une [Character_Feminine] solitaire [desc_pawn_fem] près d'[CommunityAny_indef]</li>
+    <li>image->une [Character_Feminine] [desc_pawn_fem] entourée de [Character_AnyPlural]</li>
+    <li>image->une [Character_Feminine] [desc_pawn_fem] jouant au [Game] avec [Quantity_adjphrase] [Character_AnyPlural]</li>
+    <li>image->une [Character_Feminine] [desc_pawn_fem] armée d'[WeaponAny_indef]</li>
+    <li>image->une [Character_Feminine] [desc_pawn_fem] mangeant [VegetableAny_indef]</li>
     <li>image->une scène avec [Quantity_adjphrase] [PersonJob_Plural] et [PersonJob_Plural] mangeant des [Vegetable_AnyPlural] ensemble</li>
     <li>image->une personne célèbre, [NamePerson] [desc_pawn]</li>
-    <li>image->un(e) [Character] portant [ApparelAny_indef] [desc_pawn]</li>
+    <li>image->un [Character] portant [ApparelAny_indef] [desc_pawn]</li>
+    <li>image->une [Character_Feminine] portant [ApparelAny_indef] [desc_pawn_fem]</li>
     <li>image->[CommunityAny_indef]</li>
     <li>image->[TerrainFeatureAny_indef]</li>
     <li>image->[WeaponAny_indef]</li>
@@ -62,17 +70,24 @@
     <li>image->une représentation abstraite d'un(e) [ConceptAny]</li>
     <li>image->une forme abstraite [AdjectiveAny_Feminine]</li>
     <li>desc_pawn(p=12)-></li>
-    <li>desc_pawn->volant dans les airs</li>
-    <li>desc_pawn->suspendu(e) dans les airs</li>
+    <li>desc_pawn->[desc_pawn_inv]</li>
+    <li>desc_pawn->suspendu dans les airs</li>
     <!--     <li>desc_pawn->debout sur le sol</li> -->
-    <li>desc_pawn->se déplaçant vers la gauche</li>
-    <li>desc_pawn->se déplaçant vers la droite</li>
-    <li>desc_pawn->assis(e) à une table</li>
-    <li>desc_pawn->vu(e) à travers un miroir</li>
-    <li>desc_pawn->représenté(e) en silhouette</li>
+    <li>desc_pawn->assis à une table</li>
+    <li>desc_pawn->vu à travers un miroir</li>
+    <li>desc_pawn->représenté en silhouette</li>
     <li>desc_pawn->chevauchant [AnimalAny_indef] portant [ApparelAny_indef]</li>
-    <li>desc_pawn->ayant l'air [AdjectiveAny]</li>
-    <li>desc_pawn->couvert(e) de [Gore]</li>
+    <li>desc_pawn->couvert de [Gore]</li>
+    <li>desc_pawn_fem->[desc_pawn_inv]</li>
+    <li>desc_pawn_fem->assise à une table</li>
+    <li>desc_pawn_fem->vue à travers un miroir</li>
+    <li>desc_pawn_fem->représentée en silhouette</li>
+    <li>desc_pawn_fem->suspendue dans les airs</li>
+    <li>desc_pawn_fem->couverte de [Gore]</li>
+    <li>desc_pawn_inv->volant dans les airs</li>
+    <li>desc_pawn_inv->se déplaçant vers la gauche</li>
+    <li>desc_pawn_inv->se déplaçant vers la droite</li>
+    <li>desc_pawn_inv->ayant l'air [AdjectiveAny]</li>
   </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

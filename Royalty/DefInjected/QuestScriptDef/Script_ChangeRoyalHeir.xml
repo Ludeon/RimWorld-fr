@@ -5,7 +5,7 @@
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.</li>
   -->
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\nAfin de consacrer [titleHeir_nameFull] comme étant l'héritier du titre de [titleHolder_nameFull], vous devez construire un monument.\n\nLa taille de ce monument sera [monumentSize] et il nécessitera les ressources suivantes (valeur totale [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nNe pas avoir terminé le monument dans les 20 jours est considéré comme profanant le rituel. Vos relations avec [asker_factionName] diminueraient de 25 et l'héritier ne serait pas changé.</li>
+    <li>questDescription->\nAfin de consacrer [titleHeir_nameFull] comme étant l'héritier du titre de [titleHolder_nameFull], vous devez construire un monument.\n\nLa taille de ce monument sera [monumentSize] et il nécessitera les ressources suivantes (valeur totale [monumentRequiredResourcesMarketValue_money]) :\n\n[monumentRequiredResources]\n\nNe pas avoir terminé le monument dans les 20 jours est considéré comme profanant le rituel. Vos relations avec [asker_factionName] diminueraient de 25 et l'héritier ne serait pas changé.</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
@@ -20,11 +20,11 @@
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
   <ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>[asker_nameDef] est offensé que vous ayez promis de consacrer le nouvel héritage, mais que vous n'ayez pas construit le monument dans le délai imparti.\n\nLa bonne volonté de [asker_faction_name] à votre égard a baissé de 25.</ChangeRoyalHeir.root.nodes.Delay.node.nodes.Letter.text.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>Le titulaire du titre est décédé: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>Le titulaire du titre est décédé : {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
   <ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, dont l'héritier était sur le point d'être changé, est décédé.</ChangeRoyalHeir.root.nodes.titleHolderDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>Héritier désigné décédé: {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>
+  <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>Héritier désigné décédé : {SUBJECT_definite}</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
   <ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, qui était censé devenir l'héritier d'un titre, est décédé.</ChangeRoyalHeir.root.nodes.titleHeirDestroyed.node.nodes.Letter.text.slateRef>
   

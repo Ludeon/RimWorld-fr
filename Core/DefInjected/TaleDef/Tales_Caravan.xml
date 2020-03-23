@@ -38,7 +38,7 @@
     <li>image->[PAWN_nameFull] prend une posture dominante tout en [circumstance_group]</li>
     <li>image->[PAWN_nameFull] affiche une expression [AdjectiveBadass_Feminine] tout en [circumstance_group]</li>
     <li>image->[PAWN_nameFull] montre une expression [AdjectiveAngsty_Feminine] tout en [circumstance_group]</li>
-    <li>circumstance_phrase->se préparant à affronter la horde qui progresse</li>
+    <li>circumstance_phrase->se préparant à affronter la horde qui progresse</li>
     <li>circumstance_phrase->contournant les wagons de transport</li>
     <li>circumstance_phrase->poussant un cri de victoire</li>
     <li>circumstance_phrase->brandissant ses [Weapon_AnyPlural]</li>
@@ -134,7 +134,8 @@
     <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy_AnyPlural]</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_Plural] ennemis</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_FemPlural] ennemies</li>
-    <li>circumstance_phrase->d'un(e) [huge] [Enemy]</li>
+    <li>circumstance_phrase->d'un [AdjectiveLarge] [Enemy]</li>
+    <!-- <li>circumstance_phrase->d'une [AdjectiveLarge_Feminine] [Enemy_Feminine]</li> -->
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon_AnyPlural].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] sont auréolés de fumée [Color_Feminine].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] affichent des visages [AdjectiveAngsty_Plural].</li>
@@ -176,8 +177,8 @@
     <li>circumstance_phrase->et s'équipe pour l'exploration</li>
     <li>circumstance_phrase->avec un regard enthousiaste</li>
     <li>circumstance_phrase->avec un regard [AdjectiveAny]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally]s observent les préparatifs.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally]s aident aux préparatifs.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonAlly]s observent les préparatifs.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonAlly]s aident aux préparatifs.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] reculent devant la scène.</li>
     <li>desc_sentence->On aperçoit au loin [TerrainFeatureAny_indef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] observent à distance.</li>
@@ -217,7 +218,7 @@
     <li>circumstance_phrase->souriant fièrement</li>
     <li>circumstance_phrase->un air satisfait sur le visage</li>
     <li>circumstance_phrase->guettant prudemment le danger potentiel</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally]s l'assistent.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonAlly]s l'assistent.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent dans la zone.</li>
     <li>desc_sentence->Un abri de fortune est visible en arrière plan.</li>
     <li>desc_sentence->On aperçoit [Quantity_adjphrase] autres veines au loin.</li>
