@@ -40,8 +40,8 @@
     <li>buildReason->pour commémorer sa propre [PersonalCharacteristic_Feminine]</li>
     <li>buildReason->pour insulter [PersonalCharacteristicsAny_def] de son rival</li>
     <li>buildReason->pour réduire le sentiment de [ConceptAngsty] parmi le peuple</li>
-    <!-- BUG: no asker_gender to make this correct -->
-    <li>buildReason->pour exprimer combien [asker_pronoun] est [AdjectiveBadass](e)</li>
+    <li>buildReason(asker_gender==Male)->pour exprimer combien [asker_pronoun] est [AdjectiveBadass]</li>
+    <li>buildReason(asker_gender==Female)->pour exprimer combien [asker_pronoun] est [AdjectiveBadass_Feminine]</li>
     <li>buildReason->pour commémorer ses [asker_faction_pawnsPlural] tombés sur le champ de bataille</li>
     <li>buildReason->pour honorer son [PersonFamily]</li>
     <li>buildReason->pour honorer sa [PersonFamily_Feminine]</li>
