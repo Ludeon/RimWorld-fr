@@ -8,10 +8,24 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] vous contacte par radio et vous supplie de l'aider. [refugee_pronoun] est blessé(e) et incapable de bouger.\n\n[refugee_nameDef] est [refugee_titleIndef] âgé(e) de [refugee_age] ans. [refugee_pronoun] promet de vous rejoindre si vous lui portez secours.\n\n[refugee_nameDef] dit que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], dit que son ami(e) a été blessé(e) pendant un voyage. La victime est [refugee_nameIndef], [refugee_titleIndef] âgé(e) de [refugee_age] ans.\n\n[asker_nameDef] n'a personne de disponible pour sauver [refugee_nameDef], mais dit que si vous arrivez à la position de [refugee_nameDef] et à lui porter secours, [refugee_pronoun] rejoindra votre colonie.\n\n[asker_nameDef] dit aussi que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] vous contacte par radio et vous supplie de l'aider. [refugee_pronoun] est [refugee_wounded] et incapable de bouger.\n\n[refugee_nameDef] est [refugee_titleIndef] [refugee_has_age] de [refugee_age] ans. [refugee_pronoun] promet de vous rejoindre si vous lui portez secours.\n\n[refugee_nameDef] dit que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], dit que son [asker_friend] a été [refugee_wounded] pendant un voyage. La victime est [refugee_nameIndef], [refugee_titleIndef] [refugee_has_age] de [refugee_age] ans.\n\n[asker_nameDef] n'a personne de disponible pour sauver [refugee_nameDef], mais dit que si vous arrivez à la position de [refugee_nameDef] et à lui porter secours, [refugee_pronoun] rejoindra votre colonie.\n\n[asker_nameDef] dit aussi que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <!-- NOTE: What is refugee_pawnInvolvedInQuestInfo for? -->
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
+    <!-- BUG: refugee_gender not defined -->
+    <li>asker_friend(refugee_gender==Male)->ami</li>
+    <li>asker_friend(refugee_gender==Female)->amie</li>
+    <li>asker_friend->ami(e)</li>
+    <li>refugee_wounded(refugee_gender==Male)->blessé</li>
+    <li>refugee_wounded(refugee_gender==Female)->blessée</li>
+    <li>refugee_wounded->blessé(e)</li>
+    <li>refugee_has_age(refugee_gender==Male)->âgé</li>
+    <li>refugee_has_age(refugee_gender==Female)->âgée</li>
+    <li>refugee_has_age->âgé(e)</li>
+    <li>refugee_rescued(refugee_gender==Male)->sauvé</li>
+    <li>refugee_rescued(refugee_gender==Female)->sauvée</li>
+    <li>refugee_rescued->sauvé(e)</li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
@@ -27,6 +41,6 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quête expirée : [resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Le signal de [refugee_nameDef] a été perdu et [refugee_pronoun] ne pourra plus être sauvé(e). La quête [resolvedQuestName] a expirée.</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Le signal de [refugee_nameDef] a été perdu et [refugee_pronoun] ne pourra plus être [refugee_rescued]. La quête [resolvedQuestName] a expirée.</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>
