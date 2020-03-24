@@ -44,11 +44,13 @@
     <li>circumstance_phrase->brandissant ses [Weapon_AnyPlural]</li>
     <li>circumstance_phrase->étant couvert(e) de [Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, brandissant leurs [Weapon_AnyPlural].</li>
-    <li>desc_sentence->Un(e) énorme [Enemy] avance, brandissant [WeaponAny_indef].</li>
+    <li>desc_sentence->Un énorme [Enemy] avance, brandissant [WeaponAny_indef].</li>
+    <li>desc_sentence->Une énorme [Enemy_Feminine] avance, brandissant [WeaponAny_indef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, une lueur [AdjectiveBadass_Feminine] dans les yeux.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, une lueur [AdjectiveAngsty_Feminine] dans les yeux.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, leurs yeux [Color_Plural] luisants.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] avancent, couvert(e)s de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] avancent, couverts de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] avancent, couvertes de [Gore].</li>
     <li>desc_sentence->Le sol est jonché de [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] fuient la zone.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] fuient la zone.</li>
@@ -77,7 +79,8 @@
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->la caravane de [PAWN_nameDef] a vaincu un fort ennemi</li>
-    <li>image->[PAWN_nameFull] court vers un(e) [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] court vers un [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] court vers une [Enemy_Feminine], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] brandit [WeaponAny_indef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] manie [WeaponAny_indef], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] prend une posture dominante, [circumstance_group]</li>
@@ -135,7 +138,7 @@
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_Plural] ennemis</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Animal_FemPlural] ennemies</li>
     <li>circumstance_phrase->d'un [AdjectiveLarge] [Enemy]</li>
-    <!-- <li>circumstance_phrase->d'une [AdjectiveLarge_Feminine] [Enemy_Feminine]</li> -->
+    <li>circumstance_phrase->d'une [AdjectiveLarge_Feminine] [Enemy_Feminine]</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] brandissent des [Weapon_AnyPlural].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] sont auréolés de fumée [Color_Feminine].</li>
     <li>desc_sentence->les poursuivants de [PAWN_nameDef] affichent des visages [AdjectiveAngsty_Plural].</li>

@@ -45,6 +45,7 @@
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'[TerrainFeatureAny_indef], contemplant le ciel.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] errent paisiblement.</li>
     <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
+    <li>desc_sentence->Il n'y a aucune [Enemy_Feminine] en vue.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
@@ -88,6 +89,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont visibles au loin.</li>
     <li>desc_sentence->[PAWN_nameDef] est pratiquement encerclé(e) par les [Enemy_AnyPlural].</li>
     <li>desc_sentence->[PAWN_nameDef] est confronté(e) par un [Enemy].</li>
+    <li>desc_sentence->[PAWN_nameDef] est confronté(e) par une [Enemy_Feminine].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_Plural] fuient la scène de bataille, effrayés.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_FemPlural] fuient la scène de bataille, effrayées.</li>
     <li>desc_sentence->Au loin, [PersonJobAny_indef] observe la scène.</li>
@@ -275,6 +277,7 @@
     <li>desc_sentence->[PAWN_nameDef] est assis(e) près d'[TerrainFeatureAny_indef], contemplant le ciel.</li>
     <li>desc_sentence->[CommunityAny_indef] de spectateurs observe paisiblement le ciel.</li>
     <li>desc_sentence->Il n'y a aucun [Enemy] en vue.</li>
+    <li>desc_sentence->Il n'y a aucune [Enemy_Feminine] en vue.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
@@ -370,10 +373,13 @@
     <li>image->[behavior] mur de flammes [circumstance_phrase]</li>
     <li>image->[behavior] mur de flammes [Color_FemPlural] [circumstance_phrase]</li>
     <li>image->[behavior] nuage de cendres et de fumée [circumstance_phrase]</li>
-    <li>image->[behavior] vague de flammes [circumstance_phrase]</li>
-    <li>behavior->un(e)</li>
-    <li>behavior->un(e) menaçant(e)</li>
-    <li>behavior->un(e) proche</li>
+    <li>image->[behavior_fem] vague de flammes [circumstance_phrase]</li>
+    <li>behavior->un</li>
+    <li>behavior->un menaçant</li>
+    <li>behavior->un proche</li>
+    <li>behavior_fem->une</li>
+    <li>behavior_fem->une menaçante</li>
+    <li>behavior_fem->une proche</li>
     <li>circumstance_phrase->s'avançant vers [CommunityAny_indef]</li>
     <li>circumstance_phrase->sous un nuage effrayant</li>
     <li>circumstance_phrase->recouvrant presque [TerrainFeatureAny_indef]</li>
@@ -542,13 +548,18 @@
     <li>airborne_circumstance->s'écrasant dans un énorme nuage de cendres</li>
     <li>airborne_circumstance->sèmant des pierres et des débris pendant son vol</li>
     <li>image->un [AdjectiveLarge] monolithe, [ground_circumstance]</li>
-    <li>image->une [AdjectiveLarge_Feminine] pierre brulée [Color_Feminine], [ground_circumstance]</li>
+    <li>image->une [AdjectiveLarge_Feminine] pierre brulée [Color_Feminine], [ground_circumstance_fem]</li>
     <li>image->un pilier rocheux [Color], [ground_circumstance]</li>
-    <li>ground_circumstance->entouré(e) de fumée et de cendres</li>
-    <li>ground_circumstance->fumant(e) de chaleur</li>
-    <li>ground_circumstance->entouré(e) de débris fondus</li>
-    <li>ground_circumstance->partiellement enfoncé(e) dans le sol</li>
+    <li>ground_circumstance->entouré de fumée et de cendres</li>
+    <li>ground_circumstance->fumant de chaleur</li>
+    <li>ground_circumstance->entouré de débris fondus</li>
+    <li>ground_circumstance->partiellement enfoncé dans le sol</li>
     <li>ground_circumstance->gisant dans un cratère</li>
+    <li>ground_circumstance_fem->entourée de fumée et de cendres</li>
+    <li>ground_circumstance_fem->fumante de chaleur</li>
+    <li>ground_circumstance_fem->entourée de débris fondus</li>
+    <li>ground_circumstance_fem->partiellement enfoncée dans le sol</li>
+    <li>ground_circumstance_fem->gisant dans un cratère</li>
     <li>desc_sentence->[PAWN_nameDef] regarde avec surprise.</li>
     <li>desc_sentence->[PAWN_nameDef] regarde avec excitation.</li>
     <li>desc_sentence->[PAWN_nameDef] regarde, choqué(e).</li>
@@ -596,18 +607,27 @@
     <li>tale_noun->Un assaut sur [CommunityAny_def] de [PAWN_nameDef]</li>
     <li>tale_noun->le  [Community] de [PAWN_nameDef] attaqué par des [Enemy_AnyPlural]</li>
     <li>tale_noun->la  [Community_Feminine] de [PAWN_nameDef] attaquée par des [Enemy_AnyPlural]</li>
-    <li>image->[Quantity_adjphrase] [Enemy_Plural] [circumstance_phrase]</li>
-    <li>image->une armée [circumstance_phrase]</li>
-    <li>image->une force écrasante [circumstance_phrase]</li>
-    <li>image->une puissante invasion [circumstance_phrase]</li>
-    <li>image->une bannière [Color_Feminine] [circumstance_phrase]</li>
-    <li>image->un énorme [Enemy] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Enemy_Plural] [circumstance_phrase_plural]</li>
+    <li>image->une armée [circumstance_phrase_fem]</li>
+    <li>image->une force écrasante [circumstance_phrase_fem]</li>
+    <li>image->une puissante invasion [circumstance_phrase_fem]</li>
+    <li>image->une bannière [Color_Feminine] [circumstance_phrase_fem]</li>
+    <li>image->un énorme [Enemy] [circumstance_phrase_masc]</li>
+    <li>image->une énorme [Enemy_Feminine] [circumstance_phrase_fem]</li>
+    <li>circumstance_phrase_masc->circumstance_phrase</li>
+    <li>circumstance_phrase_masc->brandissant ses [Weapon_AnyPlural]</li>
+    <li>circumstance_phrase_masc->couvert de [Gore]</li>
+    <li>circumstance_phrase_fem->circumstance_phrase</li>
+    <li>circumstance_phrase_fem->brandissant ses [Weapon_AnyPlural]</li>
+    <li>circumstance_phrase_fem->couverte de [Gore]</li>
+    <li>circumstance_phrase_plural->circumstance_phrase</li>
+    <li>circumstance_phrase_plural->brandissant leurs [Weapon_AnyPlural]</li>
+    <li>circumstance_phrase_plural->couverts de [Gore]</li>
+    <li>circumstance_phrase_plural->rugissant leur victoire</li>
     <li>circumstance_phrase->s'avançant sur [TerrainFeatureAny_indef]</li>
     <li>circumstance_phrase->encerclant completement [CommunityAny_def]</li>
     <li>circumstance_phrase->attaquant [Quantity_adjphrase] [PersonJob_AnyPlural]</li>
     <li>circumstance_phrase->rugissant sa victoire</li>
-    <li>circumstance_phrase->brandissant leurs [Weapon_AnyPlural]</li>
-    <li>circumstance_phrase->couvert(e) de [Gore]</li>
     <li>desc_sentence->[PAWN_nameDef] organise la résistance en [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] se défend avec [WeaponAny_indef], [defender_circumstance].</li>
     <li>desc_sentence->[PAWN_nameDef] gît sur le sol, bléssé(e).</li>
@@ -663,13 +683,13 @@
     <li>tale_noun->un morceau d'un vaisseau ancien se crashant près de [CommunityAny_def] de [PAWN_nameDef]</li>
     <li>tale_noun->un morceau d'un vaisseau ancien atterrissant près de [CommunityAny_def] de [PAWN_nameDef]</li>
     <li>tale_noun->des parties d'un vaisseau endommagé atterrissant près de [CommunityAny_def] de [PAWN_nameDef]</li>
-    <li>image->une essaim de [Mechanoid]s [circumstance_phrase_plural]</li>
-    <li>image->une armée de [Mechanoid]s [circumstance_phrase_plural]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase_plural]</li>
+    <li>image->une essaim de [Mechanoid_Plural] [circumstance_phrase_plural]</li>
+    <li>image->une armée de [Mechanoid_Plural] [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid_Plural] [circumstance_phrase_plural]</li>
     <li>image->un [AdjectiveLarge] [Mechanoid] [circumstance_phrase_singular]</li>
-    <li>image->des [AdjectiveLarge]s [Mechanoid]s [circumstance_phrase_plural]</li>
-    <li>image->[Quantity_adjphrase] silhouettes de [Mechanoid]s [circumstance_phrase_plural]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]s luisants de [Color] [circumstance_phrase_plural]</li>
+    <li>image->des [AdjectiveLarge]s [Mechanoid_Plural] [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] silhouettes de [Mechanoid_Plural] [circumstance_phrase_plural]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid_Plural] luisants de [Color] [circumstance_phrase_plural]</li>
     <li>circumstance_phrase_singular->[circumstance_phrase_s_or_p]</li>
     <li>circumstance_phrase_singular->[circumstance_phrase_s]</li>
     <li>circumstance_phrase_plural->[circumstance_phrase_s_or_p]</li>

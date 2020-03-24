@@ -90,6 +90,8 @@
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/Enemies</li>
     <li>Enemy_Plural->Words/Nouns/Enemies_Plural</li>
+    <li>Enemy_Feminine->Words/Nouns/Enemies_Feminine</li>
+    <li>Enemy_FemPlural->Words/Nouns/Enemies_FemPlural</li>
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Apparel_Plural->Words/Nouns/Apparel_Plural</li>
     <li>Apparel_Feminine->Words/Nouns/Apparel_Feminine</li>
@@ -192,11 +194,12 @@
     <li>Character_Plural(p=4)->[Animal_Plural]</li>
     <li>Character_Plural(p=3)->[Enemy_Plural]</li>
     <li>Character_Plural->[Mechanoid_Plural]</li>
-    <!-- <li>Character_Feminine(p=6)->[PersonJob_Feminine]</li> -->
+    <li>Character_Feminine(p=6)->[PersonJob_Feminine]</li>
     <li>Character_Feminine(p=4)->[Animal_Feminine]</li>
-    <!-- <li>Character_Feminine(p=3)->[Enemy_Feminine]</li> -->
+    <li>Character_Feminine(p=3)->[Enemy_Feminine]</li>
     <li>Character_FemPlural(p=6)->[PersonJob_FemPlural]</li>
     <li>Character_FemPlural(p=4)->[Animal_FemPlural]</li>
+    <li>Character_FemPlural(p=3)->[Enemy_FemPlural]</li>
     <li>Character_AnyPlural->[Character_Plural]</li>
     <li>Character_AnyPlural->[Character_FemPlural]</li>
     <li>Quantity_adjphrase->deux</li>
@@ -237,30 +240,29 @@
     <li>AdjectiveAny_Feminine->[AdjectiveNatural_Feminine]</li>
     <li>AnimalAny_indef->un [Animal]</li>
     <li>AnimalAny_indef->une [Animal_Feminine]</li>
+    <li>Animal_AnyPlural->[Animal_Plural]</li>
+    <li>Animal_AnyPlural->[Animal_FemPlural]</li>
     <li>AnimalGroupAny_indef->un [AnimalGroup]</li>
     <li>AnimalGroupAny_indef->une [AnimalGroup_Feminine]</li>
     <li>ApparelAny_indef->un [Apparel]</li>
     <li>ApparelAny_indef->une [Apparel_Feminine]</li>
+    <li>Apparel_AnyPlural->[Apparel_Plural]</li>
+    <li>Apparel_AnyPlural->[Apparel_FemPlural]</li>
+    <li>CommunityAny->[Community]</li>
+    <li>CommunityAny->[Community_Feminine]</li>
     <li>CommunityAny_indef->un [Community]</li>
     <li>CommunityAny_indef->une [Community_Feminine]</li>
     <li>CommunityAny_def->le [Community]</li>
     <li>CommunityAny_def->la [Community_Feminine]</li>
-    <li>TerrainFeatureAny_indef->un [TerrainFeature]</li>
-    <li>TerrainFeatureAny_indef->une [TerrainFeature_Feminine]</li>
-    <li>NaturalObjectAny_indef->un [NaturalObject]</li>
-    <li>NaturalObjectAny_indef->une [NaturalObject_Feminine]</li>
-    <li>VegetableAny_indef->un [Vegetable]</li>
-    <li>VegetableAny_indef->une [Vegetable_Feminine]</li>
-    <li>WeaponAny_indef->un [Weapon]</li>
-    <li>WeaponAny_indef->une [Weapon_Feminine]</li>
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
-    <li>Apparel_AnyPlural->[Apparel_Plural]</li>
-    <li>Apparel_AnyPlural->[Apparel_FemPlural]</li>
-    <li>Animal_AnyPlural->[Animal_Plural]</li>
-    <li>Animal_AnyPlural->[Animal_FemPlural]</li>
+    <li>EnemyAny->[Enemy]</li>
+    <li>EnemyAny->[Enemy_Feminine]</li>
     <li>Enemy_AnyPlural->[Enemy_Plural]</li>
+    <li>Enemy_AnyPlural->[Enemy_FemPlural]</li>
+    <li>NaturalObjectAny_indef->un [NaturalObject]</li>
+    <li>NaturalObjectAny_indef->une [NaturalObject_Feminine]</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_FemPlural]</li>
     <!-- NOTE : le/la/les PersonalCharacteristic(s) -->
@@ -278,20 +280,6 @@
     <!-- NOTE : PersonalCharacteristic(s) -->
     <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_Plural]</li>
     <li>PersonalCharacteristic_AnyPlural->[PersonalCharacteristic_FemPlural]</li>
-    <li>TerrainFeature_AnyPlural->[TerrainFeature_Plural]</li>
-    <li>TerrainFeature_AnyPlural->[TerrainFeature_FemPlural]</li>
-    <li>TreeTypeAny_indef->un [TreeType]</li>
-    <li>TreeTypeAny_indef->une [TreeType_Feminine]</li>
-    <li>TreeType_AnyPlural->[TreeType_Plural]</li>
-    <li>TreeType_AnyPlural->[TreeType_FemPlural]</li>
-    <li>PersonJobAny_indef->un [PersonJob]</li>
-    <li>PersonJobAny_indef->une [PersonJob_Feminine]</li>
-    <li>PersonJob_AnyPlural->[PersonJob_Plural]</li>
-    <li>PersonJob_AnyPlural->[PersonJob_FemPlural]</li>
-    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
-    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
-    <li>Weapon_AnyPlural->[Weapon_Plural]</li>
-    <li>Weapon_AnyPlural->[Weapon_FemPlural]</li>
     <li>PersonalCharacteristic_Plural(p=0.15)->organes génitaux</li>
     <li>PersonalCharacteristic_Feminine(p=0.15)->toison pubienne</li>
     <li>PersonalCharacteristic_Feminine(p=0.15)->pilosité corporelle</li>
@@ -299,6 +287,28 @@
     <li>PersonalCharacteristic_Feminine(p=0.15)->experience sexuelle</li>
     <li>PersonalCharacteristic_FemPlural(p=0.15)->habitudes aux toilettes</li>
     <li>PersonalCharacteristic_FemPlural(p=0.15)->preferences sexuelles</li>
+    <li>PersonJobAny_indef->un [PersonJob]</li>
+    <li>PersonJobAny_indef->une [PersonJob_Feminine]</li>
+    <li>PersonJob_AnyPlural->[PersonJob_Plural]</li>
+    <li>PersonJob_AnyPlural->[PersonJob_FemPlural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_Plural]</li>
+    <li>TerrainFeature_AnyPlural->[TerrainFeature_FemPlural]</li>
+    <li>TerrainFeatureAny->[TerrainFeature]</li>
+    <li>TerrainFeatureAny->[TerrainFeature_Feminine]</li>
+    <li>TerrainFeatureAny_indef->un [TerrainFeature]</li>
+    <li>TerrainFeatureAny_indef->une [TerrainFeature_Feminine]</li>
+    <li>TreeTypeAny_indef->un [TreeType]</li>
+    <li>TreeTypeAny_indef->une [TreeType_Feminine]</li>
+    <li>TreeType_AnyPlural->[TreeType_Plural]</li>
+    <li>TreeType_AnyPlural->[TreeType_FemPlural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
+    <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
+    <li>VegetableAny_indef->un [Vegetable]</li>
+    <li>VegetableAny_indef->une [Vegetable_Feminine]</li>
+    <li>Weapon_AnyPlural->[Weapon_Plural]</li>
+    <li>Weapon_AnyPlural->[Weapon_FemPlural]</li>
+    <li>WeaponAny_indef->un [Weapon]</li>
+    <li>WeaponAny_indef->une [Weapon_Feminine]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:

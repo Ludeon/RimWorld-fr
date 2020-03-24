@@ -332,13 +332,15 @@
     <li>townname_combo->[geography] de la [ConceptBadass]</li>
     <li>townname_combo->[geography] [PersonBadass]</li>
     <li>townname_combo->[geography] de [PersonBadass]</li>
-    <li>townname_combo->[geography] de [Enemy]</li>
-    <li>townname_combo->[geography] [Enemy]</li>
+    <li>townname_combo->[geography] de [EnemyAny]</li>
+    <li>townname_combo->[geography] [EnemyAny]</li>
     <li>townname_combo->[geography] de [Weapon]</li>
     <li>townname_combo->[geography] des [Weapon_AnyPlural]</li>
-    <li>townname_combo->[geography] [ColorBadass]</li>
-    <li>geography(p=2)->[TerrainFeature]</li>
-    <li>geography->[Community]</li>
+    <li>townname_combo->[geography_masc] [ColorBadass]</li>
+    <li>geography(p=2)->[TerrainFeatureAny]</li>
+    <li>geography->[CommunityAny]</li>
+    <li>geography_masc(p=2)->[TerrainFeature]</li>
+    <li>geography_masc->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
@@ -378,7 +380,7 @@
     <li>r_name->[WordTribal] [Color]</li>
     <li>r_name->[TerrainFeature] [Color]</li>
     <li>r_name->[TerrainFeature_Feminine] [Color_Feminine]</li>
-    <li>r_name->[TerrainFeature] [WordTribal]</li>
+    <li>r_name->[TerrainFeatureAny] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>
