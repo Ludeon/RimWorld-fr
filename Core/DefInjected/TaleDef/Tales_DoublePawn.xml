@@ -29,10 +29,12 @@
     <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
   -->
   <Captured.rulePack.rulesStrings>
+    <li>tale_noun->[CAPTURER_nameDef] capturant [PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef] se faisant capturer par [CAPTURER_nameDef]</li>
     <li>tale_noun->la capture de [PRISONER_nameDef]</li>
-    <li>image->[CAPTURER_nameFull] capturant [PRISONER_nameFull] [circumstance_group]. [desc_sentence_group]</li>
-    <li>image->[CAPTURER_nameFull] menottant [PRISONER_nameFull] [circumstance_group]. [desc_sentence_group]</li>
-    <li>image->[CAPTURER_nameFull] frappant [PRISONER_nameFull] pendant sa capture, [circumstance_group]. [desc_sentence_group]</li>
+    <li>image->[CAPTURER_nameFull] capturant [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] menottant [PRISONER_nameFull] [circumstance_group]</li>
+    <li>image->[CAPTURER_nameFull] frappant [PRISONER_nameFull] pendant sa capture, [circumstance_group]</li>
     <li>circumstance_phrase->alors qu'[PRISONER_pronoun] se tortille par terre</li>
     <li>circumstance_phrase->alors qu'[PRISONER_pronoun] se tord de douleur</li>
     <li>circumstance_phrase->avec une qualité professionnelle</li>
@@ -74,8 +76,10 @@
     <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li>
   -->
   <DidSurgery.rulePack.rulesStrings>
-    <li>tale_noun->les interventions chirurgicales de [PATIENT_nameDef]</li>
-    <li>image->[SURGEON_nameFull] anesthésiant [PATIENT_nameFull]</li>
+    <li>tale_noun->[SURGEON_nameDef] opérant [PATIENT_nameDef]</li>
+    <li>tale_noun->[SURGEON_nameDef] effectuant une chirurgie sur [PATIENT_nameDef]</li>
+    <li>tale_noun->l'intervention chirurgicale de [PATIENT_nameDef]</li>
+    <li>image->[SURGEON_nameFull] anesthésiant [PATIENT_nameFull] [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] ayant les bras jusqu'aux coudes à l'intérieur de [PATIENT_nameFull], pendant l'opération [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] charcutant [PATIENT_nameFull] pendant l'opération [circumstance_group]</li>
     <li>circumstance_phrase->tandis qu'[PATIENT_pronoun] tremble de peur</li>
@@ -120,6 +124,8 @@
     <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
   -->
   <ExecutedPrisoner.rulePack.rulesStrings>
+    <li>tale_noun->[EXECUTIONER_nameDef] exécutant [PRISONER_nameDef]</li>
+    <li>tale_noun->[PRISONER_nameDef] se faisant exécuter par [EXECUTIONER_nameDef]</li>
     <li>tale_noun->l'exécution de [PRISONER_nameDef]</li>
     <li>image->[EXECUTIONER_nameFull] exécutant [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] mettant [PRISONER_nameFull] à mort [circumstance_group]</li>
@@ -164,10 +170,12 @@
     <li>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
   -->
   <Hunted.rulePack.rulesStrings>
+    <li>tale_noun->[HUNTER_nameDef] traquant [PREY_nameDef]</li>
+    <li>tale_noun->[HUNTER_nameDef] chassant [PREY_nameDef]</li>
     <li>tale_noun->la chasse réussie de [HUNTER_nameDef]</li>
     <li>image->[PREY_nameFull] chassé(e) par [HUNTER_nameFull] [circumstance_group]</li>
-    <li>image->[HUNTER_nameFull] traquant le [PREY_nameFull] de loin [circumstance_group]</li>
-    <li>image->[HUNTER_nameFull] chassant le [PREY_nameFull] [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] traquant [PREY_nameFull] de loin [circumstance_group]</li>
+    <li>image->[HUNTER_nameFull] chassant [PREY_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] se relaxe</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] se déplace</li>
     <li>circumstance_phrase->tandis que [PREY_nameDef] mange</li>
@@ -200,6 +208,7 @@
     <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
   -->
   <KidnappedColonist.rulePack.rulesStrings>
+    <li>tale_noun->[KIDNAPPER_nameDef] kidnappant [VICTIM_nameDef]</li>
     <li>tale_noun->le kidnapping de [VICTIM_nameDef]</li>
     <li>image->[KIDNAPPER_nameFull] portant [VICTIM_nameFull] en dehors de [KIDNAPPER_factionName] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] de [KIDNAPPER_factionName] kidnappant [VICTIM_nameFull] [circumstance_group]</li>
@@ -250,12 +259,13 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->[VICTIM_nameDef], assassiné(e) par [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] assassiné(e) par [KILLER_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] assassinant [VICTIM_nameDef]</li>
     <li>tale_noun->le meurtre de [VICTIM_nameDef] par [KILLER_nameDef]</li>
     <li>tale_noun->le meurtre de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] tué(e) par [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] tuant [VICTIM_nameFull] [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] mettant fin à la vie de  [VICTIM_nameFull][circumstance_group]</li>
+    <li>image->[KILLER_nameFull] mettant fin à la vie de [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] assassinant brutalement [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[VICTIM_nameFull] se faisant tuer [circumstance_group]</li>
     <li>circumstance_phrase->apparemment sans remord</li>
@@ -303,6 +313,8 @@
     <li>desc_sentence->[JOINER_nameDef] looks hopeful.</li>
   -->
   <Recruited.rulePack.rulesStrings>
+    <li>tale_noun->[RECRUITER_nameDef] recrutant [JOINER_nameDef]</li>
+    <li>tale_noun->[JOINER_nameDef] se faisant recruter par [RECRUITER_nameDef]</li>
     <li>tale_noun->le recrutement de [JOINER_nameDef]</li>
     <li>image->[RECRUITER_nameFull] recrutant [JOINER_nameFull] [circumstance_group]</li>
     <li>image->[RECRUITER_nameFull] souhaitant la bienvenue au [JOINER_nameFull] [circumstance_group] alors qu'[JOINER_pronoun] rejoint la colonie</li>
@@ -344,6 +356,8 @@
   -->
   <SoldPrisoner.rulePack.rulesStrings>
     <li>tale_noun->la vente de [PRISONER_nameDef] à un marchand</li>
+    <li>tale_noun->[SELLER_nameDef] vendant [PRISONER_nameDef] comme esclave</li>
+    <li>tale_noun->[PRISONER_nameDef] se faisant vendre comme esclave</li>
     <li>image->[TRADER_nameFull] achetant [PRISONER_nameFull] à [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendant [PRISONER_nameFull] à [TRADER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->tandis que les autres colons regardent en désapprouvant</li>
@@ -383,6 +397,7 @@
     <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
   -->
   <TamedAnimal.rulePack.rulesStrings>
+    <li>tale_noun->la domestication de [ANIMAL_nameDef] par [TAMER_nameDef]</li>
     <li>tale_noun->[TAMER_nameDef] apprivoisant [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] apprivoisant [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offrant un morceau de nourriture à [ANIMAL_nameFull] [circumstance_group]</li>
@@ -469,7 +484,9 @@
     <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
+    <li>tale_noun->[TRAINER_nameDef] entraînant [ANIMAL_nameDef]</li>
     <li>tale_noun->l'entraînement de [ANIMAL_nameDef]</li>
+    <li>tale_noun->l'entraînement de [ANIMAL_nameDef] par [TRAINER_nameDef]</li>
     <li>image->[TRAINER_nameFull] sur l'[train_syn] de [ANIMAL_nameFull] en [TRAINABLE_label] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] apprenant [TRAINABLE_label] à [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] exerçant [TRAINABLE_label] avec [ANIMAL_nameFull] [circumstance_group]</li>
