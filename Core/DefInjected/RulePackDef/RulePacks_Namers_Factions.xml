@@ -101,8 +101,10 @@
   <NamerFactionPirate.rulePack.rulesStrings>
     <li>r_name->Les [AnimalBadass_AnyPlural]</li>
     <li>r_name->Les Hommes [AnimalBadass_AnyPlural]</li>
-    <li>r_name->Les [AnimalBadass_AnyPlural] de la [ConceptBadass]</li>
-    <li>r_name->Les [PersonBadass_AnyPlural] de la [ConceptBadass]</li>
+    <li>r_name->Les [AnimalBadass_AnyPlural] du [ConceptBadass]</li>
+    <li>r_name->Les [AnimalBadass_AnyPlural] de la [ConceptBadass_Feminine]</li>
+    <li>r_name->Les [PersonBadass_AnyPlural] du [ConceptBadass]</li>
+    <li>r_name->Les [PersonBadass_AnyPlural] de la [ConceptBadass_Feminine]</li>
     <li>r_name->Les [PersonBadass_AnyPlural]</li>
     <li>r_name->Les [Enemy_AnyPlural]</li>
     <li>r_name->Les Hommes-[Weapon_AnyPlural]</li>
@@ -129,12 +131,14 @@
     <li>r_name->Les [PersonBadass_Plural] [AdjectiveBadass_Plural]</li>
     <li>r_name->Les [PersonBadass_FemPlural] [AdjectiveBadass_FemPlural]</li>
     <li>r_name->Les [PersonAlly]s de [ConceptBadass]</li>
+    <li>r_name->Les [PersonAlly]s de [ConceptBadass_Feminine]</li>
     <li>r_name(p=0.4)->Les Mangeurs de [Gore]</li>
     <li>r_name->[Enemy_AnyPlural] de [NamePerson]</li>
     <li>r_name->[AnimalBadass_AnyPlural] de [NamePerson]</li>
     <li>r_name->[Weapon_AnyPlural] de [NamePerson]</li>
     <li>r_name->[groupname] [Weapon]</li>
     <li>r_name->[groupname] [ConceptBadass]</li>
+    <li>r_name->[groupname] [ConceptBadass_Feminine]</li>
     <li>r_name->[Letter][Letter][Digit][Digit]</li>
     <!--    <li>r_name->[AnimalBadass_AnyPlural] de la [TerrainFeature]</li>-->
   </NamerFactionPirate.rulePack.rulesStrings>
@@ -240,9 +244,12 @@
     <li>townname_combo->[topicalnoun] [Community]</li>
     <li>townname_combo->[TerrainFeature] des [topicalnoun]s</li>
     <li>townname_combo->[Community] des [topicalnoun]s</li>
-    <li>townname_combo(p=2)->[TerrainFeature] de la [concept_positive]</li>
-    <li>townname_combo(p=2)->[TerrainFeature] [concept_positive]</li>
-    <li>townname_combo(p=2)->[Community] [concept_positive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] du [ConceptPositive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] de la [ConceptPositive_Feminine]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] [ConceptPositive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] [ConceptPositive_Feminine]</li>
+    <li>townname_combo(p=2)->[Community] [ConceptPositive]</li>
+    <li>townname_combo(p=2)->[Community] [ConceptPositive_Feminine]</li>
     <li>townname_combo(p=3)->[TerrainFeature] de [Character]</li>
     <li>townname_combo(p=3)->[Community] de [Character]</li>
     <li>townname_combo(p=3)->[TerrainFeature] de [Character_Feminine]</li>
@@ -336,8 +343,8 @@
     <li>townname_combo->[geography] des [AnimalBadass_AnyPlural]</li>
     <li>townname_combo->[geography] du [AnimalBadass]</li>
     <li>townname_combo->[geography] de la [AnimalBadass_Feminine]</li>
-    <li>townname_combo->[geography] des [ConceptBadass]s</li>
-    <li>townname_combo->[geography] de la [ConceptBadass]</li>
+    <li>townname_combo->[geography] du [ConceptBadass]</li>
+    <li>townname_combo->[geography] de la [ConceptBadass_Feminine]</li>
     <li>townname_combo->[geography_masc] [PersonBadass]</li>
     <li>townname_combo->[geography_fem] [PersonBadass_Feminine]</li>
     <li>townname_combo->[geography] de [PersonBadassAny]</li>

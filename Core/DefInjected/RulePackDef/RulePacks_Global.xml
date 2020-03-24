@@ -109,8 +109,11 @@
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>Mechanoid_Plural->Words/Nouns/Mechanoid_Plural</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
+    <li>ConceptPositive_Feminine->Words/Nouns/Concepts_Positive_Feminine</li>
     <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+    <li>ConceptBadass_Feminine->Words/Nouns/Concepts_Badass_Feminine</li>
     <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+    <li>ConceptAngsty_Feminine->Words/Nouns/Concepts_Angsty_Feminine</li>
     <li>Community->Words/Nouns/Communities</li>
     <li>Community_Feminine->Words/Nouns/Communities_Feminine</li>
     <li>Bodypart->Words/Nouns/Bodyparts</li>
@@ -267,9 +270,14 @@
     <li>CommunityAny_indef->une [Community_Feminine]</li>
     <li>CommunityAny_def->le [Community]</li>
     <li>CommunityAny_def->la [Community_Feminine]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ConceptAny->[ConceptAny_Masculine]</li>
+    <li>ConceptAny->[ConceptAny_Feminine]</li>
+    <li>ConceptAny_Masculine->[ConceptPositive]</li>
+    <li>ConceptAny_Masculine->[ConceptBadass]</li>
+    <li>ConceptAny_Masculine->[ConceptAngsty]</li>
+    <li>ConceptAny_Feminine->[ConceptPositive_Feminine]</li>
+    <li>ConceptAny_Feminine->[ConceptBadass_Feminine]</li>
+    <li>ConceptAny_Feminine->[ConceptAngsty_Feminine]</li>
     <li>EnemyAny->[Enemy]</li>
     <li>EnemyAny->[Enemy_Feminine]</li>
     <li>Enemy_AnyPlural->[Enemy_Plural]</li>

@@ -47,7 +47,8 @@
   <NamerArtCommon.rulePack.rulesStrings>
     <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
     <li>r_art_name(p=4)->[maybe_a] [Artwork] [maybe_adjective]</li>
-    <li>r_art_name->[maybe_a] [ConceptAny] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_am] [ConceptAny_Masculine] [maybe_adjective]</li>
+    <li>r_art_name->[maybe_af] [ConceptAny_Feminine] [maybe_adjective_fem]</li>
     <li>r_art_name->[maybe_am] [TerrainFeature] [maybe_adjective]</li>
     <li>r_art_name->[maybe_af] [TerrainFeature_Feminine] [maybe_adjective_fem]</li>
     <li>r_art_name->[maybe_am] [Vegetable] [maybe_adjective]</li>
@@ -118,6 +119,7 @@
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
     <li>r_art_name->[ConceptBadass]</li>
+    <li>r_art_name->[ConceptBadass_Feminine]</li>
     <li>r_art_name->Le [AnimalBadass]</li>
     <li>r_art_name->La [AnimalBadass_Feminine]</li>
     <li>r_art_name->[AnimalBadass] [AdjectiveBadass]</li>
@@ -125,13 +127,16 @@
     <li>r_art_name->[AnimalBadass] [ColorBadass]</li>
     <li>r_art_name->[AnimalBadass_Feminine] [ColorBadass_Feminine]</li>
     <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
+    <li>r_art_name->[ConceptBadass_Feminine] [ColorBadass_Feminine]</li>
     <li>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceptBadass_Feminine] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[AnimalBadass] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[AnimalBadass_Feminine] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonBadassAny] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonAlly] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonFamily] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ConceptBadass] à [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceptBadass_Feminine] à [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [ColorBadass]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
