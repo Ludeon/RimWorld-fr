@@ -29,19 +29,20 @@
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
     <li>tale_noun->une défense réussie de la caravane de [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] repousse une embuscade</li>
-    <li>image->[PAWN_nameFull] organise la résistance tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se défend avec son [Weapon] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se défend avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] contre-attaque avec son [Weapon] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] contre-attaque avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] prend une posture dominante tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] affiche une expression [AdjectiveBadass_Feminine] tout en [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] montre une expression [AdjectiveAngsty_Feminine] tout en [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] repoussant une embuscade</li>
+    <li>image->[PAWN_nameFull] organisant la résistance tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se défendant avec son [Weapon] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se défendant avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] contre-attaquant avec son [Weapon] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] contre-attaquant avec sa [Weapon_Feminine] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prenant une posture dominante tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] affichant une expression [AdjectiveBadass_Feminine] tout en [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] montrant une expression [AdjectiveAngsty_Feminine] tout en [circumstance_group]</li>
     <li>circumstance_phrase->se préparant à affronter la horde qui progresse</li>
     <li>circumstance_phrase->contournant les wagons de transport</li>
     <li>circumstance_phrase->poussant un cri de victoire</li>
     <li>circumstance_phrase->brandissant ses [Weapon_AnyPlural]</li>
+    <!-- BUG: no PAWN_gender defined -->
     <li>circumstance_phrase->étant couvert(e) de [Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] avancent, brandissant leurs [Weapon_AnyPlural].</li>
     <li>desc_sentence->Un énorme [Enemy] avance, brandissant [WeaponAny_indef].</li>
@@ -78,12 +79,12 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->la caravane de [PAWN_nameDef] a vaincu un fort ennemi</li>
-    <li>image->[PAWN_nameFull] court vers un [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] court vers une [Enemy_Feminine], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] brandit [WeaponAny_indef], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] manie [WeaponAny_indef], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] prend une posture dominante, [circumstance_group]</li>
+    <li>tale_noun->la caravane de [PAWN_nameDef] ayant vaincu un fort ennemi</li>
+    <li>image->[PAWN_nameFull] courant vers un [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] courant vers une [Enemy_Feminine], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandissant [WeaponAny_indef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] maniant [WeaponAny_indef], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] prenant une posture dominante, [circumstance_group]</li>
     <li>circumstance_phrase->une lueur [AdjectiveBadass_Feminine] dans les yeux</li>
     <li>circumstance_phrase->une lueur [AdjectiveAngsty_Feminine] dans les yeux</li>
     <li>circumstance_phrase->poussant un cri de victoire</li>
@@ -123,15 +124,15 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] court pour sa vie</li>
-    <li>tale_noun->[PAWN_nameDef] échappe au danger</li>
-    <li>tale_noun->[PAWN_nameDef] échappe de peu au danger</li>
+    <li>tale_noun->[PAWN_nameDef] courant pour sa vie</li>
+    <li>tale_noun->[PAWN_nameDef] échappant au danger</li>
+    <li>tale_noun->[PAWN_nameDef] échappant de peu au danger</li>
     <li>tale_noun->[PAWN_nameDef] poursuivi(e) par des ennemis</li>
-    <li>image->[PAWN_nameFull] court frénétiquement [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] court très vite [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] courant frénétiquement [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] courant très vite [circumstance_group]</li>
     <li>image->[PAWN_nameFull] replié(e) derrière [TerrainFeatureAny_indef], se cachant [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] tente de battre en retraite [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] s'éloigne tranquillement [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tentant de battre en retraite [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'éloignant tranquillement [circumstance_group]</li>
     <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy_AnyPlural] se lancent à sa poursuite</li>
     <li>circumstance_phrase->tandis que [Quantity_adjphrase] [Enemy_AnyPlural] son à sa recherche</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy_AnyPlural]</li>
@@ -169,12 +170,12 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
   -->
   <CaravanFormed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] part pour l'aventure</li>
-    <li>tale_noun->[PAWN_nameDef] forme une caravane</li>
-    <li>image->[PAWN_nameFull] avance avec détermination [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] regarde vers l'horizon [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] emballe le nécessaire pour le voyage [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] planifie le voyage [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] partant pour l'aventure</li>
+    <li>tale_noun->[PAWN_nameDef] formant une caravane</li>
+    <li>image->[PAWN_nameFull] avançant avec détermination [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] regardant vers l'horizon [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] emballant le nécessaire pour le voyage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] planifiant le voyage [circumstance_group]</li>
     <li>circumstance_phrase->et s'équippe pour le combat</li>
     <li>circumstance_phrase->et s'équipe pour la survie</li>
     <li>circumstance_phrase->et s'équipe pour l'exploration</li>
@@ -210,12 +211,12 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <CaravanRemoteMining.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] mine une riche veine de [MATERIAL_label] sur une terre inconnue</li>
-    <li>image->[PAWN_nameFull] travaille un mur en [MATERIAL_label] avec des outils de minage, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] soulève un débris de [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] s'appuie contre un mur en [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] coordonne une équipe d'excavation sur une riche veine de [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inspecte avec précaution une riche veine de [MATERIAL_label], [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] minant une riche veine de [MATERIAL_label] sur une terre inconnue</li>
+    <li>image->[PAWN_nameFull] travaillant un mur en [MATERIAL_label] avec des outils de minage, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] soulèvant un débris de [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s'appuyant contre un mur en [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordonnant une équipe d'excavation sur une riche veine de [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inspectant avec précaution une riche veine de [MATERIAL_label], [circumstance_group]</li>
     <li>circumstance_phrase->suant à grosses gouttes</li>
     <li>circumstance_phrase->d'un air [AdjectiveFriendly]</li>
     <li>circumstance_phrase->souriant fièrement</li>
