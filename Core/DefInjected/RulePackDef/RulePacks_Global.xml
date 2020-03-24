@@ -82,6 +82,8 @@
     <li>TreeType_FemPlural->Words/Nouns/TreeTypes_FemPlural</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
     <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
+    <li>PersonJob_Feminine->Words/Nouns/People_Jobs_Feminine</li>
+    <li>PersonJob_FemPlural->Words/Nouns/People_Jobs_FemPlural</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
     <li>PersonFamily_Feminine->Words/Nouns/People_Family_Feminine</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
@@ -193,6 +195,7 @@
     <!-- <li>Character_Feminine(p=6)->[PersonJob_Feminine]</li> -->
     <li>Character_Feminine(p=4)->[Animal_Feminine]</li>
     <!-- <li>Character_Feminine(p=3)->[Enemy_Feminine]</li> -->
+    <li>Character_FemPlural(p=6)->[PersonJob_FemPlural]</li>
     <li>Character_FemPlural(p=4)->[Animal_FemPlural]</li>
     <li>Character_AnyPlural->[Character_Plural]</li>
     <li>Character_AnyPlural->[Character_FemPlural]</li>
@@ -281,6 +284,10 @@
     <li>TreeTypeAny_indef->une [TreeType_Feminine]</li>
     <li>TreeType_AnyPlural->[TreeType_Plural]</li>
     <li>TreeType_AnyPlural->[TreeType_FemPlural]</li>
+    <li>PersonJobAny_indef->un [PersonJob]</li>
+    <li>PersonJobAny_indef->une [PersonJob_Feminine]</li>
+    <li>PersonJob_AnyPlural->[PersonJob_Plural]</li>
+    <li>PersonJob_AnyPlural->[PersonJob_FemPlural]</li>
     <li>Vegetable_AnyPlural->[Vegetable_Plural]</li>
     <li>Vegetable_AnyPlural->[Vegetable_FemPlural]</li>
     <li>Weapon_AnyPlural->[Weapon_Plural]</li>
@@ -360,9 +367,10 @@
     <li>TalkTopicLight->de [TerrainFeature_AnyPlural]</li>
     <li>TalkTopicLight->de [NaturalObject_AnyPlural]</li>
     <li>TalkTopicLight->des [TreeType_AnyPlural]</li>
-    <li>TalkTopicLight->des [PersonJob_Plural]</li>
+    <li>TalkTopicLight->des [PersonJob_AnyPlural]</li>
     <li>TalkTopicLight->des [PersonJob_Plural] amicaux</li>
-    <li>TalkTopicLight->des [PersonJob_Plural] hostiles</li>
+    <li>TalkTopicLight->des [PersonJob_FemPlural] amicales</li>
+    <li>TalkTopicLight->des [PersonJob_AnyPlural] hostiles</li>
     <li>TalkTopicLight->des [Enemy_AnyPlural]</li>
     <li>TalkTopicLight->de combattre des [Enemy_AnyPlural]</li>
     <li>TalkTopicLight->des [Apparel_AnyPlural]</li>

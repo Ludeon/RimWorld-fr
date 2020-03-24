@@ -72,7 +72,7 @@
     <li>circumstance_phrase->pour une sombre nécessité</li>
     <li>circumstance_phrase->de manière lâche, sans conviction</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent.</li>
-    <li>desc_sentence->Un(e) [PersonJob] observe en silence [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] observe en silence [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] semble [AdjectiveAngsty](e).</li>
     <li>desc_sentence->[VICTIM_nameDef] a les yeux fermés.</li>
     <li>desc_sentence->[KILLER_nameDef] serre les dents.</li>
@@ -115,7 +115,8 @@
     <li>desc_sentence->Le dernier projet de [PAWN_nameDef] est laissé de côté, terminé.</li>
     <li>desc_sentence->Une merveilleuse construction entoure [PAWN_nameDef].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] semblent reconnaissants de l'effort héroique de [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] se reposent non loin de là, dans un état similaire.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_FemPlural] semblent reconnaissantes de l'effort héroique de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] se reposent non loin de là, dans un état similaire.</li>
     <li>desc_sentence->La scène se déroule dans un [Community] fraîchement construit.</li>
     <li>desc_sentence->La scène se déroule dans une [Community_Feminine] fraîchement construite.</li>
   </Exhausted.rulePack.rulesStrings>
@@ -154,8 +155,8 @@
     <li>circumstance_phrase->[CHILD_nameFull], qui essaie déjà de regarder tout autour</li>
     <li>circumstance_phrase->[CHILD_nameFull], qui regarde autour avec une expression sereine</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] dorment paisiblement non loin de là.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] contemplent la scène.</li>
-    <li>desc_sentence->Un [PersonJob] observe à distance.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] contemplent la scène.</li>
+    <li>desc_sentence->[PersonJobAny_indef] observe à distance.</li>
     <li>desc_sentence->La scène se déroule dans un [Community] fraîchement construit.</li>
     <li>desc_sentence->La scène se déroule dans une [Community_Feminine] fraîchement construite.</li>
   </GaveBirth.rulePack.rulesStrings>
@@ -291,6 +292,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_Plural] [Color_Plural] et tordus entourent la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature_FemPlural] [Color_FemPlural] et tordues entourent la scène.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] sont frappés par la même maladie.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_FemPlural] sont frappées par la même maladie.</li>
     <li>desc_sentence->La scène se déroule dans une forêt de [TreeType_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens mourants de [Animal_AnyPlural] jonchent l'endroit.</li>
   </IllnessRevealed.rulePack.rulesStrings>
@@ -351,7 +353,7 @@
     <li>circumstance_phrase->avec des mouvements rapides et efficaces</li>
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>desc_sentence->[Quantity_adjphrase] spécimens de [Animal_AnyPlural] contemplant la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regardant silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regardant silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
     <li>desc_sentence->[KILLER_nameDef] semble satisfait(e).</li>
@@ -422,7 +424,7 @@
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert(e) de [Gore].</li>
@@ -496,7 +498,7 @@
     <li>circumstance_phrase->avec un grand héroisme</li>
     <li>circumstance_phrase->avec une force incroyable</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] observent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert(e) de [Gore].</li>
@@ -582,7 +584,7 @@
     <li>circumstance_phrase->sans émotion ni expression</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>
     <li>desc_sentence->Les yeux de [VICTIM_nameDef] sont fermés.</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert de [Gore].</li>
@@ -636,7 +638,7 @@
     <li>circumstance_phrase->tandis que [VICTIM_nameFull] marche, inconscient(e) du danger</li>
     <li>circumstance_phrase->tandis que [VICTIM_nameFull] court</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regarde silencieusement [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert(e) de [Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] est entouré(e) par les explosions.</li>
@@ -779,7 +781,7 @@
     <li>circumstance_phrase->dans un but dévoyé</li>
     <li>circumstance_phrase->d'une manière lâche, sans conviction</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] contemplent la scène.</li>
-    <li>desc_sentence->Un(e) [PersonJob] regarde silencieusement [side_position].</li>
+    <li>desc_sentence->[PersonJobAny_indef] regarde silencieusement [side_position].</li>
     <li>desc_sentence->Le sang se répand autour du corps de [VICTIM_nameDef].</li>
     <li>desc_sentence->[VICTIM_nameDef] est couvert de [Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] paraît [AdjectiveAngsty](e).</li>

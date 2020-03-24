@@ -33,7 +33,7 @@
     <li>circumstance_phrase->avec un sourire [AdjectiveFriendly]</li>
     <li>circumstance_phrase->en riant aux éclats</li>
     <li>circumstance_phrase->tout en [VerbFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] participent à la conversation.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] participent à la conversation.</li>
     <li>desc_sentence->L'endroit est décoré en [Color] et [Color].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
   </AttendedParty.rulePack.rulesStrings>
@@ -157,8 +157,9 @@
     <li>desc_sentence->[OBJECT_definite] semble s'élever au-dessus de [PAWN_nameDef].</li>
     <li>desc_sentence->[OBJECT_definite] brille d'un [Color] doux.</li>
     <li>desc_sentence->[OBJECT_definite] est très détaillé(e).</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'émerveillent devant [OBJECT_definite].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] s'émerveillent devant [OBJECT_definite].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] admirent, émerveillés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_FemPlural] admirent, émerveillées.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -194,8 +195,9 @@
     <li>desc_sentence->[OBJECT_definite] brille d'un [Color] doux.</li>
     <li>desc_sentence->[OBJECT_definite] est très complexe et détaillé(e).</li>
     <li>desc_sentence->[PAWN_nameDef] soulève [OBJECT_definite] sans effort apparent.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'émerveillent devant l'objet.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] s'émerveillent devant l'objet.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] admirent, émerveillés.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_FemPlural] admirent, émerveillées.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -270,7 +272,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] expériences ratées.</li>
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
@@ -313,7 +315,7 @@
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] expériences ratées.</li>
     <li>desc_sentence->La scène est entourée de [Quantity_adjphrase] livres.</li>
     <li>desc_sentence->Sa compétence est visible dans son œuvre.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent avec étonnement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] regardent avec étonnement.</li>
     <li>desc_sentence->[Quantity_adjphrase] esprits éthérés des maîtres anciens regardent d'en haut.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
@@ -388,7 +390,7 @@
     <li>circumstance_phrase->avec un sourire [AdjectiveFriendly]</li>
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent vers [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] regardent vers [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont stupéfaits par la scène.</li>
@@ -481,12 +483,12 @@
     <li>desc_sentence->Une aurore [Color_Feminine] brille en arrière-plan.</li>
     <li>desc_sentence->[CommunityAny_indef] est visible au loin.</li>
     <li>desc_sentence->[TerrainFeatureAny_indef] est visible au loin.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] jouent également.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] jouent également.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] jouent à proximité.</li>
     <li>desc_sentence->[PAWN_nameDef] brille d'une aura [Color_Feminine].</li>
     <li>desc_sentence->Les caractéristiques de [PAWN_nameDef] sont exagérées.</li>
     <li>desc_sentence->[PAWN_nameDef] s'éleve au-dessus de la scène.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s'effondrent dans la défaite.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] s'effondrent dans la défaite.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -520,7 +522,7 @@
     <li>circumstance_phrase->montrant une expression d'espoir</li>
     <li>circumstance_phrase->brillant doucement</li>
     <li>circumstance_phrase->entouré(e) d'une aura [Color_Feminine]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] regardent vers [PAWN_objective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_AnyPlural] regardent vers [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_pronoun] est entouré(e) de [Quantity_adjphrase] [Animal_AnyPlural].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal_AnyPlural] se reposent paisiblement.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy_AnyPlural] sont stupéfaits par la scène.</li>
