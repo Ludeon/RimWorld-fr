@@ -52,6 +52,9 @@
     <li>Color_Feminine->Words/Nouns/Colors_Feminine</li>
     <li>Color_FemPlural->Words/Nouns/Colors_FemPlural</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+    <li>ColorBadass_Plural->Words/Nouns/Colors_Badass_Plural</li>
+    <li>ColorBadass_Feminine->Words/Nouns/Colors_Badass_Feminine</li>
+    <li>ColorBadass_FemPlural->Words/Nouns/Colors_Badass_FemPlural</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
     <li>Vegetable_Plural->Words/Nouns/Vegetables_Plural</li>
     <li>Vegetable_Feminine->Words/Nouns/Vegetables_Feminine</li>
@@ -62,6 +65,9 @@
     <li>Animal_Feminine->Words/Nouns/Animals_Feminine</li>
     <li>Animal_FemPlural->Words/Nouns/Animals_FemPlural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalBadass_Plural->Words/Nouns/Animals_Badass_Plural</li>
+    <li>AnimalBadass_Feminine->Words/Nouns/Animals_Badass_Feminine</li>
+    <li>AnimalBadass_FemPlural->Words/Nouns/Animals_Badass_FemPlural</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
     <li>AnimalGroup_Feminine->Words/Nouns/AnimalGroups_Feminine</li>
     <li>Weapon->Words/Nouns/Weapons</li>
@@ -88,6 +94,9 @@
     <li>PersonFamily_Feminine->Words/Nouns/People_Family_Feminine</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
+    <li>PersonBadass_Plural->Words/Nouns/People_Badass_Plural</li>
+    <li>PersonBadass_Feminine->Words/Nouns/People_Badass_Feminine</li>
+    <li>PersonBadass_FemPlural->Words/Nouns/People_Badass_FemPlural</li>
     <li>Enemy->Words/Nouns/Enemies</li>
     <li>Enemy_Plural->Words/Nouns/Enemies_Plural</li>
     <li>Enemy_Feminine->Words/Nouns/Enemies_Feminine</li>
@@ -185,7 +194,7 @@
     <li>Trans->pour</li>
     <li>Trans->par</li>
     <li>Trans->avec</li>
-    <li>Bodypart_fr->Bodypart</li>
+    <li>Bodypart_fr->[Bodypart]</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
@@ -238,6 +247,10 @@
     <li>AdjectiveAny_Feminine->[AdjectiveAngsty_Feminine]</li>
     <li>AdjectiveAny_Feminine->[AdjectiveFriendly_Feminine]</li>
     <li>AdjectiveAny_Feminine->[AdjectiveNatural_Feminine]</li>
+    <li>AnimalBadassAny->[AnimalBadass]</li>
+    <li>AnimalBadassAny->[AnimalBadass_Feminine]</li>
+    <li>AnimalBadass_AnyPlural->[AnimalBadass_Plural]</li>
+    <li>AnimalBadass_AnyPlural->[AnimalBadass_FemPlural]</li>
     <li>AnimalAny_indef->un [Animal]</li>
     <li>AnimalAny_indef->une [Animal_Feminine]</li>
     <li>Animal_AnyPlural->[Animal_Plural]</li>
@@ -287,6 +300,10 @@
     <li>PersonalCharacteristic_Feminine(p=0.15)->experience sexuelle</li>
     <li>PersonalCharacteristic_FemPlural(p=0.15)->habitudes aux toilettes</li>
     <li>PersonalCharacteristic_FemPlural(p=0.15)->preferences sexuelles</li>
+    <li>PersonBadass_AnyPlural->[PersonBadass_Plural]</li>
+    <li>PersonBadass_AnyPlural->[PersonBadass_FemPlural]</li>
+    <li>PersonBadassAny->[PersonBadass]</li>
+    <li>PersonBadassAny->[PersonBadass_Feminine]</li>
     <li>PersonJobAny_indef->un [PersonJob]</li>
     <li>PersonJobAny_indef->une [PersonJob_Feminine]</li>
     <li>PersonJob_AnyPlural->[PersonJob_Plural]</li>

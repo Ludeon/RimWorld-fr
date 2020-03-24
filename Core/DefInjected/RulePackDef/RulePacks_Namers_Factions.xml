@@ -99,37 +99,44 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->Les [AnimalBadass]s</li>
-    <li>r_name->Les Hommes [AnimalBadass]s</li>
-    <li>r_name->Les [AnimalBadass]s de la [ConceptBadass]</li>
-    <li>r_name->Les [PersonBadass]s de la [ConceptBadass]</li>
-    <li>r_name->Les [PersonBadass]s</li>
+    <li>r_name->Les [AnimalBadass_AnyPlural]</li>
+    <li>r_name->Les Hommes [AnimalBadass_AnyPlural]</li>
+    <li>r_name->Les [AnimalBadass_AnyPlural] de la [ConceptBadass]</li>
+    <li>r_name->Les [PersonBadass_AnyPlural] de la [ConceptBadass]</li>
+    <li>r_name->Les [PersonBadass_AnyPlural]</li>
     <li>r_name->Les [Enemy_AnyPlural]</li>
     <li>r_name->Les Hommes-[Weapon_AnyPlural]</li>
     <li>r_name->Les [Weapon_AnyPlural]</li>
-    <li>r_name->Les [AnimalBadass]s-[Weapon_AnyPlural]</li>
+    <li>r_name->Les [AnimalBadass_AnyPlural]-[Weapon_AnyPlural]</li>
     <li>r_name->Les [Enemy_AnyPlural] [Weapon]</li>
-    <li>r_name->Les [Weapon_AnyPlural] [ColorBadass]s</li>
-    <li>r_name->Les [AnimalBadass]s [ColorBadass]s</li>
-    <li>r_name->Les [PersonBadass]s [ColorBadass]s</li>
-    <li>r_name->Les [Enemy_AnyPlural] [ColorBadass]s</li>
-    <!--     <li>r_name->La [groupname] de [PersonBadass]s</li>-->
-    <li>r_name->[groupname] de [PersonBadass]s</li>
+    <li>r_name->Les [Weapon_Plural] [ColorBadass_Plural]</li>
+    <li>r_name->Les [AnimalBadass_Plural] [ColorBadass_Plural]</li>
+    <li>r_name->Les [PersonBadass_Plural] [ColorBadass_Plural]</li>
+    <li>r_name->Les [Enemy_Plural] [ColorBadass_Plural]</li>
+    <li>r_name->Les [Weapon_FemPlural] [ColorBadass_FemPlural]</li>
+    <li>r_name->Les [AnimalBadass_FemPlural] [ColorBadass_FemPlural]</li>
+    <li>r_name->Les [PersonBadass_FemPlural] [ColorBadass_FemPlural]</li>
+    <li>r_name->Les [Enemy_FemPlural] [ColorBadass_FemPlural]</li>
+    <!--     <li>r_name->La [groupname] de [PersonBadass_AnyPlural]</li>-->
+    <li>r_name->[groupname] de [PersonBadass_AnyPlural]</li>
     <li>r_name->Les [Enemy_AnyPlural] [Enemy_AnyPlural]</li>
     <!--     <li>r_name->La [groupname] [AdjectiveBadass]</li>-->
     <li>r_name->[groupname] [AdjectiveBadass]</li>
-    <li>r_name->Les [AnimalBadass]s [AdjectiveBadass]s</li>
-    <li>r_name->Les [Enemy_AnyPlural] [AdjectiveBadass]s</li>
-    <li>r_name->Les [PersonBadass]s [AdjectiveBadass]s</li>
+    <li>r_name->Les [AnimalBadass_Plural] [AdjectiveBadass_Plural]</li>
+    <li>r_name->Les [AnimalBadass_FemPlural] [AdjectiveBadass_FemPlural]</li>
+    <li>r_name->Les [Enemy_Plural] [AdjectiveBadass_Plural]</li>
+    <li>r_name->Les [Enemy_FemPlural] [AdjectiveBadass_FemPlural]</li>
+    <li>r_name->Les [PersonBadass_Plural] [AdjectiveBadass_Plural]</li>
+    <li>r_name->Les [PersonBadass_FemPlural] [AdjectiveBadass_FemPlural]</li>
     <li>r_name->Les [PersonAlly]s de [ConceptBadass]</li>
     <li>r_name(p=0.4)->Les Mangeurs de [Gore]</li>
     <li>r_name->[Enemy_AnyPlural] de [NamePerson]</li>
-    <li>r_name->[AnimalBadass]s de [NamePerson]</li>
+    <li>r_name->[AnimalBadass_AnyPlural] de [NamePerson]</li>
     <li>r_name->[Weapon_AnyPlural] de [NamePerson]</li>
     <li>r_name->[groupname] [Weapon]</li>
     <li>r_name->[groupname] [ConceptBadass]</li>
     <li>r_name->[Letter][Letter][Digit][Digit]</li>
-    <!--    <li>r_name->[AnimalBadass]s de la [TerrainFeature]</li>-->
+    <!--    <li>r_name->[AnimalBadass_AnyPlural] de la [TerrainFeature]</li>-->
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
@@ -326,21 +333,26 @@
   <NamerSettlementPirate.rulePack.rulesStrings>
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
-    <li>townname_combo->[geography] des [AnimalBadass]s</li>
+    <li>townname_combo->[geography] des [AnimalBadass_AnyPlural]</li>
     <li>townname_combo->[geography] du [AnimalBadass]</li>
+    <li>townname_combo->[geography] de la [AnimalBadass_Feminine]</li>
     <li>townname_combo->[geography] des [ConceptBadass]s</li>
     <li>townname_combo->[geography] de la [ConceptBadass]</li>
-    <li>townname_combo->[geography] [PersonBadass]</li>
-    <li>townname_combo->[geography] de [PersonBadass]</li>
+    <li>townname_combo->[geography_masc] [PersonBadass]</li>
+    <li>townname_combo->[geography_fem] [PersonBadass_Feminine]</li>
+    <li>townname_combo->[geography] de [PersonBadassAny]</li>
     <li>townname_combo->[geography] de [EnemyAny]</li>
     <li>townname_combo->[geography] [EnemyAny]</li>
     <li>townname_combo->[geography] de [Weapon]</li>
     <li>townname_combo->[geography] des [Weapon_AnyPlural]</li>
     <li>townname_combo->[geography_masc] [ColorBadass]</li>
+    <li>townname_combo->[geography_fem] [ColorBadass_Feminine]</li>
     <li>geography(p=2)->[TerrainFeatureAny]</li>
     <li>geography->[CommunityAny]</li>
     <li>geography_masc(p=2)->[TerrainFeature]</li>
     <li>geography_masc->[Community]</li>
+    <li>geography_fem(p=2)->[TerrainFeature_Feminine]</li>
+    <li>geography_fem->[Community_Feminine]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
