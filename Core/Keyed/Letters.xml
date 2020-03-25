@@ -57,7 +57,7 @@
   <RecruitFail>{0} n'a pas réussi à recruter {1} ({2} chances de succès).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} est {1} de {RELATIVE_labelShort}. Si {PAWN_nameDef} meurt, {RELATIVE_labelShort} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver {PAWN_nameDef}, {RELATIVE_labelShort} sera très heureux(se) pour longtemps.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} est {PAWN_gender ? le : la : le/la} {1} de {RELATIVE_labelShort}. Si {PAWN_nameDef} meurt, {RELATIVE_labelShort} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver {PAWN_nameDef}, {RELATIVE_labelShort} sera très heureu{RELATIVE_gender ? x : se : x(se)} pour longtemps.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Anniversaire</LetterLabelBirthday>
@@ -69,9 +69,9 @@
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Maladie</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{1} a rendu malade {PAWN}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {PAWN_definite} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewDisease>
+  <NewDisease>{1} a rendu malade {PAWN}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {PAWN_definite} bénéficie d'un traitement adéquat et reste alit{PAWN_gender ? é : ée : é(e)} autant de temps que possible.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{3} a causé l'infection du {1} de {PAWN}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {PAWN_definite} bénéficie d'un traitement adéquat et reste alité autant de temps que possible.</NewPartDisease>
+  <NewPartDisease>{3} a causé l'infection du {1} de {PAWN}.\n\nAssurez-vous de disposer d'un lit médical et d'un docteur, et que {PAWN_definite} bénéficie d'un traitement adéquat et reste alit{PAWN_gender ? é : ée : é(e)} autant de temps que possible.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} a attrapé une maladie : {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
@@ -152,7 +152,7 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
   <LetterRelatedPawnsRaidEnemy>Des membres de la faction ennemie {1} ont des liens avec vos {0} ou des prisonniers.\n\n Gardez en tête que même s'ils sont de la même famille, ils s'attaqueront mutuellement en raison des mauvaises relations de leurs factions respectives.\n\nCes personnes sont :</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {1} ont des liens avec vos {0} colons ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Des membres de la faction amie {1} ont des liens avec vos {0} ou vos prisonniers :</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
   <LetterRelatedPawnsNeutralGroup>Des personnes du groupe venant d'arriver ont des liens avec vos {0} ou vos prisonniers :</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
