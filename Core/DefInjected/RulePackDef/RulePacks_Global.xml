@@ -60,6 +60,7 @@
     <li>Vegetable_Feminine->Words/Nouns/Vegetables_Feminine</li>
     <li>Vegetable_FemPlural->Words/Nouns/Vegetables_FemPlural</li>
     <li>Game->Words/Nouns/Games</li>
+    <li>Game_Feminine->Words/Nouns/Games_Feminine</li>
     <li>GroupName_Masculine->Words/Nouns/GroupNames</li>
     <li>GroupName_Feminine->Words/Nouns/GroupNames_Feminine</li>
     <li>Animal->Words/Nouns/Animals</li>
@@ -290,6 +291,10 @@
     <li>EnemyAny->[Enemy_Feminine]</li>
     <li>Enemy_AnyPlural->[Enemy_Plural]</li>
     <li>Enemy_AnyPlural->[Enemy_FemPlural]</li>
+    <li>GameAny->[Game]</li>
+    <li>GameAny->[Game_Feminine]</li>
+    <li>GameAnyDef->le [Game]</li>
+    <li>GameAnyDef->la [Game_Feminine]</li>
     <li>NaturalObjectAny_indef->un [NaturalObject]</li>
     <li>NaturalObjectAny_indef->une [NaturalObject_Feminine]</li>
     <li>NaturalObject_AnyPlural->[NaturalObject_Plural]</li>
@@ -394,10 +399,10 @@
     <li>TalkTopicLight->des [Vegetable_AnyPlural]</li>
     <li>TalkTopicLight->de manger des [Vegetable_AnyPlural]</li>
     <li>TalkTopicLight->de cuisiner avec des [Vegetable_AnyPlural]</li>
-    <li>TalkTopicLight->de [Game]</li>
-    <li>TalkTopicLight->de jouer au [Game]</li>
-    <li>TalkTopicLight->de s'exercer au [Game]</li>
-    <li>TalkTopicLight->d'apprendre le [Game]</li>
+    <li>TalkTopicLight->de [GameAny]</li>
+    <li>TalkTopicLight->de jouer à [GameAnyDef]</li>
+    <li>TalkTopicLight->de s'exercer à [GameAnyDef]</li>
+    <li>TalkTopicLight->d'apprendre [GameAnyDef]</li>
     <li>TalkTopicLight->des [Animal_AnyPlural]</li>
     <li>TalkTopicLight->d'entraîner des [Animal_AnyPlural]</li>
     <li>TalkTopicLight->d'apprivoiser des [Animal_AnyPlural]</li>
