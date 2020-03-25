@@ -45,8 +45,9 @@
     <li>maybe_adjective->[Color]</li>
   -->
   <NamerArtCommon.rulePack.rulesStrings>
-    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
-    <li>r_art_name(p=4)->[maybe_a] [Artwork] [maybe_adjective]</li>
+    <li>r_art_name(p=4)->[ArtworkAny] [Trans] [ConceptAny]</li>
+    <li>r_art_name(p=4)->[maybe_am] [Artwork] [maybe_adjective]</li>
+    <li>r_art_name(p=4)->[maybe_af] [Artwork_Feminine] [maybe_adjective_fem]</li>
     <li>r_art_name->[maybe_am] [ConceptAny_Masculine] [maybe_adjective]</li>
     <li>r_art_name->[maybe_af] [ConceptAny_Feminine] [maybe_adjective_fem]</li>
     <li>r_art_name->[maybe_am] [TerrainFeature] [maybe_adjective]</li>
@@ -63,18 +64,19 @@
     <li>r_art_name->[maybe_af] [PersonFamily_Feminine] [maybe_adjective_fem]</li>
     <li>r_art_name->[maybe_am] [Enemy] [maybe_adjective]</li>
     <li>r_art_name->[maybe_af] [Enemy_Feminine] [maybe_adjective_fem]</li>
-    <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
+    <li>r_art_name(p=2)->[ArtworkAny] No. [art_name_numeric]</li>
     <li>r_art_name->No. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
-    <li>r_art_name->[Artwork] [art_name_numeric]</li>
+    <li>r_art_name->[ArtworkAny] [art_name_numeric]</li>
     <li>r_art_name->[ConceptAny] No. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=6)->[Artwork] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=6)->[ArtworkAny] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] à [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_am] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[maybe_af] [Artwork_Feminine] [Trans] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
