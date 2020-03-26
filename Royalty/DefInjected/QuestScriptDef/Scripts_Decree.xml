@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must not destroy the monument for 15 days, otherwise [asker_nameDef] will be unhappy. text_todo</li>
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentDays] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nVous devez construire un monument. Ca taille est de [monumentSize] et nécessitera ces ressources (valeur totale [monumentRequiredResourcesMarketValue_money]) :\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nVous devez construire un monument. Ca taille est de [monumentSize] et nécessitera ces ressources (valeur totale [monumentRequiredResourcesMarketValue_money]) :\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nVous devez protéger le monument pendant [keepMonumentDays] après sa construction, sinon [asker_nameDef] se fâchera.</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -19,14 +19,16 @@
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Depuis que le marqueur de monument a été détruit, un nouveau a été envoyé.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>Monument construit</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
-  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for atleast 15 days, otherwise [asker_nameDef] will be unhappy. text_todo -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>Vous avez fini la construction du monument.\n\nVous ne devez pas le détruire avant au moins 15 jours, sinon vous allez fâcher [asker_nameDef]</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentDays] days, otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>Vous avez fini la construction du monument.\n\nVous devez le protéger au moins 15 jours, sinon vous allez fâcher [asker_nameDef]</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monument détruit</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
-  <!-- EN: [asker_nameDef] is offended that you destroyed the monument after completing it.\n\n[asker_possessive] will be unhappy about this. text_todo -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] est offensé car vous avez détruit le monument.\n\n[asker_pronoun] se fâchera à cause de cela.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] est offensé car vous avez laissé le monument détruit.\n\n[asker_pronoun] se fâchera à cause de cela.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>Ne détruisez pas ce monument pendant {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>Ne détruisez pas ce monument pendant {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>Conservez ce monument pendant {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
   

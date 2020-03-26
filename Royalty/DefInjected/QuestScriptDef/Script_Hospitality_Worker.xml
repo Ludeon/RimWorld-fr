@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural] [lodgersArrived]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[lodgersLabelSingOrPlural] [lodgersArrived]</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect them until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef] [lodgersIsAre] [lodgersArrived]. Protégez-[lodgersAccusative] jusqu'à ce que la navette arrive dans [shuttleDelayTicks_duration]. [helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[lodgersLabelSingOrPluralDef] [lodgersIsAre] [lodgersArrived]. Protégez-[lodgersAccusative] jusqu'à ce que la navette arrive dans [shuttleDelayTicks_duration]. [helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Devrait partir en navette</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -31,6 +31,8 @@
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>[letterSubject], que vous étiez chargé de protéger, a disparu. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>[letterSubject], que vous avez été chargé de protéger, a rejoint une autre faction. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
