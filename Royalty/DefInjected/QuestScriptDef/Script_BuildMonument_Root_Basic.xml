@@ -7,7 +7,9 @@
     <li>dontDestroyMonument->\n\nIf you destroy the monument within 15 days of construction, your relations with [asker_factionName] will fall by 10. text_todo</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->La taille de ce monument est [monumentSize], il nécessite les ressources suivantes (valeur totale [monumentRequiredResourcesMarketValue_money]) :\n\n[monumentRequiredResources]\n\nCette construction doit être terminée dans les [constructionTimeoutTicks_duration] après avoir accepté la tâche. À la fin, [allRewardsDescriptions]</li>
+    <li>commonEnding->La taille de ce monument est [monumentSize], il nécessite les ressources suivantes (valeur totale [monumentRequiredResourcesMarketValue_money]) :\n\n[monumentRequiredResources]\n\nCette construction doit être terminée dans les [constructionTimeoutTicks_duration] après avoir accepté la tâche. À la fin, [allRewardsDescriptions][dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nSi vous détruisez ce monument dans les 15 jours après la construction, vos relations avec la faction [asker_factionName] diminuera de 10.</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>
