@@ -256,7 +256,7 @@
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
     <li>subimageplural_fem(p=3)->[Quantity_adjphrase] [Character_FemPlural]</li>
     <li>subimageplural_fem->[Quantity_adjphrase] [Vegetable_FemPlural]</li>
-    <!--  Adj: Pb de féminin (e) et de pluriel (s) -->
+    <!--  Adjectifs: résolution de féminin et de pluriel -->
     <li>pawn_adj->[pawn_adj_regular]</li>
     <li>pawn_adj->[pawn_adj_regular_inv]</li>
     <li>pawn_adj->[pawn_adj_irregular]</li>
@@ -277,7 +277,7 @@
     <!-- <li>pawn_adj_plural_fem->[pawn_adj_irregular_fem]</li> -->
     <li>pawn_adj_plural_fem->[pawn_adj_variantplural_fem]</li>
     <li>pawn_adj_plural_fem->[pawn_adj_invariant]</li>
-    <!-- Tke "e" in (F), "s" in plural -->
+    <!-- Take "e" in (F), "s" in plural -->
     <li>pawn_adj_regular->mort</li>
     <li>pawn_adj_regular->mourant</li>
     <li>pawn_adj_regular->blessé</li>
@@ -288,7 +288,7 @@
     <li>pawn_adj_regular_inv->sénile</li>
     <li>pawn_adj_regular_inv->sale</li>
     <li>pawn_adj_regular_inv->debout</li>
-    <!--  EN:  <li>pawn_adj_plural->old</li> vieux/vieille et pb de pluriel (s) -->
+    <!--  EN: <li>pawn_adj_plural->old</li> vieux/vieille et pb de pluriel -->
     <li>pawn_adj_irregular->vieux</li>
     <li>pawn_adj_irregular->assis</li>
     <li>pawn_adj_invariant->portant [ApparelAny_indef]</li>
@@ -318,7 +318,7 @@
     <li>emotional_expression->criant</li>
     <li>emotional_expression->se réjouissant</li>
     <li>idles->trône</li>
-    <!--  EN:   <li>idles->stands</li> -->
+    <!-- EN: <li>idles->stands</li> -->
     <li>idles->se tient</li>
     <li>idles->attend</li>
     <li>idles->sourit</li>
@@ -374,7 +374,7 @@
     <li>depiction->image</li>
     <li>depiction->figure</li>
     <li>depiction->représentation</li>
-    <!--     <li>depiction->illustration</li> -->
+    <!-- <li>depiction->illustration</li> -->
     <li>depiction->gravure</li>
     <li>depiction->œuvre</li>
     <!-- composition : féminin avec s au pluriel -->
