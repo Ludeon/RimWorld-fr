@@ -32,10 +32,10 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] a [damaged_past] [atMaybe] [RECIPIENT_definite] en visant le/la [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] a [damaged_past] [atMaybe] [RECIPIENT_definite] en visant [recipient_part0_definite] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [skillAdvMaybe] [atMaybe] [RECIPIENT_definite] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a [damaged_past] [skillAdvMaybe] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant le/la [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant [recipient_part0_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1,RECIPIENT_gender==Male)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1,RECIPIENT_gender==Female)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour la [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
