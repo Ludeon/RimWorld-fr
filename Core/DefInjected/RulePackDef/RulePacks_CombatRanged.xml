@@ -223,8 +223,7 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
-    <!-- NOTE: RW 1.1.2575 recipient_part_damaged0_definite does not exist -->
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_label] de [RECIPIENT_definite]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] de [RECIPIENT_definite]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
