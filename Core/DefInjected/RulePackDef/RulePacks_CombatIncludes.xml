@@ -291,16 +291,14 @@
     <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
   -->
   <Combat_WoundIncludes.rulePack.rulesStrings>
-    <!-- NOTE: RW 1.1.2575 recipient_part_destroyed0_definite does not exist -->
-    <li>destroyed_targets(recipient_part_destroyed_count==1)->le/la [recipient_part_destroyed0_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==2)->les [recipient_part_destroyed0_label] et [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->les [recipient_part_destroyed0_label], [recipient_part_destroyed1_label] et [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count>=4)->les [recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] et [recipient_part_destroyed3_label]</li>
-    <!-- NOTE: RW 1.1.2575 recipient_part_damaged0_definite does not exist -->
-    <li>damaged_targets(recipient_part_damaged_count==1)->le/la [recipient_part_damaged0_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==2)->les [recipient_part_damaged0_label] et [recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->les [recipient_part_damaged0_label], [recipient_part_damaged1_label] et [recipient_part_damaged2_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count>=4)->les [recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] et [recipient_part_damaged3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_definite]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_definite] et [recipient_part_destroyed1_definite]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite] et [recipient_part_destroyed2_definite]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count>=4)->[recipient_part_destroyed0_definite], [recipient_part_destroyed1_definite], [recipient_part_destroyed2_definite] et [recipient_part_destroyed3_definite]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_definite]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_definite] et [recipient_part_damaged1_definite]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite] et [recipient_part_damaged2_definite]</li>
+    <li>damaged_targets(recipient_part_damaged_count>=4)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite] et [recipient_part_damaged3_definite]</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>
