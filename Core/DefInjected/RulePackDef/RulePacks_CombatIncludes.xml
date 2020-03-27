@@ -149,10 +149,10 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de [WEAPON_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [TOOL_label]</li>
-    <li>targetlist(recipient_part_count==1)->le/la [recipient_part0_label]</li>
-    <li>targetlist(recipient_part_count==2)->les [recipient_part0_label] et [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->les [recipient_part0_label], [recipient_part1_label], et [recipient_part2_label]</li>
-    <li>targetlist(recipient_part_count>=4)->les [recipient_part0_label], [recipient_part1_label], [recipient_part2_label], et [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_definite]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_definite] et [recipient_part1_definite]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_definite], [recipient_part1_definite], et [recipient_part2_definite]</li>
+    <li>targetlist(recipient_part_count>=4)->[recipient_part0_definite], [recipient_part1_definite], [recipient_part2_definite], et [recipient_part3_definite]</li>
     <li>damaged_present(deflected!=True)->blessant</li>
     <li>damaged_present(deflected!=True)->lésant</li>
     <li>destroyed(p=0.5)->a détruit</li>
