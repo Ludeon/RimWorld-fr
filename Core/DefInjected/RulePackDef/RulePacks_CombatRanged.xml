@@ -142,11 +142,11 @@
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=2)->[damaged_targets] de [RECIPIENT_definite] ont été [damaged_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(p=3,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
     <li>r_logentry(p=6,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec une [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec [WEAPON_projectile_indefinite].</li>
     <li>r_logentry(p=0.2)->[WEAPON_projectile_definite] de [INITIATOR_definite] a frappé [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite] avec une [WEAPON_projectile_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite] avec [WEAPON_projectile_indefinite].</li>
     <li>r_logentry(p=0.4)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec une [WEAPON_projectile_label] destinée à [ORIGINALTARGET_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec [WEAPON_projectile_indefinite] destinée à [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
     <li>destroyed_past->anéanti</li>
     <li>destroyed_past->écrasé</li>
@@ -216,11 +216,11 @@
     <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry->[damaged_target_possessive_opt] a été [damaged_past](e) par [WEAPON_projectile_definite] de [INITIATOR_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[WEAPON_projectile_definite] de [INITIATOR_definite] a frappé [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
     <li>r_logentry(p=0.4)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec une [WEAPON_projectile_label] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] de [RECIPIENT_definite]</li>
