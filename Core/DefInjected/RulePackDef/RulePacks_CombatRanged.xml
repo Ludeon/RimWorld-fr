@@ -34,14 +34,14 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] [fromof] [WEAPON_definite] de [INITIATOR_definite]</li>
-    <li>prefix->[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] [fromof] [WEAPON_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] de [INITIATOR_definite]</li>
-    <li>prefix->[blast] de [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] de [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] de [WEAPON_definite] de [INITIATOR_definite]</li>
-    <li>prefix->[WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[WEAPON_projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[WEAPON_definite] de [INITIATOR_definite]</li>
     <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count>=1)->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
@@ -148,6 +148,8 @@
     <li>r_logentry(p=0.4)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec [WEAPON_projectile_indefinite] destinée à [ORIGINALTARGET_definite].</li>
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
+    <li>WEAPON_projectile_definite(p=0.05)->la balle</li>
+    <li>WEAPON_projectile_indefinite(p=0.05)->une balle</li>
     <li>destroyed_past->anéanti</li>
     <li>destroyed_past->écrasé</li>
     <li>destroyed_past->écrabouillé</li>
@@ -271,11 +273,12 @@
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] avec [WEAPON_indefinite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] avec [WEAPON_indefinite] sur [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] sur [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_indefinite] [burst] sur [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_indefinite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] avec [WEAPON_indefinite].</li>
-    <li>shot_a(p=2)->[verb_shot_a] une</li>
-    <li>shot_a->[verb_shot_a] [skillAdv] une</li>
+    <!-- NOTE: use [shot_a] [WEAPON_projectile_indefinite] -->
+    <li>shot_a(p=2)->[verb_shot_a]</li>
+    <li>shot_a->[verb_shot_a] [skillAdv]</li>
     <li>shot(p=2)->[verb_shot]</li>
     <li>shot->[verb_shot] [skillAdv]</li>
     <li>shotat->a tiré [aburst] sur</li>
@@ -335,10 +338,15 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
+    <!-- NOTE:
+      ideally "sa [WEAPON_projectile_label]" should be
+      [WEAPON_projectile_possessive] [WEAPON_projectile_label]
+      but WEAPON_projectile_possessive resolve to genderless son/sa
+    -->
     <li>r_logentry->[INITIATOR_definite] [threw] sa [WEAPON_projectile_label] sur [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label] sur [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite] sur [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] sa [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite].</li>
     <li>threw_a->[verb_threw] [adverb_threw] une</li>
     <li>threw_a(p=2)->[verb_threw] une</li>
     <li>threw(p=2)->[verb_threw]</li>
