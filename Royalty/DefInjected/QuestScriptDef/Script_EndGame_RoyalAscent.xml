@@ -63,17 +63,17 @@
   <!-- EN: You've escaped on the Imperial shuttle! -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>Vous vous échappez avec la navette impériale !</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
-  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>{SUBJECT_bestRoyalTitle} mécontent(e)</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>{SUBJECT_bestRoyalTitle} méconten{SUBJECT_gender ? t : te t(e)}</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger et de maintenir de bonne humeur, est resté(e) trop longtemps en dessous du niveau minimum d'humeur [lodgersMoodThreshold]. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger et de maintenir de bonne humeur, est rest{SUBJECT_gender ? é : ée é(e)} trop longtemps en dessous du niveau minimum d'humeur [lodgersMoodThreshold]. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>Invité mort : {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger est mort(e). [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger est mor{SUBJECT_gender ? t : te t(e)}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>Invité capturé : {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger a été arrêté(e). [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger a été arrêt{SUBJECT_gender ? é : ée é(e)}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>Chirurgie non autorisée : {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
