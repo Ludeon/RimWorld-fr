@@ -53,7 +53,7 @@
     <li>action->[INITIATOR_definite] [tried] de [damaged_inf] [RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite] [tried] de [damaged_inf] [RECIPIENT_definite] avec [implement]</li>
     <li>action->[INITIATOR_definite] [tried] d'utiliser [implement] pour [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] a balancé [WEAPON_possessive] [WEAPON_label] sur [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] a balancé [WEAPON_indefinite] sur [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] avec [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] avec [implement]</li>
@@ -141,13 +141,13 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de [WEAPON_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de [WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] d'[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->son/sa [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de [WEAPON_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de [WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_definite]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_definite] et [recipient_part1_definite]</li>
@@ -230,7 +230,7 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [WEAPON_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[wielding] [WEAPON_indefinite] [skillAdv]</li>
     <li>skillDescMelee->[using] [implement] [skillAdv]</li>
     <li>wielding(p=4)->maniant</li>
     <li>wielding(p=3)->utilisant</li>
