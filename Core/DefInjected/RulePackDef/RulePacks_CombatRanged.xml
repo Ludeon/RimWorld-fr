@@ -131,14 +131,17 @@
     <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [to] [destroyed_suffix].</li>
     <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past](e) par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past](e) en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past](e) par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Male)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Female)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past]e par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=2)->[damaged_targets] de [RECIPIENT_definite] ont été [damaged_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(p=3,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
     <li>r_logentry(p=6,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
@@ -217,7 +220,7 @@
   <Combat_RangedDeflect.rulePack.rulesStrings>
     <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[damaged_target_possessive_opt] a été [damaged_past](e) par [WEAPON_projectile_definite] de [INITIATOR_definite] [deflected_result].</li>
+    <li>r_logentry->[damaged_target_damaged_past_opt] par [WEAPON_projectile_definite] de [INITIATOR_definite] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[WEAPON_projectile_definite] de [INITIATOR_definite] a frappé [damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
@@ -226,6 +229,10 @@
     <li>WEAPON_projectile_label(p=0.05)->balle</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] de [RECIPIENT_definite]</li>
+    <li>damaged_target_damaged_past_opt(recipient_part_damaged0_gender==Male)->[recipient_part_damaged0_definite] de [RECIPIENT_definite] a été [damaged_past]</li>
+    <li>damaged_target_damaged_past_opt(recipient_part_damaged0_gender==Female)->[recipient_part_damaged0_definite] de [RECIPIENT_definite] a été [damaged_past]e</li>
+    <li>damaged_target_damaged_past_opt(RECIPIENT_gender==Male)->[RECIPIENT_definite] a été [damaged_past]</li>
+    <li>damaged_target_damaged_past_opt(RECIPIENT_gender==Female)->[RECIPIENT_definite] a été [damaged_past]e</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
