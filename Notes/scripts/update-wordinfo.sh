@@ -27,11 +27,13 @@ extract_tag_noun_content() {
 }
 extract_tag_male_content() { grep -aE '\.(labelMale|labelMalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 extract_tag_female_content() { grep -aE '\.(labelFemale|labelFemalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
+extract_tag_plural_content() { grep -aE '\.(labelMalePlural|labelFemalePlural|pawnsPlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 
 # Currently, labelNoun are defined as
 #   <...labelNoun>un xxx</...labelNoun> or <...labelNoun>une yyy</...labelNoun>
 extract_tag_noun_male_content() { grep -aE '\.(labelNoun)>[uU]n ' | sed 's/^[^>]*>[uU]n \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_female_content() { grep -aE '\.(labelNoun)>[uU]ne ' | sed 's/^[^>]*>[uU]ne \([^<]*\)<.*$/\1/' ; }
+extract_tag_noun_plural_content() { grep -aE '\.(labelNoun)>[dD]es ' | sed 's/^[^>]*>[dD]es \([^<]*\)<.*$/\1/' ; }
 
 # Passe tout en minuscule
 to_lowercase() { PERLIO=:utf8 perl -ne 'print lc $_' ;  }
@@ -55,6 +57,7 @@ export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 cat */DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
 cat */DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
+cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
 cat */WordInfo/Gender/Male.txt > $WORKDIR/all_males.txt
@@ -68,7 +71,13 @@ cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_fe
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_female_content >> $WORKDIR/all_females.txt
 cat $WORKDIR/all_females.txt | to_lowercase | unique > Core/WordInfo/Gender/Female.txt
 
-# Liste des mots déjà classés
+# Ajouter label*Plural dans WordInfo/Gender/Plural.txt
+cat */WordInfo/Gender/Plural.txt > $WORKDIR/all_plurals.txt
+cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_plural_content >> $WORKDIR/all_plurals.txt
+cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all_plurals.txt
+cat $WORKDIR/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plural.txt
+
+# Liste des mots déjà classés par genre
 cat Core/WordInfo/Gender/{Male,Female}.txt | unique > $WORKDIR/wordinfo
 
 # Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
