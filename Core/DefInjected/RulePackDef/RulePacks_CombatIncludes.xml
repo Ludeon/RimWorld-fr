@@ -141,14 +141,14 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de [WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_definite] de [WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_indefinite]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] d'[WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_definite] d'[WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_indefinite]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->son/sa [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de [WEAPON_indefinite]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_definite]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_definite] de [WEAPON_indefinite]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_indefinite]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->son/sa [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_definite]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_definite]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_definite] et [recipient_part1_definite]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_definite], [recipient_part1_definite], et [recipient_part2_definite]</li>
