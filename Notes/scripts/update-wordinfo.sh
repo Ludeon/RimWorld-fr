@@ -19,7 +19,7 @@ unique() { sort --unique ; }
 
 # Extrait du flux le contenu des tags utilisés par le système de traduction
 extract_tag_content() {
-  grep -aE '\.(label|labelMale|labelMalePlural|labelFemale|labelFemalePlural|pawnSingular|pawnsPlural)>' \
+  grep -aE '\.(label|labelMale|labelMalePlural|labelFemale|labelFemalePlural|pawnSingular|pawnsPlural|customLabel)>' \
   | sed 's/^.*>\([^<]*\)<.*$/\1/' ;
 }
 extract_tag_noun_content() {
@@ -53,6 +53,7 @@ export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 
 # Liste des tags provenant du XML
 cat */DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
+cat */DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
