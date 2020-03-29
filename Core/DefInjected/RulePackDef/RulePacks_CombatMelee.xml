@@ -38,6 +38,7 @@
     <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], a [damaged_past] [RECIPIENT_definite] en visant [recipient_part0_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1,RECIPIENT_gender==Male)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1,RECIPIENT_gender==Female)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour la [damaged_inf] avec [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1,RECIPIENT_gender==None)->[INITIATOR_definite] a frappé [RECIPIENT_definite] pour le [damaged_inf] avec [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] a utilisé [implement] pour [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
@@ -82,11 +83,14 @@
     <li>r_logentry(p=0.2,RECIPIENT_gender==Male)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le [damaged_inf].</li>
     <li>r_logentry(p=0.2,RECIPIENT_gender==Female)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant la [damaged_inf] avec [implement].</li>
     <li>r_logentry(p=0.2,RECIPIENT_gender==Female)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant la [damaged_inf].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==None)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le [damaged_inf] avec [implement].</li>
+    <li>r_logentry(p=0.2,RECIPIENT_gender==None)->[RECIPIENT_definite] a esquivé [skillAdvMaybe] [INITIATOR_definite] voulant le [damaged_inf].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->mais [RECIPIENT_definite] a bondi hors de portée</li>
     <li>result(INITIATOR_gender==Male)->mais a été trompé par une feinte de [RECIPIENT_definite]</li>
     <li>result(INITIATOR_gender==Female)->mais a été trompée par une feinte de [RECIPIENT_definite]</li>
+    <li>result(INITIATOR_gender==None)->mais a été trompé par une feinte de [RECIPIENT_definite]</li>
     <li>result->mais l'attaque a été savamment esquivée</li>
   </Combat_Dodge.rulePack.rulesStrings>
   
@@ -157,6 +161,7 @@
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.3,RECIPIENT_gender==Male)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le [damaged_inf] avec [WEAPON_indefinite].</li>
     <li>r_logentry(p=0.3,RECIPIENT_gender==Female)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant la [damaged_inf] avec [WEAPON_indefinite].</li>
+    <li>r_logentry(p=0.3,RECIPIENT_gender==None)->[RECIPIENT_definite] a évité [INITIATOR_definite] voulant le [damaged_inf] avec [WEAPON_indefinite].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] a raté de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite] avec [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] en essayant de [damaged_inf] [RECIPIENT_definite].</li>

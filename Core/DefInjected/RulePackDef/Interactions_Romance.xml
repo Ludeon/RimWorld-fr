@@ -34,6 +34,9 @@
     <li>sent(RECIPIENT_gender==Female)->[RECIPIENT_nameDef] a été attirée et devient l'amoureuse de [INITIATOR_nameDef].</li>
     <li>sent(RECIPIENT_gender==Female)->[RECIPIENT_nameDef] a répondu oui et devient l'amoureuse de [INITIATOR_nameDef].</li>
     <li>sent(RECIPIENT_gender==Female)->[RECIPIENT_nameDef], subjuguée, accepte de devenir l'amoureuse de [INITIATOR_nameDef].</li>
+    <li>sent(RECIPIENT_gender==None)->[RECIPIENT_nameDef] a été attiré et devient l'amoureux de [INITIATOR_nameDef].</li>
+    <li>sent(RECIPIENT_gender==None)->[RECIPIENT_nameDef] a répondu oui et devient l'amoureux de [INITIATOR_nameDef].</li>
+    <li>sent(RECIPIENT_gender==None)->[RECIPIENT_nameDef], subjugué, accepte de devenir l'amoureux de [INITIATOR_nameDef].</li>
   </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
@@ -51,10 +54,12 @@
     <li>sent->[RECIPIENT_nameDef] a changé d'avis.</li>
     <li>sent(RECIPIENT_gender==Male)->[RECIPIENT_nameDef] s'en est allé.</li>
     <li>sent(RECIPIENT_gender==Female)->[RECIPIENT_nameDef] s'en est allée.</li>
+    <li>sent(RECIPIENT_gender==None)->[RECIPIENT_nameDef] s'en est allé.</li>
     <li>sent->[RECIPIENT_nameDef] a à peine répondu.</li>
     <li>sent->[RECIPIENT_nameDef] n'a pas répondu.</li>
     <li>sent(INITIATOR_gender==Male)->[RECIPIENT_nameDef] l'a rejeté.</li>
     <li>sent(INITIATOR_gender==Female)->[RECIPIENT_nameDef] l'a rejetée.</li>
+    <li>sent(INITIATOR_gender==None)->[RECIPIENT_nameDef] l'a rejeté.</li>
   </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>

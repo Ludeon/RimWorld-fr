@@ -54,6 +54,7 @@
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>lodgers0_freed(lodgers0_gender==Male)->libéré</li>
     <li>lodgers0_freed(lodgers0_gender==Female)->libérée</li>
+    <li>lodgers0_freed(lodgers0_gender==None)->libéré</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], voudrait que vous cachiez un prisonnier spécial pour [asker_objective]. Le prisonnier [lodgers0_nameFull], [lodgers0_titleIndef] de [lodgers0_age] ans, a des informations embarrassantes sur [PersonalCharacteristicsAny_def] de [asker_nameDef] et [asker_nameDef] ne veut pas qu'[lodgers0_pronoun] soit [lodgers0_freed]. Vous devez seulement garder le prisonnier pendant [shuttleDelayTicks_duration] jusqu'à ce que le scandale soit passé. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, la faction [enemyFaction_name] veut répandre l'histoire honteuse et ils envoient des raids pour libérer [lodgers0_nameDef] de la prison. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
@@ -66,14 +67,19 @@
     <li>threatsInfo4(generateThreats==false)-></li>
     <li>asker_caught(asker_gender==Male)->pris</li>
     <li>asker_caught(asker_gender==Female)->prise</li>
+    <li>asker_caught(asker_gender==None)->pris</li>
     <li>lodgers0_locked(lodgers0_gender==Male)->enfermé</li>
     <li>lodgers0_locked(lodgers0_gender==Female)->enfermée</li>
+    <li>lodgers0_locked(lodgers0_gender==None)->enfermé</li>
     <li>lodgers0_lover(lodgers0_gender==Male)->amant</li>
     <li>lodgers0_lover(lodgers0_gender==Female)->amante</li>
+    <li>lodgers0_lover(lodgers0_gender==None)->amant</li>
     <li>lodgers0_inappropriate(lodgers0_gender==Male)->inconvenant</li>
     <li>lodgers0_inappropriate(lodgers0_gender==Female)->inconvenante</li>
+    <li>lodgers0_inappropriate(lodgers0_gender==None)->inconvenant</li>
     <li>lodgers0_prisoner_def(lodgers0_gender==Male)->le prisonnier</li>
     <li>lodgers0_prisoner_def(lodgers0_gender==Female)->la prisonnière</li>
+    <li>lodgers0_prisoner_def(lodgers0_gender==None)->le prisonnier</li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name] a été [asker_caught] au lit avec la mauvaise personne. [asker_pronoun] a emprisonné l'[lodgers0_lover] [lodgers0_inappropriate] en signe de dénégation. Maintenant, [asker_pronoun] voudrait que vous gardiez [lodgers0_prisoner_def] [lodgers0_nameFull] [lodgers0_locked] jusqu'à ce que le scandale éclate dans [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]</li>
     <!-- NOTE: mieux préciser "court rivals" si besoin -->
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, les rivaux de [asker_nameDef] ont payé la faction [enemyFaction_name] pour essayer de libérer l'[lodgers0_lover] et mettre en lumière l'histoire. [enemyGroupsParagraph]</li>

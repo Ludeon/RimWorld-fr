@@ -74,6 +74,7 @@
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] cherche un endroit sûr pour s'occuper de son animal, [lodgersLabel] [lodgers0_nameDef], pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>lodgers0_poorLittle(lodgers0_gender==Male)->le pauvre petit</li>
     <li>lodgers0_poorLittle(lodgers0_gender==Female)->la pauvre petite</li>
+    <li>lodgers0_poorLittle(lodgers0_gender==None)->le pauvre petit</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nDes [enemyFaction_pawnsPlural] de [enemyFaction_name] essayent de tuer [lodgers0_poorLittle] [lodgers0_nameDef] pour atteindre [asker_nameDef]. Si vous acceptez [lodgers0_nameDef], ces [enemyFaction_pawnsPlural] attaqueront aussi longtemps que [lodgers0_pronoun] s'y trouvera. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
@@ -125,6 +126,7 @@
     <li>questName(lodgersCount==1)->garder [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1,lodgers0_gender==Male)->pauvre petit [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1,lodgers0_gender==Female)->pauvre petite [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==None)->pauvre petit [lodgers0_nameDef]</li>
     <li>questName(lodgersCount>=2)->les [lodgersLabelPlural] [animalAdj_plural]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj_plural]</li>
     <li>questName(lodgersCount>=2)->des [lodgersLabelPlural] [animalAdj_plural]</li>
@@ -145,6 +147,12 @@
     <li>animalAdj(lodgers0_gender==Female)->fière</li>
     <li>animalAdj(generateThreats==true,lodgers0_gender==Female)->pourchassée</li>
     <li>animalAdj(generateThreats==true,lodgers0_gender==Female)->effrayée</li>
+    <li>animalAdj(lodgers0_gender==None)->loyal</li>
+    <li>animalAdj(lodgers0_gender==None)->affecueux</li>
+    <li>animalAdj(lodgers0_gender==None)->gentil</li>
+    <li>animalAdj(lodgers0_gender==None)->fier</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==None)->pourchassé</li>
+    <li>animalAdj(generateThreats==true,lodgers0_gender==None)->effrayé</li>
     <li>animalAdj_plural->adorables</li>
     <li>animalAdj_plural->aux yeux de biche</li>
     <!-- pour le pluriel -->

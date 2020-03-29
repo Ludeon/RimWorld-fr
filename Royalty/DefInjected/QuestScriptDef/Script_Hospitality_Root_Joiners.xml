@@ -79,14 +79,19 @@
     <li>threatsInfo2(generateThreats==false)-></li>
     <li>asker_friend(lodgers0_gender==Male)->ami</li>
     <li>asker_friend(lodgers0_gender==Female)->amie</li>
+    <li>asker_friend(lodgers0_gender==None)->ami</li>
     <li>asker_accusative(asker_gender==Male)->le</li>
     <li>asker_accusative(asker_gender==Female)->la</li>
+    <li>asker_accusative(asker_gender==None)->le</li>
     <li>lodgers0_interested(lodgers0_gender==Male)->intéressé</li>
     <li>lodgers0_interested(lodgers0_gender==Female)->intéressée</li>
+    <li>lodgers0_interested(lodgers0_gender==None)->intéressé</li>
     <li>lodgers0_caught(lodgers0_gender==Male)->pris</li>
     <li>lodgers0_caught(lodgers0_gender==Female)->prise</li>
+    <li>lodgers0_caught(lodgers0_gender==None)->pris</li>
     <li>lodgers0_insulter(lodgers0_gender==Male)->insulteur</li>
     <li>lodgers0_insulter(lodgers0_gender==Female)->insulteuse</li>
+    <li>lodgers0_insulter(lodgers0_gender==None)->insulteur</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vous demande une faveur. [lodgers0_possessive] [asker_friend] [lodgers0_nameFull] est [lodgers0_interested] par les autres cultures. [asker_nameDef] voudrait que vous hébergiez [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vous demande une faveur. [lodgers0_possessive] [asker_friend] [lodgers0_nameDef], [lodgers0_titleIndef] de [lodgers0_age] ans, a été [lodgers0_caught] à écrire des insultes vicieuses à propos de [PersonalCharacteristicsAny_def] de [enemyFaction_leader_nameFull]. [asker_nameDef] vous demande de garder [lodgers0_nameDef] pour [shuttleDelayTicks_duration], jusqu'à ce qu'[asker_pronoun] puisse arrondir les angles avec la faction [enemyFaction_name]. [allLodgerInfo]\n\nDepuis que [enemyFaction_leader_nameDef] est [enemyFaction_leaderTitle] de [enemyFaction_name], [enemyFaction_leader_pronoun] a envoyé des groupes de [enemyFaction_pawnsPlural] pour chasser l'[lodgers0_insulter] [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vous demande une faveur. [lodgers0_possessive] [asker_friend] [lodgers0_nameDef], [lodgers0_titleIndef] de [lodgers0_age] ans, a récemment [mechViolation]. [asker_nameDef] vous demande de garder [lodgers0_nameDef] pour [shuttleDelayTicks_duration], jusqu'à ce qu'[asker_pronoun] puisse calmer la ruche mécanoïde. [allLodgerInfo]\n\nDes mécanoïdes viendront pourchasser [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]</li>

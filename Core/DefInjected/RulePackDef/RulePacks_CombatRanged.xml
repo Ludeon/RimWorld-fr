@@ -59,6 +59,9 @@
     <li>r_logentry(RECIPIENT_gender==Female)->[RECIPIENT_definite] a été [damaged_past]e.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] a été prise dans une explosion.</li>
     <li>r_logentry(p=0.001,RECIPIENT_gender==Female)->[RECIPIENT_definite] a été touchée par une explosion.</li>
+    <li>r_logentry(RECIPIENT_gender==None)->[RECIPIENT_definite] a été [damaged_past].</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==None)->[RECIPIENT_definite] a été pris dans une explosion.</li>
+    <li>r_logentry(p=0.001,RECIPIENT_gender==None)->[RECIPIENT_definite] a été touché par une explosion.</li>
     <li>blast->l'explosion</li>
     <li>blast->la déflagration</li>
     <li>blast->l'onde de choc</li>
@@ -233,6 +236,7 @@
     <li>damaged_target_damaged_past_opt(recipient_part_damaged0_gender==Female)->[recipient_part_damaged0_definite] de [RECIPIENT_definite] a été [damaged_past]e</li>
     <li>damaged_target_damaged_past_opt(RECIPIENT_gender==Male)->[RECIPIENT_definite] a été [damaged_past]</li>
     <li>damaged_target_damaged_past_opt(RECIPIENT_gender==Female)->[RECIPIENT_definite] a été [damaged_past]e</li>
+    <li>damaged_target_damaged_past_opt(RECIPIENT_gender==None)->[RECIPIENT_definite] a été [damaged_past]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
@@ -453,6 +457,7 @@
     <!-- FR : pronominal verb -->
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3,ORIGINALTARGET_gender==Male)->s'est [ducked] derrière [COVER_definite]</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3,ORIGINALTARGET_gender==Female)->s'est [ducked]e derrière [COVER_definite]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3,ORIGINALTARGET_gender==None)->s'est [ducked] derrière [COVER_definite]</li>
     <!-- FR : action verb -->
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->a sauté derrière [COVER_definite]</li>
     <li>moved->bougé</li>
