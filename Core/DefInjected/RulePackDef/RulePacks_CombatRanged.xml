@@ -350,9 +350,9 @@
       [WEAPON_projectile_possessive] [WEAPON_projectile_label]
       but WEAPON_projectile_possessive resolve to genderless son/sa
     -->
-    <li>r_logentry->[INITIATOR_definite] [threw] sa [WEAPON_projectile_label] sur [RECIPIENT_definite].</li>
+    <!-- <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [WEAPON_projectile_label] sur [RECIPIENT_definite].</li> -->
     <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite] sur [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] sa [WEAPON_projectile_label].</li>
+    <!-- <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [WEAPON_projectile_label].</li> -->
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite].</li>
     <li>threw_a->[verb_threw] [adverb_threw] une</li>
     <li>threw_a(p=2)->[verb_threw] une</li>
