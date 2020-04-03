@@ -40,6 +40,10 @@
     <li>stunned(SUBJECT_gender==Female)->stupéfaite</li>
     <li>stunned(SUBJECT_gender==Female)->hébétée</li>
     <li>stunned(SUBJECT_gender==Female)->désorientée</li>
+    <li>stunned(p=3,SUBJECT_gender==None)->étourdi</li>
+    <li>stunned(SUBJECT_gender==None)->stupéfait</li>
+    <li>stunned(SUBJECT_gender==None)->hébété</li>
+    <li>stunned(SUBJECT_gender==None)->désorienté</li>
     <li>r_logentry->[SUBJECT_definite] [staggered].</li>
     <li>r_logentry->[SUBJECT_definite] [staggered] par l'attaque.</li>
     <li>r_logentry->[SUBJECT_definite] [staggered] par l'attaque de [INITIATOR_definite].</li>
@@ -51,14 +55,20 @@
     <li>staggered(SUBJECT_gender==Female)->est mise en echec</li>
     <li>staggered(SUBJECT_gender==Female)->est désorientée</li>
     <li>staggered(SUBJECT_gender==Female)->est affaiblie</li>
+    <li>staggered(p=3,SUBJECT_gender==None)->est stupéfait</li>
+    <li>staggered(SUBJECT_gender==None)->est mis en echec</li>
+    <li>staggered(SUBJECT_gender==None)->est désorienté</li>
+    <li>staggered(SUBJECT_gender==None)->est affaibli</li>
     <li>r_logentry->[SUBJECT_definite] [stumbled] visiblement.</li>
     <li>r_logentry->[SUBJECT_definite] [stumbled] dans la confusion.</li>
     <li>stumbled(p=3,SUBJECT_gender==Male)->est tombé</li>
     <li>stumbled(p=3,SUBJECT_gender==Female)->est tombée</li>
+    <li>stumbled(p=3,SUBJECT_gender==None)->est tombé</li>
     <li>stumbled->faiblit</li>
     <li>stumbled->vacille</li>
     <li>stumbled(SUBJECT_gender==Male)->est pris de stupeur</li>
     <li>stumbled(SUBJECT_gender==Female)->est prise de stupeur</li>
+    <li>stumbled(SUBJECT_gender==None)->est pris de stupeur</li>
   </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>

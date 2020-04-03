@@ -8,8 +8,10 @@
     <li>questDescription->[joiner_titleIndef] [joiner_named] [joiner_nameDef] vous appelle. [joiner_pronoun] est [joiner_chased] par des [enemyFaction_pawnsPlural] de [enemyFaction_name] !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite]. [joiner_pronoun] a [joiner_age] ans biologiques.[joiner_relationInfo]\n\nAttention : si vous acceptez, vous devrez combattre les [enemyFaction_pawnsPlural] à ses trousses. Ce groupe est composé de :\n\n[raid/raidPawnKinds]\n\n[joiner_pronoun] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>joiner_named(joiner_gender==Male)->nommé</li>
     <li>joiner_named(joiner_gender==Female)->nommée</li>
+    <li>joiner_named(joiner_gender==None)->nommé</li>
     <li>joiner_chased(joiner_gender==Male)->pourchassé</li>
     <li>joiner_chased(joiner_gender==Female)->pourchassée</li>
+    <li>joiner_chased(joiner_gender==None)->pourchassé</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -36,6 +38,7 @@
     <li>questName->[runnerIndef] et les [enemyFaction_pawnsPlural]</li>
     <li>questName(joiner_gender==Male)->[runnerGendered] chassé par des [enemyFaction_pawnsPlural]</li>
     <li>questName(joiner_gender==Female)->[runnerGendered] chassée par des [enemyFaction_pawnsPlural]</li>
+    <li>questName(joiner_gender==None)->[runnerGendered] chassé par des [enemyFaction_pawnsPlural]</li>
     <li>questName->un réfugié chassé par des [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[runnerGendered]</li>
     <li>runnerIndef->un réfugié</li>

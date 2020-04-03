@@ -15,12 +15,16 @@
     <li>pawnInvolvedInQuestInfo-></li>
     <li>asker_friend(refugee_gender==Male)->ami</li>
     <li>asker_friend(refugee_gender==Female)->amie</li>
+    <li>asker_friend(refugee_gender==None)->ami</li>
     <li>refugee_wounded(refugee_gender==Male)->blessé</li>
     <li>refugee_wounded(refugee_gender==Female)->blessée</li>
+    <li>refugee_wounded(refugee_gender==None)->blessé</li>
     <li>refugee_has_age(refugee_gender==Male)->âgé</li>
     <li>refugee_has_age(refugee_gender==Female)->âgée</li>
+    <li>refugee_has_age(refugee_gender==None)->âgé</li>
     <li>refugee_rescued(refugee_gender==Male)->sauvé</li>
     <li>refugee_rescued(refugee_gender==Female)->sauvée</li>
+    <li>refugee_rescued(refugee_gender==None)->sauvé</li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>

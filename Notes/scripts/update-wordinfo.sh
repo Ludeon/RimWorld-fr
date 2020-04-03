@@ -27,12 +27,13 @@ extract_tag_male_content() { grep -aE '\.(labelMale|labelMalePlural)>' | sed 's/
 extract_tag_female_content() { grep -aE '\.(labelFemale|labelFemalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 extract_tag_plural_content() { grep -aE '\.(labelMalePlural|labelFemalePlural|pawnsPlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 
-# Currently, labelNoun are defined as
+# HediffDef : Currently, labelNoun are defined as
 #   <...labelNoun>un xxx</...labelNoun> or <...labelNoun>une yyy</...labelNoun>
 extract_tag_noun_content() { grep -aE '\.(labelNoun)>[uU]n' | sed 's/^[^>]*>[uU]ne* \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_male_content() { grep -aE '\.(labelNoun)>[uU]n ' | sed 's/^[^>]*>[uU]n \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_female_content() { grep -aE '\.(labelNoun)>[uU]ne ' | sed 's/^[^>]*>[uU]ne \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_plural_content() { grep -aE '\.(labelNoun)>[dD]es ' | sed 's/^[^>]*>[dD]es \([^<]*\)<.*$/\1/' ; }
+extract_tag_tools_content() { grep -aE '\.tools[^>]*\.(label)>' | sed 's/^[^>]*>\([^<]*\)<.*$/\1/' ; }
 
 # Passe tout en minuscule
 to_lowercase() { PERLIO=:utf8 perl -ne 'print lc $_' ;  }
@@ -57,6 +58,7 @@ cat */DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def
 cat */DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all
+cat */DefInjected/HediffDef/*.xml | extract_tag_tools_content | to_lowercase | unique >> $WORKDIR/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
 cat */WordInfo/Gender/Male.txt > $WORKDIR/all_males.txt

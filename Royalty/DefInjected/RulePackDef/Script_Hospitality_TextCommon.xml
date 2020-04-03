@@ -76,17 +76,21 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgers0_expertfighter(lodgers0_gender==Male)->un combattant expert</li>
     <li>lodgers0_expertfighter(lodgers0_gender==Female)->une combattante experte</li>
+    <li>lodgers0_expertfighter(lodgers0_gender==None)->un combattant expert</li>
     <li>lodgers0_targeted(lodgers0_gender==Male)->pris pour cible</li>
     <li>lodgers0_targeted(lodgers0_gender==Female)->prise pour cible</li>
+    <li>lodgers0_targeted(lodgers0_gender==None)->pris pour cible</li>
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
     <li>lodgersIsAre(lodgersCount==1)->est</li>
     <li>lodgersIsAre(lodgersCount>=2)->sont</li>
     <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Male)->arrivé</li>
     <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Female)->arrivée</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==None)->arrivé</li>
     <li>lodgersArrived(lodgersCount>=2)->arrivés</li>
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Male)->le</li>
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==None)->le</li>
     <li>lodgersAccusative(lodgersCount>=2)->les</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir.</li>

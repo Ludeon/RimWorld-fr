@@ -10,8 +10,10 @@
     <li>questDescription->[asker_nameFull], [asker_titleIndef] de [asker_faction_name], nous contacte d'une zone avoisinante. [asker_pronoun] est [asker_followed] par [animalKindDef_indefinite] en colère ! [asker_pronoun] dit qu'[asker_pronoun] voulait seulement prendre l'air lors d'une rapide promenade et ne s'attendait pas à devoir faire face à une menace aussi mortelle.\n\n[asker_nameDef] veut que vous lui assuriez sa sécurité à [map_definite] pendant quelques heures jusqu’à ce qu'une navette puisse procéder à sa récupération. [asker_pronoun] promet de ne pas être [asker_offended] par vos odeurs corporelles ou votre manque de manières.\n\n[asker_pronoun] accordera [royalFavorReward] [asker_faction_royalFavorLabel] pour celui qui acceptera cette quête. C'est suffisamment de faveur pour recevoir le titre royal de mandataire et tous les avantages qui en découlent. Y compris un amplificateur qui vous donnera des capacités psychiques.\n\nSoyez prudent, ceux qui ont des titres ont tendance à devenir hautains et exigeants.</li>
     <li>asker_followed(asker_gender==Male)->poursuivi</li>
     <li>asker_followed(asker_gender==Female)->poursuivie</li>
+    <li>asker_followed(asker_gender==None)->poursuivi</li>
     <li>asker_offended(asker_gender==Male)->offensé</li>
     <li>asker_offended(asker_gender==Female)->offensée</li>
+    <li>asker_offended(asker_gender==None)->offensé</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>

@@ -29,12 +29,15 @@
     <li>helpersIsAre(helpersCount>=2)->sont</li>
     <li>helpersSent(helpersCount==1,helpers0_gender==Male)->envoyé</li>
     <li>helpersSent(helpersCount==1,helpers0_gender==Female)->envoyée</li>
+    <li>helpersSent(helpersCount==1,helpers0_gender==None)->envoyé</li>
     <li>helpersSent(helpersCount>=2)->envoyés</li>
     <li>helpersArrived(helpersCount==1,helpers0_gender==Male)->arrivé</li>
     <li>helpersArrived(helpersCount==1,helpers0_gender==Female)->arrivée</li>
+    <li>helpersArrived(helpersCount==1,helpers0_gender==None)->arrivé</li>
     <li>helpersArrived(helpersCount>=2)->arrivés</li>
     <li>helpersLeaving(helpersCount==1,helpers0_gender==Male)->parti</li>
     <li>helpersLeaving(helpersCount==1,helpers0_gender==Female)->partie</li>
+    <li>helpersLeaving(helpersCount==1,helpers0_gender==None)->parti</li>
     <li>helpersLeaving(helpersCount>=2)->partis</li>
     <li>helpersCustomLetterLabel(helpersCount==1)->[helperKind_label] [helpersArrived]</li>
     <li>helpersCustomLetterLabel(helpersCount>=2)->[helperKind_labelPlural] arrivés</li>

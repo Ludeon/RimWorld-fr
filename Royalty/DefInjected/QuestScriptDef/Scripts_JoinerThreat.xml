@@ -57,11 +57,14 @@
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit que des insectes géants [joiner_accusative] pourchassent après qu'[joiner_pronoun] ait empoisonné une colonie souterraine, et ils l'ont [joiner_soaked] de phéromones de menace !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], une infestation de [hivesCount] ruches commencera dans [infestationDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>joiner_accusative(joiner_gender==Male)->le</li>
-    <li>joiner_accusative(joiner_gender==Male)->la</li>
+    <li>joiner_accusative(joiner_gender==Female)->la</li>
+    <li>joiner_accusative(joiner_gender==None)->le</li>
     <li>joiner_soaked(joiner_gender==Male)->arrosé</li>
     <li>joiner_soaked(joiner_gender==Male)->imbibé</li>
     <li>joiner_soaked(joiner_gender==Female)->arrosée</li>
     <li>joiner_soaked(joiner_gender==Female)->imbibée</li>
+    <li>joiner_soaked(joiner_gender==None)->arrosé</li>
+    <li>joiner_soaked(joiner_gender==None)->imbibé</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -122,18 +125,25 @@
     <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] vous supplie de lui laisser vous rejoindre à [map_definite].[joiner_relationInfo]\n\nUne menace d'origine mystérieuse poursuit [joiner_nameDef], mais [joiner_pronoun] ne veut pas dire ce que c'est ou quand cela pourrait arriver. [joiner_pronoun] ne veut pas non plus vous en dire plus sur [joiner_objective]-même.</li>
     <li>joiner_supposed(joiner_gender==Male)->supposé</li>
     <li>joiner_supposed(joiner_gender==Female)->supposée</li>
+    <li>joiner_supposed(joiner_gender==None)->supposé</li>
     <li>joiner_drunk(joiner_gender==Male)->saoulé</li>
     <li>joiner_drunk(joiner_gender==Female)->saoulée</li>
+    <li>joiner_drunk(joiner_gender==None)->saoulé</li>
     <li>joiner_soaked(joiner_gender==Male)->imbibé</li>
     <li>joiner_soaked(joiner_gender==Female)->imbibée</li>
+    <li>joiner_soaked(joiner_gender==None)->imbibé</li>
     <li>joiner_hunted(joiner_gender==Male)->pourchassé</li>
     <li>joiner_hunted(joiner_gender==Female)->pourchassée</li>
+    <li>joiner_hunted(joiner_gender==None)->pourchassé</li>
     <li>joiner_came_upon(joiner_gender==Male)->tombé</li>
     <li>joiner_came_upon(joiner_gender==Female)->tombée</li>
+    <li>joiner_came_upon(joiner_gender==None)->tombé</li>
     <li>joiner_followed(joiner_gender==Male)->poursuivi</li>
     <li>joiner_followed(joiner_gender==Female)->poursuivie</li>
+    <li>joiner_followed(joiner_gender==None)->poursuivi</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Male)->le</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Female)->la</li>
+    <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==None)->le</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
