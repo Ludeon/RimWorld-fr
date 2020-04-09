@@ -16,8 +16,11 @@
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
+    <li>questName->[violence] for Hire</li>
+    <li>questName->[violence] for Profit</li>
     <li>questName->Rewarded [violence]</li>
     <li>questName->Paid [violence]</li>
+    <li>questName->Compensated [violence]</li>
     <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] for Favor</li>
     <li>questName(reward==royalFavor)->[violence] for Favor</li>
     <li>violence->Violence</li>
@@ -25,25 +28,41 @@
     <li>violence->Combat</li>
     <li>violence->War</li>
     <li>violence->Fighting</li>
+    <li>violence->Bloodshed</li>
+    <li>violence->Attack</li>
+    <li>violence->Defense</li>
+    <li>violence->Conflict</li>
+    <li>violence->Hostility</li>
+    <li>violence->Warfare</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural] pour la fortune</li>
-    <li>questName->[violence] pour la fortune</li>
-    <li>questName->[violence] récompensé</li>
-    <li>questName->[violence] rémunéré</li>
-    <li>questName->[violence] lucratif</li>
-    <li>questName->[violence_fem] pour la fortune</li>
-    <li>questName->[violence_fem] recompensée</li>
-    <li>questName->[violence_fem] rémunérée</li>
-    <li>questName->[violence_fem] lucrative</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] contre faveurs</li>
-    <li>questName(reward==royalFavor)->[violence] contre faveurs</li>
-    <li>questName(reward==royalFavor)->[violence_fem] contre faveurs</li>
-    <li>violence->Combat</li>
-    <li>violence_fem->Bataille</li>
-    <li>violence_fem->Guerre</li>
-    <li>violence_fem->Violence</li>
-    <li>violence_fem->Lutte</li>
+    <li>questName->Des [enemyFaction_pawnsPlural] pour la fortune</li>
+    <li>questName->Un [violence] pour la fortune</li>
+    <li>questName->Un [violence] récompensé</li>
+    <li>questName->Un [violence] rémunéré</li>
+    <li>questName->Un [violence] contre rémunération</li>
+    <li>questName->Un [violence] lucratif</li>
+    <li>questName->Un [violence] profitable</li>
+    <li>questName->Une [violence_fem] pour la fortune</li>
+    <li>questName->Une [violence_fem] recompensée</li>
+    <li>questName->Une [violence_fem] rémunérée</li>
+    <li>questName->Une [violence_fem] contre rémunération</li>
+    <li>questName->Une [violence_fem] lucrative</li>
+    <li>questName->Une [violence_fem] profitable</li>
+    <li>questName(reward==royalFavor)->Des [enemyFaction_pawnsPlural] contre des faveurs</li>
+    <li>questName(reward==royalFavor)->Un [violence] contre des faveurs</li>
+    <li>questName(reward==royalFavor)->Une [violence_fem] contre des faveurs</li>
+    <li>violence->combat</li>
+    <li>violence->massacre</li>
+    <li>violence->carnage</li>
+    <li>violence->conflit</li>
+    <li>violence_fem->bataille</li>
+    <li>violence_fem->guerre</li>
+    <li>violence_fem->violence</li>
+    <li>violence_fem->lutte</li>
+    <li>violence_fem->hostilité</li>
+    <li>violence_fem->hécatombe</li>
+    <li>violence_fem->tuerie</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
