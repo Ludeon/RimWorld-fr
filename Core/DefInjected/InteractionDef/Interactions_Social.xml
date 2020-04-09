@@ -97,8 +97,9 @@
     <li>r_logentry->[INITIATOR_nameDef] a comparé [target] à [insultcomparison].</li>
     <li>r_logentry->[INITIATOR_nameDef] a appelé [target] [insultcomparison].</li>
     <li>target0(p=4)->de [RECIPIENT_nameDef]</li>
-    <!-- BUG: would be nice to use PawnRelationDef/PawnRelations_FamilyByBlood.xml here
-         with the corresponding genre instead of [PersonFamily].
+    <!--
+      NOTE: would be nice to use PawnRelationDef/PawnRelations_FamilyByBlood.xml here
+      with the corresponding genre instead of [PersonFamily].
     -->
     <li>target0->du [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>target0->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
@@ -113,7 +114,7 @@
     <li>insulted->vicieusement insulté</li>
     <li>insulted->méprisé de manière flagrante</li>
     <li>insulted->calomnié</li>
-    <li>insulted->a lancé des invectives au sujet de</li>
+    <li>insulted->lancé des invectives au sujet de</li>
     <li>insulted->ridiculisé</li>
     <li>insultcomparison(p=2)->[AnimalAny_indef]</li>
     <li>insultcomparison->un [Enemy]</li>
@@ -176,10 +177,12 @@
   -->
   <Slight.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] a [madefunof] [PersonalCharacteristicsAny_def] [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof0] [PersonalCharacteristicsAny_def] [target].</li>
     <li>target(p=4)->de [RECIPIENT_nameDef]</li>
     <li>target->du [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>target->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
-    <li>madefunof->s'est moqué de</li>
+    <li>madefunof0(INITIATOR_gender!=Female)->s'est moqué de</li>
+    <li>madefunof0(INITIATOR_gender==Female)->s'est moquée de</li>
     <li>madefunof->manqué de respect envers</li>
     <li>madefunof->subtilement méprisé</li>
     <li>madefunof->subtilement humilié</li>

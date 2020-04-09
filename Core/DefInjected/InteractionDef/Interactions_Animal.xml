@@ -29,26 +29,33 @@
   -->
   <AnimalChat.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] s'est assis près de [RECIPIENT_nameDef] et se mit à parler [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] s'est approché de [RECIPIENT_nameDef] tout en chuchotant à [INITIATOR_objective]-même à propos [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] s'est approché de [RECIPIENT_nameDef] en se parlant [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->[INITIATOR_nameDef] s'est assis près de [RECIPIENT_nameDef] et se mit à parler [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_nameDef] s'est assise près de [RECIPIENT_nameDef] et se mit à parler [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->[INITIATOR_nameDef] s'est approché de [RECIPIENT_nameDef] tout en chuchotant à [INITIATOR_objective]-même à propos [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_nameDef] s'est approchée de [RECIPIENT_nameDef] tout en chuchotant à [INITIATOR_objective]-même à propos [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender!=Female)->[INITIATOR_nameDef] s'est approché de [RECIPIENT_nameDef] en se parlant [TalkTopicAny].</li>
+    <li>r_logentry(INITIATOR_gender==Female)->[INITIATOR_nameDef] s'est approchée de [RECIPIENT_nameDef] en se parlant [TalkTopicAny].</li>
     <li>tamed->a fait des bruits apaisants en direction de</li>
     <li>tamed->a fait des gestes lents et amicaux à</li>
     <li>tamed->a fait des chut chut chut à</li>
     <li>tamed->a fait de joyeux cliquetements à</li>
-    <li>tamed->a bougé doucement et s'est approché de</li>
-    <li>tamed->s'est approché lentement de</li>
+    <li>tamed(INITIATOR_gender!=Female)->a bougé doucement et s'est approché de</li>
+    <li>tamed(INITIATOR_gender==Female)->a bougé doucement et s'est approchée de</li>
+    <li>tamed(INITIATOR_gender!=Female)->s'est approché lentement de</li>
+    <li>tamed(INITIATOR_gender==Female)->s'est approchée lentement de</li>
     <li>tamed->a gentiment touché</li>
     <li>tamed->a calmé et encouragé</li>
     <li>tamed->a respiré au même rythme que</li>
-    <li>tamed->s'est abaissé en s'approchant de</li>
+    <li>tamed(INITIATOR_gender!=Female)->s'est abaissé en s'approchant de</li>
+    <li>tamed(INITIATOR_gender==Female)->s'est abaissée en s'approchant de</li>
     <li>tamed->n'a montré aucune crainte ou colère à</li>
     <li>tamed->a feint l'inattention à l'égard de</li>
     <li>tamed->a fredonné doucement une chanson à</li>
     <li>tamed->a chanté une vieille berceuse à</li>
     <li>tamed->a touché fermement mais doucement</li>
     <li>tamed->a montré une attitude détendue à l'égard de</li>
-    <li>tamed->s'est assis patiemment près de</li>
+    <li>tamed(INITIATOR_gender!=Female)->s'est assis patiemment près de</li>
+    <li>tamed(INITIATOR_gender==Female)->s'est assise patiemment près de</li>
     <li>tamed->a chuchoté une histoire [TalkTopicAny] à</li>
   </AnimalChat.logRulesInitiator.rulesStrings>
   
@@ -84,7 +91,8 @@
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] a frotté [nuzzleadverb] son museau contre [rubbedpart] de [RECIPIENT_nameDef].</li>
     <li>nuzzled(p=2)->a reniflé [nuzzleadverb]</li>
-    <li>nuzzled->s'est blotti [nuzzleadverb] contre</li>
+    <li>nuzzled(INITIATOR_gender!=Female)->s'est blotti [nuzzleadverb] contre</li>
+    <li>nuzzled(INITIATOR_gender==Female)->s'est blottie [nuzzleadverb] contre</li>
     <li>nuzzleadverb(p=4)-></li>
     <li>nuzzleadverb->doucement</li>
     <li>nuzzleadverb->d'une manière encourageante</li>
