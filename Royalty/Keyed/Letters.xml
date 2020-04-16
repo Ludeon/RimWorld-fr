@@ -7,10 +7,10 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>titre de {TITLE} gagné : {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
-  <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun} doit porter des vêtements de qualité {1} ou supérieure.</LetterRoyalTitleApparelQualityRequirement>
-  <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun} souhaite s'habiller avec des vêtements appropriés à son titre :</LetterRoyalTitleApparelRequirement>
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>Ce titre requiert des vêtements de qualité {1} ou supérieure.</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun} demande des vêtements appropriés à son titre :</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>Ses attentes ne seront jamais inférieures à {1}.</LetterRoyalTitleExpectation>
   
@@ -38,14 +38,10 @@
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} n'est pas dispos{PAWN_gender ? é : ée : é(e)} à effectuer ces types de travaux :\n {1}</LetterRoyalTitleDisabledWorkTag>
 
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} demande ce loisir :</LetterRoyalTitleEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun} demande ce loisir :</LetterRoyalTitleStillEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} refuse ce loisir :</LetterRoyalTitleDisabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun} refuse ce loisir :</LetterRoyalTitleStillDisabledJoyKind>
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} peut maintenant utiiser ce loisir :</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>Ce titre interdit ce loisir :</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} est autoris{PAWN_gender ? é : ée : é(e)} à utiliser ces implants : {1}</LetterRoyalTitleAllowedImplants>
@@ -53,14 +49,14 @@
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} n'est plus autoris{PAWN_gender ? é : ée : é(e)} à utiliser ces implants : {1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Les implants doivent être extraits dans un délai maximun de cinq jours afin d'éviter des conséquences diplomatiques.</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} has developed a new need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun} a développé un nouveau besoin d'autorité. Satisfaire celui-ci implique la construction d'une salle du trône appropriée où {PAWN_pronoun} pourra s'asseoir et régner sur ses gens.</LetterRoyalTitleAuthorityNeed>
-  <!-- EN: {PAWN_pronoun} demands a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>{PAWN_pronoun} demande une salle du trône répondant à ces exigences : {1}</LetterRoyalTitleThroneroomRequirements>
-  <!-- EN: {PAWN_pronoun} demands a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>{PAWN_pronoun} demande une chambre qui réponde à ces exigences : {1}</LetterRoyalTitleBedroomRequirements>
-  <!-- EN: {PAWN_pronoun} will only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun} ne mangera que ces aliments : {1}</LetterRoyalTitleFoodRequirements>
+  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun} a développé un nouveau besoin d'autorité. Satisfaire celui-ci implique la construction d'une salle du trône appropriée où {PAWN_pronoun} pourra s'asseoir et régner sur ses gens. La salle du trône peut être partagée, mais chaque noble doit avoir un trône assigné.</LetterRoyalTitleAuthorityNeed>
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>Ce titre demande une salle du trône répondant à ces exigences : {1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>Ce titre demande une chambre qui réponde à ces exigences : {1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>Ce titre exige qu'{PAWN_pronoun} ne mange que ces aliments : {1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} recevra les articles suivants via une capsule de transport : {1}</LetterRoyalTitleRewardGranted>
