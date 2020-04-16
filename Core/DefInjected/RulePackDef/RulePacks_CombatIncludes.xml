@@ -59,7 +59,8 @@
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] avec [implement]</li>
     <li>towardsat->vers</li>
     <li>towardsat->sur</li>
-    <li>verb_genericattack->s'est rué</li>
+    <li>verb_genericattack(INITIATOR_gender!=Female)->s'est rué</li>
+    <li>verb_genericattack(INITIATOR_gender==Female)->s'est ruée</li>
     <li>verb_genericattack->a couru</li>
     <li>verb_genericattack->a bondi</li>
     <li>tried->a essayé</li>
