@@ -101,9 +101,10 @@
   <NamerFactionPirate.rulePack.rulesStrings>
     <li>r_name->Les [AnimalBadass_AnyPlural]</li>
     <li>r_name->Les Hommes [AnimalBadass_AnyPlural]</li>
-    <li>r_name->Les [AnimalBadass_AnyPlural] du [ConceptBadass]</li>
+    // NOTE: "du" -> "de le" give chance to elision "de l'"
+    <li>r_name->Les [AnimalBadass_AnyPlural] de le [ConceptBadass]</li>
     <li>r_name->Les [AnimalBadass_AnyPlural] de la [ConceptBadass_Feminine]</li>
-    <li>r_name->Les [PersonBadass_AnyPlural] du [ConceptBadass]</li>
+    <li>r_name->Les [PersonBadass_AnyPlural] de le [ConceptBadass]</li>
     <li>r_name->Les [PersonBadass_AnyPlural] de la [ConceptBadass_Feminine]</li>
     <li>r_name->Les [PersonBadass_AnyPlural]</li>
     <li>r_name->Les [Enemy_AnyPlural]</li>
@@ -159,13 +160,13 @@
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] [WordTribal]</li>
     <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] du [TerrainFeature] [Color]</li>
+    <li>r_name->[political_union_tribal] de le [TerrainFeature] [Color]</li>
     <li>r_name->[political_union_tribal] de la [TerrainFeature_Feminine] [Color_Feminine]</li>
     <li>r_name->[political_union_tribal] des [TerrainFeature_FemPlural] [Color_FemPlural]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
     <li>r_name->La [WordTribal] des [Animal_Plural] [Color_Plural]</li>
     <li>r_name->La [WordTribal] des [Animal_FemPlural] [Color_FemPlural]</li>
-    <li>r_name->[political_union_tribal] du [TerrainFeature]</li>
+    <li>r_name->[political_union_tribal] de le [TerrainFeature]</li>
     <li>r_name->[political_union_tribal] de la [TerrainFeature_Feminine]</li>
     <li>r_name->[political_union_tribal] des [TerrainFeature_FemPlural]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
@@ -249,7 +250,7 @@
     <li>townname_combo->[topicalnoun] [Community]</li>
     <li>townname_combo->[TerrainFeature] des [topicalnoun]s</li>
     <li>townname_combo->[Community] des [topicalnoun]s</li>
-    <li>townname_combo(p=2)->[TerrainFeature] du [ConceptPositive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] de le [ConceptPositive]</li>
     <li>townname_combo(p=2)->[TerrainFeature] de la [ConceptPositive_Feminine]</li>
     <li>townname_combo(p=2)->[TerrainFeature] [ConceptPositive]</li>
     <li>townname_combo(p=2)->[TerrainFeature] [ConceptPositive_Feminine]</li>
@@ -260,7 +261,7 @@
     <li>townname_combo(p=3)->[TerrainFeature] de [Character_Feminine]</li>
     <li>townname_combo(p=3)->[Community] de [Character_Feminine]</li>
     <li>townname_near->[nearnameinitial] au [TerrainFeature]</li>
-    <li>townname_near->[nearnameinitial] du [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] de le [TerrainFeature]</li>
     <li>townname_near->[nearnameinitial] sur le [TerrainFeature]</li>
     <li>townname_near->[nearnameinitial] à la [TerrainFeature_Feminine]</li>
     <li>townname_near->[nearnameinitial] de la [TerrainFeature_Feminine]</li>
@@ -346,9 +347,9 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[geography] des [AnimalBadass_AnyPlural]</li>
-    <li>townname_combo->[geography] du [AnimalBadass]</li>
+    <li>townname_combo->[geography] de le [AnimalBadass]</li>
     <li>townname_combo->[geography] de la [AnimalBadass_Feminine]</li>
-    <li>townname_combo->[geography] du [ConceptBadass]</li>
+    <li>townname_combo->[geography] de le [ConceptBadass]</li>
     <li>townname_combo->[geography] de la [ConceptBadass_Feminine]</li>
     <li>townname_combo->[geography_masc] [PersonBadass]</li>
     <li>townname_combo->[geography_fem] [PersonBadass_Feminine]</li>

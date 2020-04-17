@@ -101,7 +101,7 @@
       NOTE: would be nice to use PawnRelationDef/PawnRelations_FamilyByBlood.xml here
       with the corresponding genre instead of [PersonFamily].
     -->
-    <li>target0->du [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target0->de le [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>target0->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->le [PersonFamily] de [RECIPIENT_nameDef]</li>
@@ -179,7 +179,7 @@
     <li>r_logentry->[INITIATOR_nameDef] a [madefunof] [PersonalCharacteristicsAny_def] [target].</li>
     <li>r_logentry->[INITIATOR_nameDef] [madefunof0] [PersonalCharacteristicsAny_def] [target].</li>
     <li>target(p=4)->de [RECIPIENT_nameDef]</li>
-    <li>target->du [PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>target->de le [PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>target->de la [PersonFamily_Feminine] de [RECIPIENT_nameDef]</li>
     <li>madefunof0(INITIATOR_gender!=Female)->s'est moqué de</li>
     <li>madefunof0(INITIATOR_gender==Female)->s'est moquée de</li>
