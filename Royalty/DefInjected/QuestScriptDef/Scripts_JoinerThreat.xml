@@ -201,16 +201,24 @@
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
-    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat->unknown enemies</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>threat->[joiner_possessive] enemies</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameFull] appelle d'une zone voisine. [joiner_pronoun] se cache de [threat]. [joiner_pronoun] voudrait quitter sa cachette et vous rejoindre à [map_definite].[joiner_relationInfo]\n\nSi vous l'acceptez, [joinersEnemies] s'installeront sur un site à proximité pour vous harceler. [site/allSitePartsDescriptions]\n\nCette menace restera active tant que vous ne la détruisez pas.</li>
-    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
-    <li>threat->des ennemis inconnus</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->des [site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->des mécanoïdes</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->des mécanoïdes</li>
+    <li>threat->ses ennemis</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->les [site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->les mécanoïdes</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->les mécanoïdes</li>
     <li>joinersEnemies->ses ennemis</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
