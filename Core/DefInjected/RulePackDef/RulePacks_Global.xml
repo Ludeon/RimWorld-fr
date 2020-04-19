@@ -42,7 +42,19 @@
   -->
   <GlobalUtility.rulePack.rulesFiles>
     <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+    <li>BusinessType->Words/Nouns/BusinessTypes</li>
+    <li>BusinessType_Cap->Words/Nouns/BusinessTypes_Cap</li>
+    <li>BusinessType_Feminine->Words/Nouns/BusinessTypes_Feminine</li>
+    <li>BusinessType_Feminine_Cap->Words/Nouns/BusinessTypes_Feminine_Cap</li>
+    <li>BusinessType_Plural->Words/Nouns/BusinessTypes_Plural</li>
+    <li>BusinessType_Plural_Cap->Words/Nouns/BusinessTypes_Plural_Cap</li>
+    <li>BusinessType_FemPlural->Words/Nouns/BusinessTypes_FemPlural</li>
+    <li>BusinessType_FemPlural_Cap->Words/Nouns/BusinessTypes_FemPlural_Cap</li>
     <li>Direction->Words/Adjectives/CompassDirections</li>
+    <li>Direction_Masc->Words/Adjectives/CompassDirections_Masculine</li>
+    <li>Direction_MascPlur->Words/Adjectives/CompassDirections_MascPlural</li>
+    <li>Direction_Fem->Words/Adjectives/CompassDirections_Feminine</li>
+    <li>Direction_FemPlur->Words/Adjectives/CompassDirections_FemPlural</li>
     <li>Letter->WordParts/CapitalLetters</li>
     <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylE->WordParts/Syllables_English</li>
@@ -205,6 +217,13 @@
     <li>Trans->par</li>
     <li>Trans->avec</li>
     <li>Bodypart_fr->[Bodypart]</li>
+    <li>BusinessTypeAny_def->le [BusinessType]</li>
+    <li>BusinessTypeAny_def->la [BusinessType_Feminine]</li>
+    <li>BusinessTypeAny_def->les [BusinessType_Plural]</li>
+    <li>BusinessTypeAny_def_Cap->le [BusinessType_Cap]</li>
+    <li>BusinessTypeAny_def_Cap->la [BusinessType_Feminine_Cap]</li>
+    <li>BusinessTypeAny_def_Cap->les [BusinessType_Plural_Cap]</li>
+    <li>BusinessTypeAny_def_Cap->les [BusinessType_FemPlural_Cap]</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
@@ -221,6 +240,14 @@
     <li>Character_FemPlural(p=3)->[Enemy_FemPlural]</li>
     <li>Character_AnyPlural->[Character_Plural]</li>
     <li>Character_AnyPlural->[Character_FemPlural]</li>
+    <li>Direction_Masculine->[Direction]</li>
+    <li>Direction_Masculine->[Direction_Masc]</li>
+    <li>Direction_MascPlural->[Direction]</li>
+    <li>Direction_MascPlural->[Direction_MascPlur]</li>
+    <li>Direction_Feminine->[Direction]</li>
+    <li>Direction_Feminine->[Direction_Fem]</li>
+    <li>Direction_FemPlural->[Direction]</li>
+    <li>Direction_FemPlural->[Direction_FemPlur]</li>
     <li>Quantity_adjphrase->deux</li>
     <li>Quantity_adjphrase->trois</li>
     <li>Quantity_adjphrase->quatre</li>

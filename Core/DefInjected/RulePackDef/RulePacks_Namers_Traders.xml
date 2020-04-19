@@ -20,22 +20,37 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name(p=4)->[businesstype] [businessname]</li>
-    <li>r_name->[businesstype] de [NamePerson]</li>
-    <li>r_name->[businesstype] de [Animal] [maybe_adjective]</li>
-    <li>r_name->[businesstype] [Letter][Letter]</li>
-    <li>r_name(p=0.5)->[businesstype] de [PersonAlly]</li>
-    <li>r_name(p=0.5)->[businesstype] [AdjectiveFriendly]</li>
-    <li>r_name(p=0.5)->[businesstype] [AdjectiveBadass]</li>
+    <li>r_name(p=4)->[BusinessTypeAny_def] [businessname]</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson]</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson] et frères</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson] et sœurs</li>
+    <li>r_name->[BusinessTypeAny_def] de [NamePerson] et cousins</li>
+    <li>r_name->[BusinessTypeAny_def] de le [PersonFamily] [NamePerson]</li>
+    <li>r_name->[BusinessTypeAny_def] de la [PersonFamily_Feminine] [NamePerson]</li>
+    <li>r_name->[BusinessTypeAny_def] de le [Animal] [maybe_adjective]</li>
+    <li>r_name->[BusinessTypeAny_def] de la [Animal_Feminine] [maybe_adjective_fem]</li>
+    <li>r_name->[BusinessTypeAny_def] [Letter][Letter]</li>
+    <li>r_name(p=0.5)->[BusinessTypeAny_def] de le [PersonAlly]</li>
+    <li>r_name(p=0.5)->le [BusinessType_Cap] [AdjectiveFriendly]</li>
+    <li>r_name(p=0.5)->la [BusinessType_Feminine_Cap] [AdjectiveFriendly_Feminine]</li>
+    <li>r_name(p=0.5)->les [BusinessType_Plural_Cap] [AdjectiveFriendly_Plural]</li>
+    <li>r_name(p=0.5)->les [BusinessType_FemPlural_Cap] [AdjectiveFriendly_FemPlural]</li>
+    <li>r_name(p=0.5)->le [BusinessType_Cap] [AdjectiveBadass]</li>
+    <li>r_name(p=0.5)->la [BusinessType_Feminine_Cap] [AdjectiveBadass_Feminine]</li>
+    <li>r_name(p=0.5)->les [BusinessType_Plural_Cap] [AdjectiveBadass_Plural]</li>
+    <li>r_name(p=0.5)->les [BusinessType_FemPlural_Cap] [AdjectiveBadass_FemPlural]</li>
     <li>r_name(p=0.3)->[businesstype] [PersonFamily]</li>
-    <li>r_name(p=0.3)->[businesstype] [NaturalObject] [maybe_adjective]</li>
-    <li>r_name(p=0.3)->[businesstype] [NaturalObject_Feminine] [maybe_adjective_fem]</li>
-    <li>r_name(p=0.2)->[businesstype] [TreeType] [maybe_adjective]</li>
-    <li>r_name(p=0.2)->[businesstype] [TreeType_Feminine] [maybe_adjective_fem]</li>
-    <li>r_name(p=0.2)->[businesstype] [Vegetable] [maybe_adjective]</li>
-    <li>r_name(p=0.2)->[businesstype] [Vegetable_Feminine] [maybe_adjective_fem]</li>
-    <!--     <li>r_name(p=0.2)->[Direction] [businesstype]</li>-->
-    <li>r_name(p=0.2)->[businesstype] [celestial_name] [Direction]</li>
+    <li>r_name(p=0.3)->[BusinessTypeAny_def] [NaturalObject] [maybe_adjective]</li>
+    <li>r_name(p=0.3)->[BusinessTypeAny_def] [NaturalObject_Feminine] [maybe_adjective_fem]</li>
+    <li>r_name(p=0.2)->[BusinessTypeAny_def] [TreeType] [maybe_adjective]</li>
+    <li>r_name(p=0.2)->[BusinessTypeAny_def] [TreeType_Feminine] [maybe_adjective_fem]</li>
+    <li>r_name(p=0.2)->[BusinessTypeAny_def] [Vegetable] [maybe_adjective]</li>
+    <li>r_name(p=0.2)->[BusinessTypeAny_def] [Vegetable_Feminine] [maybe_adjective_fem]</li>
+    <li>r_name(p=0.2)->le [BusinessType_Cap] [Direction_Masculine]</li>
+    <li>r_name(p=0.2)->la [BusinessType_Feminine_Cap] [Direction_Feminine]</li>
+    <li>r_name(p=0.2)->les [BusinessType_Plural_Cap] [Direction_MascPlural]</li>
+    <li>r_name(p=0.2)->les [BusinessType_FemPlural_Cap] [Direction_FemPlural]</li>
+    <li>r_name(p=0.2)->[BusinessTypeAny_def] [celestial_name] [Direction]</li>
     <li>maybe_adjective-></li>
     <li>maybe_adjective->[Color]</li>
     <li>maybe_adjective->[AdjectiveFriendly]</li>
