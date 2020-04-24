@@ -26,7 +26,7 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->[mechhive] [msyl][msyl]</li>
+    <li>r_name->[mechhive] [msyl_Cap][msyl]</li>
     <li>mechhive->ruche mécanoïde</li>
     <li>msyl->nyar</li>
     <li>msyl->alg</li>
@@ -48,6 +48,26 @@
     <li>msyl->zen</li>
     <li>msyl->yoth</li>
     <li>msyl->lite</li>
+    <li>msyl_Cap->nyar</li>
+    <li>msyl_Cap->alg</li>
+    <li>msyl_Cap->xan</li>
+    <li>msyl_Cap->zel</li>
+    <li>msyl_Cap->kil</li>
+    <li>msyl_Cap->len</li>
+    <li>msyl_Cap->lax</li>
+    <li>msyl_Cap->alph</li>
+    <li>msyl_Cap->ome</li>
+    <li>msyl_Cap->iri</li>
+    <li>msyl_Cap->slin</li>
+    <li>msyl_Cap->toth</li>
+    <li>msyl_Cap->arth</li>
+    <li>msyl_Cap->unth</li>
+    <li>msyl_Cap->ox</li>
+    <li>msyl_Cap->arm</li>
+    <li>msyl_Cap->murd</li>
+    <li>msyl_Cap->zen</li>
+    <li>msyl_Cap->yoth</li>
+    <li>msyl_Cap->lite</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -159,14 +179,14 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal]</li>
-    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal_Cap]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal_Cap]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] de le [TerrainFeature] [Color]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] de la [TerrainFeature_Feminine] [Color_Feminine]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] des [TerrainFeature_FemPlural] [Color_FemPlural]</li>
-    <li>r_name->[PoliticalUnionTribalAny_Def] de [WordTribal]</li>
-    <li>r_name->la [WordTribal] des [Animal_Plural] [Color_Plural]</li>
-    <li>r_name->la [WordTribal] des [Animal_FemPlural] [Color_FemPlural]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de [WordTribal_Cap]</li>
+    <li>r_name->la [WordTribal_Cap] des [Animal_Plural] [Color_Plural]</li>
+    <li>r_name->la [WordTribal_Cap] des [Animal_FemPlural] [Color_FemPlural]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] de le [TerrainFeature]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] de la [TerrainFeature_Feminine]</li>
     <li>r_name->[PoliticalUnionTribalAny_Def] des [TerrainFeature_FemPlural]</li>
@@ -272,10 +292,10 @@
     <li>townname_near->[nearnameinitial] sur la [TerrainFeature_Feminine]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[CommunityAny]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townend]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][townend]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][townend]</li>
     <li>townname_wordgen->[TerrainFeature][townend]</li>
     <li>townname_wordgen->[topicalnoun][townend]</li>
     <li>townend->ville</li>
@@ -374,10 +394,10 @@
     <li>geography_masc->[Community]</li>
     <li>geography_fem(p=2)->[TerrainFeature_Feminine]</li>
     <li>geography_fem->[Community_Feminine]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE_Cap][SylE][townendevil]</li>
     <!-- NOTE ; suffixes démoniaques -->
     <li>townendevil->vast</li>
     <li>townendevil->varg</li>
@@ -409,12 +429,12 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[WordTribal] [Color]</li>
-    <li>r_name->[WordTribal] [Color_Feminine]</li>
+    <li>r_name(p=2)->[WordTribal_Cap]</li>
+    <li>r_name->[WordTribal_Cap] [Color]</li>
+    <li>r_name->[WordTribal_Cap] [Color_Feminine]</li>
     <li>r_name->[TerrainFeature] [Color]</li>
     <li>r_name->[TerrainFeature_Feminine] [Color_Feminine]</li>
-    <li>r_name->[TerrainFeatureAny] [WordTribal]</li>
+    <li>r_name->[TerrainFeatureAny] [WordTribal_Cap]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>

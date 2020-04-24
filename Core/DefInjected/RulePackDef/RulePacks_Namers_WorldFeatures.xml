@@ -478,7 +478,7 @@
     -->
     <li>r_name->[terrain_word] [narrative_name]</li>
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
-    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[WordTribal_Cap]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[NaturalObject] [Color]</li>
     <li>narrative_name->[NaturalObject_Feminine] [Color_Feminine]</li>
@@ -503,7 +503,7 @@
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->le [Animal]</li>
     <li>subject->la [Animal_Feminine]</li>
-    <li>subject->[WordTribal]</li>
+    <li>subject->[WordTribal_Cap]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->folie</li>
     <li>story_result->vice</li>
