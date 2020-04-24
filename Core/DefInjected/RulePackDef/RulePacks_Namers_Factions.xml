@@ -261,6 +261,7 @@
     <li>townname_combo(p=2)->[townname_site_Any] [ConceptPositive_Feminine]</li>
     <li>townname_combo(p=3)->[townname_site_Any] de [Character]</li>
     <li>townname_combo(p=3)->[townname_site_Any] de [Character_Feminine]</li>
+    <li>townname_combo(p=3)->[townname_site_Any] des [Character_Plural]</li>
     <li>townname_near->[nearnameinitial] au [TerrainFeature]</li>
     <li>townname_near->[nearnameinitial] de le [TerrainFeature]</li>
     <li>townname_near->[nearnameinitial] sur le [TerrainFeature]</li>
@@ -355,9 +356,13 @@
     <li>townname_combo->[geography_masc] [PersonBadass]</li>
     <li>townname_combo->[geography_fem] [PersonBadass_Feminine]</li>
     <li>townname_combo->[geography] de [PersonBadassAny]</li>
-    <li>townname_combo->[geography] de [EnemyAny]</li>
+    <li>townname_combo->[geography] des [PersonBadass_AnyPlural]</li>
+    <li>townname_combo->[geography] de le [Enemy]</li>
+    <li>townname_combo->[geography] de la [Enemy_Feminine]</li>
+    <li>townname_combo->[geography] des [Enemy_AnyPlural]</li>
     <li>townname_combo->[geography] [EnemyAny]</li>
-    <li>townname_combo->[geography] de [Weapon]</li>
+    <li>townname_combo->[geography] de le [Weapon]</li>
+    <li>townname_combo->[geography] de la [Weapon_Feminine]</li>
     <li>townname_combo->[geography] des [Weapon_AnyPlural]</li>
     <li>townname_combo->[geography_masc] [ColorBadass]</li>
     <li>townname_combo->[geography_fem] [ColorBadass_Feminine]</li>
