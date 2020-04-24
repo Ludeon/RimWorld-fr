@@ -39,7 +39,8 @@
     <li>r_name(p=0.5)->la [BusinessType_Feminine_Cap] [AdjectiveBadass_Feminine]</li>
     <li>r_name(p=0.5)->les [BusinessType_Plural_Cap] [AdjectiveBadass_Plural]</li>
     <li>r_name(p=0.5)->les [BusinessType_FemPlural_Cap] [AdjectiveBadass_FemPlural]</li>
-    <li>r_name(p=0.3)->[businesstype] [PersonFamily]</li>
+    <li>r_name(p=0.3)->[BusinessTypeAny_def] de le [PersonFamily]</li>
+    <li>r_name(p=0.3)->[BusinessTypeAny_def] de la [PersonFamily_Feminine]</li>
     <li>r_name(p=0.3)->[BusinessTypeAny_def] [NaturalObject] [maybe_adjective]</li>
     <li>r_name(p=0.3)->[BusinessTypeAny_def] [NaturalObject_Feminine] [maybe_adjective_fem]</li>
     <li>r_name(p=0.2)->[BusinessTypeAny_def] [TreeType] [maybe_adjective]</li>
