@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -61,10 +61,12 @@
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[political_union_outlander] [nearnameinitial]</li>
-    <li>r_name->[political_union_outlander] [political_adjective] [nearnameinitial]</li>
-    <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
-    <li>r_name->[political_union_outlander] [political_adjective] de [nearnameinitial]</li>
+    <li>r_name->[PoliticalUnionOutlanderAny_Def] [nearnameinitial]</li>
+    <li>r_name->le [PoliticalUnionOutlander] [AdjectivePolitical] [nearnameinitial]</li>
+    <li>r_name->la [PoliticalUnionOutlander_Feminine] [AdjectivePolitical_Feminine] [nearnameinitial]</li>
+    <li>r_name->[PoliticalUnionOutlanderAny_Def] de [nearnameinitial]</li>
+    <li>r_name->le [PoliticalUnionOutlander] [AdjectivePolitical] de [nearnameinitial]</li>
+    <li>r_name->la [PoliticalUnionOutlander_Feminine] [AdjectivePolitical_Feminine] de [nearnameinitial]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[PlaceOutlander] [Direction]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
@@ -157,17 +159,17 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] de le [TerrainFeature] [Color]</li>
-    <li>r_name->[political_union_tribal] de la [TerrainFeature_Feminine] [Color_Feminine]</li>
-    <li>r_name->[political_union_tribal] des [TerrainFeature_FemPlural] [Color_FemPlural]</li>
-    <li>r_name->[political_union_tribal] de [WordTribal]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] [WordTribal]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de le [TerrainFeature] [Color]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de la [TerrainFeature_Feminine] [Color_Feminine]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] des [TerrainFeature_FemPlural] [Color_FemPlural]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de [WordTribal]</li>
     <li>r_name->la [WordTribal] des [Animal_Plural] [Color_Plural]</li>
     <li>r_name->la [WordTribal] des [Animal_FemPlural] [Color_FemPlural]</li>
-    <li>r_name->[political_union_tribal] de le [TerrainFeature]</li>
-    <li>r_name->[political_union_tribal] de la [TerrainFeature_Feminine]</li>
-    <li>r_name->[political_union_tribal] des [TerrainFeature_FemPlural]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de le [TerrainFeature]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] de la [TerrainFeature_Feminine]</li>
+    <li>r_name->[PoliticalUnionTribalAny_Def] des [TerrainFeature_FemPlural]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
