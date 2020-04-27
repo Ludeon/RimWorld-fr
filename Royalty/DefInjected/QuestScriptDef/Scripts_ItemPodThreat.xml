@@ -19,9 +19,9 @@
     <li>questName->[gameCondition_label] for Pay</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[gameCondition_label] de [asker_nameDef]</li>
+    <li>questName->[gameCondition_definite] de [asker_nameDef]</li>
     <li>questName->[gameCondition_indefinite] pour [asker_nameDef]</li>
-    <li>questName->[gameCondition_label] rémunéré</li>
+    <li>questName->Une rémunération pour [gameCondition_indefinite]</li>
     <li>questName->[gameCondition_label] contre rémunération</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
@@ -58,8 +58,8 @@
     <li>questName->Capsules de transport et [insects]</li>
     <li>questName->Les [insects] de [asker_nameDef]</li>
     <li>questName->Les [insects] valant [itemPodsTotalMarketValue_money]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->Spectacle de [insects]</li>
-    <li>questName(p=0.3)->Un essaim de capsules</li>
+    <li>questName(asker_royalInCurrentFaction==True)->Le spectacle des [insects]</li>
+    <li>questName(p=0.3)->Un essaim de capsules de transport</li>
     <li>insects->insectes</li>
     <li>insects->bestioles</li>
     <li>insects->ruches</li>
@@ -194,10 +194,10 @@
     <li>questName->[site/site_label] for Pay</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[site/site_label] de [asker_nameDef]</li>
-    <li>questName->[site/site_label] pour [asker_nameDef]</li>
-    <li>questName->[site/site_label] payé</li>
-    <li>questName->[site/site_label] contre rémunération</li>
+    <li>questName->[site/site_definite] de [asker_nameDef]</li>
+    <li>questName->[site/site_indefinite] pour [asker_nameDef]</li>
+    <li>questName->Une rémunération pour [site/site_indefinite]</li>
+    <li>questName->[site/site_indefinite] contre rémunération</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
   <ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>[defaultSiteAppearedLetterText]\n\nCe site a été mis en place en réponse à vos signaux insultants.</ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
