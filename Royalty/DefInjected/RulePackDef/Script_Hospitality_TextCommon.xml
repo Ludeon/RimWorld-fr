@@ -17,7 +17,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
@@ -27,8 +27,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->You must keep the [lodgersLabelPlural] at [map_definite] and not send them anywhere else.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -62,7 +60,7 @@
     <li>specialSkillsInfo-></li>
     <li>minMoodInfo(priority=1)->Vous devez maintenir l'humeur de [asker_nameDef] au-dessus de [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
+    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->il y aura [threatCount] raid de taille similaire à ceci :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->il y aura [threatCount] raids de taille similaire à ceci :\n\n[threatExample]</li>
@@ -72,8 +70,6 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->deux ruches mécanoïdes de force [threatSize]x se déployeront dans les parages.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer [lodgers0_nameDef]. Si vous arrivez à l'amener à cette navette en vie, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer les [lodgersLabelPlural]. Si vous arrivez à les amener à cette navette en vie, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Vous devez garder [lodgers0_nameDef] à [map_definite] et ne pas l'envoyer ailleurs.</li>
-    <li>mustKeepOnMapParagraph(lodgersCount>=2)->Vous devez garder les [lodgersLabelPlural] à [map_definite] et ne pas les envoyer ailleurs.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation] et a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Les prisonniers ont récemment [mechViolation], et ont été pris pour cible par un essaim de mécanoïdes en orbite.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été [lodgers0_targeted] par une ruche mécanoïde.</li>

@@ -21,6 +21,11 @@
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
   <ConstructSuccessChance.description>La probabilité d'une personne de réussir une construction.\nUn échec gaspille du temps et des ressources.</ConstructSuccessChance.description>
   
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>vitesse de forage en profondeur</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>La vitesse de ce personnage pour l'extraction des ressources par forage en profondeur.</DeepDrillingSpeed.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>probabilité de réussir une réparation</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
@@ -33,13 +38,13 @@
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>vitesse de minage</MiningSpeed.label>
-  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>Coefficient influant sur la vitesse des travaux de minage et de forage.</MiningSpeed.description>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>Coefficient influant sur la vitesse des travaux de minage des murs.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>rendement minier</MiningYield.label>
-  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
-  <MiningYield.description>Le pourcentage de rendement qu'un mineur atteindra.\n\nCeci s'applique à l'exploitation minière et au forage en profondeur.\nCela n'affecte pas le taux d'extraction des morceaux de roche.</MiningYield.description>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>Le pourcentage de rendement qu'un mineur atteindra.\n\nCeci s'applique à l'exploitation minière et au forage en profondeur.\nCela n'affecte pas le taux d'extraction des morceaux de roche des forages en profondeur.</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>risque d'échec de récolte</PlantHarvestYield.label>
