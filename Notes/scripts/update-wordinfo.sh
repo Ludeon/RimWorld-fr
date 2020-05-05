@@ -81,6 +81,10 @@ cat $WORKDIR/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plur
 # Liste des mots déjà classés par genre
 cat Core/WordInfo/Gender/{Male,Female}.txt | unique > $WORKDIR/wordinfo
 
+# Ajouter les mots au singulier dans WordInfo/Gender/Singular.txt
+# (pour le test de Pluralize)
+exclude Core/WordInfo/Gender/Plural.txt < $WORKDIR/all | unique > Core/WordInfo/Gender/Singular.txt
+
 # Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
 exclude $WORKDIR/wordinfo < $WORKDIR/all | unique > Core/WordInfo/Gender/new_words.txt
 
