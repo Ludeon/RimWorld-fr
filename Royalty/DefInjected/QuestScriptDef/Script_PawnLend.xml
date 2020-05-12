@@ -2,14 +2,19 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], a besoin de bras supplémentaires pour l'aider à [dutyDescription]. [asker_pronoun] vous demande de prêter [colonistCountToLend] à [asker_faction_name] pour [lendForDays] jours.\n\nLorsque les [lendForDays] jours seront écoulés, ils vous restitueront votre prêt.\n\nSi vous acceptez, une navette arrivera pour embarquer [colonistCountToLend]. Quand elle décollera avec son chargement, [allRewardsDescriptions]</li>
@@ -47,39 +52,35 @@
     <li>worker->ouvrier</li>
     <li>worker->assistant</li>
   </PawnLend.questNameRules.rulesStrings>
-  <!-- EN: gather the harvest -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>collecter la récolte</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: fortify a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>fortifier une colonie</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: set up a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>implanter une colonie</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: watch for raiders -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>surveiller les pillards</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: set up a hospital -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>installer un hôpital</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
-  <!-- EN: contain an outbreak of [disease] -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>contenir une épidémie de [disease]</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
-  <!-- EN: {PAWNS} have returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>retour de {PAWNS} après avoir aidé [asker_nameFull] de [asker_faction_name] à [dutyDescription].</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
-  <!-- EN: real hardy surface survivors -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>courageux survivants de la surface</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: goofy jesters -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>bouffons maladroits</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: foreign-accented servants -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>serviteurs à l'accent étranger</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: exotic human specimens -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>spécimens d'humains exotiques</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>retour de {PAWNS} après avoir été exhibé comme [entertainerDescription] dans la cour de [asker_nameFull] [asker_royalTitleInCurrentFaction] de [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>TODO</PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>retour de {PAWNS} après avoir aidé [asker_nameFull] de [asker_faction_name] à [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>TODO</PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>retour de {PAWNS} après avoir été exhibé comme [entertainerDescription] dans la cour de [asker_nameFull] [asker_royalTitleInCurrentFaction] de [asker_faction_name].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>La navette est arrivée</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>La navette est arrivée</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>La navette est arrivée pour récupérer [colonistsToLendCount] de vos colons.</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>La navette est arrivée pour récupérer [colonistsToLendCount] de vos colons.</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>La navette est détruite</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>La navette est détruite</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>La navette envoyée pour récupérer les colons a été détruite.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>La navette envoyée pour récupérer les colons a été détruite.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>Les colons sont revenus</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelColonistsReturned.slateRef>Les colons sont revenus</PawnLend.LetterLabelColonistsReturned.slateRef>
+  
+  <!-- UNUSED -->
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>collecter la récolte</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>fortifier une colonie</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>implanter une colonie</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>surveiller les pillards</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>installer un hôpital</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>contenir une épidémie de [disease]</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>courageux survivants de la surface</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>bouffons maladroits</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>serviteurs à l'accent étranger</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>spécimens d'humains exotiques</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   
 </LanguageData>

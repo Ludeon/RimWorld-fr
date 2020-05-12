@@ -362,6 +362,10 @@
   <CreatureWildness>sauvagerie de {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
   <CreatureTrainability>dressage de {0}</CreatureTrainability>
+  <!-- EN: Follow master while drafted -->
+  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
+  <!-- EN: Follow master while doing field work -->
+  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} avec {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -454,10 +458,16 @@
   <PsychicEntropyPainFocus>{0} concentre la douleur</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>rayon {0}</ConditionCauserRadius>
+  <!-- EN: low psyfocus -->
+  <LowPsyfocus>TODO</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>Il reste {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>N'importe lequel de</AnyOf>
+  <!-- EN: Goodwill -->
+  <Goodwill>TODO</Goodwill>
+  <!-- EN: reducing resistance of {0_nameIndef} -->
+  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -466,6 +476,12 @@
   <ScanAverageInterval>Intervalle de succès aléatoire</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Progression vers une détection garantie</ScanningProgressToGuaranteedFind>
+  
+  <!-- Meditation focus -->
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>TODO</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>TODO</MeditationFocusImpacted>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -928,6 +944,8 @@
   <SourceUnknown>Source inconnue.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Cliquer pour accéder à la source.</ClickToJumpToSource>
+  <!-- EN: Click to jump to the flashstorm. -->
+  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
   <CausedByQuest>Provoqué par la quête : {0}</CausedByQuest>
 
@@ -1216,8 +1234,12 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Entropie psychique : {0}/{1}\nTaux de récupération : {2}/{3} s ({4} s jusqu'à zéro)\n\nL'entropie psychique augmente après avoir exercé un pouvoir psychique.\nLe dépassement de la limite de sécurité peut conduire à des conséquences à long terme sur la santé.\nLorsque l'entropie atteint zéro, elle laisse une gueule de bois psychique.</PawnTooltipPsychicEntropy>
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
+  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Max entropy multiplier: {0} -->
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>TODO</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind. -->
+  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>La douleur focalise l'esprit et permet une récupération plus rapide de l'entropie psychique.\n\nNiveau de douleur : {0}\nBonus de récupération d'entropie psychique : {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1242,6 +1264,12 @@
   <Reward_Items_Caravan>vous recevrez (valeur totale {1}) :\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>vos relations de faction avec {0_name} s'amélioreront de {1}</Reward_Goodwill>
+  <!-- EN: you will be taken to the stars -->
+  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <!-- EN: Passage offworld -->
+  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <!-- EN: value {0} -->
+  <TotalValue>TODO</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
@@ -1272,5 +1300,12 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>affecté par le genre</AffectedGender>
+
+  <!-- Hediff misc -->
+  <!-- EN: Caused by: {0} -->
+  <CausedByHediff>TODO</CausedByHediff>
   
+  <!-- UNUSED -->
+  <PawnTooltipPsychicEntropy>Entropie psychique : {0}/{1}\nTaux de récupération : {2}/{3} s ({4} s jusqu'à zéro)\n\nL'entropie psychique augmente après avoir exercé un pouvoir psychique.\nLe dépassement de la limite de sécurité peut conduire à des conséquences à long terme sur la santé.\nLorsque l'entropie atteint zéro, elle laisse une gueule de bois psychique.</PawnTooltipPsychicEntropy>
+
 </LanguageData>
