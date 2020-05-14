@@ -50,31 +50,36 @@
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>allLodgerInfo->[healthInfo] [minMoodInfo] [workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->les [lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] souffre de blessures et risque de ne pas pouvoir se déplacer.</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont blessés et risquent de ne pas pouvoir se déplacer.</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] souffre de [lodgersDisease_definite].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] souffrent de [lodgersDisease_definite].</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] est [lodgers0_expertfighter].</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont des combattants experts.</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1)->Vous devez maintenir l'humeur de [asker_nameDef] au-dessus de [lodgersMoodThreshold_percent].</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est dans le coma et doit être gardé au lit.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont dans le coma et doivent être gardés au lit.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est malade, son sang est contaminé.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont malades, leur sang est contaminé.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est dans le coma et doit être gardé au lit. Il est aussi malade, son sang est contaminé.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont dans le coma et doivent être gardés au lit. Ils sont aussi malades, leur sang est contaminé.</li>
     <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->Vous devez maintenir l'humeur de [lodgers0_nameDef] au-dessus de [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->Vous devez maintenir l'humeur des [lodgersLabelPlural] au-dessus de [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ne fera aucun travail.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] ne feront aucun travail.</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->il y aura [threatCount] raid de taille similaire à ceci :\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->il y aura [threatCount] raids de taille similaire à ceci :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->il y aura un raid de taille similaire à ceci :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->il y aura un raid de force [threatSize]x et de taille similaire à ceci :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->il y aura [threatCount] raids de taille similaire à ceci :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->il y aura [threatCount] raids de force [threatSize]x et de taille similaire à ceci :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->une ruche mécanoïde se déployera dans les parages.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->deux ruches mécanoïdes se déployeront dans les parages.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->une ruche mécanoïde de force [threatSize]x se déployera dans les parages.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->deux ruches mécanoïdes de force [threatSize]x se déployeront dans les parages.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer [lodgers0_nameDef]. Si vous arrivez à l'amener à cette navette en vie, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer les [lodgersLabelPlural]. Si vous arrivez à les amener à cette navette en vie, [allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer [lodgers0_nameDef].</li>
+    <li>shuttleWillComeParagraph(lodgersCount>=2)->Après [shuttleDelayTicks_duration], une navette arrivera pour récupérer les [lodgersLabelPlural].</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation] et a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Les prisonniers ont récemment [mechViolation], et ont été pris pour cible par un essaim de mécanoïdes en orbite.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été [lodgers0_targeted] par une ruche mécanoïde.</li>
