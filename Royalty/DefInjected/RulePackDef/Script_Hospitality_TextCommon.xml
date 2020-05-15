@@ -7,19 +7,20 @@
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] and [lodgers0_possessive] [allyAllies]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is in a coma and must be kept in bed.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are comatose and need to be kept in bed.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is sick with blood rot.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are sick with blood rot.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is in a coma and must be kept in bed. [lodgers0_nameDef] is also sick with blood rot.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are comatose and need to be kept in bed. the [lodgersLabelPlural] are also sick with blood rot.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed. text_todo</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] is in a coma and must be kept in bed. [asker_possessive] is also sick with blood rot. text_todo</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] are comatose and need to be kept in bed, they are also sick with blood rot. text_todo</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->you must keep [lodgers0_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->you must keep the [lodgersLabelPlural]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->you must keep [lodgersWithMoodThreshold0_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->you must keep [lodgersLabelPlural] mood above [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] will not do any work.</li>
-    <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->all the [lodgersLabelPlural] will not do any work.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->[lodgersLabelSingleOrWithAllies] will not do any work. text_todo</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
@@ -44,6 +45,8 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->has</li>
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->them</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
@@ -55,19 +58,21 @@
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->les [lodgersLabelPlural]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingleOrWithAllies(lodgersCount>=2)->[lodgers0_nameDef] et [allyAllies_poss]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est dans le coma et doit être gardé au lit.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont dans le coma et doivent être gardés au lit.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est malade, son sang est contaminé.</li>
-    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont malades, leur sang est contaminé.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] est dans le coma et doit être gardé au lit. Il est aussi malade, son sang est contaminé.</li>
-    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] sont dans le coma et doivent être gardés au lit. Ils sont aussi malades, leur sang est contaminé.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] est dans le coma et doit être gardé au lit.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] sont dans le coma et doivent être gardés au lit.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] est malade de la gangrène.</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] sont malades de la gangrène.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] est dans le coma et doit être gardé au lit. Il est aussi malade de la gangrène.</li>
+    <li>healthInfo(lodgersAreComatose==true,lodgersHaveBloodRot==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] sont dans le coma et doivent être gardés au lit. Ils sont aussi malades de la gangrène.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->Vous devez maintenir l'humeur de [lodgers0_nameDef] au-dessus de [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold==1,priority=1)->Vous devez maintenir l'humeur de [lodgersWithMoodThreshold0_nameDef] au-dessus de [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>1,priority=1)->Vous devez maintenir l'humeur des [lodgersLabelPlural] au-dessus de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] ne fera aucun travail.</li>
-    <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->les [lodgersLabelPlural] ne feront aucun travail.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->[lodgersLabelSingleOrWithAllies] ne fera aucun travail.</li>
+    <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->[lodgersLabelSingleOrWithAllies] ne feront aucun travail.</li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->il y aura un raid de taille similaire à ceci :\n\n[threatExample]</li>
@@ -108,6 +113,8 @@
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==None)->le</li>
     <li>lodgersAccusative(lodgersCount>=2)->les</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->leur</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
