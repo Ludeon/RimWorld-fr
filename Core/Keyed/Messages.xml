@@ -161,7 +161,7 @@
   <MessageGaveBirth>{0} a donné naissance.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. text_todo -->
-  <MessagePsylinkNoSensitivity>TODO</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} ne pourra pas utiliser le lien psychique parcequ'{PAWN_pronoun} n'a aucune sensibilité psychique.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} a perdu {1} niveau d'implant en raison de {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -486,7 +486,7 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>mort de {1_labelShort}</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>TODO</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_PawnStripped>{0_labelShort} dépouillé</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>échange commercial</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -581,7 +581,7 @@
   <MessageCapturingWillAngerFaction>Capturer {PAWN_nameDef} mettra en colère sa faction {PAWN_factionName}.</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>TODO</MessageStrippingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>Avertissement: dépouiller {PAWN_nameDef} provoquera la colère de {PAWN_factionName}.</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>Ne peut pas tirer lors des mêlées.</MessageCantShootInMelee>
