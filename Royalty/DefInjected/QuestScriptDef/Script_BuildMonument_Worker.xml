@@ -2,19 +2,19 @@
 <LanguageData>
   
   <!-- EN: Monument completed -->
-  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>TODO</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>Monument construit</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration]days,otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
-  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>TODO</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>Vous avez fini la construction du monument.\n\nVous ne devez pas le détruire avant au moins [keepMonumentTicks_duration] jours, sinon vous allez fâcher la faction [asker_factionName] ([goodwillChangeIfMonumentDestroyed] niveau de relations).</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
-  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>TODO</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>Monument détruit</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relationswit [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>TODO</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>[asker_nameDef] est offensé car vous avez laissé le monument détruit.\n\nVos relations avec la faction [asker_factionName] diminueront de [goodwillChangeIfMonumentDestroyed].</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>TODO</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>Ne détruisez pas ce monument pendant {0}</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>TODO</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>Ne détruisez pas ce monument pendant {0}</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <BuildMonumentWorker.KeepMonument.slateRef>TODO</BuildMonumentWorker.KeepMonument.slateRef>
+  <BuildMonumentWorker.KeepMonument.slateRef>Gardez ce monument pendant {0}</BuildMonumentWorker.KeepMonument.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Consequences will follow. -->
   <BuildMonumentWorker.MessageMonumentViolated.slateRef>Le monument de la quête '[resolvedQuestName]' a été profané. Les conséquences vont suivre.</BuildMonumentWorker.MessageMonumentViolated.slateRef>
   <!-- EN: Protect the monument for {0} -->
@@ -34,14 +34,5 @@
   <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>Le délai concernant le monument a expiré</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
   <BuildMonumentWorker.LetterTextTimeExpired.slateRef>Votre délai de construction du monument a expiré. [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
-  
-  <!-- UNUSED -->
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>Monument construit</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>Vous avez fini la construction du monument.\n\nVous ne devez pas le détruire avant au moins [keepMonumentTicks_duration] jours, sinon vous allez fâcher la faction [asker_factionName] ([goodwillChangeIfMonumentDestroyed] niveau de relations).</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monument détruit</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] est offensé car vous avez laissé le monument détruit.\n\nVos relations avec la faction [asker_factionName] diminueront de [goodwillChangeIfMonumentDestroyed].</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>Ne détruisez pas ce monument pendant {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>Ne détruisez pas ce monument pendant {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPartTip.slateRef>
-  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>Gardez ce monument pendant {0}</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
   
 </LanguageData>

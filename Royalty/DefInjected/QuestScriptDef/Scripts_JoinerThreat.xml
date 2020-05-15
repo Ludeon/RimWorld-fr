@@ -36,9 +36,9 @@
     <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] vient vers vous, la météo sera modifiée à [forcedWeather_label] pour [gameConditionDuration_duration] jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->une intelligence artificielle rancunière qu'[joiner_pronoun] a récemment offensée</li>
     <!-- NOTE: machine mind - conscience machine     -->
-    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vient vers vous, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons de sexe [psychicDroneGender].</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vient vers vous, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->une intelligence artificielle agitée qu'[joiner_pronoun] a récemment réveillée</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vient vers vous, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons de sexe [psychicSuppressorGender].</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vient vers vous, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons [psychicSuppressorGender]s.</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
