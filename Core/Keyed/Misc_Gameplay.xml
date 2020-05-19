@@ -363,9 +363,9 @@
   <!-- EN: {0} trainability -->
   <CreatureTrainability>dressage de {0}</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>Suivez le maître pendant la préparation</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Suivre le maître pendant la mobilisation</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>Suivez le maître tandis qu'il travail sur le terrain</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>Suivre le maître pendant son travail sur le terrain</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} avec {1}</ProximitySingleGoodwillChange>
   <!-- EN: You can't re-enter for another {0} days. -->
@@ -459,7 +459,7 @@
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>rayon {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>faible "concentration psychique</LowPsyfocus>
+  <LowPsyfocus>faible concentration psychique</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>Il reste {0}</DurationLeft>
   <!-- EN: Any of -->
@@ -1235,11 +1235,11 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
-  <PawnTooltipPsychicEntropyStats>Entropie psychique: {0} / {1}\nTaux de chute: {2} / {3}s ({4}s jusqu'à zéro)\n\n"Concentration psychique: {5}</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>Entropie psychique : {0}/{1}\nTaux de récupération : {2}/{3} s ({4} s jusqu'à zéro)\n\nConcentration psychique : {5}</PawnTooltipPsychicEntropyStats>
   <!-- EN: Max entropy multiplier: {0} -->
-  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>Multiplicateur d'entropie max: {0}</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>Multiplicateur d'entropie max : {0}</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
   <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind.\n\nPsyfocus is separate from psychic entropy. Having psyfocus below 30% will limit maximum safe entropy. Psyfocus can be gained through meditation. -->
-  <PawnTooltipPsychicEntropyDesc>L'entropie psychique augmente après avoir utilisé un pouvoir psychique. Dépasser la limite de sécurité peut entraîner des conséquences à long terme sur la santé. Chaque fois que l'entropie atteint zéro, elle laisse une gueule de bois psychique.\n\nLa concentration psychique est distinct de l'entropie psychique. Une concentration psychique inférieure à 30% limitera l'entropie maximale sûre. La concetration psychique peut être acquise par la méditation.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>L'entropie psychique augmente après avoir utilisé un pouvoir psychique. Dépasser la limite de sécurité peut entraîner des conséquences à long terme sur la santé. Chaque fois que l'entropie atteint zéro, elle laisse une gueule de bois psychique.\n\nLa concentration psychique est distincte de l'entropie psychique. Une concentration psychique inférieure à 30% limitera l'entropie maximale de sécurité. La concetration psychique peut être acquise par la méditation.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>La douleur focalise l'esprit et permet une récupération plus rapide de l'entropie psychique.\n\nNiveau de douleur : {0}\nBonus de récupération d'entropie psychique : {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1267,7 +1267,7 @@
   <!-- EN: you will be taken to the stars -->
   <Reward_PassageOffworld>vous serez emmené vers les étoiles</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>Passage offworld</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>Voyage vers les étoiles</Reward_PassageOffworld_Label>
   <!-- EN: value {0} -->
   <TotalValue>valeur {0}</TotalValue>
   
@@ -1305,9 +1305,6 @@
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>Causé par: {0}</CausedByHediff>
+  <CausedByHediff>Causé par : {0}</CausedByHediff>
   
-  <!-- UNUSED -->
-  <PawnTooltipPsychicEntropy>Entropie psychique : {0}/{1}\nTaux de récupération : {2}/{3} s ({4} s jusqu'à zéro)\n\nL'entropie psychique augmente après avoir exercé un pouvoir psychique.\nLe dépassement de la limite de sécurité peut conduire à des conséquences à long terme sur la santé.\nLorsque l'entropie atteint zéro, elle laisse une gueule de bois psychique.</PawnTooltipPsychicEntropy>
-
 </LanguageData>
