@@ -63,7 +63,7 @@
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>Multiplicateur pour la taille du corps {0}</StatsReport_BodySize>
   <!-- EN: Carefully slaughtered without wounds -->
-  <StatsReport_HasHediffExplanation>TODO</StatsReport_HasHediffExplanation>
+  <StatsReport_HasHediffExplanation>Abattu soigneusement sans blessures</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = Dégâts x Précision / Temps de recharge (en secondes)</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -289,38 +289,38 @@
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>TODO</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>La molécule chimique active dans ce produit.\n\nDans certains cas, la même molécule chimique est présente dans plusieures drogues différentes. Ces différentes drogues satisferont la même besoin mais de manières différentes.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>TODO</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>L'augmentation de dépendance par dose de cette drogue.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>TODO</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Taux de sevrage par jour pour cette drogue.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>TODO</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Temps de rémanence de cette drogue par dose.\n\nCelui-ci est calculé à partir de l'augmentation de dépendance par dose et du taux de sevrage.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>TODO</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>La sensisibilité d'un utilisateur au produit chimique augmentera pour chaque dose de cette drogue.\n\nCelle-ci peut être différente pour les différentes formes du même produit chimique.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>TODO</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Degré de réduction journalière de la sensibilité d'un utilisateur au produit chimique.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>TODO</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La sensibilité minimale requise pour devenir accro à cette drogue.\n\nSi un utilisateur est en dessous de ce niveau de sensibilité, il ne peut pas devenir accro lors de la prise d'une dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>TODO</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un utilisateur ne deviendra jamais dépendant s'il ne prend jamais la drogue plus souvent que cela.\n\nCeci est calculé à partir de la sensibilité minimale d'une drogue pour un toxicomane , du gain de sensibilité par dose et du taux de sevrage.\n\n Notez que certaines drogues n'ont pas de seuil sûr. Ces drogues peuvent entraîner une dépendance à chaque prise, même la première.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>TODO</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>Le risque d'un surdosage aléatoire lors de la prise de cette drogue. Des overdoses aléatoires peuvent survenir à n'importe quelle prise, que ce soit lors du premier essai d'un nouvel utilisateur ou lors de la énième prise d'un toxicomane expérimenté.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>La dépendance à ce médicament.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>Risque de dépendance par dose de cette drogue.\n\nSi la drogue présente une sensibilité minimale pour les toxicomanes, la sensibilité doit être supérieure à ce niveau pour que celle-ci s’applique. S'il n'y a pas de sensibilité minimale, toute dose prise peut provoquer une dépendance.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>TODO</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Toutes nouvelles dépendances causées par cette drogue commencent à ce niveau de gravité.\n\nLa prise de plus de drogue augmentera la gravité de la dépendance, tandis que le temps la réduira.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>TODO</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Délai nécessaire pour se sevrer d'une dépendance initiale à cette drogue.\n\nCelui-ci est calculé à partir de la gravité de la nouvelle dépendance divisée par le taux de récupération de la dépendance. Une dépendance qui a été entretenue nécessitera plus de temps.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
-  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>TODO</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Niveau de gravité ajouté à une dépendance existante pour chaque prise de cette drogue.\n\nLa gravité de la dépendance ne peut pas dépasser 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
-  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>TODO</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Fréquence à laquelle un toxicomane doit prendre une dose de cette drogue pour sattisfaire son besoin et prévenir le sevrage.\n\nCelle-ci est calculée à partir du taux de sevrage et du besoinde satisfaction par dose.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>TODO</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>niveau de satisfaction de la toxicomanie pour le produit chimique apporté par cette drogue.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>TODO</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Rapidité a laquelle le toxicomane aura besoin d'un produit chimique.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>TODO</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>Valeur marchande des drogues qui doivent être consommées par jour pour satisfaire une dépendance à cette drogue sans être sevré.\n\nCette valeur est calculée à partir de la dépendance chimique par dose du toxicomane, du taux de sevrage et de la valeur marchande de cette drogue .\n\nNotez qu'il peut y avoir d'autres façons d'obtenir le même produit chimique à des coûts différents.</Stat_Thing_Drug_AddictionCost_Desc>
 
 </LanguageData>
