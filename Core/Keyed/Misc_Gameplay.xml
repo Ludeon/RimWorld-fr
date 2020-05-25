@@ -430,8 +430,10 @@
   <MechCluster>groupe de mécanoïdes</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Apparition dans {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1} -->
+  <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>l'assemblage de {0} se termine dans {1}</MechAssemblyCompleteIn>
+  <!-- EN: Will assemble -->
+  <MechAssemblyNextType>TODO</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>produit</ThingsProduced>
   <!-- EN: harvested -->
@@ -452,9 +454,11 @@
   <InitiatesIn>S'amorce dans</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>S'active dans {0}</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
+  <!-- EN: Neural heat -->
   <PsychicEntropy>Entropie psychique</PsychicEntropy>
-  <!-- EN: {0} pain focus -->
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>TODO</PsychicEntropyShort>
+  <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0} concentre la douleur</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>rayon {0}</ConditionCauserRadius>
@@ -477,11 +481,9 @@
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Progression vers une détection garantie</ScanningProgressToGuaranteedFind>
   
-  <!-- Meditation focus -->
-  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>Force de concentration de la méditation pour {LASTUSER_labelShort}</UserMeditationFocusStrength>
-  <!-- EN: Focus effect impacted by -->
-  <MeditationFocusImpacted>Effet de focus impacté par</MeditationFocusImpacted>
+  <!-- Meditation -->
+  <!-- EN: meditating at -->
+  <MeditatingAt>méditant à</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -1008,11 +1010,11 @@
   <ShipReportHibernating>Dispositif d'hypersommeil</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Dispositif non prêt</ShipReportNotReady>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Charlon Whitestone est prêt à commencer la séquence de sortie d'hibernation du réacteur.\n\nIl vous avertit que le processus prendra environ 15 jours et que la signature d'énergie sera détectable de loin. Ce type de signature énergétique est révélateur d'un vaisseau interstellaire et attirera des bandes de pillards désespérés et des nuées de mécanoïdes meurtriers.\n\nVous serez assailli avec une intensité inouïe. Assurez-vous que vos défenses sont bien préparées.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>Le réacteur est prêt à augmenter en puissance.\n\nCe processus prendra environ 15 jours et que la signature d'énergie sera détectable de loin. Ce type de signature énergétique est révélateur d'un vaisseau interstellaire et attirera des bandes de pillards désespérés et des nuées de mécanoïdes meurtriers.\n\nVous serez assailli avec une intensité inouïe.</HibernateWarningStandalone>
-  <!-- EN: <Name>Charlon Whitestone</Name> is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>Charlon Whitestone est prêt à commencer la séquence de sortie d'hibernation du réacteur.\n\nIl vous avertit que le processus prendra environ 15 jours.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>Le réacteur est prêt à augmenter en puissance.\n\nCe processus prendra environ 15 jours.</HibernateWarningStandalonePacifist>
@@ -1234,16 +1236,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Entropie psychique : {0}/{1}\nTaux de récupération : {2}/{3} s ({4} s jusqu'à zéro)\n\nConcentration psychique : {5}</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Max entropy multiplier: {0} -->
-  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>Multiplicateur d'entropie max : {0}</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind.\n\nPsyfocus is separate from psychic entropy. Having psyfocus below 30% will limit maximum safe entropy. Psyfocus can be gained through meditation. -->
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>L'entropie psychique augmente après avoir utilisé un pouvoir psychique. Dépasser la limite de sécurité peut entraîner des conséquences à long terme sur la santé. Chaque fois que l'entropie atteint zéro, elle laisse une gueule de bois psychique.\n\nLa concentration psychique est distincte de l'entropie psychique. Une concentration psychique inférieure à 30% limitera l'entropie maximale de sécurité. La concetration psychique peut être acquise par la méditation.</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>La douleur focalise l'esprit et permet une récupération plus rapide de l'entropie psychique.\n\nNiveau de douleur : {0}\nBonus de récupération d'entropie psychique : {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Basculer le limiteur d'entropie psychique.\n\nLe dépassement de votre limite d'entropie psychique peut entraîner de graves conséquences sur la santé, notamment une dégradation psychique à long terme et même des lésions cérébrales en cas de dépassements importants. Plus l'entropie est dépassée, plus les effets sont dangereux.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>TODO</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1268,6 +1270,10 @@
   <Reward_PassageOffworld>vous serez emmené vers les étoiles</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>Voyage vers les étoiles</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>TODO</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
   <!-- EN: value {0} -->
   <TotalValue>valeur {0}</TotalValue>
   
@@ -1278,8 +1284,6 @@
   <NotBonded>Pas encore lié</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>lié à quelqu'un d'autre</BladelinkBondedToSomeoneElse>
-  <!-- EN: P-{LABEL} -->
-  <PersonaWeaponLabel>P-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1307,4 +1311,8 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causé par : {0}</CausedByHediff>
   
+  <!-- UNUSED -->
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>Multiplicateur d'entropie max : {0}</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
+  <PersonaWeaponLabel>P-{LABEL}</PersonaWeaponLabel>
+
 </LanguageData>

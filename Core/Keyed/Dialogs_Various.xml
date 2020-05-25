@@ -402,8 +402,46 @@
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Divers</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>TODO</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>TODO</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>TODO</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>TODO</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>TODO</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>TODO</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>TODO</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>TODO</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>Addiction</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>TODO</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>TODO</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>TODO</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>TODO</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>TODO</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>TODO</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>TODO</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>TODO</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>TODO</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>TODO</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>TODO</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Bête de somme</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -472,7 +510,7 @@
   <MeditationFocusesPawnDesc>Les types de focus de méditation que cette personne peut utiliser. Lors de la méditation, une personne peut se concentrer sur un objet pour augmenter sa concentration psychique, mais uniquement si cet objet offre un type de focus qu'elle peut utiliser. Les types de méditation pour chaque personne sont déterminés par leurs antécédents, leurs traits, leur position sociale, etc.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Les types de focus de méditation que cet objet propose. Une personne méditant peut se concentrer sur cet objet pour augmenter sa concentration psychique, mais seulement si elle est capable d'utiliser l'un de ses types de méditation. Chaque personne peut utiliser différents types de méditation en fonction de ses antécédents, de ses traits, de sa position sociale, etc.</MeditationFocusesDesc>
-  <!-- EN:  Can use {0} focus type because -->
+  <!-- EN: Can use {0} focus type because -->
   <MeditationFocusCanUse>Peut utiliser le type de focus {0} car</MeditationFocusCanUse>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
   <MeditationFocusEnabledByTitle>détient le titre : {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
@@ -938,8 +976,10 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Ligne de vue requise</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Gain d'entropie</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Durée de l'effet</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -954,5 +994,7 @@
   <AbilityUnwalkable>{0} doit cibler une zone accessible à pied.</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} doit cibler une zone non couverte.</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>

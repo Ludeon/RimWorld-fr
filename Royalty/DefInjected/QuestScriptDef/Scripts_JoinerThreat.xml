@@ -6,19 +6,19 @@
     <li>hidingFrom(gameCondition==ToxicFallout)->a pack of starving wolves</li>
     <li>condDesc(gameCondition==ToxicFallout)->However, [joiner_nameDef] can only kill the wolves by setting fire to a massive toxic chemical dump nearby. [gameConditionDuration_duration] of toxic fallout will follow.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->a gang of cannibals</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->However, [joiner_nameDef] can only kill the gang by setting fire to a massive abandoned garbage pile nearby. If [joiner_pronoun] comes to you, smoky fallout will block the sun for [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->However, [joiner_nameDef] can only kill the gang by setting fire to a massive abandoned garbage pile nearby. If [joiner_pronoun] joins you, smoky fallout will block the sun for [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==EMIField)->a group of mechanoids</li>
-    <li>condDesc(gameCondition==EMIField)->However, [joiner_nameDef] can only destroy the mechanoids by activating an ancient EMI dynamo. If [joiner_pronoun] comes to you, an EMI field will be generated, shutting down electrical devices for [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==EMIField)->However, [joiner_nameDef] can only destroy the mechanoids by activating an ancient EMI dynamo. If [joiner_pronoun] joins you, an EMI field will be generated, shutting down electrical devices for [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==HeatWave)->a malfunctioning climate control satellite</li>
-    <li>condDesc(gameCondition==HeatWave)->If [joiner_pronoun] comes to you, an intense heat wave will last for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>condDesc(gameCondition==HeatWave)->If [joiner_pronoun] joins you, an intense heat wave will last for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==ColdSnap)->a malfunctioning climate control satellite</li>
-    <li>condDesc(gameCondition==ColdSnap)->If [joiner_pronoun] comes to you, an intense cold snap will last for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>condDesc(gameCondition==ColdSnap)->If [joiner_pronoun] joins you, an intense cold snap will last for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==WeatherController)->a malfunctioning weather control satellite</li>
-    <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] comes to you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
+    <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] joins you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->a vengeful machine persona who [joiner_pronoun] recently offended</li>
-    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
-    <li>hidingFrom(gameCondition==PsychicSuppression)->a stirring machine persona who [joiner_pronoun] recently awoke</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] joins you, the machine mind will blast [map_definite] with a [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->a hostile machine persona whom [joiner_pronoun] recently awoke</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] joins you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameFull] vous appelle à l'aide ! [joiner_pronoun] se cache de [hidingFrom]. [joiner_pronoun] veut s'enfuir et vous réjoindre à [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nSe cachant désespérément, [joiner_nameDef] dit ne pas pouvoir vous en dire plus sur [joiner_objective]-même.</li>
@@ -52,7 +52,7 @@
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, an infestation of [hivesCount] hives will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[joiner_pronoun] a empoisonné une colonie souterraine d'insectes, qu'ils l'ont [joiner_soaked] de phéromones de menace et maintenant des insectes géants [joiner_accusative] pourchassent !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], une infestation de [hivesCount] ruches commencera dans [infestationDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>

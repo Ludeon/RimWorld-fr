@@ -3,8 +3,8 @@
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nA [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
