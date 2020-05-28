@@ -111,6 +111,11 @@
     <li>lodgersAccusative(lodgersCount>=2)->les</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->leur</li>
+    <li>lodgersPossessive(lodgersCount==1)->son</li>
+    <li>lodgersPossessive(lodgersCount>=2)->leur</li>
+    <li>askerWillingTo(asker_gender==Male)->disposé</li>
+    <li>askerWillingTo(asker_gender==Female)->disposée</li>
+    <li>askerWillingTo(asker_gender==None)->disposé</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Les [lodgersLabelPlural] restants vont maintenant partir.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Vous avez raté la quête '[resolvedQuestName]'.</li>
