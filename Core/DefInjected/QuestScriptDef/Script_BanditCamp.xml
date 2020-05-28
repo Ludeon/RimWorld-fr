@@ -25,13 +25,25 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-  <!-- TODO: Texte EN changé -->
-    <li>questName->[asker_nameDef] offre une prime</li>
-    <li>questName->Un camp de [enemyFaction_pawnsPlural]</li>
-    <li>questName->Le camp de bandits</li>
-    <li>questName->Le camp de pillards</li>
-    <li>questName->Détruire un camp</li>
-    <li>questName->Aider [asker_nameDef]</li>
+    <li>questName->[camp_def] de [bandit]</li>
+    <li>questName->[camp_indef] de [bandit]</li>
+    <li>questName->[asker_nameDef] et [camp_def]</li>
+    <li>camp_def->un camp</li>
+    <li>camp_def->un avant-poste</li>
+    <li>camp_def->un repaire</li>
+    <li>camp_def->un campement</li>
+    <li>camp_indef->un camp</li>
+    <li>camp_indef->un avant-poste</li>
+    <li>camp_indef->un repaire</li>
+    <li>camp_indef->un campement</li>
+    <li>bandit->bandits</li>
+    <li>bandit->pillards</li>
+    <li>bandit->hors-la-loi</li>
+    <li>bandit->desperados</li>
+    <li>bandit->fugitifs</li>
+    <li>bandit->maraudeurs</li>
+    <li>bandit->voleurs</li>
+    <li>bandit->brigands</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Quête expirée : [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
@@ -40,8 +52,7 @@
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Quête échouée : [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <!-- TODO: Texte EN changé -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Les bandits ont levé le camps et sont partis.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Découverts, les bandits ont levé le camps et sont partis. La quête [resolvedQuestName] est finie.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Paiement arrivé</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
