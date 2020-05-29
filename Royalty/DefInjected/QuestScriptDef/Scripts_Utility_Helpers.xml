@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] mettra [helperKind_indefinite] sous votre commandement pour vous assister. Vous devrez lui fournir nourriture et hébergement, mais si [helpers0_pronoun] meurt au combat, il n'y aura pas de conséquence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] mettra [helpersCount] [helperKind_labelPlural] sous votre commandement pour vous assister. Vous devrez les héberger et les nourrir, mais leurs morts au combat n'auront pas de conséquence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->[helperKind_indefinite] sera sous votre commandement. Vous devrez lui fournir nourriture et hébergement, mais si [helpers0_pronoun] meurt au combat, il n'y aura pas de conséquence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->[helpersCount] [helperKind_labelPlural] seront placés sous votre commandement. Vous devrez les héberger et les nourrir, mais leurs morts au combat n'auront pas de conséquence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount==1)->\n\n[helperKind_indefinite] a été [helpersSent] pour vous assister.</li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helperKind_labelPlural] ont été envoyés pour vous assister.</li>
