@@ -66,6 +66,7 @@
   <Hospitality_Joiners.questDescriptionRules.rulesStrings>
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->les [lodgersLabelPlural]</li>
+    <li>joinerEnding(priority=1)-></li>
     <li>joinerEnding->Vous pourrez contrôler [lodgersDef] de la même façon que vos propres colons.[specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Vous devrez satisfaire n'importe quel besoin royal que les [lodgersLabelPlural] pourront avoir.</li>
     <li>specialNeedsExplanation-></li>
