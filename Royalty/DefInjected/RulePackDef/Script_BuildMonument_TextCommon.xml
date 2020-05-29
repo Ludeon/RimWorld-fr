@@ -92,11 +92,11 @@
   <QuestConstructionNameCommon.rulePack.rulesStrings>
     <li>questName->[constAdj_masc] [construction_masc]</li>
     <li>questName->[constAdj_fem] [construction_fem]</li>
-    <li>questName->Un [constAdj_masc] [construction_masc]</li>
-    <li>questName->Une [constAdj_fem] [construction_fem]</li>
+    <li>questName->Un [construction_masc] [constAdj_masc]</li>
+    <li>questName->Une [construction_fem] [constAdj_fem]</li>
     <!-- Les élisions devraient se faire automatiquement -->
-    <li>questName->Le [constAdj_masc] [construction_masc]</li>
-    <li>questName->La [constAdj_fem] [construction_fem]</li>
+    <li>questName->Le [construction_masc] [constAdj_masc]</li>
+    <li>questName->La [construction_fem] [constAdj_fem]</li>
     <!-- Adjectif masculin -->
     <li>constAdj_masc(p=20)->[AdjectiveLarge]</li>
     <li>constAdj_masc->[constAdj_inv]</li>
