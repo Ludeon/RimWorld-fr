@@ -95,7 +95,7 @@
     <li>manhuntingBeastIndef(animalCount==1)->un(e) [animalKind_label] chasseur d'homme</li>
     <li>manhuntingBeastIndef(animalCount==1)->[animalKind_indefinite] chasseur d'homme</li>
     <li>manhuntingBeastIndef(animalCount>=2)->une meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
-    <li>endSection->\n\n[helpersParagraph][animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
+    <li>endSection->\n\n[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
     <!-- BUG: même bug -->
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. Un(e) [animalKind_label] sauvage le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. [animalKind_indefinite] sauvage le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>

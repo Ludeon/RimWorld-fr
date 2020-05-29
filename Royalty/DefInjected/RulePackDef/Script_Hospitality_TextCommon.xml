@@ -69,7 +69,7 @@
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->[lodgersLabelSingOrPluralDef] ne fera aucun travail.</li>
     <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->[lodgersLabelSingOrPluralDef] ne feront aucun travail.</li>
-    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>commonDescEnding->\n\n[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->il y aura un raid de taille similaire à ceci :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->il y aura un raid de force [threatSize]x et de taille similaire à ceci :\n\n[threatExample]</li>
