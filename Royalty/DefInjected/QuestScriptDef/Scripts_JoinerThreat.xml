@@ -25,20 +25,20 @@
     <li>hidingFrom(gameCondition==ToxicFallout)->une meute de loups affamés</li>
     <li>condDesc(gameCondition==ToxicFallout)->Cependant, [joiner_nameDef] peut tuer les loups seulement en mettant le feu à un énorme dépôt chimique toxique voisin. [gameConditionDuration_duration] de retombée toxique s'ensuivra.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->un gang de cannibales</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->Cependant, [joiner_nameDef] peut tuer tout le gang seulement en mettant le feu à un énorme tas d'ordures abandonné voisin. Si [joiner_pronoun] vient vers vous, de la fumée bloquera la lumière du soleil pendant [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Cependant, [joiner_nameDef] peut tuer tout le gang seulement en mettant le feu à un énorme tas d'ordures abandonné voisin. Si [joiner_pronoun] vous rejoint, de la fumée bloquera la lumière du soleil pendant [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==EMIField)->un groupe de mécanoïdes</li>
-    <li>condDesc(gameCondition==EMIField)->Cependant, [joiner_nameDef] peut détruire les mécanoïdes seulement en activant une ancienne dynamo IEM. Si [joiner_pronoun] vient vers vous, un champ d'impulsion électromagnétique sera généré, arrêtant tous les appareils électriques pendant [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==EMIField)->Cependant, [joiner_nameDef] peut détruire les mécanoïdes seulement en activant une ancienne dynamo IEM. Si [joiner_pronoun] vous rejoint, un champ d'impulsion électromagnétique sera généré, arrêtant tous les appareils électriques pendant [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==HeatWave)->un satellite de contrôle climatique défectueux</li>
-    <li>condDesc(gameCondition==HeatWave)->Si [joiner_pronoun] vient vers vous, une vague de chaleur intense qui durera [gameConditionDuration_duration] s'abattra jusqu'à ce que le satellite se réinitialise.</li>
+    <li>condDesc(gameCondition==HeatWave)->Si [joiner_pronoun] vous rejoint, une vague de chaleur intense qui durera [gameConditionDuration_duration] s'abattra jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==ColdSnap)->un satellite de contrôle climatique défectueux</li>
-    <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] vient vers vous, une vague de froid intense qui durera [gameConditionDuration_duration] s'abattra jusqu'à ce que le satellite se réinitialise.</li>
+    <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] vous rejoint, une vague de froid intense qui durera [gameConditionDuration_duration] s'abattra jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==WeatherController)->un satellite de contrôle météorologique défectueux</li>
-    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] vient vers vous, la météo sera modifiée à [forcedWeather_label] pour [gameConditionDuration_duration] jusqu'à ce que le satellite se réinitialise.</li>
+    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] vous rejoint, la météo sera modifiée à [forcedWeather_label] pour [gameConditionDuration_duration] jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->une intelligence artificielle rancunière qu'[joiner_pronoun] a récemment offensée</li>
     <!-- NOTE: machine mind - conscience machine     -->
-    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vient vers vous, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
-    <li>hidingFrom(gameCondition==PsychicSuppression)->une intelligence artificielle agitée qu'[joiner_pronoun] a récemment réveillée</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vient vers vous, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons [psychicSuppressorGender]s.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vous rejoint, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->une intelligence artificielle hostile qu'[joiner_pronoun] a récemment réveillée</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vous rejoint, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons [psychicSuppressorGender]s.</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
