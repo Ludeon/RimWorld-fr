@@ -76,6 +76,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->son</li>
     <li>theirHisHer(lodgersCount>=2)->leur</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->ils</li>
+    <li>lodgersWasWere(lodgersCount==1)->était</li>
+    <li>lodgersWasWere(lodgersCount>=2)->étaient</li>
     <li>appreciateAppreciates(lodgersCount==1)->apprécie</li>
     <li>appreciateAppreciates(lodgersCount>=2)->apprécient</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] les hébergements de qualité. Vous gagnerez des niveaux de relation avec [asker_faction_name] si vous gardez [theirHisHer] humeur moyen élevé.</li>
