@@ -7,6 +7,9 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>titre de {TITLE} gagné : {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>TODO</PermitPointsAwarded>
+
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>Ce titre requiert des vêtements de qualité {1} ou supérieure.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
@@ -23,7 +26,7 @@
   <LetterLostRoyalTitle>{PAWN_labelShort} ne détient plus le titre de {TITLE} avec {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Récompenses de titre</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
   <LetterRewardsForNewTitle>Pour honorer {PAWN_labelShort} qui passe au titre de {TITLE}, {FACTION_name} lui a envoyé les récompenses suivantes :</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>Les récompenses sont arrivées à votre colonie par capsules de transport.</LetterRewardsForNewTitleDeliveryBase>
@@ -109,6 +112,10 @@
   <LetterEncouragingSpeech>C'était encourageant et bien adapté.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>C'était remarquablement inspirant, plein d'intensité et de détermination.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>TODO</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>TODO</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Parce que le discours a été interrompu après seulement {0}, il n'a pas été aussi efficace qu'il aurait dû.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -137,11 +144,39 @@
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>lien psychique gagné</LetterLabelPsylinkLevelGained>
-  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} a gagné son premier niveau de lien psychique ! {USER_pronoun} est maintenant un  psycho-sensible.\n\nPour utiliser ses capacités psy, {USER_labelShort} doit développer sa concentration psychique par la méditation. L'efficacité de cette méditation est accrue si la personne peut se concentrer sur un objet spécifique tout en méditant.\n\nDifférentes personnes sont capables de se concentrer sur différents objets. Cela dépend des antécédents, des traits et des titres de la personne. Par exemple :\n\n- Les  psycho-sensibles ayant des titres royaux méditent sur leurs trônes.\n- Les  psycho-sensibles d'origine tribales méditent sur les arbres anima et les sanctuaires de la nature.\n- Les  psycho-sensibles ascétiques méditent face à des murs vides.\n- Les psycho-sensibles psychopathes méditent sur les tombes, idéalement avec un être cher à l'intérieur.\n\nVous pouvez voir les types de focus de méditation de quelqu'un en regardant leur fiche d'information avec le bouton "i".</LetterPsylinkLevelGained_First>
-  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} a gagné un nouveau niveau de lien psychique ! {USER_pronoun} peut désormais utiliser des capacités psy de niveau supérieur, mais {USER_pronoun} doit d'abord les apprendre.</LetterPsylinkLevelGained_NotFirst>
-  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
-  <LetterPsylinkLevelGained_PsycastLearned>Lors de l'obtention du nouveau niveau de lien psychique, {USER_labelShort} a automatiquement appris ce pouvoir : {2}.</LetterPsylinkLevelGained_PsycastLearned>
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <LetterPsylinkLevelGained_First>TODO</LetterPsylinkLevelGained_First>
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <LetterPsylinkLevelGained_NotFirst>TODO</LetterPsylinkLevelGained_NotFirst>
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
+  <LetterPsylinkLevelGained_PsycastLearned>TODO</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>TODO</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>TODO</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>TODO</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>TODO</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>TODO</LetterJoinOfferAccept>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>TODO</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>TODO</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>TODO</LetterTextHonorAward_BanditCamp>
+
+  <!-- Shuttle crash -->
+  <!-- EN: Shuttle crashed -->
+  <LetterLabelShuttleCrashed>TODO</LetterLabelShuttleCrashed>
+  <!-- EN: A shuttle has crashed nearby -->
+  <LetterTextShuttleCrashed>TODO</LetterTextShuttleCrashed>
 
 </LanguageData>

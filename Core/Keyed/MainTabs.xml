@@ -90,6 +90,8 @@
   <EnemyOf>Ennemi de :</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Relation actuelle avec cette faction.</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>TODO</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Cette faction est en permanence hostile. Ils vont attaquer vos colonies et vos caravanes. Les relations avec eux ne s'amélioreront jamais quelle que soit la raison.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -202,6 +204,8 @@
   <ResearchTechprintsFromFactions>Des schémas techniques sont disponibles auprès de ces factions via des échanges et des quêtes :</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>Le niveau technique de votre faction est {0}, mais le niveau technique de ce projet est {1}. La vitesse de recherche sera multipliée par {2}.</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>TODO</UnlockedWith>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -240,6 +244,10 @@
   <ShuttleDepartsIn>La navette part dans {0}</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>La navette part le {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>TODO</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Terminée il y a {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +278,14 @@
   <QuestBedroomRequirementsUnsatisfied>chambres libres qui répondent aux exigences de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>une chambre libre qui satisfait aux exigences de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>un colon avec le titre de {0}.</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} must be in home colony -->
+  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Préférences pour les récompenses</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -292,6 +306,10 @@
   <GoodwillTip>Votre bonne entente avec {0_name} s'améliorera de {1}.\n\nEntente actuelle : {4} ({5}).\n\nLa bonne entente mesure la relation générale entre les factions. Si elle tombe en dessous de {2}, la faction devient hostile et va attaquer vos colonies et caravanes. Si elle dépasse {3}, la faction deviendra votre alliée et enverra des combattants pour vous aider quand ils le pourront. Sinon, la faction reste neutre, elle échange et communique avec vous librement.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} rejoint votre colonie</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->

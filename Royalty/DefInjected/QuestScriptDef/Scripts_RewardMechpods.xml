@@ -6,14 +6,14 @@
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
-    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]</li>
+    <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
     <li>dangersDescription(priority=1)->\n\nLes capsules contiennent ces dangers :\n\n[allThreats]</li>
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], fait une demande. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] de [asker_faction_name], fait une demande. [commonMainPart]</li>
-    <li>commonMainPart->Un essaim mécanoïde a attaqué ses colonies. [asker_pronoun] veut que vous fassiez diversion afin de les distraire pendant qu'[asker_pronoun] éradique l'essaim. Si vous le faites, un groupe de mécanoïdes atterrira à [map_definite].[dangersDescription]\n\nL'escouade de mécanoïdes sera dans un premier temps inactive. Elle peut soit être activée par un compte à rebours, soit rester inactive jusqu'à ce qu'elle soit dérangée.\n\n[helpersParagraph]</li>
+    <li>commonMainPart->Un essaim mécanoïde a attaqué ses colonies. [asker_pronoun] veut que vous fassiez diversion afin de les distraire pendant qu'[asker_pronoun] éradique l'essaim. Si vous le faites, un (*Threat)groupe de mécanoïdes(/Threat) atterrira à [map_definite].[dangersDescription]\n\nL'escouade de mécanoïdes sera dans un premier temps inactive. Elle peut soit être activée par un compte à rebours, soit rester inactive jusqu'à ce qu'elle soit dérangée.\n\n[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>

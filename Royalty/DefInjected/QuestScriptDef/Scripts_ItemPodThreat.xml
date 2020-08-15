@@ -26,19 +26,19 @@
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with the pheromone, provoking (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->The hives were attracted by a pheromone sweep from an orbiting research ship.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is facing repeated infestations at sites near [map_definite]. [asker_pronoun] wants to draw the infestations to you. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->The hives were originally infesting nearby sites belonging to [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke an infestation of [hivesCount] hives.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is having trouble landing near [map_definite] due to repeated infestations. [asker_pronoun] wants to draw the bugs to you to be dealt with. This will provoke (*Threat)an infestation of [hivesCount] hives(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Un vaisseau orbital de recherche voudrait tester un nouveau type de phéromones d'insectes. Si vous êtes d'accord, ils épandront ces phéromones sur [map_definite], provoquant une infestation de [hivesCount] ruches.\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->Un vaisseau orbital de recherche voudrait tester un nouveau type de phéromones d'insectes. Si vous êtes d'accord, ils épandront ces phéromones sur [map_definite], provoquant (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Les ruches ont été attirées par un épandage de phéromones venant d'un vaisseau de recherche en orbite.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], est [asker_facing] à des infestations répétées dans les zones près de [map_definite]. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera une infestation de [hivesCount] ruches.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], est [asker_facing] à des infestations répétées dans les zones près de [map_definite]. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->À l'origine, les ruches ont infesté les zones voisines appartenant à [asker_nameFull] de [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a des problème pour atterrir dans la zone de [map_definite] à cause des infestations répétées. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera une infestation de [hivesCount] ruches.\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a des problème pour atterrir dans la zone de [map_definite] à cause des infestations répétées. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->L'infestation a été attirée vers vous par [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
     <li>asker_facing(asker_gender==Male)->confronté</li>
     <li>asker_facing(asker_gender==Female)->confrontée</li>
@@ -68,19 +68,19 @@
   <!-- EN:
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->a manhunting [animalKind_label]</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->a pack of [animalCount] manhunting [animalKind_labelPlural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
     <li>endSection->\n\n[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. A wild [animalKind_label] is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of [animalCount] wild [animalKind_labelPlural] are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
     <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to a manhunting [animalKind_label]. [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of [animalCount] manhunting [animalKind_labelPlural]. [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
@@ -92,26 +92,26 @@
     <li>animalWillArrive(animalCount==1)->arrivera</li>
     <li>animalWillArrive(animalCount>=2)->arriveront</li>
     <!-- NOTE: laisser Un(e) [animalKind_label] pour ne pas boguer. -->
-    <li>manhuntingBeastIndef(animalCount==1)->un(e) [animalKind_label] chasseur d'homme</li>
-    <li>manhuntingBeastIndef(animalCount==1)->[animalKind_indefinite] chasseur d'homme</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->une meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
+    <li>manhuntingBeastIndef(animalCount==1)->un(e) (*Threat)[animalKind_label] chasseur d'homme(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKind_indefinite] chasseur d'homme(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'homme(/Threat)</li>
     <li>endSection->\n\n[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
     <!-- BUG: même bug -->
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. Un(e) [animalKind_label] sauvage le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. [animalKind_indefinite] sauvage le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)Un(e) [animalKind_label] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)[animalKind_indefinite] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
     <!-- BUG: même bug -->
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->Le/la [animalKind_label] pourchassait un marchand voisin.</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_definite] pourchassait un marchand voisin.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand vous appelle. Une meute de [animalCount] [animalKind_labelPlural] sauvages le pourchassent ! Il voudrait votre aide pour attirer les bêtes loin de lui.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand vous appelle. (*Threat)Une meute de [animalCount] [animalKind_labelPlural] sauvages(/Threat) le pourchassent ! Il voudrait votre aide pour attirer les bêtes loin de lui.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Les [animalKind_labelPlural] pourchassaient un marchand voisin.</li>
     <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] sont harcelées par [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] voudrait votre aide pour attirer [animalKindLabelCorrect_def] loin de ces caravanes.[endSection]</li>
     <!-- BUG: même bug -->
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->Le/la [animalKind_label] harcelait les caravanes venant de [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_definite] harcelait les caravanes venant de [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->Les [animalKind_labelPlural] harcelaient les caravanes venant de  [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu un éclaireur à cause d'un [animalKind_label] chasseur d'homme. [asker_pronoun] voudrait attirer la bête vers vous pour être tuée, pour défendre son honneur.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu un éclaireur à cause d'un (*Threat)[animalKind_label] chasseur d'homme(/Threat). [asker_pronoun] voudrait attirer la bête vers vous pour être tuée, pour défendre son honneur.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->C'est le/la [animalKind_label] qui a tué l'éclaireur de [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu une escouade d'éclaireurs à cause d'une meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme. [asker_pronoun] voudrait attirer les bêtes vers vous pour être tuées, pour défendre son honneur.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu une escouade d'éclaireurs à cause d'une (*Threat)meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme(/Threat). [asker_pronoun] voudrait attirer les bêtes vers vous pour être tuées, pour défendre son honneur.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Ce sont les [animalKind_labelPlural] qui ont tué l'escouade d'éclaireurs de [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:

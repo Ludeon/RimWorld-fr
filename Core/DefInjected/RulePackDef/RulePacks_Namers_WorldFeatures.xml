@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->islands</li>
     <li>terrain_word(p=3)->isles</li>
     <li>terrain_word(p=3)->archipelago</li>
@@ -14,7 +14,7 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->île [narrative_name]</li>
+    <li>r_name(p=0.2)->île [narrative_name]</li>
     <li>terrain_word(p=4)->îles</li>
     <li>terrain_word(p=3)->ilôts</li>
     <li>terrain_word(p=3)->archipel</li>
@@ -49,7 +49,7 @@
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->gulf of [narrative_name]</li>
+    <li>r_name(p=0.2)->gulf of [narrative_name]</li>
     <li>terrain_word(p=6)->bay</li>
     <li>terrain_word->bight</li>
     <li>terrain_word->gulf</li>
@@ -57,7 +57,7 @@
     <li>terrain_word->cove</li>
   -->
   <NamerBay.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->golfe de [narrative_name]</li>
+    <li>r_name(p=0.2)->golfe de [narrative_name]</li>
     <li>terrain_word(p=6)->baie</li>
     <li>terrain_word->anse</li>
     <li>terrain_word->golfe</li>
@@ -87,7 +87,7 @@
   </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.4)->[desert_adjective] [narrative_name]</li>
+    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
     <li>desert_adjective->flat</li>
     <li>desert_adjective->white</li>
     <li>desert_adjective->endless</li>
@@ -111,7 +111,7 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerDesert.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
+    <li>r_name(p=0.4)->[narrative_name] [desert_adjective]</li>
     <li>desert_adjective->plat</li>
     <li>desert_adjective->blanc</li>
     <li>desert_adjective->interminable</li>
@@ -174,7 +174,7 @@
   </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>r_name(p=0.2)->isle [narrative_name]</li>
     <li>terrain_word(p=4)->island</li>
     <li>terrain_word(p=2)->isle</li>
     <li>terrain_word->reef</li>
@@ -184,7 +184,7 @@
     <li>terrain_word->point</li>
   -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->île [narrative_name]</li>
+    <li>r_name(p=0.2)->île [narrative_name]</li>
     <li>terrain_word(p=4)->île</li>
     <li>terrain_word(p=3)->ilôt</li>
     <li>terrain_word(p=3)->archipel</li>
@@ -196,7 +196,7 @@
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname->lake [narrative_name]</li>
+    <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
     <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
@@ -207,7 +207,7 @@
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
-    <li>standardname->lac [narrative_name]</li>
+    <li>r_name->lac [narrative_name]</li>
     <li>terrain_word(p=6)->lac</li>
     <li>terrain_word->mer</li>
     <li>terrain_word->étang</li>
@@ -219,7 +219,7 @@
   </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->mount [narrative_name]</li>
+    <li>r_name(p=0.2)->mount [narrative_name]</li>
     <li>terrain_word(p=5)->mountains</li>
     <li>terrain_word(p=2)->range</li>
     <li>terrain_word->peaks</li>
@@ -236,7 +236,7 @@
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
     <li>ocean_adjective->blue</li>
     <li>ocean_adjective->white</li>
     <li>ocean_adjective->gray</li>
@@ -255,7 +255,7 @@
     <li>terrain_word->expanse</li>
   -->
   <NamerOcean.rulePack.rulesStrings>
-    <li>standardname(p=0.4)->[narrative_name] [ocean_adjective]</li>
+    <li>r_name(p=0.4)->[narrative_name] [ocean_adjective]</li>
     <li>ocean_adjective->bleu</li>
     <li>ocean_adjective->blanc</li>
     <li>ocean_adjective->gris</li>
@@ -276,8 +276,8 @@
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.2)->point [narrative_name]</li>
-    <li>standardname(p=0.2)->cape [narrative_name]</li>
+    <li>r_name(p=0.2)->point [narrative_name]</li>
+    <li>r_name(p=0.2)->cape [narrative_name]</li>
     <li>terrain_word(p=5)->peninsula</li>
     <li>terrain_word(p=2)->point</li>
     <li>terrain_word->cape</li>
@@ -285,8 +285,8 @@
     <li>terrain_word->horn</li>
   -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->pointe [narrative_name]</li>
-    <li>standardname(p=0.2)->cap [narrative_name]</li>
+    <li>r_name(p=0.2)->pointe [narrative_name]</li>
+    <li>r_name(p=0.2)->cap [narrative_name]</li>
     <li>terrain_word(p=5)->péninsule</li>
     <li>terrain_word(p=2)->pointe</li>
     <li>terrain_word->cap</li>
@@ -295,21 +295,21 @@
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.1)->lake [narrative_name]</li>
+    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
     <li>terrain_word->ocean</li>
     <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->lac [narrative_name]</li>
+    <li>r_name(p=0.1)->lac [narrative_name]</li>
     <li>terrain_word(p=6)->mer</li>
     <li>terrain_word->océan</li>
     <li>terrain_word->lac</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.1)->fen [narrative_name]</li>
-    <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
+    <li>r_name(p=0.1)->fen [narrative_name]</li>
+    <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
     <li>swamp_adjective->wet</li>
     <li>swamp_adjective->steamy</li>
     <li>swamp_adjective->choking</li>
@@ -328,8 +328,8 @@
     <li>terrain_word->fen</li>
   -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->marais [narrative_name]</li>
-    <li>standardname(p=0.3)->[narrative_name] [swamp_adjective]</li>
+    <li>r_name(p=0.1)->marais [narrative_name]</li>
+    <li>r_name(p=0.3)->[narrative_name] [swamp_adjective]</li>
     <li>swamp_adjective->humide</li>
     <li>swamp_adjective->tropicale</li>
     <li>swamp_adjective->suffocante</li>
@@ -349,7 +349,7 @@
   </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
     <li>rainforest_adjective->wet</li>
     <li>rainforest_adjective->steamy</li>
     <li>rainforest_adjective->choking</li>
@@ -365,7 +365,7 @@
     <li>terrain_word->tangle</li>
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>standardname(p=0.3)->[narrative_name] [rainforest_adjective]</li>
+    <li>r_name(p=0.3)->[narrative_name] [rainforest_adjective]</li>
     <li>rainforest_adjective->humide</li>
     <li>rainforest_adjective->tropicale</li>
     <li>rainforest_adjective->suffocante</li>

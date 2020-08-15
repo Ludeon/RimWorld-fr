@@ -8,24 +8,31 @@
     <li>questDescription->À l'aide de votre scanner minéral à longue portée, [worker_definite] a trouvé un gisement de [targetMineable_labelPlural] à proximité.\n\nMalheureusement, cela ne durera pas car d'autres personnes l'auront miné dans [timeoutTicks_duration] si vous ne le faites pas avant.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->The [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[lump] of [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->The [targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   -->
+
+  <!-- Boundir: TODO
+      je suppose que la quête a changé. Je laisse ce qui avait été fait à titre d'exemple mais cela sera a effacer par la suite.
+  -->
+  <!--
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
     <li>questName->Les [subName]</li>
     <li>questName->Des [subName]</li>
@@ -44,7 +51,9 @@
     <li>adj_masc->détectés</li>
     <li>adj_masc->découverts</li>
     <li>adj_masc->trouvés</li>
+    -->
     <!-- NOTE: pour les mots féminins -->
+    <!--
     <li>adj_fem->distantes</li>
     <li>adj_fem->lointaines</li>
     <li>adj_fem->au loin</li>
@@ -54,6 +63,7 @@
     <li>adj_fem->découvertes</li>
     <li>adj_fem->trouvées</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  -->
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Quête expirée : [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
