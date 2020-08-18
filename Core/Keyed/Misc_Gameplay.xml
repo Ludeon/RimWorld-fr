@@ -177,7 +177,7 @@
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Durée estimée du trajet jusqu'à destination : {0} jours</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>TODO</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Durée du trajet: {0} jours</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Immobilisée : trop chargée.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
@@ -247,9 +247,9 @@
   <!-- EN: Map -->
   <Map>Carte</Map>
   <!-- EN: {0} until enemies arrive -->
-  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <CaravanDetectedRaidCountdown>{0} jusqu'à l'arrivée des ennemis</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Des renforts ennemis arriveront dans cette zone dans {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Salle</Room>
   <!-- EN: Beauty here -->
@@ -619,7 +619,7 @@
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>utilise {0} sur {1}.</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>TODO</UsingVerbNoTarget>
+  <UsingVerbNoTarget>utilise {0}.</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>zone</AreaLower>
   <!-- EN: cowering. -->
@@ -1021,9 +1021,9 @@
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>TODO ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>neuro-entraîneur ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>TODO {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>utilise un neuro-entraîneur pour apprendre {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Une super-dose à usage unique de mécanites qui forme à une compétence spécifique.\n\nLa dose est administrée par l'orbite de l'œil. Une fois libérées dans le cerveau, les mécanites améliorent rapidement les compétences du sujet dans un domaine spécifique, se transmutant en tissu neuronal selon les besoins.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
@@ -1165,7 +1165,7 @@
 
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
-  <ChargesRemaining>TODO</ChargesRemaining>
+  <ChargesRemaining>charges restantes</ChargesRemaining>
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
@@ -1279,25 +1279,25 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Butin de camp</Reward_CampLoot_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>les visiteurs travailleront et se battront pour vous</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
-  <Reward_VisitorsHelp_Label>TODO</Reward_VisitorsHelp_Label>
+  <Reward_VisitorsHelp_Label>Aide des visiteurs</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>TODO</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>Nouveau niveau de lien psychique</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>TODO</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} gagne du lien psychique</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
-  <Reward_ShuttleLoot_Label>TODO</Reward_ShuttleLoot_Label>
+  <Reward_ShuttleLoot_Label>Butin de la navette</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>TODO</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>vous pouvez déconstruire et piller la navette</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
-  <Reward_PossibleFutureReward_Label>TODO</Reward_PossibleFutureReward_Label>
+  <Reward_PossibleFutureReward_Label>Récompense future possible</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>TODO</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>une récompense éventuellement accordée dans le futur</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>TODO</Reward_Title_Label>
+  <Reward_Title_Label>titre de {TITLE}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>TODO</Reward_Title>
+  <Reward_Title>{PAWNNAME} gagne le titre de {TITLE} auprès de {FACTION}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>valeur {0}</TotalValue>
   
@@ -1309,11 +1309,11 @@
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>lié à quelqu'un d'autre</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
-  <BladelinkAlreadyBonded>TODO</BladelinkAlreadyBonded>
+  <BladelinkAlreadyBonded>(obligation existante)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>TODO</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Une personne ne peut se lier qu'à une seule arme intelligente à la fois.\n\nPour s'équiper et se lier avec {WEAPON_labelShort}, l'arme actuellement liée a {PAWN_nameDef} {BONDEDWEAPON_labelShort} doit d'abord être détruite.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>TODO</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} est déjà lié à {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
