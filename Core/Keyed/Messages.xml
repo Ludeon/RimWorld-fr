@@ -14,7 +14,7 @@
   <MessageRaidersStealing>Les {0} de {1} ont décidé de prendre ce qu'ils peuvent et de partir.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>TODO</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{0} de {1} sont arrivés dans la zone de votre caravane et attaquent. D'autres sont en route et arriveront dans {2}.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>Les {0} de {1} s'en vont.</MessageRaidersLeaving>
@@ -80,7 +80,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances) et l'a nomm{RECRUITEE_gender ? é : ée : é(e)} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: {RECRUITEE} has joined your colony. -->
-  <MessageRecruitJoinOfferAccepted>TODO</MessageRecruitJoinOfferAccepted>
+  <MessageRecruitJoinOfferAccepted>{RECRUITEE} a rejoint votre colonie.</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonie ne peut pas se permettre cet échange.</MessageColonyCannotAfford>
@@ -507,17 +507,17 @@
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>demandé une caravane marchande</GoodwillChangedReason_RequestedTrader>
   <!-- EN: caused neuroquake echo -->
-  <GoodwillChangedReason_CausedNeuroquakeEcho>TODO</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <GoodwillChangedReason_CausedNeuroquakeEcho>a provoqué une onde de tremblement psychique</GoodwillChangedReason_CausedNeuroquakeEcho>
   <!-- EN: caused berserk on {PAWN_labelShort} -->
-  <GoodwillChangedReason_CausedBerserk>TODO</GoodwillChangedReason_CausedBerserk>
+  <GoodwillChangedReason_CausedBerserk>a provoqué une folie furieuse sur {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
   <!-- EN: attacked {0_name} -->
-  <GoodwillChangeReason_AttackedFaction>TODO</GoodwillChangeReason_AttackedFaction>
+  <GoodwillChangeReason_AttackedFaction>a attaqué {0_name}</GoodwillChangeReason_AttackedFaction>
   <!-- EN: shuttle destroyed -->
-  <GoodwillChangeReason_ShuttleDestroyed>TODO</GoodwillChangeReason_ShuttleDestroyed>
+  <GoodwillChangeReason_ShuttleDestroyed>navette détruite</GoodwillChangeReason_ShuttleDestroyed>
   <!-- EN: civilians lost -->
-  <GoodwillChangeReason_CiviliansLost>TODO</GoodwillChangeReason_CiviliansLost>
+  <GoodwillChangeReason_CiviliansLost>civils perdus</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
-  <GoodwillChangeReason_CommanderLost>TODO</GoodwillChangeReason_CommanderLost>
+  <GoodwillChangeReason_CommanderLost>commandant perdu</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} acceptent votre cadeau mais ils ne l'apprécient pas.</MessageGiftGivenButNotAppreciated>
@@ -622,7 +622,7 @@
   <MessageCannotSelectInvisibleStat>{0_label} est actuellement caché.</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
-  <MessagePrisonerCannotEquipWeapon>TODO</MessagePrisonerCannotEquipWeapon>
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} est un prisonnier</MessagePrisonerCannotEquipWeapon>
 
   <!-- UNUSED -->
   <MessageChoseRoute>La caravane se déplacera automatiquement vers le premier marqueur de route.</MessageChoseRoute>
