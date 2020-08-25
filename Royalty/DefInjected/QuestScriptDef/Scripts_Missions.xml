@@ -6,7 +6,12 @@
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>TODO</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <li>questDescription->[ennemiesLabel] ont installé un camp et harcèlent les caravanes de [asker_faction_name]. [asker_nameDef] planifie un assaut aérien sur le camp, qui est gardé par [ennemiesCount] [ennemiesLabel]. [asker_pronoun] souhaite que vous fournissiez des [soldiers] pour mener l'attaque.\n\n[asker_pronoun] enverra une navette pour récupérer vos combattants, les amener sur le site de l'attaque et les ramener à la maison par la suite. Ils seront nourris en route.\n\nUne fois l'attaque commencée, vous devrez vaincre tous les ennemis et tourelles dans un délai de [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldats</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldat</li>
+</Mission_BanditCamp.questDescriptionRules.rulesStrings>
+
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -24,6 +29,22 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>TODO</Mission_BanditCamp.questNameRules.rulesStrings>
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+  <li>questName->[questNameInner]</li>
+    <li>questName->[questNameInner] de [asker_nameDef]</li>
+    <li>questNameInner->[attack] [aerial]</li>
+    <li>questNameInner->[attack] [target]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->sur le camp</li>
+    <li>target->sur la base</li>
+    <li>target->sur le bastion</li>
+    <li>aerial-aérienne</li>
+    <li>aerial->par les airs</li>
+    <li>aerial->aéroportée</li>
+    <li>attack->attaque</li>
+    <li>attack->agression</li>
+    <li>work->pour une récompense</li>
+    <li>work->pour un contrat</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>
