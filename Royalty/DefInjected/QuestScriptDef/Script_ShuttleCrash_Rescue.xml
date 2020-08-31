@@ -68,7 +68,17 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+  <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+  <li>questDescription->La navette de [asker_faction_name] a pris de dégats et cherche un endroit pour s'atterrir. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaquera l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette est composée de [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]. Le commandant et les [andCivilians] doivent être sauvés, cependant le [soldiers0_kind] pourra potentiellement être sacrifié.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les mettre tout à bord dans [leaveDelay_duration].</li>
+  <li>andOtherCivilians(civilians_count==1)-></li>
+  <li>andOtherCivilians(civilians_count==2)->, un autre [pawnLabel],</li>
+  <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autre [pawnLabelSingleOrPlural],</li>
+  <li>andCivilians(civilians_count==2)->et [pawnLabel]</li>
+  <li>andCivilians(civilians_count>=3)->et [pawnLabelPlural]</li>
+
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -90,6 +100,28 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+
+    <li>questName->[navette] [écrasée]</li>
+    <li>questName->la [navette] [écrasée] de [asker_faction_pawnSingular]</li>
+    <li>questName->[navette] [endommagée]</li>
+    <li>questName->[navette] [endommagée] de [asker_nameDef]</li>
+    <li>questName->l'[atterrissage] d'[urgence]</li>
+    <li>questName->l'[atterrissage] d'[urgence] de[asker_nameDef]</li>
+    <li>navette->navette</li>
+    <li>navette->transporteur</li>
+    <li>navette->vaisseau</li>
+    <li>accident->accident</li>
+    <li>accident->à terre</li>
+    <li>endommagé->endommagé</li>
+    <li>endommagé->pété</li>
+    <li>endommagé->en baisse</li>
+    <li>urgence->urgence</li>
+    <li>urgence->forcé</li>
+    <li>atterrissant->atterrissant</li>
+    <li>atterrissant->descente</li>
+    <li>atterissant->s'approche</li>
+    
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>
