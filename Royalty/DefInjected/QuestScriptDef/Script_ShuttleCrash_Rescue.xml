@@ -26,7 +26,7 @@
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-  <li>failLetterEndingCommon->Vous avez échoué la quête '[resolvedQuestName]'.</li>
+  <li>failLetterEndingCommon->Vous avez échoué pour la quête '[resolvedQuestName]'.</li>
   <li>successLetterEndingCommon->Vous avez complété la quête '[resolvedQuestName]' avec succès.</li>
   <li>goodwillSomeCiviliansLost->Certains [asker_faction_pawnSingular] [pawnLabel] n'ont pas pu être sauvés. [goodwillNegativelyAffected]</li>
   <li>goodwillAllCiviliansLost->Aucun des [asker_faction_pawnSingular] [pawnLabelPlural] n'a pu être sauvé. [goodwillNegativelyAffected]</li>
@@ -71,10 +71,10 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
   <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-  <li>questDescription->La navette de [asker_faction_name] a subit de dégats et cherche un endroit pour se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]. Le commandant et les [andCivilians] doivent être sauvés, cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
+  <li>questDescription->La navette de [asker_faction_name] a subit de dégats et cherche un endroit où se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]. Le commandant et les [andCivilians] doivent être sauvés, cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
   <li>andOtherCivilians(civilians_count==1)-></li>
   <li>andOtherCivilians(civilians_count==2)->, un autre [pawnLabel],</li>
-  <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autre [pawnLabelSingleOrPlural],</li>
+  <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autres [pawnLabelSingleOrPlural],</li>
   <li>andCivilians(civilians_count==2)->et [pawnLabel]</li>
   <li>andCivilians(civilians_count>=3)->et [pawnLabelPlural]</li>
 
@@ -105,13 +105,13 @@
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[shuttle] [crash] de [asker_faction_pawnSingular]</li>
     <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[damaged] [shuttle] de [asker_nameDef]</li>
+    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
     <li>questName->[landing] [emergency]</li>
-    <li>questName->[landing] [emergency] [asker_nameDef]</li>
+    <li>questName->[landing] [emergency] de [asker_nameDef]</li>
     <li>shuttle->cargo</li>
     <li>shuttle->transporteur</li>
     <li>shuttle->appareil</li>
-    <li>crash->accidcrashéent</li>
+    <li>crash->crashé</li>
     <li>crash->à terre</li>
     <li>damaged->endommagé</li>
     <li>damaged->échoué</li>
