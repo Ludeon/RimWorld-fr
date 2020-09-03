@@ -65,7 +65,10 @@
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
-  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->refugié</li>
+    <li>lodgersLabelPlural->refugiés</li>
+  </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>offer(lodgerCount==1)->offers</li>
     <li>offer(lodgerCount>=2)->offer</li>
@@ -90,7 +93,30 @@
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
-  <Hospitality_Refugee.questDescriptionRules.rulesStrings>TODO</Hospitality_Refugee.questDescriptionRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)->offre</li>
+    <li>offer(lodgerCount>=2)->offrent</li>
+    <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount>=2)->ils</li>
+    <li>lodgersPreposition(lodgerCount==1)->[asker_objective]-même</li>
+    <li>lodgersPreposition(lodgerCount>=2)->eux même</li>
+    <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount>=2)->leur</li>
+    <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount>=2)->leur</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->les [lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] vous demande la permission de rester à [map_definite] pour [questDurationTicks_duration] alors [lodgersPronoun] pourra se reposer et se ressaisir.\n\nEn retour, [lodgersPronoun] [offer] de travailler et de se battre gratuitement pendant cette période.\n\n[joinInfo] [lodgersPronoun] peut également vous récompenser plus tard pour votre aide - mais il n'y a aucun moyen de connaître ses véritables intentions \n\[travelerInfo] ne fait partie d'aucune faction. Si vous le souhaitez, vous pouvez choisir de le/la tuer, arrêter, de vendre ou de prendre [lodgersObjective], sans aucune conséquence diplomatique.</li>
+    <li>approachInfo(lodgerCount==1)->Un [faction_pawnSingular] désespéré nomé [asker_nameDef] approche.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] et d'autres [faction_pawnSingular] désespérés approchent.</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] désespérés approchent. leur chef se nomme [asker_nameDef].</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] affirme avoir perdu son domicile lors d'une récente attaque.</li>
+    <li>claimInfo(lodgerCount>=2)->Ils affirment avoir perdu leur maison lors d'une récente attaque.</li>
+    <li>joinInfo(lodgerCount==1)->Si vous [asker_objective] rendez heureux, [asker_pronoun] peut proposer de vous rejoindre.</li>
+    <li>joinInfo(lodgerCount>=2)->Si vous les rendez heureux, certains d'entre eux peuvent vous proposer de vous rejoindre.</li>
+    <li>travelerInfo(lodgerCount==1)->Ce [faction_pawnSingular] est</li>
+    <li>travelerInfo(lodgerCount>=2)->Ces [faction_pawnsPlural] sont</li>
+  </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
     <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
@@ -123,20 +149,54 @@
     <li>lodgerPlural->nomads</li>
     <li>lodgerPlural->vagabonds</li>
   -->
-  <Hospitality_Refugee.questNameRules.rulesStrings>TODO</Hospitality_Refugee.questNameRules.rulesStrings>
+  <Hospitality_Refugee.questNameRules.rulesStrings>
+    <li>questName(lodgerCount==1)->[asker_nameDef] le [lodgerAdj]</li>
+    <li>questName(lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural] [lodgerAdj]</li>
+    <li>questName(lodgerCount>=2)->les [lodgerPlural] [lodgerAdj] de [asker_nameDef]</li>
+    <li>questName(lodgerCount>=2)->les [lodgerPlural] de [asker_nameDef]</li>
+    <li>athe->un</li>
+    <li>athe->le</li>
+    <li>lodgerAdj->fatigué</li>
+    <li>lodgerAdj->perdu</li>
+    <li>lodgerAdj->indigent</li>
+    <li>lodgerAdj->pauvre</li>
+    <li>lodgerAdj->désespéré</li>
+    <li>lodgerAdj->triste</li>
+    <li>lodgerAdj->poussiéreux</li>
+    <li>lodgerAdj->désespéré</li>
+    <li>lodgerAdj->inconnu</li>
+    <li>lodgerAdj->délaissé</li>
+    <li>lodgerAdj->négligé</li>
+    <li>lodgerSingle->voyageur</li>
+    <li>lodgerSingle->réfugié</li>
+    <li>lodgerSingle->hérant</li>
+    <li>lodgerSingle->survivant</li>
+    <li>lodgerSingle->nomade</li>
+    <li>lodgerSingle->vagabond</li>
+    <li>lodgerPlural->voyageurs</li>
+    <li>lodgerPlural->réfugiés</li>
+    <li>lodgerPlural->hérants</li>
+    <li>lodgerPlural->survivants</li>
+    <li>lodgerPlural->nomades</li>
+    <li>lodgerPlural->vagabonds</li>
+  </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
-  <RefugeeDelayedReward.questContentRules.rulesStrings>TODO</RefugeeDelayedReward.questContentRules.rulesStrings>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
+    <li>rewardLetterLabel->Récompense d'accueil</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] vous a contacté. il y a [rewardDelayTicks_duration], vous l'avez aidé dans des circonstances désespérées.\n\nDepuis, [rewardGiver_pronoun] est retombé(e) sur ses pieds, et maintenant [rewardGiver_pronoun] veut vous récompenser correctement pour votre aide. [rewardGiver_pronoun] vous envoie ce qui suit via une capule de largage:\n\n[listOfRewards]</li>
+  </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
-  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>TODO</RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+  <RefugeeDelayedReward.questDescriptionRules.rulesStrings> une récompense différée pour la quête du réfugié</RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
-  <RefugeeDelayedReward.questNameRules.rulesStrings>TODO</RefugeeDelayedReward.questNameRules.rulesStrings>
+  <RefugeeDelayedReward.questNameRules.rulesStrings><li>questName->Récompense différée du réfugié</li></RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>
