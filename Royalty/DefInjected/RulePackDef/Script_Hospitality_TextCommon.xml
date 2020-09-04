@@ -59,12 +59,12 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] atteint d'abasie paralytique et doit être maintenu au lit.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] atteint(s) de gangrène un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave,  [lodgersLabelSingOrPluralDef] peut en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] d'abasie paralytique et [must] être [kept] au lit.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] de gangrène un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave,  [lodgersLabelSingOrPluralDef] [can] en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvous devez garder l'humeur de [lodgersLabelSingOrPluralDef] au dessus [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] ne travaillera pas.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] ne [will_not_do] pas.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Il y aura (*Threat)un raid(/Threat) d'une taille approchant:\n\n[threatExample]</li>
@@ -88,9 +88,20 @@
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->eux</li>
+    <li>lodgersObjective(lodgersCount>=2)->ils</li>
     <li>areIs(lodgersCount==1)->est</li>
     <li>areIs(lodgersCount>=2)->sont</li>
+    <li><li>sick(lodgersCount==1)->atteint</li>
+    <li>sick(lodgersCount>=2)->atteints</li>
+    <li>kept(lodgersCount==1)->maintenu</li>
+    <li>kept(lodgersCount>=2)->maintenus</li>
+    <li>must(lodgersCount==1)->doit</li>
+    <li>must(lodgersCount>=2)->doivent</li>
+    <li>can(lodgersCount==1)->peut</li>
+    <li>can(lodgersCount>=2)->peuvent</li>
+    <li>will_not_do(lodgersCount==1)->travaillera</li>
+    <li>will_not_do(lodgersCount>=2)->travaillerons</li>
+    
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Tous les [lodgersLabelPlural] restants vont maintenant partir. </li>
     <li>failLetterEndingQuest->Vous avez échoué pour la quête "[resolvedQuestName]".</li>
