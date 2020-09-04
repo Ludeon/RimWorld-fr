@@ -60,7 +60,65 @@
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
-  <Hospitality_Refugee.questContentRules.rulesStrings>TODO</Hospitality_Refugee.questContentRules.rulesStrings>
+  <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-></li>
+    <li>lastOrNot(lodgerCount>=2)->derniers</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] arrivé</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] arrivé(s). [lodgersPronoun] restera avec vous pendant [questDurationTicks_duration] afin qu'[lodgersPronoun] puisse se regrouper et se ressaisir.</li>
+    <li>hasHave(lodgerCount==1)->est</li>
+    <li>hasHave(lodgerCount>=2)->sont</li>
+    <li>appalledButNoAction->The {PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} consterné par ça, mais {PAWNSALIVECOUNT_multiple ? are: is} ne prendra aucune mesure contre vous.</li>
+    <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} n'acceptera pas celà.</li>
+     <li>turnedViolent->[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } s'est violemment retournécontre vous.</li>
+    <li>decidedToLeave->[othersWillNotAccept], and {PAWNSALIVECOUNT_multiple ? have : has } a décidé de partir.</li>
+    <li>whoAskedToStay->qui a demandé à rester avec vous</li>
+    <li>oneOfThe->un des[faction_pawnsPlural] désespérés qui a demandé à rester avec vous</li>
+    <li>questOver->La quête "[resolvedQuestName]" est terminée.</li>
+    <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] est mort.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] mort: Colère</li>
+    <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] mort: Vengeance</li>
+    <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] mort: Départ</li>
+    <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel->La quête a échoué</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, Le [lastOrNot] [faction_pawnSingular] désespéré [whoAskedToStay], est mort.\n\n[questOver]</li>
+    <li>letterIntroArrested->Vous avez arrêté {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] arrêté: Colère</li>
+    <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] arrêté: Vengeance</li>
+    <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] arrêté: Départ</li>
+    <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-La quête a échoué</li>
+    <li>lodgersAllArrestedLetterText->Vous avez arrêté  {SUBJECT_definite}, le [lastOrNot] [faction_pawnSingular] désespéré [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], a été chirurgicalement violé.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violé: Colère</li>
+    <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violé: Vengeance</li>
+    <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violé: Départ</li>
+    <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel->Betrayal</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] se retourne contre vous!\n\nIl semble qu'[lodgersPronoun] avait planifié cette trahison depuis le début.</li>
+    <li>areIs(lodgerCount==1)->est</li>
+    <li>areIs(lodgerCount>=2)->sont</li>
+    <li>betrayalOfferLetterLabel->Proposition de trahison: [factionOpponent_nameDef]</li>
+    <li>betrayalOffserLetterText->[factionOpponent_nameDef], une [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], a appris que [asker_nameDef] [otherLodgers] [areIs] est hébergé à [map_definite]. [factionOpponent_pronoun] sont des ennemis de [asker_nameDef] et veulent le voir mort.\n\n[factionOpponent_pronoun] vous enverra la récompense suivante si vous tuez tous les membres de [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>betrayalOfferRewardLetterLabel->Récompense de trahison: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] vous avait promis une récompense si vous veniez a tuer [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] a appris de source sûre que cela avait bien été fait et vous envoie ce qui suit via une nacelle de transport (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedLetterLabel->Récompense de trahison annulée</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] a appris que l'un des membres de [faction_name] n'est plus à [map_definite]. [factionOpponent_nameDef] voulait voir tous les membres de  [faction_name] morts et a donc annulé son offre.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->et un autre [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->et plusieurs [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> et tous les autres membres de [faction_name]</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] sur le départ</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} merci d'avoir permis a {FACTION_leaderObjective} de rester à [map_definite] pendant [questDurationTicks_duration]. {FACTION_leaderPronoun} est maintenant retourné(e) vers son peuple.\n\n{FACTION_leaderNameDef} dit qi'{FACTION_leaderPronoun} n'oubliera pas ce que vous avez fait.</li>
+  </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
