@@ -34,11 +34,11 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Un vaisseau orbital de recherche voudrait tester un nouveau type de phéromones d'insectes. Si vous êtes d'accord, ils épandront ces phéromones sur [map_definite], provoquant (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->Un vaisseau orbital de recherche voudrait tester un nouveau type de phéromones d'insectes. Si vous êtes d'accord, ils épandront ces phéromones sur [map_definite], provoquant (*Threat)une infestation de [hivesCount] ruches(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Les ruches ont été attirées par un épandage de phéromones venant d'un vaisseau de recherche en orbite.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], est [asker_facing] à des infestations répétées dans les zones près de [map_definite]. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], est [asker_facing] à des infestations répétées dans les zones près de [map_definite]. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->À l'origine, les ruches ont infesté les zones voisines appartenant à [asker_nameFull] de [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a des problème pour atterrir dans la zone de [map_definite] à cause des infestations répétées. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).\n\n[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a des problème pour atterrir dans la zone de [map_definite] à cause des infestations répétées. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->L'infestation a été attirée vers vous par [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
     <li>asker_facing(asker_gender==Male)->confronté</li>
     <li>asker_facing(asker_gender==Female)->confrontée</li>
@@ -95,7 +95,7 @@
     <li>manhuntingBeastIndef(animalCount==1)->un(e) (*Threat)[animalKind_label] chasseur d'homme(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKind_indefinite] chasseur d'homme(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'homme(/Threat)</li>
-    <li>endSection->\n\n[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
+    <li>endSection->[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
     <!-- BUG: même bug -->
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)Un(e) [animalKind_label] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)[animalKind_indefinite] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
