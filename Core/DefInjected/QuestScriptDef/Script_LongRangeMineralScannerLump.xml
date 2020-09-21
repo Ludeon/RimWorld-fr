@@ -2,17 +2,17 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
     <li>questDescription->À l'aide de votre scanner minéral à longue portée, [worker_definite] a trouvé un gisement de [targetMineable_labelPlural] à proximité.\n\nMalheureusement, cela ne durera pas car d'autres personnes l'auront miné dans [timeoutTicks_duration] si vous ne le faites pas avant.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[lump] of [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->The [targetMineable_label] [lump]</li>
-    <li>questName->[adj] [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
     <li>lump->lump</li>
     <li>lump->pile</li>
     <li>lump->deposit</li>
@@ -28,39 +28,7 @@
     <li>discovered->found</li>
     <li>discovered->scanned</li>
   -->
-
-  <!--
-  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->Les [subName]</li>
-    <li>questName->Des [subName]</li>
-    <li>subName->ressources [adj_fem]</li>
-    <li>subName->richesses [adj_fem]</li>
-    <li>subName->réserves [adj_fem]</li>
-    <li>subName->mineraux [adj_masc]</li>
-    <li>subName->minerais [adj_masc]</li>
-    <li>subName->gisements [adj_masc]</li>
-    <li>subName->projets miniers [adj_masc]</li>
-    <li>adj_masc->distants</li>
-    <li>adj_masc->lointains</li>
-    <li>adj_masc->au loin</li>
-    <li>adj_masc->éloignés</li>
-    <li>adj_masc->inconnus</li>
-    <li>adj_masc->détectés</li>
-    <li>adj_masc->découverts</li>
-    <li>adj_masc->trouvés</li>
-    -->
-    <!-- NOTE: pour les mots féminins -->
-    <!--
-    <li>adj_fem->distantes</li>
-    <li>adj_fem->lointaines</li>
-    <li>adj_fem->au loin</li>
-    <li>adj_fem->éloignées</li>
-    <li>adj_fem->inconnues</li>
-    <li>adj_fem->détectées</li>
-    <li>adj_fem->découvertes</li>
-    <li>adj_fem->trouvées</li>
-  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
-  -->
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>TODO</LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Quête expirée : [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->

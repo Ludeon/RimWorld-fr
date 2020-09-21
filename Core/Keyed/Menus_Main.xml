@@ -227,7 +227,7 @@
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Ordre de version non valide : «par défaut» doit être défini en premier.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>L'utilisation de "default" dans les dossiers de chargement est obsolète. Veuillez définir des dossiers pour chaque version à l'aide des balises  &lt;v...&gt;</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>L'utilisation de "default" dans les dossiers de chargement est obsolète. Veuillez définir des dossiers pour chaque version à l'aide des balises  &lt;v...></ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>La version {0} est définie dans les dossiers de chargement, mais n'est pas répertoriée dans les 'versions prises en charge' du mod About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -264,7 +264,7 @@
   <ConfirmContentAuthor>Évidemment, vous devez envoyer du contenu que vous avez vous-même créé.\n\nAvez-vous créé ce contenu vous-même ?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>Incompatible</Incompatible>
-  <!-- EN: Tag as translation-->
+  <!-- EN: Tag as translation -->
   <TagAsTranslation>Marquer comme traduction</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Beaucoup trop (max {0}) :</TooMany>
@@ -441,15 +441,14 @@
   <Difficulty_AdaptationEffectFactor_Label>Adaptation aux dommages</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
   <Difficulty_AdaptationEffectFactor_Info>L'adaptation signifie que le conteur rend le jeu plus difficile au fil du temps tant que vous ne subissez pas de pertes. Ceci est distinct des effets de l'histoire sur la richesse et sur la population.\n\nCela ajuste l'effet de cette valeur d'adaptation sur les menaces réelles.</Difficulty_AdaptationEffectFactor_Info>
-  <!-- EN: Fixed wealth progress mode -->
+  <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Progression de la richesse fixe</Difficulty_FixedWealthMode_Label>
-  <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
   <Difficulty_FixedWealthMode_Info>Jouer avec une progression de la richesse fixe.\n\nEn mode normal, le conteur redimensionne les menaces en fonction du nombre de colons, de la richesse des joueurs et de divers autres facteurs. Le mode de progression de richesse fixe supprime le facteur de richesse et le remplace par une courbe de progression fixe basée sur le temps. Le temps est compté à partir de la fondation de chaque colonie.\n\nCela n'est recommandé que pour ceux qui recherchent un défi de compétences strict. En mode de progression fixe, il peut être presque impossible de récupérer de graves pertes à moins que vous ne trouviez une nouvelle colonie. Il est également possible d'aller trop loin dans la courbe et de trouver le jeu trop facile.</Difficulty_FixedWealthMode_Info>
-  <!-- EN: Years until maximum threat-->
+  <!-- EN: Years until maximum threat -->
   <Difficulty_FixedWealthTimeFactor_Label>Délais en années avant la menace maximale</Difficulty_FixedWealthTimeFactor_Label>
-  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors.-->
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
   <Difficulty_FixedWealthTimeFactor_Info>Le nombre d'années de jeu avant que celui-ci n'atteigne son niveau de menace maximal indépendamment de la richesse.\n\nNotez que le conteur continuera à mettre à l'échelle les menaces en fonction du nombre de colons et de divers autres facteurs.</Difficulty_FixedWealthTimeFactor_Info>
-
 
   <!-- Site select -->
   <!-- EN: Select starting site -->

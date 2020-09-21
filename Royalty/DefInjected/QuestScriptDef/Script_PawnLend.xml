@@ -7,7 +7,7 @@
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
     <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
@@ -72,7 +72,7 @@
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListBeConjugation] de retour après avoir aidé [asker_nameFull] de [asker_faction_name] à [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
-  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
   <PawnLend.DutyRulesRoyal.slateRef>
     <rulesStrings>
       <li>entertainerDescription->courageux survivants de la surface</li>
@@ -81,7 +81,7 @@
       <li>entertainerDescription->spécimens d'humains exotiques</li>
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
-  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
   <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListBeConjugation] de retour après avoir été exhibé comme [entertainerDescription] à la cour de [asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>La navette est arrivée</PawnLend.LetterLabelShuttleArrived.slateRef>

@@ -155,7 +155,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -269,6 +278,8 @@
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
-  <RefugeeDelayedReward.questNameRules.rulesStrings><li>questName->Récompense différée du réfugié</li></RefugeeDelayedReward.questNameRules.rulesStrings>
+  <RefugeeDelayedReward.questNameRules.rulesStrings>
+    <li>questName->Récompense différée du réfugié</li>
+  </RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>
