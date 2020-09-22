@@ -14,8 +14,8 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous fait une demande.\n\n(*Threat)[groupsOf](/Threat) de [enemyFaction_name] ont harcelé ses caravanes dans cette zone. [asker_nameDef] voudrait que vous leur envoyiez un message de défi pour les inciter à attaquer et éliminer la menace vous-même.[endingCommon].</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
-    <li>endingCommon(helpersCount==0)->TODO.</li>
-    <li>endingCommon(helpersCount>=1)->TODO</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nSi vous acceptez, la [enemyFaction_pawnsPlural] arrivera dans [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Si vous acceptez, la [enemyFaction_pawnsPlural] arrivera dans [firstRaidDelayTicks_duration].</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
