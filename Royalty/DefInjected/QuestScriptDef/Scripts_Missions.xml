@@ -7,9 +7,12 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[ennemiesLabel] ont installé un camp et harcèlent les caravanes de [asker_faction_name]. [asker_nameDef] planifie un assaut aérien sur le camp, qui est gardé par [ennemiesCount] [ennemiesLabel]. [asker_pronoun] souhaite que vous fournissiez des [soldiers] pour mener l'attaque.\n\n[asker_pronoun] enverra une navette pour récupérer vos combattants, les amener sur le site de l'attaque et les ramener à la maison par la suite. Ils seront nourris en route.\n\nUne fois l'attaque commencée, vous devrez vaincre tous les ennemis et tourelles dans un délai de [timeoutTicks_duration].</li>
+    <li>questDescription->[ennemiesLabel] ont installé un camp et harcèlent les caravanes de [asker_faction_name]. [asker_nameDef] planifie un assaut aérien sur le camp, qui est gardé par [ennemiesCount] [ennemiesLabel]. [asker_pronoun] souhaite que vous fournissiez [unDes] [soldiers] pour mener l'attaque.\n\n[asker_pronoun] enverra une navette pour récupérer vos combattants, les amener sur le site de l'attaque et les ramener à la maison par la suite. Ils seront nourris en route.\n\nUne fois l'attaque commencée, vous devrez vaincre tous les ennemis et tourelles dans un délai de [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldats</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldat</li>
+    <li>unDes(requiredPawnCount>1)->[requiredPawnCount] des</li>
+    <li>unDes(requiredPawnCount==1)->[requiredPawnCount] un</li>
+   
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
