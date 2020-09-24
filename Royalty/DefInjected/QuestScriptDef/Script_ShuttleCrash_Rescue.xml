@@ -105,11 +105,13 @@
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings>
     <li>questName->[shuttle] [crash]</li>
-    <li>questName->[shuttle] [crash] de [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] de [asker_faction_pawnSingular] [crash]</li>
     <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
+    <li>questName->[shuttle] de [asker_nameDef] [damaged]</li>
     <li>questName->[landing] [emergency]</li>
     <li>questName->[landing] [emergency] de [asker_nameDef]</li>
+    <li>questName->[landing_fem] [emergency_fem]</li>
+    <li>questName->[landing_fem] [emergency_fem] de [asker_nameDef]</li>
     <li>shuttle->cargo</li>
     <li>shuttle->transporteur</li>
     <li>shuttle->appareil</li>
@@ -119,9 +121,12 @@
     <li>damaged->échoué</li>
     <li>damaged->écrasé</li>
     <li>emergency->d'urgence</li>
-    <li>emergency->forcée</li>
-    <li>landing->descente</li>
-    <li>landing->approche</li>
+    <li>emergency->forcé</li>
+    <li>emergency_fem->d'urgence</li>
+    <li>emergency_fem->forcée</li>
+    <li>landing->atterrissage</li>
+    <li>landing_fem->descente</li>
+    <li>landing_fem->approche</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>
