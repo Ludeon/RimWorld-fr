@@ -60,35 +60,65 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] d'abasie paralytique et [must] être [kept] au lit.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] de gangrène un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave,  [lodgersLabelSingOrPluralDef] [can] en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] de gangrène un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave, [lodgersLabelSingOrPluralDef] [can] en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvous devez garder l'humeur de [lodgersLabelSingOrPluralDef] au dessus [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvous devez garder l'humeur de [lodgersLabelSingOrPluralDef] au-dessus de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] ne [will_not_do] pas.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [will_not_do].</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Il y aura (*Threat)un raid(/Threat) d'une taille approchant:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->Il y aura (*Threat)un raid(/Threat) de force x[threatSize] et d'une taille approchant:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Il y aura (*Threat)[threatCount]raids(/Threat) d'une taille approchant:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Il y aura (*Threat)[threatCount]raids(/Threat) de force x[threatSize] and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Il y aura (*Threat)un raid(/Threat) d'une taille similaire à :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->Il y aura (*Threat)un raid(/Threat) de force x[threatSize] et d'une taille similaire à :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Il y aura (*Threat)[threatCount]raids(/Threat) d'une taille similaire à :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Il y aura (*Threat)[threatCount]raids(/Threat) de force x[threatSize] et d'une taille similaire à :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)une escouade mécanoïde(/Threat) se déploiera à proximité.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)deux escouades mécanoïdes(/Threat) se déploieront à proximité.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)une escouade mécanoïde(/Threat) d'une taille x[threatSize] se déploiera à proximité.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)deux escouades mécanoïdes(/Threat) d'une taille x[threatSize] se déploieront à proximité.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été ciblé par un essaim de mécanoïdes en orbite.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Les prisonniers ont [mechViolation], et ont été ciblé par un essaim de mécanoïdes en orbite.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été ciblé par une ruche mécanoïde.</li>
-    <li>threatsInfoMechRaidsMultiHuman->ils ont récemment [mechViolation], et ont été ciblé par une ruche mécanoïde.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Les prisonniers ont [mechViolation], et ont été ciblés par un essaim de mécanoïdes en orbite.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] a récemment [mechViolation], et a été [lodgers0_targeted] par une ruche mécanoïde.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Ils ont récemment [mechViolation], et ont été ciblés par une ruche mécanoïde.</li>
     <li>mechViolation->contrarié une intelligence artificielle</li>
     <li>mechViolation->piraté un ancien terminal de supercalculateur</li>
-    <li>mechViolation->assassiné un enfant humain favoris d'un archotech</li>
+    <li>mechViolation->assassiné un enfant humain favori d'un archotech</li>
     <li>mechViolation->tenté de pirater un nœud de contrôle mécanoïde</li>
     <li>mechViolation->tenté de voler dans un ancien site de stockage</li>
     <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgers0_targeted(lodgers0_gender==Male)->ciblé</li>
+    <li>lodgers0_targeted(lodgers0_gender==Female)->ciblée</li>
+    <li>lodgers0_targeted(lodgers0_gender==None)->ciblé</li>
     <li>lodgersHasHave(lodgersCount==1)->a</li>
     <li>lodgersHasHave(lodgersCount>=2)->ont</li>
+    <li>lodgersIsAre(lodgersCount==1)->est</li>
+    <li>lodgersIsAre(lodgersCount>=2)->sont</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Male)->arrivé</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Female)->arrivée</li>
+    <li>lodgersArrived(lodgersCount==1,lodgers0_gender==None)->arrivé</li>
+    <li>lodgersArrived(lodgersCount>=2)->arrivés</li>
+    <!-- NOTE: "le/la/les"     -->
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Male)->le</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
+    <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==None)->le</li>
+    <li>lodgersAccusative(lodgersCount>=2)->les</li>
+    <!-- NOTE: "lui/elle/eux"     -->
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->ils</li>
+    <li>lodgersObjective(lodgersCount>=2)->eux</li>
+    <li>lodgersObjective(lodgersCount>=2)->leur</li>
+    <!-- NOTE: "son/sa/ses/leur/leurs"
+        Here, we suppose that the owner is singular,
+        and the lodgers are the possessed subjects.
+        iF NOT, define lodgersPossessiveOwnerPlural -> "leur/leurs"
+    -->
+    <li>lodgersPossessive(lodgersCount==1,lodgers0_gender!=Female)->son</li>
+    <li>lodgersPossessive(lodgersCount==1,lodgers0_gender==Female)->sa</li>
+    <li>lodgersPossessive(lodgersCount>=2)->ses</li>
+    <li>lodgersWillingTo(lodgersCount==1,lodgers0_gender!=Female)->disposé</li>
+    <li>lodgersWillingTo(lodgersCount==1,lodgers0_gender==Female)->disposée</li>
+    <li>lodgersWillingTo(lodgersCount>=1)->disposés</li>
+    <!-- TODO: duplicate defs, use lodgersIsAre.
+      Might be better add prefix lodgers_
+    -->
     <li>areIs(lodgersCount==1)->est</li>
     <li>areIs(lodgersCount>=2)->sont</li>
     <li>sick(lodgersCount==1)->atteint</li>
@@ -99,11 +129,11 @@
     <li>must(lodgersCount>=2)->doivent</li>
     <li>can(lodgersCount==1)->peut</li>
     <li>can(lodgersCount>=2)->peuvent</li>
-    <li>will_not_do(lodgersCount==1)->travaillera</li>
-    <li>will_not_do(lodgersCount>=2)->travaillerons</li>
+    <li>will_not_do(lodgersCount==1)->ne travaillera pas</li>
+    <li>will_not_do(lodgersCount>=2)->ne travailleront pas</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Tous les [lodgersLabelPlural] restants vont maintenant partir. </li>
-    <li>failLetterEndingQuest->Vous avez échoué pour la quête "[resolvedQuestName]".</li>
+    <li>failLetterEndingQuest->Vous avez raté la quête "[resolvedQuestName]".</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nVotre relation avec [asker_faction_name] a diminué de [goodwillPenalty].</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
