@@ -149,13 +149,13 @@
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>Êtes-vous sûr de vouloir désactiver le module principal ? Le jeu ne fonctionnera pas du tout à moins que vous ayez un autre mod remplaçant toutes les fonctionnalités du noyau.\n\nRappel : Les mods peuvent redéfinir des fonctionnalités du noyau en utilisant les mêmes defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
-  <ConfirmDeleteMod>Êtes-vous sûr de vouloir supprimer le mod {0}?</ConfirmDeleteMod>
+  <ConfirmDeleteMod>Êtes-vous sûr de vouloir supprimer le mod {0} ?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>tri automatique des mods</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Désinscrire</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>Êtes-vous sûr de vouloir vous désinscrire de {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>Êtes-vous sûr de vouloir vous désinscrire de {0} ?</ConfirmUnsubscribe>
   <!-- EN: Author -->
   <Author>Auteurs</Author>
   <!-- EN: Workshop page -->
@@ -227,7 +227,7 @@
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Ordre de version non valide : «par défaut» doit être défini en premier.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>L'utilisation de "default" dans les dossiers de chargement est obsolète. Veuillez définir des dossiers pour chaque version à l'aide des balises  &lt;v...></ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>L'utilisation de "default" dans les dossiers de chargement est obsolète. Veuillez définir des dossiers pour chaque version à l'aide des balises  &lt;v...&gt;</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>La version {0} est définie dans les dossiers de chargement, mais n'est pas répertoriée dans les 'versions prises en charge' du mod About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -308,7 +308,7 @@
   <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>Menaces majeures</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>Autorise les menaces majeures telles que les raids, les infestations, les groupes de chasseurs d'hommes, les vaiseeaux mécanoïdes écrasés et bien plus encore.</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>Autorise les menaces majeures telles que les raids, les infestations, les groupes de chasseurs d'hommes, les vaisseaux mécanoïdes écrasés et bien plus encore.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>Menaces de quête</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
@@ -324,7 +324,7 @@
   <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>Conditions météorologiques extrêmes</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>Autoriser les incidents météorologiques extrêmes tels que les retombées toxiques, les hivers volcaniques et les tempêtes d'éclairs.</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Autorise les incidents météorologiques extrêmes tels que les retombées toxiques, les hivers volcaniques et les tempêtes d'éclairs.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>Économie</DifficultyEconomySection>
@@ -351,11 +351,11 @@
   <!-- EN: Quest rewards -->
   <Difficulty_QuestRewardValueFactor_Label>Récompenses de quête</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>Ajuste la valeur des récompenses reçues pour les quêtes.\n\nRemarque: la valeur des récompenses de quête est également automatiquement mise à l'échelle pour compenser l'ampleur de la menace. Si vous ajustez ce paramètre, vous ajouterez un multiplicateur supplémentaire.</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Ajuste la valeur des récompenses reçues pour les quêtes.\n\nRemarque : la valeur des récompenses de quête est également automatiquement mise à l'échelle pour compenser l'ampleur de la menace. Si vous ajustez ce paramètre, vous ajouterez un multiplicateur supplémentaire.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>Butin de raid</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>Ajuste la valeur du butin transporté lors des raids.\n\nRemarque: la valeur du butin du raid est également automatiquement mise à l'échelle pour compenser l'ampleur de la menace. Si vous ajustez ce paramètre, vous ajouterez un multiplicateur supplémentaire.</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Ajuste la valeur du butin transporté lors des raids.\n\nRemarque : la valeur du butin du raid est également automatiquement mise à l'échelle pour compenser l'ampleur de la menace. Si vous ajustez ce paramètre, vous ajouterez un multiplicateur supplémentaire.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
   <Difficulty_MaintenanceCostFactor_Label>Coût du réarmement des tourelles</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
@@ -363,7 +363,7 @@
   <!-- EN: Scaria rot chance -->
   <Difficulty_ScariaRotChance_Label>Décomposition avec la rage</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>La probabilité qu'un cadavre puisse se décomposer immédiatement après la mort, si la créature était atteinte de rage.\n\nRemarque: les paramètres par défaut sont conçus pour équilibrer exactement l'augmentation du nombre d'animaux à des difficultés plus élevées, de sorte que tous les joueurs obtiennent les mêmes récompenses en viande .</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>La probabilité qu'un cadavre puisse se décomposer immédiatement après la mort, si la créature était atteinte de rage.\n\nRemarque : les paramètres par défaut sont conçus pour équilibrer exactement l'augmentation du nombre d'animaux à des difficultés plus élevées, de sorte que tous les joueurs obtiennent les mêmes récompenses en viande.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
   <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Mort de l'ennemi</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
@@ -382,15 +382,15 @@
   <!-- EN: Animal revenge chance -->
   <Difficulty_ManhunterChanceOnDamageFactor_Label>Vengeance animale</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajuste la probabilité qu'un animal sauvage blessé contre attaque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Ajuste la probabilité qu'un animal sauvage blessé contre-attaque.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Tir ami</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Ajuste les chances de tir ami.\n\nRemarque: ce paramètre n'affecte que les tirs directs qui allaient toucher leur cible. Cela n'empêche pas les dommages causés par les explosions ou par les tirs qui allaient rater leur cible.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Ajuste les chances de tir ami.\n\nRemarque : ce paramètre n'affecte que les tirs directs qui allaient toucher leur cible. Cela n'empêche pas les dommages causés par les explosions ou par les tirs qui allaient rater leur cible.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
-  <Difficulty_AllowInstantKillChance_Label>Mort instantannée</Difficulty_AllowInstantKillChance_Label>
+  <Difficulty_AllowInstantKillChance_Label>Mort instantanée</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Ajuste la chance qu'un colon puisse mourir instantanément suite à une attaque. Les dégâts reçus sont ajustés de manière à abattre le colon immédiatement.\n\nCela empêche seulement certains types de morts instantanées - les colons peuvent toujours être abattus ou saigner à mort, mourir lors d'incendies, d'explosions, de maladies, etc.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Ajuste la chance qu'un colon puisse mourir instantanément suite à une attaque. Les dégâts reçus sont ajustés de manière à abattre le colon immédiatement.\n\nCela empêche seulement certains types de morts instantanées, les colons peuvent toujours être abattus ou saigner à mort, mourir lors d'incendies, d'explosions, de maladies, etc.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>Chance d'infection</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
