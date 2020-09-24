@@ -5,25 +5,25 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->il y a un (*Threat)appareil modificateur de climat(/Threat) qui change la température de la région de [temperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->il y a un générateur d'ondes psychiques réglé pour affecter les colons [affectedGender]s</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->il y a un suppresseur psychique réglé pour affecter les colons [affectedGender]s</li>
-      <li>root(priority=1,sitePart==WeatherController)->il y a un contrôleur météorologique qui modifie le temps de toute la région à [weather_label]</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->il y a un appareil qui crache de la fumée sur toute la région</li>
-      <li>root(priority=1,sitePart==SunBlocker)->il y a un appareil qui bloque la lumière du soleil sur toute la région</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->il y a une dynamo IEM qui peut désactiver tous les appareils électriques sur toute la région</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->il y a un appareil qui empoisonne toute la région de retombées toxiques</li>
-      <li>root(priority=1,sitePart==RaidSource)->il y a une base d'opération militaire gardée par [enemiesCount] ennemis qui lancera un raid sur vous tous les [mtbDays]</li>
-      <li>root(priority=1,sitePart==Outpost)->il y a un avant-poste gardé par [enemiesCount] ennemis dans cette zone</li>
-      <li>root(priority=1,sitePart==BanditCamp)->il y a un camp de bandits gardé par [enemiesCount] ennemis dans cette zone</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->un [kindLabel] chasseur d'hommes erre à proximité</li>
-      <li>root(priority=1,sitePart==Manhunters,count>1)->il y a une meute de [count] [kindLabel] chasseurs d'hommes errant à proximité</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->il y a un mécanoïde endormi dans cette zone</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->il y a [count] mécanoïdes endormis dans cette zone</li>
-      <li>root(priority=1,sitePart==Turrets)->[threatsInfo] défendent ce site</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->une force ennemie attend pour tendre une embuscade à quiconque s'approche</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->une force ennemie se cache pour tendre une embuscade à quiconque s'approche</li>
-      <li>root(priority=1,sitePart==MechCluster)->il y a un groupe de structures mécanoïdes hostiles</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->une menace inconnue est possible</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->il y a un (*Threat)générateur d'ondes psychiques(/Threat) réglé pour affecter les colons [affectedGender]s</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->il y a un (*Threat)suppresseur psychique(/Threat) réglé pour affecter les colons [affectedGender]s</li>
+      <li>root(priority=1,sitePart==WeatherController)->il y a un (*Threat)contrôleur météorologique(/Threat) qui modifie le temps de toute la région à [weather_label]</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->il y a un (*Threat)appareil qui crache de la fumée(/Threat) sur toute la région</li>
+      <li>root(priority=1,sitePart==SunBlocker)->il y a un (*Threat)appareil qui bloque la lumière du soleil(/Threat) sur toute la région</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->il y a une (*Threat)dynamo IEM(/Threat) qui peut désactiver tous les appareils électriques sur toute la région</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->il y a un (*Threat)appareil qui empoisonne(/Threat) toute la région de retombées toxiques</li>
+      <li>root(priority=1,sitePart==RaidSource)->il y a une base d'opération militaire gardée par (*Threat)[enemiesCount] ennemis(/Threat) qui lancera un raid sur vous tous les [mtbDays]</li>
+      <li>root(priority=1,sitePart==Outpost)->il y a un avant-poste gardé par (*Threat)[enemiesCount] ennemis(/Threat) dans cette zone</li>
+      <li>root(priority=1,sitePart==BanditCamp)->il y a un camp de bandits gardé par (*Threat)[enemiesCount] ennemis(/Threat) dans cette zone</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->un (*Threat)[kindLabel] chasseur d'hommes(/Threat) erre à proximité</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->il y a une meute de (*Threat)[count] [kindLabel] chasseurs d'hommes(/Threat) errant à proximité</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->il y a un (*Threat)mécanoïde(/Threat) endormi dans cette zone</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->il y a (*Threat)[count] mécanoïdes(/Threat) endormis dans cette zone</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) défendent ce site</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->une (*Threat)force ennemie(/Threat) attend pour tendre une embuscade à quiconque s'approche</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->une (*Threat)force ennemie(/Threat) se cache pour tendre une embuscade à quiconque s'approche</li>
+      <li>root(priority=1,sitePart==MechCluster)->il y a un (*Threat)groupe de structures mécanoïdes hostiles(/Threat)</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->une (*Threat)menace inconnue(/Threat) est possible</li>
       <li>root->il y a [indefinite]</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
