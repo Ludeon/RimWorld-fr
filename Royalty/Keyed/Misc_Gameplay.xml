@@ -19,9 +19,9 @@
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>entraîneur psychique ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>utilisez un entraîneur psychique pour apprendre le pouvoir {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Utilisez un entraîneur psychique pour apprendre le pouvoir {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Une super-dose à usage unique de mécanites qui procure un pouvoir psychique spécifique.\n\nLa dose est administrée à travers l'orbite de l'œil. Une fois libérés dans le cerveau, les mécanites transmettent la connaissance d'une capacité spécifique, se transmutant en tissu neuronal au besoin.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Une super-dose à usage unique de mécanites qui procure un pouvoir psychique spécifique.\n\nLa dose est administrée à travers l'orbite de l'œil. Une fois libérées dans le cerveau, les mécanites transmettent la connaissance d'une capacité spécifique, se transmutant en tissu neuronal au besoin.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} a utilisé un neuro-entraîneur pour apprendre le pouvoir {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
@@ -74,9 +74,9 @@
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
   <MeditationFocusPerSculpture>{2} maximum par sculpture à proximité en fonction de la qualité ({0} / {1})</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
-  <MeditationFocusPerGraveAbstract>Par tombe à proximité: {1} si vide, {2} pour un cadavre humain (jusqu'à {0})</MeditationFocusPerGraveAbstract>
+  <MeditationFocusPerGraveAbstract>Par tombe à proximité : {1} si vide, {2} pour un cadavre humain (jusqu'à {0})</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
-  <MeditationFocusPerGrave>Par tombe à proximité: {2} si vide, {3} par cadavre humain ({0} / {1})</MeditationFocusPerGrave>
+  <MeditationFocusPerGrave>Par tombe à proximité : {2} si vide, {3} par cadavre humain ({0} / {1})</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
   <MeditationFocusPerFlameAbstract>{1} par source de flamme allumée à proximité (jusqu'à {0})</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
@@ -100,7 +100,7 @@
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Capacité prête : {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} est prêt{0_gender ? : e : e(e)} à utiliser {1}.</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} est prê{0_gender ? : t : te : t(e) } à utiliser {1}.</AbilityReadyText>
   
   <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
   <AbilitySpeechTooltip>Commence un discours depuis le trône. {ORGANIZER_labelShort} ira vers son trône et appellera tous les colons à venir écouter. Si tout se passe bien, les auditeurs se sentiront inspirés et auront du respect pour {ORGANIZER_objective}. Si le discours se passe mal, il y aura des conséquences sociales néfastes. Le résultat dépend des capacités sociales de {ORGANIZER_labelShort}.</AbilitySpeechTooltip>
@@ -122,7 +122,7 @@
   <AbilitySpeechStatInfo>Statistique de {1} pour {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
-  <TotalMeditationToday>Méditation totale d'aujourd'hui: {0} (multiplicateur de progression {1})</TotalMeditationToday>
+  <TotalMeditationToday>Méditation totale d'aujourd'hui : {0} (multiplicateur de progression {1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
   <ProgressToNextSubplant>progression {0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
@@ -136,12 +136,12 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Rituel de liaison terminé</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} a complété le rituel pour se lier à {LINKABLE_labelShort}.\n\n{PAWN_pronoun} a désormais un lien psychique amélioré, en lui permettant d'utiliser des nouveaux pouvoirs psychiques.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} a complété le rituel pour se lier à {LINKABLE_labelShort}.\n\n{PAWN_pronoun} a désormais un lien psychique amélioré, lui permettant d'utiliser des nouveaux pouvoirs psychiques.</LetterTextLinkingRitualCompleted>
 
   <!-- EN: Land shuttle here -->
   <LandHere>Faire atterrir la navette ici</LandHere>
   <!-- EN: Destination is out of range. -->
-  <MessageShuttleDestinationIsTooFar>La déstination est hors de portée</MessageShuttleDestinationIsTooFar>
+  <MessageShuttleDestinationIsTooFar>La destination est hors de portée</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Do bestowing ceremony -->
   <BeginCeremony>Commencer la cérémonie de remise de prix</BeginCeremony>
@@ -149,5 +149,5 @@
   <BestowingCeremonyThroneroomRequirementsNotSatisfied>L'émissaire se sent offensé car la salle du trône de {PAWN_definite} ne satisfait pas aux exigences du titre de {TITLE}. La cérémonie de remise de prix a été annulée.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
 
   <!-- EN: Not all required cargo is loaded yet! -->
-  <ShuttleRequiredItemsNotSatisfied>La cargaison demandée n'est pas encore complètement chargée!</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>La cargaison demandée n'est pas encore complètement chargée !</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>

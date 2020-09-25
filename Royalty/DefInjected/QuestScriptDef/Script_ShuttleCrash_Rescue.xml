@@ -28,20 +28,20 @@
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->Vous avez échoué pour la quête '[resolvedQuestName]'.</li>
     <li>successLetterEndingCommon->Vous avez complété la quête '[resolvedQuestName]' avec succès.</li>
-    <li>goodwillSomeCiviliansLost->Certains [pawnLabel] de [asker_faction_pawnSingular] n'ont pas pu être sauvés. [goodwillNegativelyAffected]</li>
+    <li>goodwillSomeCiviliansLost->Certains [pawnLabelPlural] de [asker_faction_pawnSingular] n'ont pas pu être sauvés. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Aucun des [pawnLabelPlural] de [asker_faction_pawnSingular] n'a pu être sauvé. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Votre réputation auprès de [asker_faction_name] a été négativement affectée pour chaque [pawnLabel] abandonné.</li>
     <li>commanderLandingDesc->[asker_nameDef], le commandant qui a demandé à poser sa navette à [map_definite]</li>
-    <li>raidArrivedLetterLabel->Raid: [enemyFaction_name]</li>
+    <li>raidArrivedLetterLabel->Raid : [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de [enemyFaction_name] sont arrivés. Ils attaqueront les [asker_faction_pawnsPlural] qui se sont écrasés à [map_definite].\n\nDéfendez les [asker_faction_pawnsPlural] jusqu'à ce que leur navette de secours arrive dans [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->La nevette de secours est arrivée</li>
-    <li>rescueShuttleArrivedLetterText->La navette de secours est arrivée pour recueillir les [pawnLabelSingleOrPlural] qui se sont écrasés lors de leur aterrissage. Assurez-vous de mettre ces colons dans la navette avant qu'elle ne parte dans [rescueDelay_duration]:\n\n[civilians]</li>
-    <li>questCompletedSuccessLetterLabel->Quête complétée : [resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], a échappé.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>rescueShuttleArrivedLetterText->La navette de secours est arrivée pour recueillir les [pawnLabelSingleOrPlural] qui se sont écrasés lors de leur atterrissage. Assurez-vous de mettre ces colons dans la navette avant qu'elle ne parte dans [rescueDelay_duration] :\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Quête réussie : [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], s'est échappé.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Quête échouée : [resolvedQuestName]</li>
     <li>askerLostLetterText->[commanderLandingDesc] n'était pas dans la navette lors de son départ.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->Quête échouée : [resolvedQuestName]</li>
-    <li>allLostLetterText->La navette de secours pour les [asker_faction_pawnsPlural] qui se sont écrasés à décollé sans personne à son bord.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterText->La navette de secours pour les [asker_faction_pawnsPlural] qui se sont écrasés a décollé sans personne à son bord.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->Quête échouée : [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] est mort.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Quête échouée : [resolvedQuestName]</li>
@@ -69,7 +69,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->La navette de [asker_faction_name] a subit de dégats et cherche un endroit où se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]. Le commandant [andCivilians] [mustBe] être [rescued], cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
+    <li>questDescription->La navette de [asker_faction_name] a subi de dégats et cherche un endroit où se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]s. Le commandant [andCivilians] [mustBe] être [rescued], cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, un autre [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autres [pawnLabelSingleOrPlural],</li>
@@ -105,11 +105,13 @@
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings>
     <li>questName->[shuttle] [crash]</li>
-    <li>questName->[shuttle] [crash] de [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] de [asker_faction_pawnSingular] [crash]</li>
     <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
+    <li>questName->[shuttle] de [asker_nameDef] [damaged]</li>
     <li>questName->[landing] [emergency]</li>
     <li>questName->[landing] [emergency] de [asker_nameDef]</li>
+    <li>questName->[landing_fem] [emergency_fem]</li>
+    <li>questName->[landing_fem] [emergency_fem] de [asker_nameDef]</li>
     <li>shuttle->cargo</li>
     <li>shuttle->transporteur</li>
     <li>shuttle->appareil</li>
@@ -119,9 +121,12 @@
     <li>damaged->échoué</li>
     <li>damaged->écrasé</li>
     <li>emergency->d'urgence</li>
-    <li>emergency->forcée</li>
-    <li>landing->descente</li>
-    <li>landing->approche</li>
+    <li>emergency->forcé</li>
+    <li>emergency_fem->d'urgence</li>
+    <li>emergency_fem->forcée</li>
+    <li>landing->atterrissage</li>
+    <li>landing_fem->descente</li>
+    <li>landing_fem->approche</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>
