@@ -178,10 +178,10 @@
     <li>mayAlso(lodgerCount>=2)->pourraient</li>
     <li>asker_accusative(asker_gender==Male)->le</li>
     <li>asker_accusative(asker_gender==Female)->la</li>
-    <li>asker_accusative(asker_gender==None)->le</li>    
+    <li>asker_accusative(asker_gender==None)->le</li>
     <li>asker_happy(asker_gender==Male)->heureux</li>
     <li>asker_happy(asker_gender==Female)->heureuse</li>
-    <li>asker_happy(asker_gender==None)->heureux</li>    
+    <li>asker_happy(asker_gender==None)->heureux</li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->ils</li>
     <li>lodgersPreposition(lodgerCount==1)->[asker_objective]-même</li>
@@ -205,7 +205,7 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] et d'autres [faction_pawnSingular] désespérés approchent.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] désespérés approchent. leur chef se nomme [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] affirme avoir perdu son domicile lors d'une récente attaque.</li>
-     <li>claimInfo(lodgerCount==1)->[asker_nameDef] prétend sortir de crypto-sommeil seul et sans amis.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] prétend sortir de crypto-sommeil seul et sans amis.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] prétend fuir de sa maison occupée par un ex-amant violent.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] prétend être en fuite après une dispute avec un chef de village.</li>
     <li>claimInfo(lodgerCount>=2)->Ils affirment avoir perdu leur maison lors d'une récente attaque.</li>
