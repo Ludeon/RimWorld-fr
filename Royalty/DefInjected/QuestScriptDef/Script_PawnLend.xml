@@ -22,7 +22,7 @@
     <li>disease->peste</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], souhaite ajouter un peu de vie à sa cour en exhibant quelques [entertainerDescription].\n\n[asker_pronoun] vous demande de lui prêter [colonistCountToLend] pour [lendForDays] jours.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], a besoin de gens pour l'aider à [dutyRoyalDescription].\n\n[asker_pronoun] vous demande de lui prêter [colonistCountToLend] pour [lendForDays] jours.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->un colon</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colons</li>
     <li>willSendShuttle->[asker_pronoun] enverra une navette pour embarquer [colonists].</li>
@@ -80,7 +80,7 @@
       <li>dutyRoyalDescription->explorer un marais</li>
       <li>dutyRoyalDescription->traduire un livre</li>
       <li>dutyRoyalDescription->établir un camp d'entrainement</li>
-      <li>dutyRoyalDescription->récolter une culture</li>
+      <li>dutyRoyalDescription->faire les récoltes</li>
     </rulesStrings>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
