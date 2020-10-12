@@ -31,13 +31,18 @@
     <li>goodwillSomeCiviliansLost->Certains [pawnLabelPlural] de [asker_faction_pawnSingular] n'ont pas pu être sauvés. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Aucun des [pawnLabelPlural] de [asker_faction_pawnSingular] n'a pu être sauvé. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Votre réputation auprès de [asker_faction_name] a été négativement affectée pour chaque [pawnLabel] abandonné.</li>
-    <li>commanderLandingDesc->[asker_nameDef], le commandant qui a demandé à poser sa navette à [map_definite]</li>
+    <li>commanderLandingDesc(asker_gender==Female)->[asker_nameDef], la commandante qui a demandé à poser sa navette à [map_definite]</li>
+    <li>commanderLandingDesc(asker_gender!=Female)->[asker_nameDef], le commandant qui a demandé à poser sa navette à [map_definite]</li>
     <li>raidArrivedLetterLabel->Raid : [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de [enemyFaction_name] sont arrivés. Ils attaqueront les [asker_faction_pawnsPlural] qui se sont écrasés à [map_definite].\n\nDéfendez les [asker_faction_pawnsPlural] jusqu'à ce que leur navette de secours arrive dans [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->La nevette de secours est arrivée</li>
     <li>rescueShuttleArrivedLetterText->La navette de secours est arrivée pour recueillir les [pawnLabelSingleOrPlural] qui se sont écrasés lors de leur atterrissage. Assurez-vous de mettre ces colons dans la navette avant qu'elle ne parte dans [rescueDelay_duration] :\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Quête réussie : [resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], s'est échappé.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText(asker_gender==Female)->[commanderLandingDesc], s'est échappée. [asker_pronoun] est reconnaissante de l'aide qu'[asker_pronoun] a reçue à [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText(asker_gender!=Female)->[commanderLandingDesc], s'est échappé. [asker_pronoun] est reconnaissant de l'aide qu'[asker_pronoun] a reçue à [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Quête réussie : [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText(asker_gender==Female)->[commanderLandingDesc], s'est échappée.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText(asker_gender!=Female)->[commanderLandingDesc], s'est échappé.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Quête échouée : [resolvedQuestName]</li>
     <li>askerLostLetterText->[commanderLandingDesc] n'était pas dans la navette lors de son départ.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->Quête échouée : [resolvedQuestName]</li>
@@ -73,6 +78,7 @@
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, un autre [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autres [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->et le [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->et les [pawnLabelPlural]</li>
     <li>mustBe(civilians_count==1)->doit</li>
