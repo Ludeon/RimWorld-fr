@@ -42,7 +42,8 @@
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez un prisonnier nommé [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender!=Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez un prisonnier nommé [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender==Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez une prisonnière nommée [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] a récemment craché sur l'enfant chéri de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de [enemyFaction_name]. En quête de revanche, [enemyFaction_leader_nameDef] enverra des [enemyFaction_pawnsPlural] à quiconque [lodgers0_objective] donnerait refuge. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
@@ -55,7 +56,8 @@
     <li>lodgers0_freed(lodgers0_gender==Male)->libéré</li>
     <li>lodgers0_freed(lodgers0_gender==Female)->libérée</li>
     <li>lodgers0_freed(lodgers0_gender==None)->libéré</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], voudrait que vous cachiez un prisonnier spécial pour [asker_objective]. Le prisonnier [lodgers0_nameFull], [lodgers0_titleIndef] de [lodgers0_age] ans, a des informations embarrassantes sur [PersonalCharacteristicsAny_def] de [asker_nameDef] et [asker_nameDef] ne veut pas qu'[lodgers0_pronoun] soit [lodgers0_freed]. Vous devez seulement garder le prisonnier pendant [shuttleDelayTicks_duration] jusqu'à ce que le scandale soit passé. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,lodgers0_gender!=Female)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], voudrait que vous cachiez un prisonnier spécial pour [asker_objective]. Le prisonnier [lodgers0_nameFull], [lodgers0_titleIndef] de [lodgers0_age] ans, a des informations embarrassantes sur [PersonalCharacteristicsAny_def] de [asker_nameDef] et [asker_nameDef] ne veut pas qu'[lodgers0_pronoun] soit [lodgers0_freed]. Vous devez seulement garder le prisonnier pendant [shuttleDelayTicks_duration] jusqu'à ce que le scandale soit passé. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,lodgers0_gender==Female)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], voudrait que vous cachiez une prisonnière spéciale pour [asker_objective]. La prisonnière [lodgers0_nameFull], [lodgers0_titleIndef] de [lodgers0_age] ans, a des informations embarrassantes sur [PersonalCharacteristicsAny_def] de [asker_nameDef] et [asker_nameDef] ne veut pas qu'[lodgers0_pronoun] soit [lodgers0_freed]. Vous devez seulement garder la prisonnière pendant [shuttleDelayTicks_duration] jusqu'à ce que le scandale soit passé. [allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, la faction [enemyFaction_name] veut répandre l'histoire honteuse et ils envoient des raids pour libérer [lodgers0_nameDef] de la prison. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
@@ -111,18 +113,27 @@
   <Hospitality_Prisoners.questNameRules.rulesStrings>
     <li>questName->Gardiennage pour [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->garder [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->le prisonnier [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->le prisonnier [adjAny]</li>
-    <li>questName(lodgersCount==1)->un prisonnier [adjAny]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Female)->la prisonnière [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender!=Female)->le prisonnier [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Female)->la prisonnière [adjAny_Feminine]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender!=Female)->le prisonnier [adjAny]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender==Female)->une prisonnière [adjAny_Feminine]</li>
+    <li>questName(lodgersCount==1,lodgers0_gender!=Female)->un prisonnier [adjAny]</li>
     <li>questName(lodgersCount>=2)->gardien de prison à louer</li>
     <li>questName(lodgersCount>=2)->gardien de prison</li>
     <li>questName(lodgersCount>=2)->prison sous contrat</li>
     <li>questName(lodgersCount>=2)->les prisonniers recherchés</li>
-    <li>questName(lodgersCount>=2)->les prisonniers [adjAny]s</li>
+    <li>questName(lodgersCount>=2)->les prisonniers [adjAny_Plural]</li>
     <li>questName(lodgersCount>=2)->les prisonniers de [asker_nameDef]</li>
     <li>adjAny->[AdjectiveBadass]</li>
     <li>adjAny->[AdjectiveAngsty]</li>
     <li>adjAny->[AdjectiveFriendly]</li>
+    <li>adjAny_Feminine->[AdjectiveBadass_Feminine]</li>
+    <li>adjAny_Feminine->[AdjectiveAngsty_Feminine]</li>
+    <li>adjAny_Feminine->[AdjectiveFriendly_Feminine]</li>
+    <li>adjAny_Plural->[AdjectiveBadass_Plural]</li>
+    <li>adjAny_Plural->[AdjectiveAngsty_Plural]</li>
+    <li>adjAny_Plural->[AdjectiveFriendly_Plural]</li>
   </Hospitality_Prisoners.questNameRules.rulesStrings>
   
 </LanguageData>
