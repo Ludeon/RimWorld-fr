@@ -6,7 +6,19 @@
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   -->
   <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <!--
+      NOTE: XXXPawnKind_label does not reflect the gender of the animal correctly.
+        French should not use [lodgersPawnKind_label] which is the generic kind name.
+        [lodgersPawnKind_labelPlural] needs to be Female Plural for generic lodgersPawnKind 
+        equal to
+          Cow (vaches), Goat (chèvres), Goose (oies), Turkey (dindes),
+          Gazelle, Boomalope, Megaspider, Ostrich, Tortoise
+    -->
+    <li>lodgersLabel->[lodgers0_kind]</li>
+    <li>lodgersLabel_definite(lodgers0_gender==Female)->la [lodgers0_kind]</li>
+    <li>lodgersLabel_definite(lodgers0_gender!=Female)->le [lodgers0_kind]</li>
+    <li>lodgersLabel_indefinite(lodgers0_gender==Female)->une [lodgers0_kind]</li>
+    <li>lodgersLabel_indefinite(lodgers0_gender!=Female)->un [lodgers0_kind]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
@@ -52,11 +64,11 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite.</li>
-    <li>threatsInfoMechClustersMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par un essaim de mécanoïdes en orbite.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersPawnKind_definite] a été [lodgers0_targeted] par une ruche  mécanoïde.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été pris pour cible par une ruche de mécanoïdes.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Une organisation de protection des animaux vous demande de predre soin d'[lodgersPawnKind_indefinite] du nom de [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfoMechClustersSingleAnimal->Pour une raison inconnue, [lodgersLabel_definite] a été [lodgers0_targeted] par un essaim de mécanoïdes en orbite.</li>
+    <li>threatsInfoMechClustersMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été [lodgersPlural_targeted] pour cible par un essaim de mécanoïdes en orbite.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Pour une raison inconnue, [lodgersLabel_definite] a été [lodgers0_targeted] par une ruche mécanoïde.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->Pour une raison inconnue, les [lodgersLabelPlural] ont été [lodgersPlural_targeted] pour cible par une ruche de mécanoïdes.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Une organisation de protection des animaux vous demande de predre soin d'[lodgersLabel_indefinite] du nom de [lodgers0_nameDef] à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLes militants du sauvetage des animaux ont volé [lodgers0_nameDef] d'une cérémonie sacrificielle de [enemyFaction_name]. Maintenant les [enemyFaction_pawnsPlural] vont venir pour se venger. Si vous acceptez [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
@@ -67,11 +79,11 @@
     <li>victim->un homme</li>
     <li>victim->[PersonJobAny_indef]</li>
     <li>victim(generateThreats==true,threatType==Raids)->un ami du/de la [enemyFaction_leaderTitle] de [enemyFaction_name]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, ces [lodgersLabelPlural] ont été récemment impliqués dans la mort d'[victim]. Maintenant, les [enemyFaction_pawnsPlural] de [enemyFaction_name] les pourchassent pour une vengeance rituelle. Si vous acceptez les [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, ces [lodgersLabelPlural] ont été récemment [lodgersPlural_implicated] dans la mort d'[victim]. Maintenant, les [enemyFaction_pawnsPlural] de [enemyFaction_name] les pourchassent pour une vengeance rituelle. Si vous acceptez les [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] cherche un endroit sûr pour s'occuper de son animal, [lodgersLabel] [lodgers0_nameDef], pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] cherche un endroit sûr pour s'occuper de son animal, [lodgersLabel_definite] [lodgers0_nameDef], pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
     <li>lodgers0_poorLittle(lodgers0_gender==Male)->le pauvre petit</li>
     <li>lodgers0_poorLittle(lodgers0_gender==Female)->la pauvre petite</li>
     <li>lodgers0_poorLittle(lodgers0_gender==None)->le pauvre petit</li>
@@ -84,17 +96,47 @@
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous présente une requête. [asker_pronoun] voudrait que vous preniez soin de son animal favori, [lodgersPawnKind_definite] [lodgers0_nameDef], à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous présente une requête. [asker_pronoun] voudrait que vous preniez soin de son animal favori, [lodgersLabel_definite] [lodgers0_nameDef], à [map_definite] pour [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] est un cadeau que [asker_nameDef] a promis à son enfant pour une cérémonie de mariage. Pour essayer de prévenir ce mariage, la faction [enemyFaction_name] envoie des [enemyFaction_pawnsPlural] après [lodgers0_objective]. Si vous acceptez [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous présente une requête. [asker_pronoun] voudrait que vous preniez soin de [lodgersCount] [lodgersLabelPlural] à [map_definite] pour [shuttleDelayTicks_duration]. Les [lodgersLabelPlural] sont les animaux favoris de [asker_nameDef], et [asker_pronoun] voudrait qu'ils expérimentent le monde en dehors de sa cours royale. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], vous présente une requête. [asker_pronoun] voudrait que vous preniez soin de [lodgersCount] [lodgersLabelPlural] à [map_definite] pour [shuttleDelayTicks_duration]. Les [lodgersLabelPlural] sont les animaux favoris de [asker_nameDef], et [asker_pronoun] voudrait qu'[lodgersPlural_pronoun] expérimentent le monde en dehors de sa cours royale. [healthInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nMalheureusement, la faction [enemyFaction_name] pourchasse les [lodgersLabelPlural] pour essayer de faire du mal à [asker_nameDef] personnellement. Si vous acceptez les [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>letterSubject(priority=1)->{SUBJECT_definite} de [lodgersLabel]</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Cow)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Goat)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Goose)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Turkey)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Gazelle)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Boomalope)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Megaspider)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Ostrich)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind==Tortoise)->prises</li>
+    <li>lodgersPlural_targeted(lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->pris</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Cow)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Goat)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Goose)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Turkey)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Gazelle)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Boomalope)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Megaspider)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Ostrich)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind==Tortoise)->impliquées</li>
+    <li>lodgersPlural_implicated(lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->impliqués</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Cow)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Goat)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Goose)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Turkey)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Gazelle)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Boomalope)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Megaspider)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Ostrich)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind==Tortoise)->elles</li>
+    <li>lodgersPlural_pronoun(lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->ils</li>
   </Hospitality_Animals.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
@@ -119,8 +161,8 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->[lodgersPawnKind_definite] [animalAdj]</li>
-    <li>questName(lodgersCount==1)->[lodgersPawnKind_indefinite] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel_definite] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel_indefinite] [animalAdj]</li>
     <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
     <li>questName(lodgersCount==1)->gardiennage de [lodgersLabel]</li>
     <li>questName(lodgersCount==1)->garder [lodgers0_nameDef]</li>
@@ -155,14 +197,35 @@
     <li>animalAdj(generateThreats==true,lodgers0_gender==None)->effrayé</li>
     <li>animalAdj_plural->adorables</li>
     <li>animalAdj_plural->aux yeux de biche</li>
-    <!-- pour le pluriel -->
-    <li>animalAdj_plural->loyaux</li>
-    <li>animalAdj_plural->affecueux</li>
     <li>animalAdj_plural->calmes</li>
-    <li>animalAdj_plural->gentils</li>
-    <li>animalAdj_plural->fiers</li>
-    <li>animalAdj_plural(generateThreats==true)->pourchassés</li>
-    <li>animalAdj_plural(generateThreats==true)->effrayés</li>
+    <!--
+        Pour le pluriel avec genre.
+        Féminin pluriel pour
+          Cow (vaches), Goat (chèvres), Goose (oies), Turkey (dindes),
+          Gazelle, Boomalope, Megaspider, Ostrich, Tortoise
+    -->
+    <li>animalAdj_plural(lodgersPawnKind==Cow)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Goat)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Goose)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Turkey)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Gazelle)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Boomalope)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Megaspider)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Ostrich)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind==Tortoise)->[animalAdj_plural_fem]</li>
+    <li>animalAdj_plural(lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->[animalAdj_plural_masc]</li>
+    <li>animalAdj_plural_masc->loyaux</li>
+    <li>animalAdj_plural_masc->affecueux</li>
+    <li>animalAdj_plural_masc->gentils</li>
+    <li>animalAdj_plural_masc->fiers</li>
+    <li>animalAdj_plural_masc(generateThreats==true)->pourchassés</li>
+    <li>animalAdj_plural_masc(generateThreats==true)->effrayés</li>
+    <li>animalAdj_plural_fem->loyales</li>
+    <li>animalAdj_plural_fem->affecueuses</li>
+    <li>animalAdj_plural_fem->gentilles</li>
+    <li>animalAdj_plural_fem->fières</li>
+    <li>animalAdj_plural_fem(generateThreats==true)->pourchassées</li>
+    <li>animalAdj_plural_fem(generateThreats==true)->effrayées</li>
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

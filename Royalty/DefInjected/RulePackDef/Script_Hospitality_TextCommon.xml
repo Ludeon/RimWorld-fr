@@ -60,7 +60,7 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] d'abasie paralytique et [must] être [kept] au lit.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] de gangrène un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave, [lodgersLabelSingOrPluralDef] [can] en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] [sick] de gangrène et un traitement quotidien sera nécessaire. La maladie peut être ralentie par des soins et des médicaments de haute qualité, mais ne peut généralement pas être guérie complètement. Si la maladie devient grave, [lodgersLabelSingOrPluralDef] [can] en mourir, alors assurez-vous d'avoir les fournitures médicales nécessaires.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvous devez garder l'humeur de [lodgersLabelSingOrPluralDef] au-dessus de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
@@ -95,7 +95,16 @@
     <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Male)->arrivé</li>
     <li>lodgersArrived(lodgersCount==1,lodgers0_gender==Female)->arrivée</li>
     <li>lodgersArrived(lodgersCount==1,lodgers0_gender==None)->arrivé</li>
-    <li>lodgersArrived(lodgersCount>=2)->arrivés</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Cow)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Goat)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Goose)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Turkey)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Gazelle)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Boomalope)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Megaspider)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Ostrich)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind==Tortoise)->arrivées</li>
+    <li>lodgersArrived(lodgersCount>=2,lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->arrivés</li>
     <!-- NOTE: "le/la/les"     -->
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Male)->le</li>
     <li>lodgersAccusative(lodgersCount==1,lodgers0_gender==Female)->la</li>
@@ -115,16 +124,46 @@
     <li>lodgersPossessive(lodgersCount>=2)->ses</li>
     <li>lodgersWillingTo(lodgersCount==1,lodgers0_gender!=Female)->disposé</li>
     <li>lodgersWillingTo(lodgersCount==1,lodgers0_gender==Female)->disposée</li>
-    <li>lodgersWillingTo(lodgersCount>=1)->disposés</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Cow)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Goat)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Goose)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Turkey)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Gazelle)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Boomalope)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Megaspider)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Ostrich)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind==Tortoise)->disposées</li>
+    <li>lodgersWillingTo(lodgersCount>=2,lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->disposés</li>
     <!-- TODO: duplicate defs, use lodgersIsAre.
       Might be better add prefix lodgers_
     -->
     <li>areIs(lodgersCount==1)->est</li>
     <li>areIs(lodgersCount>=2)->sont</li>
-    <li>sick(lodgersCount==1)->atteint</li>
-    <li>sick(lodgersCount>=2)->atteints</li>
-    <li>kept(lodgersCount==1)->maintenu</li>
+    <li>sick(lodgersCount==1,lodgers0_gender==Female)->atteinte</li>
+    <li>sick(lodgersCount==1,lodgers0_gender!=Female)->atteint</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Cow)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Goat)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Goose)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Turkey)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Gazelle)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Boomalope)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Megaspider)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Ostrich)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind==Tortoise)->atteintes</li>
+    <li>sick(lodgersCount>=2,lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->atteints</li>
+    <li>kept(lodgersCount==1,lodgers0_gender==Female)->maintenue</li>
+    <li>kept(lodgersCount==1,lodgers0_gender!=Female)->maintenu</li>
     <li>kept(lodgersCount>=2)->maintenus</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Cow)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Goat)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Goose)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Turkey)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Gazelle)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Boomalope)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Megaspider)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Ostrich)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind==Tortoise)->maintenues</li>
+    <li>kept(lodgersCount>=2,lodgersPawnKind!=Cow,lodgersPawnKind!=Goat,lodgersPawnKind!=Goose,lodgersPawnKind!=Turkey,lodgersPawnKind!=Gazelle,lodgersPawnKind!=Boomalope,lodgersPawnKind!=Megaspider,lodgersPawnKind!=Ostrich,lodgersPawnKind!=Tortoise)->maintenus</li>
     <li>must(lodgersCount==1)->doit</li>
     <li>must(lodgersCount>=2)->doivent</li>
     <li>can(lodgersCount==1)->peut</li>
