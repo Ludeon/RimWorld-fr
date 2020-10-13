@@ -69,8 +69,8 @@
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Il y aura (*Threat)un raid(/Threat) d'une taille similaire à :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->Il y aura (*Threat)un raid(/Threat) de force x[threatSize] et d'une taille similaire à :\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Il y aura (*Threat)[threatCount]raids(/Threat) d'une taille similaire à :\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Il y aura (*Threat)[threatCount]raids(/Threat) de force x[threatSize] et d'une taille similaire à :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Il y aura (*Threat)[threatCount] raids(/Threat) d'une taille similaire à :\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Il y aura (*Threat)[threatCount] raids(/Threat) de force x[threatSize] et d'une taille similaire à :\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)une escouade mécanoïde(/Threat) se déploiera à proximité.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)deux escouades mécanoïdes(/Threat) se déploieront à proximité.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)une escouade mécanoïde(/Threat) d'une taille x[threatSize] se déploiera à proximité.</li>
