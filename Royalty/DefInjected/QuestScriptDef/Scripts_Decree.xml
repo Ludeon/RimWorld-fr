@@ -36,13 +36,19 @@
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
   <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nVous devez récolter [harvestItemCount] [plantToHarvest_label].\n\nVous devrez peut-être semer et faire pousser des plants de [plantToHarvest_label] en premier lieu.\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nVous devez récolter [plantToHarvestWithCount].\n\nVous devrez peut-être semer et faire pousser des plants de [plantKind] en premier lieu.\n\n[decreeThreatInfo]</li>
+    <!-- NOTE: change "faire pousser des plants de tissu" to "faire pousser des plants de coton" -->
+    <li>plantKind(plantToHarvest==Cloth)->coton</li>
+    <li>plantKind(plantToHarvest!=Cloth)->[plantToHarvest_label]</li>
+    <li>plantToHarvestWithCount(harvestItemCount==1)->[plantToHarvest_indefinite]</li>
+    <li>plantToHarvestWithCount(harvestItemCount!=1)->[harvestItemCount] [plantToHarvest_labelPlural]</li>
   </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[plantToHarvest_label] harvest decree</li>
   -->
   <Decree_HarvestCrop.questNameRules.rulesStrings>
-    <li>questName->décret de récolte de [plantToHarvest_label]</li>
+    <li>questName(harvestItemCount==1)->décret de récolte de [plantToHarvest_indefinite]</li>
+    <li>questName(harvestItemCount!=1)->décret de récolte de [plantToHarvest_labelPlural]</li>
   </Decree_HarvestCrop.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -73,7 +79,8 @@
     <li>questName->[defToProduce_label] production decree</li>
   -->
   <Decree_ProduceItem.questNameRules.rulesStrings>
-    <li>questName->décret de production de [defToProduce_label]</li>
+    <!-- NOTE: Default to labelPlural since the number of items to produce is not available -->
+    <li>questName->décret de production de [defToProduce_labelPlural]</li>
   </Decree_ProduceItem.questNameRules.rulesStrings>
   
 </LanguageData>
