@@ -113,7 +113,8 @@
     <!-- NOTE: "lui/elle/eux"     -->
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->eux</li>
-    <li>lodgersObjective(lodgersCount>=2)->leur</li>
+    <li>lodgersObjectiveIndirect(lodgersCount==1)->lui</li>
+    <li>lodgersObjectiveIndirect(lodgersCount>=2)->leur</li>
     <!-- NOTE: "son/sa/ses/leur/leurs"
         Here, we suppose that the owner is singular,
         and the lodgers are the possessed subjects.
