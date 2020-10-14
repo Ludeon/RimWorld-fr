@@ -79,7 +79,7 @@
     <li>canR(lodgerCount==1)->puisse</li>
     <li>canR(lodgerCount>=2)->puissent</li>
     <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Les autres sont consternés : Le dernier [lodgersLabel] est consterné} par cela, mais {PAWNSALIVECOUNT_multiple ? ils ne prendront : il ne prendra} aucune mesure contre vous.</li>
-    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Les autres n'acceptent : Le dernier [lodgersLabel] n'accepte} pas cela.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Les autres n'acceptent : Le dernier [lodgersLabel] n'accepte} pas cela</li>
     <li>turnedViolent->[othersWillNotAccept], et {PAWNSALIVECOUNT_multiple ? se sont violemment retournés : s'est violemment retourné} contre vous.</li>
     <li>decidedToLeave->[othersWillNotAccept], et {PAWNSALIVECOUNT_multiple ? ont : a } décidé de partir.</li>
     <!-- NOTE: whoAskedToStaySingular is for the last pawn, no matter lodgerCount value is. -->
@@ -100,7 +100,7 @@
     <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] mort : départ</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->La quête a échoué</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, Le [lastOrNot] [faction_pawnSingular] désespéré [whoAskedToStaySingular], est mort.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, le [lastOrNot] [faction_pawnSingular] désespéré [whoAskedToStaySingular], est mort.\n\n[questOver]</li>
     <li>letterIntroArrested->Vous avez arrêté {SUBJECT_definite}, [oneOfThe].</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] arrêté : colère</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
