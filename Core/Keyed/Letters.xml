@@ -218,7 +218,7 @@
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
   <LetterAcceptedProposal_NameChange>{PAWN_label} changera son nom de famille en {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
-  <LetterRejectedProposal>Cela va rendre {INITIATOR_nameFull} malheureux.</LetterRejectedProposal>
+  <LetterRejectedProposal>Cela va rendre {INITIATOR_nameFull} malheureu{INITIATOR_gender ? x : se : x(se)}.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
