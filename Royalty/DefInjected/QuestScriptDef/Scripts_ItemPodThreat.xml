@@ -86,32 +86,65 @@
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <!-- BUG: animalKind_indefinite et animalKind_definite non disponibles. -->
-    <li>animalKindLabelCorrect_def(animalCount==1)->le/la [animalKind_label] chasseur d'homme</li>
-    <li>animalKindLabelCorrect_def(animalCount>=2)->les [animalCount] [animalKind_labelPlural] chasseurs d'homme</li>
+    <li>animalKindSingular_definite->[animalKindDef_definite]</li>
+    <li>animalKindSingular_definite->[animalKind_definite]</li>
+    <li>animalKindSingular_indefinite->[animalKindDef_indefinite]</li>
+    <li>animalKindSingular_indefinite->[animalKind_indefinite]</li>
+    <li>animalKindLabelCorrect_def(animalCount==1)->[animalKindSingular_definite]</li>
+    <li>animalKindLabelCorrect_def(animalCount>=2)->les [animalCount] [animalKind_labelPlural]</li>
     <li>animalWillArrive(animalCount==1)->arrivera</li>
     <li>animalWillArrive(animalCount>=2)->arriveront</li>
-    <!-- NOTE: laisser Un(e) [animalKind_label] pour ne pas boguer. -->
-    <li>manhuntingBeastIndef(animalCount==1)->un(e) (*Threat)[animalKind_label] chasseur d'homme(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKind_indefinite] chasseur d'homme(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'homme(/Threat)</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Cow)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goat)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goose)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Turkey)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Gazelle)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Boomalope)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Megaspider)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Ostrich)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Tortoise)->[animalKindSingular_definite] chasseuse d'hommes</li>
+    <li>manhuntingBeastDef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->[animalKindSingular_definite] chasseur d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Cow)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goat)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goose)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Turkey)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Gazelle)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Boomalope)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Megaspider)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Ostrich)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Tortoise)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
+    <li>manhuntingBeastDef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->les [animalCount] [animalKind_labelPlural] chasseurs d'hommes</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Cow)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goat)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goose)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Turkey)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Gazelle)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Boomalope)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Megaspider)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Ostrich)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseur d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Cow)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goat)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goose)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Turkey)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Gazelle)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Boomalope)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Megaspider)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Ostrich)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'hommes(/Threat)</li>
     <li>endSection->[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
-    <!-- BUG: même bug -->
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)Un(e) [animalKind_label] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)[animalKind_indefinite] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
-    <!-- BUG: même bug -->
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->Le/la [animalKind_label] pourchassait un marchand voisin.</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_definite] pourchassait un marchand voisin.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand vous appelle. (*Threat)Une meute de [animalCount] [animalKind_labelPlural] sauvages(/Threat) le pourchassent ! Il voudrait votre aide pour attirer les bêtes loin de lui.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)[animalKindSingular_indefinite] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKindSingular_definite] pourchassait un marchand voisin.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand vous appelle. Une meute de (*Threat)[animalCount] [animalKind_labelPlural] sauvages(/Threat) le pourchassent ! Il voudrait votre aide pour attirer les bêtes loin de lui.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Les [animalKind_labelPlural] pourchassaient un marchand voisin.</li>
     <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] sont harcelées par [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] voudrait votre aide pour attirer [animalKindLabelCorrect_def] loin de ces caravanes.[endSection]</li>
-    <!-- BUG: même bug -->
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->Le/la [animalKind_label] harcelait les caravanes venant de [asker_faction_name].</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_definite] harcelait les caravanes venant de [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKindSingular_definite] harcelait les caravanes venant de [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->Les [animalKind_labelPlural] harcelaient les caravanes venant de  [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu un éclaireur à cause d'un (*Threat)[animalKind_label] chasseur d'homme(/Threat). [asker_pronoun] voudrait attirer la bête vers vous pour être tuée, pour défendre son honneur.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->C'est le/la [animalKind_label] qui a tué l'éclaireur de [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu une escouade d'éclaireurs à cause d'une (*Threat)meute de [animalCount] [animalKind_labelPlural] chasseurs d'homme(/Threat). [asker_pronoun] voudrait attirer les bêtes vers vous pour être tuées, pour défendre son honneur.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu un éclaireur à cause d'[manhuntingBeastIndef]. [asker_pronoun] voudrait attirer la bête vers vous pour être tuée, pour défendre son honneur.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->C'est [animalKindSingular_definite] qui a tué l'éclaireur de [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu une escouade d'éclaireurs à cause d'[manhuntingBeastIndef]. [asker_pronoun] voudrait attirer les bêtes vers vous pour être tuées, pour défendre son honneur.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Ce sont les [animalKind_labelPlural] qui ont tué l'escouade d'éclaireurs de [asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name].</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -128,29 +161,56 @@
     <li>beasts->animals</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
+    <!-- NOTE:
+      Il est possible de déterminer le genre pour [animalKindDef_definite] et [animalKindDef_indefinite]
+      avec animalKindDef==Cow etc. pour questName comme ci-dessus, mais l'utilisation de ConceptBadass* ici
+      au lieu de AdjectiveBadass* donne plus de variétés au titre (inspiré de la traduction DE).
+      Mettre à jour ConceptBadass*.txt pour être plus adaptés si besoin.
+    -->
+    <li>questName(animalCount==1)->[the_beast] du [ConceptBadass]</li>
+    <li>questName(animalCount==1)->[the_beast] de la [ConceptBadass_Feminine]</li>
+    <li>questName(animalCount==1)->[a_beast] du [ConceptBadass]</li>
+    <li>questName(animalCount==1)->[a_beast] de la [ConceptBadass_Feminine]</li>
     <li>questName(animalCount==1)->Le [beast] [AdjectiveBadass]</li>
     <li>questName(animalCount==1)->Un [beast] [AdjectiveBadass]</li>
-    <li>questName(animalCount==1)->[beast] [AdjectiveBadass]</li>
     <li>questName(animalCount==1)->La [beast_fem] [AdjectiveBadass_Feminine]</li>
     <li>questName(animalCount==1)->Une [beast_fem] [AdjectiveBadass_Feminine]</li>
-    <li>questName(animalCount==1)->[beast_fem] [AdjectiveBadass_Feminine]</li>
     <li>questName(animalCount>=2)->Les [beasts] [AdjectiveBadass_Plural]</li>
-    <li>questName(animalCount>=2)->[beasts] [AdjectiveBadass_Plural]</li>
+    <li>questName(animalCount>=2)->Des [beasts] [AdjectiveBadass_Plural]</li>
     <li>questName(animalCount>=2)->Les [beasts_fem] [AdjectiveBadass_FemPlural]</li>
-    <li>questName(animalCount>=2)->[beasts_fem] [AdjectiveBadass_FemPlural]</li>
-    <!--
-      BUG: les X_labelMale* et X_labelFemale* ne fonctionnent pas.
-      NOTE: les X_label et X_labelPlural n'ont pas de genre mais sont
-        là pour que le jeu ne bogue pas.
-    -->
-    <li>beast(p=4)->[animalKind_label]</li>
+    <li>questName(animalCount>=2)->Des [beasts_fem] [AdjectiveBadass_FemPlural]</li>
+    <li>the_beast(p=2)->[animalKindDef_definite]</li>
+    <li>the_beast->L'animal</li>
+    <li>the_beast->La bête</li>
+    <li>a_beast(p=2)->[animalKindDef_indefinite]</li>
+    <li>a_beast->Un animal</li>
+    <li>a_beast->Une bête</li>
+    <li>beast(p=4,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->[animalKind_label]</li>
     <li>beast(p=4)->[animalKind_labelMale]</li>
     <li>beast->animal</li>
+    <li>beast_fem(p=4,animalKindDef==Cow)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Goat)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Goose)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Turkey)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Gazelle)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Boomalope)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Megaspider)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Ostrich)->[animalKind_label]</li>
+    <li>beast_fem(p=4,animalKindDef==Tortoise)->[animalKind_label]</li>
     <li>beast_fem(p=4)->[animalKind_labelFemale]</li>
     <li>beast_fem->bête</li>
-    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts(p=4,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->[animalKind_labelPlural]</li>
     <li>beasts(p=4)->[animalKind_labelMalePlural]</li>
     <li>beasts->animaux</li>
+    <li>beasts_fem(p=4,animalKindDef==Cow)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Goat)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Goose)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Turkey)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Gazelle)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Boomalope)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Megaspider)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Ostrich)->[animalKind_labelPlural]</li>
+    <li>beasts_fem(p=4,animalKindDef==Tortoise)->[animalKind_labelPlural]</li>
     <li>beasts_fem(p=4)->[animalKind_labelFemalePlural]</li>
     <li>beasts_fem->bêtes</li>
   </ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
