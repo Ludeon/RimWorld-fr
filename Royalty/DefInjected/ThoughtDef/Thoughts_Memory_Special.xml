@@ -12,13 +12,13 @@
   <DecreeMet.stages.decree_satisfied.description>Ma noble autorité a été respectée comme il se doit.</DecreeMet.stages.decree_satisfied.description>
   
   <!-- EN: disinherited -->
-  <Disinherited.stages.disinherited.label>déshérité</Disinherited.stages.disinherited.label>
+  <Disinherited.stages.disinherited.label>déshérité{PAWN_gender ? : e}</Disinherited.stages.disinherited.label>
   <!-- EN: I was disinherited of my title. Do I need to get medieval on these people? -->
-  <Disinherited.stages.disinherited.description>J'ai été déshérité de mon titre. Mon dieu, que vont penser ces gens de moi ?</Disinherited.stages.disinherited.description>
+  <Disinherited.stages.disinherited.description>J'ai été déshérité{PAWN_gender ? : e} de mon titre. Mon dieu, que vont penser ces gens de moi ?</Disinherited.stages.disinherited.description>
   
   <!-- EN: neuroquake echo -->
   <NeuroquakeEcho.stages.neuroquake_echo.label>onde de tremblement psychique</NeuroquakeEcho.stages.neuroquake_echo.label>
   <!-- EN: Distant, unfamilliar echoes of terror and grief. It makes me feel nervous and shaky. -->
-  <NeuroquakeEcho.stages.neuroquake_echo.description>Des ondes lointaines et inhabituelles de terreur et de chagrin. Cela me rend nerveux et tremblant.</NeuroquakeEcho.stages.neuroquake_echo.description>
+  <NeuroquakeEcho.stages.neuroquake_echo.description>Des ondes lointaines et inhabituelles de terreur et de chagrin. Cela me rend nerveu{PAWN_gender ? x : se} et tremblant{PAWN_gender ? : e}.</NeuroquakeEcho.stages.neuroquake_echo.description>
   
 </LanguageData>
