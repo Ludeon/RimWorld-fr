@@ -24,7 +24,7 @@
   <!-- EN: colonist banished -->
   <ColonistBanished.stages.colonist_banished.label>colon banni</ColonistBanished.stages.colonist_banished.label>
   <!-- EN: We just banished someone. I hope they'll make it, but I'm worried. -->
-  <ColonistBanished.stages.colonist_banished.description>Nous avons banni quelqu'un. J'espère qu'il s'en sortira, mais je suis inquiet.</ColonistBanished.stages.colonist_banished.description>
+  <ColonistBanished.stages.colonist_banished.description>Nous avons banni quelqu'un. J'espère qu'il s'en sortira, mais je suis inqui{PAWN_gender ? et : ète}.</ColonistBanished.stages.colonist_banished.description>
   
   <!-- EN: colonist banished to death -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.label>colon banni et abandonné à sa mort</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
@@ -50,9 +50,9 @@
   <FailedToRescueRelative.stages.failed_to_rescue.description>Nous n'avons pas réussi à sauver un de mes proches. Sachant que j'aurais pu l'aider, il m'est encore plus difficile de faire face à la mort d'un être cher.</FailedToRescueRelative.stages.failed_to_rescue.description>
   
   <!-- EN: freed from slavery -->
-  <FreedFromSlavery.stages.freed_from_slavery.label>libéré de l'esclavage</FreedFromSlavery.stages.freed_from_slavery.label>
+  <FreedFromSlavery.stages.freed_from_slavery.label>libéré{PAWN_gender ? : e} de l'esclavage</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
-  <FreedFromSlavery.stages.freed_from_slavery.description>J'ai été libéré de l'esclavage. Je suis tellement reconnaissant !</FreedFromSlavery.stages.freed_from_slavery.description>
+  <FreedFromSlavery.stages.freed_from_slavery.description>J'ai été libéré{PAWN_gender ? : e} de l'esclavage. Je suis tellement reconnaissant{PAWN_gender ? : e} !</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>a tué quelqu'un</KilledHumanlikeBloodlust.stages.killed_someone.label>
@@ -87,20 +87,20 @@
   <!-- EN: my organ harvested -->
   <MyOrganHarvested.stages.my_organ_harvested.label>organe prélevé</MyOrganHarvested.stages.my_organ_harvested.label>
   <!-- EN: The colony harvested body parts from me! They're breaking me down like an old engine! -->
-  <MyOrganHarvested.stages.my_organ_harvested.description>La colonie m'a pris(e) un de mes organes ! Ils me réduisent en pièces détachées, comme si j'étais un vieux moteur !</MyOrganHarvested.stages.my_organ_harvested.description>
+  <MyOrganHarvested.stages.my_organ_harvested.description>La colonie m'a pris{PAWN_gender ? : e} un de mes organes ! Ils me réduisent en pièces détachées, comme si j'étais un vieux moteur !</MyOrganHarvested.stages.my_organ_harvested.description>
   
   <!-- EN: initial hope -->
-  <NewColonyHope.stages.initial_hope.label>plein d'espoir</NewColonyHope.stages.initial_hope.label>
+  <NewColonyHope.stages.initial_hope.label>plein{PAWN_gender ? : e} d'espoir</NewColonyHope.stages.initial_hope.label>
   <!-- EN: I'm getting used to this, but it's still an exciting new situation. I hope this works out... -->
   <NewColonyHope.stages.initial_hope.description>Je commence à m'habituer, mais tout ça reste nouveau pour moi. J'espère que tout ira bien…</NewColonyHope.stages.initial_hope.description>
   
   <!-- EN: initial optimism -->
   <NewColonyOptimism.stages.initial_optimism.label>optimisme des premiers jours</NewColonyOptimism.stages.initial_optimism.label>
   <!-- EN: It's a tough situation, but I'm excited to be founding a new settlement. -->
-  <NewColonyOptimism.stages.initial_optimism.description>Nous venons d'atterrir. Ce sera dur, mais je suis tout excité(e) à l'idée de fonder une nouvelle colonie.</NewColonyOptimism.stages.initial_optimism.description>
+  <NewColonyOptimism.stages.initial_optimism.description>Nous venons d'atterrir. Ce sera dur, mais je suis tout{PAWN_gender ? : e} excité{PAWN_gender ? : e} à l'idée de fonder une nouvelle colonie.</NewColonyOptimism.stages.initial_optimism.description>
   
   <!-- EN: nuzzled -->
-  <Nuzzled.stages.nuzzled.label>caressé</Nuzzled.stages.nuzzled.label>
+  <Nuzzled.stages.nuzzled.label>caressé{PAWN_gender ? : e}</Nuzzled.stages.nuzzled.label>
   <!-- EN: A cute animal nuzzled me. -->
   <Nuzzled.stages.nuzzled.description>Un animal mignon s'est blotti contre moi.</Nuzzled.stages.nuzzled.description>
   
@@ -130,9 +130,9 @@
   <ReleasedHealthyPrisoner.stages.prisoner_released.description>Nous avons libéré un prisonnier en bonne santé. Cela fait plaisir de savoir que nous traitons bien autrui, même quand c'est un prisonnier.</ReleasedHealthyPrisoner.stages.prisoner_released.description>
   
   <!-- EN: rescued -->
-  <Rescued.stages.rescued.label>sauvé</Rescued.stages.rescued.label>
+  <Rescued.stages.rescued.label>sauvé{PAWN_gender ? : e}</Rescued.stages.rescued.label>
   <!-- EN: I was rescued! I almost thought I was done for back there. I'm so thankful. -->
-  <Rescued.stages.rescued.description>J'ai été sauvé ! J'ai presque pensé que j'allais finir comme ça. Je suis tellement reconnaissant.</Rescued.stages.rescued.description>
+  <Rescued.stages.rescued.description>J'ai été sauvé{PAWN_gender ? : e} ! J'ai presque pensé que j'allais finir comme ça. Je suis tellement reconnaissant{PAWN_gender ? : e}.</Rescued.stages.rescued.description>
   
   <!-- EN: rescued {0} -->
   <RescuedRelative.stages.rescued.label>sauvetage de {0} réussi</RescuedRelative.stages.rescued.label>
@@ -165,14 +165,14 @@
   <SleptOutside.stages.slept_outside.description>Il a fallu que je dorme dehors, sans aucune protection contre les éléments.</SleptOutside.stages.slept_outside.description>
   
   <!-- EN: soaking wet -->
-  <SoakingWet.stages.soaking_wet.label>trempé(e) jusqu'aux os</SoakingWet.stages.soaking_wet.label>
+  <SoakingWet.stages.soaking_wet.label>trempé{PAWN_gender ? : e} jusqu'aux os</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
-  <SoakingWet.stages.soaking_wet.description>Je suis trempé(e) jusqu'aux os.</SoakingWet.stages.soaking_wet.description>
+  <SoakingWet.stages.soaking_wet.description>Je suis trempé{PAWN_gender ? : e} jusqu'aux os.</SoakingWet.stages.soaking_wet.description>
   
   <!-- EN: was imprisoned -->
-  <WasImprisoned.stages.was_imprisoned.label>a été emprisonné(e)</WasImprisoned.stages.was_imprisoned.label>
+  <WasImprisoned.stages.was_imprisoned.label>a été emprisonné{PAWN_gender ? : e}</WasImprisoned.stages.was_imprisoned.label>
   <!-- EN: The colony had me in jail for a while, like a caged animal. -->
-  <WasImprisoned.stages.was_imprisoned.description>La colonie m'a gardé(e) en prison, comme un vulgaire animal en cage.</WasImprisoned.stages.was_imprisoned.description>
+  <WasImprisoned.stages.was_imprisoned.description>La colonie m'a gardé{PAWN_gender ? : e} en prison, comme un vulgaire animal en cage.</WasImprisoned.stages.was_imprisoned.description>
   
   <!-- EN: witnessed ally's death -->
   <WitnessedDeathAlly.stages.witnessed_allys_death.label>a vu mourir un allié</WitnessedDeathAlly.stages.witnessed_allys_death.label>
