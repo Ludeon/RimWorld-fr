@@ -46,9 +46,9 @@
   <KnowGuestExecuted.stages.someone_was_organmurdered.description>Un prisonnier ou invité est mort parce que la colonie a prélevé une partie de son corps. C'est horrible.</KnowGuestExecuted.stages.someone_was_organmurdered.description>
   
   <!-- EN: innocent prisoner died -->
-  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>prisonnier inoffensif mort</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>prisonni{1_gender ? er : ère : er(ère)} inoffensi{1_gender ? f : ve : f(ve)} mor{1_gender ? t : te : t(e)}</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
   <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
-  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Un de nos prisonniers est mort alors qu'il était inoffensif. Nous devrions être capables de s'occuper de nos prisonniers. Si nous les voulons morts, nous pouvons au moins les exécuter proprement plutôt que de s'adonner à de telles sauvageries.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>U{OTHERPAWN_gender ? n : ne : n(e)} de nos prisonniers est mor{OTHERPAWN_gender ? t : te : t(e)} alors qu'{OTHERPAWN_pronoun}  était inoffensi{OTHERPAWN_gender ? f : ve : f(ve)}. Nous devrions être capables de s'occuper de nos prisonniers. Si nous les voulons morts, nous pouvons au moins les exécuter proprement plutôt que de s'adonner à de telles sauvageries.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
   
   <!-- EN: my aunt {0} died -->
   <MyAuntDied.stages.my_aunt_died.label>ma tante {0} est morte</MyAuntDied.stages.my_aunt_died.label>
@@ -61,9 +61,9 @@
   <MyBrotherDied.stages.my_brother_died.description>Mon frère est mort. Ma propre famille vacille…</MyBrotherDied.stages.my_brother_died.description>
   
   <!-- EN: my cousin {0} died -->
-  <MyCousinDied.stages.my_cousin_died.label>{0_gender ? mon : ma : mon/ma} cousi{0_gender ? n : ne : n(e)} {0} est mor{0_gender ? t : te : t(e)}</MyCousinDied.stages.my_cousin_died.label>
+  <MyCousinDied.stages.my_cousin_died.label>{1_gender ? mon : ma : mon/ma} cousi{1_gender ? n : ne : n(e)} {0} est mor{1_gender ? t : te : t(e)}</MyCousinDied.stages.my_cousin_died.label>
   <!-- EN: My cousin died. My own flesh and blood... -->
-  <MyCousinDied.stages.my_cousin_died.description>Mon/ma cousin(e) est mort(e). Ma famille vacille…</MyCousinDied.stages.my_cousin_died.description>
+  <MyCousinDied.stages.my_cousin_died.description>{OTHERPAWN_gender ? Mon : Ma : Mon/ma} cousi{OTHERPAWN_gender ? n : ne : n(e)} est mor{OTHERPAWN_gender ? t : te : t(e)}. Ma famille vacille…</MyCousinDied.stages.my_cousin_died.description>
   
   <!-- EN: my daughter {0} died -->
   <MyDaughterDied.stages.my_daughter_died.label>ma fille {0} est morte</MyDaughterDied.stages.my_daughter_died.label>
@@ -96,9 +96,9 @@
   <MyGrandparentDied.stages.my_grandparent_died.description>Un de mes grands parents est mort.</MyGrandparentDied.stages.my_grandparent_died.description>
   
   <!-- EN: my half-sibling {0} died -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.label>mon/ma demi-frère(sœur) {0} est mort(e)</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>{1_gender ? mon : ma : mon/ma} demi-{1_gender ? frère : sœur : frère(sœur)} {0} est mor{1_gender ? t : te : t(e)}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
   <!-- EN: My half-sibling died. My own flesh and blood... -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.description>mon/ma demi-frère(sœur) est mort(e). C'est ma famille qui vacille…</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>{OTHERPAWN_gender ? Mon : Ma : Mon/ma} demi-{OTHERPAWN_gender ? frère : sœur : frère(sœur)} est mor{OTHERPAWN_gender ? t : te : t(e)}. C'est ma famille qui vacille…</MyHalfSiblingDied.stages.my_halfsibling_died.description>
   
   <!-- EN: my husband {0} died -->
   <MyHusbandDied.stages.my_husband_died.label>mon mari {0} est mort</MyHusbandDied.stages.my_husband_died.label>
@@ -111,9 +111,9 @@
   <MyKinDied.stages.my_kin_died.description>Un proche est mort.</MyKinDied.stages.my_kin_died.description>
   
   <!-- EN: my lover {0} died -->
-  <MyLoverDied.stages.my_lover_died.label>mon amoureux(se) {0} est mort(e)</MyLoverDied.stages.my_lover_died.label>
+  <MyLoverDied.stages.my_lover_died.label>mon amoureu{1_gender ? x : se : x(se)} {0} est mor{1_gender ? t : te : t(e)}</MyLoverDied.stages.my_lover_died.label>
   <!-- EN: My lover died. I am so alone. -->
-  <MyLoverDied.stages.my_lover_died.description>Mon amoureux(se) est mort(e). Me voilà si seul(e).</MyLoverDied.stages.my_lover_died.description>
+  <MyLoverDied.stages.my_lover_died.description>Mon amoureu{OTHERPAWN_gender ? x : se : x(se)} est mor{OTHERPAWN_gender ? t : te : t(e)}. Me voilà si seul{PAWN_gender ? : e}.</MyLoverDied.stages.my_lover_died.description>
   
   <!-- EN: my mother {0} died -->
   <MyMotherDied.stages.my_mother_died.label>ma mère {0} est morte</MyMotherDied.stages.my_mother_died.label>
@@ -151,12 +151,12 @@
   <MyWifeDied.stages.my_wife_died.description>Ma femme est morte. Me voilà seul.</MyWifeDied.stages.my_wife_died.description>
   
   <!-- EN: my rival {0} died -->
-  <PawnWithBadOpinionDied.stages.my_rival_died.label>mon rival {0} est mort</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>{1_gender ? mon : ma : mon/ma} riva{1_gender ? l : le : l(e)} {0} est mor{1_gender ? t : te : t(e)}</PawnWithBadOpinionDied.stages.my_rival_died.label>
   <!-- EN: Serves them right. At least there's some justice in this world. -->
-  <PawnWithBadOpinionDied.stages.my_rival_died.description>Bien fait pour lui. Ça nous arrange bien.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>Bien fait pour {OTHERPAWN_gender ? lui : elle : lui/elle}. Ça nous arrange bien.</PawnWithBadOpinionDied.stages.my_rival_died.description>
   
   <!-- EN: my friend {0} died -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.label>mon ami(e) {0} est mort(e)</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>mon am{1_gender ? i : ie : i(e)} {0} est mor{1_gender ? t : te : t(e)}</PawnWithGoodOpinionDied.stages.my_friend_died.label>
   <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
   <PawnWithGoodOpinionDied.stages.my_friend_died.description>Une personne si merveilleuse. Ce monde s'obscurcit de jour en jour.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   
