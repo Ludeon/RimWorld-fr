@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: ratty apparel -->
@@ -13,19 +13,19 @@
   <!-- EN: tainted {0} -->
   <DeadMansApparel.stages.tainted.label>{0} d'un mort</DeadMansApparel.stages.tainted.label>
   <!-- EN: I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted.description>Je porte des vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali(e).</DeadMansApparel.stages.tainted.description>
+  <DeadMansApparel.stages.tainted.description>Je porte des vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali{PAWN_gender ? : e}.</DeadMansApparel.stages.tainted.description>
   <!-- EN: tainted {0} (+1) -->
   <DeadMansApparel.stages.tainted_1.label>{0} d'un mort (+1)</DeadMansApparel.stages.tainted_1.label>
   <!-- EN: I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_1.description>Je porte deux vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali(e).</DeadMansApparel.stages.tainted_1.description>
+  <DeadMansApparel.stages.tainted_1.description>Je porte deux vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali{PAWN_gender ? : e}.</DeadMansApparel.stages.tainted_1.description>
   <!-- EN: tainted {0} (+2) -->
   <DeadMansApparel.stages.tainted_2.label>{0} d'un mort (+2)</DeadMansApparel.stages.tainted_2.label>
   <!-- EN: I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_2.description>Je porte trois vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali(e).</DeadMansApparel.stages.tainted_2.description>
+  <DeadMansApparel.stages.tainted_2.description>Je porte trois vêtements de quelqu'un qui est mort. Ça me fait peur et je me sens sali{PAWN_gender ? : e}.</DeadMansApparel.stages.tainted_2.description>
   <!-- EN: tainted {0} etc -->
   <DeadMansApparel.stages.tainted_etc.label>{0} d'un mort etc</DeadMansApparel.stages.tainted_etc.label>
   <!-- EN: I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty. -->
-  <DeadMansApparel.stages.tainted_etc.description>Je porte plusieurs vêtements de quelqu'un qui est mort. Ça me terrifie et je me sens sali(e)</DeadMansApparel.stages.tainted_etc.description>
+  <DeadMansApparel.stages.tainted_etc.description>Je porte plusieurs vêtements de quelqu'un qui est mort. Ça me terrifie et je me sens sali{PAWN_gender ? : e}</DeadMansApparel.stages.tainted_etc.description>
   
   <!-- EN: chilly -->
   <EnvironmentCold.stages.chilly.label>froid</EnvironmentCold.stages.chilly.label>
@@ -40,14 +40,14 @@
   <!-- EN: I can't stop shivering. My teeth are chattering. All I can think of is getting warm. -->
   <EnvironmentCold.stages.numbing_cold.description>Mes dents claquent si fort que je peux à peine parler. Je ne sens plus mes doigts. Je dois absolument me réchauffer.</EnvironmentCold.stages.numbing_cold.description>
   <!-- EN: absolutely freezing -->
-  <EnvironmentCold.stages.absolutely_freezing.label>Complètement gelé</EnvironmentCold.stages.absolutely_freezing.label>
+  <EnvironmentCold.stages.absolutely_freezing.label>Complètement gelé{PAWN_gender ? : e}</EnvironmentCold.stages.absolutely_freezing.label>
   <!-- EN: My teeth are chattering so hard I can barely speak. My toes are numb. I need to get warm. -->
   <EnvironmentCold.stages.absolutely_freezing.description>Mes dents claquent si fort que je peux à peine parler. Mes orteils sont engourdis. Je dois absolument me réchauffer.</EnvironmentCold.stages.absolutely_freezing.description>
   
   <!-- EN: darkness -->
   <EnvironmentDark.stages.darkness.label>dans le noir</EnvironmentDark.stages.darkness.label>
   <!-- EN: I've been in the dark for a while. I don't like it. -->
-  <EnvironmentDark.stages.darkness.description>Je suis plongé(e) dans l'obscurité depuis un moment. Je n'aime pas ça.</EnvironmentDark.stages.darkness.description>
+  <EnvironmentDark.stages.darkness.description>Je suis plongé{PAWN_gender ? : e} dans l'obscurité depuis un moment. Je n'aime pas ça.</EnvironmentDark.stages.darkness.description>
   
   <!-- EN: sweaty -->
   <EnvironmentHot.stages.sweaty.label>chaud</EnvironmentHot.stages.sweaty.label>
@@ -90,7 +90,7 @@
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelSad.stages.human_leather_1.label>{0} en cuir humain (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
   <!-- EN: I'm dressed like an insane person. -->
-  <HumanLeatherApparelSad.stages.human_leather_1.description>Je suis habillé comme une personne folle.</HumanLeatherApparelSad.stages.human_leather_1.description>
+  <HumanLeatherApparelSad.stages.human_leather_1.description>Je suis habillé{PAWN_gender ? : e} comme {PAWN_gender ? un fou : une folle}.</HumanLeatherApparelSad.stages.human_leather_1.description>
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelSad.stages.human_leather_2.label>{0} en cuir humain (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
   <!-- EN: I think there may be a face on my clothes. Oh, no... my clothes *are* a face. -->
