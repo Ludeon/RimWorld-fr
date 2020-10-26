@@ -619,10 +619,10 @@
   <MessageActivatorProximityTriggered>{0_indefinite} a déclenché un détecteur de proximité.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>{0_label} est actuellement caché.</MessageCannotSelectInvisibleStat>
+  <MessageCannotSelectInvisibleStat>{0_label} est actuellement caché{0_gender ? : e : (e)}.</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
-  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} est un prisonnier</MessagePrisonerCannotEquipWeapon>
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} est {PAWN_gender ? un prisonnier : une prisonnière}</MessagePrisonerCannotEquipWeapon>
 
   <!-- UNUSED -->
   <MessageChoseRoute>La caravane se déplacera automatiquement vers le premier marqueur de route.</MessageChoseRoute>
