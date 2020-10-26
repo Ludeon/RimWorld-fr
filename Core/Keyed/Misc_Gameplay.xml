@@ -1047,9 +1047,9 @@
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>{0} inachevé</UnfinishedItem>
+  <UnfinishedItem>{0} inachevé{0_gender ? : e : (e)}</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>{0} {1} inachevé</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>{0} {1} inachevé{1_gender ? : e : (e)}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
