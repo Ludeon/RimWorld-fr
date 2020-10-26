@@ -492,10 +492,10 @@
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>{PAWN_nameDef} enlevé</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} enlevé{PAWN_gender ? : e : (e)}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} a été kidnappé par {FACTION_name} !\n\nCependant, {PAWN_pronoun} n'est pas perdu pour toujours. Une opportunité de {PAWN_objective} sauver pourrait se présenter dans les prochains jours ou années.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} a été kidnappé{PAWN_gender ? : e : (e)} par {FACTION_name} !\n\nCependant, {PAWN_pronoun} n'est pas perdu pour toujours. Une opportunité de {PAWN_gender ? le : la : le/la} sauver pourrait se présenter dans les prochains jours ou années.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
