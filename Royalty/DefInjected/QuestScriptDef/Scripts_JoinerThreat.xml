@@ -96,46 +96,10 @@
     <li>animalKindSingular_definite->[animalKind_definite]</li>
     <li>animalKindSingular_indefinite->[animalKindDef_indefinite]</li>
     <li>animalKindSingular_indefinite->[animalKind_indefinite]</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Cow)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goat)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goose)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Turkey)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Gazelle)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Boomalope)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Megaspider)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Ostrich)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Tortoise)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->[animalKindSingular_definite] chasseur d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Cow)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goat)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goose)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Turkey)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Gazelle)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Boomalope)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Megaspider)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Ostrich)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Tortoise)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->les [animalCount] [animalKind_labelPlural] chasseurs d'hommes</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Cow)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goat)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goose)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Turkey)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Gazelle)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Boomalope)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Megaspider)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Ostrich)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseur d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Cow)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goat)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goose)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Turkey)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Gazelle)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Boomalope)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Megaspider)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Ostrich)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'hommes(/Threat)</li>
+    <li>manhuntingBeastDef(animalCount==1)->[animalKindSingular_definite] [manhuntingString_singular]</li>
+    <li>manhuntingBeastDef(animalCount>=2)->les [animalCount] [animalKind_labelPlural] [manhuntingString_plural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKindSingular_indefinite] [manhuntingString_singular](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] [manhuntingString_plural](/Threat)</li>
     <li>questDescription(animalCount==1)->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui court après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arrivera dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKindSingular_definite] pourchasse [joiner_nameDef].</li>
     <li>questDescription(animalCount>=2)->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui courent après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arriveront dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
