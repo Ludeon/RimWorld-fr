@@ -103,7 +103,7 @@
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKindSingular_definite] pourchassait un marchand voisin.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->Un marchand vous appelle. Une meute de (*Threat)[animalCount] [animalKind_labelPlural] sauvages(/Threat) le pourchassent ! Il voudrait votre aide pour attirer les bêtes loin de lui.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Les [animalKind_labelPlural] pourchassaient un marchand voisin.</li>
-    <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] sont harcelées par [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] voudrait votre aide pour attirer [animalKindLabelCorrect_def] loin de ces caravanes.[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->Les caravanes de [asker_faction_name] sont harcelées par [manhuntingBeastIndef]. Le [asker_faction_leaderTitle] [asker_nameFull] voudrait votre aide pour attirer [animalKindLabelCorrect_def] loin de ces caravanes.[endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKindSingular_definite] harcelait les caravanes venant de [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->Les [animalKind_labelPlural] harcelaient les caravanes venant de  [asker_faction_name].</li>
     <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], a récemment perdu un éclaireur à cause d'[manhuntingBeastIndef]. [asker_pronoun] voudrait attirer la bête vers vous pour être tuée, pour défendre son honneur.[endSection]</li>
