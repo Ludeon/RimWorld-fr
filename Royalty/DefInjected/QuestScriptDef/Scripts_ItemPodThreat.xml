@@ -94,46 +94,10 @@
     <li>animalKindLabelCorrect_def(animalCount>=2)->les [animalCount] [animalKind_labelPlural]</li>
     <li>animalWillArrive(animalCount==1)->arrivera</li>
     <li>animalWillArrive(animalCount>=2)->arriveront</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Cow)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goat)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Goose)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Turkey)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Gazelle)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Boomalope)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Megaspider)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Ostrich)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef==Tortoise)->[animalKindSingular_definite] chasseuse d'hommes</li>
-    <li>manhuntingBeastDef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->[animalKindSingular_definite] chasseur d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Cow)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goat)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Goose)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Turkey)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Gazelle)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Boomalope)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Megaspider)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Ostrich)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef==Tortoise)->les [animalCount] [animalKind_labelPlural] chasseuses d'hommes</li>
-    <li>manhuntingBeastDef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->les [animalCount] [animalKind_labelPlural] chasseurs d'hommes</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Cow)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goat)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Goose)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Turkey)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Gazelle)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Boomalope)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Megaspider)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Ostrich)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef==Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseuse d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount==1,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->(*Threat)[animalKindSingular_indefinite] chasseur d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Cow)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goat)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Goose)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Turkey)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Gazelle)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Boomalope)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Megaspider)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Ostrich)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef==Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseuses d'hommes(/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2,animalKindDef!=Cow,animalKindDef!=Goat,animalKindDef!=Goose,animalKindDef!=Turkey,animalKindDef!=Gazelle,animalKindDef!=Boomalope,animalKindDef!=Megaspider,animalKindDef!=Ostrich,animalKindDef!=Tortoise)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] chasseurs d'hommes(/Threat)</li>
+    <li>manhuntingBeastDef(animalCount==1)->[animalKindSingular_definite] [manhuntingString_singular]</li>
+    <li>manhuntingBeastDef(animalCount>=2)->les [animalCount] [animalKind_labelPlural] [manhuntingString_plural]</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKindSingular_indefinite] [manhuntingString_singular](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] [manhuntingString_plural](/Threat)</li>
     <li>endSection->[helpersParagraph]\n\n[animalKindLabelCorrect_def] [animalWillArrive] sur [map_definite] dans [manhuntersDelayTicks_duration] si vous acceptez.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Un marchand vous appelle. (*Threat)[animalKindSingular_indefinite] sauvage(/Threat) le pourchasse ! Il voudrait votre aide pour attirer la bête loin de lui.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKindSingular_definite] pourchassait un marchand voisin.</li>
@@ -163,7 +127,7 @@
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
     <!-- NOTE:
       Il est possible de déterminer le genre pour [animalKindDef_definite] et [animalKindDef_indefinite]
-      avec animalKindDef==Cow etc. pour questName comme ci-dessus, mais l'utilisation de ConceptBadass* ici
+      avec animalKindDef==Cow etc. pour questName comme ci-dessous, mais l'utilisation de ConceptBadass* ici
       au lieu de AdjectiveBadass* donne plus de variétés au titre (inspiré de la traduction DE).
       Mettre à jour ConceptBadass*.txt pour être plus adaptés si besoin.
     -->
