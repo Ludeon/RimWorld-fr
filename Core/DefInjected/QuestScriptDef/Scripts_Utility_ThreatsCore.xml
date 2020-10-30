@@ -12,9 +12,9 @@
       <li>root(priority=1,sitePart==SunBlocker)->il y a un (*Threat)appareil qui bloque la lumière du soleil(/Threat) sur toute la région</li>
       <li>root(priority=1,sitePart==EMIDynamo)->il y a une (*Threat)dynamo IEM(/Threat) qui peut désactiver tous les appareils électriques sur toute la région</li>
       <li>root(priority=1,sitePart==ToxicSpewer)->il y a un (*Threat)appareil qui empoisonne(/Threat) toute la région de retombées toxiques</li>
-      <li>root(priority=1,sitePart==RaidSource)->il y a une base d'opération militaire gardée par (*Threat)[enemiesCount] ennemis(/Threat) qui lancera un raid sur vous tous les [mtbDays]</li>
-      <li>root(priority=1,sitePart==Outpost)->il y a un avant-poste gardé par (*Threat)[enemiesCount] ennemis(/Threat) dans cette zone</li>
-      <li>root(priority=1,sitePart==BanditCamp)->il y a un camp de bandits gardé par (*Threat)[enemiesCount] ennemis(/Threat) dans cette zone</li>
+      <li>root(priority=1,sitePart==RaidSource)->il y a une base d'opération militaire gardée par (*Threat)[enemiesCount] [enemiesLabel](/Threat) qui lancera un raid sur vous tous les [mtbDays]</li>
+      <li>root(priority=1,sitePart==Outpost)->il y a un avant-poste gardé par (*Threat)[enemiesCount] [enemiesLabel](/Threat) dans cette zone</li>
+      <li>root(priority=1,sitePart==BanditCamp)->il y a un camp de bandits gardé par (*Threat)[enemiesCount] [enemiesLabel](/Threat) dans cette zone</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->un (*Threat)[kindLabel] chasseur d'hommes(/Threat) erre à proximité</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->il y a une meute de (*Threat)[count] [kindLabel] chasseurs d'hommes(/Threat) errant à proximité</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->il y a un (*Threat)mécanoïde(/Threat) endormi dans cette zone</li>
