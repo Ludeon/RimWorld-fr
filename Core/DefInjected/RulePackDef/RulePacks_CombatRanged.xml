@@ -131,15 +131,15 @@
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [to] [destroyed_suffix].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
     <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s en [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
@@ -170,12 +170,12 @@
     <li>destroyed_present->transperçant</li>
     <li>destroyed_present->perforant</li>
     <li>destroyed_present->esquintant</li>
-    <li>destroyed_suffix->pièces</li>
-    <li>destroyed_suffix->morceaux</li>
-    <li>destroyed_suffix->poussières</li>
-    <li>destroyed_suffix->fragments</li>
-    <li>destroyed_suffix(p=0.5)->de sacrés trous</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->viande hachée</li>
+    <li>destroyed_suffix->en pièces</li>
+    <li>destroyed_suffix->en morceaux</li>
+    <li>destroyed_suffix->en poussières</li>
+    <li>destroyed_suffix->en fragments</li>
+    <li>destroyed_suffix(p=0.5)->avec des sacrés trous</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->en viande hachée</li>
     <li>damaged_past->blessé</li>
     <li>damaged_past->amoché</li>
     <li>damaged_past->percé</li>
@@ -186,7 +186,7 @@
     <li>damaged_present->perçant</li>
     <li>damaged_present->abîmant</li>
     <li>damaged_present->détruisant</li>
-    <li>damaged_suffix->dans une attitude horrible</li>
+    <li>damaged_suffix->d'une manière horrible</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->avec du sang partout</li>
     <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->avec les chairs à nu</li>
     <li>to->en</li>
