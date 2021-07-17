@@ -36,7 +36,13 @@
   <Priority4>Basse priorité</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\nLa faction à laquelle appartient actuellement {1_nameDef}.\n\nCliquez pour voir la faction</PawnFactionInfo>
-  
+  <!-- TODO: Traduction RW1.3 -->
+  <WorkDisabledByBackstory>Disabled by backstory: {0}</WorkDisabledByBackstory>
+  <!-- TODO: Traduction RW1.3 -->
+  <WorkDisabledByTrait>Disabled by trait: {0}</WorkDisabledByTrait>
+  <!-- TODO: Traduction RW1.3 -->
+  <WorkDisabledByQuest>Disabled by quest: {0}</WorkDisabledByQuest>
+
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Gérer les tenues</ManageOutfits>
@@ -84,16 +90,20 @@
   <Hostile>Hostile</Hostile>
   <!-- EN: Ally -->
   <Ally>Alliée</Ally>
+  <!-- TODO: Traduction RW1.3 -->
+  <HostileLower>hostile</HostileLower>
+  <!-- TODO: Traduction RW1.3 -->
+  <AllyLower>ally</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>battue</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Ennemie de {0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>Ennemi de :</EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <!-- TODO: ERROR Unnecessary keyed ; <CurrentGoodwillTip>Relation actuelle avec cette faction.</CurrentGoodwillTip> -->
-  <!-- EN: Current relations with this faction. -->
-  <!-- TODO: ERROR Unnecessary keyed ; <CurrentRelationTip>Relations actuelles avec cette faction.</CurrentRelationTip> -->
+  <!-- TODO: Traduction RW1.3 -->
+  <RecentEvents>Recent events</RecentEvents>
+  <!-- TODO: Traduction RW1.3 -->
+  <OngoingEvents>Ongoing events</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Cette faction est en permanence hostile. Ils vont attaquer vos colonies et vos caravanes. Les relations avec eux ne s'amélioreront jamais quelle que soit la raison.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -102,12 +112,6 @@
   <CurrentGoodwillTip_Neutral>Cette faction est neutre. Ils échangeront et parleront avec vous librement. Si les relations baissent en dessous de {0}, ils deviendront hostiles. Si les relations dépassent {1}, ils deviendront des alliés et commenceront à travailler activement pour vous aider.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Cette faction est hostile. Ils vont attaquer vos colonies et vos caravanes. Si les relations dépassent {0}, ils deviendront neutres.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <!-- TODO: ERROR Unnecessary keyed ; <CurrentGoodwillTip_NaturalGoodwill>Cette faction a une tendance naturelle de niveau de relations entre {0} et {1}.</CurrentGoodwillTip_NaturalGoodwill> -->
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <!-- TODO: ERROR Unnecessary keyed ; <CurrentGoodwillTip_NaturalGoodwillRise>Si le niveau de relations est en dessous de {0}, il augmentera de {1} par an.</CurrentGoodwillTip_NaturalGoodwillRise> -->
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <!-- TODO: ERROR Unnecessary keyed ; <CurrentGoodwillTip_NaturalGoodwillFall>Si le niveau de relations est au dessus de {0}, il baissera de {1} par an.</CurrentGoodwillTip_NaturalGoodwillFall> -->
   
   <!-- Social tab -->
   <!-- EN: Friend -->
@@ -178,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Recherche</Research>
-  <!-- EN: Researched -->
-  <Researched>Découvert</Researched>
+  <!-- TODO: Traduction RW1.3 -->
+  <Study>Study</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Non recherché</Unresearched>
   <!-- EN: Finished -->
@@ -208,6 +212,12 @@
   <TechLevelTooLow>Le niveau technique de votre faction est {0}, mais le niveau technique de ce projet est {1}. La vitesse de recherche sera multipliée par {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Déverrouillé avec</UnlockedWith>
+
+  <!-- Factions tab -->
+  <!-- TODO: Traduction RW1.3 -->
+  <FactionsTab>Factions</FactionsTab>
+  <!-- TODO: Traduction RW1.3 -->
+  <NoFactions>No known factions</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -290,6 +300,8 @@
   <QuestPawnNotOnColonyMap>{PAWN_definite} doit être dans la colonie d'origine</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>La carte doit être sans ennemis de la faction de l'émissaire</QuestRequiresNoDangerOnMap>
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestCanNotStartUntilBestowingCeremonyFinished>to finish the ongoing bestowing ceremony quest</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Préférences pour les récompenses</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -314,7 +326,17 @@
   <QuestBetrayalOffer>Offre de trahison : {0} cibles restantes</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} vous accordera une récompense pour assassiner tous les membres de {1}.</QuestBetrayalOfferTip>
-  
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestRequiredPlayerWealth>a colony wealth of at least {0}</QuestRequiredPlayerWealth>
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestAlliedTo>alliance with {0}</QuestAlliedTo>
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestHostileTo>hostile to {0}</QuestHostileTo>
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestNeutralTo>neutral to {0}</QuestNeutralTo>
+  <!-- TODO: Traduction RW1.3 -->
+  <QuestRequiredThingStudied>studied {0_labelShort}</QuestRequiredThingStudied>
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crée un besoin</CreatesNeed>

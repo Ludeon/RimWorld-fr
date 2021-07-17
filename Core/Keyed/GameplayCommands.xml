@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>Active la mobilisation militaire.\n\nLes personnes mobilisées exécutent vos ordres et combattent sans discuter. Elles ne peuvent ni travailler, ni manger, ni dormir.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} est inapte au service.</IsIncapped>
+  <!-- TODO: Traduction RW1.3 -->
+  <ParticipatingInRitual>{0_labelShort} is participating in {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Autoriser le tir</CommandFireAtWillLabel>
@@ -98,6 +100,8 @@
   <TurningOffPrisonerBedWarning>Désactiver le mode prisonnier affecte l'intégralité de la pièce (Puisque colons et prisonniers ne peuvent pas dormir dans la même pièce).\n\nCes personnes vont perdre leurs lits :</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Êtes-vous sûr(e) de vouloir continuer ?</AreYouSure>
+  <!-- TODO: Traduction RW1.3 -->
+  <ChangingOwnerTypeBedWarning>Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</ChangingOwnerTypeBedWarning>
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Détonateur</CommandDetonateLabel>
@@ -135,6 +139,11 @@
   <CommandAllowSow>Autoriser le semis</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Si désactivé, les colons ne seront pas autorisés à semer cette zone. La zone sera quand même récoltée.</CommandAllowSowDesc>
+
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandAllowCut>Allow cutting</CommandAllowCut>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandAllowCutDesc>When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -536,10 +545,35 @@
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Ouvrir la quête liée dans l'onglet Quêtes.</CommandOpenLinkedQuestDesc>
   
+  <!-- Carry -->
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandDropPawn>Drop {0_nameDef}</CommandDropPawn>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandDropPawnDesc>Drop the person being carried.</CommandDropPawnDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Prendre une drogue…</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Prendre une drogue de l'inventaire pour l'ingérer immédiatement.</TakeDrugDesc>
   
+  <!-- Build X -->
+  <!-- TODO: Traduction RW1.3 -->
+  <BuildThing>Build {0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandLeaveRitual>Leave {RITUAL_label}</CommandLeaveRitual>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandLeaveRitualDesc>Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant.</CommandLeaveRitualDesc>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandLeaveLastParticipant>This is the last participant in the {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandCancelRitual>Cancel {RITUAL_label}</CommandCancelRitual>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandCancelRitualDesc>End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later.</CommandCancelRitualDesc>
+  <!-- TODO: Traduction RW1.3 -->
+  <CommandCancelRitualConfirm>Are you sure you want to cancel {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+
 </LanguageData>
