@@ -65,12 +65,16 @@
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} n'a trouvé aucun obus disponible à proximité pour {GUN_label}.</MessageOutOfNearbyShellsFor>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Attention : les {ANIMAL_kindBasePlural} ont {1} de chances d'attaquer si vous les blessez. Cette chance dépend de la proximité et de la furtivité du chasseur.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Attention : les {ANIMAL_kindBasePlural} peuvent attaquer si l'apprivoisement échoue ({1} de chances).</MessageAnimalManhuntsOnTameFailed>
-  
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageInsectTameDesignated>Only those with the insect sympathy trait can tame {INSECT_indefinite}.</MessageInsectTameDesignated>
+
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
@@ -79,6 +83,8 @@
   <MessageTameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances) et l'a nomm{RECRUITEE_gender ? é : ée : é(e)} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageTameNoSuitablePens>There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} a rejoint votre colonie.</MessageRecruitJoinOfferAccepted>
 
@@ -149,6 +155,8 @@
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
 
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef} is pregnant!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0} a fait une fausse couche à cause de la famine.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
@@ -166,7 +174,7 @@
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} a dépassé la limite de sécurité de l'échauffement neuronal.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} a nommé {1} {NAMEE_nameFull} après s'être fait câliner.</MessageNuzzledPawnGaveNameTo>
+  <!-- TODO: ERROR Unnecessary keyed ; <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull} a nommé {1} {NAMEE_nameFull} après s'être fait câliner.</MessageNuzzledPawnGaveNameTo> -->
 
   <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Aucun dresseur ne peut apprivoiser {ANIMAL_kindBaseIndef} (requiert niveau {1} en {2}, votre meilleu{HANDLER_gender ? r : re : r(e)} dresseu{HANDLER_gender ? r : se : r(se)} {HANDLER_labelShort} est niveau {4}).</MessageNoHandlerSkilledEnough>
@@ -176,6 +184,9 @@
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{PREY_labelShort} est attaqu{PREY_gender ? é : ée : é(e)} par {PREDATOR} !</MessageAttackedByPredator>
   
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRoamerLeaving>{PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen.</MessageRoamerLeaving>
+
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Une colonie d'insectes s'est reproduite.</MessageHiveReproduced>
   
@@ -341,6 +352,8 @@
   <MessageCantEquipCustom>Impossible d'équiper : {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Ne peut pas équiper : {1_labelShort} est incapable de violence.</MessageCantEquipIncapableOfViolence>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageCantEquipIncapableOfShooting>Cannot equip: {1_labelShort} is incapable of shooting.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>Ne peut pas équiper : incapable de manipulation.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
@@ -352,7 +365,9 @@
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Parce qu'ils sont liés, l'abattage de {DESIGNATED_labelShort} rendra {BONDED_labelShort} malheureu{BONDED_gender ? x : se : x(se)}.</MessageSlaughteringBondedAnimal>
-  
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageReleaseBondedAnimal>Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy.</MessageReleaseBondedAnimal>
+
   <!-- EN: {0} has run out of food ({PAWN_label}). -->
   <MessageCaravanRanOutOfFood>{0} est à court de nourriture ({PAWN_label})</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
@@ -393,10 +408,10 @@
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Aucun de vos gardiens n'est capable de violence. L'exécution ne sera pas effectuée.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
   
-  <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
-  <MessageSiteCountdownBecauseNoMoreEnemies>Vous avez vaincu tous les ennemis. Dans {0}, la caravane sera automatiquement reformée.</MessageSiteCountdownBecauseNoMoreEnemies>
-  <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
-  <MessageSiteCountdownBecauseNoEnemiesInitially>Dans {0}, la caravane sera automatiquement reformée. Vous pouvez reformer la caravane maintenant à partir de l'écran Monde.</MessageSiteCountdownBecauseNoEnemiesInitially>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageCanReformCaravanNowNoMoreEnemies>Area is now safe. You can reform the caravan on the world map.</MessageCanReformCaravanNowNoMoreEnemies>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
   <MessageCantBanishDownedPawn>Ne peut pas bannir {1_labelShort} parcequ'{1_pronoun} ne peut pas marcher.</MessageCantBanishDownedPawn>
@@ -485,7 +500,7 @@
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>caravane attaquée</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
-  <GoodwillChangedReason_NaturallyOverTime>tendance naturelle vers {0} au fil du temps</GoodwillChangedReason_NaturallyOverTime>
+  <!-- TODO: ERROR Unnecessary keyed ; <GoodwillChangedReason_NaturallyOverTime>tendance naturelle vers {0} au fil du temps</GoodwillChangedReason_NaturallyOverTime> -->
   <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} a quitté la zone en bonne santé</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
@@ -547,6 +562,8 @@
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>En raison d'un manque d'apprivoisement, {1_labelShort} est retourné à la vie sauvage.</MessageAnimalReturnedWild>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageAnimalReturnedWildReleased>{1_labelShort} has been returned to the wild.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>En raison d'un manque d'entrainement, {ANIMAL_labelShort} a perdu une compétence : {1}</MessageAnimalLostSkill>
 
@@ -624,4 +641,98 @@
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} est {PAWN_gender ? un prisonnier : une prisonnière}</MessagePrisonerCannotEquipWeapon>
 
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageIdeoOpposedWorkTypeSelected>Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy.</MessageIdeoOpposedWorkTypeSelected>
+
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageBedLostAssignment>{0} is no longer assigned to {1_nameDef}.</MessageBedLostAssignment>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageBedDestroyed>{0} assigned to {1_nameDef} was destroyed.</MessageBedDestroyed>
+
+  <!-- Rituals -->
+  <!-- TODO: Traduction RW1.3 -->
+  <Spectate>spectate</Spectate>
+  <!-- TODO: Traduction RW1.3 -->
+  <AssignToRole>Assign to {0}</AssignToRole>
+  <!-- TODO: Traduction RW1.3 -->
+  <RitualBegun>{0} has begun.</RitualBegun>
+  <!-- TODO: Traduction RW1.3 -->
+  <MaxPawnsPerRole>The maximum number of {0}s is {1}.</MaxPawnsPerRole>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualNeedsAtLeastOnePerson>You need at least one participant.</MessageRitualNeedsAtLeastOnePerson>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualNeedsAtLeastOneSpectator>You need at least one spectator.</MessageRitualNeedsAtLeastOneSpectator>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualNeedsAtLeastOneRolePawn>You need a {0}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualNeedsAtLeastNumRolePawn>You need at least {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnDowned>{0_labelShort} is downed.</MessageRitualPawnDowned>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} is currently escaping.</MessageRitualPawnPrisonerNotSecured>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort} is currently rebelling.</MessageRitualPawnSlaveNotSecured>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnReleased>{0_labelShort} is being released.</MessageRitualPawnReleased>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnInjured>{0_labelShort} is injured.</MessageRitualPawnInjured>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleRequired>{0_labelShort} must hold one of these roles</MessageRitualRoleRequired>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBePrisoner>{0} must be a prisoner.</MessageRitualRoleMustBePrisoner>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeAnimal>{0} must be an animal.</MessageRitualRoleMustBeAnimal>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeHumanlike>{0} must be a human.</MessageRitualRoleMustBeHumanlike>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustHaveEyes>{0} must have eyes</MessageRitualRoleMustHaveEyes>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} does not require further scarification.</MessageRitualRoleMustRequireScarification>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} must be a prisoner or slave.</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} must be capable of fighting.</MessageRitualRoleMustBeCapableOfFighting>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleCannotReplaceRequiredPawn>this role cannot be played by someone else.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn.</MessageRitualRolePawnRecentlyTornConnection>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} has the same ideoligion as the converter.</MessageRitualRolePawnHasSameIdeo>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} must be capable of wardening.</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} must be capable of {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustNotBePrisonerToSpectate>prisoners cannot {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustHaveIdeoToSpectate>only {0} can {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustHaveIdeoToDoRole>only {0} can fill the role of {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustBeColonist>must be colonist for the {0} role.</MessageRitualRoleMustBeColonist>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualRoleMustHaveLargerBodySize>{0} must have an animal with min body size of {1}.</MessageRitualRoleMustHaveLargerBodySize>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnMentalState>{0_labelShort} is in a mental state.</MessageRitualPawnMentalState>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} is already {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} cannot take any other role than spectator.</MessageRitualCannotAssignAnyRoleFromSpectating>
+
+  <!-- TODO: Traduction RW1.3 -->
+  <MessagePlayerMustSelectTile>You must select a site to continue.</MessagePlayerMustSelectTile>
+
+  <!-- TODO: Traduction RW1.3 -->
+  <CannotPlantThing>Cannot plant {0_labelShort}</CannotPlantThing>
+  <!-- TODO: Traduction RW1.3 -->
+  <MessageWarningNotEnoughFertility>Need more fertile terrain.</MessageWarningNotEnoughFertility>
+  <!-- TODO: Traduction RW1.3 -->
+  <BlockedBy>blocked by {0_label}.</BlockedBy>
+  <!-- TODO: Traduction RW1.3 -->
+  <AdjacentSowBlocker>Cannot be planted next to {0_label}.</AdjacentSowBlocker>
+  <!-- TODO: Traduction RW1.3 -->
+  <TooCloseToOtherPlant>Too close to {0_label}.</TooCloseToOtherPlant>
+  <!-- TODO: Traduction RW1.3 -->
+  <TooCloseToOtherSeedPlantCell>Too close to {0_label}'s planting location.</TooCloseToOtherSeedPlantCell>
+  
 </LanguageData>
