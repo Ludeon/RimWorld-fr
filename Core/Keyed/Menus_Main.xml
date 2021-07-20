@@ -152,10 +152,10 @@
   <ConfirmDeleteMod>Êtes-vous sûr de vouloir supprimer le mod {0} ?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>tri automatique des mods</ResolveModOrder>
-  <!-- TODO: Traduction RW1.3 -->
-  <ModReorderConflict_MustLoadAfter>Cannot move {0}: It must be loaded after {1}.</ModReorderConflict_MustLoadAfter>
-  <!-- TODO: Traduction RW1.3 -->
-  <ModReorderConflict_MustLoadBefore>Cannot move {0}: It must be loaded before {1}.</ModReorderConflict_MustLoadBefore>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
+  <ModReorderConflict_MustLoadAfter>Impossible de déplacer {0}: Il doit être chargé après {1}.</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
+  <ModReorderConflict_MustLoadBefore>Impossible de déplacer {0}: Il doit être chargé avant {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Désinscrire</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -434,10 +434,11 @@
   <Difficulty_AllowMortars_Label>construction de mortiers</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>Le joueur peut construire des mortiers.\n\nVous pouvez toujours utiliser des mortiers capturés même si cela est désactivé.</Difficulty_AllowMortars_Info>
-  <!-- TODO: Traduction RW1.3 -->
-  <Difficulty_ClassicMortars_Label>Classic mortars</Difficulty_ClassicMortars_Label>
-  <!-- TODO: Traduction RW1.3 -->
-  <Difficulty_ClassicMortars_Info>Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access.</Difficulty_ClassicMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>Mortiers classique</Difficulty_ClassicMortars_Label>
+  <!-- TODO: à revoir -->
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>Les mortiers ne nécessiteront pas de canons renforcé pour être construits ou rechargés et sont équilibrés pour cette facilité d'accès.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Adaptation</DifficultyAdaptationSection>
@@ -563,8 +564,8 @@
   <IncapableOfTooltipWorkTypes>Types de tâches non réalisables :</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>Provoqué par l'état de la quête : {0}</IncapableOfTooltipQuest>
-  <!-- TODO: Traduction RW1.3 -->
-  <IncapableOfTooltipRole>Caused by role: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by role: {0} -->
+  <IncapableOfTooltipRole>Causé par le rôle : {0}</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>Éléments marquants :</Traits>
   <!-- EN: Permanent mood effect -->
@@ -583,8 +584,8 @@
   <Male>mâle</Male>
   <!-- EN: female -->
   <Female>femelle</Female>
-  <!-- TODO: Traduction RW1.3 -->
-  <MaleAndFemale>male and female</MaleAndFemale>
+  <!-- EN: male and female -->
+  <MaleAndFemale>mâle et femelle</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>mâle</MaleAnimal>
   <!-- EN: female -->
@@ -601,8 +602,8 @@
   <StartingPawnsSelected>Sélectionnés</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Laissés en arrière</StartingPawnsLeftBehind>
-  <!-- TODO: Traduction RW1.3 -->
-  <GuiltyDesc>This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in</GuiltyDesc>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <GuiltyDesc>Ce colon est considéré comme coupable. Vous pouvez délibérément le bannir, l'exécuter ou l'arrêter et les autres ne seront pas dérangés.\n\nLe sentiment de culpabilité expire dans</GuiltyDesc>
 
   <!-- Misc -->
   <!-- EN: Start -->
@@ -644,25 +645,25 @@
   <NoMoreInfoAvailable>Pas d'informations supplémentaires disponibles.</NoMoreInfoAvailable>
 
   <!-- Factions -->
-  <!-- TODO: Traduction RW1.3 -->
+  <!-- EN: Factions -->
   <Factions>Factions</Factions>
-  <!-- TODO: Traduction RW1.3 -->
-  <RecommendedFactionCount>Gameplay problems can occur with more than {0} factions.</RecommendedFactionCount>
-  <!-- TODO: Traduction RW1.3 -->
-  <TotalFactionsAllowed>Maximum {0} visible factions allowed.</TotalFactionsAllowed>
-  <!-- TODO: Traduction RW1.3 -->
-  <MaxFactionsForType>There can be no more than {0} {1}.</MaxFactionsForType>
-  <!-- TODO: Traduction RW1.3 -->
-  <ResetFactionsToDefault>Restore defaults</ResetFactionsToDefault>
-  <!-- TODO: Traduction RW1.3 -->
-  <FactionSelectionDesc>Select the factions in the world. You can select up to {0} factions total.</FactionSelectionDesc>
-  <!-- TODO: Traduction RW1.3 -->
-  <FactionDisabledContentWarning>Disabling {0} means less quest variety and other reduced content.</FactionDisabledContentWarning>
-  <!-- TODO: Traduction RW1.3 -->
-  <InsectsDisabledContentWarning>Disabling {0} means less spontaneous threat variety.</InsectsDisabledContentWarning>
-  <!-- TODO: Traduction RW1.3 -->
-  <MechanoidsDisabledContentWarning>Disabling {0} means less quest and spontaneous threat variety.</MechanoidsDisabledContentWarning>
-  <!-- TODO: Traduction RW1.3 -->
-  <FactionsDisabledWarning>Without other factions, raids, trading, and quests won't occur as normal.</FactionsDisabledWarning>
+  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
+  <RecommendedFactionCount>Des problèmes en jeu peuvent survenir avec plus de {0} factions.</RecommendedFactionCount>
+  <!-- EN: Maximum {0} visible factions allowed. -->
+  <TotalFactionsAllowed>Maximum de {0} factions visibles autorisé.</TotalFactionsAllowed>
+  <!-- EN: There can be no more than {0} {1}. -->
+  <MaxFactionsForType>Il ne peut pas y avoir plus de {0} {1}.</MaxFactionsForType>
+  <!-- EN: Restore defaults -->
+  <ResetFactionsToDefault>Restaurer réglages par défaut</ResetFactionsToDefault>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>Sélectionnez les factions dans le monde. Vous pouvez sélectionner jusqu'à {0} factions au total.</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>Désactiver {0} implique moins de quêtes variées et un contenu réduit.</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>Désactiver {0} implique moins de menaces spontanées et variées.</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>Désactiver {0} implique moins de quêtes et de menaces spontanées variées.</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>Sans d'autres factions, les raids, le commerce et les quêtes ne se produiront pas normalement.</FactionsDisabledWarning>
 
 </LanguageData>
