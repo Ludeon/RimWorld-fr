@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Misc -->
+  <!-- EN: add -->
+  <Add>ajouter</Add>
+  <!-- EN: Trading animal products bonus -->
+  <TradingAnimalProduceBonus>Bonus de commerce de produits animaux</TradingAnimalProduceBonus>
+  <!-- EN: Slaves -->
+  <SlavesSection>Esclaves</SlavesSection>
+  <!-- EN: dominant style -->
+  <DominantStyle>style dominant</DominantStyle>
+  <!-- EN: Date -->
+  <Date>Date</Date>
+
+  <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
+  <ChooseStructureMemesInfo>Choisissez la structure symbolique de votre idéologie. Cela n'affecte que les symboles - cela n'affecte pas le gameplay.</ChooseStructureMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
+  <ChooseNormalMemesInfo>Choisissez {0}-{1} croyances pour former les idées fondamentales de cette idéologie. Certains d'entre eux ont beaucoup plus d'impact sur le gameplay que d'autres.</ChooseNormalMemesInfo>
+  <!-- EN: Choose at least {0} meme. -->
+  <NotEnoughMemes>Choisissez au moins {0} croyance.</NotEnoughMemes>
+  <!-- EN: Choose at most {0} memes. -->
+  <TooManyMemes>Choisissez au plus {0} croyances.</TooManyMemes>
+  <!-- EN: Choose structure. -->
+  <ChooseStructureMeme>Choisir la structure.</ChooseStructureMeme>
+  <!-- EN: {0_label} and {1_label} are incompatible. -->
+  <IncompatibleMemes>{0_label} et {1_label} sont incompatibles.</IncompatibleMemes>
+  
+  <!-- EN: Room requirements -->
+  <RoomRequirements>Exigences de la chambre</RoomRequirements>
+  
+  <!-- EN: role -->
+  <Role>rôle</Role>
+  <!-- EN: Assign role -->
+  <ChooseRole>Attribuer un rôle</ChooseRole>
+  <!-- EN: No role assigned -->
+  <NoRoleAssigned>Aucun rôle attribué</NoRoleAssigned>
+  <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
+  <ChooseRoleConfirmAssign>Vous êtes sur le point d'attribuer à {PAWN_labelShort} le rôle '{ROLE_label}'.</ChooseRoleConfirmAssign>
+  <!-- EN: Are you sure? -->
+  <ChooseRoleConfirmAssignPostfix>Êtes-vous sûr?</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} détient actuellement ce rôle et sera mécontent de le perdre.</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} détient actuellement le rôle de {ROLE_label} et sera mécontent de le perdre.</ChooseRoleConfirmAssignHasOtherRole>
+  <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
+  <ChooseRoleConfirmAssignReplaceLeader>Il ne peut y avoir qu'un seul chef. Cela écartera {PAWN_labelShort} de son rôle {OTHERROLE_labelDef}, ce qui l'énervera.</ChooseRoleConfirmAssignReplaceLeader>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
+  <ChooseRoleConfirmUnassign>Vous êtes sur le point de retirer {PAWN_labelShort} du rôle de {ROLE_labelIndef}. Cela va bouleverser {PAWN_labelShort}.</ChooseRoleConfirmUnassign>
+  <!-- EN: {PAWN_labelShort} will gain the following abilities -->
+  <ChooseRoleListAbilities>{PAWN_labelShort} obtiendra les capacités suivantes</ChooseRoleListAbilities>
+  <!-- EN: The {ROLE_label} role requires the following apparel -->
+  <ChooseRoleListApparelDemands>Le rôle {ROLE_label} nécessite les vêtements suivants</ChooseRoleListApparelDemands>
+  <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} refusera de faire ces types de travail</ChooseRoleListWorkTypeRestrictions>
+  <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
+  <ChooseRoleHint>Il peut parfois être préférable d'attendre que votre colonie soit plus établie avant d'attribuer des rôles.</ChooseRoleHint>
+  <!-- EN: Unlocked by -->
+  <UnlockedByMeme>Débloqué par</UnlockedByMeme>
+  <!-- EN: Unlocked roles -->
+  <MemeUnlocksRoles>Rôles débloqués</MemeUnlocksRoles>
+  <!-- EN: Unlocked rituals -->
+  <MemeUnlocksRituals>Rituels débloqués</MemeUnlocksRituals>
+  <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
+  <ChooseRoleRequiredWorkTagsDisabled>AVERTISSEMENT : {PAWN_nameDef} ne peut pas effectuer le travail requis pour le rôle de {ROLE_label}. Si vous choisissez de lui donner à ce rôle, {PAWN_pronoun} peut ne pas être en mesure d'utiliser les capacités associées à {ROLE_label}. Les types de travaux manquants sont</ChooseRoleRequiredWorkTagsDisabled>
+  <!-- EN: Leader bonus -->
+  <YourLeaderTradeBonus>Bonus de leader</YourLeaderTradeBonus>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
+  <CannotNotAddRoleApparelDueToMeme>La croyance {MEME} empêche d'ajouter des exigences vestimentaires aux rôles.</CannotNotAddRoleApparelDueToMeme>
+
+ <!-- EN: Certainty reduction -->
+  <AbilityIdeoConvertBreakdownLabel>Réduction de la foi</AbilityIdeoConvertBreakdownLabel>
+  <!-- EN: Using {ABILITY} ability -->
+  <AbilityIdeoConvertBreakdownUsingAbility>Utilise la capacité {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
+  <!-- EN: {PAWN_labelShort}'s conversion power -->
+  <AbilityIdeoConvertBreakdownConversionPower>Le pouvoir de conversion de {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
+  <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>e)Facteur de perte de la foi de {PAWN_labelShort} de {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} est {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
+  <!-- EN: Trait {TRAIT} -->
+  <AbilityIdeoConvertBreakdownTrait>Trait {TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: {RELICCOUNT} installed relics on map -->
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} reliques installées sur la carte</AbilityIdeoConvertBreakdownRelic>
+  <!-- EN: {PAWN_labelShort}'s social skill -->
+  <AbilityIdeoConvertBreakdownSocialSkill>Compétence sociale de {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
+  <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
+  <AbilityIdeoConvertBreakdownOpinion>Opinion de {RECIPIENT_labelShort} sur {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
+  <!-- EN: {PAWN_nameDef}'s ideoligion -->
+  <AbilityIdeoConvertBreakdownPawnIdeo>idéologie de {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
+  <!-- EN: {MEME} vs {TRAIT} trait -->
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} vs. {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
+
+  <!-- EN: {PAWN_labelShort} was already counselled recently. -->
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} a déjà été conseillé récemment.</AbilityCantApplyAlreadyCounselled>
+
+ <!-- Slavery -->
+  <!-- EN: Slave -->
+  <CannotAssignBedToSlave>Esclave</CannotAssignBedToSlave>
+  <!-- EN: Colonist -->
+  <CannotAssignBedToColonist>Colon</CannotAssignBedToColonist>
+  <!-- EN: Any slave -->
+  <AnySlave>N'importe quel esclave</AnySlave>
+  <!-- EN: Negotiator will not sell people into slavery. -->
+  <NegotiatorWillNotTradeSlaves>Le négociateur ne vendra pas les gens en esclavage.</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
+  <NegotiatorWillNotTradeSlavesTip>Le négociateur, {0_nameDef}, ne réduira pas les gens en esclavage en raison de sa croyance en {1}.\n\nNotez que {0_nameDef} est prêt à racheter quelqu'un à sa propre faction, mais n'est pas disposé à vendre quelqu'un à une autre faction.</NegotiatorWillNotTradeSlavesTip>
+
+  <!-- EN: Last human meat -->
+  <LastHumanMeat>Chair humaine consommée</LastHumanMeat>
+  <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
+  <LastHumanMeatDesc>En raison de sa croyance en {IDEO_name}, {PAWN_nameDef} sera mécontent si {PAWN_pronoun} passe plus de {DURATION} jours sans manger de viande humaine.</LastHumanMeatDesc>
+  <!-- EN: Last large animal slaughter -->
+  <LastAnimalSlaughter>Gros animal consommé</LastAnimalSlaughter>
+
+  <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
+  <ExectueNeutralFactionSlave>L'exécution de {PAWN_labelShort} affectera négativement les relations avec {FACTION_name}.</ExectueNeutralFactionSlave>
+
+  <!-- EN: You must assign at least one non-slave colonist who can walk. -->
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>Vous devez affecter au moins un colon qui n'est pas un esclave en capacité de marcher.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <!-- EN: You must leave at least non-slave colonist who can walk. -->
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Vous devez affecter au moins un colon qui n'est pas un esclave en capacité de marcher.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+
+<!-- Style -->
+  <!-- EN: Style -->
+  <StylePawn>Style</StylePawn>
+  <!-- EN: Cancel -->
+  <Cancel>Annuler</Cancel>
+  <!-- EN: hair -->
+  <Hair>Cheveux</Hair>
+  <!-- EN: beard -->
+  <Beard>Barbe</Beard>
+  <!-- EN: face tattoo -->
+  <TattooFace>Tatouage visage</TattooFace>
+  <!-- EN: body tattoo -->
+  <TattooBody>Tatouage</TattooBody>
+  <!-- EN: apparel color -->
+  <ApparelColor>Couleur des vêtements</ApparelColor>
+  <!-- EN: hair color -->
+  <HairColor>Couleur des cheveux</HairColor>
+  <!-- EN: Show headgear -->
+  <ShowHeadgear>Montrer le couvre-chef</ShowHeadgear>
+  <!-- EN: Show apparel -->
+  <ShowApparel>Montrer les vêtements</ShowApparel>
+  <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
+  <PawnUnhappyWithStyleItems>{PAWN_nameDef} ne sera pas satisfait à cause de ce qui suit</PawnUnhappyWithStyleItems>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescription>Les catégories de style affectent l'apparence de certains bâtiments, vêtements et armes fabriqués par {IDEO_memberNamePlural}. Si plus d'une catégorie affecte la même chose, la plus à gauche s'applique.</StyleCategoryDescription>
+  <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} sera ravi s'il remarque des bâtiments, des sols et des œuvres d'art correspondant à ce style.</StyleCategoryDescStyleDominance>
+  <!-- EN: {0} style category affects -->
+  <StyleCategoryDetails>{0} influences la catégorie de style</StyleCategoryDetails>
+  <!-- EN: Overriden by {0} -->
+  <OverriddenByStyle>Écrasé par {0}</OverriddenByStyle>
+  <!-- EN: New buildables -->
+  <IdeoMakesBuildingBuildable>De nouvelles options de construction</IdeoMakesBuildingBuildable>
+  <!-- EN: none usable for {PAWN_nameDef} -->
+  <NoneUsableForPawn>ne peut pas être utilisé par {PAWN_nameDef}</NoneUsableForPawn> 
+  <!-- EN: Hair and beards -->
+  <HairAndBeards>Cheveux et barbes</HairAndBeards>
+  <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
+  <HairAndBeardsDesc>Ces paramètres déterminent la fréquence à laquelle chaque style apparaît sur les membres de cette idéologie.</HairAndBeardsDesc>
+  <!-- EN: Tattoos -->
+  <Tattoos>Tatouages</Tattoos>
+  <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
+  <TattoosDesc>Ces paramètres déterminent la fréquence à laquelle chaque tatouage apparaît sur les membres de cette idéologie.</TattoosDesc>
+  <!-- EN: Never -->
+  <StyleItemFrequencyNever>Jamais</StyleItemFrequencyNever>
+  <!-- EN: Rare -->
+  <StyleItemFrequencyRare>Rarement</StyleItemFrequencyRare>
+  <!-- EN: Uncommon -->
+  <StyleItemFrequencyUncommon>Peu commun</StyleItemFrequencyUncommon>
+  <!-- EN: Normal -->
+  <StyleItemFrequencyNormal>Normal</StyleItemFrequencyNormal>
+  <!-- EN: Common -->
+  <StyleItemFrequencyCommon>Commun</StyleItemFrequencyCommon>
+  <!-- EN: Frequent -->
+  <StyleItemFrequencyFrequent>Fréquent</StyleItemFrequencyFrequent>
+  <!-- EN: Edit appearance -->
+  <EditAppearanceItems>Modifier l'apparence</EditAppearanceItems>
+  <!-- EN: {0} in use -->
+  <NumAvailable>{0} en cours d'utilisation</NumAvailable>
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Développer</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Réduire</CollapseAllCategories>
+  <!-- EN: Resets all style items to their default values. -->
+  <ResetButtonDesc>Réinitialise tous les éléments de style à leurs valeurs par défaut.</ResetButtonDesc>
+
+  <!-- Ancient complex mission -->
+  <!-- EN: Send shuttle anyway -->
+  <SendShuttleAnyway>Envoyer la navette quand même</SendShuttleAnyway>
+  <!-- EN: Re-load shuttle -->
+  <ReLoadShuttle>Recharger la navette</ReLoadShuttle>
+
+  <!-- Medical settings -->
+  <!-- EN: Enslaved colonist -->
+  <MedGroupEnslavedColonist>Colon esclave</MedGroupEnslavedColonist>
+
+  <!-- Dryad upgrades -->
+  <!-- EN: Choose dryad caste -->
+  <ChangeMode>Choisissez la caste des dryades</ChangeMode>
+  <!-- EN: Required memes -->
+  <RequiredMemes>Nécessite la ou les croyances</RequiredMemes>
+  <!-- EN: Required caste -->
+  <RequiredStage>Nécessite la caste</RequiredStage>
+  <!-- EN: Missing required memes -->
+  <MissingRequiredMemes>Croyances requises manquantes</MissingRequiredMemes>
+  <!-- EN: Missing required caste -->
+  <MissingRequiredCaste>Caste requise manquante</MissingRequiredCaste>
+  <!-- EN: Already selected -->
+  <AlreadySelected>Déjà sélectionné</AlreadySelected>
+  <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
+  <ChooseProductionModeInitialDesc>Ici, vous pouvez choisir quelle caste de dryades cet {TREE_label} créera. \n\nLes dryades émergeront des gousses qui poussent à la base de l'arbre. Le nombre maximum de dryades est basé sur la force de connexion entre {TREE_definite} et la personne connectée.</ChooseProductionModeInitialDesc>
+
+  <!-- Archonexus -->
+  <!-- EN: Choose who to convert to your ideoligion -->
+  <ChooseColonistsForIdeoTitle>Choisissez qui convertir à votre idéologie</ChooseColonistsForIdeoTitle>
+  <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
+  <ChooseColonistsForIdeoDesc>Vous pouvez convertir les gens à votre idéologie principale lors de la création d'une nouvelle colonie.</ChooseColonistsForIdeoDesc>
+  <!-- EN: New Colony -->
+  <ChooseThingsForNewColonyTitle>Nouvelle colonie</ChooseThingsForNewColonyTitle>
+  <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
+  <ChooseThingsForNewColonyDesc>Choisissez quels colons, animaux et reliques apporter à la nouvelle colonie.</ChooseThingsForNewColonyDesc>
+  <!-- EN: Choose up to {0} {1}. -->
+  <ChooseThingsDesc>Choisissez jusqu'à {0} {1}.</ChooseThingsDesc>
+  <!-- EN: Choose up to {0} people. -->
+  <ChoosePeopleDesc>Choisissez jusqu'à {0} personnes.</ChoosePeopleDesc>
+  <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
+  <ChooseOnlySlavesInfo>Si vous ne sélectionnez que des esclaves, vous les jouerez en tant que colons dans la prochaine colonie.</ChooseOnlySlavesInfo>
+  <!-- EN: Convert -->
+  <ConvertToPlayerIdeoligion>Convertir</ConvertToPlayerIdeoligion>
+  <!-- EN: Revert -->
+  <RevertToPreviousIdeoligion>Annuler</RevertToPreviousIdeoligion>
+  <!-- EN: Existing follower -->
+  <ExistingFollowerOfPlayerIdeoligion>Abonnés existants</ExistingFollowerOfPlayerIdeoligion>
+  <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
+  <AbandonArchotechStructuresWarningDialog>Vous abandonnez un site qui contient des structures archotechnologiques que vous n'avez pas encore complètement étudiées.\n\nVous pourrez vous réinstaller ici plus tard, mais votre colonie sera anéantie.</AbandonArchotechStructuresWarningDialog>
+
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
+  <ConfirmHackEnenyTerminal>Pirater ce {0} alertera les ennemis et les fera attaquer. Voulez-vous vraiment pirater {0} ?</ConfirmHackEnenyTerminal>
+
+  <!-- EN: Relics -->
+  <RelicsSection>Reliques</RelicsSection>
+
+</LanguageData>
