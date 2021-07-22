@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IssueDef>
+    <defName>SmallSpaces</defName>
+    <label>small spaces</label>
+    <iconPath>UI/Issues/SmallSpaces</iconPath>
+  </IssueDef>
+
+  <PreceptDef>
+    <defName>SmallSpaces_Acceptable</defName>
+    <label>don't care</label>
+    <issue>SmallSpaces</issue>
+    <description>There's nothing bothersome about being in tight quarters.</description>
+    <impact>Low</impact>
+    <displayOrderInImpact>100</displayOrderInImpact>
+    <disableCrampedRoomThoughts>true</disableCrampedRoomThoughts>
+    <requiredMemes>
+      <li>Tunneler</li>
+    </requiredMemes>
+  </PreceptDef>
+
+</Defs>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Proselytizing</defName>
+    <label>proselytizing</label>
+    <iconPath>UI/Issues/Proselytizing</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Proselytizing_Occasionally</defName>
+    <issue>Proselytizing</issue>
+    <label>occasional</label>
+    <description>Those who know the truth should try to bring it to others, when it seems appropriate.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>20</displayOrderInIssue>
+    <requiredMemes>
+      <li>Proselytizer</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>Proselytizer</li>
+    </associatedMemes>
+    <statFactors>
+      <SocialIdeoSpreadFrequencyFactor>3</SocialIdeoSpreadFrequencyFactor>
+    </statFactors>
+    <proselytizes>true</proselytizes>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>Proselytizing_Sometimes</defName>
+    <issue>Proselytizing</issue>
+    <label>sometimes</label>
+    <description>Those who know the truth should bring it to others at every opportunity.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <requiredMemes>
+      <li>Proselytizer</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>Proselytizer</li>
+    </associatedMemes>
+    <statFactors>
+      <SocialIdeoSpreadFrequencyFactor>5</SocialIdeoSpreadFrequencyFactor>
+    </statFactors>
+    <proselytizes>true</proselytizes>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>Proselytizing_Frequently</defName>
+    <issue>Proselytizing</issue>
+    <label>frequent</label>
+    <description>Those who know the truth have a duty to always spread it and drive out other beliefs.</description>
+    <impact>Medium</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <requiredMemes>
+      <li>Proselytizer</li>
+    </requiredMemes>
+    <associatedMemes>
+      <li>Proselytizer</li>
+    </associatedMemes>
+    <statFactors>
+      <SocialIdeoSpreadFrequencyFactor>7</SocialIdeoSpreadFrequencyFactor>
+    </statFactors>
+    <proselytizes>true</proselytizes>
+  </PreceptDef>
+
+</Defs>

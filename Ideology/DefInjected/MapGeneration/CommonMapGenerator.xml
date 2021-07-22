@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GenStepDef>
+    <defName>ScatterRoadDebris</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterRoadDebris"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>ScatterCaveDebris</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterCaveDebris"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientUtilityBuilding</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientUtilityBuilding"/>
+  </GenStepDef>
+  
+  <GenStepDef>
+    <defName>MechanoidRemains</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterMechanoidRemains"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientTurret</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientTurret"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientMechs</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientMechs"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientLandingPad</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientLandingPad"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientFences</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientFences"/>
+  </GenStepDef>
+
+  <!-- Ancient misc debris -->
+  <GenStepDef Abstract="True" Name="AncientMiscDebris">
+    <order>310</order>
+    <genStep Class="GenStep_ScatterThings">
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <minSpacing>50</minSpacing>
+      <countPer10kCellsRange>0.25~0.5</countPer10kCellsRange>
+      <validators>
+        <li Class="ScattererValidator_Buildable">
+          <radius>5</radius>
+          <affordance>Heavy</affordance>
+        </li>
+      </validators>
+      <filthDef>Filth_MachineBits</filthDef>
+      <filthExpandBy>1</filthExpandBy>
+      <filthChance>0.4</filthChance>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientJetEngine</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientJetEngine</thingDef>
+      <filthChance>0.6</filthChance>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientWarwalkerShell</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientWarwalkerShell</thingDef>
+      <filthChance>0.6</filthChance>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientShoppingCart</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientShoppingCart</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientLargeRustedEngineBlock</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientLargeRustedEngineBlock</thingDef>
+      <filthChance>0.6</filthChance>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientWheel</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientWheel</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientGiantWheel</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientGiantWheel</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientPipelineSection</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientPipelineSection</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientPostbox</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientPostbox</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientAirConditioner</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientAirConditioner</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientKitchenSink</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientKitchenSink</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientStove</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientStove</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientRefrigerator</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientRefrigerator</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientSmallCrate</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientSmallCrate</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientLargeCrate</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientLargeCrate</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientLongCrate</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientLongCrate</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientVendingMachine</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientVendingMachine</thingDef>
+    </genStep>
+  </GenStepDef>
+
+</Defs>

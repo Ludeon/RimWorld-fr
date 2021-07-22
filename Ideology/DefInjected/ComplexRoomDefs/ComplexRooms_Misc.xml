@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ComplexRoomDef Abstract="True" Name="UtilityRoom">
+    <floorTypes>
+      <li>PavedTile</li>
+      <li>Concrete</li>
+      <li>CarpetDark</li>
+      <li>CarpetBlue</li>
+      <li>CarpetGreen</li>
+    </floorTypes>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef>
+    <defName>AncientBarracks</defName>
+    <selectionWeight>0.2</selectionWeight>
+    <sketchResolverDef>AncientBarracks</sketchResolverDef>
+    <minArea>50</minArea>
+    <maxCount>1</maxCount>
+    <floorTypes>
+      <li>CarpetBlue</li>
+      <li>CarpetRed</li>
+      <li>CarpetGreen</li>
+    </floorTypes>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef ParentName="UtilityRoom">
+    <defName>AncientStorageRoom</defName>
+    <selectionWeight>0.2</selectionWeight>
+    <sketchResolverDef>AncientStorageRoom</sketchResolverDef>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef ParentName="UtilityRoom">
+    <defName>AncientEquipmentRoom</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientEquipmentRoom</sketchResolverDef>
+    <minArea>0</minArea>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef>
+    <defName>AncientPowerRoom</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientPowerRoom</sketchResolverDef>
+    <maxCount>1</maxCount>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef>
+    <defName>AncientLab</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientLab</sketchResolverDef>
+    <maxCount>1</maxCount>
+    <floorTypes>
+      <li>SterileTile</li>
+    </floorTypes>
+  </ComplexRoomDef>
+
+  <ComplexRoomDef  ParentName="UtilityRoom">
+    <defName>AncientArmory</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientArmory</sketchResolverDef>
+    <maxArea>26</maxArea>
+  </ComplexRoomDef>
+
+</Defs>

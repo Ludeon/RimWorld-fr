@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>SuppressionPower</defName>
+    <label>suppression power</label>
+    <description>A multiplier on a warden's ability to suppress slaves.</description>
+    <category>PawnSocial</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.05</minValue>
+    <maxValue>1</maxValue>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Social</skill>
+        <baseValue>0.05</baseValue>
+        <bonusPerLevel>0.0225</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <toStringStyle>PercentZero</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>HackingSpeed</defName>
+    <label>hacking speed</label>
+    <description>How fast this person can hack into computer terminals.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Intellectual</skill>
+        <baseValue>0.75</baseValue>
+        <bonusPerLevel>0.025</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.5</weight>
+        <max>1.1</max>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.5</weight>
+        <max>1.1</max>
+      </li>
+    </capacityFactors>
+    <scenarioRandomizable>true</scenarioRandomizable>
+    <displayPriorityInCategory>4510</displayPriorityInCategory>
+  </StatDef>
+
+</Defs>

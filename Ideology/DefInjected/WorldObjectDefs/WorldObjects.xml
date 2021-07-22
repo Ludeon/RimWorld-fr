@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WorldObjectDef ParentName="Settlement">
+    <defName>Settlement_SecondArchonexusCycle</defName>
+    <mapGenerator>BasePlayer_SecondArchonexusCycle</mapGenerator>
+    <worldObjectClass>ArchotechSettlement</worldObjectClass>
+  </WorldObjectDef>
+
+  <WorldObjectDef ParentName="Settlement">
+    <defName>Settlement_ThirdArchonexusCycle</defName>
+    <mapGenerator>BasePlayer_ThirdArchonexusCycle</mapGenerator>
+    <worldObjectClass>ArchotechSettlement</worldObjectClass>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>AbandonedArchotechStructures</defName>
+    <worldObjectClass>AbandonedArchotechStructures</worldObjectClass>
+    <label>archotech structure</label>
+    <description>An archotech structure that you can study.</description>
+    <texture>World/WorldObjects/ArchotechStructure</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/ArchotechStructure</expandingIconTexture>
+    <canBePlayerHome>true</canBePlayerHome>
+  </WorldObjectDef>
+
+</Defs>

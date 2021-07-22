@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ComplexThreatDef Abstract="True" Name="DelayedThreat">
+    <delayChance>0.25</delayChance>
+    <delayTickOptions>
+      <li>1800</li><!--  30s -->
+      <li>3600</li><!--  1m -->
+      <li>7200</li><!--  2m -->
+      <li>10800</li><!-- 3m -->
+      <li>14800</li><!-- 4m -->
+      <li>21600</li><!-- 6m -->
+      <li>28800</li><!-- 8m -->
+      <li>36000</li><!-- 10m -->
+    </delayTickOptions>
+    <threatFactorOverDelayTicksCurve>
+      <points>
+        <li>(0, 0)</li>
+        <li>(1800, 1.2)</li>
+        <li>(36000, 1.5)</li>
+      </points>
+    </threatFactorOverDelayTicksCurve>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef Abstract="True" Name="SleepingThreat" ParentName="DelayedThreat">
+    <postSpawnPassiveThreatFactor>0.5</postSpawnPassiveThreatFactor>
+    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef Name="SleepingMechanoids" ParentName="SleepingThreat">
+    <defName>SleepingMechanoids</defName>
+    <workerClass>ComplexThreatWorker_SleepingMechanoids</workerClass>
+    <faction>Mechanoid</faction>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef Name="SleepingInsects" ParentName="SleepingThreat">
+    <defName>SleepingInsects</defName>
+    <workerClass>ComplexThreatWorker_SleepingInsects</workerClass>
+    <faction>Insect</faction>
+    <minPoints>100</minPoints>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef Name="CryptosleepPods" ParentName="DelayedThreat">
+    <defName>CryptosleepPods</defName>
+    <workerClass>ComplexThreatWorker_CryptosleepPods</workerClass>
+    <postSpawnPassiveThreatFactor>0.25</postSpawnPassiveThreatFactor>
+    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef>
+    <defName>Ambush</defName>
+    <workerClass>ComplexThreatWorker_Ambush</workerClass>
+    <signalActionAmbushType>Normal</signalActionAmbushType>
+    <allowPassive>false</allowPassive>
+    <minPoints>100</minPoints>
+    <fallbackToRoomEnteredTrigger>false</fallbackToRoomEnteredTrigger>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef>
+    <defName>RaidTerminal</defName>
+    <workerClass>ComplexThreatWorker_RaidTerminal</workerClass>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef ParentName="DelayedThreat">
+    <defName>FuelNode</defName>
+    <workerClass>ComplexThreatWorker_FuelNode</workerClass>
+    <postSpawnPassiveThreatFactor>0.1</postSpawnPassiveThreatFactor>
+    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef ParentName="DelayedThreat">
+    <defName>Infestation</defName>
+    <workerClass>ComplexThreatWorker_Infestations</workerClass>
+    <allowPassive>false</allowPassive>
+    <minPoints>200</minPoints>
+    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef>
+    <defName>SecurityCrate</defName>
+    <workerClass>ComplexThreatWorker_SecurityCrate</workerClass>
+    <minPoints>200</minPoints>
+  </ComplexThreatDef>
+
+  <ComplexThreatDef ParentName="DelayedThreat">
+    <defName>MechDrop</defName>
+    <workerClass>ComplexThreatWorker_Ambush</workerClass>
+    <signalActionAmbushType>Mechanoids</signalActionAmbushType>
+    <spawnAroundComplex>true</spawnAroundComplex>
+    <useDropPods>true</useDropPods>
+  </ComplexThreatDef>
+
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ComplexDef Name="AncientComplex">
+    <defName>AncientComplex</defName>
+    <workerClass>ComplexWorker_Ancient</workerClass>
+    <roomDefs>
+      <li>AncientEquipmentRoom</li>
+      <li>AncientStorageRoom</li>
+      <li>AncientBarracks</li>
+      <li>AncientPowerRoom</li>
+      <li>AncientLab</li>
+      <li>AncientArmory</li>
+    </roomDefs>
+    <threats>
+      <li>
+        <def>SleepingMechanoids</def>
+      </li>
+      <li>
+        <def>SleepingInsects</def>
+      </li>
+      <li>
+        <def>Ambush</def>
+      </li>
+      <li>
+        <def>CryptosleepPods</def>
+      </li>
+      <li>
+        <def>FuelNode</def>
+        <maxPerRoom>1</maxPerRoom>
+        <selectionWeight>3</selectionWeight>
+      </li>
+      <li>
+        <def>SecurityCrate</def>
+        <selectionWeight>2</selectionWeight>
+      </li> 
+      <li>
+        <def>Infestation</def>
+      </li>
+      <li>
+        <def>RaidTerminal</def>
+        <maxPerComplex>1</maxPerComplex>
+        <chancePerComplex>0.5</chancePerComplex>
+      </li>
+    </threats>
+    <rewardThingSetMakerDef>MapGen_AncientComplexRoomLoot_Default</rewardThingSetMakerDef>
+  </ComplexDef>
+
+  <ComplexDef ParentName="AncientComplex">
+    <defName>AncientComplex_Loot</defName>
+    <rewardThingSetMakerDef>MapGen_AncientComplexRoomLoot_Better</rewardThingSetMakerDef>
+  </ComplexDef>
+
+</Defs>
