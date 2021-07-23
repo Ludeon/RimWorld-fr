@@ -2,17 +2,17 @@
 <LanguageData>
 
   <!-- EN: Choose your faction's ideoligion -->
-  <ChooseIdeoligion>Choisissez l'idéoligion de votre faction</ChooseIdeoligion>
+  <ChooseIdeoligion>Choisissez l'idéologie de votre faction</ChooseIdeoligion>
   <!-- EN: Create custom -->
   <CreateCustom>Créer une personalisée</CreateCustom>
   <!-- EN: Create new -->
   <CreateNew>Créer une nouvelle</CreateNew>
   <!-- EN: Create custom ideoligion -->
-  <CreateCustomIdeoligion>Créer une idéoligion personalisée</CreateCustomIdeoligion>
+  <CreateCustomIdeoligion>Créer une idéologie personalisée</CreateCustomIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
-  <SelectAnIdeo>Choisissez une idéoligion pour votre faction à la gauche, ou</SelectAnIdeo>
+  <SelectAnIdeo>Choisissez une idéologie pour votre faction à gauche, ou</SelectAnIdeo>
   <!-- EN: ideoligion -->
-  <Ideo>idéoligion</Ideo> 
+  <Ideo>idéologie</Ideo> 
   <!-- EN: Randomize all -->
   <RandomizeAll>Tout randomiser</RandomizeAll>
   <!-- EN: Appearance -->
@@ -26,7 +26,7 @@
   <!-- EN: Information about {0} -->
   <Reward_RelicInfo>Information sur {0}</Reward_RelicInfo>
   <!-- EN: Info about {0} -->
-  <Reward_RelicInfoLabel>Info sur {@}</Reward_RelicInfoLabel>
+  <Reward_RelicInfoLabel>Info sur {0}</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
   <RelicOf>Relique de {IDEO_name}</RelicOf>
   <!-- EN: altar -->
@@ -36,11 +36,11 @@
   <!-- EN: min expectation -->
   <MinExpectation>Attente minimale</MinExpectation>
   <!-- EN: {0} to {1} -->
-  <PreceptThoughtMoodRange>{0} à {1} </PreceptThoughtMoodRange>
+  <PreceptThoughtMoodRange>{0} à {1}</PreceptThoughtMoodRange>
   <!-- EN: Comes from ideo -->
-  <ComesFromIdeo>TODO</ComesFromIdeo>
+  <ComesFromIdeo>Viens de l'idéologie</ComesFromIdeo>
   <!-- EN: Current total animal bodysize per colonist -->
-  <CurrentTotalAnimalBodySizePerColonist>TODO</CurrentTotalAnimalBodySizePerColonist>
+  <CurrentTotalAnimalBodySizePerColonist>Taille total des animaux par colon</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
   <AnimalsBodySizePerColonist>TODO</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
@@ -48,27 +48,27 @@
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>TODO</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
-  <PlantThing>TODO</PlantThing>
+  <PlantThing>Plante {0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>TODO</PlantThingDesc>
+  <PlantThingDesc>Plante {0_gender ? un : une : un(une)} {0_label} a l'endroit voulu.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
   <CancelPlantThing>TODO</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
   <CancelPlantThingDesc>TODO</CancelPlantThingDesc>
   <!-- EN: Disables -->
-  <Disables>TODO</Disables>
+  <Disables>Désactive</Disables>
   <!-- EN: Requires one of precepts -->
-  <RequiresOnePrecept>TODO</RequiresOnePrecept>
+  <RequiresOnePrecept>Nécessite l'un des préceptes</RequiresOnePrecept>
   <!-- EN: Required precepts -->
-  <RequiredPrecepts>TODO</RequiredPrecepts>
+  <RequiredPrecepts>Préceptes requis</RequiredPrecepts>
   <!-- EN: Required rituals -->
-  <RequiredRituals>TODO</RequiredRituals>
+  <RequiredRituals>Rituels requis</RequiredRituals>
   <!-- EN: Disables precepts -->
-  <DisablesPrecepts>TODO</DisablesPrecepts>
+  <DisablesPrecepts>Désactive les préceptes</DisablesPrecepts>
   <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>TODO</DisablesPreceptsCount>
+  <DisablesPreceptsCount>Désactive {0} préceptes.</DisablesPreceptsCount>
   <!-- EN: Styles -->
-  <Styles>TODO</Styles>
+  <Styles>Styles</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>TODO</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
@@ -78,15 +78,15 @@
   <!-- EN: Set favorite color -->
   <SetFavoriteColor>TODO</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
-  <ConfigureIdeoligion>TODO</ConfigureIdeoligion>
+  <ConfigureIdeoligion>Configurez l'idéologie de votre faction</ConfigureIdeoligion>
   <!-- EN: Not enough dye. The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDye>TODO</NotEnoughDye>
+  <NotEnoughDye>Pas assez de teinture. Le colon recolorera les vêtements lorsque la teinture sera disponible.</NotEnoughDye>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>TODO</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
-  <DisabledByPrecept>TODO</DisabledByPrecept>
+  <DisabledByPrecept>Désactivé par le précepte {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
-  <Everyone>TODO</Everyone>
+  <Everyone>Tout le monde</Everyone>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>TODO</RitualTargetGraveInfo>
@@ -161,9 +161,9 @@
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>TODO</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
-  <RitualAttachedOutcomes_Positive>TODO</RitualAttachedOutcomes_Positive>
+  <RitualAttachedOutcomes_Positive>positif</RitualAttachedOutcomes_Positive>
   <!-- EN: negative -->
-  <RitualAttachedOutcomes_Negative>TODO</RitualAttachedOutcomes_Negative>
+  <RitualAttachedOutcomes_Negative>négatif</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>TODO</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
@@ -186,17 +186,17 @@
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>TODO</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
   <!-- EN: This building is a variation of -->
-  <IdeoBuildingVariationOf>TODO</IdeoBuildingVariationOf>
+  <IdeoBuildingVariationOf>Ce bâtiment est une variante de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
-  <IdeoBuildingMinimumExpectations>TODO</IdeoBuildingMinimumExpectations>
+  <IdeoBuildingMinimumExpectations>Prévisions minimal</IdeoBuildingMinimumExpectations>
   <!-- EN: size -->
-  <Size>TODO</Size>
+  <Size>taille</Size>
   <!-- EN: cost -->
-  <Cost>TODO</Cost>
+  <Cost>coût</Cost>
   <!-- EN: optional -->
-  <Optional>TODO</Optional>
+  <Optional>optionnel</Optional>
   <!-- EN: expectations -->
-  <Expectations>TODO</Expectations>
+  <Expectations>prévisions</Expectations>
   <!-- EN: Can start any time -->
   <RitualStartAnyTime>TODO</RitualStartAnyTime>
   <!-- EN: Can start after event -->
@@ -213,13 +213,13 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart2>TODO</RitualOutcomeCompTip_RitualTargetDefsPart2>
 
   <!-- EN: For slave use -->
-  <ForSlaveUse>TODO</ForSlaveUse>
+  <ForSlaveUse>Pour les esclaves</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>Esclave</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
-  <SellingAsSlave>TODO</SellingAsSlave>
+  <SellingAsSlave>Si vous vendez quelqu'un à une faction différente de la sienne, il devient esclave.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
-  <SellingAsRansom>TODO</SellingAsRansom>
+  <SellingAsRansom>Si vous vendez quelqu'un à sa propre faction, il est racheté et non réduit en esclavage.</SellingAsRansom>
 
   <!-- EN: We are {0} -->
   <MemeGoodwillImpact_Player>TODO</MemeGoodwillImpact_Player>
@@ -272,23 +272,23 @@
   <!-- EN: add {0} -->
   <AddPrecept>TODO</AddPrecept>
   <!-- EN: precept -->
-  <Precept>TODO</Precept>
+  <Precept>précepte</Precept>
   <!-- EN: building -->
-  <IdeoBuilding>TODO</IdeoBuilding>
+  <IdeoBuilding>bâtiment</IdeoBuilding>
   <!-- EN: relic -->
-  <IdeoRelic>TODO</IdeoRelic>
+  <IdeoRelic>relique</IdeoRelic>
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
-  <GiveItemsTo>TODO</GiveItemsTo>
+  <GiveItemsTo>Donner {0} à {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
-  <CannotGiveItemsTo>TODO</CannotGiveItemsTo>
+  <CannotGiveItemsTo>Ne pas donner {0} à {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
-  <NoItemFound>TODO</NoItemFound>
+  <NoItemFound>Objet non trouvé</NoItemFound>
 
   <!-- Outfits -->
   <!-- EN: Slave -->
-  <OutfitSlave>TODO</OutfitSlave>
+  <OutfitSlave>Esclave</OutfitSlave>
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->
@@ -308,15 +308,15 @@
   <InactiveRoleRequiresMoreBelievers>TODO</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
-  <Certainty>TODO</Certainty>
+  <Certainty>certitude</Certainty>
 
   <!-- Slave interaction -->
   <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
-  <EmancipateNonCololonistWithFactionTooltip>TODO</EmancipateNonCololonistWithFactionTooltip>
+  <EmancipateNonCololonistWithFactionTooltip>L'esclave partira à pied et retournera dans sa faction d'origine, {0}.</EmancipateNonCololonistWithFactionTooltip>
   <!-- EN: The slave will leave on foot and exit the map. -->
-  <EmancipateNonCololonistWithoutFactionTooltip>TODO</EmancipateNonCololonistWithoutFactionTooltip>
+  <EmancipateNonCololonistWithoutFactionTooltip>L'esclave partira à pied et sortira de la carte.</EmancipateNonCololonistWithoutFactionTooltip>
   <!-- EN: The slave will return to being a colonist. -->
-  <EmancipateCololonistTooltip>TODO</EmancipateCololonistTooltip>
+  <EmancipateCololonistTooltip>L'esclave redeviendra un colon.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
   <WorshippedTerminalFactionBecameHostileTimed>TODO</WorshippedTerminalFactionBecameHostileTimed>
@@ -332,28 +332,28 @@
   <RelicHuntFoundRelicSitePeaceful>TODO</RelicHuntFoundRelicSitePeaceful>
 
   <!-- EN: relic -->
-  <Relic>TODO</Relic>
+  <Relic>relique</Relic>
   <!-- EN: Ritual seat -->
-  <RitualSeat>TODO</RitualSeat>
+  <RitualSeat>Siège cérémoniel</RitualSeat>
 
   <!-- Ritual requirements -->
   <!-- EN: Active loudspeakers -->
-  <RitualPredictedOutcomeDescNumActiveLoudspeakers>TODO</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Haut-parleurs actifs</RitualPredictedOutcomeDescNumActiveLoudspeakers>
   <!-- EN: Drums -->
-  <RitualPredictedOutcomeDescNumDrums>TODO</RitualPredictedOutcomeDescNumDrums>
+  <RitualPredictedOutcomeDescNumDrums>Tambours</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
   <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>TODO</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Any of these</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>N'importe lequel</RitualOutcomeLabelAnyOfThese>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Replace with</PreceptReplaceWith>
+  <PreceptReplaceWith>Remplacer par</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Ritual seat of {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>Siège cérémoniel de {IDEOS}</RitualSeatOf>
   <!-- EN: Starting quality -->
-  <StartingQuality>Starting quality</StartingQuality>
+  <StartingQuality>Qualité de départ</StartingQuality>
   <!-- EN: Conviction chance -->
   <ExpectedConvictionChance>TODO</ExpectedConvictionChance>
  
@@ -442,9 +442,9 @@
   <!-- EN: Target indoors and lit -->
   <TargetLitIndoors>TODO</TargetLitIndoors>  
   <!-- EN: Charging -->
-  <RechargeableCharging>TODO</RechargeableCharging>
+  <RechargeableCharging>Chargement</RechargeableCharging>
   <!-- EN: Ready -->
-  <RechargeableReady>TODO</RechargeableReady>
+  <RechargeableReady>Prêt</RechargeableReady>
   
   <!-- EN: Skill -->
   <RoleRequirementSkill>TODO</RoleRequirementSkill>
@@ -481,9 +481,9 @@
   <Reward_ArchonexusMapPartLabel>TODO</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
-  <RelicsLower>TODO</RelicsLower>
+  <RelicsLower>reliques</RelicsLower>
   <!-- EN: relic -->
-  <RelicLower>TODO</RelicLower>
+  <RelicLower>relique</RelicLower>
 
   <!-- EN: Linked to -->
   <LinkedTo>TODO</LinkedTo>
