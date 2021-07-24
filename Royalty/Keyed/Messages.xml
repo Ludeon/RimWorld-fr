@@ -4,8 +4,6 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>La navette n'a pas pu atterrir sur la plate-forme : {0}.</ShuttleBlocked>
-  <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>bloqué par {0_label}.</BlockedBy>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>La navette est arrivée.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
@@ -21,12 +19,18 @@
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>Avertissement : l'arbre anima a été marqué pour l'abattage.</MessageWarningCutAnimaTree>
 
-  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
+  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>Sélectionnez {TARGET_definite} et cliquez avec le bouton droit sur l'émissaire pour commencer la cérémonie de promotion.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Impossible d'atteindre l'émissaire !</MessageBestowerUnreachable>
+  <!-- EN: {0} is busy. -->
+  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>L'émissaire est ennuyé par l'interférence et a décidé de partir.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>TODO</MessageBestowingDanger>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>TODO</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>La cérémonie de promotion de {PAWN_definite} a commencé.</MessageBestowingCeremonyStarted>
@@ -37,5 +41,8 @@
   <MessagePermitTransportDrop>{FACTION_name} a déposé des ressources à proximité.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
   <MessagePermitTransportDropCaravan>{FACTION_name} a envoyé des ressources à la caravane de {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>
