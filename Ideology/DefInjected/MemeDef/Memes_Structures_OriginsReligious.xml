@@ -13,6 +13,23 @@
     <li>memeLeaderNoun->bodhisattva</li>
     <li>memeLeaderNoun->sattva</li>
     <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->enlightened</li>
+    <li>memeLeaderAdjective->wise</li>
+    <li>memeLeaderAdjective->spiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->monk</li>
+  -->
+  <Structure_OriginBuddhist.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
     <li>memeLeaderAdjective->éclairé</li>
     <li>memeLeaderAdjective->sage</li>
     <li>memeLeaderAdjective->spirituel</li>
@@ -21,8 +38,7 @@
     <li>memeMoralist(p=2)->bhikkhu</li>
     <li>memeMoralist->prêtre</li>
     <li>memeMoralist->moine</li>
-  -->
-  <Structure_OriginBuddhist.generalRules.rulesStrings>TODO</Structure_OriginBuddhist.generalRules.rulesStrings>
+  </Structure_OriginBuddhist.generalRules.rulesStrings>
   <!-- EN: Buddhist -->
   <Structure_OriginBuddhist.symbolPacks.0.adjective>TODO</Structure_OriginBuddhist.symbolPacks.0.adjective>
   <!-- EN: Buddhism -->
@@ -97,6 +113,30 @@
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bishop</li>
+    <li>memeLeaderNoun->cardinal</li>
+    <li>memeLeaderNoun->pope</li>
+    <li>memeLeaderNoun->pontiff</li>
+    <li>memeLeaderNoun->legate</li>
+    <li>memeLeaderNoun->nuncio</li>
+    <li>memeLeaderNoun->divus</li>
+    <li>memeLeaderNoun->ecclesiast</li>
+    <li>memeLeaderAdjective->holy</li>
+    <li>memeLeaderAdjective->divine</li>
+    <li>memeLeaderAdjective->Christ's</li>
+    <li>memeLeaderAdjective->God's</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->cleric</li>
+    <li>memeMoralist->preacher</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abbot</li>
+  -->
+  <Structure_OriginChristian.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->évêque</li>
     <li>memeLeaderNoun->cardinal</li>
     <li>memeLeaderNoun->pape</li>
@@ -115,8 +155,7 @@
     <li>memeMoralist->prédicateur</li>
     <li>memeMoralist->recteur</li>
     <li>memeMoralist->abbé</li>
-  -->
-  <Structure_OriginChristian.generalRules.rulesStrings>TODO</Structure_OriginChristian.generalRules.rulesStrings>
+ </Structure_OriginChristian.generalRules.rulesStrings>
   <!-- EN: Christian -->
   <Structure_OriginChristian.symbolPacks.0.adjective>TODO</Structure_OriginChristian.symbolPacks.0.adjective>
   <!-- EN: Christianity -->
@@ -209,70 +248,90 @@
   <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
   <Structure_OriginHindu.description>Il s'agit d'une variante de la structure théiste incarnée. Cette idéologion est une descendante de l'hindouisme antique. Elle peut avoir des préceptes très différents de ceux d'il y a des milliers d'années, mais ses symboles sont similaires.</Structure_OriginHindu.description>
   <!-- EN: God of Creation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.0.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.0.type>Dieu de la création</Structure_OriginHindu.fixedDeityNameTypes.0.type>
   <!-- EN: God of Preservation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.1.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.1.type>Dieu de la préservation</Structure_OriginHindu.fixedDeityNameTypes.1.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.2.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.2.type>Dieu de la destruction</Structure_OriginHindu.fixedDeityNameTypes.2.type>
   <!-- EN: God of Dawn -->
-  <Structure_OriginHindu.fixedDeityNameTypes.3.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.3.type>Dieu de l'aube</Structure_OriginHindu.fixedDeityNameTypes.3.type>
   <!-- EN: God of Femininity -->
-  <Structure_OriginHindu.fixedDeityNameTypes.4.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.4.type>Dieu de la féminité</Structure_OriginHindu.fixedDeityNameTypes.4.type>
   <!-- EN: God of Goals -->
-  <Structure_OriginHindu.fixedDeityNameTypes.5.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.5.type>Dieu des buts</Structure_OriginHindu.fixedDeityNameTypes.5.type>
   <!-- EN: God of Fertility -->
-  <Structure_OriginHindu.fixedDeityNameTypes.6.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.6.type>Dieu de la fertilité</Structure_OriginHindu.fixedDeityNameTypes.6.type>
   <!-- EN: God of Protection -->
-  <Structure_OriginHindu.fixedDeityNameTypes.7.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.7.type>Dieu de la protection</Structure_OriginHindu.fixedDeityNameTypes.7.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.8.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.8.type>Dieu de la terre</Structure_OriginHindu.fixedDeityNameTypes.8.type>
   <!-- EN: God of Wisdom -->
-  <Structure_OriginHindu.fixedDeityNameTypes.9.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.9.type>Dieu de la sagesse</Structure_OriginHindu.fixedDeityNameTypes.9.type>
   <!-- EN: God of Life -->
-  <Structure_OriginHindu.fixedDeityNameTypes.10.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.10.type>Dieu de la vie</Structure_OriginHindu.fixedDeityNameTypes.10.type>
   <!-- EN: God of Food -->
-  <Structure_OriginHindu.fixedDeityNameTypes.11.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.11.type>Dieu de la nourriture</Structure_OriginHindu.fixedDeityNameTypes.11.type>
   <!-- EN: God of Sleep -->
-  <Structure_OriginHindu.fixedDeityNameTypes.12.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.12.type>Dieu du sommeil</Structure_OriginHindu.fixedDeityNameTypes.12.type>
   <!-- EN: God of Children -->
-  <Structure_OriginHindu.fixedDeityNameTypes.13.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.13.type>Dieu des enfants</Structure_OriginHindu.fixedDeityNameTypes.13.type>
   <!-- EN: God of Snakes -->
-  <Structure_OriginHindu.fixedDeityNameTypes.14.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.14.type>Dieu des serpents</Structure_OriginHindu.fixedDeityNameTypes.14.type>
   <!-- EN: God of Ash -->
-  <Structure_OriginHindu.fixedDeityNameTypes.15.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.15.type>Dieu des cendres</Structure_OriginHindu.fixedDeityNameTypes.15.type>
   <!-- EN: God of Annihilation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.16.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.16.type>Dieu de l'annihilation</Structure_OriginHindu.fixedDeityNameTypes.16.type>
   <!-- EN: God of Compassion -->
-  <Structure_OriginHindu.fixedDeityNameTypes.17.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.17.type>Dieu de la compassion</Structure_OriginHindu.fixedDeityNameTypes.17.type>
   <!-- EN: Sun God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.18.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.18.type>Dieu Soleil</Structure_OriginHindu.fixedDeityNameTypes.18.type>
   <!-- EN: Sky God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.19.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.19.type>Dieu du ciel</Structure_OriginHindu.fixedDeityNameTypes.19.type>
   <!-- EN: God of Friendship -->
-  <Structure_OriginHindu.fixedDeityNameTypes.20.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.20.type>Dieu de l'amitié</Structure_OriginHindu.fixedDeityNameTypes.20.type>
   <!-- EN: God of Heaven -->
-  <Structure_OriginHindu.fixedDeityNameTypes.21.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.21.type>Dieu du paradis</Structure_OriginHindu.fixedDeityNameTypes.21.type>
   <!-- EN: Fire God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.22.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.22.type>Dieu du feu</Structure_OriginHindu.fixedDeityNameTypes.22.type>
   <!-- EN: Moon God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.23.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.23.type>Dieu de la lune</Structure_OriginHindu.fixedDeityNameTypes.23.type>
   <!-- EN: God of Wind -->
-  <Structure_OriginHindu.fixedDeityNameTypes.24.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.24.type>Dieu du vent</Structure_OriginHindu.fixedDeityNameTypes.24.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.25.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.25.type>Dieu de la terre</Structure_OriginHindu.fixedDeityNameTypes.25.type>
   <!-- EN: God of Morality -->
-  <Structure_OriginHindu.fixedDeityNameTypes.26.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.26.type>Dieu de la moralité</Structure_OriginHindu.fixedDeityNameTypes.26.type>
   <!-- EN: God of Sound -->
-  <Structure_OriginHindu.fixedDeityNameTypes.27.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.27.type>Dieu du son</Structure_OriginHindu.fixedDeityNameTypes.27.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.28.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.28.type>Dieu de la destruction</Structure_OriginHindu.fixedDeityNameTypes.28.type>
   <!-- EN: God of Night -->
-  <Structure_OriginHindu.fixedDeityNameTypes.29.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.29.type>Dieu de la nuit</Structure_OriginHindu.fixedDeityNameTypes.29.type>
   <!-- EN: Forest God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.30.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.30.type>Dieu de la forêt</Structure_OriginHindu.fixedDeityNameTypes.30.type>
   <!-- EN: Warrior Goddess -->
-  <Structure_OriginHindu.fixedDeityNameTypes.31.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.31.type>Déesse guerrière</Structure_OriginHindu.fixedDeityNameTypes.31.type>
   <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->yogi</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sacred</li>
+    <li>memeLeaderAdjective->hindic</li>
+    <li>memeLeaderAdjective->indic</li>
+    <li>memeLeaderAdjective->yogic</li>
+    <li>memeLeaderAdjective->tirth</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohit</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->brahmin</li>
+  -->
+  <Structure_OriginHindu.generalRules.rulesStrings>
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
@@ -291,8 +350,7 @@
     <li>memeMoralist->purohit</li>
     <li>memeMoralist->archaka</li>
     <li>memeMoralist->brahmane</li>
-  -->
-  <Structure_OriginHindu.generalRules.rulesStrings>TODO</Structure_OriginHindu.generalRules.rulesStrings>
+ </Structure_OriginHindu.generalRules.rulesStrings>
   <!-- EN: Hindu -->
   <Structure_OriginHindu.symbolPacks.0.adjective>TODO</Structure_OriginHindu.symbolPacks.0.adjective>
   <!-- EN: Hinduism -->
@@ -389,6 +447,27 @@
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mullah</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->caliph</li>
+    <li>memeLeaderNoun->mufti</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->ayatollah</li>
+    <li>memeLeaderAdjective->grand</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->qadi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->allamah</li>
+    <li>memeMoralist->muezzin</li>
+    <li>memeMoralist->mujtahid</li>
+    <li>memeMoralist->cleric</li>
+  -->
+  <Structure_OriginIslamic.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
     <li>memeLeaderNoun->mollah</li>
     <li>memeLeaderNoun->imam</li>
     <li>memeLeaderNoun->calife</li>
@@ -404,8 +483,7 @@
     <li>memeMoralist->muezzin</li>
     <li>memeMoralist->moujtahid</li>
     <li>memeMoralist->clerc</li>
-  -->
-  <Structure_OriginIslamic.generalRules.rulesStrings>TODO</Structure_OriginIslamic.generalRules.rulesStrings>
+ </Structure_OriginIslamic.generalRules.rulesStrings>
   <!-- EN: Islamic -->
   <Structure_OriginIslamic.symbolPacks.0.adjective>TODO</Structure_OriginIslamic.symbolPacks.0.adjective>
   <!-- EN: Islam -->
