@@ -72,8 +72,8 @@
   <MessageAnimalsGoPsychoHunted>Attention : les {ANIMAL_kindBasePlural} ont {1} de chances d'attaquer si vous les blessez. Cette chance dépend de la proximité et de la furtivité du chasseur.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Attention : les {ANIMAL_kindBasePlural} peuvent attaquer si l'apprivoisement échoue ({1} de chances).</MessageAnimalManhuntsOnTameFailed>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageInsectTameDesignated>Only those with the insect sympathy trait can tame {INSECT_indefinite}.</MessageInsectTameDesignated>
+  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
+  <MessageInsectTameDesignated>Seuls ceux qui aiment les insectes peuvent apprivoiser {INSECT_indefinite}.</MessageInsectTameDesignated>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nouvelle recrue</LetterLabelMessageRecruitSuccess>
@@ -83,8 +83,8 @@
   <MessageTameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} a réussi à apprivoiser {RECRUITEE_kindIndef} ({2} de chances) et l'a nomm{RECRUITEE_gender ? é : ée : é(e)} {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageTameNoSuitablePens>There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away.</MessageTameNoSuitablePens>
+  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
+  <MessageTameNoSuitablePens>Il n'y a pas d'enclos disponible pour {ANIMAL_labelShort}. Il risque de s'enfuir.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} a rejoint votre colonie.</MessageRecruitJoinOfferAccepted>
 
@@ -155,8 +155,8 @@
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
 
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageAnimalIsPregnant>{PAWN_nameDef} is pregnant!</MessageAnimalIsPregnant>
+  <!-- EN: {PAWN_nameDef} is pregnant! -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef} est enceinte!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0} a fait une fausse couche à cause de la famine.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
@@ -557,8 +557,8 @@
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>En raison d'un manque d'apprivoisement, {1_labelShort} est retourné à la vie sauvage.</MessageAnimalReturnedWild>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageAnimalReturnedWildReleased>{1_labelShort} has been returned to the wild.</MessageAnimalReturnedWildReleased>
+  <!-- EN: {1_labelShort} has been returned to the wild. -->
+  <MessageAnimalReturnedWildReleased>{1_labelShort} est retourné à la vie sauvage.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>En raison d'un manque d'entrainement, {ANIMAL_labelShort} a perdu une compétence : {1}</MessageAnimalLostSkill>
 
@@ -645,77 +645,77 @@
   <MessageBedDestroyed>{0} attribué à {1}_nameDef} a été détruit.</MessageBedDestroyed>
 
   <!-- Rituals -->
-  <!-- TODO: Traduction RW1.3 -->
-  <Spectate>spectate</Spectate>
-  <!-- TODO: Traduction RW1.3 -->
-  <AssignToRole>Assign to {0}</AssignToRole>
-  <!-- TODO: Traduction RW1.3 -->
-  <RitualBegun>{0} has begun.</RitualBegun>
-  <!-- TODO: Traduction RW1.3 -->
-  <MaxPawnsPerRole>The maximum number of {0}s is {1}.</MaxPawnsPerRole>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualNeedsAtLeastOnePerson>You need at least one participant.</MessageRitualNeedsAtLeastOnePerson>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualNeedsAtLeastOneSpectator>You need at least one spectator.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualNeedsAtLeastOneRolePawn>You need a {0}.</MessageRitualNeedsAtLeastOneRolePawn>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualNeedsAtLeastNumRolePawn>You need at least {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnDowned>{0_labelShort} is downed.</MessageRitualPawnDowned>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} is currently escaping.</MessageRitualPawnPrisonerNotSecured>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnSlaveNotSecured>{0_labelShort} is currently rebelling.</MessageRitualPawnSlaveNotSecured>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnReleased>{0_labelShort} is being released.</MessageRitualPawnReleased>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnInjured>{0_labelShort} is injured.</MessageRitualPawnInjured>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleRequired>{0_labelShort} must hold one of these roles</MessageRitualRoleRequired>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBePrisoner>{0} must be a prisoner.</MessageRitualRoleMustBePrisoner>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeAnimal>{0} must be an animal.</MessageRitualRoleMustBeAnimal>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeHumanlike>{0} must be a human.</MessageRitualRoleMustBeHumanlike>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustHaveEyes>{0} must have eyes</MessageRitualRoleMustHaveEyes>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustRequireScarification>{0_labelShort} does not require further scarification.</MessageRitualRoleMustRequireScarification>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBePrisonerOrSlave>{0} must be a prisoner or slave.</MessageRitualRoleMustBePrisonerOrSlave>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} must be capable of fighting.</MessageRitualRoleMustBeCapableOfFighting>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleCannotReplaceRequiredPawn>this role cannot be played by someone else.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <!-- EN : spectate -->
+  <Spectate>assiste à</Spectate>
+  <!-- EN: Assign to {0} -->
+  <AssignToRole>Assigne à {0}</AssignToRole>
+  <!-- EN: {0} has begun. -->
+  <RitualBegun>{0} a commencé.</RitualBegun>
+  <!-- EN: The maximum number of {0}s is {1}. -->
+  <MaxPawnsPerRole>Le nombre maximum de {0} est {1}.</MaxPawnsPerRole>
+  <!-- EN: You need at least one participant. -->
+  <MessageRitualNeedsAtLeastOnePerson>Vous avez besoin d'au moins un participant.</MessageRitualNeedsAtLeastOnePerson>
+  <!-- EN: You need at least one spectator. -->
+  <MessageRitualNeedsAtLeastOneSpectator>Vous avez besoin d'au moins un spectateur.</MessageRitualNeedsAtLeastOneSpectator>
+  <!-- EN: You need a {0}. -->
+  <MessageRitualNeedsAtLeastOneRolePawn>Vous avez besoin de {0}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageRitualNeedsAtLeastNumRolePawn>Vous avez besoin d'au moins {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
+  <!-- EN: {0_labelShort} is downed. -->
+  <MessageRitualPawnDowned>{0_labelShort} est abattu{PAWN_gender ? : e}.</MessageRitualPawnDowned>
+  <!-- EN: {0_labelShort} is currently escaping. -->
+  <MessageRitualPawnPrisonerNotSecured>{0_labelShort} est en train de s'échapper.</MessageRitualPawnPrisonerNotSecured>
+  <!-- EN: {0_labelShort} is currently rebelling. -->
+  <MessageRitualPawnSlaveNotSecured>{0_labelShort} est en train de se rebeller.</MessageRitualPawnSlaveNotSecured>
+  <!-- EN: {0_labelShort} is being released. -->
+  <MessageRitualPawnReleased>{0_labelShort} est en train d'être libéré.</MessageRitualPawnReleased>
+  <!-- EN: {0_labelShort} is injured. -->
+  <MessageRitualPawnInjured>{0_labelShort} est blessé.</MessageRitualPawnInjured>
+  <!-- EN: {0_labelShort} must hold one of these roles -->
+  <MessageRitualRoleRequired>{0_labelShort} doit remplir un de ces rôles</MessageRitualRoleRequired>
+  <!-- EN: {0} must be a prisoner. -->
+  <MessageRitualRoleMustBePrisoner>{0} doit être un prisonnier.</MessageRitualRoleMustBePrisoner>
+  <!-- EN: {0} must be an animal -->
+  <MessageRitualRoleMustBeAnimal>{0} doit être un animal.</MessageRitualRoleMustBeAnimal>
+  <!-- EN: {0} must be a human -->
+  <MessageRitualRoleMustBeHumanlike>{0} doit être un humain.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} must have eyes -->
+  <MessageRitualRoleMustHaveEyes>{0} doit avoir des yeux</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0_labelShort} does not require further scarification -->
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} ne nécessite pas de scarification supplémentaire.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0} must be a prisoner or slave. -->
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} doit être un prisonnier ou un esclave.</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- EN: {0_labelShort} must be capable of fighting. -->
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} doit être capable de se battre.</MessageRitualRoleMustBeCapableOfFighting>
+  <!-- EN: this role cannot be played by someone else. -->
+  <MessageRitualRoleCannotReplaceRequiredPawn>ce rôle ne peut pas être rempli par quelqu'un d'autre.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- TODO: Traduction RW1.3 -->
   <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- TODO: Traduction RW1.3 -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} has the same ideoligion as the converter.</MessageRitualRolePawnHasSameIdeo>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} must be capable of wardening.</MessageRitualRoleMustBeCapableOfWardening>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} must be capable of {1}.</MessageRitualRoleMustBeCapableOfGeneric>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustNotBePrisonerToSpectate>prisoners cannot {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustHaveIdeoToSpectate>only {0} can {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustHaveIdeoToDoRole>only {0} can fill the role of {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualRoleMustBeColonist>must be colonist for the {0} role.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} must be capable of wardening. -->
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} doit être capable de gardiennage.</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- EN: {0} must be capable of {1}. -->
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} doit être capable de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: prisoners cannot {0}. -->
+  <MessageRitualRoleMustNotBePrisonerToSpectate>les prisonniers ne peuvent pas {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- EN: only {0} can {1}. -->
+  <MessageRitualRoleMustHaveIdeoToSpectate>seul {0} peut {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- EN: only {0} can fill the role of {1}. -->
+  <MessageRitualRoleMustHaveIdeoToDoRole>seul {0} peut remplir le rôle de {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- EN: must be colonist for the {0} role. -->
+  <MessageRitualRoleMustBeColonist>doit être coloniste pour le rôle {0}.</MessageRitualRoleMustBeColonist>
   <!-- TODO: Traduction RW1.3 -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} must have an animal with min body size of {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- TODO: Traduction RW1.3 -->
   <MessageRitualPawnMentalState>{0_labelShort} is in a mental state.</MessageRitualPawnMentalState>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} is already {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
-  <!-- TODO: Traduction RW1.3 -->
-  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} cannot take any other role than spectator.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <!-- EN: {0_labelShort} is already {1}. -->
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} est déjà {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} ne peut pas prendre un autre rôle que spectateur.</MessageRitualCannotAssignAnyRoleFromSpectating>
 
-  <!-- TODO: Traduction RW1.3 -->
-  <MessagePlayerMustSelectTile>You must select a site to continue.</MessagePlayerMustSelectTile>
+  <!-- EN: You must select a site to continue. -->
+  <MessagePlayerMustSelectTile>Vous devez choisir un site pour continuer.</MessagePlayerMustSelectTile>
 
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>Ne peut pas planter {0_labelShort}</CannotPlantThing>
