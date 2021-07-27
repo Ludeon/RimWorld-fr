@@ -1,5 +1,6 @@
 # RimWorld-fr
-French translation for RimWorld.
+French translation for RimWorld. ->
+[Discord](https://discord.gg/cJmKZpv)
 -
 -See this page for license info:
 -
