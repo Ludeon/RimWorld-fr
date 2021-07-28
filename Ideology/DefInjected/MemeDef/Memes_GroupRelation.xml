@@ -75,7 +75,7 @@
     <li>memeMoralist->expiateur</li>
   </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>coupabiliste</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>culpabilisant</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
   <Guilty.symbolPacks.0.ideoName>Coupabilisme</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
@@ -91,15 +91,15 @@
   <!-- EN: sin -->
   <Guilty.symbolPacks.1.theme>péché</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>hontiste</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>honteux</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
   <Guilty.symbolPacks.2.ideoName>Hontisme</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>honteux</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>hontiste</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
   <Guilty.symbolPacks.2.theme>honte</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>expiatiste</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>expiatique</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
   <Guilty.symbolPacks.3.ideoName>Expiatisme</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
@@ -140,31 +140,38 @@
     <li>memeConcept->promises</li>
     <li>memeMoralist->loyalizer</li>
   -->
-  <Loyalist.generalRules.rulesStrings>TODO</Loyalist.generalRules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+      <li>memeAdjective->loyal</li>
+    <li>memeAdjective->patriotique</li>
+    <li>memeAdjective->respectueux</li>
+    <li>memeConcept->famille</li>
+    <li>memeConcept->promesses</li>
+    <li>memeMoralist->fidèle</li>
+  </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
-  <Loyalist.symbolPacks.0.adjective>TODO</Loyalist.symbolPacks.0.adjective>
+  <Loyalist.symbolPacks.0.adjective>loyal</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
-  <Loyalist.symbolPacks.0.ideoName>TODO</Loyalist.symbolPacks.0.ideoName>
+  <Loyalist.symbolPacks.0.ideoName>Loyalisme</Loyalist.symbolPacks.0.ideoName>
   <!-- EN: loyalist -->
-  <Loyalist.symbolPacks.0.member>TODO</Loyalist.symbolPacks.0.member>
+  <Loyalist.symbolPacks.0.member>loyaliste</Loyalist.symbolPacks.0.member>
   <!-- EN: loyalty -->
-  <Loyalist.symbolPacks.0.theme>TODO</Loyalist.symbolPacks.0.theme>
+  <Loyalist.symbolPacks.0.theme>loyauté</Loyalist.symbolPacks.0.theme>
   <!-- EN: fealtist -->
-  <Loyalist.symbolPacks.1.adjective>TODO</Loyalist.symbolPacks.1.adjective>
+  <Loyalist.symbolPacks.1.adjective>fidèle</Loyalist.symbolPacks.1.adjective>
   <!-- EN: Fealtism -->
-  <Loyalist.symbolPacks.1.ideoName>TODO</Loyalist.symbolPacks.1.ideoName>
+  <Loyalist.symbolPacks.1.ideoName>Féalisme</Loyalist.symbolPacks.1.ideoName>
   <!-- EN: fealtor -->
-  <Loyalist.symbolPacks.1.member>TODO</Loyalist.symbolPacks.1.member>
+  <Loyalist.symbolPacks.1.member>féaliste</Loyalist.symbolPacks.1.member>
   <!-- EN: fealty -->
-  <Loyalist.symbolPacks.1.theme>TODO</Loyalist.symbolPacks.1.theme>
+  <Loyalist.symbolPacks.1.theme>fidélité</Loyalist.symbolPacks.1.theme>
   <!-- EN: fidelist -->
-  <Loyalist.symbolPacks.2.adjective>TODO</Loyalist.symbolPacks.2.adjective>
+  <Loyalist.symbolPacks.2.adjective>fidèle</Loyalist.symbolPacks.2.adjective>
   <!-- EN: Fidelism -->
-  <Loyalist.symbolPacks.2.ideoName>TODO</Loyalist.symbolPacks.2.ideoName>
+  <Loyalist.symbolPacks.2.ideoName>Fidélisme</Loyalist.symbolPacks.2.ideoName>
   <!-- EN: fidelor -->
-  <Loyalist.symbolPacks.2.member>TODO</Loyalist.symbolPacks.2.member>
+  <Loyalist.symbolPacks.2.member>fidèle</Loyalist.symbolPacks.2.member>
   <!-- EN: fidelity -->
-  <Loyalist.symbolPacks.2.theme>TODO</Loyalist.symbolPacks.2.theme>
+  <Loyalist.symbolPacks.2.theme>fidélité</Loyalist.symbolPacks.2.theme>
   
   <!-- EN: supremacist -->
   <Supremacist.label>suprémaciste</Supremacist.label>
@@ -212,24 +219,46 @@
     <li>memeLeaderNoun->conqueror</li>
     <li>memeLeaderNoun->victor</li>
   -->
-  <Supremacist.generalRules.rulesStrings>TODO</Supremacist.generalRules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+      <li>memeAdjective->suprême</li>
+    <li>memeAdjective->haut</li>
+    <li>memeAdjective->génial</li>
+    <li>memeAdjective->principal</li>
+    <li>memeAdjective->parfait</li>
+    <li>memeAdjective->premier</li>
+    <li>memeAdjective->fort</li>
+    <li>memeCreed->armée</li>
+    <li>memeCreed->légion</li>
+    <li>memeHyphenPrefix->super</li>
+    <li>memeConcept->guerre</li>
+    <li>memeConcept->violence</li>
+    <li>memeConcept->dominance</li>
+    <li>memeLeaderNoun->général</li>
+    <li>memeLeaderNoun->commandant</li>
+    <li>memeLeaderNoun->maréchal</li>
+    <li>memeLeaderNoun->gouverneur</li>
+    <li>memeLeaderNoun->dirigeant</li>
+    <li>memeLeaderNoun->dictateur</li>
+    <li>memeLeaderNoun->conquérant</li>
+    <li>memeLeaderNoun->vainqueur</li>
+  </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
-  <Supremacist.symbolPacks.0.adjective>TODO</Supremacist.symbolPacks.0.adjective>
+  <Supremacist.symbolPacks.0.adjective>dominant</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->
-  <Supremacist.symbolPacks.0.member>TODO</Supremacist.symbolPacks.0.member>
+  <Supremacist.symbolPacks.0.member>dominateur</Supremacist.symbolPacks.0.member>
   <!-- EN: dominance -->
-  <Supremacist.symbolPacks.0.theme>TODO</Supremacist.symbolPacks.0.theme>
+  <Supremacist.symbolPacks.0.theme>dominance</Supremacist.symbolPacks.0.theme>
   <!-- EN: victoryist -->
-  <Supremacist.symbolPacks.1.adjective>TODO</Supremacist.symbolPacks.1.adjective>
+  <Supremacist.symbolPacks.1.adjective>victorieux</Supremacist.symbolPacks.1.adjective>
   <!-- EN: victorist -->
-  <Supremacist.symbolPacks.1.member>TODO</Supremacist.symbolPacks.1.member>
+  <Supremacist.symbolPacks.1.member>vainqueur</Supremacist.symbolPacks.1.member>
   <!-- EN: victory -->
-  <Supremacist.symbolPacks.1.theme>TODO</Supremacist.symbolPacks.1.theme>
+  <Supremacist.symbolPacks.1.theme>victoire</Supremacist.symbolPacks.1.theme>
   <!-- EN: powerist -->
-  <Supremacist.symbolPacks.2.adjective>TODO</Supremacist.symbolPacks.2.adjective>
+  <Supremacist.symbolPacks.2.adjective>puissant</Supremacist.symbolPacks.2.adjective>
   <!-- EN: poweror -->
-  <Supremacist.symbolPacks.2.member>TODO</Supremacist.symbolPacks.2.member>
+  <Supremacist.symbolPacks.2.member>puissant</Supremacist.symbolPacks.2.member>
   <!-- EN: power -->
-  <Supremacist.symbolPacks.2.theme>TODO</Supremacist.symbolPacks.2.theme>
+  <Supremacist.symbolPacks.2.theme>puissance</Supremacist.symbolPacks.2.theme>
   
 </LanguageData>
