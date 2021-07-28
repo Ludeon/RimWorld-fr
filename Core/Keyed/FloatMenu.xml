@@ -35,8 +35,8 @@
   <IsIncapableOfViolenceLower>{1_labelShort} est incapable de commettre des actes violents</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>est incapable de commettre des actes violents</IncapableOfViolenceLower>
-  <!-- TODO: Traduction RW1.3 -->
-  <IsIncapableOfShootingLower>{0_labelShort} is incapable of shooting</IsIncapableOfShootingLower>
+  <!--EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>{0_labelShort} est incapable de tirer</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort} n'est pas enrôlé</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
@@ -57,8 +57,8 @@
   <NoPath>pas de chemin d'accès</NoPath>
   <!-- EN: burying -->
   <Burying>enfouissement</Burying>
-  <!-- TODO: Traduction RW1.3 -->
-  <DesignatedFor>designated for {0}</DesignatedFor>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>désigné pour {0}</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>interdit</ForbiddenLower>
@@ -82,8 +82,8 @@
   <UnderAllowedSkill>en dessous de la compétence autorisée {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>au dessus de la compétence autorisée {0}</AboveAllowedSkill>
-  <!-- TODO: Traduction RW1.3 -->
-  <NoReachableOutsideCell>no reachable outside cell</NoReachableOutsideCell>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>pas de cellule extérieure accessible</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>aptitudes trop faibles</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -110,8 +110,8 @@
   <CantRopeAnimalNoAllowedPens>no allowed pens</CantRopeAnimalNoAllowedPens>
   <!-- TODO: Traduction RW1.3 -->
   <CantRopeAnimalNoReachablePens>no reachable pens</CantRopeAnimalNoReachablePens>
-  <!-- TODO: Traduction RW1.3 -->
-  <CantRopeAnimalCantTouch>can't touch</CantRopeAnimalCantTouch>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>ne peut pas toucher</CantRopeAnimalCantTouch>
   <!-- TODO: Traduction RW1.3 -->
   <CantRopeAnimalNoSpace>no space in pen</CantRopeAnimalNoSpace>
   <!-- TODO: Traduction RW1.3 -->
@@ -160,8 +160,8 @@
   <UpgradeImplant>Mettre à niveau {0} au niveau {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violation de la faction alliée</SurgeryViolationFellowFactionMember>
-  <!-- TODO: Traduction RW1.3 -->
-  <BeingCarriedBy>being carried by {0_labelShort}</BeingCarriedBy>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>porté par {0_labelShort}</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consommer {1_labelShort}</ConsumeThing>
@@ -182,8 +182,8 @@
   <Capture>Capturer {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Capture impossible</CannotCapture>
-  <!-- TODO: Traduction RW1.3 -->
-  <ArrestChance>{0} chance of arrest</ArrestChance>
+  <!-- EN: {0} chance of arrest-->
+  <ArrestChance>Probabilité d'arrestation: {0}</ArrestChance>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Secourir {1_label}</Rescue>
@@ -204,8 +204,9 @@
   <CryptosleepCasketGuestsNotAllowed>Membres de faction temporaires non autorisés.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
   <CryptosleepCasketGuestPrisonersNotAllowed>Prisonniers hébergés non autorisés.</CryptosleepCasketGuestPrisonersNotAllowed>
-  <!-- TODO: Traduction RW1.3 -->
-  <CryptosleepCasketOccupied>Already occupied</CryptosleepCasketOccupied>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>Déjà occupé
+</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Aucun lit réservé aux prisonniers n'est disponible.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -316,10 +317,10 @@
   <CannotStrip>Ne peut pas déshabiller {1_label}</CannotStrip>
   <!-- EN: Cannot drop {1_label} -->
   <CannotDrop>Impossible de supprimer {1_label}</CannotDrop>
-  <!-- TODO: Traduction RW1.3 -->
-  <Carry>Carry {0_label}</Carry>
-  <!-- TODO: Traduction RW1.3 -->
-  <CannotCarry>Cannot carry {0_label}</CannotCarry>
+  <!-- EN: Carry {0_label} -->
+  <Carry>Porter {1}</Carry>
+  <!-- EN: Cannot carry {0_label} -->
+  <CannotCarry>Ne peut pas porter {0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>membre temporaire de la faction</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -327,10 +328,10 @@
   <!-- EN: would replace locked apparel -->
   <WouldReplaceLockedApparel>remplacerait les vêtements verrouillés</WouldReplaceLockedApparel>
   
-  <!-- TODO: Traduction RW1.3 -->
-  <CannotPlaceIn>Cannot place {0_label} in {1_label}</CannotPlaceIn>
-  <!-- TODO: Traduction RW1.3 -->
-  <PlaceIn>Place {0_label} in {1_label}</PlaceIn>
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>Impossible de placer {0_label} dans {1_label}</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label -->
+  <PlaceIn>Placer {0_label} dans {1_label}</PlaceIn>
   
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-détruire ici</SelfDestructHere>
@@ -411,8 +412,8 @@
   <CannotPrioritizeNotAssignedToWorkType>Ne peut pas prioriser : n'est pas affecté à {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>non affecté</NotAssigned>
-  <!-- TODO: Traduction RW1.3 -->
-  <NotAssignedToWorkType>not assigned to {0}</NotAssignedToWorkType>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>non affecté à {0}</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>Ne peut pas prioriser : la recherche est une tâche de longue durée</CannotPrioritizeResearch>
@@ -423,8 +424,8 @@
   <CannotPrioritizeCellForbidden>Ne peut pas prioriser : interdit</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>En dehors de la zone autorisée</CannotPrioritizeForbiddenOutsideAllowedArea>
-  <!-- TODO: Traduction RW1.3 -->
-  <CannotPrioritizeBurying>Cannot prioritize burying</CannotPrioritizeBurying>
+  <!-- EN: Cannot prioritize burying -->
+  <CannotPrioritizeBurying>Ne peut pas donner la priorité à l'enfouissement.</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
