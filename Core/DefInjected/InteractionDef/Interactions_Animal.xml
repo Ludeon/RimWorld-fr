@@ -179,8 +179,8 @@
     <li>tried->a essayé</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
   
-  <!-- TODO: Traduction RW1.3 -->
-  <ReleaseToWild.label>release to the wild</ReleaseToWild.label>
+  <!-- EN: release to the wild -->
+  <ReleaseToWild.label>relâcher dans la nature</ReleaseToWild.label>
   <!-- TODO: Traduction RW1.3 -->
   <!-- EN: 
     <li>r_logentry->[farewell] [released]</li>
@@ -200,17 +200,23 @@
   <ReleaseToWild.logRulesInitiator.rulesStrings>
     <li>r_logentry->[farewell] [released]</li>
 
-    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
-    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
-    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_objective] had with [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] a caressé gentiment [RECIPIENT_nameDef] pour une dernière fois</li>
+    <li>farewell->[INITIATOR_nameDef] a prononcé quelques mots chaleureux à l'égard de [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] a retiré le collier de [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] se remémore du bon temps qu'[INITIATOR_objective] a passé avec [RECIPIENT_nameDef]</li>
 
-    <li>released->and released [RECIPIENT_objective] to the wild.</li>
-    <li>released->and set [RECIPIENT_objective] free.</li>
-    <li>released->and sent [RECIPIENT_objective] off.</li>
-    <li>released->and let [RECIPIENT_objective] go.</li>
-    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
-    <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
+    <li>released(RECIPIENT_gender!=Female)->, puis l'a relâché dans la nature.</li>
+    <li>released(RECIPIENT_gender==Female)->, puis l'a relâchée dans la nature.</li>
+    <li>released(RECIPIENT_gender!=Female)->, puis l'a libéré.</li>
+    <li>released(RECIPIENT_gender==Female)->, puis l'a libérée.</li>
+    <li>released(RECIPIENT_gender!=Female)->, puis l'a chassé au loin.</li>
+    <li>released(RECIPIENT_gender==Female)->, puis l'a chassée au loin.</li>
+    <li>released(RECIPIENT_gender!=Female)->, puis l'a laissé partir.</li>
+    <li>released(RECIPIENT_gender==Female)->, puis l'a laissée partir.</li>
+    <li>released(RECIPIENT_gender!=Female)->, puis se retourne et le laisse quitter la colonie.</li>
+    <li>released(RECIPIENT_gender==Female)->, puis se retourne et la laisse quitter la colonie.</li>
+    <li>released(RECIPIENT_gender!=Female)->avant de le laisser partir vivre en liberté.</li>
+    <li>released(RECIPIENT_gender==Female)->avant de la laisser partir vivre en liberté.</li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
 
 </LanguageData>
