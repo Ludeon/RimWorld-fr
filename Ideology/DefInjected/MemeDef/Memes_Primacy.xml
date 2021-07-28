@@ -23,7 +23,25 @@
     <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], by observing humanity, the archotechs will finally understand their purpose, and lift confident humanity up to rule them.</li>
     <li>animistFact(tag=meme_HumanPrimacy)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
   -->
-  <HumanPrimacy.descriptionMaker.rules.rulesStrings>TODO</HumanPrimacy.descriptionMaker.rules.rulesStrings>
+  <HumanPrimacy.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_HumanPrimacy)        ->[deity0_name] a créé la nature et l'a donnée à l'homme en cadeau, pour servir l'homme et ses desseins pour toujours.</li>
+    <li>episode(uses=1,tag=meme_HumanPrimacy)  ->Les gens se sont battus avec les bêtes de la forêt, et [deity0_name] a vu leur lutte et leur a donné des armes pour contrôler la nature.</li>
+    <li>intro(tag=meme_HumanPrimacy)           ->Les premiers colons qui se sont écrasés sur [lieu_summary] [lieu_name] ont été attaqués par une meute de [Animal]. [deity0_name] est intervenu, tuant les bêtes et indiquant clairement sa préférence pour la race humaine.</li>
+    <li>conflict(tag=meme_HumanPrimacy)        ->Un [foeLeader] anti-humain a fait un édit donnant des droits égaux aux animaux et aux humains. [deity0_name] a pleuré alors que les [memberNamePlural] ont été contraints de céder leurs droits aux [Animal]s et [Animal]s.</li>
+    <li>founderJoin(tag=meme_HumanPrimacy)     ->Un [place_job] nommé [founderName] a fondé le désormais célèbre xeno-zoo sur [place_name]. [founder_pronoun] a utilisé des spectacles d'abattage d'animaux pour expliquer aux visiteurs le désir de [deity0_name] que l'humanité règne sur la nature.</li>
+    <li>victory(tag=meme_HumanPrimacy)         ->À cause des actions de [founderName], les [foeSoldiers] de [foeLeader] ont vu la vérité de [deity0_name]. Ils ont célébré leur humanité partagée avec les [memberNamePlural] et ont banni le [foeLeader] pour vivre dans le désert comme un animal.</li>
+    <li>setup(tag=meme_HumanPrimacy)           ->[founderName] a construit une colonie sur un monde verdoyant, étendant la domination de l'humanité sur chaque champ et forêt.</li>
+    <li>story(uses=1,tag=meme_HumanPrimacy)    ->Une fois, [founderName] a vu un chien grogner sur un garçon. [founder_pronoun] a ordonné que le chien soit tué sur place.</li>
+    <li>lessonIntro(tag=meme_HumanPrimacy)         ->J'ai visité une ferme bien gérée pleine d'animaux en bonne santé et de cultures florissantes. A côté se trouvait une forêt à l'état naturel, noueuse et vicieuse. Il était évident que</li>
+    <li>lesson(tag=meme_HumanPrimacy)              ->les êtres humains sont les seuls qui donne un sens à l'univers</li>
+    <li>lesson(tag=meme_HumanPrimacy)              ->la nature est une frénésie sans fin de destruction immorale, et les humains sont la solution</li>
+    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->Si le concours est la survie du plus fort, alors nous avons clairement gagné.</li>
+    <li>archistBasis(tag=meme_HumanPrimacy)    ->Les archotechs sont des machines d'une volonté et d'un pouvoir immenses, mais seule l'humanité pourrait les créer.</li>
+    <li>archistFact(tag=meme_HumanPrimacy)     ->Les humains sont les fabricants d'appareils, et les archotechs sont leurs appareils.</li>
+    <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], en observant l'humanité, les archotechs comprendront enfin leur objectif et élèveront une humanité confiante pour les gouverner.</li>
+    <li>animistFact(tag=meme_HumanPrimacy)     ->Les animaux de la nature sont des esprits d'esclaves et demandent à être mis en service.</li>
+
+  </HumanPrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->human</li>
     <li>memeAdjective->mortal</li>
@@ -37,7 +55,19 @@
     <li>memeLeaderNoun->person</li>
     <li>memeLeaderNoun->sapient</li>
   -->
-  <HumanPrimacy.generalRules.rulesStrings>TODO</HumanPrimacy.generalRules.rulesStrings>
+  <HumanPrimacy.generalRules.rulesStrings>
+      <li>memeAdjective->humain</li>
+    <li>memeAdjective->mortel</li>
+    <li>memeAdjective->hominidé</li>
+    <li>memeHyphenPrefix->anthro</li>
+    <li>memeConcept->humanité</li>
+    <li>memeConcept->humanité</li>
+    <li>memeLeaderNoun->humain</li>
+    <li>memeLeaderNoun->hominidé</li>
+    <li>memeLeaderNoun->mortel</li>
+    <li>memeLeaderNoun->personne</li>
+    <li>memeLeaderNoun->sage</li>
+  </HumanPrimacy.generalRules.rulesStrings>
   <!-- EN: humanitist -->
   <HumanPrimacy.symbolPacks.0.adjective>TODO</HumanPrimacy.symbolPacks.0.adjective>
   <!-- EN: Humanitism -->
@@ -86,7 +116,15 @@
     <li>memeCreed->meadow</li>
     <li>memeConcept->nature</li>
   -->
-  <NaturePrimacy.generalRules.rulesStrings>TODO</NaturePrimacy.generalRules.rulesStrings>
+  <NaturePrimacy.generalRules.rulesStrings>
+      <li>memeAdjective->naturel</li>
+    <li>memeAdjective->sauvage</li>
+    <li>memeAdjective->organique</li>
+    <li>memeCreed->tanière</li>
+    <li>memeCreed->jardin</li>
+    <li>memeCreed->prairie</li>
+    <li>memeConcept->nature</li>
+  </NaturePrimacy.generalRules.rulesStrings>
   <!-- EN: naturist -->
   <NaturePrimacy.symbolPacks.0.adjective>TODO</NaturePrimacy.symbolPacks.0.adjective>
   <!-- EN: Naturism -->
@@ -94,7 +132,7 @@
   <!-- EN: naturist -->
   <NaturePrimacy.symbolPacks.0.member>TODO</NaturePrimacy.symbolPacks.0.member>
   <!-- EN: nature -->
-  <NaturePrimacy.symbolPacks.0.theme>TODO</NaturePrimacy.symbolPacks.0.theme>
+  <NaturePrimacy.symbolPacks.0.theme>nature</NaturePrimacy.symbolPacks.0.theme>
   <!-- EN: earthist -->
   <NaturePrimacy.symbolPacks.1.adjective>TODO</NaturePrimacy.symbolPacks.1.adjective>
   <!-- EN: Earthism -->
@@ -102,7 +140,7 @@
   <!-- EN: earthist -->
   <NaturePrimacy.symbolPacks.1.member>TODO</NaturePrimacy.symbolPacks.1.member>
   <!-- EN: earth -->
-  <NaturePrimacy.symbolPacks.1.theme>TODO</NaturePrimacy.symbolPacks.1.theme>
+  <NaturePrimacy.symbolPacks.1.theme>terre</NaturePrimacy.symbolPacks.1.theme>
   <!-- EN: soilist -->
   <NaturePrimacy.symbolPacks.2.adjective>TODO</NaturePrimacy.symbolPacks.2.adjective>
   <!-- EN: Soilism -->
@@ -110,7 +148,7 @@
   <!-- EN: soilist -->
   <NaturePrimacy.symbolPacks.2.member>TODO</NaturePrimacy.symbolPacks.2.member>
   <!-- EN: soil -->
-  <NaturePrimacy.symbolPacks.2.theme>TODO</NaturePrimacy.symbolPacks.2.theme>
+  <NaturePrimacy.symbolPacks.2.theme>sol</NaturePrimacy.symbolPacks.2.theme>
   <!-- EN: lifeist -->
   <NaturePrimacy.symbolPacks.3.adjective>TODO</NaturePrimacy.symbolPacks.3.adjective>
   <!-- EN: Lifism -->
@@ -118,6 +156,6 @@
   <!-- EN: lifeist -->
   <NaturePrimacy.symbolPacks.3.member>TODO</NaturePrimacy.symbolPacks.3.member>
   <!-- EN: life -->
-  <NaturePrimacy.symbolPacks.3.theme>TODO</NaturePrimacy.symbolPacks.3.theme>
+  <NaturePrimacy.symbolPacks.3.theme>vie</NaturePrimacy.symbolPacks.3.theme>
   
 </LanguageData>
