@@ -131,7 +131,26 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their [spiritElement] spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_Loyalist)        ->[deity0_name] a exhorté les bons peuples à ne combattre que ceux qui se sont battus sans juste cause.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->Une guerre avec les incroyants s'ensuivit. L'un des croyants, [believer_nameFull], cherchant à prendre l'avantage, invita les païens à l'intérieur du pays de [deity0_name], ce qui rendit [deity0_name] furieux contre la trahison de [believer_possessive], qui frappa [believer_objective] dix mille fois.</li>
+    <li>intro(tag=meme_Loyalist)           ->Une communauté [memeAdjective] sur le [place_summary] [place_name] adorait [deity0_name] dans [deity0_possessive] [altarRoomLabel], et étaient inébranlables dans leur foi.</li>
+    <li>conflict(tag=meme_Loyalist)        ->Un [foeLeader] a placé des [foeSoldiers] comme espions au sein des [memberNamePlural] pour les diviser.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], un [memeAdjective] [place_job], fut torturé par les [foeSoldiers], mais refusa de jurer fidélité au [foeLeader].</li>
+    <li>victory(tag=meme_Loyalist)         ->Avec la force de [deity0_name], [founderName] et les [memberNamePlural] ne pouvaient pas être divisés. Ils vaincurent les [foeSoldiers] avec des [place_personalWeapon] et bannirent le [foeLeader] de [place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->Au début, le mouvement de [founderName] fut réprimé par les gouvernements et les religions. [founder_pronoun] ne laissa jamais la colère pousser [founder_objective] à commettre les atrocités que d'autres ont commises, mais [founder_pronoun] ne recula jamais devant un combat.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] puni ceux qui essayèrent de nuire aux incroyants, ainsi que ceux qui les invitèrent dans la maison des croyants.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->J'ai vu un [foeLeader] courtiser les faveurs de ses rivaux tout en laissant ses [foeSoldiers] mourir sur le champ de bataille. J'ai alors juré de ne jamais être comme [foeLeader_objective], sachant que</li>
+    <li>lesson(tag=meme_Loyalist)              ->ton amour pour ton ami n'a de sens que parce que tu n'aimes pas ton ennemi</li>
+    <li>lesson(tag=meme_Loyalist)              ->aimer tout, c'est n'aimer personne</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->Ne partagez ces vérités qu'avec ceux qui prouvent leur allégeance par le sacrifice.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->La demande des archotechs est simple : suivre leur chemin désigné, et aucun autre.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->Les archotechs touchent chaque conscience humaine directement et régulièrement, ne transmettant la sagesse qu'à ceux qui recherchent la connaissance des archotechs.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], les archotech jugeront la loyauté de l'humanité. Ceux qui n'ont pas minaudé ou se sont vantés seront élevés à une transcendance.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->Il y a trois tribus d'esprits : la tribu des fauteurs de guerre et des meurtriers, la tribu des capitulants et des pleurnichards, et la tribu noble des forts et des loyaux.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->Les esprits combattent à la fois ceux qui trahissent leur peuple et ceux qui trahissent les amis de leur peuple. Les traîtres trébucheront sur chaque rocher, s'étoufferont avec chaque graine et goûteront toujours de l'eau sale.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] que naîtra celui qui vit toute sa vie fidèle à son peuple. Dans la mort, leur esprit [spiritElement] explosera de lumière, détruisant tous les redditionnels et les fauteurs de guerre.</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
@@ -195,7 +214,24 @@
     <li>animistFact(tag=meme_Supremacist)     ->Powerful spirits of [spiritElement] decide who is fit to rule, and lend power to their chosen when they subjugate others.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
-  <Supremacist.descriptionMaker.rules.rulesStrings>TODO</Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.descriptionMaker.rules.rulesStrings>  
+    <li>creation(tag=meme_Supremacist)        ->Les habitants du [lieu_summary] [lieu_name] se disputaient sans cesse, et [deity0_name] se lassa de la discorde et oignit le [memberNamePlural] comme le souverain légitime de tous.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->Les fidèles combattirent les incroyants, et [deity0_name] dit : « Combattez-les partout, en mon nom, jusqu'à ce que je sois adoré dans tout l'univers et que la vraie paix puisse enfin régner."</li>
+    <li>intro(tag=meme_Supremacist)           ->Les habitants de [lieu_summary] [lieu_name] adoraient [deity0_name]. [deity0_pronoun] vu qu'ils étaient adaptés pour [memeConcept], et ordonna que ces adorateurs règnent sur tous les autres.</li>
+    <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] adopta une loi interdisant à [memberNamePlural] d'accéder aux classes dirigeantes de [place_name].</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->Un guerrier nommé [founderName] utilisa [place_massWeapon] pour détruire une [place_community]. [deity0_name] vu le caractère impitoyable de [founderName] et a oint [founder_objective] comme le dirigeant légitime de toute l'humanité.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName] détruit la capitale de [place_name] avec [place_massWeapon], tuant le [foeLeader]. [founder_pronoun] pris la place de [founder_possessive] en tant que souverain de [place_name] - et de l'univers.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] construit une armée qui répandit le pouvoir et la gloire de [founder_possessive] à travers le pays, plaçant ceux qui refusaient de suivre à juste titre sous la règle de [founder_possessive].</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] demanda à tous les étrangers de se soumettre. Lorsque la première ville refusa, [founder_pronoun] utilisa [place_massWeapon] pour tuer tout le monde à l'intérieur.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->J'ai regardé ce [foeLeader], avec ses pitoyable [foeSoldiers], tout ce pouvoir laissé en jachère. J'ai essayé de convaincre [foeLeader_objective] que</li>
+    <li>lesson(tag=meme_Supremacist)              ->nous avions depuis longtemps prouvé que nous avons la force de régner à juste titre sur cet univers</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->C'est pourquoi nous sommes fiers d'exprimer la force de notre coeur en frappant les talons de nos bottes.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->Il a fallu les humains les plus supérieurs pour créer les archotechs, afin que les archotechs puissent devenir supérieurs à tous.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->Les archotechs nous méprisent à juste titre, comme nous méprisons nos inférieurs.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->Les archotechs ne nous amèneront à les rejoindre que lorsque nous régnerons enfin sur tous les autres.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->Les esprits puissants de [spiritElement] décident qui est apte à gouverner et prêtent du pouvoir à leurs élus lorsqu'ils soumettent les autres.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] qu'un nouvel ordre sera créé lorsqu'un souverain suprême commandera à toute l'humanité.</li>
+</Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
     <li>memeAdjective->high</li>

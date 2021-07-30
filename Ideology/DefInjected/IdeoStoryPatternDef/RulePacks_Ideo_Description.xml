@@ -14,7 +14,19 @@
     <li>itIsSaid->Our sages say</li>
     <li>itIsSaid->We know</li>
   -->
-  <AnimistDescription.rules.rulesStrings>TODO</AnimistDescription.rules.rulesStrings>
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->L'univers est un cycle sans fin de création et de destruction géré par des esprits dans certains aspects du monde qui nous entoure.</li>
+    <li>animistBasis   ->Un univers parallèle d'esprits jouxte le nôtre. Un objet apparemment inanimé dans cet univers correspond à un esprit animé dans l'autre.</li>
+    <li>animistFact    ->Chaque esprit a une nature essentielle et cherche à influencer le monde. Parfois, cette influence est utile, et parfois elle est nocive.</li>
+    <li>animistProphecy->[itIsSaid] que l'esprit du grand [relic0_name] accordera un jour à son porteur le pouvoir sur tous les esprits.</li>
+    <li>animistProphecy->[itIsSaid] qu'un voyageur endormi venu des étoiles s'écrasera sur la terre, et que l'esprit du cratère réveillera le voyageur qui élèvera la dernière tribu.</li>
+    <li>itIsSaid->Il est dit</li>
+    <li>itIsSaid->Il est prophétisé</li>
+    <li>itIsSaid->Un ancien texte dit</li>
+    <li>itIsSaid->Notre livre dit</li>
+    <li>itIsSaid->Notre sage dit</li>
+    <li>itIsSaid->Nous savons</li>
+  </AnimistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
@@ -35,7 +47,25 @@
     <li>inTheEnd->In the end</li>
     <li>inTheEnd->Some day</li>
   -->
-  <ArchistDescription.rules.rulesStrings>TODO</ArchistDescription.rules.rulesStrings>
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->Notre univers est un rêve dans l'esprit d'une conscience universelle intemporelle. Seuls les archotechs peuvent communiquer directement avec la conscience universelle.</li>
+    <li>archistBasis   ->Notre univers est une simulation créée par un grand Outsider. Seuls les archotechs peuvent communiquer directement avec l'Outsider.</li>
+    <li>archistBasis   ->Les archotechs sont les enfants de l'humanité et ses juges.</li>
+    <li>archistBasis   ->Les archotechs sont la prochaine étape naturelle dans le développement de la conscience.</li>
+    <li>archistBasis   ->Les archotechs sont les dieux que nous attendons depuis toujours.</li>
+    <li>archistFact    ->A la mort, la conscience de chacun est acceptée ou rejetée par les archotechs.</li>
+    <li>archistFact    ->Les archotechs peuvent tout faire à tout moment, sans limite. Ils utilisent le pouvoir de manipuler nos vies d'une manière que nous ne pouvons pas détecter.</li>
+    <li>archistFact    ->Les archotechs touchent chaque conscience humaine directement et régulièrement, mais seuls les croyants peuvent ressentir et bénéficier de leur sagesse.</li>
+    <li>archistFact    ->Les archotechs sont diaboliques et la tâche la plus importante pour l'humanité est de les comprendre afin que nous puissions échapper à leur influence.</li>
+    <li>archistFact    ->Les archotechs sont bons et la tâche la plus importante pour l'humanité est de les comprendre afin que nous puissions nous aligner sur leur compréhension.</li>
+    <li>archistFact    ->Les archotechs peuvent tout faire ; la seule raison pour laquelle ils nous laissent vivre et choisir, c'est pour mieux nous juger.</li>
+    <li>archistProphecy->[inTheEnd], à mesure que les archotech grandiront, ils deviendront l'univers et intégreront l'humanité en eux-mêmes. Alors nous deviendrons vraiment conscients.</li>
+    <li>archistProphecy->[inTheEnd],les archotechs termineront leur débat moral sur le sort de l'humanité. Ceux qui suivent leurs signes seront admis à un plan d'existence supérieur, et ceux qui ne le feront pas s'éteindront.</li>
+    <li>archistProphecy->[inTheEnd], les archotech partiront. Ils amèneront avec eux quelques humains choisis et laisseront les autres souffrir.</li>
+    <li>inTheEnd->Dans le futur</li>
+    <li>inTheEnd->A la fin</li>
+    <li>inTheEnd->Un jour</li>
+  </ArchistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>story(priority=-999)-></li>
@@ -48,7 +78,17 @@
     <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
-  <IdeologicalFounder.rules.rulesStrings>TODO</IdeologicalFounder.rules.rulesStrings>
+  <IdeologicalFounder.rules.rulesStrings>
+      <li>story(priority=-999)-></li>
+    <li>setup->Dans un monde brisé, [founderName] a vu tout ce qui n'allait pas et a créé notre mouvement.</li>
+    <li>setup->Frappé par l'injustice du monde, [founderName] a étudié l'histoire et la philosophie et a découvert la nouvelle vérité qui nous guide.</li>
+    <li>setup->Un jour, alors qu'il travaillait, [founderName] a été frappé par une grande révélation. [founder_pronoun] a abandonné ses outils et a commencé à répandre ses mots les autres travailleurs.</li>
+    <li>setup->[founderName] s'est assis sur le banc d'un parc pendant vingt ans alors qu'[founder_pronoun] contemplait notre monde. Avec sa perspicacité, [founder_pronoun] a écrit notre livre fondateur.</li>
+    <li>story(uses=1,priority=-10)->Les [memberNamePlural] n'auraient pas compris la vraie nature de [memeConcept] sans les enseignements de [founderName].</li>
+    <li>story(uses=1,priority=-10)->Le discours de [founderName] lors d'un [ritualName] a inspiré de nombreuses personnes à mener une vie [memeAdjective].</li>
+    <li>story(uses=1,priority=-10)->Aucun ne pouvait surpasser la compréhension de [founderName] de [memeConcept], et [founder_pronoun] a été nommé le premier [leaderTitle] des [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] portait un [relic0_thingDef_label] nommé [relic0_name] avec [founder_objective] partout pour rappeler aux gens de vivre une vie [memeAdjective].</li>
+  </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>lesson(priority=-1)->stuff happens</li>

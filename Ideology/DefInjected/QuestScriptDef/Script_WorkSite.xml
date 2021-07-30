@@ -6,7 +6,11 @@
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
-  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>TODO</OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->Vous avez détecté un [siteLabel] pas loin, contrôlé par [faction_name].\n\nSi vous le souhaitez, vous pouvez attaquer le camp pour récupérer le butin ([loot]). [raidConsequences]\n\nLe camp repartira dans [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Si vous le faites, [faction_name] deviendra hostile.</li>
+    <li>raidConsequences(faction_temporary==true)->[faction_name] n'étant qu'un petit groupe indépendant, vous pouvez l'attaquer sans conséquence diplomatique.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>
