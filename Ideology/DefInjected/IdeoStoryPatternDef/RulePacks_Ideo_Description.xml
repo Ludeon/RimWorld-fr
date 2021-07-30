@@ -153,7 +153,70 @@
     <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
-  <IdeologicalLesson.rules.rulesStrings>TODO</IdeologicalLesson.rules.rulesStrings>
+  <IdeologicalLesson.rules.rulesStrings>
+  
+    <li>lesson(priority=-1)->stuff happens</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> par [founder_nameFull]</li>
+    <li>lessonAttribution->Lettre de [founder_nameFull] à [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull], de la keynote à [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], sur son lit de mort</li>
+    <li>lessonAttribution->[founder_nameFull], juste avant l'exécution</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] sur le [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] dans la [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective] [memeConcept]</li>
+    <li>attributionSource->Une vie [memeAdjectif]</li>
+    <li>attributionSource->Réflexions d'un [attributionJob]</li>
+    <li>attributionSource->Mémoire d'un [attributionJob]</li>
+    <li>attributionSource->Pensées d'un [attributionJob]</li>
+    <li>attributionSource->Vie d'un [attributionJob]</li>
+    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->Le [conferencePrefix] [memeConcept] [conferenceType]</li>
+    <li>memeConference(p=2)->Le [memeConcept] [conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix->Premier</li>
+    <li>conferencePrefix->Second</li>
+    <li>conferencePrefix->Troisième</li>
+    <li>conferencePrefix->Quatrième</li>
+    <li>conferencePrefix->Dernier</li>
+    <li>conferencePrefix->Ultime</li>
+    <li>conferencePrefix->Interplanétaire</li>
+    <li>conferencePrefix->Planétaire</li>
+    <li>conferencePrefix->Universel</li>
+    <li>conferenceType->Conférence</li>
+    <li>conferenceType->Assemblée</li>
+    <li>conferenceType->Réunion</li>
+    <li>conferenceType->Discussion</li>
+    <li>conferenceType->Forum</li>
+    <li>speech->Discours</li>
+    <li>speech->Adresse</li>
+    <li>lessonIntro->Une leçon a été la plus difficile à accepter pour mes disciples :</li>
+    <li>lessonIntro->Mon plus grand crime a été d'avoir mis si longtemps à comprendre que</li>
+    <li>lessonIntro->Ma lutte contre le [foeLeader] semblait sans fin. Mais ça m'a appris une chose :</li>
+    <li>lessonIntro->Même en étant enfant sur le [lieu_summary] [place_name], je savais que</li>
+    <li>lessonIntro->Lors d'un cours dans la [place_community], un élève a lancé un [thrownObject] et il m'a frappé à la tête. C'est alors que j'ai réalisé que</li>
+    <li>lessonIntro->Je dis cela non pas pour que vous puissiez vivre la vie que j'ai vécue, mais pour que vous puissiez apprendre les choses que j'ai apprises. C'est</li>
+    <li>lessonIntro->Une fois que le médecin a terminé son travail macabre, j'ai finalement su</li>
+    <li>lessonIntro->Au fur et à mesure que s'écoulait le [place_summary] [place_name], une chose devenait de plus en plus claire : que</li>
+    <li>lessonIntro->Avec le recul, j'aurais aimé m'en rendre compte plus tôt - que</li>
+    <li>lessonIntro->Ils semblaient tous tellement perdus. je leur ai dit que</li>
+    <li>lessonIntro->Ils ont pleuré pour être guidés. je leur ai montré que</li>
+    <li>thrownObject->livre</li>
+    <li>thrownObject->sandwiche</li>
+    <li>thrownObject->jouet [place_personalWeapon]</li>
+    <li>thrownObject->[Animal] en peluche</li>
+    <li>doctor_possessive->son</li>
+    <li>doctor_possessive->son</li>
+    <li>lessonReinforcement->Personne ne peut contester cela.</li>
+    <li>lessonReinforcement->Seuls les imbéciles pensent le contraire.</li>
+    <li>lessonReinforcement->Et comme nous le savons maintenant, cela allait bientôt devenir évident pour tout le monde.</li>
+    <li>lessonReinforcement->Tout ce qui s'est passé depuis a renforcé ce fait.</li>
+    <li>lessonReinforcement->C'est comme si c'était gravé directement dans mon esprit.</li>
+    <li>lessonReinforcement->C'est quelque chose que je n'oublierai jamais.</li>
+  </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
     <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
@@ -184,7 +247,35 @@
     <li>revelationObject->a glowing [Vegetable]</li>
     <li>revelationObject->an ancient [Weapon]</li>
   -->
-  <TheistFounder.rules.rulesStrings>TODO</TheistFounder.rules.rulesStrings>
+  <TheistFounder.rules.rulesStrings>
+      <li>intro->Les habitants de [place_summary] [place_name] vivaient sous la [memeAdjective] supervision de [deity0_name].</li>
+    <li>intro->Les habitants de  [place_summary] [place_name], à la fois [memberNamePlural] et d'autres, ont vécu en paix pendant de nombreuses années sous l'œil vigilant de [deity0_name].</li>
+    <li>intro->Le [deity0_type], [deity0_name], s'est révélé [deity0_objective] aux habitants de [place_name] afin qu'ils puissent comprendre [memeConcept], et les a guidés.</li>
+    <li>intro->[deity0_name] a guidé l'humanité jusqu'à [place_name] et l'a aidée à s'y installer.</li>
+    <li>intro->Sur le [place_summary] [place_name], pendant le [ritualName], les gens venaient au [altarName] au [altarRoomLabel] de [deity0_name] et priaient avec [memeConcept] dans leur cœur.</li>
+    <li>conflict->Un [foeLeader] est apparu et a menacé de détruire [deity0_name] [deity0_objective] en utilisant [place_massWeapon].</li>
+    <li>conflict->Un [foeLeader] et ses [foeSoldiers] diaboliques ont réduit en esclavage les adorateurs de [deity0_name].</li>
+    <li>conflict->Puis le [foeLeader] est venu. Ses [foeSoldiers] ont tué de nombreux adorateurs de [deity0_name] avec des [place_personalWeapon].</li>
+    <li>conflict->Un groupe de [foeSoldiers] s'est élevé sous la direction d'un terrible [foeLeader]. Ils ont piégé les [memberNamePlural] dans une seule [place_community].</li>
+    <li>conflict->Il y avait la paix, jusqu'à ce qu'un [foeLeader] et ses [foeSoldiers] se rebellent contre la domination de [deity0_name]. Les [memberNamePlural] ont été forcés de fuir vers une [place_community] cachée.</li>
+    <li>founderJoin->Un héros nommé [founderName] a tenté d'assassiner le [foeLeader]. [founder_pronoun] a échoué, mais [deity0_name] a été témoin de la lutte de [founderName] et a oint [founder_objective] en tant que prophète des [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] est venu au [place_job] [founderName] [revelationAdverb] et a parlé à [founder_objective] de [memeConcept].</li>
+    <li>founderJoin->[founderName] a rencontré [revelationObject], qui a parlé dans la voix de [deity0_name] à propos de [memeConcept].</li>
+    <li>founderJoin->Un renommé [place_job] nommé [founderName] a réuni les [memberNamePlural] et a même recruté certains des [foeSoldiers].</li>
+    <li>founderJoin-> Un [place_job] nommé [founderName] s'est levé et s'est prononcé contre le [foeLeader], et [deity0_name] a béni [founderName].</li>
+    <li>founderJoin->[deity0_name] a décidé de venir à [place_name] en tant qu'humain nommé [founderName] pour aider les [memberNamePlural].</li>
+    <li>founderJoin->Un héros nommé [founderName] a tué une centaine de [foeSoldiers] à l'aide d'une [place_personalWeapon], et [deity0_name] a guidé [founder_objective] en parlant à travers la [relic0_name].</li>
+    <li>victory->[founderName] a rassemblé les [memberNamePlural] dans une [place_community] et leur a enseigné la sagesse de [deity0_name].</li>
+    <li>victory->[founderName] s'est sacrifié [founder_objective] pour tuer personnellement le [foeLeader].</li>
+    <li>revelationAdverb->dans une vision</li>
+    <li>revelationAdverb->dans un rêve</li>
+    <li>revelationAdverb->dans un cauchemar</li>
+    <li>revelationAdverb->comme un [Animal]</li>
+    <li>revelationAdverb->comme un mendiant</li>
+    <li>revelationObject->un [NaturalObject] caché</li>
+    <li>revelationObject->un éclatant [Vegetable]</li>
+    <li>revelationObject->une ancienne [Weapon]</li>
+  </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>episode(priority=-1)-></li>
@@ -205,6 +296,24 @@
     <li>bodilyOrigin->stone</li>
     <li>bodilyOrigin->sweat</li>
   -->
-  <TheistMyth.rules.rulesStrings>TODO</TheistMyth.rules.rulesStrings>
+  <TheistMyth.rules.rulesStrings>
+      <li>episode(priority=-1)-></li>
+    <li>creation->Pendant une éternité, il y avait un monde [materialOrigin] [Color] , jusqu'à ce que [deity0_name] crée les planètes et les étoiles.</li>
+    <li>creation->Dans un vieil univers de conflits, [deity0_name] a attisé un grand feu qui a balayé le dernier âge et en a fait naître un nouveau.</li>
+    <li>creation->[deity0_name] a donné naissance à des humains dans un grand accident et les a regardés avec curiosité.</li>
+    <li>creation->L'univers était un vide. Ensuite, [deity0_name], ennuyé par l'éternité, a façonné l'homme et la femme [bodilyOrigin].</li>
+    <li>episode(uses=1)->En regardant l'humanité, [deity0_name] les a trouvés enfantins et a déclaré sa domination sur eux.</li>
+    <li>episode(uses=1)->À travers les vastes distances stellaires, la volonté de [deity0_name] a soutenu la vie de l'humanité contre le vide.</li>
+    <li>episode(uses=1)->Bien que de nombreux aventuriers se soient déplacés contre [deity0_objective], [deity0_name] les a facilement empêchés, car [deity0_pronoun] était [deity0_type].</li>
+    <li>episode(uses=1)->La souffrance de l'humanité a causé à [deity0_name] un terrible chagrin.</li>
+    <li>materialOrigin->d'argile</li>
+    <li>materialOrigin->de gaz</li>
+    <li>materialOrigin->d'eau</li>
+    <li>materialOrigin->d'espace</li>
+    <li>materialOrigin->de poussière</li>
+    <li>bodilyOrigin->d'argile</li>
+    <li>bodilyOrigin->de pierre</li>
+    <li>bodilyOrigin->d'eau</li>
+  </TheistMyth.rules.rulesStrings>
   
 </LanguageData>
