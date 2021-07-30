@@ -397,7 +397,7 @@
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Intervalle de décroissance de l'entraînement</TrainingDecayInterval>
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
-  <TamenessWillNotDecay>L'apprivoisement des animaux ne diminue jamais.</TamenessWillNotDecay>
+  <TamenessWillNotDecay>L'apprivoisement des animaux ne diminue jamais sur les animaux peu sauvage.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
   <TamenessWillNotDecayFenceBlocked>L'apprivoisement des animaux ne diminue jamais s'ils peuvent être gardés dans un enclos.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
@@ -471,6 +471,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Vengeance après une nuisance</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <!-- TODO: Texte anglais modifié -->
   <HarmedRevengeChanceExplanation>Probabilité que cette créature cherche à se venger d'être attaquée à distance.\n\nCette chance augmente si l'attaquant est plus proche. Si elle est attaquée à très courte distance, la chance est trois fois plus grande.\nCette chance est appliquée à chaque fois que des dégâts sont infligés, donc les armes les plus lentes sont moins susceptibles de le déclencher.\nPour minimiser les chances de vengeance d'une créature, attaquez-la à l'aide d'une arme à feu lente.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Vengeance - apprivoisement ratée</TameFailedRevengeChance>
@@ -746,6 +747,7 @@
   <!-- EN: None -->
   <TilesPerDayImmobileShort>Aucun</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
+  <!-- TODO: Texte anglais modifié -->
   <CaravanMovementSpeedTip>La vitesse de déplacement dépend de la vitesse moyenne de toutes les personnes et de tous les animaux, du poids transporté et de la difficulté de mouvement du terrain.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>Les animaux pourront brouter</AnimalsWillBeAbleToGraze>
@@ -1123,23 +1125,23 @@
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>Animal à abattre automatiquement.</AutoSlaugtherHeaderTooltipLabel>
   <!-- EN: The current number of animals in the colony, both male and female. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>Le nombre actuel d'animaux dans la colonie, mâles et femelles.\n\nLes animaux en gestation et immatures sont ignorés.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>Le nombre actuel d'animaux dans la colonie, mâles et femelles.</AutoSlaugtherHeaderTooltipCurrentTotal>
   <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>Le nombre maximal d'animaux dans la colonie, mâles et femelles.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.\n\nLes animaux en gestation et immatures sont ignorés.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>Le nombre maximal d'animaux dans la colonie, mâles et femelles.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.</AutoSlaugtherHeaderTooltipMaxTotal>
   <!-- EN: The current number of males of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>Le nombre actuel de mâles dans la colonie.\n\nLes animaux en gestation et immatures sont ignorés.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <AutoSlaugtherHeaderTooltipCurrentMales>Le nombre actuel de mâles en âge de se reproduire dans la colonie.</AutoSlaugtherHeaderTooltipCurrentMales>
   <!-- EN: The current number of baby and juvenile males in the colony. -->
   <AutoSlaughterHeaderTooltipCurrentMalesYoung>Le nombre actuel de bébés et de jeunes mâles dans la colonie.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
   <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>Le nombre maximal de mâles dans la colonie.\n\nLes dresseurs abattront automatiquement tout mâle supplémentaire.\n\nLes animaux immatures sont ignorés.</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaugtherHeaderTooltipMaxMales>Le nombre maximal de mâles en âge de se reproduire dans la colonie.\n\nLes dresseurs abattront automatiquement tout mâle supplémentaire.</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaughterHeaderTooltipMaxMalesYoung>Le nombre maximal de bébés et de jeunes mâles dans la colonie.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.</AutoSlaughterHeaderTooltipMaxMalesYoung>
   <!-- EN: The current number of females of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>Le nombre actuel de femelles dans la colonie.\n\nLes animaux en gestation et immatures sont ignorés.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <AutoSlaugtherHeaderTooltipCurrentFemales>Le nombre actuel de femelles en âge de se reproduire dans la colonie.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony -->
   <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>Le nombre actuel de bébés et de jeunes femelles dans la colonie.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>Le nombre maximal de femelles dans la colonie.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.\n\nLes animaux en gestation et immatures sont ignorés.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaugtherHeaderTooltipMaxFemales>Le nombre maximal de femelles dans la colonie.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaughterHeaderTooltipMaxFemalesYoung>Le nombre maximal de bébés et de jeunes femelles dans la colonie.\n\nLes dresseurs abattront automatiquement tout animal supplémentaire.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
