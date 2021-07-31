@@ -23,14 +23,14 @@
   <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>[INITIATOR_nameDef] a essayé de convertir [RECIPIENT_nameDef] à sa propre idéologion.</ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>échec du conseil</Counsel_Failure.label>
+  <Counsel_Failure.label>échec du réconfort</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
-  <Counsel_Failure.logRulesInitiator.rulesStrings>[INITIATOR_nameDef] a essayé de conseiller [RECIPIENT_nameDef], mais a raté sa tentative et a aggravé la situation.</Counsel_Failure.logRulesInitiator.rulesStrings>
+  <Counsel_Failure.logRulesInitiator.rulesStrings>[INITIATOR_nameDef] a essayé de réconforter [RECIPIENT_nameDef], mais a raté sa tentative et a aggravé la situation.</Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>réussite du conseil</Counsel_Success.label>
+  <Counsel_Success.label>réussite du réconfort</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -40,7 +40,15 @@
     <li>problems->[RECIPIENT_possessive] painful feelings</li>
     <li>problems->recent difficulties</li>
   -->
-  <Counsel_Success.logRulesInitiator.rulesStrings>TODO</Counsel_Success.logRulesInitiator.rulesStrings>
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+      <li>r_logentry->[INITIATOR_nameDef] a réconforté [RECIPIENT_nameDef] sur ses [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a aidé [RECIPIENT_nameDef] à passer outre [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a donné des conseils à [RECIPIENT_nameDef] pour surmonter la négativité.</li>
+    <li>problems->problèmes</li>
+    <li>problems->troubles</li>
+    <li>problems->sentiments douloureux</li>
+    <li>problems->difficultés récentes</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: preached health -->
   <PreachHealth.label>prêche de soin</PreachHealth.label>
@@ -50,14 +58,21 @@
     <li>preaching_topic->higher ideoligious goals</li>
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
-  <PreachHealth.logRulesInitiator.rulesStrings>TODO</PreachHealth.logRulesInitiator.rulesStrings>
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] renforcé la santé de [RECIPIENT_nameDef] en prêchant sur [preaching_topic].</li>
+    <li>preaching_topic->les raisons de vivre</li>
+    <li>preaching_topic->les objectifs idéologiques supérieurs</li>
+    <li>preaching_topic->le but de l'existence</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
   
   <!-- EN: reassurance -->
-  <Reassure.label>réconfort</Reassure.label>
+  <Reassure.label>réassurance</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings>TODO</Reassure.logRulesInitiator.rulesStrings>
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] a renforcé les convictions de [RECIPIENT_nameDef].</li>
+  </Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
   <Trial_Accuse.label>accusation</Trial_Accuse.label>
@@ -79,7 +94,24 @@
     <li>wrongdoing->hateful thinking</li>
     <li>wrongdoing->disloyalty</li>
   -->
-  <Trial_Accuse.logRulesInitiator.rulesStrings>TODO</Trial_Accuse.logRulesInitiator.rulesStrings>
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] a présenté des preuves.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a fait appel aux émotions des spectateurs.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a accusé [RECIPIENT_nameDef] [wrongdoing].</li>
+    <li>wrongdoing->de saboter la colonie</li>
+    <li>wrongdoing->d'être paresseux</li>
+    <li>wrongdoing->de trop manger</li>
+    <li>wrongdoing->de voler</li>
+    <li>wrongdoing->d'être une horrible personne</li>
+    <li>wrongdoing->de ne pas respecter les idées sacrées</li>
+    <li>wrongdoing->de manquer de respect à des personnalités respectées</li>
+    <li>wrongdoing->d'hérésie</li>
+    <li>wrongdoing->de meurtre</li>
+    <li>wrongdoing->de blasphème</li>
+    <li>wrongdoing->de trahison</li>
+    <li>wrongdoing->de pensées haineuses</li>
+    <li>wrongdoing->de déloyauté</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
   
   <!-- EN: defend -->
   <Trial_Defend.label>défense</Trial_Defend.label>
@@ -92,13 +124,23 @@
     <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
-  <Trial_Defend.logRulesInitiator.rulesStrings>TODO</Trial_Defend.logRulesInitiator.rulesStrings>
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] a détourné l'accusation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a présenté une autre interprétation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a plaidé face aux jurés.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a demandé miséricorde.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a bloqué la procédure.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a démenti les allégations.</li>
+    <li>r_logentry->[INITIATOR_nameDef] a dit que ce procès était une imposture.</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>TODO</WorkDrive.label>
+  <WorkDrive.label>encouragement au travail</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings>TODO</WorkDrive.logRulesInitiator.rulesStrings>
+  <WorkDrive.logRulesInitiator.rulesStrings>
+      <li>r_logentry->[INITIATOR_nameDef] a demandé à [RECIPIENT_nameDef] de travailler plus dur pour le bien de la colonie.</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>
