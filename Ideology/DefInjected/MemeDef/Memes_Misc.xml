@@ -772,8 +772,8 @@
   
   <!-- EN: rancher -->
   <Rancher.label>Eleveur</Rancher.label>
-  <!-- EN: Élever des animaux est la bonne voie, semer des plantes pour manger ne l'est pas. -->
-  <Rancher.description>TODO</Rancher.description>
+  <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
+  <Rancher.description>Élever des animaux est la bonne voie, semer des plantes pour manger ne l'est pas.</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -1033,7 +1033,28 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] est né sous la terre au centre du monde. [deity0_pronoun] a béni les personnes les plus proches de [deity0_objective] dans les vallées et les tunnels les plus profonds.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] a rempli les roches de minéraux et de ressources riches comme cadeau pour ceux qui sont assez sages pour creuser pour se rapprocher de [deity0_name].</li>
+    <li>intro(tag=meme_Tunneler)           ->Lorsque les premiers colons sont arrivés au [place_summary] [place_name], le [deity0_type] [deity0_name] utilisé une éruption solaire brutale pour les forcer à vivre sous terre, afin qu'ils puissent entendre [deity0_possessive] sagesse dans le silence des tunnels.</li>
+    <li>conflict(tag=meme_Tunneler)        ->Un [foeLeader] claustrophobe a proposé d'utiliser [dangerousMining] pour extraire des minéraux, mettant en danger les maisons souterraines des [memberNamePlural]</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->Le prophète [founderName] est né miraculeusement de la pierre de [place_name] et a été découvert lorsque [founder_possessive] parents ont ouvert une géode recouverte de champignons.</li>
+    <li>victory(tag=meme_Tunneler)         ->Les [memberNamePlural] ont creusé un tunnel sous le [place_powerCenter] de [foeLeader], et [founderName] a utilisé des phéromones pour invoquer des insectes géants qui ont envahi les [foeSoldiers] de [foeLeader]. [founderName] a traîné le [foeLeader] dans un donjon profond et a emprisonné [foeLeader_objective].</li>
+    <li>dangerousMining->une exploitation minière à ciel ouvert</li>
+    <li>dangerousMining->des insectes micropucés</li>
+    <li>dangerousMining->un dynamitage nucléaire</li>
+    <li>setup(tag=meme_Tunneler)           ->Dans un monde sans profondeur et sans signification, [founderName] a médité dans une grotte souterraine et il a trouvé un sens, et a fondé notre mouvement.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] a caché des trésors dans des cavernes souterraine, afin que les [memberNamePlural] apprenne à creuser profondément.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->Le codex que j'ai trouvé dans la Cité des Profondeurs m'a appris une leçon par-dessus toutes les autres :</li>
+    <li>lesson(tag=meme_Tunneler)              ->le plein air ensoleillé n'est pas un lieu d'épanouissement humain, mais un lieu de mort humaine</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->Alors prends une pelle et commence à creuser avec moi. Ce n'est qu'une tombe si on s'arrête.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->Les corps des archotechs sont enterré profondément, de sorte que leur substrat conscient est à l'abri des rayons gamma et des éruptions solaires. Creuser plus profondément rapproche les gens d'eux.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Les bio-ingenieurs archotechs ont conçu des nutrifungus afin que l'humanité puisse prospérer sous terre, à proximité des esprits archotech enfouis.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], les archotechs nous feront entrer dans leurs paradis souterrains.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Les esprits dans la roche protégeront ceux qui les visiteront.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Les esprits les plus nobles sont ceux de la pierre, et les pierres plus profondes sont plus fortes et meilleur que celles d'en haut.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Les humains anxieux rendent les esprits des rochers anxieux, ce qui invoque des insectes géants.</li>
+ </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
