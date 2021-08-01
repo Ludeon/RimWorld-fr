@@ -12,7 +12,7 @@
   -->
   <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderAdjective->haut</li>
     <li>cultureLeaderAdjective->premier</li>
@@ -48,9 +48,9 @@
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
   <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
-    <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
-    <li>r_leaderTitle(p=3)->[cultureLeaderAdjective] [memeLeaderNoun]</li>
-    <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
+    <li>r_leaderTitle(p=6)->[memeLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)->[memeLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderNoun] [memeLeaderAdjective]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   
@@ -79,7 +79,7 @@
     <li>cultureLeaderNoun->steersman</li>
   -->
   <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
-    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
     <li>cultureLeaderAdjective->premier</li>
     <li>cultureLeaderAdjective->premier</li>
     <li>cultureLeaderNoun->conseiller</li>
