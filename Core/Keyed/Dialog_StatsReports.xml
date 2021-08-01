@@ -84,8 +84,7 @@
   <!-- EN: Blocked by fences -->
   <StatsReport_BlockedByFences>Bloqué par des clôtures</StatsReport_BlockedByFences>
   <!-- EN: Roam interval -->
-  <!-- TODO: à revoir -->
-  <StatsReport_RoamInterval>Intervalle d'errance</StatsReport_RoamInterval>
+  <StatsReport_RoamInterval>Fréquence de fuite</StatsReport_RoamInterval>
   <!-- EN: Caravan rideable age -->
   <StatsReport_CaravanRideableAge>Âge limite de la caravane</StatsReport_CaravanRideableAge>
   <!-- EN: Life expectancy -->
@@ -183,8 +182,7 @@
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>La quantité de travail nécessaire pour la désinstallation.</Stat_Thing_WorkToUninstall_Desc>
   <!-- EN: Whether this building is a type of fence. Fences block these animals -->
-  <!-- TODO: à revoir -->
-  <Stat_Thing_Fence_Desc>Cette construction est un type de clotûre. Elle bloque ces animaux.</Stat_Thing_Fence_Desc>
+  <Stat_Thing_Fence_Desc>Cette construction est un type de clôture. Elle bloque ces animaux.</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>Liste des installations pouvant être utilisées pour produire ceci.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
@@ -196,8 +194,7 @@
   <!-- EN: Clothing (for nudity) -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Vêtements (pour la nudité)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
-  <!-- TODO: à revoir -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Les nudistes considéreront cet article comme un vêtement ou ils ne seront jamais gênés de le porter.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Les nudistes considèrent t-ils cet article comme un vêtement ? Si non, ils ne seront pas gênés de le porter.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Liste des parties du corps que cet objet couvre.\n\nUn vêtement ou une armure ne protège pas les parties du corps qu'il ne couvre pas.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -471,11 +468,9 @@
   <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
   <Stat_Animal_WoolAmountDesc>La quantité de laine produite par cette créature à chaque fois qu'elle est tondue.</Stat_Animal_WoolAmountDesc>
   <!-- EN: Wool shearing interval -->
-  <!-- TODO: alt = "Intervalle de tonte" -->
-  <Stat_Animal_WoolGrowthTime>Intervalle de tonte de laine</Stat_Animal_WoolGrowthTime>
+  <Stat_Animal_WoolGrowthTime>Intervalle de tonte</Stat_Animal_WoolGrowthTime>
   <!-- EN: The time after shearing before this creature can be shorn again. -->
-  <!-- TODO: à revoir ; alt = "Le temps entre deux tonte pour cette créature." -->
-  <Stat_Animal_WoolGrowthTimeDesc>Le temps écoulé entre la dernière tonte et le début de la prochaine tonte de cette créature.</Stat_Animal_WoolGrowthTimeDesc>
+  <Stat_Animal_WoolGrowthTimeDesc>Le temps nécessaire entre deux tontes pour cette créature.</Stat_Animal_WoolGrowthTimeDesc>
   <!-- EN: Wool amount per year -->
   <Stat_Animal_WoolPerYear>Quantité de laine par an</Stat_Animal_WoolPerYear>
   <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
