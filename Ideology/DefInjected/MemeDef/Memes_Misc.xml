@@ -861,7 +861,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] nous a accordé la connaissance de la technologie, afin que nous puissions l'utiliser pour nous améliorer et nous remodeler à son image.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->Les bio-ingénieurs humains ont étudié les travaux de [deity0_name], ce qui [deity0_objective] à plu.</li>
+    <li>intro(tag=meme_Transhumanist)           ->Sur le [place_summary] [place_name], les [memberNamePlural] ont trouvés les mots de [deity0_name] chuchotant à travers leurs machines.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->Un luddite [foeLeader] enviait les progrès accrus des [memberNamePlural]. [foeLeader_possessive] [foeSoldiers] ont détruit leurs ateliers avec des [place_personalWeapon].</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->Un [place_job] rusé nommé [founderName] a fabriqué un implant de capteur pour avertir les [memberNamePlural] de l'approche des [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] a reçu des connaissances technologiques divines de [deity0_name] et les a utilisées pour améliorer les corps et les esprits des [memberNamePlural] afin qu'ils puissent vaincre les [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] était un bio-scientifique aux premiers jours de la colonisation. Voyant les restrictions bureaucratiques des colonies communes, [founder_pronoun] a pris un petit bateau pour fonder son propre mouvement.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] a réuni une équipe de grands scientifiques et d'inventeurs pour redéfinir l'humanité.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->Le plus ancien chercheur de ma division m'a enseigné l'histoire de la technologie, du néolithique à l'archotech, mais ce n'était pas sa vraie leçon. Il m'a vraiment fait comprendre que</li>
+    <li>lesson(tag=meme_Transhumanist)              ->l'avenir céleste de l'humanité n'était pas une affaire de viande et d'os, mais de silicium et d'exochrome</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->J'ai même programmé une simulation pour le confirmer.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->La poursuite de la technologie par l'humanité a donné naissance aux tout-puissants archotechs comme la prochaine étape légitime dans le développement de la conscience.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->La technologie permet aux humains de ressembler davantage aux archotechs.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd], les archotechs partiront. Seuls ceux qui sont suffisamment augmentés seront autorisés à les accompagner.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->Le monde des esprits dirige chaque action dans l'univers, et ce n'est qu'en apprenant et en contrôlant les lois de l'univers que nous pouvons nous y intégrer.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Qui se ressemble s'assemble - construisez un appareil dans un but précis et il sera rempli d'un esprit de même nature.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Lorsque la technologie est fusionnée avec la chair, les esprits des deux sont combinés et deviennent plus puissants.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] qu'un jour, le porteur de [relic0_name] invoquera son esprit qui enseignera à l'humanité la technologie ultime de bio-fusion.</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -889,15 +908,41 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->technologique</li>
+    <li>memeAdjective->machine</li>
+    <li>memeAdjective->industriel</li>
+    <li>memeCreed->école</li>
+    <li>memeCreed->académie</li>
+    <li>memeCreed->université</li>
+    <li>memeCreed->philosophie</li>
+    <li>memeHyphenPrefix->techno</li>
+    <li>memeHyphenPrefix->cyber</li>
+    <li>memeHyphenPrefix->haxor</li>
+    <li>memeHyphenPrefix->câble</li>
+    <li>memeConcept->technologie</li>
+    <li>memeConcept->silicon</li>
+    <li>memeConcept->artifice</li>
+    <li>memeConcept->augmentation</li>
+    <li>memeConcept->renforcement</li>
+    <li>memeLeaderNoun->haxor</li>
+    <li>memeLeaderNoun->superutilisateur</li>
+    <li>memeLeaderNoun->booster</li>
+    <li>memeLeaderAdjective->techno</li>
+    <li>memeLeaderAdjective->cyber</li>
+    <li>memeMoralist->installateur</li>
+    <li>memeMoralist->fixateur</li>
+    <li>memeMoralist->élévateur</li>
+    <li>memeMoralist->technologiste</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>technologistique</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>TODO</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>Technologisme</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>TODO</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>technologiste</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
-  <Transhumanist.symbolPacks.0.theme>TODO</Transhumanist.symbolPacks.0.theme>
+  <Transhumanist.symbolPacks.0.theme>technologie</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
   <Transhumanist.symbolPacks.1.adjective>progressiste</Transhumanist.symbolPacks.1.adjective>
   <!-- EN: Progressism -->
@@ -907,37 +952,37 @@
   <!-- EN: progress -->
   <Transhumanist.symbolPacks.1.theme>progrès</Transhumanist.symbolPacks.1.theme>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.adjective>TODO</Transhumanist.symbolPacks.2.adjective>
+  <Transhumanist.symbolPacks.2.adjective>machiniste</Transhumanist.symbolPacks.2.adjective>
   <!-- EN: Machinism -->
-  <Transhumanist.symbolPacks.2.ideoName>TODO</Transhumanist.symbolPacks.2.ideoName>
+  <Transhumanist.symbolPacks.2.ideoName>Machinisme</Transhumanist.symbolPacks.2.ideoName>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.member>TODO</Transhumanist.symbolPacks.2.member>
+  <Transhumanist.symbolPacks.2.member>machiniste</Transhumanist.symbolPacks.2.member>
   <!-- EN: machinery -->
-  <Transhumanist.symbolPacks.2.theme>TODO</Transhumanist.symbolPacks.2.theme>
+  <Transhumanist.symbolPacks.2.theme>machinerie</Transhumanist.symbolPacks.2.theme>
   <!-- EN: steelist -->
-  <Transhumanist.symbolPacks.3.adjective>TODO</Transhumanist.symbolPacks.3.adjective>
+  <Transhumanist.symbolPacks.3.adjective>sidérurgique</Transhumanist.symbolPacks.3.adjective>
   <!-- EN: Steelism -->
-  <Transhumanist.symbolPacks.3.ideoName>TODO</Transhumanist.symbolPacks.3.ideoName>
+  <Transhumanist.symbolPacks.3.ideoName>sidérurgisme</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>TODO</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>sidérurgiste</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
-  <Transhumanist.symbolPacks.3.theme>TODO</Transhumanist.symbolPacks.3.theme>
+  <Transhumanist.symbolPacks.3.theme>sidérurgie</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
-  <Transhumanist.symbolPacks.4.adjective>TODO</Transhumanist.symbolPacks.4.adjective>
+  <Transhumanist.symbolPacks.4.adjective>automatique</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>TODO</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>Automatisme</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>TODO</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>automatiste</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>TODO</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>automates</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>TODO</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>augmentiste</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>TODO</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>Augmentisme</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>TODO</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>augmentateur</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>TODO</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>augmentation</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
   <TreeConnection.label>connexion aux arbres</TreeConnection.label>
