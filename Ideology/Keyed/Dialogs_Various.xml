@@ -26,9 +26,12 @@
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} et {1_label} sont incompatibles.</IncompatibleMemes>
 
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
+  
   <!-- EN: Room requirements -->
   <RoomRequirements>Exigences de la pièce</RoomRequirements>
-
+  
   <!-- EN: role -->
   <Role>rôle</Role>
   <!-- EN: Assign role -->
@@ -67,8 +70,10 @@
   <YourLeaderTradeBonus>Bonus de chef</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
   <CannotNotAddRoleApparelDueToMeme>Le mème {MEME} empêche d'ajouter des exigences vestimentaires aux rôles.</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>TODO</CannotBeWornWith>
 
- <!-- EN: Certainty reduction -->
+  <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Réduction de la croyance</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
   <AbilityIdeoConvertBreakdownUsingAbility>Utilise la capacité {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
@@ -94,7 +99,7 @@
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} a déjà été conseillé récemment.</AbilityCantApplyAlreadyCounselled>
 
- <!-- Slavery -->
+  <!-- Slavery -->
   <!-- EN: Slave -->
   <CannotAssignBedToSlave>Esclave</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
@@ -121,7 +126,7 @@
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
   <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Vous devez affecter au moins un colon qui n'est pas un esclave en capacité de marcher.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
-<!-- Style -->
+  <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>Style</StylePawn>
   <!-- EN: Cancel -->
@@ -146,8 +151,12 @@
   <PawnUnhappyWithStyleItems>{PAWN_nameDef} ne sera pas satisfait à cause de ce qui suit</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescription>Les catégories de style affectent l'apparence de certains bâtiments, vêtements et armes fabriqués par {IDEO_memberNamePlural}. Si plus d'une catégorie affecte la même chose, la plus à gauche s'applique.</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} sera ravi s'il remarque des bâtiments, des sols et des œuvres d'art correspondant à ce style.</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} influence la catégorie de style</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -186,6 +195,8 @@
   <CollapseAllCategories>Réduire</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>Réinitialise tous les éléments de style à leurs valeurs par défaut.</ResetButtonDesc>
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>TODO</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -242,4 +253,5 @@
 
   <!-- EN: Relics -->
   <RelicsSection>Reliques</RelicsSection>
+
 </LanguageData>

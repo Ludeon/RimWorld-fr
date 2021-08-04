@@ -79,7 +79,7 @@
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
   <IdeologicalFounder.rules.rulesStrings>
-      <li>story(priority=-999)-></li>
+    <li>story(priority=-999)-></li>
     <li>setup->Dans un monde brisé, [founderName] a vu tout ce qui n'allait pas et a créé notre mouvement.</li>
     <li>setup->Frappé par l'injustice du monde, [founderName] a étudié l'histoire et la philosophie et a découvert la nouvelle vérité qui nous guide.</li>
     <li>setup->Un jour, alors qu'il travaillait, [founderName] a été frappé d'une grande révélation. [founder_pronoun] a lâché ses outils et a commencé à répandre la bonne parole auprès des autres travailleurs.</li>
@@ -154,11 +154,10 @@
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
   <IdeologicalLesson.rules.rulesStrings>
-  
     <li>lesson(priority=-1)->stuff happens</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> par [founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase] par [founder_nameFull]</li>
     <li>lessonAttribution->Lettre de [founder_nameFull] à [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], de la keynote à [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull], sur son lit de mort</li>
@@ -248,7 +247,7 @@
     <li>revelationObject->an ancient [Weapon]</li>
   -->
   <TheistFounder.rules.rulesStrings>
-      <li>intro->Les habitants de [place_summary] [place_name] vivaient sous la [memeAdjective] supervision de [deity0_name].</li>
+    <li>intro->Les habitants de [place_summary] [place_name] vivaient sous la [memeAdjective] supervision de [deity0_name].</li>
     <li>intro->Les habitants de  [place_summary] [place_name], à la fois [memberNamePlural] et d'autres, ont vécu en paix pendant de nombreuses années sous l'œil vigilant de [deity0_name].</li>
     <li>intro->Le [deity0_type], [deity0_name], s'est révélé [deity0_objective] aux habitants de [place_name] afin qu'ils puissent comprendre [memeConcept], et les a guidés.</li>
     <li>intro->[deity0_name] a guidé l'humanité jusqu'à [place_name] et l'a aidée à s'y installer.</li>
@@ -297,7 +296,7 @@
     <li>bodilyOrigin->sweat</li>
   -->
   <TheistMyth.rules.rulesStrings>
-      <li>episode(priority=-1)-></li>
+    <li>episode(priority=-1)-></li>
     <li>creation->Pendant une éternité, il y avait un monde [materialOrigin] [Color] , jusqu'à ce que [deity0_name] crée les planètes et les étoiles.</li>
     <li>creation->Dans un vieil univers de conflits, [deity0_name] a attisé un grand feu qui a balayé le dernier âge et en a fait naître un nouveau.</li>
     <li>creation->[deity0_name] a donné naissance à des humains dans un grand accident et les a regardés avec curiosité.</li>

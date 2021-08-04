@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>L'idéologion l'interdit</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
@@ -17,6 +17,8 @@
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} ne peut pas être {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} doit être un {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>Pas assez d'espace. Il doit y avoir un rayon de {MINRADIUS} cases libres.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
@@ -56,10 +58,18 @@
   <MaxPreceptCount>maximum {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
   <SetTargetGender>Définir le sexe</SetTargetGender>
-  <!-- EN: incompatible -->
-  <FactionOrIdeoIncompatible>incompatible</FactionOrIdeoIncompatible>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>TODO</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>TODO</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>TODO</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>TODO</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>ne peut pas être porté avec les vêtements attribués</BodyPartAlreadyCovered>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>TODO</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Les gens sont heureux lorsque leurs exigences vestimentaires sont remplies et mécontents lorsqu'elles sont violées.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -122,11 +132,16 @@
   <EnterBiosculpterPod>Entrez dans la capsule de biosculptage</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Biologiquement à l'écoute de quelqu'un d'autre.</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>TODO</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
   <CarryToBiosculpterPod>Transportez {PAWN_label} dans la capsule de biosculptage ({CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>Ne peux pas transporter dans la capsule de biosculptage</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Pas de capsule de biosculptage disponible.</NoBiosculpterPod>
+
+  <!-- TODO: UNUSED -->
+  <FactionOrIdeoIncompatible>incompatible</FactionOrIdeoIncompatible>
 
 </LanguageData>

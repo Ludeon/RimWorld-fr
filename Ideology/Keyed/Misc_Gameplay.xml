@@ -1,14 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Choose your faction's ideoligion -->
-  <ChooseIdeoligion>Choisissez l'idéoligion de votre faction</ChooseIdeoligion>
+  <!-- EN: Customize ideoligion -->
+  <CustomizeIdeoligion>TODO</CustomizeIdeoligion>
+  <!-- EN: Choose your ideoligion -->
+  <ChooseYourIdeoligion>TODO</ChooseYourIdeoligion>
+  <!-- EN: Random -->
+  <Random>TODO</Random>
+  <!-- EN: A random structure will be used for your ideoligion. -->
+  <RandomStructureTip>TODO</RandomStructureTip>
+  <!-- EN: A random style will be used for your ideoligion. -->
+  <RandomStyleTip>TODO</RandomStyleTip>
+  <!-- EN: Customize -->
+  <Customize>TODO</Customize>
+  <!-- EN: Play classic -->
+  <PlayClassic>TODO</PlayClassic>
+  <!-- EN: Load saved -->
+  <LoadSaved>TODO</LoadSaved>
+  <!-- EN: Structure -->
+  <Structure>TODO</Structure>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>TODO</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Créer une personalisée</CreateCustom>
   <!-- EN: Create new -->
   <CreateNew>Créer une nouvelle</CreateNew>
+  <!-- EN: Load existing -->
+  <LoadExisting>TODO</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>Créer une idéoligion personnalisée</CreateCustomIdeoligion>
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>TODO</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>Choisissez une idéoligion pour votre faction à gauche, ou</SelectAnIdeo>
   <!-- EN: ideoligion -->
@@ -75,18 +97,39 @@
   <FavoriteColorTooltip>La couleur préférée de {PAWN_labelShort}. Avoir plus de {PERCENTAGE} de ses vêtements dans cette couleur, ou dans la couleur de son idéologion, rendra {PAWN_labelShort} légèrement plus heureu{PAWN_gender ? x : se}.\n\nVous pouvez modifier les couleurs des vêtements à la station de coiffage à l'aide de teintures tinctoria.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Définir la couleur de l'idéologion</SetIdeoColor>
-  <!-- EN: Set favorite color -->
+  <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Définir la couleur favorite</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configurer l'idéoligion de votre faction</ConfigureIdeoligion>
-  <!-- EN: Not enough dye. The colonist will recolor the apparel when dye becomes available. -->
+  <!-- EN: Not enough dye. -->
   <NotEnoughDye>Pas assez de teinture. Le colon recolorera les vêtements lorsque la teinture sera disponible.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>TODO</ApparelLockedCannotRecolor>
+  <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
+  <NotEnoughDyeWillRecolorApparel>TODO</NotEnoughDyeWillRecolorApparel>
+  <!-- EN: The colonist will recolor their hair when dye becomes available. -->
+  <NotEnoughDyeWillRecolorHair>TODO</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>La croyance de {PAWN_labelShort} dans {IDEO} est de {PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
   <DisabledByPrecept>Désactivé par le précepte {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>Tout le monde</Everyone>
+  <!-- EN: Narrative -->
+  <Narrative>TODO</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>TODO</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>TODO</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>TODO</PreceptNameLower>
+  <!-- EN: Changing -->
+  <Changing>TODO</Changing>
+  <!-- EN: structures -->
+  <StructuresLower>TODO</StructuresLower>
+  <!-- EN: memes -->
+  <MemesLower>TODO</MemesLower>
+  
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Une tombe contenant le cadavre de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -124,6 +167,8 @@
   <RitualTargetUnconnectedGaruanlenTreeInfo>Un arbre Gauranlen non connecté.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Déjà connecté à {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>TODO</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Vous avez besoin de {0} bois pour chaque participant ({2} au total). Vous avez {1} bois.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
@@ -141,7 +186,7 @@
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Toutes les personnes participant au rituel ont gagné un bonus de concentration qui durera une journée ({PERCENTAGE} vitesse de travail globale) !</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Grâce à un rituel aveuglant satisfaisant, {PAWN_labelShort} a atteint un niveau de lien psychique !</RitualOutcomeExtraDesc_BlindingPsylink>
-  <!-- EN: With a new psylink level {PAWN_pronoun} gained a {0} psycast. -->
+  <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
   <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Avec un nouveau niveau de lien psy, {PAWN_pronoun} a obtenu un {0} psycast</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>Grâce à un {RITUAL} satisfaisant, {PAWN_labelShort} a gagné {INSPIRATION} !</RitualOutcomeExtraDesc_ConsumableInspiration>
@@ -463,8 +508,8 @@
 
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>Affectez des colons à votre idéologion</AssignColonists>
-  <!-- EN: Delete new ideoligion -->
-  <DeleteNewIdeoligion>Supprimer la nouvelle idéologion</DeleteNewIdeoligion>
+  <!-- EN: Remove new ideoligion -->
+  <RemoveNewIdeoligion>TODO</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideologion -->
   <MakeIdeoligionPrimary>Faites-en votre idéologion principale</MakeIdeoligionPrimary>
 
@@ -517,6 +562,8 @@
   <BiosculpterInteruptCycle>Interrompre le cycle</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompre le cycle en cours. L'occupant sera éjecté sans bénéficier des effets du cycle, et souffrira de la maladie du biosculptage de courte durée.</BiosculpterInteruptCycleDesc>
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>TODO</BiosculpterUnderageAgeReversalMessage>
   <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
   <BiosculpterLoadingStartedMessage>Une fois que la capsule de biosculptage est remplie de {NUTRITION}, sélectionnez un colon et faites un clic droit sur la capsule ou sur une personne abattue pour démarrer le cycle.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -531,5 +578,9 @@
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} a terminé le cycle de plaisir.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Facteur de vitesse de propreté</BiosculpterCleanlinessSpeedFactor>
+
+  <!-- TODO: UNUSED -->
+  <ChooseIdeoligion>Choisissez l'idéoligion de votre faction</ChooseIdeoligion>
+  <DeleteNewIdeoligion>Supprimer la nouvelle idéologion</DeleteNewIdeoligion>
 
 </LanguageData>
