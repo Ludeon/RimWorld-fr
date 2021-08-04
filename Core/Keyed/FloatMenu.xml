@@ -35,7 +35,7 @@
   <IsIncapableOfViolenceLower>{1_labelShort} est incapable de commettre des actes violents</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>est incapable de commettre des actes violents</IncapableOfViolenceLower>
-  <!--EN: {0_labelShort} is incapable of shooting -->
+  <!-- EN: {0_labelShort} is incapable of shooting -->
   <IsIncapableOfShootingLower>{0_labelShort} est incapable de tirer</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort} n'est pas enrôlé</IsNotDraftedLower>
@@ -177,13 +177,13 @@
   <TryToArrest>Essayer d'arrêter {1_label} ({2} de chances)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Arrestation impossible</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>Probabilité d'arrestation: {0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>Capturer {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Capture impossible</CannotCapture>
-  <!-- EN: {0} chance of arrest-->
-  <ArrestChance>Probabilité d'arrestation: {0}</ArrestChance>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Secourir {1_label}</Rescue>
@@ -205,8 +205,7 @@
   <!-- EN: Hosted prisoners not allowed. -->
   <CryptosleepCasketGuestPrisonersNotAllowed>Prisonniers hébergés non autorisés.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
-  <CryptosleepCasketOccupied>Déjà occupé
-</CryptosleepCasketOccupied>
+  <CryptosleepCasketOccupied>Déjà occupé\n</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Aucun lit réservé aux prisonniers n'est disponible.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -327,12 +326,12 @@
   <QuestRelated_Outfit>Impossible de changer de tenue sur les membres temporaires de la faction</QuestRelated_Outfit>
   <!-- EN: would replace locked apparel -->
   <WouldReplaceLockedApparel>remplacerait les vêtements verrouillés</WouldReplaceLockedApparel>
-  
+
   <!-- EN: Cannot place {0_label} in {1_label} -->
   <CannotPlaceIn>Impossible de placer {0_label} dans {1_label}</CannotPlaceIn>
-  <!-- EN: Place {0_label} in {1_label -->
+  <!-- EN: Place {0_label} in {1_label} -->
   <PlaceIn>Placer {0_label} dans {1_label}</PlaceIn>
-  
+
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-détruire ici</SelfDestructHere>
   
@@ -488,7 +487,7 @@
 
   <!-- EN: Too dangerous -->
   <EnterCooldownBlocksEntering>Trop dangereux</EnterCooldownBlocksEntering>
-  
+
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
   <NoCommsTarget>Personne à appeler</NoCommsTarget>
@@ -499,7 +498,7 @@
   <CannotInvoke>Ne peut pas invoquer {0}</CannotInvoke>
   <!-- EN: power -->
   <Power>puissance</Power>
-  <!-- EN: >already invoked -->
+  <!-- EN: already invoked -->
   <AlreadyInvoked>Déjà invoqué</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
@@ -515,5 +514,5 @@
   <RepairThing>Réparer {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Ne peut pas réparer {0}</CannotRepair>
-
+  
 </LanguageData>

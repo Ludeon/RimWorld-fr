@@ -436,23 +436,18 @@
   <Difficulty_AllowMortars_Info>Le joueur peut construire des mortiers.\n\nVous pouvez toujours utiliser des mortiers capturés même si cela est désactivé.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
   <Difficulty_ClassicMortars_Label>Mortiers classique</Difficulty_ClassicMortars_Label>
-  <!-- TODO: à revoir -->
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
   <Difficulty_ClassicMortars_Info>Les mortiers ne nécessiteront pas de canons renforcé pour être construits ou rechargés et sont équilibrés pour cette facilité d'accès.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Adaptation</DifficultyAdaptationSection>
   <!-- EN: Adaptation growth rate -->
-  <!-- TODO: Texte anglais modifié -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Croissance de l'adaptation aux dommages</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <!-- TODO: Texte anglais modifié -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Info>L'adaptation signifie que le narrateur rend le jeu plus difficile au fil du temps tant que vous ne subissez pas de pertes. Ceci est distinct des effets de l'histoire sur la richesse et sur la population.\n\nCela ajuste le taux de progression de ce défi.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
-  <!-- TODO: Texte anglais modifié -->
   <Difficulty_AdaptationEffectFactor_Label>Effet de l'adaptation aux dommages</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <!-- TODO: Texte anglais modifié -->
   <Difficulty_AdaptationEffectFactor_Info>L'adaptation signifie que le narrateur rend le jeu plus difficile au fil du temps tant que vous ne subissez pas de pertes. Ceci est distinct des effets de l'histoire sur la richesse et sur la population.\n\nCela ajuste l'effet de cette valeur d'adaptation sur les menaces réelles.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Mode de progression fixe</Difficulty_FixedWealthMode_Label>
@@ -462,6 +457,13 @@
   <Difficulty_FixedWealthTimeFactor_Label>Délais en années avant la menace maximale</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
   <Difficulty_FixedWealthTimeFactor_Info>Le nombre d'années de jeu avant que celui-ci n'atteigne son niveau de menace maximal indépendamment de la richesse.\n\nNotez que le narrateur continuera à mettre à l'échelle les menaces en fonction du nombre de colons et de divers autres facteurs.</Difficulty_FixedWealthTimeFactor_Info>
+
+  <!-- EN: Ideology -->
+  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <!-- EN: Low pop conversion boost -->
+  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -608,7 +610,7 @@
   <StartingPawnsLeftBehind>Laissés en arrière</StartingPawnsLeftBehind>
   <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
   <GuiltyDesc>Ce colon est considéré comme coupable. Vous pouvez délibérément le bannir, l'exécuter ou l'arrêter et les autres ne seront pas dérangés.\n\nLe sentiment de culpabilité expire dans</GuiltyDesc>
-
+  
   <!-- Misc -->
   <!-- EN: Start -->
   <Start>Démarrer</Start>

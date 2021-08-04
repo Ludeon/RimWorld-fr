@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>facteurs d'apprentissage des animaux</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>Un multiplicateur appliqué au taux d'apprentissage de compétences des animaux.</AnimalsLearningFactor.description>
+  
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>vitesse de déplacement en caravane</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>Le multiplicateur appliqué à la vitesse de déplacement d'une personne lorsqu'elle chevauche cet animal lors d'une caravane. Les animaux peuvent seulement être chevauchés dans les caravanes.</CaravanRidingSpeedFactor.description>
+  
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacité de transport</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
@@ -20,6 +30,11 @@
   <EatingSpeed.label>vitesse d'ingestion</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
+  
+  <!-- EN: filth rate -->
+  <FilthRate.label>taux de saleté</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>La quantité de saleté que cette créature produit.\n\nIl est recommandé de garder les animaux qui produisent de la saleté à l'extérieur ou sur une natte de paille où leur saleté ne sera pas un problème.</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>quantité de nourriture (cueillette)</ForagedNutritionPerDay.label>
@@ -41,16 +56,19 @@
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Vitesse à laquelle ce personnage s'immunise contre une maladie. Si cette vitesse est trop faible, il mourra de cette maladie faute d'avoir développé une immunité suffisante.</ImmunityGainSpeed.description>
   
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>facteur de guérison des blessures</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>Le multiplicateur appliqué au taux de guérison des blessures d'une personne.</InjuryHealingFactor.description>
+  
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantité de cuir</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <!-- TODO: Texte anglais modifié -->
   <LeatherAmount.description>La quantité de cuir que vous obtiendrez en dépeçant cette créature.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantité de viande</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <!-- TODO: Texte anglais modifié -->
   <MeatAmount.description>La quantité de viande que vous obtiendrez en dépeçant cette créature.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
@@ -90,25 +108,4 @@
   <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>Multiplicateur de la sensibilité de ce personnage aux produits toxiques .</ToxicSensitivity.description>
   
-  <!-- EN: injury healing factor -->
-  <InjuryHealingFactor.label>facteur de guérison des blessures</InjuryHealingFactor.label>
-	<!-- EN: The multiplier applied to a person's injury healing rate. -->
-  <InjuryHealingFactor.description>Le multiplicateur appliqué au taux de guérison des blessures d'une personne.</InjuryHealingFactor.description>
-	
-  <!-- EN: filth rate -->
-  <FilthRate.label>taux de saleté</FilthRate.label>
-	<!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
-  <FilthRate.description>La quantité de saleté que cette créature produit.\n\nIl est recommandé de garder les animaux qui produisent de la saleté à l'extérieur ou sur une natte de paille où leur saleté ne sera pas un problème.</FilthRate.description>
-	
-  <!-- EN: animals learning factor -->
-  <AnimalsLearningFactor.label>facteurs d'apprentissage des animaux</AnimalsLearningFactor.label>
-	<!-- EN: A multiplier on the learning rate for animals skill. -->
-  <AnimalsLearningFactor.description>Un multiplicateur appliqué au taux d'apprentissage de compétences des animaux.</AnimalsLearningFactor.description>
-	
-  <!-- EN: caravan riding speed -->
-  <CaravanRidingSpeedFactor.label>vitesse de déplacement en caravane</CaravanRidingSpeedFactor.label>
-	<!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>Le multiplicateur appliqué à la vitesse de déplacement d'une personne lorsqu'elle chevauche cet animal lors d'une caravane. Les animaux peuvent seulement être chevauchés dans les caravanes.</CaravanRidingSpeedFactor.description>
-	
-
 </LanguageData>

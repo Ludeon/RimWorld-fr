@@ -343,7 +343,7 @@
   <Carried>transporté</Carried>
   <!-- EN: Rideable animals / people -->
   <RideableAnimalsPerPeople>Personnes / Animaux chevauchables</RideableAnimalsPerPeople>
-  <!--EN: Multiplier from ridden animals -->
+  <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Multiplicateur pour les animaux chevauchés</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicateur pour la masse transportée : {0}</MultiplierForCarriedMass>
@@ -416,7 +416,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{0} de {1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>Obligatoire</Required>
+  <Required>Requis</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Vous ne pouvez pas traiter les demandes d'échange en utilisant des nacelles de transport.\nSi vous envoyez les marchandises, le destinaitaire les acceptera comme cadeaux mais il ne vous récompensera pas.\n\nPour les échanges, approchez le destinataire avec une caravane !\n\nSouhaitez-vous offrir les marchandises chargées à la faction ?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -490,7 +490,6 @@
   <!-- EN: Goodwill -->
   <Goodwill>Bonne entente</Goodwill>
   <!-- EN: Natural goodwill -->
-  <!-- TODO: À revoir -->
   <NaturalGoodwill>Bonne entente naturelle</NaturalGoodwill>
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Intervalle de bonne entente naturelle</NaturalGoodwillRange>
@@ -517,6 +516,10 @@
   <StudyProgress>Progression de l'étude</StudyProgress>
   <!-- EN: completed -->
   <StudyCompleted>complétée</StudyCompleted>
+  <!-- EN: Attack this to destroy it. -->
+  <AttackToDestroy>TODO</AttackToDestroy>
+  <!-- EN: Remove this by attacking it. -->
+  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -612,7 +615,6 @@
   <!-- EN: Rename pen -->
   <RenameAnimalPen>Renommer l'enclos</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <!-- TODO: à revoir le sens et l'emplacement de {0} -->
   <AnimalPenMarkerDefaultLabel>Marqueur d'enclos {0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
   <InPen>Dans l'enclos</InPen>
@@ -624,7 +626,7 @@
   <RopedByPawn>Attacher avec une corde par</RopedByPawn>
   <!-- EN: Roped to -->
   <RopedToThing>Attacher avec une corde à</RopedToThing>
-  <!-- Roped to spot. -->
+  <!-- EN: Roped to spot. -->
   <!-- TODO: à revoir -->
   <RopedToSpot>Attacher avec une corde à cet endroit.</RopedToSpot>
   <!-- EN: Pen size -->
@@ -644,7 +646,8 @@
   <PenCapacityDesc>{ANIMALDEF_label} capacité</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Exemples d'animaux</PenExampleAnimals>
-  
+
+
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Impossible d'enrôler des unités non contrôlées.</CannotOrderNonControlled>
@@ -1457,7 +1460,7 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causé par : {0}</CausedByHediff>
-
+  
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
   <!-- TODO: alternative sans parentèse ? Faire attention au genre du nom de la maladie -->
@@ -1484,7 +1487,7 @@
   <LordReportAttending>Participe</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} a été annulé.</RitualCalledOff>
-  <!-- EN: {0} was not completed because of lack of attendance.3 -->
+  <!-- EN: {0} was not completed because of lack of attendance. -->
   <RitualNobodyAttended>{0} n'a pas été achevé en raison du manque de participants.</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
   <RitualFinished>{0} a été complété.</RitualFinished>
@@ -1535,8 +1538,8 @@
   <RitualQualityLowWarning>La qualité totale de {0} est en dessous de {1}. Si vous procédez, cela affectera très probablement votre colonie de façon négative.\n\nÊtes-vous certain ?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Aucun endroit approprié accessible pour parler.</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort} est incapable de parler.</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>{0_labelShort} est incapable de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Toutes les personnes qui participent à ce rituel gagnent {0} d'humeur pendant {1} jours.</RitualOutcomeExtraDesc_Mood>
   
@@ -1554,14 +1557,13 @@
   <DateRitualNoObligation>{0} est un rituel à une date spécifique. Vous pourrez le débuter dans {1}, le {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Remplacer avec</PreceptReplaceWith>
-  <!-- Ritual seat of {IDEOS} -->
-  <!-- TODO: à revoir -->
-  <RitualSeatOf>Siège rituel de {IDEOS}</RitualSeatOf>
+  <PreceptReplaceWith>Remplacer par</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>Siège cérémoniel de {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Qualité attendue</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Qualité initiale</StartingQuality>
+  <StartingQuality>Qualité de départ</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Durée attendue</ExpectedRitualDuration>
   
@@ -1576,8 +1578,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Attentes de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <!-- TODO: à revoir -->
-  <RitualOutcomeLabelAnyOfThese>N'importe laquel de ces</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>N'importe lequel</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Remplacer {PAWN_labelShort}</RitualRoleReplaces>
 
@@ -1599,4 +1600,7 @@
   <!-- EN: {0} max -->
   <MaxValue>{0} max</MaxValue>
   
+  <!-- TODO: UNUSED -->
+  <AbilitySpeechDisabledCantSpeak>{0_labelShort} est incapable de parler.</AbilitySpeechDisabledCantSpeak>
+
 </LanguageData>

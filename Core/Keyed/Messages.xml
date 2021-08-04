@@ -14,7 +14,6 @@
   <MessageRaidersStealing>Les {0} de {1} ont décidé de prendre ce qu'ils peuvent et de partir.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <!-- TODO: Texte anglais modifié -->
   <MessageCaravanDetectedRaidArrived>{0} de {1} sont arrivés dans la zone de votre caravane et attaquent. D'autres sont en route et arriveront dans {2}.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
@@ -155,7 +154,7 @@
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Cette opération mettra en colère {0}.</MessageMedicalOperationWillAngerFaction>
-  
+
   <!-- EN: {PAWN_nameDef} is pregnant! -->
   <MessageAnimalIsPregnant>{PAWN_nameDef} est gestante !</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
@@ -181,7 +180,7 @@
   <MessageEatenByPredator>{EATEN_labelShort} a été dévor{EATEN_gender ? é : ée : é(e)} par {PREDATOR}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
   <MessageAttackedByPredator>{PREY_labelShort} est attaqu{PREY_gender ? é : ée : é(e)} par {PREDATOR} !</MessageAttackedByPredator>
-  
+
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} a commencé à s'éloigner ! {PAWN_pronoun} quittera la carte à moins que quelqu'un ne {PAWN_gender ? le : la : le/la} ramène à un enclos.</MessageRoamerLeaving>
 
@@ -350,7 +349,7 @@
   <MessageCantEquipCustom>Impossible d'équiper : {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Ne peut pas équiper : {1_labelShort} est incapable de violence.</MessageCantEquipIncapableOfViolence>
-  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting -->
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
   <MessageCantEquipIncapableOfShooting>Ne peut pas équiper : {1_labelShort} est incapable de tirer.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>Ne peut pas équiper : incapable de manipulation.</MessageCantEquipIncapableOfManipulation>
@@ -646,7 +645,7 @@
   <MessageBedDestroyed>{0} attribué à {1_nameDef} a été détruit.</MessageBedDestroyed>
 
   <!-- Rituals -->
-  <!-- EN : spectate -->
+  <!-- EN: spectate -->
   <Spectate>assiste à</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>Assigne à {0}</AssignToRole>
@@ -676,13 +675,13 @@
   <MessageRitualRoleRequired>{0_labelShort} doit remplir un de ces rôles</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0} doit être un{0_gender ? : e : (e)} prisonni{0_gender er : ère : er(ère)}.</MessageRitualRoleMustBePrisoner>
-  <!-- EN: {0} must be an animal -->
+  <!-- EN: {0} must be an animal. -->
   <MessageRitualRoleMustBeAnimal>{0} doit être un animal.</MessageRitualRoleMustBeAnimal>
-  <!-- EN: {0} must be a human -->
+  <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} doit être un humain.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} doit avoir des yeux</MessageRitualRoleMustHaveEyes>
-  <!-- EN: {0_labelShort} does not require further scarification -->
+  <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} ne nécessite pas de scarification supplémentaire.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} doit être un prisonnier ou un esclave.</MessageRitualRoleMustBePrisonerOrSlave>
@@ -690,7 +689,7 @@
   <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} doit être capable de se battre.</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>ce rôle ne peut pas être rempli par quelqu'un d'autre.</MessageRitualRoleCannotReplaceRequiredPawn>
-  <!-- EN: {0_labelShort} cannot connect to a gauranlen tree because {0_possessive} connection was recently torn. -->
+  <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
   <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} ne peut pas se connecter à un arbre gauranlen, parce que sa connexion a été récemment rompue.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} a la même idéoligion que le convertisseur.</MessageRitualRolePawnHasSameIdeo>
@@ -720,15 +719,15 @@
 
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>Ne peut pas planter {0_labelShort}</CannotPlantThing>
-  <!-- EN: Need more fertile terrain -->
+  <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Nécessite un terrain plus fertile.</MessageWarningNotEnoughFertility>
-  <!-- EN: blocked by {0_label}-->
+  <!-- EN: blocked by {0_label}. -->
   <BlockedBy>bloqué par {0_label}.</BlockedBy>
-  <!-- EN: Cannot be planted next to {0_label} -->
+  <!-- EN: Cannot be planted next to {0_label}. -->
   <AdjacentSowBlocker>Ne peut pas être planté à côté de {0_label}.</AdjacentSowBlocker>
-  <!-- EN: Too close to {0_label} -->
+  <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant>Trop proche de {0_label}.</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0_label}'s planting location -->
+  <!-- EN: Too close to {0_label}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Trop près de la zone agricole de {0_label}.</TooCloseToOtherSeedPlantCell>
   
 </LanguageData>

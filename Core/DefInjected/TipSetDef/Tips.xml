@@ -20,10 +20,8 @@
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>Un clic droit sur un chiffre dans l'onglet Travail en mode Priorités manuelles réduira le chiffre au lieu de l'augmenter.</GameplayTips.WorkTabDecreasePriority>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
-  <!-- TODO: Texte anglais modifié -->
   <GameplayTips.GunfightCover>Lors d'une fusillade, soyez toujours à couvert !</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
-  <!-- TODO: Texte anglais modifié -->
   <GameplayTips.GunfightSpread>Dans une fusillade, dispersez vos colons ! Les cibles groupées sont faciles à atteindre.</GameplayTips.GunfightSpread>
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
   <GameplayTips.ShootingAccuracySmoke>La fumée empêche totalement les tourelles de détecter des cibles, mais les individus peuvent toujours tirer avec une précision réduite.</GameplayTips.ShootingAccuracySmoke>
@@ -60,13 +58,15 @@
   <!-- EN: Single-person caravans can be very useful in certain situations. -->
   <GameplayTips.CaravanSinglePerson>Les caravanes d'une seule personne peuvent être très utiles dans certaines situations.</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
-  <GameplayTips.CaravanRideableAnimals>Les caravanes se déplacent plus rapidement si elles sont composées d'animaux chevauchables comme les chevaux, les ânes et les dromadaires.</GameplayTips.CaravanRideableAnimals>
+  <GameplayTips.CaravanRideableAnimals>Les caravanes se déplacent plus rapidement si elles incluent des animaux pouvant être montés comme des chevaux, des ânes et des dromadaires.</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>Les petites caravanes seront attaquées moins souvent car elles sont moins visibles.</GameplayTips.CaravanSmallerLessVisible>
   <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>Avant de former une caravane, stockez les articles que vous souhaitez envoyer dans un lieu près de votre zone de chargement de caravane. Cela rendra sa préparation beaucoup plus rapide.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>Si vous avez des animaux non entraînés dans votre caravane, vous pouvez les séparer en une caravane distincte avant d'attaquer l'ennemi, afin de les garder loin du combat.</GameplayTips.CaravanUntrainedAnimals>
+  <!-- EN: Don't forget to pack medicine on your caravans. -->
+  <GameplayTips.CaravanDontForgetMedicine>N'oubliez pas d'emporter des médicaments dans vos caravanes.</GameplayTips.CaravanDontForgetMedicine>
   <!-- EN: RimWorld is a story generator, not a skill test. A ruined colony is a dramatic tragedy, not a failure. -->
   <GameplayTips.StoryGenerator>RimWorld est un générateur d'histoire, pas un test de compétence. Une colonie en ruine est une tragédie dramatique, pas un échec.</GameplayTips.StoryGenerator>
   <!-- EN: Some colonists are worse than useless. Bad allies are part of the challenge. -->
@@ -125,6 +125,12 @@
   <GameplayTips.ExtinguishFireArtillery>Les explosions éteignent le feu dans leur rayon d'explosion. Cela rend les obus d'artillerie utiles pour arrêter les incendies lorsqu'il n'y a pas d'autre choix.</GameplayTips.ExtinguishFireArtillery>
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>Même de sérieux revers ne signifient pas la fin de la partie. Essayez de jouer une bataille perdue, souvent les meilleures histoires viennent des situations les plus sombres.</GameplayTips.BestStoriesFromDarkestSituations>
+  <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
+  <GameplayTips.KeepWeaponsAwayFromPrisoners>Gardez les stocks d'armes loin de vos prisons. Les évasions sont beaucoup plus dangereuses avec des armes à feu et des explosifs.</GameplayTips.KeepWeaponsAwayFromPrisoners>
+  <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
+  <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>Lorsque vous apprivoisez des animaux, assurez-vous d'avoir suffisamment de nourriture du bon type pour les nourrir.</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
+  <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
+  <GameplayTips.DroppingChunksWillForceDoorsOpen>Laisser tomber une pierre ou un morceau de débris dans une porte la forcera à s'ouvrir, vous laissant vulnérable aux animaux hostiles et aux attaquants.</GameplayTips.DroppingChunksWillForceDoorsOpen>
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
   <GameplayTips.CleanLabs>Un laboratoire propre avec un sol stérile augmente la vitesse de recherche.</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
@@ -135,22 +141,11 @@
   <GameplayTips.CombatDrugsFromInventory>Vous pouvez paramétrer les règles sur la drogue pour que vos soldats transportent des drogues de combat comme du Go-Juice. Une dose rapide au début du combat peut permettre de gagner la bataille.</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
   <GameplayTips.SchedulesSetLong>Pour minimiser les temps de déplacement, définissez des horaires avec de longues périodes d'une même activité.</GameplayTips.SchedulesSetLong>
-  
-  <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
-  <GameplayTips.CaravanRideableAnimals>Les caravanes se déplacent plus rapidement si elles incluent des animaux pouvant être montés comme des chevaux, des ânes et des dromadaires.</GameplayTips.CaravanRideableAnimals>
-	<!-- EN: Don't forget to pack medicine on your caravans. -->
-  <GameplayTips.tips.32>N'oubliez pas d'emporter des médicaments dans vos caravanes.</GameplayTips.tips.32>
-	<!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
-  <GameplayTips.tips.62>Gardez les stocks d'armes loin de vos prisons. Les évasions sont beaucoup plus dangereuses avec des armes à feu et des explosifs.</GameplayTips.tips.62>
-	<!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
-  <GameplayTips.tips.63>Lorsque vous apprivoisez des animaux, assurez-vous d'avoir suffisamment de nourriture du bon type pour les nourrir.</GameplayTips.tips.63>
-	<!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
-  <GameplayTips.tips.64>Laisser tomber une pierre ou un morceau de débris dans une porte la forcera à s'ouvrir, vous laissant vulnérable aux animaux hostiles et aux attaquants.</GameplayTips.tips.64>
-	<!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
+  <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
   <GameplayTips.StrawMatting>Les nattes de paille ne se salissent pas. Utilisez-les comme sol pour votre grange.</GameplayTips.StrawMatting>
-	<!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
+  <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
   <GameplayTips.AnimalFilth>Certains animaux produisent beaucoup de saletés. Gardez vos éléphants et votre bétail à l'extérieur.</GameplayTips.AnimalFilth>
-	<!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
+  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
   <GameplayTips.PredatorsAndFences>Les prédateurs sont moins susceptibles de chasser les animaux qui sont entourés de clôtures ou de barricades.</GameplayTips.PredatorsAndFences>
   
 </LanguageData>
