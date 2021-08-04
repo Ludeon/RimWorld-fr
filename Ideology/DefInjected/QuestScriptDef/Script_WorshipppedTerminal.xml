@@ -10,7 +10,11 @@
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>TODO</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->Vous avez entendu parler d'un ancien terminal contenant des informations sur [relic_name]. Cependant, le terminal est entouré d'un village tribal et les habitants le vénèrent. Ils ne font partie d'aucune faction majeure.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Ils sont prêts à vous laisser visiter sous prétexte de l'adorer, mais ils attaqueront lorsque vous le toucherez.\n\nVous pouvez attaquer le village de l'extérieur, ou entrer pacifiquement et essayer de vous échapper rapidement avec les données du terminal. \n\nAttention - Si vous passez plus de [timer_duration] dans le village ou construisez quoi que ce soit à proximité, les habitants attaqueront et appelleront des renforts.</li>
+    <li>visitInfo(allowViolentQuests==false)->Ils sont prêts à vous laisser visiter.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -29,7 +33,24 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>TODO</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->[terminalName] [adj]</li>
+    <li>adj->adoré</li>
+    <li>adj->vénéré</li>
+    <li>adj->ancien</li>
+    <li>adj->des villageois</li>
+    <li>adj->du village</li>
+    <li>adj->tribal</li>
+    <li>adj->secret</li>
+    <li>terminalName(p=4)->terminal</li>
+    <li>terminalName->machine</li>
+    <li>terminalName->appareil</li>
+    <li>terminalName->écran</li>
+    <li>terminalName->ordinateur</li>
+    <li>terminalName->banque de données</li>
+    <li>terminalName->base de données</li>
+    <li>terminalName->silicon</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
   <!-- TODO: UNUSED -->
   <Hack_WorshippedTerminal.questContentRules.rulesStrings>Le terminal a été piraté. Vous avez récupéré les informations et pouvez repartir.</Hack_WorshippedTerminal.questContentRules.rulesStrings>
