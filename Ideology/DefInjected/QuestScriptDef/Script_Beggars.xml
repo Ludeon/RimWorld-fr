@@ -11,7 +11,16 @@
     <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
-  <Beggars.questContentRules.rulesStrings>TODO</Beggars.questContentRules.rulesStrings>
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] trahi</li>
+    <li>letterTextBeggarsBetrayed->Le(s) [groupLabelSingleOrPlural] qui [wasWere] à la recherche de votre charité [hasHave] été trahi. Les colons avec des croyances charitables seront mécontents.</li>
+    <li>hasHave(beggarCount==1)->a</li>
+    <li>hasHave(beggarCount>=2)->ont</li>
+    <li>wasWere(beggarCount==1)->était</li>
+    <li>wasWere(beggarCount>=2)->étaient</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->voyageur</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->voyageurs</li>
+  </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
     <li>groupLabelSingle->traveler</li>
@@ -66,6 +75,30 @@
     <li>alms->charity</li>
     <li>alms->resources</li>
   -->
-  <Beggars.questNameRules.rulesStrings>TODO</Beggars.questNameRules.rulesStrings>
+  <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>beggarSingle->mendiant</li>
+    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->voyageur</li>
+    <li>beggarPlural->[beggarSingle]s</li>
+    <li>seekingSingle->cherche</li>
+    <li>seekingSingle->demande</li>
+    <li>seekingSingle->prie pour</li>
+    <li>seekingSingle->souhaite</li>
+    <li>seekingSingle->désire</li>
+    <li>seekingSingle->espère</li>
+    <li>seekingPlural->cherchent</li>
+    <li>seekingPlural->demandent</li>
+    <li>seekingPlural->prient pour</li>
+    <li>seekingPlural->espèrent</li>
+    <li>seekingPlural->désirent</li>
+    <li>seekingPlural->voudraient</li>
+    <li>alms->aumône</li>
+    <li>alms->de l'aide</li>
+    <li>alms->la charité</li>
+    <li>alms->des ressources</li>
+  </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>
