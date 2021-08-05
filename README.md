@@ -1,18 +1,14 @@
 # RimWorld-fr
-French translation for RimWorld. ->
-[Discord](https://discord.gg/cJmKZpv)
--
--See this page for license info:
--
--http://ludeon.com/forums/index.php?topic=2933.0
+French translation for RimWorld.
 
+See this page for license info : http://ludeon.com/forums/index.php?topic=2933.0
 
 
 #################################
-# TRADUCTION RIMWORLD FRANCAISE #
+# TRADUCTION FRANCAISE RIMWORLD #
 #################################
 
-### A PROPOS ###
+### À PROPOS ###
 Ceci est une version traduite de RimWorld. 
 Cette version est sujette à amélioration.
 Elle comporte encore quelques erreurs.
@@ -30,4 +26,7 @@ Elle comporte encore quelques erreurs.
 
 ### EN CAS D'ERREUR OU DE PROPOSITION ###
 N'hésitez pas à intervenir sur le forum dédié aux traducteurs : http://ludeon.com/forums/index.php?topic=2977.0
+
+Vous pouvez aussi vous rendre sur le [Discord dédié](https://discord.gg/cJmKZpv)
+
 Si vous repérez des erreurs ou des oublis et pour toute proposition de traduction ou d'amélioration, n'hésitez pas à soumettre vos idées !
