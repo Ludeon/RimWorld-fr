@@ -74,7 +74,7 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ils veulent de la [requestedThing_label] pour pouvoir voyager en toute sécurité pendant qu'ils cherchent un nouvel endroit où s'installer</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ils veulent de la [requestedThing_label] pour les aider à noyer leur chagrin après avoir perdu leur foyer dans une terrible attaque</li>
     <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur {beggars0_gender ? lui : elle : lui/elle}</li>
-    <li>interactionInfo(beggarCount>=2)->Vous pouvez donner les objets aux [groupLabelPlural] en sélectionnant un colon et en faisant un clic droit sur {beggars0_gender ? lui : elle : lui/elle}</li>
+    <li>interactionInfo(beggarCount>=2)->Vous pouvez donner les objets aux [groupLabelPlural] en sélectionnant un colon et en faisant un clic droit sur [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] partira après [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Les [groupLabelPlural] partiront après [visitDurationTicks_duration]</li>
   </Beggars.questDescriptionRules.rulesStrings>
