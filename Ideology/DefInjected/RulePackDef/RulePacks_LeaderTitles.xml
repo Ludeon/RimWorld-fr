@@ -66,7 +66,18 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>TODO</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->grand</li>
+    <li>cultureLeaderAdjective->supérieur</li>
+    <li>cultureLeaderAdjective->plein</li>
+    <li>cultureLeaderNoun->patron</li>
+    <li>cultureLeaderNoun->voyou</li>
+    <li>cultureLeaderNoun->fromage</li>
+    <li>cultureLeaderNoun->pistolet</li>
+    <li>cultureLeaderNoun->chien</li>
+  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
