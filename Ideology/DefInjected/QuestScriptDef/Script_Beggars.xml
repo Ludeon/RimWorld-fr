@@ -51,29 +51,29 @@
   -->
   <Beggars.questDescriptionRules.rulesStrings>
     <li>groupLabelPlural->voyageurs</li>
-    <li>groupLabelSingle->{beggars0_gender ? voyageur : voyageuse}</li>
+    <li>groupLabelSingle->voyageur</li>
     <li>travelerInfo(beggarCount==1)->Ce [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount>=2)->Ces [groupLabelPlural]</li>
     <li>beggingForInfo->pour x[requestedThingCount] [requestedThing_label]</li>
-    <li>traverObjective(beggarCount==1)->{beggars0_gender ? le : la : le/la}</li>
+    <li>traverObjective(beggarCount==1)->le</li>
     <li>traverObjective(beggarCount>=2)->les</li>
     <li>questDescription(beggarCount==1)->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ne fait partie d'aucune faction. Si vous le désirez, vous pouvez choisir de [traverObjective] tuer, de l'arrêter, de [traverObjective] vendre ou de prélever ses organes sans conséquences diplomatiques.</li>
     <li>questDescription(beggarCount>=2)->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ne font partie d'aucune faction. Si vous le désirez, vous pouvez choisir de [traverObjective] tuer, de les arrêter, de les vendre ou de prélever leurs organes sans conséquences diplomatiques.</li>
-    <li>approachInfo(beggarCount==1)->Un pauvre [groupLabelSingle] nommée [beggars0_nameDef] s'approche et cherche de l'aide</li>
+    <li>approachInfo(beggarCount==1)->Un pauvre [groupLabelSingle] nommé [beggars0_nameDef] s'approche et cherche de l'aide</li>
     <li>approachInfo(beggarCount>=2)->Un groupe de pauvres [groupLabelPlural] s'approchent et cherchent de l'aide</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] mendie [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->Les [groupLabelPlural] mendient [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates qui {beggars0_gender ? le : la : le/la} chassent</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates qui le chassent</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] a besoin du médicament pour aider un voyageur qui est blessé dans les environs</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] veut du médicament pour sauver son fidèle compagnon qui a été blessé sur la route</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] a besoin de [requestedThing_label] pour inoculer un ami malade contre ses maladies mortelles</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] a besoin de [requestedThing_label] pour immuniser un ami malade contre ses maladies mortelles</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] veut noyer son chagrin après avoir perdu un compagnon de voyage dans un terrible accident</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Ils veulent de l'argent pour pouvoir racheter un de leurs amis qui a été récemment kidnappé</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Ils ont besoin du médicament pour tenter une opération de sauvetage sur un compagnon de voyage qui a été attaqué par des mécanoïdes</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Ils ont besoin du médicament pour aider leurs amis dans une colonie voisine qui a été dévastée par des pillards</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ils veulent de la [requestedThing_label] pour pouvoir voyager en toute sécurité pendant qu'ils cherchent un nouvel endroit où s'installer</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ils veulent de la [requestedThing_label] pour les aider à noyer leur chagrin après avoir perdu leur foyer dans une terrible attaque</li>
-    <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur {beggars0_gender ? lui : elle : lui/elle}</li>
+    <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur lui</li>
     <li>interactionInfo(beggarCount>=2)->Vous pouvez donner les objets aux [groupLabelPlural] en sélectionnant un colon et en faisant un clic droit sur [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] partira après [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Les [groupLabelPlural] partiront après [visitDurationTicks_duration]</li>
@@ -108,7 +108,7 @@
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
     <li>beggarSingle->mendiant</li>
     <li>beggarSingle->vagabond</li>
-    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->nomade</li>
     <li>beggarSingle->voyageur</li>
     <li>beggarPlural->[beggarSingle]s</li>
     <li>seekingSingle->cherche</li>
