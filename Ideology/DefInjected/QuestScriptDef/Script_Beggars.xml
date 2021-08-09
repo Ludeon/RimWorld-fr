@@ -60,7 +60,7 @@
     <li>questDescription(beggarCount==1)->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ne fait partie d'aucune faction. Si vous le désirez, vous pouvez choisir de [traverObjective] tuer, de l'arrêter, de [traverObjective] vendre ou de prélever ses organes sans conséquences diplomatiques.</li>
     <li>questDescription(beggarCount>=2)->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ne font partie d'aucune faction. Si vous le désirez, vous pouvez choisir de [traverObjective] tuer, de les arrêter, de les vendre ou de prélever leurs organes sans conséquences diplomatiques.</li>
     <li>approachInfo(beggarCount==1)->Un pauvre [groupLabelSingle] nommé [beggars0_nameDef] s'approche et cherche de l'aide</li>
-    <li>approachInfo(beggarCount>=2)->Un groupe de pauvres [groupLabelPlural] s'approchent et cherchent de l'aide</li>
+    <li>approachInfo(beggarCount>=2)->Un groupe de pauvres [groupLabelPlural] s'approche et cherche de l'aide</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] mendie [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->Les [groupLabelPlural] mendient [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates qui le chassent</li>
