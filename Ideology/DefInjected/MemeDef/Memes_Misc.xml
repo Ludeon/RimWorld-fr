@@ -813,7 +813,30 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_Rancher)        ->[deity0_name] créa les animaux, puis l'homme, et donna les animaux à l'homme pour qu'ils les chérissent, les élèvent et les abattent comme actes de vénération envers [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] créa tous les nobles animaux et bêtes de la terre, et dit : « Prenez ces nobles bêtes, et à travers elles, rendez-vous féconds en mon honneur. »</li>
+    <li>intro(tag=meme_Rancher)           ->Les premiers éleveurs [ranchingAnimal] de [place_summary] [place_name] construisirent un grand [altarName] à [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->Un puissant [foeLeader] méprisa les [memberNamePlural] et leurs manières, et acheta toutes les prairies pour y faire pousser des [Légumes].</li>
+    <li>founderJoin(tag=meme_Rancher)     ->Le sauveur de [memberName] [founderName] est né un matin de printemps dans une humble grange, au milieu de [ranchingAnimal]s, et ses parents étaient un [rancherParent1] et une [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] se rendit à la [place_community] sur un bon cheval et défia le [foeLeader] en duel avec [place_personalWeapon]s à midi. Le [foeLeader] ne pouvait refuser sans perdre la confiance de ses [foeSoldiers]. [founderName] tua le [foeLeader].</li>
+    <li>setup(tag=meme_Rancher)           ->Les agriculteurs furent persécutés, alors ils s'enfuirent à la campagne où ils ont pu construire une bonne société pastorale.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Les croyants se répandirent sur la terre et augmentèrent en nombre alors qu'ils vivaient dans leurs ranchs et leurs fermes idylliques.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Partenaire, sur les plages, nous avons eu un dicton parmi les anciens :</li>
+    <li>lesson(tag=meme_Rancher)              ->le bien et le bonheur bien vivant se trouvent dans les pâturages</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->C'est quelque chose que vous venez d'accepter, partenaire, sur les sentiers solitaires de la chaîne, en écoutant les animaux dormir pendant que vous vous asseyez autour du feu.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Les archotechs prennent soin de l'humanité comme des bergers, car nous sommes leur troupeau le plus précieux.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], les archotechs partiront et prendront avec eux ceux qui s'occupaient bien de leurs propres troupeaux. Le reste sera laissé dans le désert.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Les animaux de la nature sont des esprits d'esclaves et demandent à être mis en service.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->berger</li>
+    <li>rancherParent1->maréchal-ferrant</li>
+    <li>rancherParent1->fromager</li>
+    <li>rancherParent2->vachère</li>
+    <li>rancherParent2->reine des produits laitiers</li>
+    <li>rancherParent2->bouchère</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -843,9 +866,9 @@
   <!-- EN: Ranchism -->
   <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>Eleveur</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>élevage</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
   <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
