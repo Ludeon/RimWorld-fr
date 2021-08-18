@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] créa [sacredAnimalList] et l'humain sur [place_summary] [place_name] et les éleva en tant que frères et sœurs.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] réunit les animaux et les humains de [place_summary] [place_name] lors d'une grande conférence.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bénit le [lieu_summary] [place_name] avec [sacredAnimalListEnd] et a appris aux habitants à honorer les animaux.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Un [foeLeader] diabolique ordonna de chasser les animaux sauvages, et ses [foeSoldiers] les chassèrent avec des [place_personalWeapon] cruels.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] vint à un [place_job] nommé [founderName] [revelationAdverb] à propos d'un [veneratedAnimal]. Mais [founderName] était le [veneratedAnimal], et le [veneratedAnimal] était [founderName], et [founder_pronoun] comprit le plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] nommé [founderName] libéra de nombreux animaux réduits en esclavage par des maîtres cruels et les emmena au sanctuaire de [altarRoomLabel] de [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] appela les [memberNamePlural] et les animaux avec la voix de [deity0_name], et dans une grande ruée de sabots, de pattes et de pieds, piétina [foeLeader] et ses [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vécut dans la forêt pendant vingt ans, étudiant les animaux et se connectant avec eux. [founder_pronoun] comprit leur vraie morale et fonda notre mouvement.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] communia avec les animaux dans les champs et les forêts, et se lia avec eux sur un pied d'égalité.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->Lors de mes visites quotidiennes avec les [veneratedOrAnyAnimal], j'ai appris à vraiment les écouter. Maintes et maintes fois, à leur manière, ils m'ont répété leur message :</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->les animaux sont nos partenaires dans ce monde, et il est mal de les traiter comme inférieurs</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Je n'y ai pas cru moi-même jusqu'à ce qu'un [veneratedOrAnyAnimal] me le chuchote.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Depuis que les archotechs se sont réveillés, ils n'ont manifestement fait aucune distinction morale entre les humains et les animaux.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Les archotechs sont sur un plan moral plus élevé que la bio-vie. Leur supériorité est si grande que les humains sont sur le même plan moral que les animaux.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], les archotech n'élèveront les humains sur un pied d'égalité que si les humains traitent les animaux sur un pied d'égalité.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Les esprits de pensée et de conscience vivent aussi bien chez les animaux que chez les humains.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Les esprits des animaux de la nature sont les mêmes esprits qui résident chez les humains.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label], le [animal1_thingDef_label], le [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label], le [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label]</li>
+    <li>sacredAnimalList->la vache, le renard, l'ours,</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label], le [animal1_thingDef_label], et le [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label], et la [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->la vache, le renard et l'ours</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
