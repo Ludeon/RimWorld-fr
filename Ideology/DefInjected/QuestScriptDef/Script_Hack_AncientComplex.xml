@@ -5,11 +5,13 @@
     <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
     <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
   -->
-  <AncientComplex_Standard.questContentRules.rulesStrings>TODO</AncientComplex_Standard.questContentRules.rulesStrings>
+  <AncientComplex_Standard.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal piraté. {COUNT} / [terminalCount] terminé.</li>
+    <li>allTerminalsHackedMessage->Vous avez piraté tous les terminaux et découvert des informations secrètes sur [relic_name] ! Vous pouvez maintenant partir.</li></AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
-  <AncientComplex_Standard.questDescriptionRules.rulesStrings>TODO</AncientComplex_Standard.questDescriptionRules.rulesStrings>
+  <AncientComplex_Standard.questDescriptionRules.rulesStrings>Vous avez entendu parler d'un ancien complexe à proximité. On dit qu'il contient des informations sur [relic_name].\n\nSi vous pouvez pénétrer dans la structure et pirater les ordinateurs à l'intérieur, vous pourrez collecter des informations.\n\nAttention : il peut y avoir toutes sortes de dangers à l'intérieur, et des ennemis peuvent également être attirés par l'activité au niveau de la structure.</AncientComplex_Standard.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=6)->The [complexAdj] [complex]</li>
     <li>questName->The [dig]</li>
@@ -23,6 +25,18 @@
     <li>dig->dig</li>
     <li>dig->excavation</li>
   -->
-  <AncientComplex_Standard.questNameRules.rulesStrings>TODO</AncientComplex_Standard.questNameRules.rulesStrings>
+  <AncientComplex_Standard.questNameRules.rulesStrings>
+    <li>questName(p=6)->Le [complex] [complexAdj]</li>
+    <li>questName->L'[dig]</li>
+    <li>complexAdj->ancien</li>
+    <li>complexAdj->ancien</li>
+    <li>complexAdj->poussiéreux</li>
+    <li>complexAdj->secret</li>
+    <li>complex->complexe</li>
+    <li>complex->bâtiment</li>
+    <li>complex->hangar</li>
+    <li>dig->excavation</li>
+    <li>dig->excavation</li>
+  </AncientComplex_Standard.questNameRules.rulesStrings>
   
 </LanguageData>
