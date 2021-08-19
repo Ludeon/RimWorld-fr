@@ -90,14 +90,14 @@
   -->
   <Speech_DateRitual.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
-    <li>praisetopic->la joie des fêtes idéologiques</li>
-    <li>praisetopic->pensée correcte</li>
-    <li>praisetopic->la structure morale de l'univers</li>
-    <li>praisetopic->ses croyances</li>
-    <li>praisetopic->unité</li>
-    <li>praisetopic->être ensemble</li>
-    <li>praisetopic->partager ses idées</li>
-    <li>praisetopic->son propre groupe</li>
+    <li>praisetopic->des fêtes idéologiques</li>
+    <li>praisetopic->des pensées correctes</li>
+    <li>praisetopic->de la structure morale de l'univers</li>
+    <li>praisetopic->de ses croyances</li>
+    <li>praisetopic->de l'unité</li>
+    <li>praisetopic->d'être ensemble</li>
+    <li>praisetopic->de partager ses idées</li>
+    <li>praisetopic->de son propre groupe</li>
   </Speech_DateRitual.logRulesInitiator.rulesStrings>
   
   <!-- EN: duel speech -->
@@ -122,21 +122,21 @@
   -->
   <Speech_Duel.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
-    <li>praisetopic->la mort par lame</li>
-    <li>praisetopic->la mort douloureuse</li>
-    <li>praisetopic->la mort honorable</li>
-    <li>praisetopic->le combat honorable </li>
-    <li>praisetopic->le courage et la lutte</li>
-    <li>praisetopic->les [AdjectiveBadass] armes et combattants</li>
-    <li>praisetopic->la pureté du conflit physique</li>
-    <li>praisetopic->l'amour par la mort</li>
-    <li>praisetopic->l'expulsion de la haine pour la santé</li>
-    <li>praisetopic->la force sur les autres</li>
-    <li>praisetopic->le conflit inhérent à l'univers</li>
-    <li>praisetopic->le sang et la poussière</li>
-    <li>praisetopic->la vie et le drame</li>
-    <li>praisetopic->la colère et l'espoir</li>
-    <li>praisetopic->la rage et la force</li>
+    <li>praisetopic->d'une mort par lame</li>
+    <li>praisetopic->d'une mort douloureuse</li>
+    <li>praisetopic->d'une mort honorable</li>
+    <li>praisetopic->d'un combat honorable </li>
+    <li>praisetopic->du courage et de la lutte</li>
+    <li>praisetopic->des [AdjectiveBadass] armes et des combattants</li>
+    <li>praisetopic->de la pureté du conflit physique</li>
+    <li>praisetopic->de l'amour par la mort</li>
+    <li>praisetopic->de l'expulsion de la haine pour la santé</li>
+    <li>praisetopic->de la force sur les autres</li>
+    <li>praisetopic->du conflit inhérent à l'univers</li>
+    <li>praisetopic->du sang et de la poussière</li>
+    <li>praisetopic->de la vie et du drame</li>
+    <li>praisetopic->de la colère et de l'espoir</li>
+    <li>praisetopic->de la rage et de la force</li>
   </Speech_Duel.logRulesInitiator.rulesStrings>
   
   <!-- EN: exceution speech -->
@@ -237,7 +237,42 @@
     <li>speechtopic(p=0.25)->strong hands and hearts</li>
     <li>speechtopic(p=0.25)->the right to survive</li>
   -->
-  <Speech_Leader.logRulesInitiator.rulesStrings>TODO</Speech_Leader.logRulesInitiator.rulesStrings>
+  <Speech_Leader.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->de chercher des [Vegetable]s</li>
+    <li>speechtopic->de comment être [AdjectiveFriendly]</li>
+    <li>speechtopic->d'éviter les [AnimalBadass]s</li>
+    <li>speechtopic->de combien la vie est comme un [Game]</li>
+    <li>speechtopic->de l'esprit comme une [Weapon]</li>
+    <li>speechtopic->de l'exploration à travers les [TerrainFeature]s et [TerrainFeature]s</li>
+    <li>speechtopic->de promettre à la [Direction]</li>
+    <li>speechtopic->de comment être comme des [Animal]s</li>
+    <li>speechtopic->du symbolisme de [NaturalObject] et de [NaturalObject]</li>
+    <li>speechtopic->de comment sont les [PersonFamily]s et [PersonFamily]s</li>
+    <li>speechtopic->de comment être un bon [PersonAlly]</li>
+    <li>speechtopic->du besoin de [PersonJob]s</li>
+    <li>speechtopic->d'éviter les [PersonBadass]</li>
+    <li>speechtopic->de vaincre [Enemy]s à travers [ConceptPositive]</li>
+    <li>speechtopic->de voir [Gore] pendant le combat</li>
+    <li>speechtopic->de l'histoire des [Mechanoid]s</li>
+    <li>speechtopic->de la signification de [ConceptPositive]</li>
+    <li>speechtopic->du [ConceptPositive] de la colonie</li>
+    <li>speechtopic->de comment être [AdjectiveBadass] sans être [AdjectiveBadass]</li>
+    <li>speechtopic->de comment [AdjectiveBadass] la colonie est</li>
+    <li>speechtopic->[AdjectiveNatural] [TerrainFeature]s</li>
+    <li>speechtopic->du potentiel [AdjectifLarge] de la colonie</li>
+    <li>speechtopic->de la [PersonalCharacteristic] de chaque colon</li>
+    <li>speechtopic->de la terrible [PersonalCharacteristic] des ennemis de la colonie</li>
+    <li>speechtopic(p=0.25)->de comment rester ensemble en groupe</li>
+    <li>speechtopic(p=0.25)->de la voie à suivre à travers la tragédie</li>
+    <li>speechtopic(p=0.25)->de la communauté et de son importance</li>
+    <li>speechtopic(p=0.25)->de la survie contre le luxe</li>
+    <li>speechtopic(p=0.25)->du bonheur à travers les épreuves</li>
+    <li>speechtopic(p=0.25)->de la satisfaction par la souffrance</li>
+    <li>speechtopic(p=0.25)->de la mort comme motivation</li>
+    <li>speechtopic(p=0.25)->des mains et des cœurs forts</li>
+    <li>speechtopic(p=0.25)->du droit de survivre</li>
+  </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>discours de sacrifice</Speech_Sacrifice.label>
@@ -264,7 +299,29 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Sacrifice.logRulesInitiator.rulesStrings>TODO</Speech_Sacrifice.logRulesInitiator.rulesStrings>
+  <Speech_Sacrifice.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->du sens et de la vraie valeur de la mort</li>
+    <li>speechtopic->de l'expression de la douleur</li>
+    <li>speechtopic->de la cruauté contrôlée</li>
+    <li>speechtopic->de la chaleur du sang</li>
+    <li>speechtopic->du sens de la mort</li>
+    <li>speechtopic->de l'amour et de la mort</li>
+    <li>speechtopic->du symbolisme de la douleur</li>
+    <li>speechtopic->des lames et de la chair</li>
+    <li>speechtopic->de l'art de transpercer</li>
+    <li>speechtopic->de la séduction du sang</li>
+    <li>speechtopic->de la musique des cris</li>
+    <li>speechtopic->des tripes sur le sol</li>
+    <li>crazy->a crié maniaquement</li>
+    <li>crazy->s'est mis à chanter</li>
+    <li>crazy->a chanté vers les cieux</li>
+    <li>crazy->a craché dans l'oeil du sacrifice</li>
+    <li>crazy->a gloussé</li>
+    <li>crazy->a brandit une lame</li>
+    <li>crazy->murmura de façon répétitive</li>
+  </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
   <!-- EN: scarification speech -->
   <Speech_Scarification.label>discours de scarification</Speech_Scarification.label>
@@ -289,7 +346,27 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Scarification.logRulesInitiator.rulesStrings>TODO</Speech_Scarification.logRulesInitiator.rulesStrings>
+  <Speech_Scarification.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->de l'enregistrement de la douleur sur le corps</li>
+    <li>speechtopic->de l'expression de la douleur</li>
+    <li>speechtopic->de la cruauté contrôlée</li>
+    <li>speechtopic->de la chaleur du sang</li>
+    <li>speechtopic->de la signification des cicatrices</li>
+    <li>speechtopic->de l'amour et de la douleur</li>
+    <li>speechtopic->du symbolisme de la douleur</li>
+    <li>speechtopic->des lames et de la chair</li>
+    <li>speechtopic->de l'art de transpercer</li>
+    <li>speechtopic->de la séduction du sang</li>
+    <li>speechtopic->de la musique des cris</li>
+    <li>crazy->a crié maniaquement</li>
+    <li>crazy->s'est mis à chanter</li>
+    <li>crazy->a chanté vers les cieux</li>
+    <li>crazy->a gloussé</li>
+    <li>crazy->a brandit une lame</li>
+    <li>crazy->murmura de façon répétitive</li>
+  </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
   <Speech_TreeConnection.label>discours de connexion aux arbres</Speech_TreeConnection.label>
@@ -308,6 +385,20 @@
     <li>speechtopic->plant life and eternity</li>
     <li>speechtopic->connecting with nature</li>
   -->
-  <Speech_TreeConnection.logRulesInitiator.rulesStrings>TODO</Speech_TreeConnection.logRulesInitiator.rulesStrings>
+  <Speech_TreeConnection.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->des arbres et des gens</li>
+    <li>speechtopic->des arbres et de leurs pouvoirs psychiques</li>
+    <li>speechtopic->des dryades</li>
+    <li>speechtopic->du cycle de vie des Gauranlen</li>
+    <li>speechtopic->de la présence spirituelle des arbres Gauranlen</li>
+    <li>speechtopic->de la dendropathie psychique</li>
+    <li>speechtopic->de combien les dryades sont mignonnes</li>
+    <li>speechtopic->de la noblesse des dryades</li>
+    <li>speechtopic->de l'âge des arbres</li>
+    <li>speechtopic->du rôle de l'humanité sous les arbres</li>
+    <li>speechtopic->de la vie végétale et de l'éternité</li>
+    <li>speechtopic->de la connexion avec la nature</li>
+  </Speech_TreeConnection.logRulesInitiator.rulesStrings>
   
 </LanguageData>
