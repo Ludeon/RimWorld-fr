@@ -26,7 +26,14 @@
     <li>hasHave(pilgrimCount==1)->has</li>
     <li>hasHave(pilgrimCount>=2)->have</li>
   -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+    <li>pilgrimsLabel->[pawns0_nameDef]</li>
+    <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
+    <li>hasHave(pilgrimCount==1)->a</li>
+    <li>hasHave(pilgrimCount>=2)->ont</li>
+  </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>isAre(pilgrimCount==1)->is</li>
@@ -57,6 +64,25 @@
     <li>visit->tour</li>
     <li>visit->veneration</li>
   -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings>TODO</ReliquaryPilgrims.questNameRules.rulesStrings>
+  <ReliquaryPilgrims.questNameRules.rulesStrings>
+    <li>questName(pilgrimCount==1)->[visit] [visitAdj] d'un [pilgrimsLabelSingularOrPlural]</li>
+    <li>questName(pilgrimCount>=2)->[visit] [visitAdj] de [pilgrimsLabelSingularOrPlural]</li>
+    <li>visitAdj(p=6)-></li>
+    <li>visitAdj->saint</li>
+    <li>visitAdj->sacré</li>
+    <li>visitAdj->spirituel</li>
+    <li>visitAdj->divine</li>
+    <li>visitAdj->sanctifié</li>
+    <li>visitAdj->solennel</li>
+    <li>visitAdj->sacramentel</li>
+    <li>visitAdj->sanctifié</li>
+    <li>visit->visite</li>
+    <li>visit->pélerinage</li>
+    <li>visit->mission</li>
+    <li>visit->expédition</li>
+    <li>visit->excursion</li>
+    <li>visit->voyage</li>
+    <li>visit->vénération</li>
+  </ReliquaryPilgrims.questNameRules.rulesStrings>
   
 </LanguageData>
