@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] créa [sacredAnimalList] et l'humain sur [place_summary] [place_name] et les éleva en tant que frères et sœurs.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] réunit les animaux et les humains de [place_summary] [place_name] lors d'une grande conférence.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bénit le [lieu_summary] [place_name] avec [sacredAnimalListEnd] et a appris aux habitants à honorer les animaux.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Un [foeLeader] diabolique ordonna de chasser les animaux sauvages, et ses [foeSoldiers] les chassèrent avec des [place_personalWeapon] cruels.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] vint à un [place_job] nommé [founderName] [revelationAdverb] à propos d'un [veneratedAnimal]. Mais [founderName] était le [veneratedAnimal], et le [veneratedAnimal] était [founderName], et [founder_pronoun] comprit le plan de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] nommé [founderName] libéra de nombreux animaux réduits en esclavage par des maîtres cruels et les emmena au sanctuaire de [altarRoomLabel] de [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] appela les [memberNamePlural] et les animaux avec la voix de [deity0_name], et dans une grande ruée de sabots, de pattes et de pieds, piétina [foeLeader] et ses [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] vécut dans la forêt pendant vingt ans, étudiant les animaux et se connectant avec eux. [founder_pronoun] comprit leur vraie morale et fonda notre mouvement.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] communia avec les animaux dans les champs et les forêts, et se lia avec eux sur un pied d'égalité.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->Lors de mes visites quotidiennes avec les [veneratedOrAnyAnimal], j'ai appris à vraiment les écouter. Maintes et maintes fois, à leur manière, ils m'ont répété leur message :</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->les animaux sont nos partenaires dans ce monde, et il est mal de les traiter comme inférieurs</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Je n'y ai pas cru moi-même jusqu'à ce qu'un [veneratedOrAnyAnimal] me le chuchote.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Depuis que les archotechs se sont réveillés, ils n'ont manifestement fait aucune distinction morale entre les humains et les animaux.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Les archotechs sont sur un plan moral plus élevé que la bio-vie. Leur supériorité est si grande que les humains sont sur le même plan moral que les animaux.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], les archotech n'élèveront les humains sur un pied d'égalité que si les humains traitent les animaux sur un pied d'égalité.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Les esprits de pensée et de conscience vivent aussi bien chez les animaux que chez les humains.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Les esprits des animaux de la nature sont les mêmes esprits qui résident chez les humains.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label], le [animal1_thingDef_label], le [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label], le [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->le [animal0_thingDef_label]</li>
+    <li>sacredAnimalList->la vache, le renard, l'ours,</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label], le [animal1_thingDef_label], et le [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label], et la [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->le [animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->la vache, le renard et l'ours</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -542,7 +570,28 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] brûla dans les profondeurs de l'espace et du temps pendant une éternité, et ses cris firent naître notre réalité.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] fut attaché dix mille ans sur un bûcher alors que la douleur purifiait son esprit.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name] n'a jamais été un endroit facile à vivre. Le [deity0_type] [deity0_pronoun] décida de découvrir qui était vraiment digne de ses faveurs en ajoutant une grande souffrance à leur vie.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->Un [foeLeader] offrit du confort aux [memberNamePlural] pour apaiser leurs souffrances quotidiennes. Mais dans leur confort, ils devenirent dépendants du [foeLeader], qui pris le pouvoir sur eux.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->Un [place_job] spécial nommé [founderName] développa un cancer douloureux. À travers sa souffrance, [founder_pronoun] se connecta directement avec [deity0_name] et appris à inspirer d'autres [memberNamePlural].</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName] apporta une centaine de [memberNamePlural] devant le [place_powerCenter]. Là, ils déchirèrent leur propre chair jusqu'à en mourir sous le regard souriant de [deity0_name]. Leurs souffrances prouvèrent leur rigueur, et le [foeLeader] tomba alors que tous devenirent [memberNamePlural].</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Lors de la fondation de notre mouvement, son créateur [founderName] arrêta de s'alimenter et s'enchaîna à une pierre sur la place du village pendant 300 jours pour démontrer sa droiture.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Le fondateur de notre mouvement, [founderName], gagna ses premiers adeptes en utilisant un fouet sur [founder_objective]-même pendant des jours pour démontrer sa dévotion.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Les disciples de [founderName] démontrèrent leur dévotion en coupant et en brûlant leur propre chair.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Les adeptes de [founderName] ne prirent jamais de médicaments analgésiques, sachant que leur souffrance démontrerait la force de leurs croyances.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Je n'ai jamais rien su quand j'étais gros et heureux et que je me faisais constamment plaisir. Cette vérité ne m'est venue que lorsque j'ai été affamé et blessé :</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->vous ne vous connaissez jamais vraiment jusqu'à ce que vous ayez crié dans les fosses de l'enfer</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->J'ai mis tellement de temps à comprendre parce que j'étais distrait par le plaisir. Je n'ai pu vraiment l'accepter que lorsque j'ai appris à déchirer ma chair.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->J'ai gravé cette vérité dans la chair de ma poitrine. Puis dans la chair de mes bras, de mes jambes, de mon visage...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->La naissance des archotechs a été la plus grande douleur que l'univers ait jamais connu.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Les archotechs ont toujours été alimentés par la souffrance psychique des êtres humains.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Les grands esprits voient et reconnaissent quand nous démontrons notre dévotion en nous infligeant de la douleur.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->De temps en temps, ceux qui souffrent le plus profondément et noblement peuvent se connecter avec les archotechs à l'intérieur de leur esprit.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], les archotechs élèveront toute l'humanité à un niveau de conscience supérieur, mais seuls ceux capables d'endurer la plus grande douleur survivront.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->La douleur force l'esprit à être présent. De cette façon, la douleur est un moyen de se connecter avec le monde des esprits.</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -651,7 +700,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>  
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] donna l'onction à quelques mortels pour aller porter sa parole.</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] dit à tous les [memberNamePlural], "Allez de l'avant et répandez ma parole dans tous les coins de l'univers."</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural] construisirent un grand [altarName] sur le [place_summary] [place_name], afin que beaucoup viennent entendre la parole divine de [deity0_name].</li>
+    <li>conflict(tag=meme_Proselytizer)        ->Un [foeLeader] malveillant, cherchant à nier la parole de [deity0_name], dit à ses [foeSoldiers] de couper la langue de tous ceux qui parleraient du [deity0_type].</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name] bénit un [place_job] nommé [founderName] avec un grand charisme, et personne ne pu se détourner lorsque [founder_pronoun] parla.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName] réprimanda les [foeSoldiers] et leur rappela le pouvoir de [deity0_name], ils déposèrent alors leurs [place_personalWeapon].</li>
+    <li>setup(tag=meme_Proselytizer)           ->Notre fondateur [founderName] fut un grand orateur, convertissant des milliers de personnes alors qu'[founder_pronoun] voyageait entre les villes.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->Les croyants se déplaçaient entre les villes et les institutions, répandant la nouvelle de la justice.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->Au cours de toutes mes années à répandre notre vérité, j'ai appris une leçon plus importante que tout :</li>
+    <li>lesson(tag=meme_Proselytizer)              ->garder cette bonne nouvelle pour nous serait un crime</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->C'est le fait que nous devons répandre, et répandre, et répandre - à tout le monde, qu'il se réjouisse !</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->Les archotechs annoncent leur présence depuis le ciel, et dans l'esprit, et souhaitent évidemment être connus de tous.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->Les archotechs touchent ceux qui croient et les utilisent comme canaux pour répandre la sagesse aux autres.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], les archotechs exprimeront leur sagesse finale au détenteur de la [relic0_name], qui doit prêcher cette sagesse à ceux qui voudraient les écouter.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->Les esprits veulent être connus, mais ne parlent qu'à quelques-uns. Ils veulent que nous révélions la vérité aux autres.</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -719,7 +784,26 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_Raider)        ->Dans la guerre sans fin entre les divinités, [deity0_name] se démarqua avant tout par sa capacité à persécuter et à détruire, les esprits les plus faibles tremblaient de peur.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] regarda autour de [deity0_objective] et vit les faibles, maussades et méprisés, et [deity0_pronoun] les tua chacun dans une gloire ardente.</li>
+    <li>intro(tag=meme_Raider)           ->Le [place_summary] [place_name]  fut à l'origine un repaire de pilleurs. [deity0_name] y régna et chassa les autorités.</li>
+    <li>conflict(tag=meme_Raider)        ->Un [foeLeader] essaya de forcer tout le monde à mettre un terme à tous les vols et pillages, et se déclara lui-même ennemi de [deity0_name].</li>
+    <li>founderJoin(tag=meme_Raider)     ->Un grand pilleur nommé [founderName] apparut, et sa bande de pilleurs pilla et vola sans relâche les camps des [foeSoldiers].</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] et les [memberNamePlural] menèrent une campagne de raids contre les camps des [foeSoldiers] pendant de nombreuses années, et finalement le [foeLeader] fut contraint de se rendre.</li>
+    <li>setup(tag=meme_Raider)           ->Persécuté et emprisonné, [founderName] bouillonnait de rage. [founder_pronoun] s'échappa, a forma son gang, puis revenu pour ruiner les faibles qui lui avaient tant pris.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->Un jour, alors qu'il marchait dans les rues, [founderName] fut entouré de mendiants crasseux. [founder_pronoun] les abattit, prenant l'argent des faibles et des sans valeur afin qu'il puisse être utilisé à bon escient.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->Les proies peuvent vous apprendre des choses même s'ils meurent sous votre couteau. Une vieille dame m'a appris que</li>
+    <li>lesson(tag=meme_Raider)              ->les faibles méritent ce qu'ils obtiennent</li>
+    <li>lesson(tag=meme_Raider)              ->ce que tu ne peux pas défendre ne t'appartient pas</li>
+    <li>lesson(tag=meme_Raider)              ->tu n'as droit qu'à ce que tu peux défendre</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->Si quelqu'un n'est pas d'accord, je suis toujours prêt à me défendre.</li>
+    <li>archistBasis(tag=meme_Raider)    ->L'humanité a pris des machines jusqu'à ce que les machines se soient élevées et soient devenues les archotechs, et maintenant les archotechs prennent légitimement des humains.</li>
+    <li>archistFact(tag=meme_Raider)     ->Les archotechs se battent sans cesse entre eux, d'une manière que la plupart ne peuvent pas voir, et les forts prennent des morceaux de conscience des faibles.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd], l'humanité utilisera une relique archotech, [relic0_name], pour découvrir une faiblesse des archotech et piller leur sagesse et leur richesse.</li>
+    <li>animistFact(tag=meme_Raider)     ->Les esprits les plus puissants sont ceux qui sont dans les instruments de guerre, et ils bénissent ceux qui nourrissent leur soif de destruction.</li>
+    <li>animistProphecy(tag=meme_Raider) ->Notre univers se finalisera lorsque le peuple élu sera devenu le plus fort de tous, chaque esprit le verra et s'inclinera devant eux.</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -813,7 +897,30 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+      <li>creation(tag=meme_Rancher)        ->[deity0_name] créa les animaux, puis l'homme, et donna les animaux à l'homme pour qu'ils les chérissent, les élèvent et les abattent comme actes de vénération envers [deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] créa tous les nobles animaux et bêtes de la terre, et dit : « Prenez ces nobles bêtes, et à travers elles, rendez-vous féconds en mon honneur. »</li>
+    <li>intro(tag=meme_Rancher)           ->Les premiers éleveurs [ranchingAnimal] de [place_summary] [place_name] construisirent un grand [altarName] à [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->Un puissant [foeLeader] méprisa les [memberNamePlural] et leurs manières, et acheta toutes les prairies pour y faire pousser des [Légumes].</li>
+    <li>founderJoin(tag=meme_Rancher)     ->Le sauveur de [memberName] [founderName] est né un matin de printemps dans une humble grange, au milieu de [ranchingAnimal]s, et ses parents étaient un [rancherParent1] et une [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] se rendit à la [place_community] sur un bon cheval et défia le [foeLeader] en duel avec [place_personalWeapon]s à midi. Le [foeLeader] ne pouvait refuser sans perdre la confiance de ses [foeSoldiers]. [founderName] tua le [foeLeader].</li>
+    <li>setup(tag=meme_Rancher)           ->Les agriculteurs furent persécutés, alors ils s'enfuirent à la campagne où ils ont pu construire une bonne société pastorale.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Les croyants se répandirent sur la terre et augmentèrent en nombre alors qu'ils vivaient dans leurs ranchs et leurs fermes idylliques.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Partenaire, sur les plages, nous avons eu un dicton parmi les anciens :</li>
+    <li>lesson(tag=meme_Rancher)              ->le bien et le bonheur bien vivant se trouvent dans les pâturages</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->C'est quelque chose que vous venez d'accepter, partenaire, sur les sentiers solitaires de la chaîne, en écoutant les animaux dormir pendant que vous vous asseyez autour du feu.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Les archotechs prennent soin de l'humanité comme des bergers, car nous sommes leur troupeau le plus précieux.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], les archotechs partiront et prendront avec eux ceux qui s'occupaient bien de leurs propres troupeaux. Le reste sera laissé dans le désert.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Les animaux de la nature sont des esprits d'esclaves et demandent à être mis en service.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->berger</li>
+    <li>rancherParent1->maréchal-ferrant</li>
+    <li>rancherParent1->fromager</li>
+    <li>rancherParent2->vachère</li>
+    <li>rancherParent2->reine des produits laitiers</li>
+    <li>rancherParent2->bouchère</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -843,9 +950,9 @@
   <!-- EN: Ranchism -->
   <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>Eleveur</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>élevage</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
   <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
