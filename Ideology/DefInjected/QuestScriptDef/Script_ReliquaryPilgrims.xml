@@ -20,8 +20,8 @@
   <ReliquaryPilgrims.questContentRules.rulesStrings>
     <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] arrivé(s)</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] vous remercie pour avoir laissé [pawns0_objective] [andFollowers] vénérer [relic_name] le [venerateDate]. Comme récompense, [pawns0_nameDef] vous envoie ceci par capsule (valeur totale [rewardsMarketValue_money]):\n\n[rewards].</li>
-    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] fini de vénérer [relic_name] et [areIs] part(ent).</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] vous remercie pour avoir laissé [pawns0_objective] [andFollowers] vénérer [relic_name] le [venerateDate]. Comme récompense, [pawns0_nameDef] vous envoie ceci par capsule (valeur totale [rewardsMarketValue_money]) :\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] fini de vénérer [relic_name] et part(ent).</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] quitté(s) la carte.</li>
     <li>areIs(pilgrimCount==1)->a</li>
     <li>areIs(pilgrimCount>=2)->ont</li>
@@ -59,13 +59,13 @@
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
-    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrivés pour vénérer la relique [relic_name].\n\nSi vous vous assurez qu'[pronounSingularOrPlural] [isAre] en sécurité et respecté(s) pendant qu'[pronounSingularOrPlural] [visitSingularOrPlural] l'ancienne relique, une récompense pourrait arriver.</li>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural] arrivé(s) pour vénérer la relique [relic_name].\n\nSi vous vous assurez qu'[pronounSingularOrPlural] [isAre] en sécurité et respecté(s) pendant qu'[pronounSingularOrPlural] [visitSingularOrPlural] l'ancienne relique, une récompense pourrait arriver.</li>
     <li>isAre(pilgrimCount==1)->est</li>
     <li>isAre(pilgrimCount>=2)->sont</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
     <li>pronounSingularOrPlural(pilgrimCount>=2)->ils</li>
-    <li>visitSingularOrPlural(pilgrimCount==1)->visitent</li>
-    <li>visitSingularOrPlural(pilgrimCount>=2)->visite</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->visite</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->visitent</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
