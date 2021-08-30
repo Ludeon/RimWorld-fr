@@ -86,6 +86,10 @@
   <ModSettings>Paramètres des Mods</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Suppression du mode développeur</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>Compression des textures</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>La désactivation de la compression des textures utilisera beaucoup plus de mémoire vidéo, mais rendra les textures légèrement meilleures dans les zones détaillées. Ne désactivez cette option que si vous savez que vous disposez de beaucoup de mémoire vidéo supplémentaire.\n\nNotez que l'utilisation de certains mods consomme souvent beaucoup plus de mémoire vidéo, vous devrez donc peut-être activer cette option si vous ajoutez certains mods.</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -106,6 +110,8 @@
   <ResetAndRestart>Vos paramètres ont été réinitialisés. Le jeu va maintenant redémarrer.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Tous vos paramètres seront réinitialisés par défaut et le jeu sera redémarré. Tous les progrès non enregistrés seront perdus !\n\nContinuer ?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>La modification de l'option de compression des textures nécessite un redémarrage. Tous les progrès non enregistrés seront perdus !\n\nContinuer ?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->

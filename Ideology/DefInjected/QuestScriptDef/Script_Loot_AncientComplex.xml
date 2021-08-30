@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
-  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+      <li>questDescription->Vous avez entendu parler d'un ancien complexe à proximité qui contiendrait un trésor ancien.\n\nVous pouvez entrer par effraction pour récupérer le butin à l'intérieur.\n\nAttention : ces types de structures peuvent contenir diverses menaces. De plus, votre activité dans le complexe peut attirer une attention indésirable.</li>
+</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
     <li>questName->[complex] [finalWord]</li>
@@ -30,6 +32,30 @@
     <li>finalWord->caper</li>
     <li>finalWord->booty</li>
   -->
-  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[finalWord] dans une [complex] [complexAdj]</li>
+    <li>questName->[finalWord] d'une [complex]</li>
+    <li>complexAdj->secrète</li>
+    <li>complexAdj->mystérieuse</li>
+    <li>complexAdj->du passé</li>
+    <li>complexAdj->oubliée</li>
+    <li>complexAdj->cachée</li>
+    <li>complexAdj->mortelle</li>
+    <li>complex->base</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>finalWord->trésor</li>
+    <li>finalWord->richesses</li>
+    <li>finalWord->saccage</li>
+    <li>finalWord->cache</li>
+    <li>finalWord->butin</li>
+    <li>finalWord->vol</li>
+    <li>finalWord->rapine</li>
+    <li>finalWord->pillage</li>
+    <li>finalWord->magot</li>
+    <li>finalWord->braquage</li>
+    <li>finalWord->cambriolage</li>
+    <li>finalWord->butin</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
   
 </LanguageData>
