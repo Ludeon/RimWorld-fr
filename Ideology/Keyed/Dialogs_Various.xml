@@ -45,15 +45,23 @@
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Exigences de la pièce</RoomRequirements>
-  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeo>L'idéologion que vous chargez contient des mèmes incompatibles avec une nouvelle idéologion fluide et ses mèmes devront être choisis à nouveau (les idéologions fluides ne peuvent commencer qu'avec un seul mème à faible impact). Les mèmes suivants sont incompatibles :\n\n{0}\n\nVoulez-vous continuer ?</ConfirmChangeMemesForFluidIdeo>
-  
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>L'idéologion que vous chargez contient des mèmes incompatibles avec une nouvelle idéologion fluide et ses mèmes devront être choisis à nouveau (les idéologions fluides ne peuvent commencer qu'avec un seul mème à faible impact).</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>rôle</Role>
   <!-- EN: Assign role -->
   <ChooseRole>Attribuer un rôle</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>TODO</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Aucun rôle attribué</NoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>TODO</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>Vous êtes sur le point d'attribuer à {PAWN_labelShort} le rôle de '{ROLE_label}'.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
@@ -147,9 +155,9 @@
   <CannotAssignBedToColonist>Colon</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
   <AnySlave>N'importe quel esclave</AnySlave>
-  <!-- EN: Negotiator will not sell people into slavery. -->
-  <NegotiatorWillNotTradeSlaves>Le négociateur ne vendra pas d'esclaves.</NegotiatorWillNotTradeSlaves>
-  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
+  <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>Le négociateur, {0_nameDef}, ne réduira pas les gens en esclavage en raison de sa croyance en {1}.\n\nNotez que {0_nameDef} est prêt à racheter quelqu'un à sa propre faction, mais n'est pas disposé à vendre quelqu'un à une autre faction.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
