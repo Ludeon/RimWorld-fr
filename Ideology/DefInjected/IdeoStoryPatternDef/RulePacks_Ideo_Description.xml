@@ -80,13 +80,13 @@
   -->
   <IdeologicalFounder.rules.rulesStrings>
     <li>story(priority=-999)-></li>
-    <li>setup->Dans un monde brisé, [founderName] a vu tout ce qui n'allait pas et a créé notre mouvement.</li>
-    <li>setup->Frappé par l'injustice du monde, [founderName] a étudié l'histoire et la philosophie et a découvert la nouvelle vérité qui nous guide.</li>
-    <li>setup->Un jour, alors qu'il travaillait, [founderName] a été frappé d'une grande révélation. [founder_pronoun] a lâché ses outils et a commencé à répandre la bonne parole auprès des autres travailleurs.</li>
-    <li>setup->[founderName] s'est assis sur le banc d'un parc pendant vingt ans alors qu'[founder_pronoun] contemplait notre monde. Avec sa perspicacité, [founder_pronoun] a écrit notre livre fondateur.</li>
+    <li>setup->Dans un monde brisé, [founderName] vit tout ce qui n'allait pas et créa notre mouvement.</li>
+    <li>setup->Frappé par l'injustice du monde, [founderName] étudia l'histoire et la philosophie et découvrit la nouvelle vérité qui nous guide.</li>
+    <li>setup->Un jour, alors qu'il travaillait, [founderName] fut frappé d'une grande révélation. [founder_pronoun] lâcha ses outils et commença à répandre la bonne parole auprès des autres travailleurs.</li>
+    <li>setup->[founderName] s'assit sur le banc d'un parc pendant vingt ans alors qu'[founder_pronoun] contemplait notre monde. Avec sa perspicacité, [founder_pronoun] écrivit notre livre fondateur.</li>
     <li>story(uses=1,priority=-10)->Les [memberNamePlural] n'auraient pas compris la vraie nature de [memeConcept] sans les enseignements de [founderName].</li>
-    <li>story(uses=1,priority=-10)->Le discours de [founderName] lors d'un [ritualName] a inspiré de nombreuses personnes à mener une vie [memeAdjective].</li>
-    <li>story(uses=1,priority=-10)->Aucun ne pouvait surpasser la compréhension de [founderName] de [memeConcept], et [founder_pronoun] a été nommé le premier [leaderTitle] des [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->Le discours de [founderName] lors d'un [ritualName] inspira de nombreuses personnes à mener une vie [memeAdjective].</li>
+    <li>story(uses=1,priority=-10)->Aucun ne pouvait surpasser la compréhension de [founderName] de [memeConcept], et [founder_pronoun] fut nommé premier [leaderTitle] des [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] portait un [relic0_thingDef_label] nommé [relic0_name] avec [founder_objective] partout pour rappeler aux gens de vivre une vie [memeAdjective].</li>
   </IdeologicalFounder.rules.rulesStrings>
   
@@ -248,24 +248,24 @@
   -->
   <TheistFounder.rules.rulesStrings>
     <li>intro->Les habitants de [place_summary] [place_name] vivaient sous la [memeAdjective] supervision de [deity0_name].</li>
-    <li>intro->Les habitants de  [place_summary] [place_name], à la fois [memberNamePlural] et d'autres, ont vécu en paix pendant de nombreuses années sous l'œil vigilant de [deity0_name].</li>
-    <li>intro->Le [deity0_type], [deity0_name], s'est révélé aux habitants de [place_name] afin qu'ils puissent comprendre [memeConcept], et les a guidés.</li>
-    <li>intro->[deity0_name] a guidé l'humanité jusqu'à [place_name] et l'a aidée à s'y installer.</li>
-    <li>intro->Sur le [place_summary] [place_name], pendant le [ritualName], les gens venaient au [altarName] au [altarRoomLabel] de [deity0_name] et priaient avec [memeConcept] dans leur cœur.</li>
-    <li>conflict->Un [foeLeader] est apparu et a menacé de détruire [deity0_name] [deity0_objective] en utilisant [place_massWeapon].</li>
-    <li>conflict->Un [foeLeader] et ses [foeSoldiers] diaboliques ont réduit en esclavage les adorateurs de [deity0_name].</li>
-    <li>conflict->Puis le [foeLeader] est venu. Ses [foeSoldiers] ont tué de nombreux adorateurs de [deity0_name] avec des [place_personalWeapon].</li>
-    <li>conflict->Un groupe de [foeSoldiers] s'est élevé sous la direction d'un terrible [foeLeader]. Ils ont piégé les [memberNamePlural] dans une seule [place_community].</li>
-    <li>conflict->Il y avait la paix, jusqu'à ce qu'un [foeLeader] et ses [foeSoldiers] se rebellent contre la domination de [deity0_name]. Les [memberNamePlural] ont été forcés de fuir vers une [place_community] cachée.</li>
-    <li>founderJoin->Un héros nommé [founderName] a tenté d'assassiner le [foeLeader]. [founder_pronoun] a échoué, mais [deity0_name] a été témoin de la lutte de [founderName] et l'a nommé prophète des [memberNamePlural].</li>
-    <li>founderJoin->[deity0_name] est venu au [place_job] [founderName] [revelationAdverb] et a parlé à [founder_objective] de [memeConcept].</li>
-    <li>founderJoin->[founderName] a rencontré [revelationObject], qui a parlé dans la voix de [deity0_name] à propos de [memeConcept].</li>
-    <li>founderJoin->Un renommé [place_job] nommé [founderName] a réuni les [memberNamePlural] et a même recruté certains des [foeSoldiers].</li>
-    <li>founderJoin-> Un [place_job] nommé [founderName] s'est levé et s'est prononcé contre le [foeLeader], et [deity0_name] a béni [founderName].</li>
-    <li>founderJoin->[deity0_name] a décidé de venir à [place_name] en tant qu'humain nommé [founderName] pour aider les [memberNamePlural].</li>
-    <li>founderJoin->Un héros nommé [founderName] a tué une centaine de [foeSoldiers] à l'aide d'une [place_personalWeapon], et [deity0_name] a guidé [founder_objective] en parlant à travers la [relic0_name].</li>
-    <li>victory->[founderName] a rassemblé les [memberNamePlural] dans une [place_community] et leur a enseigné la sagesse de [deity0_name].</li>
-    <li>victory->[founderName] s'est sacrifié [founder_objective] pour tuer personnellement le [foeLeader].</li>
+    <li>intro->Les habitants de  [place_summary] [place_name], à la fois [memberNamePlural] et d'autres, vécurent en paix pendant de nombreuses années sous l'œil vigilant de [deity0_name].</li>
+    <li>intro->Le [deity0_type], [deity0_name], se révéla aux habitants de [place_name] afin qu'ils puissent comprendre [memeConcept], et les guida.</li>
+    <li>intro->[deity0_name] guida l'humanité jusqu'à [place_name] et l'aida à s'y installer.</li>
+    <li>intro->Sur le [place_summary] [place_name], pendant le [ritualName], les gens venirent au [altarName] au [altarRoomLabel] de [deity0_name] et prièrent avec [memeConcept] dans leur cœur.</li>
+    <li>conflict->Un [foeLeader] apparu et a menaça de détruire [deity0_name] [deity0_objective] en utilisant [place_massWeapon].</li>
+    <li>conflict->Un [foeLeader] et ses [foeSoldiers] diaboliques réduirent en esclavage les adorateurs de [deity0_name].</li>
+    <li>conflict->Puis le [foeLeader] vint. Ses [foeSoldiers] tuèrent de nombreux adorateurs de [deity0_name] avec des [place_personalWeapon].</li>
+    <li>conflict->Un groupe de [foeSoldiers] s'éleva sous la direction d'un terrible [foeLeader]. Ils piégèrent les [memberNamePlural] dans un [place_community].</li>
+    <li>conflict->Il y avait la paix, jusqu'à ce qu'un [foeLeader] et ses [foeSoldiers] se rebellèrent contre la domination de [deity0_name]. Les [memberNamePlural] furent forcés de fuir vers une [place_community] cachée.</li>
+    <li>founderJoin->Un héros nommé [founderName] tenta d'assassiner le [foeLeader]. [founder_pronoun] échoua, mais [deity0_name] fut témoin de la lutte de [founderName] et le nomma prophète des [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] vint au [place_job] [founderName] [revelationAdverb] et parla à [founder_objective] de [memeConcept].</li>
+    <li>founderJoin->[founderName] rencontra [revelationObject], qui parla dans la voix de [deity0_name] à propos de [memeConcept].</li>
+    <li>founderJoin->Un renommé [place_job] nommé [founderName] réunit les [memberNamePlural] et recruta certains des [foeSoldiers].</li>
+    <li>founderJoin-> Un [place_job] nommé [founderName] se leva et se prononça contre le [foeLeader], et [deity0_name] bénit [founderName].</li>
+    <li>founderJoin->[deity0_name] décida de venir à [place_name] en tant qu'humain nommé [founderName] pour aider les [memberNamePlural].</li>
+    <li>founderJoin->Un héros nommé [founderName] tua une centaine de [foeSoldiers] à l'aide d'une [place_personalWeapon], et [deity0_name] guida [founder_objective] en parlant à travers la [relic0_name].</li>
+    <li>victory->[founderName] rassembla les [memberNamePlural] dans une [place_community] et leur enseigna la sagesse de [deity0_name].</li>
+    <li>victory->[founderName] se sacrifia [founder_objective] pour tuer personnellement le [foeLeader].</li>
     <li>revelationAdverb->dans une vision</li>
     <li>revelationAdverb->dans un rêve</li>
     <li>revelationAdverb->dans un cauchemar</li>
@@ -297,14 +297,14 @@
   -->
   <TheistMyth.rules.rulesStrings>
     <li>episode(priority=-1)-></li>
-    <li>creation->Pendant une éternité, il y avait un monde [materialOrigin] [Color] , jusqu'à ce que [deity0_name] crée les planètes et les étoiles.</li>
-    <li>creation->Dans un vieil univers de conflits, [deity0_name] a attisé un grand feu qui a balayé le dernier âge et en a fait naître un nouveau.</li>
-    <li>creation->[deity0_name] a donné naissance à des humains dans un grand accident et les a regardés avec curiosité.</li>
-    <li>creation->L'univers était un vide. Ensuite, [deity0_name], ennuyé par l'éternité, a façonné l'homme et la femme [bodilyOrigin].</li>
-    <li>episode(uses=1)->En regardant l'humanité, [deity0_name] les a trouvés enfantins et a déclaré sa domination sur eux.</li>
-    <li>episode(uses=1)->À travers les vastes distances stellaires, la volonté de [deity0_name] a protégé la vie de l'humanité contre le vide.</li>
-    <li>episode(uses=1)->Bien que de nombreux aventuriers se soient ligués contre [deity0_objective], [deity0_name] les a facilement contenu, car [deity0_pronoun] était [deity0_type].</li>
-    <li>episode(uses=1)->La souffrance de l'humanité a causé à [deity0_name] un terrible chagrin.</li>
+    <li>creation->Pendant une éternité, il y avait un monde [materialOrigin] [Color] , jusqu'à ce que [deity0_name] créèrent les planètes et les étoiles.</li>
+    <li>creation->Dans un vieil univers de conflits, [deity0_name] attisa un grand feu qui balaya le dernier âge et en a fit naître un nouveau.</li>
+    <li>creation->[deity0_name] donna naissance à des humains dans un grand accident et les regarda avec curiosité.</li>
+    <li>creation->L'univers était un vide. Ensuite, [deity0_name], ennuyé par l'éternité, façonna l'homme et la femme [bodilyOrigin].</li>
+    <li>episode(uses=1)->En regardant l'humanité, [deity0_name] les trouva enfantins et déclara sa domination sur eux.</li>
+    <li>episode(uses=1)->À travers les vastes distances stellaires, la volonté de [deity0_name] protégea la vie de l'humanité contre le vide.</li>
+    <li>episode(uses=1)->Bien que de nombreux aventuriers se soient ligués contre [deity0_objective], [deity0_name] les contenit facilement, car [deity0_pronoun] était [deity0_type].</li>
+    <li>episode(uses=1)->La souffrance de l'humanité causa à [deity0_name] un terrible chagrin.</li>
     <li>materialOrigin->d'argile</li>
     <li>materialOrigin->de gaz</li>
     <li>materialOrigin->d'eau</li>
