@@ -148,11 +148,11 @@
   <!-- EN: quest -->
   <QuestLower>quête</QuestLower>
   <!-- EN: Vegetarian -->
-  <MealKindVegetarian>TODO</MealKindVegetarian>
+  <MealKindVegetarian>Végétarien</MealKindVegetarian>
   <!-- EN: Contains meat -->
-  <MealKindMeat>TODO</MealKindMeat>
+  <MealKindMeat>Contient de la viande</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
-  <MealKindAny>TODO</MealKindAny>
+  <MealKindAny>Nourriture acceptable pour tout le monde</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Impossible de charger l'idéoligion</UnableToLoadIdeoTitle>
@@ -218,9 +218,9 @@
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} est une mauviette et n'aimera pas être aveuglé.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>Une scarification est prévue pour {IDEOMEMBERPLURAL} tant qu'il y a moins de {0} scarifié {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Un rite d'aveuglement est prévu pour chaque colons actuel et chaque colons rejoignant {IDEOMEMBER}</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Toutes les personnes participant au rituel ont gagné un bonus de concentration qui durera une journée ({PERCENTAGE} vitesse de travail globale) !</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -604,25 +604,25 @@
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>chargement des ingrédients</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(et bioajustement)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>Débute {0} cycle</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
-  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDuration>Durée</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
-  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleDurationTranshumanists>Durée (transhumanistes)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>Prêt pour la sélection du cycle</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>En attente pour {CYCLE} cycle avec {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>Nourriture chargée, pas d'alimentation</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Fin dans</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
-  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
+  <BiosculpterCycleAccelerated>accéléré pour les transhumanistes</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>En pause: pas d'alimentation (interruption dans {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Biotuning</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
@@ -630,11 +630,11 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompre le cycle en cours. L'occupant sera éjecté sans bénéficier des effets du cycle, et souffrira de la maladie du biosculptage de courte durée.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} va entrer dans le biosculpteur et commencer un cycle de {CYCLE}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>TODO</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} va collecter {INGREDIENTS}, puis commencer un cycle de {CYCLE}.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} va collecter {INGREDIENTS}, placer {DOWNED_labelShort} à l'intérieur du biosculpteur, puis commencer un cycle de {CYCLE}.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} nourriture</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -650,7 +650,7 @@
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Facteur de vitesse de propreté</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Facteur de vitesse du bioajustement</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Ces maladies ou blessures seront guéries</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
