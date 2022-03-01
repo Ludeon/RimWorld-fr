@@ -113,7 +113,6 @@
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>Cette action fera perdre son titre {TITLE} à {PAWN_nameDef}. Vous ne recevrez pas de compensation pour le renoncement à ce titre.\n\nCela aura les effets suivants :\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <!-- TODO: A voir en jeu s'il vaut mieux utiliser le pronoun ou le namedef -->
   <RenounceTitleWillLoosePermits>{PAWN_nameDef} va perdre ces autorisations</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perdra {POINTS} points de licences non dépensés avec {FACTION_name}.</RenounceTitleWillLosePermitPoints>
@@ -507,7 +506,6 @@
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>réduction de la résistance de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <!-- TODO: alt = 'Trop grand(e)' -->
   <TooLargeForBed>Trop large</TooLargeForBed>
   <!-- EN: Warning -->
   <Warning>Avertissement</Warning>
@@ -529,6 +527,10 @@
   <AttackToDestroy>Attaquez-le pour le détruire.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Supprimez ceci en l'attaquant.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -636,8 +638,7 @@
   <!-- EN: Roped to -->
   <RopedToThing>Attacher avec une corde à</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <!-- TODO: à revoir -->
-  <RopedToSpot>Attacher avec une corde à cet endroit.</RopedToSpot>
+  <RopedToSpot>Attaché à cet endroit.</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>Taille de l'enclos</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -651,7 +652,6 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>Non fermé - construisez des clôtures</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <!-- TODO: à revoir -->
   <PenCapacityDesc>{ANIMALDEF_label} capacité</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Exemples d'animaux</PenExampleAnimals>
@@ -711,8 +711,7 @@
   <!-- EN: resting. -->
   <ReportResting>se repose.</ReportResting>
   <!-- EN: laying down. -->
-  <!-- TODO: à revoir, allongé au sol? sur un lit? alt = 'couché sur le sol' -->
-  <ReportLayingDown>allongé au sol.</ReportLayingDown>
+  <ReportLayingDown>allongé.</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
   <WatchingSunrise>admire le lever du soleil.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
@@ -1224,7 +1223,6 @@
   <!-- EN: inactive -->
   <InactiveFacility>inactif</InactiveFacility>
   <!-- EN: Links to -->
-  <!-- TODO: Lié, féminin ? Facility = installation -->
   <FacilityPotentiallyLinkedTo>Lié à</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Non lié à un bâtiment</FacilityNoPotentialLinks>
@@ -1473,11 +1471,9 @@
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <!-- TODO: alternative sans parentèse ? Faire attention au genre du nom de la maladie -->
   <HealingCureHediff>La condition ( {1} ) de {0_nameDef} a été guérie.</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <!-- TODO: alternative sans parentèse ? Faire attention au genre du nom du membre du corps -->
-  <HealingRestoreBodyPart>Le membre ( {1} ) de {0_nameDef} a été restauré(e).</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>Le membre ( {1} ) de {0_nameDef} a été restauré.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
   <WarningBuildingCausesHostility>Attention: Placer une construction ici va mettre en colère {FACTION_name}!</WarningBuildingCausesHostility>

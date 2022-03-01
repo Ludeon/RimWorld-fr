@@ -11,12 +11,14 @@
   <RandomStructureTip>Une structure sera choisie au hasard pour votre idéoligion.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Un style sera choisi au hasard pour votre idéoligion.</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Personnaliser</Customize>
-  <!-- EN: Play classic -->
+  <!-- EN: Ideology system inactive -->
   <PlayClassic>Jeu classique</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>Créer une idéoligion fluide</CreateFluid>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Créer une personnalisée\n(fluide)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Créer une personnalisée\n(fixe)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>Idéoligions personnalisées</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Importer</LoadSaved>
   <!-- EN: Structure -->
@@ -93,10 +95,8 @@
   <RequiredPrecepts>Préceptes requis</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Rituels requis</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Désactive les préceptes</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Désactive {0} préceptes.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Empêche les préceptes</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>Styles</Styles>
   <!-- EN: Chance to have precept -->
@@ -171,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>Une tombe vide pour faire le deuil de {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Une tombe contenant le cadavre de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Une tombe contenant un corps.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Une tombe vide pour faire le deuil de {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
