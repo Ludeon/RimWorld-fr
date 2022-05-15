@@ -37,7 +37,7 @@
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] créa [sacredAnimalList] et l'humain sur [place_summary] [place_name] et les éleva en tant que frères et sœurs.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] réunit les animaux et les humains de [place_summary] [place_name] lors d'une grande conférence.</li>
-    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bénit le [lieu_summary] [place_name] avec [sacredAnimalListEnd] et a appris aux habitants à honorer les animaux.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] bénit le [place_summary] [place_name] avec [sacredAnimalListEnd] et a appris aux habitants à honorer les animaux.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->Un [foeLeader] diabolique ordonna de chasser les animaux sauvages, et ses [foeSoldiers] les chassèrent avec des [place_personalWeapon] cruels.</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] vint à un [place_job] nommé [founderName] [revelationAdverb] à propos d'un [veneratedAnimal]. Mais [founderName] était le [veneratedAnimal], et le [veneratedAnimal] était [founderName], et [founder_pronoun] comprit le plan de [deity0_name].</li>
     <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] nommé [founderName] libéra de nombreux animaux réduits en esclavage par des maîtres cruels et les emmena au sanctuaire de [altarRoomLabel] de [deity0_name].</li>
@@ -215,8 +215,8 @@
   <Cannibal.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Cannibal)        ->[deity0_name] alla voir son frère et l'assassina, et se régala de sa chair, et en absorbant sa puissance devint le premier parmi les dieux.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->Le [deity0_type] [deity0_name] mangea les corps de ses ennemis.</li>
-    <li>intro(tag=meme_Cannibal)           ->Sur le [lieu_summary] [place_name], il y eut un humain nommé [deity0_name]. Après la mort de son père, [deity0_name] mangea sa chair et devint le [deity0_type].</li>
-    <li>intro(tag=meme_Cannibal)           ->Sur le [lieu_summary] [place_name], pendant le [ritualName], [deity0_name] descendit dans le [altarRoomLabel] et mangea la chair des humains devant les [memberNamePlural].</li>
+    <li>intro(tag=meme_Cannibal)           ->Sur le [place_summary] [place_name], il y eut un humain nommé [deity0_name]. Après la mort de son père, [deity0_name] mangea sa chair et devint le [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->Sur le [place_summary] [place_name], pendant le [ritualName], [deity0_name] descendit dans le [altarRoomLabel] et mangea la chair des humains devant les [memberNamePlural].</li>
     <li>conflict(tag=meme_Cannibal)        ->Un [foeLeader] déclara que tous ceux qui mangeaient de la chair humaine étaient des criminels, et envoya ses [foeSoldiers] persécuter les [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Cannibal)     ->Un [place_job] nommé [founderName] fut attaqué par l'un des [foeSoldiers] de [foeLeader]. [founderName] tua [foeLeader_objective] avec une [place_personalWeapon], consomma sa chair et gagna la force de [deity0_name].</li>
     <li>victory(tag=meme_Cannibal)         ->[founderName] conduisit un groupe de [memberNamePlural] dans le [place_powerCenter], tua le [foeLeader] et mangea sa chair. [deity0_name] fit de [founderName] le nouveau [foeLeader].</li>
@@ -390,7 +390,7 @@
   <FleshPurity.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] essuya la pollution et les machines de l'ère de la fumée pour créer un jardin, dans lequel [deity0_pronoun] plaça les premiers ancêtres humains purs.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->Les impuretés, tatouées, percées et modifiées furent jetées dans l'océan par [deity0_name].</li>
-    <li>intro(tag=meme_FleshPurity)           ->Sur le [lieu_summary] [place_name] il y eu un [altarName] dans le [altarRoomLabel] de [deity0_name], où le [deity0_type] bénit ceux de chair pure.</li>
+    <li>intro(tag=meme_FleshPurity)           ->Sur le [place_summary] [place_name] il y eu un [altarName] dans le [altarRoomLabel] de [deity0_name], où le [deity0_type] bénit ceux de chair pure.</li>
     <li>conflict(tag=meme_FleshPurity)        ->Un [foeLeader] diabolique envoya des [foeSoldiers] pour injecter à tout le monde des dispositifs de suivi.</li>
     <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] nommé [founderName] protesta contre le [foeLeader] en s'agenouillant devant le [place_powerCenter] et en arrachant toute la technologie de son corps à l'aide de ses mains nues.</li>
     <li>victory(tag=meme_FleshPurity)         ->Le [foeLeader] envoya finalement ses [foeSoldiers] tuer les [memberNamePlural], mais l'énergie de [deity0_name] coula de la chair pure des [memberNamePlural], et les appareils dans le corps des [foeSoldiers] se transformèrent en cendres et les tuèrent.</li>
