@@ -25,11 +25,15 @@
   <CameraDolly.label>Mouvement de la caméra</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
   <CameraDolly.helpText>Déplacez la caméra avec la souris en maintenant le bouton droit (ou milieu) ou avec les touches   {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>Déplacez la caméra avec le D-pad.</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>Zoom de la caméra</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
   <CameraZoom.helpText>Zoomez sur la carte avec la ROULETTE ou les touches {Key:MapZoom_In} et {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>Zoom avant et arrière avec {Key:MapZoom_In} et {Key:MapZoom_Out}.</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Cliquer sur les notifications</ClickingMessages.label>
@@ -50,6 +54,8 @@
   <EquippingWeapons.label>Équiper d'une arme</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>Pour que votre colon s'équipe d'une arme, sélectionnez-le puis faites un clic-droit sur l'arme.\n\nÀ leur arrivée sur la planète, il y a des armes sur le sol près de votre point de départ.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>Pour que votre colon s'équipe d'une arme, sélectionnez-le puis appuyer sur la gâchette gauche sur l'arme.\n\nÀ leur arrivée sur la planète, il y a des armes sur le sol près de votre point de départ.</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>Prévention des incendies</FirePreparation.label>
@@ -164,7 +170,9 @@
   <!-- EN: Time controls -->
   <TimeControls.label>Régler l'écoulement du temps</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.helpText>Vous pouvez accélérer, ralentir ou arrêter le temps.\n\nEssayez avec les touches {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, et {Key:TimeSpeed_Superfast}, ou en utilisant le menu en bas à droite de l'écran.</TimeControls.helpText>
+  <TimeControls.helpText>Vous pouvez accélérer, ralentir ou arrêter le temps.\n\nEssayez avec les touches {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, et {Key:TimeSpeed_Superfast}, ou en utilisant le menu de contrôles en bas à droite de l'écran.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>Vous pouvez accélérer, ralentir ou arrêter le temps.\n\nEssayez avec {Key:TimeSpeed_Faster} et {Key:TimeSpeed_Slower}, ou en utilisant le menu de contrôles en bas à droite de l'écran.</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Définir les tâches</WorkTab.label>

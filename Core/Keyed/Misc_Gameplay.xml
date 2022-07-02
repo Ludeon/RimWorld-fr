@@ -175,7 +175,6 @@
   <!-- EN: enemies -->
   <Enemies>ennemis</Enemies>
   <!-- EN: people -->
-  <!-- TODO: Pluriel ? -->
   <People>personne(s)</People>
   <!-- EN: time passed -->
   <TimePassed>temps passé</TimePassed>
@@ -864,6 +863,8 @@
   <SelectNextInSquareTip>Sélectionner l'élément suivant sur la même case.\n\n(*SectionTitle)Raccourci :(/SectionTitle) {0}\n\nVous pouvez faire ceci en re-cliquant lentement sur la même case.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Voir les informations.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>Sélectionnez la chose suivante dans la même case.\n\nVous pouvez également le faire en cliquant à nouveau doucement sur la même case.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1014,12 +1015,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Masque l'assistant d'apprentissage quand il est vide.\n\nL'assistant est toujours visible s'il y a un concept à apprendre d'activé. Cette fonction le fait disparaître quand aucun concept n'est actif.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Activer la visibilité des zones.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Activer l'affichage de la beauté d'une zone.\n\nAffiche ou non la beauté du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement de la souris.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>Afficher les statistiques de la pièce.\n\nAffiche les statistiques de la pièce pointée par la souris.</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>Activer l'affichage de la beauté d'une zone.\n\nAffiche ou non la beauté du paysage telle qu'elle serait ressentie par un personnage se tenant à l'emplacement du curseur.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>Afficher les statistiques de la pièce.\n\nAffiche les statistiques de la pièce pointée par le curseur.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Afficher la barre des colons.\n\nAffiche les icônes et le statut de tous les colons en haut de l'écran.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Afficher la barre des colons.\n\nAffiche les icônes et le statut de tous les colons en haut de l'écran.\n\nVous pouvez réorganiser les cases de la bar des colons avec un clic droit, puis glisser.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>Afficher la barre des colons.\n\nAffiche les icônes et le statut de tous les colons en haut de l'écran.\n\nVous pouvez réorganiser les cases de la bar des colons avec la gâchette gauche, puis glisser.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Activer l'ajout de Zone de Base automatique autour des nouvelles constructions.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1324,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calcul pour : {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Clic droit souris : ajouter/enlever marqueur.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Bouton gâchette gauche : ajouter/enlever marqueur.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC : quitter le mode planification.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: quitter le mode planification.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC : retourner à la fenêtre de formation des caravanes.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: retourner à la fenêtre de formation des caravanes.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Durée de trajet est. : {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1512,7 +1521,9 @@
   <!-- EN: Not participating -->
   <NotParticipating>Ne participe pas</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Glisser-déposer ou un clic souris pour déplacer.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Glisser-déposer ou un clic souris pour déplacer les colons.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>Glisser-déposer ou un clic pour déplacer les colons.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclave. La propriété humaine d'autrui.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1524,19 +1535,16 @@
   <!-- EN: No substitute available for the role of {0}. -->
   <RitualRoleCantSubstitute>Pas de substitut disponible pour le rôle de {0}.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
-  <!-- TODO: à revoir le sens de {0} -->
   <RitualOutcomeProgress>{0} progrès</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
   <RitualOutcomeQualityAbstract>La qualité de {0} dépend de</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <!-- TODO: à revoir le sens de {0} -->
   <RitualOutcomeQualitySpecific>{0} qualité total était de {1}, déterminé par ces facteurs</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>Chances de réussite avec une qualité de {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Effectué récemment</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <!-- TODO: à revoir le sens de {0} -->
   <RitualQualityExpectations>{0} attentes</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Son de l'ambiance rituelle</RitualAmbienceSound>
@@ -1574,7 +1582,6 @@
   <ExpectedRitualDuration>Durée attendue</ExpectedRitualDuration>
   
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <!-- TODO: à revoir le sens de {1} -->
   <RitualPredictedOutcomeDescPawnStat>{1} de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Beauté de la pièce</RitualPredictedOutcomeDescRoomBeauty>
@@ -1589,10 +1596,8 @@
   <RitualRoleReplaces>Remplacer {PAWN_labelShort}</RitualRoleReplaces>
 
   <!-- EN: present -->
-  <!-- TODO: présent ou cadeau ? à revoir en jeu -->
   <Present>présent</Present>
   <!-- EN: {0} used -->
-  <!-- TODO: à revoir en jeu -->
   <Used>{0} utilisé</Used>
   <!-- EN: {0} starting quality -->
   <StartingRitualQuality>Qualité initiale {0}</StartingRitualQuality>
