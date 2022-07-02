@@ -117,8 +117,8 @@
     <li>insulted->lancé des invectives au sujet de</li>
     <li>insulted->ridiculisé</li>
     <li>insultcomparison(p=2)->[AnimalAny_indef]</li>
-    <li>insultcomparison->un [Enemy]</li>
-    <li>insultcomparison->une [Enemy_Feminine]</li>
+    <li>insultcomparison(RECIPIENT_gender!=Female)->un [Enemy]</li>
+    <li>insultcomparison(RECIPIENT_gender=Female)->une [Enemy_Feminine]</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
