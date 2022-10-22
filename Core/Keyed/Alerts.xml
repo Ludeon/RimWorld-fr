@@ -72,7 +72,7 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Un chasseur n'a pas d'arme à distance</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
   <HunterLacksWeaponDesc>Un colon est assigné comme chasseur mais n'a pas d'arme à distance. Il ne chassera pas tant qu'il ne portera pas d'arme à distance.</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
@@ -130,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Batteries nécessaires</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
   <NeedBatteriesDesc>Vous avez des panneaux solaires ou des éoliennes, mais pas de batteries. Cela signifie que vous tomberez à court d'énergie à chaque fois que le soleil se couche ou que le vent se calme.\n\nConstruisez une batterie ou deux pour maintenir votre alimentation électrique.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>TODO</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>TODO</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Un bagarreur a une arme à distance</BrawlerHasRangedWeapon>
@@ -158,11 +162,11 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>Ces caravanes vous attendent pour définir leur prochaine destination :\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
+  <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Un colon a besoin de soins</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Ces colons ont besoin de soins médicaux. Sans cela, ils pourraient succomber à leurs blessures ou être handicapés à vie.\n\n{0}\nSoignez-les en les envoyant se reposer sur un lit médical.\n\n(D'abord, assignez un lit médical en le sélectionnant et en activant l'option "Lit médical". Ensuite sélectionnez le colon blessé et faites un clic droit sur le lit médical pour transformer ce colon en patient.)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDescController>Ces colons ont besoin de soins médicaux. Sans cela, ils pourraient succomber à leurs blessures ou être handicapés à vie.\n\n{0}\nSoignez-les en les envoyant se reposer sur un lit médical.\n\n(D'abord, assignez un lit médical en le sélectionnant et en activant l'option "Lit médical". Ensuite sélectionnez le colon blessé et appuyer sur la gâchette gauche sur le lit médical pour transformer ce colon en patient.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
@@ -191,6 +195,16 @@
   <BilliardsNeedsSpace>Billard manque de place</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Une de vos tables de billard est adjacente à un obstacle qui empêche les colons de l'utiliser. \n\nLa table de billard a besoin d'espace libre autour de tous ses côtés pour être utilisable.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>TODO</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>TODO</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>TODO</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>TODO</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Un chasseur a un bouclier et une arme à distance</HunterHasShieldAndRangedWeapon>
@@ -315,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>{0} arbres déracinés vont mourir dans moins d'un jour. Cela rendra certains colons mécontents à cause de leurs croyances.\n\nVous pouvez empêcher cela en replantant ces arbres.</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>TODO</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>TODO</NeedResearchBenchDesc>
+  
 </LanguageData>
