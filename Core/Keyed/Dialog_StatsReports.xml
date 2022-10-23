@@ -38,8 +38,12 @@
   <HealthFactorAllowedDefect>si en dessous de {0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>Courbe de post-traitement</StatsReport_PostProcessed>
+  <!-- EN: The chances to hit at increasing distances are -->
+  <StatsReport_ShootingExampleDistances>TODO</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valeur finale</StatsReport_FinalValue>
+  <!-- EN: Multiplier for {0} -->
+  <StatsReport_MultiplierFor>TODO</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>Valeur de base du marché calculée à partir des matériaux de construction et de la quantité de travail.</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
@@ -132,7 +136,7 @@
   <StatsReport_Ideoligion>Idéoligion</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Multiplicateur de malnutrition {0}</StatsReport_Malnutrition>
-  
+
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Décalages possibles</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
@@ -298,10 +302,10 @@
   <Stat_Hediff_HungerRateOffset_Desc>Une compensation de la vitesse à laquelle le besoin alimentaire se réduit.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Vitesse de chute au repos</Stat_Hediff_TirednessOffset_Name>
-  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Une compensation appliquée à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessOffset_Desc>
-  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Un multiplicateur appliqué à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>Une compensation appliquée à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessOffset_Desc><!-- text_todo -->
+  <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Un multiplicateur appliqué à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessFactor_Desc><!-- text_todo -->
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Que cela prévienne ou non les infections.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -338,12 +342,38 @@
   <Stat_Thing_ReloadDestroyOnEmpty_Desc>Cet objet disparaîtra lorsque son dernier {CHARGENOUN} sera utilisé.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>L'efficacité globale de cette partie du corps.</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Install sites -->
+  <Stat_Thing_InstallSites>TODO</Stat_Thing_InstallSites>
+  <!-- EN: Areas on the body where this can be installed. -->
+  <Stat_Thing_InstallSites_Desc>TODO</Stat_Thing_InstallSites_Desc>
+  <!-- EN: Replaces parts -->
+  <Stat_Thing_ReplacesParts>TODO</Stat_Thing_ReplacesParts>
+  <!-- EN: Body parts which are replaced by this when installed. -->
+  <Stat_Thing_ReplacesParts_Desc>TODO</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biocodage</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>Cet objet a été codé pour n'accepter que la bio-signature d'un individu bien particulier.</Stat_Thing_Biocoded_Desc>
   <!-- EN: Required apparel -->
   <Stat_Pawn_RequiredApparel_Name>Vêtements requis</Stat_Pawn_RequiredApparel_Name>
+  <!-- EN: Growth rate -->
+  <Stat_Thing_Plant_GrowthRate>TODO</Stat_Thing_Plant_GrowthRate>
+  <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
+  <Stat_Thing_Plant_GrowthRate_Desc>TODO</Stat_Thing_Plant_GrowthRate_Desc>
+  <!-- EN: Age -->
+  <Stat_Thing_Plant_Age>TODO</Stat_Thing_Plant_Age>
+  <!-- EN: How long this has been alive. -->
+  <Stat_Thing_Plant_AgeDesc>TODO</Stat_Thing_Plant_AgeDesc>
+  <!-- EN: Lifespan -->
+  <Stat_Thing_Plant_Lifespan>TODO</Stat_Thing_Plant_Lifespan>
+  <!-- EN: Paintable -->
+  <Stat_Building_Paintable>TODO</Stat_Building_Paintable>
+  <!-- EN: Whether this can be painted using dye. -->
+  <Stat_Building_PaintableDesc>TODO</Stat_Building_PaintableDesc>
+  <!-- EN: Paint color -->
+  <Stat_Building_PaintColor>TODO</Stat_Building_PaintColor>
+  <!-- EN: The color this building was painted. -->
+  <Stat_Building_PaintColorDesc>TODO</Stat_Building_PaintColorDesc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -362,8 +392,8 @@
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Degré de réduction journalière de la sensibilité d'un utilisateur au produit chimique.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La sensibilité minimale requise pour devenir accro à cette drogue.\n\nSi un utilisateur est en dessous de ce niveau de sensibilité, il ne peut pas devenir accro lors de la prise d'une dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
-  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un utilisateur ne deviendra jamais dépendant s'il ne prend jamais la drogue plus souvent que cela.\n\nCeci est calculé à partir de la sensibilité minimale d'une drogue pour un toxicomane, du gain de sensibilité par dose et du taux de diminution de l'effet.\n\nNotez que certaines drogues n'ont pas de seuil sûr. Ces drogues peuvent entraîner une dépendance à chaque prise, même la première.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un utilisateur ne deviendra jamais dépendant s'il ne prend jamais la drogue plus souvent que cela.\n\nCeci est calculé à partir de la sensibilité minimale d'une drogue pour un toxicomane, du gain de sensibilité par dose et du taux de diminution de l'effet.\n\nNotez que certaines drogues n'ont pas de seuil sûr. Ces drogues peuvent entraîner une dépendance à chaque prise, même la première.</Stat_Thing_Drug_SafeDoseInterval_Desc><!-- text_todo -->
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>Le risque d'un surdosage aléatoire lors de la prise de cette drogue. Des overdoses aléatoires peuvent survenir à n'importe quelle prise, que ce soit lors du premier essai d'un nouvel utilisateur ou lors de la énième prise d'un toxicomane expérimenté.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->

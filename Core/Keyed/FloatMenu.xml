@@ -45,6 +45,8 @@
   <CannotAttackSelf>ne peut pas s'attaquer soi-même</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>impossible d'attaquer une faction alliée</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Manipuler {1_labelShort}</OrderManThing>
@@ -74,8 +76,10 @@
   <NoMergeTarget>aucune pile avec laquelle fusionner</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>déjà suffisamment rempli</AlreadyFilledLower>
-  <!-- EN: need material -->
-  <MissingMaterials>besoin de matériaux</MissingMaterials>
+  <!-- EN: missing {0} -->
+  <MissingMaterials>besoin de matériaux</MissingMaterials><!-- text_todo -->
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>en dessous de la compétence requise {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,14 @@
   <MissingRequiredSkillLevel>aptitudes trop faibles</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>interaction avec l'animal trop récente</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>aucune nourriture utilisable</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>pas de nourriture</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Pas de {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -158,14 +166,22 @@
   <InstallImplantNotAllowedForNonColonists>pas un colon</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>déjà installé</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>niveau maximum</InstallImplantAlreadyMaxLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Mettre à niveau {0} au niveau {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violation de la faction alliée</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>porté par {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>TODO</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>déjà assigné</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consommer {1_labelShort}</ConsumeThing>
@@ -188,9 +204,15 @@
   <Capture>Capturer {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Capture impossible</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>TODO</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Secourir {1_label}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>TODO</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Secours impossible</CannotRescue>
 
@@ -231,6 +253,8 @@
   <Incapable>incapable</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>incapable de {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>TODO</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>aptitude minimum</MinSkill>
@@ -261,13 +285,15 @@
   <ReloadFull>plein(e)</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>insuffisant</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
-  <CannotPickUp>Impossible de ramasser {1_label}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUp>Impossible de ramasser {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Impossible de ramasser {1_label} (tout)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Ramasser {1_label}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>TODO</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Ramasser {1_label} (tout)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -518,5 +544,17 @@
   <RepairThing>Réparer {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Ne peut pas réparer {0}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Impossible d'entrer</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>TODO</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>TODO</CanRomance>
+
+  <!-- UNUSED -->
+  <PickUp>Ramasser {1_label}</PickUp>
+
 </LanguageData>

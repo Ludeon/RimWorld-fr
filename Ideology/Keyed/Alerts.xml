@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>opportunité de {0}</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
-  <RitualOpportunityFor>opportunité de {0} pour</RitualOpportunityFor>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>Expire dans</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Accomplir {RITUAL_labelDef} aura les effets suivants</RitualCompletionEffects>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>opportunité de {0} pour {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Expire dans</RitualExpiresIn><!-- text_todo --> 
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Pour commencer le rituel, sélectionnez un objet et cliquez sur la commande 'Begin {RITUAL_label}'. Les objets suivants sont éligibles:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Les fonctions suivantes participent au {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Cliquez pour vous rendre aux cibles</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,8 +75,8 @@
   <AlertRitualComingDesc>Une opportunité de rituel est à venir pour les rituels suivants</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Les opportunités expirent après {0} jours, et se reproduisent le même jour chaque année.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0} le {1}, dans {2}</AlertRitualComingEntry>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} le {1}, dans {2}</AlertRitualComingEntry><!-- text_todo --> 
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Rajeunissement demandé</AlertAgeReversalDemandNear>
@@ -129,5 +129,9 @@
   <AlertSlaveRebellionLikelyRebelliousCount>Il y a {REBELLIOUSCOUNT} esclaves susceptibles de déclencher une rébellion.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>Une rébellion d'esclaves devrait se produire environ une fois tous les {COMBINEDTIME}. Notez que la chance de rébellion de chaque esclave est indépendante, donc si l'un d'entre eux se rebelle, il peut en emmener d'autres avec lui.\n\n{REBEL_labelShort} est l'esclave le plus rebelle et devrait lancer une rébellion environ une fois tous les {INDIVIDUALTIME}. Les facteurs suivants affectent la fréquence à laquelle ils se rebelleront :</AlertSlaveRebellionLikelyMostRebellious>
+  
+  <!-- UNUSED -->
+  <RitualCompletionEffects>Accomplir {RITUAL_labelDef} aura les effets suivants</RitualCompletionEffects>
+  <RitualRolesExplanation>Les fonctions suivantes participent au {RITUAL_label}:\n{1}</RitualRolesExplanation>
 
 </LanguageData>

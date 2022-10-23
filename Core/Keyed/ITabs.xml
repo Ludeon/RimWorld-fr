@@ -50,6 +50,8 @@
   <TabTransporterContents>Contenu</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contenu</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Considéré(e) coupable (expire dans {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Considéré(e) coupable</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,10 +187,10 @@
   <WontBleedOutSoon>pas de danger immédiat</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Vue d'ensemble</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Opérations ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>Opérations</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>Modifications</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Opérations chirurgicales</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>interactions sociales</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Niveau de faim</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Fatigue</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Prérequis demandé : {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(pas de relations)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Kidnappé</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +272,10 @@
   <Slave>Esclave</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Chef de faction</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Opinion sur {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinion que {1_labelShort} a de moi</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Opinion sur {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>Opinion que {0} a de moi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Je suis mort</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -398,7 +417,13 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>L'enclos n'est pas fermé</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>L'enclos n'est actuellement pas fermé, il ne sera donc pas taillé automatiquement.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+
+  <!-- UNUSED -->
+  <NoRelationships>(pas de relations)</NoRelationships>
 
 </LanguageData>

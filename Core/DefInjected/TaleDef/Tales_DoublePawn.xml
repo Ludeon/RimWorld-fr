@@ -384,8 +384,8 @@
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great care and caution</li>
     <li>circumstance_phrase->with a smile</li>
     <li>circumstance_phrase->while exhausted but happy</li>
@@ -412,7 +412,7 @@
     <li>desc_sentence->[ANIMAL_nameDef] semble être effrayé(e), mais intéressé(e).</li>
     <li>desc_sentence->[ANIMAL_nameDef] semble être fasciné(e).</li>
     <li>desc_sentence->[TAMER_nameDef] projette un profond sentiment d'amour envers [ANIMAL_nameDef].</li>
-  </TamedAnimal.rulePack.rulesStrings>
+  </TamedAnimal.rulePack.rulesStrings><!-- text_todo -->
   
   <!-- EN: traded with someone -->
   <TradedWith.label>commercé avec quelqu'un</TradedWith.label>
@@ -480,8 +480,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->[TRAINER_nameDef] entraînant [ANIMAL_nameDef]</li>
@@ -517,6 +517,6 @@
     <li>desc_sentence->[ANIMAL_nameDef] est recouvert(e) d'écailles.</li>
     <li>desc_sentence->[TRAINER_nameDef] est représenté(e) avec [quantity] bras.</li>
     <li>desc_sentence->[TRAINER_nameDef] se transforme en [ANIMAL_ShortDefinite].</li>
-  </TrainedAnimal.rulePack.rulesStrings>
+  </TrainedAnimal.rulePack.rulesStrings><!-- text_todo -->
   
 </LanguageData>
