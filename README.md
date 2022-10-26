@@ -25,7 +25,7 @@ Elle comporte encore quelques erreurs.
 #### Notes ####
  - **Au lieu de `French`, vous pouvez choisir un autre nom de langue** (par exemple `RimWorld-fr`) si vous ne voulez pas écraser le fichier French officiel du jeu. Adaptez alors les quatre répértoires de copie des étapes 2 et 3 ci-dessus à `RimWorld/Data/Core/Languages/RimWorld-fr/`, `RimWorld/Data/Royalty/Languages/RimWorld-fr/`, `RimWorld/Data/Ideology/Languages/RimWorld-fr/` et `RimWorld/Data/Biotech/Languages/RimWorld-fr/` et sélectionnez comme langue `RimWorld-fr`.
  - **Si vous avez cloné le dépôt git RimWorld-fr sur votre ordinateur**, il vous suffit de créer quatre liens symboliques des répertoires `Core`, `Royalty/`,`Ideology/` et `Biotech/` de votre git clone vers ceux de l'étapes 2 et 3. Vous pourrez alors facilement récupérer en temps réel les mises à jour, y compris la branche `unstable`. 
- *Pour créer un lien symbolique dans le cmd en mode administrateur lancez : `mklink /D "Dossier cible" "Dossier d'origine"` le dossier d'origine sera créé et il sera en lien direct avec le dossier cible*
+ *Pour créer un lien symbolique dans le cmd en mode administrateur lancez : `mklink /D "Dossier cible" "Dossier d'origine"` le dossier cible sera créé et il sera en lien direct avec le dossier d'origine*
  
 
 ### EN CAS D'ERREUR OU DE PROPOSITION ###
