@@ -11,7 +11,7 @@
   <!-- EN: Read more -->
   <ReadMore>Lire la suite</ReadMore>
   <!-- EN: You have {0} more letters -->
-  <MoreLetters>TODO</MoreLetters>
+  <MoreLetters>Vous avez {0} autres lettres</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Été</LetterLabelFirstSummerWarning>
@@ -67,9 +67,9 @@
   <LetterLabelRoofCollapsed>Effondrement de toiture</LetterLabelRoofCollapsed>
 
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <RecruitSuccess>{0} a réussi à recruter {1} ({2} chances de succès).</RecruitSuccess>
+  <RecruitSuccess>{0} a {0_gender ? réussi : réussie : réussi(e)} à recruter {1} ({2} chances de succès).</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
-  <RecruitFail>{0} n'a pas réussi à recruter {1} ({2} chances de succès).</RecruitFail>
+  <RecruitFail>{0} n'a pas {0_gender ? réussi : réussie : réussi(e)} à recruter {1} ({2} chances de succès).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
   <RelatedPawnInvolvedInQuest>{PAWN_nameDef} est {PAWN_gender ? le : la : le/la} {1} de {RELATIVE_labelShort}. Si {PAWN_nameDef} meurt, {RELATIVE_labelShort} souffrira d'un chagrin durable. Cependant, si vous parvenez à sauver {PAWN_nameDef}, {RELATIVE_labelShort} sera très heureu{RELATIVE_gender ? x : se : x(se)} pour longtemps.</RelatedPawnInvolvedInQuest>
@@ -79,7 +79,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>C'est l'anniversaire chronologique de {0} aujourd'hui ! Biologiquement, {1} a {3} ans.\n\nChronologiquement, {1} viens d'avoir {2} ans.\n\nVeuillez noter que puisque les gens ne vieillissent pas en sommeil cryogénique, l'anniversaire chronologique est séparé de l'anniversaire biologique</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull} a atteint l'âge biologique de {1}.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>Malheureusement, les maladies suivantes dues à l'âge ont été diagnostiquées à {0_nameFull}</BirthdayBiologicalAgeInjuries>
 
@@ -546,15 +546,15 @@
   <LetterTextSiteCountdownStarted>Votre caravane a été détectée. Dans {0}, les renforts de {1} depuis {2} commenceront à arriver dans la zone.\n\nReformez votre caravane et commencez à vous déplacer pour éviter les {1}. Un compte à rebours est désormais visible jusqu'à leur arrivée.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>Prisonnier inébranlable</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} est entièrement fidèle à sa maison et refusera d'être recruté complètement.\n\nVous pouvez voir si quelqu'un est entièrement fidèle en le sélectionnant.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>esclave</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} est tomb{PAWN_gender ? é : ée : é(e)} malade à cause de {1} en raison d'une trop longue exposition a des gaz pestilentiels (qui sont émis par les cadavres en décomposition).\n\nAssurez-vous d'avoir un lit médicalisé et un médecin. Faites en sorte que {PAWN_definite} reçoive un traitement approprié.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
