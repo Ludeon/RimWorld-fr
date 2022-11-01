@@ -35,8 +35,8 @@ Elle comporte encore quelques erreurs.
 
  Il va vous falloir un éditeur de texte, il y en a des dixaines. Vous pouvez par exemple téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/). Malgré son nom, ce n'est pas seulement pour le code. Il s'agit d'un éditeur de texte léger gratuit avec intégration directe à Git.
 
- Si l'integration direct a Git de VSCode vous suffit c'est parfait ! Dans le cas contraire vous pouvez utiliser des logiciels qui vous aiderons a communiquer avec le Github par exemple [Github desktop](https://desktop.github.com/) ou [Fork](https://git-fork.com/). 
- Petit tuto pour utiliser Github desktop : https://gist.github.com/Marsgames/2eb2e0321302640efafa4067b483b427 
+ Si l'integration direct a Git de VSCode vous suffit c'est parfait ! Dans le cas contraire vous pouvez utiliser des logiciels qui vous aiderons a communiquer avec le Github par exemple [Github desktop](https://desktop.github.com/) ou [Fork](https://git-fork.com/).  
+Petit tuto pour utiliser Github desktop : https://gist.github.com/Marsgames/2eb2e0321302640efafa4067b483b427 
 
 #### Devenir contributeur officiel ####
  - Créez un utilisateur sur GitHub.com.
