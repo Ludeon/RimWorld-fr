@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription-> Vous avez [discoveryDesc] d'un ancien complexe à proximité qui contient les restes d'un méchanitor depuis longtemps décédé.\n\nLes méchanitors peuvent créer, contrôler, et manipuler les mécanoïdes à des fins de labeur ou de combat. Si vous pouvez pénétrer à l'intérieur de ce complexe et récupérer le corps du méchanitor, vous pourrez en extraire son implant de mécalien et faire d'un de vos colons un méchanitor.\n\nSoyez conscient - divers dangers entourent ces installations, et votre activité à l'intérieur pourrait attirer l'attention non souhaitée.</li>
+    <li>discoveryDesc(discovered==false)->entendu parler</li>
+    <li>discoveryDesc(discovered==true)->découvert l'emplacement</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,6 +29,22 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->Le [complex] [complexAdj] du méchanitor</li>
+    <li>questName->Le [complex] du méchanitor</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->ancien</li>
+    <li>complexAdj->oublié</li>
+    <li>complexAdj->caché</li>
+    <li>complexAdj->poussiéreux</li>
+    <li>complexAdj->dangeureux</li>
+    <li>complex->complexe</li>
+    <li>complex->repaire</li>
+    <li>complex->siège</li>
+    <li>complex->bâtiment</li>
+    <li>complex->caveau</li>
+    <li>complex->mécha-plexe</li>
+    <li>complex->mécha-site</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
