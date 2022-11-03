@@ -166,7 +166,7 @@
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} devrait bientôt se reposer pour éviter l'épuisement.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc><!-- text_todo -->
+  <AutoTakeHemogenDesc>Cela détermine si {PAWN_nameDef} ingère automatiquement les packs d'hémogène lorsque son hémogène est inférieur à {MIN}.\n\nL'ingestion automatique est actuellement {ONOFF}.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consommez l'hémogène ci-dessous</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -590,11 +590,11 @@
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
-  <SubcoreScannerStart>Lancer l'analyseur</SubcoreScannerStart>
+  <SubcoreScannerStart>Lancer le scanner</SubcoreScannerStart>
   <!-- EN: Produces -->
   <SubcoreScannerProduces>Produits</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>Une fois le {0} rempli avec les ingrédients requis, {1}, sélectionnez un colon et faites un clic droit sur le {0} ou sur une personne abattue pour démarrer l'analyseur.</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>Une fois le {0} rempli avec les ingrédients requis, {1}, sélectionnez un colon et faites un clic droit sur le {0} ou sur une personne abattue pour démarrer le scanner.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>Complète dans</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
@@ -602,7 +602,7 @@
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>En attendant les ingrédients</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
+  <SubcoreScannerWaitingForIngredientsDesc>Les ingrédients suivants doivent être chargés en premier</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>A {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -696,7 +696,7 @@
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>ovules extraits récemment</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize {0_label} -->
-  <Fertilize>Fertiliser</Fertilize><!-- text_todo -->
+  <Fertilize>Fertiliser {0_label}</Fertilize>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Ne peut pas fertiliser</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
