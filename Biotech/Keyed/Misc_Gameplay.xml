@@ -165,6 +165,8 @@
   <NextDeathrestNeed>{PAWN_nameDef} devrait se reposer pendant {DURATION} pour éviter l'épuisement.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} devrait bientôt se reposer pour éviter l'épuisement.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc><!-- text_todo -->
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consommez l'hémogène ci-dessous</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -599,6 +601,8 @@
   <SubcoreScannerWaitingForOccupant>En attente de l'occupant</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>En attendant les ingrédients</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc> <!-- text_todo -->
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>A {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -691,8 +695,8 @@
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>ovules extraits récemment</SurgeryDisableReasonOvumExtracted>
-  <!-- EN: Fertilize -->
-  <Fertilize>Fertiliser</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <Fertilize>Fertiliser</Fertilize><!-- text_todo -->
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Ne peut pas fertiliser</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
