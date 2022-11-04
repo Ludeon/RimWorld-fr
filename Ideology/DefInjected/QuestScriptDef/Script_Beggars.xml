@@ -72,17 +72,21 @@
     <li>approachInfo(beggarCount>=2)->Un groupe de pauvres [groupLabelPlural] s'approche et cherche de l'aide</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] mendie [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->Les [groupLabelPlural] mendient [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates qui le chassent</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates à sa poursuite</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] veut de l'argent pour acheter la liberté de sa grande sœur qui a été réduite en esclavage par des pirates</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] a besoin du médicament pour aider un voyageur qui est blessé dans les environs</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] veut du médicament pour sauver son fidèle compagnon qui a été blessé sur la route</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] a besoin de [requestedThing_label] pour immuniser un ami malade contre ses maladies mortelles</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] veut noyer son chagrin après avoir perdu un compagnon de voyage dans un terrible accident</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] veut que [requestedThing_label] l'aide à soulager la souffrance d'un oncle douloureusement malade</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Ils veulent de l'argent pour pouvoir racheter un de leurs amis qui a été récemment kidnappé</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Ils ont besoin du médicament pour tenter une opération de sauvetage sur un compagnon de voyage qui a été attaqué par des mécanoïdes</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Ils ont besoin du médicament pour concocter un remède d'herboristerie pour un ami alité avec une fièvre intense</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Ils ont besoin du médicament pour aider leurs amis dans une colonie voisine qui a été dévastée par des pillards</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ils veulent de la [requestedThing_label] pour pouvoir voyager en toute sécurité pendant qu'ils cherchent un nouvel endroit où s'installer</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ils veulent de la [requestedThing_label] pour les aider à noyer leur chagrin après avoir perdu leur foyer dans une terrible attaque</li>
     <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur lui</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Ils espèrent utiliser le [requestedThing_label] pour libérer leur ami en enivrant des esclavagistes avant d'organiser son évasion</li>
     <li>interactionInfo(beggarCount>=2)->Vous pouvez donner les objets aux [groupLabelPlural] en sélectionnant un colon et en faisant un clic droit sur [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] partira après [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Les [groupLabelPlural] partiront après [visitDurationTicks_duration]</li>
