@@ -303,9 +303,9 @@
   <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Vitesse de chute au repos</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>Une compensation appliquée à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessOffset_Desc><!-- text_todo -->
+  <Stat_Hediff_TirednessOffset_Desc>Une compensation appliquée à la vitesse à laquelle le besoin de sommeil de la créature diminue.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Un multiplicateur appliqué à la vitesse à laquelle les créatures reposées baisse.</Stat_Hediff_TirednessFactor_Desc><!-- text_todo -->
+  <Stat_Hediff_TirednessFactor_Desc>Un multiplicateur appliqué à la vitesse à laquelle le besoin de sommeil de la créature diminue.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Que cela prévienne ou non les infections.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
@@ -393,7 +393,7 @@
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La sensibilité minimale requise pour devenir accro à cette drogue.\n\nSi un utilisateur est en dessous de ce niveau de sensibilité, il ne peut pas devenir accro lors de la prise d'une dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un utilisateur ne deviendra jamais dépendant s'il ne prend jamais la drogue plus souvent que cela.\n\nCeci est calculé à partir de la sensibilité minimale d'une drogue pour un toxicomane, du gain de sensibilité par dose et du taux de diminution de l'effet.\n\nNotez que certaines drogues n'ont pas de seuil sûr. Ces drogues peuvent entraîner une dépendance à chaque prise, même la première.</Stat_Thing_Drug_SafeDoseInterval_Desc><!-- text_todo -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un adulte ne deviendra dépendant que s'il prend la drogue plus souvent que cela.\n\nCeci est calculé à partir de la tolérance minimale du toxicomane à la drogue, du gain de tolérance par dose et du taux de déclin de la tolérance.\n\nNotez que certaines drogues n'ont pas de seuil sûr. Ces drogues peuvent entraîner une dépendance à chaque prise, même la première.\n\nNotez que l'intervalle de dose sans danger dépend de la taille de la personne.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>Le risque d'un surdosage aléatoire lors de la prise de cette drogue. Des overdoses aléatoires peuvent survenir à n'importe quelle prise, que ce soit lors du premier essai d'un nouvel utilisateur ou lors de la énième prise d'un toxicomane expérimenté.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
