@@ -11,14 +11,28 @@
     <li>raidArrivedLetterLabel->Sanguophage hunters</li>
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
-  <SanguophageMeetingHost.questContentRules.rulesStrings>TODO</SanguophageMeetingHost.questContentRules.rulesStrings>
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->Sanguophages arrivés</li>
+    <li>sanguophagesArriveLetterText->Les [sanguophageCount] sanguophages sont arrivés à [map_definite] depuis différentes directions. Ils se rencontreront et mèneront leur discussion dans la colonie.</li>
+    <li>argumentLetterLabel->Discussion entre Sanguophages</li>
+    <li>argumentLetterText->Les sanguophages se sont disputés et cela a maintenant dégénéré en violence!</li>
+    <li>successLetterLabel->Réunion terminée</li>
+    <li>successLetterText->Les sanguophages ont terminé leur rencontre et vont maintenant vous donner votre récompense.</li>
+    <li>raidArrivedLetterLabel->Chasseurs de sanguophages</li>
+    <li>raidArrivedLetterText->Un groupe de chasseurs de sanguophages de [enemyFaction_name] approche!\n\nIls attaqueront la réunion des sanguophages ainsi que ceux qui les ont hébergés.</li>
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguophages</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
-  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>TODO</SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->Un sanguophage nommé [asker_nameDef] est à la recherche d'un endroit sûr pour rencontrer [sanguophageCountMinusOne] [sanguophageSingOrPlural] où ils ne seront pas pourchassés. Leur chef [asker_nameDef] vous demande d'héberger la réunion à [map_definite].\n\nSi vous acceptez, [sanguophageCount] sanguophages arriveront à [map_definite] depuis différentes directions. Ils passeront plusieurs heures à discuter de leurs propres problèmes secrets avant de partir. Ils promettent de vous donner votre récompense avant de partir.\n\nVous pouvez trahir les sanguophages et les attaquer. Les sanguophages abattus peuvent être contraints de transformer l'un de vos propres colons en sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->autre sanguophage</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->autres sanguophages</li>
+    <li>sanguophageInfo->(*Gray)À propos des sanguophages : les sanguophages sont des surhumains sans âge et immortels alimentés par des archites sanguines créées par l'archotech. Ils sont beaux et extrêmement intelligents. Ils peuvent guérir de n'importe quelle blessure et ne souffrent jamais de maladie ou de poison. Au combat, ils peuvent lancer des épines mortelles et soigner des amis blessés. Le prix est que les sanguophages doivent consommer de l'hémogène dérivé du sang humain pour survivre, et ils doivent périodiquement se reposer pendant de longues périodes. Ils sont facilement détruits par le feu et ralentis par la lumière UV.(/Gray)</li>
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
     <li>meetAdjective->sanguophage</li>
@@ -40,6 +54,26 @@
     <li>meetNoun->congress</li>
     <li>meetNoun->parley</li>
   -->
-  <SanguophageMeetingHost.questNameRules.rulesStrings>TODO</SanguophageMeetingHost.questNameRules.rulesStrings>
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName->[meetNoun] [meetAdjective] </li>
+    <li>meetAdjective->sanguophage</li>
+    <li>meetAdjective->sanguinaire</li>
+    <li>meetAdjective->de sang</li>
+    <li>meetAdjective->de l'hombre</li>
+    <li>meetAdjective->noire</li>
+    <li>meetAdjective->écarlate</li>
+    <li>meetAdjective->rouge</li>
+    <li>meetAdjective->de l'escare</li>
+    <li>meetAdjective->hémique</li>
+    <li>meetAdjective->de la mort</li>
+    <li>meetNoun->meeting</li>
+    <li>meetNoun->foule</li>
+    <li>meetNoun->regroupement</li>
+    <li>meetNoun->réunion</li>
+    <li>meetNoun->assemblée</li>
+    <li>meetNoun->conclave</li>
+    <li>meetNoun->congrès</li>
+    <li>meetNoun->parlementation</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
   
 </LanguageData>
