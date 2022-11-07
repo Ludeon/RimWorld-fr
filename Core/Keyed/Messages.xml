@@ -114,7 +114,7 @@
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Vous devez désigner des animaux apprivoisables.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned claimable structures or items. -->
-  <MessageMustDesignateClaimable>Vous devez désigner des structures artificielles abandonnées.</MessageMustDesignateClaimable><!-- text_todo -->
+  <MessageMustDesignateClaimable>Doit désigner des structures ou des éléments réclamables abandonnés.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
   <MessageMustDesignatePaintableBuildings>Vous devez désigner une structure à peindre qui n'est pas déjà en {0_label}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
@@ -140,9 +140,9 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Vous devez désigner des objets interdits.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>Impossible de réclamer {CLAIMABLE_labelShort} tant qu'il y a des {THREAT_factionPawnsPlural} aptes au combat à proximité.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>Impossible d'adopter {CLAIMABLE_labelShort} tant qu'il y a des {THREAT_factionPawnsPlural} aptes au combat à proximité.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} a refusé d'être arrêt{1_gender ? é : ée : é(e)} !</MessageRefusedArrest>
@@ -152,7 +152,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Il n'y a aucun lit pour animaux disponible.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>Avertissement : la restriction de médicaments ({RESTRICTIONLABEL}) de {PAWN_nameDef} empêche d'effectuer cette opération. Envisagez de modifier ses restrictions de médicaments.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} est décéd{PAWN_gender ? é : ée : é(e)}. Cause : {1}.</PawnDiedBecauseOf>
@@ -698,7 +698,7 @@
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} doit être un humain.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <MessageRitualRoleCannotBeABaby>{0} ne peut pas être un bébé.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>Aucun rôle disponible pour {0_labelShort}</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -708,7 +708,7 @@
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort} ne nécessite pas de scarification supplémentaire.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
-  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort} ne nécessite pas d'aveuglement.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} doit être un prisonnier ou un esclave.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -732,9 +732,9 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>doit être un colon pour le rôle de {0}.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} ne participera pas en raison de températures extrêmes dans la zone de rituelle.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>doit être colon et non asservi pour le rôle {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} doit comporter un animal dont la taille minimale du corps est {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -748,9 +748,9 @@
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} doit être libre.</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->
-  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <MessageRitualRoleCannotBeChild>{0} ne peut pas être un enfant.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
+  <MessageRitualRoleCannotBeBaby>{0} ne peut pas être un bébé.</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Vous devez choisir un emplacement pour continuer.</MessagePlayerMustSelectTile>
@@ -772,22 +772,22 @@
   <MessageWarningCutImportantPlant>Avertissement : {0} a été marqué pour être coupé.</MessageWarningCutImportantPlant>
 
   <!-- EN: {0_labelShort} is incapable of manipulation. -->
-  <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
+  <MessageIncapableOfManipulation>{0_labelShort} est incapable de manipulation.</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>TODO</MessageActivationCanceled>
+  <MessageActivationCanceled>Activation de {0_labelShort} annulée</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+  <NothingAvailableInCategory>Rien n'est actuellement constructible dans la catégorie</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>TODO</SettingsLinkedFor>
+  <SettingsLinkedFor>Paramètres de stockage liés pour {0} bâtiments.</SettingsLinkedFor>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>TODO</SettingsUnlinkedFor>
+  <SettingsUnlinkedFor>Paramètres de stockage dissociés pour {0} bâtiments.</SettingsUnlinkedFor>
   <!-- EN: Storage settings copied to clipboard. -->
-  <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
+  <StorageSettingsCopiedToClipboard>Paramètres de stockage copiés dans le presse-papiers.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
-  <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
+  <StorageSettingsPastedFromClipboard>Paramètres de stockage collés depuis le presse-papiers.</StorageSettingsPastedFromClipboard>
 
   <!-- UNUSED -->
   <MessageTooLowMedCare>L'opération requiert {0} ou mieux, mais le mode de soins médicaux de {PAWN_labelShort} est "{2}".</MessageTooLowMedCare>
