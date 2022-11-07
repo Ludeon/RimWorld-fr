@@ -147,9 +147,9 @@
   <CommandAllowCutDesc>Si désactivé, les colons ne couperont jamais les plantes dans cette zone. Ils sèmeront de nouvelles plantes dans les emplacements libres et les récolteront.</CommandAllowCutDesc><!-- text_todo -->
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <CommandSelectStoredThing>Sélectionnez {0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
-  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
+  <CommandSelectStoredThingDesc>Sélectionnez l'élément stocké ici.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -277,7 +277,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>Il ne reste plus de {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
+  <CommandReload_Cooldown>{COOLDOWNGERUND} pour {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Doit être rechargé avec {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -305,7 +305,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Former un groupe de colons capables de se rendre dans de nouvelles zones. Les colons rassembleront toutes les fournitures assignées et les animaux d'accompagnement, quitteront leur zone actuelle et attendront de nouvelles commandes.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>Cet endroit servira de point de rencontre pour la caravane. Tous les biens et animaux seront amenés ici avant de partir.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -565,29 +565,29 @@
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Déposer la personne transportée.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>Sélectionnez {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Sélectionnez la créature transportée.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Sélectionnez {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>Sélectionnez l'article transporté.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Sélectionnez {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Sélectionnez l'élément contenant.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>Sélectionnez {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Sélectionnez la créature porteuse.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>Sélectionnez {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>Sélectionnez la créature contenue.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <CommandSelectContainedThing>Sélectionnez {0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>Sélectionnez l'élément contenu.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -616,26 +616,26 @@
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <LinkStorageSettings>Paramètres de lien</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>Liez les paramètres de stockage de plusieurs bâtiments sélectionnés afin qu'ils partagent les paramètres de stockage.\n\nLe groupe commencera avec les paramètres de ce que vous avez sélectionné en premier.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>Vous devez sélectionner deux bâtiments ou plus pour lier leurs paramètres de stockage.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>TODO</AlreadyLinked>
+  <AlreadyLinked>Déjà lié.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Dissocier les paramètres</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>Dissociez-le des paramètres de stockage des autres bâtiments afin que ses paramètres puissent être définis indépendamment.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <LinkedStorageSettings>Paramètres de stockage lié</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>TODO</NumBuildings>
+  <NumBuildings>{0} bâtiments</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>TODO</StoresThings>
+  <StoresThings>Magasins</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>TODO</SelectAllLinked>
+  <SelectAllLinked>Sélectionner tous les liés</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>Sélectionnez tous les bâtiments de stockage liés à celui-ci.</SelectAllLinkedDesc>
   
 </LanguageData>
