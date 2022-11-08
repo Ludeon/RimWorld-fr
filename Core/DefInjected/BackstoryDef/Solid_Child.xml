@@ -1413,11 +1413,13 @@
   <OffworldRecruit91.titleShort>recrue</OffworldRecruit91.titleShort>
   
   <!-- EN: [PAWN_nameDef] grew up a sheltered and spoiled child in one of the many manors of [PAWN_possessive] old-money industrialist family.\n\nWhile attending an elite private school, [PAWN_nameDef] received an extensive education in the arts and sciences, but never saw the horrors of the real world. -->
-  <OldMoneyHeir46.baseDesc>[PAWN_nameDef] a grandi en tant qu'enfant gâté et protégé dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté aux horreurs du monde réel.</OldMoneyHeir46.baseDesc>
+  <OldMoneyHeir46.baseDesc>[PAWN_nameDef] a grandi en tant qu'enfant gâté{PAWN_gender ? : e : (e)} et protégé{PAWN_gender ? : e : (e)} dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté{PAWN_gender ? : e : (e)} aux horreurs du monde réel.</OldMoneyHeir46.baseDesc>
   <!-- EN: Old money heir -->
-  <OldMoneyHeir46.title>Héritier de vieilles fortunes</OldMoneyHeir46.title>
+  <OldMoneyHeir46.title>héritier de vieilles fortunes</OldMoneyHeir46.title>
+  <OldMoneyHeir46.titleFemale>héritière de vieilles fortunes</OldMoneyHeir46.titleFemale>
   <!-- EN: Heir -->
-  <OldMoneyHeir46.titleShort>Héritier</OldMoneyHeir46.titleShort>
+  <OldMoneyHeir46.titleShort>héritier</OldMoneyHeir46.titleShort>
+  <OldMoneyHeir46.titleShortFemale>héritière</OldMoneyHeir46.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was blessed with loving parents and a pleasant midworld life. [PAWN_pronoun] was an  optimistic and sociable kid who loved making friends and listening to their stories. [PAWN_possessive] imagination would run wild with ideas and questions. -->
   <OptimisticChild30.baseDesc>[PAWN_nameDef] vivait agréablement au sein d’une famille de la classe moyenne aimante et attentionnée. C’était {PAWN_gender ? un : une : un(e)} enfant optimiste et sociable, qui appréciait ses amis et écouter leurs histoires. Son imagination était débordante et remplie de questionnements.</OptimisticChild30.baseDesc>

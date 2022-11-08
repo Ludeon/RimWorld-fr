@@ -5164,11 +5164,13 @@
   
   <OldMoneyHeir46>
     <!-- EN: Old money heir -->
-    <title>Héritier de vieilles fortunes</title>
+    <title>héritier de vieilles fortunes</title>
+    <titleFemale>héritière de vieilles fortunes</titleFemale>
     <!-- EN: Heir -->
-    <titleShort>Héritier</titleShort>
+    <titleShort>héritier</titleShort>
+    <titleShortFemale>héritière</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up a sheltered and spoiled child in one of the many manors of his old-money industrialist family.\n\nWhile attending an elite private school, [PAWN_nameDef] received an extensive education in the arts and sciences, but never saw the horrors of the real world. -->
-    <desc>[PAWN_nameDef] a grandi en tant qu'enfant gâté et protégé dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté aux horreurs du monde réel.</desc>
+    <desc>[PAWN_nameDef] a grandi en tant qu'enfant gâté{PAWN_gender ? : e : (e)} et protégé{PAWN_gender ? : e : (e)} dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté{PAWN_gender ? : e : (e)} aux horreurs du monde réel.</desc>
   </OldMoneyHeir46>
   
   <OptimisticChild30>
