@@ -1337,11 +1337,13 @@
   <MilitaryTrainee20.titleShort>stagiaire</MilitaryTrainee20.titleShort>
   
   <!-- EN: When [PAWN_pronoun] was a baby, [PAWN_nameDef]'s parents traded their child to a troop of monkeys. Little is known of [PAWN_possessive] life among the primates. -->
-  <MonkeyChild67.baseDesc>Quand il était bébé. Les parents de [PAWN_nameDef] ont donné leur fils à une tribu de singes. On ne sait pas grand-chose de la vie qu'il menait parmi les primates.</MonkeyChild67.baseDesc>
+  <MonkeyChild67.baseDesc>Quand {PAWN_pronoun} était bébé. Les parents de [PAWN_nameDef] ont donné leur {PAWN_gender ? fils : fille : enfant} à une tribu de singes. On ne sait pas grand-chose de la vie qu'{PAWN_pronoun} menait parmi les primates.</MonkeyChild67.baseDesc>
   <!-- EN: Monkey child -->
-  <MonkeyChild67.title>Enfant singe</MonkeyChild67.title>
+  <MonkeyChild67.title>enfant singe</MonkeyChild67.title>
+  <MonkeyChild67.titleFemale>enfant guenon</MonkeyChild67.titleFemale>
   <!-- EN: Monkey kid -->
-  <MonkeyChild67.titleShort>Gamin singe</MonkeyChild67.titleShort>
+  <MonkeyChild67.titleShort>gamin singe</MonkeyChild67.titleShort>
+  <MonkeyChild67.titleShortFemale>gamine guenon</MonkeyChild67.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was born with an almost magic voice. [PAWN_pronoun] learned to sing as a baby. [PAWN_possessive] voice also had a special timbre to it which calmed down everyone who listened to it. -->
   <MusicalKid14.baseDesc>[PAWN_nameDef] est né avec une voix presque magicale. Il a apprit à chanter étant bébé. Sa voix avait un timbre spécial qui calmait tous ceux qui l'écoutaient.</MusicalKid14.baseDesc>
