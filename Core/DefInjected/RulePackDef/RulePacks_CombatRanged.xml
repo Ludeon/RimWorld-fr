@@ -290,6 +290,12 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
+    <!-- NOTE:
+          English text uses [INITIATOR_possessive] [WEAPON_label]
+          which translate to [WEAPON_possessive] [WEAPON_label]
+          instead of [WEAPON_indefinite]
+          - Test whether [WEAPON_possessive] correctely resolve in RW1.4
+    -->
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] avec [WEAPON_indefinite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] avec [WEAPON_indefinite] sur [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
@@ -362,6 +368,9 @@
       ideally "sa [projectile]" should be
       [WEAPON_projectile_possessive] [projectile]
       but WEAPON_projectile_possessive resolve to genderless son/sa
+      - In RW1.4, define something similar to
+      <li>projectile_withpossessive(WEAPON_missing==True, p=3)->[PROJECTILE_possessive] [PROJECTILE_label]<li>
+      <li>projectile_withpossessive->[WEAPON_projectile_possessive] [WEAPON_projectile_label]<li>
     -->
     <!-- <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [projectile] sur [RECIPIENT_definite].</li> -->
     <li>r_logentry->[INITIATOR_definite] [threw] [projectile_indefinite] sur [RECIPIENT_definite].</li>
