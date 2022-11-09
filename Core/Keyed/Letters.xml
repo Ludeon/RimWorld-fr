@@ -550,7 +550,7 @@
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
   <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} est entièrement fidèle à sa maison et refusera d'être recruté complètement.\n\nVous pouvez voir si quelqu'un est entièrement fidèle en le sélectionnant.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>esclave</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>{PAWN_gender ? le : la : le/la} rendre esclave</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
