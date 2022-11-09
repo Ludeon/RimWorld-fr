@@ -9,7 +9,7 @@
   <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} commence les dernières étapes du travail.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>Un chargeur de mech a été détruit pendant que {PAWN_nameDef} chargeait! La coupure de courant a brouillé son cerveau et il devient fou.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>Un chargeur de mécanoïde a été détruit pendant que {PAWN_nameDef} chargeait ! La coupure de courant a brouillé son cerveau et il est devenu fou.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>Ne peut pas utiliser {ABILITY_label} sur quiconque résisterait activement.</MessageCantUseOnResistingPerson>
@@ -29,12 +29,12 @@
   <MessageCannotUseOnOtherFactions>{ABILITY_label} ne peut être utilisé que sur les colons, les prisonniers et les esclaves.</MessageCannotUseOnOtherFactions>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>Ajout automatique de {MECH_nameDef} à la caravane, car ce mech escorte {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanAddingEscortingMech>Ajout automatique de {MECH_nameDef} à la caravane, car ce mécanoïde escorte {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>Suppression automatique de {MECH_nameDef} de la caravane, car ce mech escorte {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>Suppression automatique de {MECH_nameDef} de la caravane, car ce mécanoïde escorte {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0} était méchanitor. Vous pouvez supprimer son {1_label} et l'utiliser sur un colon.</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0} était méchanitor. Vous pouvez enlever son {1_label} et l'utiliser sur un colon.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
   <MessageNoBloodfeedersPrisonerInteractionReset>Le mode d'interaction de certains prisonniers nécessitait un suceur de sang. Depuis que le dernier suceur de sang est parti, leurs modes d'interaction sont réinitialisés sur "Aucune interaction".</MessageNoBloodfeedersPrisonerInteractionReset>
@@ -48,18 +48,18 @@
   <!-- EN: Need polluted terrain. -->
   <MessageWarningNotPollutedCell>Besoin d'un terrain pollué.</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
-  <MessagePlantDiedOfPollution>{0} est mort à cause de la pollution.</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfPollution>{0} est mort{0_gender ? : e : (e)} à cause de la pollution.</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
-  <MessagePlantDiedOfNoPollution>{0} est mort à cause d'un manque de pollution.</MessagePlantDiedOfNoPollution>
+  <MessagePlantDiedOfNoPollution>{0} est mort{0_gender ? : e : (e)} à cause d'un manque de pollution.</MessagePlantDiedOfNoPollution>
   <!-- EN: Pollution has increased by {0} at {1}. -->
   <MessageWorldTilePollutionChanged>La pollution a augmenté de {0} à {1}.</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>Un cocon a été dérangé et s'ouvre!</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>Un cocon a été dérangé et s'ouvre !</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>Les cocons ont été dérangés et s'ouvrent!</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>Les cocons ont été dérangés et s'ouvrent !</MessageCocoonDisturbedPlural>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} doit être inconcient avant de pouvoir {PAWN_objective} forcer  à réimplanter son xénogerme.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} doit être inconscient{PAWN_gender ? : e : (e)} avant de pouvoir {PAWN_gender ? le : la : le/la} forcer à réimplanter son xénogerme.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
   <MessageWorkTypeDisabledAge>{0_nameDef} n'a que {1} ans. Le travail {2} ne peut être effectué qu'à partir de l'âge de {3} ans.</MessageWorkTypeDisabledAge>
@@ -68,9 +68,9 @@
   <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} peut maintenant se réveiller en toute sécurité.</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
-  <MessageMechanitorLostControlOfMech>{0_nameDef} a perdu le contrôle d'un mech {1_kindBase}</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef} a perdu le contrôle d'un mécanoïde {1_kindBase}</MessageMechanitorLostControlOfMech>
   <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
-  <MessageMechanitorDisconnectedFromMech>{0_nameDef} s'est déconnecté du mech {1_nameDef}.</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} s'est déconnecté du mécanoïde {1_nameDef}.</MessageMechanitorDisconnectedFromMech>
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
@@ -99,7 +99,7 @@
   <SanguophagesLeavingTemperature>Les sanguophages partent à cause de la température les mettant en danger.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>{PAWN_nameDef} a été réveillé de son repos de la mort en raison d'une exposition au soleil.</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} a été réveillé{PAWN_gender ? : e : (e)} de son repos de la mort en raison d'une exposition au soleil.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>Le {BED_labelShort} assigné à {PAWN_nameDef} pour le repos de la mort a été exposé à la lumière du soleil. {PAWN_nameDef} ne peut pas se reposer là-bas.</MessageBedExposedToSunlight>
 
@@ -107,19 +107,19 @@
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>Le cerveau de {PAWN_nameDef} a été détruit par le ripscanner.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>Scanner flexiscanner complété pour {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
+  <MessageSubcoreSoftscannerCompleted>Flexiscanner de sous-noyau complété pour {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Impossible de ressusciter des cadavres desséchés.</MessageCannotResurrectDessicatedCorpse>
 
   <!-- EN: {0} is about to explode! -->
-  <MessageAboutToExplode>{0} est sur le point d'exploser!</MessageAboutToExplode>
+  <MessageAboutToExplode>{0} est sur le point d'exploser !</MessageAboutToExplode>
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
   <MessageChildcareDisabled>{FEEDER_labelShort} ne peut pas effectuer de tâches de garde d'enfants.</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>{FEEDER_labelShort} n'est pas affecté aux tâches de garde d'enfants.</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} n'est pas affecté{FEEDER_gender ? : e : (e)} aux tâches de garde d'enfants.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
   <MessageTooManyCustomXenotypes>Vous avez déjà le nombre maximal de xénotypes personnalisés. Vous devez en supprimer si vous souhaitez en créer d'autres.</MessageTooManyCustomXenotypes>
