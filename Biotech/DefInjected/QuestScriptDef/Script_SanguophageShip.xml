@@ -13,7 +13,7 @@
     <li>sanguophageShuttleCrashedLetterLabel->Navette écrasée</li>
     <li>sanguophageShuttleCrashedLetterText->Une navette contenant un maître sanguophage et [thrallCount] serviteurs s'est écrasé à proximité. Ils sortiront de l'engin écrasé et se prépareront au combat.</li>
     <li>reinforcementsArrivedLetterLabel->Serviteurs en renfort</li>
-    <li>reinforcementsArrivedLetterText->Des serivteurs arrivent dans des nacelles de largage pour protégcer le sanguophage écrasé.</li>
+    <li>reinforcementsArrivedLetterText->Des serviteurs arrivent dans des nacelles de largage pour protéger le sanguophage écrasé.</li>
     <li>assaultBeginLetterLabel->Assaut commencé</li>
     <li>assaultBeginLetterText->Le maître sanguophage hostile et ses serviteurs ont lancé un assaut contre la colonie !</li>
   </SanguophageShip.questContentRules.rulesStrings>
@@ -22,8 +22,8 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Vous avez intercepté un signal de détresse! Une navette hostile transportant un maître sanguophage et [thrallCount] srviteurs a des problèmes avec ses moteurs. Vous pouvez utiliser des signaux pour l'amener à se cracher près de [map_definite].\n\nUne fois que le vaisseau se sera écrasé, vous pourrez combattre le sanguophage et ses sbires. Si vous pouvez capturer le maître, vous pouvez [sanguophage_objective] forcer à transformer l'un de vos colons en sanguophage.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*Gray)À propos des sanguophages : les sanguophages sont des surhumains sans âge et immortels alimentés par des archites sanguines créées par archotech. Ils sont beaux et extrêmement intelligents. Ils peuvent guérir de n'importe quelle blessure et ne souffrent jamais de maladie ou de poison. Au combat, ils peuvent lancer des épines mortelles et soigner des amis blessés. Le prix a payer est que les sanguophages doivent consommer de l'hémogène dérivé du sang humain pour survivre, et ils doivent périodiquement se reposer pendant de longues périodes. Ils sont facilement détruits par le feu et ralentis par la lumière UV.(/Gray)</li>
+    <li>questDescription->Vous avez intercepté un signal de détresse ! Une navette hostile transportant un maître sanguophage et [thrallCount] srviteurs a des problèmes avec ses moteurs. Vous pouvez utiliser des signaux pour l'amener à se cracher près de [map_definite].\n\nUne fois que le vaisseau se sera écrasé, vous pourrez combattre le sanguophage et ses sbires. Si vous pouvez capturer le maître, vous pouvez le forcer à transformer l'un de vos colons en sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)À propos des sanguophages : les sanguophages sont des surhumains sans âge et immortels alimentés par des archites sanguines créées par des archotech. Ils sont beaux et extrêmement intelligents. Ils peuvent guérir de n'importe quelle blessure et ne souffrent jamais de maladie ou de poison. Au combat, ils peuvent lancer des épines mortelles et soigner des amis blessés. Le prix à payer est que les sanguophages doivent consommer de l'hémogène dérivé du sang humain pour survivre, et ils doivent périodiquement se reposer pendant de longues périodes. Ils sont facilement détruits par le feu et ralentis par la lumière UV.(/Gray)</li>
   </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -46,22 +46,26 @@
   -->
   <SanguophageShip.questNameRules.rulesStrings>
     <li>questName->[shipNoun] [shipAdjective]</li>
-    <li>shipAdjective->sanguophage</li>
-    <li>shipAdjective->sanguinaire</li>
-    <li>shipAdjective->de sang</li>
-    <li>shipAdjective->de l'hombre</li>
-    <li>shipAdjective->noire</li>
-    <li>shipAdjective->écarlate</li>
-    <li>shipAdjective->rouge</li>
-    <li>shipAdjective->de l'escare</li>
-    <li>shipAdjective->hémique</li>
-    <li>shipAdjective->de la mort</li>
+    <li>questName->[shipNounFem] [shipAdjectiveFem]</li>
+    <li>shipAdjectiveAny->sanguophage</li>
+    <li>shipAdjectiveAny->sanguinaire</li>
+    <li>shipAdjectiveAny->de sang</li>
+    <li>shipAdjectiveAny->de l'ombre</li>
+    <li>shipAdjectiveAny->écarlate</li>
+    <li>shipAdjectiveAny->rouge</li>
+    <!--     <li>shipAdjectiveAny->de l'escarre</li> -->
+    <li>shipAdjectiveAny->hémique</li>
+    <li>shipAdjectiveAny->de la mort</li>
+    <li>shipAdjective->noir</li>
+    <li>shipAdjective->[shipAdjectiveAny]</li>
+    <li>shipAdjectiveFem->noire</li>
+    <li>shipAdjectiveFem->[shipAdjectiveAny]</li>
     <li>shipNoun->vaisseau</li>
-    <li>shipNoun->navette</li>
     <li>shipNoun->appareil</li>
     <li>shipNoun->débris</li>
     <li>shipNoun->crash</li>
-    <li>shipNoun->épave</li>
+    <li>shipNounFem->navette</li>
+    <li>shipNounFem->épave</li>
   </SanguophageShip.questNameRules.rulesStrings>
   
 </LanguageData>

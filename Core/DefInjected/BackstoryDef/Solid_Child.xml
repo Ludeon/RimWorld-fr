@@ -47,7 +47,7 @@
   <AcademyStudent58.titleShortFemale>étudiante</AcademyStudent58.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was born at the peak of a lunar eclipse. The elders declared [PAWN_objective] a child of darkness and brought [PAWN_objective] under their care.\n\n[PAWN_possessive] entire childhood was spent studying the lore and rituals of [PAWN_possessive] people - until the day of calling. -->
-  <AccursedChild88.baseDesc>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} à l’apogée d’une éclipse lunaire. Les aînés ont déclaré qu’[PAWN_objective] était un enfant de l’obscurité qui leur avait été confié.\n\nToute son enfance a été consacrée à l’étude des traditions et des rituels de son peuple, jusqu’au jour de l’appel.</AccursedChild88.baseDesc>
+  <AccursedChild88.baseDesc>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} à l’apogée d’une éclipse lunaire. Les aînés ont déclaré qu’[PAWN_pronoun] était un enfant de l’obscurité qui leur avait été confié.\n\nToute son enfance a été consacrée à l’étude des traditions et des rituels de son peuple, jusqu’au jour de l’appel.</AccursedChild88.baseDesc>
   <!-- EN: accursed child -->
   <AccursedChild88.title>enfant maudit</AccursedChild88.title>
   <AccursedChild88.titleFemale>enfant maudite</AccursedChild88.titleFemale>
@@ -506,7 +506,7 @@
   <Computer80.titleShort>ordinateur</Computer80.titleShort>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] childhood on [PAWN_possessive] computer, typing away, never knowing when to get up and eat.\n\n[PAWN_pronoun] had a very narrow interest: hacking cryptosleep safety protocols. -->
-  <ComputerGeek62.baseDesc>[PAWN_nameDef] a passé la majeure partie de son enfance sur son ordinateur, tapant inlassablement sur son clavier, ne sachant jamais quand se lever et manger.\n\n[PAWN_pronoun] n’avait qu’un centre d’intérêt : le piratage des protocoles de sécurité du cryptosommeil.</ComputerGeek62.baseDesc>
+  <ComputerGeek62.baseDesc>[PAWN_nameDef] a passé la majeure partie de son enfance sur son ordinateur, tapant inlassablement sur son clavier, ne sachant jamais quand se lever et manger.\n\n[PAWN_pronoun] n’avait qu’un centre d’intérêt : le piratage des protocoles de sécurité de l'hypersommeil.</ComputerGeek62.baseDesc>
   <!-- EN: computer geek -->
   <ComputerGeek62.title>geek</ComputerGeek62.title>
   <!-- EN: geek -->
@@ -1178,9 +1178,9 @@
   <!-- EN: [PAWN_nameDef] grew up in an urbworld as the only child of a pair of mechanoid designers.\nThey encouraged [PAWN_possessive] interest in the machines. Eventually, [PAWN_pronoun] became obsessed with building [PAWN_possessive] own.\n\nUnfortunately this also lead to [PAWN_objective] being a loner as [PAWN_pronoun] prefered technical books to friends. -->
   <MechanoidNerd10.baseDesc>[PAWN_nameDef] a grandi sur un monde urbain comme enfant unique d’un couple d’ingénieurs en mécanoïdes. Ils l’ont tellement encourag{PAWN_gender ? é : ée : é(e)} qu’[PAWN_pronoun] est deven{PAWN_gender ? u : ue : u(e)} obséd{PAWN_gender ? é : ée : é(e)} par la construction de son propre mécanoïde.\n\nMalheureusement, cela l’a condui{PAWN_gender ? t : te : t(e)} à devenir solitaire tant [PAWN_pronoun] préférait les livres techniques aux relations sociales.</MechanoidNerd10.baseDesc>
   <!-- EN: mechanoid nerd -->
-  <MechanoidNerd10.title>maniaque de mécanoide</MechanoidNerd10.title>
+  <MechanoidNerd10.title>maniaque de mécanoïde</MechanoidNerd10.title>
   <!-- EN: mechanerd -->
-  <MechanoidNerd10.titleShort>nerd de mécanoide</MechanoidNerd10.titleShort>
+  <MechanoidNerd10.titleShort>nerd de mécanoïde</MechanoidNerd10.titleShort>
   
   <!-- EN: [PAWN_nameDef] traveled between rimworlds with [PAWN_possessive] family. [PAWN_nameDef]'s mother, a renowned doctor, often delivered lectures from the hull of their retrofitted cargo/medical ship.\n\nSometimes, the family took on difficult long-term medical work with especially needy patients, and [PAWN_nameDef] helped where [PAWN_pronoun] could. -->
   <MedicalHelper27.baseDesc>[PAWN_nameDef] a voyagé entre des mondes lointains avec sa famille. La mère de [PAWN_nameDef], un médecin de renom, donnait souvent des conférences depuis la coque de son cargo réaménagé en navire médical.\n\nParfois, sa famille entreprenait un travail médical difficile à long terme avec des patients particulièrement nécessiteux, et [PAWN_nameDef] aidait là où [PAWN_pronoun] le pouvait.</MedicalHelper27.baseDesc>
@@ -1337,18 +1337,20 @@
   <MilitaryTrainee20.titleShort>stagiaire</MilitaryTrainee20.titleShort>
   
   <!-- EN: When [PAWN_pronoun] was a baby, [PAWN_nameDef]'s parents traded their child to a troop of monkeys. Little is known of [PAWN_possessive] life among the primates. -->
-  <MonkeyChild67.baseDesc>Quand il était bébé. Les parents de [PAWN_nameDef] ont donné leur fils à une tribu de singes. On ne sait pas grand-chose de la vie qu'il menait parmi les primates.</MonkeyChild67.baseDesc>
+  <MonkeyChild67.baseDesc>Quand {PAWN_pronoun} était bébé. Les parents de [PAWN_nameDef] ont donné leur {PAWN_gender ? fils : fille : enfant} à une tribu de singes. On ne sait pas grand-chose de la vie qu'{PAWN_pronoun} menait parmi les primates.</MonkeyChild67.baseDesc>
   <!-- EN: Monkey child -->
-  <MonkeyChild67.title>Enfant singe</MonkeyChild67.title>
+  <MonkeyChild67.title>enfant singe</MonkeyChild67.title>
+  <MonkeyChild67.titleFemale>enfant guenon</MonkeyChild67.titleFemale>
   <!-- EN: Monkey kid -->
-  <MonkeyChild67.titleShort>Gamin singe</MonkeyChild67.titleShort>
+  <MonkeyChild67.titleShort>gamin singe</MonkeyChild67.titleShort>
+  <MonkeyChild67.titleShortFemale>gamine guenon</MonkeyChild67.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was born with an almost magic voice. [PAWN_pronoun] learned to sing as a baby. [PAWN_possessive] voice also had a special timbre to it which calmed down everyone who listened to it. -->
-  <MusicalKid14.baseDesc>[PAWN_nameDef] est né avec une voix presque magicale. Il a apprit à chanter étant bébé. Sa voix avait un timbre spécial qui calmait tous ceux qui l'écoutaient.</MusicalKid14.baseDesc>
+  <MusicalKid14.baseDesc>[PAWN_nameDef] est né{PAWN_gender ? : e : (e)} avec une voix presque magicale. {PAWN_pronoun} a appris à chanter étant bébé. Sa voix avait un timbre spécial qui calmait tous ceux qui l'écoutaient.</MusicalKid14.baseDesc>
   <!-- EN: Musical kid -->
-  <MusicalKid14.title>Enfant musical</MusicalKid14.title>
+  <MusicalKid14.title>enfant musical</MusicalKid14.title>
   <!-- EN: Music kid -->
-  <MusicalKid14.titleShort>Enfant musical</MusicalKid14.titleShort>
+  <MusicalKid14.titleShort>enfant musical</MusicalKid14.titleShort>
   
   <!-- EN: [PAWN_nameDef] was the only child of a powerful company president. [PAWN_possessive] beautiful appearance led to a career as a music idol.\n\nWhen [PAWN_possessive] mother died, [PAWN_nameDef] could not bear [PAWN_possessive] father's loneliness, and became his sexual companion. -->
   <MusicIdol50.baseDesc>[PAWN_nameDef] était l’enfant unique d’un puissant président d’entreprise. Son apparence agréable l’a dirig{PAWN_gender ? é : ée : é(e)} vers une carrière d’idole de la musique.\n\nLorsque sa mère est décédée, [PAWN_nameDef] n’a pas pu supporter la solitude de son père et est deven{PAWN_gender ? u : ue : u(e)} {PAWN_gender ? son : sa : son/sa} compa{PAWN_gender ? gnon : gne : gnon/gne} sexue{PAWN_gender ? l : lle : l(le)}.</MusicIdol50.baseDesc>
@@ -1411,11 +1413,13 @@
   <OffworldRecruit91.titleShort>recrue</OffworldRecruit91.titleShort>
   
   <!-- EN: [PAWN_nameDef] grew up a sheltered and spoiled child in one of the many manors of [PAWN_possessive] old-money industrialist family.\n\nWhile attending an elite private school, [PAWN_nameDef] received an extensive education in the arts and sciences, but never saw the horrors of the real world. -->
-  <OldMoneyHeir46.baseDesc>[PAWN_nameDef] a grandi en tant qu'enfant gâté et protégé dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté aux horreurs du monde réel.</OldMoneyHeir46.baseDesc>
+  <OldMoneyHeir46.baseDesc>[PAWN_nameDef] a grandi en tant qu'enfant gâté{PAWN_gender ? : e : (e)} et protégé{PAWN_gender ? : e : (e)} dans l'un des nombreux manoirs appartenant à sa famille industrialiste fortunée. \n\nEn fréquentant une école privée d'élite, [PAWN_nameDef] a reçu une éducation poussée dans les arts et les sciences, mais n'a jamais été confronté{PAWN_gender ? : e : (e)} aux horreurs du monde réel.</OldMoneyHeir46.baseDesc>
   <!-- EN: Old money heir -->
-  <OldMoneyHeir46.title>Héritier de vieilles fortunes</OldMoneyHeir46.title>
+  <OldMoneyHeir46.title>héritier de vieilles fortunes</OldMoneyHeir46.title>
+  <OldMoneyHeir46.titleFemale>héritière de vieilles fortunes</OldMoneyHeir46.titleFemale>
   <!-- EN: Heir -->
-  <OldMoneyHeir46.titleShort>Héritier</OldMoneyHeir46.titleShort>
+  <OldMoneyHeir46.titleShort>héritier</OldMoneyHeir46.titleShort>
+  <OldMoneyHeir46.titleShortFemale>héritière</OldMoneyHeir46.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was blessed with loving parents and a pleasant midworld life. [PAWN_pronoun] was an  optimistic and sociable kid who loved making friends and listening to their stories. [PAWN_possessive] imagination would run wild with ideas and questions. -->
   <OptimisticChild30.baseDesc>[PAWN_nameDef] vivait agréablement au sein d’une famille de la classe moyenne aimante et attentionnée. C’était {PAWN_gender ? un : une : un(e)} enfant optimiste et sociable, qui appréciait ses amis et écouter leurs histoires. Son imagination était débordante et remplie de questionnements.</OptimisticChild30.baseDesc>
@@ -2002,11 +2006,11 @@
   <!-- EN: A steward on medieval merchant ships, [PAWN_nameDef] was well-travelled on [PAWN_possessive] homeworld by [PAWN_possessive] early teens.\n\nThe constant orders from [PAWN_possessive] captain, however, fostered a defiant streak, as well as a general disaste for anything [PAWN_pronoun] considered to be busywork. -->
   <StewardsAssisant28.baseDesc>Intendan{PAWN_gender ? t : te : t(e)} sur les navires marchands médiévaux, [PAWN_nameDef] a beaucoup voyagé sur sa planète natale dès le début de son adolescence. \n\nLes ordres incessants de son capitaine ont toutefois favorisé une tendance à la provocation, ainsi qu'un dégoût généralisé pour tout ce qu'[PAWN_pronoun] considérait comme du travail inutile.</StewardsAssisant28.baseDesc>
   <!-- EN: Steward's assisant -->
-  <StewardsAssisant28.title>Assistant d'intendant</StewardsAssisant28.title>
-  <StewardsAssisant28.titleFemale>Assistante d'intendant</StewardsAssisant28.titleFemale>
+  <StewardsAssisant28.title>assistant d'intendant</StewardsAssisant28.title>
+  <StewardsAssisant28.titleFemale>assistante d'intendant</StewardsAssisant28.titleFemale>
   <!-- EN: Steward -->
-  <StewardsAssisant28.titleShort>Intendant</StewardsAssisant28.titleShort>
-  <StewardsAssisant28.titleShortFemale>Intendante</StewardsAssisant28.titleShortFemale>
+  <StewardsAssisant28.titleShort>intendant</StewardsAssisant28.titleShort>
+  <StewardsAssisant28.titleShortFemale>intendante</StewardsAssisant28.titleShortFemale>
   
   <!-- EN: Despite being blessed with parental love, [PAWN_nameDef] hardly knew [PAWN_possessive] parents.\n\n[PAWN_pronoun] was frequently left to [PAWN_possessive] own devices which meant more time devoted to exploring [PAWN_possessive] interests…and getting into trouble. -->
   <Straggler71.baseDesc>Malgré l’amour parental, [PAWN_nameDef] connaissait à peine ses parents.\n\n[PAWN_pronoun] était souvent laissé seu{PAWN_gender ? l : le : l(e)}, ce qui voulait aussi dire pouvoir consacrer plus de temps à l’exploration de ses intérêts… et à se mettre dans le pétrin.</Straggler71.baseDesc>

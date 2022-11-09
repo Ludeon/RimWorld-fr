@@ -10,18 +10,18 @@
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
   <MechanitorShip.questContentRules.rulesStrings>
-    <li>mechanitorShuttleCrashedLetterLabel->Vaisseau Méchanitor</li>
-    <li>mechanitorShuttleCrashedLetterText->Un vaisseau Méchanitor contenant des méchanoïdes sauvages s'est écrasé non loin. Les méchanoïdes sortiront du vaisseau et se préparer à combattre.</li>
-    <li>assaultBeginLetterLabel->Attaque méchanoïde</li>
-    <li>assaultBeginLetterText->Les méchanoïdes sauvages attaquent la colonie!</li>
+    <li>mechanitorShuttleCrashedLetterLabel->Vaisseau méchanitor</li>
+    <li>mechanitorShuttleCrashedLetterText->Un vaisseau méchanitor contenant des mécanoïdes sauvages s'est écrasé non loin. Les mécanoïdes sortiront du vaisseau et se prépareront à combattre.</li>
+    <li>assaultBeginLetterLabel->Attaque mécanoïde</li>
+    <li>assaultBeginLetterText->Les mécanoïdes sauvages attaquent la colonie !</li>
     <li>mechlinkAvailableLetterLabel->Mécalien de [mechanitor_nameDef] disponible</li>
-    <li>mechlinkAvailableLetterText->L'épave du vaisseau contenait le coprs d'un ancien méchanitor.\n\nRécupérez son mécalien en sélectionnant un colon et faîtes un clic droit sur le corps.</li>
+    <li>mechlinkAvailableLetterText->L'épave du vaisseau contenait le corps d'un ancien méchanitor.\n\nRécupérez son mécalien en sélectionnant un colon et faites un clic droit sur le corps.</li>
   </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Vous avez décrypté un ancien transpondeur, révélant la position d'un vaisseau méchanoïde en orbite. Le vaisseau est gravement endommagé mais vous pouvez lui signaler d'atterrir à proximité.\n\nLe vaisseau contient les restes d'un méchanitor depuis longtemps décédé. Les méchanitors peuvent créer, contrôler, et manipuler les mécanoïdes à des fins de labeur ou de combat. En extrayant le mécalien du méchanitor décédé, vous pourrez faire d'un de vos colons un méchanitor.\n\nAttention - le vaisseau contient également des méchanoïdes aggressifs. Le groupe de méchanoïdes se compose de:\n\n[mechList]</li>
+    <li>questDescription->Vous avez décrypté un ancien transpondeur, révélant la position d'un vaisseau mécanoïde en orbite. Le vaisseau est gravement endommagé mais vous pouvez lui signaler d'atterrir à proximité.\n\nLe vaisseau contient les restes d'un méchanitor depuis longtemps décédé. Les méchanitors peuvent créer, contrôler, et manipuler les mécanoïdes à des fins de labeur ou de combat. En extrayant le mécalien du méchanitor décédé, vous pourrez faire d'un de vos colons un méchanitor.\n\nAttention : le vaisseau contient également des mécanoïdes aggressifs. Le groupe de mécanoïdes se compose de :\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -38,16 +38,21 @@
   -->
   <MechanitorShip.questNameRules.rulesStrings>
     <li>questName->[shipNoun] [shipAdjective]</li>
-    <li>shipAdjective->du Méchanitor</li>
-    <li>shipAdjective->du Surveillant</li>
+    <li>questName->[shipNounFem] [shipAdjectiveFem]</li>
+    <li>shipAdjectiveAny->du Méchanitor</li>
+    <li>shipAdjectiveAny->du Surveillant</li>
+    <li>shipAdjectiveAny->mécanoïde</li>
+    <li>shipAdjective->[shipAdjectiveAny]</li>
     <li>shipAdjective->ancien</li>
-    <li>shipAdjective->méchanoïde</li>
+    <li>shipAdjectiveFem->[shipAdjectiveAny]</li>
+    <li>shipAdjectiveFem->ancienne</li>
     <li>shipNoun->Le vaisseau</li>
     <li>shipNoun->Le transbordeur</li>
     <li>shipNoun->L'engin</li>
-    <li>shipNoun->L'épave</li>
     <li>shipNoun->Le cimetière</li>
     <li>shipNoun->Le transport</li>
+    <li>shipNounFem->L'épave</li>
+    <li>shipNounFem->La navette</li>
   </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

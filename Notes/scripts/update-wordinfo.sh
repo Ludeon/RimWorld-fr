@@ -1,5 +1,38 @@
 ﻿#!/usr/bin/env bash
 
+##############################################################
+# update-wordinfo.sh met à jour les fichiers de
+# Core/WordInfo/Gender suivants en récupérant les mots des
+# nouveaux contenus XML :
+#    Female.txt  Male.txt : classifie les mots par genre
+#    new_words.txt        : les nouveaux mots non classifiés
+#        doivent copiés à la main dans Female.txt ou Male.txt
+#        selon le genre.
+#    Singular.txt Plural.txt : classifie les mots par nombre.
+#
+# A FAIRE:
+# - Mettre Singular.txt Plural.txt dans un répertoire "WordInfo/Nombre/"
+#   ou renommer en known_Singular.txt known_Plural.txt
+#
+# - Créer le système de tableau de conversion {lookup: clé:valeur}
+#   pour indiquer les traductions par des exceptions
+#   non pris en compte par le LanguageWorker générique :
+#       known_{Singular,Plural}.txt : combiner en lookup table
+#         dans Core/WordInfo/plural.txt (un répertoire au-dessus)
+#         les mots qui ne sont pas déja dans
+#         Core/WordInfo/Gender/known_{Plural}.txt
+#
+# Exemples [RimWorld-de]
+# plural.txt
+#  // key;nominative;genitive;dative;accusative
+#  // example: {lookup: {0}; Plural; 2}
+#  //          -> genitive form of the key
+# singular.txt
+#  // key;nominative;genitive;dative;accusative
+#  // example: {lookup: {1_label}; Singular; 3}
+#  //          -> dative form of the key
+##############################################################
+
 ########################################
 # Fonctions
 ########################################
@@ -44,7 +77,7 @@ to_lowercase() { PERLIO=:utf8 perl -ne 'print lc $_' ;  }
 set -ex
 
 # Va à la racine du projet
-cd $(dirname $(readlink -f $0))/../..
+cd "$(dirname "$(readlink -f "$0")")"/../..
 
 # Créer un répertoire de travail et s'assure qu'il soit supprimé à la fin
 WORKDIR=$(mktemp -d)
@@ -54,42 +87,42 @@ trap "rm -rf $WORKDIR" EXIT
 export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 
 # Liste des tags provenant du XML
-cat */DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
-cat */DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> $WORKDIR/all
-cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
-cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all
-cat */DefInjected/HediffDef/*.xml | extract_tag_tools_content | to_lowercase | unique >> $WORKDIR/all
+cat ./*/DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > "$WORKDIR"/all
+cat ./*/DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> "$WORKDIR"/all
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> "$WORKDIR"/all
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> "$WORKDIR"/all
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_tools_content | to_lowercase | unique >> "$WORKDIR"/all
 
 # Ajouter labelMale* dans WordInfo/Gender/Male.txt
-cat */WordInfo/Gender/Male.txt > $WORKDIR/all_males.txt
-cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_male_content >> $WORKDIR/all_males.txt
-cat */DefInjected/HediffDef/*.xml | extract_tag_noun_male_content >> $WORKDIR/all_males.txt
-cat $WORKDIR/all_males.txt | to_lowercase | unique > Core/WordInfo/Gender/Male.txt
+cat ./*/WordInfo/Gender/Male.txt > "$WORKDIR"/all_males.txt
+cat ./*/DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_male_content >> "$WORKDIR"/all_males.txt
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_male_content >> "$WORKDIR"/all_males.txt
+cat "$WORKDIR"/all_males.txt | to_lowercase | unique > Core/WordInfo/Gender/Male.txt
 
 # Ajouter labelFemale* dans WordInfo/Gender/Female.txt
-cat */WordInfo/Gender/Female.txt > $WORKDIR/all_females.txt
-cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_female_content >> $WORKDIR/all_females.txt
-cat */DefInjected/HediffDef/*.xml | extract_tag_noun_female_content >> $WORKDIR/all_females.txt
-cat $WORKDIR/all_females.txt | to_lowercase | unique > Core/WordInfo/Gender/Female.txt
+cat ./*/WordInfo/Gender/Female.txt > "$WORKDIR"/all_females.txt
+cat ./*/DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_female_content >> "$WORKDIR"/all_females.txt
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_female_content >> "$WORKDIR"/all_females.txt
+cat "$WORKDIR"/all_females.txt | to_lowercase | unique > Core/WordInfo/Gender/Female.txt
 
 # Ajouter label*Plural dans WordInfo/Gender/Plural.txt
-cat */WordInfo/Gender/Plural.txt > $WORKDIR/all_plurals.txt
-cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_plural_content >> $WORKDIR/all_plurals.txt
-cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all_plurals.txt
-cat $WORKDIR/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plural.txt
+cat ./*/WordInfo/Gender/Plural.txt > "$WORKDIR"/all_plurals.txt
+cat ./*/DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_plural_content >> "$WORKDIR"/all_plurals.txt
+cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> "$WORKDIR"/all_plurals.txt
+cat "$WORKDIR"/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plural.txt
 
 # Liste des mots déjà classés par genre
-cat Core/WordInfo/Gender/{Male,Female}.txt | unique > $WORKDIR/wordinfo
+cat Core/WordInfo/Gender/{Male,Female}.txt | unique > "$WORKDIR"/wordinfo
 
 # Ajouter les mots au singulier dans WordInfo/Gender/Singular.txt
 # (pour le test de Pluralize)
-exclude Core/WordInfo/Gender/Plural.txt < $WORKDIR/all | unique > Core/WordInfo/Gender/Singular.txt
+exclude Core/WordInfo/Gender/Plural.txt < "$WORKDIR"/all | unique > Core/WordInfo/Gender/Singular.txt
 
 # Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
-exclude $WORKDIR/wordinfo < $WORKDIR/all | unique > Core/WordInfo/Gender/new_words.txt
+exclude "$WORKDIR"/wordinfo < "$WORKDIR"/all | unique > Core/WordInfo/Gender/new_words.txt
 
 # Supprime les mots obsolètes des fichiers WordInfo/Gender/{Male,Female}.txt
 for GENDER in Male Female; do
-  intersect $WORKDIR/all < Core/WordInfo/Gender/$GENDER.txt > $WORKDIR/$GENDER.txt
-  mv $WORKDIR/$GENDER.txt Core/WordInfo/Gender/$GENDER.txt
+  intersect "$WORKDIR"/all < Core/WordInfo/Gender/$GENDER.txt > "$WORKDIR"/$GENDER.txt
+  mv "$WORKDIR"/$GENDER.txt Core/WordInfo/Gender/$GENDER.txt
 done
