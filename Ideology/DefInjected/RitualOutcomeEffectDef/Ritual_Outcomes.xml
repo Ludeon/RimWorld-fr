@@ -556,7 +556,7 @@
   <!-- EN: convicted -->
   <Trial.outcomeChances.1.label>condamné</Trial.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <Trial.outcomeChances.1.description>L'accusation a convaincu tout le monde de la culpabilité de {PAWN_labelShort}. {PAWN_labelShort} a été condamné et peut désormais être puni. Vous pouvez exécuter ou bannir {PAWN_objective} et personne ne s'en souciera.</Trial.outcomeChances.1.description>
+  <Trial.outcomeChances.1.description>L'accusation a convaincu tout le monde de la culpabilité de {PAWN_labelShort}. {PAWN_labelShort} a été condamné{PAWN_gender ? : e : (e)} et peut désormais être puni{PAWN_gender ? : e : (e)}. Vous pouvez l'exécuter ou {PAWN_gender ? le : la : le/la} bannir et personne ne s'en souciera.</Trial.outcomeChances.1.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
   <TrialMentalState.description>La qualité du procès détermine la probabilité que l'accusé soit condamné.</TrialMentalState.description>
@@ -573,6 +573,6 @@
   <!-- EN: convicted -->
   <TrialMentalState.outcomeChances.1.label>condamné</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>L'accusation a convaincu tout le monde de la culpabilité de {PAWN_labelShort}. {PAWN_labelShort} a été condamné et peut désormais être puni. Vous pouvez exécuter ou bannir {PAWN_objective} et personne ne s'en souciera.</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>L'accusation a convaincu tout le monde de la culpabilité de {PAWN_labelShort}. {PAWN_labelShort} a été condamné{PAWN_gender ? : e : (e)} et peut désormais être puni{PAWN_gender ? : e : (e)}. Vous pouvez l'exécuter ou {PAWN_gender ? le : la : le/la} bannir et personne ne s'en souciera.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>
