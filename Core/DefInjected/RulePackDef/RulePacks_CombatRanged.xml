@@ -34,14 +34,14 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->[blast] [fromof] [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] [fromof] [WEAPON_definite] de [INITIATOR_definite]</li>
-    <li>prefix->[blast] [fromof] [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] [fromof] [WEAPON_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] de [INITIATOR_definite]</li>
-    <li>prefix->[blast] de [WEAPON_projectile_definite] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] de [projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[blast] de [WEAPON_definite] de [INITIATOR_definite]</li>
-    <li>prefix->[WEAPON_projectile_definite] de [INITIATOR_definite]</li>
+    <li>prefix->[projectile_definite] de [INITIATOR_definite]</li>
     <li>prefix->[WEAPON_definite] de [INITIATOR_definite]</li>
     <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count>=1)->[prefix] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
@@ -70,15 +70,15 @@
     <li>blast->l'impact</li>
     <li>fromof->de</li>
     <li>fromof->de</li>
-  </Combat_ExplosionImpact.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
-    <li>projectile->[WEAPON_projectile_label]</li>
+    <li>projectile->[projectile]</li>
   -->
   <Combat_RangedBase.rulePack.rulesStrings>
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
-    <li>projectile->[WEAPON_projectile_label]</li>
+    <li>projectile->[projectile]</li>
   </Combat_RangedBase.rulePack.rulesStrings>
   
   <!-- EN:
@@ -139,32 +139,32 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s [destroyed_suffix] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Male)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past] par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Female)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past]e par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=2)->[damaged_targets] de [RECIPIENT_definite] ont été [damaged_past]s par [WEAPON_projectile_definite] de [INITIATOR_definite].</li>
-    <li>r_logentry(p=3,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
-    <li>r_logentry(p=6,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec [WEAPON_projectile_indefinite].</li>
-    <li>r_logentry(p=0.2)->[WEAPON_projectile_definite] de [INITIATOR_definite] a frappé [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite] avec [WEAPON_projectile_indefinite].</li>
-    <li>r_logentry(p=0.4)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec [WEAPON_projectile_indefinite] destinée à [ORIGINALTARGET_definite].</li>
-    <li>WEAPON_projectile_label(p=0.05)->balle</li>
-    <li>WEAPON_projectile_definite(p=0.05)->la balle</li>
-    <li>WEAPON_projectile_indefinite(p=0.05)->une balle</li>
+    <li>r_logentry(recipient_part_destroyed_count>=1)->[projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=1)->[projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(p=2,recipient_part_destroyed_count>=1)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Male)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past] [destroyed_suffix] par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==1,recipient_part_destroyed0_definite==Female)->[destroyed_targets] de [RECIPIENT_definite] a été [destroyed_past]e [destroyed_suffix] par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count>=2)->[destroyed_targets] de [RECIPIENT_definite] ont été [destroyed_past]s [destroyed_suffix] par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1)->[projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=1,p=2)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Male)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past] par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count==1,recipient_part_damaged0_gender==Female)->[damaged_targets] de [RECIPIENT_definite] a été [damaged_past]e par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,recipient_part_damaged_count>=2)->[damaged_targets] de [RECIPIENT_definite] ont été [damaged_past]s par [projectile_definite] de [INITIATOR_definite].</li>
+    <li>r_logentry(p=3,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[projectile_definite] de [INITIATOR_definite] a [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] et lui a [damaged_past] [damaged_targets].</li>
+    <li>r_logentry(p=6,recipient_part_destroyed_count>=1,recipient_part_damaged_count>=1)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] et [damaged_present] [damaged_targets].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [RECIPIENT_definite] avec [projectile_indefinite].</li>
+    <li>r_logentry(p=0.2)->[projectile_definite] de [INITIATOR_definite] a frappé [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite] avec [projectile_indefinite].</li>
+    <li>r_logentry(p=0.4)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a frappé [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a frappé [RECIPIENT_definite] avec [projectile_indefinite] destinée à [ORIGINALTARGET_definite].</li>
+    <li>projectile(p=0.05)->balle</li>
+    <li>projectile_definite(p=0.05)->la balle</li>
+    <li>projectile_indefinite(p=0.05)->une balle</li>
     <li>destroyed_past->anéanti</li>
     <li>destroyed_past->écrasé</li>
     <li>destroyed_past->écrabouillé</li>
@@ -202,7 +202,7 @@
     <!--     <li>to->dans</li> -->
     <li>missed->a raté</li>
     <li>missed->a manqué de justesse</li>
-  </Combat_RangedDamage.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
@@ -230,15 +230,15 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=2)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[damaged_target_damaged_past_opt] par [WEAPON_projectile_definite] de [INITIATOR_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[WEAPON_projectile_definite] de [INITIATOR_definite] a frappé [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [WEAPON_projectile_indefinite] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
-    <li>WEAPON_projectile_label(p=0.05)->balle</li>
+    <li>r_logentry->[projectile_definite] de [INITIATOR_definite] a [damaged_past] [damaged_target] de [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=2)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a [damaged_past] [damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry->[damaged_target_damaged_past_opt] par [projectile_definite] de [INITIATOR_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [projectile_indefinite] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[projectile_definite] de [INITIATOR_definite] a frappé [damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] avec [projectile_indefinite] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [projectile_indefinite] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
+    <li>projectile(p=0.05)->balle</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] de [RECIPIENT_definite]</li>
     <li>damaged_target_damaged_past_opt(recipient_part_damaged0_gender==Male)->[recipient_part_damaged0_definite] de [RECIPIENT_definite] a été [damaged_past]</li>
@@ -258,7 +258,7 @@
     <li>scraped_present->ricochant sur</li>
     <li>missed->a raté</li>
     <li>missed->a raté de peu</li>
-  </Combat_RangedDeflect.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_RangedDeflect.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
@@ -293,10 +293,10 @@
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] avec [WEAPON_indefinite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot] avec [WEAPON_indefinite] sur [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_indefinite] [burst] sur [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_indefinite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile_indefinite] [burst] sur [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile_indefinite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] avec [WEAPON_indefinite].</li>
-    <!-- NOTE: use [shot_a] [WEAPON_projectile_indefinite] -->
+    <!-- NOTE: use [shot_a] [projectile_indefinite] -->
     <li>shot_a(p=2)->[verb_shot_a]</li>
     <li>shot_a->[verb_shot_a] [skillAdv]</li>
     <li>shot(p=2)->[verb_shot]</li>
@@ -330,7 +330,7 @@
     <li>verb_shot_a(p=0.2)->[verb_shot_2]</li>
     <li>verb_shot_2->a envoyé</li>
     <!-- <li>verb_shot_2->a déchargé</li> -->
-  </Combat_RangedFire.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile] at [RECIPIENT_definite].</li>
@@ -359,14 +359,14 @@
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
     <!-- NOTE:
-      ideally "sa [WEAPON_projectile_label]" should be
-      [WEAPON_projectile_possessive] [WEAPON_projectile_label]
+      ideally "sa [projectile]" should be
+      [WEAPON_projectile_possessive] [projectile]
       but WEAPON_projectile_possessive resolve to genderless son/sa
     -->
-    <!-- <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [WEAPON_projectile_label] sur [RECIPIENT_definite].</li> -->
-    <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite] sur [RECIPIENT_definite].</li>
-    <!-- <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [WEAPON_projectile_label].</li> -->
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_indefinite].</li>
+    <!-- <li>r_logentry->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [projectile] sur [RECIPIENT_definite].</li> -->
+    <li>r_logentry->[INITIATOR_definite] [threw] [projectile_indefinite] sur [RECIPIENT_definite].</li>
+    <!-- <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [WEAPON_projectile_possessive] [projectile].</li> -->
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [projectile_indefinite].</li>
     <li>threw_a->[verb_threw] [adverb_threw] une</li>
     <li>threw_a(p=2)->[verb_threw] une</li>
     <li>threw(p=2)->[verb_threw]</li>
@@ -386,7 +386,7 @@
     <li>adjective_threw->délibéré</li>
     <li>adjective_threw->précis</li>
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->prudent</li>
-  </Combat_RangedFire_Thrown.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [missed].</li>
@@ -433,9 +433,9 @@
     <li>ducked->hid</li>
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->[WEAPON_projectile_definite] de [INITIATOR_definite] [missed].</li>
+    <li>r_logentry->[projectile_definite] de [INITIATOR_definite] [missed].</li>
     <li>r_logentry->[INITIATOR_definite] a raté [ORIGINALTARGET_definite].</li>
-    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], [WEAPON_projectile_definite] de [INITIATOR_definite] [missing].</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], [projectile_definite] de [INITIATOR_definite] [missing].</li>
     <li>missed(p=4)->a raté</li>
     <li>missed(p=2)->a raté de peu</li>
     <li>missed(p=2)->a raté de beaucoup</li>
@@ -479,6 +479,6 @@
     <li>ducked->accroupi</li>
     <li>ducked->replié</li>
     <li>ducked->caché</li>
-  </Combat_RangedMiss.rulePack.rulesStrings><!-- text_todo -->
+  </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>
