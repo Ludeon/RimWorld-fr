@@ -7,9 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] [joiner_named] [joiner_nameDef] vous appelle. [joiner_pronoun] est [joiner_chased] par des [enemyFaction_pawnsPlural] de [enemyFaction_name] !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite]. [joiner_pronoun] a [joiner_age] ans biologiques.[joiner_relationInfo]\n\nAttention : si vous acceptez, vous devrez combattre les [enemyFaction_pawnsPlural] à ses trousses. Ce groupe est composé de :\n\n[raid/raidPawnKinds]\n\n[joiner_pronoun] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
+    <li>questDescription->[introduction] [joiner_named] [joiner_nameDef] vous appelle. [joiner_pronoun] est [joiner_chased] par des [enemyFaction_pawnsPlural] de [enemyFaction_name] !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite]. [joiner_relationInfo]\n\nSi vous acceptez, vous devrez combattre les [enemyFaction_pawnsPlural] à ses trousses. Ce groupe est composé de :\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_A] enfant de [joiner_age] ans</li>
-    <li>introduction->[joiner_titleIndef] de [joiner_age] ans
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
     <li>joiner_named(joiner_gender==Male)->nommé</li>
     <li>joiner_named(joiner_gender==Female)->nommée</li>
     <li>joiner_named(joiner_gender==None)->nommé(e)</li>
@@ -53,7 +53,8 @@
     <li>runnerIndef(childCount==1,priority=1)->un enfant</li>
     <li>runnerGendered->[joiner_titleIndef]</li>
     <li>runnerGendered->[joiner_nameIndef]</li>
-    <li>runnerIndef(childCount==1,priority=1)->un enfant</li>
+    <li>runnerGendered(childCount==1,priority=1,joiner_gender==Female)->une gamine</li>
+    <li>runnerGendered(childCount==1,priority=1,joiner_gender!=Female)->un gamin</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} pourchassant [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
