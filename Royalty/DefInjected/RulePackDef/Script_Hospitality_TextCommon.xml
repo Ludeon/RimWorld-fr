@@ -53,7 +53,7 @@
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -179,6 +179,6 @@
     <li>failLetterEndingQuest->Vous avez raté la quête "[resolvedQuestName]".</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nVotre relation avec [asker_faction_name] a diminué de [goodwillPenalty].</li>
-  </QuestHospitalityCommon.rulePack.rulesStrings><!-- text_todo -->
+  </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>
