@@ -111,18 +111,18 @@ cat ./*/DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_
 cat ./*/DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> "$WORKDIR"/all_plurals.txt
 cat "$WORKDIR"/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plural.txt
 
-# Liste des mots déjà classés par genre
-cat Core/WordInfo/Gender/{Male,Female}.txt | unique > "$WORKDIR"/wordinfo
-
 # Ajouter les mots au singulier dans WordInfo/Gender/Singular.txt
 # (pour le test de Pluralize)
 exclude Core/WordInfo/Gender/Plural.txt < "$WORKDIR"/all | unique > Core/WordInfo/Gender/Singular.txt
-
-# Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
-exclude "$WORKDIR"/wordinfo < "$WORKDIR"/all | unique > Core/WordInfo/Gender/new_words.txt
 
 # Supprime les mots obsolètes des fichiers WordInfo/Gender/{Male,Female}.txt
 for GENDER in Male Female; do
   intersect "$WORKDIR"/all < Core/WordInfo/Gender/$GENDER.txt > "$WORKDIR"/$GENDER.txt
   mv "$WORKDIR"/$GENDER.txt Core/WordInfo/Gender/$GENDER.txt
 done
+
+# Liste des mots déjà classés par genre
+cat Core/WordInfo/Gender/{Male,Female}.txt | unique > "$WORKDIR"/wordinfo
+
+# Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
+exclude "$WORKDIR"/wordinfo < "$WORKDIR"/all | unique > Core/WordInfo/Gender/new_words.txt
