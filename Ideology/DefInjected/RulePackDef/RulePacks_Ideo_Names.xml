@@ -64,11 +64,13 @@
     <li>r_ideoAdjective->[keyDeity]ique</li>
     <li>r_memberName->[keyDeity]ique</li>
     <li>r_memberName->[keyDeity]iste</li>
-    <li>r_ideoName(p=2)->[packIdeoName] [globalAdjective]</li>
-    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-    <li>r_ideoName->[packIdeoName] [memeAdjective]</li>
-    <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
-    <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->Le [memeCreed]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
     <li>creed(priority=1)->[memeCreed]</li>
@@ -77,20 +79,6 @@
     <li>genericCreed->doctrine</li>
     <li>genericCreed->voie</li>
     <li>genericCreed->chemin</li>
-    <li>globalAdjective->[Color]</li>
-    <li>globalAdjective->nouveau</li>
-    <li>globalAdjective->complet</li>
-    <li>globalAdjective->ancien</li>
-    <li>globalAdjective->antique</li>
-    <li>globalAdjective->historique</li>
-    <li>globalAdjective->révisé</li>
-    <li>globalAdjective->réformé</li>
-    <li>globalAdjective->difficile</li>
-    <li>globalAdjective->fondamental</li>
-    <li>globalAdjective->véritable</li>
-    <li>globalAdjective->populaire</li>
-    <li>globalAdjective->réformé</li>
-    <li>globalAdjective->[place_adjective]</li>
     <li>hyphenPrefix->[globalHyphenPrefix]</li>
     <li>hyphenPrefix->[memeHyphenPrefix]</li>
     <li>globalHyphenPrefix(p=4)->neo</li>
@@ -98,6 +86,6 @@
     <li>globalHyphenPrefix->nova</li>
     <li>globalHyphenPrefix->archéo</li>
     <li>globalHyphenPrefix->hyper</li>
-  </NamerIdeoGlobal.rulePack.rulesStrings><!-- text_todo -->
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>
