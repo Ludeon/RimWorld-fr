@@ -60,7 +60,9 @@
   -->
   <Beggars.questDescriptionRules.rulesStrings>
     <li>groupLabelPlural->voyageurs</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->enfants</li>
     <li>groupLabelSingle->voyageur</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->enfant</li>
     <li>travelerInfo(beggarCount==1)->Ce [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount>=2)->Ces [groupLabelPlural]</li>
     <li>beggingForInfo->pour x[requestedThingCount] [requestedThing_label]</li>
@@ -70,11 +72,14 @@
     <li>questDescription(beggarCount>=2)->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] ne font partie d'aucune faction. Si vous le désirez, vous pouvez choisir de [traverObjective] tuer, de les arrêter, de les vendre ou de prélever leurs organes sans conséquences diplomatiques.</li>
     <li>approachInfo(beggarCount==1)->Un pauvre [groupLabelSingle] nommé [beggars0_nameDef] s'approche et cherche de l'aide</li>
     <li>approachInfo(beggarCount>=2)->Un groupe de pauvres [groupLabelPlural] s'approche et cherche de l'aide</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Un groupe de pauvres [groupLabelPlural] avec un enfant s'approche et cherche de l'aide</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Un groupe de pauvres [groupLabelPlural] avec des enfants s'approche et cherche de l'aide</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] mendie [beggingForInfo]</li>
     <li>requestInfo(beggarCount>=2)->Les [groupLabelPlural] mendient [beggingForInfo]</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] veut de l'argent pour payer une dette à une bande de pirates à sa poursuite</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] veut de l'argent pour acheter la liberté de sa grande sœur qui a été réduite en esclavage par des pirates</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] a besoin du médicament pour aider un voyageur qui est blessé dans les environs</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] a besoin de médicaments pour aider son petit frère blessé à proximité</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] veut du médicament pour sauver son fidèle compagnon qui a été blessé sur la route</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] a besoin de [requestedThing_label] pour immuniser un ami malade contre ses maladies mortelles</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] veut noyer son chagrin après avoir perdu un compagnon de voyage dans un terrible accident</li>
@@ -85,12 +90,12 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Ils ont besoin du médicament pour aider leurs amis dans une colonie voisine qui a été dévastée par des pillards</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ils veulent de la [requestedThing_label] pour pouvoir voyager en toute sécurité pendant qu'ils cherchent un nouvel endroit où s'installer</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Ils veulent de la [requestedThing_label] pour les aider à noyer leur chagrin après avoir perdu leur foyer dans une terrible attaque</li>
-    <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur lui</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Ils espèrent utiliser le [requestedThing_label] pour libérer leur ami en enivrant des esclavagistes avant d'organiser son évasion</li>
+    <li>interactionInfo(beggarCount==1)->Vous pouvez donner les objets à [beggars0_nameDef] en sélectionnant un colon et en faisant un clic droit sur lui</li>
     <li>interactionInfo(beggarCount>=2)->Vous pouvez donner les objets aux [groupLabelPlural] en sélectionnant un colon et en faisant un clic droit sur [beggars0_nameDef]</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] partira après [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->Les [groupLabelPlural] partiront après [visitDurationTicks_duration]</li>
-  </Beggars.questDescriptionRules.rulesStrings><!-- text_todo -->
+  </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount==1,childCount==1,priority=1)->young [beggarSingle] [seekingSingle] [alms]</li>
@@ -120,7 +125,9 @@
   -->
   <Beggars.questNameRules.rulesStrings>
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->jeune [beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->jeunes [beggarPlural] [seekingPlural] [alms]</li>
     <li>beggarSingle->mendiant</li>
     <li>beggarSingle->vagabond</li>
     <li>beggarSingle->nomade</li>
@@ -142,6 +149,6 @@
     <li>alms->de l'aide</li>
     <li>alms->la charité</li>
     <li>alms->des ressources</li>
-  </Beggars.questNameRules.rulesStrings><!-- text_todo -->
+  </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>
