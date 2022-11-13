@@ -24,8 +24,13 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name] vola, assassina, viola ; et une grande culpabilité s'abattit sur [deity0_objective]. Dans son égoïsme, [deity0_pronoun] rejetta cette culpabilité sur [deity0_possessive] peuple choisi, et tous en furent remplis.</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->Les croyants conquirent et vaincurent, brûlèrent et violèrent pendant mille ans ; et le chagrin de [deity0_name] face à leur dépravation consumma [deity0_objective].</li>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] vola, assassina, viola ; et une grande culpabilité s'abattit sur [deity0_objective]. Dans son égoïsme, [deity0_pronoun] rejeta cette culpabilité sur le peuple qu'[deity0_pronoun] a choisi, et tous en furent remplis.</li>
+    <!-- NOTE: utiser deity0_gender==Female si ce flag existe -->
+    <!--
+    <li>episode(uses=1,tag=meme_Guilty,deity0_gender==Female)  ->Les croyants conquirent et vainquirent, brûlèrent et violèrent pendant mille ans ; et le chagrin de [deity0_name] face à leur dépravation la consuma.</li>
+    <li>episode(uses=1,tag=meme_Guilty,deity0_gender!=Female)  ->Les croyants conquirent et vainquirent, brûlèrent et violèrent pendant mille ans ; et le chagrin de [deity0_name] face à leur dépravation le consuma.</li>
+    -->
+    <li>episode(uses=1,tag=meme_Guilty)  ->Les croyants conquirent et vainquirent, brûlèrent et violèrent pendant mille ans ; et le chagrin de [deity0_name] face à leur dépravation le consuma.</li>
     <li>intro(tag=meme_Guilty)           ->Les [memberNamePlural] du [place_summary] [place_name] négligèrent leur devoir envers [deity0_name] et laissèrent le [altarName] de [deity0_possessive] [altarRoomLabel] s'effondrer.</li>
     <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] prêta de l'argent aux [memberNamePlural], qui le dépensèrent dans des plaisirs égoïstes, en oubliant l'importance de [memeConcept].</li>
     <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] nommé [founderName] bénéficiait de la faveur du [foeLeader]. Pendant le [ritualName], [founder_pronoun] vit les [foeSoldiers] du [foeLeader] tuer secrètement [memberNamePlural] avec des [place_personalWeapon]. [founderName] compris finalement [memeConcept] et reçut la bénédiction de [deity0_name].</li>
