@@ -154,27 +154,38 @@
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
   <IdeologicalLesson.rules.rulesStrings>
-    <li>lesson(priority=-1)->stuff happens</li>
+    <li>lesson(priority=-1)->des choses arrivent</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
     <li>lessonAttribution(p=2)->[attributionSource_titleCase] par [founder_nameFull]</li>
     <li>lessonAttribution->Lettre de [founder_nameFull] à [believer_nameFull]</li>
-    <li>lessonAttribution->[founder_nameFull], de la keynote à [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], du discours d'ouverture à [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull], sur son lit de mort</li>
     <li>lessonAttribution->[founder_nameFull], juste avant l'exécution</li>
     <li>lessonAttribution->[founder_nameFull], [speech] sur le [TerrainFeature]</li>
-    <li>lessonAttribution->[founder_nameFull], [speech] dans la [Community]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] sur la [TerrainFeature_Feminine]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] dans le [Community]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] dans la [Community_Feminine]</li>
+    <!-- todo-texte : pour l'ajustement des phrases au Masculin/Feminine, il faut
+      - mettre des memeAdjectif_Fem et memeConcept_Fem dans les fichiers de
+        Ideology/DefInjected/MemeDef/*.xml
+      - identifier les place_job_Fem dans Ideology/DefInjected/PlaceDef/*.xml
+        et Royalty/DefInjected/PlaceDef/*.xml
+    -->
     <li>attributionSource->[memeConcept]</li>
-    <li>attributionSource->[memeAdjective] [memeConcept]</li>
-    <li>attributionSource->Une vie [memeAdjectif]</li>
+    <li>attributionSource->[memeConcept] [memeAdjective]</li>
+    <!-- <li>attributionSource->Une vie [memeAdjective_Fem]</li> -->
+    <li>attributionSource->Une vie [memeAdjective]</li>
     <li>attributionSource->Réflexions d'un [attributionJob]</li>
     <li>attributionSource->Mémoire d'un [attributionJob]</li>
     <li>attributionSource->Pensées d'un [attributionJob]</li>
     <li>attributionSource->Vie d'un [attributionJob]</li>
-    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionJob->[place_job] [memeAdjective]</li>
     <li>attributionJob->[place_job]</li>
-    <li>memeConference(p=3)->Le [conferencePrefix] [memeConcept] [conferenceType]</li>
-    <li>memeConference(p=2)->Le [memeConcept] [conferenceType]</li>
+    <li>memeConference(p=3)->Le [conferencePrefix] [conferenceType] [conferenceSuffix] de [memeConcept]</li>
+    <li>memeConference(p=3)->La [conferencePrefix_Fem] [conferenceType_Fem] [conferenceSuffix_Fem] de [memeConcept]</li>
+    <li>memeConference(p=2)->Le [conferenceType] de [memeConcept]</li>
+    <li>memeConference(p=2)->La [conferenceType_Fem] de [memeConcept]</li>
     <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
     <li>conferencePrefix->Premier</li>
     <li>conferencePrefix->Second</li>
@@ -182,19 +193,33 @@
     <li>conferencePrefix->Quatrième</li>
     <li>conferencePrefix->Dernier</li>
     <li>conferencePrefix->Ultime</li>
-    <li>conferencePrefix->Interplanétaire</li>
-    <li>conferencePrefix->Planétaire</li>
-    <li>conferencePrefix->Universel</li>
-    <li>conferenceType->Conférence</li>
-    <li>conferenceType->Assemblée</li>
-    <li>conferenceType->Réunion</li>
-    <li>conferenceType->Discussion</li>
+    <li>conferencePrefix_Fem->Première</li>
+    <li>conferencePrefix_Fem->Seconde</li>
+    <li>conferencePrefix_Fem->Troisième</li>
+    <li>conferencePrefix_Fem->Quatrième</li>
+    <li>conferencePrefix_Fem->Dernière</li>
+    <li>conferencePrefix_Fem->Ultime</li>
+    <li>conferenceSuffix_Any-></li>
+    <li>conferenceSuffix_Any->Interplanétaire</li>
+    <li>conferenceSuffix_Any->Planétaire</li>
+    <li>conferenceSuffix->[conferenceSuffix_Any]</li>
+    <li>conferenceSuffix->Universel</li>
+    <li>conferenceSuffix_Fem->[conferenceSuffix_Any]</li>
+    <li>conferenceSuffix_Fem->Universelle</li>
+    <li>conferenceType_Fem->Conférence</li>
+    <li>conferenceType_Fem->Assemblée</li>
+    <li>conferenceType_Fem->Réunion</li>
+    <li>conferenceType_Fem->Discussion</li>
     <li>conferenceType->Forum</li>
     <li>speech->Discours</li>
-    <li>speech->Adresse</li>
+    <li>speech->Allocution</li>
     <li>lessonIntro->Une leçon a été la plus difficile à accepter pour mes disciples :</li>
     <li>lessonIntro->Mon plus grand crime a été d'avoir mis si longtemps à comprendre que</li>
     <li>lessonIntro->Ma lutte contre le [foeLeader] semblait sans fin. Mais ça m'a appris une chose :</li>
+    <!-- NOTE: plusieurs ajustements à faire 
+        le [place_summary] [place_name]
+        la [place_community]
+    -->
     <li>lessonIntro->Même en étant enfant sur le [place_summary] [place_name], je savais que</li>
     <li>lessonIntro->Lors d'un cours dans la [place_community], un élève a lancé un [thrownObject] et il m'a frappé à la tête. C'est alors que j'ai réalisé que</li>
     <li>lessonIntro->Je dis cela non pas pour que vous puissiez vivre la vie que j'ai vécue, mais pour que vous puissiez apprendre les choses que j'ai apprises. C'est</li>
@@ -204,7 +229,7 @@
     <li>lessonIntro->Ils semblaient tous tellement perdus. je leur ai dit que</li>
     <li>lessonIntro->Ils ont pleuré pour être guidés. je leur ai montré que</li>
     <li>thrownObject->livre</li>
-    <li>thrownObject->sandwiche</li>
+    <li>thrownObject->sandwich</li>
     <li>thrownObject->jouet [place_personalWeapon]</li>
     <li>thrownObject->[Animal] en peluche</li>
     <li>doctor_possessive->son</li>
@@ -251,14 +276,14 @@
     <li>intro->Les habitants de [place_summary] [place_name], à la fois [memberNamePlural] et d'autres, vécurent en paix pendant de nombreuses années sous l'œil vigilant de [deity0_name].</li>
     <li>intro->Le [deity0_type], [deity0_name], se révéla aux habitants de [place_name] afin qu'ils puissent comprendre [memeConcept], et les guida.</li>
     <li>intro->[deity0_name] guida l'humanité jusqu'à [place_name] et l'aida à s'y installer.</li>
-    <li>intro->Sur le [place_summary] [place_name], pendant le [ritualName], les gens venirent au [altarName] au [altarRoomLabel] de [deity0_name] et prièrent avec [memeConcept] dans leur cœur.</li>
-    <li>conflict->Un [foeLeader] apparu et menaça de détruire [deity0_name] [deity0_objective] en utilisant [place_massWeapon].</li>
-    <li>conflict->Un [foeLeader] et ses [foeSoldiers] diaboliques réduirent en esclavage les adorateurs de [deity0_name].</li>
+    <li>intro->Sur le [place_summary] [place_name], pendant le [ritualName], les gens vinrent au [altarName] au [altarRoomLabel] de [deity0_name] et prièrent avec [memeConcept] dans leur cœur.</li>
+    <li>conflict->Un [foeLeader] apparut et menaça de détruire [deity0_name] [deity0_objective] en utilisant [place_massWeapon].</li>
+    <li>conflict->Un [foeLeader] et ses [foeSoldiers] diaboliques réduisirent en esclavage les adorateurs de [deity0_name].</li>
     <li>conflict->Puis le [foeLeader] vint. Ses [foeSoldiers] tuèrent de nombreux adorateurs de [deity0_name] avec des [place_personalWeapon].</li>
     <li>conflict->Un groupe de [foeSoldiers] s'éleva sous la direction d'un terrible [foeLeader]. Ils piégèrent les [memberNamePlural] dans un [place_community].</li>
     <li>conflict->Il y avait la paix, jusqu'à ce qu'un [foeLeader] et ses [foeSoldiers] se rebellèrent contre la domination de [deity0_name]. Les [memberNamePlural] furent forcés de fuir vers une [place_community] cachée.</li>
     <li>founderJoin->Un héros nommé [founderName] tenta d'assassiner le [foeLeader]. [founder_pronoun] échoua, mais [deity0_name] fut témoin de la lutte de [founderName] et le nomma prophète des [memberNamePlural].</li>
-    <li>founderJoin->[deity0_name] vint au [place_job] [founderName] [revelationAdverb] et parla à [founder_objective] de [memeConcept].</li>
+    <li>founderJoin->[deity0_name] vint au [place_job] [founderName] [revelationAdverb] et lui parla de [memeConcept].</li>
     <li>founderJoin->[founderName] rencontra [revelationObject], qui parla dans la voix de [deity0_name] à propos de [memeConcept].</li>
     <li>founderJoin->Un renommé [place_job] nommé [founderName] réunit les [memberNamePlural] et recruta certains des [foeSoldiers].</li>
     <li>founderJoin-> Un [place_job] nommé [founderName] se leva et se prononça contre le [foeLeader], et [deity0_name] bénit [founderName].</li>
@@ -270,10 +295,14 @@
     <li>revelationAdverb->dans un rêve</li>
     <li>revelationAdverb->dans un cauchemar</li>
     <li>revelationAdverb->comme un [Animal]</li>
+    <li>revelationAdverb->comme une [Animal_Feminine]</li>
     <li>revelationAdverb->comme un mendiant</li>
     <li>revelationObject->un [NaturalObject] caché</li>
+    <li>revelationObject->une [NaturalObject_Feminine] cachée</li>
     <li>revelationObject->un éclatant [Vegetable]</li>
-    <li>revelationObject->une ancienne [Weapon]</li>
+    <li>revelationObject->une éclatante [Vegetable_Feminine]</li>
+    <li>revelationObject->un ancien [Weapon]</li>
+    <li>revelationObject->une ancienne [Weapon_Feminine]</li>
   </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -303,16 +332,16 @@
     <li>creation->L'univers était un vide. Ensuite, [deity0_name], ennuyé par l'éternité, façonna l'homme et la femme [bodilyOrigin].</li>
     <li>episode(uses=1)->En regardant l'humanité, [deity0_name] les trouva enfantins et déclara sa domination sur eux.</li>
     <li>episode(uses=1)->À travers les vastes distances stellaires, la volonté de [deity0_name] protégea la vie de l'humanité contre le vide.</li>
-    <li>episode(uses=1)->Bien que de nombreux aventuriers se soient ligués contre [deity0_objective], [deity0_name] les contenit facilement, car [deity0_pronoun] était [deity0_type].</li>
+    <li>episode(uses=1)->Bien que de nombreux aventuriers se soient ligués contre [deity0_objective], [deity0_name] les contenait facilement, car [deity0_pronoun] était [deity0_type].</li>
     <li>episode(uses=1)->La souffrance de l'humanité causa à [deity0_name] un terrible chagrin.</li>
     <li>materialOrigin->d'argile</li>
     <li>materialOrigin->de gaz</li>
     <li>materialOrigin->d'eau</li>
     <li>materialOrigin->d'espace</li>
     <li>materialOrigin->de poussière</li>
-    <li>bodilyOrigin->d'argile</li>
-    <li>bodilyOrigin->de pierre</li>
-    <li>bodilyOrigin->d'eau</li>
+    <li>bodilyOrigin->de l'argile</li>
+    <li>bodilyOrigin->de la pierre</li>
+    <li>bodilyOrigin->de l'eau</li>
   </TheistMyth.rules.rulesStrings>
   
 </LanguageData>
