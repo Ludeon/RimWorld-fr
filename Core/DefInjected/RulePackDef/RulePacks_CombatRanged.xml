@@ -78,7 +78,18 @@
   -->
   <Combat_RangedBase.rulePack.rulesStrings>
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
+    <li>projectile_definite(WEAPON_missing==True, p=3)->[PROJECTILE_definite]</li>
+    <li>projectile_indefinite(WEAPON_missing==True, p=3)->[PROJECTILE_indefinite]</li>
     <li>projectile->[WEAPON_projectile_label]</li>
+    <li>projectile_definite->[WEAPON_projectile_definite]</li>
+    <li>projectile_indefinite->[WEAPON_projectile_indefinite]</li>
+    <!-- NOTE: la valeur par défaut (shot:"balle")
+        ne convient pas pour les objets lancés dans Combat_RangedFire_Thrown -->
+    <!--
+    <li>projectile(p=0.05)->balle</li>
+    <li>projectile_definite(p=0.05)->la balle</li>
+    <li>projectile_indefinite(p=0.05)->une balle</li>
+    -->
   </Combat_RangedBase.rulePack.rulesStrings>
   
   <!-- EN:
@@ -239,6 +250,8 @@
     <li>r_logentry(p=0.4)->[projectile_definite] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] et a tiré sur [damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] a tiré sur [damaged_target_possessive_opt] avec [projectile_indefinite] destinée à [ORIGINALTARGET_definite] [deflected_result].</li>
     <li>projectile(p=0.05)->balle</li>
+    <li>projectile_definite(p=0.05)->la balle</li>
+    <li>projectile_indefinite(p=0.05)->une balle</li>
     <li>damaged_target_possessive_opt->[RECIPIENT_definite]</li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->[recipient_part_damaged0_definite] de [RECIPIENT_definite]</li>
     <li>damaged_target_damaged_past_opt(recipient_part_damaged0_gender==Male)->[recipient_part_damaged0_definite] de [RECIPIENT_definite] a été [damaged_past]</li>
