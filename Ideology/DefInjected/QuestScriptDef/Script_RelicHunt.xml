@@ -27,17 +27,24 @@
   -->
   <RelicHunt.questNameRules.rulesStrings>
     <li>questName->La [hunt] pour [item]</li>
+    <li>questName->La [hunt] pour [itemFem]</li>
     <li>questName->[item] [itemAdj]</li>
+    <li>questName->[itemFem] [itemAdjFem]</li>
     <li>questName(classicMode==False)->[item] de [ideo_name]</li>
+    <li>questName(classicMode==False)->[itemFem] de [ideo_name]</li>
     <li>hunt->chasse</li>
     <li>hunt->recherche</li>
     <li>hunt->quête</li>
+    <!-- NOTE: déterminer le genre Masc./Fem. de [relic_name] -->
     <li>item(p=4)->[relic_name]</li>
-    <li>item->relique</li>
-    <li>item->artefact</li>
-    <li>itemAdj->ancien(ne)</li>
-    <li>itemAdj->admiré(e)</li>
-    <li>itemAdj->vénéré(e)</li>
+    <li>item->un artefact</li>
+    <li>itemFem->une relique</li>
+    <li>itemAdj->ancien</li>
+    <li>itemAdj->admiré</li>
+    <li>itemAdj->vénéré</li>
+    <li>itemAdjFem->ancienne</li>
+    <li>itemAdjFem->admirée</li>
+    <li>itemAdjFem->vénérée</li>
   </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>
