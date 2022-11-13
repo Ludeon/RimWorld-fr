@@ -39,7 +39,7 @@
     <li>r_logentry->[INITIATOR_nameDef] fait [reaction] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] joue à [babyGame] avec [RECIPIENT_nameDef].</li>
-    <li>reaction->Pouffer de rire</li>
+    <li>reaction->pouffer de rire</li>
     <li>reaction->sourire</li>
     <li>reaction->se tortiller de joie</li>
     <li>reaction->rire</li>
@@ -58,8 +58,8 @@
     <li>interaction->étreint</li>
     <li>interaction->remue</li>
     <li>interaction->chante pour</li>
-    <li>interaction->told a story to</li>
-    <li>interaction->played a magic trick on</li>
+    <li>interaction->raconte une histoire à</li>
+    <li>interaction->fait un tour de magie à</li>
     <li>babyGame->cache-cache</li>
     <li>babyGame->coucou</li>
     <li>babyGame->trouver le doigt</li>
@@ -158,13 +158,13 @@
     <li>action->faire de l'art avec</li>
     <li>action->utiliser</li>
     <li>action->s'exprimer avec</li>
-    <li>action_gerund->faire de l'art avec</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->s'exprimer avec</li>
+    <li>action_gerund->faisant de l'art avec</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->s'exprimant avec</li>
     <li>subject->les matériaux de sculpture</li>
     <li>subject->les artistes célèbres</li>
     <li>subject->les peintures célèbres</li>
-    <li>subject->les galleries des glitterworld</li>
+    <li>subject->les galeries des glitterworld</li>
     <li>subject->le portrait</li>
     <li>subject->l'art abstrait</li>
     <li>subject->le mélange de peintures</li>
@@ -200,9 +200,9 @@
     <li>action->utiliser</li>
     <li>action->travailler avec</li>
     <li>action->inspecter</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->travailler avec</li>
-    <li>action_gerund->inspecter</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->travaillant avec</li>
+    <li>action_gerund->inspectant</li>
     <li>subject->l'architecture</li>
     <li>subject->la construction technique</li>
     <li>subject->la déconstruction technique</li>
@@ -242,13 +242,13 @@
     <li>article_tool->une casserole</li>
     <li>article_tool->un distributeur de pâte nutritive</li>
     <li>article_tool->une table de boucher</li>
-    <li>action->clean</li>
+    <li>action->nettoyer</li>
     <li>action->cuisiner avec</li>
-    <li>action_gerund->sublimer</li>
-    <li>action_gerund->préparer</li>
+    <li>action_gerund->nettoyant</li>
+    <li>action_gerund->cuisinant avec</li>
     <li>subject->les épices</li>
     <li>subject->les repas de survie emballés</li>
-    <li>subject->les oeufs</li>
+    <li>subject->les œufs</li>
     <li>subject->la viande</li>
     <li>subject->les saveurs</li>
     <li>subject->les recettes</li>
@@ -287,28 +287,28 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-    <li>article_tool->un tourne vis</li>
+    <li>article_tool->un tournevis</li>
     <li>article_tool->une paire de pinces</li>
     <li>article_tool->un circuit imprimé</li>
-    <li>article_tool->une machine a coudre</li>
+    <li>article_tool->une machine à coudre</li>
     <li>article_tool->une table d'usinage</li>
     <li>article_tool->une imprimante 3D</li>
     <li>action->utiliser</li>
     <li>action->travailler avec</li>
     <li>action->inspecter</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->travailler avec</li>
-    <li>action_gerund->inspecter</li>
-    <li>subject->les outils d'organisation</li>
-    <li>subject->tinkering accomplishments</li>
-    <li>subject->les réalisations de bricolage</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->travaillant avec</li>
+    <li>action_gerund->inspectant</li>
+    <li>subject->l'organisation des outils</li>
+    <li>subject->les résultats du bricolage</li>
+    <li>subject->les gadgets</li>
     <li>subject->les variétés de tissus</li>
     <li>subject->les techniques de tissage de tissus</li>
     <li>subject->l'armure de plates</li>
     <li>subject->les ceintures utilitaires</li>
     <li>subject->les bioniques</li>
     <li>situation->en sécurité</li>
-    <li>situation->sans instructions</li>
+    <li>situation->sans instruction</li>
     <li>situation->dans la pénombre</li>
     <li>situation(p=0.1)->en état d'ébriété</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
@@ -319,7 +319,7 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] donne une leçon à [RECIPIENT_nameDef]</li>
+    <li>r_logentry->[INITIATOR_nameDef] a donné une leçon à [RECIPIENT_nameDef]</li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
@@ -342,7 +342,7 @@
     <li>subject->la génétique</li>
     <li>subject->les schémas techniques</li>
     <li>subject->les fonctions du multi-analyseur</li>
-    <li>subject->la phylosophie</li>
+    <li>subject->la philosophie</li>
     <li>subject->les mathématiques</li>
     <li>subject->la biologie</li>
     <li>subject->la chimie</li>
@@ -395,14 +395,14 @@
     <li>article_tool->un bandage</li>
     <li>article_tool->une seringue</li>
     <li>article_tool->une plante médicinale</li>
-    <li>article_tool->un moniteur médicale</li>
-    <li>article_tool->un scapel</li>
+    <li>article_tool->un moniteur médical</li>
+    <li>article_tool->un scalpel</li>
     <li>article_tool->une dose de sérum</li>
-    <li>article_tool->un lobotomisateur</li>
+    <li>article_tool->un implant analgésique</li>
     <li>action->utiliser</li>
     <li>action->inspecter</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->inspecter</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->inspectant</li>
     <li>hediff->une perte de sang</li>
     <li>hediff->une attaque cardiaque</li>
     <li>hediff->un coup de chaleur</li>
@@ -453,30 +453,30 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-    <li>article_tool->une ahche</li>
+    <li>article_tool->une hache</li>
     <li>article_tool->une massue</li>
     <li>article_tool->une épée</li>
     <li>article_tool->une lame de coude</li>
     <li>article_tool->une main griffue</li>
     <li>article_tool->une épée longue</li>
-    <li>article_tool->une monoépée</li>
+    <li>article_tool->une épée mono-moléculaire</li>
     <li>article_tool->une épée plasmique</li>
     <li>article_tool->une lance</li>
     <li>article_tool->une masse</li>
     <li>article_tool->un marteau de guerre</li>
     <li>article_tool->son poing</li>
-    <li>action->parrer</li>
-    <li>action->combatre avec</li>
+    <li>action->parer</li>
+    <li>action->combattre avec</li>
     <li>action->contrer</li>
-    <li>action->esciver</li>
+    <li>action->esquiver</li>
     <li>action->utiliser</li>
     <li>action->frapper</li>
-    <li>action_gerund->parrer</li>
-    <li>action_gerund->combattre avec</li>
-    <li>action_gerund->contrer</li>
-    <li>action_gerund->esciver</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->frapper</li>
+    <li>action_gerund->parant</li>
+    <li>action_gerund->combattant avec</li>
+    <li>action_gerund->contrant</li>
+    <li>action_gerund->esquivant</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->frappant</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
@@ -513,17 +513,17 @@
     <li>action->miner avec</li>
     <li>action->travailler avec</li>
     <li>action->inspecter</li>
-    <li>action_gerund->utiliser</li>
-    <li>action_gerund->miner avec</li>
-    <li>action_gerund->travailler avec</li>
-    <li>action_gerund->inspecter</li>
+    <li>action_gerund->utilisant</li>
+    <li>action_gerund->minant avec</li>
+    <li>action_gerund->travaillant avec</li>
+    <li>action_gerund->inspectant</li>
     <li>subject->les veines minérales</li>
     <li>subject->les gemmes précieuses</li>
     <li>subject->la géologie</li>
     <li>subject->le creusement de tunnels</li>
     <li>subject->les analyses de sédiments</li>
     <li>subject->les insectes cavernicoles</li>
-    <li>situation(p=2)->sous-terre</li>
+    <li>situation(p=2)->sous terre</li>
   </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
@@ -596,16 +596,16 @@
     <li>article_tool->un pistolet mitrailleur</li>
     <li>article_tool->un minigun</li>
     <li>article_tool->un arc court</li>
-    <li>article_tool->un arc courbe</li>
+    <li>article_tool->un arc composite</li>
     <li>article_tool->un arc long</li>
     <li>action->mettre en joue</li>
     <li>action->tirer</li>
     <li>action->entretenir</li>
     <li>action->recharger</li>
-    <li>action_gerund->mettre en joue</li>
-    <li>action_gerund->tirer</li>
-    <li>action_gerund->entretenir</li>
-    <li>action_gerund->recharger</li>
+    <li>action_gerund->mettant en joue</li>
+    <li>action_gerund->tirant</li>
+    <li>action_gerund->entretenant</li>
+    <li>action_gerund->rechargeant</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
@@ -622,15 +622,15 @@
     <li>subject->sign language</li>
   -->
   <LessonSocial.logRulesInitiator.rulesStrings>
-    <li>subject->la discussion en publique</li>
+    <li>subject->la discussion en public</li>
     <li>subject->les relations entre factions</li>
     <li>subject->le recrutement de prisonniers</li>
     <li>subject->les techniques de marchandage</li>
-    <li>subject->le maintient de relations diplomatiques</li>
+    <li>subject->le maintien de relations diplomatiques</li>
     <li>subject->le respect de l'étiquette</li>
     <li>subject->l'encouragement</li>
     <li>subject->les blagues graveleuses</li>
-    <li>subject->le languages des signes</li>
+    <li>subject->le langage des signes</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
@@ -708,25 +708,25 @@
     <li>planType->enjoying endless life</li>
   -->
   <SanguophageChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] et [RECIPIENT_nameDef] [talkedabout]nt [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] avec [RECIPIENT_nameDef].</li>
-    <li>talkedabout->parle</li>
-    <li>talkedabout->discute</li>
-    <li>talkedabout->chuchote</li>
-    <li>talkedabout(p=0.5)->parle [adverb]</li>
-    <li>talkedabout(p=0.5)->discute [adverb]</li>
-    <li>talkedabout(p=0.5)->chuchote [adverb]</li>
-    <li>talkedabout->bavarde</li>
-    <li>talkedabout->converse</li>
-    <li>talkedabout->échange</li>
-    <li>talkedabout->communique</li>
-    <li>talkedabout->débat</li>
-    <li>talkedabout->argumente</li>
-    <li>talkedabout->palarbe</li>
+    <li>r_logentry->[INITIATOR_nameDef] et [RECIPIENT_nameDef] ont [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [talkedabout] [subject] avec [RECIPIENT_nameDef].</li>
+    <li>talkedabout->parlé</li>
+    <li>talkedabout->discuté</li>
+    <li>talkedabout->chuchoté</li>
+    <li>talkedabout(p=0.5)->parlé [adverb]</li>
+    <li>talkedabout(p=0.5)->discuté [adverb]</li>
+    <li>talkedabout(p=0.5)->chuchoté [adverb]</li>
+    <li>talkedabout->bavardé</li>
+    <li>talkedabout->conversé</li>
+    <li>talkedabout->échangé</li>
+    <li>talkedabout->communiqué</li>
+    <li>talkedabout->débattu</li>
+    <li>talkedabout->argumenté</li>
+    <li>talkedabout->palabré</li>
     <li>adverb->amicalement</li>
     <li>adverb->rapidement</li>
     <li>adverb->sagement</li>
-    <li>adverb->avec dégout</li>
+    <li>adverb->avec dégoût</li>
     <li>adverb->amèrement</li>
     <li>adverb->avec lassitude</li>
     <li>adverb->pensivement</li>
@@ -759,7 +759,7 @@
     <li>subject->de gènes</li>
     <li>subject->des xénotypes</li>
     <li>subject->des sanguophages</li>
-    <li>subject-> deshussards</li>
+    <li>subject->des hussards</li>
     <li>subject->des diabloïdes</li>
     <li>subject->des hommes-taupes</li>
     <li>subject->des savants</li>
@@ -777,7 +777,7 @@
     <li>planType->se répandre dans d'autres mondes</li>
     <li>planType->influencer les humains</li>
     <li>planType->détruire les chasseurs de sanguophages</li>
-    <li>planType->profiter de la vie sans fin</li>
+    <li>planType->profiter de la vie éternellement</li>
   </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
