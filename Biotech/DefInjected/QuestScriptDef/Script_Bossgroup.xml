@@ -10,11 +10,15 @@
     <li>study->\n\nYou can study the [reward_label] by selecting a mechanitor and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of mechtech research.</li>
   -->
   <Bossgroup.questContentRules.rulesStrings>
-    <li>bossDefeatedLetterLabel->[escortees0_label] vaincu: [reward_label]</li>
+    <li>bossDefeatedLetterLabel->[escortees0_label] vaincu : [reward_label]</li>
     <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
     <li>bossDefeatedLetterText->[defeated][manufacture]</li>
-    <li>defeated->L'[escortees0_label] hostile a été vaincu et a lâché un [reward_label]!</li>
+    <!-- text_todo : le "L'" ne convient que pour [escortees0_label] avec voyelle.
+          vérifier si [escortees0_definite] convient.
+          Ajuster "vaincu(e)" avec (escortees0_gender==Female)-->
+    <li>defeated->Le [escortees0_label] hostile a été vaincu et a lâché un [reward_label] !</li>
     <li>manufacture->\n\nLa puce peut également être utilisée pour créer des mécanoïdes plus avancés.</li>
+    <!-- text_todo : [reward_label] peut-il être féminin ? -->
     <li>study->\n\nVous pouvez étudier le [reward_label] en sélectionnant un méchanitor et en cliquant avec le bouton droit sur la puce. L'étude d'un [reward_label] permet de débloquer des niveaux supérieurs de recherche mechtech.</li>
   </Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
