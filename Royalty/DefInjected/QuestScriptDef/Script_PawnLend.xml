@@ -25,16 +25,18 @@
     <li>disease->malaria</li>
     <li>disease->infection</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], a besoin de gens pour l'aider à [dutyRoyalDescription].\n\n[asker_pronoun] vous demande de lui prêter [colonistCountToLend] pour [lendForDays] jours.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->un colon</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colons</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->un colon[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colons[minAgeOrOlder]</li>
     <li>willSendShuttle->[asker_pronoun] enverra une navette pour embarquer [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->le colon</li>
     <li>colonists(colonistsToLendCount>1)->les colons</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+     <li>minAgeOrOlder(minAge>0)-> de [minAge] ans ou plus</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->a</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->ont</li>
     <li>pawnListBeConjugation(colonistsToLendCount==1)->est</li>
     <li>pawnListBeConjugation(colonistsToLendCount>1)->sont</li>
-  </PawnLend.questDescriptionRules.rulesStrings><!-- text_todo -->
+  </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
