@@ -36,7 +36,7 @@
     <li>raidArrivedLetterLabel->Raid : [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de [enemyFaction_name] sont arrivés. Ils attaqueront les [asker_faction_pawnsPlural] qui se sont écrasés à [map_definite].\n\nDéfendez les [asker_faction_pawnsPlural] jusqu'à ce que leur navette de secours arrive dans [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->La navette de secours est arrivée</li>
-    <li>rescueShuttleArrivedLetterText->La navette de secours est arrivée pour recueillir les [pawnLabelSingleOrPlural] qui se sont écrasés lors de leur atterrissage. Assurez-vous de mettre ces colons dans la navette avant qu'elle ne parte dans [rescueDelay_duration] :\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->La navette de secours est arrivée pour recueillir les [pawnLabelSingleOrPlural] qui se sont écrasés lors de leur atterrissage. Assurez-vous de mettre ces colons dans la navette avant qu'elle ne parte dans [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Quête réussie : [resolvedQuestName]</li>
     <li>questCompletedSuccessLetterText(asker_gender==Female)->[commanderLandingDesc], s'est échappée. [asker_pronoun] est reconnaissante de l'aide qu'[asker_pronoun] a reçue à [map_definite].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedSuccessLetterText(asker_gender!=Female)->[commanderLandingDesc], s'est échappé. [asker_pronoun] est reconnaissant de l'aide qu'[asker_pronoun] a reçue à [map_definite].\n\n[successLetterEndingCommon]</li>
@@ -51,7 +51,7 @@
     <li>askerDiedLetterText->[commanderLandingDesc] est mort.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Quête échouée : [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->La navette envoyée pour recueillir les [asker_faction_pawnsPlural] qui se sont écrasés a été détruite. Les [asker_faction_pawnsPlural] rentreront à pied.\n\n[failLetterEndingCommon]</li>
-  </ShuttleCrash_Rescue.questContentRules.rulesStrings><!-- text_todo -->
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
@@ -76,7 +76,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->La navette de [asker_faction_name] a subi de dégats et cherche un endroit où se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldiers_count] [soldiers0_kind]s. Le commandant [andCivilians] [mustBe] être [rescued], cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
+    <li>questDescription->La navette de [asker_faction_name] a subi de dégats et cherche un endroit où se poser. Son commandant [asker_nameDef] veut atterrir à [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] attaqueront l'endroit où la navette s'est écrasée dans le but de tuer ses passagers. Vous devez les défendre.\n\nLa navette transporte [asker_nameDef][andOtherCivilians] et [soldierCountKinds]. Le commandant [andCivilians] [mustBe] être [rescued], cependant l'escorte pourra potentiellement être sacrifiée.\n\nAprès [rescueDelay_duration], une navette de secours arrivera pour récuperer les survivants, vous devrez les faire monter à bord avant [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, un autre [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] autres [pawnLabelSingleOrPlural],</li>
@@ -89,7 +89,9 @@
     <li>rescued(civilians_count==1)->sauvé</li>
     <li>rescued(civilians_count==2)->sauvés</li>
     <li>rescued(civilians_count>=3)->sauvés</li>
-  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]s</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
