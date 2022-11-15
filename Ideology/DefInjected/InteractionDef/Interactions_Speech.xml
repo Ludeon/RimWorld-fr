@@ -31,20 +31,23 @@
   -->
   <Speech_AcceptRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->[INITIATOR_possessive] nouveau rôle dans la communauté</li>
-    <li>speechtopic->la responsabilité de [INITIATOR_possessive] nouveau rôle</li>
-    <li>speechtopic->l'importance de [INITIATOR_possessive] nouveau rôle</li>
-    <li>speechtopic->[INITIATOR_possessive] bonnes qualitées</li>
-    <li>speechtopic->[INITIATOR_possessive] points forts et comment bien les valoriser</li>
-    <li>speechtopic->[INITIATOR_possessive] manquements</li>
-    <li>speechtopic->[INITIATOR_possessive] faiblesse et comment les vaincres</li>
-    <li>speechtopic->[INITIATOR_possessive] désir de servir la communauté</li>
-    <li>speechtopic->[INITIATOR_possessive] dévouement à [INITIATOR_possessive] croyances</li>
-    <li>speechtopic->[INITIATOR_possessive] convictions sur l'avenir</li>
-    <li>speechtopic->[INITIATOR_possessive] désir de servir un plus grand intérêt</li>
-    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] et comment il est en corrélation avec le rôle</li>
-    <li>speechtopic->comment [INITIATOR_possessive] [PersonalCharacteristic] permettent de remplir ce rôle</li>
-    <li>speechtopic->comment [INITIATOR_pronoun] va utiliser [INITIATOR_possessive] [PersonalCharacteristic] permettent de surmonter les obstacles</li>
+    <li>speechtopic->son nouveau rôle dans la communauté</li>
+    <li>speechtopic->la responsabilité de son nouveau rôle</li>
+    <li>speechtopic->l'importance de son nouveau rôle</li>
+    <li>speechtopic->ses bonnes qualités</li>
+    <li>speechtopic->ses points forts et comment bien les valoriser</li>
+    <li>speechtopic->ses manquements</li>
+    <li>speechtopic->ses faiblesses et comment les vaincre</li>
+    <li>speechtopic->son désir de servir la communauté</li>
+    <li>speechtopic->son dévouement à ses croyances</li>
+    <li>speechtopic->ses convictions sur l'avenir</li>
+    <li>speechtopic->son désir de servir un plus grand intérêt</li>
+    <li>speechtopic->son [PersonalCharacteristic] et comment il est en corrélation avec le rôle</li>
+    <li>speechtopic->sa [PersonalCharacteristic_Feminine] et comment elle est en corrélation avec le rôle</li>
+    <li>speechtopic->[PersonalCharacteristic_AnyPlural_poss] et comment ce sont en corrélation avec le rôle</li>
+    <li>speechtopic->comment [PersonalCharacteristic_Any_poss] permet de remplir ce rôle</li>
+    <li>speechtopic->comment [PersonalCharacteristic_AnyPlural_poss] permettent de remplir ce rôle</li>
+    <li>speechtopic->comment [INITIATOR_pronoun] va utiliser [PersonalCharacteristic_Any_poss] pour surmonter les obstacles</li>
     <li>speechtopic->reconnaissance</li>
     <li>speechtopic->faire preuve de gratitude</li>
     <li>speechtopic->l'objectif de la vie</li>
@@ -53,7 +56,7 @@
     <li>speechtopic->la prise de décision en situation de stress</li>
     <li>speechtopic->la structure sociale de la communauté</li>
     <li>speechtopic->assumer ses responsabilités</li>
-    <li>speechtopic->faire passer son rôle avant [INITIATOR_possessive] ses intérêts personnels</li>
+    <li>speechtopic->faire passer son rôle avant ses intérêts personnels</li>
   </Speech_AcceptRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: blinding speech -->
@@ -87,7 +90,7 @@
     <li>speechtopic->de grandir en voyant</li>
     <li>speechtopic->de grandir aveugle</li>
     <li>speechtopic->d'explorer sans voir ni bouger</li>
-    <li>speechtopic->des vraies couches de réalité sous le visuel</li>
+    <li>speechtopic->des vraies couches de la réalité sous l'aspect visuel</li>
     <li>speechtopic->des connexions psychiques</li>
   </Speech_Blinding.logRulesInitiator.rulesStrings>
   
@@ -117,7 +120,7 @@
     <li>speechtopic->de l'injustice de l'apostasie</li>
     <li>speechtopic->de choisir les bonnes croyances</li>
     <li>speechtopic->de la structure morale de l'univers</li>
-    <li>speechtopic->de vrai et le faux</li>
+    <li>speechtopic->de vrai et du faux</li>
     <li>speechtopic->du but de la vie</li>
     <li>speechtopic->du sens de la vie</li>
     <li>speechtopic->de l'histoire de l'humanité</li>
@@ -182,10 +185,10 @@
     <li>praisetopic->d'une mort honorable</li>
     <li>praisetopic->d'un combat honorable </li>
     <li>praisetopic->du courage et de la lutte</li>
-    <li>praisetopic->des [AdjectiveBadass] armes et des combattants</li>
+    <li>praisetopic->des armes et des combattants [AdjectiveBadass]</li>
     <li>praisetopic->de la pureté du conflit physique</li>
     <li>praisetopic->de l'amour par la mort</li>
-    <li>praisetopic->de l'expulsion de la haine pour la santé</li>
+    <li>praisetopic->de la saine expulsion de la haine</li>
     <li>praisetopic->de la force sur les autres</li>
     <li>praisetopic->du conflit inhérent à l'univers</li>
     <li>praisetopic->du sang et de la poussière</li>
@@ -294,30 +297,42 @@
   -->
   <Speech_Leader.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->de chercher des [Vegetable]s</li>
+    <li>speechtopic->de chercher des [Vegetable_AnyPlural]</li>
     <li>speechtopic->de comment être [AdjectiveFriendly]</li>
-    <li>speechtopic->d'éviter les [AnimalBadass]s</li>
+    <li>speechtopic->d'éviter les [AnimalBadass_AnyPlural]</li>
     <li>speechtopic->de combien la vie est comme un [Game]</li>
-    <li>speechtopic->de l'esprit comme une [Weapon]</li>
-    <li>speechtopic->de l'exploration à travers les [TerrainFeature]s et [TerrainFeature]s</li>
-    <li>speechtopic->de promettre à la [Direction]</li>
-    <li>speechtopic->de comment être comme des [Animal]s</li>
-    <li>speechtopic->du symbolisme de [NaturalObject] et de [NaturalObject]</li>
-    <li>speechtopic->de comment sont les [PersonFamily]s et [PersonFamily]s</li>
+    <li>speechtopic->de l'esprit comme [WeaponAny_indef]</li>
+    <li>speechtopic->de l'exploration à travers les [TerrainFeature_AnyPlural] et les [TerrainFeature_AnyPlural]</li>
+    <!--NOTE: [Direction] vient de Core/Strings/Words/Adjectives/CompassDirections.txt
+        et s'adapte mal (cf. Core/DefInjected/RulePackDef/RulePacks_Global.xml)
+    -->
+    <li>speechtopic->de promettre au ciel [Direction_Masc]</li>
+    <li>speechtopic->de comment être comme des [Animal_AnyPlural]</li>
+    <li>speechtopic->du symbolisme de [NaturalObjectAny_indef] et de [NaturalObjectAny_indef]</li>
+    <!-- NOTE: "fils" ne prend pas de s au pluriel -->
+    <li>speechtopic->de comment sont les [PersonFamily]s et [PersonFamily_Feminine]s</li>
     <li>speechtopic->de comment être un bon [PersonAlly]</li>
-    <li>speechtopic->du besoin de [PersonJob]s</li>
-    <li>speechtopic->d'éviter les [PersonBadass]</li>
-    <li>speechtopic->de vaincre [Enemy]s à travers [ConceptPositive]</li>
+    <li>speechtopic->du besoin de [PersonJob_AnyPlural]</li>
+    <li>speechtopic->d'éviter les [PersonBadass_AnyPlural]</li>
+    <li>speechtopic->de vaincre [Enemy_AnyPlural] à travers le [ConceptPositive]</li>
+    <li>speechtopic->de vaincre [Enemy_AnyPlural] à travers la [ConceptPositive_Feminine]</li>
     <li>speechtopic->de voir [Gore] pendant le combat</li>
-    <li>speechtopic->de l'histoire des [Mechanoid]s</li>
-    <li>speechtopic->de la signification de [ConceptPositive]</li>
-    <li>speechtopic->du [ConceptPositive] de la colonie</li>
+    <li>speechtopic->de l'histoire des [Mechanoid_Plural]</li>
+    <!--NOTE: laisser "de le"/"de la" pour déclencher une élision
+        ex: de l'espoir, du charisme -->
+    <li>speechtopic->de la signification de le [ConceptPositive]</li>
+    <li>speechtopic->de la signification de la [ConceptPositive_Feminine]</li>
+    <li>speechtopic->de le [ConceptPositive] de la colonie</li>
+    <li>speechtopic->de la [ConceptPositive_Feminine] de la colonie</li>
     <li>speechtopic->de comment être [AdjectiveBadass] sans être [AdjectiveBadass]</li>
-    <li>speechtopic->de comment [AdjectiveBadass] la colonie est</li>
-    <li>speechtopic->[AdjectiveNatural] [TerrainFeature]s</li>
-    <li>speechtopic->du potentiel [AdjectifLarge] de la colonie</li>
-    <li>speechtopic->de la [PersonalCharacteristic] de chaque colon</li>
-    <li>speechtopic->de la terrible [PersonalCharacteristic] des ennemis de la colonie</li>
+    <li>speechtopic->de comment [AdjectiveBadass_Feminine] la colonie est</li>
+    <li>speechtopic->des [AdjectiveNatural_Plural] [TerrainFeature_Plural]</li>
+    <li>speechtopic->des [AdjectiveNatural_FemPlural] [TerrainFeature_FemPlural]</li>
+    <li>speechtopic->du potentiel [AdjectiveLarge] de la colonie</li>
+    <li>speechtopic->de le [PersonalCharacteristic] de chaque colon</li>
+    <li>speechtopic->de la [PersonalCharacteristic_Feminine] de chaque colon</li>
+    <li>speechtopic->du terrible [PersonalCharacteristic] des ennemis de la colonie</li>
+    <li>speechtopic->de la terrible [PersonalCharacteristic_Feminine] des ennemis de la colonie</li>
     <li>speechtopic(p=0.25)->de comment rester ensemble en groupe</li>
     <li>speechtopic(p=0.25)->de la voie à suivre à travers la tragédie</li>
     <li>speechtopic(p=0.25)->de la communauté et de son importance</li>
@@ -354,24 +369,25 @@
   -->
   <Speech_RemoveRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->[INITIATOR_possessive] ancien rôle dans la communauté</li>
-    <li>speechtopic->la responsabilité de [INITIATOR_possessive] ancien rôle</li>
-    <li>speechtopic->la difficulté de [INITIATOR_possessive] ancien rôle</li>
-    <li>speechtopic->[INITIATOR_possessive] lacunes</li>
-    <li>speechtopic->[INITIATOR_possessive] les faiblesses et comment les surmonter</li>
-    <li>speechtopic->[INITIATOR_possessive] frustration à l'égard de la communauté</li>
-    <li>speechtopic->[INITIATOR_possessive] dévouement à [INITIATOR_possessive] croyances</li>
-    <li>speechtopic->[INITIATOR_possessive] ses convictions sur l'avenir</li>
-    <li>speechtopic->[INITIATOR_possessive] souhaite poursuivre [INITIATOR_possessive] propores objectifs</li>
-    <li>speechtopic->[INITIATOR_possessive] manque de [PersonalCharacteristic]</li>
-    <li>speechtopic->[INITIATOR_possessive] passé</li>
-    <li>speechtopic->faire preuve d'humilité</li>
-    <li>speechtopic->l'objectif de la vie</li>
-    <li>speechtopic->la colonie et de son futur</li>
-    <li>speechtopic->l'amélioration de la colonie</li>
-    <li>speechtopic->la structure sociale de la communauté</li>
-    <li>speechtopic->meilleurs candidats</li>
-    <li>speechtopic->faire passer les intérêts de la communauté avant [INITIATOR_possessive] intérêts personnels</li>
+    <li>speechtopic->de son ancien rôle dans la communauté</li>
+    <li>speechtopic->de la responsabilité de son ancien rôle</li>
+    <li>speechtopic->de la difficulté de son ancien rôle</li>
+    <li>speechtopic->de ses lacunes</li>
+    <li>speechtopic->de ses faiblesses et comment les surmonter</li>
+    <li>speechtopic->de sa frustration à l'égard de la communauté</li>
+    <li>speechtopic->de son dévouement à ses croyances</li>
+    <li>speechtopic->de ses convictions sur l'avenir</li>
+    <li>speechtopic->de son souhait à poursuivre ses propres objectifs</li>
+    <li>speechtopic->de son manque de [PersonalCharacteristic]</li>
+    <li>speechtopic->de son manque de [PersonalCharacteristic_Feminine]</li>
+    <li>speechtopic->de son passé</li>
+    <li>speechtopic->de faire preuve d'humilité</li>
+    <li>speechtopic->de l'objectif de la vie</li>
+    <li>speechtopic->de la colonie et de son futur</li>
+    <li>speechtopic->de l'amélioration de la colonie</li>
+    <li>speechtopic->de la structure sociale de la communauté</li>
+    <li>speechtopic->de meilleurs candidats</li>
+    <li>speechtopic->de faire passer les intérêts de la communauté avant ses intérêts personnels</li>
   </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
@@ -415,11 +431,12 @@
     <li>speechtopic->de la musique des cris</li>
     <li>speechtopic->des tripes sur le sol</li>
     <li>crazy->a crié maniaquement</li>
+    <li>crazy->a crié comme un fou</li>
     <li>crazy->s'est mis à chanter</li>
     <li>crazy->a chanté vers les cieux</li>
     <li>crazy->a craché dans l'œil du sacrifice</li>
     <li>crazy->a gloussé</li>
-    <li>crazy->a brandit une lame</li>
+    <li>crazy->a brandi une lame</li>
     <li>crazy->murmura de façon répétitive</li>
   </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
@@ -464,7 +481,7 @@
     <li>crazy->s'est mis à chanter</li>
     <li>crazy->a chanté vers les cieux</li>
     <li>crazy->a gloussé</li>
-    <li>crazy->a brandit une lame</li>
+    <li>crazy->a brandi une lame</li>
     <li>crazy->murmura de façon répétitive</li>
   </Speech_Scarification.logRulesInitiator.rulesStrings>
   
