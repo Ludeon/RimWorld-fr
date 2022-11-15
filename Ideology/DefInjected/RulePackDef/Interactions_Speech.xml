@@ -18,6 +18,12 @@
     <li>praised->raved about</li>
   -->
   <SpeechUtility.rulePack.rulesStrings>
+    <!--NOTE: possible double "de de". Normalement, cela devrait être
+      éliminé par un traitement du languageWorker (mais temps CPU gaspillé).
+      "[speechtopic]" et "[praisetopic]" dans Ideology/DefInjected/InteractionDef/Interactions_Speech.xml
+      commencent déjà avec "de/du/des".
+      - enlever les "de" final ici (à vérifier dans le jeu)
+    -->
     <li>spokeof->a parlé de</li>
     <li>spokeof->a parlé de</li>
     <li>spokeof->a offert des réflexions à propos de</li>
