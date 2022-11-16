@@ -18,10 +18,11 @@
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
   <ReliquaryPilgrims.questContentRules.rulesStrings>
-    <li>pilgrimsArrivedLetterLabel(pilgrimCount==1)->pélerin [factionAdj] arrivé</li>
-    <li>pilgrimsArrivedLetterLabel(pilgrimCount>=2)->pélerins [factionAdj] arrivés</li>
+    <li>pilgrimsArrivedLetterLabel(pilgrimCount==1)->pèlerin [factionAdj] arrivé</li>
+    <li>pilgrimsArrivedLetterLabel(pilgrimCount>=2)->pèlerins [factionAdj] arrivés</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] vous remercie pour avoir laissé [pawns0_objective] [andFollowers] vénérer [relic_name] le [venerateDate]. Comme récompense, [pawns0_nameDef] vous envoie ceci par capsule (valeur totale [rewardsMarketValue_money]) :\n\n[rewards].</li>
+    <li>delayedRewardLetterText(pilgrimCount==1)->[pawns0_nameDef] vous remercie de l'avoir laissé vénérer [relic_name] le [venerateDate]. Comme récompense, [pawns0_nameDef] vous envoie ceci par capsule (valeur totale [rewardsMarketValue_money]) :\n\n[rewards].</li>
+    <li>delayedRewardLetterText(pilgrimCount>=2)->[pawns0_nameDef] vous remercie de les avoir laissé, [pawns0_objective] [andFollowers], vénérer [relic_name] le [venerateDate]. Comme récompense, [pawns0_nameDef] vous envoie ceci par capsule (valeur totale [rewardsMarketValue_money]) :\n\n[rewards].</li>
     <li>pilgrimsLeavingMessage(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural] a fini de vénérer [relic_name] et part.</li>
     <li>pilgrimsLeavingMessage(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] ont fini de vénérer [relic_name] et partent.</li>
     <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] quitté la carte.</li>
@@ -30,8 +31,8 @@
     <li>andFollowers(pilgrimCount==1)-></li>
     <li>andFollowers(pilgrimCount==2)->et l'autre [faction_pawnSingular]</li>
     <li>andFollowers(pilgrimCount>=3)->et les autres [faction_pawnsPlural]</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount==1)->pélerin</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->pélerins</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->pèlerin</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->pèlerins</li>
     <li>factionAdj(pilgrimFaction==true)-></li>
     <li>factionAdj(pilgrimCount==1,pilgrimFaction==false)->[faction_pawnSingular]</li>
     <li>factionAdj(pilgrimCount>=2,pilgrimFaction==false)->[faction_pawnsPlural]</li>
@@ -126,7 +127,7 @@
     <li>visitAdjFem->solennelle</li>
     <li>visitAdjFem->sacramentelle</li>
     <li>visitAdjFem->sanctifiée</li>
-    <li>visit->pélerinage</li>
+    <li>visit->pèlerinage</li>
     <li>visit->voyage</li>
     <li>visitFem->visite</li>
     <li>visitFem->mission</li>
