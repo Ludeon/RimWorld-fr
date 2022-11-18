@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameFull] vous appelle à l'aide ! [joiner_pronoun] se cache de [hidingFrom]. [joiner_pronoun] veut s'enfuir et vous réjoindre à [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nSe cachant désespérément, [joiner_nameDef] dit ne pas pouvoir vous en dire plus sur [joiner_objective]-même.</li>
+    <li>questDescription->[introduction] du nom de [joiner_nameFull] vous appelle à l'aide ! [joiner_pronoun] se cache de [hidingFrom]. [joiner_pronoun] veut s'enfuir et vous réjoindre à [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nSe cachant désespérément, [joiner_nameDef] dit ne pas pouvoir vous en dire plus sur [joiner_objective]-même.</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->une meute de loups affamés</li>
     <li>condDesc(gameCondition==ToxicFallout)->Cependant, [joiner_nameDef] peut tuer les loups seulement en mettant le feu à un énorme dépôt chimique toxique voisin. [gameConditionDuration_duration] de retombée toxique s'ensuivra.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->un gang de cannibales</li>
@@ -41,7 +41,9 @@
     <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vous rejoint, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->une intelligence artificielle hostile qu'[joiner_pronoun] a récemment réveillée</li>
     <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vous rejoint, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons [psychicSuppressorGender]s.</li>
-  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
+  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] and the [gameCondition_label]</li>
@@ -59,7 +61,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[joiner_pronoun] a empoisonné une colonie souterraine d'insectes, qu'ils l'ont [joiner_soaked] de phéromones de menace et maintenant des insectes géants [joiner_accusative] pourchassent !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], (*Threat)une infestation de [hivesCount] ruches(/Threat) commencera dans [infestationDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
+    <li>questDescription->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[joiner_pronoun] a empoisonné une colonie souterraine d'insectes, qu'ils l'ont [joiner_soaked] de phéromones de menace et maintenant des insectes géants [joiner_accusative] pourchassent !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], (*Threat)une infestation de [hivesCount] ruches(/Threat) commencera dans [infestationDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>joiner_accusative(joiner_gender==Male)->le</li>
     <li>joiner_accusative(joiner_gender==Female)->la</li>
     <li>joiner_accusative(joiner_gender==None)->le</li>
@@ -69,7 +71,9 @@
     <li>joiner_soaked(joiner_gender==Female)->imbibée</li>
     <li>joiner_soaked(joiner_gender==None)->arrosé</li>
     <li>joiner_soaked(joiner_gender==None)->imbibé</li>
-  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
+  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
     <li>questName->[joiner_nameDef]'s hives</li>
@@ -106,11 +110,13 @@
     <li>manhuntingBeastDef(animalCount>=2)->les [animalCount] [animalKind_labelPlural] [manhuntingString_plural]</li>
     <li>manhuntingBeastIndef(animalCount==1)->(*Threat)[animalKindSingular_indefinite] [manhuntingString_singular](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->une meute de (*Threat)[animalCount] [animalKind_labelPlural] [manhuntingString_plural](/Threat)</li>
-    <li>questDescription(animalCount==1)->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui court après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arrivera dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
+    <li>questDescription(animalCount==1)->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui court après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arrivera dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKindSingular_definite] pourchasse [joiner_nameDef].</li>
-    <li>questDescription(animalCount>=2)->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui courent après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arriveront dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
+    <li>questDescription(animalCount>=2)->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] dit qu'[manhuntingBeastIndef] lui courent après !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], [manhuntingBeastDef] arriveront dans [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
     <li>manhunterArrivalLetterEnd(animalCount>=2)->Les [animalKind_labelPlural] pourchassent [joiner_nameDef].</li>
-  </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
+  </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] and the [animalKind_label]</li>
@@ -138,7 +144,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] vous supplie de lui laisser vous rejoindre à [map_definite].[joiner_relationInfo]\n\nUne menace d'origine mystérieuse poursuit [joiner_nameDef], mais [joiner_pronoun] ne veut pas dire ce que c'est ou quand cela pourrait arriver. [joiner_pronoun] ne veut pas non plus vous en dire plus sur [joiner_objective]-même.</li>
+    <li>questDescription->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] vous supplie de lui laisser vous rejoindre à [map_definite].[joiner_relationInfo]\n\nUne menace d'origine mystérieuse poursuit [joiner_nameDef], mais [joiner_pronoun] ne veut pas dire ce que c'est ou quand cela pourrait arriver. [joiner_pronoun] ne veut pas non plus vous en dire plus sur [joiner_objective]-même.</li>
     <li>joiner_supposed(joiner_gender==Male)->supposé</li>
     <li>joiner_supposed(joiner_gender==Female)->supposée</li>
     <li>joiner_supposed(joiner_gender==None)->supposé</li>
@@ -160,7 +166,9 @@
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Male)->le</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Female)->la</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==None)->le</li>
-  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
+  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
     <li>questName->The [problem] of [joiner_nameDef]</li>
@@ -198,8 +206,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] a admis qu'[joiner_pronoun] a profané un rituel de paix entre [raid1/enemyFaction_name] et [raid2/enemyFaction_name]. Maintenant, ces deux factions pourchassent [joiner_nameDef] !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], les deux factions [raid1/enemyFaction_name] et [raid2/enemyFaction_name] vous enverront un raid dans [raidDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
-  </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+    <li>questDescription->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] a admis qu'[joiner_pronoun] a profané un rituel de paix entre [raid1/enemyFaction_name] et [raid2/enemyFaction_name]. Maintenant, ces deux factions pourchassent [joiner_nameDef] !\n\n[joiner_pronoun] vous supplie de l'aider à rejoindre votre colonie à [map_definite].[joiner_relationInfo]\n\nSi vous acceptez [joiner_nameDef], les deux factions [raid1/enemyFaction_name] et [raid2/enemyFaction_name] vous enverront un raid dans [raidDelayTicks_duration].\n\n[joiner_nameDef] n'a pas eu le temps de donner plus de détails et a raccroché à la hâte.</li>
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
@@ -231,7 +241,9 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_titleIndef] de [joiner_age] ans du nom de [joiner_nameFull] appelle d'une zone voisine. [joiner_pronoun] se cache de [threat]. [joiner_pronoun] voudrait quitter sa cachette et vous rejoindre à [map_definite].[joiner_relationInfo]\n\nSi vous l'acceptez, [joinersEnemies] s'installeront sur un site à proximité pour vous harceler. [site/allSitePartsDescriptions]\n\nCette menace restera active tant que vous ne la détruisez pas.</li>
+    <li>questDescription->[introduction] du nom de [joiner_nameFull] appelle d'une zone voisine. [joiner_pronoun] se cache de [threat]. [joiner_pronoun] voudrait quitter sa cachette et vous rejoindre à [map_definite].[joiner_relationInfo]\n\nSi vous l'acceptez, [joinersEnemies] s'installeront sur un site à proximité pour vous harceler. [site/allSitePartsDescriptions]\n\nCette menace restera active tant que vous ne la détruisez pas.</li>
+    <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>
+    <li>introduction->[joiner_titleIndef] de [joiner_age] ans</li>
     <li>threat(priority=1,site/Outpost_exists==True)->des [site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->des mécanoïdes</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->des mécanoïdes</li>
@@ -240,7 +252,7 @@
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->les mécanoïdes</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->les mécanoïdes</li>
     <li>joinersEnemies->ses ennemis</li>
-  </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings><!-- text_todo -->
+  </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
     <li>questName->[joiner_nameDef] and the [site/site_label]</li>
