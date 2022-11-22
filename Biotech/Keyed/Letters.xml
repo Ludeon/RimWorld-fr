@@ -44,9 +44,9 @@
   <LetterMechanitorCasketFound>Vous avez découvert la capsule cryogénique d'un méchanitor !\n\nOuvrez-la pour voir son contenu.</LetterMechanitorCasketFound>
   
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechs have been lost with it -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Votre caravane a été perdue. Les personnes, animaux et mécanoïdes suivants se sont perdus avec elle</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
-  <!-- EN: The following people, animals and mechs have been abandoned -->
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Home>Les personnes, animaux et mécanoïdes suivants ont été abandonnés</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
@@ -114,10 +114,14 @@
   <Immediately>immédiatement</Immediately>
   <!-- EN: within -->
   <Within>dans</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Le bébé a reçu le nom temporaire de {0_nameFull}. Vous pouvez le modifier jusqu'à {1} après la naissance.</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Le bébé a reçu le nom temporaire de {0_nameFull}. Vous pouvez le changer tant que le bébé a moins de {1} ans.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Le bébé a reçu le nom temporaire de {0_nameFull}. Vous pouvez le changer tant que le bébé a moins de {1} ans.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>Poussée de croissance pour {PAWNNAME}</BirthdayGrowthMoment>
@@ -140,7 +144,11 @@
   <BirthdayPassionArchive>La passion a été augmentée pour {0}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>Le trait {0} a été acquis.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Faire les choix pour fermer</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -170,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nVous n'avez pas assez de médicaments pour implanter le xénogerme. L'implantation ne peut pas commencer tant que vous n'avez pas de médicament {MEDICINENEEDED}.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>Repos de la mort involontaire</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} a sombré dans le repos de la mort.</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Dégâts mortels subis.</DeathrestLethalDamage>
 
@@ -192,5 +208,14 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>Cherchant instinctivement un compagnon, {BONDPAWN_nameDef} a noué une relation amoureuse psychiquement liée avec {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} bénéficiera psychologiquement de la connexion à {BONDPAWN_nameDef}, mais s'ils sont séparés sur des cases différentes du monde, les deux souffriront de stress psychique. Si l'un meurt, l'autre deviendra fou.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>Le bébé a reçu le nom temporaire de {0_nameFull}. Vous pouvez le modifier jusqu'à {1} après la naissance.</LetterPartNameBaby>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} a sombré dans le repos de la mort.</LetterTextInvoluntaryDeathrest>
 
 </LanguageData>
