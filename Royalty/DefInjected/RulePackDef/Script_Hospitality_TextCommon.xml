@@ -58,6 +58,14 @@
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->les [lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <!-- NOTE: si lodgersCount==1, lodgersLabelSingOrPluralDef est son nom
+          Si non, utiliser directement [lodgersLabelSingOrPlural] au lieu de
+          [lodgersLabelSingOrPlural] pour éviter "Un de les [lodgersLabelPlural]"
+    -->
+    <li>includesChildren(lodgersCount==1,childCount==1)->\n\n[lodgersLabelSingOrPluralDef] est un enfant.</li>
+    <li>includesChildren(lodgersCount>=2,childCount==1)->\n\nUn des [lodgersLabelPlural] est un enfant.</li>
+    <li>includesChildren(childCount>=2)->\n\nCertains des [lodgersLabelPlural] sont des enfants.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
