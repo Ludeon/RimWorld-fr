@@ -10,8 +10,10 @@
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminal piraté. {COUNT} / [terminalCount] complété.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] incapable de pirater.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] [isUnable] de pirater.</li>
     <li>passengersIncapableOfHackingDialogText->La navette de la quête '[resolvedQuestName]' n'a aucun passager capable de pirater. Vous devez envoyer au moins une personne capable de pirater pour enquêter sur l'ancien complexe.</li>
+    <li>isUnable(colonistCount==1)->incapable</li>
+    <li>isUnable(colonistCount>=2)->incapables</li>
     <li>passengersSingularOrPlural(colonistCount==1)->passager</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passagers</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
@@ -29,10 +31,10 @@
   -->
   <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
     <li>complex->complexe</li>
-    <li>complex->enceinte</li>
-    <li>complex->installation</li>
-    <li>complex->structure</li>
-    <li>complex->construction</li>
+    <li>complex_Fem->enceinte</li>
+    <li>complex_Fem->installation</li>
+    <li>complex_Fem->structure</li>
+    <li>complex_Fem->construction</li>
     <li>investigation->enquête</li>
     <li>investigation->examen</li>
     <li>investigation->étude</li>
@@ -45,7 +47,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], a découvert un complexe ancien à une grande distance. [asker_pronoun] pense qu'il contient des informations sur la relique connue sous le nom de [relic_name].\n\n[asker_nameDef] ne peut se passer de personne pour y aller, mais espère que vous pourrez l'aider en lui fournissant [colonistCount] [colonistsSingularOrPlural] pour s'occuper des recherches.\n\nLe complexe contient des menaces inconnues et est également recherché par les ennemies de [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] enverra une navette pour récupérer vos colons, les amener au complexe et les ramener chez vous par la suite. Ils seront nourris et soignés en route. Une fois qu'ils auront atterri, ils devront pirater tous les terminaux du complexe dans un délai de [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], a découvert un complexe ancien à une grande distance. [asker_pronoun] pense qu'il contient des informations sur la relique connue sous le nom de [relic_name].\n\n[asker_nameDef] ne peut se passer de personne pour y aller, mais espère que vous pourrez l'aider en lui fournissant [colonistCount] [colonistsSingularOrPlural] pour s'occuper des recherches.\n\nLe complexe contient des menaces inconnues et est également recherché par les ennemis de [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] enverra une navette pour récupérer vos colons, les amener au complexe et les ramener chez vous par la suite. Ils seront nourris et soignés en route. Une fois qu'ils auront atterri, ils devront pirater tous les terminaux du complexe dans un délai de [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colon</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colons</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
@@ -56,10 +58,12 @@
     <li>missionAdj->secret</li>
   -->
   <AncientComplex_Mission.questNameRules.rulesStrings>
-    <li>questName->[investigation] d'un(e) [complex] [missionAdj](e)</li>
+    <li>questName->[investigation] d'un [complex] [missionAdj]</li>
+    <li>questName->[investigation] d'une [complex_Fem] [missionAdj_Fem]</li>
     <li>missionAdj->caché</li>
     <li>missionAdj->camouflé</li>
     <li>missionAdj->secret</li>
+    <li>missionAdj_Fem->[missionAdj]e</li>
   </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>
