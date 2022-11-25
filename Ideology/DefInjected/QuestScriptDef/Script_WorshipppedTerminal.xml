@@ -37,21 +37,25 @@
   -->
   <Hack_WorshippedTerminal.questNameRules.rulesStrings>
     <li>questName->[terminalName] [adj]</li>
+    <li>questName->[terminalName_Fem] [adj_Fem]</li>
+    <li>adj_Any->des villageois</li>
+    <li>adj_Any->du village</li>
     <li>adj->adoré</li>
     <li>adj->vénéré</li>
     <li>adj->ancien</li>
-    <li>adj->des villageois</li>
-    <li>adj->du village</li>
     <li>adj->tribal</li>
     <li>adj->secret</li>
+    <li>adj->[adj_Any]</li>
+    <li>adj_Fem->[adj]e</li>
+    <li>adj_Fem->[adj_Any]</li>
     <li>terminalName(p=4)->terminal</li>
-    <li>terminalName->machine</li>
     <li>terminalName->appareil</li>
     <li>terminalName->écran</li>
     <li>terminalName->ordinateur</li>
-    <li>terminalName->banque de données</li>
-    <li>terminalName->base de données</li>
     <li>terminalName->silicon</li>
+    <li>terminalName_Fem->machine</li>
+    <li>terminalName_Fem->banque de données</li>
+    <li>terminalName_Fem->base de données</li>
   </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>
