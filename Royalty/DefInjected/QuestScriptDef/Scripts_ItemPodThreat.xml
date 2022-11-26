@@ -9,7 +9,7 @@
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
     <!-- NOTE: y-a-t'il une meilleur traduction de "machine persona"  -->
     <li>questDescription(askerIsNull==true)->L'intelligence artificielle d'un vaisseau en orbite voudrait effectuer des expérimentations planétaires. Cependant, si elle réalise son expérience, [gameConditionDescriptionFuture].\n\nElle redoute d'avoir des ennuis avec le conseil d'éthique et vous demande votre consentement.</li>
-    <li>questDescription(asker_factionLeader==True)->Les [asker_faction_pawnsPlural] de la faction [asker_faction_name] sont menacés par une conscience artificielle voyou. Leur [asker_faction_leaderTitle], [asker_nameFull], voudrait que vous envoyiez un message à cette conscience pour qu'elle accepte la responsabilité de leurs fléaux.\n\nSi vous le faites, la conscience vous punira et [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_factionLeader==True)->Les [asker_faction_pawnsPlural] de la faction [asker_faction_name] sont menacés par une conscience artificielle rancunière. Leur [asker_faction_leaderTitle], [asker_nameFull], voudrait que vous envoyiez un message à cette conscience indiquant que vous acceptez la responsabilité de leurs actes de transgression.\n\nSi vous le faites, la conscience vous punira et [gameConditionDescriptionFuture].</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFactionIndef] de [asker_faction_name], voudrait tester à basse puissance une des armes d'attaque de zone de son vaisseau. Si [asker_pronoun] le fait, [gameConditionDescriptionFuture].\n\nPuisque selon la loi impériale, vous êtes le propriétaire foncier local, [asker_nameDef] a besoin de votre permission avant de le faire.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -34,6 +34,7 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+    <!-- NOTE: ajuster le pluriel de [hivesCount] ruches  -->
     <li>questDescription(askerIsNull==true)->Un vaisseau orbital de recherche voudrait tester un nouveau type de phéromones d'insectes. Si vous êtes d'accord, ils épandront ces phéromones sur [map_definite], provoquant (*Threat)une infestation de [hivesCount] ruches(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Les ruches ont été attirées par un épandage de phéromones venant d'un vaisseau de recherche en orbite.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], est [asker_facing] à des infestations répétées dans les zones près de [map_definite]. [asker_pronoun] voudrait attirer vers vous les infestations pour que vous les éliminiez. Cela provoquera (*Threat)une infestation de [hivesCount] ruches(/Threat).[helpersParagraph]</li>
