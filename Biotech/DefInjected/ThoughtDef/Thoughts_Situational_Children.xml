@@ -38,7 +38,7 @@
   <EnslavedChild.stages.enslaved_child.description>Cela me brise le cœur de voir mon enfant obligé de servir les autres.</EnslavedChild.stages.enslaved_child.description>
   
   <!-- EN: my child {CHILD_nameDef} is happy -->
-  <MyChildHappy.stages.my_child_is_happy.label>mon enfant {CHILD_nameDef} est heureu{PAWN_gender ? x : se}</MyChildHappy.stages.my_child_is_happy.label>
+  <MyChildHappy.stages.my_child_is_happy.label>mon enfant {CHILD_nameDef} est heureu{CHILD_gender ? x : se}</MyChildHappy.stages.my_child_is_happy.label>
   <!-- EN: Nothing makes me feel better than my kid being happy. -->
   <MyChildHappy.stages.my_child_is_happy.description>Rien ne me fait me sentir mieux que de savoir mon enfant heureux.</MyChildHappy.stages.my_child_is_happy.description>
   
@@ -53,7 +53,7 @@
   <MyChildrenSad.stages.my_children_are_unhappy.description>Je m'inquiète pour mes enfants. S'ils ne sont pas heureux, je ne suis pas heureux.</MyChildrenSad.stages.my_children_are_unhappy.description>
   
   <!-- EN: my child {CHILD_nameDef} is unhappy -->
-  <MyChildSad.stages.my_child_is_unhappy.label>mon enfant {CHILD_nameDef} est malheureu{PAWN_gender ? x : se}</MyChildSad.stages.my_child_is_unhappy.label>
+  <MyChildSad.stages.my_child_is_unhappy.label>mon enfant {CHILD_nameDef} est malheureu{CHILD_gender ? x : se}</MyChildSad.stages.my_child_is_unhappy.label>
   <!-- EN: I worry about my child. If they're not happy, I'm not happy. -->
   <MyChildSad.stages.my_child_is_unhappy.description>Je m'inquiète pour mes enfants. S'ils ne sont pas heureux, je ne suis pas heureux.</MyChildSad.stages.my_child_is_unhappy.description>
   
