@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -170,18 +170,22 @@
     <li>firstSentence(tierSection==4)->[PAWN_pronoun] a fait preuve d'un excellent [nounGrowth] et d'[nounAttitudeGood] [adjGood] pour [nounFuture].</li>
     <li>firstSentence(tierSection==4)->[PAWN_pronoun] a développé plusieurs nouvelles passions en [situationLearning].</li>
     <li>firstSentence(tierSection==4)->En [situationLearning], [PAWN_pronoun] a gagné un certain nombre de nouvelles passions.</li>
-    <li>firstSentence(tierSection==4)->L'année dernière, [PAWN_pronoun] s'est montré excellent(e) dans son [nounGrowth].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] veut passer plus de temps en [situationLearning] et a [situationFun].</li>
-    <li>secondSentence(tierSection==4)->[PAWN_nameDef] s'occupe en [situationLearning] mais [PAWN_pronoun] aime par dessus tout [situationFun].</li>
+    <li>firstSentence(tierSection==4,PAWN_gender==Female)->L'année dernière, [PAWN_pronoun] s'est montrée excellente dans son [nounGrowth].</li>
+    <li>firstSentence(tierSection==4,PAWN_gender!=Female)->L'année dernière, [PAWN_pronoun] s'est montré excellent dans son [nounGrowth].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] veut passer plus de temps en [situationLearning] et à [situationFun].</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] s'amuse en [situationLearning] mais [PAWN_pronoun] aime par dessus tout [situationFun].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] se divertit en [situationLearning] et rêve de [situationAspirational].</li>
     <li>secondSentence(tierSection==4)->[PAWN_nameDef] espère qu'en [situationLearning], [PAWN_pronoun] pourra finir par [situationAspirational].</li>
     <li>firstSentence(tierSection==3)->Récemment, [PAWN_pronoun] a montré [nounAttitudeGood] [adjGood]  pour [nounFuture].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] se sent d'[nounAttitudeGood] pour [nounFuture].</li>
-    <li>firstSentence(tierSection==3)->[PAWN_pronoun] s'est intéressé à un certain nombre de nouvelles activités, notamment en [situationLearning].</li>
+    <li>firstSentence(tierSection==3,PAWN_gender==Female)->[PAWN_pronoun] s'est intéressée à un certain nombre de nouvelles activités, notamment en [situationLearning].</li>
+    <li>firstSentence(tierSection==3,PAWN_gender!=Female)->[PAWN_pronoun] s'est intéressé à un certain nombre de nouvelles activités, notamment en [situationLearning].</li>
     <li>firstSentence(tierSection==3)->[PAWN_pronoun] a fait preuve d'un excellent [nounGrowth].</li>
-    <li>secondSentence(tierSection==3)->[PAWN_nameDef] est reconnaissant qu'[PAWN_pronoun] se sent(e) rarement [feelingBad] et souhaite passer plus de temps à [situationFun].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender==Female)->[PAWN_nameDef] est reconnaissante qu'[PAWN_pronoun] se sent rarement [feelingBad_Fem] et souhaite passer plus de temps à [situationFun].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender!=Female)->[PAWN_nameDef] est reconnaissant qu'[PAWN_pronoun] se sent rarement [feelingBad] et souhaite passer plus de temps à [situationFun].</li>
     <li>secondSentence(tierSection==3)->[PAWN_nameDef] aime passer le temps en [situationLearning] mais c'est en le passant à [situationFun] qu'[PAWN_pronoun] est vraiment bien.</li>
-    <li>secondSentence(tierSection==3)->Quand [PAWN_nameDef] était plus jeune, [PAWN_pronoun] voulait passer son temps à [taskWork].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender==Female)->Quand [PAWN_nameDef] sera plus vieille, [PAWN_pronoun] voudrait passer son temps à [taskWork].</li>
+    <li>secondSentence(tierSection==3,PAWN_gender!=Female)->Quand [PAWN_nameDef] sera plus vieux, [PAWN_pronoun] voudrait passer son temps à [taskWork].</li>
     <li>secondSentence(tierSection==3)->Plus que tout, [PAWN_nameDef] aime [situationFun].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] a montré un vague [nounGrowth] et veut le maintenir en [situationLearning].</li>
     <li>firstSentence(tierSection==2)->[PAWN_pronoun] montre [nounAttitudeGood] pour en savoir plus.</li>
@@ -192,20 +196,24 @@
     <li>secondSentence(tierSection==2)->[PAWN_nameDef] pense que [taskWork] est ennuyeux.</li>
     <li>secondSentence(tierSection==2)->Spécifiquement, [PAWN_nameDef] voudrait se focaliser en [situationLearning].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] a fait preuve de peu de [nounGrowth] et a peu d'attentes pour [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->Bien qu'optimiste quant à [nounFuture], [PAWN_pronoun] a peu montré de [nounGrowth].</li>
+    <li>firstSentence(tierSection==1)->Bien qu'optimiste quant à [nounFuture], [PAWN_pronoun] a montré peu de [nounGrowth].</li>
     <li>firstSentence(tierSection==1)->[PAWN_pronoun] espère que les choses s'amélioreront dans [nounFuture].</li>
-    <li>firstSentence(tierSection==1)->[PAWN_pronoun] a montré un [nounGrowth] minimal, se plaignant que passer sont temps en [situationLearning] est vite ennuyeux.</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] souhaite passer plus de temps à [situationFun] mais est trop occupé(e) à s'inquiéter de [situationBad].</li>
-    <li>secondSentence(tierSection==1)->[PAWN_nameDef] se sent souvent [feelingBad] tandis qu'[PAWN_pronoun] essaie de [situationFun].</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] a montré un [nounGrowth] minimal, se plaignant que passer son temps en [situationLearning] est vite ennuyeux.</li>
+    <li>secondSentence(tierSection==1,PAWN_gender==Female)->[PAWN_nameDef] souhaite passer plus de temps à [situationFun] mais est trop occupée à s'inquiéter de [situationBad].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender!=Female)->[PAWN_nameDef] souhaite passer plus de temps à [situationFun] mais est trop occupé à s'inquiéter de [situationBad].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender==Female)->[PAWN_nameDef] se sent souvent [feelingBad_Fem] tandis qu'[PAWN_pronoun] essaie de [situationFun].</li>
+    <li>secondSentence(tierSection==1,PAWN_gender!=Female)->[PAWN_nameDef] se sent souvent [feelingBad] tandis qu'[PAWN_pronoun] essaie de [situationFun].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] a une peur étrange qu'[PAWN_pronoun] puisse finir par [situationBad] si [PAWN_pronoun] continue à [situationFun].</li>
     <li>secondSentence(tierSection==1)->[PAWN_nameDef] fait régulièrement des cauchemars sur le fait de [situationBad].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] veut s'occuper en [situationLearning] mais [PAWN_pronoun] a rarement la chance de le faire.</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] n'a fait preuve d'aucun [nounGrowth].</li>
     <li>firstSentence(tierSection==0)->[PAWN_pronoun] n'a pas réussi à développer de nouvelles passions et d'[nounAttitudeGood] faible pour [nounFuture].</li>
-    <li>firstSentence(tierSection==0)->[PAWN_pronoun] a montré peu d'intérêt pour l'apprentissage et n'aime surtout pas perdre son temps en[situationLearning].</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] a montré peu d'intérêt pour l'apprentissage et n'aime surtout pas perdre son temps en [situationLearning].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] ne s'intéresse qu'à [situationFun].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] est constamment retenu par la peur de [situationBad].</li>
-    <li>secondSentence(tierSection==0)->[PAWN_nameDef] vit dans la peur d'être gravement blessé s'[PAWN_pronoun] prend le risque de [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender==Female)->[PAWN_nameDef] est constamment retenue par la peur de [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender!=Female)->[PAWN_nameDef] est constamment retenu par la peur de [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender==Female)->[PAWN_nameDef] vit dans la peur d'être gravement blessée si [PAWN_pronoun] prend le risque de [situationBad].</li>
+    <li>secondSentence(tierSection==0,PAWN_gender!=Female)->[PAWN_nameDef] vit dans la peur d'être gravement blessé si [PAWN_pronoun] prend le risque de [situationBad].</li>
     <li>secondSentence(tierSection==0)->[PAWN_nameDef] fait un cauchemar récurrent dans lequel [PAWN_pronoun] est en train de [situationFun] et qu'[PAWN_pronoun] finisse par [situationBad].</li>
     <li>adjGood->magnifique</li>
     <li>adjGood->insatiable</li>
@@ -218,11 +226,16 @@
     <li>adjGood->sans fin</li>
     <li>adjGood->pure</li>
     <li>adjGood->grandiose</li>
-    <li>feelingBad->seul(e)</li>
-    <li>feelingBad->désolé(e)</li>
-    <li>feelingBad->offensé(e)</li>
-    <li>feelingBad->violemment malade</li>
-    <li>feelingBad->malade</li>
+    <li>feelingBad->seul</li>
+    <li>feelingBad->désolé</li>
+    <li>feelingBad->offensé</li>
+    <li>feelingBad->[feelingBad_Any]</li>
+    <li>feelingBad_Fem->seule</li>
+    <li>feelingBad_Fem->désolée</li>
+    <li>feelingBad_Fem->offensée</li>
+    <li>feelingBad_Fem->[feelingBad_Any]</li>
+    <li>feelingBad_Any->violemment malade</li>
+    <li>feelingBad_Any->malade</li>
     <li>nounAttitudeGood->un enthousiasme</li>
     <li>nounAttitudeGood->une excitation</li>
     <li>nounAttitudeGood->un optimisme</li>
@@ -237,7 +250,7 @@
     <li>situationFun->jouer [Game] avec des amis</li>
     <li>situationFun->jouer avec [friendNameSingular]</li>
     <li>situationFun->discuter avec [friendNameSingular]</li>
-    <li>situationFun->bavarder apropos [friendNamePlural]</li>
+    <li>situationFun->bavarder à propos [friendNamePlural]</li>
     <li>situationFun->se faire des amis</li>
     <li>situationFun->être loin du soleil</li>
     <li>situationFun->regarder le ciel nocturne pour les météorites</li>
@@ -295,9 +308,9 @@
     <li>taskWork->confectionner de vêtements</li>
     <li>friendNamePlural->des amis</li>
     <li>friendNamePlural->des proches</li>
-    <li>friendNamePlural->des animaux [friendAdj]</li>
-    <li>friendNamePlural->des mécanoïdes [friendAdj]</li>
-    <li>friendNamePlural->des enfants [friendAdj]</li>
+    <li>friendNamePlural->des animaux [friendAdj_Plural]</li>
+    <li>friendNamePlural->des mécanoïdes [friendAdj_Plural]</li>
+    <li>friendNamePlural->des enfants [friendAdj_Plural]</li>
     <li>friendNamePlural->des amis imaginaires</li>
     <li>friendNameSingular->un ami</li>
     <li>friendNameSingular->un chien</li>
@@ -307,21 +320,29 @@
     <li>friendNameSingular->un membre de la famille</li>
     <li>friendAdj->câlin</li>
     <li>friendAdj->serviable</li>
-    <li>friendAdj->amicaux</li>
+    <li>friendAdj->amical</li>
     <li>friendAdj->malicieux</li>
     <li>friendAdj->drôle</li>
+    <li>friendAdj_Plural->câlins</li>
+    <li>friendAdj_Plural->serviables</li>
+    <li>friendAdj_Plural->amicaux</li>
+    <li>friendAdj_Plural->malicieux</li>
+    <li>friendAdj_Plural->drôles</li>
     <li>enemyNamePlural->des pirates</li>
-    <li>enemyNamePlural->des pirates [AdjectiveBadass]</li>
+    <li>enemyNamePlural->des pirates [AdjectiveBadass_Plural]</li>
     <li>enemyNamePlural->de mystérieux étrangers</li>
-    <li>enemyNamePlural->des insectes [AdjectiveBadass]</li>
+    <li>enemyNamePlural->des insectes [AdjectiveBadass_Plural]</li>
     <li>enemyNamePlural->des boomalopes chasseuses d'hommes</li>
     <li>enemyNamePlural->des suceurs de de sang secrets</li>
     <li>enemyNamePlural->des dieux machines</li>
     <li>enemyNamePlural->des mécanoïdes sauvages</li>
     <li>enemyNamePlural->des êtres psychiques aux pouvoirs terrifiants</li>
     <li>enemyNameSingular->un [Enemy] [AdjectiveBadass]</li>
+    <li>enemyNameSingular->une [Enemy_Feminine] [AdjectiveBadass_Feminine]</li>
     <li>enemyNameSingular->un [AnimalBadass][AdjectiveBadass]</li>
+    <li>enemyNameSingular->une [AnimalBadass_Feminine][AdjectiveBadass_Feminine]</li>
     <li>enemyNameSingular->un [AnimalBadass]</li>
+    <li>enemyNameSingular->une [AnimalBadass_Feminine]</li>
     <li>enemyNameSingular->un [Mechanoid]</li>
     <li>enemyNameSingular->un pestilent [AdjectiveBadass]</li>
     <li>enemyNameSingular->un étranger</li>
