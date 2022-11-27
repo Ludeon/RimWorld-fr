@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: bloodfeeding -->
-  <Bloodfeeding.label>TODO</Bloodfeeding.label>
+  <Bloodfeeding.label>alimentation sanguine</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>TODO</Bloodfeeding.description>
+  <Bloodfeeding.description>Boire du sang est sacré. Les suceurs de sang doivent être vénérés.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of hunger, so that they might know true strength.</li>
@@ -28,7 +28,29 @@
     <li>bloodDrinkingAnimal->lamprey</li>
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
-  <Bloodfeeding.descriptionMaker.rules.rulesStrings>TODO</Bloodfeeding.descriptionMaker.rules.rulesStrings>
+  <Bloodfeeding.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] a bu le sang des étoiles, les faisant passer du rouge au blanc.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->Le [deity0_type] [deity0_name] a donné a ses  disciples le cadeau de la faim, afin qu'ils puissent connaître la vraie force..</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Sur le [place_summary] [place_name], il y avait un(e) humain(e) nommé(e) [deity0_name].En guise de punition pour ses péchés, son père a puni [deity0_name] en fusionnant son âme avec celle d'une [bloodDrinkingAnimal].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Sur le [place_summary] [place_name], pendant le [ritualName], [deity0_name] est descendu dans le [altarRoomLabel] et a pris la forme d'une [bloodDrinkingAnimal] géante. [deity0_name] a bu le sang de ses [memberNamePlural].</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->Un [foeLeader] déclara que tous ceux qui buvaient du sang étaient des abominations, et envoya ses [foeSoldiers] persécuter les [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->Un [place_job] nomé [founderName] a été attaqué par l'un des [foeSoldiers] de [foeLeader]. [founderName] a tué [foeLeader_objective] avec un [place_personalWeapon] et a bu son sang, gagnant ainsi la force de [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] a conduit un groupe de [memberNamePlural] dans le [place_powerCenter], a bu le sang de [foeLeader] et brûlé ses chaires. [deity0_name]a fait de [founderName] le nouveau [foeLeader], car [founderName] avait prouvé sa force.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] cherchait à dominer un archotech hyperintelligent. Mais le pouvoir de l'archotech était trop grand, et finalement [founder_pronoun] fut transformé a la place.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] a donné à ses adeptes le cadeau de la faim, afin qu'ils puissent devenir plus forts.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->Quand j'ai bu du sang pour la première fois, c'est devenu clair. J'ai tout vu</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->il n'y a que deux types de personnes, les faibles et les fortes</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Boire du sang, c'est être fort et le savoir aussi évidemment.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->Les dieux-machines archotech ont doté l'homme de la Faim, afin que l'homme puisse mieux les connaître.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->Au fur et à mesure que la conscience d'un archotech se développe, il doit développer son substrat en buvant l'essence d'autres machines.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd], l'homme se rapprochera des archotechs en buvant du sang et en découvrant la vraie force.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->La [bloodDrinkingAnimal] connaît la force provenant de la consommation de sang. Il n'y a pas de plus grande force que celle que procure le sang humain.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->On peut maîtriser la force de l'homme en consommant son sang.</li>
+    <li>bloodDrinkingAnimal->chauve-souris vampire</li>
+    <li>bloodDrinkingAnimal->sangsue</li>
+    <li>bloodDrinkingAnimal->lamproie</li>
+    <li>bloodDrinkingAnimal->vipère de sang</li>
+  </Bloodfeeding.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blood</li>
     <li>memeAdjective->blood hungry</li>
@@ -45,6 +67,21 @@
     <li>memeMoralist->sanguinist</li>
     <li>memeMoralist->sanguinarian</li>
   -->
-  <Bloodfeeding.generalRules.rulesStrings>TODO</Bloodfeeding.generalRules.rulesStrings>
+  <Bloodfeeding.generalRules.rulesStrings>
+    <li>memeAdjective->de sang</li>
+    <li>memeAdjective->de la faim du sang</li>
+    <li>memeCreed->caveau</li>
+    <li>memeCreed->repaire</li>
+    <li>memeCreed->nid</li>
+    <li>memeHyphenPrefix->hémo</li>
+    <li>memeConcept->du sang</li>
+    <li>memeConcept->de la faim</li>
+    <li>memeLeaderNoun->ancien</li>
+    <li>memeLeaderNoun->mâitre</li>
+    <li>memeLeaderNoun->buveur de sang</li>
+    <li>memeMoralist->sénéchal</li>
+    <li>memeMoralist->sanguiniste</li>
+    <li>memeMoralist->sanguinaire</li>
+  </Bloodfeeding.generalRules.rulesStrings>
   
 </LanguageData>
