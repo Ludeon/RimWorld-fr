@@ -38,7 +38,7 @@
   <!-- EN: {0_labelShort} is incapable of shooting -->
   <IsIncapableOfShootingLower>{0_labelShort} est incapable de tirer</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} n'est pas enrôlé</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} n'est pas enrôlé{1_gender ? : e : (e)}</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -179,6 +179,7 @@
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violation de la faction alliée</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
+  <!-- NOTE: <BeingCarriedBy>porté(e) par {0_labelShort}</BeingCarriedBy> -->
   <BeingCarriedBy>porté par {0_labelShort}</BeingCarriedBy>
   <!-- EN: full -->
   <ContainerFull>plein</ContainerFull>
@@ -245,7 +246,7 @@
   <!-- EN: Reserved by {1_labelShort} -->
   <ReservedBy>Réservé par {1_labelShort}.</ReservedBy>
   <!-- EN: {0} is reserved by {1}. -->
-  <IsReservedBy>{0} est réservé par {1}.</IsReservedBy>
+  <IsReservedBy>{0} est réservé{0_gender ? : e : (e)} par {1}.</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Trop lourd</TooHeavy>
   <!-- EN: {0_labelShort} is in the same faction. -->
@@ -288,7 +289,7 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>insuffisant</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>Impossible de transporter suffisamment {AMMO_label} pour recharger 1 charge.</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>Impossible de transporter suffisamment de {AMMO_label} pour recharger 1 charge.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Impossible de ramasser {1_labelShort}</CannotPickUp>
