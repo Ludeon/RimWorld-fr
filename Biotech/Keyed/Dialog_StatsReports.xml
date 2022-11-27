@@ -18,7 +18,7 @@
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>Classe requise</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
-  <StatsReport_RechargerWeightClass_Desc>La classe de mécanoïde pouvant utiliser ce chargeur. Les mécanoïdes suivants sont compatibles</StatsReport_RechargerWeightClass_Desc>
+  <StatsReport_RechargerWeightClass_Desc>La classe de mécanoïdes pouvant utiliser ce chargeur. Les mécanoïdes suivants sont compatibles</StatsReport_RechargerWeightClass_Desc>
 
   <!-- EN: Recharger needed -->
   <StatsReport_RechargerNeeded>Chargeur nécessaire</StatsReport_RechargerNeeded>
@@ -26,9 +26,10 @@
   <StatsReport_RechargerNeeded_Desc>Le type de chargeur que ce mécanoïde peut utiliser pour récupérer de l'énergie. Cela est basé sur la classe du mécanoïde.</StatsReport_RechargerNeeded_Desc>
 
   <!-- EN: Deathrest effectiveness -->
-  <StatsReport_DeathrestEffectiveness>Efficacité de la mort</StatsReport_DeathrestEffectiveness>
+  <!-- NOTE: deathrest -> repos comateux (?) -->
+  <StatsReport_DeathrestEffectiveness>Efficacité du repos de la mort</StatsReport_DeathrestEffectiveness>
   <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
-  <StatsReport_DeathrestEffectiveness_Desc>Un multiplicateur de son efficacité lorsqu'il est utilisé pour le repos de la mort. Plus elle est élevée, moins l'utilisateur a besoin de temps pour se reposer ici.</StatsReport_DeathrestEffectiveness_Desc>
+  <StatsReport_DeathrestEffectiveness_Desc>Un multiplicateur de son efficacité lorsqu'il est utilisé pour le repos de la mort. Plus c'est élevé, moins l'utilisateur a besoin de temps pour se reposer ici.</StatsReport_DeathrestEffectiveness_Desc>
 
   <!-- EN: Deathrest connection limit -->
   <StatsReport_DeathrestConnectionLimit>Limite de connexion</StatsReport_DeathrestConnectionLimit>
@@ -78,23 +79,23 @@
   <!-- EN: Social fight chance factor -->
   <SocialFightChanceFactor>Facteur de chance de lutte sociale</SocialFightChanceFactor>
   <!-- EN: Chance mental break is violent -->
-  <AggroMentalBreakSelectionChanceFactor>Chance de rupture mentale violente</AggroMentalBreakSelectionChanceFactor>
+  <AggroMentalBreakSelectionChanceFactor>Chance de crise nerveuse violente</AggroMentalBreakSelectionChanceFactor>
   <!-- EN: Prison break interval factor -->
   <PrisonBreakIntervalFactor>Facteur d'intervalle d'évasion</PrisonBreakIntervalFactor>
   <!-- EN: Will never prison break. -->
   <WillNeverPrisonBreak>Ne s'évadera jamais de prison.</WillNeverPrisonBreak>
   <!-- EN: Mental breaks are always violent. -->
-  <AlwaysAggroMentalBreak>Les ruptures mentales sont toujours violentes.</AlwaysAggroMentalBreak>
+  <AlwaysAggroMentalBreak>Les crises nerveuses sont toujours violentes.</AlwaysAggroMentalBreak>
   <!-- EN: Mental breaks are never violent. -->
-  <NeverAggroMentalBreak>Les ruptures mentales ne sont jamais violentes.</NeverAggroMentalBreak>
+  <NeverAggroMentalBreak>Les crises nerveuses ne sont jamais violentes.</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
-  <AddictionChanceFactor>facteur de risque de dépendance au {0_label}</AddictionChanceFactor>
+  <AddictionChanceFactor>facteur de risque de dépendance à {0_definite}</AddictionChanceFactor>
   <!-- EN: {0_label} overdose chance factor -->
-  <OverdoseChanceFactor>Facteur de risque d'overdose au {0_label}</OverdoseChanceFactor>
+  <OverdoseChanceFactor>Facteur de risque d'overdose à {0_definite}</OverdoseChanceFactor>
   <!-- EN: {0_label} tolerance buildup factor -->
-  <ToleranceBuildupFactor>Facteur d'accumulation de tolérance au {0_label}</ToleranceBuildupFactor>
+  <ToleranceBuildupFactor>Facteur d'accumulation de tolérance à {0_definite}</ToleranceBuildupFactor>
   <!-- EN: Immune to {0_label} addiction. -->
-  <AddictionImmune>Immunisé contre la dépendance au {0_label}.</AddictionImmune>
+  <AddictionImmune>Immunisé contre la dépendance à {0_definite}.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
   <FoodPoisoningImmune>Immunisé contre les intoxications alimentaires.</FoodPoisoningImmune>
   <!-- EN: Will never do social fights. -->
@@ -104,9 +105,9 @@
   <!-- EN: Work speed is unaffected by darkness. -->
   <UnaffectedByDarkness>La vitesse de travail n'est pas affectée par l'obscurité.</UnaffectedByDarkness>
   <!-- EN: Adds one level of passion in {0_label}. -->
-  <PassionModAdd>Ajoute un niveau de passion dans {0_label}.</PassionModAdd>
+  <PassionModAdd>Ajoute un niveau de passion dans {0_definite}.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
-  <PassionModDrop>Supprime toute passion dans {0_label}.</PassionModDrop>
+  <PassionModDrop>Supprime toute passion dans {0_definite}.</PassionModDrop>
   <!-- EN: Causes need -->
   <CausesNeed>Les causes ont besoin</CausesNeed>
   <!-- EN: Gives ability -->
@@ -114,7 +115,7 @@
   <!-- EN: Gives abilities -->
   <GivesAbilities>Donne des capacités</GivesAbilities>
   <!-- EN: {RESOURCE}: {OFFSET} per day. -->
-  <ResourceLossPerDay>{RESOURCE}: {OFFSET} par jour.</ResourceLossPerDay>
+  <ResourceLossPerDay>{RESOURCE} : {OFFSET} par jour.</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>Supprime</Removes>
   <!-- EN: Disables need -->
@@ -132,12 +133,12 @@
   <StatsReport_GrowthVatSpeedFactor>Vitesse d'incubation</StatsReport_GrowthVatSpeedFactor>
 
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
-  <GeneToleranceBuildupImmune>Les porteurs ne peuvent pas avoir de tolérance au {0_label}.</GeneToleranceBuildupImmune>
+  <GeneToleranceBuildupImmune>Les porteurs ne peuvent pas avoir de tolérance à {0_definite}.</GeneToleranceBuildupImmune>
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
-  <GeneToleranceBuildupFactor>Les porteurs développent une tolérance au {0_label} {1} plus rapidement.</GeneToleranceBuildupFactor>
+  <GeneToleranceBuildupFactor>Les porteurs développent une tolérance à {0_definite} {1} fois plus rapidement.</GeneToleranceBuildupFactor>
   <!-- EN: Carriers cannot overdose on {0_label}. -->
-  <GeneOverdoseImmune>Les porteurs ne peuvent pas faire d'overdose au {0_label}.</GeneOverdoseImmune>
+  <GeneOverdoseImmune>Les porteurs ne peuvent pas faire d'overdose de {0_label}.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
-  <GeneOverdoseFactor>Les porteurs sont susceptibles de faire une overdose au {0_label} {1}.</GeneOverdoseFactor>
+  <GeneOverdoseFactor>Les porteurs sont {1} fois susceptibles de faire une overdose de {0_label}.</GeneOverdoseFactor>
 
 </LanguageData>
