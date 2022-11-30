@@ -125,9 +125,9 @@
   <!-- EN: unknown -->
   <UnknownLower>inconnu</UnknownLower>
   <!-- EN: On -->
-  <On>On</On>
+  <On>Activé(e)</On>
   <!-- EN: Off -->
-  <Off>Off</Off>
+  <Off>Désactivé(e)</Off>
   <!-- EN: Power -->
   <PowerSwitch_Power>Mise sous tension</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -741,7 +741,7 @@
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>incapable de violence</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort} n'est pas enrôlé.</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} n'est pas mobilisé{1_gender ? : e : (e)}.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef} ne peut utilier d'armes à distance à cause de : {APPAREL_label}.</ApparelPreventsShooting>
 
@@ -967,7 +967,7 @@
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>Modifier la manière dont le colon va réagir à des ennemis proches s'il n'est pas enrôlé.</HostilityReponseTip>
+  <HostilityReponseTip>Modifier la manière dont le colon va réagir à des ennemis proches s'il n'est pas mobilisé.</HostilityReponseTip>
   <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>Comportement actuel</HostilityResponseCurrentMode>
 
@@ -1761,7 +1761,7 @@
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>doit être enrôlé.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>doit être mobilisé.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>pouvoir en rechargement. Il sera disponibe dans {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
