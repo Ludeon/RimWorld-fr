@@ -36,9 +36,9 @@
     <li>babyGame->fingerpuppets</li>
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] fait [reaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a fait [reaction] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] joue à [babyGame] avec [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a joué à [babyGame] avec [RECIPIENT_nameDef].</li>
     <li>reaction->pouffer de rire</li>
     <li>reaction->sourire</li>
     <li>reaction->se tortiller de joie</li>
@@ -48,18 +48,18 @@
     <li>reaction->hurler</li>
     <li>reaction->roter</li>
     <li>reaction->grimacer de fascination</li>
-    <li>interaction->ravi</li>
-    <li>interaction->joue avec</li>
-    <li>interaction->stimule</li>
-    <li>interaction->amuse</li>
-    <li>interaction->chatouille</li>
-    <li>interaction->dessine pour</li>
-    <li>interaction->renifle</li>
-    <li>interaction->étreint</li>
-    <li>interaction->remue</li>
-    <li>interaction->chante pour</li>
-    <li>interaction->raconte une histoire à</li>
-    <li>interaction->fait un tour de magie à</li>
+    <li>interaction->a ravi</li>
+    <li>interaction->a joué avec</li>
+    <li>interaction->a stimulé</li>
+    <li>interaction->a amusé</li>
+    <li>interaction->a chatouillé</li>
+    <li>interaction->a dessiné pour</li>
+    <li>interaction->a reniflé</li>
+    <li>interaction->a étreint</li>
+    <li>interaction->a remué</li>
+    <li>interaction->a chanté pour</li>
+    <li>interaction->a raconté une histoire à</li>
+    <li>interaction->a fait un tour de magie à</li>
     <li>babyGame->cache-cache</li>
     <li>babyGame->coucou</li>
     <li>babyGame->trouver le doigt</li>
@@ -118,7 +118,8 @@
     <li>animal_verb->nourrir</li>
     <li>animal_verb->calmer</li>
     <li>animal_verb->communiquer avec</li>
-    <li>animal_verb->gagner la confiance d'</li>
+    <!-- NOTE: faire jouer l'élision "de un -> d'un" pour supprimer l'espace en trop -->
+    <li>animal_verb->gagner la confiance de</li>
     <li>subject->la psychologie animale</li>
     <li>subject->les techniques d'apprivoisement</li>
     <li>subject->la faune dangereuse</li>
@@ -158,6 +159,13 @@
     <li>action->faire de l'art avec</li>
     <li>action->utiliser</li>
     <li>action->s'exprimer avec</li>
+  <!--NOTE: action_gerund devrait être des substantifs au lieu de participe présent "xxx-ant"
+      voir dans Biotech/DefInjected/RulePackDef/Interactions_Social.xml
+      ex. "[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] sur comment [action_gerund] [article_tool] [situation]."
+          Solution 1. ... sur comment faire de l'art avec...
+          Solution 2. ... sur la façon de faire de l'art avec...
+                      ... sur l'utilisation de...
+    -->
     <li>action_gerund->faisant de l'art avec</li>
     <li>action_gerund->utilisant</li>
     <li>action_gerund->s'exprimant avec</li>
@@ -240,7 +248,7 @@
     <li>article_tool->une spatule</li>
     <li>article_tool->un four</li>
     <li>article_tool->une casserole</li>
-    <li>article_tool->un distributeur de pâte nutritive</li>
+    <li>article_tool->un distributeur de pâtes nutritives</li>
     <li>article_tool->une table de boucher</li>
     <li>action->nettoyer</li>
     <li>action->cuisiner avec</li>

@@ -33,11 +33,18 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
+  <!--NOTE: action_gerund devrait être des substantifs au lieu de participe présent "xxx-ant"
+      voir dans Biotech/DefInjected/InteractionDef/Interactions_Social.xml
+      ex. "[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] sur comment [action_gerund] [article_tool] [situation]."
+          Solution 1. ... sur comment faire de l'art avec...
+          Solution 2. ... sur la façon de faire de l'art avec...
+                      ... sur l'utilisation de...
+    -->
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] sur comment [action_gerund] [article_tool] [situation].</li>
-    <li>teach_test->interroge</li>
-    <li>teach_test->teste</li>
-    <li>teach_test->torture</li>
-    <li>teach_test->contre-interroge</li>
+    <li>teach_test->a interrogé</li>
+    <li>teach_test->a testé</li>
+    <li>teach_test->a torturé</li>
+    <li>teach_test->a contre-interrogé</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
@@ -51,10 +58,10 @@
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [study_verb] [teach_adverb] [subject] avec [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] avec [RECIPIENT_nameDef].</li>
-    <li>study_verb->révise</li>
-    <li>study_verb->examine</li>
-    <li>study_verb->fait des recherches sur</li>
-    <li>study_verb->étudie</li>
+    <li>study_verb->a révisé</li>
+    <li>study_verb->a examiné</li>
+    <li>study_verb->a fait des recherches sur</li>
+    <li>study_verb->a étudié</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
@@ -81,10 +88,10 @@
     <li>teach_verb->taught</li>
   -->
   <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-    <li>teach_verb->démontre</li>
-    <li>teach_verb->explique</li>
-    <li>teach_verb->montre</li>
-    <li>teach_verb->enseigne</li>
+    <li>teach_verb->a démontré</li>
+    <li>teach_verb->a expliqué</li>
+    <li>teach_verb->a montré</li>
+    <li>teach_verb->a enseigné</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
