@@ -42,13 +42,13 @@
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender!=Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez un prisonnier nommé [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender==Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez une prisonnière nommée [lodgers0_nameFull] à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender!=Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez un prisonnier nommé [lodgers0_nameFull] à [map_definite] pendant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1,lodgers0_gender==Female)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez une prisonnière nommée [lodgers0_nameFull] à [map_definite] pendant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] a récemment craché sur l'enfant chéri de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de [enemyFaction_name]. En quête de revanche, [enemyFaction_leader_nameDef] enverra des [enemyFaction_pawnsPlural] à quiconque [lodgers0_objective] donnerait refuge. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez [lodgersCount] prisonniers à [map_definite] pour [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Le capitaine d'un vaisseau en orbite voudrait que vous gardiez [lodgersCount] prisonniers à [map_definite] pendant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLes prisonniers ont commis une série de meurtres contre les [enemyFaction_pawnsPlural] de [enemyFaction_name] et les familles des victimes en quête de revanche enverront des raids. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nLes prisonniers ont récemment [mechViolation]. Ils ont été pris pour cible par une ruche mécanoïde. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
@@ -62,7 +62,7 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], a capturé [lodgersCount] prisonniers d'une faction ennemie. N'ayant pas de place pour les incarcérer, [asker_nameDef] voudrait que vous veilliez sur eux pour [shuttleDelayTicks_duration], jusqu'à ce que sa prison soit prête.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], a capturé [lodgersCount] prisonniers d'une faction ennemie. N'ayant pas de place pour les incarcérer, [asker_nameDef] voudrait que vous veilliez sur eux pendant [shuttleDelayTicks_duration], jusqu'à ce que sa prison soit prête.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nLes prisonniers ont payé la faction [enemyFaction_name] pour les libérer, ils enverront des [enemyFaction_pawnsPlural] vous attaquer. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nLes ennemis de [asker_nameDef] ont provoqué une ruche mécanoïde pour traquer les prisonniers, celle-ci vous enverra des groupes d'attaque. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
