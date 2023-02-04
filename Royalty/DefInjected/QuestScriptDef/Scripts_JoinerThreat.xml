@@ -35,7 +35,7 @@
     <li>hidingFrom(gameCondition==ColdSnap)->un satellite de contrôle climatique défectueux</li>
     <li>condDesc(gameCondition==ColdSnap)->Si [joiner_pronoun] vous rejoint, une vague de froid intense qui durera [gameConditionDuration_duration] s'abattra jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==WeatherController)->un satellite de contrôle météorologique défectueux</li>
-    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] vous rejoint, la météo sera modifiée à [forcedWeather_label] pour [gameConditionDuration_duration] jusqu'à ce que le satellite se réinitialise.</li>
+    <li>condDesc(gameCondition==WeatherController)->Si [joiner_pronoun] vous rejoint, la météo sera modifiée à [forcedWeather_label] pendant [gameConditionDuration_duration] jusqu'à ce que le satellite se réinitialise.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->une intelligence artificielle rancunière qu'[joiner_pronoun] a récemment offensée</li>
     <!-- NOTE: machine mind - conscience machine     -->
     <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vous rejoint, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
