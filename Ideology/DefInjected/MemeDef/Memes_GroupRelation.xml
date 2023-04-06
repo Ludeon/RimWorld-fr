@@ -24,7 +24,7 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name] vola, assassina, viola ; et une grande culpabilité s'abattit sur [deity0_objective]. Dans son égoïsme, [deity0_pronoun] rejeta cette culpabilité sur le peuple qu'[deity0_pronoun] a choisi, et tous en furent remplis.</li>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] vola, assassina, viola ; et une grande culpabilité s'abattit sur [deity0_objective]. Dans son égoïsme, [deity0_pronoun] rejeta cette culpabilité sur le peuple qu'[deity0_pronoun] avait choisi, et tous en furent remplis.</li>
     <!-- NOTE: utiser deity0_gender==Female si ce flag existe -->
     <!--
     <li>episode(uses=1,tag=meme_Guilty,deity0_gender==Female)  ->Les croyants conquirent et vainquirent, brûlèrent et violèrent pendant mille ans ; et le chagrin de [deity0_name] face à leur dépravation la consuma.</li>
@@ -34,8 +34,8 @@
     <!-- NOTE: besoin de altarRoom_gender -->
     <li>intro(tag=meme_Guilty)           ->Les [memberNamePlural] du [place_summary] [place_name] négligèrent leur devoir envers [deity0_name] et laissèrent le [altarName] de son/sa [altarRoomLabel] s'effondrer.</li>
     <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] prêta de l'argent aux [memberNamePlural], qui le dépensèrent dans des plaisirs égoïstes, en oubliant l'importance de [memeConcept].</li>
-    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] nommé [founderName] bénéficiait de la faveur du [foeLeader]. Pendant le [ritualName], [founder_pronoun] vit les [foeSoldiers] du [foeLeader] tuer secrètement [memberNamePlural] avec des [place_personalWeapon]. [founderName] compris finalement [memeConcept] et reçut la bénédiction de [deity0_name].</li>
-    <li>victory(tag=meme_Guilty)         ->Pour expier la moitié de leurs torts, [founderName] rassembla la moitié des croyants de [deity0_name] à [founder_objective] dans une [place_community], déchaîna [place_massWeapon] et mourut avec eux. La seconde moitié de l'expiation continue.</li>
+    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] nommé [founderName] bénéficia de la faveur du [foeLeader]. Pendant le [ritualName], [founder_pronoun] vit les [foeSoldiers] du [foeLeader] tuer secrètement [memberNamePlural] avec des [place_personalWeapon]. [founderName] comprit finalement [memeConcept] et reçut la bénédiction de [deity0_name].</li>
+    <li>victory(tag=meme_Guilty)         ->Pour expier la moitié de leurs torts, [founderName] rassembla la moitié des croyants de [deity0_name] à [founder_objective] dans une [place_community], déchaîna [place_massWeapon] et mourut avec eux. La seconde moitié de l'expiation continua.</li>
     <li>setup(tag=meme_Guilty)           ->Une nouvelle génération vint à comprendre le mal de sa propre société et chercha à juste titre à démanteler les structures de l'oppression.</li>
     <li>story(uses=1,tag=meme_Guilty)    ->[founderName] rassembla les croyants et leur montra le mal de leur histoire et la culpabilité qu'ils portaient, et exigea qu'ils fassent mieux.</li>
     <li>lessonIntro(tag=meme_Guilty)         ->Notre terre, notre technologie et même notre sagesse sont tous des biens volés. Ce n'est que par le vol que nous avons appris que</li>
@@ -137,15 +137,14 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->[deity0_name] a exhorté les bons peuples à ne combattre que ceux qui se sont battus sans juste cause.</li>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name] exhorta les bons peuples à ne combattre que ceux qui se battaient sans juste cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->Une guerre avec les incroyants s'ensuivit. L'un des croyants, [believer_nameFull], cherchant à prendre l'avantage, invita les païens à l'intérieur du pays de [deity0_name], ce qui rendit [deity0_name] furieux. Pour sa trahison, [deity0_name] frappa dix mille fois.</li>
     <!-- NOTE: besoin de altarRoom_gender -->
     <li>intro(tag=meme_Loyalist)           ->Une communauté [memeAdjective] sur le [place_summary] [place_name] adorait [deity0_name] dans son/sa [altarRoomLabel], et étaient inébranlables dans leur foi.</li>
-    <li>conflict(tag=meme_Loyalist)        ->Un [foeLeader] a placé des [foeSoldiers] comme espions au sein des [memberNamePlural] pour les diviser.</li>
+    <li>conflict(tag=meme_Loyalist)        ->Un [foeLeader] plaça des [foeSoldiers] comme espions au sein des [memberNamePlural] pour les diviser.</li>
     <li>founderJoin(tag=meme_Loyalist)     ->[founderName], un [place_job] [memeAdjective], fut torturé par les [foeSoldiers], mais refusa de jurer fidélité au [foeLeader].</li>
-    <li>victory(tag=meme_Loyalist)         ->Avec la force de [deity0_name], [founderName] et les [memberNamePlural] ne pouvaient pas être divisés. Ils vainquirent les [foeSoldiers] avec des [place_personalWeapon] et bannirent le [foeLeader] de [place_name].</li>
-    <li>setup(tag=meme_Loyalist,founder_gender==Female)           ->Au début, le mouvement de [founderName] fut réprimé par les gouvernements et les religions. [founder_pronoun] ne laissa jamais la colère la pousser à commettre les atrocités que d'autres ont commises, mais [founder_pronoun] ne recula jamais devant un combat.</li>
-    <li>setup(tag=meme_Loyalist,founder_gender!=Female)           ->Au début, le mouvement de [founderName] fut réprimé par les gouvernements et les religions. [founder_pronoun] ne laissa jamais la colère le pousser à commettre les atrocités que d'autres ont commises, mais [founder_pronoun] ne recula jamais devant un combat.</li>
+    <li>victory(tag=meme_Loyalist)         ->Avec la force de [deity0_name], [founderName] et les [memberNamePlural] ne purent être divisés. Ils vainquirent les [foeSoldiers] avec des [place_personalWeapon] et bannirent le [foeLeader] de [place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->Au début, le mouvement de [founderName] fut réprimé par les gouvernements et les religions. [founder_pronoun] ne laissa jamais la colère la pousser à commettre les atrocités que d'autres ont commises, mais [founder_pronoun] ne recula jamais devant un combat.</li>
     <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] punit ceux qui essayèrent de nuire aux incroyants, ainsi que ceux qui les invitèrent dans la maison des croyants.</li>
     <li>lessonIntro(tag=meme_Loyalist)         ->J'ai vu un [foeLeader] courtiser les faveurs de ses rivaux tout en laissant ses [foeSoldiers] mourir sur le champ de bataille. J'ai alors juré de ne jamais être comme [foeLeader_objective], sachant que</li>
     <li>lesson(tag=meme_Loyalist)              ->ton amour pour ton ami n'a de sens que parce que tu n'aimes pas ton ennemi</li>
@@ -222,13 +221,13 @@
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
   <Supremacist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Supremacist)        ->Les habitants du [place_summary] [place_name] se disputaient sans cesse, et [deity0_name] se lassa de la discorde et oignit le [memberNamePlural] comme le souverain légitime de tous.</li>
-    <li>episode(uses=1,tag=meme_Supremacist)  ->Les fidèles combattirent les incroyants, et [deity0_name] dit : " Combattez-les partout, en mon nom, jusqu'à ce que je sois adoré dans tout l'univers et que la vraie paix puisse enfin régner."</li>
+    <li>creation(tag=meme_Supremacist)        ->Les habitants du [place_summary] [place_name] se disputaient sans cesse, et [deity0_name] se lassa de la discorde et oignit les [memberNamePlural] comme le souverain légitime de tous.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->Les fidèles combattirent les infidèles, et [deity0_name] dit : " Combattez-les partout, en mon nom, jusqu'à ce que je sois adoré dans tout l'univers et que la vraie paix puisse enfin régner."</li>
     <li>intro(tag=meme_Supremacist)           ->Les habitants de [place_summary] [place_name] adoraient [deity0_name]. [deity0_pronoun] vu qu'ils étaient adaptés pour [memeConcept], et ordonna que ces adorateurs règnent sur tous les autres.</li>
-    <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] adopta une loi interdisant à [memberNamePlural] d'accéder aux classes dirigeantes de [place_name].</li>
+    <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] adopta une loi interdisant aux [memberNamePlural] d'accéder aux classes dirigeantes de [place_name].</li>
     <li>founderJoin(tag=meme_Supremacist)     ->Un guerrier nommé [founderName] utilisa [place_massWeapon] pour détruire une [place_community]. [deity0_name] vu le caractère impitoyable de [founderName] et l'a reconnu comme le dirigeant légitime de toute l'humanité.</li>
-    <li>victory(tag=meme_Supremacist)         ->[founderName] détruit la capitale de [place_name] avec [place_massWeapon], tuant le [foeLeader]. [founder_pronoun] pris sa place en tant que souverain de [place_name] - et de l'univers.</li>
-    <li>setup(tag=meme_Supremacist)           ->[founderName] construit une armée qui répandit son pouvoir et sa gloire à travers le pays, plaçant ceux qui refusaient de suivre à juste titre sous son règne.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName] détruisit la capitale de [place_name] avec [place_massWeapon], tuant le [foeLeader]. [founder_pronoun] prit sa place en tant que souverain de [place_name] - et de l'univers.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] construisit une armée qui répandit son pouvoir et sa gloire à travers le pays, plaçant ceux qui refusaient de suivre à juste titre sous son règne.</li>
     <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] demanda à tous les étrangers de se soumettre. Lorsque la première ville refusa, [founder_pronoun] utilisa [place_massWeapon] pour tuer tout le monde à l'intérieur.</li>
     <li>lessonIntro(tag=meme_Supremacist)         ->J'ai regardé ce [foeLeader], avec ses pitoyable [foeSoldiers], tout ce pouvoir laissé en jachère. J'ai essayé de le convaincre que</li>
     <li>lesson(tag=meme_Supremacist)              ->nous avions depuis longtemps prouvé que nous avons la force de régner à juste titre sur cet univers</li>
