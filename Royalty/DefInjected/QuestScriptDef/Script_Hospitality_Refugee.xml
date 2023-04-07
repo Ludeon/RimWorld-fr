@@ -193,8 +193,8 @@
     <li>lodgersPossessivePlural(lodgerCount>=2)->leurs</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->les [lodgersLabelPlural]</li>
-    <!-- NOTE: "de [lodgersAccusative]" utilise un espace insécable pour éviter l'élision "de le->du" -->
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] vous demande la permission de rester à [map_definite] pour [questDurationTicks_duration] afin de pouvoir se reposer et se ressaisir.\n\nEn retour, [lodgersPronoun] [offer] de travailler et de se battre gratuitement pendant cette période.\n\n[joinInfo] [lodgersPronoun] [mayAlso] également vous récompenser plus tard pour votre aide, mais il n'y a aucun moyen de savoir s'il y a des intentions cachées.\n\n[travelerInfo] partie d'aucune faction. Si vous le souhaitez, vous pouvez choisir de [lodgersAccusative] tuer, de [lodgersAccusative] capturer, de [lodgersAccusative] vendre ou de [lodgersObjectiveIndirect] prélever des organes, et ceci sans aucune conséquence diplomatique.</li>
+    <!-- NOTE: "de [lodgersAccusative]" utilise un espace insécable pour éviter l'élision "de le->du" -->
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] vous demande la permission de rester à [map_definite] pour [questDurationTicks_duration] afin de pouvoir se reposer et se ressaisir.\n\nEn retour, [lodgersPronoun] [offer] de travailler et de se battre gratuitement pendant cette période.\n\n[joinInfo] [lodgersPronoun] [mayAlso] également vous récompenser plus tard pour votre aide, mais il n'y a aucun moyen de savoir s'il y a des intentions cachées.\n\n[travelerInfo] partie d'aucune faction. Si vous le souhaitez, vous pouvez choisir de [lodgersAccusative] tuer, de [lodgersAccusative] capturer, de [lodgersAccusative] vendre ou de [lodgersObjectiveIndirect] prélever des organes, et ceci sans aucune conséquence diplomatique.</li>
     <li>approachInfo(lodgerCount==1,asker_gender==Female)->Une [asker_kind] désespérée nommée [asker_nameDef] approche.</li>
     <li>approachInfo(lodgerCount==1,asker_gender!=Female)->Un [asker_kind] désespéré nommé [asker_nameDef] approche.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] et un autre [faction_pawnSingular] désespéré approchent.</li>
@@ -324,6 +324,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that all surviving members of the [faction_name] have joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -338,6 +340,8 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Récompense de trahison : [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] vous avait promis une récompense si vous veniez à tuer [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] a appris de source sûre que cela avait bien été fait et vous envoie ce qui suit via une nacelle de transport (valeur totale [betrayalRewardMarketValue_money]) :\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->TODO</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->TODO</li>
     <li>betrayalOfferFailedLetterLabel->Récompense de trahison annulée</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] a appris que l'un des membres de [faction_name] n'est plus à [map_definite]. [factionOpponent_nameDef] voulait voir tous les membres de [faction_name] morts et a donc annulé son offre.</li>
     <li>otherLodgers(lodgerCount==1)-></li>

@@ -15,10 +15,10 @@
         The last message when the shuttlle departed in "shuttleSentUnsatisfied" uses
         [asker_objective] and [asker_pronoun] (instead of "lui" and "il") might not suit well.
     -->
-    <li>questDescription->[intro]Le [asker_faction_leaderTitle] de [asker_faction_name], effectuera à la demande une visite de routine sur le domaine de l'un de ses vassaux ayant au moins le titre de Comte. Envoyez-lui une invitation, pourvoyez à tous ses besoins royaux pendant [shuttleDelayTicks_duration] et vous pourrez tous monter sur la navette vers la flotille imperiale. Vous pourrez alors rejoindre la cour impériale, ou partir vers une nouvelle vie parmi les étoiles.\n\nGagner le titre de Comte nécessite de terminer les quêtes permettant d'obtenir des point de [asker_faction_royalFavorLabel] auprès de [asker_faction_name]. Cela peut prendre des années.\n\nPendant sa visite, vous devrez garder son humeur au dessus de [lodgersMoodThreshold_percent]. Ce qui veut dire subvenir à ses besoins royaux comme une chambre somptueuse.[threatsInfo]\n\nLe [asker_faction_leaderTitle] amènera quatre de ses gardes personnels avec lui et les placera sous votre commandement. Vous devez héberger ces gardes, mais le [asker_faction_leaderTitle] ne se plaindra pas s'ils sont tués ou malheureux.\n\nVous devez garder ces visiteurs à [map_definite] et vous ne devez pas les envoyer ailleurs. Si vous ratez cette quête ou si vous migrez, vous aurez une autre chance plus tard.</li>
+    <li>questDescription->[intro]Le [asker_faction_leaderTitle] de [asker_faction_name], effectuera à la demande une visite de routine sur le domaine de l'un de ses vassaux ayant au moins le titre de Comte. Envoyez-lui une invitation, pourvoyez à tous ses besoins royaux pendant [shuttleDelayTicks_duration] et vous pourrez tous monter sur la navette vers la flotille imperiale. Vous pourrez alors rejoindre la cour impériale, ou partir vers une nouvelle vie parmi les étoiles.\n\nGagner le titre de Comte nécessite de terminer les quêtes permettant d'obtenir des point de [asker_faction_royalFavorLabel] auprès de [asker_faction_name]. Cela peut prendre des années.\n\nPendant sa visite, vous devrez garder son humeur au dessus de [lodgersMoodThreshold_percent]. Ce qui veut dire subvenir à ses besoins royaux comme une chambre somptueuse.[threatsInfo]\n\nLe [asker_faction_leaderTitle] amènera quatre de ses gardes personnels avec lui et les placera sous votre commandement. Vous devez héberger ces gardes, mais le [asker_faction_leaderTitle] ne se plaindra pas s'ils sont tués ou malheureux.\n\nVous devez garder ces visiteurs à [map_definite] et vous ne devez pas les envoyer ailleurs. Si vous ratez cette quête ou si vous migrez, vous aurez une autre chance plus tard.</li>
     <li>intro(sameQuestsCount==0)->Vous avez appris un moyen de s'échapper de cette planète !\n\n</li>
     <li>intro(sameQuestsCount>=1)->Une nouvelle chance de bénédiction royale vous est donnée.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nD'autres vont profiter de l'opportunité pour essayer de tuer le [asker_faction_leaderTitle] et attaqueront avec une grande intensité. Préparez vos défenses.</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nD'autres vont profiter de l'opportunité pour essayer de tuer le [asker_faction_leaderTitle] et attaqueront avec une grande intensité. Préparez vos défenses.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -51,7 +51,7 @@
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] arrivé</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>Le [asker_faction_leaderTitle] de [asker_faction_name] est arrivé.\n\nAssurez sa protection et pourvoyez à tous ses besoins royaux jusqu'à l'arrivée de la navette dans [shuttleDelayTicks_duration].\n\nVous pourrez tous l'accompagner sur la navette et voyager avec la flotille impériale pour recommencer une nouvelle vie.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>Le [asker_faction_leaderTitle] de [asker_faction_name] est arrivé.\n\nAssurez sa protection et pourvoyez à tous ses besoins royaux jusqu'à l'arrivée de la navette dans [shuttleDelayTicks_duration].\n\nVous pourrez tous l'accompagner sur la navette et voyager avec la flotille impériale pour recommencer une nouvelle vie.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Invité mort : {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
@@ -61,9 +61,9 @@
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>Navette arrivée</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>La navette est arrivée pour récupérer le [asker_faction_leaderTitle].\n\nVous pouvez tous accompagner le [asker_faction_leaderTitle] sur la navette et voyager avec la flotille impériale pour recommencer une nouvelle vie.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>La navette est arrivée pour récupérer le [asker_faction_leaderTitle].\n\nVous pouvez tous accompagner le [asker_faction_leaderTitle] sur la navette et voyager avec la flotille impériale pour recommencer une nouvelle vie.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
-  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Le [asker_faction_leaderTitle] va maintenant vous accueillir dans la flottille impériale en tant que noble membre honoré.\n\nVous pouvez rester dans la cour impériale et vous lancer dans la course au pouvoir politique. Peut-être préfèrerez-vous éviter le drame et profiter pleinement de la haute technologie et du luxe. Ou encore, vous pourriez vous décider à acheter un vaisseau spatial et mettre le cap sur le foyer que vous avez perdu depuis longtemps.\n\nLe choix vous appartient.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
+  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Le [asker_faction_leaderTitle] va maintenant vous accueillir dans la flottille impériale en tant que noble membre honoré.\n\nVous pouvez rester dans la cour impériale et vous lancer dans la course au pouvoir politique. Peut-être préfèrerez-vous éviter le drame et profiter pleinement de la haute technologie et du luxe. Ou encore, vous pourriez vous décider à acheter un vaisseau spatial et mettre le cap sur le foyer que vous avez perdu depuis longtemps.\n\nLe choix vous appartient.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
   <EndGame_RoyalAscent.EndGameIntroText.slateRef>Vous vous échappez avec la navette impériale !</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
@@ -78,21 +78,29 @@
   <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>Chirurgie non autorisée : {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Une opération chirurgicale non autorisée et contre sa volonté a été effectuée sur {SUBJECT_definite}, que vous aviez la charge de protéger. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Invité perdu : {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger a quitté son domicile désigné. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}, que vous aviez la charge de protéger a quitté son domicile désigné. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>Navette détruite</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] a été détruite. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] a été détruite. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>TODO</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>TODO</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>Quête échouée : [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Quête échouée : [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] est repartie sans [asker_objective]. [asker_pronoun] va devoir partir à pied maintenant. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>
-  <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] a été détruite. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
- 
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] est repartie sans [asker_objective]. [asker_pronoun] va devoir partir à pied maintenant. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  
+  <!-- UNUSED -->
+  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>La navette envoyée pour récupérer le [asker_faction_leaderTitle] a été détruite. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
+  
 </LanguageData>

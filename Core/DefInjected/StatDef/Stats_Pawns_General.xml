@@ -79,6 +79,15 @@
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>La quantité de viande que vous obtiendrez en dépeçant cette créature. Cette valeur est réduite si la créature n'a pas été abattue proprement, ou si elle est blessée au moment de l'abattage</MeatAmount.description>
   
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>Gain de concentration psychique (méditation)</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>La quantité de concentration psychique qu'une personne acquiert par jour lors de méditation, en ignorant les bonus des objets d'aide à la concentration.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / jour</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / jour</MeditationFocusGain.formatStringUnfinalized>
+  
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>seuil de crise de nerfs</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
@@ -101,10 +110,27 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Le point auquel cette créature sera terrassée par la douleur.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>limite d'échauffement neuronal</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>La quantité maximale d'échauffement neuronal que peut tolérer en toute sécurité un individu.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>taux de récupération d'échauffement neuronal</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>Le taux à laquelle l'échauffement neuronal d'une personne diminue.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilité psychique</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Les personnes les plus sensibles souffrent davantage des effets psychiques négatifs et profitent davantage des effets positifs. Cette sensibilité augmente aussi la limite d'échauffement neuronal.</PsychicSensitivity.description>
+  
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>taux de sommeil</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>Un multiplicateur de la vitesse à laquelle le besoin de sommeil d'une personne diminue.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>multiplicateur de taux de repos</RestRateMultiplier.label>
@@ -120,31 +146,5 @@
   <ToxicResistance.label>résistance à la toxicité</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Niveau de résistance de cette créature à l'accumulation de toxicité.</ToxicResistance.description>
-
-  <!-- EN: sleep fall rate -->
-  <RestFallRateFactor.label>taux de sommeil</RestFallRateFactor.label>
-  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>Un multiplicateur de la vitesse à laquelle le besoin de sommeil d'une personne diminue.</RestFallRateFactor.description>
-
-  <!-- EN: meditation psyfocus gain -->
-  <MeditationFocusGain.label>Gain de concentration psychique (méditation)</MeditationFocusGain.label>
-  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>La quantité de concentration psychique qu'une personne acquiert par jour lors de méditation, en ignorant les bonus des objets d'aide à la concentration.</MeditationFocusGain.description>
-  <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>{0} / jour</MeditationFocusGain.formatString>
-  <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>{0} / jour</MeditationFocusGain.formatStringUnfinalized>
-
-  <!-- EN: neural heat limit -->
-  <PsychicEntropyMax.label>limite d'échauffement neuronal</PsychicEntropyMax.label>
-  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
-  <PsychicEntropyMax.description>La quantité maximale d'échauffement neuronal que peut tolérer en toute sécurité un individu.</PsychicEntropyMax.description>
-
-  <!-- EN: neural heat recovery rate -->
-  <PsychicEntropyRecoveryRate.label>taux de récupération d'échauffement neuronal</PsychicEntropyRecoveryRate.label>
-  <!-- EN: The rate at which this person reduces neural heat. -->
-  <PsychicEntropyRecoveryRate.description>Le taux à laquelle l'échauffement neuronal d'une personne diminue.</PsychicEntropyRecoveryRate.description>
-  <!-- EN: {0}/s -->
-  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
-
+  
 </LanguageData>
