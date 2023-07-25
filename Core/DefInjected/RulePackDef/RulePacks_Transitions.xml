@@ -18,7 +18,7 @@
   <Transition_Died.rulePack.rulesStrings>
     <li>die(SUBJECT_flesh!=Mechanoid,p=2)->meurt</li>
     <li>die(SUBJECT_flesh!=Mechanoid)->périt</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->expire</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->décède</li>
     <li>die(SUBJECT_flesh!=Mechanoid)->succombe à ses blessures</li>
     <li>die(SUBJECT_flesh==Mechanoid)->s'éteint</li>
     <li>die(SUBJECT_flesh==Mechanoid)->arrête de fonctionner</li>
@@ -26,7 +26,8 @@
     <li>died(SUBJECT_flesh!=Mechanoid,p=2,SUBJECT_gender==Male)->est mort</li>
     <li>died(SUBJECT_flesh!=Mechanoid,p=2,SUBJECT_gender==Female)->est morte</li>
     <li>died(SUBJECT_flesh!=Mechanoid)->a péri</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->a expiré</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2,SUBJECT_gender==Male)->est décédé</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2,SUBJECT_gender==Female)->est décédée</li>
     <li>died(SUBJECT_flesh!=Mechanoid)->a succombé à ses blessures</li>
     <li>died(SUBJECT_flesh==Mechanoid)->s'est éteint</li>
     <li>died(SUBJECT_flesh==Mechanoid)->a arrêté de fonctionner</li>
