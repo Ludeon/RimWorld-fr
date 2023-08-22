@@ -23,7 +23,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] du nom de [joiner_nameFull] vous appelle à l'aide ! [joiner_pronoun] se cache de [hidingFrom]. [joiner_pronoun] veut s'enfuir et vous réjoindre à [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nSe cachant désespérément, [joiner_nameDef] dit ne pas pouvoir vous en dire plus sur [joiner_objective]-même.</li>
+    <li>questDescription->[introduction] du nom de [joiner_nameFull] vous appelle à l'aide ! [joiner_pronoun] se cache de [hidingFrom]. [joiner_pronoun] veut s'enfuir et vous rejoindre à [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nSe cachant désespérément, [joiner_nameDef] dit ne pas pouvoir vous en dire plus sur [joiner_objective]-même.</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->une meute de loups affamés</li>
     <li>condDesc(gameCondition==ToxicFallout)->Cependant, [joiner_nameDef] peut tuer les loups seulement en mettant le feu à un énorme dépôt chimique toxique voisin. [gameConditionDuration_duration] de retombée toxique s'ensuivra.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->un gang de cannibales</li>
@@ -39,6 +39,9 @@
     <li>hidingFrom(gameCondition==PsychicDrone)->une intelligence artificielle rancunière qu'[joiner_pronoun] a récemment offensée</li>
     <!-- NOTE: machine mind - conscience machine     -->
     <li>condDesc(gameCondition==PsychicDrone)->Si [joiner_pronoun] vous rejoint, la conscience machine arrosera [map_definite] pendant [gameConditionDuration_duration] avec les ondes d'un drone psychique de niveau [psychicDroneLevel], dégradant l'humeur de tous les colons [psychicDroneGender]s.</li>
+    <!--NOTE: "colons [psychicDroneGender]s / [psychicSuppressorGender]s"
+          au lieu de "colons mâles", de devraient être "colons masculins"
+    -->
     <li>hidingFrom(gameCondition==PsychicSuppression)->une intelligence artificielle hostile qu'[joiner_pronoun] a récemment réveillée</li>
     <li>condDesc(gameCondition==PsychicSuppression)->Si [joiner_pronoun] vous rejoint, l'IA frappera [map_definite] pendant [gameConditionDuration_duration] avec des ondes de suppression psychique, réduisant la conscience de tous les colons [psychicSuppressorGender]s.</li>
     <li>introduction(childCount==1,priority=1)->Un enfant de [joiner_age] ans</li>

@@ -9,8 +9,8 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Vous avez détecté un drone spacial en orbite qui pourrait contenir des informations sur [relic_name]. Vous avez le code qui va le forcer à atterrir à [map_definite].\n\nPour obtenir ces informations, piratez l'ordinateur du drone. Le piratage prendra du temps, mais ceux qui sont forts en compétences intellectuelles pourront accélérer le processus. [raidsDescription]\n\nAprès l'atterrissage, le drone spatial s'autodétruira dans [destroyDelayTicks_duration].</li>
-    <li>raidsDescription(allowViolence==true)->\n\nLes [enemyFaction_pawnsPlural] de [enemyFaction_name] vont utiliser la [droneDetectionMethod]. Tant qu'il sera présent, ils enverront des attaquants toutes les [raidIntervalAvg_duration] environ pour le détruire et voler les richesses qu'ils pensent qu'il contient. Vous aurez un peu de temps pour préparer des défenses autour de lui avant leur arrivée.</li>
+    <li>questDescription->Vous avez détecté un drone spatial en orbite qui pourrait contenir des informations sur [relic_name]. Vous avez le code qui va le forcer à atterrir à [map_definite].\n\nPour obtenir ces informations, piratez l'ordinateur du drone. Le piratage prendra du temps, mais ceux qui sont forts en compétences intellectuelles pourront accélérer le processus. [raidsDescription]\n\nAprès l'atterrissage, le drone spatial s'autodétruira dans [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\nLes [enemyFaction_pawnsPlural] de [enemyFaction_name] vont [droneDetectionMethod]. Tant qu'il sera présent, ils enverront des attaquants toutes les [raidIntervalAvg_duration] environ pour le détruire et voler les richesses qu'ils pensent qu'il contient. Vous aurez un peu de temps pour préparer des défenses autour de lui avant leur arrivée.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->repérer le drone pendant sa descente</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->détecter la signature énergétique du drone</li>
@@ -39,9 +39,9 @@
     <li>drone->vaisseau spatial</li>
     <li>drone->drone spatial</li>
     <li>drone->cryptodrone</li>
-    <li>data->de données</li>
-    <li>data->de secrets</li>
-    <li>data->d'informations</li>
+    <li>data->des données</li>
+    <li>data->des secrets</li>
+    <li>data->des informations</li>
   </Hack_Spacedrone.questNameRules.rulesStrings>
   
 </LanguageData>
