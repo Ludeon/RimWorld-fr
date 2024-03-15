@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -40,8 +40,15 @@
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Betrayal</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>
     <li>areIs(lodgerCount==1)->is</li>
@@ -341,7 +348,7 @@
     <li>betrayalOfferRewardLetterLabel->Récompense de trahison : [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] vous avait promis une récompense si vous veniez à tuer [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] a appris de source sûre que cela avait bien été fait et vous envoie ce qui suit via une nacelle de transport (valeur totale [betrayalRewardMarketValue_money]) :\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Récompense de trahison annulée</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] a appris que tous les membres survivants de [faction_name] ont rejoint votre faction ! [factionOpponent_nameDef] souhaitait la mort de tous les membres de [faction_name] et a donc annulé son offre.</li> 
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] a appris que tous les membres survivants de [faction_name] ont rejoint votre faction ! [factionOpponent_nameDef] souhaitait la mort de tous les membres de [faction_name] et a donc annulé son offre.</li>
     <li>betrayalOfferFailedLetterLabel->Récompense de trahison annulée</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] a appris que l'un des membres de [faction_name] n'est plus à [map_definite]. [factionOpponent_nameDef] voulait voir tous les membres de [faction_name] morts et a donc annulé son offre.</li>
     <li>otherLodgers(lodgerCount==1)-></li>

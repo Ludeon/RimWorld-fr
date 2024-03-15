@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>Désactivé par la quête : {0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Gérer les tenues</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>Non modifiable</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>verrouillé</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Habillement forcé</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>Modifier…</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>TODO</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gérer les règles sur la drogue</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gérer les règles d'alimentation</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>TODO</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>TODO</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>En cours</InProgress>
   <!-- EN: Locked -->
   <Locked>Bloqué</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Prérequis de recherche</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>TODO</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Schémas techniques requis {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>Schémas techniques insuffisants ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prérequis non satisfaits</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>TODO</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>TODO</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>TODO</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>TODO</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Matériels de recherche manquants</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>Le niveau technique de votre faction est {0}, mais le niveau technique de ce projet est {1}. La vitesse de recherche sera multipliée par {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Déverrouillé avec</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>TODO</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>TODO</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,27 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crée un besoin</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>TODO</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Cliquer pour modifier</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>TODO</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>TODO</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>TODO</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>TODO</BookJoyFactor>
+  
+  <!-- UNUSED -->
+  <ManageOutfits>Gérer les tenues</ManageOutfits>
+  <ManageFoodRestrictions>Gérer les règles d'alimentation</ManageFoodRestrictions>
+  <ResearchPrerequisites>Prérequis de recherche</ResearchPrerequisites>
 
 </LanguageData>

@@ -77,6 +77,8 @@
   <Groups>Groupes</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Chargement des ressources de gestation des mechs</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>TODO</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Initier le cycle de gestation des mechs</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>Terminer le repos de la mort en toute sécurité nécessite {MINDURATION}, mais {PAWN_nameDef} ne s'est reposé que pendant {CURDURATION}.\n\nRéveiller {PAWN_nameDef} maintenant interromprait son repos de la mort, déséquilibrant son métabolisme et {PAWN_gender ? le : la : le/la} rendant malade pendant les jours à venir.\n\nVoulez-vous vraiment {PAWN_gender ? le : la : le/la} réveiller ?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>prends le repos de la mort</Deathresting>
-  <!-- EN: complete -->
-  <Complete>compléter</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>peut se réveiller en toute sécurité maintenant.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -429,8 +429,6 @@
   <LethalInjuries>Blessures mortelles</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>repos de la mort</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>structures</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacité</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Les enfants veulent apprendre différentes activités à des moments différents.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>Désir d'apprentissage actuel de {0_nameDef} :</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>La progression du développement est la moyenne des besoins d'apprentissage d'un enfant depuis son dernier anniversaire.\n\nLes enfants dont la progression du développement est plus élevée auront plus d'options pendant leurs poussées de croissance et gagneront plus de passions pour les compétences.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>porte {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>porté {0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Nécessite {PAWN_nameDef} pour terminer</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -634,8 +632,6 @@
   <Baby>bébé</Baby>
   <!-- EN: babies -->
   <Babies>bébés</Babies>
-  <!-- EN: person -->
-  <Person>personne</Person>
   <!-- EN: feral child -->
   <FeralChild>enfant sauvage</FeralChild>
   <!-- EN: Wearable by -->
@@ -772,5 +768,8 @@
   <MyChildIsHappy>mon enfant est heureux</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>mon enfant est triste</MyChildIsSad> 
+
+  <!-- UNUSED -->
+  <LearningDesireTooltip_CurrentDesire>Désir d'apprentissage actuel de {0_nameDef} :</LearningDesireTooltip_CurrentDesire>
 
 </LanguageData>

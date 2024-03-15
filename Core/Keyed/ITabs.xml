@@ -48,8 +48,14 @@
   <TabFormingCaravan>Caravane</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Contenu</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>TODO</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contenu</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>TODO</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>TODO</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Coupe automatique</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Coller</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>ne peut ajouter davantage</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Se termine dans</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,9 +112,9 @@
   <NotWhileAsleep>Pas pendant le sommeil</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>S'évade maintenant</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
+  <!-- EN: Door count -->
   <FactorForDoorCount>Multiplicateur pour le nombre de portes</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
+  <!-- EN: Movement -->
   <FactorForMovement>Multiplicateur de mouvement</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Prix de l'esclave</SlavePrice>
@@ -138,6 +146,8 @@
   <NonRecruitableTip>Ce prisonnier est si fidèle à son foyer qu'il refuse totalement d'être recruté.</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>Leur loyauté s'étend à leurs croyances et ils ne peuvent pas être convertis.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>Douleur</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Prévient l'infection</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Auto-soin</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>TODO</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} se soigneront eux-mêmes automatiquement à {1} de l'efficacité normale.</SelfTendTip>
+  <AllowSelfTendTip>TODO</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>mort dans {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>TODO</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>TODO</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>TODO</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Aucune</None>
@@ -422,5 +438,21 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Coupe automatique des plantes bloquante</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
+
+  <!-- UNUSED -->
+  <SelfTend>Auto-soin</SelfTend>
+  <SelfTendTip>{0} se soigneront eux-mêmes automatiquement à {1} de l'efficacité normale.</SelfTendTip>
 
 </LanguageData>

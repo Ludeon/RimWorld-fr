@@ -19,20 +19,32 @@
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>La quantité de choses que cette créature peut transporter avec ses mains, sa bouche, ou autre.\n\nCeci est distinct de la capacité à transporter des marchandises sur de longues distances.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
+  <!-- EN: max comfortable temperature -->
   <ComfyTemperatureMax.label>Température maximale de confort</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Au-dessus de cette température, cette créature sera mécontente. Si la température augmente trop, la créature souffrira d'insolation et finira par mourir.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
+  <!-- EN: min comfortable temperature -->
   <ComfyTemperatureMin.label>Température minimale de confort</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>En dessous de cette température, cette créature sera mécontente. Si la température descend trop, la créature souffrira d'engelures, d'hypothermie et finira par mourir.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>TODO</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>TODO</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>TODO</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>vitesse d'ingestion</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Multiplicateur de la vitesse à laquelle un repas est mangé.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>Résistance IEM</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>Ce mécanoïde est doté de filaments spéciaux de protection et de dissipation des chocs qui réduisent l'effet des dommages IEM de ce pourcentage. Cela réduit la durée des étourdissements provoqués par IEM.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>taux de saleté</FilthRate.label>
@@ -58,6 +70,11 @@
   <InjuryHealingFactor.label>facteur de guérison des blessures</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>Le multiplicateur appliqué au taux de guérison des blessures d'une personne.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>TODO</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>TODO</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantité de cuir</LeatherAmount.label>
@@ -128,9 +145,9 @@
   <PsychicSensitivity.description>Les personnes les plus sensibles souffrent davantage des effets psychiques négatifs et profitent davantage des effets positifs. Cette sensibilité augmente aussi la limite d'échauffement neuronal.</PsychicSensitivity.description>
   
   <!-- EN: sleep fall rate -->
-  <RestFallRateFactor.label>taux de sommeil</RestFallRateFactor.label>
+  <RestFallRateFactor.label>vitesse de sommeil</RestFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>Un multiplicateur de la vitesse à laquelle le besoin de sommeil d'une personne diminue.</RestFallRateFactor.description>
+  <RestFallRateFactor.description>Un multiplicateur de la vitesse à laquelle le sommeil tombe sur une personne qui en a besoin.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>multiplicateur de taux de repos</RestRateMultiplier.label>
