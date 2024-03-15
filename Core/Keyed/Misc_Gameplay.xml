@@ -382,7 +382,7 @@
   <RangeTo>à</RangeTo>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>pas de lettre</NoDietCategoryLetter>
-  <!-- EN: Expires in -->
+  <!-- EN: expires in -->
   <ExpiresIn>Expire dans</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>La caravane de {1_labelShort}</CaravanLeaderCaravanName>
@@ -416,6 +416,12 @@
   <PreciousLumpLabel>morceau de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>aucun projet de recherche actif</NoActiveResearchProjectToFinish>
+  <!-- EN: Current project -->
+  <CurrentProject>TODO</CurrentProject>
+  <!-- EN: Research progress -->
+  <ResearchProgress>TODO</ResearchProgress>
+  <!-- EN: Already has {0} -->
+  <AlreadyHasHediff>TODO</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>tourelle</Turret>
   <!-- EN: turrets -->
@@ -456,8 +462,6 @@
   <GeneratesResourcesEvery>Génère {0} tous les {1}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>Rayon de destruction</FoliageKillRadius>
-  <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>Taux d'expansion du rayon</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>Afficher : {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
@@ -560,11 +564,43 @@
   <Size>taille</Size>
   <!-- EN: cost -->
   <Cost>coût</Cost>
+  <!-- EN: Stunned by EMP -->
+  <StunnedByEMP>TODO</StunnedByEMP>
   <!-- EN: Title -->
-  <BackstoryTitle>Titre</BackstoryTitle><!-- text_todo -->
+  <BackstoryTitle>Titre</BackstoryTitle>
   <!-- EN: person -->
   <Person>personne</Person>
-
+  <!-- EN: activated. -->
+  <Activated>TODO</Activated> 
+  <!-- EN: Contains -->
+  <Contains>Contient</Contains>
+  <!-- EN: Hostiles -->
+  <Hostiles>TODO</Hostiles>
+  <!-- EN: Investigate -->
+  <Investigate>TODO</Investigate> 
+  <!-- EN: Activate -->
+  <Activate>TODO</Activate> 
+  <!-- EN: Activation -->
+  <Activation>TODO</Activation> 
+  <!-- EN: complete -->
+  <Complete>compléter</Complete>
+  <!-- EN: Must be imprisoned. -->
+  <RequiresImprisonment>TODO</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
+  <HaulFromSource>TODO</HaulFromSource>
+  <!-- EN: Use -->
+  <UseGizmo>TODO</UseGizmo>
+  <!-- EN: Order someone to use the {0}. -->
+  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <!-- EN: Choose who should use this -->
+  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <!-- EN: Select target -->
+  <TargetGizmoMouse>TODO</TargetGizmoMouse>
+  <!-- EN: Cannot use this -->
+  <CannotUseGizmoMouse>TODO</CannotUseGizmoMouse>
+  <!-- EN: Buildings -->
+  <Buildings>structures</Buildings>
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>Vitesse de détection</UserScanAbility>
@@ -582,8 +618,6 @@
   <ContainsWort>Contient {0} / {1} moût.</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>Contient {0} / {1} bière.</ContainsBeer>
-  <!-- EN: Contains -->
-  <Contains>Contient</Contains>
   <!-- EN: Fermented -->
   <Fermented>Fermenté</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -650,6 +684,12 @@
   <NewArea>Nouvelle zone</NewArea>
   <!-- EN: Invert -->
   <InvertArea>Inverser</InvertArea>
+  <!-- EN: Expand -->
+  <ExpandArea>TODO</ExpandArea>
+  <!-- EN: Shrink -->
+  <ShrinkArea>TODO</ShrinkArea>
+  <!-- EN: Maximum {0} areas allowed. -->
+  <MaxAreasReached>TODO</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -690,6 +730,9 @@
   <PenExampleAnimals>Exemples d'animaux</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>Aucun accès extérieur - Les animaux ne peuvent pas entrer ou sortir.</NoExteriorAccess>
+  
+  <!-- EN: Must be connected to walls on both sides to function. -->
+  <DoorMustBeEnclosedByWalls>TODO</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -748,6 +791,8 @@
   <IsNotDrafted>{1_labelShort} n'est pas mobilisé{1_gender ? : e : (e)}.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef} ne peut pas utiliser d'armes à distance à cause de : {APPAREL_label}.</ApparelPreventsShooting>
+  <!-- EN: Cannot use in {0} -->
+  <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -784,7 +829,7 @@
   <OrderActivation>Ordonner l'activation</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
   <OrderActivationDesc>Ordonnez à un colon d'activer {THING_definite}.</OrderActivationDesc>
-  <!-- EN: Must be activated by a colonist. -->
+  <!-- EN: Send a colonist to activate this. -->
   <MustBeActivatedByColonist>Doit être activé par un colon.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>Pas de feu à proximité</NoNearbyFire>
@@ -842,6 +887,10 @@
   <CarriedBy>porté par {0_labelShort}.</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>à l'intérieur de {0_labelShort}.</InContainer> 
+  <!-- EN: downed, cannot crawl. -->
+  <DownedCannotCrawl>TODO</DownedCannotCrawl> 
+  <!-- EN: downed, unconscious. -->
+  <DownedUnconscious>TODO</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -982,7 +1031,7 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>N'est relié à aucune source d'alimentation.</PowerNotConnected>
-  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
   <PowerConnectedRateStored>Excès de production / Stock d'énergie : {0} W / {1} Wj</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Énergie requise</PowerNeeded>
@@ -1022,12 +1071,12 @@
   <RotStateRotting>En train de pourrir</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>Desséché</RotStateDessicated>
-  <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen>
-  <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated>
-  <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>Non réfrigéré (pourrira dans {0})</NotRefrigerated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>Congelé (ne pourrira pas)</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>Réfrigéré (pourrira dans {0})</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>Non réfrigéré (pourrira dans {0})</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>plus d'un siècle</OverADecade>
   <!-- EN: less than a day -->
@@ -1110,12 +1159,22 @@
   <Stockpile>Zone de stockage</Stockpile>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Décharge</DumpingStockpile>
+  <!-- EN: Corpse stockpile zone -->
+  <CorpseStockpile>TODO</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>Priorité</Priority>
   <!-- EN: Clear all -->
   <ClearAll>Tout effacer</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>Tout autoriser</AllowAll>
+  
+  <!-- Storage Groups -->
+  <!-- EN: Group -->
+  <StorageGroup>TODO</StorageGroup>
+  <!-- EN: Name -->
+  <StorageLabel>TODO</StorageLabel>
+  <!-- EN: Storage group -->
+  <StorageGroupLabel>TODO</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1128,6 +1187,14 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>Inexploré</Undiscovered>
+  
+  <!-- Animal management -->
+  <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
+  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1167,6 +1234,10 @@
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
   <ShowTemperatureOverlayToggleButton>Afficher la superposition de chaleur. Cela montre la température de l'air dans chaque pièce et à l'extérieur.\n\nLes colons seront mécontents si la température est trop élevée ou trop basse. L'exposition à des températures extrêmes peut entraîner de l'hypothermie, des engelures, des coups de chaleur, des brûlures et la mort.</ShowTemperatureOverlayToggleButton>
 
+  <!-- Hotkeys -->
+  <!-- EN: Hotkey -->
+  <HotKeyTip>TODO</HotKeyTip>
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>Feu sur {1_label}</FireOn>
@@ -1202,6 +1273,12 @@
   <MustPlaceUnroofed>Ne peut être placé sous un toit.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>Doit être placé sous un toit solide.</MustPlaceUnderThickRoof>
+  <!-- EN: Must be placed against a wall. -->
+  <MustPlaceOnWall>TODO</MustPlaceOnWall>
+  <!-- EN: Something is already placed on this wall. -->
+  <SomethingPlacedOnThisWall>TODO</SomethingPlacedOnThisWall>
+  <!-- EN: This building can not support attachments. -->
+  <CannotSupportAttachment>TODO</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Doit être placé avec la tête attachée à la rampe d'assemblage du vaisseau.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1254,8 +1331,8 @@
   <ShipReportHibernating>Dispositif d'hypersommeil</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Dispositif non prêt</ShipReportNotReady>
-   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Pas de colonie dans laquelle retourner. Fondez d'abord une colonie.</ShipNoSettlementToReturnTo>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>Pas de colonie dans laquelle retourner. Fondez d'abord une colonie.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) est prêt à commencer la séquence de sortie d'hibernation du réacteur.\n\nIl vous avertit que le processus prendra environ 15 jours et que la signature d'énergie sera détectable de loin. Ce type de signature énergétique est révélateur d'un vaisseau interstellaire et attirera des bandes de pillards désespérés et des nuées de mécanoïdes meurtriers.\n\nVous serez assailli avec une intensité inouïe. Assurez-vous que vos défenses sont bien préparées.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1322,6 +1399,8 @@
   <Mood_Happy>heureux</Mood_Happy>
 
   <!-- Game over -->
+  <!-- EN: Game Over -->
+  <GameOver>TODO</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Tout le monde est mort ou parti. Cette histoire touche à sa fin.\n\nPeut-être quelqu'un trouvera-t-il un intérêt à ces ruines et s'en servira à son tour.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1336,10 +1415,20 @@
   <GameOverColonistsLeft>Ces colons ont été abandonnés :\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>En mémoire de :\n</GameOverInMemoryOf>
-  <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
+  <!-- EN: Keep watching -->
+  <GameOverKeepWatching>TODO</GameOverKeepWatching>
+  <!-- EN: Keep watching for now -->
+  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <!-- EN: Create new wanderers -->
+  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
+  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menu principal</GameOverMainMenu>
+  <!-- EN: No colony -->
+  <NoColony>TODO</NoColony>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1352,6 +1441,10 @@
   <FacilityPotentiallyLinkedTo>Lié à</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Non lié à un bâtiment</FacilityNoPotentialLinks>
+  <!-- EN: Max connected per building -->
+  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <!-- EN: Front of building is blocked. -->
+  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1540,6 +1633,10 @@
   <Reward_CampLoot>vous pouvez tout piller du camp</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Butin de camp</Reward_CampLoot_Label>
+  <!-- EN: It is unclear what will happen if you accept this quest -->
+  <Reward_Unknown>TODO</Reward_Unknown> 
+  <!-- EN: Unknown -->
+  <Reward_Unknown_Label>TODO</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>les visiteurs travailleront et se battront pour vous</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1603,9 +1700,16 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causé par : {0}</CausedByHediff>
   
+  <!-- EN: {DAMAGE_label} weakness -->
+  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <!-- EN: {DAMAGE_label} resistance -->
+  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <!-- EN: {DAMAGE_label} damage that this creature recieves is multiplied by this amount. -->
+  <DamageFactor>TODO</DamageFactor>
+  
   <!-- Healing -->
-  <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>La condition ( {1} ) de {0_nameDef} a été guérie.</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was healed. -->
+  <HealingHealHediff>TODO</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
   <HealingRestoreBodyPart>Le membre ( {1} ) de {0_nameDef} a été restauré.</HealingRestoreBodyPart>
 
@@ -1614,7 +1718,13 @@
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Choisir le site d'atterrissage</ChooseLandingSite>
-  
+
+  <!-- LordJobs -->
+  <!-- EN: Outcome chances at {0} quality -->
+  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <!-- EN: Expected duration -->
+  <ExpectedLordJobDuration>TODO</ExpectedLordJobDuration>
+
   <!-- Rituals -->
   <!-- EN: ritual -->
   <Ritual>rituel</Ritual>
@@ -1673,8 +1783,6 @@
   <RitualOutcomeQualityAbstract>La qualité de {0} dépend de</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>{0} qualité total était de {1}, déterminé par ces facteurs</RitualOutcomeQualitySpecific>
-  <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>Chances de réussite avec une qualité de {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Effectué récemment</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
@@ -1691,9 +1799,7 @@
   <RitualOutcomeExtraDesc_Mood>Toutes les personnes qui participent à ce rituel gagnent {0} d'humeur pendant {1} jours.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>Ce rituel n'a pas de compensations de qualité, donc le meilleur résultat est toujours attendu</RitualOutcomeNoQuality>
-  
-  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>Choisissez qui doit participer à {RITUAL_labelDef}.</ChooseParticipants>
+
   <!-- EN: Begin -->
   <Begin>Commencer</Begin>
   <!-- EN: Begin {0} -->
@@ -1710,12 +1816,9 @@
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>Siège cérémoniel de {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>Qualité attendue</ExpectedRitualQuality>
+  <ExpectedLordJobQuality>TODO</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>Qualité de départ</StartingQuality>
-  <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>Durée attendue</ExpectedRitualDuration>
-  
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>{1} de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
@@ -1764,16 +1867,22 @@
   <ToxGas>gaz toxique</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>gaz pestilentiels</RotStink>
+  <!-- EN: deadlife dust -->
+  <DeadlifeDust>TODO</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>doit être mobilisé.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>pouvoir en rechargement. Il sera disponible dans {0}.</AbilityOnCooldown>
+  <!-- EN: ability out of charges. -->
+  <AbilityNoCharges>TODO</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>capacité déjà dans la liste.</AbilityAlreadyQueued>
-  <!-- EN: Ability ready: {0} -->
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
   <AbilityReadyLabel>Capacité prête : {0}</AbilityReadyLabel>
+  <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
+  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} est prê{0_gender ? : t : te : t(e) } à utiliser {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1781,8 +1890,10 @@
   <!-- EN: Charges -->
   <Charges>Charges</Charges>
 
-  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <!-- EN: {0_nameDef} is in a mental state. -->
   <PawnIsInMentalState>{0_nameDef} est dans un état mental agressif.</PawnIsInMentalState>
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Tâches désactivées</DisabledWorkLabel>
@@ -1820,5 +1931,91 @@
   <AbilitySpeechCooldown>Prochain discours dans</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>Initié à</AbilitySpeechTargetsLabel>
+  
+  <!-- Books -->
+
+  <!-- EN: Benefits -->
+  <Benefits>TODO</Benefits>
+  <!-- EN: Dangers -->
+  <Dangers>TODO</Dangers>
+  <!-- EN: already unlocked -->
+  <AlreadyUnlocked>TODO</AlreadyUnlocked>
+  <!-- EN: when discovered -->
+  <WhenDiscovered>TODO</WhenDiscovered>
+  
+  <!-- EN: Was driven into a mental break after reading {0}. -->
+  <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
+  <!-- EN: {0} done (complete in {1} hours) -->
+  <BookReadProgress>TODO</BookReadProgress>
+  
+  <!-- EN: learning speed -->
+  <BookLearningModifier>TODO</BookLearningModifier>
+  <!-- EN: Mental break chance -->
+  <BookMentalBreak>TODO</BookMentalBreak>
+  
+  <!-- EN: {BOOK_labelShort} is not readable -->
+  <BookNotReadable>TODO</BookNotReadable>
+  <!-- EN: {PAWN_nameDef} can't read -->
+  <BookCantRead>TODO</BookCantRead>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
+  <BookCantBeStage>TODO</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} is blind -->
+  <BookBlind>TODO</BookBlind>
+  
+  <!-- EN: max level {0} -->
+  <BookMaxLevel>TODO</BookMaxLevel>
+  
+  <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
+  <ReadingReportHeader>TODO</ReadingReportHeader>
+  
+  <!-- EN: Assign reading -->
+  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <!-- EN: Assign to {0} -->
+  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <!-- EN: Assign -->
+  <ReadingAssign>TODO</ReadingAssign>
+
+  <!-- EN: The books currently on this bookshelf. -->
+  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  
+  <!-- EN: Books stored -->
+  <BookshelfStoredInspect>TODO</BookshelfStoredInspect>
+  <!-- EN: Reading bonus in room -->
+  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+
+  <!-- EN: Remove this book from the bookshelf. -->
+  <EjectBookTooltip>TODO</EjectBookTooltip>
+  
+  <!-- Pushing -->
+  <!-- EN: Push to... -->
+  <CommandPushTo>TODO</CommandPushTo>
+  <!-- EN: requires {0} -->
+  <RequiredCapacity>TODO</RequiredCapacity>
+  
+  <!-- EN: Unable to enter {0}, destination is blocked -->
+  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+
+  <!-- EN: This category of research has not been discovered. -->
+  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+
+  <!-- EN: Emergence -->
+  <Emergence>TODO</Emergence>
+  
+  <!-- EN: remove {0} -->
+  <RemovePart>TODO</RemovePart>
+
+  <!-- EN: {GERUND} {TARGETLABEL} at -->
+  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <!-- EN: can be studied in {0} -->
+  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  
+  <!-- UNUSED -->
+  <RadiusExpandRate>Taux d'expansion du rayon</RadiusExpandRate>
+  <GameOverKeepPlaying>Continuer à jouer</GameOverKeepPlaying>
+  <HealingCureHediff>La condition ( {1} ) de {0_nameDef} a été guérie.</HealingCureHediff>
+  <RitualOutcomeChances>Chances de réussite avec une qualité de {0}</RitualOutcomeChances>
+  <ChooseParticipants>Choisissez qui doit participer à {RITUAL_labelDef}.</ChooseParticipants>
+  <ExpectedRitualQuality>Qualité attendue</ExpectedRitualQuality>
+  <ExpectedRitualDuration>Durée attendue</ExpectedRitualDuration>
 
 </LanguageData>

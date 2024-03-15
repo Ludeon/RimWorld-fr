@@ -12,10 +12,11 @@
   <MessageMechChargerDestroyedMechGoesBerserk>Un chargeur de mécanoïde a été détruit pendant que {PAWN_nameDef} chargeait ! La coupure de courant a brouillé son cerveau et il est devenu fou.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <!-- NOTE: tester ABILITY_definite -->
   <MessageCantUseOnResistingPerson>Ne peut pas utiliser {ABILITY_label} sur quiconque résisterait activement.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} possède déjà le xénotype {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Les xénogermes ne peuvent être implantés que chez les colons, les prisonniers et les esclaves.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -62,6 +63,8 @@
   <MessageCocoonDisturbed>Un cocon a été dérangé et s'ouvre !</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>Les cocons ont été dérangés et s'ouvrent !</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>TODO</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} doit être inconscient{PAWN_gender ? : e : (e)} avant de pouvoir {PAWN_gender ? le : la : le/la} forcer à réimplanter son xénogerme.</MessageTargetMustBeDownedToForceReimplant>
