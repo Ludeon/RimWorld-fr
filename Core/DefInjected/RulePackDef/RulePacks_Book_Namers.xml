@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -189,7 +189,237 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   -->
-  <Namer_Novel.rulePack.rulesStrings>TODO</Namer_Novel.rulePack.rulesStrings>
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[titleNaked] par [ANYPAWN_nameIndef]</li>
+    <li>title->[story] de le [Character]</li>
+    <li>title->[objectAnyAll] de le [Character]</li>
+    <li>title->[Character] [linkagePlaceMasculine] [placeMasculine]</li>
+    <li>title->[Character] [linkagePlaceFeminine] [placeFeminine]</li>
+    <li>title->[Character] [linkagePlacePlural] [placePlural]</li>
+    <li>title->[Character] [linkagePlaceApostrophe] [placeApostrophe]</li>
+    <li>title->[Character] [adjective]</li>
+    <li>title->[objectAnyMasculine] [adjective]</li>
+    <li>title->[objectAnyFeminine] [adjectiveFeminine]</li>
+
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[ConceptAny_Masculine] [adjective]</li>
+    <li>titleNaked->[ConceptAny_Feminine] [adjectiveFeminine]</li>
+    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlaceMasculine] [placeMasculine]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlaceFeminine] [placeFeminine]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlacePlural] [placePlural]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlaceApostrophe] [placeApostrophe]</li>
+    <li>titleNaked->[objectAnyAll] [linkageFeminine] [ConceptAny_Feminine]</li>
+    <li>titleNaked->[objectAnyAll] [linkageMasculine] [ConceptAny_Masculine]</li>
+
+    <li>objectAnyAll->[objectAnyMasculine]</li>
+    <li>objectAnyAll->[objectAnyFeminine]</li>
+    <li>objectAnyMasculine->Le [Game]</li>
+    <li>objectAnyFeminine->La [Game_Feminine]</li>
+    <li>objectAnyMasculine->Le [Weapon]</li>
+    <li>objectAnyFeminine->La [Weapon_Feminine]</li>
+
+    <li>linkageMasculine->de le</li>
+    <li>linkageMasculine->par le</li>
+    <li>linkageMasculine->pour le</li>
+    <li>linkageMasculine->sans le</li>
+    <li>linkageMasculine->avec le</li>
+    <li>linkageFeminine->de la</li>
+    <li>linkageFeminine->par la</li>
+    <li>linkageFeminine->pour la</li>
+    <li>linkageFeminine->sans la</li>
+    <li>linkageFeminine->avec la</li>
+
+    <li>linkagePlaceMasculine->dans le</li>
+    <li>linkagePlaceMasculine->au</li>
+    <li>linkagePlaceMasculine->sur le</li>
+    <li>linkagePlaceMasculine->près du</li>
+    <li>linkagePlaceFeminine->dans la</li>
+    <li>linkagePlaceFeminine->à la</li>
+    <li>linkagePlaceFeminine->sur la</li>
+    <li>linkagePlaceFeminine->près de la</li>
+    <li>linkagePlacePlural->dans les</li>
+    <li>linkagePlacePlural->aux</li>
+    <li>linkagePlacePlural->sur les</li>
+    <li>linkagePlacePlural->près des</li>
+    <li>linkagePlaceApostrophe->dans</li>
+    <li>linkagePlaceApostrophe->à</li>
+    <li>linkagePlaceApostrophe->sur</li>
+    <li>linkagePlaceApostrophe->près de</li>
+  
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjectiveFeminine->[AdjectiveAny_Feminine]</li>
+
+    <li>placeMasculine(p=25)->[TerrainFeature]</li>
+    <li>placeFeminine(p=25)->[TerrainFeature_Feminine]</li>
+    <li>placePlural->abysses</li>
+    <li>placePlural->abîmes</li>
+    <li>placeApostrophe->l'amphithéâtre</li>
+    <li>placeApostrophe->l'aquarium</li>
+    <li>placeApostrophe->l'aqueduc</li>
+    <li>placeApostrophe->l'arène</li>
+    <li>placeApostrophe->l'asile</li>
+    <li>placeFeminine->caserne</li>
+    <li>placeFeminine->base</li>
+    <li>placeMasculine->bunker</li>
+    <li>placeFeminine->cabane</li>
+    <li>placeMasculine->campement</li>
+    <li>placeMasculine->château</li>
+    <li>placeFeminine->cathédrale</li>
+    <li>placeFeminine->caverne</li>
+    <li>placeFeminine->citadelle</li>
+    <li>placeFeminine->ville</li>
+    <li>placeMasculine->colisée</li>
+    <li>placeFeminine->colonie</li>
+    <li>placePlural->profondeurs</li>
+    <li>placeMasculine->désert</li>
+    <li>placeApostrophe->l'ascenseur</li>
+    <li>placeApostrophe->l'usine</li>
+    <li>placeMasculine->festival</li>
+    <li>placeFeminine->forteresse</li>
+    <li>placeFeminine->clairière</li>
+    <li>placeMasculine->cimetière</li>
+    <li>placeFeminine->serre</li>
+    <li>placeMasculine->bosquet</li>
+    <li>placeMasculine->port</li>
+    <li>placeMasculine->cœur</li>
+    <li>placeFeminine->ruche</li>
+    <li>placeApostrophe->l'hôpital</li>
+    <li>placePlural->îles</li>
+    <li>placeFeminine->jungle</li>
+    <li>placeMasculine->camp de travail</li>
+    <li>placeMasculine->laboratoire</li>
+    <li>placeMasculine->labyrinthe</li>
+    <li>placeFeminine->rampe de lancement</li>
+    <li>placeFeminine->bibliothèque</li>
+    <li>placeMasculine->phare</li>
+    <li>placeMasculine->manoir</li>
+    <li>placeFeminine->demeure</li>
+    <li>placeFeminine->place de marché</li>
+    <li>placeMasculine->marché</li>
+    <li>placeFeminine->mine</li>
+    <li>placeMasculine->monastère</li>
+    <li>placeFeminine->montagne</li>
+    <li>placeMasculine->nexus</li>
+    <li>placeApostrophe->l'oasis</li>
+    <li>placeApostrophe->l'observatoire</li>
+    <li>placeMasculine->verger</li>
+    <li>placeApostrophe->l'avant-poste</li>
+    <li>placeMasculine->palais</li>
+    <li>placeMasculine->plateau</li>
+    <li>placeFeminine->prison</li>
+    <li>placeFeminine->raffinerie</li>
+    <li>placeFeminine->station</li>
+    <li>placeFeminine->faille</li>
+    <li>placePlural->ruines</li>
+    <li>placeMasculine->sanctuaire</li>
+    <li>placeApostrophe->l'école</li>
+    <li>placeMasculine->village</li>
+    <li>placeMasculine->vaisseau</li>
+    <li>placeApostrophe->l'âme</li>
+    <li>placeFeminine->station spatiale</li>
+    <li>placeMasculine->port spatial</li>
+    <li>placeFeminine->flèche</li>
+    <li>placeMasculine->marais</li>
+    <li>placeFeminine->taverne</li>
+    <li>placeMasculine->temple</li>
+    <li>placeFeminine->cité</li>
+    <li>placeFeminine->toundra</li>
+    <li>placeApostrophe->l'université</li>
+    <li>placeMasculine->hameau</li>
+    <li>placeMasculine->volcan</li>
+    <li>placeApostrophe->l'entrepôt</li>
+    <li>placePlural->steppes</li>
+    <li>placePlural->étendues sauvages</li>
+    <li>placeMasculine->zoo</li>
+
+    <li>story->Adventure</li>
+    <li>story->Adventures</li>
+    <li>story->Allégorie</li>
+    <li>story->Anecdote</li>
+    <li>story->Annales</li>
+    <li>story->Ballade</li>
+    <li>story->Biographie</li>
+    <li>story->Chapitres</li>
+    <li>story->Chronique</li>
+    <li>story->Chroniques</li>
+    <li>story->Chronologie</li>
+    <li>story->Comédie</li>
+    <li>story->Compendium</li>
+    <li>story->Recueil</li>
+    <li>story->Compilation</li>
+    <li>story->Dialogue</li>
+    <li>story->Journal</li>
+    <li>story->Discours</li>
+    <li>story->Drame</li>
+    <li>story->Rêve</li>
+    <li>story->Énigme</li>
+    <li>story->Épique</li>
+    <li>story->Épiphanie</li>
+    <li>story->Épître</li>
+    <li>story->Fable</li>
+    <li>story->Fables</li>
+    <li>story->Conte de fées</li>
+    <li>story->Fantaisie</li>
+    <li>story->Fantastique</li>
+    <li>story->Utopie</li>
+    <li>story->Fiction</li>
+    <li>story->Folklore</li>
+    <li>story->Histoire</li>
+    <li>story->Imagination</li>
+    <li>story->Imaginaires</li>
+    <li>story->Aperçu</li>
+    <li>story->Notes</li>
+    <li>story->Revue</li>
+    <li>story->Voyage</li>
+    <li>story->Héritage</li>
+    <li>story->Légende</li>
+    <li>story->Légendes</li>
+    <li>story->Littérature</li>
+    <li>story->Log</li>
+    <li>story->Registre</li>
+    <li>story->Mémoire</li>
+    <li>story->Mémoires</li>
+    <li>story->Souvenirs</li>
+    <li>story->Opinion</li>
+    <li>story->Comédie musicale</li>
+    <li>story->Réflexions</li>
+    <li>story->Mythe</li>
+    <li>story->Mythologie</li>
+    <li>story->Mythes</li>
+    <li>story->Narration</li>
+    <li>story->Récit</li>
+    <li>story->Roman</li>
+    <li>story->Observations</li>
+    <li>story->Ode</li>
+    <li>story->Pages</li>
+    <li>story->Papiers</li>
+    <li>story->Parabole</li>
+    <li>story->Prose</li>
+    <li>story->Réminiscences</li>
+    <li>story->Recomptage</li>
+    <li>story->Réflexion</li>
+    <li>story->Réflexions</li>
+    <li>story->Réminiscences</li>
+    <li>story->Révélation</li>
+    <li>story->Rhapsodie</li>
+    <li>story->Saga</li>
+    <li>story->Gribouillis</li>
+    <li>story->Script</li>
+    <li>story->Esquisse</li>
+    <li>story->Ébauche</li>
+    <li>story->Article</li>
+    <li>story->Conte</li>
+    <li>story->Contes</li>
+    <li>story->Testament</li>
+    <li>story->Témoignage</li>
+    <li>story->Tragédie</li>
+    <li>story->Hommage</li>
+    <li>story->Verset</li>
+    <li>story->Volume</li>
+    <li>story->Épistolaire</li>
+  </Namer_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
