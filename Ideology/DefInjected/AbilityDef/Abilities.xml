@@ -17,6 +17,8 @@
   <CombatCommand.label>commandement</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
   <CombatCommand.description>Crée une aura qui booste les compétences de combat pour les personnes aux alentours. Dure 24 heures et reste attaché au chef tout ce temps.</CombatCommand.description>
+  <!-- EN: <color=#E6E64CFF>Commandement</color>\n\nCrée une aura qui booste les compétences de combat pour les personnes aux alentours. Dure 24 heures et reste attaché au chef tout ce temps.\n\nTemps de réalisation: 0.5s\nDurée de l'effet: 1 jour\nRayon d'effet: 10 -->
+  <CombatCommand.cachedTooltip>TODO</CombatCommand.cachedTooltip>
   
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>rituel de conversion</ConversionRitual.label>
@@ -27,6 +29,8 @@
   <Convert.label>convertir</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>Tente de convertir à l'idéoligion du locuteur. Cela réduira la certitude de la cible en ses propres croyances. La réduction de la certitude dépend de la capacité de négociation du locuteur.</Convert.description>
+  <!-- EN: <color=#E6E64CFF>Convertir</color>\n\nTente de convertir à l'idéoligion du locuteur. Cela réduira la certitude de la cible en ses propres croyances. La réduction de la certitude dépend de la capacité de négociation du locuteur.\n\nTemps de réalisation: 3s -->
+  <Convert.cachedTooltip>TODO</Convert.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} n'a pas réussi à convertir {RECIPIENT_labelShort}. {RECIPIENT_labelShort} a été contrarié par la tentative, mais sa certitude est passée de {CERTAINTYBEFORE} à {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
@@ -36,6 +40,8 @@
   <Counsel.label>Réconforter</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
   <Counsel.description>Offre du réconfort à une personne pour atténuer l'effet d'un souvenir triste. Les chances de réussite dépendent des compétences sociales de l'orateur et de sa relation avec l'auditeur.</Counsel.description>
+  <!-- EN: <color=#E6E64CFF>Réconforter</color>\n\nOffre du réconfort à une personne pour atténuer l'effet d'un souvenir triste. Les chances de réussite dépendent des compétences sociales de l'orateur et de sa relation avec l'auditeur.\n\nTemps de réalisation: 3s -->
+  <Counsel.cachedTooltip>TODO</Counsel.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
   <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} a bâclé le réconfort de {RECIPIENT_labelShort}. {RECIPIENT_labelShort} s'est énervé.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
@@ -72,6 +78,8 @@
   <PreachHealth.label>prêche de soin</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
   <PreachHealth.description>Prêche la force morale à une personne malade ou blessée à travers les concepts de votre idéologie. Cela améliorera leur taux de cicatrisation et leur immunité.</PreachHealth.description>
+  <!-- EN: <color=#E6E64CFF>Prêche de soin</color>\n\nPrêche la force morale à une personne malade ou blessée à travers les concepts de votre idéologie. Cela améliorera leur taux de cicatrisation et leur immunité.\n\nTemps de réalisation: 12s\nDurée de l'effet: 1 jour -->
+  <PreachHealth.cachedTooltip>TODO</PreachHealth.cachedTooltip>
   
   <!-- EN: production command -->
   <ProductionCommand.label>encouragement à la production</ProductionCommand.label>
@@ -82,6 +90,8 @@
   <Reassure.label>réassurance</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Augmente la certitude de quelqu'un en ses propres croyances. La certitude retrouvée repose sur la capacité de négociation du locuteur.</Reassure.description>
+  <!-- EN: <color=#E6E64CFF>Réassurance</color>\n\nAugmente la certitude de quelqu'un en ses propres croyances. La certitude retrouvée repose sur la capacité de négociation du locuteur.\n\nTemps de réalisation: 3s -->
+  <Reassure.cachedTooltip>TODO</Reassure.cachedTooltip>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} a rassuré {RECIPIENT_labelShort}, augmentant sa certitude en {IDEO} de {BEFORECERTAINTY} à {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
@@ -99,5 +109,7 @@
   <WorkDrive.label>encouragement au travail</WorkDrive.label>
   <!-- EN: Call on a person to work harder for some time. -->
   <WorkDrive.description>Encourager une personne à travailler plus dur pour un certain temps.</WorkDrive.description>
+  <!-- EN: <color=#E6E64CFF>Encouragement au travail</color>\n\nEncourager une personne à travailler plus dur pour un certain temps.\n\nTemps de réalisation: 3s\nDurée de l'effet: 3 jours -->
+  <WorkDrive.cachedTooltip>TODO</WorkDrive.cachedTooltip>
   
 </LanguageData>
