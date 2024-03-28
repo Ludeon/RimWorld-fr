@@ -208,7 +208,295 @@
     <li>bookType->biography</li>
     <li>bookType->epic poem</li>
   -->
-  <Description_Novel.rulePack.rulesStrings>TODO</Description_Novel.rulePack.rulesStrings>
+  <Description_Novel.rulePack.rulesStrings>
+        <!-- Roots -->
+        <li>desc->Ce [bookTypeMasculine] [writingQualityAdjectiveMasculine] [follows] [PersonJobAll] [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->Cette [bookTypeFeminine] [writingQualityAdjectiveFeminine] [follows] [PersonJobAll] [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->Dans ce [bookTypeMasculine] [writingQualityAdjectiveMasculine], [author] [tellsAStoryOf] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->Dans cette [bookTypeFeminine] [writingQualityAdjectiveFeminine], [author] [tellsAStoryOf] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+
+        <li>PersonJobAll(ANYPAWN_gender!=Female)->un [PersonJob]</li>
+        <li>PersonJobAll(ANYPAWN_gender==Female)->une [PersonJob_Feminine]</li>
+
+        <!-- Root: Story struggle variant -->
+        <li>follows->suit</li>
+        <li>follows->couvre</li>
+        <li>follows->raconte l'histoire de</li>
+        <li>follows->est rédigé du point de vue de</li>
+
+        <li>protagHe->qui</li> <!-- Todo make this able to randomize, but it has to be consistent with all protagX symbols -->
+        <li>protagHis->son</li>
+        <li>protagHer->sa</li>
+        <li>protagHim->lui</li>
+
+        <li>storyStruggles->[struggles] contre [opponent]</li>
+        <li>storyStruggles->[seeks] [seekObjective]</li>
+
+        <li>struggles->lutte</li>
+        <li>struggles->se bat</li>
+        <li>struggles->se dresse</li>
+        <li>struggles->milite</li>
+
+        <li>opponent->l'injustice</li>
+        <li>opponent->la peur</li>
+        <li>opponent->un dangereux [Enemy]</li>
+        <li>opponent->une dangereuse [Enemy_Feminine]</li>
+        <li>opponent->son rival [PersonJob]</li>
+        <li>opponent->sa rivale [PersonJob_Feminine]</li>
+        <li>opponent->l'insignifiance de le [ConceptPositive]</li>
+        <li>opponent->l'insignifiance de la [ConceptPositive_Feminine]</li>
+        <li>opponent->[protagHis] [PersonFamily] maléfique</li>
+        <li>opponent->[protagHer] [PersonFamily_Feminine] maléfique</li>
+        <li>opponent->les normes sociales de sa communauté</li>
+
+        <li>seeks->cherche</li>
+        <li>seeks->cherche dans l'univers</li>
+        <li>seeks->essaye de trouver</li>
+        <li>seeks(ANYPAWN_gender!=Female)->cherche en lui-même et à travers le monde pour trouver</li>
+        <li>seeks(ANYPAWN_gender==Female)->cherche en elle-même et à travers le monde pour trouver</li>
+        <li>seeks->cherche désespérément</li>
+        <li>seeks->lutte pour trouver</li>
+        <li>seeks->parcourt le monde pour</li>
+        <li>seeks->pourchasse</li>
+        <li>seeks->poursuit délibérément</li>
+        <li>seeks->déploie tous ses efforts pour trouver</li>
+        <li>seeks->poursuit obstinément</li>
+        <li>seeks->ne recule devant rien pour chercher</li>
+        <li>seeks->se lance dans une quête pour</li>
+        <li>seeks->se déchire la chair pour</li>
+        <li>seeks->s'arrache les cheveux pour</li>
+        <li>seeks->aspire à trouver</li>
+        <li>seeks->cherche assidûment</li>
+        <li>seeks->erre à la recherche de</li>
+        <li>seeks->part en mission pour trouver</li>
+
+        <li>seekObjective->un mystérieux cube d'or</li>
+        <li>seekObjective->un démon à l'intérieur de sa propre tête</li>
+        <li>seekObjective->le [Vegetable] le plus savoureux de l'univers</li>
+        <li>seekObjective->la [Vegetable_Feminine] la plus savoureuse de l'univers</li>
+        <li>seekObjective->un nouveau [Weapon] étincelant</li>
+        <li>seekObjective->une nouvelle [Weapon_Feminine] étincelante</li>
+        <li>seekObjective->[protagHis] [Animal] de compagnie perdu</li>
+        <li>seekObjective->[protagHer] [Animal_Feminine] de compagnie perdue</li>
+        <li>seekObjective->des pièces pour reconstruire un [Mechanoid] détruit</li>
+        <li>seekObjective->un [TerrainFeature] aperçu dans un rêve</li>
+        <li>seekObjective->une [TerrainFeature_Feminine] aperçue dans un rêve</li>
+        <li>seekObjective->une ancienne flamme</li>
+        <li>seekObjective->une relation romantique</li>
+        <li>seekObjective->un nouveau rein pour remplacer le sien malade</li>
+        <li>seekObjective->de la nourriture dans un vaste terrain vague</li>
+        <li>seekObjective->la chaleur et la sécurité d'un foyer</li>
+        <li>seekObjective->l'amour dans un monde plein de haine</li>
+        <li>seekObjective->une recette de famille perdue depuis longtemps</li>
+        <li>seekObjective->un jouet d'enfance oublié</li>
+        <li>seekObjective->un héritage familial volé</li>
+        <li>seekObjective->le journal perdu de son mentor</li>
+        <li>seekObjective->un objet de collection rare de sa série préférée</li>
+        <li>seekObjective->l'endroit idéal pour un pique-nique</li>
+        <li>seekObjective->une pièce manquante dans une collection de grande valeur</li>
+        <li>seekObjective->des excuses pour une erreur commise dans le passé</li>
+        <li>seekObjective->une explication concernant une ancienne relation</li>
+        <li>seekObjective->une carte au trésor perdue depuis l'enfance</li>
+        <li>seekObjective->un souvenir significatif d'un être cher décédé</li>
+        <li>seekObjective->une méthode pour guérir une maladie</li>
+        <li>seekObjective->une plante rare pour son jardin personnel</li>
+        <li>seekObjective->une lettre écrite mais jamais envoyée</li>
+        <li>seekObjective->une réponse insaisissable à une question philosophique</li>
+        <li>seekObjective->un moment paisible à l'écart du chaos</li>
+        <li>seekObjective->un vieil ami dans une nouvelle ville</li>
+        <li>seekObjective->une vieille amie dans une nouvelle ville</li>
+        <li>seekObjective->l'excitation d'un passe-temps oublié</li>
+        <li>seekObjective->un moment de pur bonheur</li>
+        <li>seekObjective->une bonne bière bien fraiche</li><!--Ligne ajoutée -->
+        <li>seekObjective->son vieux [Apparel] porte-bonheur</li><!--Ligne ajoutée -->
+        <li>seekObjective->sa vieille [Apparel_Feminine] porte-bonheur</li><!--Ligne ajoutée -->
+
+        <!-- Root: "Author tells a story of" variant -->
+        <li>tellsAStoryOf->raconte une histoire sur</li>
+        <li>tellsAStoryOf->revient en détail sur</li>
+        <li>tellsAStoryOf->explore l'histoire de</li>
+        <li>tellsAStoryOf->raconte</li>
+        <li>tellsAStoryOf->relate l'histoire de</li>
+        <li>tellsAStoryOf->tisse un récit sur</li>
+        <li>tellsAStoryOf->dépeint une image de</li>
+        <li>tellsAStoryOf->plonge au cœur de</li>
+        <li>tellsAStoryOf->dévoile le récit de</li>
+        <li>tellsAStoryOf->révèle le parcours de</li>
+        <li>tellsAStoryOf->capture l'essence de</li>
+        <li>tellsAStoryOf->nous éclaire sur</li>
+        <li>tellsAStoryOf->tisse des souvenirs de</li>
+        <li>tellsAStoryOf->décrit l'expérience de</li>
+        <li>tellsAStoryOf->se lance dans le récit de</li>
+        <li>tellsAStoryOf->dépeint l'histoire de</li>
+        <li>tellsAStoryOf->aborde l'histoire de</li>
+        <li>tellsAStoryOf->présente l'histoire de</li>
+        <li>tellsAStoryOf->présente le récit de</li>
+        <li>tellsAStoryOf->illustre le voyage de</li>
+        <li>tellsAStoryOf->approfondit l'histoire de</li>
+        <li>tellsAStoryOf->éclaire le récit de</li>
+        <li>tellsAStoryOf->saisit l'épopée de</li>
+        <li>tellsAStoryOf->retrace la saga de</li>
+        <li>tellsAStoryOf->peint une image vivante de</li>
+        <li>tellsAStoryOf->dépeint un tableau vivant de</li>
+        <li>tellsAStoryOf->tisse les lignes de</li>
+        <li>tellsAStoryOf->explore la chronique de</li>
+
+        <li>author(ANYPAWN_gender!=Female)->l'auteur</li>
+        <li>author(ANYPAWN_gender==Female)->l'autrice</li>
+        <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
+        <li>author(p=2)->[authorTitle] anonyme</li>
+
+        <li>authorTitle(ANYPAWN_gender!=Female)->l'auteur</li>
+        <li>authorTitle(ANYPAWN_gender==Female)->l'autrice</li>
+        <li>authorTitle->le scribe</li>
+        <li>authorTitle(ANYPAWN_gender!=Female)->l'écrivain</li>
+        <li>authorTitle(ANYPAWN_gender==Female)->l'écrivaine</li>
+        <li>authorTitle(ANYPAWN_gender!=Female)->le poète</li>
+        <li>authorTitle(ANYPAWN_gender==Female)->la poétesse</li>
+        <li>authorTitle(ANYPAWN_gender!=Female)->le conteur</li>
+        <li>authorTitle(ANYPAWN_gender==Female)->la conteuse</li>
+        <li>authorTitle(ANYPAWN_gender!=Female)->le narrateur</li>
+        <li>authorTitle(ANYPAWN_gender==Female)->la narratrice</li>
+
+        <li>storySource->ses expériences personnelles</li>
+        <li>storySource->sa jeunesse</li>
+        <li>storySource->son enfance</li>
+        <li>storySource->sa nation</li>
+        <li>storySource->sa planète d'origine</li>
+        <li>storySource->sa planète natale</li>
+        <li>storySource->son grand-père</li>
+        <li>storySource->sa grand-mère</li>
+        <li>storySource->ses expériences pendant la guerre</li>
+        <li>storySource->ses peurs les plus grandes</li>
+        <li>storySource->ses angoisses les plus sombres</li>
+        <li>storySource->son rêve de voyager vers les étoiles</li>
+        <li>storySource->son amour des [Vegetable_Plural] frais</li>
+        <li>storySource->son amour des [Vegetable_FemPlural] fraîches</li>
+        <li>storySource(ANYPAWN_gender!=Female)->sa période en tant que [PersonJob]</li>
+        <li>storySource(ANYPAWN_gender==Female)->sa période en tant que [PersonJob_Feminine]</li>
+        <li>storySource(ANYPAWN_gender!=Female)->son métier de [PersonJob]</li>
+        <li>storySource(ANYPAWN_gender==Female)->son métier de [PersonJob_Feminine]</li>
+        <li>storySource->son [Weapon] préféré</li>
+        <li>storySource->sa [Weapon_Feminine] préférée</li>
+        <li>storySource->son expérience de combat contre les [Mechanoid_Plural]</li>
+        <li>storySource->sa jeunesse vécue dans un [Community]</li>
+        <li>storySource->sa jeunesse vécue dans une [Community_Feminine]</li>
+        <li>storySource->son adolescence au cœur d'un [Community]</li>
+        <li>storySource->son adolescence au cœur d'une [Community_Feminine]</li>
+        <li>storySource->un [BodyPart] [AdjectiveLarge] et d'un [NaturalObject] [Color]</li>
+        <li>storySource->une [BodyBodyPart_FemininePart] [AdjectiveLarge_Feminine] et d'une [NaturalObject_Feminine] [Color_Feminine]</li>
+        <li>storySource->ses souvenirs d'un ami disparu</li>
+        <li>storySource->ses souvenirs d'une amie disparue</li>
+        <li>storySource->sa passion pour la musique</li>
+        <li>storySource->sa curiosité pour les ruines anciennes</li>
+        <li>storySource->son attachement à un bien familial</li>
+        <li>storySource->sa fascination pour un personnage mystérieux</li>
+        <li>storySource->des efforts déployés pour préserver une langue en voie de disparition</li>
+        <li>storySource->son rêve d'inventer quelque chose de révolutionnaire</li>
+        <li>storySource->un lien avec une créature mythique</li>
+        <li>storySource->une affection pour un paysage en particulier</li>
+        <li>storySource(ANYPAWN_gender!=Female)->ses aspirations à devenir un [PersonJob] de renom</li>
+        <li>storySource(ANYPAWN_gender==Female)->ses aspirations à devenir une [PersonJob_Feminine] de renom</li>
+        <li>storySource->sa lutte contre l'anxiété sociale</li>
+        <li>storySource->un désir d'aventure au-delà des horizons</li>
+        <li>storySource->son lien avec un compagnon robotique</li>
+        <li>storySource->ses aventures de pirate dans le passé</li>
+        <li>storySource->ses liens étroits avec une société secrète</li>
+        <li>storySource->son temps passé en tant que nomade</li>
+        <li>storySource->sa fascination pour le voyage dans le temps</li>
+        <li>storySource->un lien avec un artefact légendaire</li>
+        <li>storySource->sa complicité avec un [AnimalBadass] [AdjectiveBadass]</li><!-- Ligne ajoutée -->
+        <li>storySource->sa complicité avec une [AnimalBadass_Feminine] [AdjectiveBadass_Feminine]</li><!-- Ligne ajoutée -->
+        <li>storySource->son implication avec un [GroupName_Masculine] de [Enemy_Plural]</li><!-- Ligne ajoutée -->
+        <li>storySource->son implication avec une [GroupName_Feminine] de [Enemy_Plural]</li><!-- Ligne ajoutée -->
+
+        <!-- Writing quality -->
+        <li>writingQualityAdjectiveMasculine(quality==6)->remarquablement bien écrit</li>
+        <li>writingQualityAdjectiveMasculine(quality==5)->intelligent et perspicace</li>
+        <li>writingQualityAdjectiveMasculine(quality==4)->réfléchi et éloquent</li>
+        <li>writingQualityAdjectiveMasculine(quality==3)->bien écrit</li>
+        <li>writingQualityAdjectiveMasculine(quality==2)->médiocre</li>
+        <li>writingQualityAdjectiveMasculine(quality==1)->mal écrit</li>
+        <li>writingQualityAdjectiveMasculine(quality==0)->peu cohérent</li>
+
+        <li>writingQualityAdjectiveFeminine(quality==6)->remarquablement bien écrite</li>
+        <li>writingQualityAdjectiveFeminine(quality==5)->intelligente et perspicace</li>
+        <li>writingQualityAdjectiveFeminine(quality==4)->réfléchie et éloquente</li>
+        <li>writingQualityAdjectiveFeminine(quality==3)->bien écrite</li>
+        <li>writingQualityAdjectiveFeminine(quality==2)->médiocre</li>
+        <li>writingQualityAdjectiveFeminine(quality==1)->mal écrite</li>
+        <li>writingQualityAdjectiveFeminine(quality==0)->peu cohérente</li>
+
+        <li>writingQualitySentence(quality[greater_than]4)->Il s'agit [excellentDesc] [excellentExtra]</li>
+        <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Il s'agit [decentDesc] [decentExtra]</li>
+        <li>writingQualitySentence(quality[less_than]2)->Il s'agit [awfulDesc] [awfulExtra]</li>
+
+        <li>excellentDesc->d'un récit palpitant et passionnant</li>
+        <li>excellentDesc->d'une exploration réfléchie de l'esprit humain</li>
+        <li>excellentDesc->d'une réflexion profonde sur la complexité du monde</li>
+        <li>excellentDesc->d'une écriture dense et riche en émotions</li>
+        <li>excellentDesc->d'une œuvre créative et originale</li>
+        <li>excellentDesc->d'une œuvre d'une grande originalité et remarquablement bien conçue</li>
+        <li>excellentDesc->d'un ouvrage rempli d'un humour réaliste</li>
+        <li>excellentExtra->. Chaque moment de l'histoire s'enchaîne naturellement avec le suivant</li>
+        <li>excellentExtra->. C'est un livre qui se lit d'une traite et qu'il est très difficile de s'en détacher</li>
+        <li>excellentExtra->. Il surprend le lecteur au moins trois fois</li>
+        <li>excellentExtra->. Les rebondissements de l'intrigue sont imprévisibles mais semblent aussi inévitables</li>
+        <li>excellentExtra->. Les personnages ressemblent à de vraies personnes</li>
+
+        <li>decentDesc->d'une histoire décente</li>
+        <li>decentDesc->d'un ouvrage intéressant et captivant</li>
+        <li>decentDesc->d'une idée intéressante</li>
+        <li>decentDesc->d'un sujet humoristique de temps à autre</li>
+        <li>decentDesc->d'un récit captivant à certains moments</li>
+        <li>decentDesc->d'une œuvre originale et décalée</li>
+        <li>decentDesc->d'un ouvrage s'adressant à un certain type de lecteur</li>
+        <li>decentExtra->, mais qui présente des lacunes flagrantes dans l'intrigue</li>
+        <li>decentExtra->, mais souvent difficile à suivre</li>
+        <li>decentExtra->, mais qui comporte de nombreuses erreurs de continuité</li>
+        <li>decentExtra->, mais qui manque profondément d'émotions</li>
+        <li>decentExtra->, mais les personnages sont banals et caricaturaux</li>
+        <li>decentExtra->, mais l'auteur utilise constamment des mots inappropriés dans le but de paraître intelligent</li>
+        <li>decentExtra->, mais le monde est sans originalité et terne</li>
+        <li>decentExtra->, mais l'écriture est excessivement fleurie</li>
+        <li>decentExtra->, mais de nombreux éléments de l'histoire sont inutiles et ne permettent pas de faire avancer l'intrigue</li>
+
+        <li>awfulDesc->d'un texte très mal écrit</li>
+        <li>awfulDesc->d'un texte mal écrit</li>
+        <li>awfulDesc->d'un texte difficile à lire</li>
+        <li>awfulDesc->d'un texte difficile à suivre</li>
+        <li>awfulDesc->d'un manque de vision artistique</li>
+        <li>awfulDesc->d'une œuvre remplie de trous dans l'intrigue, de personnages génériques</li>
+        <li>awfulDesc->d'une œuvre dominée par l'auteur qui s'auto-insère</li>
+        <li>awfulDesc->d'une œuvre bizarre, sans originalité</li>
+        <li>awfulDesc->d'un texte beaucoup, beaucoup trop long</li>
+        <li>awfulExtra-> et dont l'écriture est à la limite de l'incohérence</li>
+        <li>awfulExtra-> et extrêmement difficile à suivre</li>
+        <li>awfulExtra-> et qui ne parvient pas à construire une intrigue cohérente</li>
+        <li>awfulExtra-> et dépourvu de thème ou de sens</li>
+        <li>awfulExtra-> et qui ne présente aucune idée intéressante</li>
+        <li>awfulExtra-> et tous les personnages sont ennuyeux</li>
+        <li>awfulExtra-> et à aucun moment le protagoniste n'est identifiable</li>
+
+        <!-- Date -->
+        <li>maybe_date-></li>
+        <li>maybe_date->Le livre a été publié [date_form].</li>
+        <li>maybe_date->Le texte a été imprimé pour la première fois [date_form].</li>
+        <li>maybe_date->On ne sait pas exactement quand le livre a été écrit.</li>
+
+        <li>date_form->récemment</li>
+        <li>date_form->il y a plusieurs siècles</li>
+        <li>date_form->le [date]</li>
+        <li>date_form->en [date_season]</li>
+
+        <!-- Misc rules --> 
+        <li>bookTypeMasculine(p=4)->roman</li>
+        <li>bookTypeFeminine(p=2)->nouvelle</li>
+        <li>bookTypeFeminine->histoire</li>
+        <li>bookTypeMasculine->récit</li>
+        <li>bookTypeFeminine->biographie</li>
+        <li>bookTypeMasculine->poème épique</li>
+  </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
