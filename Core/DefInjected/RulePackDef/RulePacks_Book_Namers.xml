@@ -192,24 +192,62 @@
   <Namer_Novel.rulePack.rulesStrings>
     <li>title(p=3)->[titleNaked]</li>
     <li>title->[titleNaked] par [ANYPAWN_nameIndef]</li>
-    <li>title->[story] de le [Character]</li>
-    <li>title->[objectAnyAll] de le [Character]</li>
-    <li>title->[Character] [linkagePlaceMasculine] [placeMasculine]</li>
-    <li>title->[Character] [linkagePlaceFeminine] [placeFeminine]</li>
-    <li>title->[Character] [linkagePlacePlural] [placePlural]</li>
-    <li>title->[Character] [linkagePlaceApostrophe] [placeApostrophe]</li>
-    <li>title->[Character] [adjective]</li>
+      <li>storyLeUn->le</li>
+      <li>storyLeUn->un</li>
+      <li>storyLaUne->la</li>
+      <li>storyLaUne->une</li>
+      <li>titleLeUn->le</li>
+      <li>titleLeUn->un</li>
+      <li>titleLeUn-></li>
+      <li>titleLaUne->la</li>
+      <li>titleLaUne->une</li>
+      <li>titleLaUne-></li>
+    <li>title->[story] de [storyLeUn] [Character]</li>
+    <li>title->[story] de [storyLaUne] [Character_Feminine]</li>
+    <li>title->[objectAnyAll] de [storyLeUn] [Character]</li>
+    <li>title->[objectAnyAll] de [storyLaUne] [Character_Feminine]</li>
+    <li>title->[titleLeUn] [Character] [placeMasculine]</li>
+    <li>title->[titleLaUne] [Character_Feminine] [placeMasculine]</li>
+    <li>title->[titleLeUn] [Character] [placeFeminine]</li>
+    <li>title->[titleLaUne] [Character_Feminine] [placeFeminine]</li>
+    <li>title->[titleLeUn] [Character] [placeApostrophe]</li>
+    <li>title->[titleLaUne] [Character_Feminine] [placeApostrophe]</li>
+    <li>title->[titleLeUn] [Character] [placePlural]</li>
+    <li>title->[titleLaUne] [Character_Feminine] [placePlural]</li>
+    <li>title->[titleLeUn] [Character] [adjective]</li>
+    <li>title->[titleLaUne] [Character_Feminine] [adjectiveFeminine]</li>
     <li>title->[objectAnyMasculine] [adjective]</li>
     <li>title->[objectAnyFeminine] [adjectiveFeminine]</li>
 
+      <li>titleNakedLeUn->le</li>
+      <li>titleNakedLeUn->un</li>
+      <li>titleNakedLeUn-></li>
+      <li>titleNakedlaUne->la</li>
+      <li>titleNakedlaUne->une</li>
+      <li>titleNakedlaUne-></li>
     <li>titleNaked->[ConceptAny]</li>
-    <li>titleNaked->[ConceptAny_Masculine] [adjective]</li>
-    <li>titleNaked->[ConceptAny_Feminine] [adjectiveFeminine]</li>
-    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
-    <li>titleNaked->[ConceptAny] [linkagePlaceMasculine] [placeMasculine]</li>
-    <li>titleNaked->[ConceptAny] [linkagePlaceFeminine] [placeFeminine]</li>
-    <li>titleNaked->[ConceptAny] [linkagePlacePlural] [placePlural]</li>
-    <li>titleNaked->[ConceptAny] [linkagePlaceApostrophe] [placeApostrophe]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [adjective]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [adjectiveFeminine]</li>
+    <li>titleNaked->[ConceptAny] [linkageMasculine] [ConceptAny_Masculine]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [linkageMasculine] [ConceptAny_Masculine]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [linkageMasculine] [ConceptAny_Masculine]</li>
+    <li>titleNaked->[ConceptAny] [linkageFeminine] [ConceptAny_Feminine]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [linkageFeminine] [ConceptAny_Feminine]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [linkageFeminine] [ConceptAny_Feminine]</li>
+    <li>titleNaked->[ConceptAny] [placeMasculine]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [placeMasculine]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [placeMasculine]</li>
+    <li>titleNaked->[ConceptAny] [placeFeminine]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [placeFeminine]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [placeFeminine]</li>
+    <li>titleNaked->[ConceptAny] [placeApostrophe]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [placeApostrophe]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [placeApostrophe]</li>
+    <li>titleNaked->[ConceptAny] [placePlural]</li>
+    <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine] [placePlural]</li>
+    <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [placePlural]</li>
     <li>titleNaked->[objectAnyAll] [linkageFeminine] [ConceptAny_Feminine]</li>
     <li>titleNaked->[objectAnyAll] [linkageMasculine] [ConceptAny_Masculine]</li>
 
@@ -230,112 +268,180 @@
     <li>linkageFeminine->pour la</li>
     <li>linkageFeminine->sans la</li>
     <li>linkageFeminine->avec la</li>
-
-    <li>linkagePlaceMasculine->dans le</li>
-    <li>linkagePlaceMasculine->au</li>
-    <li>linkagePlaceMasculine->sur le</li>
-    <li>linkagePlaceMasculine->près du</li>
-    <li>linkagePlaceFeminine->dans la</li>
-    <li>linkagePlaceFeminine->à la</li>
-    <li>linkagePlaceFeminine->sur la</li>
-    <li>linkagePlaceFeminine->près de la</li>
-    <li>linkagePlacePlural->dans les</li>
-    <li>linkagePlacePlural->aux</li>
-    <li>linkagePlacePlural->sur les</li>
-    <li>linkagePlacePlural->près des</li>
-    <li>linkagePlaceApostrophe->dans</li>
-    <li>linkagePlaceApostrophe->à</li>
-    <li>linkagePlaceApostrophe->sur</li>
-    <li>linkagePlaceApostrophe->près de</li>
   
     <li>adjective->[AdjectiveAny]</li>
     <li>adjectiveFeminine->[AdjectiveAny_Feminine]</li>
 
-    <li>placeMasculine(p=25)->[TerrainFeature]</li>
-    <li>placeFeminine(p=25)->[TerrainFeature_Feminine]</li>
-    <li>placePlural->abysses</li>
-    <li>placePlural->abîmes</li>
-    <li>placeApostrophe->l'amphithéâtre</li>
-    <li>placeApostrophe->l'aquarium</li>
-    <li>placeApostrophe->l'aqueduc</li>
-    <li>placeApostrophe->l'arène</li>
-    <li>placeApostrophe->l'asile</li>
-    <li>placeFeminine->caserne</li>
-    <li>placeFeminine->base</li>
-    <li>placeMasculine->bunker</li>
-    <li>placeFeminine->cabane</li>
-    <li>placeMasculine->campement</li>
-    <li>placeMasculine->château</li>
-    <li>placeFeminine->cathédrale</li>
-    <li>placeFeminine->caverne</li>
-    <li>placeFeminine->citadelle</li>
-    <li>placeFeminine->ville</li>
-    <li>placeMasculine->colisée</li>
-    <li>placeFeminine->colonie</li>
-    <li>placePlural->profondeurs</li>
-    <li>placeMasculine->désert</li>
-    <li>placeApostrophe->l'ascenseur</li>
-    <li>placeApostrophe->l'usine</li>
-    <li>placeMasculine->festival</li>
-    <li>placeFeminine->forteresse</li>
-    <li>placeFeminine->clairière</li>
-    <li>placeMasculine->cimetière</li>
-    <li>placeFeminine->serre</li>
-    <li>placeMasculine->bosquet</li>
-    <li>placeMasculine->port</li>
-    <li>placeMasculine->cœur</li>
-    <li>placeFeminine->ruche</li>
-    <li>placeApostrophe->l'hôpital</li>
-    <li>placePlural->îles</li>
-    <li>placeFeminine->jungle</li>
-    <li>placeMasculine->camp de travail</li>
-    <li>placeMasculine->laboratoire</li>
-    <li>placeMasculine->labyrinthe</li>
-    <li>placeFeminine->rampe de lancement</li>
-    <li>placeFeminine->bibliothèque</li>
-    <li>placeMasculine->phare</li>
-    <li>placeMasculine->manoir</li>
-    <li>placeFeminine->demeure</li>
-    <li>placeFeminine->place de marché</li>
-    <li>placeMasculine->marché</li>
-    <li>placeFeminine->mine</li>
-    <li>placeMasculine->monastère</li>
-    <li>placeFeminine->montagne</li>
-    <li>placeMasculine->nexus</li>
-    <li>placeApostrophe->l'oasis</li>
-    <li>placeApostrophe->l'observatoire</li>
-    <li>placeMasculine->verger</li>
-    <li>placeApostrophe->l'avant-poste</li>
-    <li>placeMasculine->palais</li>
-    <li>placeMasculine->plateau</li>
-    <li>placeFeminine->prison</li>
-    <li>placeFeminine->raffinerie</li>
-    <li>placeFeminine->station</li>
-    <li>placeFeminine->faille</li>
-    <li>placePlural->ruines</li>
-    <li>placeMasculine->sanctuaire</li>
-    <li>placeApostrophe->l'école</li>
-    <li>placeMasculine->village</li>
-    <li>placeMasculine->vaisseau</li>
-    <li>placeApostrophe->l'âme</li>
-    <li>placeFeminine->station spatiale</li>
-    <li>placeMasculine->port spatial</li>
-    <li>placeFeminine->flèche</li>
-    <li>placeMasculine->marais</li>
-    <li>placeFeminine->taverne</li>
-    <li>placeMasculine->temple</li>
-    <li>placeFeminine->cité</li>
-    <li>placeFeminine->toundra</li>
-    <li>placeApostrophe->l'université</li>
-    <li>placeMasculine->hameau</li>
-    <li>placeMasculine->volcan</li>
-    <li>placeApostrophe->l'entrepôt</li>
-    <li>placePlural->steppes</li>
-    <li>placePlural->étendues sauvages</li>
-    <li>placeMasculine->zoo</li>
+    <li>proche->proche</li>
+    <li>proche->près</li>
+    <li>proche->aux abords</li>
+    <li>proche->à proximité</li>
 
-    <li>story->Adventure</li>
-    <li>story->Adventures</li>
+    <li>linkagePlaceMasculine->dans le</li>
+    <li>linkagePlaceMasculine->au</li>
+    <li>linkagePlaceMasculine->[proche] de le</li>
+    <li>linkagePlaceFeminine->dans la</li>
+    <li>linkagePlaceFeminine->à la</li>
+    <li>linkagePlaceFeminine->[proche] de la</li>
+
+    <li>placeMasculine(p=25)->[linkagePlaceMasculine] [TerrainFeature]</li>
+    <li>placeFeminine(p=25)->[linkagePlaceFeminine] [TerrainFeature_Feminine]</li>
+    <!--placeMasculine-->
+    <li>placeMasculine->[placeMasculine_DPA]</li>
+    <li>placeMasculine->[placeMasculine_DP]</li>
+    <li>placeMasculine->[placeMasculine_D]</li>
+    <li>placeMasculine_DPA->[placeMasculineDans]</li>
+    <li>placeMasculine_DPA->[placeMasculineProche]</li>
+    <li>placeMasculine_DPA->[placeMasculineAutour]</li>
+    <li>placeMasculine_DP->[placeMasculineDans]</li>
+    <li>placeMasculine_DP->[placeMasculineProche]</li>
+    <li>placeMasculine_D->[placeMasculineDans]</li>
+      <li>placeMasculineDansAu->dans le</li>
+      <li>placeMasculineDansAu->au</li>
+    <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineDPA]</li>
+    <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineDP]</li>
+    <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineD]</li>
+    <li>placeMasculineProche->[proche] du [placeMasculineDPA]</li>
+    <li>placeMasculineProche->[proche] du [placeMasculineDP]</li>
+    <li>placeMasculineAutour->autour du [placeMasculineDPA]</li>
+      <li>placeMasculineDPA->bunker</li>
+      <li>placeMasculineDPA->campement</li>
+      <li>placeMasculineDPA->château</li>
+      <li>placeMasculineDPA->colisée</li>
+      <li>placeMasculineDPA->vaisseau</li>
+      <li>placeMasculineDP->bosquet</li>
+      <li>placeMasculineDP->port</li>
+      <li>placeMasculineDP->laboratoire</li>
+      <li>placeMasculineDP->phare</li>
+      <li>placeMasculineDP->manoir</li>
+      <li>placeMasculineDP->marché</li>
+      <li>placeMasculineDP->verger</li>
+      <li>placeMasculineDP->palais</li>
+      <li>placeMasculineDP->sanctuaire</li>
+      <li>placeMasculineDP->village</li>
+      <li>placeMasculineDP->port spatial</li>
+      <li>placeMasculineDP->temple</li>
+      <li>placeMasculineDP->volcan</li>
+      <li>placeMasculineDP->zoo</li>
+      <li>placeMasculineD->désert</li>
+      <li>placeMasculineD->festival</li>
+      <li>placeMasculineD->cimetière</li>
+      <li>placeMasculineD->cœur</li>
+      <li>placeMasculineD->camp de travail</li>
+      <li>placeMasculineD->labyrinthe</li>
+      <li>placeMasculineD->monastère</li>
+      <li>placeMasculineD->nexus</li>
+      <li>placeMasculineD->plateau</li>
+      <li>placeMasculineD->marais</li>
+      <li>placeMasculineD->hameau</li>
+    <!--placeFeminine-->
+    <li>placeFeminine->[placeFeminine_DPA]</li>
+    <li>placeFeminine->[placeFeminine_DP]</li>
+    <li>placeFeminine->[placeFeminine_D]</li>
+    <li>placeFeminine_DPA->[placeFeminineDans]</li>
+    <li>placeFeminine_DPA->[placeFeminineProche]</li>
+    <li>placeFeminine_DPA->[placeFeminineAutour]</li>
+    <li>placeFeminine_DP->[placeFeminineDans]</li>
+    <li>placeFeminine_DP->[placeFeminineProche]</li>
+    <li>placeFeminine_D->[placeFeminineDans]</li>
+      <li>placeFeminineDansA->dans la</li>
+      <li>placeFeminineDansA->à la</li>
+    <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineDPA]</li>
+    <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineDP]</li>
+    <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineD]</li>
+    <li>placeFeminineProche->[proche] de la [placeFeminineDPA]</li>
+    <li>placeFeminineProche->[proche] de la [placeFeminineDP]</li>
+    <li>placeFeminineAutour->autour de la [placeFeminineDPA]</li>
+      <li>placeFeminineDPA->caserne</li>
+      <li>placeFeminineDPA->cabane</li>
+      <li>placeFeminineDPA->forteresse</li>
+      <li>placeFeminineDPA->serre</li>
+      <li>placeFeminineDPA->rampe de lancement</li>
+      <li>placeFeminineDPA->demeure</li>
+      <li>placeFeminineDPA->raffinerie</li>
+      <li>placeFeminineDPA->faille</li>
+      <li>placeFeminineDP->base</li>
+      <li>placeFeminineDP->cathédrale</li>
+      <li>placeFeminineDP->caverne</li>
+      <li>placeFeminineDP->citadelle</li>
+      <li>placeFeminineDP->ville</li>
+      <li>placeFeminineDP->colonie</li>
+      <li>placeFeminineDP->ruche</li>
+      <li>placeFeminineDP->bibliothèque</li>
+      <li>placeFeminineDP->place de marché</li>
+      <li>placeFeminineDP->mine</li>
+      <li>placeFeminineDP->montagne</li>
+      <li>placeFeminineDP->prison</li>
+      <li>placeFeminineDP->station</li>
+      <li>placeFeminineDP->station spatiale</li>
+      <li>placeFeminineDP->taverne</li>
+      <li>placeFeminineDP->cité</li>
+      <li>placeFeminineD->clairière</li>
+      <li>placeFeminineD->jungle</li>
+      <li>placeFeminineD->flèche</li>
+      <li>placeFeminineD->toundra</li>
+    <!--placeApostrophe-->
+    <li>placeApostrophe->[placeApostrophe_DPA]</li>
+    <li>placeApostrophe->[placeApostrophe_DP]</li>
+    <li>placeApostrophe->[placeApostrophe_D]</li>
+    <li>placeApostrophe->[placeApostrophe_PA]</li>
+    <li>placeApostrophe_DPA->[placeApostropheDans]</li>
+    <li>placeApostrophe_DPA->[placeApostropheProche]</li>
+    <li>placeApostrophe_DPA->[placeApostropheAutour]</li>
+    <li>placeApostrophe_DP->[placeApostropheDans]</li>
+    <li>placeApostrophe_DP->[placeApostropheProche]</li>
+    <li>placeApostrophe_D->[placeApostropheDans]</li>
+    <li>placeApostrophe_PA->[placeApostropheProche]</li>
+    <li>placeApostrophe_PA->[placeApostropheAutour]</li>
+      <li>placeApostropheDansAL->dans</li>
+      <li>placeApostropheDansAL->à</li>
+    <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheDPA]</li>
+    <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheDP]</li>
+    <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheD]</li>
+    <li>placeApostropheProche->[proche] de [placeApostropheDPA]</li>
+    <li>placeApostropheProche->[proche] de [placeApostropheDP]</li>
+    <li>placeApostropheProche->[proche] de [placeApostrophePA]</li>
+    <li>placeApostropheProche->[proche] de [placeApostropheP]</li>
+    <li>placeApostropheAutour->autour de [placeApostropheDPA]</li>
+    <li>placeApostropheAutour->autour de [placeApostrophePA]</li>
+      <li>placeApostropheDPA->l'avant-poste</li>
+      <li>placeApostropheDPA->l'entrepôt</li>
+      <li>placeApostropheDP->l'amphithéâtre</li>
+      <li>placeApostropheDP->l'arène</li>
+      <li>placeApostropheDP->l'usine</li>
+      <li>placeApostropheDP->l'hôpital</li>
+      <li>placeApostropheDP->l'observatoire</li>
+      <li>placeApostropheDP->l'école</li>
+      <li>placeApostropheDP->l'université</li>
+      <li>placeApostropheD->l'asile</li>
+      <li>placeApostropheD->l'ascenseur</li>
+      <li>placeApostropheD->l'oasis</li>
+      <li>placeApostropheD->l'âme</li>
+      <li>placeApostrophePA->l'aquarium</li>
+      <li>placeApostropheP->l'aqueduc</li>
+    <!--placePlural-->
+    <li>placePlural->[placePlural_DPA]</li>
+    <li>placePlural->[placePlural_D]</li>
+    <li>placePlural_DPA->[placePluralDans]</li>
+    <li>placePlural_DPA->[placePluralProche]</li>
+    <li>placePlural_DPA->[placePluralAutour]</li>
+    <li>placePlural_D->[placePluralDans]</li>
+      <li>placePluralDansAux->dans les</li>
+      <li>placePluralDansAux->aux</li>
+    <li>placePluralDans->[placePluralDansAux] [placePluralDPA]</li>
+    <li>placePluralDans->dans les [placePluralD]</li>
+    <li>placePluralProche->[proche] des [placePluralDPA]</li>
+    <li>placePluralAutour->autour des [placePluralDPA]</li>
+      <li>placePluralDPA->ruines</li>
+      <li>placePluralD->abysses</li>
+      <li>placePluralD->abîmes</li>
+      <li>placePluralD->profondeurs</li>
+      <li>placePluralD->îles</li>
+      <li>placePluralD->steppes</li>
+      <li>placePluralD->étendues sauvages</li>
+
+    <li>story->Aventure</li>
+    <li>story->Aventures</li>
     <li>story->Allégorie</li>
     <li>story->Anecdote</li>
     <li>story->Annales</li>
