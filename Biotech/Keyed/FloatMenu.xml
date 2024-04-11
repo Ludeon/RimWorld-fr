@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: Not a mechanitor -->
@@ -131,9 +131,13 @@
   <BreastfeedFailReason_NoMomsAssignedToBaby>Aucun {BABY_factionPawnsPlural} en lactation n'est attribué à {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} n'est pas affecté à la garde d'enfants</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>TODO</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>TODO</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>ordonner l'implantation dans {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>Ordonner l'implantation dans {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
   <AcceptXenogerm>Accepter le xénogerme {0_xenotype}</AcceptXenogerm>
 
@@ -144,13 +148,6 @@
   <!-- EN: No available recharger -->
   <CannotCarryToRechargerNoneAvailable>Pas de chargeur disponible</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Cannot study -->
-  <CannotStudy>Ne peut pas étudier</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>déjà étudié</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>pas de banc de recherche rejoignable et non réservé disponible</NoResearchBench>
-
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>Packs d’hémogène désactivés par restriction alimentaire.</NotAllowedHemogen>
 
@@ -159,5 +156,13 @@
 
   <!-- EN: Resulting metabolism would be too low -->
   <ResultingMetTooLow>Le métabolisme résultant serait trop faible</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>tentative de romance trop récente</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>Mettre en lieu sûr</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>Impossible de mettre en lieu sûr</CannotCarryToSafePlace>
 
 </LanguageData>

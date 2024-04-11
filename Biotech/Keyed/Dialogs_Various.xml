@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort} est dans un état mental "{MENTALSTATE_label}".</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>Voulez-vous vraiment désassembler définitivement {0} ?\n\nSi vous désassemblez définitivement {0} vous récupérerez</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Un méchanitor doit être capable de forger pour créer des mécanoïdes\n\nVoulez-vous vraiment continuer ?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>TODO</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>TODO</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>bande passante insuffisante</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -359,5 +361,8 @@
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>Certains de vos colons, animaux ou mécanoïdes se trouvent dans cette zone. Êtes-vous sûr de vouloir les abandonner ?\n\nLes personnes, animaux et mécanoïdes suivants seront abandonnés :\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+
+  <!-- UNUSED -->
+  <ConfirmInstallMechlink>Un méchanitor doit être capable de forger pour créer des mécanoïdes\n\nVoulez-vous vraiment continuer ?</ConfirmInstallMechlink>
 
 </LanguageData>

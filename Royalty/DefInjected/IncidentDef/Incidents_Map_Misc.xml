@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mech cluster -->
+  <MechCluster.label>groupe de mécanoïdes</MechCluster.label>
+  <!-- EN: Mechanoid cluster -->
+  <MechCluster.letterLabel>Groupe de mécanoïdes</MechCluster.letterLabel>
+  <!-- EN: A mechanoid combat cluster is landing nearby. The cluster will be initially dormant, so you can take time to decide how to attack it.\n\nIt may remain dormant until disturbed, or it may have a timer or proximity activators.\n\nEven dormant mech clusters aren't harmless. A dormant cluster may assemble mechanoid attackers from time to time, or have some broader negative effect that must be dealt with eventually. -->
+  <MechCluster.letterText>Un groupe de combats mécanoïdes a atterri à proximité. Le groupe sera initialement inactif, vous pouvez donc prendre le temps de décider comment l'attaquer.\n\nIl peut rester inactif jusqu'à ce qu'il soit dérangé, ou il peut avoir une minuterie ou bien des activateurs de proximité.\n\nLes mécanoïdes dormants ne sont pas inoffensifs. Ils peuvent assembler de temps à autre des attaquants mécanoïdes, voire avoir un effet négatif plus large qui devra être traité à terme.</MechCluster.letterText>
+  
   <!-- EN: abasia join -->
   <WandererJoinAbasia.label>ralliement d'un abasique</WandererJoinAbasia.label>
-  <!-- EN: Transport pod crash: {PAWN_nameDef} -->
   <WandererJoinAbasia.letterLabel>Crash d'un module de transport : {PAWN_nameDef}</WandererJoinAbasia.letterLabel>
-  <!-- EN: A {PAWN_title} named {PAWN_nameDef} is crashing in a transport pod nearby.\n\n{PAWN_nameDef} is suffering from {HEDIFF_label} and will be unable to walk.\n\n{PAWN_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {HEDIFF_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n[PAWN_pronoun] is willing to contribute once {PAWN_pronoun} has recovered, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery or leave {PAWN_objective} to die. However, your other colonists may find this disturbing. -->
   <WandererJoinAbasia.letterText>{PAWN_gender ? Un : Une : Un(e)} {PAWN_title} nomm{PAWN_gender ? é : ée : é(e)} {PAWN_nameDef} s'est écras{PAWN_gender ? é : ée : é(e)} dans un module de transport à proximité.\n\n{PAWN_nameDef} souffre de {HEDIFF_label} et ne pourra pas marcher.\n\n{PAWN_pronoun} récupérera naturellement après plusieurs jours. Il y a toutefois une possibilité de récupération rapide et chanceuse. {HEDIFF_label} peut également être guéri par une opération spéciale qui nécessite une grande quantité de médicaments issus des glitterworlds.\n\n[PAWN_pronoun] est d'accord pour vous rejoindre une fois qu'{PAWN_pronoun} aura récupéré, mais refusera de partir volontairement. Si vous ne voulez pas de {PAWN_nameDef}, vous pouvez {PAWN_gender ? le : la : le/la} bannir, {PAWN_gender ? le : la : le/la} vendre en esclavage ou {PAWN_gender ? le : la : le/la} laisser mourir. Cependant, vos autres colons peuvent trouver cela dérangeant.</WandererJoinAbasia.letterText>
   
 </LanguageData>

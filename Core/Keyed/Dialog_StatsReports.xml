@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>Conditions de santé pertinentes</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Période de vie</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Matériau</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,6 +44,8 @@
   <StatsReport_ShootingExampleDistances>Les chances de frapper à des distances croissantes sont</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valeur finale</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>Valeur maximale</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Multiplicateur pour {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Satisfait aux exigences du titre de l'utilisateur</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>Âge</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Différentes sources de loisirs satisfont différents types de loisirs. Les colons s'ennuient de faire le même type de loisirs de façon répétée, il est donc important de fournir une variété de sources de loisirs avec différents types de loisirs.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Vêtements (pour la nudité)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Les nudistes considèrent t-ils cet article comme un vêtement ? Si non, ils ne seront pas gênés de le porter.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>Genre</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>Certains vêtements sont généralement appréciés par un genre. Quelqu'un pourrait être mécontent de le porter.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Liste des parties du corps que cet objet couvre.\n\nUn vêtement ou une armure ne protège pas les parties du corps qu'il ne couvre pas.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>La quantité de douleur causée par cet état.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Le décalage d'efficacité appliqué aux parties du corps concernées.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>L'efficacité de son fonctionnement en comparaison d'une partie naturelle du corps.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Les capacités mentales que ceci affecte.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>Un multiplicateur sur la vitesse à laquelle le besoin alimentaire se réduit.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Une compensation de la vitesse à laquelle le besoin alimentaire se réduit.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Vitesse de chute au repos</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Une compensation appliquée à la vitesse à laquelle le besoin de sommeil de la créature diminue.</Stat_Hediff_TirednessOffset_Desc>
@@ -376,6 +388,14 @@
   <Stat_Building_PaintColor>Couleur de peinture</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>La couleur dont ce bâtiment a été peinte.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>Ressources nécessaires pour fabriquer</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>Les ressources requises pour construire ceci.</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>L'arme monté sur cette créature.</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>Les ingrédients nécessaires pour faire ceci.</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -526,5 +546,9 @@
   <Stat_Source_OfficialExpansionReport>Ce contenu provient de l'extension officielle</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Ce contenu provient du mod</Stat_Source_ModReport>
-  
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>La beauté contenue dans le livre</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0} coups</Stat_TrapDamageHitCount>
 </LanguageData>

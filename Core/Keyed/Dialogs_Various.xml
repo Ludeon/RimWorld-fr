@@ -201,6 +201,10 @@
   <LastName>nom</LastName>
   <!-- EN: suggested -->
   <Suggested>suggestion</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>Choisissez de nouveaux vagabonds</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -289,7 +293,7 @@
   <CountingProducts>Compte</CountingProducts>
   <!-- EN: Infinite -->
   <Infinite>Infini</Infinite>
-  <!-- EN: Allowed {0} skill: -->
+  <!-- EN: Allowed {0} skill -->
   <AllowedSkillRange>Autorisé niveau {0} :</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>incompatible</IncompatibleLower>
@@ -321,7 +325,7 @@
   <PauseWhenSatisfied>Arrêt quand satisfait</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
   <UnpauseWhenYouHave>Reprendre à</UnpauseWhenYouHave>
-  <!-- EN: Paused -->
+  <!-- EN: paused -->
   <Paused>En arrêt</Paused>
   <!-- EN: Unpause -->
   <Unpause>Reprendre</Unpause>
@@ -336,6 +340,12 @@
   <IncludeFromAll>Rechercher partout</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>Rechercher dans {0}</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>Zones de stockage</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>Étagères</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>Groupes</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -402,7 +412,7 @@
   <MinGrowthTemperature>Temp. de croissance min</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>Temp. de croissance max</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
   <GrowingTimeDesc>Les plantes ne poussent que pendant certains moments de la journée, et seulement lorsqu'elles sont éclairées.\n\nCette statistique mesure le temps nécessaire à la plante pour atteindre la taille adulte.\nLe temps réel nécessaire pour sa croissance sera généralement environ 2 fois plus long.\nLes basses températures ralentissent également la croissance des plantes.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>jours</Days>
@@ -516,6 +526,8 @@
   <PerDay>{0} / jour</PerDay>
   <!-- EN: {0} / hour -->
   <PerHour>{0} / heure</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>{0} XP / heure</XpPerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Bête de somme</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -598,6 +610,8 @@
   <MeditationFocusEnabledByAdulthood>a l'âge adulte</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
   <MeditationFocusEnabledByTrait>a un trait</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>a une condition de santé</MeditationFocusEnabledByHediff> 
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>n'a pas de trait</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
@@ -698,6 +712,14 @@
   <NextTraderRestock>Prochain réapprovisionnement : {0} jours</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Créatures</PawnsTabShort>
+  
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>Sélectionnez une colonie où envoyer la caravane</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>Envoyez une caravane depuis {0}.</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>Colons</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -894,6 +916,8 @@
   <ResearchFinished>Recherche terminée : {0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>Écran de recherche</ResearchScreen>
+  <!-- EN: By researching {0} you have discovered the {1} research project. -->
+  <ResearchUnknownProjectRevealed>En effectuant des recherches sur le projet de "{0}", vous avez découvert le projet de recherche "{1}".</ResearchUnknownProjectRevealed>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -909,41 +933,53 @@
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>Ne pas envoyer cette fois, demandez-moi à nouveau plus tard.</HistoryUploadNoOnce>
   
+  <!-- Policies -->
+  <!-- EN: Available policies -->
+  <AvailablePolicies>Politiques disponibles</AvailablePolicies>
+  <!-- EN: Unnamed -->
+  <UnnamedPolicy>Non armé</UnnamedPolicy>
+  <!-- EN: New... -->
+  <NewPolicy>Nouveau...</NewPolicy>
+  <!-- EN: Invalid policy name -->
+  <InvalidName>Nom de la politique invalide</InvalidName>
+  <!-- EN: Delete the selected policy. -->
+  <DeletePolicyTip>Supprimer la politique sélectionnée.</DeletePolicyTip>
+  <!-- EN: Create a duplicate of the selected policy. -->
+  <DuplicatePolicyTip>Créer une copie de la politique sélectionnée.</DuplicatePolicyTip>
+  <!-- EN: Rename this policy. -->
+  <RenamePolicyTip>Renommer cette politique.</RenamePolicyTip>
+  <!-- EN: Are you sure you want to delete the policy: {0}? -->
+  <DeletePolicyConfirm>Êtes-vous certain de vouloir supprimer cette politique : {0} ?</DeletePolicyConfirm>
+  <!-- EN: Delete -->
+  <DeletePolicyConfirmButton>Supprimer</DeletePolicyConfirmButton>
+  <!-- EN: No policy selected -->
+  <NoPolicySelected>Aucune politique sélectionnée</NoPolicySelected>
+  
   <!-- Outfit management -->
-  <!-- EN: Outfit -->
-  <Outfit>Tenues</Outfit>
-  <!-- EN: Select outfit... -->
-  <SelectOutfit>Choisir la tenue…</SelectOutfit>
-  <!-- EN: New outfit -->
-  <NewOutfit>Nouvelle tenue</NewOutfit>
-  <!-- EN: Delete outfit... -->
-  <DeleteOutfit>Supprimer la tenue…</DeleteOutfit>
-  <!-- EN: Outfit is in use by {0}. -->
+  <!-- EN: Apparel policies -->
+  <ApparelPolicyTitle>Politiques d'habillement</ApparelPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>Créez et gérez les modèles pour déterminer les vêtements que peuvent porter les membres de la colonie.</ApparelPolicyTip>
+  <!-- EN: Apparel policy -->
+  <ApparelPolicy>Politique d'habillement</ApparelPolicy>
+  <!-- EN: Apparel policy is in use by {0}. -->
   <OutfitInUse>Tenue utilisée par {0}.</OutfitInUse>
-  <!-- EN: No outfit selected -->
-  <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
   
   <!-- Drug policy management -->
+  <!-- EN: Drug policies -->
+  <DrugPolicyTitle>Politiques relatives aux drogues</DrugPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
+  <DrugPolicyTip>Créez et gérez les modèles pour déterminer quelles drogues vos colons peuvent consommer.</DrugPolicyTip>
   <!-- EN: Drug policy -->
   <DrugPolicy>Règle sur la drogue</DrugPolicy>
-  <!-- EN: Select policy... -->
-  <SelectDrugPolicy>Choisir la règle…</SelectDrugPolicy>
-  <!-- EN: New policy -->
-  <NewDrugPolicy>Nouvelle règle</NewDrugPolicy>
-  <!-- EN: Delete policy... -->
-  <DeleteDrugPolicy>Supprimer la règle…</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>La règle sur la drogue est utilisée par {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>Règle de restriction alimentaire utilisée par {0}.</FoodRestrictionInUse>
-  <!-- EN: No drug policy selected -->
-  <NoDrugPolicySelected>Pas de règle sur la drogue sélectionnée</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
   <AddDrug>Ajouter une drogue…</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>Drogue</DrugColumnLabel>
-  <!-- EN: Usage -->
-  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>Fréquence</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
@@ -966,8 +1002,6 @@
   <DeleteDrugTooltip>Supprimer cette drogue.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>Le nom d'une drogue.</DrugNameColumnDesc>
-  <!-- EN: How the drug is allowed to be used. -->
-  <DrugUsageColumnDesc>Comment la drogue est autorisée à être consommée.</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>À quelle fréquence les colons devraient tenter de consommer cette drogue.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
@@ -984,10 +1018,14 @@
   <DrugUsageTipScheduled>Planifié\n\nUtiliser cette drogue selon un calendrier défini, quand des conditions spécifiques sont rencontrées.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
-  <!-- EN: Food restriction -->
-  <FoodRestriction>Alimentation</FoodRestriction>
-  <!-- EN: Food -->
-  <FoodRestrictionShort>Alimentation</FoodRestrictionShort>
+  <!-- EN: Food policies -->
+  <FoodPolicyTitle>Politiques alimentaires</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>Créez et gérez les modèles pour déterminer quelles aliments vos colons peuvent consommer.</FoodPolicyTip>
+  <!-- EN: Food policy -->
+  <FoodPolicy>Politique alimentaire</FoodPolicy>
+  <!-- EN: Allow food -->
+  <AllowFood>Régime permis</AllowFood>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Gastronomique</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1000,33 +1038,77 @@
   <FoodRestrictionRaw>Aliment cru</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Rien</FoodRestrictionNothing>
-  <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Choisir alimentation</SelectFoodRestriction>
-  <!-- EN: New food restriction -->
-  <NewFoodRestriction>Nouvelle alimentation</NewFoodRestriction>
-  <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Supprimer alimentation</DeleteFoodRestriction>
-  <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>Aucune restriction alimentaire</NoFoodRestrictionSelected>
+  
+  <!-- Reading management -->
+  <!-- EN: Reading policies -->
+  <ReadingPolicyTitle>Politiques de lecture</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>Créez et gérez les modèles pour déterminer quelles livres vos colons peuvent lire.</ReadingPolicyTip>
+  <!-- EN: Reading policy -->
+  <ReadingPolicy>Politique de lecture</ReadingPolicy>
+  <!-- EN: Reading policy is in use. -->
+  <ReadingPolicyInUse>TODO</ReadingPolicyInUse>
+
+  <!-- EN: Anything -->
+  <AllReadingPolicy>Tout</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>Aucun</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>Manuels</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>Schémas</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>Romans</NovelPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Paramètres de médecine par défaut</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>Ces paramètres médicaux sont assignés aux créatures lorsqu'ils rejoignent un premier groupe. Vous pouvez assigner un paramètre à un individu dans leur onglet "Santé". \n\nNotez : Si la créature rejoint un nouveau groupe, ils vont toujours prendre les paramètres de ce groupe, même si vous les aviez précédemment assignés un paramètre.</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>Défaut</MedGroupDefaults>
-  <!-- EN: Colonist -->
-  <MedGroupColonist>Colons</MedGroupColonist>
-  <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>Colons emprisonnés</MedGroupImprisonedColonist>
-  <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
-  <!-- EN: Neutral animal -->
-  <MedGroupNeutralAnimal>Animaux neutres</MedGroupNeutralAnimal>
-  <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>Factions neutres</MedGroupNeutralFaction>
-  <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>Factions hostiles</MedGroupHostileFaction>
   
+  <!-- EN: Colonists -->
+  <MedGroupColonists>Colons</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>Membres libres de votre colonie</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>Prisonniers</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>Les prisonniers dans votre colonie, sans tenir compte de leur faction.</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>Animaux apprivoisés</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>Les animaux qui ont été apprivoisés par votre colonie.</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>Membres de factions amicales</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>Humains ou animaux qui font partie d'une faction qui est amicale à la votre (Impact relationnel au-dessus de 75).</MedGroupFriendlyFactionDesc>
+  
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>Factions neutres</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>Humains ou animaux qui font partie d'une faction qui est neutre à la votre (Impact relationnel entre -75 et 75).</MedGroupNeutralFactionDesc>
+
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>Factions hostiles</MedGroupHostileFaction>
+  <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
+  <MedGroupHostileFactionDesc>Humains ou animaux qui font partie d'une faction qui est hostile à la votre (Impact relationnel en-dessous de -75).</MedGroupHostileFactionDesc>
+
+  <!-- EN: Other humans -->
+  <MedGroupNoFaction>Autres humains</MedGroupNoFaction>
+  <!-- EN: Humans who are not members of any faction. -->
+  <MedGroupNoFactionDesc>Humains qui font partie d'aucune faction.</MedGroupNoFactionDesc>
+  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>Faune sauvage</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>Animaux et autres créatures qui font partie d'aucune faction.</MedGroupWildlifeDesc>
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>{0} nécessite {1} de niveau de Fermier pour semer.\n\nAucun de vos colons n'a encore atteint ce niveau, donc cette plante ne sera pas semée.</NoGrowerCanPlant>
@@ -1122,6 +1204,8 @@
   <AbilityCantApplyDowned>{0_labelShort} est au sol.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Ne peut pas utiliser : {0} est asexue{0_gender ? l : lle : l(le)}.</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} a aucune blessure qui peut être soignée.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} n'est pas du bon sexe pour {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1321,5 +1405,42 @@
   <ToggleDarklightOnDesc>Changez la couleur de la lumière en lumière sombre.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>Choisissez une couleur en réglant la température de couleur. Remarque: Cela n’affecte que la couleur visuelle, pas la production de chaleur.</ColorTemperatureTooltip>
+
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} est psychiquement hermétique.</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>Rechercher sur la carte actuelle.</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>Recherchez des éléments sur la carte tels que des objets, personnes, animaux, plantes et bien plus.</SearchTheMapDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>{0} résultats trouvés</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>1 résultat trouvé</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>Recherche en cours</Searching>
+
+  <!-- UNUSED -->
+  <Outfit>Tenues</Outfit>
+  <SelectOutfit>Choisir la tenue…</SelectOutfit>
+  <NewOutfit>Nouvelle tenue</NewOutfit>
+  <DeleteOutfit>Supprimer la tenue…</DeleteOutfit>
+  <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
+  <SelectDrugPolicy>Choisir la règle…</SelectDrugPolicy>
+  <NewDrugPolicy>Nouvelle règle</NewDrugPolicy>
+  <DeleteDrugPolicy>Supprimer la règle…</DeleteDrugPolicy>
+  <NoDrugPolicySelected>Pas de règle sur la drogue sélectionnée</NoDrugPolicySelected>
+  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
+  <DrugUsageColumnDesc>Comment la drogue est autorisée à être consommée.</DrugUsageColumnDesc>
+  <FoodRestriction>Alimentation</FoodRestriction>
+  <FoodRestrictionShort>Alimentation</FoodRestrictionShort>
+  <SelectFoodRestriction>Choisir alimentation</SelectFoodRestriction>
+  <NewFoodRestriction>Nouvelle alimentation</NewFoodRestriction>
+  <DeleteFoodRestriction>Supprimer alimentation</DeleteFoodRestriction>
+  <NoFoodRestrictionSelected>Aucune restriction alimentaire</NoFoodRestrictionSelected>
+  <MedGroupColonist>Colons</MedGroupColonist>
+  <MedGroupImprisonedColonist>Colons emprisonnés</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Animaux neutres</MedGroupNeutralAnimal>
 
 </LanguageData>

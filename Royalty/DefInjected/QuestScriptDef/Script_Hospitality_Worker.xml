@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
@@ -38,7 +38,7 @@
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>[letterSubject], que vous étiez chargé de protéger, a disparu. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>{letterSubject}, que vous étiez chargé de protéger, est retourn{PAWN_gender ? é : ée } à l'état sauvage. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -67,10 +67,6 @@
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Échec de la quête : [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>La navette envoyée pour récupérer [lodgersLabelSingOrPluralDef] est partie. [lodgersLabelSingOrPluralDef] partira maintenant à pied. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
-  
-  <!-- UNUSED -->
-  <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>Invité perdu : {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
-  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>{letterSubject}, que vous étiez chargé de protéger, est retourn{PAWN_gender ? é : ée } à l'état sauvage. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Navette détruite</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>

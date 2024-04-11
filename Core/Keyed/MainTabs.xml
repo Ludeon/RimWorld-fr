@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>Désactivé par la quête : {0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Gérer les tenues</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>Non modifiable</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>verrouillé</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Habillement forcé</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>Modifier…</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>Gérer règles vestimentaires</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Gérer les règles sur la drogue</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gérer les règles d'alimentation</ManageFoodRestrictions>
+  <ManageDrugPolicies>Gérer règles stupéfiants</ManageDrugPolicies>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>Gérer règles alimentaires</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>Gérer règles de lecture</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>En cours</InProgress>
   <!-- EN: Locked -->
   <Locked>Bloqué</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Prérequis de recherche</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>Prérequis</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Schémas techniques requis {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>Schémas techniques insuffisants ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prérequis non satisfaits</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>Aucun projet actif</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>Projets actifs</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>Projet actif</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>Arrêter la recherche</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Matériels de recherche manquants</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>Le niveau technique de votre faction est {0}, mais le niveau technique de ce projet est {1}. La vitesse de recherche sera multipliée par {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Déverrouillé avec</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>Recherchez un ou plusieurs des prérequis du projet pour le découvrir.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>inconnu</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,27 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crée un besoin</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>Changer les valeurs par défaut...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Cliquer pour modifier</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>Assigner</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>Désassigner</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>Chance de crise mentale</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>Gain multiplicateur de récréation</BookJoyFactor>
+  
+  <!-- UNUSED -->
+  <ManageOutfits>Gérer les tenues</ManageOutfits>
+  <ManageFoodRestrictions>Gérer les règles d'alimentation</ManageFoodRestrictions>
+  <ResearchPrerequisites>Prérequis de recherche</ResearchPrerequisites>
 
 </LanguageData>

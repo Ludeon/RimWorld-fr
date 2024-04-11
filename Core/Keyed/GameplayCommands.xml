@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Forbid -->
@@ -108,11 +108,6 @@
   <CommandDetonateLabel>Détonateur</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Démarrer le décompte du détonateur.</CommandDetonateDesc>
-
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Renommer</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Renommer cette zone.</CommandRenameZoneDesc>
 
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Masquer</CommandHideZoneLabel>
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Créer une zone agricole</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>Réarmement automatique</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si activé, le piège sera remplacé automatiquement après son activation.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -293,7 +294,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Réglé sur</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>Sélectionne le type de minerais à scanner.</CommandSelectMineralToScanForDesc><!-- text_todo -->
+  <CommandSelectMineralToScanForDesc>Sélectionne le type de minerais à scanner.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>Réformez un groupe de colons. Les colons quitteront leur zone actuelle et attendront d'autres ordres.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Il y a encore des ennemis dans cette zone.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>Envoyer une caravane</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>Envoyer une caravane...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>Envoyer une caravane vers cette destination à partir d'une de vos colonies pouvant atteindre ce lieu.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>Votre colonie n'a pas de chemin d'accès vers cet emplacement.</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Diviser</CommandSplitCaravan>
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>Dissociez-le des paramètres de stockage des autres éléments afin que ses paramètres puissent être définis indépendamment.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Paramètres de stockage lié</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 élément</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} éléments</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,15 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} est inconscient{0_gender ? : e : (e)}.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
   
 </LanguageData>
