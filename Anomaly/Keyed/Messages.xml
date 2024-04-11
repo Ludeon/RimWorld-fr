@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Conversion -->
+  <AbilityCannotCastHoraxian>les croyances {replace: de {0_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} sont inébranlables.</AbilityCannotCastHoraxian>
+
+  <!-- Entities -->
+  <MessageActivityRisingDamage>après avoir subi des dégâts, l'activité {replace: de {0_definite}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} est en hausse.</MessageActivityRisingDamage>
+  <EntityDiedOnHoldingPlatform>{0_gender ? un : une : un(e)} {0_labelShort} est {0_gender ? mort : morte : mort(e)} sur une plateforme de détention.</EntityDiedOnHoldingPlatform>
+  <MessageEntityDiscovered>Nouvelle entité découverte</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <MessageHateChantersAbsorbed>Les fidèles sont en transe et ne riposteront pas s'ils sont attaqués.</MessageHateChantersAbsorbed>
+  <MessageHateChantIncreased>L'incantation de haine a gagné en intensité.</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <SelfResurrectText>{0_nameDef} peut se ressusciter grâce au déni de la mort.</SelfResurrectText>
+  <MessageUsingSelfResurrection>{0_nameDef} se ressuscite grâce au déni de la mort.</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <MessagePitGateCollapsed>La fosse s'est effondrée.</MessagePitGateCollapsed>
+  <MessagePitBurrowCollapsed>Un terrier s'est effondré.</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <FleshmassContainedMessage>Le sac de chair contenait quelque chose.</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <MessagePsychicRitualAssault>des {0_pawnsPluralDef} attaquent !</MessagePsychicRitualAssault>
+  <MessageAIPsychicRitualBegan>des {FACTION_pawnsPluralDef} commencent le rituel psychique.</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <MessageBiomutationLanceInvalidTargetRace>Impossible de cibler : {0_nameDef} n'est ni un animal ni un être humain.</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceTargetTooBig>Impossible de cibler : {0_nameDef} est trop {0_gender ? grand : grande : grand(e)}.</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <MessageNoRoomWithMinimumContainmentStrength>Avertissement : aucune cellule ne répond au critère de capacité de confinement pour {0}. La créature va bientôt s'évader.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>Avertissement : {0} ne répond pas au critère de capacité de confinement pour {1}. La créature va bientôt s'évader.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageHolderReserved>Impossible de transférer {0}. Réservé par quelqu'un d'autre.</MessageHolderReserved>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort} a exécuté {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <MessageOccupiedHoldingPlatformReinstalled>Avertissement : la réinstallation d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>Avertissement : la désinstallation d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformDeconstructed>Avertissement : la destruction d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <MessageHostileDuplicate>Un clone hostile {replace: de {0_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} est apparu.</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <MessageProximityDetectorTriggered>Un détecteur de proximité a repéré la présence d'une créature invisible.</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <MessagePawnAttackedInDarkness>Quelque chose qui rôde dans les ténèbres a attaqué {0_nameDef}.</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <MessageRevenantForcedVisibility>Un revenant caché a été révélé !</MessageRevenantForcedVisibility>
+  <MessageRevenantHeard>{PAWN_nameDef} peut entendre le revenant {1} à proximité !</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <MessageCannotUseOnNonBleeder>impossible d'utiliser {ABILITY_label} sur les créatures qui ne saignent pas.</MessageCannotUseOnNonBleeder>
+  
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} a dérangé une digipointe.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} a dérangé plusieurs digipointes.</MessageFingerspikeDisturbedPlural>
+
+  <DeathPallResurrectedMessage>La brume funeste a ressuscité {0_indefinite}.</DeathPallResurrectedMessage>
+  
+</LanguageData>

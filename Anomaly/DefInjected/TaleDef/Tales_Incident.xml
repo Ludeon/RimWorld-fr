@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: death pall -->
+  <DeathPall.label>brume funeste</DeathPall.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
+    <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clutching [PAWN_possessive] weapon tightly, as the death pall descends, raising the dead [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trembling with unease, witnessing the arrival of the death pall, its influence giving life to the lifeless [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching in horror as the death pall envelops [PAWN_possessive] peaceful home, turning it into a battleground against the dead [circumstance_group]</li>
+    <li>circumstance_phrase->and drowning out [PAWN_possessive] desperate prayers for safety</li>
+    <li>circumstance_phrase->with the scent of decay and despair filling the air</li>
+    <li>circumstance_phrase->and trapping [PAWN_pronoun] in a horde of shamblers</li>
+    <li>desc_sentence->In the centre of the death pall, [PAWN_nameDef] prepares for battle.</li>
+    <li>desc_sentence->The encroachment of the death pall fills [PAWN_nameDef]'s friends with terror.</li>
+    <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
+    <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
+  -->
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] fait face à la brume funeste qui envahit la zone</li>
+    <li>image->[PAWN_nameFull] regarde d'un air horrifié la brume funeste qui recouvre les environs en ressuscitant les morts [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agrippe fermement son arme tandis que la brume funeste enveloppe les alentours en ressuscitant les morts [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tremble d'inquiétude en voyant arriver la brume funeste, dont l'influence ramène les morts à la vie [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] regarde avec horreur la brume funeste qui envahit sa colonie paisible en la changeant en champ de bataille contre les morts [circumstance_group]</li>
+    <li>circumstance_phrase->et étouffe ses prières désespérées de salut</li>
+    <li>circumstance_phrase->et répand l'odeur de la pourriture et du désespoir sur son passage</li>
+    <li>circumstance_phrase->et {pawn_gender ? le : la : le/la} piège au milieu d'une horde de zombies</li>
+    <li>desc_sentence->Au cœur de la brume funeste, [PAWN_nameDef] se prépare à se battre.</li>
+    <li>desc_sentence->La terreur s'empare des amis {replace: de [PAWN_nameDef]; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} face à l'invasion de la brume funeste.</li>
+    <li>desc_sentence->[PAWN_nameDef] ne peut pas s'empêcher de frissonner en voyant la brume funeste se propager.</li>
+    <li>desc_sentence->Le désespoir commence à gagner [PAWN_nameDef] et met sa détermination à l'épreuve face à ces phénomènes macabres.</li>
+  </DeathPall.rulePack.rulesStrings>
+  
+  <!-- EN: unnatural darkness -->
+  <UnnaturalDarkness.label>obscurité surnaturelle</UnnaturalDarkness.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
+    <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] surrounded by black pillars falling from the sky which blanket the land in darkness [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] struggling to find [PAWN_possessive] way through the suffocating darkness, noctols hounding at [PAWN_possessive] heels, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] watching the world get swallowed by an abyss of shadows [circumstance_group]</li>
+    <li>circumstance_phrase->amidst by [PAWN_possessive] friends' desperate attempts to return to the safety of the light</li>
+    <li>circumstance_phrase->with piercing screams echoing all around</li>
+    <li>circumstance_phrase->the light seemingly barely able to hold it back</li>
+    <li>circumstance_phrase->as [PAWN_pronoun] offers pleas for salvation</li>
+    <li>desc_sentence->Not even the faintest flickering of lights in the distance is visible.</li>
+    <li>desc_sentence->The situation seems utterly hopeles.</li>
+    <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
+    <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
+  -->
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] affronte l'obscurité surnaturelle</li>
+    <li>image->[PAWN_nameFull] reste bouche bée en regardant les ténèbres impénétrables engloutir le monde [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] est {pawn_gender ? entouré : entourée : entouré(e)} de piliers noirs tombant du ciel d'où émanent les ténèbres envahissantes [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a du mal à retrouver son chemin dans l'obscurité oppressante, des noctols sur les talons, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] regarde la marée d'ombres engloutir le monde [circumstance_group]</li>
+    <li>circumstance_phrase->tandis que ses amis tentent désespérément de regagner la sécurité de la lumière</li>
+    <li>circumstance_phrase->tandis que des cris perçants retentissent aux alentours</li>
+    <li>circumstance_phrase->alors que la lumière semble lutter pour s'imposer</li>
+    <li>circumstance_phrase->et ne peut que prier pour qu'on lui accorde le salut</li>
+    <li>desc_sentence->On ne voit pas la moindre lueur au loin.</li>
+    <li>desc_sentence->La situation semble totalement désespérée.</li>
+    <li>desc_sentence->Des groupes de créatures de l'ombre sont visibles à la bordure des ténèbres.</li>
+    <li>desc_sentence->[PAWN_nameDef] essaie de trouver une lueur d'espoir dans l'obscurité grandissante.</li>
+  </UnnaturalDarkness.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: healed me -->
+  <HealedMe.label>m'a apporté des soins</HealedMe.label>
+  
+  <!-- EN: mutated my arm -->
+  <MutatedMyArm.label>a fait muter mon bras</MutatedMyArm.label>
+  
+  <!-- EN: studied an entity -->
+  <StudiedEntity.label>a étudié une entité</StudiedEntity.label>
+  <!-- EN:
+    <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] conducting experiments, seeking to understand the secrets of [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] striving to comprehend the nature of [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->with barely concealed disgust in [STUDIER_possessive] eyes</li>
+    <li>circumstance_phrase->while scribbling in a notebook</li>
+    <li>circumstance_phrase->while consulting an ancient tome</li>
+    <li>desc_sentence->The steady work of bioferrite harvesters can be seen in the background.</li>
+    <li>desc_sentence->The colonist's deep fascination with [ENTITY_nameDef] is evident.</li>
+    <li>desc_sentence->[STUDIER_nameDef] is completely absorbed in [STUDIER_possessive] study of [ENTITY_nameDef], striving to unlock its secrets.</li>
+    <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
+    <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
+  -->
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef] étudie l'entité [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] examine soigneusement l'entité [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] mène des expériences pour tenter de percer les secrets de l'entité [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] essaie de comprendre la nature de l'entité [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->en peinant à cacher son dégoût</li>
+    <li>circumstance_phrase->tout en griffonnant dans un carnet</li>
+    <li>circumstance_phrase->tout en consultant un livre ancien</li>
+    <li>desc_sentence->On voit les récolteurs de bioferrite travailler inlassablement en arrière-plan.</li>
+    <li>desc_sentence->Sa fascination pour l'entité [ENTITY_nameDef] saute aux yeux.</li>
+    <li>desc_sentence->[STUDIER_nameDef] se laisse totalement absorber par l'étude de l'entité [ENTITY_nameDef], dont {studier_pronoun} espère percer les secrets.</li>
+    <li>desc_sentence->[ENTITY_nameDef]Seul le travail incessant des électro-inhibiteurs empêche l'entité  de s'échapper.</li>
+    <li>desc_sentence->[ENTITY_nameDef]L'entité  ne semble pas réagir aux efforts {replace: de [STUDIER_nameDef]; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</li>
+  </StudiedEntity.rulePack.rulesStrings>
+  
+</LanguageData>

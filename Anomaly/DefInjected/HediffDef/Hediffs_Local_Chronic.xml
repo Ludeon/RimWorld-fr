@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayCreepjoiner.label>décomposition organique</OrganDecayCreepjoiner.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayCreepjoiner.description>Maladie dégénérative bactérienne ou virale affectant un seul organe. Incurable, elle n'est pas contagieuse, mais semble frapper au hasard depuis un réservoir naturel inconnu.\n\nCet organe se mettra à dépérir avant de cesser complètement de fonctionner. Remplacez-le par un organe bionique ou naturel.</OrganDecayCreepjoiner.description>
+  <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>l'un des organes {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} ({1}) a été détruit des suites d'une décomposition organique.</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <!-- EN: minor -->
+  <OrganDecayCreepjoiner.stages.minor.label>mineure</OrganDecayCreepjoiner.stages.minor.label>
+  <!-- EN: moderate -->
+  <OrganDecayCreepjoiner.stages.moderate.label>modérée</OrganDecayCreepjoiner.stages.moderate.label>
+  <!-- EN: severe -->
+  <OrganDecayCreepjoiner.stages.severe.label>sévère</OrganDecayCreepjoiner.stages.severe.label>
+  <!-- EN: extreme -->
+  <OrganDecayCreepjoiner.stages.extreme.label>extrême</OrganDecayCreepjoiner.stages.extreme.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedCreepjoiner.label>décomposition organique</OrganDecayUndiagnosedCreepjoiner.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayUndiagnosedCreepjoiner.description>Maladie dégénérative bactérienne ou virale affectant un seul organe. Incurable, elle n'est pas contagieuse, mais semble frapper au hasard depuis un réservoir naturel inconnu.\n\nCet organe se mettra à dépérir avant de cesser complètement de fonctionner. Remplacez-le par un organe bionique ou naturel.</OrganDecayUndiagnosedCreepjoiner.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} montre les premiers signes d'une maladie grave qui entraînera une détérioration rapide de ses organes. {SURGEON_nameDef} ne peut pas encore en déterminer la cause exacte, mais une chose est certaine : {PAWN_nameDef} sera extrêmement malade dans les prochains jours.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} ne peut plus cacher sa maladie. Avec une bonne partie de ses organes dans un état de décomposition avancée, {PAWN_pronoun} n'est plus qu'un cadavre ambulant. {PAWN_nameDef} souffre d'une décomposition organique qui affecte les organes suivants :\n\n{ORGANS}\n\nRemplacez-les rapidement pour maintenir {PAWN_nameDef} en bonne santé. Vous pouvez utiliser des organes bioniques ou des organes naturels prélevés sur des donneurs.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>Décomposition organique : {PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>diagnostiquée</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecayUndiagnosedDuplicaton.label>décomposition organique</OrganDecayUndiagnosedDuplicaton.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecayUndiagnosedDuplicaton.description>Maladie dégénérative bactérienne ou virale affectant un seul organe. Incurable, elle n'est pas contagieuse, mais semble frapper au hasard depuis un réservoir naturel inconnu.\n\nCet organe se mettra à dépérir avant de cesser complètement de fonctionner. Remplacez-le par un organe bionique ou naturel.</OrganDecayUndiagnosedDuplicaton.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} montre les premiers signes d'une maladie grave qui entraînera une détérioration rapide de ses organes. {SURGEON_nameDef} ne peut pas encore en déterminer la cause exacte, mais une chose est certaine : {PAWN_nameDef} sera extrêmement malade dans les prochains jours.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} ne peut plus cacher sa maladie. Depuis son clonage, une bonne partie de ses organes ont commencé à se décomposer. {PAWN_pronoun} souffre d'une décomposition organique qui affecte les organes suivants :\n\n{ORGANS}\n\nRemplacez-les rapidement pour maintenir {PAWN_nameDef} en bonne santé. Vous pouvez utiliser des organes bioniques ou des organes naturels prélevés sur des donneurs.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <!-- EN: Organ decay: {PAWN_nameDef} -->
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>Décomposition organique : {PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <!-- EN: diagnosed -->
+  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>diagnostiquée</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
+  
+</LanguageData>

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <!-- Shamblers -->
+  <ShamblerRegenerating>Se régénère avant de se relever.</ShamblerRegenerating>
+  <ShamblerRising>Se relève.</ShamblerRising>
+  <ShamblerStanding>Se tient mollement debout.</ShamblerStanding>
+  <ShamblerShuffling>Marche en traînant les pieds.</ShamblerShuffling>
+  <LetterText_ShamblerGorehulk>Attention, il y a un mastomonstre zombie dans le groupe.</LetterText_ShamblerGorehulk>
+  <LetterText_ShamblerGorehulkPlural>Attention, il y a plusieurs mastomonstres zombies dans le groupe.</LetterText_ShamblerGorehulkPlural>
+  <LetterText_ShamblerChimera>Attention, il y a une chimère zombie dans le groupe.</LetterText_ShamblerChimera>
+  <LetterText_ShamblerChimeraPlural>Attention, il y a plusieurs chimères zombies dans le groupe.</LetterText_ShamblerChimeraPlural>
+
+  <MessageRitualCannotBeMutant>Les non-humains ne peuvent pas prendre part aux rituels.</MessageRitualCannotBeMutant>
+
+  <!-- Revenant -->
+  <LetterLabelRevenantRevealed>Attaque de revenant</LetterLabelRevenantRevealed>
+  <LetterRevenantRevealed>Un revenant a fait son apparition !</LetterRevenantRevealed>
+  <LetterRevenantRevealedFirst>Un revenant a fait son apparition et a pris en chasse l'un de vos colons !</LetterRevenantRevealedFirst> 
+  <LetterLabelRevenantSmearDiscovered>Trace de revenant découverte</LetterLabelRevenantSmearDiscovered>
+  <LetterRevenantSmearDiscovered>{0} a remarqué une flaque sombre au sol. La substance encore fraîche ne semble pas naturelle et dégage une affreuse odeur âcre. Une entité d'un autre monde est passée par ici il y a peu.</LetterRevenantSmearDiscovered>
+  <LetterLabelRevenantKilled>Revenant tué</LetterLabelRevenantKilled>
+  <LetterRevenantKilled>Le revenant est mort ! Les victimes se remettront de son hypnose.\n\nSon corps s'est désintégré, à l'exception de sa colonne vertébrale que vous pouvez étudier ou détruire.</LetterRevenantKilled>
+  <LetterLabelPawnHypnotized>{PAWN_nameDef} {PAWN_gender ? hypnotisé : hypnotisée : hypnotisé(e)}</LetterLabelPawnHypnotized>
+  <LetterPawnHypnotized>un revenant a hypnotisé {PAWN_nameDef}, qui ne cesse de divaguer à propos de visions et d'idées cauchemardesques.\n\nLa mort du revenant mettra fin à son hypnose.\n\nÀ l'aide de ses pouvoirs psychiques, le revenant est capable de se rendre invisible en manipulant la perception des personnes proches. On peut toutefois le traquer en suivant les traces noires qu'il laisse sur son passage. Le revenant deviendra visible s'il est touché par des armes explosives, de la mousse ignifuge, des IEM, du feu ou des fusées disruptives.\n\nTant que le revenant n'aura pas été tué, il continuera à hypnotiser d'autres colons.</LetterPawnHypnotized>
+  <LetterRevenantFleshChunkLabel>Morceau de chair de revenant</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkText>Le revenant blessé a perdu un morceau de chair. Vous pouvez l'analyser pour découvrir comment traquer cette créature.</LetterRevenantFleshChunkText>
+  <LetterRevenantSeenLabel>Revenant aperçu</LetterRevenantSeenLabel>
+  <LetterRevenantSeen>{PAWN_nameDef} a vu un revenant dissimulé !</LetterRevenantSeen>
+  <InTrance>En transe.</InTrance>
+  <LetterLabelRevenantEmergence>Émergence de revenant</LetterLabelRevenantEmergence>
+  <LetterRevenantEmergence>Le revenant vient de sortir de sa colonne vertébrale, dans laquelle il s'était caché ! Éliminez-le avant qu'il prenne la fuite.\n\nAvant de réapparaître, le revenant a muté et adopté une nouvelle biosignature.</LetterRevenantEmergence>
+
+  <!-- Sightstealers -->
+  <LetterLabelSightstealerRevealed>Occulteur découvert</LetterLabelSightstealerRevealed>
+  <LetterSightstealerRevealed>Une abominable créature est sortie de nulle part !</LetterSightstealerRevealed>
+  <MessageSightstealerRevealed>Un occulteur a fait son apparition !</MessageSightstealerRevealed>
+  <LetterLabelSightstealerHowl>Cris d'occulteurs</LetterLabelSightstealerHowl>
+  <LetterSightstealerHowl>Vos colons ont entendu des occulteurs crier au loin.\n\nIl est difficile de déterminer où ils se trouvent et combien ils sont. Ils risquent aussi bien d'attaquer d'un instant à l'autre ou dans plusieurs jours.</LetterSightstealerHowl>
+  <LetterLabelSightstealerHowlBig>Hurlements d'occulteurs</LetterLabelSightstealerHowlBig>
+  <LetterSightstealerHowlBig>Vos colons ont entendu une multitude d'occulteurs pousser des hurlements enragés au loin, comme pour signaler leur venue.\n\n Ils risquent aussi bien d'attaquer d'un instant à l'autre ou dans plusieurs jours.</LetterSightstealerHowlBig>
+
+  <!-- Death Pall -->
+  <LetterLabelDeathPallEnded>Dissipation de la brume funeste</LetterLabelDeathPallEnded> 
+  <LetterDeathPallEnded>La brume porteuse de mort se dissipe. Les cadavres qu'elle a réanimés retrouveront bientôt leur état naturel.</LetterDeathPallEnded>
+  
+  <!-- Pit Gate -->
+  <LetterLabelGateClosing>Fermeture de la fosse</LetterLabelGateClosing>
+  <LetterGateClosing>La fosse se referme ! Son entrée est sur le point de s'effondrer.\n\nL'entrée de la fosse était instable depuis le début et va enfin se fermer pour de bon.</LetterGateClosing>
+  <MustPlaceNextToPitGate>À placer à côté d'une fosse.</MustPlaceNextToPitGate>
+  <PitGateClosedHumanityNote>Fosse fermée</PitGateClosedHumanityNote>
+  <PitGateCollapsing>Effondrement de la fosse</PitGateCollapsing> 
+  <PitGateSettling>Stabilisation de la fosse</PitGateSettling> 
+  <ViewUndercave>Voir la grotte souterraine</ViewUndercave> 
+  <ViewUndercaveDesc>Affichez la carte de la grotte souterraine adjacente.</ViewUndercaveDesc>
+  <ViewSurface>Voir la surface</ViewSurface>
+  <ViewSurfaceDesc>Affichez la carte de la surface adjacente.</ViewSurfaceDesc>
+  <EmergenceWarningLabel>Grondement de la fosse</EmergenceWarningLabel>
+  <EmergenceWarningText>Le sol tremble sous vos pieds et les hurlements inhumains résonnant dans la fosse semblent se rapprocher. Quelque chose va bientôt en sortir.</EmergenceWarningText>
+
+  <!-- Pit Burrow -->
+  <DesignatorFillIn>Combler</DesignatorFillIn>
+  <DesignatorFillInDesc>Comblez cette galerie.</DesignatorFillInDesc>
+
+    <!-- Undercave -->
+  <EnterPitGate>Entrer dans la fosse</EnterPitGate> 
+  <ExitPitGate>Remonter à la surface</ExitPitGate>
+  <LetterLabelGateEntered>Antre d'abominations de chair</LetterLabelGateEntered> 
+  <LetterGateEntered>Dans les profondeurs de la fosse, vous avez découvert un immense réseau de grottes infesté d'abominations de chair.\n\nCes cavernes sont remplies de masses de chair vivante qui vous barrent la route. Attaquez-les pour les détruire.\n\nLe réseau entier semble instable. Si vous découvrez ce qui se trouve derrière ces obstacles de chair, vous parviendrez peut-être à provoquer l'effondrement des galeries et à refermer la fosse.</LetterGateEntered> 
+  <LetterLabelDreadmeldWarning>Tortillements</LetterLabelDreadmeldWarning> 
+  <LetterDreadmeldWarning>En s'approchant de la masse de chair, {PAWN_nameDef} a senti quelque chose se tortiller et palpiter sous sa surface chaude. Une énorme entité vivante se cache derrière ce mur de chair.</LetterDreadmeldWarning> 
+  <LetterLabelUndercaveCollapsing>Grotte souterraine instable</LetterLabelUndercaveCollapsing> 
+  <LetterUndercaveCollapsing>Déstabilisée par la mort de l'amalgore, la masse de chair qui soutenait la caverne a commencé à se détériorer. Il ne faudra pas plus d'une demi-journée pour que l'ensemble du réseau de grottes déstabilisé s'effondre.\n\nSortez de là avant qu'il ne soit trop tard !</LetterUndercaveCollapsing>
+
+  <!-- Holding platform -->
+  <HoldingThing>Confinement</HoldingThing>
+  <RemoveFromPlatform>Libérer {0_labelShort}</RemoveFromPlatform>
+  <RemoveFromPlatformDesc>Libérez l'entité détenue actuellement sur la plateforme.</RemoveFromPlatformDesc>
+  <ReleasingEntity>{GERUND} {TARGETLABEL} de</ReleasingEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  <SelectHoldingPlatform>Sélectionner la plateforme de détention</SelectHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>Fuite d'entités</LetterLabelEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Les entités suivantes ont réussi à s'échapper :\n\n{0}\n\nConstruisez de meilleures salles de confinement pour y remédier. Les entités ont moins de chances de s'échapper des plateformes à la capacité de confinement élevée, qui sont dotées de murs et portes solides, d'un bon éclairage et de dispositifs de confinement spéciaux.</LetterEscapingFromHoldingPlatform> 
+  <HoldingPlatformRequiresStrength>nécessite {0}</HoldingPlatformRequiresStrength>
+  <NoHoldingPlatformsAvailable>Aucune plateforme de détention disponible.</NoHoldingPlatformsAvailable>
+  
+  
+  <!-- Obelisks -->
+  <MutatorObeliskLetterLabel>Activation de l'obélisque</MutatorObeliskLetterLabel>
+  <MutatorObeliskLetter>L'obélisque s'active ! Une énergie sinistre l'enveloppe et fait crépiter l'air alentour. Tout en se préparant à s'autodétruire dans une explosion dévastatrice, il utilise son horrible pouvoir de transformation sur toutes les créatures qu'il détecte.</MutatorObeliskLetter>
+
+  <ObeliskTentacleLetterLabel>Mutation de l'obélisque</ObeliskTentacleLetterLabel>
+  <ObeliskTentacleLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a senti des démangeaisons dans son bras. Quelques instants plus tard, sa peau s'est déchirée et une éruption d'affreuses excroissances de chair a transformé son bras en tentacule !\n\n{PAWN_nameDef}En dehors du sang qu'{PAWN_pronoun} a perdu,  semble indemne.</ObeliskTentacleLetter>
+
+  <ObeliskFleshWhipLetterLabel>Mutation de l'obélisque</ObeliskFleshWhipLetterLabel>
+  <ObeliskFleshWhipLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a senti des démangeaisons dans son bras. Quelques instants plus tard, sa peau s'est brusquement déchirée et une éruption d'affreuses excroissances a transformé son bras en tentacule terminé par un os tranchant !\n\n{PAWN_nameDef}En dehors du sang qu'{PAWN_pronoun} a perdu,  semble indemne. Malgré son aspect hideux, ce tentacule fera une excellente arme de mêlée.</ObeliskFleshWhipLetter>
+
+  <MutatorObeliskFailedArmLetterLabel>Interaction avec l'obélisque</MutatorObeliskFailedArmLetterLabel>
+  <MutatorObeliskFailedArmLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a senti des démangeaisons dans son bras, mais la sensation s'est dissipée au bout de quelques instants.\n\nL'obélisque n'a pas réussi à faire muter {PAWN_nameDef}.</MutatorObeliskFailedArmLetter>
+
+  <ObeliskFleshmassStomachLetterLabel>Mutation de l'obélisque</ObeliskFleshmassStomachLetterLabel>
+  <ObeliskFleshmassStomachLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a soudain senti une douleur vive dans son abdomen lorsque ses tissus se sont mis à muter. Son estomac s'est changé en une masse de chair semi-intelligente. L'acide très concentré qu'il produit est douloureux, mais prévient toute forme d'intoxication alimentaire.</ObeliskFleshmassStomachLetter>
+
+  <MutatorObeliskFailedStomachLetterLabel>Interaction avec l'obélisque</MutatorObeliskFailedStomachLetterLabel>
+  <MutatorObeliskFailedStomachLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a senti des douleurs au niveau de son estomac, mais la sensation s'est dissipée au bout de quelques instants.\n\nL'obélisque n'a pas réussi à faire muter {PAWN_nameDef}.</MutatorObeliskFailedStomachLetter>
+
+  <ObeliskFleshmassLungLetterLabel>Mutation de l'obélisque</ObeliskFleshmassLungLetterLabel>
+  <ObeliskFleshmassLungLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a soudain senti une douleur vive dans sa poitrine lorsque ses poumons se sont mis à gonfler pour se changer en une masse douloureuse de chair semi-intelligente. Comme leurs cellules se régénèrent constamment, ses poumons sont désormais immunisés contre les maladies comme la pourriture pulmonaire et l'asthme.</ObeliskFleshmassLungLetter>
+
+  <MutatorObeliskFailedLungLetterLabel>Interaction avec l'obélisque</MutatorObeliskFailedLungLetterLabel>
+  <MutatorObeliskFailedLungLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a soudain senti une douleur dans sa poitrine, mais la sensation est passée au bout de quelques instants.\n\nL'obélisque n'a pas réussi à faire muter {PAWN_nameDef}.</MutatorObeliskFailedLungLetter>
+
+  <ObeliskAnimalMutationLetterLabel>Mutation de l'obélisque</ObeliskAnimalMutationLetterLabel>
+  <ObeliskAnimalMutationLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a observé une brusque hausse d'énergie. Ce pic coïncide avec le moment où l'obélisque a brutalement altéré la chair de {ANIMAL} pour {ANIMAL_gender ? le : la : le/la} changer en abomination de chair.</ObeliskAnimalMutationLetter>
+
+  <ObeliskTreeMutationLetterLabel>Mutation de l'obélisque</ObeliskTreeMutationLetterLabel>
+  <ObeliskTreeMutationLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a observé une brusque hausse d'énergie. Ce pic coïncide avec le moment où l'obélisque a transformé un arbre voisin en arbre-héraut. Ces arbres monstrueux se nourrissent de chair crue, notamment celle des cadavres qui gisent à proximité.</ObeliskTreeMutationLetter>
+
+  <ObeliskDuplicationLetterLabel>Duplication de l'obélisque</ObeliskDuplicationLetterLabel>
+  <ObeliskDuplicationLetter>Pendant {replace: que {PAWN_nameIndef}; "que (*Name)a"-"qu'(*Name)a"; "que (*Name)e"-"qu'(*Name)e"; "que (*Name)i"-"qu'(*Name)i"; "que (*Name)o"-"qu'(*Name)o"; "que (*Name)u"-"qu'(*Name)u"; "que (*Name)y"-"qu'(*Name)y"; "que (*Name)A"-"qu'(*Name)A"; "que (*Name)E"-"qu'(*Name)E"; "que (*Name)I"-"qu'(*Name)I"; "que (*Name)O"-"qu'(*Name)O"; "que (*Name)U"-"qu'(*Name)U"; "que (*Name)Y"-"qu'(*Name)Y"} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son double ! Cette copie a rejoint votre colonie en prétendant être {PAWN_gender ? le : la : le(la)} {PAWN_gender ? vrai : vraie : vrai(e)} {PAWN_nameDef}.</ObeliskDuplicationLetter>
+
+  <ObeliskDuplicationFailedLetterLabel>Échec de l'obélisque</ObeliskDuplicationFailedLetterLabel>
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef} a tenté de déclencher la duplication de l'obélisque, mais il ne s'est rien produit. Il semble y avoir quelque chose chez {PAWN_objective} qui empêche l'obélisque de {PAWN_gender ? le : la : le(la)} copier.</ObeliskDuplicationFailedLetter>
+  
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} a réussi à déclencher la duplication de l'obélisque.</ObeliskDuplicationSuccessMessage>
+
+  <ObeliskHostileDuplicateLetterLabel>Clone hostile créé par l'obélisque</ObeliskHostileDuplicateLetterLabel>
+  <ObeliskHostileDuplicateLetter>Pendant {replace: que {PAWN_nameIndef}; "que (*Name)a"-"qu'(*Name)a"; "que (*Name)e"-"qu'(*Name)e"; "que (*Name)i"-"qu'(*Name)i"; "que (*Name)o"-"qu'(*Name)o"; "que (*Name)u"-"qu'(*Name)u"; "que (*Name)y"-"qu'(*Name)y"; "que (*Name)A"-"qu'(*Name)A"; "que (*Name)E"-"qu'(*Name)E"; "que (*Name)I"-"qu'(*Name)I"; "que (*Name)O"-"qu'(*Name)O"; "que (*Name)U"-"qu'(*Name)U"; "que (*Name)Y"-"qu'(*Name)Y"} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son clone, qui s'approche avec un regard meurtrier !</ObeliskHostileDuplicateLetter>
+
+  <DuplicatorObeliskLetterLabel>Activation de l'obélisque</DuplicatorObeliskLetterLabel>
+  <DuplicatorObeliskLetter>L'obélisque s'active ! L'air alentour crépite d'énergie. Des copies meurtrières de vos colons ne tarderont pas à apparaître.\n\nFaites attention : de l'énergie instable circule dans l'obélisque, qui risque d'exploser à tout moment.</DuplicatorObeliskLetter>
+
+  <ObeliskAbductorLetterLabel>Disparitions de colons</ObeliskAbductorLetterLabel>
+  <ObeliskAbductorLetter>L'obélisque dénaturé crépite d'énergie tout en déformant l'espace autour de lui. Toutes sortes de créatures commencent à disparaître et se volatiliseront bientôt totalement.\n\nFaites attention : de l'énergie instable circule dans l'obélisque, qui risque d'exploser à tout moment.</ObeliskAbductorLetter>
+  
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} est en train de disparaître</ObeliskAbductedDisappearingLetterLabel>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} a remarqué que l'obélisque dénaturé était entré en activité. De mystérieux mécanismes internes se sont mis en marche, entraînant la disparition progressive {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, qui ne tardera pas à se volatiliser totalement.</ObeliskAbductedDisappearingLetter>
+  
+  <ObeliskAbductedLetterLabel>{PAWN_nameDef} a réapparu</ObeliskAbductedLetterLabel>
+  <ObeliskAbductedLetter>{PAWN_nameDef} a été {PAWN_gender ? téléporté : téléportée : téléporté(e)} dans une pièce étrange où les murs sont faits d'un matériau gris inconnu et l'air semble inerte. {PAWN_pronoun} ne sait pas où {PAWN_pronoun} se trouve ni comment sortir de là.\n\nLa porte à proximité est bloquée, mais il devrait être possible de l'ouvrir avec un peu de force. Faites un clic droit sur les portes bloquées pour les ouvrir.\n\nEn étudiant l'obélisque, les autres colons parviendront peut-être à comprendre ce qui est arrivé à {PAWN_nameDef} et à trouver un moyen de l'aider. Vous pouvez également attaquer l'obélisque, mais cela risque d'entraîner de nouveaux enlèvements.</ObeliskAbductedLetter>
+
+  <MutatorObeliskMutated>{PAWN_nameIndef} s'est {PAWN_gender ? transformé : transformée : transformé(e)} en abomination de chair.</MutatorObeliskMutated>
+  <MutatorObeliskSpawned>Une abomination de chair a jailli du sol.</MutatorObeliskSpawned>
+
+  <ObeliskActivateDesc>Activez totalement l'obélisque dénaturé.</ObeliskActivateDesc>
+  <ObeliskActivateDescWarning>Attention : l'obélisque dénaturé est instable. L'activer totalement entraînera une réaction dangereuse suivie de son autodestruction.</ObeliskActivateDescWarning>
+
+  <ObeliskDeactivateMissingShards>{0} fragments nécessaires pour désactiver</ObeliskDeactivateMissingShards>
+  
+  <!-- Activity / Supression -->
+  <ActivityLevel>Niveau d'activité</ActivityLevel>
+  <IsPsychicallySuppressed>Répression psychique</IsPsychicallySuppressed>
+  <ActivityIncrease>Taux d'augmentation</ActivityIncrease>
+  <NotInSealedRoom>Pas dans une salle de confinement</NotInSealedRoom>
+  <EnergyHarvesting>Ponction d'énergie</EnergyHarvesting>
+  <Unstable>Instable</Unstable>
+  <BaseLevel>Niveau de base</BaseLevel>
+  <IsActive>En activité</IsActive>
+  <Resisted>résister</Resisted>
+  <HealthFactor>Endommagé</HealthFactor>
+  <Deactivated>Désactivé.</Deactivated> <!-- -->
+
+  <CommandSent>{PAWN_labelShort} a été {PAWN_gender ? envoyé : envoyée : envoyé(e)}.</CommandSent>
+  <CannotActivateEntity>Activation de l'entité impossible</CannotActivateEntity>
+  <CannotActivateEntityPlatform>L'entité doit être sur la plateforme</CannotActivateEntityPlatform>
+  
+  <ActivityGizmo>Activité</ActivityGizmo>
+  <ActivitySuppressionTooltipTitle>Répression automatique</ActivitySuppressionTooltipTitle>
+  <ActivitySuppressionTooltipDisabled>La répression automatique est actuellement désactivée. Activez-la pour que les gardiens répriment l'entité {PAWN_labelShort}.</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDesc>Le niveau d'activité de l'entité {0} augmente au fil du temps. Cette augmentation s'accélère lorsque l'entité est blessée ou provoquée.\n\nElle s'activera si son niveau d'activité atteint 100 %.\n\nPour éviter cela, les gardiens peuvent la réprimer en intervenant dès que son activité dépasse le niveau déterminé ({LEVEL}\n\n).Les entités au niveau d'activité plus élevé fournissent davantage de connaissances lorsqu'on les étudie.</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>Ceci détermine si l'entité {PAWN_labelShort} doit être automatiquement réprimée quand son niveau d'activité est inférieur à {LEVEL}.\n\nLa répression automatique est actuellement {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+
+  <!-- Activity Descs -->
+  <ActivityLevelDesc>niveau d'activité</ActivityLevelDesc>
+  <PsychicallySuppressedDesc>répression psychique</PsychicallySuppressedDesc>
+
+  <!-- Entity study -->
+  <CaptureEntity>Capture</CaptureEntity>
+  <CaptureEntityDesc>Capturez {0_definite}. L'entité doit être installée sur une plateforme de détention avant de pouvoir être étudiée.</CaptureEntityDesc>
+  <CancelCapture>Annuler la capture</CancelCapture>
+  <CancelCaptureDesc>Annulez la capture {replace: de {0_definite}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</CancelCaptureDesc>
+  <ReadyToStudy>entité prête pour étude</ReadyToStudy>
+  <NoActiveResearchProject>Aucun projet actif de recherche sur l'Anomalie n'a été sélectionné pour la catégorie de connaissances {0}.</NoActiveResearchProject>
+  <Capturable>Capture possible</Capturable>
+  <RequiresHoldingPlatform>Cette entité doit être capturée sur une plateforme de détention.</RequiresHoldingPlatform>
+  <ChooseNociosphereDest>Choisissez l'endroit où la nociosphère se téléportera.</ChooseNociosphereDest>
+  <TransferEntity>Transférer {0_definite}</TransferEntity>
+  <TransferEntityDesc>Transférez l'entité détenue à une autre plateforme de détention.</TransferEntityDesc>
+  <CancelTransfer>Annuler le transfert</CancelTransfer>
+  <CancelTransferDesc>Annulez le transfert de cette entité à une autre plateforme de détention.</CancelTransferDesc>
+  
+  <!-- Metalhorrors -->
+  <EmergedFrom>Sortie de</EmergedFrom>
+  <Emerging>Apparition d'horreur métallique</Emerging>
+  
+  <ImplantSourceUnknown>Implantation avant l'arrivée dans votre colonie</ImplantSourceUnknown>
+  <InsectImplant>Insectoïde implanteur</InsectImplant>
+  <SleepImplant>Implantation pendant son sommeil par {SOURCE_nameDef}</SleepImplant>
+  <SurgeryImplant>Implantation pendant une opération chirurgicale par {SOURCE_nameDef}</SurgeryImplant>
+  <FoodImplant>Implantation en mangeant un repas préparé par {SOURCE_nameDef}</FoodImplant>
+  <UnnaturalHealingImplant>Implantation lors d'une séance de soins occultes par {SOURCE_nameDef}</UnnaturalHealingImplant>
+  <FeedingImplant>Implantation en mangeant un repas donné par {SOURCE_nameDef}</FeedingImplant>
+
+  <MetalhorrorEmergingLabel>Apparition d'horreur métallique</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingDesc>Une horreur métallique fait son apparition ! Cette créature cauchemardesque est en train de sortir de son hôte en tranchant sa chair et sa peau avec ses lames. L'horreur métallique émerge de :</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingPluralDesc>Des horreurs métalliques font leur apparition ! Ces créatures cauchemardesques sont en train de sortir de leurs hôtes en tranchant leur chair et leur peau avec leurs lames. Les horreurs métalliques émergent de :</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingDescAppended>Ces épouvantables parasites métalliques vivent dans le corps de leur victime et prennent le contrôle de sa raison à l'aide d'un réseau de filaments métalliques qui se propagent jusqu'au cerveau. Ils manipulent ainsi l'esprit de l'hôte et le poussent à infecter d'autres personnes.</MetalhorrorEmergingDescAppended>
+  
+  <MetalhorrorSurgicalInspectionDetails>Infectés et contrôlés par des horreurs métalliques, ces médecins ont menti à propos des résultats de l'examen chirurgical.</MetalhorrorSurgicalInspectionDetails>
+  
+  <MetalhorrorReasonInteraction>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été découverte par {PAWN_nameDef} lors d'une interaction sociale.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInterrogation>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été découverte par {PAWN_nameDef} lors d'un interrogatoire.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonHostDied>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé à la mort de son hôte.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonSurgeryInspected>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été détectée par {PAWN_nameDef} lors d'un examen chirurgical.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonRandom>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé pour une raison inconnue.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonTriedToLeaveMap>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir senti qu'on l'éloignait de la colonie.</MetalhorrorReasonTriedToLeaveMap>
+  
+  <MetalhorrorDetected>Horreur métallique détectée</MetalhorrorDetected>
+  <InteractionDetectedDesc>en discutant avec {INFECTED_nameDef}, {PAWN_nameDef} a remarqué que quelque chose n'allait pas chez {INFECTED_objective} : {INFECTED_pronoun} avait un comportement anormal, produisait des sons étranges en parlant ou avait des vers métalliques à peine visibles dans les yeux. {PAWN_nameDef} soupçonne qu'une horreur métallique a infecté {INFECTED_nameDef}.</InteractionDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} a découvert quelque chose d'étrange en interrogeant {INFECTED_nameDef} : {INFECTED_pronoun} avait un comportement anormal, produisait des sons étranges en parlant ou avait des vers métalliques à peine visibles dans les yeux. {PAWN_nameDef} soupçonne qu'une horreur métallique a infecté {INFECTED_nameDef}.</InterrogationDetectedDesc>
+  
+  <MetalhorrorNoticedDetailsAppended>Les horreurs métalliques sont des parasites qui prennent le contrôle de leur hôte et s'en servent pour infecter d'autres victimes.\n\nElles se développent au fil du temps et sortent du corps de l'hôte lorsqu'elles se rendent compte qu'on les a détectées. L'émergence d'une horreur métallique est un événement horrifiant, mais l'hôte survit généralement.\n\nIl n'existe qu'une seule manière de confirmer qu'une personne est infectée : il faut étudier les morceaux de chair perdus par l'horreur métallique pour identifier sa biosignature, puis procéder à un examen chirurgical mené par un médecin de confiance.\n\nAprès avoir découvert une horreur métallique, il est possible de la forcer à quitter son hôte par le biais de l'examen chirurgical, mais préparez-vous à vous battre.</MetalhorrorNoticedDetailsAppended>
+  
+  <LetterGrayFleshDiscoveredLabel>Chair grisâtre</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} a découvert un morceau de derme charnu ressemblant à de la peau humaine parsemée de petites particules métalliques qui lui donnent une couleur grisâtre. Quelqu'un a dû le perdre par liquéfaction de la chair.\n\nIl se pourrait qu'une personne parmi vous cache quelque chose.\n\nIl existe plusieurs manières de détecter les imposteurs :\n\n{METHODS}\n\nAttention : certains parasites contrôlent l'esprit de leur hôte et peuvent même se transmettre à d'autres victimes.</LetterGrayFleshDiscovered>
+  
+  <LetterInterrogationUnlocked>Le mode d'interaction "interrogatoire" avec les prisonniers est déverrouillé.</LetterInterrogationUnlocked>
+  
+  <LetterGrayFleshMethodOne>Emprisonnez quelqu'un et envoyez un gardien l'interroger au sujet de sa véritable identité. Cette opération peut prendre plusieurs jours.</LetterGrayFleshMethodOne>
+  <LetterGrayFleshMethodTwo>Recueillez davantage de chair grisâtre et analysez-la pour déterminer la biosignature de la menace. Ensuite, procédez à un examen chirurgical pour chercher cette biosignature. Un certain temps peut être nécessaire pour obtenir suffisamment d'échantillons, et l'opération est invasive.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodThree>Exécutez ou bannissez la personne que vous soupçonnez.</LetterGrayFleshMethodThree>
+  
+  <LetterMetalhorrorReawakeningLabel>Réveil d'horreurs métalliques</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakening>Les horreurs métalliques, dont l'hibernation a été perturbée, se réveillent à nouveau !</LetterMetalhorrorReawakening>
+
+  <MessageMetalHorrorDormant>Les horreurs métalliques sont entrées en hibernation. Elles se réveilleront si on les dérange.</MessageMetalHorrorDormant>
+  
+  <MetalhorrorDormant>En hibernation. Se réveillera si on la dérange.</MetalhorrorDormant>
+  
+  <!-- Surgical inspection -->
+  <LetterSurgicallyInspectedLabel>Résultats de l'examen chirurgical</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} a réalisé un examen chirurgical approfondi sur {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} a déclaré n'avoir trouvé aucune anomalie. Cependant, un médecin peut mentir si la vérité risque de lui nuire.</LetterSurgicallyInspectedNothing>
+  
+  <!-- Death refusal -->
+  <DeathRefusalUseSingular>utilisent</DeathRefusalUseSingular>
+  <DeathRefusalUsePlural>utilise</DeathRefusalUsePlural>
+  <SelfResurrecting>Se ressuscite</SelfResurrecting>
+
+  <!-- Harbinger Tree -->
+  <HarbingerTreeConsumption>près d'un arbre-héraut</HarbingerTreeConsumption>
+  <HarbingerTreeSprouted>Un nouvel arbre-héraut a poussé.</HarbingerTreeSprouted>
+  <HarbingerTreeConsuming>Mange de la chair.</HarbingerTreeConsuming>
+  <HarbingerTreeNotConsuming>Mangera les cadavres et la chair placés à proximité.</HarbingerTreeNotConsuming>
+  <ConsumedByHarbingerTree>Se fait dévorer par un arbre-héraut.</ConsumedByHarbingerTree>
+  <FleshConsumption>consommation de chair</FleshConsumption>
+  <CreateCorpseStockpile>Amasser des cadavres</CreateCorpseStockpile>
+  <CreateCorpseStockpileDesc>Aménagez une zone autour de l'arbre-héraut où seront placés les cadavres.\n\nLes arbres-hérauts mangeront les cadavres et la chair crue à proximité. S'ils sont bien nourris, ils pousseront plus vite et donneront naissance à de nouveaux spécimens.</CreateCorpseStockpileDesc>
+
+  <VoidNodeDisabled>L'orbe du néant a été désactivé.</VoidNodeDisabled>
+
+  <!-- Creepjoiners -->
+  <LetterCreeperAppearedAppended>{PAWN_pronoun} veut discuter. Vous pouvez envoyer un colon lui parler.</LetterCreeperAppearedAppended>
+  <LetterCreeperInviteJoins>{PAWN_nameDef} veut se joindre à vous.</LetterCreeperInviteJoins>
+  <LetterCreeperInviteAppend>{PAWN_pronoun} pourrait se révéler utile, mais vous avez l'impression qu'{PAWN_pronoun} cache quelque chose.</LetterCreeperInviteAppend>
+  
+  <AcceptCreeper>Accueillir {PAWN_nameDef}</AcceptCreeper>
+  <CaptureCreeper>Envoyer {SPEAKER_nameDef} capturer {PAWN_nameDef}</CaptureCreeper>
+  <RejectCreeper>Chasser {PAWN_nameDef}</RejectCreeper>
+  
+  <!-- Unnatural healing ability -->
+  <LetterUnnaturalHealingLabel>Soins surnaturels</LetterUnnaturalHealingLabel>
+  <LetterUnnaturalHealing>{CASTER_nameDef} a terminé d'administrer ses soins psychiques à {PAWN_nameDef}.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealingTentacle>Cependant, l'opération a très mal tourné.\n\n{PAWN_nameDef}La peau {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} s'est brusquement déchirée et une éruption d'affreuses excroissances a transformé son bras en tentacule de chair !</LetterUnnaturalHealingTentacle>
+  
+  <!-- Transmutation ability -->
+  <MessageTransmutedItem>{PAWN_nameDef} a transmuté {ORIGINAL} en {TRANSMUTED}.</MessageTransmutedItem>
+  <MessageTransmutedStuff>{PAWN_nameDef} a transmuté {ORIGINAL_labelShortIndef} en {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef} a transmuté {ORIGINAL_labelPluralIndef} en {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
+  
+  <!-- Electroharvester -->
+  <ElectroharvesterNoEntity>Aucune entité détenue.</ElectroharvesterNoEntity>
+  <ElectroharvesterNoPlatform>Aucun lien à une plateforme de détention.</ElectroharvesterNoPlatform>
+  
+  <!-- Fleshmass Heart -->
+  <FleshmassHeartInvulnerable>Invulnérable. Analysez les nodules neuronaux de la masse de chair pour le détruire.</FleshmassHeartInvulnerable>
+  <FleshmassHeartGrowing>Masse de chair en expansion.</FleshmassHeartGrowing>
+  <FleshmassHeartCollecting>Recueille de la biomasse pour sa prochaine poussée de croissance...</FleshmassHeartCollecting>
+  <MessageHeartAttack>Le cœur de la masse de chair se convulse !</MessageHeartAttack>
+  <LetterLabelFleshmassHeartDestroyed>Cœur de la masse de chair vaincu</LetterLabelFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>Après la destruction du cœur de la masse de chair, il ne reste plus que son noyau : un amalgame de chair et d'archotechnologie qui reste fonctionnel malgré les dégâts qu'il a subis. Bien que la masse de chair ait commencé à se décomposer, le noyau continue à grandir et à muter.\n\nVous pouvez prendre le noyau pour l'étudier ou le détruire pour mettre fin à ce cauchemar. Si vous le laissez tel quel, il risque de reformer un cœur de masse de chair.</LetterFleshmassHeartDestroyed>
+  <NerveBundleGrewMessage>Le cœur de la masse de chair a formé un nouvel amas nerveux.</NerveBundleGrewMessage>
+  <NeuralLumpDroppedMessage>Un nodule neuronal est tombé de l'amas nerveux. Analysez-le pour en apprendre davantage sur le cœur de la masse de chair.</NeuralLumpDroppedMessage>
+  <DestroyHeartDisabled>Vous devez recueillir et analyser des nodules neuronaux de masse de chair. Nodules analysés :</DestroyHeartDisabled>
+  <SpitterAttacking>Un cracheur de masse de chair attaque !</SpitterAttacking>
+  <SpitterGatheringSpit>Amasse de l'acide. Prêt dans</SpitterGatheringSpit>
+  <SpitterReadyToSpit>Prêt à cracher de l'acide.</SpitterReadyToSpit>
+
+  <ActiveFleshmassInspect>Masse de chair active. Peut donner naissance à des abominations de chair si elle est détruite.</ActiveFleshmassInspect>
+
+  <!-- Misc -->
+  <LetterLabelFleshTentacleAttack>Attaque de tentacule de chair</LetterLabelFleshTentacleAttack>
+  <LetterFleshTentacleAttack>l'opération {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} s'est bien passée, mais son tentacule de chair sectionné s'est mis à attaquer !</LetterFleshTentacleAttack>
+  <Biosignature>Biosignature</Biosignature>
+  <BlissLobotomy>Lobotomie béatifiante</BlissLobotomy>
+  <HP>pv</HP>
+  <Analyzed>analysés</Analyzed>
+  
+  <MessageShardDropped>{0_gender ? un : une : un(e)} {0} a perdu un fragment d'archotechnologie noire. vous pouvez le récupérer pour vous en servir.</MessageShardDropped>
+  
+  <!-- Blood rain -->
+  <Berserk_BloodRain>La pluie sanglante a fait entrer {0} dans une rage furieuse !</Berserk_BloodRain>
+  <Manhunter_BloodRain>La pluie sanglante a fait entrer {0} dans une rage prédatrice !</Manhunter_BloodRain>
+  <MentalBreakReason_BloodRage>C'est arrivé à cause de l'exacerbation de sa rage sanguinaire.</MentalBreakReason_BloodRage>
+  
+  <!-- Unnatural corpses -->
+  <LetterLabelCorpseDisappeared>Disparition du cadavre</LetterLabelCorpseDisappeared>
+  <LetterCorpseDisappeared>Le cadavre anormal a disparu.</LetterCorpseDisappeared>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} commence à retrouver son calme.</LetterCorpseDisappearedPawnAliveAppend>
+
+  <LetterLabelCorpseReappeared>Apparition de cadavre</LetterLabelCorpseReappeared>
+  <LetterCorpseReappeared>Le cadavre ressemblant à {PAWN_nameDef} a refait son apparition comme par enchantement.</LetterCorpseReappeared>
+  
+  <MessageCorpseEscaped>Le cadavre ressemblant à {PAWN_nameDef} à réussi à s'échapper de son confinement ({CONTAINER_labelShort}).</MessageCorpseEscaped>
+  <MessageUnnaturalCorpseResurrect>La réanimation {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a échoué. Aucune réaction.</MessageUnnaturalCorpseResurrect>
+  <MessagePawnFainted>{PAWN_nameDef} a perdu connaissance en voyant le cadavre anormal.</MessagePawnFainted>
+  <MessageAwokenReappeared>Le cadavre anormal est apparu près {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} et s'approche !</MessageAwokenReappeared>
+  <MessageAwokenVanished>Le cadavre anormal a disparu. Il reviendra plus tard pour s'en prendre à {PAWN_nameDef}.</MessageAwokenVanished>
+  <MessageAwokenAttacking>Le cadavre déchaîné attaque {PAWN_nameDef} !</MessageAwokenAttacking>
+  <MessageAwokenKilledVictim>Le cadavre déchaîné a détruit le cerveau {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</MessageAwokenKilledVictim>
+  <MessageAwokenDisappeared>Le cadavre déchaîné a disparu.</MessageAwokenDisappeared>
+
+  <MentalBreakReason_MysteriousCorpse>C'est arrivé à cause de la présence d'un cadavre anormal.</MentalBreakReason_MysteriousCorpse>
+
+  <UnnaturalCorpseStudyLetter>Progression de l'étude du cadavre anormal</UnnaturalCorpseStudyLetter>
+  <UnnaturalCorpseStudyLetterDesc>En étudiant le cadavre anormal, vous avez découvert que son corps contient un fragment d'archotechnologie qui le lie psychiquement à {VICTIM_nameDef}. S'il est détruit, il se reformera puis se téléportera à proximité {replace: de {VICTIM_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, quelle que soit la distance. \n\n{RESEARCHER_nameDef} pense qu'il est possible de se débarrasser du cadavre de manière permanente, mais doit poursuivre ses recherches pour trouver comment faire.</UnnaturalCorpseStudyLetterDesc>
+
+  <UnnaturalCorpseStudyCompletedLetter>Étude du cadavre anormal terminée</UnnaturalCorpseStudyCompletedLetter>
+  <UnnaturalCorpseStudyCompletedLetterDesc>En étudiant le cadavre anormal, vous avez découvert comment retirer le fragment d'archotechnologie sans danger, ce qui l'empêchera de tourmenter psychiquement {VICTIM_nameDef}. Cependant, vous ne pourrez pas l'étudier davantage.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  <UnnaturalCorpseDeactivatedLetter>Fragment extrait du cadavre</UnnaturalCorpseDeactivatedLetter>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} a extrait un fragment d'archotechnologie du cadavre anormal. Le corps s'est alors mis à gonfler avant d'exploser dans une gerbe de sang et de chair.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} se sent déjà mieux.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  <UnnaturalCorpseDeactivate>Détruire le cadavre anormal</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivateDesc>Détruisez le cadavre anormal de manière permanente.</UnnaturalCorpseDeactivateDesc>
+  <UnnaturalCorpseGuiLabel>Choisissez qui va le détruire.</UnnaturalCorpseGuiLabel>
+  <UnnaturalCorpseJobString>détruire</UnnaturalCorpseJobString>
+  <UnnaturalCorpseActivatingEnroute>détruit {0}</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivating>détruit {0} : {1} s</UnnaturalCorpseActivating>
+  
+  <UnnaturalCorpseAwakeningLetter>Cadavre anormal</UnnaturalCorpseAwakeningLetter>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef} sent que le cadavre anormal gagne rapidement en force. Une abominable conscience se manifeste en lui.\n\nQuelque chose de terrible se produira dans les prochains jours.</UnnaturalCorpseAwakeningLetterDesc>
+
+  <UnnaturalCorpseAwokenLetter>Cadavre déchaîné</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetterDesc>Le cadavre anormal s'est animé et se dirige vers {PAWN_nameDef} !\n\nLe cadavre suivra incessamment {PAWN_nameDef}, où qu'{PAWN_pronoun} aille.\n\nVous devez le détruire immédiatement.</UnnaturalCorpseAwokenLetterDesc>
+
+  <UnnaturalCorpseAwokenDefeatedLetter>Cadavre anormal détruit !</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>Le cadavre anormal qui poursuivait {PAWN_nameDef} a été vaincu !\n\nIl ne tourmentera plus sa victime.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  <!-- Golden Cube -->
+  <MessageGoldenCubeSeverityIncreased>l'obsession {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} pour le cube doré s'est intensifiée.</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort} ressent les effets du sevrage du cube.</MessageGoldenCubeWithdrawal>
+  <MessageGoldenCubeWithdrawalIncreased>les symptômes de sevrage {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} ont empiré.</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeInterest>le cube doré suscite la curiosité {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</MessageGoldenCubeInterest>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} est en colère après que sa sculpture de cube a été détruite. {PAWN_pronoun} pourrait avoir un accès de violence.</MessageGoldenCubeSculptureDestroyed>
+  
+  <CannotDisableCube>{PAWN_labelShort} refuse de désactiver le cube doré.</CannotDisableCube>
+  
+  <LetterLabelGoldenCubeComa>Coma du cube : {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  <LetterGoldenCubeComa>le syndrome de sevrage a fait tomber {PAWN_labelShort} dans le coma. {PAWN_pronoun} restera dans cet état jusqu'à ce que la liaison psychique du cube doré soit rompue.</LetterGoldenCubeComa>
+  
+  <MentalBreakReason_CubeSculpting>C'est arrivé à cause de l'obsession {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} pour le cube.</MentalBreakReason_CubeSculpting>
+  
+  <CubeMaterialDirt>terre</CubeMaterialDirt>
+  <CubeMaterialStone>pierre</CubeMaterialStone>
+  <CubeMaterialSand>sable</CubeMaterialSand>
+  <CubeMaterialScrap>ferraille</CubeMaterialScrap>
+  
+  <ReportBuildingCubeEnroute>crée une sculpture.</ReportBuildingCubeEnroute>
+  
+  <!-- Slaughter ability -->
+  <MessageSlaughterNoFlesh>Abattage impossible : {PAWN_labelShort} n'a pas de chair.</MessageSlaughterNoFlesh>
+  <MessageSlaughterTooBig>Abattage : {PAWN_labelShort} est {0_gender ? grand : grande : grand(e)}.</MessageSlaughterTooBig>
+  
+  <!-- Labyrinth -->
+  <GeneratingLabyrinth>Entre dans le labyrinthe</GeneratingLabyrinth>
+  <MessagePawnVanished>{PAWN_nameDef} a disparu.</MessagePawnVanished>
+  <MessagePawnReappeared>{PAWN_nameDef} a réapparu.</MessagePawnReappeared>
+  
+  <FloorEtchingsInspectorExit>Direction de la sortie</FloorEtchingsInspectorExit>
+  
+  <LetterLabelObeliskDiscovered>Obélisque dénaturé</LetterLabelObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} a découvert un grand obélisque qui semble presque identique à celui qui l'a {PAWN_gender ? amené : amenée : amené(e)} ici. En l'activant, {PAWN_nameDef} parviendra peut-être à retourner d'où {PAWN_pronoun} vient.\n\nSélectionnez {PAWN_nameDef} et faites un clic droit sur l'obélisque pour l'activer.</LetterObeliskDiscovered>
+  
+  <LetterLabelFloorEtchings>Gravures sur le sol</LetterLabelFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} a réussi à déchiffrer les gravures sur le sol.\n\n{RAMBLINGS}\n\nElles semblent indiquer qu'une sortie se trouve au {DIRECTION}.</LetterFloorEtchings>
+
+  <LetterLabelFloorEtchingRamblings>Gravures sur le sol</LetterLabelFloorEtchingRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef} a réussi à déchiffrer les gravures sur le sol.</LetterFloorEtchingsRamblings>
+
+  <LetterLabelLabyrinthExit>Retour des colons</LetterLabelLabyrinthExit>
+  <LetterLabyrinthExit>L'obélisque a ramené les colons enlevés, puis s'est volatilisé peu après.\n\nAttention, d'autres créatures pourraient avoir été ramenées également.</LetterLabyrinthExit>
+
+  <GrayDoorJammed>Bloquée, doit être forcée.</GrayDoorJammed>
+  <ActivatedByProximity>S'active à proximité.</ActivatedByProximity>
+
+  <!-- Void monolith -->
+  <MonolithActivateDisabledPawns>Aucun colon disponible.</MonolithActivateDisabledPawns>
+  <VoidMonolithInvestigatedText>Le monolithe en métal sombre est chaud au toucher et {PAWN_nameDef} a l'impression d'entendre un léger bourdonnement en émaner. Les lignes tracées sur sa surface poussiéreuse semblent remuer en prenant des formes perturbantes.\n\n{PAWN_nameDef} se concentre sur ces formes pour tenter de les comprendre.\n\nAlors que le bourdonnement s'intensifie, les formes commencent à envahir la vision {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, mais la surface ne change pas. De l'énergie se propage dans l'espace vide alentour. Une forme noire apparaît dans son esprit.\n\nL'Anomalie s'éveille...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigate>Continuer à se concentrer sur l'Anomalie</VoidMonolithInvestigate>
+  <VoidMonolithWalkAway>Partir</VoidMonolithWalkAway>
+  <VoidMonolithViewQuest>Voir la quête</VoidMonolithViewQuest>
+  <VoidMonolithViewResearch>Voir les recherches sur l'Anomalie</VoidMonolithViewResearch>
+  <CurrentMonolithLevel>Niveau actuel du monolithe</CurrentMonolithLevel>
+  <VoidMonolithUndiscovered>Menez l'enquête pour en apprendre davantage.</VoidMonolithUndiscovered>
+  <VoidMonolithRequiredEntityCategory>Pour faire passer le monolithe à l'étape suivante, vous devez découvrir {0} entités de niveau {1}.</VoidMonolithRequiredEntityCategory>
+  <DiscoveredCount>Entités découvertes : {0}</DiscoveredCount>
+  <VoidMonolithAllEntitiesDiscovered>Entités requises découvertes.</VoidMonolithAllEntitiesDiscovered>
+  <VoidMonolithRequiresDiscovery>Nécessaire pour augmenter le niveau</VoidMonolithRequiresDiscovery>
+  <VoidMonolithRequiresDiscoveryShort>Entités non découvertes</VoidMonolithRequiresDiscoveryShort>
+  <VoidMonolithRequiresCategory>Vous devez découvrir {0} entités {1} du monolithe.</VoidMonolithRequiresCategory>
+  <VoidMonolithVisionLabel>Vision troublante</VoidMonolithVisionLabel>
+  <VoidMonolithVisionText>{PAWN_nameDef} a fait un rêve étrange dans lequel {PAWN_pronoun} a vu une forme noire se déployer dans l'espace et le temps en engloutissant tout sur son passage. Cette forme provenait d'un monolithe presque effondré à proximité.\n\nDepuis son réveil, {PAWN_nameDef} a l'impression que le monolithe l'appelle.</VoidMonolithVisionText>
+  <VoidMonolithChooseActivator>Choisissez qui doit s'en charger.</VoidMonolithChooseActivator>
+  <VoidMonolithActivatorDowned>Cible à terre</VoidMonolithActivatorDowned>
+  <VoidMonolithActivatorMentalState>Cible dans un état mental</VoidMonolithActivatorMentalState>
+  <VoidMonolithActivatorBusy>Cible occupée</VoidMonolithActivatorBusy>
+  <VoidMonolithActivatorIncapable>Cible inapte</VoidMonolithActivatorIncapable>
+  <MonolithArrivalLabel>Arrivée du monolithe</MonolithArrivalLabel>
+  <MonolithArrivalText>En interagissant avec le signal psychique, vous avez fait apparaître une étrange structure.</MonolithArrivalText>
+  <MonolithArrivalTextExt>Elle ressemble à s'y méprendre au monolithe que vous avez déjà vu.</MonolithArrivalTextExt>
+  <CantActivateMonolith>Action impossible : {0} le monolithe</CantActivateMonolith>
+
+  <MonolithTwistingAlert>Transformation du monolithe</MonolithTwistingAlert>
+  <MonolithTwistingExplanation>Le monolithe s'est mis à changer en réaction à votre présence. Sa transformation sera bientôt terminée, préparez-vous pour ce qui vous attend ensuite.</MonolithTwistingExplanation>
+  <MonolithAutoActivatingLabel>Monolithe enfoui</MonolithAutoActivatingLabel>
+  <MonolithAutoActivatingText>Une vague d'effroi s'est abattue sur vos colons lorsque le monolithe enfoui est entré en activité. Peu à peu, il commence à se reconfigurer pour se changer en quelque chose de nouveau.\n\nLe processus ne prendra que quelques jours. Préparez-vous pour ce qui vous attend ensuite.</MonolithAutoActivatingText>
+  <MonolithAutoActivatedLabel>Monolithe du néant</MonolithAutoActivatedLabel>
+  <MonolithAutoActivatedText>Le monolithe a presque achevé sa transformation...</MonolithAutoActivatedText>
+
+  <LetterLabelGrayPallDescending>Brume grise</LetterLabelGrayPallDescending>
+  <LetterGrayPallDescending>Un épais brouillard s'est abattu sur cette zone. Il a l'odeur d'une chose ancienne et, étrangement, pique la peau. Sa couleur grise anormale suscite l'effroi de ceux qui le voient.</LetterGrayPallDescending>
+
+  <!-- Void Awakening -->
+  <VoidAwakeningConfirmationText>Le réveil du monolithe du néant plongera votre colonie dans les ténèbres pendant plusieurs jours et attirera de puissantes entités. Veillez à bien vous préparer :\n\n- Faites des réserves de nourriture, de matériaux de construction et d'armes.\n- Vérifiez que votre colonie est bien éclairée et dispose de suffisamment d'énergie. Ne dépendez pas des panneaux solaires.\n- Veillez à ce que votre colonie soit bien défendue et que vos colons soient prêts à se battre.\n\nUne fois que vous aurez réveillé le monolithe du néant, vous ne pourrez plus revenir en arrière.\n\nVoulez-vous vraiment continuer ?</VoidAwakeningConfirmationText>
+  <VoidNodeLetter>Une sphère d'énergie psychique crépitante s'élève devant {PAWN_nameDef}. Sa surface se gonfle et se tord en déformant l'espace autour d'elle.\n\n{PAWN_nameDef} la sent dans son esprit, plus profondément que n'importe quelle sensation normale. Elle défie la logique et l'envoie dériver dans le néant. {PAWN_pronoun} se tient sur le rivage d'un océan infini d'énergie noire qui l'invite à s'y baigner.\n\n{PAWN_nameDef} parvient à reprendre ses esprits.\n\nNon loin, des dispositifs d'archotechnologie sont reliés à la sphère pour l'alimenter. {PAWN_nameDef} pourrait perturber les connecteurs fragiles pour rompre ce lien entre les mondes et mettre fin aux phénomènes terrifiants qui assaillent votre colonie.\n\n{PAWN_pronoun} pourrait aussi pénétrer dans le néant de la sphère. Personne ne sait ce qui se trouve au-delà ni quels sombres pouvoirs un acte aussi insensé pourrait rapporter.</VoidNodeLetter>
+  <VoidNodeDisrupt>Rompre le lien</VoidNodeDisrupt>
+  <VoidNodeEmbrace>Embrasser le néant</VoidNodeEmbrace>
+  <VoidNodePostpone>Décider plus tard</VoidNodePostpone>
+  <DisruptTheLinkCredits>Les flux psychiques se déstabilisent et les machines archotechnologiques se mettent à hurler. Le néant tourbillonnant vacille. {PAWN_nameDef} le sent simultanément déborder au-delà de ses limites et s'effondrer sur lui-même.\n\nLa grotte métallique commence à se transformer pour devenir la cavité d'un cœur gigantesque. Avant même d'avoir le temps de pousser un cri, {PAWN_nameDef} disparaît.\n\n{PAWN_nameDef}{PAWN_pronoun} a rejeté le néant.\n\n{PAWN_possessive}Son histoire continue...</DisruptTheLinkCredits>
+  <EmbraceTheVoidCredits>quand {PAWN_nameDef} pénètre dans le néant, l'océan noir l'engloutit en submergeant tous ses sens, en imprégnant chacune des cellules de son corps et chacune des pensées de son esprit.\n\nL'attention de l'orbe du néant s'est détournée du monde pour se concentrer sur un seul individu. Les structures du néant hurlent, arrachées à leurs fondations surnaturelles, puis disparaissent.\n\n{PAWN_nameDef} a embrassé le néant.\n\n{PAWN_possessive}Son histoire se poursuit...</EmbraceTheVoidCredits>
+  <StructureActivatedMessage>{PAWN_nameDef} a terminé d'activer {STRUCTURE_definite}</StructureActivatedMessage>
+  <StructuresActivatedAlertLabel>Structures activées</StructuresActivatedAlertLabel>
+  <StructuresActivatedAlertDescription>Activez les structures du néant pour achever l'éveil du monolithe.</StructuresActivatedAlertDescription>
+  <GleamingMonolithInterrupted>le lien {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} avec le monolithe du néant a été rompu. Il faut l'activer à nouveau.</GleamingMonolithInterrupted>
+
+  <!-- HediffComp_GiveLovinMTBFactor -->
+  <IncreasesChanceOfLovin>Augmente les chances de tomber amoureux.</IncreasesChanceOfLovin>
+
+  <UnnaturalCorpse>Cadavre anormal {replace: de {0_label}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</UnnaturalCorpse>
+
+  <!-- Studiable -->
+  <KnowledgeFactorOutdoors>Les études rapportent moins de connaissances</KnowledgeFactorOutdoors>
+
+  <!-- Unnatural darkness -->
+  <EmergenceIn>Apparition dans {0}</EmergenceIn>
+  <EmergenceInDesc>Quelque chose sortira du sol dans {0}.</EmergenceInDesc>
+  
+  <!-- Bioferrite harvester -->
+  <BioferriteHarvesterContained>Bioferrite contenue</BioferriteHarvesterContained>
+  <BioferriteHarvesterPerDay>par jour</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterEjectContents>Éjecter le contenu</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContentsDesc>Éjectez toute la {0} par terre.</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterToggleUnloading>Activer/Désactiver le déchargement de bioferrite</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloadingDesc>Si cette option est activée, les colons déchargeront automatiquement la bioferrite lorsque le récolteur sera plein.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  <!-- Proximity detector -->
+  <ProximityDetectorCreatureDetected>Créature invisible détectée.</ProximityDetectorCreatureDetected>
+  
+  <!-- Frenzy inducer -->
+  <FrenzyInducerEffectDescription>Génère un champ de frénésie.</FrenzyInducerEffectDescription>
+  <MentalBreakReason_FrenzyInducer>C'est arrivé à cause de l'influence d'un inducteur de frénésie.</MentalBreakReason_FrenzyInducer>
+  
+  <!-- Sleep suppressor -->
+  <SleepSuppressorEffectDescription>pulsation psychique d'insomnie.</SleepSuppressorEffectDescription>
+  
+  <!-- Devourer -->
+  <DigestedBy>Se fait digérer par {0_labelShort}.</DigestedBy>
+
+  <!-- Chimeras -->
+  <MessageChimeraModeChangeSingular>La chimère {0}.</MessageChimeraModeChangeSingular>
+  <MessageChimeraModeChangePlural>Les chimères {0}nt.</MessageChimeraModeChangePlural>
+  <MessageChimeraWithdrawing>se replie</MessageChimeraWithdrawing>
+
+  <LetterChimerasAttackingLabel>Attaque de chimères</LetterChimerasAttackingLabel>
+  <LetterChimerasAttacking>Les chimères sont passées à l'attaque !</LetterChimerasAttacking>\n\n</LanguageData>
