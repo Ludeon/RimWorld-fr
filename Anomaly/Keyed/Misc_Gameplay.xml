@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <!-- Shamblers -->
@@ -117,7 +117,7 @@
   <ObeliskTreeMutationLetter>En interagissant avec l'obélisque, {PAWN_nameDef} a observé une brusque hausse d'énergie. Ce pic coïncide avec le moment où l'obélisque a transformé un arbre voisin en arbre-héraut. Ces arbres monstrueux se nourrissent de chair crue, notamment celle des cadavres qui gisent à proximité.</ObeliskTreeMutationLetter>
 
   <ObeliskDuplicationLetterLabel>Duplication de l'obélisque</ObeliskDuplicationLetterLabel>
-  <ObeliskDuplicationLetter>Pendant {replace: que {PAWN_nameIndef}; "que (*Name)a"-"qu'(*Name)a"; "que (*Name)e"-"qu'(*Name)e"; "que (*Name)i"-"qu'(*Name)i"; "que (*Name)o"-"qu'(*Name)o"; "que (*Name)u"-"qu'(*Name)u"; "que (*Name)y"-"qu'(*Name)y"; "que (*Name)A"-"qu'(*Name)A"; "que (*Name)E"-"qu'(*Name)E"; "que (*Name)I"-"qu'(*Name)I"; "que (*Name)O"-"qu'(*Name)O"; "que (*Name)U"-"qu'(*Name)U"; "que (*Name)Y"-"qu'(*Name)Y"} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son double ! Cette copie a rejoint votre colonie en prétendant être {PAWN_gender ? le : la : le(la)} {PAWN_gender ? vrai : vraie : vrai(e)} {PAWN_nameDef}.</ObeliskDuplicationLetter>
+  <ObeliskDuplicationLetter>Pendant que {PAWN_nameIndef} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son double ! Cette copie a rejoint votre colonie en prétendant être {PAWN_gender ? le : la : le(la)} {PAWN_gender ? vrai : vraie : vrai(e)} {PAWN_nameDef}.</ObeliskDuplicationLetter>
 
   <ObeliskDuplicationFailedLetterLabel>Échec de l'obélisque</ObeliskDuplicationFailedLetterLabel>
   <ObeliskDuplicationFailedLetter>{PAWN_nameDef} a tenté de déclencher la duplication de l'obélisque, mais il ne s'est rien produit. Il semble y avoir quelque chose chez {PAWN_objective} qui empêche l'obélisque de {PAWN_gender ? le : la : le(la)} copier.</ObeliskDuplicationFailedLetter>
@@ -125,7 +125,7 @@
   <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} a réussi à déclencher la duplication de l'obélisque.</ObeliskDuplicationSuccessMessage>
 
   <ObeliskHostileDuplicateLetterLabel>Clone hostile créé par l'obélisque</ObeliskHostileDuplicateLetterLabel>
-  <ObeliskHostileDuplicateLetter>Pendant {replace: que {PAWN_nameIndef}; "que (*Name)a"-"qu'(*Name)a"; "que (*Name)e"-"qu'(*Name)e"; "que (*Name)i"-"qu'(*Name)i"; "que (*Name)o"-"qu'(*Name)o"; "que (*Name)u"-"qu'(*Name)u"; "que (*Name)y"-"qu'(*Name)y"; "que (*Name)A"-"qu'(*Name)A"; "que (*Name)E"-"qu'(*Name)E"; "que (*Name)I"-"qu'(*Name)I"; "que (*Name)O"-"qu'(*Name)O"; "que (*Name)U"-"qu'(*Name)U"; "que (*Name)Y"-"qu'(*Name)Y"} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son clone, qui s'approche avec un regard meurtrier !</ObeliskHostileDuplicateLetter>
+  <ObeliskHostileDuplicateLetter>Pendant que {PAWN_nameIndef} interagissait avec l'obélisque, celui-ci s'est mis à rayonner d'énergie et a émis un flash lumineux. {PAWN_nameDef} s'est alors {PAWN_gender ? retrouvé : retrouvée : retrouvé(e)} face à son clone, qui s'approche avec un regard meurtrier !</ObeliskHostileDuplicateLetter>
 
   <DuplicatorObeliskLetterLabel>Activation de l'obélisque</DuplicatorObeliskLetterLabel>
   <DuplicatorObeliskLetter>L'obélisque s'active ! L'air alentour crépite d'énergie. Des copies meurtrières de vos colons ne tarderont pas à apparaître.\n\nFaites attention : de l'énergie instable circule dans l'obélisque, qui risque d'exploser à tout moment.</DuplicatorObeliskLetter>
@@ -134,7 +134,7 @@
   <ObeliskAbductorLetter>L'obélisque dénaturé crépite d'énergie tout en déformant l'espace autour de lui. Toutes sortes de créatures commencent à disparaître et se volatiliseront bientôt totalement.\n\nFaites attention : de l'énergie instable circule dans l'obélisque, qui risque d'exploser à tout moment.</ObeliskAbductorLetter>
   
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} est en train de disparaître</ObeliskAbductedDisappearingLetterLabel>
-  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} a remarqué que l'obélisque dénaturé était entré en activité. De mystérieux mécanismes internes se sont mis en marche, entraînant la disparition progressive {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, qui ne tardera pas à se volatiliser totalement.</ObeliskAbductedDisappearingLetter>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} a remarqué que l'obélisque dénaturé était entré en activité. De mystérieux mécanismes internes se sont mis en marche, entraînant la disparition progressive de {PAWN_nameDef}, qui ne tardera pas à se volatiliser totalement.</ObeliskAbductedDisappearingLetter>
   
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} a réapparu</ObeliskAbductedLetterLabel>
   <ObeliskAbductedLetter>{PAWN_nameDef} a été {PAWN_gender ? téléporté : téléportée : téléporté(e)} dans une pièce étrange où les murs sont faits d'un matériau gris inconnu et l'air semble inerte. {PAWN_pronoun} ne sait pas où {PAWN_pronoun} se trouve ni comment sortir de là.\n\nLa porte à proximité est bloquée, mais il devrait être possible de l'ouvrir avec un peu de force. Faites un clic droit sur les portes bloquées pour les ouvrir.\n\nEn étudiant l'obélisque, les autres colons parviendront peut-être à comprendre ce qui est arrivé à {PAWN_nameDef} et à trouver un moyen de l'aider. Vous pouvez également attaquer l'obélisque, mais cela risque d'entraîner de nouveaux enlèvements.</ObeliskAbductedLetter>
@@ -178,7 +178,7 @@
   <CaptureEntity>Capture</CaptureEntity>
   <CaptureEntityDesc>Capturez {0_definite}. L'entité doit être installée sur une plateforme de détention avant de pouvoir être étudiée.</CaptureEntityDesc>
   <CancelCapture>Annuler la capture</CancelCapture>
-  <CancelCaptureDesc>Annulez la capture {replace: de {0_definite}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</CancelCaptureDesc>
+  <CancelCaptureDesc>Annulez la capture de {0_definite}.</CancelCaptureDesc>
   <ReadyToStudy>entité prête pour étude</ReadyToStudy>
   <NoActiveResearchProject>Aucun projet actif de recherche sur l'Anomalie n'a été sélectionné pour la catégorie de connaissances {0}.</NoActiveResearchProject>
   <Capturable>Capture possible</Capturable>
@@ -208,12 +208,12 @@
   
   <MetalhorrorSurgicalInspectionDetails>Infectés et contrôlés par des horreurs métalliques, ces médecins ont menti à propos des résultats de l'examen chirurgical.</MetalhorrorSurgicalInspectionDetails>
   
-  <MetalhorrorReasonInteraction>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été découverte par {PAWN_nameDef} lors d'une interaction sociale.</MetalhorrorReasonInteraction>
-  <MetalhorrorReasonInterrogation>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été découverte par {PAWN_nameDef} lors d'un interrogatoire.</MetalhorrorReasonInterrogation>
-  <MetalhorrorReasonHostDied>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé à la mort de son hôte.</MetalhorrorReasonHostDied>
-  <MetalhorrorReasonSurgeryInspected>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir été détectée par {PAWN_nameDef} lors d'un examen chirurgical.</MetalhorrorReasonSurgeryInspected>
-  <MetalhorrorReasonRandom>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé pour une raison inconnue.</MetalhorrorReasonRandom>
-  <MetalhorrorReasonTriedToLeaveMap>l'horreur métallique {replace: de {INFECTED_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a émergé après avoir senti qu'on l'éloignait de la colonie.</MetalhorrorReasonTriedToLeaveMap>
+  <MetalhorrorReasonInteraction>L'horreur métallique de {INFECTED_nameDef} a émergé après avoir été découverte par {PAWN_nameDef} lors d'une interaction sociale.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInterrogation>L'horreur métallique de {INFECTED_nameDef} a émergé après avoir été découverte par {PAWN_nameDef} lors d'un interrogatoire.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonHostDied>L'horreur métallique de {INFECTED_nameDef} a émergé à la mort de son hôte.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonSurgeryInspected>L'horreur métallique de {INFECTED_nameDef} a émergé après avoir été détectée par {PAWN_nameDef} lors d'un examen chirurgical.</MetalhorrorReasonSurgeryInspected>
+  <MetalhorrorReasonRandom>L'horreur métallique de {INFECTED_nameDef} a émergé pour une raison inconnue.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonTriedToLeaveMap>L'horreur métallique de {INFECTED_nameDef} a émergé après avoir senti qu'on l'éloignait de la colonie.</MetalhorrorReasonTriedToLeaveMap>
   
   <MetalhorrorDetected>Horreur métallique détectée</MetalhorrorDetected>
   <InteractionDetectedDesc>en discutant avec {INFECTED_nameDef}, {PAWN_nameDef} a remarqué que quelque chose n'allait pas chez {INFECTED_objective} : {INFECTED_pronoun} avait un comportement anormal, produisait des sons étranges en parlant ou avait des vers métalliques à peine visibles dans les yeux. {PAWN_nameDef} soupçonne qu'une horreur métallique a infecté {INFECTED_nameDef}.</InteractionDetectedDesc>
@@ -271,7 +271,7 @@
   <!-- Unnatural healing ability -->
   <LetterUnnaturalHealingLabel>Soins surnaturels</LetterUnnaturalHealingLabel>
   <LetterUnnaturalHealing>{CASTER_nameDef} a terminé d'administrer ses soins psychiques à {PAWN_nameDef}.</LetterUnnaturalHealing>
-  <LetterUnnaturalHealingTentacle>Cependant, l'opération a très mal tourné.\n\n{PAWN_nameDef}La peau {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} s'est brusquement déchirée et une éruption d'affreuses excroissances a transformé son bras en tentacule de chair !</LetterUnnaturalHealingTentacle>
+  <LetterUnnaturalHealingTentacle>Cependant, l'opération a très mal tourné.\n\nLa peau de {PAWN_nameDef} s'est brusquement déchirée et une éruption d'affreuses excroissances a transformé son bras en tentacule de chair !</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
   <MessageTransmutedItem>{PAWN_nameDef} a transmuté {ORIGINAL} en {TRANSMUTED}.</MessageTransmutedItem>
@@ -300,7 +300,7 @@
 
   <!-- Misc -->
   <LetterLabelFleshTentacleAttack>Attaque de tentacule de chair</LetterLabelFleshTentacleAttack>
-  <LetterFleshTentacleAttack>l'opération {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} s'est bien passée, mais son tentacule de chair sectionné s'est mis à attaquer !</LetterFleshTentacleAttack>
+  <LetterFleshTentacleAttack>L'opération de {PAWN_nameDef} s'est bien passée, mais son tentacule de chair sectionné s'est mis à attaquer !</LetterFleshTentacleAttack>
   <Biosignature>Biosignature</Biosignature>
   <BlissLobotomy>Lobotomie béatifiante</BlissLobotomy>
   <HP>pv</HP>
@@ -322,18 +322,18 @@
   <LetterCorpseReappeared>Le cadavre ressemblant à {PAWN_nameDef} a refait son apparition comme par enchantement.</LetterCorpseReappeared>
   
   <MessageCorpseEscaped>Le cadavre ressemblant à {PAWN_nameDef} à réussi à s'échapper de son confinement ({CONTAINER_labelShort}).</MessageCorpseEscaped>
-  <MessageUnnaturalCorpseResurrect>La réanimation {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a échoué. Aucune réaction.</MessageUnnaturalCorpseResurrect>
+  <MessageUnnaturalCorpseResurrect>La réanimation de {PAWN_nameDef} a échoué. Aucune réaction.</MessageUnnaturalCorpseResurrect>
   <MessagePawnFainted>{PAWN_nameDef} a perdu connaissance en voyant le cadavre anormal.</MessagePawnFainted>
-  <MessageAwokenReappeared>Le cadavre anormal est apparu près {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} et s'approche !</MessageAwokenReappeared>
+  <MessageAwokenReappeared>Le cadavre anormal est apparu près de {PAWN_nameDef} et s'approche !</MessageAwokenReappeared>
   <MessageAwokenVanished>Le cadavre anormal a disparu. Il reviendra plus tard pour s'en prendre à {PAWN_nameDef}.</MessageAwokenVanished>
   <MessageAwokenAttacking>Le cadavre déchaîné attaque {PAWN_nameDef} !</MessageAwokenAttacking>
-  <MessageAwokenKilledVictim>Le cadavre déchaîné a détruit le cerveau {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</MessageAwokenKilledVictim>
+  <MessageAwokenKilledVictim>Le cadavre déchaîné a détruit le cerveau de {PAWN_nameDef}.</MessageAwokenKilledVictim>
   <MessageAwokenDisappeared>Le cadavre déchaîné a disparu.</MessageAwokenDisappeared>
 
   <MentalBreakReason_MysteriousCorpse>C'est arrivé à cause de la présence d'un cadavre anormal.</MentalBreakReason_MysteriousCorpse>
 
   <UnnaturalCorpseStudyLetter>Progression de l'étude du cadavre anormal</UnnaturalCorpseStudyLetter>
-  <UnnaturalCorpseStudyLetterDesc>En étudiant le cadavre anormal, vous avez découvert que son corps contient un fragment d'archotechnologie qui le lie psychiquement à {VICTIM_nameDef}. S'il est détruit, il se reformera puis se téléportera à proximité {replace: de {VICTIM_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, quelle que soit la distance. \n\n{RESEARCHER_nameDef} pense qu'il est possible de se débarrasser du cadavre de manière permanente, mais doit poursuivre ses recherches pour trouver comment faire.</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>En étudiant le cadavre anormal, vous avez découvert que son corps contient un fragment d'archotechnologie qui le lie psychiquement à {VICTIM_nameDef}. S'il est détruit, il se reformera puis se téléportera à proximité de {VICTIM_nameDef}, quelle que soit la distance.\n\n{RESEARCHER_nameDef} pense qu'il est possible de se débarrasser du cadavre de manière permanente, mais doit poursuivre ses recherches pour trouver comment faire.</UnnaturalCorpseStudyLetterDesc>
 
   <UnnaturalCorpseStudyCompletedLetter>Étude du cadavre anormal terminée</UnnaturalCorpseStudyCompletedLetter>
   <UnnaturalCorpseStudyCompletedLetterDesc>En étudiant le cadavre anormal, vous avez découvert comment retirer le fragment d'archotechnologie sans danger, ce qui l'empêchera de tourmenter psychiquement {VICTIM_nameDef}. Cependant, vous ne pourrez pas l'étudier davantage.</UnnaturalCorpseStudyCompletedLetterDesc>
@@ -359,10 +359,10 @@
   <UnnaturalCorpseAwokenDefeatedLetterDesc>Le cadavre anormal qui poursuivait {PAWN_nameDef} a été vaincu !\n\nIl ne tourmentera plus sa victime.</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
   <!-- Golden Cube -->
-  <MessageGoldenCubeSeverityIncreased>l'obsession {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} pour le cube doré s'est intensifiée.</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeSeverityIncreased>L'obsession de {PAWN_labelShort} pour le cube doré s'est intensifiée.</MessageGoldenCubeSeverityIncreased>
   <MessageGoldenCubeWithdrawal>{PAWN_labelShort} ressent les effets du sevrage du cube.</MessageGoldenCubeWithdrawal>
-  <MessageGoldenCubeWithdrawalIncreased>les symptômes de sevrage {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} ont empiré.</MessageGoldenCubeWithdrawalIncreased>
-  <MessageGoldenCubeInterest>le cube doré suscite la curiosité {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</MessageGoldenCubeInterest>
+  <MessageGoldenCubeWithdrawalIncreased>Les symptômes de sevrage de {PAWN_labelShort} ont empiré.</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeInterest>Le cube doré suscite la curiosité de {PAWN_labelShort}.</MessageGoldenCubeInterest>
   <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} est en colère après que sa sculpture de cube a été détruite. {PAWN_pronoun} pourrait avoir un accès de violence.</MessageGoldenCubeSculptureDestroyed>
   
   <CannotDisableCube>{PAWN_labelShort} refuse de désactiver le cube doré.</CannotDisableCube>
@@ -370,7 +370,7 @@
   <LetterLabelGoldenCubeComa>Coma du cube : {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <LetterGoldenCubeComa>le syndrome de sevrage a fait tomber {PAWN_labelShort} dans le coma. {PAWN_pronoun} restera dans cet état jusqu'à ce que la liaison psychique du cube doré soit rompue.</LetterGoldenCubeComa>
   
-  <MentalBreakReason_CubeSculpting>C'est arrivé à cause de l'obsession {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} pour le cube.</MentalBreakReason_CubeSculpting>
+  <MentalBreakReason_CubeSculpting>C'est arrivé à cause de l'obsession de {PAWN_labelShort} pour le cube.</MentalBreakReason_CubeSculpting>
   
   <CubeMaterialDirt>terre</CubeMaterialDirt>
   <CubeMaterialStone>pierre</CubeMaterialStone>
@@ -407,7 +407,7 @@
 
   <!-- Void monolith -->
   <MonolithActivateDisabledPawns>Aucun colon disponible.</MonolithActivateDisabledPawns>
-  <VoidMonolithInvestigatedText>Le monolithe en métal sombre est chaud au toucher et {PAWN_nameDef} a l'impression d'entendre un léger bourdonnement en émaner. Les lignes tracées sur sa surface poussiéreuse semblent remuer en prenant des formes perturbantes.\n\n{PAWN_nameDef} se concentre sur ces formes pour tenter de les comprendre.\n\nAlors que le bourdonnement s'intensifie, les formes commencent à envahir la vision {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, mais la surface ne change pas. De l'énergie se propage dans l'espace vide alentour. Une forme noire apparaît dans son esprit.\n\nL'Anomalie s'éveille...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigatedText>Le monolithe en métal sombre est chaud au toucher et {PAWN_nameDef} a l'impression d'entendre un léger bourdonnement en émaner. Les lignes tracées sur sa surface poussiéreuse semblent remuer en prenant des formes perturbantes.\n\n{PAWN_nameDef} se concentre sur ces formes pour tenter de les comprendre.\n\nAlors que le bourdonnement s'intensifie, les formes commencent à envahir la vision de {PAWN_nameDef}, mais la surface ne change pas. De l'énergie se propage dans l'espace vide alentour. Une forme noire apparaît dans son esprit.\n\nL'Anomalie s'éveille...</VoidMonolithInvestigatedText>
   <VoidMonolithInvestigate>Continuer à se concentrer sur l'Anomalie</VoidMonolithInvestigate>
   <VoidMonolithWalkAway>Partir</VoidMonolithWalkAway>
   <VoidMonolithViewQuest>Voir la quête</VoidMonolithViewQuest>
@@ -453,12 +453,12 @@
   <StructureActivatedMessage>{PAWN_nameDef} a terminé d'activer {STRUCTURE_definite}</StructureActivatedMessage>
   <StructuresActivatedAlertLabel>Structures activées</StructuresActivatedAlertLabel>
   <StructuresActivatedAlertDescription>Activez les structures du néant pour achever l'éveil du monolithe.</StructuresActivatedAlertDescription>
-  <GleamingMonolithInterrupted>le lien {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} avec le monolithe du néant a été rompu. Il faut l'activer à nouveau.</GleamingMonolithInterrupted>
+  <GleamingMonolithInterrupted>Le lien de {PAWN_nameDef} avec le monolithe du néant a été rompu. Il faut l'activer à nouveau.</GleamingMonolithInterrupted>
 
   <!-- HediffComp_GiveLovinMTBFactor -->
   <IncreasesChanceOfLovin>Augmente les chances de tomber amoureux.</IncreasesChanceOfLovin>
 
-  <UnnaturalCorpse>Cadavre anormal {replace: de {0_label}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</UnnaturalCorpse>
+  <UnnaturalCorpse>Cadavre anormal de {0_label}</UnnaturalCorpse>
 
   <!-- Studiable -->
   <KnowledgeFactorOutdoors>Les études rapportent moins de connaissances</KnowledgeFactorOutdoors>
@@ -494,4 +494,6 @@
   <MessageChimeraWithdrawing>se replie</MessageChimeraWithdrawing>
 
   <LetterChimerasAttackingLabel>Attaque de chimères</LetterChimerasAttackingLabel>
-  <LetterChimerasAttacking>Les chimères sont passées à l'attaque !</LetterChimerasAttacking>\n\n</LanguageData>
+  <LetterChimerasAttacking>Les chimères sont passées à l'attaque !</LetterChimerasAttacking>
+
+</LanguageData>
