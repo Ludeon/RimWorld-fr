@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <PsychicRitual>rituel psychique</PsychicRitual>
@@ -92,8 +92,8 @@
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} a été {PAWN_gender ? détruit : détruite : détruit(e)}</PsychicRitualDef_TargetDestroyed>
 
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>la zone qui entoure la cible ne doit pas être encombrée</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>sensibilité psychique {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>L'affinité {replace: de {PAWN_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} pour les phénomènes psychiques.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>sensibilité psychique de {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>L'affinité de {PAWN_labelShort} pour les phénomènes psychiques.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Ces objets sont utiles pour focaliser l'énergie psychique du rituel.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Influence des idéoligions</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>L'effet qu'exercent les croyances idéoligieuses sur le rituel psychique.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
@@ -114,8 +114,9 @@
   <!-- Chronophagy -->
   <InvokerTooYoung>L'invocateur doit avoir au moins {0} ans.</InvokerTooYoung>
   <PsychicRitualTargetTooYoung>La cible doit avoir au moins {0} ans.</PsychicRitualTargetTooYoung>
-  <CronophagyAgeChange>l'âge {replace: de {INVOKER_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} passera à {1} ans et celui {replace: de {TARGET_labelShort}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, à {3} ans.</CronophagyAgeChange>
+  <CronophagyAgeChange>L'âge de {INVOKER_labelShort} passera à {1} ans et celui de {TARGET_labelShort}, à {3} ans.</CronophagyAgeChange>
   
   <!-- Philophagy -->
   <PhilophagyTransferReport>{INVOKER_labelShort} volera {1} XP de {SKILL_label} à {TARGET_labelShort}.</PhilophagyTransferReport>
+
 </LanguageData>
