@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Inhumanization -->
   <ReHumanizedLabel>Réhumanisation</ReHumanizedLabel>
   <ReHumanizedText>{0_nameDef} a retrouvé un certain lien avec l'humanité et ne souffre plus de déshumanisation.</ReHumanizedText>
-  <WarningFromLabel>Avertissement {replace: de {0_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</WarningFromLabel>
+  <WarningFromLabel>Avertissement de {0_nameDef}</WarningFromLabel>
 
   <!-- Hate chanters -->
   <HateChantersLabel>Fidèles incantateurs de haine</HateChantersLabel>
@@ -19,15 +19,15 @@
   <VoidProvocationSucceeded>Préparez-vous pour ce qui va suivre.</VoidProvocationSucceeded>
   <VoidProvocationFailed>Malheureusement, votre appel est resté sans réponse.</VoidProvocationFailed>
   <VoidProvocationDarkPsychicShock>Ce faisant, {INVOKER_nameDef} a entrevu quelque chose d'horrible qui dépasse l'entendement humain et l'a {INVOKER_gender ? plongé : plongée : plongé(e)} dans un coma de courte durée.</VoidProvocationDarkPsychicShock>
-  <PhilophagyCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite}, qui lui a permis d'absorber les compétences et les souvenirs {replace: de {TARGET_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</PhilophagyCompleteText>
+  <PhilophagyCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite}, qui lui a permis d'absorber les compétences et les souvenirs de {TARGET_nameDef}.</PhilophagyCompleteText>
   <PawnGainedXPInSkill>{0_nameDef} a gagné {1} points d'EXP dans {2_label}</PawnGainedXPInSkill>
   <PawnLostXPInSkill>{0_nameDef} a perdu {1} points d'EXP dans {2_label}</PawnLostXPInSkill>
   <PhilophagySkillLevelGained>passe du niveau de compétence {0} à {1}.</PhilophagySkillLevelGained>
   <PhilophagySkillLevelLost>passe du niveau de compétence {0} à {1}.</PhilophagySkillLevelLost>
   <PhilophagySkillLevelRemains>reste au niveau de compétence {0}.</PhilophagySkillLevelRemains>
-  <PhilophagyDamagedTarget>Le processus a endommagé le cerveau {replace: de {TARGET_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} et l'a {TARGET_gender ? plongé : plongée : plongé(e)} dans le coma.</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>Le processus a endommagé le cerveau de {TARGET_nameDef} et l'a {TARGET_gender ? plongé : plongée : plongé(e)} dans le coma.</PhilophagyDamagedTarget>
 
-  <ImbueDeathRefuralCompleteText>{0_nameDef} bénéficie du déni de la mort. {0_pronoun} peut désormais ressusciter après avoir péri.\n\nLe processus a atrophié le cerveau {replace: de {0_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} et lui a fait perdre {1} points d'EXP de compétence.</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>{0_nameDef} bénéficie du déni de la mort. {0_pronoun} peut désormais ressusciter après avoir péri.\n\nLe processus a atrophié le cerveau de {0_nameDef} et lui a fait perdre {1} points d'EXP de compétence.</ImbueDeathRefuralCompleteText>
 
   <SummonAnimalsSuccessText>{0_nameDef} a accompli le rituel {RITUAL_definite}. Attendez-vous à voir bientôt apparaître une horde d'animaux sauvages.</SummonAnimalsSuccessText>
   <SummonAnimalsFailureText>{0_nameDef} a accompli le rituel {RITUAL_definite}, mais quelque chose a mal tourné, et les animaux sont pris d'une folie meurtrière ! Une horde se dirige vers vous avec l'intention de tuer des humains !</SummonAnimalsFailureText>
@@ -50,12 +50,12 @@
 
   <BloodRainCompleteText>{0_nameDef} a accompli le rituel {RITUAL_definite}. D'épaisses gouttelettes rouges se sont mises à pleuvoir. Gardez tout le monde à l'intérieur pour éviter qu'ils ne soient pris de folie.</BloodRainCompleteText>
 
-  <BrainwipeCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite}, ce qui a effacé les souvenirs {replace: de {TARGET_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} de manière complètement chaotique.</BrainwipeCompleteText>
+  <BrainwipeCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite}, ce qui a effacé les souvenirs de {TARGET_nameDef} de manière complètement chaotique.</BrainwipeCompleteText>
   <BrainwipeTargetComa>{TARGET_pronoun} va demeurer dans le coma pendant {1}.</BrainwipeTargetComa>
   <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} ne vous voue plus une loyauté sans faille.</BrainwipeUnwaveringlyLoyal>
   <BrainwipeRehumanized>{TARGET_nameDef} a subi une réhumanisation.</BrainwipeRehumanized>
 
-  <PsychophagyCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite} et a consommé la présence psychique {replace: de {TARGET_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}.</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{INVOKER_nameDef} a accompli le rituel {RITUAL_definite} et a consommé la présence psychique de {TARGET_nameDef}.</PsychophagyCompleteText>
   <PsychophagyTargetSurvived>{TARGET_nameDef} est désormais psychiquement hermétique. Le processus a endommagé son cerveau et l'a {TARGET_gender ? plongé : plongée : plongé(e)} dans le coma.</PsychophagyTargetSurvived>
   
   <PsychicRitualTargetBrainLiquified>{TARGET_objective} n'a pas survécu au processus qui a liquéfié son cerveau.</PsychicRitualTargetBrainLiquified>
@@ -92,7 +92,7 @@
   <!-- Void node -->
   <VoidNodeReturnedLabel>{PAWN_nameDef} est de retour</VoidNodeReturnedLabel>
   <VoidNodeReturnedMessage>{PAWN_nameDef} a réapparu.</VoidNodeReturnedMessage>
-  <EmbracedVoidText>{PAWN_nameDef} a réapparu.\n\n{PAWN_pronoun}L'exposition aux pensées du néant lui donne un air vieilli, et toute trace d'humanité a déserté son regard.\n\n{PAWN_nameDef}Son esprit et son corps sont désormais liés aux ténèbres du néant et à sa rage inhumaine, et ce, de manière permanente. Grâce à cette connexion,  n'a désormais plus besoin de se nourrir ou de dormir, et  peut se servir des pouvoirs du néant pour inspirer la terreur chez les autres.\n\nLe monolithe est éveillé. Depuis la réapparition {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, il bourdonne plus fort, comme pour rappeler que la connexion au néant est désormais permanente.</EmbracedVoidText>
+  <EmbracedVoidText>{PAWN_nameDef} a réapparu.\n\n{PAWN_pronoun}L'exposition aux pensées du néant lui donne un air vieilli, et toute trace d'humanité a déserté son regard.\n\n{PAWN_nameDef}Son esprit et son corps sont désormais liés aux ténèbres du néant et à sa rage inhumaine, et ce, de manière permanente. Grâce à cette connexion,  n'a désormais plus besoin de se nourrir ou de dormir, et  peut se servir des pouvoirs du néant pour inspirer la terreur chez les autres.\n\nLe monolithe est éveillé. Depuis la réapparition de {PAWN_nameDef}, il bourdonne plus fort, comme pour rappeler que la connexion au néant est désormais permanente.</EmbracedVoidText>
   <DisruptedLinkText>{PAWN_nameDef} a réapparu, {PAWN_gender ? épuisé : épuisée : épuisé(e)}, mais en bonne santé.\n\nEn fermant le canal vers le vide, {PAWN_nameDef} a protégé notre monde de tout phénomène surnaturel. Les entités hostiles qui menaçaient la région se sont toutes écroulées, sans vie.\n\nLes récits de son acte héroïque seront contés pendant des siècles.</DisruptedLinkText>
   <RewardFleshcraftingAbility>forge-chair</RewardFleshcraftingAbility>
   <RewardSlaughterAbility>massacre</RewardSlaughterAbility>
@@ -112,7 +112,7 @@
   
   <!-- Distress signal -->
   <DistressSignalLabel>Signal de détresse</DistressSignalLabel>
-  <DistressSignalText>Vous avez intercepté un signal de détresse provenant d'un camp {replace: de {FACTION_name}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} proche.\n\nLa voix frénétique vous demande votre aide pour se défendre contre une menace. En échange de votre aide, vous pourrez récupérer tout ce qui se trouve dans leur camp, y compris des fragments d'archotechnologie.\n\nAlors que la voix tente d'expliquer la nature de la menace, vous perdez le signal.</DistressSignalText>
+  <DistressSignalText>Vous avez intercepté un signal de détresse provenant d'un camp de {FACTION_name} proche.\n\nLa voix frénétique vous demande votre aide pour se défendre contre une menace. En échange de votre aide, vous pourrez récupérer tout ce qui se trouve dans leur camp, y compris des fragments d'archotechnologie.\n\nAlors que la voix tente d'expliquer la nature de la menace, vous perdez le signal.</DistressSignalText>
   <DistressSignalAmbushLabel>Embuscade</DistressSignalAmbushLabel>
   <DistressSignalAmbushText>Des abominations de chair surgissent d'un terrier proche !</DistressSignalAmbushText>
 
@@ -123,7 +123,7 @@
   <!-- Unnatural darkness -->
   <DarknessLiftingEarlyLetterLabel>Dissipation de l'obscurité</DarknessLiftingEarlyLetterLabel>
   <DarknessLiftingEarlyLetterText>Le dernier des piliers cauchemardesques s'est effondré. Les ténèbres ont commencé à se dissiper, au grand soulagement des colons.</DarknessLiftingEarlyLetterText>
-  <PawnAttackedInDarknessLabel>agression {replace: de {0_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>agression de {0_nameDef}</PawnAttackedInDarknessLabel>
   <PawnAttackedInDarknessText>Quelque chose qui rôde dans les ténèbres a attaqué {0_nameDef} !\n\nCes attaques se poursuivront tant qu'{0_pronoun} n'aura pas rejoint la lumière.</PawnAttackedInDarknessText>
   <NoctolAttackLetterLabel>Attaque de noctols</NoctolAttackLetterLabel>
   <NoctolAttackLetterText>Les ténèbres ont commencé à s'agiter. De quelque part dans ce noir d'encre vous parviennent des gargouillis inhumains.\n\nDes noctols noirs ressemblant à des insectes vont bientôt sortir des ténèbres pour vous attaquer.</NoctolAttackLetterText>
@@ -143,11 +143,11 @@
   <!-- Ghoul pod crash -->
   <GhoulPodCrashLabel>Épave de nacelle de transport</GhoulPodCrashLabel>
   <GhoulPodCrashText>Une nacelle de transport acheminant une goule hostile et affamée a atterri à proximité.\n\nLa goule est actuellement en état de choc, mais va bientôt reprendre ses esprits et s'attaquera à quiconque croisera sa route. Vous pouvez la capturer et la confiner sur une plateforme de détention pour l'étudier.\n\nCapturez-la ou tuez-la avant qu'elle ne se réveille.</GhoulPodCrashText>
-  <GhoulPodCrashStartingPawnText>Une nacelle de transport acheminant une goule hostile et affamée a atterri à proximité. Il semblerait qu'il s'agisse {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, {PAWN_gender ? ancien : ancienne : ancien(e)} membre de votre équipage.\n\nLa goule est actuellement en état de choc, mais va bientôt reprendre ses esprits et s'attaquera à quiconque croisera sa route. Vous pouvez la capturer et la confiner sur une plateforme de détention pour l'étudier.\n\nCapturez-la ou tuez-la avant qu'elle se réveille.</GhoulPodCrashStartingPawnText>
+  <GhoulPodCrashStartingPawnText>Une nacelle de transport acheminant une goule hostile et affamée a atterri à proximité. Il semblerait qu'il s'agisse de {PAWN_nameDef}, {PAWN_gender ? ancien : ancienne : ancien(e)} membre de votre équipage.\n\nLa goule est actuellement en état de choc, mais va bientôt reprendre ses esprits et s'attaquera à quiconque croisera sa route. Vous pouvez la capturer et la confiner sur une plateforme de détention pour l'étudier.\n\nCapturez-la ou tuez-la avant qu'elle se réveille.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
   <LetterLabelEntityDiscovery>Nouvelle recherche disponible</LetterLabelEntityDiscovery>
-  <LetterTextEntityDiscoveryResearch>Votre découverte {replace: de {ENTITY_definite}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a fourni de nouvelles informations. Vous pouvez désormais mener à bien les projets de recherche sur l'Anomalie suivants :</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>Votre découverte de {ENTITY_definite} a fourni de nouvelles informations. Vous pouvez désormais mener à bien les projets de recherche sur l'Anomalie suivants :</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <NociosphereDefeatedLabel>Nociosphère vaincue</NociosphereDefeatedLabel>
@@ -169,4 +169,6 @@
 
   <VoidCuriosityLabel>Curiosité du néant</VoidCuriosityLabel>
   <VoidCuriosityText_Researched>{PAWN_nameDef} est {PAWN_gender ? obsédé : obsédée : obsédé(e)} par le néant et souhaite accomplir un rituel de provocation du néant pour l'étudier.\n\nUtilisez le rituel de provocation du néant pour découvrir et capturer des entités que vous pouvez ensuite étudier pour compléter les projets de recherche sur l'Anomalie, ou connecter à un récolteur de bioferrite pour générer de la bioferrite.\n\nPlacez un site de rituel psychique pour effectuer le rituel de provocation du néant.</VoidCuriosityText_Researched>
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef} est {PAWN_gender ? obsédé : obsédée : obsédé(e)} par le néant et souhaite accomplir un rituel de provocation du néant pour l'étudier.\n\nUtilisez le rituel de provocation du néant pour découvrir et capturer des entités que vous pouvez ensuite étudier pour compléter les projets de recherche sur l'Anomalie, ou connecter à un récolteur de bioferrite pour générer de la bioferrite.\n\nMenez à bien la recherche "provocation du néant", puis placez un site de rituel psychique pour accomplir le rituel.</VoidCuriosityText_NotResearched>\n\n</LanguageData>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} est {PAWN_gender ? obsédé : obsédée : obsédé(e)} par le néant et souhaite accomplir un rituel de provocation du néant pour l'étudier.\n\nUtilisez le rituel de provocation du néant pour découvrir et capturer des entités que vous pouvez ensuite étudier pour compléter les projets de recherche sur l'Anomalie, ou connecter à un récolteur de bioferrite pour générer de la bioferrite.\n\nMenez à bien la recherche "provocation du néant", puis placez un site de rituel psychique pour accomplir le rituel.</VoidCuriosityText_NotResearched>
+
+</LanguageData>
