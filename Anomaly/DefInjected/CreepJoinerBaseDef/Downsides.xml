@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: aggressive -->
   <Aggressive.label>agressivité</Aggressive.label>
   <!-- EN: {PAWN_nameDef}'s demeanor has suddenly changed. A menacing grin splits {PAWN_possessive} face.\n\n{PAWN_nameDef} has become hostile. -->
-  <Aggressive.letterDesc>Le comportement {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"} a changé soudainement et {PAWN_pronoun} affiche un rictus menaçant.\n\n{PAWN_nameDef} est désormais hostile.</Aggressive.letterDesc>
+  <Aggressive.letterDesc>Le comportement de {PAWN_nameDef} a changé soudainement et {PAWN_pronoun} affiche un rictus menaçant.\n\n{PAWN_nameDef} est désormais hostile.</Aggressive.letterDesc>
   <!-- EN: {PAWN_nameDef} hostile -->
   <Aggressive.letterLabel>{PAWN_nameDef} hostile</Aggressive.letterLabel>
   
@@ -22,7 +22,7 @@
   <!-- EN: {PAWN_nameDef} thanks you for your hospitality, but says that it is time for {PAWN_objective} to move on. -->
   <Leaves.letterDesc>{PAWN_nameDef} vous remercie pour votre hospitalité, mais dit qu'il est temps pour {PAWN_gender ? lui : elle} de passer à autre chose.</Leaves.letterDesc>
   <!-- EN: {PAWN_nameDef} departure -->
-  <Leaves.letterLabel>départ {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}</Leaves.letterLabel>
+  <Leaves.letterLabel>Départ de {PAWN_nameDef}</Leaves.letterLabel>
   
   <!-- EN: metalhorror -->
   <Metalhorror.label>horreur métallique</Metalhorror.label>
@@ -40,6 +40,6 @@
   <!-- EN: Psychic agony -->
   <PsychicAgony.letterLabel>Souffrance psychique</PsychicAgony.letterLabel>
   <!-- EN: {SURGEON_nameDef} detected a faint but painful psychic presence emanating from {PAWN_nameDef} but failed to understand what was causing it. -->
-  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} a détecté une présence psychique faible, mais douloureuse émanant {replace: de {PAWN_nameDef}; "de (*Name)a"-"d'(*Name)a"; "de (*Name)e"-"d'(*Name)e"; "de (*Name)i"-"d'(*Name)i"; "de (*Name)o"-"d'(*Name)o"; "de (*Name)u"-"d'(*Name)u"; "de (*Name)y"-"d'(*Name)y"; "de (*Name)A"-"d'(*Name)A"; "de (*Name)E"-"d'(*Name)E"; "de (*Name)I"-"d'(*Name)I"; "de (*Name)O"-"d'(*Name)O"; "de (*Name)U"-"d'(*Name)U"; "de (*Name)Y"-"d'(*Name)Y"}, mais n'a pas réussi à en comprendre la cause.</PsychicAgony.surgicalInspectionLetterExtra>
+  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} a détecté une présence psychique faible, mais douloureuse émanant de {PAWN_nameDef}, mais n'a pas réussi à en comprendre la cause.</PsychicAgony.surgicalInspectionLetterExtra>
   
 </LanguageData>
