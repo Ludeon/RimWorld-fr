@@ -363,7 +363,7 @@
   </MentalStateGaveUp.rulePack.rulesStrings>
   
   <!-- EN: read a book -->
-  <ReadBook.label>TODO</ReadBook.label>
+  <ReadBook.label>lire un livre</ReadBook.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
     <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
@@ -378,7 +378,20 @@
     <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
     <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
   -->
-  <ReadBook.rulePack.rulesStrings>TODO</ReadBook.rulePack.rulesStrings>
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] terminant [THING_title]</li>
+    <li>image->[PAWN_nameFull] referme [THING_title] pour la dernière fois, un sourire satisfait se dessine sur son visage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tourne les pages de [THING_title], absorbant les connaissances qu'il contient [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] range [THING_title] sur l'étagère, avec un sentiment rayonnant d'accomplissement [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] assis dans une contemplation paisible, réfléchissant aux vérités profondes de [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->tout en se relaxant dans son coin de lecture préféré</li>
+    <li>circumstance_phrase->avec une tasse de thé à ses côtés</li>
+    <li>circumstance_phrase->sous la douce lueur d'une lampe de lecture</li>
+    <li>desc_sentence->[PAWN_nameDef] est entouré{pawn_gender ? : e : (e)} de ses notes sur [THING_title].</li>
+    <li>desc_sentence->Les yeux de [PAWN_nameDef] brillent d'une nouvelle sagesse.</li>
+    <li>desc_sentence->[PAWN_nameDef] est changé{pawn_gender ? : e : (e)} à jamais par les enseignements de [THING_title].</li>
+    <li>desc_sentence->On a l'impression que certains secrets n'ont pas encore été révélés.</li>
+  </ReadBook.rulePack.rulesStrings>
   
   <!-- EN: struck mineable -->
   <StruckMineable.label>minerai révélé</StruckMineable.label>
