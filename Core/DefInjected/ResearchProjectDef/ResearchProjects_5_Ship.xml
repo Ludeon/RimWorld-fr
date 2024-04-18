@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: starflight basics -->
@@ -16,7 +16,13 @@
     <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
     <li>subject_gerund->constructing starship structures</li>
   -->
-  <ShipBasics.generalRules.rulesStrings>TODO</ShipBasics.generalRules.rulesStrings>
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->l'ingénierie structurelle des vaisseaux</li>
+    <li>subject_story->a recruté des ingénieurs de vaisseaux pour une flotte d'un monde avancé</li>
+    <li>subject_story->a été concepteur de structures dans un district de gratte-ciel dans un monde urbain</li>
+    <li>subject_story->a récolté des épaves dans la ceinture de débris d'un monde mort</li>
+    <li>subject_gerund->la construction de structures de vaisseaux</li>
+  </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>noyau central de l'ordinateur de bord</ShipComputerCore.label>
@@ -32,7 +38,16 @@
     <li>subject_gerund->maintaining starship AI sanity</li>
     <li>subject_gerund->constructing reward-signal systems</li>
   -->
-  <ShipComputerCore.generalRules.rulesStrings>TODO</ShipComputerCore.generalRules.rulesStrings>
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->l'incitation à la personnalité</li>
+    <li>subject->la maintenance de l'IA d'un vaisseau</li>
+    <li>subject_story->a repris le contrôle du noyau d'un vaisseau errant grâce à un reconditionnement minutieux</li>
+    <li>subject_story->a mis en place des simulations de gestion de colonies pour occuper le cœur du vaisseau pendant les nombreuses années de voyage interstellaire</li>
+    <li>subject_story->a tenu compagnie au noyau d'un vaisseau pendant un "court" voyage interstellaire, ce qui lui a permis d'en apprendre beaucoup sur les noyaux</li>
+    <li>subject_gerund->l'incitation à la personnalité</li>
+    <li>subject_gerund->la maintenance de l'IA d'un vaisseau</li>
+    <li>subject_gerund->la construction de systèmes de signaux de récompense</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>sarcophages d'hypersommeil de vaisseau</ShipCryptosleep.label>
@@ -45,7 +60,13 @@
     <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
     <li>subject_gerund->constructing hardened cryptosleep caskets</li>
   -->
-  <ShipCryptosleep.generalRules.rulesStrings>TODO</ShipCryptosleep.generalRules.rulesStrings>
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->les sarcophages d'hypersommeil de vaisseau</li>
+    <li>subject_story->a remplacé les sarcophages d'hypersommeil défectueux sur le CMC Celeste, afin que le vaisseau d'ancienne génération puisse être utilisé de nouveau</li>
+    <li>subject_story->a été accidentellement éjecté dans l'espace lointain et a survécu dans un sarcophage d'hypersommeil conçu par ses soins pendant deux mois</li>
+    <li>subject_story->a fait un exposé sur les différences entre les équipements de planétaire et les équipements de vaisseau spatial</li>
+    <li>subject_gerund->la construction de sarcophages d'hypersommeil renforcés</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>propulseur Johnson-Tanaka </ShipEngine.label>
@@ -59,7 +80,14 @@
     <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
     <li>subject_gerund->constructing starship drives</li>
   -->
-  <ShipEngine.generalRules.rulesStrings>TODO</ShipEngine.generalRules.rulesStrings>
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->la théorie Johnson-Tanaka</li>
+    <li>subject->le transfert de quantité de mouvement exotique</li>
+    <li>subject_story->a donné des cours à l'université sur Johnson, Tanaka et les effets à l'échelle quantique</li>
+    <li>subject_story->a construit un propulseur Johnson-Tanaka à partir des premiers principes pour une thèse</li>
+    <li>subject_story->a maintenu un propulseur Johnson-Tanaka pendant deux décennies, alors que le vaisseau voyageait entre les étoiles</li>
+    <li>subject_gerund->la construction de propulseurs de vaisseaux</li>
+  </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>réacteur antimatière</ShipReactor.label>
@@ -72,7 +100,13 @@
     <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
     <li>subject_gerund->constructing starship reactors</li>
   -->
-  <ShipReactor.generalRules.rulesStrings>TODO</ShipReactor.generalRules.rulesStrings>
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->le réacteur antimatière d'un vaisseau spatial</li>
+    <li>subject_story->a construit un nouveau réacteur pour un vaisseau colonie, mais n'a pas vécu suffisamment longtemps pour le voir décoller</li>
+    <li>subject_story->a défendu le vaisseau pendant que le réacteur était en fonctionnement, contre des pillards prêts à tout pour quitter la planète</li>
+    <li>subject_story->a utilisé le réacteur d'un vaisseau spatial comme source d'énergie de secours pour une banque génétique enfouie sous la calotte glaciaire de la planète</li>
+    <li>subject_gerund->la construction de réacteurs de vaisseaux</li>
+  </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>capteurs de lancement</ShipSensorCluster.label>
@@ -86,6 +120,13 @@
     <li>subject_gerund->navigating interstellar space</li>
     <li>subject_gerund->constructing starship sensors</li>
   -->
-  <ShipSensorCluster.generalRules.rulesStrings>TODO</ShipSensorCluster.generalRules.rulesStrings>
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->la navigation interstellaire</li>
+    <li>subject_story->a utilisé les capteurs d'un prototype de vaisseau spatial pour détecter l'arrivée d'un astéroïde de niveau cataclysmique et a fait évacuer la planète</li>
+    <li>subject_story->a été employé comme navigateur et cuisinier sur un star-yacht d'un monde avancé</li>
+    <li>subject_story->a affiné la conception des capteurs longue portée, améliorant ainsi leur utilité</li>
+    <li>subject_gerund->la navigation dans l'espace interstellaire</li>
+    <li>subject_gerund->la construction de capteurs de vaisseau spatial</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
   
 </LanguageData>
