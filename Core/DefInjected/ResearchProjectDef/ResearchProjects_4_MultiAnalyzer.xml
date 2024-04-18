@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: advanced fabrication -->
-  <AdvancedFabrication.label>Fabrication avancée</AdvancedFabrication.label>
+  <AdvancedFabrication.label>fabrication avancée</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
   <AdvancedFabrication.description>Vous permet de fabriquer des composants avancés à partir de composants standards et d'autres matériaux.</AdvancedFabrication.description>
   <!-- EN:
@@ -12,7 +12,13 @@
     <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
     <li>subject_gerund->fabricating advanced components</li>
   -->
-  <AdvancedFabrication.generalRules.rulesStrings>TODO</AdvancedFabrication.generalRules.rulesStrings>
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject->la fabrication de composants avancés</li>
+    <li>subject_story->a échangé des composants avancés avec des habitants désespérés de la bordure</li>
+    <li>subject_story->a appris les secrets de la fabrication de composants avancés et est mort sans les révéler</li>
+    <li>subject_story->a rechigné devant le coût extrême de la fabrication de composants avancés et a opté pour un mode de vie plus simple</li>
+    <li>subject_gerund->la fabrication de composants avancés</li>
+  </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
   <Bionics.label>prothèses bioniques</Bionics.label>
@@ -26,7 +32,14 @@
     <li>subject_gerund->constructing bionic prosthetics</li>
     <li>subject_gerund->utilizing bionic body parts</li>
   -->
-  <Bionics.generalRules.rulesStrings>TODO</Bionics.generalRules.rulesStrings>
+  <Bionics.generalRules.rulesStrings>
+    <li>subject->les prothèses bioniques</li>
+    <li>subject_story->a travaillé principalement avec des soldats défigurés, fabriquant des éléments faciaux bioniques sur mesure afin qu'ils puissent retourner auprès de leurs proches</li>
+    <li>subject_story->a étudié des vidéos de mouvements humains au ralenti pour mieux concevoir des prothèses bioniques</li>
+    <li>subject_story->s'est porté volontaire pour se faire implanter les différents prototypes bioniques, devenant ainsi plus machine qu'homme</li>
+    <li>subject_gerund->la construction de prothèses bioniques</li>
+    <li>subject_gerund->l'utilisation de parties du corps bioniques</li>
+  </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>tir chargé</ChargedShot.label>
@@ -40,7 +53,14 @@
     <li>subject_gerund->constructing pulse munitions</li>
     <li>subject_gerund->utilising pulse munitions</li>
   -->
-  <ChargedShot.generalRules.rulesStrings>TODO</ChargedShot.generalRules.rulesStrings>
+  <ChargedShot.generalRules.rulesStrings>
+    <li>subject->les munitions à impulsion</li>
+    <li>subject_story->a étudié les monorails d'un monde avancé et en a modifié la technologie pour en faire des armes</li>
+    <li>subject_story->a tué un chenillard mécanique en le combattant avec un lance charge</li>
+    <li>subject_story->a appris à imprégner les munitions de fusils à impulsion concentrée, ce qui augmente considérablement leur létalité</li>
+    <li>subject_gerund->la construction de munitions à impulsions</li>
+    <li>subject_gerund->l'utilisation de munitions à impulsion</li>
+  </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>hypersommeil</Cryptosleep.label>
@@ -54,7 +74,14 @@
     <li>subject_gerund->constructing cryptosleep caskets</li>
     <li>subject_gerund->inducing cryptosleep</li>
   -->
-  <Cryptosleep.generalRules.rulesStrings>TODO</Cryptosleep.generalRules.rulesStrings>
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject->l'hypersommeil</li>
+    <li>subject_story->a voulu tester un prototype de caisson d'hypersommeil et s'est réveillé une génération plus tard, seul.</li>
+    <li>subject_story->a condamné le pire criminel du système à un hypersommeil indéfini plutôt qu'à la mort</li>
+    <li>subject_story->a utilisé une capsule d'hypersommeil pour suspendre les malades en phase terminale, afin qu'ils puissent voir leurs enfants adultes</li>
+    <li>subject_gerund->la construction de caissons d'hypersommeil</li>
+    <li>subject_gerund->la mise en hypersommeil</li>
+  </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
   <Fabrication.label>assemblage de composant</Fabrication.label>
@@ -72,7 +99,14 @@
     <li>subject_gerund->constructing high-tech projects</li>
     <li>subject_gerund->building high-tech fabrication stations</li>
   -->
-  <Fabrication.generalRules.rulesStrings>TODO</Fabrication.generalRules.rulesStrings>
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject->l'atelier hi-tech de fabrication</li>
+    <li>subject_story->a passé de nombreuses années à fabriquer des composants avancés, à fabriquer des ateliers d'assemblage pour fabriquer des composants plus avancés</li>
+    <li>subject_story->a échangé tout ce qu'il fallait pour construire un atelier de fabrication unique</li>
+    <li>subject_story->a construit des merveilles technologiques que les villageois sauvages vénéraient comme étant magiques</li>
+    <li>subject_gerund->la construction de postes hi-tech de recherche</li>
+    <li>subject_gerund->la construction d'ateliers de fabrication hi-tech</li>
+  </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>multi-analyseur</MultiAnalyzer.label>
@@ -85,7 +119,13 @@
     <li>subject_story->helped identify new stable isotopes</li>
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
-  <MultiAnalyzer.generalRules.rulesStrings>TODO</MultiAnalyzer.generalRules.rulesStrings>
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject->le multi-analyseur</li>
+    <li>subject_story->a automatisé un laboratoire de recherche</li>
+    <li>subject_story->a percé les secrets du spectre de l'univers</li>
+    <li>subject_story->a contribué à l'identification de nouveaux isotopes stables</li>
+    <li>subject_gerund->la construction de multi-analyseurs</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
   <PoweredArmor.label>armure de commando</PoweredArmor.label>
@@ -100,7 +140,15 @@
     <li>subject_gerund->constructing marine armor</li>
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
-  <PoweredArmor.generalRules.rulesStrings>TODO</PoweredArmor.generalRules.rulesStrings>
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->les armures de commando</li>
+    <li>subject_story->a été employé par les troupes de choc pour entretenir leur armure</li>
+    <li>subject_story->a testé l'armure en traversant, sans arme, un village sauvage hostile sans recevoir la moindre égratignure</li>
+    <li>subject_story->a conçu l'armure comme une protection contre les conditions climatiques hostiles de la planète, mais elle s'est également avérée efficace contre les pirates</li>
+    <li>subject_gerund->la construction d'armures pour les troupes de choc</li>
+    <li>subject_gerund->la construction d'armures de commando</li>
+    <li>subject_gerund->la construction d'armures avancées à usage général</li>
+  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>armure de reconnaissance</ReconArmor.label>
@@ -114,7 +162,14 @@
     <li>subject_gerund->crafting recon armor</li>
     <li>subject_gerund->reducing armor weight</li>
   -->
-  <ReconArmor.generalRules.rulesStrings>TODO</ReconArmor.generalRules.rulesStrings>
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->les armures de reconnaissance</li>
+    <li>subject_story->a dirigé les éclaireurs rebelles contre les forces impériales, jusqu'à être capturé</li>
+    <li>subject_story->a conçu des armures motorisées suffisamment légères et résistantes pour permettre aux utilisateurs de marteaux de se rapprocher de l'ennemi</li>
+    <li>subject_story->a conçu l'armure de reconnaissance davantage pour les chasseurs que pour les soldats. Elle s'est tout de même bien vendue</li>
+    <li>subject_gerund->la fabrication d'armures de reconnaissance</li>
+    <li>subject_gerund->la réduction du poids des armures</li>
+  </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>lance-roquettes multiples</RocketswarmLauncher.label>
@@ -127,10 +182,16 @@
     <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
     <li>subject_gerund->constructing rocket turrets</li>
   -->
-  <RocketswarmLauncher.generalRules.rulesStrings>TODO</RocketswarmLauncher.generalRules.rulesStrings>
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->les tourelles à roquettes</li>
+    <li>subject_story->a déclaré avoir utilisé des lance-roquettes contre des cibles civiles</li>
+    <li>subject_story->a construit des défenses de dernier recours, y compris des pièges et des lanceurs, au cas où la colonie serait menacée</li>
+    <li>subject_story->a commencé par construire des fusées primitives pour atteindre l'espace, mais le taux d'échec élevé a conduit à leur réaffectation en tant qu'armes</li>
+    <li>subject_gerund->la construction de tourelles à roquettes</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
-  <SniperTurret.label>Tourelle de précision</SniperTurret.label>
+  <SniperTurret.label>tourelle de précision</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
   <SniperTurret.description>Vous permet de construire des tourelles de précision. Elles tirent des obus d'uranium qui déchirent le plastacier comme du papier, mais elles sont moins efficaces à courte distance.</SniperTurret.description>
   <!-- EN:
@@ -140,7 +201,13 @@
     <li>subject_story->researched the effects of ammunition density on armor</li>
     <li>subject_gerund->constructing sniper turrets</li>
   -->
-  <SniperTurret.generalRules.rulesStrings>TODO</SniperTurret.generalRules.rulesStrings>
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->les tourelles de précision</li>
+    <li>subject_story->a dirigé le nettoyage après la guerre, en collectant les obus d'uranium radioactifs usés sur la ligne de front</li>
+    <li>subject_story->a vu une tourelle transpercer un mécanoïde d'assaut et a eu besoin de comprendre le fonctionnement</li>
+    <li>subject_story->a étudié les effets de la densité des munitions sur le blindage</li>
+    <li>subject_gerund->la construction de tourelles de précision</li>
+  </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>moniteur de signes vitaux</VitalsMonitor.label>
@@ -154,6 +221,13 @@
     <li>subject_gerund->monitoring vital signs</li>
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
-  <VitalsMonitor.generalRules.rulesStrings>TODO</VitalsMonitor.generalRules.rulesStrings>
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->le contrôle des signes vitaux</li>
+    <li>subject_story->s'est débattu dans un hôpital surpeuplé et s'est engagé à œuvrer pour le changement</li>
+    <li>subject_story->a soigné un survivant d'un monde vitrifié pour qu'il retrouve la santé</li>
+    <li>subject_story->a surveillé la salle d'isolement à distance, en envoyant des mécanoïdes pour les traitements</li>
+    <li>subject_gerund->la surveillance des signes vitaux</li>
+    <li>subject_gerund->la construction de moniteurs de signes vitaux</li>
+  </VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>
