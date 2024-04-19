@@ -1,122 +1,215 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: psychic ritual -->
   <PsychicRitual>rituel psychique</PsychicRitual>
+  <!-- EN: Begin psychic ritual -->
   <CastPsychicRitual>Commencer le rituel psychique</CastPsychicRitual>
+  <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>Choisissez un rituel psychique à accomplir.</CastPsychicRitualDesc>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
   <CannotCastPsychicRitual>{0_labelShort} ne peut pas accomplir le rituel psychique "{1}", car {2}.</CannotCastPsychicRitual>
+  <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>Le rituel psychique "{0}" a commencé.</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has been completed. -->
   <PsychicRitualCompleted>Le rituel psychique "{0}" est terminé.</PsychicRitualCompleted>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
   <PsychicRitualAttending>assiste au rituel psychique "{RITUALNAME}"</PsychicRitualAttending>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <ParticipatingInPsychicRitual>{0_labelShort} participe au rituel psychique "{1}".</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <AbilityDisabledInPsychicRitual>{0_labelShort} participe au rituel psychique "{1}".</AbilityDisabledInPsychicRitual>
+  <!-- EN: choose a location -->
   <PsychicRitual_LocationTargetting>choisir un lieu</PsychicRitual_LocationTargetting>
+  <!-- EN: total quality -->
   <PsychicRitualExpectedQualityLabel>qualité totale</PsychicRitualExpectedQualityLabel>
+  <!-- EN: quality factors -->
   <PsychicRitualQualityFactorLabel>facteurs de qualité</PsychicRitualQualityFactorLabel>
+  <!-- EN: duration -->
   <PsychicRitualExpectedDurationLabel>durée</PsychicRitualExpectedDurationLabel>
+  <!-- EN: required offering -->
   <PsychicRitualRequiredOffering>offrande requise</PsychicRitualRequiredOffering>
+  <!-- EN: Caused by psychic ritual -->
   <CausedByPsychicRitual>Conséquence du rituel psychique</CausedByPsychicRitual>
+  <!-- EN: Cooldown -->
   <PsychicRitualCooldownLabel>Temps de recharge</PsychicRitualCooldownLabel>
 
+  <!-- EN: Psychic ritual area obstructed. -->
   <PsychicRitualSpotObstructed>La zone du rituel psychique est encombrée.</PsychicRitualSpotObstructed>
+  <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
   <PsychicRitualOnCooldown>rituel psychique en cours de recharge. Il sera disponible dans {0}.</PsychicRitualOnCooldown>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
   <PsychicRitualCanBeCastAgain>Le rituel psychique "{0}" peut être accompli à nouveau.</PsychicRitualCanBeCastAgain>
+  <!-- EN: No basic anomaly research project selected. -->
   <NoBasicResearchForPsychicRitual>Aucun projet basique de recherche sur l'Anomalie n'est sélectionné.</NoBasicResearchForPsychicRitual>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
   <CantCastOnPocketMap>Le rituel psychique "{0}" doit être réalisé à la surface.</CantCastOnPocketMap>
 
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
   <PsychicRitualFactionWarning>Attention : si vous soumettez {PAWN_nameDef} à un rituel, vous provoquerez la colère de sa faction ({FACTION_name}).</PsychicRitualFactionWarning>
 
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>{0} dort et se réveillera lorsque le rituel psychique commencera.</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
   <PsychicRitualUndraftPawnWarning>{0} est actuellement {0_gender ? mobilisé : mobilisée : mobilisé(e)} et sera {0_gender ? démobilisé : démobilisée : démobilisé(e)} lorsque le rituel psychique commencera.</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnsWarning>{0} dorment et se réveilleront lorsque le rituel psychique commencera.</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
   <PsychicRitualUndraftPawnsWarning>{0} sont actuellement {0_gender ? mobilisés : mobilisées : mobilisé(e)s} et seront {0_gender ? démobilisé : démobilisée : démobilisé(e)s} lorsque le rituel psychique commencera.</PsychicRitualUndraftPawnsWarning>
 
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort} a quitté le rituel psychique "{1}".</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
   <PsychicRitualLeftBecause>{0_labelShort} a quitté le rituel psychique "{1}", car {2}.</PsychicRitualLeftBecause>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
   <PsychicRitualCanceled>Le rituel psychique "{0}" a été annulé.</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
   <PsychicRitualCanceledBecause>Le rituel psychique "{0}" a été annulé, car {1}.</PsychicRitualCanceledBecause>
 
+  <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>nécessaire : {0}. Disponible : {1}.</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
+  <PsychicRitualTargetUnreachableByInvoker>TODO</PsychicRitualTargetUnreachableByInvoker>
 
+  <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>quitter le rituel psychique "{0}"</CommandLeavePsychicRitual>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
   <CommandLeavePsychicRitualDesc>arrêter de participer au rituel psychique "{0}". Il se poursuivra tant qu'il restera au moins un participant.</CommandLeavePsychicRitualDesc>
 
+  <!-- EN: cancel the {0} psychic ritual -->
   <CommandCancelPsychicRitual>annuler le rituel psychique "{0}"</CommandCancelPsychicRitual>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
   <CommandCancelPsychicRitualDesc>mettre fin au rituel psychique "{0}" immédiatement. Vous pourrez le recommencer plus tard.</CommandCancelPsychicRitualDesc>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
   <CommandCancelPsychicRitualConfirm>Voulez-vous vraiment annuler le rituel psychique "{0}" ?</CommandCancelPsychicRitualConfirm>
 
+  <!-- EN: {PAWN_labelShort} vanished -->
   <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} a disparu</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
   <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} a perdu connaissance</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is dead -->
   <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} est {PAWN_gender ? mort : morte : mort(e)}</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
   <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} ne fait pas partie de la faction {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
   <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} n'est plus sur la carte</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
   <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} avait mieux à faire</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} is drafted -->
   <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} est {PAWN_gender ? mobilisé : mobilisée : mobilisé(e)}</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
   <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} est dans un état mental</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} saigne</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is on fire -->
   <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} est en feu</PsychicRitualLeaveReason_Burning>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
   <PsychicRitualLeaveReason_ExtremeTemperature>La température près de la cible est dangereuse pour {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
   <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort} ne peut pas participer en étant dans un bâtiment ({BUILDING})</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} est humanoïde</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} n'est pas humanoïde</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
   <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} est {PAWN_gender ? un prisonnier : une prisonnière : un(e) prisonnier(e)}</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a slave -->
   <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} est esclave</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} est libre</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
   <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} est {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} ne peut pas atteindre le lieu cible</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} dort</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} n'est pas un être humain</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>les croyances de {PAWN_labelShort} ({IDEO_name}) l'empêchent de participer</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} n'a aucune sensibilité psychique</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} n'est que temporairement membre de la faction</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} a d'autres priorités</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
   <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} a d'autres priorités</PsychicRitualLeaveReason_ForcedByQuest>
 
   <!-- PsychicRitualToils-->
+  <!-- EN: moving into position -->
   <PsychicRitualToil_Goto_JobReport_Moving>se met en position</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: waiting for everyone to get into position -->
   <PsychicRitualToil_Goto_JobReport_Waiting>attend que tout le monde se mette en position</PsychicRitualToil_Goto_JobReport_Waiting>
 
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
   <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} n'a pas réussi à trouver assez de {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: gathering offering -->
   <PsychicRitualToil_GatherOfferings_JobReport>rassemble les offrandes</PsychicRitualToil_GatherOfferings_JobReport>
 
+  <!-- EN: leading psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Invoker>dirige un rituel psychique</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: channeling power to psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Chanter>alimente le rituel psychique en énergie</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: psychic ritual target -->
   <PsychicRitualToil_InvokeHorax_JobReport_Target>cible du rituel psychique</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: {0} doesn't have enough {1} -->
   <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} n'a pas assez de {1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {PAWN_labelShort} is out of position -->
   <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} n'est pas en position</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: defending psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Defender>défend le rituel psychique</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
 
+  <!-- EN: waiting on -->
   <PsychicRitualToil_GatherForInvocation_Report>attend</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: invoking the void -->
   <PsychicRitualToil_InvokeHorax_Report>invoque le néant</PsychicRitualToil_InvokeHorax_Report>
 
+  <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} a été {PAWN_gender ? détruit : détruite : détruit(e)}</PsychicRitualDef_TargetDestroyed>
 
+  <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>la zone qui entoure la cible ne doit pas être encombrée</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>sensibilité psychique de {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>L'affinité de {PAWN_labelShort} pour les phénomènes psychiques.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Ces objets sont utiles pour focaliser l'énergie psychique du rituel.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: Ideoligion offset -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Influence des idéoligions</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>L'effet qu'exercent les croyances idéoligieuses sur le rituel psychique.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
   <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0} a commencé le rituel psychique "{1}".</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: psychic ritual area is obstructed -->
   <PsychicRitualAreaObstructed>la zone du rituel psychique est encombrée</PsychicRitualAreaObstructed>
 
   <!-- Animal summoning -->
+  <!-- EN: Not enough animals in this biome. -->
   <NotEnoughAnimals>Pas assez d'animaux dans ce biome.</NotEnoughAnimals>
 
   <!-- Shambler summoning -->
+  <!-- EN: No nearby shamblers. -->
   <NoNearbyShamblers>Aucun zombie à proximité.</NoNearbyShamblers>
 
   <!-- Pit gate summoning -->
+  <!-- EN: There is already a pit gate on the map. -->
   <PitGateAlreadyExists>Il y a déjà une fosse sur la carte.</PitGateAlreadyExists>
   
   <!-- Chronophagy -->
+  <!-- EN: The invoker must be at least {0} years old. -->
   <InvokerTooYoung>L'invocateur doit avoir au moins {0} ans.</InvokerTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
   <PsychicRitualTargetTooYoung>La cible doit avoir au moins {0} ans.</PsychicRitualTargetTooYoung>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   <CronophagyAgeChange>L'âge de {INVOKER_labelShort} passera à {1} ans et celui de {TARGET_labelShort}, à {3} ans.</CronophagyAgeChange>
   
   <!-- Philophagy -->
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
   <PhilophagyTransferReport>{INVOKER_labelShort} volera {1} XP de {SKILL_label} à {TARGET_labelShort}.</PhilophagyTransferReport>
-
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+  <NoSkillsToTransfer>TODO</NoSkillsToTransfer>
 </LanguageData>

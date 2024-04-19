@@ -1,52 +1,103 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Dangerous activity levels -->
   <ActivityMultipleDangerous>Niveaux d'activité dangereux</ActivityMultipleDangerous>
+  <!-- EN: These entities are at dangerously high activity levels -->
   <ActivityDangerousDesc>Les niveaux d'activité de ces entités sont dangereux.</ActivityDangerousDesc>  
+  <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
   <ActivityDangerousDescAppended>Lorsqu'une entité atteint 100 % d'activité, elle est considérée comme dangereuse.\n\nEnvoyez votre gardien les contenir ou activez la répression automatique depuis le panneau d'activité de l'entité.</ActivityDangerousDescAppended>
 
+  <!-- EN: Need anomaly project -->
   <NeedAnomalyProject>Projet sur l'Anomalie nécessaire</NeedAnomalyProject>
+  <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
   <NeedAnomalyProjectDesc>L'une de vos entités doit être étudiée, mais vous n'avez pas sélectionné de projet de recherche sur l'Anomalie :</NeedAnomalyProjectDesc>
+  <!-- EN: Need {NAME} anomaly research project -->
   <NeedAnomalyProjectDescLine>Projet de recherche sur l'Anomalie {NAME} nécessaire</NeedAnomalyProjectDescLine>
+  <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
   <NeedAnomalyProjectDescAppended>Ouvrez le menu Recherche et sélectionnez un projet dans l'onglet Anomalie.\n\nVous pouvez entamer simultanément un projet de recherche basique et un projet avancé.\n\n(Cliquez pour ouvrir le menu Recherche.)</NeedAnomalyProjectDescAppended>
 
+  <!-- EN: Visitor ignored -->
   <CreepJoinerTimeout>Visiteur ignoré</CreepJoinerTimeout>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
   <CreepJoinerTimeoutDesc>Ces visiteurs se sentent ignorés et commencent à s'impatienter.</CreepJoinerTimeoutDesc>
+  <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
   <CreepJoinerTimeoutDescAppended>Sélectionnez un colon et faites un clic droit sur le visiteur.\n\nN'attendez pas trop... ils n'aiment pas être ignorés.</CreepJoinerTimeoutDescAppended>
 
+  <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>Grotte souterraine instable</Alert_UndercaveUnstable>
+  <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
   <Alert_UndercaveUnstableDesc>La grotte souterraine est instable et menace de s'effondrer.\n\nFaites sortir vos colons avant qu'il ne soit trop tard.</Alert_UndercaveUnstableDesc>
 
+  <!-- EN: Cultist psychic ritual -->
   <Alert_CultistPsychicRitual>Rituel psychique de fidèle</Alert_CultistPsychicRitual>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
   <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} a commencé un rituel {RITUAL_definite}. Si vous n'interrompez pas {INVOKER_objective}, les conséquences pourraient être catastrophiques.</Alert_CultistPsychicRitualDesc>
 
+  <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>Goule affamée</AlertMeatHunger>
+  <!-- EN: These ghouls hunger for raw meat -->
   <AlertMeatHungerDesc>Ces goules ont faim de viande crue.</AlertMeatHungerDesc>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
   <AlertMeatHungerDescAppended>Si vous ne les nourrissez pas rapidement, elles risquent de devenir agressives. Trouvez-leur de la viande.</AlertMeatHungerDescAppended>
   
+  <!-- EN: Pit gate opening -->
   <AlertEmergingPitGate>Apparition d'une fosse</AlertEmergingPitGate>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
   <AlertEmergingPitGateDesc>Le sol s'effondre. Une fosse va bientôt apparaître.</AlertEmergingPitGateDesc>
 
+  <!-- EN: Insufficient containment -->
   <Alert_InsufficientContainment>Confinement insuffisant</Alert_InsufficientContainment>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
   <Alert_InsufficientContainmentDesc>Ces entités sont détenues dans des espaces qui ne répondent pas à leurs capacités de confinement.</Alert_InsufficientContainmentDesc>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
   <Alert_InsufficientContainmentDescAppended>Elles vont bientôt s'échapper. Renforcez les murs, les portes ou tout autre système de confinement pour les en empêcher.</Alert_InsufficientContainmentDescAppended>
 
+  <!-- EN: Holding platforms needed -->
   <AlertHoldingPlatform>Plateformes de détention nécessaires</AlertHoldingPlatform>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
   <AlertHoldingPlatformDesc>Construisez des plateformes de détention ou placez des enclos pour confiner et étudier les entités capturées.</AlertHoldingPlatformDesc>
 
+  <!-- EN: Cube withdrawal -->
   <AlertCubeWithdrawal>Sevrage du cube</AlertCubeWithdrawal>
+  <!-- EN: The following people are suffering from cube withdrawal -->
   <AlertCubeWithdrawalDesc>Ces personnes souffrent du syndrome de sevrage au cube.</AlertCubeWithdrawalDesc>
+  <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
   <AlertCubeWithdrawalDescAppended>Fébriles, rongées par les démangeaisons, elles n'ont qu'une idée en tête : se rapprocher du cube doré. Leurs symptômes ne feront qu'empirer tant qu'ils n'auront pas eu l'occasion de jouer avec le cube.\n\nFaites-en sorte de leur donner du temps libre et de leur permettre d'atteindre le cube doré.</AlertCubeWithdrawalDescAppended>
 
+  <!-- EN: Devourer digestion -->
   <AlertDigestion>Digestion du dévoreur</AlertDigestion>
+  <!-- EN: The following people or creatures are being digested by a devourer -->
   <AlertDigestionDesc>Ces personnes ou créatures sont en train d'être digérées par un dévoreur.</AlertDigestionDesc>
+  <!-- EN: Kill the devourer to release them before it's too late. -->
   <AlertDigestionDescAppended>Tuez le dévoreur pour les libérer avant qu'il ne soit trop tard.</AlertDigestionDescAppended>
   
+  <!-- EN: Inhibitor blocked -->
   <AlertInhibitorBlocked>Inhibiteur bloqué</AlertInhibitorBlocked>
+  <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
   <AlertInhibitorBlockedDesc>L'un de vos inhibiteurs électriques est bloqué par un autre bâtiment et ne peut plus fonctionner correctement.\n\nDégagez l'espace devant l'inhibiteur électrique.</AlertInhibitorBlockedDesc>
 
+  <!-- EN: Entity treatment needed -->
   <EntityNeedsTreatment>Entité souffrante</EntityNeedsTreatment>
+  <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
   <EntityNeedsTreatmentDesc>Ces entités ont besoin de soins médicaux, au risque de mourir en captivité.\n{0}\n\nEnvoyez un médecin pour les soigner.</EntityNeedsTreatmentDesc>
 
+  <!-- EN: Ghoul hypothermia -->
   <AlertGhoulHypothermia>Goule en hypothermie</AlertGhoulHypothermia>
-  <AlertGhoulHypothermiaDesc>Ces goules souffrent d'hypothermie.\n{0}\n\nDéplacez-les dans un environnement à la température plus élevée.</AlertGhoulHypothermiaDesc>\n\n</LanguageData>
+  <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
+  <AlertGhoulHypothermiaDesc>Ces goules souffrent d'hypothermie.\n{0}\n\nDéplacez-les dans un environnement à la température plus élevée.</AlertGhoulHypothermiaDesc>
+  
+  <!-- EN: Gray flesh -->
+  <AlertGrayFleshSample>TODO</AlertGrayFleshSample>
+  <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <AlertGrayFleshSampleDesc>TODO</AlertGrayFleshSampleDesc>
+  <!-- EN: Neural lump -->
+  <AlertNeuralLump>TODO</AlertNeuralLump>
+  <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
+  <AlertNeuralLumpDesc>TODO</AlertNeuralLumpDesc>
+  <!-- EN: Revenant flesh -->
+  <AlertRevenantFlesh>TODO</AlertRevenantFlesh>
+  <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
+  <AlertRevenantFleshDesc>TODO</AlertRevenantFleshDesc>
+
+</LanguageData>

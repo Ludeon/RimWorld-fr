@@ -1,65 +1,95 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Conversion -->
-  <AbilityCannotCastHoraxian>Les croyances de {0_nameDef} sont inébranlables.</AbilityCannotCastHoraxian>
-
   <!-- Entities -->
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
   <MessageActivityRisingDamage>Après avoir subi des dégâts, l'activité de {0_definite} est en hausse.</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>{0_gender ? un : une : un(e)} {0_labelShort} est {0_gender ? mort : morte : mort(e)} sur une plateforme de détention.</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
   <MessageEntityDiscovered>Nouvelle entité découverte</MessageEntityDiscovered>
 
   <!-- Hate chanters -->
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
   <MessageHateChantersAbsorbed>Les fidèles sont en transe et ne riposteront pas s'ils sont attaqués.</MessageHateChantersAbsorbed>
+  <!-- EN: The hate chanting has increased in volume. -->
   <MessageHateChantIncreased>L'incantation de haine a gagné en intensité.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
   <SelfResurrectText>{0_nameDef} peut se ressusciter grâce au déni de la mort.</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
   <MessageUsingSelfResurrection>{0_nameDef} se ressuscite grâce au déni de la mort.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
+  <!-- EN: The pit gate has collapsed. -->
   <MessagePitGateCollapsed>La fosse s'est effondrée.</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
   <MessagePitBurrowCollapsed>Un terrier s'est effondré.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
+  <!-- EN: The flesh sack contained something -->
   <FleshmassContainedMessage>Le sac de chair contenait quelque chose.</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>des {0_pawnsPluralDef} attaquent !</MessagePsychicRitualAssault>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
   <MessageAIPsychicRitualBegan>des {FACTION_pawnsPluralDef} commencent le rituel psychique.</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
   <MessageBiomutationLanceInvalidTargetRace>Impossible de cibler : {0_nameDef} n'est ni un animal ni un être humain.</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
   <MessageBiomutationLanceTargetTooBig>Impossible de cibler : {0_nameDef} est trop {0_gender ? grand : grande : grand(e)}.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
   <MessageNoRoomWithMinimumContainmentStrength>Avertissement : aucune cellule ne répond au critère de capacité de confinement pour {0}. La créature va bientôt s'évader.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>Avertissement : {0} ne répond pas au critère de capacité de confinement pour {1}. La créature va bientôt s'évader.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>Impossible de transférer {0}. Réservé par quelqu'un d'autre.</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
   <MessageEntityExecuted>{EXECUTIONER_labelShort} a exécuté {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
   <MessageOccupiedHoldingPlatformReinstalled>Avertissement : la réinstallation d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
   <MessageOccupiedHoldingPlatformUninstalled>Avertissement : la désinstallation d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
   <MessageOccupiedHoldingPlatformDeconstructed>Avertissement : la destruction d'une plateforme de détention occupée entraînera la libération de l'entité. Transférez d'abord l'entité sur une autre plateforme.</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
   <MessageHostileDuplicate>Un clone hostile de {0_nameDef} est apparu.</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
+  <!-- EN: A proximity detector has detected an invisible creature. -->
   <MessageProximityDetectorTriggered>Un détecteur de proximité a repéré la présence d'une créature invisible.</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
   <MessagePawnAttackedInDarkness>Quelque chose qui rôde dans les ténèbres a attaqué {0_nameDef}.</MessagePawnAttackedInDarkness>
   
   <!-- Revenant -->
+  <!-- EN: A hidden revenant has been revealed! -->
   <MessageRevenantForcedVisibility>Un revenant caché a été révélé !</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
   <MessageRevenantHeard>{PAWN_nameDef} peut entendre le revenant {1} à proximité !</MessageRevenantHeard>
   
   <!-- Abilities -->
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
   <MessageCannotUseOnNonBleeder>impossible d'utiliser {ABILITY_label} sur les créatures qui ne saignent pas.</MessageCannotUseOnNonBleeder>
   
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
   <MessageFingerspikeDisturbed>{WAKER_nameDef} a dérangé une digipointe.</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
   <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} a dérangé plusieurs digipointes.</MessageFingerspikeDisturbedPlural>
 
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
   <DeathPallResurrectedMessage>La brume funeste a ressuscité {0_indefinite}.</DeathPallResurrectedMessage>
   
+  <!-- UNUSED -->
+  <AbilityCannotCastHoraxian>Les croyances de {0_nameDef} sont inébranlables.</AbilityCannotCastHoraxian>
+
 </LanguageData>

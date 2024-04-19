@@ -1,32 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Reading management -->
+  <!-- EN: {0} max mental break chance -->
   <MaxMentalBreakChance>{0} chance(s) de crise nerveuse max</MaxMentalBreakChance>
+  <!-- EN: Tomes -->
   <TomePolicy>Tomes</TomePolicy>
 
   <!-- Caravan -->
+  <!-- EN: Entities -->
   <EntitiesSection>Entités</EntitiesSection>
   
   <!-- Hidden items filter -->
+  <!-- EN: Undiscovered -->
   <UndiscoveredItemLabel>Non découvert</UndiscoveredItemLabel>
+  <!-- EN: This item has not been discovered yet. -->
   <UndiscoveredItemDesc>Cet objet n'a pas encore été découvert.</UndiscoveredItemDesc>
 
   <!-- Medical settings -->
+  <!-- EN: Entities -->
   <MedGroupEntities>Entités</MedGroupEntities>
+  <!-- EN: Anomalous entities and their variations. -->
   <MedGroupEntitiesDesc>Entités anormales et leurs variantes.</MedGroupEntitiesDesc>
 
+  <!-- EN: Ghouls -->
   <MedGroupGhouls>Goules</MedGroupGhouls>
+  <!-- EN: Ghouls belonging to your colony. -->
   <MedGroupGhoulsDesc>Goules appartenant à votre colonie.</MedGroupGhoulsDesc>
 
+  <!-- EN: Turning {PAWN_nameDef} into a ghoul is irreversible. {PAWN_pronoun} will be left in a half-conscious stupor and be incapable of work.\n\nAre you sure you want to turn {PAWN_nameDef} into a ghoul? -->
   <GhoulConfirmation>Transformer {PAWN_nameDef} en goule est irréversible et provoquera un état de stupeur qui {PAWN_gender ? le : la} rendra incapable de travailler.\n\nVoulez-vous vraiment transformer {PAWN_nameDef} en goule ?</GhoulConfirmation>
 
+  <!-- EN: no anomaly buildings allowed -->
   <RoomRequirementNoAnomalyBuildings>aucun bâtiment d'anomalie autorisé</RoomRequirementNoAnomalyBuildings>
 
+  <!-- EN: Entity codex -->
   <EntityCodex>Codex des entités</EntityCodex>
+  <!-- EN: View all discovered entities. Discover new entities to advance the monolith and reveal new research projects. -->
   <EntityCodexGizmoTip>Consultez toutes les entités découvertes. Découvrez de nouvelles entités pour faire progresser le monolithe et révéler de nouveaux projets de recherche.</EntityCodexGizmoTip>
+  <!-- EN: Research unlocks -->
   <ResearchUnlocks>Déverrouillage de recherches</ResearchUnlocks>
+  <!-- EN: This page lists all known entities which are related to the dark void. Discover new entities using the “void provocation” psychic ritual. Discovering new entities reveals new research projects, and allows you to advance the void monolith. -->
   <EntityCodexDesc>Cette page répertorie toutes les entités connues liées au néant. Découvrez de nouvelles entités en accomplissant le rituel psychique "provocation du néant" afin de révéler de nouveaux projets de recherche et de faire progresser le monolithe du néant.</EntityCodexDesc>
+  <!-- EN: Undiscovered entity -->
   <UndiscoveredEntity>Entité non découverte</UndiscoveredEntity>
+  <!-- EN: You have not discovered this entity. -->
   <UndiscoveredEntityDesc>Vous n'avez pas découvert cette entité. Vous pouvez découvrir de nouvelles entités en accomplissant le rituel psychique "provocation du néant".</UndiscoveredEntityDesc>
-  <ViewEntityCodex>Consulter le codex des entités</ViewEntityCodex>\n\n</LanguageData>
+  <!-- EN: View entity codex -->
+  <ViewEntityCodex>Consulter le codex des entités</ViewEntityCodex>
+
+</LanguageData>
