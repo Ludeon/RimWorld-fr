@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: psychic ritual -->
@@ -69,7 +69,7 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>nécessaire : {0}. Disponible : {1}.</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>TODO</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} est inaccessible par {INVOKER_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>quitter le rituel psychique "{0}"</CommandLeavePsychicRitual>
@@ -211,5 +211,6 @@
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
   <PhilophagyTransferReport>{INVOKER_labelShort} volera {1} XP de {SKILL_label} à {TARGET_labelShort}.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
-  <NoSkillsToTransfer>TODO</NoSkillsToTransfer>
+  <NoSkillsToTransfer>{TARGET_labelShort} n'a aucune compétence à transférer.</NoSkillsToTransfer>
+
 </LanguageData>
