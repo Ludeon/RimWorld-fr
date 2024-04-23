@@ -44,9 +44,9 @@
   <!-- EN: ideoligion exposure -->
   <IdeoExposureSectionHeader>exposition aux idéologies</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>{BABY_labelShort} n'a encore été exposé à aucune idéologie.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort} n'a encore été exposé{BABY_gender ? : e : (e)} à aucune idéologie.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>{BABY_pronoun} peut être exposé à des idéoligions en interagissant avec des adeptes d'une idéoligion. Ces interactions incluent être allaité, porté, joué avec, et plus encore. À l'âge de {CHILDAGE} {BABY_labelShort} rejoindra l'une des idéologies auxquelles {BABY_pronoun} a été exposé.</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} peut être exposé{BABY_gender ? : e : (e)} à des idéoligions en interagissant avec des adeptes d'une idéoligion. Ces interactions incluent être allaité, porté, joué avec, et plus encore. À l'âge de {CHILDAGE} {BABY_labelShort} rejoindra l'une des idéoligions auxquelles {BABY_pronoun} a été exposé{BABY_gender ? : e : (e)}.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
   <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} a {PERCENT}de chance de rejoindre l'idéologie {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
@@ -86,15 +86,15 @@
   <!-- EN: zero chance -->
   <CantRomanceTargetZeroChance>aucune chance</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est un prisonnier.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est un{0_gender ? : e : (e)} {0_gender ? prisonnier : prisonnière : prisonnier(e)}.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est esclave.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est un{0_gender ? : e : (e)} esclave.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
   <CantRomanceInitiateMessageAsexual>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} a le trait asexué.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est inconscient.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est inconscient{0_gender ? : e : (e)}.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est mobilisé.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est mobilisé{0_gender ? : e : (e)}.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
   <CantRomanceInitiateMessageMentalState>{0_labelShort} ne peut pas essayer d'avoir une relation amoureuse car {0_pronoun} est dans un état mental inapte.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
@@ -124,6 +124,7 @@
   <!-- EN: {0_nameDef} is already in a relationship. -->
   <RomanceWarningMonogamous>{0_nameDef} est déjà en couple.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
+  <!-- NOTE: utiliser {1_multiple ? : s } -->
   <RomanceWarningPolygamous>{0_nameDef} a déjà {1} partenaire(s).</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
