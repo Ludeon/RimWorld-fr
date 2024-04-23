@@ -81,13 +81,16 @@
   <IdeologicalFounder.rules.rulesStrings>
     <li>story(priority=-999)-></li>
     <li>setup->Dans un monde brisé, [founderName] vit tout ce qui n'allait pas et créa notre mouvement.</li>
-    <li>setup->Frappé par l'injustice du monde, [founderName] étudia l'histoire et la philosophie et découvrit la nouvelle vérité qui nous guide.</li>
-    <li>setup->Un jour, alors qu'il travaillait, [founderName] fut frappé d'une grande révélation. [founder_pronoun] lâcha ses outils et commença à répandre la bonne parole auprès des autres travailleurs.</li>
+    <li>setup->Frappé[founder_suffix] par l'injustice du monde, [founderName] étudia l'histoire et la philosophie et découvrit la nouvelle vérité qui nous guide.</li>
+    <li>setup->Un jour, alors qu'[founder_pronoun] travaillait, [founderName] fut frappé[founder_suffix] d'une grande révélation. [founder_pronoun] lâcha ses outils et commença à répandre la bonne parole auprès des autres travailleurs.</li>
     <li>setup->[founderName] s'assit sur le banc d'un parc pendant vingt ans alors qu'[founder_pronoun] contemplait notre monde. Avec sa perspicacité, [founder_pronoun] écrivit notre livre fondateur.</li>
     <li>story(uses=1,priority=-10)->Les [memberNamePlural] n'auraient pas compris la vraie nature de [memeConcept] sans les enseignements de [founderName].</li>
     <li>story(uses=1,priority=-10)->Le discours de [founderName] lors d'un [ritualName] inspira de nombreuses personnes à mener une vie [memeAdjective].</li>
-    <li>story(uses=1,priority=-10)->Aucun ne pouvait surpasser la compréhension de [founderName] de [memeConcept], et [founder_pronoun] fut nommé premier [leaderTitle] des [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->Aucun ne pouvait surpasser la compréhension de [founderName] de [memeConcept], et [founder_pronoun] fut nommé[founder_suffix] premier [leaderTitle] des [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] portait un [relic0_thingDef_label] nommé [relic0_name] avec [founder_objective] partout pour rappeler aux gens de vivre une vie [memeAdjective].</li>
+    <!-- NOTE: "frappé/frappée" and "nommé/nommée"  -->
+    <li>founder_suffix(founder_gender==Female)->e</li>
+    <li>founder_suffix(founder_gender!=Female)-></li>
   </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
@@ -282,13 +285,16 @@
     <li>conflict->Puis le [foeLeader] vint. Ses [foeSoldiers] tuèrent de nombreux adorateurs de [deity0_name] avec des [place_personalWeapon].</li>
     <li>conflict->Un groupe de [foeSoldiers] s'éleva sous la direction d'un terrible [foeLeader]. Ils piégèrent les [memberNamePlural] dans un [place_community].</li>
     <li>conflict->Il y avait la paix, jusqu'à ce qu'un [foeLeader] et ses [foeSoldiers] se rebellèrent contre la domination de [deity0_name]. Les [memberNamePlural] furent forcés de fuir vers une [place_community] cachée.</li>
-    <li>founderJoin->Un héros nommé [founderName] tenta d'assassiner le [foeLeader]. [founder_pronoun] échoua, mais [deity0_name] fut témoin de la lutte de [founderName] et le nomma prophète des [memberNamePlural].</li>
+    <li>founderJoin->Un[founder_suffix] [founder_hero] nommé[founder_suffix] [founderName] tenta d'assassiner le [foeLeader]. [founder_pronoun] échoua, mais [deity0_name] fut témoin de la lutte de [founderName] et [founder_accusative] nomma prophète des [memberNamePlural].</li>
+    <!-- TODO: Ajuster [place_job] à (founder_gender==Female)
+        voir {Royalty,Ideology}/DefInjected/PlaceDef/Places.xml
+    -->
     <li>founderJoin->[deity0_name] vint au [place_job] [founderName] [revelationAdverb] et lui parla de [memeConcept].</li>
     <li>founderJoin->[founderName] rencontra [revelationObject], qui parla dans la voix de [deity0_name] à propos de [memeConcept].</li>
-    <li>founderJoin->Un renommé [place_job] nommé [founderName] réunit les [memberNamePlural] et recruta certains des [foeSoldiers].</li>
-    <li>founderJoin-> Un [place_job] nommé [founderName] se leva et se prononça contre le [foeLeader], et [deity0_name] bénit [founderName].</li>
-    <li>founderJoin->[deity0_name] décida de venir à [place_name] en tant qu'humain nommé [founderName] pour aider les [memberNamePlural].</li>
-    <li>founderJoin->Un héros nommé [founderName] tua une centaine de [foeSoldiers] à l'aide d'une [place_personalWeapon], et [deity0_name] le/la guida en parlant à travers la [relic0_name].</li>
+    <li>founderJoin->Un[founder_suffix] renommé[founder_suffix] [place_job] nommé[founder_suffix] [founderName] réunit les [memberNamePlural] et recruta certains des [foeSoldiers].</li>
+    <li>founderJoin-> Un[founder_suffix] [place_job] nommé[founder_suffix] [founderName] se leva et se prononça contre le [foeLeader], et [deity0_name] bénit [founderName].</li>
+    <li>founderJoin->[deity0_name] décida de venir à [place_name] en tant qu'humain[founder_suffix] nommé[founder_suffix] [founderName] pour aider les [memberNamePlural].</li>
+    <li>founderJoin->Un[founder_suffix] [founder_hero] nommé[founder_suffix] [founderName] tua une centaine de [foeSoldiers] à l'aide d'une [place_personalWeapon], et [deity0_name] [founder_accusative] guida en parlant à travers la [relic0_name].</li>
     <li>victory->[founderName] rassembla les [memberNamePlural] dans une [place_community] et leur enseigna la sagesse de [deity0_name].</li>
     <li>victory->[founderName] se sacrifia [founder_objective]-même pour tuer personnellement le [foeLeader].</li>
     <li>revelationAdverb->dans une vision</li>
@@ -303,6 +309,16 @@
     <li>revelationObject->une éclatante [Vegetable_Feminine]</li>
     <li>revelationObject->un ancien [Weapon]</li>
     <li>revelationObject->une ancienne [Weapon_Feminine]</li>
+    <!-- NOTE: "frappé/frappée" and "nommé/nommée" etc. -->
+    <!-- TODO: (?) Ces règles pourraient être définies dans
+      Ideology/DefInjected/RulePackDef/RulePacks_Ideo_Description.xml
+    -->
+    <li>founder_suffix(founder_gender==Female)->e</li>
+    <li>founder_suffix(founder_gender!=Female)-></li>
+    <li>founder_hero(founder_gender==Female)->héroïne</li>
+    <li>founder_hero(founder_gender!=Female)->héros</li>
+    <li>founder_accusative(founder_gender==Female)->la</li>
+    <li>founder_accusative(founder_gender!=Female)->le</li>
   </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
