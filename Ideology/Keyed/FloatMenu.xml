@@ -20,7 +20,7 @@
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} doit être un {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} est immunisé psychiquement</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} est immunisé{PAWN_gender ? : e : (e)} psychiquement</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
   <CantStartNotEnoughSpaceDuelSpectators>Pas assez de place pour les spectateurs. Il doit y avoir un cercle clair de {MINRADIUS} de rayon. Au moins {1} emplacements stables dans ce rayon sont requis.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
@@ -28,7 +28,7 @@
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuelSpeaker>Pas assez d'espace pour l'orateur'. Il doit y avoir un cercle clair de {MINRADIUS} de rayon.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>{0_labelShort} est un esclave. Les esclaves n'ont pas droit à des funérailles.</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} est un{0_gender ? : e : (e)} esclave. Les esclaves n'ont pas droit à des funérailles.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>Besoin d'un lit d'esclave accessible, non réservé et à température sûre.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
