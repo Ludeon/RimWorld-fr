@@ -214,8 +214,8 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] et un autre [faction_pawnSingular] désespéré approchent.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] approche avec un enfant dans les bras.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] désespérés approchent. leur chef se nomme [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés avec un enfant approchent. leur chef se nomme [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés avec des enfants approchent. leur chef se nomme [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés, dont un enfant, approchent. leur chef se nomme [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés, dont des enfants, approchent. leur chef se nomme [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un groupe de [lodgerCount] [faction_pawnsPlural] désespérés s'approche, composé de [asker_nameDef] et de [lodgersCountMinusOne] enfants qu'[asker_pronoun] a pris sous ses ailes.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] affirme avoir perdu son domicile lors d'une récente attaque.</li>
     <li>claimInfo(lodgerCount==1,asker_gender==Female)->[asker_nameDef] prétend sortir de crypto-sommeil seule et sans amis.</li>
