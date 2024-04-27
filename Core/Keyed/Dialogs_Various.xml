@@ -655,9 +655,9 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Négociateur : {0} (+ {1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Votre colon négociateur {1_labelShort} ne peut plus parler correctement à cause de sa mauvaise santé.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Votre colon {1_gender ? négociateur : négociatrice : négociateur/trice} {1_labelShort} ne peut plus parler correctement à cause de sa mauvaise santé.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Votre négociateur {1_labelShort} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Votre {1_gender ? négociateur : négociatrice : négociateur/trice} {1_labelShort} ne peut pas entendre correctement à cause de sa mauvaise santé.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Cela affectera les prix des transactions. \n\nPensez à utiliser un négociateur en meilleure santé.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -1047,7 +1047,7 @@
   <!-- EN: Reading policy -->
   <ReadingPolicy>Politique de lecture</ReadingPolicy>
   <!-- EN: Reading policy is in use. -->
-  <ReadingPolicyInUse>TODO</ReadingPolicyInUse>
+  <ReadingPolicyInUse>Politique de lecture en cours d'utilisation.</ReadingPolicyInUse>
 
   <!-- EN: Anything -->
   <AllReadingPolicy>Tout</AllReadingPolicy>
@@ -1195,7 +1195,8 @@
   <!-- EN: {0_labelShort} is not maddened. -->
   <AbilityCanOnlyApplyToManhunter>{0_labelShort} n'est pas en colère.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} est port{0_gender ? eur : euse : eur(se)} du scaria, qui ne peut être traité que par des soins médicaux.</AbilityCantApplyToScaria>
+  <!-- NOTE: "scaria" a été traduit par "rage" -->
+  <AbilityCantApplyToScaria>{0_labelShort} est port{0_gender ? eur : euse : eur(se)} de la rage, qui ne peut être traitée que par des soins médicaux.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} ne peut pas agir avec l'état mental "{1}".</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
@@ -1419,28 +1420,5 @@
   <MapSearchResultSingular>1 résultat trouvé</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Recherche en cours</Searching>
-
-  <!-- UNUSED -->
-  <Outfit>Tenues</Outfit>
-  <SelectOutfit>Choisir la tenue…</SelectOutfit>
-  <NewOutfit>Nouvelle tenue</NewOutfit>
-  <DeleteOutfit>Supprimer la tenue…</DeleteOutfit>
-  <NoOutfitSelected>Aucune tenue choisie.</NoOutfitSelected>
-  <SelectDrugPolicy>Choisir la règle…</SelectDrugPolicy>
-  <NewDrugPolicy>Nouvelle règle</NewDrugPolicy>
-  <DeleteDrugPolicy>Supprimer la règle…</DeleteDrugPolicy>
-  <NoDrugPolicySelected>Pas de règle sur la drogue sélectionnée</NoDrugPolicySelected>
-  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
-  <DrugUsageColumnDesc>Comment la drogue est autorisée à être consommée.</DrugUsageColumnDesc>
-  <FoodRestriction>Alimentation</FoodRestriction>
-  <FoodRestrictionShort>Alimentation</FoodRestrictionShort>
-  <SelectFoodRestriction>Choisir alimentation</SelectFoodRestriction>
-  <NewFoodRestriction>Nouvelle alimentation</NewFoodRestriction>
-  <DeleteFoodRestriction>Supprimer alimentation</DeleteFoodRestriction>
-  <NoFoodRestrictionSelected>Aucune restriction alimentaire</NoFoodRestrictionSelected>
-  <MedGroupColonist>Colons</MedGroupColonist>
-  <MedGroupImprisonedColonist>Colons emprisonnés</MedGroupImprisonedColonist>
-  <MedGroupColonyAnimal>Animaux de la colonie</MedGroupColonyAnimal>
-  <MedGroupNeutralAnimal>Animaux neutres</MedGroupNeutralAnimal>
 
 </LanguageData>

@@ -49,11 +49,11 @@
   <!-- EN: Occupied -->
   <Occupied>occupé</Occupied>
   <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
-  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} a été éjecté d'une cuve d'incubation</OccupantEjectedFromGrowthVat>
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} a été éjecté{PAWN_gender ? : e : (e)} d'une cuve d'incubation</OccupantEjectedFromGrowthVat>
   <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
-  <TooOld>{PAWN_nameDef} doit être âgé de moins de {AGEYEARS} ans.</TooOld>
+  <TooOld>{PAWN_nameDef} doit être âgé{PAWN_gender ? : e : (e)} de moins de {AGEYEARS} ans.</TooOld>
   <!-- EN: {PAWN_nameDef} is too old. -->
-  <PawnIsTooOld>{PAWN_nameDef} est trop âgé.</PawnIsTooOld>
+  <PawnIsTooOld>{PAWN_nameDef} est trop âgé{PAWN_gender ? : e : (e)}.</PawnIsTooOld>
   <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
   <PawnBiostarving>{PAWN_nameDef} souffre de biofamine.</PawnBiostarving>
   <!-- EN: No available people -->
@@ -114,7 +114,7 @@
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
   <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} ne peut pas allaiter pour le moment</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} est trop nourri pour téter</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} est trop nourri{BABY_gender ? : e : (e)} pour téter</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
   <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} ne peut pas aller à {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
@@ -130,11 +130,11 @@
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
   <BreastfeedFailReason_NoMomsAssignedToBaby>Aucun {BABY_factionPawnsPlural} en lactation n'est attribué à {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} n'est pas affecté à la garde d'enfants</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} n'est pas affecté{MOM_gender ? : e : (e)} à la garde d'enfants</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>TODO</BreastfeedFailReason_MomInsideContainer>
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} est à l'intérieur d'un conteneur</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>TODO</BreastfeedFailReason_MomBeingCarried>
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} est transporté</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>Ordonner l'implantation dans {PAWN_nameDef}</OrderImplantationIntoPawn>
