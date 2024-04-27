@@ -14,7 +14,7 @@
   <MessageRaidersStealing>Les {0} de {1} ont décidé de prendre ce qu'ils peuvent et de partir.</MessageRaidersStealing>
 
   <!-- EN: The mechanoids sense no more targets and are moving on. -->
-  <MechanoidsMovingOn>TODO</MechanoidsMovingOn>
+  <MechanoidsMovingOn>Les méchanoïdes ne détectent plus de cibles et passent à autre chose.</MechanoidsMovingOn>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>{0} de {1} sont arrivés et ils attaquent. D'autres sont en route et arriveront dans {2}.</MessageCaravanDetectedRaidArrived>
@@ -38,7 +38,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} de {1} quittent la carte en raison des températures dangereuses.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
-  <MessageVisitorsAnomalousWeather>TODO</MessageVisitorsAnomalousWeather>
+  <MessageVisitorsAnomalousWeather>{0} de {1} quittent la carte en raison des conditions météorologiques dangereuses.</MessageVisitorsAnomalousWeather>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>L'équipement {0} porté par {1_nameFull} est réduit à néant.</MessageWornApparelDeterioratedAway>
@@ -131,9 +131,9 @@
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Vous devez désigner un sol de pierre brute.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Must designate rough stone terrain. -->
-  <MessageMustDesignateSmoothableFloor>TODO</MessageMustDesignateSmoothableFloor>
+  <MessageMustDesignateSmoothableFloor>Doit désigner un terrain en pierre brute</MessageMustDesignateSmoothableFloor>
   <!-- EN: Must designate rough stone wall. -->
-  <MessageMustDesignateSmoothableWall>TODO</MessageMustDesignateSmoothableWall>
+  <MessageMustDesignateSmoothableWall>Doit désigner un mur en pierre brute</MessageMustDesignateSmoothableWall>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Le toit ne peut être retiré car trop épais.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -358,7 +358,7 @@
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Vos {1} ne peuvent pas finir le chargement des capsules de transport car un objet ou un personnage est indisponible ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>TODO</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>Votre {1} ne peut pas terminer l'entrée ({0}) parce que certains articles ou certaines personnes ne sont pas disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>La destination sélectionnée n'est pas valide.</MessageTransportPodsDestinationIsInvalid>
@@ -577,9 +577,9 @@
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>Le "{0}" de {1} ne peut plus compter les objets dans le stockage supprimé {2}.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>TODO</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>Le "{0}" de {1} ne peut plus compter les objets dans la structure supprimé {2}.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
-  <MessageBillValidationIncludeStorageGroupDeleted>TODO</MessageBillValidationIncludeStorageGroupDeleted>
+  <MessageBillValidationIncludeStorageGroupDeleted>Le "{0}" de {1} ne peut plus compter les objets dans le stockage de groupe supprimé {2}.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>Le "{0}" de {1} ne peut plus compter les objets dans le stockage indisponible {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
@@ -679,9 +679,9 @@
 
   <!-- Lord jobs -->
   <!-- EN: You need {0_indefinite}. -->
-  <MessageLordJobNeedsAtLeastOneRolePawn>TODO</MessageLordJobNeedsAtLeastOneRolePawn>
+  <MessageLordJobNeedsAtLeastOneRolePawn>Vous avez besoin {0_indefinite}.</MessageLordJobNeedsAtLeastOneRolePawn>
   <!-- EN: You need at least {1} {0}. -->
-  <MessageLordJobNeedsAtLeastNumRolePawn>TODO</MessageLordJobNeedsAtLeastNumRolePawn>
+  <MessageLordJobNeedsAtLeastNumRolePawn>Vous avez besoin au moins {1} {0}.</MessageLordJobNeedsAtLeastNumRolePawn>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
@@ -743,7 +743,7 @@
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0} doit être capable de {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
-  <MessageRitualRoleMustBeCapableOfViolence>TODO</MessageRitualRoleMustBeCapableOfViolence>
+  <MessageRitualRoleMustBeCapableOfViolence>{0} doit être en mesure de faire usage de violence.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>les prisonniers ne peuvent pas {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -753,7 +753,7 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>doit être un colon pour le rôle de {0}.</MessageRitualRoleMustBeColonist>
   <!-- EN: must not be a prisoner for the {0} role. -->
-  <MessageRitualRoleMustBeFree>TODO</MessageRitualRoleMustBeFree>
+  <MessageRitualRoleMustBeFree>ne doit pas être un prisonnier pour le rôle : {0}.</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
   <MessageRitualWontAttendExtremeTemperature>{0_labelShort} ne participera pas en raison de températures extrêmes dans la zone de rituelle.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
@@ -775,7 +775,7 @@
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeBaby>{0} ne peut pas être un bébé.</MessageRitualRoleCannotBeBaby>
   <!-- EN: {0} is busy. -->
-  <MessageRitualRoleBusy>TODO</MessageRitualRoleBusy>
+  <MessageRitualRoleBusy>{0} est occupé.</MessageRitualRoleBusy>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Vous devez choisir un emplacement pour continuer.</MessagePlayerMustSelectTile>
@@ -806,22 +806,22 @@
   <NothingAvailableInCategory>Rien n'est actuellement constructible dans la catégorie</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>Paramètres de stockage liés pour {0} bâtiments.</SettingsLinkedFor>
+  <SettingsLinkedFor>Paramètres de stockage liés pour {0} structures.</SettingsLinkedFor>
   <!-- EN: Storage settings linked for 1 building. -->
-  <SettingsLinkedForSingular>TODO</SettingsLinkedForSingular>
+  <SettingsLinkedForSingular>Paramètres de stockage liés pour 1 structure.</SettingsLinkedForSingular>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>Paramètres de stockage dissociés pour {0} bâtiments.</SettingsUnlinkedFor>
+  <SettingsUnlinkedFor>Paramètres de stockage dissociés pour {0} structures.</SettingsUnlinkedFor>
   <!-- EN: Storage settings unlinked for 1 building. -->
-  <SettingsUnlinkedForSingular>TODO</SettingsUnlinkedForSingular>
+  <SettingsUnlinkedForSingular>Paramètres de stockage dissociés pour {0} structure.</SettingsUnlinkedForSingular>
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>Paramètres de stockage copiés dans le presse-papiers.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>Paramètres de stockage collés depuis le presse-papiers.</StorageSettingsPastedFromClipboard>
   
   <!-- EN: {0_label} requires adjacent walls to function. -->
-  <MessageBuildingRequiresAdjacentWalls>TODO</MessageBuildingRequiresAdjacentWalls>
+  <MessageBuildingRequiresAdjacentWalls>{0_label} nécessite des murs adjacents pour fonctionner.</MessageBuildingRequiresAdjacentWalls>
 
   <!-- EN: Cannot skip: Refugee -->
-  <MessageLodgersCantFarskip>TODO</MessageLodgersCantFarskip>
+  <MessageLodgersCantFarskip>Impossible de passer : Réfugié</MessageLodgersCantFarskip>
 
 </LanguageData>

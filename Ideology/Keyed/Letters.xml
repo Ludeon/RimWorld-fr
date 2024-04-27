@@ -56,13 +56,13 @@
   <!-- EN: {PAWN_pronoun} was unassigned. -->
   <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} a été privée du rôle.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>Le rôle est devenu inactif en raison du faible nombre d'adeptes.</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>Le rôle est devenu inactif en raison du faible nombre d'adeptes.</LetterRoleLostReasonLowBelieversDesc><!-- todo_text : d'adeptes -> de/d' {0} ? -->
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} a perdu sa position de {ROLE_label} car {PAWN_pronoun} a abandonné le {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
   <LetterObligationRoleInactive>{0} ignoré.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>Le rituel '{1}' devrait avoir lieu le {0}, mais comme le rôle '{ROLE_labelDef}' est inactif, les adeptes ignoreront le rituel.</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>Le rituel '{1}' devrait avoir lieu le {0}, mais comme le rôle '{ROLE_labelDef}' est inactif, les adeptes ignoreront le rituel.</LetterObligationRoleInactiveDateDesc><!-- todo_text : les adeptes -> les {2}s ? -->
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
@@ -100,7 +100,7 @@
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
   <JoinerCharityInfo>Il s'agit d'un événement caritatif. Si vous rejetez {0}, les croyants aux croyances bienveillantes seront mécontents.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>Il s'agit d'un événement caritatif. Si {0} meurt, les croyants aux croyances bienveillantes seront mécontents. Si {0} est soigné ou recruté, les croyants seront heureux.</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>Il s'agit d'un événement caritatif. Si {0} meurt, les croyants aux croyances bienveillantes seront mécontents. Si {0} est soigné ou recruté, les croyants seront heureux.</AfflictedJoinerChartityInfo> <!-- todo_text -->
   <!-- EN: The following believers have charitable beliefs -->
   <PawnsHaveCharitableBeliefs>Les croyants suivants ont des croyances bienveillantes</PawnsHaveCharitableBeliefs>
 
@@ -186,7 +186,7 @@
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>Connexion {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>{CONNECTOR_nameDef} s'est connecté à un {TREE_label}. \n\nLe {TREE_label} produira de petits animaux appelés dryades en les élevant dans des capsules à proximité. Ces dryades sont divisées en différentes castes. Vous pouvez déterminer quelle caste de dryade l'arbre doit produire.\n\nPlus le lien entre l'arbre et l'humain est fort, plus le {TREE_label} peut accueillir de dryades. {CONNECTOR_nameDef} peut renforcer le lien en taillant {TREE_definite}. Plus la force de connexion est élevée, plus l'arbre devra être élagué souvent pour maintenir sa valeur.</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} s'est connecté{CONNECTOR_gender ? : e : (e)} à {TREE_indefinite}. \n\n{TREE_definite} produira de petits animaux appelés dryades en les élevant dans des capsules à proximité. Ces dryades sont divisées en différentes castes. Vous pouvez déterminer quelle caste de dryade l'arbre doit produire.\n\nPlus le lien entre l'arbre et l'humain est fort, plus {TREE_definite} peut accueillir de dryades. {CONNECTOR_nameDef} peut renforcer le lien en taillant {TREE_definite}. Plus la force de connexion est élevée, plus l'arbre devra être élagué souvent pour maintenir sa valeur.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>{TREE_label} connecté a été détruit</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
