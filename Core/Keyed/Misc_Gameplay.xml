@@ -1919,7 +1919,7 @@
   <ShieldPersonalTip>Un bouclier individuel qui tentera d'arrêter les projectiles ou les éclats d'obus entrants. Il empêche le porteur de tirer et s'éteint instantanément s'il est touché par une IEM.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef} est si fidèle à sa maison qu'{PAWN_pronoun} refusera d'être recruté s'{PAWN_pronoun} est fait prisonn{PAWN_gender ? ier : ière : ier/ière}.</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} est si fidèle à sa maison qu'{PAWN_pronoun} refusera d'être recruté{PAWN_gender ? : e : (e)} si {PAWN_pronoun} est fait{PAWN_gender ? : e : (e)} prisonn{PAWN_gender ? ier : ière : ier/ière}.</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>Au hasard</Random>
@@ -2022,5 +2022,5 @@
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>La nouvelle extension Anomaly est disponible dès maintenant !</MainScreen_AnomalyAvailableNow>
-  
+
 </LanguageData>
