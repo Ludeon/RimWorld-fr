@@ -113,6 +113,13 @@
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violé : départ</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], a été la cible d'un rituel psychique.</li> 
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violé : Colère</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violé : Vengeance</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violé : Départ</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Trahison</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStaySingularOrPlural] [areIsBetraying] contre vous !\n\nIl semble qu'[lodgersPronoun] [HadPlanifiedSingOrPlural] cette trahison depuis le début.</li>
     <li>areIsBetraying(lodgerCount==1,asker_gender==Female)->s'est retournée</li>
@@ -207,8 +214,8 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] et un autre [faction_pawnSingular] désespéré approchent.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] approche avec un enfant dans les bras.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] désespérés approchent. leur chef se nomme [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés avec un enfant approchent. leur chef se nomme [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés avec des enfants approchent. leur chef se nomme [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés, dont un enfant, approchent. leur chef se nomme [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] désespérés, dont des enfants, approchent. leur chef se nomme [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un groupe de [lodgerCount] [faction_pawnsPlural] désespérés s'approche, composé de [asker_nameDef] et de [lodgersCountMinusOne] enfants qu'[asker_pronoun] a pris sous ses ailes.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] affirme avoir perdu son domicile lors d'une récente attaque.</li>
     <li>claimInfo(lodgerCount==1,asker_gender==Female)->[asker_nameDef] prétend sortir de crypto-sommeil seule et sans amis.</li>
@@ -423,7 +430,7 @@
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
   <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
-    <li>une récompense différée pour la quête du réfugié</li>
+    <li>questDescription->une récompense différée pour la quête du réfugié</li>
   </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
