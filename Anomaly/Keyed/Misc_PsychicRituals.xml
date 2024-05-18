@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: psychic ritual -->
@@ -167,6 +167,8 @@
 
   <!-- EN: {TARGET_labelShort} was destroyed -->
   <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} a été {PAWN_gender ? détruit : détruite : détruit(e)}</PsychicRitualDef_TargetDestroyed>
+  <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
+  <PsychicRitualDef_InvocationCircle_InvokerLost>TODO</PsychicRitualDef_InvocationCircle_InvokerLost>
 
   <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>la zone qui entoure la cible ne doit pas être encombrée</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
@@ -212,5 +214,4 @@
   <PhilophagyTransferReport>{INVOKER_labelShort} volera {1} XP de {SKILL_label} à {TARGET_labelShort}.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} n'a aucune compétence à transférer.</NoSkillsToTransfer>
-
 </LanguageData>
