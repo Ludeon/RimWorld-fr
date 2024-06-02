@@ -8,7 +8,7 @@
   -->
   <MysteriousCargoCube.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Mystérieuse marchandise</li>
-    <li>deliveredLetterText(pawnOnMap==true)->La mystérieuse marchandise a été livrée : c'est un simple cube qui brille comme l'or, mais qui ne se raie pas. Il est léger et chaud au toucher. La lumière crée des reflets captivants à sa surface.\n\n[pawn_nameDef] se sent étrangement {PAWN_gender ? attiré : attirée : attiré(e)} par le cube.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->La mystérieuse marchandise a été livrée : c'est un simple cube qui brille comme l'or, mais qui ne se raie pas. Il est léger et chaud au toucher. La lumière crée des reflets captivants à sa surface.\n\n[pawn_nameDef] se sent étrangement {pawn_gender ? attiré : attirée : attiré(e)} par le cube.</li>
     <li>deliveredLetterText(pawnOnMap==false)->La mystérieuse marchandise a été livrée : c'est un simple cube qui brille comme l'or, mais qui ne se raie pas. Il est léger et chaud au toucher. La lumière crée des reflets captivants à sa surface.</li>
   </MysteriousCargoCube.questContentRules.rulesStrings>
   <!-- EN:
@@ -60,8 +60,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Mystérieuse marchandise</li>
-    <li>deliveredLetterText(pawnOnMap==true)->La mystérieuse marchandise a été livrée : il s'agit vraisemblablement d'un cadavre humain.\n\nEn le regardant de plus près, vous remarquez qu'il ressemble à s'y méprendre à [pawn_nameDef]. Sa peau cireuse est chaude au toucher. [pawn_nameDef] est profondément {PAWN_gender ? perturbé : perturbée : perturbé(e)} par sa présence.\n\nÉtudiez le cadavre pour en apprendre davantage.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->La mystérieuse marchandise a été livrée : il s'agit vraisemblablement d'un cadavre humain.\n\nEn le regardant de plus près, vous remarquez qu'il ressemble à s'y méprendre à [pawn_nameDef]. Sa peau cireuse est chaude au toucher. [pawn_nameDef] sera profondément {PAWN_gender ? perturbé : perturbée : perturbé(e)} par sa présence.\n\nÉtudiez le cadavre pour en apprendre davantage.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->La mystérieuse marchandise a été livrée : il s'agit vraisemblablement d'un cadavre humain.\n\nEn le regardant de plus près, vous remarquez qu'il ressemble à s'y méprendre à [pawn_nameDef]. Sa peau cireuse est chaude au toucher. [pawn_nameDef] est profondément {pawn_gender ? perturbé : perturbée : perturbé(e)} par sa présence.\n\nÉtudiez le cadavre pour en apprendre davantage.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->La mystérieuse marchandise a été livrée : il s'agit vraisemblablement d'un cadavre humain.\n\nEn le regardant de plus près, vous remarquez qu'il ressemble à s'y méprendre à [pawn_nameDef]. Sa peau cireuse est chaude au toucher. [pawn_nameDef] sera profondément {pawn_gender ? perturbé : perturbée : perturbé(e)} par sa présence.\n\nÉtudiez le cadavre pour en apprendre davantage.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -79,5 +79,5 @@
   <MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
     <li>questName->Mystérieuse marchandise</li>
   </MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
-  
+
 </LanguageData>
