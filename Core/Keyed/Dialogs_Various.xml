@@ -23,7 +23,7 @@
   <Disable>Désactiver</Disable>
   <!-- EN: Modify -->
   <Modify>Modifier</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>S’installer ici quand même?</ConfirmSettle>
   <!-- EN: add -->
   <Add>ajouter</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>Doit inclure exactement {SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Attention : Vous allez atterrir dans un environnement glacial. Il peut être difficile voire presque impossible de survivre dans de telles conditions. Si vous n'avez pas l'intention de vous confronter à un défi extrême, choisissez un autre site d'atterrissage ou un mois de départ différent.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Avertissement : Vous allez atterrir en hiver. Il peut être difficile, voire impossible, de survivre. Si vous n'avez pas l'intention de relever un défi extrême, choisissez une autre saison.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>Ce jeu est conçu pour des cartes de taille moyenne qui offrent déjà beaucoup d'espace !\n\nLes cartes plus grandes ne dégradent pas seulement les performances, elles mettent en défaut la conception du jeu. L'IA peut prendre des décisions stupides, et l'équilibre du jeu sera gravement affecté de diverses manières. Ces tailles sont incluses pour des raisons historiques et de test uniquement, veuillez ne pas les utiliser sans raison particulière.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -700,6 +700,8 @@
   <TradeModeTip>Retourner au mode commerce.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} refuse d'envoyer une caravane, car {NEGOTIATOR_nameDef} n'a pas le titre requis ({TITLE}).</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>Envoyer</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Quantité d'articles disponibles pour la caravane.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>Personnes et animaux</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>Créer une copie de la politique sélectionnée.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Renommer cette politique.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>TODO</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>Êtes-vous certain de vouloir supprimer cette politique : {0} ?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>Schémas</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Romans</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>TODO</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>En bannissant {1_labelShort}, les membres de la caravane auront les pensées suivantes :</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Le groupe de capsules n'est pas complètement chargé. Il manque {1_labelShort}. Lancer quand même ?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1195,7 +1207,6 @@
   <!-- EN: {0_labelShort} is not maddened. -->
   <AbilityCanOnlyApplyToManhunter>{0_labelShort} n'est pas en colère.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <!-- NOTE: "scaria" a été traduit par "rage" -->
   <AbilityCantApplyToScaria>{0_labelShort} est port{0_gender ? eur : euse : eur(se)} de la rage, qui ne peut être traitée que par des soins médicaux.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} ne peut pas agir avec l'état mental "{1}".</AbilityDoesntWorkOnMentalState>
@@ -1414,11 +1425,15 @@
   <SearchTheMap>Rechercher sur la carte actuelle.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Recherchez des éléments sur la carte tels que des objets, personnes, animaux, plantes et bien plus.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>TODO</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} résultats trouvés</MapSearchResults>
   <!-- EN: 1 result found -->
   <MapSearchResultSingular>1 résultat trouvé</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Recherche en cours</Searching>
-
+  
 </LanguageData>

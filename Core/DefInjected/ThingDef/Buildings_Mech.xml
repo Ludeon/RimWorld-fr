@@ -1,9 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mini-slug -->
+  <Bullet_MiniSlug.label>mini-projectile</Bullet_MiniSlug.label>
+  
   <!-- EN: burning power cell -->
   <BurningPowerCell.label>cellule de puissance brûlante</BurningPowerCell.label>
   <!-- EN: A damaged mechanoid power generation unit. The cell has been destabilized by the death of the mechanoid, and is burning down in seconds. When critically damaged, this cell will explode. -->
   <BurningPowerCell.description>Une unité de production d'énergie mécanoïde endommagée. La cellule a été déstabilisée par la mort du mécanoïde et brûle en quelques secondes. Lorsqu'elle est gravement endommagée, cette cellule explose.</BurningPowerCell.description>
+  
+  <!-- EN: mech node -->
+  <Gloomlight.label>module mécanoïde</Gloomlight.label>
+  <!-- EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. -->
+  <Gloomlight.description>Un module mécanoïde auto-alimenté à la fonction inconnue. Les modules mécanoïdes peuvent être déconstruits pour obtenir de précieuses ressources, ou utilisés comme lumières, mais seulement s'ils sont capturés intacts. La micro-cellule d'alimentation interne s'éteindra altérant définitivement les matériaux si l'unité subit trop de dommages.</Gloomlight.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <Gloomlight.comps.CompInspectString.inspectString>TODO</Gloomlight.comps.CompInspectString.inspectString>
+  
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.label>lanceur de mini-projectiles</Gun_MiniTurretMech.label>
+  <!-- EN: An automatic turret-mounted slug-thrower. -->
+  <Gun_MiniTurretMech.description>Un lance-projectiles automatique monté sur tourelle.</Gun_MiniTurretMech.description>
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>lanceur de mini-projectiles</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-slugger turret -->
+  <Turret_AutoMiniTurret.label>tourelle de lanceur de mini-projectiles</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>Une tourelle de défense auto-alimentée montée avec un lanceur de faible puissance mais de longue portée. Peut exploser lorsqu'elle est endommagée.</Turret_AutoMiniTurret.description>
   
 </LanguageData>

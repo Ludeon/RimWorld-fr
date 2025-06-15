@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -192,16 +192,16 @@
   <Namer_Novel.rulePack.rulesStrings>
     <li>title(p=3)->[titleNaked]</li>
     <li>title->[titleNaked] par [ANYPAWN_nameIndef]</li>
-      <li>storyLeUn->le</li>
-      <li>storyLeUn->un</li>
-      <li>storyLaUne->la</li>
-      <li>storyLaUne->une</li>
-      <li>titleLeUn->le</li>
-      <li>titleLeUn->un</li>
-      <li>titleLeUn-></li>
-      <li>titleLaUne->la</li>
-      <li>titleLaUne->une</li>
-      <li>titleLaUne-></li>
+    <li>storyLeUn->le</li>
+    <li>storyLeUn->un</li>
+    <li>storyLaUne->la</li>
+    <li>storyLaUne->une</li>
+    <li>titleLeUn->le</li>
+    <li>titleLeUn->un</li>
+    <li>titleLeUn-></li>
+    <li>titleLaUne->la</li>
+    <li>titleLaUne->une</li>
+    <li>titleLaUne-></li>
     <li>title->[story] de [storyLeUn] [Character]</li>
     <li>title->[story] de [storyLaUne] [Character_Feminine]</li>
     <li>title->[objectAnyAll] de [storyLeUn] [Character]</li>
@@ -218,13 +218,12 @@
     <li>title->[titleLaUne] [Character_Feminine] [adjectiveFeminine]</li>
     <li>title->[objectAnyMasculine] [adjective]</li>
     <li>title->[objectAnyFeminine] [adjectiveFeminine]</li>
-
-      <li>titleNakedLeUn->le</li>
-      <li>titleNakedLeUn->un</li>
-      <li>titleNakedLeUn-></li>
-      <li>titleNakedlaUne->la</li>
-      <li>titleNakedlaUne->une</li>
-      <li>titleNakedlaUne-></li>
+    <li>titleNakedLeUn->le</li>
+    <li>titleNakedLeUn->un</li>
+    <li>titleNakedLeUn-></li>
+    <li>titleNakedlaUne->la</li>
+    <li>titleNakedlaUne->une</li>
+    <li>titleNakedlaUne-></li>
     <li>titleNaked->[ConceptAny]</li>
     <li>titleNaked->[titleNakedLeUn] [ConceptAny_Masculine]</li>
     <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine]</li>
@@ -250,14 +249,12 @@
     <li>titleNaked->[titleNakedlaUne] [ConceptAny_Feminine] [placePlural]</li>
     <li>titleNaked->[objectAnyAll] [linkageFeminine] [ConceptAny_Feminine]</li>
     <li>titleNaked->[objectAnyAll] [linkageMasculine] [ConceptAny_Masculine]</li>
-
     <li>objectAnyAll->[objectAnyMasculine]</li>
     <li>objectAnyAll->[objectAnyFeminine]</li>
     <li>objectAnyMasculine->Le [Game]</li>
     <li>objectAnyFeminine->La [Game_Feminine]</li>
     <li>objectAnyMasculine->Le [Weapon]</li>
     <li>objectAnyFeminine->La [Weapon_Feminine]</li>
-
     <li>linkageMasculine->de le</li>
     <li>linkageMasculine->par le</li>
     <li>linkageMasculine->pour le</li>
@@ -268,22 +265,18 @@
     <li>linkageFeminine->pour la</li>
     <li>linkageFeminine->sans la</li>
     <li>linkageFeminine->avec la</li>
-  
     <li>adjective->[AdjectiveAny]</li>
     <li>adjectiveFeminine->[AdjectiveAny_Feminine]</li>
-
     <li>proche->proche</li>
     <li>proche->près</li>
     <li>proche->aux abords</li>
     <li>proche->à proximité</li>
-
     <li>linkagePlaceMasculine->dans le</li>
     <li>linkagePlaceMasculine->au</li>
     <li>linkagePlaceMasculine->[proche] de le</li>
     <li>linkagePlaceFeminine->dans la</li>
     <li>linkagePlaceFeminine->à la</li>
     <li>linkagePlaceFeminine->[proche] de la</li>
-
     <li>placeMasculine(p=25)->[linkagePlaceMasculine] [TerrainFeature]</li>
     <li>placeFeminine(p=25)->[linkagePlaceFeminine] [TerrainFeature_Feminine]</li>
     <!--placeMasculine-->
@@ -296,44 +289,44 @@
     <li>placeMasculine_DP->[placeMasculineDans]</li>
     <li>placeMasculine_DP->[placeMasculineProche]</li>
     <li>placeMasculine_D->[placeMasculineDans]</li>
-      <li>placeMasculineDansAu->dans le</li>
-      <li>placeMasculineDansAu->au</li>
+    <li>placeMasculineDansAu->dans le</li>
+    <li>placeMasculineDansAu->au</li>
     <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineDPA]</li>
     <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineDP]</li>
     <li>placeMasculineDans->[placeMasculineDansAu] [placeMasculineD]</li>
     <li>placeMasculineProche->[proche] du [placeMasculineDPA]</li>
     <li>placeMasculineProche->[proche] du [placeMasculineDP]</li>
     <li>placeMasculineAutour->autour du [placeMasculineDPA]</li>
-      <li>placeMasculineDPA->bunker</li>
-      <li>placeMasculineDPA->campement</li>
-      <li>placeMasculineDPA->château</li>
-      <li>placeMasculineDPA->colisée</li>
-      <li>placeMasculineDPA->vaisseau</li>
-      <li>placeMasculineDP->bosquet</li>
-      <li>placeMasculineDP->port</li>
-      <li>placeMasculineDP->laboratoire</li>
-      <li>placeMasculineDP->phare</li>
-      <li>placeMasculineDP->manoir</li>
-      <li>placeMasculineDP->marché</li>
-      <li>placeMasculineDP->verger</li>
-      <li>placeMasculineDP->palais</li>
-      <li>placeMasculineDP->sanctuaire</li>
-      <li>placeMasculineDP->village</li>
-      <li>placeMasculineDP->port spatial</li>
-      <li>placeMasculineDP->temple</li>
-      <li>placeMasculineDP->volcan</li>
-      <li>placeMasculineDP->zoo</li>
-      <li>placeMasculineD->désert</li>
-      <li>placeMasculineD->festival</li>
-      <li>placeMasculineD->cimetière</li>
-      <li>placeMasculineD->cœur</li>
-      <li>placeMasculineD->camp de travail</li>
-      <li>placeMasculineD->labyrinthe</li>
-      <li>placeMasculineD->monastère</li>
-      <li>placeMasculineD->nexus</li>
-      <li>placeMasculineD->plateau</li>
-      <li>placeMasculineD->marais</li>
-      <li>placeMasculineD->hameau</li>
+    <li>placeMasculineDPA->bunker</li>
+    <li>placeMasculineDPA->campement</li>
+    <li>placeMasculineDPA->château</li>
+    <li>placeMasculineDPA->colisée</li>
+    <li>placeMasculineDPA->vaisseau</li>
+    <li>placeMasculineDP->bosquet</li>
+    <li>placeMasculineDP->port</li>
+    <li>placeMasculineDP->laboratoire</li>
+    <li>placeMasculineDP->phare</li>
+    <li>placeMasculineDP->manoir</li>
+    <li>placeMasculineDP->marché</li>
+    <li>placeMasculineDP->verger</li>
+    <li>placeMasculineDP->palais</li>
+    <li>placeMasculineDP->sanctuaire</li>
+    <li>placeMasculineDP->village</li>
+    <li>placeMasculineDP->port spatial</li>
+    <li>placeMasculineDP->temple</li>
+    <li>placeMasculineDP->volcan</li>
+    <li>placeMasculineDP->zoo</li>
+    <li>placeMasculineD->désert</li>
+    <li>placeMasculineD->festival</li>
+    <li>placeMasculineD->cimetière</li>
+    <li>placeMasculineD->cœur</li>
+    <li>placeMasculineD->camp de travail</li>
+    <li>placeMasculineD->labyrinthe</li>
+    <li>placeMasculineD->monastère</li>
+    <li>placeMasculineD->nexus</li>
+    <li>placeMasculineD->plateau</li>
+    <li>placeMasculineD->marais</li>
+    <li>placeMasculineD->hameau</li>
     <!--placeFeminine-->
     <li>placeFeminine->[placeFeminine_DPA]</li>
     <li>placeFeminine->[placeFeminine_DP]</li>
@@ -344,42 +337,42 @@
     <li>placeFeminine_DP->[placeFeminineDans]</li>
     <li>placeFeminine_DP->[placeFeminineProche]</li>
     <li>placeFeminine_D->[placeFeminineDans]</li>
-      <li>placeFeminineDansA->dans la</li>
-      <li>placeFeminineDansA->à la</li>
+    <li>placeFeminineDansA->dans la</li>
+    <li>placeFeminineDansA->à la</li>
     <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineDPA]</li>
     <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineDP]</li>
     <li>placeFeminineDans->[placeFeminineDansA] [placeFeminineD]</li>
     <li>placeFeminineProche->[proche] de la [placeFeminineDPA]</li>
     <li>placeFeminineProche->[proche] de la [placeFeminineDP]</li>
     <li>placeFeminineAutour->autour de la [placeFeminineDPA]</li>
-      <li>placeFeminineDPA->caserne</li>
-      <li>placeFeminineDPA->cabane</li>
-      <li>placeFeminineDPA->forteresse</li>
-      <li>placeFeminineDPA->serre</li>
-      <li>placeFeminineDPA->rampe de lancement</li>
-      <li>placeFeminineDPA->demeure</li>
-      <li>placeFeminineDPA->raffinerie</li>
-      <li>placeFeminineDPA->faille</li>
-      <li>placeFeminineDP->base</li>
-      <li>placeFeminineDP->cathédrale</li>
-      <li>placeFeminineDP->caverne</li>
-      <li>placeFeminineDP->citadelle</li>
-      <li>placeFeminineDP->ville</li>
-      <li>placeFeminineDP->colonie</li>
-      <li>placeFeminineDP->ruche</li>
-      <li>placeFeminineDP->bibliothèque</li>
-      <li>placeFeminineDP->place de marché</li>
-      <li>placeFeminineDP->mine</li>
-      <li>placeFeminineDP->montagne</li>
-      <li>placeFeminineDP->prison</li>
-      <li>placeFeminineDP->station</li>
-      <li>placeFeminineDP->station spatiale</li>
-      <li>placeFeminineDP->taverne</li>
-      <li>placeFeminineDP->cité</li>
-      <li>placeFeminineD->clairière</li>
-      <li>placeFeminineD->jungle</li>
-      <li>placeFeminineD->flèche</li>
-      <li>placeFeminineD->toundra</li>
+    <li>placeFeminineDPA->caserne</li>
+    <li>placeFeminineDPA->cabane</li>
+    <li>placeFeminineDPA->forteresse</li>
+    <li>placeFeminineDPA->serre</li>
+    <li>placeFeminineDPA->rampe de lancement</li>
+    <li>placeFeminineDPA->demeure</li>
+    <li>placeFeminineDPA->raffinerie</li>
+    <li>placeFeminineDPA->faille</li>
+    <li>placeFeminineDP->base</li>
+    <li>placeFeminineDP->cathédrale</li>
+    <li>placeFeminineDP->caverne</li>
+    <li>placeFeminineDP->citadelle</li>
+    <li>placeFeminineDP->ville</li>
+    <li>placeFeminineDP->colonie</li>
+    <li>placeFeminineDP->ruche</li>
+    <li>placeFeminineDP->bibliothèque</li>
+    <li>placeFeminineDP->place de marché</li>
+    <li>placeFeminineDP->mine</li>
+    <li>placeFeminineDP->montagne</li>
+    <li>placeFeminineDP->prison</li>
+    <li>placeFeminineDP->station</li>
+    <li>placeFeminineDP->station spatiale</li>
+    <li>placeFeminineDP->taverne</li>
+    <li>placeFeminineDP->cité</li>
+    <li>placeFeminineD->clairière</li>
+    <li>placeFeminineD->jungle</li>
+    <li>placeFeminineD->flèche</li>
+    <li>placeFeminineD->toundra</li>
     <!--placeApostrophe-->
     <li>placeApostrophe->[placeApostrophe_DPA]</li>
     <li>placeApostrophe->[placeApostrophe_DP]</li>
@@ -393,8 +386,8 @@
     <li>placeApostrophe_D->[placeApostropheDans]</li>
     <li>placeApostrophe_PA->[placeApostropheProche]</li>
     <li>placeApostrophe_PA->[placeApostropheAutour]</li>
-      <li>placeApostropheDansAL->dans</li>
-      <li>placeApostropheDansAL->à</li>
+    <li>placeApostropheDansAL->dans</li>
+    <li>placeApostropheDansAL->à</li>
     <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheDPA]</li>
     <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheDP]</li>
     <li>placeApostropheDans->[placeApostropheDansAL] [placeApostropheD]</li>
@@ -404,21 +397,21 @@
     <li>placeApostropheProche->[proche] de [placeApostropheP]</li>
     <li>placeApostropheAutour->autour de [placeApostropheDPA]</li>
     <li>placeApostropheAutour->autour de [placeApostrophePA]</li>
-      <li>placeApostropheDPA->l'avant-poste</li>
-      <li>placeApostropheDPA->l'entrepôt</li>
-      <li>placeApostropheDP->l'amphithéâtre</li>
-      <li>placeApostropheDP->l'arène</li>
-      <li>placeApostropheDP->l'usine</li>
-      <li>placeApostropheDP->l'hôpital</li>
-      <li>placeApostropheDP->l'observatoire</li>
-      <li>placeApostropheDP->l'école</li>
-      <li>placeApostropheDP->l'université</li>
-      <li>placeApostropheD->l'asile</li>
-      <li>placeApostropheD->l'ascenseur</li>
-      <li>placeApostropheD->l'oasis</li>
-      <li>placeApostropheD->l'âme</li>
-      <li>placeApostrophePA->l'aquarium</li>
-      <li>placeApostropheP->l'aqueduc</li>
+    <li>placeApostropheDPA->l'avant-poste</li>
+    <li>placeApostropheDPA->l'entrepôt</li>
+    <li>placeApostropheDP->l'amphithéâtre</li>
+    <li>placeApostropheDP->l'arène</li>
+    <li>placeApostropheDP->l'usine</li>
+    <li>placeApostropheDP->l'hôpital</li>
+    <li>placeApostropheDP->l'observatoire</li>
+    <li>placeApostropheDP->l'école</li>
+    <li>placeApostropheDP->l'université</li>
+    <li>placeApostropheD->l'asile</li>
+    <li>placeApostropheD->l'ascenseur</li>
+    <li>placeApostropheD->l'oasis</li>
+    <li>placeApostropheD->l'âme</li>
+    <li>placeApostrophePA->l'aquarium</li>
+    <li>placeApostropheP->l'aqueduc</li>
     <!--placePlural-->
     <li>placePlural->[placePlural_DPA]</li>
     <li>placePlural->[placePlural_D]</li>
@@ -426,20 +419,19 @@
     <li>placePlural_DPA->[placePluralProche]</li>
     <li>placePlural_DPA->[placePluralAutour]</li>
     <li>placePlural_D->[placePluralDans]</li>
-      <li>placePluralDansAux->dans les</li>
-      <li>placePluralDansAux->aux</li>
+    <li>placePluralDansAux->dans les</li>
+    <li>placePluralDansAux->aux</li>
     <li>placePluralDans->[placePluralDansAux] [placePluralDPA]</li>
     <li>placePluralDans->dans les [placePluralD]</li>
     <li>placePluralProche->[proche] des [placePluralDPA]</li>
     <li>placePluralAutour->autour des [placePluralDPA]</li>
-      <li>placePluralDPA->ruines</li>
-      <li>placePluralD->abysses</li>
-      <li>placePluralD->abîmes</li>
-      <li>placePluralD->profondeurs</li>
-      <li>placePluralD->îles</li>
-      <li>placePluralD->steppes</li>
-      <li>placePluralD->étendues sauvages</li>
-
+    <li>placePluralDPA->ruines</li>
+    <li>placePluralD->abysses</li>
+    <li>placePluralD->abîmes</li>
+    <li>placePluralD->profondeurs</li>
+    <li>placePluralD->îles</li>
+    <li>placePluralD->steppes</li>
+    <li>placePluralD->étendues sauvages</li>
     <li>story->Aventure</li>
     <li>story->Aventures</li>
     <li>story->Allégorie</li>
@@ -527,6 +519,7 @@
     <li>story->Épistolaire</li>
   </Namer_Novel.rulePack.rulesStrings>
   
+  <!-- TODO 1.6: Some cleanup needs to be done, severals lines aren't there anymore, probaby from past updates-->
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
     <li>title->Notes on [subject_primary]</li>
@@ -543,16 +536,15 @@
     <li>title->[maybe_authored_title]</li>
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li>
     <li>title->[studiesStart] [subject_primary] following [lifeEvent]</li>
-    <li>title->[studiesStart] [subject_primary]: anecdotes</li>
-    <li>title->[studiesStart] [subject_primary]: a [anomAdj][discussionNoun]</li>
-    <li>title->The [anomAdj][subject_primary] [referenceType]</li>
-    <li>title->The [referenceType] of [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li>
-    <li>title->The [referenceType] of [studiesStart] [anomAdj][subject_primary]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: a [randAdjective] [discussionNoun]</li>
+    <li>title->The [randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->The [referenceType] of [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->The [referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
-    <li>title->A [bookCompound] [referenceType]</li>
     <li>studiesStart->Studies in</li>
-    <li>studiesStart->Fundamentals of </li>
+    <li>studiesStart->Fundamentals of</li>
     <li>studiesStart->Managing</li>
     <li>studiesStart->Histories of</li>
     <li>studiesStart->Working in</li>
@@ -626,7 +618,7 @@
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>
     <li>randAdjective->Basic</li>
-    <li>randAdjective->The Best</li>
+    <li>randAdjective->Best</li>
     <li>randAdjective->Glitterworld</li>
     <li>randAdjective->Medieval</li>
     <li>randAdjective->Archaic</li>
@@ -636,7 +628,7 @@
     <li>randAdjective->Grotesque</li>
     <li>randAdjective->Sepulchral</li>
     <li>randAdjective->Holy</li>
-    <li>randAdjective->The Darkest</li>
+    <li>randAdjective->Darkest</li>
     <li>randAdjective->Subworld</li>
     <li>randAdjective->Primitive</li>
     <li>randAdjective->Survival</li>
@@ -672,14 +664,13 @@
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] dans le secteur de [subject_secondary]</li>
     <li>title->[studiesStart] [subject_primary] à la suite de [lifeEventIndefinite]</li>
     <li>title->[studiesStart] [subject_primary] : [anecdotes]</li>
-    <li>title->[studiesStart] [subject_primary] : a [anomAdj][discussionNoun]</li><!--TODO A quoi fait référence [anomAdj] ? Surement à un adjectif d’une anomalie. Je pense qu’il va falloir attendre le DLC Anomaly.-->
-    <li>title->[anomAdj][subject_primary] [referenceType]</li><!--TODO-->
-    <li>title->[referenceType] de [anomAdj][subject_primary], Vol. [volNumeral]</li><!--TODO-->
-    <li>title->[studiesStart] [anomAdj][subject_primary], Vol. [volNumeral]</li><!--TODO-->
-    <li>title->[referenceType] [studiesStartIndefinite] [anomAdj][subject_primary]</li><!--TODO-->
+    <li>title->[studiesStart] [subject_primary] : a [randAdjective][discussionNoun]</li>
+    <li>title->[randAdjective][subject_primary] [referenceType]</li>
+    <li>title->[referenceType] de [randAdjective][subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective][subject_primary], Vol. [volNumeral]</li>
+    <li>title->[referenceType] [studiesStartIndefinite] [randAdjective][subject_primary]</li>
     <li>title->[discussionNoun] de [lifeEvent] et de [subject_primary]</li>
-    <li>title->A [bookCompound] [referenceType]</li><!--TODO A quoi fait référence [bookCompound] ?-->
-
+    <li>title->A [bookCompound] [referenceType]</li>
     <li>studiesStart->études sur</li>
     <li>studiesStart->fondamentaux de</li>
     <li>studiesStart->gestion de</li>
@@ -691,7 +682,6 @@
     <li>studiesStart->applications de</li>
     <li>studiesStart->façonner l'avenir de</li>
     <li>studiesStart->documentation sur</li>
-
     <li>studiesStartIndefinite->des études sur</li>
     <li>studiesStartIndefinite->des fondamentaux de</li>
     <li>studiesStartIndefinite->de la gestion de</li>
@@ -703,7 +693,6 @@
     <li>studiesStartIndefinite->des applications de</li>
     <li>studiesStartIndefinite->pour façonner l'avenir de</li>
     <li>studiesStartIndefinite->de documentation sur</li>
-
     <li>referenceType->encyclopédie</li>
     <li>referenceType->dictionnaire</li>
     <li>referenceType->almanach</li>
@@ -714,14 +703,12 @@
     <li>referenceType->chronique</li>
     <li>referenceType->mentor</li>
     <li>referenceType->boîte à outils</li>
-
     <li>anecdotes->réflexions</li>
     <li>anecdotes->anecdotes</li>
     <li>anecdotes->contes populaires</li>
     <li>anecdotes->ouï-dire</li>
     <li>anecdotes->histoires</li>
     <li>anecdotes->récits</li>
-
     <li>discussionNoun->discussion</li>
     <li>discussionNoun->débat</li>
     <li>discussionNoun->discours</li>
@@ -730,7 +717,6 @@
     <li>discussionNoun->examen</li>
     <li>discussionNoun->consultation</li>
     <li>discussionNoun->controverse</li>
-
     <li>discussionNounIndefinite->une discussion</li>
     <li>discussionNounIndefinite->un débat</li>
     <li>discussionNounIndefinite->un discours</li>
@@ -739,7 +725,6 @@
     <li>discussionNounIndefinite->un examen</li>
     <li>discussionNounIndefinite->une consultation</li>
     <li>discussionNounIndefinite->une controverse</li>
-
     <li>lifeEvent->blessure</li>
     <li>lifeEvent->clonage</li>
     <li>lifeEvent->traumatisme</li>
@@ -750,15 +735,14 @@
     <li>lifeEvent->Horax</li>
     <li>lifeEvent->accouchement</li>
     <li>lifeEvent->accident</li>
-    <li>lifeEvent->fleshmelding</li><!--TODO-->
+    <li>lifeEvent->fusion charnelle</li>
     <li>lifeEvent->repos de la mort</li>
     <li>lifeEvent->révolte</li>
     <li>lifeEvent->chimère</li>
     <li>lifeEvent->rêverie</li>
-    <li>lifeEvent->ripperfall</li><!--TODO-->
+    <li>lifeEvent->Chute fatale</li>
     <li>lifeEvent->lobotomie</li>
     <li>lifeEvent->infection d'archite</li>
-
     <li>lifeEventIndefinite->une blessure</li>
     <li>lifeEventIndefinite->un clonage</li>
     <li>lifeEventIndefinite->un traumatisme</li>
@@ -769,21 +753,19 @@
     <li>lifeEventIndefinite->un Horax</li>
     <li>lifeEventIndefinite->un accouchement</li>
     <li>lifeEventIndefinite->un accident</li>
-    <li>lifeEventIndefinite->un fleshmelding</li><!--TODO-->
+    <li>lifeEventIndefinite->une fusion charnelle</li>
     <li>lifeEventIndefinite->un repos de la mort</li>
     <li>lifeEventIndefinite->une révolte</li>
     <li>lifeEventIndefinite->une chimère</li>
     <li>lifeEventIndefinite->une rêverie</li>
-    <li>lifeEventIndefinite->un ripperfall</li><!--TODO-->
+    <li>lifeEventIndefinite->une chute fatalle</li>
     <li>lifeEventIndefinite->une lobotomie</li>
     <li>lifeEventIndefinite->une infection d'archite</li>
-
     <li>volNumeral->I</li>
     <li>volNumeral->II</li>
     <li>volNumeral->III</li>
     <li>volNumeral->IV</li>
     <li>volNumeral->V</li>
-
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
     <li>titleTwoSubjects->Une introduction à [subjectsTuple]</li>
     <li>titleTwoSubjects->Analyse de [subjectsTuple]</li>
@@ -793,19 +775,15 @@
     <li>author_gen->Séminaires de [ANYPAWN_nameIndef]</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
-    
     <li>authored_title_gen->Le guide de [ANYPAWN_nameIndef] sur [subject_primary]</li>
     <li>authored_title_gen->L'introduction de [ANYPAWN_nameIndef] sur [subject_primary]</li>
-
     <li>authored_title_gen_two->Le guide de [ANYPAWN_nameIndef] sur [subjectsTuple]</li>
     <li>authored_title_gen_two->L'introduction de [ANYPAWN_nameIndef] sur [subjectsTuple]</li>
-
     <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] et [subject_secondary]</li>
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] et [randTheme]</li>
     <li>subjectsTuple->[subject_primary] et [randTheme]</li>
-
     <li>randAdjective->basique</li>
-    <li>randAdjective->The Best</li><!--TODO-->
+    <li>randAdjective->Le meilleur</li>
     <li>randAdjective->des mondes avancés</li>
     <li>randAdjective->médiéval</li>
     <li>randAdjective->archaïque</li>
@@ -824,7 +802,6 @@
     <li>randAdjective->obsédant</li>
     <li>randAdjective->énigmatique</li>
     <li>randAdjective->maudit</li>
-
     <li>randTheme->l'ingénierie</li>
     <li>randTheme->le folklore</li>
     <li>randTheme->la science-fiction</li>
@@ -909,9 +886,6 @@
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
@@ -1024,7 +998,6 @@
     <li>titleBasic->Secrets de [subject_primary]</li>
     <li>titleBasic->Mastérisation de [subject_primary]</li>
     <li>titleBasic->Étude approfondie de [subject_primary]</li>
-
     <li>titleAuthoredNoSubject->Études de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Études [randAdjective] de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Journal de [ANYPAWN_nameIndef]</li>
@@ -1051,7 +1024,6 @@
     <li>titleAuthoredNoSubject->Les témoignages de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Les chroniques de [ANYPAWN_nameIndef]</li>
     <li>titleAuthoredNoSubject->Les mémoires de [ANYPAWN_nameIndef]</li>
-
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] et [subject_primary]</li>
     <li>titleAuthoredOneSubject->Le guide de [ANYPAWN_nameIndef] pour [subject_primary]</li>
     <li>titleAuthoredOneSubject->L'introduction de [ANYPAWN_nameIndef] à [subject_primary]</li>
@@ -1068,10 +1040,6 @@
     <li>titleAuthoredOneSubject->L'étude de [ANYPAWN_nameIndef] sur [subject_primary]</li>
     <li>titleAuthoredOneSubject->L'enquête de [ANYPAWN_nameIndef] sur [subject_primary]</li>
     <li>titleAuthoredOneSubject->Recherche de [ANYPAWN_nameIndef] sur [subject_primary]</li>
-
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] sur [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->Le guide de [ANYPAWN_nameIndef] pour [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->L'introduction de [ANYPAWN_nameIndef] à [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] sur [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Le guide de [ANYPAWN_nameIndef] pour [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->L'introduction de [ANYPAWN_nameIndef] à [subjectsTuple]</li>
@@ -1088,7 +1056,6 @@
     <li>titleAuthoredTwoSubjects->L'étude de [ANYPAWN_nameIndef] sur [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->L'enquête de [ANYPAWN_nameIndef] sur [subjectsTuple]</li>
     <li>titleAuthoredTwoSubjects->Recherche de [ANYPAWN_nameIndef] sur [subjectsTuple]</li>
-
     <li>titleBasicTwoSubjects->[subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Une introduction à [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Le meilleur de [subjectsTuple]</li>
@@ -1120,11 +1087,9 @@
     <li>titleBasicTwoSubjects->Secrets de [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Mastérisation de [subjectsTuple]</li>
     <li>titleBasicTwoSubjects->Étude approfondie de [subjectsTuple]</li>
-
     <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] et [subject_secondary]</li>
     <li>subjectsTuple->[subject_secondary], [subject_primary], et [randTheme]</li>
     <li>subjectsTuple->[subject_primary] et [randTheme]</li>
-
     <li>randNoun->La mort</li>
     <li>randNoun->La vie</li>
     <li>randNoun->L'amour</li>
@@ -1134,7 +1099,6 @@
     <li>randNoun->La santé</li>
     <li>randNoun->Les boomalopes</li>
     <li>randNoun->Les pirates</li>
-
     <li>randAdjective->basiques</li>
     <li>randAdjective->efficaces</li>
     <li>randAdjective->efficientes</li>
@@ -1160,7 +1124,6 @@
     <li>randAdjective->chaotiques</li>
     <li>randAdjective->amusantes</li>
     <li>randAdjective->rigolotes</li>
-
     <li>randTheme->la connaissance</li>
     <li>randTheme->le dépassement de soi</li>
     <li>randTheme->la compréhension</li>
