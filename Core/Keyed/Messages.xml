@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>La formation de la caravane est annulée.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
+  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Le processus de formation de la caravane se poursuivra lorsque tout le monde se remettra des crises de nerfs.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -359,7 +359,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>Les objets et les personnes désignés seront désormais chargés dans la capsule de transport.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>Les objets et les personnes désignés seront désormais chargés dans la navette.</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+  <MessageShuttleLoadingProcessStarted>Les objets et les personnes désignés seront désormais chargés dans la navette.</MessageShuttleLoadingProcessStarted>
 
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Vos capsules de transport sont arrivées.</MessageTransportPodsArrived>
@@ -370,24 +370,20 @@
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Vos colons ont fini le chargement des capsules de transport. Lancez-les quand vous le voudrez.</MessageFinishedLoadingTransporters>
-  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>La navette est chargée avec la cargaison requise et peut être lancée lorsque vous le voudrez.</MessageFinishedLoadingShuttle>
+  <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label} est chargée avec la cargaison requise et peut être lancée lorsque vous le voudrez.</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Vos {1} ne peuvent pas finir le chargement des capsules de transport car un objet ou un personnage est indisponible ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
+  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>Votre {1} ne peut pas terminer l'entrée ({0}) parce que certains articles ou certaines personnes ne sont pas disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>La destination sélectionnée n'est pas valide.</MessageTransportPodsDestinationIsInvalid>
-  <!-- EN: Destination is reserved by {0}. -->
-  <MessageTransportPodsDestinationReservedBy>TODO</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
-  <!-- EN: Destination is reserved. -->
-  <MessageTransportPodsDestinationReserved>TODO</MessageTransportPodsDestinationReserved> <!-- text_todo -->
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid> <!-- text_todo -->
+  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Chaque lanceur aurait besoin d'au moins {0} x chemfuel pour envoyer des capsules de transport aussi loin.</MessageTransportPodsDestinationIsTooFar>
   
@@ -433,10 +429,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Les {0} de {1} attaquent vos {2}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Des mécanoïdes ont été assemblés et défendront leur ruche.</MessageMechanoidsAssembled>
-  <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>Mécanoïdes restant à assembler</MessageMechanoidsLeftToAssemble>
+  <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
+  <MessageMechanoidsAssembled>Des mécanoïdes ont été conçus et défendront leur ruche.</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to gestate -->
+  <MessageMechanoidsLeftToAssemble>Mécanoïdes restant à concevoir</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>La balise mécanoïde a demandé des renforts par des capsules de largage.</MessageMechanoidsReinforcementsDrop>
 
@@ -869,6 +865,6 @@
   <MessageShuttleArrived>La navette est arrivée.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
-  
+  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock>
+
 </LanguageData>

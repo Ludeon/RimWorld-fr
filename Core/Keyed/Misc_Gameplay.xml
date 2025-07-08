@@ -352,6 +352,8 @@
   <Requires>Nécessite</Requires>
   <!-- EN: Replaces -->
   <Replaces>TODO</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>manque {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x l'un des</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -488,10 +490,10 @@
   <MechCluster>groupe de mécanoïdes</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Apparition dans {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>l'assemblage de {0} se termine dans {1}.</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
-  <MechAssemblyNextType>S'assemblera</MechAssemblyNextType>
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>La conception de {0} se termine dans {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
+  <MechAssemblyNextType>Va concevoir</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>produit</ThingsProduced>
   <!-- EN: harvested -->
@@ -599,7 +601,7 @@
   <!-- EN: Activate -->
   <Activate>Activer</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate> <!-- text_todo -->
+  <Deactivate>Désactivation</Deactivate>
   <!-- EN: Activation -->
   <Activation>Activation</Activation>
   <!-- EN: complete -->
@@ -1680,9 +1682,9 @@
   <Reward_Pawn_WalkIn>{0_titleIndef} âg{0_gender ? é : ée : é(e)} de {0_age} nomm{0_gender ? é : ée : é(e)} {0_nameDef} arrivera et vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_titleIndef} âg{0_gender ? é : ée : é(e)} de {0_age} nomm{0_gender ? é : ée : é(e)} {0_nameDef} vous rejoindra {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>des capsules de transport avec les ressources suivantes arriveront (valeur totale {1}) :\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>vous recevrez (valeur totale {1}) :\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>vos relations de faction avec {0_name} s'amélioreront de {1}</Reward_Goodwill>
@@ -2076,7 +2078,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>Sur le point d'exploser</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject> <!-- text_todo -->
+  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>La nouvelle extension Anomaly est disponible dès maintenant !</MainScreen_AnomalyAvailableNow>
@@ -2086,6 +2088,8 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>bloqué par un toit</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>TODO</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2128,7 +2132,7 @@
   <Settled>TODO</Settled>
   <!-- EN: Abandoned -->
   <Abandoned>TODO</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
   <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
@@ -2171,9 +2175,9 @@
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed> <!-- text_todo -->
-  <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock> <!-- text_todo -->
+  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
