@@ -397,13 +397,14 @@
   <!-- EN: Cannot settle here. -->
   <CommandSettleFailGeneric>TODO</CommandSettleFailGeneric>
 
-  <!-- Camp -->
-  <!-- EN: Camp -->
-  <CommandCamp>TODO</CommandCamp>
-  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
-  <CommandCampDesc>TODO</CommandCampDesc>
-  <!-- EN: Cannot camp here. -->
-  <CommandCampFailExistingWorldObject>TODO</CommandCampFailExistingWorldObject>
+ <!-- Camp -->
+<!-- EN: Camp -->
+<CommandCamp>Campement</CommandCamp>
+<!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+<CommandCampDesc>Installer un campement temporaire pouvant être rapidement abandonné.</CommandCampDesc>
+<!-- EN: Cannot camp here. -->
+<CommandCampFailExistingWorldObject>Impossible de camper ici.</CommandCampFailExistingWorldObject>
+
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -515,7 +516,7 @@
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Décoller et voler vers une destination.</CommandLaunchGroupDesc>
   <!-- EN: Must be loaded first. -->
-  <CommandLaunchGroupFailNotLoaded>TODO</CommandLaunchGroupFailNotLoaded>
+  <CommandLaunchGroupFailNotLoaded>Doit d'abord être chargé.</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Certaines capsules de transport de ce groupe de chargement ne sont pas alimentées en carburant.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Roof blocking launch. -->
@@ -523,11 +524,11 @@
   <!-- EN: Not enough fuel to launch. -->
   <CommandLaunchGroupFailNoFuel>Pas assez de carburant pour le lancement.</CommandLaunchGroupFailNoFuel>
   <!-- EN: Over mass capacity. -->
-  <CommandLaunchGroupFailOverMassCapacity>TODO</CommandLaunchGroupFailOverMassCapacity>
+  <CommandLaunchGroupFailOverMassCapacity>En surcharge.</CommandLaunchGroupFailOverMassCapacity>
   <!-- EN: On cooldown. -->
-  <CommandLaunchGroupCooldown>TODO</CommandLaunchGroupCooldown>
+  <CommandLaunchGroupCooldown>Se recharge.</CommandLaunchGroupCooldown>
   <!-- EN: {0} / {1} kg -->
-  <MassUsageString>TODO</MassUsageString>
+  <MassUsageString>{0} / {1} kg</MassUsageString>
 
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
@@ -741,28 +742,30 @@
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Aucune utilisation restante.</CommandNoUsesLeft>
 
-  <!-- Map Portal -->
-  <!-- EN: View {0} -->
-  <CommandViewPocketMapLabel>TODO</CommandViewPocketMapLabel>
-  <!-- EN: View the connected {0} map. -->
-  <CommandViewPocketMapDesc>TODO</CommandViewPocketMapDesc>
-  <!-- EN: View surface -->
-  <CommandViewSurface>TODO</CommandViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <CommandViewSurfaceDesc>TODO</CommandViewSurfaceDesc>
-
-  <!-- Auto-build pod -->
-  <!-- EN: Auto build transport pod -->
-  <AutoBuildTransportPod>TODO</AutoBuildTransportPod>
-  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
-  <AutoBuildTransportPodDesc>TODO</AutoBuildTransportPodDesc>
   
-  <!-- Hacking gizmo -->
-  <!-- EN: Hack... -->
-  <HackGizmo>TODO</HackGizmo>
-  <!-- EN: Cannot hack -->
-  <CannotChooseHacker>TODO</CannotChooseHacker>
-  <!-- EN: Choose hacker -->
-  <CommandChooseHacker>TODO</CommandChooseHacker>
+<!-- Map Portal -->
+<!-- EN: View {0} -->
+<CommandViewPocketMapLabel>Voir {0}</CommandViewPocketMapLabel>
+<!-- EN: View the connected {0} map. -->
+<CommandViewPocketMapDesc>Voir la carte de {0} connectée.</CommandViewPocketMapDesc>
+<!-- EN: View surface -->
+<CommandViewSurface>Voir la surface</CommandViewSurface>
+<!-- EN: View the connected surface map. -->
+<CommandViewSurfaceDesc>Voir la carte de surface connectée.</CommandViewSurfaceDesc>
+
+<!-- Auto-build pod -->
+<!-- EN: Auto build transport pod -->
+<AutoBuildTransportPod>Construction auto de capsule</AutoBuildTransportPod>
+<!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+<AutoBuildTransportPodDesc>Si activé, vos colons construiront automatiquement une nouvelle capsule de transport dès que possible.</AutoBuildTransportPodDesc>
+
+<!-- Hacking gizmo -->
+<!-- EN: Hack... -->
+<HackGizmo>Pirater...</HackGizmo>
+<!-- EN: Cannot hack -->
+<CannotChooseHacker>Impossible de pirater</CannotChooseHacker>
+<!-- EN: Choose hacker -->
+<CommandChooseHacker>Choisir un pirate</CommandChooseHacker>
+
   
 </LanguageData>
