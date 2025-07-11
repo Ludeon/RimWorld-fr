@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_statue_description->This statue [statueDepicts] [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue depicting [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [carvedAdverb] [carvedVerb] statue of [SUBJECT_nameFull]. It [statueDepicts] [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A statue showing [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue of [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->standing upright holding a [prop] with both hands</li>
+    <li>statueSubjectDesc->standing tall and gazing nobly into the distance</li>
+    <li>statueSubjectDesc->thrusting a fist towards the sky</li>
+    <li>statueSubjectDesc->reaching upward, grasping for something unseen</li>
+    <li>statueSubjectDesc->leaning to the side as if about to topple[maybeInsult]</li>
+    <li>statueSubjectDesc->standing on one-foot[maybeInsult]</li>
+    <li>statueSubjectDesc->bowing deeply</li>
+    <li>statueSubjectDesc->bracing against the wind</li>
+    <li>statueSubjectDesc->kneeling in prayer</li>
+    <li>statueSubjectDesc->with hands raised as if in prayer</li>
+    <li>statueSubjectDesc->with hands pressed together in gratitude</li>
+    <li>statueSubjectDesc->running at top speed</li>
+    <li>statueSubjectDesc->with arms open, looking towards the sky</li>
+    <li>statueSubjectDesc->with hands resting on hips</li>
+    <li>statueSubjectDesc->with arms raised in triumph</li>
+    <li>statueSubjectDesc->holding a [prop] in one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->saluting with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing towards the horizon[maybeOtherHand]</li>
+    <li>statueSubjectDesc->extending a hand in welcome[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing at the horizon with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->dancing seductively</li>
+    <li>statueSubjectDesc->relaxing in an alluring fashion</li>
+    <li>statueSubjectDesc->getting ready to fight</li>
+    <li>statueSubjectDesc->leaping into the air, frozen mid-jump</li>
+    <li>statueSubjectDesc->casting a fish net into unseen waters</li>
+    <li>statueSubjectDesc->eating a luxurious meal</li>
+    <li>statueSubjectDesc->mid-struggle, breaking free from chains</li>
+    <li>statueSubjectDesc->whispering a silent secret</li>
+    <li>statueSubjectDesc->gazing up at the stars, eyes filled with wonder</li>
+    <li>statueSubjectDesc->throwing an unseen spear</li>
+    <li>statueSubjectDesc->tearing a piece of paper in an act of defiance</li>
+    <li>statueSubjectDesc->wading through deep waters</li>
+    <li>statueSubjectDesc->holding a large [prop] in both hands</li>
+    <li>statueSubjectDesc->with no teeth[maybeInsult]</li>
+    <li>statueSubjectDesc->squinting into the sun[maybeInsult]</li>
+    <li>statueSubjectDesc->smelling a bouquet of flowers[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->The statue's other hand holds a [prop]</li>
+    <li>otherHand->The statue's other hand rests on its hip</li>
+    <li>otherHand->The statue's other hand is making an obscene gesture</li>
+    <li>otherHand->The statue's other hand is missing[maybeInsult]</li>
+    <li>maybeNoNose->. The statue has no nose[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. This is a clear insult</li>
+    <li>maybeInsult->. It is unclear if this is a slight by the artist or a simple mistake</li>
+    <li>maybeInsult->. This suggests the artist is insulting the subject</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->The statue's face has a look of [facialLook].</li>
+    <li>statueFaceDesc(p=2)->[facialLook] can be seen in [SUBJECT_indefinite]'s face.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a look of [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite]'s face [depicts] [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a wise and thoughtful countenance.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] is crying out, mouth agape in a silent scream.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] looks mournfully into the distance.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] with a signature look of determination.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] laughing maniacally.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has [facialFeature].</li>
+    <li>statueFaceDesc->The statue has [facialFeature].</li>
+    <li>statueFaceDesc->Notably, the statue has [facialFeature].</li>
+    <li>facialLook->true joy</li>
+    <li>facialLook->pure terror</li>
+    <li>facialLook->pure ecstasy</li>
+    <li>facialLook->pure bliss</li>
+    <li>facialLook->shock and embarrassment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->untold grief</li>
+    <li>facialLook->deep contemplation</li>
+    <li>facialLook->confusion</li>
+    <li>facialLook->pride and contentment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->disgust</li>
+    <li>facialLook->defiance</li>
+    <li>facialFeature->a playful smirk</li>
+    <li>facialFeature->a furrowed brow</li>
+    <li>facialFeature->a raised eyebrow, as if questioning the artist</li>
+    <li>facialFeature->a long tongue sticking out</li>
+    <li>facialFeature->a face twisted in anguish</li>
+    <li>facialFeature->eyes that appear to twinkle</li>
+    <li>facialFeature->both eyes closed, as if in peace</li>
+    <li>facialFeature->cheeks puffed as if blowing air</li>
+    <li>facialFeature->beady eyes and snarling lips</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->the pedestal of the statue is bordered by [subimageplural]</li>
+    <li>artextra_clause_statue->carved into the subject's skin are [subimageplural]</li>
+    <li>artextra_clause_statue->several smaller carvings surround the statue. Each resembles [subimagesingle]</li>
+    <li>artextra_clause_statue->the statue's legs are obscured by [subimageplural]</li>
+    <li>artextra_clause_statue->[carvedVerb] into the statue's face is an image of [subimageany]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] stands in the middle of a [Community]</li>
+    <li>artextra_clause_statue->the statue's base appears to be a [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] appears to be rising out of a [TerrainFeature]</li>
+    <li>artextra_clause_statue->a small [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->a [pawn_adj] [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->a [Animal] is carved [side_position_statue]</li>
+    <li>artextra_clause_statue->from a distance, the [composition] composition of the statue reveals the outline of [subimageany]</li>
+    <li>artextra_clause_statue->the statue holds a [Animal] under one arm</li>
+    <li>artextra_clause_statue->the statue is holding [Quantity_adjphrase] [pawn_adj] [Character]s</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite]'s [statueBodyPart] is split open. Within you can see [subimageplural]</li>
+    <li>carvedAdverb->carefully</li>
+    <li>carvedAdverb->quickly</li>
+    <li>carvedAdverb->roughly</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedVerb->carved</li>
+    <li>carvedVerb->sculpted</li>
+    <li>carvedVerb->chiseled</li>
+    <li>statueAdj->larger-than-life</li>
+    <li>statueAdj->towering</li>
+    <li>statueAdj->grand</li>
+    <li>statueAdj->large</li>
+    <li>statueAdj->lifelike</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->dignified</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->noble</li>
+    <li>statueAdj->serene</li>
+    <li>statueAdj->crumbling</li>
+    <li>statueAdj->modest</li>
+    <li>statueAdj->revealing</li>
+    <li>statueAdj->crude</li>
+    <li>statueAdj->titillating</li>
+    <li>statueAdj->provocative</li>
+    <li>statueAdj->suggestive</li>
+    <li>statueAdj->grotesque</li>
+    <li>statueAdj->frightful</li>
+    <li>statueAdj->majestic</li>
+    <li>statueDepicts->depicts</li>
+    <li>statueDepicts->shows</li>
+    <li>statueDepicts->portrays</li>
+    <li>side_position_statue->at the base</li>
+    <li>side_position_statue->on the pedestal beside [SUBJECT_indefinite]</li>
+    <li>side_position_statue->under [SUBJECT_indefinite]'s heel</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s arms</li>
+    <li>side_position_statue->atop [SUBJECT_indefinite]'s head</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s shoulders</li>
+    <li>side_position_statue->behind the central statue</li>
+    <li>side_position_statue->in a hollow carved into the figure's [statueBodyPart]</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s palm</li>
+    <li>side_position_statue->bursting from [SUBJECT_indefinite]'s [statueBodyPart]</li>
+    <li>side_position_statue->emerging from [SUBJECT_indefinite]'s mouth</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s back</li>
+    <li>statueBodyPart->chest</li>
+    <li>statueBodyPart->stomach</li>
+    <li>statueBodyPart->back</li>
+    <li>statueBodyPart->head</li>
+    <li>statueBodyPart->eye</li>
+    <li>prop->book</li>
+    <li>prop->sword</li>
+    <li>prop->spear</li>
+    <li>prop->gun</li>
+    <li>prop->psychic relic</li>
+    <li>prop->human heart</li>
+  -->
+  <ArtDescription_Statue.rulePack.rulesStrings>
+    <li>r_statue_description->Cette statue [statueDepicts] [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Une [statueAdj] statue  dépeignant [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Une statue [carvedAdverb] [carvedVerb] de [SUBJECT_nameFull]. Elle [statueDepicts] [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Une statue représentant [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Une [statueAdj] statue  de [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->debout, tenant à deux mains un [prop]</li>
+    <li>statueSubjectDesc->debout, tenant à deux mains une [prop_feminine]</li>
+    <li>statueSubjectDesc->debout et regardant noblement au loin</li>
+    <li>statueSubjectDesc->brandissant un poing vers le ciel</li>
+    <li>statueSubjectDesc->tendant la main vers le haut, s'agrippant à quelque chose</li>
+    <li>statueSubjectDesc->penchant sur le côté, comme sur le point de basculer[maybeInsult]</li>
+    <li>statueSubjectDesc->se tenant sur un pied[maybeInsult]</li>
+    <li>statueSubjectDesc->s'inclinant profondément</li>
+    <li>statueSubjectDesc->s'arc-boutant contre le vent</li>
+    <li>statueSubjectDesc->à genoux en train de prier</li>
+    <li>statueSubjectDesc->les mains élevées telles que pour prier</li>
+    <li>statueSubjectDesc->les mains jointes pour exprimer sa gratitude</li>
+    <li>statueSubjectDesc->courant à toute vitesse</li>
+    <li>statueSubjectDesc->les bras ouverts, regardant vers le ciel</li>
+    <li>statueSubjectDesc->les mains posées sur les hanches</li>
+    <li>statueSubjectDesc->les bras levés en signe de triomphe</li>
+    <li>statueSubjectDesc->tenant un [prop] dans une main[maybeOtherHand]</li>
+    <li>statueSubjectDesc->tenant une [prop_feminine] dans une main[maybeOtherHand]</li>
+    <li>statueSubjectDesc->saluant d'une main[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointant vers l'horizon[maybeOtherHand]</li>
+    <li>statueSubjectDesc->tendant la main en signe de bienvenue[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointant l'horizon d'une main[maybeOtherHand]</li>
+    <li>statueSubjectDesc->dansant de manière séductrice</li>
+    <li>statueSubjectDesc->se relaxant de manière séduisante</li>
+    <li>statueSubjectDesc->se préparant à se battre</li>
+    <li>statueSubjectDesc(SUBJECT_gender!=Female)->s'élançant dans les airs, immobilisé en plein saut</li>
+    <li>statueSubjectDesc(SUBJECT_gender==Female)->s'élançant dans les airs, immobilisée en plein saut</li>
+    <li>statueSubjectDesc->lançant un filet de pêche dans des eaux inconnues</li>
+    <li>statueSubjectDesc->mangeant un repas luxueux</li>
+    <li>statueSubjectDesc->en pleine lutte, se libérant de ses chaînes</li>
+    <li>statueSubjectDesc->chuchotant silencieusement un secret</li>
+    <li>statueSubjectDesc->regardant les étoiles, les yeux remplis d'émerveillement</li>
+    <li>statueSubjectDesc->lançant une lance invisible</li>
+    <li>statueSubjectDesc->déchirant un morceau de papier dans un acte de défiance</li>
+    <li>statueSubjectDesc->pataugeant dans des eaux profondes</li>
+    <li>statueSubjectDesc->tenant un grand [prop] à deux mains</li>
+    <li>statueSubjectDesc->tenant une grande [prop_feminine] à deux mains</li>
+    <li>statueSubjectDesc->sans dents[maybeInsult]</li>
+    <li>statueSubjectDesc->plissant le regard vers le soleil[maybeInsult]</li>
+    <li>statueSubjectDesc->en train de sentir un bouquet de fleurs[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->L'autre main de la statue tient [prop]</li>
+    <li>otherHand->L'autre main de la statue repose sur sa hanche</li>
+    <li>otherHand->L'autre main de la statue fait un geste obscène</li>
+    <li>otherHand->L'autre main de la statue est absente[maybeInsult]</li>
+    <li>maybeNoNose->. La statue n'a pas de nez[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. Il s'agit d'une insulte flagrante</li>
+    <li>maybeInsult->. On ne sait pas s'il s'agit d'une faute de la part de l'artiste ou d'une simple erreur</li>
+    <li>maybeInsult->. Cela suggère que l'artiste insulte le sujet</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->Le visage de la statue affiche une expression de [facialLook].</li>
+    <li>statueFaceDesc(p=2)->Le visage de la statue affiche une expression d'[facialLook_vowel].</li>
+    <li>statueFaceDesc(p=2)->L'expression de [facialLook] peut être observée sur le visage de [SUBJECT_indefinite].</li>
+    <li>statueFaceDesc(p=2)->L'expression d'[facialLook_vowel] peut être observée sur le visage de [SUBJECT_indefinite].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] a une allure de [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] a une allure d'[facialLook].</li>
+    <li>statueFaceDesc->Le visage de [SUBJECT_indefinite] [depicts] une expression de [facialLook].</li>
+    <li>statueFaceDesc->Le visage de [SUBJECT_indefinite] [depicts] une expression d'[facialLook_vowel].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] a un visage sage et réfléchi.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] s'écrie, bouche bée, dans un cri silencieux.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] regarde au loin avec tristesse.</li>
+    <li>statueFaceDesc->La statue [depicts] [SUBJECT_indefinite] avec un regard déterminé qui lui est propre.</li>
+    <li>statueFaceDesc->La statue [depicts] [SUBJECT_indefinite] riant maniaquement.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] a [facialFeature].</li>
+    <li>statueFaceDesc->La statue a [facialFeature].</li>
+    <li>statueFaceDesc->Fait notable, la statue a [facialFeature].</li>
+    <li>facialLook->joie véritable</li>
+    <li>facialLook->pure terreur</li>
+    <li>facialLook->pure extase</li>
+    <li>facialLook->pur bonheur</li>
+    <li>facialLook->choc et d'embarras</li>
+    <li>facialLook->peines indicibles</li>
+    <li>facialLook->contemplation profonde</li>
+    <li>facialLook->confusion</li>
+    <li>facialLook->la fierté et du contentement</li>
+    <li>facialLook_vowel->amusement</li>
+    <li>facialLook->dégoût</li>
+    <li>facialLook->défiance</li>
+    <li>facialFeature->un sourire en coin</li>
+    <li>facialFeature->un sourcil froncé</li>
+    <li>facialFeature->un sourcil levé, comme s'il interrogeait l'artiste</li>
+    <li>facialFeature->une longue langue tirée</li>
+    <li>facialFeature->un visage figé par l'angoisse</li>
+    <li>facialFeature->des yeux qui semblent pétiller</li>
+    <li>facialFeature->les deux yeux fermés, en paix</li>
+    <li>facialFeature->des joues gonflées comme si elles soufflaient de l'air</li>
+    <li>facialFeature->des yeux perçants et des lèvres hargneuses</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->Le piédestal de la statue est bordé par [subimageplural]</li>
+    <li>artextra_clause_statue->Gravées sur la peau du sujet sont [subimageplural]</li>
+    <li>artextra_clause_statue->Plusieurs gravures plus petites entourent la statue. Chacune ressemble à [subimagesingle]</li>
+    <li>artextra_clause_statue->Les jambes de la statue sont dissimulées par [subimageplural]</li>
+    <li>artextra_clause_statue->Le visage de la statue est [carvedVerb] d'une image de [subimageany]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] se tient au milieu d'un [Community]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] se tient au milieu d'une [Community_Feminine]</li>
+    <li>artextra_clause_statue->La base de la statue semble être un [TerrainFeature]</li>
+    <li>artextra_clause_statue->La base de la statue semble être un [TerrainFeature_Feminine]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] semble surgir d'un [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] semble surgir d'une [TerrainFeature_Feminine]</li>
+    <li>artextra_clause_statue->Un petit [Character] est visible [side_position_statue]</li>
+    <li>artextra_clause_statue->Une petite [Character_Feminine] est visible [side_position_statue]</li>
+    <li>artextra_clause_statue->Un [Character] [pawn_adj] se présente [side_position_statue]</li>
+    <li>artextra_clause_statue->Une [Character_Feminine] [pawn_adj_fem] se présente [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] de [Character_Plural] se présentent [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] de [Character_FemPlural] se présentent [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character_Plural] [pawn_adj_plural] situés [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character_FemPlural] [pawn_adj_plural_fem] situées [side_position_statue]</li>
+    <li>artextra_clause_statue->[side_position_statue] se trouve la sculpture d'[AnimalAny_indef]</li>
+    <li>artextra_clause_statue->de loin, la composition [composition] de la statue laisse apparaître la silhouette d'[subimageany]</li>
+    <li>artextra_clause_statue->La statue tient [AnimalAny_indef] sous un bras</li>
+    <li>artextra_clause_statue->la statue tient [Quantity_adjphrase] [Character_Plural] [pawn_adj_plural]</li>
+    <li>artextra_clause_statue->la statue tient [Quantity_adjphrase] [Character_FemPlural] [pawn_adj_plural_fem]</li>
+    <li>artextra_clause_statue->le [statueBodyPart] de [SUBJECT_indefinite] est fendu. À l'intérieur, on peut voir [subimageplural]</li>
+    <li>artextra_clause_statue->la [statueBodyPart_feminine] de [SUBJECT_indefinite] est fendue. À l'intérieur, on peut voir [subimageplural]</li>
+    <li>artextra_clause_statue->l'[statueBodyPart_vowel] de [SUBJECT_indefinite] est fendu. À l'intérieur, on peut voir [subimageplural]</li>
+    <li>carvedAdverb->soigneusement</li>
+    <li>carvedAdverb->rapidement</li>
+    <li>carvedAdverb->grossièrement</li>
+    <li>carvedAdverb->méticuleusement </li>
+    <li>carvedVerb->taillée</li>
+    <li>carvedVerb->sculptée</li>
+    <li>carvedVerb->ciselée</li>
+    <li>statueAdj->plus grande que nature</li>
+    <li>statueAdj->imposante</li>
+    <li>statueAdj->grande</li>
+    <li>statueAdj->large</li>
+    <li>statueAdj->réaliste</li>
+    <li>statueAdj->digne</li>
+    <li>statueAdj->solennelle</li>
+    <li>statueAdj->noble</li>
+    <li>statueAdj->sereine</li>
+    <li>statueAdj->en miettes</li>
+    <li>statueAdj->modeste</li>
+    <li>statueAdj->révélatrice</li>
+    <li>statueAdj->brute</li>
+    <li>statueAdj->titillante</li>
+    <li>statueAdj->provocatrice</li>
+    <li>statueAdj->suggestive</li>
+    <li>statueAdj->grotesque</li>
+    <li>statueAdj->effrayante</li>
+    <li>statueAdj->majestueuse</li>
+    <li>statueDepicts->dépeint</li>
+    <li>statueDepicts->montre</li>
+    <li>statueDepicts->représente</li>
+    <li>side_position_statue->à la base</li>
+    <li>side_position_statue->sur le piédestal à côté de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->sous le talon de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->dans les bras de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->sur la tête de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->sur les épaules de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->derrière la statue centrale</li>
+    <li>side_position_statue->dans une cavité creusée dans le [statueBodyPart] de la figure</li>
+    <li>side_position_statue->dans une cavité creusée dans la [statueBodyPart_feminine] de la figure</li>
+    <li>side_position_statue->dans une cavité creusée dans l'[statueBodyPart_vowel] de la figure</li>
+    <li>side_position_statue->dans la paume de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->jaillissant du [statueBodyPart] de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->jaillissant de la [statueBodyPart_feminine] de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->jaillissant de l'[statueBodyPart_vowel] de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->sortant de la bouche de [SUBJECT_indefinite]</li>
+    <li>side_position_statue->sur le dos de [SUBJECT_indefinite]</li>
+    <li>statueBodyPart_feminine->poitrine</li>
+    <li>statueBodyPart->ventre</li>
+    <li>statueBodyPart->dos</li>
+    <li>statueBodyPart_feminine->tête</li>
+    <li>statueBodyPart_vowel->œil</li>
+    <li>prop->livre</li>
+    <li>prop_feminine->épée</li>
+    <li>prop_feminine->lance</li>
+    <li>prop->fusil</li>
+    <li>prop_feminine->relique psychique</li>
+    <li>prop->cœur humain</li>
+  </ArtDescription_Statue.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s statue</li>
+    <li>r_statue_name->Study of [SUBJECT_indefinite]</li>
+    <li>r_statue_name->A Study in [statueIdea]</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [statueAdj]</li>
+    <li>r_statue_name->The [statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->Figure of [statueIdea]</li>
+    <li>r_statue_name->[statueIdea] and [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [subjectNoun]</li>
+    <li>r_statue_name->The [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] of [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] and [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdj->Sculpted</li>
+    <li>statueAdj->Silent</li>
+    <li>statueAdj->Eternal</li>
+    <li>statueAdj->Perfect</li>
+    <li>statueAdj->Chiseled</li>
+    <li>statueAdj->Timeless</li>
+    <li>statueAdj->Unbroken</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Ideal</li>
+    <li>statueAdj->Human</li>
+    <li>statueAdj->Flawed</li>
+    <li>statueAdj->Watchful</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Mournful</li>
+    <li>statueAdj->Frozen</li>
+    <li>statueAdj->Crumbling</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
+    <li>subjectNoun->Watcher</li>
+    <li>subjectNoun->Hero</li>
+    <li>subjectNoun->Legend</li>
+    <li>subjectNoun->Defender</li>
+    <li>subjectNoun->Sentinel</li>
+    <li>subjectNoun->Adonis</li>
+    <li>subjectNoun->Spirit</li>
+    <li>subjectNoun->Figure</li>
+    <li>subjectNoun->Image</li>
+    <li>subjectNoun->Soul</li>
+    <li>subjectNoun->Body</li>
+    <li>subjectNoun->Visage</li>
+    <li>subjectNoun->Contemplation</li>
+    <li>subjectNoun->Form</li>
+    <li>subjectNoun->Angel</li>
+    <li>subjectNoun->Statue</li>
+    <li>subjectNoun->Mirage</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->Strength</li>
+    <li>statueIdea->Wisdom</li>
+    <li>statueIdea->Cunning</li>
+    <li>statueIdea->Heroism</li>
+    <li>statueIdea->Power</li>
+    <li>statueIdea->Memory</li>
+    <li>statueIdea->Spirit</li>
+    <li>statueIdea->Light</li>
+    <li>statueIdea->Patriotism</li>
+    <li>statueIdea->Morning Light</li>
+    <li>statueIdea->Night Sky</li>
+    <li>statueIdea->Sunrise</li>
+    <li>statueIdea->Drifting Sand</li>
+    <li>statueIdea->Everlasting Love</li>
+    <li>statueIdea->Passion</li>
+  -->
+  <NamerStatue.rulePack.rulesStrings>
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->La statue de [SUBJECT_indefinite]</li>
+    <li>r_statue_name->L'étude de [SUBJECT_indefinite]</li>
+    <li>r_statue_name->Une étude en [statueIdea]</li>
+    <!--<li>r_statue_name(SUBJECT_gender==Female)->[statueAdj] [SUBJECT_indefinite]</li>-->
+    <!-- Not possible in french, same as others-->
+    <li>r_statue_name(SUBJECT_gender==Female)->[SUBJECT_indefinite], le [statueAdj]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->[SUBJECT_indefinite], la [statueAdj_feminine]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[SUBJECT_indefinite], l'[statueAdj_vowel]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[SUBJECT_indefinite], l'[statueAdj_feminine_vowel]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->Le [subjectNoun] [statueAdj]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->L'[subjectNoun_vowel] [statueAdj]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->La [subjectNoun_feminine] [statueAdj_feminine]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->L'[subjectNoun_feminine_vowel] [statueAdj_feminine]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[subjectNoun] [statueAdj]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[subjectNoun_vowel] [statueAdj]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->[subjectNoun_feminine] [statueAdj_feminine]</li>
+    <li>r_statue_name->Figure de [statueIdea]</li>
+    <li>r_statue_name->[subjectNoun] et [statueIdea]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->Le [subjectNoun] de [SUBJECT_indefinite]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->L'[subjectNoun_vowel] de [SUBJECT_indefinite]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->La [subjectNoun_feminine] de [SUBJECT_indefinite]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->L'[subjectNoun_feminine_vowel] de [SUBJECT_indefinite]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->[SUBJECT_indefinite], la [subjectNoun_feminine]</li>
+    <li>r_statue_name(SUBJECT_gender==Female)->[SUBJECT_indefinite], l'[subjectNoun_feminine_vowel]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[SUBJECT_indefinite], le [subjectNoun]</li>
+    <li>r_statue_name(SUBJECT_gender!=Female)->[SUBJECT_indefinite], l'[subjectNoun_vowel]</li>
+    <li>r_statue_name->Le [subjectNoun]</li>
+    <li>r_statue_name->La [subjectNoun_feminine]</li>
+    <li>r_statue_name->L'[subjectNoun_vowel]</li>
+    <li>r_statue_name->L'[subjectNoun_feminine_vowel]</li>
+    <li>r_statue_name->[subjectNounAny] de [statueIdea]</li>
+    <li>r_statue_name->[subjectNounAny_feminine] de [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] et [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdjAny->[statueAdj]</li>
+    <li>statueAdjAny->[statueAdj_vowel]</li>
+    <li>statueAdjAny_feminine->[statueAdj_feminine]</li>
+    <li>statueAdjAny_feminine->[statueAdj_feminine_vowel]</li>
+    <li>statueAdj->sculpté</li>
+    <li>statueAdj_feminine->sculptée</li>
+    <li>statueAdj->silencieux</li>
+    <li>statueAdj_feminine->silencieuse</li>
+    <li>statueAdj_vowel->éternel</li>
+    <li>statueAdj_feminine_vowel->éternelle</li>
+    <li>statueAdj->parfait</li>
+    <li>statueAdj_feminine->parfaite</li>
+    <li>statueAdj->ciselé</li>
+    <li>statueAdj_feminine->ciselée</li>
+    <li>statueAdj_vowel->intemporel</li>
+    <li>statueAdj_feminine_vowel->intemporelle</li>
+    <li>statueAdj_vowel->incassable</li>
+    <li>statueAdj_feminine_vowel->incassable</li>
+    <li>statueAdj_vowel->idéal</li>
+    <li>statueAdj_feminine_vowel->idéale</li>
+    <li>statueAdj_vowel->humain</li>
+    <li>statueAdj_feminine_vowel->humaine</li>
+    <li>statueAdj_vowel->imparfait</li>
+    <li>statueAdj_feminine_vowel->imparfaite</li>
+    <li>statueAdj->vigilant</li>
+    <li>statueAdj_feminine->vigilante</li>
+    <li>statueAdj->résonnant</li>
+    <li>statueAdj_feminine->résonnante</li>
+    <li>statueAdj_vowel->endeuillé</li>
+    <li>statueAdj_feminine_vowel->endeuillée</li>
+    <li>statueAdj->gelé</li>
+    <li>statueAdj_feminine->gelée</li>
+    <li>statueAdj_vowel->effondré</li>
+    <li>subjectNounAny->[subjectNoun]</li>
+    <li>subjectNounAny->[subjectNoun_vowel]</li>
+    <li>subjectNounAny_feminine->[subjectNoun_feminine]</li>
+    <li>subjectNounAny_feminine->[subjectNoun_feminine_vowel]</li>
+    <li>subjectNounAny(p=2)->[PersonJob]</li>
+    <li>subjectNounAny(p=2)->[PersonFamily]</li>
+    <li>subjectNounAny(p=2)->[PersonAlly]</li>
+    <li>subjectNounAny(p=2)->[PersonBadass]</li>
+    <li>subjectNounAny(p=2)->[PersonJob_Feminine]</li>
+    <li>subjectNounAny(p=2)->[PersonFamily_Feminine]</li>
+    <li>subjectNounAny(p=2)->[PersonAlly_Feminine]</li>
+    <li>subjectNounAny(p=2)->[PersonBadass_Feminine]</li>
+    <li>subjectNoun_vowel->Observateur</li>
+    <li>subjectNoun_feminine_vowel->Observatrice</li>
+    <li>subjectNoun->Héro</li>
+    <li>subjectNoun_feminine->Héroïne</li>
+    <li>subjectNoun->Légende</li>
+    <li>subjectNoun->Défenseur</li>
+    <li>subjectNoun->Sentinel</li>
+    <li>subjectNoun_feminine->Sentinelle</li>
+    <li>subjectNoun_vowel->Adonis</li>
+    <li>subjectNoun_feminine->Figure</li>
+    <li>subjectNoun_feminine_vowel->Image</li>
+    <li>subjectNoun_vowel->Âme</li>
+    <li>subjectNoun->Corps</li>
+    <li>subjectNoun->Visage</li>
+    <li>subjectNoun_feminine->Contemplation</li>
+    <li>subjectNoun_feminine->Forme</li>
+    <li>subjectNoun_vowel->Ange</li>
+    <li>subjectNoun_feminine->Statue</li>
+    <li>subjectNoun->Mirage</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->force</li>
+    <li>statueIdea->sagesse</li>
+    <li>statueIdea->la ruse</li>
+    <li>statueIdea->l'héroïsme</li>
+    <li>statueIdea->pouvoir</li>
+    <li>statueIdea->mémoire</li>
+    <li>statueIdea->l'esprit</li>
+    <li>statueIdea->lumière</li>
+    <li>statueIdea->patriotisme</li>
+    <li>statueIdea->la lumière du matin</li>
+    <li>statueIdea->ciel nocturne</li>
+    <li>statueIdea->l'aube</li>
+    <li>statueIdea->la dérive des sables</li>
+    <li>statueIdea->l'amour éternel</li>
+    <li>statueIdea->la passion</li>
+  </NamerStatue.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Démolit la cible et récupère une partie des ressources.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Désinstaller</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Chasser</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Marque un animal à chasser par vos chasseurs.</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>Marque un animal à chasser par vos chasseurs.\n\nSeuls les chasseurs équipés d'armes à distance appropriées peuvent chasser.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>Miner</DesignatorMine>
@@ -73,8 +78,8 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planifier</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Trace une zone de plan. Sert à planifier votre expansion future, ou à anticiper celle-ci.</DesignatorPlanDesc>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>Trace une zone de plan. Sert à planifier votre expansion future, ou à anticiper celle-ci.\n\nFaites un clic droit pour masquer ou démasquer toutes les zones de planification.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Déplanifier</DesignatorPlanRemove>
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Enlever le pont</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Enlève le pont pour révéler le terrain en dessous.</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>Déconstruire les ponts pour récupérer une partie des ressources.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Déshabiller</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Ouvre des tombes pleines ou des conteneurs.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Abattre</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Apprivoiser</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Apprivoise un animal sauvage.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>TODO</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Relâcher dans la nature</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Saisir une couleur</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>TODO</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Matériau non sélectionné</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} bloquera la zone d'interaction de {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Ce terrain est déjà du {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>TODO</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Cette surface est déjà marquée pour être aplanie.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Étendre {0} ou\nCréer une nouvelle {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Créer une nouvelle {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>TODO</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

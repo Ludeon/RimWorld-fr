@@ -44,10 +44,10 @@
   <MessageBiomutationLanceTargetTooBig>Impossible de cibler : {0_nameDef} est trop {0_gender ? grand : grande : grand(e)}.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
-  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>Avertissement : aucune cellule ne répond au critère de capacité de confinement pour {0}. La créature va bientôt s'évader.</MessageNoRoomWithMinimumContainmentStrength>
-  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>Avertissement : {0} ne répond pas au critère de capacité de confinement pour {1}. La créature va bientôt s'évader.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
+  <MessageNoRoomWithMinimumContainmentStrength>Avertissement : aucune cellule ne répond au critère de capacité de confinement pour {0}. La créature pourrait bientôt s'évader.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>Avertissement : {0} ne répond pas au critère de capacité de confinement pour {1}. La créature pourrait bientôt s'évader.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>Impossible de transférer {0}. Réservé par quelqu'un d'autre.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
@@ -86,7 +86,7 @@
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
   <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} a dérangé plusieurs digipointes.</MessageFingerspikeDisturbedPlural>
 
-  <!-- EN: The death pall has resurrected {0_indefinite}. -->
-  <DeathPallResurrectedMessage>La brume funeste a ressuscité {0_indefinite}.</DeathPallResurrectedMessage>
-
+  <!-- EN: The death pall has begun to resurrect corpses. -->
+  <DeathPallResurrectedMessage>La brume funeste a commencé à ressusciter des cadavres.</DeathPallResurrectedMessage>
+  
 </LanguageData>

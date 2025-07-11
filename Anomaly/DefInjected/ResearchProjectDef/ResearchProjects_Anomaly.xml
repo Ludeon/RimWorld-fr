@@ -9,7 +9,7 @@
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
@@ -71,7 +71,7 @@
     <li>subject_gerund->en établissant des sites de rituel</li>
     <li>subject_gerund->en provoquant les entités du néant</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
-
+  
   <!-- EN: bioferrite extraction -->
   <BioferriteExtraction.label>extraction de bioferrite</BioferriteExtraction.label>
   <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
@@ -92,7 +92,6 @@
     <li>subject_story->a découvert un nouveau métal organique</li>
     <li>subject_gerund->extraction de bioferrite</li>
   </BioferriteExtraction.generalRules.rulesStrings>
-
   
   <!-- EN: bioferrite generator -->
   <BioferriteGenerator.label>générateur à bioferrite</BioferriteGenerator.label>
@@ -119,10 +118,10 @@
     <li>subject_gerund->en alimentant des générateurs en bioferrite</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>extraction de bioferrite</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>Fabriquez des extracteurs qui génèrent de la bioferrite à partir des entités retenues sur les plateformes de détention.</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>extracteur de bioferrite</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>Fabriquez des extracteurs qui extrait automatiquement de la bioferrite à partir des entités capturées. Produit davantage de bioferrite que l'extraction manuelle.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -485,7 +484,7 @@
   <InsanityWeaponry.description>Restructurez les fragments d'archotech pour en faire des armes à usage limité qui choquent, manipulent et anéantissent les ennemis.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -506,7 +505,7 @@
   <JuggernautSerum.description>Synthétisez un sérum qui augmente temporairement la force et la vitesse de l'utilisateur, tout en lui permettant de récupérer plus vite en cas de blessure. Cependant, son humeur se dégrade.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -625,7 +624,7 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
