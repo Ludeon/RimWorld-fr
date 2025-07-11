@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <ConfirmGravEngineLaunch>Êtes-vous sûr de vouloir procéder au lancement ?\n\nVotre carte actuelle, ainsi que tout ce qui n'est pas sur la sous-structure du vaisseau gravitationnel, seront perdus définitivement. Le processus de lancement est destructif, ce qui signifie que vous ne pourrez pas revenir.</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>Attention</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>Les personnes suivantes seront abandonnées</PeopleWillBeLeftBehind>
+  <!-- EN: The following will be left behind -->
+  <AnimalsWillBeLeftBehind>Ceux-ci seront abandonnés</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>Les personnes et animaux suivants d'une autre faction seront emmenés avec vous. Cela contrariera leur faction, la rendant potentiellement hostile</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>Les bâtiments suivants ne sont pas entièrement sur le vaisseau gravitationnel et seront abandonnés</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>Certaines sous-structures ont un emplacement invalide et seront abandonnées</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>Déconnecté du moteur à graviton</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>Sous un plafond de pierre</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>Hors de portée</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>{0} a de grands espoirs pour votre nouveau vaisseau gravitationnel et souhaite le baptiser avec un joli nom. Comment votre vaisseau devrait-il s'appeler ?</NamePlayerGravshipMessage>
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>Le vaisseau gravitationnel est maintenant connu sous le nom de {0}.</PlayerGravshipGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>Ce nom n'est pas valide.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>{0} est hostile. Si vous atterrissez ici, ils vous attaqueront.</ConfirmLandOnHostileFactionBase>
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>Atterrir ici sera considéré comme un acte agressif par {0}. Ils deviendront hostiles et attaqueront.</ConfirmLandOnNeutralFactionBase>
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>Atterrir quand même ici ?</ConfirmLand>
+
+  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
+  <OrbitalWarning>Les emplacements orbitaux sont dangereux. Assurez-vous d'être bien préparé :\n – Équipez vos colons d'une combinaison pressurisée ou d'autres armures avancées.\n – Planifiez votre voyage de retour. Vivre en orbite pendant de longues périodes est extrêmement difficile.</OrbitalWarning>
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>Préparez votre vaisseau gravitationnel pour l'orbite : \n- Utiliser des murs et des portes hermétique.\n- Construire des pompes à oxygène.</OrbitalWarning_Gravship>
+  <!-- EN: Warning -->
+  <OrbitalWarning_Warning>Attention</OrbitalWarning_Warning>
+  <!-- EN: Some exterior walls or doors are not airtight. -->
+  <OrbitalWarning_Vacuum>Certains murs ou portes extérieurs ne sont pas hermétique.</OrbitalWarning_Vacuum>
+  <!-- EN: No functional heat sources. -->
+  <OrbitalWarning_NoHeatSources>Aucune source de chaleur fonctionnelle.</OrbitalWarning_NoHeatSources>
+  <!-- EN: Few functional heat sources -->
+  <OrbitalWarning_FewHeatSources>Quelques sources de chaleur fonctionnelles</OrbitalWarning_FewHeatSources>
+  <!-- EN: No functional oxygen pumps. -->
+  <OrbitalWarning_NoOxygenPumps>Aucune pompe à oxygène fonctionnelle.</OrbitalWarning_NoOxygenPumps>
+  <!-- EN: Few functional oxygen pumps -->
+  <OrbitalWarning_FewOxygenPumps>Quelques pompes à oxygène fonctionnelles</OrbitalWarning_FewOxygenPumps>
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>La navette n'a pas assez de carburant pour revenir de cette destination. Elle pourrait s'échouer.\n\nVous avez actuellement {0} carburant, mais vous avez besoin de {1} carburant pour un vol de retour.\n\nÊtes-vous sûr de vouloir continuer ?</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>La caravane est immobile à cause de la navette</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>Réapprovisionner {0}x chemfuel</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>Portée de zoom (vaisseau gravitationnel) {0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>
