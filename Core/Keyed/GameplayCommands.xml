@@ -113,45 +113,45 @@
   <!-- EN: Unhide -->
   <CommandUnhideLabel>Afficher</CommandUnhideLabel>
   
-  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHidePlanDesc>TODO</CommandHidePlanDesc>
+<!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+<CommandHidePlanDesc>Afficher ou masquer ce plan.\n\nFaites un clic droit de la souris pour masquer ou afficher toutes les zones.</CommandHidePlanDesc>
   <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHideZoneDesc>Masquer/démasquer cette zone.\n\nFaites un clic droit de la souris pour masquer ou démasquer toutes les zones.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>Afficher ou masquer cette zone.\n\nFaites un clic droit de la souris pour masquer ou afficher toutes les zones.</CommandHideZoneDesc>
   
   <!-- EN: Show all zones -->
-  <ShowAllZones>TODO</ShowAllZones>
+  <ShowAllZones>Afficher toutes les zones</ShowAllZones>
   <!-- EN: Hide all zones -->
-  <HideAllZones>TODO</HideAllZones>
+  <HideAllZones>Masquer toutes les zones</HideAllZones>
   <!-- EN: Show all {0} zones -->
-  <ShowAllZoneTypes>TODO</ShowAllZoneTypes>
+  <ShowAllZoneTypes>Afficher toutes les {0} zones</ShowAllZoneTypes>
   <!-- EN: Hide all {0} zones -->
-  <HideAllZoneTypes>TODO</HideAllZoneTypes>
+  <HideAllZoneTypes>Masquer toutes les {0} zones</HideAllZoneTypes>
   <!-- EN: planning -->
-  <Planning>TODO</Planning>
-  
-  <!-- EN: Change color -->
-  <CommandChangeColorPlanLabel>TODO</CommandChangeColorPlanLabel>
-  <!-- EN: Change the color of this plan. -->
-  <CommandChangeColorPlanDesc>TODO</CommandChangeColorPlanDesc>
-  
-  <!-- EN: Delete -->
-  <CommandDeletePlanLabel>TODO</CommandDeletePlanLabel>
-  <!-- EN: Delete this plan. -->
-  <CommandDeletePlanDesc>TODO</CommandDeletePlanDesc>
-  
-  <!-- EN: Copy -->
-  <CommandCopyPlanLabel>TODO</CommandCopyPlanLabel>
-  <!-- EN: Copy this plan. -->
-  <CommandCopyPlanDesc>TODO</CommandCopyPlanDesc>
-  
-  <!-- EN: Copy selection... -->
-  <CommandCopyPlanSelectionLabel>TODO</CommandCopyPlanSelectionLabel>
-  <!-- EN: Copy all plans within a selected area. -->
-  <CommandCopyPlanSelectionDesc>TODO</CommandCopyPlanSelectionDesc>
-  <!-- EN: Select area to copy -->
-  <CommandCopyPlanSelectionMouse>TODO</CommandCopyPlanSelectionMouse>
-  <!-- EN: Paste selected area -->
-  <CommandCopyPlanSelectionPasteMouse>TODO</CommandCopyPlanSelectionPasteMouse>
+  <Planning>Planifier</Planning>
+
+<!-- EN: Change color -->
+<CommandChangeColorPlanLabel>Changer la couleur</CommandChangeColorPlanLabel>
+<!-- EN: Change the color of this plan. -->
+<CommandChangeColorPlanDesc>Modifier la couleur de ce plan.</CommandChangeColorPlanDesc>
+
+<!-- EN: Delete -->
+<CommandDeletePlanLabel>Supprimer</CommandDeletePlanLabel>
+<!-- EN: Delete this plan. -->
+<CommandDeletePlanDesc>Supprimer ce plan.</CommandDeletePlanDesc>
+
+<!-- EN: Copy -->
+<CommandCopyPlanLabel>Copier</CommandCopyPlanLabel>
+<!-- EN: Copy this plan. -->
+<CommandCopyPlanDesc>Copier ce plan.</CommandCopyPlanDesc>
+
+<!-- EN: Copy selection... -->
+<CommandCopyPlanSelectionLabel>Copier la sélection...</CommandCopyPlanSelectionLabel>
+<!-- EN: Copy all plans within a selected area. -->
+<CommandCopyPlanSelectionDesc>Copier tous les plans dans une zone sélectionnée.</CommandCopyPlanSelectionDesc>
+<!-- EN: Select area to copy -->
+<CommandCopyPlanSelectionMouse>Sélectionner la zone à copier</CommandCopyPlanSelectionMouse>
+<!-- EN: Paste selected area -->
+<CommandCopyPlanSelectionPasteMouse>Coller la zone sélectionnée</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Supprimer</CommandDeleteZoneLabel>
@@ -395,7 +395,7 @@
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Il y a des ennemis dans cette zone.</CommandSettleFailEnemies>
   <!-- EN: Cannot settle here. -->
-  <CommandSettleFailGeneric>TODO</CommandSettleFailGeneric>
+  <CommandSettleFailGeneric>Impossible de s'installer ici.</CommandSettleFailGeneric>
 
  <!-- Camp -->
 <!-- EN: Camp -->
@@ -433,18 +433,18 @@
   <CommandAddToCaravanDesc>Ajouter cette personne ou animal à la caravane en formation</CommandAddToCaravanDesc>
   
   <!-- Force caravan depart -->
-  <!-- EN: Force caravan departure -->
-  <CommandForceCaravanDepart>TODO</CommandForceCaravanDepart>
-  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
-  <CommandForceCaravanDepartDesc>TODO</CommandForceCaravanDepartDesc>
-  <!-- EN: Are you sure you want to depart? -->
-  <ConfirmForceDepartIntro>TODO</ConfirmForceDepartIntro>
-  <!-- EN: The following items are still being loaded and will be left behind: -->
-  <ConfirmForceDepartItemsStillLoading>TODO</ConfirmForceDepartItemsStillLoading>
-  <!-- EN: The following people won't be a part of the caravan: -->
-  <ConfirmForceDepartPawnsNotLeaving>TODO</ConfirmForceDepartPawnsNotLeaving>
-  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
-  <ConfirmForceDepartItemsOnPawnsNotLeaving>TODO</ConfirmForceDepartItemsOnPawnsNotLeaving>
+<!-- EN: Force caravan departure -->
+<CommandForceCaravanDepart>Forcer le départ de la caravane</CommandForceCaravanDepart>
+<!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+<CommandForceCaravanDepartDesc>Obliger la caravane à partir immédiatement avec seulement les objets chargés. Ceux qui ne peuvent pas voyager seront laissés sur place.</CommandForceCaravanDepartDesc>
+<!-- EN: Are you sure you want to depart? -->
+<ConfirmForceDepartIntro>Êtes-vous sûr de vouloir partir ?</ConfirmForceDepartIntro>
+<!-- EN: The following items are still being loaded and will be left behind: -->
+<ConfirmForceDepartItemsStillLoading>Les objets suivants sont encore en cours de chargement et seront laissés sur place :</ConfirmForceDepartItemsStillLoading>
+<!-- EN: The following people won't be a part of the caravan: -->
+<ConfirmForceDepartPawnsNotLeaving>Les personnes suivantes ne feront pas partie de la caravane :</ConfirmForceDepartPawnsNotLeaving>
+<!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+<ConfirmForceDepartItemsOnPawnsNotLeaving>Les objets suivants sont placés sur des créatures qui ne feront pas partie de la caravane et seront laissés sur place :</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -506,7 +506,7 @@
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Annuler le chargement avec des personnes ou des objets et éjecter tout ce qui a déjà été chargé.</CommandCancelLoadDesc>
   <!-- EN: Unload all -->
-  <CommandUnload>TODO</CommandUnload>
+  <CommandUnload>Tout décharger</CommandUnload>
   <!-- EN: Eject all contents from the {0}. -->
   <CommandUnloadDesc>TODO</CommandUnloadDesc>
 
