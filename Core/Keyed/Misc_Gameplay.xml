@@ -305,7 +305,7 @@
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Au-delà de la portée maximale</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
+  <TransportPodDestinationNoPath>Aucun chemin vers {LAYER_label}</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Pas assez de carburant</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -351,7 +351,7 @@
   <!-- EN: Requires -->
   <Requires>Nécessite</Requires>
   <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
+  <Replaces>Remplacer</Replaces>
   <!-- EN: missing {0} -->
   <MissingPartWithLabel>manque {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
@@ -377,13 +377,13 @@
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Multiplicateur pour les animaux chevauchés</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>Multiplicateur de bonus</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicateur pour la masse transportée : {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Cet animal peut être chevauché. Les membres d'une caravane chevaucheront les animaux disponibles les plus rapides, améliorant la vitesse de l'ensemble de la caravane.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
+  <CaravanBonusTip>Cette personne confère un bonus à la vitesse de la caravane. Ce bonus correspond au bonus moyen de tous les membres de la caravane.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Cette caravane ne peut pas se déplacer, car elle transporte une charge trop importante.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -629,20 +629,22 @@
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Rampe jusqu'au lit.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
-  <Flying>TODO</Flying>
+  <Flying>Vole</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
+  <PreventCutting>Empêcher la coupe</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+  <PreventCuttingDesc>Lorsqu'activé, les colons ne couperont pas cette plante.</PreventCuttingDesc>
 
-  <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
-  <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
-  <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
-  <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
+<!-- EN: Resulting from trait -->
+<ComesFromTrait>Provenant d’un trait</ComesFromTrait>
+<!-- EN: Resulting from condition -->
+<ComesFromHediff>Provenant d’un état de santé</ComesFromHediff>
+<!-- EN: Adds need -->
+<AddsNeed>Ajoute un besoin</AddsNeed>
+<!-- EN: Adds needs -->
+<AddsNeeds>Ajoute des besoins</AddsNeeds>
+
+  
   <!-- EN: Disables need -->
   <DisablesNeed>Désactive le besoin</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -816,7 +818,7 @@
   <Filth_Label>Saleté</Filth_Label>
   
   <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
+  <Features_Label>Caractéristiques</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Faction</Faction_Label>
   <!-- EN: Relationship -->
@@ -843,7 +845,7 @@
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>Vous ne pouvez pas utiliser dans : "{0}"</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>Portée réduite</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1107,7 +1109,7 @@
   <!-- EN: low -->
   <PowerConsumptionLow>basse</PowerConsumptionLow>
   <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
+  <PowerConsumptionOff>désactivé</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1215,7 +1217,7 @@
   <!-- EN: Stockpile zone -->
   <Stockpile>Zone de stockage</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
+  <StockpileGroup>Stockage</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Décharge</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1287,9 +1289,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Activer l'éclairage jour/nuit.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Activer/désactiver l'affichage des icônes d'extension pour les colonies appartenant à d'autres factions.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Activez ou désactivez l'affichage des icônes d'extension pour les emplacements importants, tels que votre colonie, les emplacements de quête et les cartes actives.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Afficher les noms de lieux.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1489,7 +1491,7 @@
   <!-- EN: No colony -->
   <NoColony>Pas de colonie</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
+  <NoWandererDestination>ne peut atteindre aucune destination</NoWandererDestination>
   <!-- EN: must wait {0}h -->
   <GameOverCreateNewWanderersWait>vous devez attendre {0}h</GameOverCreateNewWanderersWait>
 
@@ -1637,7 +1639,7 @@
   <!-- EN: Nudist -->
   <OutfitNudist>Nudiste</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
+  <OutfitSpacefarer>Astronaute</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1751,9 +1753,9 @@
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Intercepte {0}.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>projectiles terrestres et aériens</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>projectiles au sol</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>projectiles terrestre</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
   <InterceptsProjectiles_AerialProjectiles>projectiles aériens</InterceptsProjectiles_AerialProjectiles>
 
@@ -2084,12 +2086,12 @@
   <MainScreen_AnomalyAvailableNow>La nouvelle extension Anomaly est disponible dès maintenant !</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>TODO</DisabledByScenario>
+  <DisabledByScenario>Désactivé par scénario</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>bloqué par un toit</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>TODO</BlockedByTerrain>
+  <BlockedByTerrain>Bloqué par le terrain (nécessite la prise en charge du terrain {0_label})</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2111,29 +2113,29 @@
   <!-- EN: Intellectual needed -->
   <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
+  <AutoHack>Piratage auto.</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
+  <AutoHackDesc>Lorsqu'activé, les chercheurs pirateront automatiquement.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
   <WorldSelectLayer>TODO</WorldSelectLayer>
   <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
+  <WorldJumpTo>Aller à l'emplacement</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <WorldJumpToDesc>Trouvez une colonie, une caravane ou un emplacement de quête sur la carte du monde.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
   <NothingToJumpTo>TODO</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
   <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
+  <NewSettlement>Nouvelle colonie</NewSettlement>
   <!-- EN: Settled -->
   <Settled>TODO</Settled>
   <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
+  <Abandoned>Abandonné</Abandoned>
   <!-- EN: Cannot perform {GERUND} {LAYER} -->
-  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <CannotPerformPlanetLayer>Impossible d'exécuter {GERUND} {LAYER}</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
 
@@ -2147,11 +2149,11 @@
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>Annuler l'entrée</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <CommandCancelExitPortal>Annuler la sortie</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>Annuler le chargement de personnes ou des articles dans ceci.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>TODO</ExitPortal>
+  <ExitPortal>Sortir {0}</ExitPortal>
 
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
@@ -2161,28 +2163,28 @@
   <!-- EN: Shield duration -->
   <ShieldDuration>TODO</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <ShieldOnCooldown>En rechargement</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>En dessous de l'énergie minimale</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Un projecteur de bouclier frontal qui tentera d'arrêter les projectiles ou les éclats d'obus entrants de face. Il s'éteint instantanément s'il est touché par une IEM.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
+  <MaxOf>max {0}</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+  <CannotUseDueToHediff>Impossible d'utiliser {TARGETABLE_label} : {TARGET_nameDef} possède déjà {2}.</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <CannotUseScannerRoofed>Bloqué par un toit</CannotUseScannerRoofed>
   <!-- EN: Biome does not contain drillable resources -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  <CannotUseScannerNoBedrock>Le biome ne contient pas de ressources forables</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <CannotAcceptQuestFromLayer>Impossible d'accepter cette quête {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+  <CannotAcceptQuestNoMap>Impossible d'accepter cette quête sans une colonie permanente.</CannotAcceptQuestNoMap>
   
 </LanguageData>
