@@ -40,7 +40,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{0} de {1} quittent la carte en raison des conditions météorologiques dangereuses.</MessageVisitorsAnomalousWeather>
   <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
-  <MessageVisitorsDangerousConditions>TODO</MessageVisitorsDangerousConditions>
+  <MessageVisitorsDangerousConditions>{0} de {1} quittent la carte en raison des conditions dangereuses.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>L'équipement {0} porté par {1_nameFull} est réduit à néant.</MessageWornApparelDeterioratedAway>
@@ -82,9 +82,9 @@
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Seuls ceux qui aiment les insectes peuvent apprivoiser {INSECT_indefinite}.</MessageInsectTameDesignated>
   <!-- EN: No colonists are assigned to hunt. -->
-  <MessageNoHuntersAvailable>TODO</MessageNoHuntersAvailable>
-  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>TODO</MessageNoHuntersWithProperWeapon>
+  <MessageNoHuntersAvailable>Aucun colon n'est assigné à la chasse.</MessageNoHuntersAvailable>
+<!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+<MessageNoHuntersWithProperWeapon>Aucun chasseur ne possède une arme adaptée à la chasse. Équipez un chasseur d’une arme à distance appropriée.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Attention : Le {PAWN_labelShort} est hostile et attaquera pendant que votre colon essaiera de l'apprivoiser.</MessageInsectsHostileOnTaming>
@@ -114,8 +114,8 @@
   <MessageMustDesignateHarvestable>Vous devez désigner une plante capable de fournir de la nourriture et suffisamment mûre pour être coupée.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Vous devez désigner une plante capable de fournir du bois et suffisamment mûre pour être coupée.</MessageMustDesignateHarvestableWood>
-  <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>TODO</MessageMustPlantCuttingForbidden>
+<!-- EN: Prevent cutting is enabled for this plant. -->
+<MessageMustPlantCuttingForbidden>La coupe est interdite pour cette plante.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Vous devez désigner une plante.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -158,14 +158,14 @@
   <MessageMustDesignateUnforbiddable>Vous devez désigner des objets interdits.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotClaimWhenPawnThreatsAreNear>Impossible de réclamer {CLAIMABLE_labelShort} tant qu'il y a des {THREAT_factionPawnsPlural} aptes au combat à proximité.</MessageCannotClaimWhenPawnThreatsAreNear>
-  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhilePawnThreatsAreNear>TODO</MessageCannotAdoptWhilePawnThreatsAreNear>
+<!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+<MessageCannotAdoptWhilePawnThreatsAreNear>Impossible de revendiquer {CLAIMABLE_labelShort} tant que des {THREAT_factionPawnsPlural} capables de combattre se trouvent à proximité.</MessageCannotAdoptWhilePawnThreatsAreNear>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotClaimWhenThreatsAreNear>Impossible de réclamer {CLAIMABLE_labelShort} alors qu'il y a {THREAT} à proximité.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>Impossible d'adopter {CLAIMABLE_labelShort} alors qu'il y a {THREAT} à proximité.</MessageCannotAdoptWhileThreatsAreNear>
-  <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>TODO</MessageCannotRemoveSupportingFoundation>
+<!-- EN: Cannot remove foundation that supports a building. -->
+<MessageCannotRemoveSupportingFoundation>Impossible de retirer une fondation qui soutient un bâtiment.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} a refusé d'être arrêt{1_gender ? é : ée : é(e)} !</MessageRefusedArrest>
@@ -293,8 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} a été retir{0_gender ? é : ée : é(e)} de la caravane.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>La formation de la caravane est annulée.</MessagePawnLostWhileFormingCaravan_AllLost>
-  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost>
+<!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+<MessageForceSendingCaravan_AllLost>Aucun colon n'est capable de former une caravane. Le processus de formation a été annulé.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Le processus de formation de la caravane se poursuivra lorsque tout le monde se remettra des crises de nerfs.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -375,15 +375,15 @@
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Vos {1} ne peuvent pas finir le chargement des capsules de transport car un objet ou un personnage est indisponible ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
-  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle>
+<!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+<MessageCantLoadMoreIntoShuttle>Votre {1} ne peut pas terminer le chargement de la navette car certains objets ou personnes ne sont plus disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>Votre {1} ne peut pas terminer l'entrée ({0}) parce que certains articles ou certaines personnes ne sont pas disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>La destination sélectionnée n'est pas valide.</MessageTransportPodsDestinationIsInvalid>
-  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid>
+<!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+<MessageWorldObjectIsInvalid>{OBJECT_labelCap} n’est pas une destination valide.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Chaque lanceur aurait besoin d'au moins {0} x chemfuel pour envoyer des capsules de transport aussi loin.</MessageTransportPodsDestinationIsTooFar>
   
@@ -806,10 +806,10 @@
   <CannotPlantThing>Ne peut pas planter {0_labelShort}</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Nécessite un terrain plus fertile.</MessageWarningNotEnoughFertility>
-  <!-- EN: Temperature too extreme. -->
-  <CannotPlantExtremeTemp>TODO</CannotPlantExtremeTemp>
-  <!-- EN: Plants cannot grow on this terrain. -->
-  <CannotPlantMissingTerrainTag>TODO</CannotPlantMissingTerrainTag>
+<!-- EN: Temperature too extreme. -->
+<CannotPlantExtremeTemp>Température trop extrême.</CannotPlantExtremeTemp>
+<!-- EN: Plants cannot grow on this terrain. -->
+<CannotPlantMissingTerrainTag>Les plantes ne peuvent pas pousser sur ce type de terrain.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>bloqué par {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -819,7 +819,7 @@
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Trop près de la zone agricole de {0}.</TooCloseToOtherSeedPlantCell>
   <!-- EN: Cannot be placed on {0}. -->
-  <MessageCannotBePlacedOn>TODO</MessageCannotBePlacedOn>
+  <MessageCannotBePlacedOn>Ne peut pas être placé sur {0}.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Avertissement : {0} a été marqué pour être coupé.</MessageWarningCutImportantPlant>
@@ -852,12 +852,12 @@
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Impossible de passer : Réfugié</MessageLodgersCantFarskip>
   
-  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>TODO</MessageHackerLockedOut>
-  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>TODO</MessageHackerLockedOutPermanently>
-  <!-- EN: {0_labelShort} can be hacked again. -->
-  <MessageHackableUnlocked>TODO</MessageHackableUnlocked>
+<!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+<MessageHackerLockedOut>Le piratage de {HACKER_nameDef} a été détecté. {HACKER_pronoun} s'est verrouillé pendant {DURATION}.</MessageHackerLockedOut>
+<!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+<MessageHackerLockedOutPermanently>Le piratage de {HACKER_nameDef} a été détecté. {HACKER_pronoun} s'est verrouillé de façon permanente.</MessageHackerLockedOutPermanently>
+<!-- EN: {0_labelShort} can be hacked again. -->
+<MessageHackableUnlocked>{0_labelShort} peut à nouveau être piraté.</MessageHackableUnlocked>
 
   <!-- EN: Cannot call shuttle -->
   <CannotCallShuttle>Impossible d'appeler la navette</CannotCallShuttle>
