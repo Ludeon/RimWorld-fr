@@ -296,7 +296,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>La colonie ennemie {0} a été détruite.\n\nDans {1}, votre caravane sera attaquée par des ennemis. Ils commenceront à envoyer des forces pour attaquer la caravane, à moins qu'elle ne se reforme et ne parte avant.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>La colonie ennemie {0} a été détruite.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Comme il s'agissait de leur dernière colonie, {0} a été vaincue.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -417,8 +417,8 @@
   <LetterLabelRescueQuestFinished>Une personne secourue nous rejoint</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>Vous avez sauvé {PAWN_nameDef} et {PAWN_pronoun} s’est join{PAWN_gender ? t : te : t(e)} à votre groupe.</LetterRescueQuestFinished>
-  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
+<!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+<LetterRescueQuestFinishedCaravanExtra>\n\nVous pouvez désormais emmener {PAWN_objective} avec vous. Pour cela, ouvrez l'écran Monde, sélectionnez ce site et choisissez la commande « Reformez la caravane ».</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -436,15 +436,15 @@
 
   <!-- Quests -->
   <!-- EN: Quest available: {0} -->
-  <LetterLabelQuestAvailableTitle>TODO</LetterLabelQuestAvailableTitle>
+  <LetterLabelQuestAvailableTitle>Quête disponible : {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterLabelQuestAutomaticallyAcceptedTitle>TODO</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Quête active : {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
   <LetterNewQuest>{DISCOVEREDFROM} une nouvelle quête.</LetterNewQuest>
   <!-- EN: A new quest is available. -->
   <LetterNewQuestFromUnknown>Une nouvelle quête est disponible.</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
-  <LetterQuestIsNamed>TODO</LetterQuestIsNamed>
+  <LetterQuestIsNamed>La quête s'appelle "{0}".</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Elle expirera dans {0}.</LetterQuestActiveNowTime>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
