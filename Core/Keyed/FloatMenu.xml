@@ -23,7 +23,7 @@
   <NotAllowed>Interdit</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>Attaquer {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Tirer sur {1_label}</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>ne peut pas commander des choses non contrôlables</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>ne peut pas attaquer</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>ne peut pas s'attaquer soi-même</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>pas de cellule extérieure accessible</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>ne peut pas quitter la carte</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>aptitudes trop faibles</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>Secours impossible</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>Ne peut pas secourir {PAWN_labelShort}</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Amener {1_label} jusqu'au caisson d'hypersommeil</CarryToCryptosleepCasket>
@@ -298,21 +298,21 @@
   <CannotManThing>Ne peut pas manipuler {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Forcer à porter {1_labelShort}</ForceWear>
+  <ForceWear>Obliger à porter {1_labelShort}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>Obliger la cible à porter {1_labelShort}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Ne peut pas porter {1_label}</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>Ne peut pas obliger la cible à porter {1_label}</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Forcer à équiper {1_labelShort}</ForceEquipApparel>
+  <ForceEquipApparel>Obliger à équiper {1_labelShort}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Obliger la cible à équiper {1_labelShort}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Ne peut pas équiper {1_labelShort}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>Ne peut pas obliger à équiper {1_label}</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>parties du corps manquantes</CannotWearBecauseOfMissingBodyParts>
   
@@ -414,9 +414,9 @@
   <!-- EN: no doctor -->
   <NoDoctor>pas de médecin</NoDoctor>
   <!-- EN: medical bed not for slaves -->
-  <NotForSlaves>lit médicalisé pas pour les esclaves</NotForSlaves>
+  <NotForSlaves>les lit médicalisé ne sont pas pour les esclaves</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>soins médicaux désactivés</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>Occupé par {0}</SomeoneElseSleeping>
   
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Prioriser {0} {1}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>Prioriser {0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>Lancement vers {LOCATION_label}</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>Êtes-vous sûr de vouloir effectuer le lancement ?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Déposer au bord</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,11 +644,11 @@
   <!-- EN: Hack {0} -->
   <Hack>Pirater {0}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>Choisissez un colon pour le piratage.</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>Ne peut pas pirater {0}</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>Verrouillé</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Est déjà piraté</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
