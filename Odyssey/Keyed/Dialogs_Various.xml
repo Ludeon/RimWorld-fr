@@ -2,8 +2,8 @@
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
-  <ConfirmGravEngineLaunch>Êtes-vous sûr de vouloir procéder au lancement ?\n\nVotre carte actuelle, ainsi que tout ce qui n'est pas sur la sous-structure du vaisseau gravitationnel, seront perdus définitivement. Le processus de lancement est destructif, ce qui signifie que vous ne pourrez pas revenir.</ConfirmGravEngineLaunch>
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
+  <ConfirmGravEngineLaunch>Êtes-vous sûr de vouloir décoller ?\n\nVotre carte actuelle, ainsi que tout ce qui n'est pas sur la sous-structure du vaisseau gravitationnel, seront perdus définitivement. Le processus de lancement est destructif, ce qui signifie que vous ne pourrez pas revenir. Construisez une ancre gravitationnelle pour empêcher la destruction de cette carte.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>Attention</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
@@ -29,6 +29,19 @@
   <PlayerGravshipGainsName>Le vaisseau gravitationnel est maintenant connu sous le nom de {0}.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>Ce nom n'est pas valide.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: Force visitors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>Forcer les visiteurs à partir</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>Attendez que tous les visiteurs quittent le vaisseau gravitationnel avant de décoller. Cela n’affectera pas les ennemis, prisonniers ou visiteurs à terre.</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>Faire embarquer les animaux de la colonie</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>Ordonnez à tous les animaux de la colonie de monter à bord du vaisseau gravitationnel. Le vaisseau ne décollera pas tant qu’ils n’ont pas embarqué.</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>Faire embarquer les mécanoïdes de la colonie</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>Ordonnez à tous les mécanoïdes de la colonie de monter à bord du vaisseau gravitationnel. Le vaisseau ne décollera pas tant qu’ils n’ont pas embarqué.</GravshipBoardColonyMechsTooltip>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0} est hostile. Si vous atterrissez ici, ils vous attaqueront.</ConfirmLandOnHostileFactionBase>

@@ -49,7 +49,7 @@ Petit tuto pour utiliser Github desktop : https://gist.github.com/Marsgames/2eb2
  - Clonez le repository sur votre machine et vous pouvez commencer à traduire.
 
 #### Restez un intervenant extérieur ####
-Ici l'inconvénient c'est que vous ne pourrez pas modifier directement le repository et il faudra attendre un petit moment pour que vos traductions soit prises en compte, l'avantage c'est que vos traductions seront obligatoirement validées par un membre actif de l'équipe de traduction.
+Ici l'inconvénient c'est que vous ne pourrez pas modifier directement le repository et il faudra attendre un petit moment pour que vos traductions soient prises en compte, l'avantage c'est que vos traductions seront obligatoirement validées par un membre actif de l'équipe de traduction.
 
  - Créez un utilisateur sur GitHub.com.
 

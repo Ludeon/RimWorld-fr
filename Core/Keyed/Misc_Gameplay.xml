@@ -1834,10 +1834,10 @@
   <DragPawnsToRolesInfoController>Glisser-déposer ou un clic pour déplacer les colons.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclave. La propriété humaine d'autrui.</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} dort. Si {0_pronoun} est inclus{0_gender ? : e } dans le rituel, {0_pronoun} se réveillera pour y participer.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Certains des participants sélectionnés dorment. Ils se réveilleront une fois que le rituel aura commencé.</RitualBeginSleepingWarning>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} dort. Si {0_pronoun} est inclus{0_gender ? : e } dans l’événement, {0_pronoun} se réveillera pour y participer.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>Certains des participants sélectionnés dorment. Ils se réveilleront une fois que l’événement aura commencé.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Cette position sera mieux réalisée par un colon occupant le rôle social de {0}.\n\nSi une personne n'ayant pas ce rôle occupe cette position, vous n'obtiendrez pas le(s) bonus suivant(s)</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2184,5 +2184,8 @@
   <CannotAcceptQuestFromLayer>Impossible d'accepter cette quête {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>Impossible d'accepter cette quête sans une colonie permanente.</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>{0} de {1}</GuildTradeShipName>
   
 </LanguageData>
