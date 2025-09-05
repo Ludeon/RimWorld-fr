@@ -5,7 +5,7 @@ See this page for license info : http://ludeon.com/forums/index.php?topic=2933.0
 
 
 #################################
-# TRADUCTION FRANCAISE RIMWORLD #
+# TRADUCTION FRANÇAISE RIMWORLD #
 #################################
 
 ### À PROPOS ###
@@ -14,28 +14,31 @@ Cette version est sujette à amélioration.
 Elle comporte encore quelques erreurs.
 
 ### INSTALLATION ###
- 1. Téléchargez et décompresser l'archive zip dans un répertoire temporaire (par défaut `RimWorld-fr-master`). Ce répertoire contient quatre sous-répertoires `Core/`, `Royalty/`,`Ideology/` et `Biotech/` à installer dans RimWorld.
+ 1. Téléchargez et décompressez l'archive zip dans un répertoire temporaire (par défaut `RimWorld-fr-master`). Ce répertoire contient quatre sous-répertoires `Core/`, `Royalty/`,`Ideology/` et `Biotech/` à installer dans RimWorld.
  2. Copiez **le contenu** du sous-répertoire `Core/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Core/Languages/French/`.
- 3.  Copiez **le contenu** du sous-répertoire `Royalty/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Royalty/Languages/French/`.
-  2. Copiez **le contenu** du sous-répertoire `Ideology/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Ideology/Languages/French/`.
- 3.  Copiez **le contenu** du sous-répertoire `Biotech/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Biotech/Languages/French/`.
- 4. Démarrez le jeu.
- 5. Dans les options du jeu, sélectionnez la langue "Français"
+ 3. Copiez **le contenu** du sous-répertoire `Royalty/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Royalty/Languages/French/`.
+ 4. Copiez **le contenu** du sous-répertoire `Ideology/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Ideology/Languages/French/`.
+ 5. Copiez **le contenu** du sous-répertoire `Biotech/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Biotech/Languages/French/`.
+ 6. Copiez **le contenu** du sous-répertoire `Anomaly/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Anomaly/Languages/French/`.
+ 7. Copiez **le contenu** du sous-répertoire `Odyssey/` dans le répertoire d'installation de RimWorld sous `RimWorld/Data/Odyssey/Languages/French/`.
+ 8. Démarrez le jeu.
+ 9. Dans les options du jeu, sélectionnez la langue "Français"
 
 #### Notes ####
- - **Au lieu de `French`, vous pouvez choisir un autre nom de langue** (par exemple `RimWorld-fr`) si vous ne voulez pas écraser le fichier French officiel du jeu. Adaptez alors les quatre répertoires de copie des étapes 2 et 3 ci-dessus à `RimWorld/Data/Core/Languages/RimWorld-fr/`, `RimWorld/Data/Royalty/Languages/RimWorld-fr/`, `RimWorld/Data/Ideology/Languages/RimWorld-fr/` et `RimWorld/Data/Biotech/Languages/RimWorld-fr/` et sélectionnez comme langue `RimWorld-fr`.
+ - **Au lieu de `French`, vous pouvez choisir un autre nom de langue** (par exemple `RimWorld-fr`) si vous ne voulez pas écraser le fichier French officiel du jeu. Adaptez alors les six répertoires de copie des étapes 2 à 7 ci-dessus à `RimWorld/Data/Core/Languages/RimWorld-fr/`, `RimWorld/Data/Royalty/Languages/RimWorld-fr/`, `RimWorld/Data/Ideology/Languages/RimWorld-fr/`, `RimWorld/Data/Biotech/Languages/RimWorld-fr/`, `RimWorld/Data/Anomaly/Languages/RimWorld-fr/`,
+ `RimWorld/Data/Odyssey/Languages/RimWorld-fr/` et sélectionnez comme langue `RimWorld-fr`.
 
- - **Si vous avez cloné le dépôt git RimWorld-fr sur votre ordinateur**, il vous suffit de créer quatre liens symboliques des répertoires `Core`, `Royalty/`,`Ideology/` et `Biotech/` de votre git clone vers ceux de l'étapes 2 et 3. Vous pourrez alors facilement récupérer en temps réel les mises à jour.   
+ - **Si vous avez cloné le dépôt git RimWorld-fr sur votre ordinateur**, il vous suffit de créer six liens symboliques des répertoires `Core`, `Royalty/`,`Ideology/`, `Biotech/`, `Anomaly/` et `Odyssey/` de votre git clone vers ceux des étapes 2 à 7. Vous pourrez alors facilement récupérer en temps réel les mises à jour.   
  *Pour créer un lien symbolique dans le cmd en mode administrateur lancez : `mklink /D "Dossier cible" "Dossier d'origine"` le dossier cible sera créé et il sera en lien direct avec le dossier d'origine*
  
 ### COMMENT CONTRIBUER ? ###
- Il y a deux solutions soit vous demandez à devenir contributeur officiel ou soit vous restez un intervenant extérieur.
+ Il y a deux solutions : soit vous demandez à devenir contributeur officiel ou soit vous restez un intervenant extérieur.
  
- Dans tous les cas il va falloir vous procurez quelques outils.
+ Dans tous les cas il va falloir vous procurer quelques outils.
 
- Il va vous falloir un éditeur de texte, il y en a des dizaines. Vous pouvez par exemple téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/). Malgré son nom, ce n'est pas seulement pour le code. Il s'agit d'un éditeur de texte léger gratuit avec intégration directe à Git.
+ Il va vous falloir un éditeur de texte, il y en a des dizaines. Vous pouvez par exemple télécharger et installer [Visual Studio Code](https://code.visualstudio.com/). Malgré son nom, ce n'est pas seulement pour le code. Il s'agit d'un éditeur de texte léger gratuit avec intégration directe à Git.
 
- Si l'intégration direct à Git de VSCode vous suffit c'est parfait ! Dans le cas contraire vous pouvez utiliser des logiciels qui vous aiderons à communiquer avec le Github par exemple [Github desktop](https://desktop.github.com/) ou [Fork](https://git-fork.com/).
+ Si l'intégration directe à Git de VSCode vous suffit c'est parfait ! Dans le cas contraire vous pouvez utiliser des logiciels qui vous aideront à communiquer avec le Github par exemple [Github desktop](https://desktop.github.com/) ou [Fork](https://git-fork.com/).
 Petit tuto pour utiliser Github desktop : https://gist.github.com/Marsgames/2eb2e0321302640efafa4067b483b427 
 
 #### Devenir contributeur officiel ####
@@ -46,13 +49,13 @@ Petit tuto pour utiliser Github desktop : https://gist.github.com/Marsgames/2eb2
  - Clonez le repository sur votre machine et vous pouvez commencer à traduire.
 
 #### Restez un intervenant extérieur ####
-Ici l'inconvénient c'est que vous ne pourrez pas modifier directement le repository et il faudra attendre un petit moment pour que vos traduction soit pris en compte, l'avantage c'est que vos traduction seront obligatoirement validé par un membre actif de l'équipe de traduction.
+Ici l'inconvénient c'est que vous ne pourrez pas modifier directement le repository et il faudra attendre un petit moment pour que vos traductions soit prises en compte, l'avantage c'est que vos traductions seront obligatoirement validées par un membre actif de l'équipe de traduction.
 
  - Créez un utilisateur sur GitHub.com.
 
- - Faites un fork du repository et travaillais sur votre version.
+ - Faites un fork du repository et travaillez sur votre version.
 
- - Faites régulièrement des pull request et si la validation tarde à arriver relancer l'équipe sur le Discord
+ - Faites régulièrement des pull request et si la validation tarde à arriver, relancez l'équipe sur le Discord
 
 #### Que faut-il traduire ? ####
 Exemple :   
