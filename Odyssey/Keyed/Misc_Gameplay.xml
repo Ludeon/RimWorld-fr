@@ -108,6 +108,14 @@
   <MustBeOutside>doit être à l'extérieur</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>bloqué par la sous-structure</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef} ne peut pas embarquer sur {1}</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef} ne peut pas quitter {1}</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>Portée de vision</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>Afficher la portée actuelle du vaisseau gravitationnel sur la carte du monde.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -287,8 +295,10 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Arme unique</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>Reformer une caravane entraînera l’abandon de votre vaisseau gravitationnel. Êtes-vous sûr de vouloir continuer ?\n\nPour partir avec votre vaisseau, sélectionnez la console du pilote, puis choisissez « décoller ».</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>Réformer une caravane abandonnera votre navette. Êtes-vous sûr de vouloir continuer ?\n\nPour partir avec votre navette, sélectionnez la navette, puis sélectionnez 'lancer'.</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>Reformer une caravane abandonnera votre navette. Êtes-vous sûr de vouloir continuer ?\n\nPour partir avec votre navette, sélectionnez-la, puis sélectionnez « lancer ».</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
   <BookHasQuest>Découvrir une quête</BookHasQuest>
@@ -303,8 +313,8 @@
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>Attaquer</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
-  <AnimalAttackTargetDesc>Commandez à cet animal d'attaquer une cible spécifique que son maître peut voir.</AnimalAttackTargetDesc>
+  <!-- EN: Command this animal to attack a specific target. -->
+  <AnimalAttackTargetDesc>Commandez à cet animal d'attaquer une cible spécifique.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Animaux attaquent la cible</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
@@ -328,14 +338,6 @@
   <!-- EN: Allow digging -->
   <DigEnabled>Permettre de creuser</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Sceller l'entrée de la réserve ancienne est permanent. Tout ce qui reste dans les bas fonds sera perdu à jamais.{0}\n\nÊtes-vous sûr de vouloir continuer ?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>Impossible de sceller</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>Scellé</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>Scellé de façon permanente.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Déverrouillé.</HatchUnlocked>
 
