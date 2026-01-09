@@ -69,7 +69,8 @@
     <li>travelerInfo(beggarCount==1,childCount>=1)->Cet [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount==1)->Ce [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount>=2)->Ces [groupLabelPlural]</li>
-    <li>beggingForInfo->pour [requestedThingCount]x[requestedThing_label]</li>
+    <li>beggingForInfo(requestedThingDefName==Silver)->pour [requestedThingCount] de [requestedThing_label]</li>
+    <li>beggingForInfo(requestedThingDefName!=Silver)->pour [requestedThingCount]x [requestedThing_label]</li>
     <!-- NOTE: traverObjective = lui/elle/eux
            Bloquer l'élision "de [traverAccusative]" (ex. de le vendre)" avec un espace insécable
            Féminin "la" désactivé pour l'instant
